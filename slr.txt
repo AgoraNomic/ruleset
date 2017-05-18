@@ -1,7 +1,7 @@
 THE SHORT LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded:
-	Adoption of Proposal 7846, 9 May 2017
+	Adoption of Proposal 7850, 17 May 2017
 
 Online documents:
  http://faculty.washington.edu/kerim/nomic/rkeep/current_flr.txt (FLR)
@@ -2491,6 +2491,34 @@ Victory by Apathy
 
 ----------------------------------------------------------------------
 
+Rule 2942/0 (Power=3)
+Reward and Delay
+
+      ais523 CAN Declare a Junta by announcement, specifying one or more
+      players. Upon doing so, the specified players win the game.
+
+      ais523 CAN Declare an Honour by announcement, specifying a player and a
+      patent title. Upon doing so, ais523 is authorized to, and CAN, award
+      that player that patent title.
+
+      ais523 CAN Declare an Amendment by announcement, specifying a proposal.
+      Upon doing so, that proposal's imminence flips to "pending".
+
+      A proposal's imminence cannot flip by any mechanism except for the
+      mechanism specified in this rule, unless a player announced intent to
+      cause that proposal's imminence to flip at a time that was:
+          a) 21 to 28 days in the past, and
+          b) subsequent to the proposal's addition to the Proposal Pool.
+      This takes precedence over all rules of power 3 and below that allow
+      for a proposal's imminence to be changed.
+
+      Players other than ais523 CANNOT flip a proposal's imminence to
+      "pending" via any means, unless they announced intent to do so at least
+      21 days in advance. This takes precedence over any rule which would
+      allow a player to change a proposal's imminence.
+
+----------------------------------------------------------------------
+
 ======================================================================
 Death of the Republic
 ----------------------------------------------------------------------
@@ -2698,7 +2726,7 @@ Town Fountain
 
 ======================================================================
 
-Highest Rule ID number ever assigned: Rule 2491
+Highest Rule ID number ever assigned: Rule 2492
 
 Last Ruleset Ratification:
 	Short Logical Ruleset of 2017-05-08
