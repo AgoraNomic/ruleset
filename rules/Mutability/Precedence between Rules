@@ -57,21 +57,19 @@ text: |
   enactment or amendment of a Rule, or of any other form.  This
   Rule takes precedence over any Rule that would permit such a
   change to the Ruleset.
-cfjs:
-- cfjs:
-  - id: '1104'
-    called: 20 August 1998
-  text:
-    text: The presence in a Rule of deference clause, claiming that the Rule defers
-      to another Rule, does not prevent a conflict with the other Rule arising, but
-      shows only how the Rule says that conflict is to be resolved when it does arise.
-- cfjs:
-  - id: 1114-1115
-    called: 27 January 1999
-  text:
-    text: This Rule is to be applied to resolve Rule conflicts on a case-by-case basis;
-      just because a Rule is inapplicable in one situation due to conflict with a
-      Rule of higher precedence does not mean that the Rule is nullified in all cases.
 id: 1030
 rev: 11
 power: 3.2
+annotations:
+- cfjs:
+  - id: '1104'
+    called: 20 August 1998
+  text: The presence in a Rule of deference clause, claiming that the Rule defers
+    to another Rule, does not prevent a conflict with the other Rule arising, but
+    shows only how the Rule says that conflict is to be resolved when it does arise.
+- cfjs:
+  - id: 1114-1115
+    called: 27 January 1999
+  text: This Rule is to be applied to resolve Rule conflicts on a case-by-case basis;
+    just because a Rule is inapplicable in one situation due to conflict with a Rule
+    of higher precedence does not mean that the Rule is nullified in all cases.

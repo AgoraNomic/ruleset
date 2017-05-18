@@ -29,20 +29,18 @@ text: |
         iii) Initiate an inquiry case regarding the truth of the
              claim (if the subject is actually a matter of law),
              or cite a relevant existing inquiry case.
-cfjs:
-- cfjs:
-  - id: '1690'
-    called: 19 June 2007
-  text:
-    text: A challenge to a self-ratifying document {at the time of CFJ 1690, the resolution
-      of an Agoran decision} must explicitly identify the document, either individually
-      or as part of a set, and explicitly contest the accuracy of some aspect of it.
-- cfjs:
-  - id: 1790-1791
-    called: 11 November 2007
-  text:
-    text: A challenge to any part of a self-ratifying document prevents ratification
-      of all parts of it.
 id: 2201
 rev: 6
 power: 3
+annotations:
+- cfjs:
+  - id: '1690'
+    called: 19 June 2007
+  text: A challenge to a self-ratifying document {at the time of CFJ 1690, the resolution
+    of an Agoran decision} must explicitly identify the document, either individually
+    or as part of a set, and explicitly contest the accuracy of some aspect of it.
+- cfjs:
+  - id: 1790-1791
+    called: 11 November 2007
+  text: A challenge to any part of a self-ratifying document prevents ratification
+    of all parts of it.

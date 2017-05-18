@@ -47,20 +47,18 @@ text: |
   interested players have reasonably equal opportunities to judge.
   If a CFJ has no judge assigned, then any player eligible to
   judge that CFJ CAN assign it to emself Without 3 Objections.
-cfjs:
-- cfjs:
-  - id: 1692-1693
-    called: 20 June 2007
-  text:
-    text: A CFJ can be unambiguously referenced by using the customarily-assigned
-      sequence numbers, even if the number was not assigned in the public forum, provided
-      that those involved accept it as unambiguous at the time.
-- cfjs:
-  - id: '1355'
-    called: 28 April 2002
-  text:
-    text: Titles for CFJs are unregulated, so it is possible for a title to be assigned
-      to a CFJ informally.
 id: 991
 rev: 17
 power: 2
+annotations:
+- cfjs:
+  - id: 1692-1693
+    called: 20 June 2007
+  text: A CFJ can be unambiguously referenced by using the customarily-assigned sequence
+    numbers, even if the number was not assigned in the public forum, provided that
+    those involved accept it as unambiguous at the time.
+- cfjs:
+  - id: '1355'
+    called: 28 April 2002
+  text: Titles for CFJs are unregulated, so it is possible for a title to be assigned
+    to a CFJ informally.

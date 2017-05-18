@@ -29,24 +29,21 @@ text: |
 
   If a person breaks a Rule by missing a deadline that occurs
   during a Holiday, punishment is generally not appropriate.
-cfjs:
-- cfjs:
-  - id: '1434'
-    called: 24 January 2003
-  text:
-    text: The registration of a player is an event for the purposes of Rule 1769.
-- cfjs:
-  - id: '1434'
-    called: 24 January 2003
-  text:
-    text: The expiration of a rule-defined period is an event for the purposes of
-      Rule 1769.
-- cfjs:
-  - id: '1480'
-    called: 5 January 2004
-  text:
-    text: An automatic event specified to occur at regular calendar intervals, for
-      example quarterly, happens at its specified time even if that is during a holiday.
 id: 1769
 rev: 13
 power: 3
+annotations:
+- cfjs:
+  - id: '1434'
+    called: 24 January 2003
+  text: The registration of a player is an event for the purposes of Rule 1769.
+- cfjs:
+  - id: '1434'
+    called: 24 January 2003
+  text: The expiration of a rule-defined period is an event for the purposes of Rule
+    1769.
+- cfjs:
+  - id: '1480'
+    called: 5 January 2004
+  text: An automatic event specified to occur at regular calendar intervals, for example
+    quarterly, happens at its specified time even if that is during a holiday.

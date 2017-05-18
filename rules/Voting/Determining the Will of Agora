@@ -77,13 +77,12 @@ text: |
 
   The outcome of a decision is determined when it is resolved, and
   cannot change thereafter.
-cfjs:
-- cfjs:
-  - id: 1673-1675
-    called: 20 May 2007
-  text:
-    text: Quorum for an Agoran decision is determined at the time the vote collector
-      makes the calculations described in Rule 955.
 id: 955
 rev: 21
 power: 3
+annotations:
+- cfjs:
+  - id: 1673-1675
+    called: 20 May 2007
+  text: Quorum for an Agoran decision is determined at the time the vote collector
+    makes the calculations described in Rule 955.

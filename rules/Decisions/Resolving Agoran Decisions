@@ -44,27 +44,24 @@ text: |
 
   In general, changes to the gamestate due to the outcome of an
   Agoran decision take effect when the decision is resolved.
-cfjs:
-- cfjs:
-  - id: '1711'
-    called: 1 August 2007
-  text:
-    text: 'If a purported resolution notice refers via a References: header to a previous
-      notice with an incomplete vote tally and lists additional votes but does not
-      give revised totals, this does not qualify as including a vote tally.'
-- cfjs:
-  - id: '1810'
-    called: 28 November 2007
-  text:
-    text: If a purported resolution notice refers via an approximate date header to
-      a previous notice with an incomplete vote tally and lists additional votes but
-      does not give revised totals, this does qualify as including a vote tally.
-- cfjs:
-  - id: '1822'
-    called: 4 December 2007
-  text:
-    text: If a purported resolution notice includes invalid votes in its tally of
-      votes, this makes the notice invalid.
 id: 208
 rev: 11
 power: 3
+annotations:
+- cfjs:
+  - id: '1711'
+    called: 1 August 2007
+  text: 'If a purported resolution notice refers via a References: header to a previous
+    notice with an incomplete vote tally and lists additional votes but does not give
+    revised totals, this does not qualify as including a vote tally.'
+- cfjs:
+  - id: '1810'
+    called: 28 November 2007
+  text: If a purported resolution notice refers via an approximate date header to
+    a previous notice with an incomplete vote tally and lists additional votes but
+    does not give revised totals, this does qualify as including a vote tally.
+- cfjs:
+  - id: '1822'
+    called: 4 December 2007
+  text: If a purported resolution notice includes invalid votes in its tally of votes,
+    this makes the notice invalid.

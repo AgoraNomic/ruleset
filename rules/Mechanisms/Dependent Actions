@@ -94,19 +94,17 @@ text: |
   The actor SHOULD publish a list of supporters if the action
   depends on support, and a list of objectors if it depends on
   objections.
-cfjs:
-- cfjs:
-  - id: '1722'
-    called: 15 August 2007
-  text:
-    text: 'The method of dependent action need not be described exactly: an approximate
-      but inexact description suffices, as does the rule-defined term.'
-- cfjs:
-  - id: '1802'
-    called: 19 November 2007
-  text:
-    text: The phrase "by Agoran Support" is not an unambiguous description of a method
-      of dependent action.
 id: 1728
 rev: 35
 power: 3
+annotations:
+- cfjs:
+  - id: '1722'
+    called: 15 August 2007
+  text: 'The method of dependent action need not be described exactly: an approximate
+    but inexact description suffices, as does the rule-defined term.'
+- cfjs:
+  - id: '1802'
+    called: 19 November 2007
+  text: The phrase "by Agoran Support" is not an unambiguous description of a method
+    of dependent action.

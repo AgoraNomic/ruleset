@@ -31,18 +31,16 @@ text: |
   the notation in the Registrar's Report will ensure that,
   henceforth, all may know said Player deregistered in a Writ of
   FAGE.
-cfjs:
-- cfjs:
-  - id: '1594'
-    called: 16 December 2006
-  text:
-    text: Players can be deregistered due to this rule even if there is no Registrar.
-- cfjs:
-  - id: '2358'
-    called: 26 January 2009
-  text:
-    text: A document which is labeled as a Cantus Cygneus but does not actually detail
-      grievances, etc. is not a Cantus Cygneus.
 id: 1789
 rev: 9
 power: 2
+annotations:
+- cfjs:
+  - id: '1594'
+    called: 16 December 2006
+  text: Players can be deregistered due to this rule even if there is no Registrar.
+- cfjs:
+  - id: '2358'
+    called: 26 January 2009
+  text: A document which is labeled as a Cantus Cygneus but does not actually detail
+    grievances, etc. is not a Cantus Cygneus.

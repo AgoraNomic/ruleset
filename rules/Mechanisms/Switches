@@ -15,11 +15,11 @@ text: |
 
   a) The type(s) of entity possessing an instance of that switch.
      No other entity possesses an instance of that switch.
- 
+
   b) One or more possible values for instances of that switch,
      exactly one of which is designated as the default.  No other
      values are possible for instances of that switch.
- 
+
   c) Optionally, exactly one office whose holder tracks instances
      of that switch.  That officer's (weekly, if not specified
      otherwise) report includes the value of each instance of that
@@ -56,7 +56,7 @@ text: |
   A boolean switch is a switch with values True and False. A
   positive boolean switch has a default of True; a negative
   boolean switch has a default of False.
-cfjs: []
 id: 2162
 rev: 7
 power: 2
+annotations: []

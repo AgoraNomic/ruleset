@@ -9,12 +9,11 @@ history:
 text: |
   The Assessor is an office; its holder is responsible for
   collecting votes and keeping track of related properties.
-cfjs:
-- cfjs:
-  - id: 1758-1759
-    called: 30 September 2007
-  text:
-    text: If Assessorship changes hands, vote collection duties move with it.
 id: 2137
 rev: 2
 power: 1
+annotations:
+- cfjs:
+  - id: 1758-1759
+    called: 30 September 2007
+  text: If Assessorship changes hands, vote collection duties move with it.

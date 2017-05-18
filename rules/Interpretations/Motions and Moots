@@ -89,20 +89,18 @@ text: |
     recused.  The Arbitor SHALL NOT assign em to the case again
     unless no other eligible judges have displayed interest in
     judging.
-cfjs:
-- cfjs:
-  - id: '1597'
-    called: 22 December 2006
-  text:
-    text: It is possible to appeal a judgement even if it is not certain that the
-      judgement exists.
-- cfjs:
-  - id: '1800'
-    called: 18 November 2007
-  text:
-    text: An announcement of the form "I call for the appeal of <judgement>" has the
-      effect of initiating the Agoran decision on whether to approve appealing the
-      cited judgement.
 id: 911
 rev: 51
 power: 1.7
+annotations:
+- cfjs:
+  - id: '1597'
+    called: 22 December 2006
+  text: It is possible to appeal a judgement even if it is not certain that the judgement
+    exists.
+- cfjs:
+  - id: '1800'
+    called: 18 November 2007
+  text: An announcement of the form "I call for the appeal of <judgement>" has the
+    effect of initiating the Agoran decision on whether to approve appealing the cited
+    judgement.

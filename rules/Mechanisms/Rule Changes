@@ -71,7 +71,10 @@ text: |
   This rule provides the only mechanism by which rules can be
   created, modified, or destroyed, or by which an entity can
   become a rule or cease to be a rule.
-cfjs:
+id: 105
+rev: 12
+power: 3
+annotations:
 - cfjs:
   - id: '1499'
     called: 20 April 2004
@@ -80,71 +83,58 @@ cfjs:
     called: 1 April 2007
   - ":"
   - " "
-  text:
-    text: If a low-power rule states that an officer can repeal the rule under certain
-      circumstances, then the rule cannot actually be repealed by this process, because
-      the officer, not being an instrument, is categorically incapable of performing
-      rule changes; this is different from the situation where a rule can be triggered
-      to repeal itself.
+  text: If a low-power rule states that an officer can repeal the rule under certain
+    circumstances, then the rule cannot actually be repealed by this process, because
+    the officer, not being an instrument, is categorically incapable of performing
+    rule changes; this is different from the situation where a rule can be triggered
+    to repeal itself.
 - cfjs:
   - id: '708'
     called: October 1994
-  text:
-    text: An Amendment of a non-existing Rule is not a legal Rule Change.
+  text: An Amendment of a non-existing Rule is not a legal Rule Change.
 - cfjs:
   - id: '1625'
     called: 1 April 2007
-  text:
-    text: Where a proposal specifies a rule to amend by both number and title, and
-      the number and title given identify different rules, this constitutes ambiguity
-      that nullifies the attempted rule change.
+  text: Where a proposal specifies a rule to amend by both number and title, and the
+    number and title given identify different rules, this constitutes ambiguity that
+    nullifies the attempted rule change.
 - cfjs:
   - id: '1644'
     called: 29 April 2007
-  text:
-    text: Where a proposal contains the form of words "Change the power of rule NNNN
-      to P and amend it by XXX.", where XXX specifies a text change, this constitutes
-      two attempted rule changes.
+  text: Where a proposal contains the form of words "Change the power of rule NNNN
+    to P and amend it by XXX.", where XXX specifies a text change, this constitutes
+    two attempted rule changes.
 - cfjs:
   - id: '1638'
     called: 29 April 2007
-  text:
-    text: Where a proposal contains the form of words "Amend rule NNNN by XXX.  Amend
-      rule NNNN by YYY.", this constitutes two separate attempts at rule changes,
-      even though both attempt to amend the same rule.
+  text: Where a proposal contains the form of words "Amend rule NNNN by XXX.  Amend
+    rule NNNN by YYY.", this constitutes two separate attempts at rule changes, even
+    though both attempt to amend the same rule.
 - cfjs:
   - id: '1642'
     called: 29 April 2007
-  text:
-    text: Where a proposal contains the form of words "Amend rule NNNN by XXX.  Further
-      amend rule NNNN by YYY.", where both XXX and YYY specify text changes, this
-      constitutes two separate attempts at rule changes.
+  text: Where a proposal contains the form of words "Amend rule NNNN by XXX.  Further
+    amend rule NNNN by YYY.", where both XXX and YYY specify text changes, this constitutes
+    two separate attempts at rule changes.
 - cfjs:
   - id: '1640'
     called: 29 April 2007
-  text:
-    text: Where a proposal contains the form of words "Amend rule NNNN by XXX and
-      YYY.", where both XXX and YYY specify text changes, this constitutes a single
-      attempt at a rule change, even though it is specified in two parts.
+  text: Where a proposal contains the form of words "Amend rule NNNN by XXX and YYY.",
+    where both XXX and YYY specify text changes, this constitutes a single attempt
+    at a rule change, even though it is specified in two parts.
 - cfjs:
   - id: '1641'
     called: 29 April 2007
-  text:
-    text: Where a proposal contains the form of words "Amend rule NNNN by XXX and
-      by YYY.", where both XXX and YYY specify text changes, this constitutes a single
-      attempt at a rule change, even though it is specified in two parts.
+  text: Where a proposal contains the form of words "Amend rule NNNN by XXX and by
+    YYY.", where both XXX and YYY specify text changes, this constitutes a single
+    attempt at a rule change, even though it is specified in two parts.
 - cfjs:
   - id: '1643'
     called: 29 April 2007
-  text:
-    text: Where a proposal specifies a single rule amendment in two parts, and one
-      of the parts is not possible but the other is possible, the possible part is
-      applied alone.
+  text: Where a proposal specifies a single rule amendment in two parts, and one of
+    the parts is not possible but the other is possible, the possible part is applied
+    alone.
 - cfjs:
   - id: '2201'
     called: 30 September 2008
-  text:
-    text: The permission required by Rule 105 need not be explicit.
-id: 105
-rev: 12
-power: 3
+  text: The permission required by Rule 105 need not be explicit.

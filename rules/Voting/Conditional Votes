@@ -31,13 +31,12 @@ text: |
   conditionally casting a vote whose value is opposite to the most
   common value (if any) among that voter's valid votes on that
   decision.  FOR and AGAINST are opposites.
-cfjs:
-- cfjs:
-  - id: '2449'
-    called: 14 April 2009
-  text:
-    text: For an endorsement or denouncement, the identity of the voter in question
-      is part of the condition.
 id: 2127
 rev: 9
 power: 3
+annotations:
+- cfjs:
+  - id: '2449'
+    called: 14 April 2009
+  text: For an endorsement or denouncement, the identity of the voter in question
+    is part of the condition.

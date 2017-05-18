@@ -63,20 +63,18 @@ text: |
   The holder of an elected office CAN resign it by announcement,
   causing it to become vacant. Any player CAN cause an office to
   become vacant without 2 objections.
-cfjs:
-- cfjs:
-  - id: '1660'
-    called: 13 May 2007
-  text:
-    text: This rule does not define the meaning of the term "office", in the sense
-      meant by Rule 754, but rather references the usual English definition of "office"
-      and governs offices as thus defined.
-- cfjs:
-  - id: '1702'
-    called: 12 July 2007
-  text:
-    text: A requirement to submit something to an officer is satisfied by publishing
-      it, even if that office is vacant at the time.
 id: 1006
 rev: 38
 power: 2
+annotations:
+- cfjs:
+  - id: '1660'
+    called: 13 May 2007
+  text: This rule does not define the meaning of the term "office", in the sense meant
+    by Rule 754, but rather references the usual English definition of "office" and
+    governs offices as thus defined.
+- cfjs:
+  - id: '1702'
+    called: 12 July 2007
+  text: A requirement to submit something to an officer is satisfied by publishing
+    it, even if that office is vacant at the time.

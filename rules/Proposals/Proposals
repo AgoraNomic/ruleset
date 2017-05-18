@@ -37,21 +37,19 @@ text: |
   The Promotor CAN remove a proposal from the Proposal Pool by
   announcement if it is not pending and has been added to the Pool
   more than 14 days ago.
-cfjs:
-- cfjs:
-  - id: '1647'
-    called: 30 April 2007
-  text:
-    text: Preceding a proposal-like text with the heading "Proposal:" and a title
-      can be sufficient to clearly indicate that it is intended to become a proposal,
-      but is not if it can be interpreted as quoting an existing proposal.
-- cfjs:
-  - id: '1717'
-    called: 8 August 2007
-  text:
-    text: Preceding a proposal-like text with the question "What is the title of this
-      proposal?" can be sufficient to clearly indicate that it is intended to become
-      a proposal.
 id: 2350
 rev: 9
 power: 3
+annotations:
+- cfjs:
+  - id: '1647'
+    called: 30 April 2007
+  text: Preceding a proposal-like text with the heading "Proposal:" and a title can
+    be sufficient to clearly indicate that it is intended to become a proposal, but
+    is not if it can be interpreted as quoting an existing proposal.
+- cfjs:
+  - id: '1717'
+    called: 8 August 2007
+  text: Preceding a proposal-like text with the question "What is the title of this
+    proposal?" can be sufficient to clearly indicate that it is intended to become
+    a proposal.

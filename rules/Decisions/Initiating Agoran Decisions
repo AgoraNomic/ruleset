@@ -51,43 +51,38 @@ text: |
 
   The voting period for a decision cannot be set or changed to a
   duration longer than fourteen days.
-cfjs:
-- cfjs:
-  - id: '1650'
-    called: 6 May 2007
-  text:
-    text: The intent to initiate the decision and the information required in the
-      notice need not be explicit.
-- cfjs:
-  - id: '1743'
-    called: 18 September 2007
-  text:
-    text: If the notice does not mention voter eligibility but the type of Agoran
-      decision is clear and the rule defining the relevant type of Agoran decision
-      fully determines the class of eligible voters, then the notice thereby implicitly
-      describes the class of eligible voters.
-- cfjs:
-  - id: '1722'
-    called: 15 August 2007
-  text:
-    text: Information that is explicitly presented in the notice takes precedence
-      over any information that would be implicit, even where the explicit information
-      is inaccurate and the implicit information would have been accurate.
-- cfjs:
-  - id: '1651'
-    called: 6 May 2007
-  text:
-    text: If a R107 notice initiating an Agoran decision does not contain an explicit
-      list of the eligible voters, and there is later a dispute (evidenced by submission
-      of a CFJ) over which voters were eligible at that time, then the notice's description
-      of the class of eligible voters was necessarily insufficient to enable public
-      agreement on which persons are eligible.
-- cfjs:
-  - id: '1652'
-    called: 6 May 2007
-  text:
-    text: The set of eligible voters on an Agoran decision can change during its voting
-      period.
 id: 107
 rev: 18
 power: 3
+annotations:
+- cfjs:
+  - id: '1650'
+    called: 6 May 2007
+  text: The intent to initiate the decision and the information required in the notice
+    need not be explicit.
+- cfjs:
+  - id: '1743'
+    called: 18 September 2007
+  text: If the notice does not mention voter eligibility but the type of Agoran decision
+    is clear and the rule defining the relevant type of Agoran decision fully determines
+    the class of eligible voters, then the notice thereby implicitly describes the
+    class of eligible voters.
+- cfjs:
+  - id: '1722'
+    called: 15 August 2007
+  text: Information that is explicitly presented in the notice takes precedence over
+    any information that would be implicit, even where the explicit information is
+    inaccurate and the implicit information would have been accurate.
+- cfjs:
+  - id: '1651'
+    called: 6 May 2007
+  text: If a R107 notice initiating an Agoran decision does not contain an explicit
+    list of the eligible voters, and there is later a dispute (evidenced by submission
+    of a CFJ) over which voters were eligible at that time, then the notice's description
+    of the class of eligible voters was necessarily insufficient to enable public
+    agreement on which persons are eligible.
+- cfjs:
+  - id: '1652'
+    called: 6 May 2007
+  text: The set of eligible voters on an Agoran decision can change during its voting
+    period.

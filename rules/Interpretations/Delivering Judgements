@@ -66,60 +66,52 @@ text: |
   irrelevant to the game, if insufficient information exists to
   make a judgement with reasonable effort, or the statement is
   otherwise not able to be answered TRUE or FALSE.
-cfjs:
-- cfjs:
-  - id: '1835'
-    called: 18 December 2007
-  text:
-    text: A question cannot generally take the place of a statement in initiating
-      an inquiry case.
-- cfjs:
-  - id: '1903'
-    called: 6 February 2008
-  text:
-    text: The question-statement equivalence established by this rule applies only
-      for the purposes of the subject of an inquiry case, not for acting by announcement.
-- cfjs:
-  - id: '1671'
-    called: 17 May 2007
-  text:
-    text: The truth or falsity of a statement can be determined as of the initiation
-      of a CFJ even if public knowledge at the time of initiation was not sufficient
-      to determine it.
-- cfjs:
-  - id: '1482'
-    called: 10 February 2004
-  text:
-    text: If the truth of a CFJ statement logically depends on the truth of statements
-      of a previously-called CFJ which has not yet been judged, the judge is entitled
-      to treat this as a situation of insufficient information being available.
-- cfjs:
-  - id: '1744'
-    called: 18 September 2007
-  text:
-    text: It is not the job of the judge to hunt down or request the information that
-      would be required to render a substantive judgement.
-- cfjs:
-  - id: '1771'
-    called: 28 October 2007
-  text:
-    text: If an inquiry case revolves around the interpretation of a specific message,
-      and the initiator does not provide a reasonable reference to that message ,
-      the judge is entitled to treat this as a situation of insufficient information
-      being available.
-- cfjs:
-  - id: '1732'
-    called: 23 August 2007
-  text:
-    text: If a particular player holds a particular office, and an inquiry case on
-      a statement that that player holds that office is judged FALSE, that player
-      still holds that office.
-- cfjs:
-  - id: '2281'
-    called: 19 November 2008
-  text:
-    text: For the purposes of determining the validity of an inquiry case, the term
-      "statement" should be interpreted loosely.
 id: 591
 rev: 42
 power: 1.7
+annotations:
+- cfjs:
+  - id: '1835'
+    called: 18 December 2007
+  text: A question cannot generally take the place of a statement in initiating an
+    inquiry case.
+- cfjs:
+  - id: '1903'
+    called: 6 February 2008
+  text: The question-statement equivalence established by this rule applies only for
+    the purposes of the subject of an inquiry case, not for acting by announcement.
+- cfjs:
+  - id: '1671'
+    called: 17 May 2007
+  text: The truth or falsity of a statement can be determined as of the initiation
+    of a CFJ even if public knowledge at the time of initiation was not sufficient
+    to determine it.
+- cfjs:
+  - id: '1482'
+    called: 10 February 2004
+  text: If the truth of a CFJ statement logically depends on the truth of statements
+    of a previously-called CFJ which has not yet been judged, the judge is entitled
+    to treat this as a situation of insufficient information being available.
+- cfjs:
+  - id: '1744'
+    called: 18 September 2007
+  text: It is not the job of the judge to hunt down or request the information that
+    would be required to render a substantive judgement.
+- cfjs:
+  - id: '1771'
+    called: 28 October 2007
+  text: If an inquiry case revolves around the interpretation of a specific message,
+    and the initiator does not provide a reasonable reference to that message , the
+    judge is entitled to treat this as a situation of insufficient information being
+    available.
+- cfjs:
+  - id: '1732'
+    called: 23 August 2007
+  text: If a particular player holds a particular office, and an inquiry case on a
+    statement that that player holds that office is judged FALSE, that player still
+    holds that office.
+- cfjs:
+  - id: '2281'
+    called: 19 November 2008
+  text: For the purposes of determining the validity of an inquiry case, the term
+    "statement" should be interpreted loosely.

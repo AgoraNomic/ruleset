@@ -28,34 +28,29 @@ text: |
   be won, but the game never ends.
 
   Please treat Agora Right Good Forever.
-cfjs:
-- cfjs:
-  - id: '24'
-    called: 
-  text:
-    text: Players must obey the Rules even in out-of-game actions.
-- cfjs:
-  - id: '825'
-    called: 7 November 1995
-  text:
-    text: Players must obey the Rules even if no Rule says so.
-- cfjs:
-  - id: '1848'
-    called: 21 December 2007
-  text:
-    text: The game must operate according to the rules that prevail at the time, and
-      not attempt to incorporate any retroactive changes made in the future.
-- cfjs:
-  - id: '1709'
-    called: 26 July 2007
-  text:
-    text: The rules are binding on all those who play the game in the broader sense,
-      regardless of whether they have the rule-defined status of "player".
-- cfjs:
-  - id: 1911-1914
-    called: 18 March 2008
-  text:
-    text: Physical realities supersede the Rules by default.
 id: 101
 rev: 17
 power: 3
+annotations:
+- cfjs:
+  - id: '24'
+    called: 
+  text: Players must obey the Rules even in out-of-game actions.
+- cfjs:
+  - id: '825'
+    called: 7 November 1995
+  text: Players must obey the Rules even if no Rule says so.
+- cfjs:
+  - id: '1848'
+    called: 21 December 2007
+  text: The game must operate according to the rules that prevail at the time, and
+    not attempt to incorporate any retroactive changes made in the future.
+- cfjs:
+  - id: '1709'
+    called: 26 July 2007
+  text: The rules are binding on all those who play the game in the broader sense,
+    regardless of whether they have the rule-defined status of "player".
+- cfjs:
+  - id: 1911-1914
+    called: 18 March 2008
+  text: Physical realities supersede the Rules by default.

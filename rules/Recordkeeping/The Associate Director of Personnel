@@ -39,12 +39,11 @@ text: |
      Officeholder.
   b) The date on which the most recent election for each office
      was initiated.
-cfjs:
-- cfjs:
-  - id: '1672'
-    called: 18 May 2007
-  text:
-    text: The Interstellar Associate Director of Personnel is the Director of Personnel.
 id: 2138
 rev: 22
 power: 1
+annotations:
+- cfjs:
+  - id: '1672'
+    called: 18 May 2007
+  text: The Interstellar Associate Director of Personnel is the Director of Personnel.

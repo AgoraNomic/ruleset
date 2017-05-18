@@ -59,34 +59,30 @@ text: |
 
   The Herald CAN award a specified Patent Title to a specified
   player With 2 Agoran Consent.
-cfjs:
-- cfjs:
-  - id: '1525'
-    called: 15 November 2004
-  text:
-    text: If a patent title is defined by the rules, and previously the rules defined
-      a patent title with the same spelling but a different award condition, the two
-      are the same patent title.
-- cfjs:
-  - id: '1592'
-    called: 1 December 2006
-  text:
-    text: A patent title, once borne, is borne until explicitly revoked, even if the
-      rule defining the patent title is repealed or the patent title was never defined
-      by a rule.
-- cfjs:
-  - id: '1731'
-    called: 23 August 2007
-  text:
-    text: It is possible for an entity {a person at the time of CFJ 1731} to bear
-      more than one instance of a patent title simultaneously.
-- cfjs:
-  - id: '1591'
-    called: 1 December 2006
-  text:
-    text: Where a person bears the patent title X, and X is not also defined by the
-      rules to have some special meaning, it is correct to say that that person "is
-      an X".
 id: 649
 rev: 37
 power: 1.5
+annotations:
+- cfjs:
+  - id: '1525'
+    called: 15 November 2004
+  text: If a patent title is defined by the rules, and previously the rules defined
+    a patent title with the same spelling but a different award condition, the two
+    are the same patent title.
+- cfjs:
+  - id: '1592'
+    called: 1 December 2006
+  text: A patent title, once borne, is borne until explicitly revoked, even if the
+    rule defining the patent title is repealed or the patent title was never defined
+    by a rule.
+- cfjs:
+  - id: '1731'
+    called: 23 August 2007
+  text: It is possible for an entity {a person at the time of CFJ 1731} to bear more
+    than one instance of a patent title simultaneously.
+- cfjs:
+  - id: '1591'
+    called: 1 December 2006
+  text: Where a person bears the patent title X, and X is not also defined by the
+    rules to have some special meaning, it is correct to say that that person "is
+    an X".

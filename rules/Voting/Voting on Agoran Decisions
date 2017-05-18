@@ -54,19 +54,17 @@ text: |
   during the voting period of the decision on which it was cast.
   To "change" one's vote is to retract eir previous ballot (if
   any), then submit a new one.
-cfjs:
-- cfjs:
-  - id: '1609'
-    called: 13 January 2007
-  text:
-    text: To "clearly identif{y} the matter to be decided" does not necessarily require
-      specifying it in detail.
-- cfjs:
-  - id: 1852-1853
-    called: 23 December 2007
-  text:
-    text: Claiming to submit more votes than ones voting limit on the decision does
-      not constitute the making of a false statement.
 id: 683
 rev: 23
 power: 3
+annotations:
+- cfjs:
+  - id: '1609'
+    called: 13 January 2007
+  text: To "clearly identif{y} the matter to be decided" does not necessarily require
+    specifying it in detail.
+- cfjs:
+  - id: 1852-1853
+    called: 23 December 2007
+  text: Claiming to submit more votes than ones voting limit on the decision does
+    not constitute the making of a false statement.

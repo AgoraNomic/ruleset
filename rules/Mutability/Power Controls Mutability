@@ -17,18 +17,16 @@ text: |
       with power greater than its own.  A "substantive" aspect of
       an instrument is any aspect that affects the instrument's
       operation.
-cfjs:
-- cfjs:
-  - id: '2981'
-    called: 21 March 2011
-  text:
-    text: An attribute of an instrument is not "modified" when an initial value is
-      set for it.
-- cfjs:
-  - id: '2945'
-    called: 22 December 2010
-  text:
-    text: An attribute of an entity is "changed" when it is removed/unset.
 id: 2140
 rev: 1
 power: 3
+annotations:
+- cfjs:
+  - id: '2981'
+    called: 21 March 2011
+  text: An attribute of an instrument is not "modified" when an initial value is set
+    for it.
+- cfjs:
+  - id: '2945'
+    called: 22 December 2010
+  text: An attribute of an entity is "changed" when it is removed/unset.

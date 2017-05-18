@@ -25,23 +25,19 @@ text: |
   described in the announcement of intent.  Such ratification
   or announcement of intent to ratify is the Class-8 Crime of
   Endorsing Forgery.
-cfjs:
-- cfjs:
-  - id: '1836'
-    called: 18 December 2007
-  text:
-    text: Ratification of an official document affects only those aspects of gamestate
-      that are defined to be part of the official report, and not aspects that are
-      incidentally reported on; in particular, ratification of an official report
-      on certain parameters pertaining to each player does not ratify the list of
-      players.
-- cfjs:
-  - id: '2289'
-    called: 25 November 2008
-  text:
-    text: Ratification Without Objection of a value inseparable from another value
-      may change the latter value even if it is not directly part of the report being
-      ratified.
 id: 2202
 rev: 6
 power: 3
+annotations:
+- cfjs:
+  - id: '1836'
+    called: 18 December 2007
+  text: Ratification of an official document affects only those aspects of gamestate
+    that are defined to be part of the official report, and not aspects that are incidentally
+    reported on; in particular, ratification of an official report on certain parameters
+    pertaining to each player does not ratify the list of players.
+- cfjs:
+  - id: '2289'
+    called: 25 November 2008
+  text: Ratification Without Objection of a value inseparable from another value may
+    change the latter value even if it is not directly part of the report being ratified.

@@ -58,18 +58,16 @@ text: |
   Threshold of 3.
 
   Ratifying a public document is secured with power threshold 3.
-cfjs:
-- cfjs:
-  - id: '2165'
-    called: 16 September 2008
-  text:
-    text: Ratification can create legal fictions, but does not always.
-- cfjs:
-  - id: '3155'
-    called: 26 January 2012
-  text:
-    text: A "recent history" section of a report is not considered binding as a complete
-      list of certain types of events during a certain date range.
 id: 1551
 rev: 18
 power: 3.1
+annotations:
+- cfjs:
+  - id: '2165'
+    called: 16 September 2008
+  text: Ratification can create legal fictions, but does not always.
+- cfjs:
+  - id: '3155'
+    called: 26 January 2012
+  text: A "recent history" section of a report is not considered binding as a complete
+    list of certain types of events during a certain date range.

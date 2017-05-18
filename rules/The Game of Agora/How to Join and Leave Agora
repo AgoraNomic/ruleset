@@ -71,20 +71,17 @@ text: |
   The Rules CANNOT compel non-players to act, nor compel players
   to unduly harass non-players.  A non-person CANNOT be a player,
   rules to the contrary notwithstanding.
-cfjs:
-- cfjs:
-  - id: '1275'
-    called: 19 February 2001
-  text:
-    text: An entity is a Player if the Rules cannot distinguish that entity from a
-      Player.
-- cfjs:
-  - id: '1263'
-    called: 5 February 2001
-  text:
-    text: Any message expressing a clear desire or intent to register as a Player
-      counts as a request for registration, whether or not it is explicitly phrased
-      in the manner stipulated by the rules.
 id: 869
 rev: 39
 power: 3
+annotations:
+- cfjs:
+  - id: '1275'
+    called: 19 February 2001
+  text: An entity is a Player if the Rules cannot distinguish that entity from a Player.
+- cfjs:
+  - id: '1263'
+    called: 5 February 2001
+  text: Any message expressing a clear desire or intent to register as a Player counts
+    as a request for registration, whether or not it is explicitly phrased in the
+    manner stipulated by the rules.

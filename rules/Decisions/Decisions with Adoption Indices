@@ -49,13 +49,12 @@ text: |
 
   For any Agoran decision with an adoption index, the voting
   method is AI-majority.
-cfjs:
-- cfjs:
-  - id: '1885'
-    called: 26 January 2008
-  text:
-    text: '"AGAINT" is a variant spelling of "AGAINST", not a customary synonym for
-      "FOR", despite its former private usage with the latter meaning.'
 id: 1950
 rev: 32
 power: 3
+annotations:
+- cfjs:
+  - id: '1885'
+    called: 26 January 2008
+  text: '"AGAINT" is a variant spelling of "AGAINST", not a customary synonym for
+    "FOR", despite its former private usage with the latter meaning.'

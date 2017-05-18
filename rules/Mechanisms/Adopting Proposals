@@ -64,37 +64,32 @@ text: |
   areas of the gamestate, nor to a proposal preventing itself from
   taking effect (its no-effect clause is generally interpreted as
   applying only to the rest of the proposal).
-cfjs:
-- cfjs:
-  - id: '1639'
-    called: 29 April 2007
-  text:
-    text: Where a proposal attempts two separate amendments of the text of the same
-      rule, if one of the attempted amendments is not possible and the other is then
-      the possible amendment does in fact occur, unless the proposal explicitly requires
-      a different resolution.
-- cfjs:
-  - id: '1841'
-    called: 20 December 2007
-  text:
-    text: It is possible for a proposal to have retroactive effect.
-- cfjs:
-  - id: '2162'
-    called: 14 September 2008
-  text:
-    text: The retroactive effect of a proposal cannot actually alter the past.
-- cfjs:
-  - id: '2163'
-    called: 14 September 2008
-  text:
-    text: There is no possible proposal text that would cause a proposal to take effect
-      without being adopted.
-- cfjs:
-  - id: '2259'
-    called: 6 November 2008
-  text:
-    text: The possibility of the instantaneous effects of a proposal are governed
-      by the rules.
 id: 106
 rev: 36
 power: 3
+annotations:
+- cfjs:
+  - id: '1639'
+    called: 29 April 2007
+  text: Where a proposal attempts two separate amendments of the text of the same
+    rule, if one of the attempted amendments is not possible and the other is then
+    the possible amendment does in fact occur, unless the proposal explicitly requires
+    a different resolution.
+- cfjs:
+  - id: '1841'
+    called: 20 December 2007
+  text: It is possible for a proposal to have retroactive effect.
+- cfjs:
+  - id: '2162'
+    called: 14 September 2008
+  text: The retroactive effect of a proposal cannot actually alter the past.
+- cfjs:
+  - id: '2163'
+    called: 14 September 2008
+  text: There is no possible proposal text that would cause a proposal to take effect
+    without being adopted.
+- cfjs:
+  - id: '2259'
+    called: 6 November 2008
+  text: The possibility of the instantaneous effects of a proposal are governed by
+    the rules.

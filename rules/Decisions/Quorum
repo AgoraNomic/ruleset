@@ -42,17 +42,15 @@ text: |
   Quorum for an Agoran Decision is equal to the number of players
   who voted on the most recently resolved Agoran Decision to adopt
   a proposal, minus 3.
-cfjs:
-- cfjs:
-  - id: '1562'
-    called: 3 May 2005
-  text:
-    text: A cancelled vote on a Proposal does not count towards quorum.
-- cfjs:
-  - id: 1673-1675
-    called: 20 May 2007
-  text:
-    text: Quorum for an Agoran decision changes as the set of eligible voters changes.
 id: 879
 rev: 32
 power: 2
+annotations:
+- cfjs:
+  - id: '1562'
+    called: 3 May 2005
+  text: A cancelled vote on a Proposal does not count towards quorum.
+- cfjs:
+  - id: 1673-1675
+    called: 20 May 2007
+  text: Quorum for an Agoran decision changes as the set of eligible voters changes.

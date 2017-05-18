@@ -68,13 +68,12 @@ text: |
   Officers SHOULD maintain a publicly visible copy of their
   reports on the World Wide Web, and they SHOULD publish the
   address of this copy along with their published reports.
-cfjs:
-- cfjs:
-  - id: '2392'
-    called: 27 February 2009
-  text:
-    text: Publishing an intentionally incomplete report does not satisfy this rule's
-      requirement to publish a report.
 id: 2143
 rev: 24
 power: 1
+annotations:
+- cfjs:
+  - id: '2392'
+    called: 27 February 2009
+  text: Publishing an intentionally incomplete report does not satisfy this rule's
+    requirement to publish a report.

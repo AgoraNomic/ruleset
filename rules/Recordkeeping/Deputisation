@@ -54,20 +54,18 @@ text: |
 
   When a player deputises via normal deputisation for an elected
   office, e becomes the holder of that office.
-cfjs:
-- cfjs:
-  - id: '1776'
-    called: 1 November 2007
-  text:
-    text: A requirement to perform an action, for the purposes of this rule, can be
-      a logical implication from rules and circumstances, not just directly imposed
-      by the rules. In particular, it is possible to deputise to rotate the bench.
-- cfjs:
-  - id: '2400'
-    called: 6 March 2009
-  text:
-    text: Deputisation is generally treated as if the deputy gained the office immediately
-      before the action, and lost it immediately after.
 id: 2160
 rev: 14
 power: 3
+annotations:
+- cfjs:
+  - id: '1776'
+    called: 1 November 2007
+  text: A requirement to perform an action, for the purposes of this rule, can be
+    a logical implication from rules and circumstances, not just directly imposed
+    by the rules. In particular, it is possible to deputise to rotate the bench.
+- cfjs:
+  - id: '2400'
+    called: 6 March 2009
+  text: Deputisation is generally treated as if the deputy gained the office immediately
+    before the action, and lost it immediately after.
