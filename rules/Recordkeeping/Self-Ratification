@@ -1,0 +1,48 @@
+---
+name: Self-Ratification
+history:
+- Created by Proposal 5459 (Murphy), 9 March 2008
+- Amended(1) by Proposal 6106 (Murphy, ais523), 22 February 2009
+- Amended(2) by Proposal 6243 (Murphy), 9 May 2009
+- Amended(3) by Proposal 6622 (Murphy), 20 February 2010
+- Amended(4) by Proposal 6744 (Murphy), 1 July 2010
+- Amended(5) by Proposal 6922 (Murphy; disi.), 2 January 2011
+- Amended(6) by Proposal 7420 (omd), 27 May 2013
+text: |
+  A public document defined by the rules as self-ratifying is
+  ratified when it is continuously undoubted for one week.
+
+  A doubt is an explicit public challenge via one of the following
+  methods, identifying a document and explaining the scope and
+  nature of a perceived error in it:
+
+   a) An inquiry case, appropriate for questions of legal
+      interpretation.
+
+   b) A claim of error, appropriate for matters of fact.  The
+      publisher of the original document SHALL (if e was required
+      to publish that document) or SHOULD (otherwise) do one of
+      the following in a timely fashion:
+
+          i) Deny the claim (causing it to cease to be a doubt).
+         ii) Publish a revision.
+        iii) Initiate an inquiry case regarding the truth of the
+             claim (if the subject is actually a matter of law),
+             or cite a relevant existing inquiry case.
+cfjs:
+- cfjs:
+  - id: '1690'
+    called: 19 June 2007
+  text:
+    text: A challenge to a self-ratifying document {at the time of CFJ 1690, the resolution
+      of an Agoran decision} must explicitly identify the document, either individually
+      or as part of a set, and explicitly contest the accuracy of some aspect of it.
+- cfjs:
+  - id: 1790-1791
+    called: 11 November 2007
+  text:
+    text: A challenge to any part of a self-ratifying document prevents ratification
+      of all parts of it.
+id: 2201
+rev: 6
+power: 3

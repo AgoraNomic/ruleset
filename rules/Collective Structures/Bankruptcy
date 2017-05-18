@@ -1,0 +1,23 @@
+---
+name: Bankruptcy
+history:
+- Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
+- Amended(1) by Proposal 7794 (Murphy), 12 Februray 2016
+- Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
+- Amended(3) by Proposal 7831 (Alexis), 5 December 2016
+text: |
+  While a player's Expenditure exceeds the Income Cap, then any
+  player CAN cause that player to become Bankrupt by announcement,
+  and the Secretary SHALL do so in a timely fashion if the
+  situation persists.
+
+  When a player becomes Bankrupt:
+  a) All Budget switches for pairs including that player are
+     flipped to 0.
+  b) The Secretary CAN, and SHALL in a timely manner, award that
+     player a Yellow Card.
+  c) A Lockout Event happens to that player.
+cfjs: []
+id: 2462
+rev: 3
+power: 1.2

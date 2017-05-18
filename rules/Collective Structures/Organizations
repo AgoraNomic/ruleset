@@ -1,0 +1,37 @@
+---
+name: Organizations
+history:
+- Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
+- Amended(1) by Proposal 7795 (Murphy), 12 Februray 2016
+- Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
+text: |
+  An Organization is a type of entity. The following changes are
+  secured: creating, modifying, or destroying an Organization; and
+  causing an entity to become an Organization or cease to be an
+  Organization.
+
+  The Income Cap is 100.
+
+  Budget is a switch belonging to (Organization, player) pairs
+  (i.e. there is one instance of the switch for each combination
+  of an Organization and a player), tracked by the Secretary,
+  whose legal values are integers from 0 to the Income Cap
+  inclusive, defaulting to 0. An Organization's Income is the
+  total value of all Budget switches for pairs that include that
+  Organization. A player's Expenditure is the total value of all
+  Budget switches for pairs that include that player. Changes to
+  Budget are secured.
+
+  A "member" of an Organization is a player for which the pair
+  consisting of that Organization and that player has a nonzero
+  Budget.
+
+  It is IMPOSSIBLE, by any means, for a player to become a member
+  of an Organization, or for an organization to be created with a
+  player as a member, without that player's explicit, willful
+  consent. This rule takes precedence over any rule that might
+  make such a change possible.
+cfjs: []
+id: 2459
+rev: 2
+power: 1.2

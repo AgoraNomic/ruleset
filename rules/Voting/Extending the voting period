@@ -1,0 +1,30 @@
+---
+name: Extending the voting period
+history:
+- Created by Proposal 5191 (root), 6 September 2007
+- Amended(1) by Proposal 5979 (Murphy), 25 November 2008
+- Amended(2) by Proposal 6115 (Murphy), 1 March 2009
+- Amended(3) by Proposal 6294 (Yally), 19 May 2009
+- Amended(4) by Proposal 6328 (Murphy), 29 May 2009
+- Amended(5) by Proposal 6329 (Murphy), 29 May 2009
+- Amended(6) by Proposal 6504 (Murphy; disi.), 3 October 2009
+- Amended(7) by Proposal 7045 (Walker), 16 May 2011
+text: |
+  Whenever the voting period of an Agoran decision would end, and
+  the result would be FAILED QUORUM, the length of the voting
+  period for that decision is instead increased to 14 days, except
+  if it is already that length, provided this has not already
+  happened for the decision in question.
+
+  Upon such an occurrence, the vote collector for the decision
+  SHALL issue a humiliating public reminder to the slackers who
+  have not yet cast any votes on it despite being eligible, and
+  CAN end its voting period by announcement (resolving it
+  constitutes an implicit announcement that its voting period is
+  first ended) if the result would no longer be FAILED QUORUM, or
+  if the decision is whether to adopt a proposal and no voter
+  (other than possibly the proposal's author) has voted FOR.
+cfjs: []
+id: 2168
+rev: 7
+power: 1

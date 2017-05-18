@@ -1,0 +1,25 @@
+---
+name: You can't take it with you
+history:
+- Created by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
+- Amended(1) by Proposal 7846 (o, Aris), 9 May 2017
+text: |
+  "Heir" is a person switch, tracked by the Registrar, whose value
+  is either empty or the name of a player or Organization. Each
+  person's Heir is empty by default. A player may flip eir Heir by
+  announcement.
+
+  When a player is deregistered, if eir Heir switch is not empty,
+  e automatically pays all of eir Balance to the named player or
+  Organization, and transfers all of eir Estates to the named
+  player or Organization. Otherwise, if eir Heir switch is empty,
+  e may specify another player, an Organization, or Agora, and pay
+  all of eir Balance and transfer all of eir Estates to the
+  specified player or Organization. If the player does not do so
+  within 1 day of deregistration, the Registrar CAN and SHALL
+  cause that player to pay eir Balance to Agora and to transfer
+  all of eir Estates to Agora, by announcement.
+cfjs: []
+id: 2485
+rev: 1
+power: 1

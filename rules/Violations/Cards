@@ -1,0 +1,48 @@
+---
+name: Cards
+history:
+- Created by Proposal 7639 (omd), 1 May 2014
+- Amended(1) by Proposal 7696 (omd), 23 October 2014
+- Amended(2) by Proposal 7708 (Murphy), 3 November 2014
+- Amended(3) by Proposal 7720 (omd), 9 November 2014
+- Amended(4) by Proposal 7729 (Tiger), 24 November 2014
+- Power changed to 2 and Amended(5) by Proposal 7831 (Alexis), 5
+- "  December 2016"
+text: |
+  A Card is a recognition of a specific violation of the rules or
+  other manner of infraction that is awarded to the violator in
+  order to draw attention to eir disregard for the rule of law
+  and, depending on the type of Card, to impose a penalty.
+
+  Cards CANNOT be issued except by players by announcement. Any
+  attempt to issue a Card, or any intent for a dependent action to
+  issue a Card, is INEFFECTIVE if it does not include the
+  following information:
+
+  - The type of Card being issued,
+  - The person to whom the Card is being issued (the bad sport),
+    and
+  - The specific action, inaction of the bad sport giving rise to
+    the Card (the reason).
+
+  Issuing Cards is secured with power threshold 1.7.
+
+  The types of Card are defined by the rules. A type of Card may
+  have a defined set of circumstances for which it is appropriate,
+  as well as a penalty which takes effect when a Card of that type
+  is issued.  Unless otherwise specified by the rule defining a
+  type of Card, that Card type's penalty and circumstances for
+  which it is appropriate are secured at the power threshold of
+  that rule.
+
+  A person SHALL NOT issue a Card unless:
+
+  - the reason is appropriate for the type of Card being issued;
+  - there has not already been a Card issued for that reason; and
+  - the reason occurred within the 14 days preceding the issuance
+    of the Card or, when the Card arises out of any manner of
+    official proceeding, the initiation of that proceeding.
+cfjs: []
+id: 2426
+rev: 5
+power: 2

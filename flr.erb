@@ -1,0 +1,44 @@
+<%
+require 'yaml'
+require 'ostruct'
+index = YAML.load_file('rules/index')
+rule_groups = index.map do |name, rule_names|
+  OpenStruct.new(name: name, rules: rule_names.map do |rn|
+    OpenStruct.new(YAML.load_file("rules/#{name}/#{rn}"))
+  end)
+end
+
+def word_wrap(text, options = {})
+  line_width = options.fetch(:line_width, 80)
+
+  text.split("\n").collect! do |line|
+    line.length > line_width ? line.gsub(/(.{1,#{line_width}})(\s+|$)/, "\\1\n").strip : line
+  end * "\n"
+end
+%>THE FULL LOGICAL RULESET
+
+----------------------------------------------------------------------
+
+Index of Rules
+<% rule_groups.each do |group| %>
+      * <%= group.name %>
+<% group.rules.each do |rule| %>      Rule <%= rule.id.to_i > 999 ? rule.id : " #{rule.id}" %>: <%= rule.name %>
+<%end%><%end%>
+<% rule_groups.each do |group| %>
+======================================================================
+<%= group.name %>
+----------------------------------------------------------------------
+<% group.rules.each do |rule| %>
+Rule <%=rule.id%>/<%=rule.rev%> (Power=<%=rule.power%>)
+<%=rule.name%>
+
+<%= word_wrap(rule.text, line_width: 64)
+  .split("\n")
+  .map {|x| x == '' ? "" : "      #{x}" }
+  .join("\n")
+%>
+
+<%rule.cfjs.each do |cfj_hash|; cfj = OpenStruct.new(cfj_hash) %>
+[CFJ <%=cfj.id%>: <%cfj.text%>]
+<%end%>
+<% end %><%end%>

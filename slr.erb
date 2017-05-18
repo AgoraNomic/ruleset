@@ -1,0 +1,52 @@
+<%
+require 'yaml'
+require 'ostruct'
+index = YAML.load_file('rules/index')
+rule_groups = index.map do |name, rule_names|
+  OpenStruct.new(name: name, rules: rule_names.map do |rn|
+    OpenStruct.new(YAML.load_file("rules/#{name}/#{rn}"))
+  end)
+end
+
+meta = YAML.load_file('rules/meta')
+
+def word_wrap(text, options = {})
+  line_width = options.fetch(:line_width, 80)
+
+  text.split("\n").collect! do |line|
+    line.length > line_width ? line.gsub(/(.{1,#{line_width}})(\s+|$)/, "\\1\n").strip : line
+  end * "\n"
+end
+%>THE SHORT LOGICAL RULESET
+
+Most Recent Ruleset Change Recorded:
+	<%= meta['last_change'] %>
+
+Online documents:
+ http://faculty.washington.edu/kerim/nomic/rkeep/current_flr.txt (FLR)
+ http://faculty.washington.edu/kerim/nomic/rkeep/current_slr.txt (SLR)
+<% rule_groups.each do |group| %>
+======================================================================
+<%= group.name %>
+----------------------------------------------------------------------
+<% group.rules.each do |rule| %>
+Rule <%=rule.id%>/<%=rule.rev%> (Power=<%=rule.power%>)
+<%=rule.name%>
+
+<%= rule.text
+  .split("\n")
+  .map {|x| x == '' ? "" : "      #{x}" }
+  .join("\n")
+%>
+
+----------------------------------------------------------------------
+<% end %><%end%>
+
+======================================================================
+
+Highest Rule ID number ever assigned: Rule <%= meta['last_id'] %>
+
+Last Ruleset Ratification:
+	<%= meta['ratification']['type'] == 'slr' ? 'Short Logical Ruleset' : 'Full Logical Ruleset' %> of <%= meta['ratification']['date'] %>
+
+END OF THE SHORT LOGICAL RULESET

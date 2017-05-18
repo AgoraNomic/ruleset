@@ -1,0 +1,43 @@
+---
+name: Conditional Votes
+history:
+- Created by Proposal 4875 (Goethe), 1 December 2006
+- Amended(1) by Proposal 5427 (Murphy), 9 February 2008
+- Amended(2) by Proposal 5506 (Murphy; disi.), 10 May 2008
+- Amended(3) by Proposal 5746 (Murphy), 16 October 2008
+- Amended(4) by Proposal 6331 (Murphy), 29 May 2009
+- Amended(5) by Proposal 6383 (Murphy), 3 July 2009
+- Amended(6) by Proposal 6403 (coppro), 30 July 2009
+- Amended(7) by Proposal 7289 (G.), 9 September 2012
+- Power changed from 1 to 3 by Proposal 7447 (omd), 10 June 2013
+- Amended(8) by Proposal 7447 (omd), 10 June 2013
+- Amended(9) by Proposal 7778 (scshunt), 14 August 2014
+text: |
+  If a vote on an Agoran decision is submitted conditionally (e.g.
+  "FOR if <X> is true, otherwise AGAINST"), then the selected
+  option is evaluated based on the value of the condition(s) at
+  the end of the voting period, and, rules to the contrary
+  notwithstanding, is clearly specified if and only if the value
+  of the condition(s) is/are determinate at the end of the voting
+  period.  If the option cannot be clearly identified, a vote of
+  PRESENT is cast.
+
+  Casting a vote endorsing another voter is equivalent to
+  conditionally casting a vote whose value is the same as the most
+  common value (if any) among that voter's valid votes on that
+  decision.
+
+  Casting a vote denouncing another voter is equivalent to
+  conditionally casting a vote whose value is opposite to the most
+  common value (if any) among that voter's valid votes on that
+  decision.  FOR and AGAINST are opposites.
+cfjs:
+- cfjs:
+  - id: '2449'
+    called: 14 April 2009
+  text:
+    text: For an endorsement or denouncement, the identity of the voter in question
+      is part of the condition.
+id: 2127
+rev: 9
+power: 3

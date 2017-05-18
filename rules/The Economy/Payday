@@ -1,0 +1,21 @@
+---
+name: Payday
+history:
+- Created by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
+- Amended(1) by Proposal 7841 (o, G.), 1 March 2017
+- Amended(2) by Proposal 7842 (nichdel, o), 1 March 2017
+text: |
+  Payrate is an office switch, tracked by the ADoP, with a
+  default value of 10 and possible values of positive integers.
+
+  At the start of each month, if Agora's Balance is not 0 or
+  less, Agora SHALL pay each player 10 shinies. Immediately
+  afterward, if Agora's Balance is not 0 or less, Agora SHALL
+  pay each player who holds an office the office's Payrate
+  value, in ascending order of Payrate (breaking ties
+  alphabetically by office) until all are paid or paying the
+  next office would leave Agora's balance at 0 or less.
+cfjs: []
+id: 2484
+rev: 2
+power: 1

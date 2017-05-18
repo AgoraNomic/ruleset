@@ -1,0 +1,92 @@
+---
+name: Patent Titles
+history:
+- Created by Proposal 649 (Wes), ca. Oct. 22 1993
+- "..."
+- Amended(1) by Proposal 1334, Nov. 22 1994
+- Amended(2) by Proposal 1681, Aug. 22 1995
+- Amended(3) by Proposal 2532, Mar. 10 1996
+- Amended(4) by Proposal 2693, Oct. 3 1996
+- Amended(5) by Proposal 2807 (Andre), Feb. 8 1997, cosmetic
+- "  (unattributed)"
+- Amended(6) by Proposal 3445 (General Chaos), Mar. 26 1997, substantial
+- Amended(7) by Proposal 3488 (Zefram), May 19 1997, substantial
+- "  (unattributed)"
+- Amended(8) by Proposal 3849 (Vlad), Apr. 6 1999
+- Amended(9) by Proposal 3860 (Peekee), May 12 1999
+- Amended(10) by Proposal 3914 (Elysion), Sep. 19 1999
+- Amended(11) by Proposal 3916 (harvel), Sep. 27 1999
+- Amended(11) by Proposal 3968 (harvel), Feb. 4 2000
+- Amended(12) by Proposal 4002 (harvel), May 8 2000
+- Amended(13) by Proposal 4110 (Ziggy), Feb. 13 2001
+- Amended(14) by Proposal 4147 (Wes), 13 May 2001
+- Amended(15) by Proposal 4497 (Steve), 13 May 2003
+- Amended(16) by Proposal 4691 (root), 18 April 2005
+- Amended(17) by Proposal 4824 (Maud, Manu), 17 July 2005
+- Amended(18) by Proposal 4865 (Goethe), 27 August 2006
+- Amended(19) by Proposal 5036 (Zefram), 28 June 2007
+- Amended(20) by Proposal 5084 (Zefram; disi.), 1 August 2007
+- Amended(21) by Proposal 5112 (Murphy), 2 August 2007
+- Amended(22) by Proposal 5123 (Zefram; disi.), 13 August 2007
+- Amended(23) by Proposal 5237 (AFO; disi.), 3 October 2007
+- Amended(24) by Proposal 5239 (AFO), 3 October 2007
+- Amended(25) by Proposal 5341 (Goethe), 8 December 2007
+- Amended(26) by Proposal 5412 (woggle), 26 January 2008
+- Power changed from 1 to 1.5 by Proposal 5437 (Goethe), 13 February
+- "  2008"
+- Amended(27) by Proposal 5437 (Goethe), 13 February 2008
+- Amended(28) by Proposal 6047 (comex), 13 January 2009
+- Amended(29) by Proposal 6175 (Yally), 7 April 2009
+- Amended(30) by cleaning (Wooble), 13 April 2009
+- Amended(31) by Proposal 6424 (Murphy), 16 August 2009
+- Amended(32) by Proposal 7050 (omd), 16 May 2011
+- Amended(33) by Proposal 7315 (omd), 16 October 2012
+- Amended(34) by Proposal 7420 (omd), 27 May 2013
+- Amended(35) by Proposal 7470 (woggle; disi.), 17 June 2013
+- Amended(36) by Proposal 7621 (G.), 23 February 2014
+- Amended(37) by Proposal 7755 (G.), 30 June 2015
+text: |
+  A Patent Title is a legal title given to a person in recognition
+  of the person's distinction.  The Herald is an office; its
+  holder is responsible for tracking Patent Titles in eir monthly
+  report.
+
+  Awarding or revoking a Patent Title is secured.  A person
+  permitted and enabled to award (revoke) a Patent Title SHALL do
+  so in a timely fashion after the conditions authorizing em to do
+  so are announced, unless there is an open judicial case
+  contesting the validity of those conditions.
+
+  The Herald CAN award a specified Patent Title to a specified
+  player With 2 Agoran Consent.
+cfjs:
+- cfjs:
+  - id: '1525'
+    called: 15 November 2004
+  text:
+    text: If a patent title is defined by the rules, and previously the rules defined
+      a patent title with the same spelling but a different award condition, the two
+      are the same patent title.
+- cfjs:
+  - id: '1592'
+    called: 1 December 2006
+  text:
+    text: A patent title, once borne, is borne until explicitly revoked, even if the
+      rule defining the patent title is repealed or the patent title was never defined
+      by a rule.
+- cfjs:
+  - id: '1731'
+    called: 23 August 2007
+  text:
+    text: It is possible for an entity {a person at the time of CFJ 1731} to bear
+      more than one instance of a patent title simultaneously.
+- cfjs:
+  - id: '1591'
+    called: 1 December 2006
+  text:
+    text: Where a person bears the patent title X, and X is not also defined by the
+      rules to have some special meaning, it is correct to say that that person "is
+      an X".
+id: 649
+rev: 37
+power: 1.5

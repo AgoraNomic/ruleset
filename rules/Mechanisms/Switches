@@ -1,0 +1,62 @@
+---
+name: Switches
+history:
+- Created by Proposal 5111 (Murphy), 2 August 2007
+- Amended(1) by Proposal 5271 (Murphy), 7 November 2007
+- Amended(2) by Proposal 7247 (omd), 10 June 2012
+- Amended(3) by Proposal 7289 (G.), 9 September 2012
+- Amended(4) by Proposal 7425 (Walker, G., Murphy, omd), 27 May 2013
+- Amended(5) by Proposal 7649 (omd), 3 June 2014
+- Amended(6) by Proposal 7735 (aranea), 2 May 2015
+- Amended(7) by Proposal 7828 (aranea, ais523), 7 November 2016
+text: |
+  A type of switch is a property that the rules define as a
+  switch, and specify the following:
+
+  a) The type(s) of entity possessing an instance of that switch.
+     No other entity possesses an instance of that switch.
+ 
+  b) One or more possible values for instances of that switch,
+     exactly one of which is designated as the default.  No other
+     values are possible for instances of that switch.
+ 
+  c) Optionally, exactly one office whose holder tracks instances
+     of that switch.  That officer's (weekly, if not specified
+     otherwise) report includes the value of each instance of that
+     switch whose value is not its default value; a public
+     document purporting to be this portion of that officer's
+     report is self-ratifying, and implies that other instances
+     are at their default value.
+
+  At any given time, each instance of a switch has exactly one
+  possible value for that type of switch.  If an instance of a
+  switch comes to have a value, it ceases to have any other value.
+  If an instance of a switch would otherwise fail to have a
+  possible value, it comes to have its default value.
+
+  "To flip an instance of a switch" is to make it come to have a
+  given value.  "To become X" (where X is a possible value of
+  exactly one of the subject's switches) is to flip that switch to
+  X.
+
+  If an action or set of actions would cause the value of an
+  instance of a switch to become indeterminate, the instance
+  instead takes on its last determinate and possible value, if
+  any, otherwise it takes on its default value.
+
+  A natural switch is a switch with a default value of 0, unless
+  the rules explicitly specify a different default value.  If the
+  rules define an upper limit for the switch, then the possible
+  values are non-negative integers not greater than that limit,
+  otherwise the values are the non-negative integers.
+
+  A singleton switch is a switch for which Agora Nomic is the only
+  entity possessing an instance of that switch.
+
+  A boolean switch is a switch with values True and False. A
+  positive boolean switch has a default of True; a negative
+  boolean switch has a default of False.
+cfjs: []
+id: 2162
+rev: 7
+power: 2

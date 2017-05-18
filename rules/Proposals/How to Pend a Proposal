@@ -1,0 +1,33 @@
+---
+name: How to Pend a Proposal
+history:
+- Created by Proposal 7728 (Tiger), 24 November 2014
+- Amended(1) by Proposal 7742 (ais523), 12 May 2015
+- Amended(2) by Proposal 7773 (scshunt), 14 August 2014
+- Amended(3) by Proposal 7807 (aranea), 10 August 2016
+- Amended(4) by Proposal 7818 (ais523), 31 October 2016
+- Amended(5) by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
+text: |
+  Imminence is a switch, tracked by the Promotor, possessed by
+  proposals in the Proposal Pool, whose value is either "pending"
+  or "not pending" (default).
+
+  Pending List Price is an integer switch, tracked by the Promotor,
+  whose default value is 5. At the beginning of every month, the
+  Pending List Price is set to the mean of the price paid for each
+  proposal pended in the previous month, rounded down. If less
+  than 2 proposals were pended in the previous month, the Pending
+  List Price is set to its default.
+
+  Pending Minimum Price is, at all times, 9/10ths of the Pending
+  List Price, rounded down.
+
+  Any player CAN pay Agora a specified amount, which is no less
+  than the Pending Minimum Price, to flip a proposal's imminence
+  to "pending" by announcement. If the specified amount is less
+  than the Pending Minimum Price, then the attempt to pay is
+  INEFFECTIVE, and the proposal's imminence is not flipped.
+cfjs: []
+id: 2445
+rev: 5
+power: 1

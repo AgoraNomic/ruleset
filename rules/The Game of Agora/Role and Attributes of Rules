@@ -1,0 +1,55 @@
+---
+name: Role and Attributes of Rules
+history:
+- Created by Proposal 4940 (Zefram), 29 April 2007
+- Amended(1) by Proposal 5110 (Murphy), 2 August 2007
+- Amended(2) by Proposal 5994 (Murphy), 7 December 2008
+- Amended(3) by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
+- Amended(4) by Proposal 6124 (ehird), 15 March 2009
+- Amended(5) by Proposal 6670 (coppro), 14 March 2010
+- Amended(6) by Proposal 6992 (Murphy, omd), 10 April 2011
+- Amended(7) by Proposal 7420 (omd), 27 March 2013
+- Amended(8) by Proposal 7614 (G.), 13 January 2014
+- Amended(9) by Proposal 7759 (G.), 19 July 2015
+text: |
+  A rule is a type of instrument with the capacity to govern the
+  game generally, and is always taking effect.  A rule's content
+  takes the form of a text, and is unlimited in scope.
+
+  Every rule has power between 0.1 and 4.0 inclusive.  It is
+  not possible for a rule to have a power outside this range.
+
+  Rules have ID numbers, to be assigned by the Rulekeepor.
+
+  Every rule shall have a title to aid in identification.  If a
+  rule ever does not have a title, the Rulekeepor SHALL assign a
+  title to it by announcement in a timely fashion.
+
+  For the purposes of rules governing modification of instruments,
+  the text, power, ID number, and title of a rule are all
+  substantive aspects of the rule.  However, rules to the contrary
+  notwithstanding, the Rulekeepor CAN set rule aspects as
+  described elsewhere in this rule.
+cfjs:
+- cfjs:
+  - id: '1498'
+    called: 12 April 2004
+  text:
+    text: A rule's title is not strictly a name for the rule, and so rule titles are
+      not subject to the uniqueness requirement on names of rule-defined entities.
+- cfjs:
+  - id: '2013'
+    called: 17 June 2009
+  text:
+    text: 'Rule 2141 does not imply that the power of rules is physically unlimited:
+      they can only affect the world outside the game by prescribing or proscribing
+      player behavior.'
+- cfjs:
+  - id: '2213'
+    called: 7 October 2008
+  text:
+    text: The powers granted to rules by the first paragraph of Rule 2141 are general,
+      and only apply as otherwise stated by the Rules.
+id: 2141
+rev: 9
+power: 3

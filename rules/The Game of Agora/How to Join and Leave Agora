@@ -1,0 +1,90 @@
+---
+name: How to Join and Leave Agora
+history:
+- Created by Proposal 498 (Alexx), Sep. 30 1993
+- Amended by Proposal 869, ca. Apr. 7 1994
+- Amended by Rule 750, ca. Apr. 7 1994
+- Amended(1) by Proposal 1313, Nov. 12 1994
+- Amended(2) by Proposal 1437, Feb. 21 1995
+- Amended(3) by Proposal 2040, Dec. 11 1995
+- Amended(4) by Proposal 2599, May 11 1996
+- Amended(5) by Proposal 2718, Oct. 23 1996
+- Amended(6) by Proposal 3475 (Murphy), May 11 1997, substantial
+- Amended(7) by Proposal 3740 (Repeal-O-Matic), May 8 1998
+- Amended(8) by Proposal 3923 (harvel), Oct. 10 1999
+- Amended(9) by Proposal 4011 (Wes), Jun. 1 2000
+- Amended(10) by Proposal 4147 (Wes), 13 May 2001
+- Amended(11) by Proposal 4155 (harvel), 18 May 2001
+- Amended(12) by Proposal 4430 (Cecilius), 16 January 2003
+- Amended(13) by Proposal 4451 (Cecilius), 22 February 2003
+- Amended(14) by Proposal 4523 (Murphy), 28 August 2003
+- Amended(15) by Proposal 4693 (Maud), 18 April 2005
+- Amended(16) by Proposal 4802 (Maud), 15 June 2005
+- Amended(17) by Proposal 4833 (Maud), 6 August 2005
+- Amended(18) by Proposal 4989 (Zefram), 6 June 2007
+- Amended(19) by Proposal 5007 (Zefram), 18 June 2007
+- Amended(20) by Proposal 5011 (Zefram), 24 June 2007
+- Amended(21) by Proposal 5086 (Zefram), 1 August 2007
+- Amended(22) by Proposal 5111 (Murphy), 2 August 2007
+- Amended(23) by Proposal 5117 (Zefram; disi.), 8 August 2007
+- Amended(24) by Proposal 5156 (Zefram), 29 August 2007
+- Amended(25) by Proposal 5271 (Murphy), 7 November 2007
+- Power changed from 1 to 2 by Proposal 5728 (ihope), 7 October 2008
+- Amended(26) by Proposal 5728 (ihope), 7 October 2008
+- Amended(27) by Proposal 5973 (woggle), 25 November 2008
+- Amended(28) by Proposal 6099 (Pavitra), 22 February 2009
+- Amended(29) by Proposal 6349 (Pavitra), 17 June 2009
+- Amended(30) by Proposal 6382 (Murphy), 3 July 2009
+- Amended(31) by Proposal 6620 (Murphy; disi.), 4 February 2010
+- Amended(32) by Proposal 6974 (Murphy), 30 March 2011
+- Amended(33) by Proposal 7269 (FKA441344, G.), 25 July 2012
+- Amended(34) by Proposal 7610 (G.), 22 December 2013
+- Power changed from 2 to 3 by Proposal 7610 (G.), 22 December 2013
+- Amended(35) by Proposal 7614 (G.), 13 January 2014
+- Amended(36) by Proposal 7619 (woggle), 24 January 2014
+- Amended(37) by Proposal 7647 (omd), 3 June 2014
+- Amended(38) by Proposal 7734 (G.), 2 May 2015
+- Amended(39) by Proposal 7810 (nichdel), 11 September 2016
+text: |
+  Any organism that is generally capable of freely originating and
+  communicating independent thoughts and ideas is a person.  Rules
+  to the contrary notwithstanding, no other entities are persons.
+
+  Citizenship is a person switch with values Unregistered
+  (default) and Registered, tracked by the Registrar.  Changes to
+  citizenship are secured.  A registered person is a Player.
+
+  A person CAN (unless explicitly forbidden or prevented by the
+  rules) register by publishing a message that indicates
+  reasonably clearly and reasonably unambiguously that e intends
+  to become a player at that time.  A person, by registering,
+  agrees to abide by the Rules.  The Rules CANNOT otherwise bind a
+  person to abide by any agreement without that person's willful
+  consent.
+
+  A player CAN deregister (cease being a player) by announcement.
+  If e does so, e CANNOT register by announcement for 30 days.
+
+  If a player has not sent a message to a public forum in the last
+  month, then any player CAN deregister em without objection.
+
+  The Rules CANNOT compel non-players to act, nor compel players
+  to unduly harass non-players.  A non-person CANNOT be a player,
+  rules to the contrary notwithstanding.
+cfjs:
+- cfjs:
+  - id: '1275'
+    called: 19 February 2001
+  text:
+    text: An entity is a Player if the Rules cannot distinguish that entity from a
+      Player.
+- cfjs:
+  - id: '1263'
+    called: 5 February 2001
+  text:
+    text: Any message expressing a clear desire or intent to register as a Player
+      counts as a request for registration, whether or not it is explicitly phrased
+      in the manner stipulated by the rules.
+id: 869
+rev: 39
+power: 3

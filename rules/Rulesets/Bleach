@@ -1,0 +1,13 @@
+---
+name: Bleach
+history:
+- Created by Proposal 7665 (scshunt), 3 June 2014
+- Amended(1) by Proposal 7709 (Murphy), 3 November 2014
+text: |
+  Replacing a non-zero amount of whitespace with a different
+  non-zero amount of whitespace is generally insignificant, except
+  for paragraph breaks.
+cfjs: []
+id: 2429
+rev: 1
+power: 1

@@ -1,0 +1,376 @@
+---
+name: Fora
+history:
+- Created by Proposal 478 (Jim Shea), Sep. 20 1993
+- Amended(1) by Proposal 1477, Mar. 8 1995
+- Amended(2) by Proposal 1576, Apr. 28 1995
+- Amended(3) by Proposal 1610, Jul. 10 1995
+- Amended(4) by Proposal 1700, Sep. 1 1995
+- Amended(5) by Proposal 2052, Dec. 19 1995
+- Amended(6) by Proposal 2400, Jan. 20 1996
+- Amended(7) by Proposal 2739 (Swann), Nov. 7 1996, substantial
+- Amended(8) by Proposal 2791 (Andre), Jan. 30 1997, substantial
+- Amended(9) by Proposal 3521 (Chuck), Jun. 23 1997, substantial
+- Amended(10) by Proposal 3823 (oerjan), Jan. 21 1999
+- Amended(11) by Proposal 4147 (Wes), 13 May 2001
+- Amended(12) by Proposal 4248 (Murphy), 19 February 2002
+- Amended(13) by Proposal 4456 (Maud), 22 February 2003
+- Power changed from 1 to 3 by Proposal 4690 (root), 18 April 2005
+- Amended(14) by Proposal 4690 (root), 18 April 2005
+- Amended(15) by Proposal 4833 (Maud), 6 August 2005
+- Amended(16) by Proposal 4866 (Goethe), 27 August 2006
+- Amended(17) by Proposal 4939 (Murphy), 29 April 2007
+- Amended(18) by Proposal 5014 (Zefram), 24 June 2007
+- Amended(19) by Proposal 5111 (Murphy), 2 August 2007
+- Amended(20) by Proposal 5172 (Murphy), 29 August 2007
+- Amended(21) by Proposal 5272 (Murphy; disi.), 7 November 2007
+- Amended(22) by Proposal 5291 (root), 14 November 2007
+- Amended(23) by Proposal 5535 (Murphy), 7 June 2008
+- Amended(24) by Proposal 5613 (Quazie), 29 July 2008
+- Amended(25) by Proposal 5639 (Murphy), 29 July 2008
+- Amended(26) by Proposal 5818 (comex), 1 November 2008
+- Amended(27) by Proposal 6022 (Murphy), 22 December 2008
+- Amended(28) by Proposal 6785 (coppro; disi.), 22 August 2010
+- Amended(29) by Proposal 6963 (Murphy), 20 March 2011
+- Amended(30) by Proposal 7073 (woggle), 16 June 2011
+- Amended(31) by Proposal 7614 (G.), 13 January 2014
+- Amended(32) by Proposal 7632 (scshunt), 1 May 2014
+- Amended(33) by Proposal 7810 (nichdel), 11 September 2016
+text: |
+  Freedom of speech being essential for the healthy functioning of
+  any non-Imperial nomic, it is hereby resolved that no Player
+  shall be prohibited from participating in the Fora, nor shall
+  any person create physical or technological obstacles that
+  unduly favor some players' fora access over others.
+
+  Publicity is a forum switch with values Public, Discussion, and
+  Foreign (default), tracked by the Registrar.  Changes to
+  publicity are secured.
+
+  The Registrar may change the publicity of a forum without
+  objection as long as:
+
+  (a) e sends eir announcement of intent to that forum; and
+
+  (b) if the forum is to be made public, the announcement by which
+      the Registrar makes that forum public is sent to all
+      existing public fora.
+
+  Each player should ensure e can receive messages via each public
+  forum.
+
+  A public message is a message sent via a public forum, or sent
+  to all players and containing a clear designation of intent to
+  be public.  A rule can also designate that a part of one public
+  message is considered a public message in its own right. A
+  person "publishes" or "announces" something by sending a public
+  message.
+
+  Where the rules define an action that CAN be performed "by
+  announcement", a person performs that action by unambiguously
+  and clearly specifying the action and announcing that e performs
+  it.  Any action performed by sending a message is performed at
+  the time date-stamped on that message. Actions in messages
+  (including sub-messages) are performed in the order they appear
+  in the message, unless otherwise specified.
+cfjs:
+- cfjs:
+  - id: 1451-1452
+    called: 6 March 2003
+  text:
+    text: A message that is split into multiple email messages can qualify as a single
+      message for game purposes, if it is obvious how to combine the parts to reconstruct
+      the single message.
+- cfjs:
+  - id: '752'
+    called: 13 March 1995
+  text:
+    text: Something sent to a Player who is obligated to send it to all Players is
+      sufficient for sending something to the PF.
+- cfjs:
+  - id: '813'
+    called: 22 October 1995
+  text:
+    text: A Player need not prove that e can receive the PF.
+- cfjs:
+  - id: '831'
+    called: 10 November 1995
+  text:
+    text: 'The Date: header of a message is not necessarily the time at which the
+      message takes effect.'
+- cfjs:
+  - id: '2205'
+    called: 2 October 2008
+  text:
+    text: A message takes effect at exactly one of the times date-stamped on it; selecting
+      which one is a matter of game custom.
+- cfjs:
+  - id: '2212'
+    called: 7 October 2008
+  text:
+    text: An IRC channel is a forum.
+- cfjs:
+  - id: '2211'
+    called: 7 October 2008
+  text:
+    text: It is generally possible for an IRC channel to be a public forum.
+- cfjs:
+  - id: '2214'
+    called: 7 October 2008
+  text:
+    text: Some IRC messages, such as NICK, are sent to all members of an IRC channel
+      but are not sent via that channel.
+- cfjs:
+  - id: '866'
+    called: 8 April 1996
+  text:
+    text: A message is "received" when the message enters the recipient's normal technical
+      domain of control, whether this be eir private machine or eir private account
+      on a shared machine (but not the shared machine itself, if the recipient does
+      not control it).
+- cfjs:
+  - id: '1112'
+    called: 
+  text:
+    text: In order to submit a Proposal, in the sense of R1865 and elsewhere, it is
+      not sufficient that a collection of text 'with the clear indication that that
+      text is intended to become a Proposal' (R1483) merely be sent to the Public
+      Forum by a Proposing Entity; the collection of text must also be received in
+      the Public Forum.
+- cfjs:
+  - id: '1314'
+    called: 15 August 2001
+  text:
+    text: If a message sent to a public forum is rejected by the list moderator, it
+      still qualifies as having been sent via a public forum.
+- cfjs:
+  - id: '1905'
+    called: 7 February 2008
+  text:
+    text: Regardless of CFJ 1314, a message has not been sent via a forum until most
+      persons who have arranged to receive messages via the forum receive it.
+- cfjs:
+  - id: '1888'
+    called: 31 January 2008
+  text:
+    text: Sending a message to a Discussion Forum, or other mailing list except for
+      a Public Forum, does not qualify as sending it to all players.
+- cfjs:
+  - id: '1631'
+    called: 29 April 2007
+  text:
+    text: Public announcements must be made in the message body; the subject line
+      is insignificant.
+- cfjs:
+  - id: '1784'
+    called: 5 November 2007
+  text:
+    text: An undescriptive or misleading subject line does not deprive the message
+      body of effect.
+- cfjs:
+  - id: '1880'
+    called: 22 January 2008
+  text:
+    text: A phrase that would, in the message body, cancel the effect of the rest
+      of the message, does not have such an effect if it appears in the subject line.
+- cfjs:
+  - id: '1761'
+    called: 30 September 2007
+  text:
+    text: Publishing part of a message is a different action from publishing the whole
+      message.
+- cfjs:
+  - id: '1646'
+    called: 30 April 2007
+  text:
+    text: The act of "publishing" or "announcing" is accomplished when the message
+      has left the sender's technical domain of control, indicated by one of the "Received:"
+      headers.
+- cfjs:
+  - id: '1695'
+    called: 23 June 2007
+  text:
+    text: A partnership, which by its nature can't directly send email, can participate
+      in the fora by means of its members sending messages on its behalf, if its governing
+      agreement says so.
+- cfjs:
+  - id: '1768'
+    called: 22 October 2007
+  text:
+    text: The right of participation in the fora is the right to participate in them
+      for their intended purposes, and is not necessarily infringed by regulations
+      regarding the manner and type of participation.
+- cfjs:
+  - id: '1738'
+    called: 29 August 2007
+  text:
+    text: An obligation on a player to not publish statements that e believes are
+      true would conflict with the right of participation in the fora.
+- cfjs:
+  - id: '1719'
+    called: 12 August 2007
+  text:
+    text: A player can, if e intends, have public messages sent on eir behalf, including
+      via a web form that allows all-comers to send messages on eir behalf without
+      specific approval.
+- cfjs:
+  - id: 1833-1834
+    called: 18 December 2007
+  text:
+    text: A player can, by contractual arrangement, grant another player the capacity
+      to act by announcement on eir behalf.
+- cfjs:
+  - id: '1893'
+    called: 3 February 2008
+  text:
+    text: A non-consensual non-contractual arrangement cannot grant a player the capacity
+      to act by announcement on behalf of another.
+- cfjs:
+  - id: '2397'
+    called: 3 March 2009
+  text:
+    text: A player can grant or revoke permission at will for another player to act
+      by announcement on eir behalf.
+- cfjs:
+  - id: '2322'
+    called: 24 December 2008
+  text:
+    text: The ability to act on behalf can be created by any willful agreement.
+- cfjs:
+  - id: '1336'
+    called: 13 December 2001
+  text:
+    text: A public statement that one wishes to perform an action that one can perform
+      by announcement can constitute an announcement that performs that action.
+- cfjs:
+  - id: '1621'
+    called: 8 February 2007
+  text:
+    text: Where an action can be performed by announcement, announcing that one deems
+      something to be the case that would result from that action does not constitute
+      performing the action.
+- cfjs:
+  - id: '1584'
+    called: 24 February 2006
+  - ", "
+  - id: '1728'
+    called: 20 August 2007
+  - ":"
+  - 
+  text:
+    text: ' Saying "I do X 1000 times", where X is something that can be done by announcement,
+      is an acceptable shorthand for 1000 instances of "I do X", but this shorthand
+      cannot be used with an infinite repeat count, because it is impossible to write
+      out an infinite number of instances of "I do X".'
+- cfjs:
+  - id: '1774'
+    called: 1 November 2007
+  text:
+    text: Saying "I do X 10000 times", where X is something that can be done by announcement,
+      does not necessarily achieve 10000 instances of X, if writing out 10000 instances
+      of "I do X" would be a substantial effort such that using the shorthand is abusive.  The
+      presumption is in favour of the shorthand being successful.
+- cfjs:
+  - id: '1775'
+    called: 1 November 2007
+  text:
+    text: If an announcement of the form "I do X N times" is not be acceptable shorthand
+      for N instances of "I do X", then the announcement is completely nullified,
+      and does not have the effect of M instances of "I do X" for any non-zero repeat
+      count M.
+- cfjs:
+  - id: '1730'
+    called: 22 August 2007
+  text:
+    text: An appropriate announcement will accomplish an action even if its author
+      believed the action was impossible.
+- cfjs:
+  - id: '1841'
+    called: 20 December 2007
+  text:
+    text: A message-based action cannot be retroactive.
+- cfjs:
+  - id: '1971'
+    called: 22 May 2008
+  text:
+    text: An announcement with a general disclaimer as to its contents cannot fulfill
+      a requirement to report information, but it may successfully cause game actions
+      to be taken if the actions do not depend on the truth value of the disclaimed
+      contents.
+- cfjs:
+  - id: '2133'
+    called: 9 August 2008
+  text:
+    text: A disclaimed statement cannot cause an action to be taken by announcement.
+- cfjs:
+  - id: '2112'
+    called: 23 July 2008
+  text:
+    text: An action is only taken by announcement if the Rules define it as such;
+      e.g., posting an objection to a dependent action is not an action taken by announcement.
+- cfjs:
+  - id: '2151'
+    called: 5 September 2008
+  text:
+    text: Some unregulated actions, such as celebrating and revealing things, can
+      be taken by announcement.
+- cfjs:
+  - id: '2086'
+    called: 15 July 2008
+  text:
+    text: Message-based actions are always taken in some order, never precisely simultaneously,
+      possibly unless otherwise stated.
+- cfjs:
+  - id: '2179'
+    called: 23 September 2008
+  text:
+    text: An message-based action can be taken even if its sender cannot be identified.
+- cfjs:
+  - id: '2221'
+    called: 13 October 2008
+  text:
+    text: When an action is specified as "can do X in order to do Y", and a player
+      does X without specifying intent to do Y, e does not do Y.
+- cfjs:
+  - id: '2238'
+    called: 22 October 2008
+  text:
+    text: The requirement of unambiguous specification applies to the parameters of
+      an action.
+- cfjs:
+  - id: '2363'
+    called: 1 February 2009
+  text:
+    text: '"X can do Y by doing Z" does not imply that X can do Z.'
+- cfjs:
+  - id: '2441'
+    called: 6 April 2009
+  text:
+    text: Due to a limitation of the mailing list archives, attaching a message with
+      a particular text does not count as publishing that text.
+- cfjs:
+  - id: '3025'
+    called: 15 May 2011
+  text:
+    text: If it is clear what he did, then it must be clear what he did; if it is
+      not clear what he did, then it is not clear what he did.
+- cfjs:
+  - id: '3106'
+    called: 19 October 2011
+  text:
+    text: When a person announces that "e performs" an action, the referent of "e"
+      (i.e. eir identity) must be clear.
+- cfjs:
+  - id: '3002'
+    called: 19 April 2011
+  text:
+    text: A message of the form "This statement causes {action}" is ineffective as
+      a way to perform {action}, and may be an attempt to act on behalf of the statement.
+- cfjs:
+  - id: '2899'
+    called: 12 November 2010
+  text:
+    text: A player's real name does not necessary identify em.
+id: 478
+rev: 33
+power: 3

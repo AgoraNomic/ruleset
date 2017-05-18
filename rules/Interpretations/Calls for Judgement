@@ -1,0 +1,66 @@
+---
+name: Calls for Judgement
+history:
+- Initial Mutable Rule 213, Jun. 30 1993
+- Amended by Proposal 407 (Alexx), Sep. 3 1993
+- Amended by Proposal 991, ca. Aug. 12 1994
+- Amended by Rule 750, ca. Aug. 12 1994
+- Infected and amended(1) by Rule 1454, Oct. 23 1995
+- Amended(2) by Proposal 2042, Dec. 11 1995
+- Amended(3) by Proposal 2457, Feb. 16 1996
+- Mutated from MI=1 to MI=2 by Proposal 2669, Sep. 19 1996
+- Amended(4) by Proposal 4170 (Elysion), 26 June 2001
+- Amended(5) by Proposal 4298 (Murphy), 17 May 2002
+- Amended(6) by Proposal 4867 (Goethe), 27 August 2006
+- Amended(7) by Proposal 5015 (Zefram), 24 June 2007
+- Retitled by Proposal 5086 (Zefram), 1 August 2007
+- Amended(8) by Proposal 5086 (Zefram), 1 August 2007
+- Amended(9) by Proposal 5110 (Murphy), 2 August 2007
+- Amended(10) by Proposal 5317 (Murphy), 28 November 2007
+- Amended(11) by Proposal 5464 (Murphy), 13 March 2008
+- Assigned to Committee on the Judiciary by Proposal 6053 (Murphy,
+- "  woggle, ais523), 23 January 2009"
+- Amended(12) by Proposal 7050 (omd), 16 May 2011
+- Retitled and amended(13) by Proposal 7616 (G.), 16 January 2014
+- Amended(14) by Proposal 7629 (scshunt), 7 April 2014
+- Amended(15) by Proposal 7647 (omd), 3 June 2014
+- Amended(16) by Proposal 7777 (omd, G.), 14 August 2015
+- Amended(17) by Proposal 7803 (G.), 31 July 2016
+text: |
+  Any person (the initiator) can initiate a Call for Judgement
+  (CFJ, syn. Judicial Case) by announcement, specifying a
+  statement to be inquired into.  E may optionally bar one person
+  from the case.
+
+  At any time, each CFJ is either open (default), suspended, or
+  assigned exactly one judgement.
+
+  The Arbitor is an office, responsible for the administration of
+  justice in a manner that is fair for emself, if not for the rest
+  of Agora.
+
+  When a CFJ has no judge assigned, the Arbitor CAN assign any
+  player to be its judge by announcement, and SHALL do so within a
+  week.  The players eligible to be assigned as judge are all
+  players except the initiator and the person barred (if any).
+  The Arbitor SHALL assign judges over time such that all
+  interested players have reasonably equal opportunities to judge.
+  If a CFJ has no judge assigned, then any player eligible to
+  judge that CFJ CAN assign it to emself Without 3 Objections.
+cfjs:
+- cfjs:
+  - id: 1692-1693
+    called: 20 June 2007
+  text:
+    text: A CFJ can be unambiguously referenced by using the customarily-assigned
+      sequence numbers, even if the number was not assigned in the public forum, provided
+      that those involved accept it as unambiguous at the time.
+- cfjs:
+  - id: '1355'
+    called: 28 April 2002
+  text:
+    text: Titles for CFJs are unregulated, so it is possible for a title to be assigned
+      to a CFJ informally.
+id: 991
+rev: 17
+power: 2

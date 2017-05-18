@@ -1,0 +1,29 @@
+---
+name: Death and Birth of Organizations
+history:
+- Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
+- Amended(1) by Proposal 7794 (Murphy), 12 Februray 2016
+- Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
+text: |
+  The Income Floor is 50.
+
+  If an Organization's Income is ever lower than the Income Floor,
+  then any player CAN destroy it by announcement, and the Secretary
+  SHALL do so in a timely fashion if the situation persists.
+
+  If a player's Expenditure is at most the Income Cap minus the
+  Income Floor, and e is not on Lockout, then e CAN create an
+  Organization by announcement, specifying a name for that
+  Organization that is unique among Organizations, and a Charter.
+  When an organization is created this way, its Charter is set to
+  the value that e specified, and the Budget switch for that
+  player and Organization is set to the Income Floor.
+
+  Notwithstanding the above, a player CANNOT create more than one
+  Organization in a day, and CANNOT create Organizations while e
+  is a member of an Organization with an Income lower than the
+  Income Floor.
+cfjs: []
+id: 2461
+rev: 2
+power: 1.2

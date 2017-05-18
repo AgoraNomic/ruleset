@@ -1,0 +1,25 @@
+---
+name: Voting Strength
+history:
+- Created by Proposal 7629 (scshunt), 7 April 2014
+- Amended(1) by Proposal 7816 (Alexis, o, aranea), 28 October 2016
+- Amended(2) by Proposal 7831 (Alexis), 5 December 2016
+text: |
+  The voting strength of an entity on an Agoran decision is an
+  integer between 0 and 5 inclusive, defined by rules of power 2
+  or greater. If not otherwise specified, the voting strength of
+  an entity on an Agoran decision is 1.
+
+  When multiple rules set or modify an entity's voting strength on
+  an Agoran decision, it shall be determined by first applying the
+  rule(s) which set it to a specific value, using the ordinary
+  precedence of rules, and then applying the rules, other than
+  this one, which modify it, in numerical order by ID. Finally, if
+  theresult of the calculation is not an integer, it is rounded
+  up, and then if it is outside the allowable range of values for
+  voting strength, it is set to the the minimum value if it was
+  less and the maximum value if it was more.
+cfjs: []
+id: 2422
+rev: 2
+power: 3

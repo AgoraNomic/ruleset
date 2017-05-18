@@ -1,0 +1,26 @@
+---
+name: Festival Restrictions
+history:
+- Created by Proposal 7833 (ais523), 5 December 2016
+text: |
+  While Agora's Festivity is nonzero, the following apply:
+
+  (a) Non-Festive players are never considered Supporters of a
+      dependent action;
+
+  (b) Non-Festive players cannot flip the Imminence of any
+      proposal;
+
+  (c) Quorum for Agoran Decisions is equal to half the number of
+      Festive players, rounded up;
+
+  (d) Each Festive player has the maximum possible voting
+      strength. All other players have the minimum possible voting
+      strength.
+
+  While Agora's Festivity is zero, the paragraphs above have no
+  effect and are ignored.
+cfjs: []
+id: 2481
+rev: 0
+power: 2.1

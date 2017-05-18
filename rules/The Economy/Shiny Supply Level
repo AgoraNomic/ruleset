@@ -1,0 +1,13 @@
+---
+name: Shiny Supply Level
+history:
+- Created by Proposal 7842 (nichdel, o), 1 March 2017
+text: |
+  The Supply Level is 1000.
+
+  When the Supply Level is changed, Agora's Balance is increased
+  or decreased such that all Balances add up to the Supply Level.
+cfjs: []
+id: 2487
+rev: 0
+power: 2

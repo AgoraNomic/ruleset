@@ -1,0 +1,112 @@
+---
+name: Dependent Actions
+history:
+- Created by Proposal 3521 (Chuck), Jun. 23 1997
+- Infected and Amended(1) by Rule 1454, Nov. 2 1997, substantial
+- "  (unattributed)"
+- Amended(2) by Rule 1728, Nov. 16 1997, substantial
+- Amended(3) by Proposal 3812 (Steve), Dec. 21 1998
+- Amended(4) by Proposal 3836 (General Chaos), Mar. 2 1999
+- Amended(5) by Proposal 3950 (harvel), Dec. 8 1999
+- Amended(6) by Proposal 3973 (harvel), Feb. 14 2000
+- Amended(7) by Proposal 3991 (Steve), Mar. 30 2000
+- Amended(8) by Proposal 4011 (Wes), Jun. 1 2000
+- Power changed from 1 to 2 by Proposal 4121 (Ziggy), Mar. 16 2001
+- Amended(9) by Proposal 4121 (Ziggy), Mar. 16 2001
+- Amended(10) by Proposal 4279 (harvel), 3 April 2002
+- Amended(11) by Proposal 4461 (Maud), 17 March 2003
+- Amended(12) by Proposal 4915 (Murphy), 2 April 2007
+- Amended(13) by Proposal 4981 (Zefram), 31 May 2007
+- Amended(14) by Proposal 4999 (Zefram), 12 June 2007
+- Amended(15) by Proposal 5007 (Zefram), 18 June 2007
+- Amended(16) by Proposal 5113 (Murphy, Maud), 2 August 2007
+- Amended(17) by Proposal 5370 (Zefram), 20 December 2007
+- Amended(18) by Proposal 5445 (Goethe, Murphy), 21 February 2008
+- Amended(19) by Proposal 5543 (Murphy, Pavitra, root), 16 June 2008
+- Amended(20) by Proposal 5775 (Murphy), 17 October 2008
+- Amended(21) by Proposal 5818 (comex), 1 November 2008
+- Power changed from 2 to 3 by Proposal 5947 (ais523), 15 November 2008
+- Amended(22) by Proposal 5995 (Murphy), 7 December 2008
+- Amended(23) by Proposal 6041 (Murphy, Warrigal), 13 January 2009
+- Amended(24) by Proposal 6204 (Murphy), 27 April 2009
+- Amended(25) by Proposal 6437 (Murphy), 18 August 2009
+- Amended(26) by Proposal 6448 (BobTHJ), 27 August 2009
+- Amended(27) by Proposal 6474 (c.), 15 September 2009
+- Amended(28) by Proposal 6512 (c.; disi.), 3 October 2009
+- Amended(29) by Proposal 6619 (Murphy; disi.), 4 February 2010
+- Amended(30) by Proposal 6650 (coppro), 10 March 2010
+- Amended(31) by Proposal 6981 (Murphy, omd), 10 April 2011
+- Amended(32) by Proposal 7045 (Walker), 16 May 2011
+- Amended(33) by Proposal 7606 (G.), 13 December 2013
+- Amended(34) by Proposal 7815 (Alexis, aranea), 28 October 2016
+- Amended(35) by Proposal 7840 (G.), 1 March 2017
+text: |
+  A rule which purports to allow a person (the performer) to
+  perform an action by a set of one or more of the following
+  methods (N is 1 unless otherwise specified):
+
+   1) Without N Objections, where N is a positive integer no
+      greater than 8.  ("Without Objection" is shorthand for this
+      method with N = 1.)
+   2) With N Supporters, where N is a positive integer.  ("With
+      Support" is shorthand for this method with N = 1.)
+   3) With N Agoran Consent, where N is an integer multiple of 0.1
+      with a minimum of 1.
+   4) With Notice.
+   5) With T Notice, where T is a time period.
+
+  thereby allows em to perform the action by announcement if all
+  of the following are true:
+
+   a) A person (the initiator) announced intent to perform the
+      action, unambiguously and clearly specifying the action and
+      method(s) (including the value of N and/or T for each
+      method), at most fourteen days earlier.
+
+   b) If the action is to be performed With N Objections, With N
+      Agoran Consent, or With Notice, if the intent was announced
+      at least 4 days earlier.
+
+   c) If the action is to be performed With T Notice, if the
+      intent was announced at least T earlier.
+
+   d) At least one of the following is true:
+
+        1) The performer is the initiator.
+
+        2) The initiator was authorized to perform the action due
+           to holding a rule-defined position now held by the
+           performer.
+
+        3) The initiator is authorized to perform the action, the
+           action depends on support, the performer has supported
+           the intent, and the rule authorizing the performance
+           does not explicitly prohibit supporters from performing
+           it.
+
+   e) Agora is Satisfied with the announced intent, as defined by
+      other rules.
+
+   f) If a set of conditions for the performance of the action was
+      given in the announcement of intent to perform the action,
+      all those conditions are met.
+
+  The actor SHOULD publish a list of supporters if the action
+  depends on support, and a list of objectors if it depends on
+  objections.
+cfjs:
+- cfjs:
+  - id: '1722'
+    called: 15 August 2007
+  text:
+    text: 'The method of dependent action need not be described exactly: an approximate
+      but inexact description suffices, as does the rule-defined term.'
+- cfjs:
+  - id: '1802'
+    called: 19 November 2007
+  text:
+    text: The phrase "by Agoran Support" is not an unambiguous description of a method
+      of dependent action.
+id: 1728
+rev: 35
+power: 3

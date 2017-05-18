@@ -1,0 +1,100 @@
+---
+name: Adopting Proposals
+history:
+- Initial Immutable Rule 106, Jun. 30 1993
+- Mutated from MI=Unanimity to MI=3 by Proposal 1073, Oct. 4 1994
+- Amended by Proposal 1278, Oct. 24 1994
+- Renumbered from 1073 to 106 by Rule 1295, Nov. 1 1994
+- Infected, but not amended, by Rule 1454, May 7 1995
+- Amended(1) by Proposal 3736 (Blob), May 3 1998
+- Amended(2) by Proposal 4811 (Maud, Goethe), 20 June 2005
+- Amended(3) by Proposal 4868 (Goethe), 27 August 2006
+- Amended(4) by Proposal 4918 (OscarMeyr), 2 April 2007
+- Amended(5) by Proposal 4939 (Murphy), 29 April 2007
+- Amended(6) by Proposal 5010 (Levi), 24 June 2007
+- Amended(7) by Proposal 5078 (Zefram), 18 July 2007
+- Amended(8) by Proposal 5083 (Zefram), 1 August 2007
+- Amended(9) by Proposal 5334 (Murphy), 5 December 2007
+- Amended(10) by Proposal 5356 (root), 16 December 2007
+- Amended(11) by Proposal 5418 (root), 2 February 2008
+- Amended(12) by Proposal 5453 (Murphy), 1 March 2008
+- Amended(13) by Proposal 5572 (Murphy), 4 July 2008
+- Amended(14) by Proposal 6001 (Goethe), 7 December 2008
+- Amended(15) by Proposal 6022 (Murphy), 22 December 2008
+- Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle,
+- "  ais523), 23 January 2009"
+- Amended(16) by cleaning (comex), 12 February 2009
+- Amended(17) by Proposal 6089 (Goethe), 22 February 2009
+- Amended(18) by Proposal 6090 (Murphy, ais523), 22 February 2009
+- Amended(19) by Proposal 6113 (Goethe), 1 March 2009
+- Amended(20) by Proposal 6222 (coppro), 27 April 2009
+- Amended(21) by Proposal 6398 (C-walker; disi.), 17 July 2009
+- Amended(22) by Proposal 6414 (C-walker), 8 August 2009
+- Amended(23) by Proposal 6469 (coppro; disi.), 15 September 2009
+- Amended(24) by Proposal 6571 (ais523), 28 November 2009
+- Amended(25) by Proposal 6625 (Murphy), 20 February 2010
+- Amended(26) by Proposal 6656 (coppro), 1 March 2010
+- Amended(27) by Proposal 6721 (coppro; disi), 21 May 2010
+- Amended(28) by Proposal 6732 (comex), 13 June 2010
+- Amended(29) by Proposal 6823 (Murphy, omd), 10 September 2010
+- Amended(30) by Proposal 6968 (Murphy, scshunt, Wooble), 20 March 2011
+- Amended(31) by Proposal 7013 (omd), 23 April 2011
+- Amended(32) by Proposal 7081 (Murphy), 4 July 2011
+- Amended(33) by Proposal 7083 (Walker), 4 July 2011
+- Amended(34) by Proposal 7086 (G., omd), 23 July 2011
+- Amended(35) by Proposal 7246 (omd), 10 June 2012
+- Amended(36) by Proposal 7778 (scshunt), 14 August 2014
+text: |
+  When a decision about whether to adopt a proposal is resolved,
+  if the outcome is ADOPTED, then the proposal in question is
+  adopted, and unless other rules prevent it from taking effect,
+  its power is set to the minimum of four and its adoption index,
+  and then it takes effect.  Except as prohibited by other rules,
+  a proposal that takes effect CAN and does, as part of its
+  effect, apply the changes that it specifies.  If the proposal
+  cannot make some such changes, this does not preclude the other
+  changes from taking place.
+
+  If there is no Agoran Decision to adopt a particular proposal
+  that has an outcome of ADOPTED, that proposal CANNOT take
+  effect, rules to the contrary notwithstanding.
+
+  Preventing a proposal from taking effect is a secured change;
+  this does not apply to generally preventing changes to specified
+  areas of the gamestate, nor to a proposal preventing itself from
+  taking effect (its no-effect clause is generally interpreted as
+  applying only to the rest of the proposal).
+cfjs:
+- cfjs:
+  - id: '1639'
+    called: 29 April 2007
+  text:
+    text: Where a proposal attempts two separate amendments of the text of the same
+      rule, if one of the attempted amendments is not possible and the other is then
+      the possible amendment does in fact occur, unless the proposal explicitly requires
+      a different resolution.
+- cfjs:
+  - id: '1841'
+    called: 20 December 2007
+  text:
+    text: It is possible for a proposal to have retroactive effect.
+- cfjs:
+  - id: '2162'
+    called: 14 September 2008
+  text:
+    text: The retroactive effect of a proposal cannot actually alter the past.
+- cfjs:
+  - id: '2163'
+    called: 14 September 2008
+  text:
+    text: There is no possible proposal text that would cause a proposal to take effect
+      without being adopted.
+- cfjs:
+  - id: '2259'
+    called: 6 November 2008
+  text:
+    text: The possibility of the instantaneous effects of a proposal are governed
+      by the rules.
+id: 106
+rev: 36
+power: 3
