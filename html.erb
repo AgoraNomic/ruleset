@@ -1,0 +1,179 @@
+<%
+require 'yaml'
+require 'ostruct'
+require 'redcarpet'
+index = YAML.load_file('rules/index')
+rule_groups = index.map do |name, rule_names|
+  OpenStruct.new(name: name, rules: rule_names.map do |rn|
+    OpenStruct.new(YAML.load_file("rules/#{name}/#{rn}"))
+  end)
+end
+
+meta = YAML.load_file('rules/meta')
+keywords = YAML.load_file('rules/keywords')
+
+def linkify(text, keywords)
+  t = text.dup
+  keywords.each do |kw, rule|
+    # lowercase keywords are case insensitive
+    re = if (kw.downcase == kw)
+      / (#{kw}) /i
+    else
+      / (#{kw}) /
+    end
+    t.gsub! re, " [\\1](#Rule#{rule}) "
+  end
+  t
+end
+
+def word_wrap(text, options = {})
+  line_width = options.fetch(:line_width, 80)
+
+  text.split("\n").collect! do |line|
+    line.length > line_width ? line.gsub(/(.{1,#{line_width}})(\s+|$)/, "\\1\n").strip : line
+  end * "\n"
+end
+
+markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+%>
+
+<!doctype html>
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <style>
+
+    .fixed {
+      position: fixed;
+    }
+
+    /* sidebar */
+    .bs-docs-sidebar {
+      padding-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* all links */
+    .bs-docs-sidebar .nav>li>a {
+      color: #999;
+      border-left: 2px solid transparent;
+      padding: 4px 20px;
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    /* nested links */
+    .bs-docs-sidebar .nav .nav>li>a {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 30px;
+      font-size: 12px;
+    }
+
+    /* active & hover links */
+    .bs-docs-sidebar .nav>.active>a, 
+    .bs-docs-sidebar .nav>li>a:hover, 
+    .bs-docs-sidebar .nav>li>a:focus {
+      color: #563d7c;                 
+      text-decoration: none;          
+      background-color: transparent;  
+      border-left-color: #563d7c; 
+    }
+    /* all active links */
+    .bs-docs-sidebar .nav>.active>a, 
+    .bs-docs-sidebar .nav>.active:hover>a,
+    .bs-docs-sidebar .nav>.active:focus>a {
+      font-weight: 700;
+    }
+    /* nested active links */
+    .bs-docs-sidebar .nav .nav>.active>a, 
+    .bs-docs-sidebar .nav .nav>.active:hover>a,
+    .bs-docs-sidebar .nav .nav>.active:focus>a {
+      font-weight: 500;
+    }
+
+    /* hide inactive nested list */
+    .bs-docs-sidebar .nav ul.nav {
+      display: none;           
+    }
+    /* show active nested list */
+    .bs-docs-sidebar .nav>.active>ul.nav {
+      display: block;           
+    }
+
+    /*Header formatting */
+    .MainContent {
+      margin-top: 50px;
+    }
+    .group, .rule {
+      padding-top: 50px;
+      margin-top: -50px;
+    }
+
+  </style>
+  <script>
+    $(function() {
+      $('body').scrollspy({
+        target: '.bs-docs-sidebar',
+        offset: 40
+      });
+    })
+  </script>
+</head>
+<body>
+  <!-- Top Navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Agora Ruleset</a>
+      </div>
+    </div>
+  </div>
+
+  <div class='container'>
+    <!-- Main Content -->
+    <div class="row MainContent">
+      <!--Side Nav Bar -->
+      <nav class="col-xs-3 bs-docs-sidebar">
+        <ul id="sidebar" class="nav nav-stacked fixed">
+          <% rule_groups.each do |group| %>
+          <li>
+            <a href="#<%= group.name.gsub(/[^A-Za-z]/, '') %>"><%= group.name %></a>
+            <ul class="nav nav-stacked">
+              <% group.rules.each do |rule| %>
+              <li><a href="#Rule<%=rule.id%>"><%=rule.name%></a></li>
+              <% end %>
+            </ul>
+          </li>
+          <% end %>
+        </ul>
+      </nav>
+
+      <!--Main Content -->
+      <div class="col-xs-9">
+        <% rule_groups.each do |group| %>
+        <section id="<%= group.name.gsub(/[^A-Za-z]/, '') %>" class="group">
+          <h3><%=group.name%></h3>
+          <% group.rules.each do |rule| %>
+          <div id="Rule<%=rule.id%>" class="rule">
+          <h4><%=rule.name%> <span class="label label-default"><%=rule.id%></span>  <span class="label label-default"><%=rule.power%></span></h4>
+            <% if rule.no_markdown || !rule.text %>
+            <pre><%=rule.text%></pre>
+            <% else %>
+            <%= markdown.render(linkify(rule.text, keywords)) %>
+            <% end %>
+          </div>
+          <%end%>
+        </section> 
+        <% end %> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
