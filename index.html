@@ -2460,16 +2460,24 @@ to the contrary notwithstanding.</p>
           <div id="Rule2484" class="rule">
           <h4>Payday <span class="label label-default">2484</span>  <span class="label label-default">1</span></h4>
             
-            <p>Payrate is an <a href="#Rule1006">office</a> switch, tracked by the ADoP, with a
-default value of 10 and possible values of positive integers.</p>
+            <p>Payrate is a natural <a href="#Rule1006">office</a> switch, tracked by the ADoP, with a
+default value of 2. <a href="#Rule2143">Report</a> Rate is a natural <a href="#Rule1006">office</a> switch,
+tracked by the ADoP, with a default value of 2.</p>
 
-<p>At the start of each month, if Agora&#39;s <a href="#Rule2483">Balance</a> is not 0 or
-less, Agora <a href="#Rule2152">SHALL</a> pay each <a href="#Rule869">player</a> 10 shinies. Immediately
-afterward, if Agora&#39;s <a href="#Rule2483">Balance</a> is not 0 or less, Agora SHALL
-pay each <a href="#Rule869">player</a> who holds an <a href="#Rule1006">office</a> the office&#39;s Payrate
-value, in ascending order of <a href="#Rule2484">Payrate</a> (breaking ties
-alphabetically by office) until all are paid or paying the
-next <a href="#Rule1006">office</a> would leave Agora&#39;s <a href="#Rule2483">balance</a> at 0 or less.</p>
+<p>At the start of each month, if Agora&#39;s <a href="#Rule2483">Balance</a> is not 0 or less,
+Agora <a href="#Rule2152">SHALL</a> pay each <a href="#Rule869">player</a> 10 shinies.</p>
+
+<p>Immediately afterward, for each duty-fulfilling <a href="#Rule2143">report</a> published
+last <a href="#Rule1023">month</a> (in chronological order of publication), Agora SHALL
+pay the publisher of the <a href="#Rule2143">report</a> the <a href="#Rule2143">Report</a> Rate for the office
+the <a href="#Rule2143">report</a> is associated with unless paying would leave Agora&#39;s
+balance at a negative value.</p>
+
+<p>Immediately afterward, for each <a href="#Rule1006">office</a> (first in ascending order
+of Payrate, then in descending alphabetical order of office
+name), Agora <a href="#Rule2152">SHALL</a> pay the holder of the <a href="#Rule1006">office</a> that office&#39;s
+Payrate value unless paying would leave Agora&#39;s <a href="#Rule2483">balance</a> at a
+negative value.</p>
 
             
           </div>
