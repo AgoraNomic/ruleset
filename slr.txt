@@ -96,11 +96,11 @@ Fora
       The Registrar may change the publicity of a forum without
       objection as long as:
 
-      (a) e sends eir announcement of intent to that forum; and
+      1. e sends eir announcement of intent to that forum; and
 
-      (b) if the forum is to be made public, the announcement by which
-          the Registrar makes that forum public is sent to all
-          existing public fora.
+      2. if the forum is to be made public, the announcement by which
+         the Registrar makes that forum public is sent to all
+         existing public fora.
 
       Each player should ensure e can receive messages via each public
       forum.
@@ -198,15 +198,15 @@ Power Controls Mutability
 
       No entity with power below the power of this rule can
 
-      (a) cause an entity to have power greater than its own.
+      1. cause an entity to have power greater than its own.
 
-      (b) adjust the power of an instrument with power greater than
-          its own.
+      2. adjust the power of an instrument with power greater than
+         its own.
 
-      (c) set or modify any other substantive aspect of an instrument
-          with power greater than its own.  A "substantive" aspect of
-          an instrument is any aspect that affects the instrument's
-          operation.
+      3. set or modify any other substantive aspect of an instrument
+         with power greater than its own.  A "substantive" aspect of
+         an instrument is any aspect that affects the instrument's
+         operation.
 
 ----------------------------------------------------------------------
 
@@ -272,34 +272,34 @@ Rule Changes
       Where permitted by other rules, an instrument generally can,
       as part of its effect,
 
-      (a) enact a rule.  The new rule has power equal to the minimum
-          of the power specified by the enacting instrument,
-          defaulting to one if the enacting instrument does not
-          specify or if it specifies a power less than 0.1, and the
-          maximum power permitted by other rules.  The enacting
-          instrument may specify a title for the new rule, which if
-          present shall prevail.  The ID number of the new rule cannot
-          be specified by the enacting instrument; any attempt to so
-          specify is null and void.
+      1. enact a rule.  The new rule has power equal to the minimum
+         of the power specified by the enacting instrument,
+         defaulting to one if the enacting instrument does not
+         specify or if it specifies a power less than 0.1, and the
+         maximum power permitted by other rules.  The enacting
+         instrument may specify a title for the new rule, which if
+         present shall prevail.  The ID number of the new rule cannot
+         be specified by the enacting instrument; any attempt to so
+         specify is null and void.
 
-      (b) repeal a rule.  When a rule is repealed, it ceases to be a
-          rule, and the Rulekeepor need no longer maintain a record
-          of it.
+      2. repeal a rule.  When a rule is repealed, it ceases to be a
+         rule, and the Rulekeepor need no longer maintain a record
+         of it.
 
-      (c) reenact a rule.  A repealed rule identified by its most
-          recent rule number may be reenacted with the same ID number
-          and the next change identifier.  If no text is specified,
-          the rule is reenacted with the same text it had when it was
-          most recently repealed.  If the reenacting proposal provides
-          new text for the rule, the rule must have materially the
-          same purpose as did the repealed version; otherwise, the
-          attempt to reenact the rule is null and void.
+      3. reenact a rule.  A repealed rule identified by its most
+         recent rule number may be reenacted with the same ID number
+         and the next change identifier.  If no text is specified,
+         the rule is reenacted with the same text it had when it was
+         most recently repealed.  If the reenacting proposal provides
+         new text for the rule, the rule must have materially the
+         same purpose as did the repealed version; otherwise, the
+         attempt to reenact the rule is null and void.
 
-      (d) amend the text of a rule.
+      4. amend the text of a rule.
 
-      (e) retitle a rule.
+      5. retitle a rule.
 
-      (f) change the power of a rule.
+      6. change the power of a rule.
 
       A rule change is any effect that falls into the above classes.
       Rule changes always occur sequentially, never simultaneously.
@@ -353,14 +353,14 @@ Switches
       A type of switch is a property that the rules define as a
       switch, and specify the following:
 
-      a) The type(s) of entity possessing an instance of that switch.
+      1. The type(s) of entity possessing an instance of that switch.
          No other entity possesses an instance of that switch.
 
-      b) One or more possible values for instances of that switch,
+      2. One or more possible values for instances of that switch,
          exactly one of which is designated as the default.  No other
          values are possible for instances of that switch.
 
-      c) Optionally, exactly one office whose holder tracks instances
+      3. Optionally, exactly one office whose holder tracks instances
          of that switch.  That officer's (weekly, if not specified
          otherwise) report includes the value of each instance of that
          switch whose value is not its default value; a public
@@ -406,49 +406,49 @@ Dependent Actions
       perform an action by a set of one or more of the following
       methods (N is 1 unless otherwise specified):
 
-       1) Without N Objections, where N is a positive integer no
+       1. Without N Objections, where N is a positive integer no
           greater than 8.  ("Without Objection" is shorthand for this
           method with N = 1.)
-       2) With N Supporters, where N is a positive integer.  ("With
+       2. With N Supporters, where N is a positive integer.  ("With
           Support" is shorthand for this method with N = 1.)
-       3) With N Agoran Consent, where N is an integer multiple of 0.1
+       3. With N Agoran Consent, where N is an integer multiple of 0.1
           with a minimum of 1.
-       4) With Notice.
-       5) With T Notice, where T is a time period.
+       4. With Notice.
+       5. With T Notice, where T is a time period.
 
       thereby allows em to perform the action by announcement if all
       of the following are true:
 
-       a) A person (the initiator) announced intent to perform the
+       1. A person (the initiator) announced intent to perform the
           action, unambiguously and clearly specifying the action and
           method(s) (including the value of N and/or T for each
           method), at most fourteen days earlier.
 
-       b) If the action is to be performed With N Objections, With N
+       2. If the action is to be performed With N Objections, With N
           Agoran Consent, or With Notice, if the intent was announced
           at least 4 days earlier.
 
-       c) If the action is to be performed With T Notice, if the
+       3. If the action is to be performed With T Notice, if the
           intent was announced at least T earlier.
 
-       d) At least one of the following is true:
+       4. At least one of the following is true:
 
-            1) The performer is the initiator.
+            1. The performer is the initiator.
 
-            2) The initiator was authorized to perform the action due
+            2. The initiator was authorized to perform the action due
                to holding a rule-defined position now held by the
                performer.
 
-            3) The initiator is authorized to perform the action, the
+            3. The initiator is authorized to perform the action, the
                action depends on support, the performer has supported
                the intent, and the rule authorizing the performance
                does not explicitly prohibit supporters from performing
                it.
 
-       e) Agora is Satisfied with the announced intent, as defined by
+       5. Agora is Satisfied with the announced intent, as defined by
           other rules.
 
-       f) If a set of conditions for the performance of the action was
+       6. If a set of conditions for the performance of the action was
           given in the announcement of intent to perform the action,
           all those conditions are met.
 
@@ -477,18 +477,18 @@ Agoran Satisfaction
       Agora is Satisfied with an intent to perform a specific action
       if and only if:
 
-      (1) if the action is to be performed Without N Objections, then
-          it has fewer than N objectors;
+      1. if the action is to be performed Without N Objections, then
+         it has fewer than N objectors;
 
-      (2) if the action is to be performed With N supporters, then it
-          has N or more supporters; and
+      2. if the action is to be performed With N supporters, then it
+         has N or more supporters; and
 
-      (3) if the action is to be performed with N Agoran Consent, then
-          the ratio of supporters to objectors is greater than N, or
-          the action has at least one supporter and no objectors.
+      3. if the action is to be performed with N Agoran Consent, then
+         the ratio of supporters to objectors is greater than N, or
+         the action has at least one supporter and no objectors.
 
-      (4) if the action is to be performed With Notice or With T
-          Notice.
+      4. if the action is to be performed With Notice or With T
+         Notice.
 
       The above notwithstanding, if the action depends on objections,
       and an objection to it has been withdrawn within the past 24
@@ -632,12 +632,12 @@ Election Procedure
       A player CAN initiate an election for a specified elected office
       for which no election is already in progress
 
-      a) by announcement, if e is the ADoP, if the office has been
+      1. by announcement, if e is the ADoP, if the office has been
          deputised for within the past two weeks, or if no election
          has been initiated for the office either since the last time
          a player won the game or within the past 90 days;
 
-      b) with 4 Supporters, otherwise.
+      2. with 4 Supporters, otherwise.
 
       After the election is initiated, any player CAN once initiate an
       Agoran decision to determine the new officeholder, and the ADoP
@@ -654,10 +654,10 @@ Office Incompatibilities
 
       Some pairs of office are incompatible:
 
-      (a) Prime Minister and Speaker
-      (b) Promotor and Assessor
-      (c) Promotor and ADoP
-      (d) Referee and Arbitor
+      1. Prime Minister and Speaker
+      2. Promotor and Assessor
+      3. Promotor and ADoP
+      4. Referee and Arbitor
 
       A player is Overpowered if e holds two offices which are
       incompatible with each other. Rules to the contrary
@@ -738,9 +738,9 @@ Expediting Proposals
       1.5, in a message containing the character string "[Expedition]"
       in the subject line,
 
-        (a) by specially deputising for the Promotor to distribute the
-            proposal, if it has not been distributed; or
-        (b) by announcement, otherwise.
+        1. by specially deputising for the Promotor to distribute the
+           proposal, if it has not been distributed; or
+        2. by announcement, otherwise.
 
       If, in an Agoran Decision to adopt a proposal, the strength of
       AGAINST is zero, and the proposal was expedited at least 7 days
@@ -829,9 +829,9 @@ Agoran Decisions
       decision-making process takes place in the following three
       stages, each described elsewhere:
 
-          (a) Initiation of the decision.
-          (b) Voting of the people.
-          (c) Resolution of the decision.
+        1. Initiation of the decision.
+        2. Voting of the people.
+        3. Resolution of the decision.
 
 ----------------------------------------------------------------------
 
@@ -844,15 +844,15 @@ Initiating Agoran Decisions
       any of the following information, and the lack is correctly
       identified within one week after the notice is published:
 
-      (a) The matter to be decided (for example, "the adoption of
-          proposal 4781").
+      1. The matter to be decided (for example, "the adoption of
+         proposal 4781").
 
-      (b) A clear indication of the set of valid votes.
+      2. A clear indication of the set of valid votes.
 
-      (c) The identity of the vote collector.
+      3. The identity of the vote collector.
 
-      (d) Any additional information defined by the rules as essential
-          parameters.
+      4. Any additional information defined by the rules as essential
+         parameters.
 
       The publication of such a valid notice initiates the voting
       period for the decision.  The voting period lasts for 7 days.
@@ -876,13 +876,13 @@ Resolving Agoran Decisions
       after the end of the voting period.  To be valid, this
       announcement must satisfy the following conditions:
 
-      (a) It is published after the voting period has ended.
+      1. It is published after the voting period has ended.
 
-      (b) It clearly identifies the matter to be resolved.
+      2. It clearly identifies the matter to be resolved.
 
-      (c) It specifies the outcome, as described elsewhere, and, if
-          there was more than one valid option, provides a tally of
-          the voters' valid ballots.
+      3. It specifies the outcome, as described elsewhere, and, if
+         there was more than one valid option, provides a tally of
+         the voters' valid ballots.
 
       Each Agoran decision has exactly one vote collector, defaulting
       to the initiator of the decision.  If the vote collector is
@@ -934,21 +934,21 @@ Voting on Agoran Decisions
       An entity submits a ballot on an Agoran decision by publishing a
       notice satisfying the following conditions:
 
-      (a) The ballot is submitted during the voting period for the
-          decision.
+      1. The ballot is submitted during the voting period for the
+         decision.
 
-      (b) The entity casting the ballot (the voter) was, at the
-          initiation of the decision, a player.
+      2. The entity casting the ballot (the voter) was, at the
+         initiation of the decision, a player.
 
-      (c) The ballot clearly identifies the matter to be decided.
+      3. The ballot clearly identifies the matter to be decided.
 
-      (d) The ballot clearly identifies a valid vote, as determined by
-          the voting method.
+      4. The ballot clearly identifies a valid vote, as determined by
+         the voting method.
 
-      (d) The ballot clearly sets forth the voter's intent to place
-          the identified vote.
+      5. The ballot clearly sets forth the voter's intent to place
+         the identified vote.
 
-      (e) The voter has no other valid ballots on the same decision.
+      6. The voter has no other valid ballots on the same decision.
 
       A valid ballot is a ballot, correctly submitted, that has not
       been withdrawn. A player CAN withdraw a ballot by announcement
@@ -1032,31 +1032,31 @@ Determining the Will of Agora
 
       The following voting methods are defined:
 
-      (1) AI-majority: the valid votes are FOR and AGAINST. Let F be
-          the total strength of all valid ballots cast FOR a decision,
-          A be the same for AGAINST, and AI be the adoption index of
-          the decision. The outcome is ADOPTED if F/A >= AI and F/A >
-          1 (or F>0 and A=0), otherwise REJECTED.
+      1. AI-majority: the valid votes are FOR and AGAINST. Let F be
+         the total strength of all valid ballots cast FOR a decision,
+         A be the same for AGAINST, and AI be the adoption index of
+         the decision. The outcome is ADOPTED if F/A >= AI and F/A >
+         1 (or F>0 and A=0), otherwise REJECTED.
 
-      (2) Instant runoff: the valid votes are ordered lists of
-          options, and the outcome is whichever option wins according
-          to the standard definition of instant runoff. For this
-          purpose, a ballot of strength N is treated as if it were N
-          distinct ballots expressing the same preferences. In case
-          multiple valid options tie for the lowest number of votes at
-          any stage, the vote collector CAN and must, in the
-          announcement of the decision's resolution, select one such
-          option to eliminate; if, for M > 1, all eir possible choices
-          in the next M stages would result in the same set of options
-          being eliminated, e need not specify the order of
-          elimination.
+      2. Instant runoff: the valid votes are ordered lists of
+         options, and the outcome is whichever option wins according
+         to the standard definition of instant runoff. For this
+         purpose, a ballot of strength N is treated as if it were N
+         distinct ballots expressing the same preferences. In case
+         multiple valid options tie for the lowest number of votes at
+         any stage, the vote collector CAN and must, in the
+         announcement of the decision's resolution, select one such
+         option to eliminate; if, for M > 1, all eir possible choices
+         in the next M stages would result in the same set of options
+         being eliminated, e need not specify the order of
+         elimination.
 
-      (3) First-past-the-post (default): the valid votes are the
-          options, and the outcome is whichever option received the
-          highest total strength of valid ballots. In case of a tie,
-          the vote collector CAN and must, in the announcement of the
-          decision's resolution, select one of the leaders as the
-          outcome.
+      3. First-past-the-post (default): the valid votes are the
+         options, and the outcome is whichever option received the
+         highest total strength of valid ballots. In case of a tie,
+         the vote collector CAN and must, in the announcement of the
+         decision's resolution, select one of the leaders as the
+         outcome.
 
       The previous notwithstanding:
 
@@ -1078,9 +1078,9 @@ Vote Protection and Cutoff for Challenges
       A public message purporting to resolve an Agoran decision
       constitutes self-ratifying claims that
 
-       a) such a decision existed,
-       b) it was resolved as indicated, and
-       c) (if the indicated outcome was to adopt a proposal) such a
+       1. such a decision existed,
+       2. it was resolved as indicated, and
+       3. (if the indicated outcome was to adopt a proposal) such a
           proposal existed, was adopted, and took effect.
 
 ----------------------------------------------------------------------
@@ -1253,57 +1253,57 @@ Common Definitions
 
       The following terms are defined:
 
-      (a) The phrase "in a timely fashion" means "within 7 days".
-          This time period is set when the requirement is created
-          (i.e. X days before the limit ends).  A requirement to
-          perform an action at an exact instant (e.g.  "when X, Y
-          SHALL Z"), but not "in the same message", is instead
-          interpreted as a requirement to perform that action in a
-          timely fashion after that instant.
+      1. The phrase "in a timely fashion" means "within 7 days".
+         This time period is set when the requirement is created
+         (i.e. X days before the limit ends).  A requirement to
+         perform an action at an exact instant (e.g.  "when X, Y
+         SHALL Z"), but not "in the same message", is instead
+         interpreted as a requirement to perform that action in a
+         timely fashion after that instant.
 
-      (b) Agoran epochs:
+      2. Agoran epochs:
 
-          (1) Agoran days begin at midnight UTC.
+          1. Agoran days begin at midnight UTC.
 
-          (2) Agoran weeks begin at midnight UTC on Monday.
+          2. Agoran weeks begin at midnight UTC on Monday.
 
-          (3) Agoran months begin at midnight UTC on the first day of
-              each Gregorian month.
+          3. Agoran months begin at midnight UTC on the first day of
+             each Gregorian month.
 
-          (4) Agoran quarters begin when the Agoran months of January,
-              April, July, and October begin.
+          4. Agoran quarters begin when the Agoran months of January,
+             April, July, and October begin.
 
-          (5) Agoran years begin when the Agoran month of January
-              begins.
+          5. Agoran years begin when the Agoran month of January
+             begins.
 
-          (5) A pivot is either the instant at which Agora Nomic began
-              (June 30, 1993, 00:04:30 GMT +1200) or an instant at
-              which at least one person won the game.  When used as a
-              period of time, a "Round" (historical syn: "game") is
-              the period of time between a pivot and the next pivot.
+          6. A pivot is either the instant at which Agora Nomic began
+             (June 30, 1993, 00:04:30 GMT +1200) or an instant at
+             which at least one person won the game.  When used as a
+             period of time, a "Round" (historical syn: "game") is
+             the period of time between a pivot and the next pivot.
 
           These definitions do not apply to relative durations (e.g.
           "within <number> days after <event>").
 
-      (c) If a regulated value, or the value of a conditional, or a
-          value otherwise required to determine the outcome of a
-          regulated action, CANNOT be reasonably determined (without
-          circularity or paradox) from information reasonably
-          available, or if it alternates instantaneously and
-          indefinitely between values, then the value is considered to
-          be Indeterminate, otherwise it is Determinate.
+      3. If a regulated value, or the value of a conditional, or a
+         value otherwise required to determine the outcome of a
+         regulated action, CANNOT be reasonably determined (without
+         circularity or paradox) from information reasonably
+         available, or if it alternates instantaneously and
+         indefinitely between values, then the value is considered to
+         be Indeterminate, otherwise it is Determinate.
 
-      (d) Two points in time are within a month of each other if:
+      4. Two points in time are within a month of each other if:
 
-          (1) they occur in the same Agoran month;
+          1. they occur in the same Agoran month;
 
-          (2) they occur in two consecutive Agoran months, and the
-              later of the two occurs in an earlier day in the month
-              than the earlier one;
+          2. they occur in two consecutive Agoran months, and the
+             later of the two occurs in an earlier day in the month
+             than the earlier one;
 
-          (3) they occur in two consecutive Agoran months on the same
-              day of the month, and the later of the two occurs at the
-              same or earlier time of day.
+          3. they occur in two consecutive Agoran months on the same
+             day of the month, and the later of the two occurs at the
+             same or earlier time of day.
 
 ----------------------------------------------------------------------
 
@@ -1401,6 +1401,7 @@ Vigilante Justice
       When a player Points a Finger, the investigator SHALL
       investigate the allegation and, in a timely fashion, SHALL
       conclude the investigation by:
+
        - issuing a Card to the pointed-at player by announcement whose
          reason is rooted in the allegation;
 
@@ -1584,13 +1585,13 @@ The Logical Rulesets
       Whenever a rule is changed in any way, the Rulekeepor SHALL
       record a historical annotation to the rule indicating:
 
-      a) The type of change.
+      1. The type of change.
 
-      b) The date on which the change took effect.
+      2. The date on which the change took effect.
 
-      c) The mechanism that specified the change.
+      3. The mechanism that specified the change.
 
-      d) If the rule was changed due to a proposal, then that
+      4. If the rule was changed due to a proposal, then that
          proposal's ID number, author, and co-author(s) (if any).
 
 ----------------------------------------------------------------------
@@ -1619,11 +1620,11 @@ Cleanup Time
       The Rulekeepor CAN, without objection, cause this rule to amend
       any specified rule by:
 
-        a) Changing the capitalization of a word, except to or from
+        1. Changing the capitalization of a word, except to or from
            all caps.
-        b) Changing visual formatting (such as the layout and
+        2. Changing visual formatting (such as the layout and
            bulleting of a list).
-        c) Correcting formatting inconsistencies (such as doubled or
+        3. Correcting formatting inconsistencies (such as doubled or
            skipped items in a list).
 
       Such a change SHALL NOT be made if it would plausibly affect the
@@ -1640,14 +1641,14 @@ Official Reports and Duties
 
       For each person:
 
-      a) If any task is defined by the rules as part of that person's
+      1. If any task is defined by the rules as part of that person's
          weekly duties, then e SHALL perform it at least once each
          week.  If any information is defined by the rules as part of
          that person's weekly report, then e SHALL maintain all such
          information, and the publication of all such information is
          part of eir weekly duties.
 
-      b) If any task is defined by the rules as part of that person's
+      2. If any task is defined by the rules as part of that person's
          monthly duties, then e SHALL perform it at least once each
          month.  If any information is defined by the rules as part of
          that person's monthly report, then e SHALL maintain all such
@@ -1696,11 +1697,11 @@ Deputisation
       office thereby allows them to perform the action as if e held
       the office, as long as
 
-        (a) it would be POSSIBLE for the deputy to perform the action,
-            other than by deputisation, if e held the office, and
+        1. it would be POSSIBLE for the deputy to perform the action,
+           other than by deputisation, if e held the office, and
 
-        (b) the deputy, when performing the action, announces that e
-            is doing so by the appropriate form of deputisation.
+        2. the deputy, when performing the action, announces that e
+           is doing so by the appropriate form of deputisation.
 
       Only this rule may allow normal deputisation. Any rule may allow
       special deputisation.
@@ -1708,19 +1709,19 @@ Deputisation
       A player CAN perform an action as if e held a particular office,
       via normal deputisation, if all of the following are true:
 
-        (a) The rules require the holder of that office, by virtue of
-            holding that office, to perform the action. This
-            requirement is fulfilled by the deputy performing the
-            action.
+        1. The rules require the holder of that office, by virtue of
+           holding that office, to perform the action. This
+           requirement is fulfilled by the deputy performing the
+           action.
 
-        (b) A time limit by which the rules require the action to be
-            performed has expired.
+        2. A time limit by which the rules require the action to be
+           performed has expired.
 
-        (c) Either (i) the office is vacant; or (ii) the
-            aforementioned time limit expired more than fourteen days
-            ago; or (iii) the deputy announced between two and
-            fourteen days earlier that e intended to deputise for that
-            office for the purposes of the particular action.
+        3. Either (i) the office is vacant; or (ii) the
+           aforementioned time limit expired more than fourteen days
+           ago; or (iii) the deputy announced between two and
+           fourteen days earlier that e intended to deputise for that
+           office for the purposes of the particular action.
 
       When a player deputises via normal deputisation for an elected
       office, e becomes the holder of that office.
@@ -1796,19 +1797,19 @@ Self-Ratification
       methods, identifying a document and explaining the scope and
       nature of a perceived error in it:
 
-       a) An inquiry case, appropriate for questions of legal
+       1. An inquiry case, appropriate for questions of legal
           interpretation.
 
-       b) A claim of error, appropriate for matters of fact.  The
+       2. A claim of error, appropriate for matters of fact.  The
           publisher of the original document SHALL (if e was required
           to publish that document) or SHOULD (otherwise) do one of
           the following in a timely fashion:
 
-              i) Deny the claim (causing it to cease to be a doubt).
-             ii) Publish a revision.
-            iii) Initiate an inquiry case regarding the truth of the
-                 claim (if the subject is actually a matter of law),
-                 or cite a relevant existing inquiry case.
+            1. Deny the claim (causing it to cease to be a doubt).
+            2. Publish a revision.
+            3. Initiate an inquiry case regarding the truth of the
+               claim (if the subject is actually a matter of law),
+               or cite a relevant existing inquiry case.
 
 ----------------------------------------------------------------------
 
@@ -1819,14 +1820,14 @@ The Agoran Newspaper
 
       The Reportor's weekly report includes:
 
-         a) A suitable name for a newspaper, at the Reportor's
+         1. A suitable name for a newspaper, at the Reportor's
             discretion.
 
-         b) A description of events that have happened since the last
+         2. A description of events that have happened since the last
             report that the Reportor believes significant or
             interesting.
 
-         c) Any editorialization or other pieces of Agora-related
+         3. Any editorialization or other pieces of Agora-related
             information the Reportor pleases, as long as it is neither
             i) factually incorrect nor ii) disrespectful to any person
             or Agora itself.
@@ -1847,9 +1848,9 @@ The Associate Director of Personnel
 
       The ADoP's report includes the following:
 
-      a) The date of the last change (if any) to each office's
+      1. The date of the last change (if any) to each office's
          Officeholder.
-      b) The date on which the most recent election for each office
+      2. The date on which the most recent election for each office
          was initiated.
 
 ----------------------------------------------------------------------
@@ -1862,17 +1863,17 @@ The Registrar
 
       The Registrar's weekly report includes:
 
-      a) A list of all players, including information sufficient to
+      1. A list of all players, including information sufficient to
          identify and contact each player.
 
-      b) The date on which each player most recently became a player.
+      2. The date on which each player most recently became a player.
 
-      c) For each forum with non-Foreign publicity, sufficient
+      3. For each forum with non-Foreign publicity, sufficient
          instructions for players to receive messages there.
 
       The Registrar's monthly report includes:
 
-      a) For each former player for which the information is
+      1. For each former player for which the information is
          reasonably available, the dates on which e registered and
          deregistered.
 
@@ -2053,15 +2054,16 @@ The Secretary
       The Secretary is an office. The Secretary's weekly report
       includes:
 
-      a) A list of which persons are on Personal Lockout.
-      b) The time at which each person on Personal Lockout comes off
+      1. A list of which persons are on Personal Lockout.
+      2. The time at which each person on Personal Lockout comes off
          Lockout.
-      c) Whether Agora is on Global Lockout, and if so, when it ends.
-      d) A list of all Organizations and their Income.
-      e) Each player's Expenditure.
+      3. Whether Agora is on Global Lockout, and if so, when it ends.
+      4. A list of all Organizations and their Income.
+      5. Each player's Expenditure.
 
       The Secretary's monthly report includes:
-      a) Each Organization's Charter.
+
+      1. Each Organization's Charter.
 
 ----------------------------------------------------------------------
 
@@ -2125,13 +2127,13 @@ Organizational Restructuring
 
       Organizations can be amended as follows:
 
-      a) A member of an Organization CAN flip that Organization's
+      1. A member of an Organization CAN flip that Organization's
          Charter by announcement, if doing so is Appropriate, and that
          member is not on Lockout.
-      b) Any player CAN flip a Budget Switch by announcement, if doing
+      2. Any player CAN flip a Budget Switch by announcement, if doing
          so is Appropriate and the player is not on Lockout, except
          where other rules prevent this.
-      c) A member of an Organization CAN flip that Organization's
+      3. A member of an Organization CAN flip that Organization's
          Charter without objection, even if doing so is Inappropriate,
          as long as that member is not on Lockout. Players SHOULD only
          use this mechanism to recover from situations where the
@@ -2172,11 +2174,12 @@ Bankruptcy
       situation persists.
 
       When a player becomes Bankrupt:
-      a) All Budget switches for pairs including that player are
+
+      1. All Budget switches for pairs including that player are
          flipped to 0.
-      b) The Secretary CAN, and SHALL in a timely manner, award that
+      2. The Secretary CAN, and SHALL in a timely manner, award that
          player a Yellow Card.
-      c) A Lockout Event happens to that player.
+      3. A Lockout Event happens to that player.
 
 ----------------------------------------------------------------------
 
@@ -2218,12 +2221,12 @@ Agencies
       another player. A player may establish an Agency With 24 hours
       Notice and thereby become its Director by specifying the
       properties of the new Agency:
-            a) A title, which must be exactly three words, not
-               counting conjunctions, articles or prepositions.
-            b) A non-empty list of persons other than the Head (the
-               Agents).
-            c) A description of a set of actions (the Powers).
 
+        1. A title, which must be exactly three words, not
+           counting conjunctions, articles or prepositions.
+        2. A non-empty list of persons other than the Head (the
+           Agents).
+        3. A description of a set of actions (the Powers).
 
       An Agency's Head may amend its properties or revoke it with 24
       hours Notice. For greater certainty, an announced intent to
@@ -2259,6 +2262,7 @@ Superintendent
       keeping track of Agencies.
 
       The Superintendent's weekly report includes:
+
       - the Head and acronym of all Agencies,
       - the full properties of all Agencies created since the
         Superintendent's previous report.
@@ -2478,8 +2482,10 @@ Reward and Delay
       A proposal's imminence cannot flip by any mechanism except for the
       mechanism specified in this rule, unless a player announced intent to
       cause that proposal's imminence to flip at a time that was:
-          a) 21 to 28 days in the past, and
-          b) subsequent to the proposal's addition to the Proposal Pool.
+
+          1. 21 to 28 days in the past, and
+          2. subsequent to the proposal's addition to the Proposal Pool.
+
       This takes precedence over all rules of power 3 and below that allow
       for a proposal's imminence to be changed.
 
@@ -2555,18 +2561,18 @@ Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
 
-      (a) Non-Festive players are never considered Supporters of a
-          dependent action;
+      1. Non-Festive players are never considered Supporters of a
+         dependent action;
 
-      (b) Non-Festive players cannot flip the Imminence of any
-          proposal;
+      2. Non-Festive players cannot flip the Imminence of any
+         proposal;
 
-      (c) Quorum for Agoran Decisions is equal to half the number of
-          Festive players, rounded up;
+      3. Quorum for Agoran Decisions is equal to half the number of
+         Festive players, rounded up;
 
-      (d) Each Festive player has the maximum possible voting
-          strength. All other players have the minimum possible voting
-          strength.
+      4. Each Festive player has the maximum possible voting
+         strength. All other players have the minimum possible voting
+         strength.
 
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
@@ -2681,12 +2687,12 @@ Happy Birthday
       1993, 00:04:30 GMT +1200, with a message sent by FIRST SPEAKER
       Michael Norrish, which read, in part,
 
-          "I see no reason to let this get bogged down; there are no
-          precedents or rules that cover this situation, so I think we
-          may as well begin directly.... Proposals for new rules are
-          invited. In accordance with the rules, these will be
-          published, numbered and distributed by me at my earliest
-          convenience."
+      > "I see no reason to let this get bogged down; there are no
+      > precedents or rules that cover this situation, so I think we
+      > may as well begin directly.... Proposals for new rules are
+      > invited. In accordance with the rules, these will be
+      > published, numbered and distributed by me at my earliest
+      > convenience."
 
       And WHEREAS, this nomic began as a humble and nameless nomic,
       known unofficially as yoyo, after the mailing list it was played

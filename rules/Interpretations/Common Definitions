@@ -44,57 +44,57 @@ history:
 text: |
   The following terms are defined:
 
-  (a) The phrase "in a timely fashion" means "within 7 days".
-      This time period is set when the requirement is created
-      (i.e. X days before the limit ends).  A requirement to
-      perform an action at an exact instant (e.g.  "when X, Y
-      SHALL Z"), but not "in the same message", is instead
-      interpreted as a requirement to perform that action in a
-      timely fashion after that instant.
+  1. The phrase "in a timely fashion" means "within 7 days".
+     This time period is set when the requirement is created
+     (i.e. X days before the limit ends).  A requirement to
+     perform an action at an exact instant (e.g.  "when X, Y
+     SHALL Z"), but not "in the same message", is instead
+     interpreted as a requirement to perform that action in a
+     timely fashion after that instant.
 
-  (b) Agoran epochs:
+  2. Agoran epochs:
 
-      (1) Agoran days begin at midnight UTC.
+      1. Agoran days begin at midnight UTC.
 
-      (2) Agoran weeks begin at midnight UTC on Monday.
+      2. Agoran weeks begin at midnight UTC on Monday.
 
-      (3) Agoran months begin at midnight UTC on the first day of
-          each Gregorian month.
+      3. Agoran months begin at midnight UTC on the first day of
+         each Gregorian month.
 
-      (4) Agoran quarters begin when the Agoran months of January,
-          April, July, and October begin.
+      4. Agoran quarters begin when the Agoran months of January,
+         April, July, and October begin.
 
-      (5) Agoran years begin when the Agoran month of January
-          begins.
+      5. Agoran years begin when the Agoran month of January
+         begins.
 
-      (5) A pivot is either the instant at which Agora Nomic began
-          (June 30, 1993, 00:04:30 GMT +1200) or an instant at
-          which at least one person won the game.  When used as a
-          period of time, a "Round" (historical syn: "game") is
-          the period of time between a pivot and the next pivot.
+      6. A pivot is either the instant at which Agora Nomic began
+         (June 30, 1993, 00:04:30 GMT +1200) or an instant at
+         which at least one person won the game.  When used as a
+         period of time, a "Round" (historical syn: "game") is
+         the period of time between a pivot and the next pivot.
 
       These definitions do not apply to relative durations (e.g.
       "within <number> days after <event>").
 
-  (c) If a regulated value, or the value of a conditional, or a
-      value otherwise required to determine the outcome of a
-      regulated action, CANNOT be reasonably determined (without
-      circularity or paradox) from information reasonably
-      available, or if it alternates instantaneously and
-      indefinitely between values, then the value is considered to
-      be Indeterminate, otherwise it is Determinate.
+  3. If a regulated value, or the value of a conditional, or a
+     value otherwise required to determine the outcome of a
+     regulated action, CANNOT be reasonably determined (without
+     circularity or paradox) from information reasonably
+     available, or if it alternates instantaneously and
+     indefinitely between values, then the value is considered to
+     be Indeterminate, otherwise it is Determinate.
 
-  (d) Two points in time are within a month of each other if:
+  4. Two points in time are within a month of each other if:
 
-      (1) they occur in the same Agoran month;
+      1. they occur in the same Agoran month;
 
-      (2) they occur in two consecutive Agoran months, and the
-          later of the two occurs in an earlier day in the month
-          than the earlier one;
+      2. they occur in two consecutive Agoran months, and the
+         later of the two occurs in an earlier day in the month
+         than the earlier one;
 
-      (3) they occur in two consecutive Agoran months on the same
-          day of the month, and the later of the two occurs at the
-          same or earlier time of day.
+      3. they occur in two consecutive Agoran months on the same
+         day of the month, and the later of the two occurs at the
+         same or earlier time of day.
 id: 1023
 rev: 34
 power: 2
