@@ -13,14 +13,14 @@ text: |
   A type of switch is a property that the rules define as a
   switch, and specify the following:
 
-  a) The type(s) of entity possessing an instance of that switch.
+  1. The type(s) of entity possessing an instance of that switch.
      No other entity possesses an instance of that switch.
 
-  b) One or more possible values for instances of that switch,
+  2. One or more possible values for instances of that switch,
      exactly one of which is designated as the default.  No other
      values are possible for instances of that switch.
 
-  c) Optionally, exactly one office whose holder tracks instances
+  3. Optionally, exactly one office whose holder tracks instances
      of that switch.  That officer's (weekly, if not specified
      otherwise) report includes the value of each instance of that
      switch whose value is not its default value; a public

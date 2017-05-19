@@ -24,7 +24,6 @@ def linkify(text, keywords)
     t.gsub! re, " [\\1](#Rule#{rule}) "
   end
   t.gsub! '<', '&lt;'
-  t.gsub! '>', '&gt;'
   t
 end
 

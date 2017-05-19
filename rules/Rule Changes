@@ -24,34 +24,34 @@ text: |
   Where permitted by other rules, an instrument generally can,
   as part of its effect,
 
-  (a) enact a rule.  The new rule has power equal to the minimum
-      of the power specified by the enacting instrument,
-      defaulting to one if the enacting instrument does not
-      specify or if it specifies a power less than 0.1, and the
-      maximum power permitted by other rules.  The enacting
-      instrument may specify a title for the new rule, which if
-      present shall prevail.  The ID number of the new rule cannot
-      be specified by the enacting instrument; any attempt to so
-      specify is null and void.
+  1. enact a rule.  The new rule has power equal to the minimum
+     of the power specified by the enacting instrument,
+     defaulting to one if the enacting instrument does not
+     specify or if it specifies a power less than 0.1, and the
+     maximum power permitted by other rules.  The enacting
+     instrument may specify a title for the new rule, which if
+     present shall prevail.  The ID number of the new rule cannot
+     be specified by the enacting instrument; any attempt to so
+     specify is null and void.
 
-  (b) repeal a rule.  When a rule is repealed, it ceases to be a
-      rule, and the Rulekeepor need no longer maintain a record
-      of it.
+  2. repeal a rule.  When a rule is repealed, it ceases to be a
+     rule, and the Rulekeepor need no longer maintain a record
+     of it.
 
-  (c) reenact a rule.  A repealed rule identified by its most
-      recent rule number may be reenacted with the same ID number
-      and the next change identifier.  If no text is specified,
-      the rule is reenacted with the same text it had when it was
-      most recently repealed.  If the reenacting proposal provides
-      new text for the rule, the rule must have materially the
-      same purpose as did the repealed version; otherwise, the
-      attempt to reenact the rule is null and void.
+  3. reenact a rule.  A repealed rule identified by its most
+     recent rule number may be reenacted with the same ID number
+     and the next change identifier.  If no text is specified,
+     the rule is reenacted with the same text it had when it was
+     most recently repealed.  If the reenacting proposal provides
+     new text for the rule, the rule must have materially the
+     same purpose as did the repealed version; otherwise, the
+     attempt to reenact the rule is null and void.
 
-  (d) amend the text of a rule.
+  4. amend the text of a rule.
 
-  (e) retitle a rule.
+  5. retitle a rule.
 
-  (f) change the power of a rule.
+  6. change the power of a rule.
 
   A rule change is any effect that falls into the above classes.
   Rule changes always occur sequentially, never simultaneously.

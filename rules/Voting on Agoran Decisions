@@ -33,21 +33,21 @@ text: |
   An entity submits a ballot on an Agoran decision by publishing a
   notice satisfying the following conditions:
 
-  (a) The ballot is submitted during the voting period for the
-      decision.
+  1. The ballot is submitted during the voting period for the
+     decision.
 
-  (b) The entity casting the ballot (the voter) was, at the
-      initiation of the decision, a player.
+  2. The entity casting the ballot (the voter) was, at the
+     initiation of the decision, a player.
 
-  (c) The ballot clearly identifies the matter to be decided.
+  3. The ballot clearly identifies the matter to be decided.
 
-  (d) The ballot clearly identifies a valid vote, as determined by
-      the voting method.
+  4. The ballot clearly identifies a valid vote, as determined by
+     the voting method.
 
-  (d) The ballot clearly sets forth the voter's intent to place
-      the identified vote.
+  5. The ballot clearly sets forth the voter's intent to place
+     the identified vote.
 
-  (e) The voter has no other valid ballots on the same decision.
+  6. The voter has no other valid ballots on the same decision.
 
   A valid ballot is a ballot, correctly submitted, that has not
   been withdrawn. A player CAN withdraw a ballot by announcement
