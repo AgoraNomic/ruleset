@@ -5,7 +5,7 @@ require 'redcarpet'
 index = YAML.load_file('rules/index')
 rule_groups = index.map do |name, rule_names|
   OpenStruct.new(name: name, rules: rule_names.map do |rn|
-    OpenStruct.new(YAML.load_file("rules/#{name}/#{rn}"))
+    OpenStruct.new(YAML.load_file("rules/#{rn}"))
   end)
 end
 
@@ -66,7 +66,7 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
       color: #999;
       border-left: 2px solid transparent;
       padding: 4px 20px;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 400;
     }
 
@@ -75,7 +75,7 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
       padding-top: 1px;
       padding-bottom: 1px;
       padding-left: 30px;
-      font-size: 12px;
+      font-size: 11px;
     }
 
     /* active & hover links */
@@ -130,13 +130,7 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 </head>
 <body>
   <!-- Top Navbar -->
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Agora Ruleset</a>
-      </div>
-    </div>
-  </div>
+  <%= open('Header/header.html').read.gsub('__ACTIVE_RULESET__', 'active') %>
 
   <div class='container'>
     <!-- Main Content -->
@@ -164,7 +158,7 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
           <h3><%=group.name%></h3>
           <% group.rules.each do |rule| %>
           <div id="Rule<%=rule.id%>" class="rule">
-          <h4><%=rule.name%> <span class="label label-default"><%=rule.id%></span>  <span class="label label-default"><%=rule.power%></span></h4>
+            <h4><%=rule.name%> <span class="label label-default"><%=rule.id%></span>  <span class="label label-default"><%=rule.power%></span></h4>
             <% if rule.no_markdown || !rule.text %>
             <pre><%=rule.text%></pre>
             <% else %>
