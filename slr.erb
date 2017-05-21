@@ -4,7 +4,7 @@ require 'ostruct'
 index = YAML.load_file('rules/index')
 rule_groups = index.map do |name, rule_names|
   OpenStruct.new(name: name, rules: rule_names.map do |rn|
-    OpenStruct.new(YAML.load_file("rules/#{name}/#{rn}"))
+    OpenStruct.new(YAML.load_file("rules/#{rn}"))
   end)
 end
 
