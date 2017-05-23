@@ -12,11 +12,12 @@ text: |
   situation persists.
 
   When a player becomes Bankrupt:
-  a) All Budget switches for pairs including that player are
+
+  1. All Budget switches for pairs including that player are
      flipped to 0.
-  b) The Secretary CAN, and SHALL in a timely manner, award that
+  2. The Secretary CAN, and SHALL in a timely manner, award that
      player a Yellow Card.
-  c) A Lockout Event happens to that player.
+  3. A Lockout Event happens to that player.
 id: 2462
 rev: 3
 power: 1.2

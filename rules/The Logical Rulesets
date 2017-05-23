@@ -52,13 +52,13 @@ text: |
   Whenever a rule is changed in any way, the Rulekeepor SHALL
   record a historical annotation to the rule indicating:
 
-  a) The type of change.
+  1. The type of change.
 
-  b) The date on which the change took effect.
+  2. The date on which the change took effect.
 
-  c) The mechanism that specified the change.
+  3. The mechanism that specified the change.
 
-  d) If the rule was changed due to a proposal, then that
+  4. If the rule was changed due to a proposal, then that
      proposal's ID number, author, and co-author(s) (if any).
 id: 1681
 rev: 20
