@@ -1,6 +1,8 @@
 <%
 require 'yaml'
 require 'ostruct'
+
+require_relative 'common'
 index = YAML.load_file('rules/index')
 rule_groups = index.map do |name, rule_names|
   OpenStruct.new(name: name, rules: rule_names.map do |rn|
@@ -32,7 +34,7 @@ Online documents:
 <%= group.name %>
 ----------------------------------------------------------------------
 <% group.rules.each do |rule| %>
-Rule <%=rule.id%>/<%=rule.rev%> (Power=<%=rule.power%>)
+Rule <%=rule.id%>/<%=get_rev(rule)%> (Power=<%=rule.power%>)
 <%=rule.name%>
 
 <%= rule.text

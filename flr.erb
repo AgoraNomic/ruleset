@@ -1,12 +1,16 @@
 <%
 require 'yaml'
 require 'ostruct'
+
+require_relative 'common'
 index = YAML.load_file('rules/index')
 rule_groups = index.map do |name, rule_names|
   OpenStruct.new(name: name, rules: rule_names.map do |rn|
-    OpenStruct.new(YAML.load_file("rules/#{name}/#{rn}"))
+    OpenStruct.new(YAML.load_file("rules/#{rn}"))
   end)
 end
+
+meta = YAML.load_file('rules/meta')
 
 def word_wrap(text, options = {})
   line_width = options.fetch(:line_width, 80)
@@ -17,28 +21,39 @@ def word_wrap(text, options = {})
 end
 %>THE FULL LOGICAL RULESET
 
-----------------------------------------------------------------------
+Most Recent Ruleset Change Recorded:
+  <%= meta['last_change'] %>
 
-Index of Rules
-<% rule_groups.each do |group| %>
-      * <%= group.name %>
-<% group.rules.each do |rule| %>      Rule <%= rule.id.to_i > 999 ? rule.id : " #{rule.id}" %>: <%= rule.name %>
-<%end%><%end%>
+Online documents:
+ https://agoranomic.github.io/ruleset/slr.txt (SLR)
+ https://agoranomic.github.io/ruleset/flr.txt (FLR)
+ https://agoranomic.github.io/ruleset/ (HLR, not legally part of my
+   report but always in sync with the other two)
 <% rule_groups.each do |group| %>
 ======================================================================
 <%= group.name %>
 ----------------------------------------------------------------------
 <% group.rules.each do |rule| %>
-Rule <%=rule.id%>/<%=rule.rev%> (Power=<%=rule.power%>)
+Rule <%=rule.id%>/<%=get_rev(rule)%> (Power=<%=rule.power%>)
 <%=rule.name%>
 
-<%= word_wrap(rule.text, line_width: 64)
+<%= rule.text
   .split("\n")
   .map {|x| x == '' ? "" : "      #{x}" }
   .join("\n")
 %>
 
-<%rule.cfjs.each do |cfj_hash|; cfj = OpenStruct.new(cfj_hash) %>
-[CFJ <%=cfj.id%>: <%cfj.text%>]
-<%end%>
+History:
+<%= get_history(rule).join("\n") %>
+
+----------------------------------------------------------------------
 <% end %><%end%>
+
+======================================================================
+
+Highest Rule ID number ever assigned: Rule <%= meta['last_id'] %>
+
+Last Ruleset Ratification:
+  <%= meta['ratification']['type'] == 'slr' ? 'Short Logical Ruleset' : 'Full Logical Ruleset' %> of <%= meta['ratification']['date'] %>
+
+END OF THE FULL LOGICAL RULESET
