@@ -39,9 +39,24 @@ history:
 - Amended(31) by Proposal 7632 (scshunt), 1 May 2014
 - Amended(32) by Proposal 7647 (omd), 3 June 2014
 text: |
-  Quorum for an Agoran Decision is equal to the number of players
-  who voted on the most recently resolved Agoran Decision to adopt
-  a proposal, minus 3.
+  Each Agoran Decision has a quorum. This is a number set when the
+  decision is created, and thereafter cannot be changed. When a
+  person initiates an Agoran Decision, that person SHALL state the
+  quorum of that decision. However, incorrectly stating the quorum
+  of a decision does not invalidate the initiation, nor does it
+  actually change the quorum of the decision.
+
+  The quorum that an Agoran Decision gains as it is created can be
+  defined by other rules of power 2 or greater. If no other rule
+  defines the quorum of an Agoran Decision, the quorum for that
+  decision is equal to the number of players who voted on the
+  Agoran Decision to adopt a proposal that had been most recently
+  resolved at the time of that decision's initiation, minus 2.
+
+  As an exception to the previous paragraph, the quorum of an
+  Agoran Decision can never be less than 2. If the rules would
+  attempt to set the quorum of an Agoran Decision to less than 2,
+  it is set to 2 instead.
 id: 879
 rev: 32
 power: 2

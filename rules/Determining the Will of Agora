@@ -69,8 +69,8 @@ text: |
   The previous notwithstanding:
 
   - If there is more than one option, and the number of valid
-    ballots is less than quorum, the outcome is instead FAILED
-    QUORUM.
+    ballots is less than the quorum of that decision, the outcome
+    is instead FAILED QUORUM.
   - PRESENT is always a valid vote, with no effect on the outcome
     except counting towards quorum.
   - If there are no valid options, the outcome is null.
