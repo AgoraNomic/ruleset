@@ -1,7 +1,10 @@
 class Change < Struct.new(:hash, :text, :rev)
-	SPECIAL_CASES = [ # For these, just use the original commit date, not merge
+	USE_ORIGINAL = [ # For these, just use the original commit date, not merge
 		'778723dd794676d6aa1e24080684590d2790b01d'
 	]
+	DATE_OVERRIDES = {
+		'22 June 2017' => '05 June 2017'
+	}
 	def data
 		opts = text.split(' ')
 		opts.shift
@@ -16,7 +19,7 @@ class Change < Struct.new(:hash, :text, :rev)
 	end
 
 	def merge_time
-		merge = if SPECIAL_CASES.include? hash
+		merge = if USE_ORIGINAL.include? hash
 			hash
 		else
 			# https://stackoverflow.com/a/8492711
@@ -24,16 +27,25 @@ class Change < Struct.new(:hash, :text, :rev)
 			b = `git rev-list #{hash}..master --first-parent`
 			(a.split("\n") & b.split("\n")).last
 		end
-		Time.at(`git rev-list --timestamp #{merge}`.split(' ')[0].to_i)
+		DATE_OVERRIDES[merge] ||
+			Time.at(`git rev-list --timestamp #{merge}`.split(' ')[0].to_i)
 	end
 
 	def desc
-		case mechanism.to_sym
+		desc = case mechanism.to_sym
+		when :proposal
+			"Amended(#{rev}) by proposal #{id} \"#{title.gsub('_', ' ')}\" (#{author}), #{merge_time.strftime('%-d %B %Y')}"
+		when :proposal_title
+			"Retitled from \"#{from}\" by proposal #{id} \"#{title.gsub('_', ' ')}\" (#{author}), #{merge_time.strftime('%-d %B %Y')}"
 		when :cleanup
 			"Amended(#{rev}) via Rule 2430 \"Cleanup Time,\" #{merge_time.strftime('%-d %B %Y')}"
 		else
-			raise 'Unknown mechanism'
+			raise "Unknown mechanism #{mechanism}"
 		end
+		DATE_OVERRIDES.each do |commit_date, real_date|
+			desc.gsub! commit_date, real_date
+		end
+		desc
 	end
 end
 

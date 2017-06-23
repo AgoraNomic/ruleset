@@ -718,7 +718,7 @@ Proposals
 
 ----------------------------------------------------------------------
 
-Rule 2445/5 (Power=1)
+Rule 2445/6 (Power=1)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
@@ -727,18 +727,15 @@ How to Pend a Proposal
 
       Pending List Price is an integer switch, tracked by the Promotor,
       whose default value is 5. At the beginning of every month, the
-      Pending List Price is set to the mean of the price paid for each
-      proposal pended in the previous month, rounded down. If less
-      than 2 proposals were pended in the previous month, the Pending
-      List Price is set to its default.
-
-      Pending Minimum Price is, at all times, 9/10ths of the Pending
-      List Price, rounded down.
+      Pending List Price is set to 90% of the mean of the price paid
+      for each proposal pended in the previous month, rounded down. If
+      less than 2 proposals were pended in the previous month, the
+      Pending List Price is set to its default.
 
       Any player CAN pay Agora a specified amount, which is no less
-      than the Pending Minimum Price, to flip a proposal's imminence
-      to "pending" Without 3 Objections. If the specified amount is
-      less than the Pending Minimum Price, then the attempt to pay is
+      than the Pending List Price, to flip a proposal's imminence
+      to "pending" by announcement. If the specified amount is less
+      than the Pending List Price, then the attempt to pay is
       INEFFECTIVE, and the proposal's imminence is not flipped.
 
 ----------------------------------------------------------------------
@@ -904,7 +901,7 @@ Initiating Agoran Decisions
 
 ----------------------------------------------------------------------
 
-Rule 683/24 (Power=3)
+Rule 683/25 (Power=3)
 Voting on Agoran Decisions
 
       An entity submits a ballot on an Agoran decision by publishing a
@@ -927,10 +924,10 @@ Voting on Agoran Decisions
       6. The voter has no other valid ballots on the same decision.
 
       A valid ballot is a ballot, correctly submitted, that has not
-      been withdrawn. A player CAN withdraw a ballot by announcement
-      during the voting period of the decision on which it was cast.
-      To "change" one's vote is to retract eir previous ballot (if
-      any), then submit a new one.
+      been withdrawn. During the voting period of an Agoran decision,
+      a player CAN by announcement withdraw (syn. retract) a ballot
+      that e submitted on that decision. To "change" one's vote is to
+      retract eir previous ballot (if any), then submit a new one.
 
 ----------------------------------------------------------------------
 
@@ -1004,8 +1001,8 @@ Determining the Will of Agora
       The previous notwithstanding:
 
       - If there is more than one option, and the number of valid
-        ballots is less than quorum, the outcome is instead FAILED
-        QUORUM.
+        ballots is less than the quorum of that decision, the outcome
+        is instead FAILED QUORUM.
       - PRESENT is always a valid vote, with no effect on the outcome
         except counting towards quorum.
       - If there are no valid options, the outcome is null.
@@ -1015,12 +1012,27 @@ Determining the Will of Agora
 
 ----------------------------------------------------------------------
 
-Rule 879/32 (Power=2)
+Rule 879/33 (Power=2)
 Quorum
 
-      Quorum for an Agoran Decision is equal to the number of players
-      who voted on the most recently resolved Agoran Decision to adopt
-      a proposal, minus 3.
+      Each Agoran Decision has a quorum. This is a number set when the
+      decision is created, and thereafter cannot be changed. When a
+      person initiates an Agoran Decision, that person SHALL state the
+      quorum of that decision. However, incorrectly stating the quorum
+      of a decision does not invalidate the initiation, nor does it
+      actually change the quorum of the decision.
+
+      The quorum that an Agoran Decision gains as it is created can be
+      defined by other rules of power 2 or greater. If no other rule
+      defines the quorum of an Agoran Decision, the quorum for that
+      decision is equal to the number of players who voted on the
+      Agoran Decision to adopt a proposal that had been most recently
+      resolved at the time of that decision's initiation, minus 2.
+
+      As an exception to the previous paragraph, the quorum of an
+      Agoran Decision can never be less than 2. If the rules would
+      attempt to set the quorum of an Agoran Decision to less than 2,
+      it is set to 2 instead.
 
 ----------------------------------------------------------------------
 
@@ -1819,7 +1831,7 @@ Victory Elections
 ----------------------------------------------------------------------
 
 Rule 2942/1 (Power=3)
-Reward and Delay
+Scam Reward
 
       ais523 CAN Declare a Junta by announcement, specifying one or more
       players. Upon doing so, the specified players win the game.
@@ -1827,24 +1839,10 @@ Reward and Delay
       ais523 CAN Declare an Honour by announcement, specifying a player and a
       patent title. Upon doing so, ais523 is authorized to, and CAN, award
       that player that patent title.
+      ais523 CAN cause a specified player to earn a Black Ribbon by
+      announcement.
 
-      ais523 CAN Declare an Amendment by announcement, specifying a proposal.
-      Upon doing so, that proposal's imminence flips to "pending".
-
-      A proposal's imminence cannot flip by any mechanism except for the
-      mechanism specified in this rule, unless a player announced intent to
-      cause that proposal's imminence to flip at a time that was:
-
-          1. 21 to 28 days in the past, and
-          2. subsequent to the proposal's addition to the Proposal Pool.
-
-      This takes precedence over all rules of power 3 and below that allow
-      for a proposal's imminence to be changed.
-
-      Players other than ais523 CANNOT flip a proposal's imminence to
-      "pending" via any means, unless they announced intent to do so at least
-      21 days in advance. This takes precedence over any rule which would
-      allow a player to change a proposal's imminence.
+      ais523 CAN cause this rule to repeal itself by announcement.
 
 ----------------------------------------------------------------------
 
@@ -2145,21 +2143,22 @@ Pledges
 
 ----------------------------------------------------------------------
 
-Rule 2467/2 (Power=1)
+Rule 2467/4 (Power=1)
 Agencies
 
       An Agency is a document empowering persons to act on behalf of
-      another player. A player may establish an Agency With 24 hours
-      Notice and thereby become its Director by specifying the
-      properties of the new Agency:
+      another player. A player MAY establish an Agency With 24 hours
+      Notice, and thereby become its Director, by specifying the
+      properties of the new Agency, provided e has not established any
+      other Agency that day:
 
         1. A title, which must be exactly three words, not
            counting conjunctions, articles or prepositions.
-        2. A non-empty list of persons other than the Head (the
+        2. A non-empty list of persons other than the Director (the
            Agents).
         3. A description of a set of actions (the Powers).
 
-      An Agency's Head may amend its properties or revoke it with 24
+      An Agency's Director may amend its properties or revoke it with 24
       hours Notice. For greater certainty, an announced intent to
       create an Agency or amend an Agency's powers is INEFFECTIVE
       unless it explicitly specifies the new values of the properties
@@ -2182,11 +2181,11 @@ Agencies
       Agencies would have the same acronym is INEFFECTIVE.
 
       The Agents of an Agency may perform the Actions described in the
-      Powers of the Agency on behalf of the Agency's Head.
+      Powers of the Agency on behalf of the Agency's Director.
 
 ----------------------------------------------------------------------
 
-Rule 2468/1 (Power=1)
+Rule 2468/2 (Power=1)
 Superintendent
 
       The Superintendent is an office; its holder is responsible for
@@ -2194,13 +2193,13 @@ Superintendent
 
       The Superintendent's weekly report includes:
 
-      - the Head and acronym of all Agencies,
+      - the Director and acronym of all Agencies,
       - the full properties of all Agencies created since the
         Superintendent's previous report.
       - the amended properties of all Agencies whose properties were
         amended since the Superintendent's previous report.
 
-      The Superintendent's monthly report includes the Head and
+      The Superintendent's monthly report includes the Director and
       properties of all Agencies.
 
 ----------------------------------------------------------------------
@@ -2606,13 +2605,18 @@ Payday
 
 ----------------------------------------------------------------------
 
-Rule 2487/0 (Power=2)
+Rule 2487/1 (Power=2)
 Shiny Supply Level
 
       The Supply Level is 1000.
 
-      When the Supply Level is changed, Agora's Balance is increased
+      When a Shiny Releveling event occurs, Agora's Balance is increased
       or decreased such that all Balances add up to the Supply Level.
+
+      When the Supply level Changes, a Shiny Releveling event occurs.
+
+      The Secretary may cause a Shiny Releveling event to occur without 3
+      Objections.
 
 ----------------------------------------------------------------------
 

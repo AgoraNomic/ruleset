@@ -345,7 +345,7 @@
               
               <li><a href="#Rule2482">Victory Elections</a></li>
               
-              <li><a href="#Rule2942">Reward and Delay</a></li>
+              <li><a href="#Rule2942">Scam Reward</a></li>
               
               <li><a href="#Rule2486">The Royal Parade</a></li>
               
@@ -1227,18 +1227,15 @@ or &quot;not pending&quot; (default).</p>
 
 <p>Pending List Price is an integer switch, tracked by the Promotor,
 whose default value is 5. At the beginning of every month, the
-Pending List Price is set to the mean of the price paid for each
-proposal pended in the previous month, rounded down. If less
-than 2 proposals were pended in the previous month, the Pending
-List Price is set to its default.</p>
-
-<p>Pending Minimum Price is, at all times, 9/10ths of the Pending
-List Price, rounded down.</p>
+Pending List Price is set to 90% of the mean of the price paid
+for each <a href="#Rule2350">proposal</a> pended in the previous month, rounded down. If
+less than 2 proposals were pended in the previous month, the
+Pending List Price is set to its default.</p>
 
 <p>Any <a href="#Rule869">player</a> <a href="#Rule2152">CAN</a> pay Agora a specified amount, which is no less
-than the <a href="#Rule2445">Pending</a> Minimum Price, to flip a proposal&#39;s imminence
-to &quot;pending&quot; Without 3 Objections. If the specified amount is
-less than the <a href="#Rule2445">Pending</a> Minimum Price, then the attempt to pay is
+than the <a href="#Rule2445">Pending</a> List Price, to flip a proposal&#39;s imminence
+to &quot;pending&quot; by announcement. If the specified amount is less
+than the <a href="#Rule2445">Pending</a> List Price, then the attempt to pay is
 INEFFECTIVE, and the proposal&#39;s imminence is not flipped.</p>
 
             
@@ -1436,10 +1433,10 @@ the identified vote.</p></li>
 </ol>
 
 <p>A valid ballot is a ballot, correctly submitted, that has not
-been withdrawn. A <a href="#Rule869">player</a> <a href="#Rule2152">CAN</a> withdraw a ballot by announcement
-during the voting period of the <a href="#Rule693">decision</a> on which it was cast.
-To &quot;change&quot; one&#39;s vote is to retract eir previous ballot (if
-any), then submit a new one.</p>
+been withdrawn. During the voting period of an Agoran decision,
+a <a href="#Rule869">player</a> <a href="#Rule2152">CAN</a> <a href="#Rule478">by announcement</a> withdraw (syn. retract) a ballot
+that e submitted on that decision. To &quot;change&quot; one&#39;s vote is to
+retract eir previous ballot (if any), then submit a new one.</p>
 
             
           </div>
@@ -1516,8 +1513,8 @@ outcome.</p></li>
 
 <ul>
 <li>If there is more than one option, and the number of valid
-ballots is less than quorum, the outcome is instead FAILED
-QUORUM.</li>
+ballots is less than the <a href="#Rule879">quorum</a> of that decision, the outcome
+is instead FAILED QUORUM.</li>
 <li>PRESENT is always a valid vote, with no effect on the outcome
 except counting towards quorum.</li>
 <li>If there are no valid options, the outcome is null.</li>
@@ -1532,9 +1529,24 @@ cannot change thereafter.</p>
           <div id="Rule879" class="rule">
             <h4>Quorum <span class="label label-default">879</span>  <span class="label label-default">2</span></h4>
             
-            <p>Quorum for an Agoran <a href="#Rule693">Decision</a> is equal to the number of players
-who voted on the most recently resolved Agoran <a href="#Rule693">Decision</a> to adopt
-a proposal, minus 3.</p>
+            <p>Each Agoran <a href="#Rule693">Decision</a> has a quorum. This is a number set when the
+decision is created, and thereafter cannot be changed. When a
+person initiates an Agoran Decision, that <a href="#Rule869">person</a> <a href="#Rule2152">SHALL</a> state the
+quorum of that decision. However, incorrectly stating the quorum
+of a <a href="#Rule693">decision</a> does not invalidate the initiation, nor does it
+actually change the <a href="#Rule879">quorum</a> of the decision.</p>
+
+<p>The <a href="#Rule879">quorum</a> that an Agoran <a href="#Rule693">Decision</a> gains as it is created can be
+defined by other rules of <a href="#Rule1688">power</a> 2 or greater. If no other rule
+defines the <a href="#Rule879">quorum</a> of an Agoran Decision, the <a href="#Rule879">quorum</a> for that
+decision is equal to the number of players who voted on the
+Agoran <a href="#Rule693">Decision</a> to adopt a <a href="#Rule2350">proposal</a> that had been most recently
+resolved at the time of that decision&#39;s initiation, minus 2.</p>
+
+<p>As an exception to the previous paragraph, the <a href="#Rule879">quorum</a> of an
+Agoran <a href="#Rule693">Decision</a> can never be less than 2. If the rules would
+attempt to set the <a href="#Rule879">quorum</a> of an Agoran <a href="#Rule693">Decision</a> to less than 2,
+it is set to 2 instead.</p>
 
             
           </div>
@@ -2394,33 +2406,18 @@ then that <a href="#Rule869">person</a> wins the game.</p>
           </div>
           
           <div id="Rule2942" class="rule">
-            <h4>Reward and Delay <span class="label label-default">2942</span>  <span class="label label-default">3</span></h4>
+            <h4>Scam Reward <span class="label label-default">2942</span>  <span class="label label-default">3</span></h4>
             
             <p>ais523 <a href="#Rule2152">CAN</a> Declare a Junta by announcement, specifying one or more
 players. Upon doing so, the specified players <a href="#Rule2449">win</a> the game.</p>
 
 <p>ais523 <a href="#Rule2152">CAN</a> Declare an Honour by announcement, specifying a <a href="#Rule869">player</a> and a
 patent title. Upon doing so, ais523 is authorized to, and CAN, award
-that <a href="#Rule869">player</a> that <a href="#Rule649">patent</a> title.</p>
+that <a href="#Rule869">player</a> that <a href="#Rule649">patent</a> title.
+ais523 <a href="#Rule2152">CAN</a> cause a specified <a href="#Rule869">player</a> to earn a Black <a href="#Rule2438">Ribbon</a> by
+announcement.</p>
 
-<p>ais523 <a href="#Rule2152">CAN</a> Declare an Amendment by announcement, specifying a proposal.
-Upon doing so, that proposal&#39;s imminence flips to &quot;pending&quot;.</p>
-
-<p>A proposal&#39;s imminence cannot flip by any mechanism except for the
-mechanism specified in this rule, unless a <a href="#Rule869">player</a> announced intent to
-cause that proposal&#39;s imminence to flip at a time that was:</p>
-
-<pre><code>1. 21 to 28 [days](#Rule1023) in the past, and
-2. subsequent to the proposal&#39;s addition to the [Proposal](#Rule2350) Pool.
-</code></pre>
-
-<p>This takes precedence over all rules of <a href="#Rule1688">power</a> 3 and below that allow
-for a proposal&#39;s imminence to be changed.</p>
-
-<p>Players other than ais523 <a href="#Rule2152">CANNOT</a> flip a proposal&#39;s imminence to
-&quot;pending&quot; via any means, unless they announced intent to do so at least
-21 <a href="#Rule1023">days</a> in advance. This takes precedence over any <a href="#Rule2141">rule</a> which would
-allow a <a href="#Rule869">player</a> to change a proposal&#39;s imminence.</p>
+<p>ais523 <a href="#Rule2152">CAN</a> cause this <a href="#Rule2141">rule</a> to repeal itself by announcement.</p>
 
             
           </div>
@@ -2741,19 +2738,20 @@ specified <a href="#Rule2350">proposal</a> in the <a href="#Rule2350">Proposal</
             <h4>Agencies <span class="label label-default">2467</span>  <span class="label label-default">1</span></h4>
             
             <p>An Agency is a document empowering persons to act on <a href="#Rule2466">behalf</a> of
-another player. A <a href="#Rule869">player</a> may establish an Agency With 24 hours
-Notice and thereby become its Director by specifying the
-properties of the new Agency:</p>
+another player. A <a href="#Rule869">player</a> <a href="#Rule2152">MAY</a> establish an Agency With 24 hours
+Notice, and thereby become its Director, by specifying the
+properties of the new Agency, provided e has not established any
+other Agency that day:</p>
 
 <ol>
 <li>A title, which must be exactly three words, not
  counting conjunctions, articles or prepositions.</li>
-<li>A non-empty list of persons other than the Head (the
+<li>A non-empty list of persons other than the Director (the
  Agents).</li>
 <li>A description of a set of actions (the Powers).</li>
 </ol>
 
-<p>An Agency&#39;s Head may amend its properties or revoke it with 24
+<p>An Agency&#39;s Director may amend its properties or revoke it with 24
 hours Notice. For greater certainty, an announced intent to
 create an Agency or amend an Agency&#39;s powers is INEFFECTIVE
 unless it explicitly specifies the new values of the properties
@@ -2776,7 +2774,7 @@ and any attempt to create or amend an Agency such that two
 Agencies would have the same acronym is INEFFECTIVE.</p>
 
 <p>The Agents of an Agency may perform the Actions described in the
-Powers of the Agency on <a href="#Rule2466">behalf</a> of the Agency&#39;s Head.</p>
+Powers of the Agency on <a href="#Rule2466">behalf</a> of the Agency&#39;s Director.</p>
 
             
           </div>
@@ -2790,14 +2788,14 @@ keeping track of Agencies.</p>
 <p>The Superintendent&#39;s weekly <a href="#Rule2143">report</a> includes:</p>
 
 <ul>
-<li>the Head and acronym of all Agencies,</li>
+<li>the Director and acronym of all Agencies,</li>
 <li>the full properties of all Agencies created since the
 Superintendent&#39;s previous report.</li>
 <li>the amended properties of all Agencies whose properties were
 amended since the Superintendent&#39;s previous report.</li>
 </ul>
 
-<p>The Superintendent&#39;s monthly <a href="#Rule2143">report</a> includes the Head and
+<p>The Superintendent&#39;s monthly <a href="#Rule2143">report</a> includes the Director and
 properties of all Agencies.</p>
 
             
@@ -3240,8 +3238,13 @@ negative value.</p>
             
             <p>The Supply Level is 1000.</p>
 
-<p>When the Supply Level is changed, Agora&#39;s <a href="#Rule2483">Balance</a> is increased
+<p>When a <a href="#Rule2483">Shiny</a> Releveling event occurs, Agora&#39;s <a href="#Rule2483">Balance</a> is increased
 or decreased such that all Balances add up to the Supply Level.</p>
+
+<p>When the Supply level Changes, a <a href="#Rule2483">Shiny</a> Releveling event occurs.</p>
+
+<p>The <a href="#Rule2456">Secretary</a> may cause a <a href="#Rule2483">Shiny</a> Releveling event to occur without 3
+Objections.</p>
 
             
           </div>
