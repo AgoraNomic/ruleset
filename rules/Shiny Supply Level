@@ -5,8 +5,13 @@ history:
 text: |
   The Supply Level is 1000.
 
-  When the Supply Level is changed, Agora's Balance is increased
+  When a Shiny Releveling event occurs, Agora's Balance is increased
   or decreased such that all Balances add up to the Supply Level.
+
+  When the Supply level Changes, a Shiny Releveling event occurs.
+
+  The Secretary may cause a Shiny Releveling event to occur without 3
+  Objections.
 id: 2487
 rev: 0
 power: 2
