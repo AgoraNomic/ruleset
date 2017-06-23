@@ -50,10 +50,10 @@ text: |
   6. The voter has no other valid ballots on the same decision.
 
   A valid ballot is a ballot, correctly submitted, that has not
-  been withdrawn. A player CAN withdraw a ballot by announcement
-  during the voting period of the decision on which it was cast.
-  To "change" one's vote is to retract eir previous ballot (if
-  any), then submit a new one.
+  been withdrawn. During the voting period of an Agoran decision,
+  a player CAN by announcement withdraw (syn. retract) a ballot
+  that e submitted on that decision. To "change" one's vote is to
+  retract eir previous ballot (if any), then submit a new one.
 id: 683
 rev: 23
 power: 3

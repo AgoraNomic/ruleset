@@ -9,24 +9,10 @@ text: |
   ais523 CAN Declare an Honour by announcement, specifying a player and a
   patent title. Upon doing so, ais523 is authorized to, and CAN, award
   that player that patent title.
+  ais523 CAN cause a specified player to earn a Black Ribbon by
+  announcement.
 
-  ais523 CAN Declare an Amendment by announcement, specifying a proposal.
-  Upon doing so, that proposal's imminence flips to "pending".
-
-  A proposal's imminence cannot flip by any mechanism except for the
-  mechanism specified in this rule, unless a player announced intent to
-  cause that proposal's imminence to flip at a time that was:
-
-      1. 21 to 28 days in the past, and
-      2. subsequent to the proposal's addition to the Proposal Pool.
-
-  This takes precedence over all rules of power 3 and below that allow
-  for a proposal's imminence to be changed.
-
-  Players other than ais523 CANNOT flip a proposal's imminence to
-  "pending" via any means, unless they announced intent to do so at least
-  21 days in advance. This takes precedence over any rule which would
-  allow a player to change a proposal's imminence.
+  ais523 CAN cause this rule to repeal itself by announcement.
 id: 2942
 rev: 0
 power: 3
