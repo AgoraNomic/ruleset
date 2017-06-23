@@ -5,9 +5,10 @@ history:
 - Amended(1) by Proposal 7845 (Aris, ais523), 9 May 2017
 text: |-
   An Agency is a document empowering persons to act on behalf of
-  another player. A player may establish an Agency With 24 hours
-  Notice and thereby become its Director by specifying the
-  properties of the new Agency:
+  another player. A player MAY establish an Agency With 24 hours
+  Notice, and thereby become its Director, by specifying the
+  properties of the new Agency, provided e has not established any
+  other Agency that day:
 
     1. A title, which must be exactly three words, not
        counting conjunctions, articles or prepositions.
