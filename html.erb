@@ -116,6 +116,9 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
       padding-top: 50px;
       margin-top: -50px;
     }
+    #rawlink {
+      margin-top: 20px;
+    }
 
   </style>
   <script>
@@ -152,6 +155,9 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 
       <!--Main Content -->
       <div class="col-xs-9">
+        <div id="rawlink">
+        View as raw text: <a href="flr.txt">FLR</a>, <a href="slr.txt">SLR</a>
+        </div>
         <% rule_groups.each do |group| %>
         <section id="<%= group.name.gsub(/[^A-Za-z]/, '') %>" class="group">
           <h3><%=group.name%></h3>
