@@ -189,7 +189,7 @@
               
               <li><a href="#Rule2162">Switches</a></li>
               
-              <li><a href="#Rule2125">Regulation Regulations</a></li>
+              <li><a href="#Rule2125">Regulated Actions</a></li>
               
               <li><a href="#Rule1023">Common Definitions</a></li>
               
@@ -305,6 +305,8 @@
               <li><a href="#Rule911">Motions and Moots</a></li>
               
               <li><a href="#Rule2175">Judicial Retraction and Excess</a></li>
+              
+              <li><a href="#Rule2492">Recusal</a></li>
               
             </ul>
           </li>
@@ -488,6 +490,14 @@
               <li><a href="#Rule104">First Speaker</a></li>
               
               <li><a href="#Rule2029">Town Fountain</a></li>
+              
+              <li><a href="#Rule2166">Assets</a></li>
+              
+              <li><a href="#Rule2493">Regulations</a></li>
+              
+              <li><a href="#Rule2494">The Regkeepor</a></li>
+              
+              <li><a href="#Rule2495">The Birthday Tournament</a></li>
               
             </ul>
           </li>
@@ -984,17 +994,17 @@ boolean <a href="#Rule2162">switch</a> has a default of False.</p>
           </div>
           
           <div id="Rule2125" class="rule">
-            <h4>Regulation Regulations <span class="label label-default">2125</span>  <span class="label label-default">3</span></h4>
+            <h4>Regulated Actions <span class="label label-default">2125</span>  <span class="label label-default">3</span></h4>
             
-            <p>An action is <a href="#Rule2125">regulated</a> if: (1) the Rules limit, allow, enable,
+            <p>An action is restricted if: (1) the Rules limit, allow, enable,
 or permit its performance; (2) describe the circumstances under
 which the action would succeed or fail; or (3) the action would,
 as part of its effect, modify information for which some player
 is required to be a recordkeepor.</p>
 
-<p>Regulated Actions <a href="#Rule2152">CAN</a> only be performed as described by the
+<p>Restricted Actions <a href="#Rule2152">CAN</a> only be performed as described by the
 Rules.  The Rules <a href="#Rule2152">SHALL NOT</a> be interpreted so as to proscribe
-unregulated actions.</p>
+unrestricted actions.</p>
 
             
           </div>
@@ -1032,9 +1042,9 @@ the period of time between a <a href="#Rule1023">pivot</a> and the next pivot.</
 
 <p>These definitions do not apply to relative durations (e.g.
 &quot;within &lt;number&gt; <a href="#Rule1023">days</a> after &lt;event&gt;&quot;).</p></li>
-<li><p>If a <a href="#Rule2125">regulated</a> value, or the value of a conditional, or a
+<li><p>If a restricted value, or the value of a conditional, or a
 value otherwise required to determine the outcome of a
-<a href="#Rule2125">regulated</a> action, <a href="#Rule2152">CANNOT</a> be reasonably determined (without
+restricted action, <a href="#Rule2152">CANNOT</a> be reasonably determined (without
 circularity or paradox) from information reasonably
 available, or if it alternates instantaneously and
 indefinitely between values, then the value is considered to
@@ -1745,7 +1755,7 @@ or monthly report.</p>
 
 <p>Reports <a href="#Rule2152">SHALL</a> be published in plain text.  Tabular data must
 line up properly when viewed in a monospaced font.  Publishing a
-report that deviates from these regulations is the Class 2 Crime
+report that deviates from these restrictions is the Class 2 Crime
 of Making My Eyes Bleed.</p>
 
 <p>Officers <a href="#Rule2152">SHOULD</a> maintain a publicly visible copy of their
@@ -2072,12 +2082,35 @@ in a <a href="#Rule1023">timely</a> fashion after this becomes possible.  If e d
 the Arbitor <a href="#Rule2152">CAN</a> remove em from being the judge of that case by
 announcement.</p>
 
-<p>The valid judgements, based on the facts of the case at the time
-the <a href="#Rule991">CFJ</a> was initiated, are TRUE, FALSE, and DISMISS.  DISMISS is
-appropriate if the statement is malformed, undecidable,
-irrelevant to the game, if insufficient information exists to
-make a judgement with reasonable effort, or the statement is
-otherwise not able to be answered TRUE or FALSE.</p>
+<p>The valid judgements for an inquiry case are as follows, based
+    on the truth or falsity of the statement at the time the inquiry
+    case was initiated (if its truth value changed at that time,
+    then its initial truth value is used):</p>
+
+<pre><code>* FALSE, appropriate if the statement was factually and
+  logically false
+
+* TRUE, appropriate if the statement was factually and logically
+  true
+
+* IRRELEVANT, appropriate if the veracity of the statement is
+  not relevant to the game or is an overly hypothetical
+  extrapolation of the game or its rules to conditions that
+  don&#39;t actually exist, or if it can be trivially determined
+  from the outcome of another (possibly still undecided)
+  judicial case that was not itself judged IRRELEVANT
+
+* INSUFFICIENT, appropriate if the statement does not come with
+  supporting arguments or evidence, and the judge feels as if an
+  undue burden is being placed on em by the lack of arguments and
+  evidence.  A [CFJ](#Rule991) judged as INSUFFICIENT [CAN](#Rule2152) and [SHOULD](#Rule2152) be
+  submitted again with sufficient arguments/evidence.
+
+* DISMISS, appropriate if the statement is malformed, undecidable,
+  if insufficient information exists to make a judgement with
+  reasonable effort, or the statement is otherwise not able to be
+  answered with another valid judgement.
+</code></pre>
 
             
           </div>
@@ -2129,6 +2162,21 @@ A <a href="#Rule869">person</a> <a href="#Rule2152">SHALL NOT</a> initiate an ex
 refuse an excess case by announcement, thus causing it to cease
 to be a judicial case.  When e does so, e fulfills any
 obligations with regards to that case.</p>
+
+            
+          </div>
+          
+          <div id="Rule2492" class="rule">
+            <h4>Recusal <span class="label label-default">2492</span>  <span class="label label-default">1</span></h4>
+            
+            <p>A judge may recuse emself from a <a href="#Rule991">CFJ</a> they are assigned to.</p>
+
+<p>When a judge recuses emself from a <a href="#Rule991">CFJ</a> the following happens:
+  1 - The <a href="#Rule991">CFJ</a> becomes unassigned
+  2 - The recused judge becomes ineligible to be assigned as a judge
+      for a week.
+  3 - The recused judge <a href="#Rule2152">SHOULD</a> suggest another judge for the <a href="#Rule991">CFJ</a> to
+      make the Arbitor&#39;s job easier.</p>
 
             
           </div>
@@ -2698,7 +2746,7 @@ character string &quot;MOTION OF NO CONFIDENCE&quot; in the subject line.</p>
           </div>
           
           <div id="Rule2451" class="rule">
-            <h4>Executive Orders <span class="label label-default">2451</span>  <span class="label label-default">1</span></h4>
+            <h4>Executive Orders <span class="label label-default">2451</span>  <span class="label label-default">1.7</span></h4>
             
             <p>Once per <a href="#Rule1023">week</a> and except as otherwise forbidden by this
 rule, the current <a href="#Rule2423">Prime Minister</a> <a href="#Rule2152">CAN</a> issue a Cabinet Order
@@ -2735,7 +2783,12 @@ specified <a href="#Rule2350">proposal</a> in the <a href="#Rule2350">Proposal</
           <div id="Rule2450" class="rule">
             <h4>Pledges <span class="label label-default">2450</span>  <span class="label label-default">1.7</span></h4>
             
-            <p>Breaking a publicly-made pledge is a cardable offense.</p>
+            <p>A <a href="#Rule869">player</a> <a href="#Rule2152">SHALL NOT</a> break eir own publicly-made pledges.</p>
+
+<p>A pledge may be considered broken if the pledger does not complete it
+in a <a href="#Rule1023">timely</a> manner after it becomes possible to do so. A pledge may be
+considered broken at the moment the pledger engages in conduct
+proscribed by that pledge.</p>
 
             
           </div>
@@ -2875,25 +2928,12 @@ the entire <a href="#Rule1023">day</a> of June 30, GMT +1200, of each year.</p>
 to be initiated as a tournament by the Rules.  If a winner of a
 tournament is determined within 4 <a href="#Rule1023">weeks</a> of its initiation, that
 person or persons <a href="#Rule2449">win</a> the game, otherwise the tournament
-concludes with no winner.</p>
-
-<p>In a <a href="#Rule1023">timely</a> fashion after the start of June 1 of each year,
-the Herald <a href="#Rule2152">SHALL</a> propose a set of Regulations governing a
-Birthday Tournament for that year; the Herald <a href="#Rule2152">CAN</a> also
-delegate the responsibility for creating or running the
-tournament to another player, with that player&#39;s consent.</p>
-
-<p>The Birthday Tournament&#39;s regulations <a href="#Rule2152">SHOULD</a> be such that all
-persons who choose to participate have a fair chance of winning
-the tournament (according to its regulations), and a winner
-SHOULD be expected within 2-3 <a href="#Rule1023">weeks</a> following the tournament&#39;s
-initiation.</p>
-
-<p>After adequate time for discussion of the Birthday Tournament&#39;s
-regulations, the Herald (or delegate) <a href="#Rule2152">CAN</a> initiate a sanctioned
-tournament with a specified, finalized set of regulations,
-Without 3 Objections.  The initiation <a href="#Rule2152">SHOULD</a> be timed to
-coincide with Agora&#39;s Birthday.</p>
+concludes with no winner. A Tournament is governed by a special temporary
+title of the ACORN, created in accordance with its parent rule,
+which have binding control over those who freely agree to play the tournament
+and over the tournament itself. Once the tournament is concluded, these
+regulations cease to have any effect, and may be repealed by any <a href="#Rule869">player</a> by
+announcement.</p>
 
             
           </div>
@@ -2948,6 +2988,10 @@ of an Organization, or for an <a href="#Rule2459">organization</a> to be created
 player as a member, without that player&#39;s explicit, willful
 consent. This <a href="#Rule2141">rule</a> takes precedence over any <a href="#Rule2141">rule</a> that might
 make such a change possible.</p>
+
+<p>A member of an <a href="#Rule2459">Organization</a> <a href="#Rule2152">CAN</a> perform any action the rules authorize that
+Organization to perform, if the Organization&#39;s charter states that doing so
+is Appropriate.</p>
 
             
           </div>
@@ -3080,7 +3124,7 @@ player and a <a href="#Rule2457">Lockout</a> Event happens to Agora as a whole.<
           </div>
           
           <div id="Rule2462" class="rule">
-            <h4>Bankruptcy <span class="label label-default">2462</span>  <span class="label label-default">1.2</span></h4>
+            <h4>Bankruptcy <span class="label label-default">2462</span>  <span class="label label-default">1.7</span></h4>
             
             <p>While a player&#39;s Expenditure exceeds the Income Cap, then any
 player <a href="#Rule2152">CAN</a> cause that <a href="#Rule869">player</a> to become Bankrupt by announcement,
@@ -3108,26 +3152,10 @@ flipped to 0.</li>
           <div id="Rule2489" class="rule">
             <h4>Estates <span class="label label-default">2489</span>  <span class="label label-default">2</span></h4>
             
-            <p>An <a href="#Rule2489">Estate</a> is a type of entity. The following changes are
-secured: creating, modifying, or destroying an Estate; and
-causing an entity to become an <a href="#Rule2489">Estate</a> or cease to be an Estate.</p>
-
-<p>Owner is a <a href="#Rule2162">switch</a> belonging to each Estate, tracked by the
-Surveyor, whose legal values are any player, any Organization,
-or Agora. The default Owner of an <a href="#Rule2489">Estate</a> is Agora. Changes to
-Owner switches are secured.</p>
-
-<p>To transfer an <a href="#Rule2489">Estate</a> to a <a href="#Rule869">player</a> or <a href="#Rule2459">Organization</a> is to set its
-Owner <a href="#Rule2162">switch</a> to that <a href="#Rule869">player</a> or that Organization. To transfer an
-Estate to Agora is to set its Owner <a href="#Rule2162">switch</a> to Agora.</p>
-
-<p>A <a href="#Rule869">player</a> who owns an <a href="#Rule2489">Estate</a> can and may transfer it to any
-player, to any Organization, or to Agora, by announcement.</p>
-
-<p>A <a href="#Rule869">player</a> may cause an <a href="#Rule2459">Organization</a> which owns an <a href="#Rule2489">Estate</a> to
-transfer that <a href="#Rule2489">Estate</a> to any player, to any Organization, or to
-Agora, by announcement, if it is Appropriate to do so under that
-Organization&#39;s charter.</p>
+            <p>An <a href="#Rule2489">Estate</a> is a type of indestructable liquid asset, which can be owned by
+players, organizations, and Agora. The following changes are secured:
+creating, modifying, or destroying an Estate; and causing an
+entity to become an <a href="#Rule2489">Estate</a> or cease to be an Estate.</p>
 
             
           </div>
@@ -3135,8 +3163,7 @@ Organization&#39;s charter.</p>
           <div id="Rule2488" class="rule">
             <h4>The Surveyor <span class="label label-default">2488</span>  <span class="label label-default">1</span></h4>
             
-            <p>The <a href="#Rule2488">Surveyor</a> is an office. Eir weekly <a href="#Rule2143">report</a> includes the owner
-of each Estate.</p>
+            <p>The <a href="#Rule2488">Surveyor</a> is an office, and the recordkeepor of estates.</p>
 
             
           </div>
@@ -3149,16 +3176,12 @@ the <a href="#Rule2488">Surveyor</a> shall put one <a href="#Rule2489">Estate</a
 auction, by announcement. Each auction ends seven <a href="#Rule1023">days</a> after it
 begins.</p>
 
-<p>During an auction, any <a href="#Rule869">player</a> may bid any number of <a href="#Rule2483">Shinies</a> by
-announcement. Any <a href="#Rule869">player</a> may cause any <a href="#Rule2459">Organization</a> to bid any
-number of Shinies, by announcement, if it is Appropriate under
-that Organization&#39;s charter to place the bid.</p>
-
-<p>At the end of an auction, if there is a single highest bid, the
-player or <a href="#Rule2459">Organization</a> that placed the highest bid can cause
-Agora to transfer the auctioned <a href="#Rule2489">Estate</a> to emself by paying Agora
-the number of <a href="#Rule2483">Shinies</a> stated in their most recent bid. If the
-highest bidder does not do so in a <a href="#Rule1023">timely</a> fashion, the Surveyor
+<p>During an auction, any <a href="#Rule869">player</a> or <a href="#Rule2459">organization</a> may bid any number of
+Shinies by announcement. At the end of an auction, if there is a
+single highest bid, the <a href="#Rule869">player</a> or <a href="#Rule2459">Organization</a> that placed the highest
+bid can cause Agora to transfer the auctioned <a href="#Rule2489">Estate</a> to emself by
+paying Agora the number of <a href="#Rule2483">Shinies</a> stated in their most recent bid. If
+the highest bidder does not do so in a <a href="#Rule1023">timely</a> fashion, the Surveyor
 shall issue the <a href="#Rule869">player</a> who submitted the bid a Yellow Card.</p>
 
             
@@ -3184,32 +3207,12 @@ for each <a href="#Rule2489">Estate</a> expended on it.</p>
           <div id="Rule2483" class="rule">
             <h4>Economics <span class="label label-default">2483</span>  <span class="label label-default">2</span></h4>
             
-            <p>Agora, each player, and each <a href="#Rule2459">organization</a> have corresponding
-switches known as <a href="#Rule2483">Balance</a> switches. Each <a href="#Rule2483">Balance</a> switch&#39;s
-possible values are integers. Agora&#39;s Balance&#39;s default value is
-1000. Each <a href="#Rule869">player</a> and organization&#39;s Balance&#39;s default value is
-0. Balances are tracked by the Secretary. The unit for Balance
-values is <a href="#Rule2483">shiny</a> (pl. shinies).</p>
+            <p>Shinies (sg. shiny) are an indestructible liquid currency, and the official
+currency of Agora. They may be owned by Agora, any player, or any
+organization. The <a href="#Rule2456">Secretary</a> is the recordkeepor for Shinies.</p>
 
-<p>If Agora, a player, or an <a href="#Rule2459">organization</a> (A) &#39;pays&#39; X <a href="#Rule2483">shinies</a> to
-Agora, a player, or an <a href="#Rule2459">organization</a> (B), A&#39;s <a href="#Rule2483">Balance</a> is
-decreased by X and B&#39;s <a href="#Rule2483">Balance</a> is increased by X. Any attempt to
-pay a negative amount is INEFFECTIVE, rules to the contrary
-notwithstanding.</p>
-
-<p>Any <a href="#Rule869">player</a> <a href="#Rule2152">CAN</a> pay Agora, any other player, or any organization
-any amount by announcement, unless it would make eir own balance
-negative. Any attempt to PAY any amount that would make any
-player&#39;s or any organization&#39;s <a href="#Rule2483">balance</a> negative is INEFFECTIVE,
-rules to the contrary notwithstanding.</p>
-
-<p>Any <a href="#Rule2459">organization</a> <a href="#Rule2152">CAN</a> pay Agora, any player, or any other
-organization <a href="#Rule478">by announcement</a> by a member of said organization,
-as specified in the charter of said organization, unless it
-would make the organization&#39;s <a href="#Rule2483">balance</a> negative. Any attempt by
-any <a href="#Rule869">player</a> to cause an <a href="#Rule2459">organization</a> to pay any amount that would
-make that organization&#39;s <a href="#Rule2483">balance</a> negative is INEFFECTIVE, rules
-to the contrary notwithstanding.</p>
+<p>The <a href="#Rule2456">Secretary</a> <a href="#Rule2152">CAN</a> cause Agora to pay any <a href="#Rule869">player</a> or <a href="#Rule2459">organization</a> by
+announcement if doing so is specified by a rule.</p>
 
             
           </div>
@@ -3397,6 +3400,168 @@ report is to create a more informed population.</p>
      and OscarMeyr, Scamsters. Look
      on our works, ye Marvy, but do
 always Dance a Powerful Dance.  Hail Eris!</pre>
+            
+          </div>
+          
+          <div id="Rule2166" class="rule">
+            <h4>Assets <span class="label label-default">2166</span>  <span class="label label-default">3</span></h4>
+            
+            <p>An asset is an entity defined as such by a <a href="#Rule2141">rule</a> (hereafter its backing
+document), and existing solely because its backing document defines its
+existence.</p>
+
+<p>Each asset has exactly one owner.  If an asset would otherwise
+lack an owner, it is owned by Agora.  If an asset&#39;s backing document restricts
+its ownership to a class of entities, then that asset <a href="#Rule2152">CANNOT</a> be gained by or
+transferred to an entity outside that class, and is destroyed if it is owned
+by an entity outside that class (except for Agora, in which case any player
+CAN transfer or destroy it without objection). The restrictions in the
+previous sentence are subject to modification by its backing document.</p>
+
+<p>Unless modified by an asset&#39;s backing document, ownership of an asset is
+restricted to Agora, persons, and organizations.</p>
+
+<p>An organization&#39;s charter <a href="#Rule2152">CAN</a> specify whether or not that <a href="#Rule2459">organization</a> is
+willing receive assets or a class of assets. Generally, an <a href="#Rule2459">organization</a> CANNOT
+be given assets its charter states that it is unwilling to receive. The
+previous provisions of this paragraph do not apply to an asset if the
+organization is required to provide that asset in order to continue existing.</p>
+
+<p>The recordkeepor of a class of assets is the entity (if any)
+defined as such by, and bound by, its backing document.  That
+entity&#39;s <a href="#Rule2143">report</a> includes a list of all instances of that class
+and their owners.  This portion of that entity&#39;s <a href="#Rule2143">report</a> is
+self-ratifying.</p>
+
+<p>An asset generally <a href="#Rule2152">CAN</a> be destroyed by its owner by
+announcement, subject to modification by its backing document. An
+indestructible asset is one defined as such by it backing document, and CANNOT
+be destroyed except by a <a href="#Rule2141">rule</a> specifically addressing the destruction of
+indestructible assets or that asset in particular; any other asset is
+destructible. In circumstances where another asset would be
+destroyed, an indestructible asset is generally transferred to Agora, subject
+to modification by its backing document and the intervention of other rules.</p>
+
+<p>To &quot;lose&quot; an asset is to have it destroyed from one&#39;s
+possession; to &quot;revoke&quot; an asset from an entity is to destroy it
+from that entity&#39;s possession.</p>
+
+<p>An asset generally <a href="#Rule2152">CAN</a> be transferred (syn. payed, given) by its owner to
+another entity by announcement, subject to modification by its backing
+document.  A fixed asset is one defined as such by its backing
+document, and <a href="#Rule2152">CANNOT</a> be transferred; any other asset is liquid.</p>
+
+<p>A currency is a class of asset defined as such by its backing document.
+Instances of a currency with the same owner are fungible.</p>
+
+<p>The &quot;x <a href="#Rule2483">balance</a> of an entity&quot;, where x is a currency, is the number of x that
+entity possesses. If a rule, proposal, or other competent authority attempts
+to increase or decrease the <a href="#Rule2483">balance</a> of an entity without specifying a source
+or destination, then the currency is created or destroyed.</p>
+
+<p>Where it resolves ambiguity, the asset or currency being referred to is the
+currency designated as &quot;Agora&#39;s official currency&quot;, if there is one.</p>
+
+<p>Amendments to a backing document shall not be construed to alter, transfer,
+destroy, or otherwise effect any assets defined by that document, unless
+that is their clear intent.</p>
+
+<p>Assets are always public. [To provide for private contract based assets later]</p>
+
+            
+          </div>
+          
+          <div id="Rule2493" class="rule">
+            <h4>Regulations <span class="label label-default">2493</span>  <span class="label label-default">3.1</span></h4>
+            
+            <p>A Regulation is an instrument defined as such by this rule. A regulation
+allows an officer (known as the Promulgator) to exercise <a href="#Rule2141">rule</a> defined powers.
+A regulation is in effect continuously from the time of its creation to the
+time of either its revocation or the repeal of the <a href="#Rule2141">rule</a> that allowed for its
+creation. When recommending a regulation, its Promulgator must specify by
+number the rule(s) upon which it is based (the parent rules), the list of
+which becomes an integral part of the regulation. The list of rules can
+generally be modified by the Promulgator according to the procedure for text
+changes.</p>
+
+<p>A regulation must be authorized by at least one <a href="#Rule2141">rule</a> in order for it to exist.
+A regulation has effect on the game (only) insofar as the <a href="#Rule2141">rule</a> or rules that
+authorized it permit it to have effect, and a regulation generally inherits
+the <a href="#Rule1688">power</a> of its least powerful parent rule, unless its Promulgator defines
+a lower power. If reasonably possible, a regulation should be
+interpreted so as to defer to other rules. The procedure for resolving
+conflict between regulations is the same as it is for rules.</p>
+
+<p>Regulations are generally issued according to the following procedures,
+and they can be repealed by the announcement of their Promulgator. Alternate
+procedures may be used if provided for by all of the regulations&#39;s parent
+rules. If one parent <a href="#Rule2141">rule</a> specifies procedures that are more stringent than
+those that the other(s) specifies, those apply. Creating, modifying, revoking,
+or allowing for a regulation is secured at <a href="#Rule1688">power</a> 1.</p>
+
+<p>A regulation (or set of regulations), authorized by another rule, may
+generally be enacted or modified by its promulgator without 2 objections,
+or with Agoran consent. A <a href="#Rule2124">notice</a> pursuant to the previous sentence is
+known as a &quot;recommendation&quot;, and the regulation(s) are said to be
+&quot;recommended&quot; to Agora.</p>
+
+            
+          </div>
+          
+          <div id="Rule2494" class="rule">
+            <h4>The Regkeepor <span class="label label-default">2494</span>  <span class="label label-default">1</span></h4>
+            
+            <p>The Regkeepor is an office, responsible for the maintenance of the
+Regulations. The Regulations are contained in the Regkeepor&#39;s weekly report,
+know as the Agora Nomic Code of Regulations (ACORN). E <a href="#Rule2152">MAY</a> <a href="#Rule478">publish</a> multiple
+versions or editions of the ACORN.</p>
+
+<p>The ACORN is divided into titles, assigned by the Regkeepor, which are
+each given an integer.  Generally, each <a href="#Rule1006">office</a> with the <a href="#Rule1688">power</a> to create
+regulations <a href="#Rule2152">SHOULD</a> be assigned the next successive natural number. Title 0 of
+the ACORN is reserved for use by the Regkeepor, and nothing in that title
+need be a regulation. Non-regulations printed in the ACORN
+have no binding effect, and <a href="#Rule2152">SHALL</a> clearly be marked by the Regkeepor.</p>
+
+<p>Each regulation <a href="#Rule2152">SHALL</a> be assigned an ID number by the Regkeepor, consisting
+of a string of the characters [0-9] and separator characters. The Regkeepor
+SHOULD establish some way of keeping track of the version of a regulations.
+The Regkeepor <a href="#Rule2152">MAY</a> also, at eir discretion, create ways of marking special
+types of Regulation (even in violation of the previous restrictions of this
+paragraph), mark sections or titles as reserved for future use, and
+make such other discussions of arrangement, annotation, and marking as are
+necessary and proper in the execution of eir duties.</p>
+
+<p>The Regkeepor <a href="#Rule2152">SHOULD</a> remember that the purpose of the ACORN is to make the
+regulations easily readable, and e <a href="#Rule2152">SHALL</a> not act in a manner intended to
+deceive others in eir official capacity.</p>
+
+            
+          </div>
+          
+          <div id="Rule2495" class="rule">
+            <h4>The Birthday Tournament <span class="label label-default">2495</span>  <span class="label label-default">1</span></h4>
+            
+            <p>In a <a href="#Rule1023">timely</a> fashion after the start of June 1 of each year,
+the Herald <a href="#Rule2152">SHALL</a> propose a set of Regulations governing a
+Birthday Tournament for that year; the Herald <a href="#Rule2152">CAN</a> also
+delegate the responsibility for creating or running the
+tournament to another player, with that player&#39;s consent.</p>
+
+<p>The Birthday Tournament&#39;s regulations <a href="#Rule2152">SHOULD</a> be such that all
+persons who choose to participate have a fair chance of winning
+the tournament (according to its regulations), and a winner
+SHOULD be expected within 2-3 <a href="#Rule1023">weeks</a> following the tournament&#39;s
+initiation.</p>
+
+<p>After adequate time for discussion of the Birthday Tournament&#39;s
+regulations, the Herald (or delegate) <a href="#Rule2152">CAN</a> initiate a sanctioned
+tournament with a specified, finalized set of regulations,
+Without 3 Objections. By doing so e promulgates those regulations as a
+special temporary title of the ACORN. This title may thereafter be amended
+only by the Herald or eir designee without objection, to correct minor typos.
+The initiation <a href="#Rule2152">SHOULD</a> be timed to coincide with Agora&#39;s Birthday.</p>
+
             
           </div>
           

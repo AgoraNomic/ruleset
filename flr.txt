@@ -1,7 +1,7 @@
 THE FULL LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded:
-  Adoption of Proposal 7857, 22 June 2017
+  Adoption of Proposal 7866, 16 July 2017
 
 Online documents:
  https://agoranomic.github.io/ruleset/slr.txt (SLR)
@@ -738,18 +738,18 @@ Amended(8) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
-Rule 2125/8 (Power=3)
-Regulation Regulations
+Rule 2125/9 (Power=3)
+Regulated Actions
 
-      An action is regulated if: (1) the Rules limit, allow, enable,
+      An action is restricted if: (1) the Rules limit, allow, enable,
       or permit its performance; (2) describe the circumstances under
       which the action would succeed or fail; or (3) the action would,
       as part of its effect, modify information for which some player
       is required to be a recordkeepor.
 
-      Regulated Actions CAN only be performed as described by the
+      Restricted Actions CAN only be performed as described by the
       Rules.  The Rules SHALL NOT be interpreted so as to proscribe
-      unregulated actions.
+      unrestricted actions.
 
 History:
 Created by Proposal 4866 (Goethe), 27 August 2006
@@ -761,10 +761,11 @@ Amended(5) by Proposal 6251 (Murphy), 9 May 2009
 Amended(6) by Proposal 6269 (Pavitra), 11 May 2009
 Amended(7) by Proposal 6327 (Murphy), 29 May 2009
 Amended(8) by Proposal 7614 (G.), 13 January 2014
+Amended(9) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
 
 ----------------------------------------------------------------------
 
-Rule 1023/35 (Power=2)
+Rule 1023/36 (Power=2)
 Common Definitions
 
       The following terms are defined:
@@ -801,9 +802,9 @@ Common Definitions
           These definitions do not apply to relative durations (e.g.
           "within <number> days after <event>").
 
-      3. If a regulated value, or the value of a conditional, or a
+      3. If a restricted value, or the value of a conditional, or a
          value otherwise required to determine the outcome of a
-         regulated action, CANNOT be reasonably determined (without
+         restricted action, CANNOT be reasonably determined (without
          circularity or paradox) from information reasonably
          available, or if it alternates instantaneously and
          indefinitely between values, then the value is considered to
@@ -862,7 +863,8 @@ Amended(31) by Proposal 7606 (G.), 13 December 2013
 Amended(32) by Proposal 7641 (scshunt), 12 May 2014
 Amended(33) by Proposal 7686 (omd), 7 August 2014
 Amended(34) by Proposal 7760 (G.), 19 July 2015
-Amended(35) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(35) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+Amended(36) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
@@ -1142,7 +1144,8 @@ Amended(3) by Proposal 7807 (aranea), 10 August 2016
 Amended(4) by Proposal 7818 (ais523), 31 October 2016
 Amended(5) by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
 Amended(6) by Proposal 7848 "Emergency Scam Fix" (ais523), 13 May 2017
-Amended(6) by proposal 7854 "Close Recent Loopholes v2" (ais523), 05 June 2017
+Amended(6) by proposal 7854 "Close Recent Loopholes v2" (ais523), 23
+  June 2017
 
 ----------------------------------------------------------------------
 
@@ -1525,7 +1528,8 @@ Amended(20) by Proposal 7647 (omd), 3 June 2014
 Amended(21) by Proposal 7778 (scshunt), 14 August 2014
 Amended(22) by Proposal 7814 (o), 28 October 2016
 Amended(23) by Decree (Alexis), 10 November 2016
-Amended(24) by proposal 7854 "Close Recent Loopholes v2" (ais523), 05 June 2017
+Amended(24) by proposal 7854 "Close Recent Loopholes v2" (ais523), 23
+  June 2017
 Amended(25) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
@@ -1661,7 +1665,8 @@ Amended(18) by Proposal 7238 (omd), 10 June 2012
 Amended(19) by Proposal 7772 (scshunt), 10 August 2015
 Amended(20) by Proposal 7778 (scshunt), 14 August 2014
 Amended(21) by Proposal 7816 (Alexis, o, aranea), 28 October 2016
-Amended(22) by proposal 7853 "Close Ancient Loopholes" (ais523), 05 June 2017
+Amended(22) by proposal 7853 "Close Ancient Loopholes" (ais523), 23
+  June 2017
 
 ----------------------------------------------------------------------
 
@@ -1725,7 +1730,8 @@ Amended(29) by Proposal 7552 (omd), 24 August 2013
 Amended(30) by Proposal 7612 (ais523), 11 January 2014
 Amended(31) by Proposal 7632 (scshunt), 1 May 2014
 Amended(32) by Proposal 7647 (omd), 3 June 2014
-Amended(33) by proposal 7853 "Close Ancient Loopholes" (ais523), 05 June 2017
+Amended(33) by proposal 7853 "Close Ancient Loopholes" (ais523), 23
+  June 2017
 
 ----------------------------------------------------------------------
 
@@ -2053,7 +2059,7 @@ Amended(38) by Proposal 7807 (aranea), 10 August 2016
 
 ----------------------------------------------------------------------
 
-Rule 2143/25 (Power=1)
+Rule 2143/26 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -2088,7 +2094,7 @@ Official Reports and Duties
 
       Reports SHALL be published in plain text.  Tabular data must
       line up properly when viewed in a monospaced font.  Publishing a
-      report that deviates from these regulations is the Class 2 Crime
+      report that deviates from these restrictions is the Class 2 Crime
       of Making My Eyes Bleed.
 
       Officers SHOULD maintain a publicly visible copy of their
@@ -2124,7 +2130,8 @@ Amended(21) by Proposal 7606 (G.), 13 December 2013
 Amended(22) by Proposal 7648 (omd), 3 June 2014
 Amended(23) by Proposal 7697 (omd), 23 October 2014
 Amended(24) by Proposal 7704 (G.), 3 November 2014
-Amended(25) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(25) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+Amended(26) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
@@ -2602,7 +2609,7 @@ Amended(17) by Proposal 7803 (G.), 31 July 2016
 
 ----------------------------------------------------------------------
 
-Rule 591/42 (Power=1.7)
+Rule 591/43 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN
@@ -2611,12 +2618,34 @@ Delivering Judgements
       the Arbitor CAN remove em from being the judge of that case by
       announcement.
 
-      The valid judgements, based on the facts of the case at the time
-      the CFJ was initiated, are TRUE, FALSE, and DISMISS.  DISMISS is
-      appropriate if the statement is malformed, undecidable,
-      irrelevant to the game, if insufficient information exists to
-      make a judgement with reasonable effort, or the statement is
-      otherwise not able to be answered TRUE or FALSE.
+      The valid judgements for an inquiry case are as follows, based
+          on the truth or falsity of the statement at the time the inquiry
+          case was initiated (if its truth value changed at that time,
+          then its initial truth value is used):
+
+          * FALSE, appropriate if the statement was factually and
+            logically false
+
+          * TRUE, appropriate if the statement was factually and logically
+            true
+
+          * IRRELEVANT, appropriate if the veracity of the statement is
+            not relevant to the game or is an overly hypothetical
+            extrapolation of the game or its rules to conditions that
+            don't actually exist, or if it can be trivially determined
+            from the outcome of another (possibly still undecided)
+            judicial case that was not itself judged IRRELEVANT
+
+          * INSUFFICIENT, appropriate if the statement does not come with
+            supporting arguments or evidence, and the judge feels as if an
+            undue burden is being placed on em by the lack of arguments and
+            evidence.  A CFJ judged as INSUFFICIENT CAN and SHOULD be
+            submitted again with sufficient arguments/evidence.
+
+          * DISMISS, appropriate if the statement is malformed, undecidable,
+            if insufficient information exists to make a judgement with
+            reasonable effort, or the statement is otherwise not able to be
+            answered with another valid judgement.
 
 History:
 Initial Mutable Rule 216, Jun. 30 1993
@@ -2671,6 +2700,7 @@ Retitled and amended(39) by Proposal 7616 (G.), 16 January 2014
 Amended(40) by Proposal 7629 (scshunt), 7 April 2014
 Amended(41) by Proposal 7694 (omd), 23 October 2014
 Amended(42) by Proposal 7776 (omd), 14 August 2015
+Amended(43) by Proposal 7859 (Quzie, grok), 27 June 2017
 
 ----------------------------------------------------------------------
 
@@ -2795,6 +2825,23 @@ Amended(6) by Proposal 6944 (omd; disi.), 16 January 2011
 Amended(7) by Proposal 7623 (G.), 23 February 2014
 Amended(8) by Proposal 7629 (scshunt), 7 April 2014
 Amended(9) by Proposal 7647 (omd), 3 June 2014
+
+----------------------------------------------------------------------
+
+Rule 2492/0 (Power=1)
+Recusal
+
+      A judge may recuse emself from a CFJ they are assigned to.
+
+      When a judge recuses emself from a CFJ the following happens:
+        1 - The CFJ becomes unassigned
+        2 - The recused judge becomes ineligible to be assigned as a judge
+            for a week.
+        3 - The recused judge SHOULD suggest another judge for the CFJ to
+            make the Arbitor's job easier.
+
+History:
+Created by Proposal 7859 (Quzie, grok), 27 June 2017
 
 ----------------------------------------------------------------------
 
@@ -3160,7 +3207,8 @@ Scam Reward
 
 History:
 Created by Proposal 7850 "Yet Another Scam" (ais523), 15 May 2017
-Retitled from "Reward_and_Delay" by proposal 7854 "Close Recent Loopholes v2" (ais523), 05 June 2017
+Retitled from "Reward and Delay" by proposal 7854 "Close Recent
+  Loopholes v2" (ais523), 23 June 2017
 
 ----------------------------------------------------------------------
 
@@ -3534,7 +3582,7 @@ Created by Proposal 7800 (Henri), 19 July 2016
 
 ----------------------------------------------------------------------
 
-Rule 2451/2 (Power=1)
+Rule 2451/3 (Power=1.7)
 Executive Orders
 
       Once per week and except as otherwise forbidden by this
@@ -3565,6 +3613,7 @@ History:
 Created by Proposal 7764 (scshunt), 24 July 2015
 Amended(1) by Proposal 7829 (Alexis), 7 November 2016
 Amended(2) by Proposal 7831 (Alexis), 5 December 2016
+Amended(3) by Proposal 7860 (Quazie), 27 June 2017
 
 ----------------------------------------------------------------------
 
@@ -3572,13 +3621,20 @@ Amended(2) by Proposal 7831 (Alexis), 5 December 2016
 Obligations
 ----------------------------------------------------------------------
 
-Rule 2450/0 (Power=1.7)
+Rule 2450/2 (Power=1.7)
 Pledges
 
-      Breaking a publicly-made pledge is a cardable offense.
+      A player SHALL NOT break eir own publicly-made pledges.
+
+      A pledge may be considered broken if the pledger does not complete it
+      in a timely manner after it becomes possible to do so. A pledge may be
+      considered broken at the moment the pledger engages in conduct
+      proscribed by that pledge.
 
 History:
 Created by Proposal 7761 (G.), 19 July 2015
+Amended(1) by Proposal 7862 (Quazie), 27 June 2017
+Amended(2) by Proposal 7866 (o, Aris, Quazie, G., Gaelan, 天火狐)
 
 ----------------------------------------------------------------------
 
@@ -3625,8 +3681,9 @@ Agencies
 History:
 Created by Proposal 7815 (Alexis, aranea), 28 October 2016
 Amended(1) by Proposal 7845 (Aris, ais523), 9 May 2017
-Amended(2) by proposal 7857 "Agency Leadership Consolidation Act" (Grok), 05 June 2017
-Amended(3) by proposal 7855 "Limited Agencies" (Quazie), 05 June 2017
+Amended(2) by proposal 7857 "Agency Leadership Consolidation Act"
+  (Grok), 23 June 2017
+Amended(3) by proposal 7855 "Limited Agencies" (Quazie), 23 June 2017
 Amended(4) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
@@ -3650,7 +3707,8 @@ Superintendent
 
 History:
 Created by Proposal 7815 (Alexis, aranea), 28 October 2016
-Amended(1) by proposal 7857 "Agency Leadership Consolidation Act" (Grok), 05 June 2017
+Amended(1) by proposal 7857 "Agency Leadership Consolidation Act"
+  (Grok), 23 June 2017
 Amended(2) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
@@ -3739,35 +3797,23 @@ Amended(19) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
-Rule 2464/0 (Power=1)
+Rule 2464/1 (Power=1)
 Tournaments
 
       A Tournament is a sub-game of Agora specifically sanctioned
       to be initiated as a tournament by the Rules.  If a winner of a
       tournament is determined within 4 weeks of its initiation, that
       person or persons win the game, otherwise the tournament
-      concludes with no winner.
-
-      In a timely fashion after the start of June 1 of each year,
-      the Herald SHALL propose a set of Regulations governing a
-      Birthday Tournament for that year; the Herald CAN also
-      delegate the responsibility for creating or running the
-      tournament to another player, with that player's consent.
-
-      The Birthday Tournament's regulations SHOULD be such that all
-      persons who choose to participate have a fair chance of winning
-      the tournament (according to its regulations), and a winner
-      SHOULD be expected within 2-3 weeks following the tournament's
-      initiation.
-
-      After adequate time for discussion of the Birthday Tournament's
-      regulations, the Herald (or delegate) CAN initiate a sanctioned
-      tournament with a specified, finalized set of regulations,
-      Without 3 Objections.  The initiation SHOULD be timed to
-      coincide with Agora's Birthday.
+      concludes with no winner. A Tournament is governed by a special temporary
+      title of the ACORN, created in accordance with its parent rule,
+      which have binding control over those who freely agree to play the tournament
+      and over the tournament itself. Once the tournament is concluded, these
+      regulations cease to have any effect, and may be repealed by any player by
+      announcement.
 
 History:
 Created by Proposal 7809 (G.), 11 September 2016
+Amended(1) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
 
 ----------------------------------------------------------------------
 
@@ -3810,7 +3856,7 @@ Amended(13) by Proposal 7647 (omd), 3 June 2014
 Organizations
 ----------------------------------------------------------------------
 
-Rule 2459/2 (Power=1.2)
+Rule 2459/3 (Power=1.2)
 Organizations
 
       An Organization is a type of entity. The following changes are
@@ -3840,10 +3886,16 @@ Organizations
       consent. This rule takes precedence over any rule that might
       make such a change possible.
 
+      A member of an Organization CAN perform any action the rules authorize that
+      Organization to perform, if the Organization's charter states that doing so
+      is Appropriate.
+
 History:
 Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
 Amended(1) by Proposal 7795 (Murphy), 12 Februray 2016
 Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
+Amended(3) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
+  Scholasticus), 27 June 2017
 
 ----------------------------------------------------------------------
 
@@ -3983,7 +4035,7 @@ Created by Proposal 7792 (ais523), 28 October 2015
 
 ----------------------------------------------------------------------
 
-Rule 2462/4 (Power=1.2)
+Rule 2462/5 (Power=1.7)
 Bankruptcy
 
       While a player's Expenditure exceeds the Income Cap, then any
@@ -4004,7 +4056,8 @@ Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
 Amended(1) by Proposal 7794 (Murphy), 12 Februray 2016
 Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
 Amended(3) by Proposal 7831 (Alexis), 5 December 2016
-Amended(4) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(4) by Proposal 7860 (Quazie), 27 June 2017
+Amended(5) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
@@ -4012,47 +4065,34 @@ Amended(4) via Rule 2430 "Cleanup Time," 24 May 2017
 Estates
 ----------------------------------------------------------------------
 
-Rule 2489/0 (Power=2)
+Rule 2489/1 (Power=2)
 Estates
 
-      An Estate is a type of entity. The following changes are
-      secured: creating, modifying, or destroying an Estate; and
-      causing an entity to become an Estate or cease to be an Estate.
-
-      Owner is a switch belonging to each Estate, tracked by the
-      Surveyor, whose legal values are any player, any Organization,
-      or Agora. The default Owner of an Estate is Agora. Changes to
-      Owner switches are secured.
-
-      To transfer an Estate to a player or Organization is to set its
-      Owner switch to that player or that Organization. To transfer an
-      Estate to Agora is to set its Owner switch to Agora.
-
-      A player who owns an Estate can and may transfer it to any
-      player, to any Organization, or to Agora, by announcement.
-
-      A player may cause an Organization which owns an Estate to
-      transfer that Estate to any player, to any Organization, or to
-      Agora, by announcement, if it is Appropriate to do so under that
-      Organization's charter.
+      An Estate is a type of indestructable liquid asset, which can be owned by
+      players, organizations, and Agora. The following changes are secured:
+      creating, modifying, or destroying an Estate; and causing an
+      entity to become an Estate or cease to be an Estate.
 
 History:
 Created by Proposal 7846 (o, Aris), 8 May 2017
+Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
+  Scholasticus), 27 June 2017
 
 ----------------------------------------------------------------------
 
-Rule 2488/0 (Power=1)
+Rule 2488/1 (Power=1)
 The Surveyor
 
-      The Surveyor is an office. Eir weekly report includes the owner
-      of each Estate.
+      The Surveyor is an office, and the recordkeepor of estates.
 
 History:
 Created by Proposal 7846 (o, Aris), 8 May 2017
+Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
+  Scholasticus), 27 June 2017
 
 ----------------------------------------------------------------------
 
-Rule 2491/0 (Power=2)
+Rule 2491/1 (Power=2)
 Estate Auctions
 
       At the start of each month, if Agora owns at least one Estate,
@@ -4060,20 +4100,18 @@ Estate Auctions
       auction, by announcement. Each auction ends seven days after it
       begins.
 
-      During an auction, any player may bid any number of Shinies by
-      announcement. Any player may cause any Organization to bid any
-      number of Shinies, by announcement, if it is Appropriate under
-      that Organization's charter to place the bid.
-
-      At the end of an auction, if there is a single highest bid, the
-      player or Organization that placed the highest bid can cause
-      Agora to transfer the auctioned Estate to emself by paying Agora
-      the number of Shinies stated in their most recent bid. If the
-      highest bidder does not do so in a timely fashion, the Surveyor
+      During an auction, any player or organization may bid any number of
+      Shinies by announcement. At the end of an auction, if there is a
+      single highest bid, the player or Organization that placed the highest
+      bid can cause Agora to transfer the auctioned Estate to emself by
+      paying Agora the number of Shinies stated in their most recent bid. If
+      the highest bidder does not do so in a timely fashion, the Surveyor
       shall issue the player who submitted the bid a Yellow Card.
 
 History:
 Created by Proposal 7846 (o, Aris), 8 May 2017
+Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
+  Scholasticus), 27 June 2017
 
 ----------------------------------------------------------------------
 
@@ -4095,40 +4133,22 @@ Created by Proposal 7846 (o, Aris), 8 May 2017
 Shinies
 ----------------------------------------------------------------------
 
-Rule 2483/2 (Power=2)
+Rule 2483/3 (Power=2)
 Economics
 
-      Agora, each player, and each organization have corresponding
-      switches known as Balance switches. Each Balance switch's
-      possible values are integers. Agora's Balance's default value is
-      1000. Each player and organization's Balance's default value is
-      0. Balances are tracked by the Secretary. The unit for Balance
-      values is shiny (pl. shinies).
+      Shinies (sg. shiny) are an indestructible liquid currency, and the official
+      currency of Agora. They may be owned by Agora, any player, or any
+      organization. The Secretary is the recordkeepor for Shinies.
 
-      If Agora, a player, or an organization (A) 'pays' X shinies to
-      Agora, a player, or an organization (B), A's Balance is
-      decreased by X and B's Balance is increased by X. Any attempt to
-      pay a negative amount is INEFFECTIVE, rules to the contrary
-      notwithstanding.
-
-      Any player CAN pay Agora, any other player, or any organization
-      any amount by announcement, unless it would make eir own balance
-      negative. Any attempt to PAY any amount that would make any
-      player's or any organization's balance negative is INEFFECTIVE,
-      rules to the contrary notwithstanding.
-
-      Any organization CAN pay Agora, any player, or any other
-      organization by announcement by a member of said organization,
-      as specified in the charter of said organization, unless it
-      would make the organization's balance negative. Any attempt by
-      any player to cause an organization to pay any amount that would
-      make that organization's balance negative is INEFFECTIVE, rules
-      to the contrary notwithstanding.
+      The Secretary CAN cause Agora to pay any player or organization by
+      announcement if doing so is specified by a rule.
 
 History:
 Created by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
 Amended(1) by Proposal 7841 (o, G.), 1 March 2017
 Amended(2) by Proposal 7842 (nichdel, o), 1 March 2017
+Amended(3) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
+  Scholasticus), 27 June 2017
 
 ----------------------------------------------------------------------
 
@@ -4178,7 +4198,8 @@ Shiny Supply Level
 
 History:
 Created by Proposal 7842 (nichdel, o), 1 March 2017
-Amended(1) by proposal 7856 "Shiny Releveling Event" (Quazie), 05 June 2017
+Amended(1) by proposal 7856 "Shiny Releveling Event" (Quazie), 23 June
+  2017
 
 ----------------------------------------------------------------------
 
@@ -4348,10 +4369,204 @@ Created by Proposal 4329 (Goethe), 9 June 2002
 
 ----------------------------------------------------------------------
 
+Rule 2166/21 (Power=3)
+Assets
+
+      An asset is an entity defined as such by a rule (hereafter its backing
+      document), and existing solely because its backing document defines its
+      existence.
+
+      Each asset has exactly one owner.  If an asset would otherwise
+      lack an owner, it is owned by Agora.  If an asset's backing document restricts
+      its ownership to a class of entities, then that asset CANNOT be gained by or
+      transferred to an entity outside that class, and is destroyed if it is owned
+      by an entity outside that class (except for Agora, in which case any player
+      CAN transfer or destroy it without objection). The restrictions in the
+      previous sentence are subject to modification by its backing document.
+
+      Unless modified by an asset's backing document, ownership of an asset is
+      restricted to Agora, persons, and organizations.
+
+      An organization's charter CAN specify whether or not that organization is
+      willing receive assets or a class of assets. Generally, an organization CANNOT
+      be given assets its charter states that it is unwilling to receive. The
+      previous provisions of this paragraph do not apply to an asset if the
+      organization is required to provide that asset in order to continue existing.
+
+      The recordkeepor of a class of assets is the entity (if any)
+      defined as such by, and bound by, its backing document.  That
+      entity's report includes a list of all instances of that class
+      and their owners.  This portion of that entity's report is
+      self-ratifying.
+
+      An asset generally CAN be destroyed by its owner by
+      announcement, subject to modification by its backing document. An
+      indestructible asset is one defined as such by it backing document, and CANNOT
+      be destroyed except by a rule specifically addressing the destruction of
+      indestructible assets or that asset in particular; any other asset is
+      destructible. In circumstances where another asset would be
+      destroyed, an indestructible asset is generally transferred to Agora, subject
+      to modification by its backing document and the intervention of other rules.
+
+      To "lose" an asset is to have it destroyed from one's
+      possession; to "revoke" an asset from an entity is to destroy it
+      from that entity's possession.
+
+      An asset generally CAN be transferred (syn. payed, given) by its owner to
+      another entity by announcement, subject to modification by its backing
+      document.  A fixed asset is one defined as such by its backing
+      document, and CANNOT be transferred; any other asset is liquid.
+
+      A currency is a class of asset defined as such by its backing document.
+      Instances of a currency with the same owner are fungible.
+
+      The "x balance of an entity", where x is a currency, is the number of x that
+      entity possesses. If a rule, proposal, or other competent authority attempts
+      to increase or decrease the balance of an entity without specifying a source
+      or destination, then the currency is created or destroyed.
+
+      Where it resolves ambiguity, the asset or currency being referred to is the
+      currency designated as "Agora's official currency", if there is one.
+
+      Amendments to a backing document shall not be construed to alter, transfer,
+      destroy, or otherwise effect any assets defined by that document, unless
+      that is their clear intent.
+
+      Assets are always public. [To provide for private contract based assets later]
+
+History:
+Created by Proposal 5173 (Murphy), 29 August 2007
+Amended(1) by Proposal 5216 (Murphy), 13 September 2007
+Amended(2) by Proposal 5388 (Murphy), 1 January 2008
+Amended(3) by Proposal 5475 (Murphy), 24 March 2008
+Amended(4) by Proposal 5476 (Murphy; disi.), 27 March 2008
+Amended(5) by Proposal 5496 (Murphy), 23 April 2008
+Amended(6) by Proposal 5833 (Murphy, Taral), 12 November 2008
+Amended(7) by Proposal 5840 (root), 12 November 2008
+Amended(8) by Proposal 5974 (Murphy; disi.), 25 November 2008
+Amended(9) by Proposal 6023 (Murphy), 22 December 2008
+Assigned to Committee on Finance by Proposal 6053 (Murphy, woggle,
+  ais523), 23 January 2009
+Amended(10) by Proposal 6161 (Murphy), 31 March 2009
+Amended(11) by Proposal 6253 (Quazie), 9 May 2009
+Amended(12) by cleaning (Murphy), 16 August 2009
+Amended(13) by Proposal 6430 (coppro; disi.), 18 August 2009
+Amended(14) twice by Proposal 6650 (coppro), 10 March 2010
+Amended(15) by Proposal 6792 (omd), 27 August 2010
+Amended(16) by Proposal 6916 (omd; disi.), 2 January 2011
+Amended(17) by Proposal 7298 (FKA441344), 9 September 2012
+Amended(18) by Proposal 7420 (omd), 27 May 2013
+Amended(19) by Proposal 7586 (omd), 24 August 2013
+Amended(20) by Proposal 7617 (G.), 16 January 2014
+Reenacted and Amended(21) by Proposal 7864 (Aris, G., o, nichdel,
+  Publius Scribonius Scholasticus), 27 June 2017
+
+----------------------------------------------------------------------
+
+Rule 2493/0 (Power=3.1)
+Regulations
+
+      A Regulation is an instrument defined as such by this rule. A regulation
+      allows an officer (known as the Promulgator) to exercise rule defined powers.
+      A regulation is in effect continuously from the time of its creation to the
+      time of either its revocation or the repeal of the rule that allowed for its
+      creation. When recommending a regulation, its Promulgator must specify by
+      number the rule(s) upon which it is based (the parent rules), the list of
+      which becomes an integral part of the regulation. The list of rules can
+      generally be modified by the Promulgator according to the procedure for text
+      changes.
+
+      A regulation must be authorized by at least one rule in order for it to exist.
+      A regulation has effect on the game (only) insofar as the rule or rules that
+      authorized it permit it to have effect, and a regulation generally inherits
+      the power of its least powerful parent rule, unless its Promulgator defines
+      a lower power. If reasonably possible, a regulation should be
+      interpreted so as to defer to other rules. The procedure for resolving
+      conflict between regulations is the same as it is for rules.
+
+      Regulations are generally issued according to the following procedures,
+      and they can be repealed by the announcement of their Promulgator. Alternate
+      procedures may be used if provided for by all of the regulations's parent
+      rules. If one parent rule specifies procedures that are more stringent than
+      those that the other(s) specifies, those apply. Creating, modifying, revoking,
+      or allowing for a regulation is secured at power 1.
+
+      A regulation (or set of regulations), authorized by another rule, may
+      generally be enacted or modified by its promulgator without 2 objections,
+      or with Agoran consent. A notice pursuant to the previous sentence is
+      known as a "recommendation", and the regulation(s) are said to be
+      "recommended" to Agora.
+
+History:
+Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+
+----------------------------------------------------------------------
+
+Rule 2494/0 (Power=1)
+The Regkeepor
+
+      The Regkeepor is an office, responsible for the maintenance of the
+      Regulations. The Regulations are contained in the Regkeepor's weekly report,
+      know as the Agora Nomic Code of Regulations (ACORN). E MAY publish multiple
+      versions or editions of the ACORN.
+
+      The ACORN is divided into titles, assigned by the Regkeepor, which are
+      each given an integer.  Generally, each office with the power to create
+      regulations SHOULD be assigned the next successive natural number. Title 0 of
+      the ACORN is reserved for use by the Regkeepor, and nothing in that title
+      need be a regulation. Non-regulations printed in the ACORN
+      have no binding effect, and SHALL clearly be marked by the Regkeepor.
+
+      Each regulation SHALL be assigned an ID number by the Regkeepor, consisting
+      of a string of the characters [0-9] and separator characters. The Regkeepor
+      SHOULD establish some way of keeping track of the version of a regulations.
+      The Regkeepor MAY also, at eir discretion, create ways of marking special
+      types of Regulation (even in violation of the previous restrictions of this
+      paragraph), mark sections or titles as reserved for future use, and
+      make such other discussions of arrangement, annotation, and marking as are
+      necessary and proper in the execution of eir duties.
+
+      The Regkeepor SHOULD remember that the purpose of the ACORN is to make the
+      regulations easily readable, and e SHALL not act in a manner intended to
+      deceive others in eir official capacity.
+
+History:
+Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+
+----------------------------------------------------------------------
+
+Rule 2495/0 (Power=1)
+The Birthday Tournament
+
+      In a timely fashion after the start of June 1 of each year,
+      the Herald SHALL propose a set of Regulations governing a
+      Birthday Tournament for that year; the Herald CAN also
+      delegate the responsibility for creating or running the
+      tournament to another player, with that player's consent.
+
+      The Birthday Tournament's regulations SHOULD be such that all
+      persons who choose to participate have a fair chance of winning
+      the tournament (according to its regulations), and a winner
+      SHOULD be expected within 2-3 weeks following the tournament's
+      initiation.
+
+      After adequate time for discussion of the Birthday Tournament's
+      regulations, the Herald (or delegate) CAN initiate a sanctioned
+      tournament with a specified, finalized set of regulations,
+      Without 3 Objections. By doing so e promulgates those regulations as a
+      special temporary title of the ACORN. This title may thereafter be amended
+      only by the Herald or eir designee without objection, to correct minor typos.
+      The initiation SHOULD be timed to coincide with Agora's Birthday.
+
+History:
+Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+
+----------------------------------------------------------------------
+
 
 ======================================================================
 
-Highest Rule ID number ever assigned: Rule 2491
+Highest Rule ID number ever assigned: Rule 2495
 
 Last Ruleset Ratification:
   Short Logical Ruleset of 2014-04-07
