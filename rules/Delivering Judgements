@@ -53,6 +53,7 @@ history:
 - Amended(40) by Proposal 7629 (scshunt), 7 April 2014
 - Amended(41) by Proposal 7694 (omd), 23 October 2014
 - Amended(42) by Proposal 7776 (omd), 14 August 2015
+- Amended(43) by Proposal 7859 (Quzie, grok), 27 June 2017
 text: |
   When a CFJ is open and assigned to a judge, that judge CAN
   assign a valid judgement to it by announcement, and SHALL do so
@@ -60,14 +61,36 @@ text: |
   the Arbitor CAN remove em from being the judge of that case by
   announcement.
 
-  The valid judgements, based on the facts of the case at the time
-  the CFJ was initiated, are TRUE, FALSE, and DISMISS.  DISMISS is
-  appropriate if the statement is malformed, undecidable,
-  irrelevant to the game, if insufficient information exists to
-  make a judgement with reasonable effort, or the statement is
-  otherwise not able to be answered TRUE or FALSE.
+  The valid judgements for an inquiry case are as follows, based
+      on the truth or falsity of the statement at the time the inquiry
+      case was initiated (if its truth value changed at that time,
+      then its initial truth value is used):
+
+      * FALSE, appropriate if the statement was factually and
+        logically false
+
+      * TRUE, appropriate if the statement was factually and logically
+        true
+
+      * IRRELEVANT, appropriate if the veracity of the statement is
+        not relevant to the game or is an overly hypothetical
+        extrapolation of the game or its rules to conditions that
+        don't actually exist, or if it can be trivially determined
+        from the outcome of another (possibly still undecided)
+        judicial case that was not itself judged IRRELEVANT
+
+      * INSUFFICIENT, appropriate if the statement does not come with
+        supporting arguments or evidence, and the judge feels as if an
+        undue burden is being placed on em by the lack of arguments and
+        evidence.  A CFJ judged as INSUFFICIENT CAN and SHOULD be
+        submitted again with sufficient arguments/evidence.
+
+      * DISMISS, appropriate if the statement is malformed, undecidable,
+        if insufficient information exists to make a judgement with
+        reasonable effort, or the statement is otherwise not able to be
+        answered with another valid judgement.
 id: 591
-rev: 42
+rev: 43
 power: 1.7
 annotations:
 - cfjs:

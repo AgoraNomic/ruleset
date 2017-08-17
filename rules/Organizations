@@ -4,6 +4,7 @@ history:
 - Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
 - Amended(1) by Proposal 7795 (Murphy), 12 Februray 2016
 - Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
+- Amended(3) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
 text: |
   An Organization is a type of entity. The following changes are
   secured: creating, modifying, or destroying an Organization; and
@@ -31,7 +32,11 @@ text: |
   player as a member, without that player's explicit, willful
   consent. This rule takes precedence over any rule that might
   make such a change possible.
+
+  A member of an Organization CAN perform any action the rules authorize that
+  Organization to perform, if the Organization's charter states that doing so
+  is Appropriate.
 id: 2459
-rev: 2
+rev: 3
 power: 1.2
 annotations: []
