@@ -1,3 +1,11 @@
+def word_wrap(text, options = {})
+  line_width = options.fetch(:line_width, 70)
+  indent = options.fetch(:indent, 0)
+
+  text.split("\n").collect! do |line|
+    line.length > line_width ? line.gsub(/((^.{0,#{indent}})?.{1,#{line_width - indent}})(\s+|$)/, "\\1\n"+" "*indent).strip : line
+  end * "\n"
+end
 class Change < Struct.new(:hash, :text, :rev)
 	USE_ORIGINAL = [ # For these, just use the original commit date, not merge
 		'778723dd794676d6aa1e24080684590d2790b01d'
@@ -10,7 +18,7 @@ class Change < Struct.new(:hash, :text, :rev)
 		opts.shift
 		Hash[opts.map do |opt|
 			name, val = opt.split('=')
-			[name.to_sym, val]
+			[name.to_sym, val.gsub('_', ' ')]
 		end]
 	end
 
@@ -34,9 +42,9 @@ class Change < Struct.new(:hash, :text, :rev)
 	def desc
 		desc = case mechanism.to_sym
 		when :proposal
-			"Amended(#{rev}) by proposal #{id} \"#{title.gsub('_', ' ')}\" (#{author}), #{merge_time.strftime('%-d %B %Y')}"
-		when :proposal_title
-			"Retitled from \"#{from}\" by proposal #{id} \"#{title.gsub('_', ' ')}\" (#{author}), #{merge_time.strftime('%-d %B %Y')}"
+			"Amended(#{rev}) by proposal #{id} \"#{title}\" (#{author}), #{merge_time.strftime('%-d %B %Y')}"
+		when :'proposal title'
+			"Retitled from \"#{from}\" by proposal #{id} \"#{title}\" (#{author}), #{merge_time.strftime('%-d %B %Y')}"
 		when :cleanup
 			"Amended(#{rev}) via Rule 2430 \"Cleanup Time,\" #{merge_time.strftime('%-d %B %Y')}"
 		else
@@ -52,8 +60,7 @@ end
 def get_changes(rule)
 	`git rev-list --pretty=oneline master "rules/#{rule.name}"`.split("\n")
 		.map do |entry|
-			hash, *text = entry.split(' ')
-			[hash, text.join(' ')]
+			entry.split(' ', 2)
 		end
 		.find_all { |entry| entry[1] =~ /^rc / }
 		.each_with_index.map do |entry, idx|

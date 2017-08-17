@@ -12,13 +12,6 @@ end
 
 meta = YAML.load_file('rules/meta')
 
-def word_wrap(text, options = {})
-  line_width = options.fetch(:line_width, 80)
-
-  text.split("\n").collect! do |line|
-    line.length > line_width ? line.gsub(/(.{1,#{line_width}})(\s+|$)/, "\\1\n").strip : line
-  end * "\n"
-end
 %>THE FULL LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded:
@@ -44,7 +37,7 @@ Rule <%=rule.id%>/<%=get_rev(rule)%> (Power=<%=rule.power%>)
 %>
 
 History:
-<%= get_history(rule).join("\n") %>
+<%= word_wrap(get_history(rule).join("\n"), {indent: 2}) %>
 
 ----------------------------------------------------------------------
 <% end %><%end%>
