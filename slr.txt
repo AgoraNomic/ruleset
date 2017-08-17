@@ -1,7 +1,7 @@
 THE SHORT LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded:
-	Adoption of Proposal 7866, 16 July 2017
+	Adoption of Proposal 7867, 30 July 2017
 
 Online documents:
  https://agoranomic.github.io/ruleset/slr.txt (SLR)
@@ -683,6 +683,16 @@ Acting on Behalf
 
 ----------------------------------------------------------------------
 
+Rule 2500/0 (Power=1)
+Action Points
+
+      At the beginning of every Agoran Week, every player has 2 Action
+      Points. When a player 'spends' an Action Point, e has one less
+      Action Point. If a player has 0 Action Points, e may not spend any
+      more Action Points, rules to the contrary notwithstanding.
+
+----------------------------------------------------------------------
+
 ======================================================================
 Proposals
 ----------------------------------------------------------------------
@@ -718,25 +728,19 @@ Proposals
 
 ----------------------------------------------------------------------
 
-Rule 2445/6 (Power=1)
+Rule 2445/8 (Power=1)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
-      proposals in the Proposal Pool, whose value is either "pending"
-      or "not pending" (default).
+      proposals in the Proposal Pool, whose value is either "pending" or
+      "not pending" (default).
 
-      Pending List Price is an integer switch, tracked by the Promotor,
-      whose default value is 5. At the beginning of every month, the
-      Pending List Price is set to 90% of the mean of the price paid
-      for each proposal pended in the previous month, rounded down. If
-      less than 2 proposals were pended in the previous month, the
-      Pending List Price is set to its default.
+      Any player CAN flip a specified proposal's imminence to "pending" by
+      announcement by:
 
-      Any player CAN pay Agora a specified amount, which is no less
-      than the Pending List Price, to flip a proposal's imminence
-      to "pending" by announcement. If the specified amount is less
-      than the Pending List Price, then the attempt to pay is
-      INEFFECTIVE, and the proposal's imminence is not flipped.
+        a) spending 1 Action Point, OR
+
+        b) spending 1/20th the Floating Value in shinies.
 
 ----------------------------------------------------------------------
 
@@ -1483,10 +1487,18 @@ Calls for Judgement
 Rule 991/17 (Power=2)
 Calls for Judgement
 
-      Any person (the initiator) can initiate a Call for Judgement
-      (CFJ, syn. Judicial Case) by announcement, specifying a
-      statement to be inquired into.  E may optionally bar one person
-      from the case.
+      Any person (the initiator) can initiate a Call for Judgement (CFJ,
+      syn. Judicial Case), specifying a statement to be inquired into:
+
+        a) by announcement, and spending 1 Action Point, OR
+
+        b) by announcement, and spending 1/20th the Floating Value in
+        shinies, OR
+
+        c) by announcement if e is not a player.
+
+      When a person initiates a Call for Judgment, e may optionally bar one
+      person from the case.
 
       At any time, each CFJ is either open (default), suspended, or
       assigned exactly one judgement.
@@ -2572,30 +2584,6 @@ Economics
 
 ----------------------------------------------------------------------
 
-Rule 2484/2 (Power=1)
-Payday
-
-      Payrate is a natural office switch, tracked by the ADoP, with a
-      default value of 2. Report Rate is a natural office switch,
-      tracked by the ADoP, with a default value of 2.
-
-      At the start of each month, if Agora's Balance is not 0 or less,
-      Agora SHALL pay each player 10 shinies.
-
-      Immediately afterward, for each duty-fulfilling report published
-      last month (in chronological order of publication), Agora SHALL
-      pay the publisher of the report the Report Rate for the office
-      the report is associated with unless paying would leave Agora's
-      balance at a negative value.
-
-      Immediately afterward, for each office (first in ascending order
-      of Payrate, then in descending alphabetical order of office
-      name), Agora SHALL pay the holder of the office that office's
-      Payrate value unless paying would leave Agora's balance at a
-      negative value.
-
-----------------------------------------------------------------------
-
 Rule 2487/1 (Power=2)
 Shiny Supply Level
 
@@ -2629,6 +2617,77 @@ You can't take it with you
       within 1 day of deregistration, the Registrar CAN and SHALL
       cause that player to pay eir Balance to Agora and to transfer
       all of eir Estates to Agora, by announcement.
+
+----------------------------------------------------------------------
+
+Rule 2496/0 (Power=1)
+Rewards
+
+      A Reward is a specified amount of shinies associated with a Reward
+      Condition. For each time a player meets a Reward Condition, e MAY
+      claim the specified award exactly once within 24 hours of meeting the
+      Reward Condition.
+
+      When a player 'claims' a Reward, Agora transfers the specified number
+      of shinies to the player.
+
+      Below is an exhaustive list of Reward Conditions and eir rewards:
+
+        * The following two only apply to proposals that were pended via
+        spending shinies:
+
+           - Being the author of an adopted proposal: 1/40th the current
+           Floating Value.
+
+           - Being the pender of an adopted proposal: 1/40th the current
+           Floating Value.
+
+        * Judging a CFJ, that was created via spending shinies, that e was
+        assigned to: 1/20th the current Floating Value.
+
+        * Publishing a duty-fulfilling report: 5 shinies.
+
+        * Resolving an Agoran Decision for the first time this week: 5
+        shinies.
+
+----------------------------------------------------------------------
+
+Rule 2498/0 (Power=1)
+Economic Wins
+
+      Stamps are an asset, identified by eir creator and tracked by the
+      Secretary.
+
+      The Stamp Value is always 1/5th the current Floating Value.
+
+      Once per month, a player MAY, by announcement, transfer to Agora the
+      Stamp Value, in shinies, to create a Stamp.
+
+      Players MAY, by announcement, destroy a Stamp and cause Agora to
+      transfer the Stamp Value, in shinies, to em.
+
+      While a player has Stamps made by at least 10 different players e MAY
+      destroy 10 stamps made by 10 different players by announcement to win
+      the game.
+
+----------------------------------------------------------------------
+
+Rule 2497/0 (Power=1)
+Floating Value
+
+      Floating Value is a natural switch. When e publishes eir Weekly Report, the
+      Secretary SHALL flip the Floating Value to Agora's shiny balance.
+
+----------------------------------------------------------------------
+
+Rule 2499/0 (Power=1)
+Welcome Packages
+
+      If a player has not received a Welcome Package since e most recently
+      registered, any player MAY cause em to receive one by announcement.
+
+      When a player receives a Welcome Package, Agora transfers 50 shinies
+      to em.
 
 ----------------------------------------------------------------------
 
@@ -2797,6 +2856,9 @@ Assets
       document.  A fixed asset is one defined as such by its backing
       document, and CANNOT be transferred; any other asset is liquid.
 
+      When a rule indicates transfering an amount that is not a natural number,
+      the specified amount is rounded up to the nearest natural number.
+
       A currency is a class of asset defined as such by its backing document.
       Instances of a currency with the same owner are fungible.
 
@@ -2804,6 +2866,10 @@ Assets
       entity possesses. If a rule, proposal, or other competent authority attempts
       to increase or decrease the balance of an entity without specifying a source
       or destination, then the currency is created or destroyed.
+
+      When a player causes one or more balances to change, e is ENCOURAGED
+      to specify the resulting balance(s). Players SHOULD NOT specify
+      inaccurate balances.
 
       Where it resolves ambiguity, the asset or currency being referred to is the
       currency designated as "Agora's official currency", if there is one.
@@ -2910,7 +2976,7 @@ The Birthday Tournament
 
 ======================================================================
 
-Highest Rule ID number ever assigned: Rule 2495
+Highest Rule ID number ever assigned: Rule 2500
 
 Last Ruleset Ratification:
 	Short Logical Ruleset of 2014-04-07

@@ -26,11 +26,21 @@ history:
 - Amended(15) by Proposal 7647 (omd), 3 June 2014
 - Amended(16) by Proposal 7777 (omd, G.), 14 August 2015
 - Amended(17) by Proposal 7803 (G.), 31 July 2016
+- Amended(19) by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris),
+  30 July 2017
 text: |
-  Any person (the initiator) can initiate a Call for Judgement
-  (CFJ, syn. Judicial Case) by announcement, specifying a
-  statement to be inquired into.  E may optionally bar one person
-  from the case.
+  Any person (the initiator) can initiate a Call for Judgement (CFJ,
+  syn. Judicial Case), specifying a statement to be inquired into:
+
+    a) by announcement, and spending 1 Action Point, OR
+
+    b) by announcement, and spending 1/20th the Floating Value in
+    shinies, OR
+
+    c) by announcement if e is not a player.
+
+  When a person initiates a Call for Judgment, e may optionally bar one
+  person from the case.
 
   At any time, each CFJ is either open (default), suspended, or
   assigned exactly one judgement.

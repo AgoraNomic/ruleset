@@ -71,6 +71,9 @@ text: |
   document.  A fixed asset is one defined as such by its backing
   document, and CANNOT be transferred; any other asset is liquid.
 
+  When a rule indicates transfering an amount that is not a natural number,
+  the specified amount is rounded up to the nearest natural number.
+
   A currency is a class of asset defined as such by its backing document.
   Instances of a currency with the same owner are fungible.
 
@@ -78,6 +81,10 @@ text: |
   entity possesses. If a rule, proposal, or other competent authority attempts
   to increase or decrease the balance of an entity without specifying a source
   or destination, then the currency is created or destroyed.
+
+  When a player causes one or more balances to change, e is ENCOURAGED
+  to specify the resulting balance(s). Players SHOULD NOT specify
+  inaccurate balances.
 
   Where it resolves ambiguity, the asset or currency being referred to is the
   currency designated as "Agora's official currency", if there is one.

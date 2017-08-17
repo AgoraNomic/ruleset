@@ -199,6 +199,8 @@
               
               <li><a href="#Rule2466">Acting on Behalf</a></li>
               
+              <li><a href="#Rule2500">Action Points</a></li>
+              
             </ul>
           </li>
           
@@ -459,11 +461,17 @@
               
               <li><a href="#Rule2483">Economics</a></li>
               
-              <li><a href="#Rule2484">Payday</a></li>
-              
               <li><a href="#Rule2487">Shiny Supply Level</a></li>
               
               <li><a href="#Rule2485">You can't take it with you</a></li>
+              
+              <li><a href="#Rule2496">Rewards</a></li>
+              
+              <li><a href="#Rule2498">Economic Wins</a></li>
+              
+              <li><a href="#Rule2497">Floating Value</a></li>
+              
+              <li><a href="#Rule2499">Welcome Packages</a></li>
               
             </ul>
           </li>
@@ -1195,6 +1203,17 @@ of another person.</p>
             
           </div>
           
+          <div id="Rule2500" class="rule">
+            <h4>Action Points <span class="label label-default">2500</span>  <span class="label label-default">1</span></h4>
+            
+            <p>At the beginning of every Agoran Week, every <a href="#Rule869">player</a> has 2 Action
+Points. When a <a href="#Rule869">player</a> &#39;spends&#39; an Action Point, e has one less
+Action Point. If a <a href="#Rule869">player</a> has 0 Action Points, e may not spend any
+more Action Points, rules to the contrary notwithstanding.</p>
+
+            
+          </div>
+          
         </section> 
         
         <section id="Proposals" class="group">
@@ -1238,21 +1257,15 @@ more than 14 <a href="#Rule1023">days</a> ago.</p>
             <h4>How to Pend a Proposal <span class="label label-default">2445</span>  <span class="label label-default">1</span></h4>
             
             <p>Imminence is a switch, tracked by the Promotor, possessed by
-proposals in the <a href="#Rule2350">Proposal</a> Pool, whose value is either &quot;pending&quot;
-or &quot;not pending&quot; (default).</p>
+proposals in the <a href="#Rule2350">Proposal</a> Pool, whose value is either &quot;pending&quot; or
+&quot;not pending&quot; (default).</p>
 
-<p>Pending List Price is an integer switch, tracked by the Promotor,
-whose default value is 5. At the beginning of every month, the
-Pending List Price is set to 90% of the mean of the price paid
-for each <a href="#Rule2350">proposal</a> pended in the previous month, rounded down. If
-less than 2 proposals were pended in the previous month, the
-Pending List Price is set to its default.</p>
+<p>Any <a href="#Rule869">player</a> <a href="#Rule2152">CAN</a> flip a specified proposal&#39;s imminence to &quot;pending&quot; by
+announcement by:</p>
 
-<p>Any <a href="#Rule869">player</a> <a href="#Rule2152">CAN</a> pay Agora a specified amount, which is no less
-than the <a href="#Rule2445">Pending</a> List Price, to flip a proposal&#39;s imminence
-to &quot;pending&quot; by announcement. If the specified amount is less
-than the <a href="#Rule2445">Pending</a> List Price, then the attempt to pay is
-INEFFECTIVE, and the proposal&#39;s imminence is not flipped.</p>
+<p>a) spending 1 Action Point, OR</p>
+
+<p>b) spending 1/20th the Floating Value in shinies.</p>
 
             
           </div>
@@ -2049,10 +2062,18 @@ for paragraph breaks.</p>
           <div id="Rule991" class="rule">
             <h4>Calls for Judgement <span class="label label-default">991</span>  <span class="label label-default">2</span></h4>
             
-            <p>Any <a href="#Rule869">person</a> (the initiator) can initiate a Call for Judgement
-(CFJ, syn. Judicial Case) by announcement, specifying a
-statement to be inquired into.  E may optionally bar one person
-from the case.</p>
+            <p>Any <a href="#Rule869">person</a> (the initiator) can initiate a <a href="#Rule991">Call for Judgement</a> (CFJ,
+syn. Judicial Case), specifying a statement to be inquired into:</p>
+
+<p>a) by announcement, and spending 1 Action Point, OR</p>
+
+<p>b) by announcement, and spending 1/20th the Floating Value in
+  shinies, OR</p>
+
+<p>c) <a href="#Rule478">by announcement</a> if e is not a player.</p>
+
+<p>When a <a href="#Rule869">person</a> initiates a Call for Judgment, e may optionally bar one
+person from the case.</p>
 
 <p>At any time, each <a href="#Rule991">CFJ</a> is either open (default), suspended, or
 assigned exactly one judgement.</p>
@@ -3217,31 +3238,6 @@ announcement if doing so is specified by a rule.</p>
             
           </div>
           
-          <div id="Rule2484" class="rule">
-            <h4>Payday <span class="label label-default">2484</span>  <span class="label label-default">1</span></h4>
-            
-            <p>Payrate is a natural <a href="#Rule1006">office</a> switch, tracked by the ADoP, with a
-default value of 2. <a href="#Rule2143">Report</a> Rate is a natural <a href="#Rule1006">office</a> switch,
-tracked by the ADoP, with a default value of 2.</p>
-
-<p>At the start of each month, if Agora&#39;s <a href="#Rule2483">Balance</a> is not 0 or less,
-Agora <a href="#Rule2152">SHALL</a> pay each <a href="#Rule869">player</a> 10 shinies.</p>
-
-<p>Immediately afterward, for each duty-fulfilling <a href="#Rule2143">report</a> published
-last <a href="#Rule1023">month</a> (in chronological order of publication), Agora SHALL
-pay the publisher of the <a href="#Rule2143">report</a> the <a href="#Rule2143">Report</a> Rate for the office
-the <a href="#Rule2143">report</a> is associated with unless paying would leave Agora&#39;s
-balance at a negative value.</p>
-
-<p>Immediately afterward, for each <a href="#Rule1006">office</a> (first in ascending order
-of Payrate, then in descending alphabetical order of office
-name), Agora <a href="#Rule2152">SHALL</a> pay the holder of the <a href="#Rule1006">office</a> that office&#39;s
-Payrate value unless paying would leave Agora&#39;s <a href="#Rule2483">balance</a> at a
-negative value.</p>
-
-            
-          </div>
-          
           <div id="Rule2487" class="rule">
             <h4>Shiny Supply Level <span class="label label-default">2487</span>  <span class="label label-default">2</span></h4>
             
@@ -3276,6 +3272,81 @@ specified <a href="#Rule869">player</a> or Organization. If the <a href="#Rule86
 within 1 <a href="#Rule1023">day</a> of deregistration, the <a href="#Rule2139">Registrar</a> <a href="#Rule2152">CAN</a> and SHALL
 cause that <a href="#Rule869">player</a> to pay eir <a href="#Rule2483">Balance</a> to Agora and to transfer
 all of eir Estates to Agora, by announcement.</p>
+
+            
+          </div>
+          
+          <div id="Rule2496" class="rule">
+            <h4>Rewards <span class="label label-default">2496</span>  <span class="label label-default">1</span></h4>
+            
+            <p>A Reward is a specified amount of <a href="#Rule2483">shinies</a> associated with a Reward
+Condition. For each time a <a href="#Rule869">player</a> meets a Reward Condition, e MAY
+claim the specified award exactly once within 24 hours of meeting the
+Reward Condition.</p>
+
+<p>When a <a href="#Rule869">player</a> &#39;claims&#39; a Reward, Agora transfers the specified number
+of <a href="#Rule2483">shinies</a> to the player.</p>
+
+<p>Below is an exhaustive list of Reward Conditions and eir rewards:</p>
+
+<ul>
+<li><p>The following two only apply to proposals that were pended via
+spending shinies:</p>
+
+<ul>
+<li>Being the author of an adopted proposal: 1/40th the current
+Floating Value.</li>
+<li>Being the pender of an adopted proposal: 1/40th the current
+Floating Value.</li>
+</ul></li>
+<li><p>Judging a CFJ, that was created via spending shinies, that e was
+assigned to: 1/20th the current Floating Value.</p></li>
+<li><p>Publishing a duty-fulfilling report: 5 shinies.</p></li>
+<li><p>Resolving an Agoran <a href="#Rule693">Decision</a> for the first time this week: 5
+shinies.</p></li>
+</ul>
+
+            
+          </div>
+          
+          <div id="Rule2498" class="rule">
+            <h4>Economic Wins <span class="label label-default">2498</span>  <span class="label label-default">1</span></h4>
+            
+            <p>Stamps are an asset, identified by eir creator and tracked by the
+Secretary.</p>
+
+<p>The Stamp Value is always 1/5th the current Floating Value.</p>
+
+<p>Once per month, a <a href="#Rule869">player</a> MAY, by announcement, transfer to Agora the
+Stamp Value, in shinies, to create a Stamp.</p>
+
+<p>Players MAY, by announcement, destroy a Stamp and cause Agora to
+transfer the Stamp Value, in shinies, to em.</p>
+
+<p>While a <a href="#Rule869">player</a> has Stamps made by at least 10 different players e MAY
+destroy 10 stamps made by 10 different players <a href="#Rule478">by announcement</a> to win
+the game.</p>
+
+            
+          </div>
+          
+          <div id="Rule2497" class="rule">
+            <h4>Floating Value <span class="label label-default">2497</span>  <span class="label label-default">1</span></h4>
+            
+            <p>Floating Value is a natural switch. When e publishes eir Weekly Report, the
+Secretary <a href="#Rule2152">SHALL</a> flip the Floating Value to Agora&#39;s <a href="#Rule2483">shiny</a> balance.</p>
+
+            
+          </div>
+          
+          <div id="Rule2499" class="rule">
+            <h4>Welcome Packages <span class="label label-default">2499</span>  <span class="label label-default">1</span></h4>
+            
+            <p>If a <a href="#Rule869">player</a> has not received a Welcome Package since e most recently
+registered, any <a href="#Rule869">player</a> <a href="#Rule2152">MAY</a> cause em to receive one by announcement.</p>
+
+<p>When a <a href="#Rule869">player</a> receives a Welcome Package, Agora transfers 50 shinies
+to em.</p>
 
             
           </div>
@@ -3451,6 +3522,9 @@ another entity by announcement, subject to modification by its backing
 document.  A fixed asset is one defined as such by its backing
 document, and <a href="#Rule2152">CANNOT</a> be transferred; any other asset is liquid.</p>
 
+<p>When a <a href="#Rule2141">rule</a> indicates transfering an amount that is not a natural number,
+the specified amount is rounded up to the nearest natural number.</p>
+
 <p>A currency is a class of asset defined as such by its backing document.
 Instances of a currency with the same owner are fungible.</p>
 
@@ -3458,6 +3532,10 @@ Instances of a currency with the same owner are fungible.</p>
 entity possesses. If a rule, proposal, or other competent authority attempts
 to increase or decrease the <a href="#Rule2483">balance</a> of an entity without specifying a source
 or destination, then the currency is created or destroyed.</p>
+
+<p>When a <a href="#Rule869">player</a> causes one or more balances to change, e is ENCOURAGED
+to specify the resulting balance(s). Players <a href="#Rule2152">SHOULD</a> NOT specify
+inaccurate balances.</p>
 
 <p>Where it resolves ambiguity, the asset or currency being referred to is the
 currency designated as &quot;Agora&#39;s official currency&quot;, if there is one.</p>

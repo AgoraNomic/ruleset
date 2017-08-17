@@ -1,0 +1,36 @@
+---
+name: Rewards
+history:
+- Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok, Aris), 30
+  July 2017
+text: |
+  A Reward is a specified amount of shinies associated with a Reward
+  Condition. For each time a player meets a Reward Condition, e MAY
+  claim the specified award exactly once within 24 hours of meeting the
+  Reward Condition.
+
+  When a player 'claims' a Reward, Agora transfers the specified number
+  of shinies to the player.
+
+  Below is an exhaustive list of Reward Conditions and eir rewards:
+
+    * The following two only apply to proposals that were pended via
+    spending shinies:
+
+       - Being the author of an adopted proposal: 1/40th the current
+       Floating Value.
+
+       - Being the pender of an adopted proposal: 1/40th the current
+       Floating Value.
+
+    * Judging a CFJ, that was created via spending shinies, that e was
+    assigned to: 1/20th the current Floating Value.
+
+    * Publishing a duty-fulfilling report: 5 shinies.
+
+    * Resolving an Agoran Decision for the first time this week: 5
+    shinies.
+id: 2496
+rev: 0
+power: 1
+annotations: []
