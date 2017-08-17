@@ -8,6 +8,7 @@ history:
 - Amended(4) by Proposal 7818 (ais523), 31 October 2016
 - Amended(5) by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
 - Amended(6) by Proposal 7848 "Emergency Scam Fix" (ais523), 13 May 2017
+- Amended(6) by proposal 7854 "Close Recent Loopholes v2" (ais523), 05 June 2017
 text: |
   Imminence is a switch, tracked by the Promotor, possessed by
   proposals in the Proposal Pool, whose value is either "pending"
@@ -26,6 +27,6 @@ text: |
   than the Pending List Price, then the attempt to pay is
   INEFFECTIVE, and the proposal's imminence is not flipped.
 id: 2445
-rev: 5
+rev: 6
 power: 1
 annotations: []

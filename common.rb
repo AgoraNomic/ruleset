@@ -62,10 +62,12 @@ def get_changes(rule)
 		.to_a
 end
 
+
+# TODO: Remove this fully.
 def get_history(rule)
-	rule.history + get_changes(rule).map(&:desc)
+	rule.history
 end
 
 def get_rev(rule)
-	get_changes(rule).last&.rev || rule.rev
+	rule.rev
 end

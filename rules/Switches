@@ -9,6 +9,7 @@ history:
 - Amended(5) by Proposal 7649 (omd), 3 June 2014
 - Amended(6) by Proposal 7735 (aranea), 2 May 2015
 - Amended(7) by Proposal 7828 (aranea, ais523), 7 November 2016
+- Amended(8) via Rule 2430 "Cleanup Time," 24 May 2017
 text: |
   A type of switch is a property that the rules define as a
   switch, and specify the following:
@@ -57,6 +58,6 @@ text: |
   positive boolean switch has a default of True; a negative
   boolean switch has a default of False.
 id: 2162
-rev: 7
+rev: 8
 power: 2
 annotations: []

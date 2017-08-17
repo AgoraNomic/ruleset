@@ -2,6 +2,8 @@
 name: Scam Reward
 history:
 - Created by Proposal 7850 "Yet Another Scam" (ais523), 15 May 2017
+- Retitled from "Reward and Delay" by proposal 7854 "Close Recent Loopholes v2" (ais523),
+  05 June 2017
 text: |
   ais523 CAN Declare a Junta by announcement, specifying one or more
   players. Upon doing so, the specified players win the game.
@@ -14,6 +16,6 @@ text: |
 
   ais523 CAN cause this rule to repeal itself by announcement.
 id: 2942
-rev: 0
+rev: 1
 power: 3
 annotations: []

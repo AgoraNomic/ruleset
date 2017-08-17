@@ -32,6 +32,7 @@ history:
 - Amended(19) by Proposal 7772 (scshunt), 10 August 2015
 - Amended(20) by Proposal 7778 (scshunt), 14 August 2014
 - Amended(21) by Proposal 7816 (Alexis, o, aranea), 28 October 2016
+- Amended(22) by proposal 7853 "Close Ancient Loopholes" (ais523), 05 June 2017
 text: |
   Each Agoran decision has a voting method, which determines how
   voters may vote on it and how to calculate the outcome. The
@@ -78,7 +79,7 @@ text: |
   The outcome of a decision is determined when it is resolved, and
   cannot change thereafter.
 id: 955
-rev: 21
+rev: 22
 power: 3
 annotations:
 - cfjs:

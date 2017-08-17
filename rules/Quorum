@@ -38,6 +38,7 @@ history:
 - Amended(30) by Proposal 7612 (ais523), 11 January 2014
 - Amended(31) by Proposal 7632 (scshunt), 1 May 2014
 - Amended(32) by Proposal 7647 (omd), 3 June 2014
+- Amended(33) by proposal 7853 "Close Ancient Loopholes" (ais523), 05 June 2017
 text: |
   Each Agoran Decision has a quorum. This is a number set when the
   decision is created, and thereafter cannot be changed. When a
@@ -58,7 +59,7 @@ text: |
   attempt to set the quorum of an Agoran Decision to less than 2,
   it is set to 2 instead.
 id: 879
-rev: 32
+rev: 33
 power: 2
 annotations:
 - cfjs:
