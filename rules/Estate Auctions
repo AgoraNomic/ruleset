@@ -3,6 +3,7 @@ name: Estate Auctions
 history:
 - Created by Proposal 7846 (o, Aris), 8 May 2017
 - Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
+- Amended(2) by Proposal 7868 "Minor economic fixes" (Murphy), 30 July 2017
 text: |
   At the start of each month, if Agora owns at least one Estate,
   the Surveyor shall put one Estate which is owned by Agora up for
@@ -10,13 +11,13 @@ text: |
   begins.
   
   During an auction, any player or organization may bid any number of
-  Shinies by announcement. At the end of an auction, if there is a
-  single highest bid, the player or Organization that placed the highest
-  bid can cause Agora to transfer the auctioned Estate to emself by
-  paying Agora the number of Shinies stated in their most recent bid. If
-  the highest bidder does not do so in a timely fashion, the Surveyor
-  shall issue the player who submitted the bid a Yellow Card.
+  Shinies by announcement. AWithin a week after the end of an auction, if there
+  is a single highest bid on that auction, the player or Organization that
+  placed that bid can cause Agora to transfer the auctioned Estate to emself by
+  paying Agora the number of Shinies stated in that bid. If the highest bidder
+  does not do so in a timely fashion, the Surveyor shall issue the player who
+  submitted the bid a Yellow Card.
 id: 2491
-rev: 1
+rev: 2
 power: 2
 annotations: []

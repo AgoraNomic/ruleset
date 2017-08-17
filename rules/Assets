@@ -25,8 +25,9 @@ history:
 - Amended(19) by Proposal 7586 (omd), 24 August 2013
 - Amended(20) by Proposal 7617 (G.), 16 January 2014
 - Reenacted and Amended(21) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
+- Amended(22) by Proposal 7868 "Minor economic fixes" (Murphy), 30 July 2017
 text: |
-  An asset is an entity defined as such by a rule (hereafter its backing
+  An asset is an entity defined as such by the ruleset (hereafter its backing
   document), and existing solely because its backing document defines its
   existence.
 
@@ -95,6 +96,6 @@ text: |
 
   Assets are always public. [To provide for private contract based assets later]
 id: 2166
-rev: 21
+rev: 22
 power: 3
 annotations: []
