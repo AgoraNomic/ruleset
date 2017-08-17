@@ -2,28 +2,13 @@
 name: Estates
 history:
 - Created by Proposal 7846 (o, Aris), 8 May 2017
+- Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
 text: |
-  An Estate is a type of entity. The following changes are
-  secured: creating, modifying, or destroying an Estate; and
-  causing an entity to become an Estate or cease to be an Estate.
-
-  Owner is a switch belonging to each Estate, tracked by the
-  Surveyor, whose legal values are any player, any Organization,
-  or Agora. The default Owner of an Estate is Agora. Changes to
-  Owner switches are secured.
-
-  To transfer an Estate to a player or Organization is to set its
-  Owner switch to that player or that Organization. To transfer an
-  Estate to Agora is to set its Owner switch to Agora.
-
-  A player who owns an Estate can and may transfer it to any
-  player, to any Organization, or to Agora, by announcement.
-
-  A player may cause an Organization which owns an Estate to
-  transfer that Estate to any player, to any Organization, or to
-  Agora, by announcement, if it is Appropriate to do so under that
-  Organization's charter.
+  An Estate is a type of indestructable liquid asset, which can be owned by
+  players, organizations, and Agora. The following changes are secured:
+  creating, modifying, or destroying an Estate; and causing an
+  entity to become an Estate or cease to be an Estate.
 id: 2489
-rev: 0
+rev: 1
 power: 2
 annotations: []

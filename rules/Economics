@@ -4,34 +4,15 @@ history:
 - Created by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
 - Amended(1) by Proposal 7841 (o, G.), 1 March 2017
 - Amended(2) by Proposal 7842 (nichdel, o), 1 March 2017
+- Amended(3) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
 text: |
-  Agora, each player, and each organization have corresponding
-  switches known as Balance switches. Each Balance switch's
-  possible values are integers. Agora's Balance's default value is
-  1000. Each player and organization's Balance's default value is
-  0. Balances are tracked by the Secretary. The unit for Balance
-  values is shiny (pl. shinies).
+  Shinies (sg. shiny) are an indestructible liquid currency, and the official
+  currency of Agora. They may be owned by Agora, any player, or any
+  organization. The Secretary is the recordkeepor for Shinies.
 
-  If Agora, a player, or an organization (A) 'pays' X shinies to
-  Agora, a player, or an organization (B), A's Balance is
-  decreased by X and B's Balance is increased by X. Any attempt to
-  pay a negative amount is INEFFECTIVE, rules to the contrary
-  notwithstanding.
-
-  Any player CAN pay Agora, any other player, or any organization
-  any amount by announcement, unless it would make eir own balance
-  negative. Any attempt to PAY any amount that would make any
-  player's or any organization's balance negative is INEFFECTIVE,
-  rules to the contrary notwithstanding.
-
-  Any organization CAN pay Agora, any player, or any other
-  organization by announcement by a member of said organization,
-  as specified in the charter of said organization, unless it
-  would make the organization's balance negative. Any attempt by
-  any player to cause an organization to pay any amount that would
-  make that organization's balance negative is INEFFECTIVE, rules
-  to the contrary notwithstanding.
+  The Secretary CAN cause Agora to pay any player or organization by
+  announcement if doing so is specified by a rule.
 id: 2483
-rev: 2
+rev: 3
 power: 2
 annotations: []
