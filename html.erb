@@ -11,6 +11,7 @@ end
 
 meta = YAML.load_file('rules/meta')
 keywords = YAML.load_file('rules/keywords')
+annotations = YAML.load_file('rules/sectionannotations')
 
 def linkify(text, keywords)
   t = text.dup
@@ -153,6 +154,9 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
         <% rule_groups.each do |group| %>
         <section id="<%= group.name.gsub(/[^A-Za-z]/, '') %>" class="group">
           <h3><%=group.name%></h3>
+          <div class="alert alert-info" role="alert">
+            <%= markdown.render(annotations[group.name]) %>
+          </div>
           <% group.rules.each do |rule| %>
           <div id="Rule<%=rule.id%>" class="rule">
             <h4><%=rule.name%> <span class="label label-default"><%=rule.id%></span>  <span class="label label-default"><%=rule.power%></span></h4>
