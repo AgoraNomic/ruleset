@@ -8,42 +8,37 @@ history:
   2017
 - Amended(4) by proposal 7855 "Limited Agencies" (Quazie), 05 June 2017
 text: |-
-  An Agency is a document empowering persons to act on behalf of
-  another player. A player MAY establish an Agency With 24 hours
-  Notice, and thereby become its Director, by specifying the
-  properties of the new Agency, provided e has not established any
-  other Agency that day:
+  An Agency is a document empowering persons to act on behalf of another
+  player. A player MAY establish an Agency With 24 hours Notice, and thereby
+  become its Director, by specifying the properties of the new Agency,
+  provided e has not established any other Agency that day:
 
-    1. A title, which must be exactly three words, not
-       counting conjunctions, articles or prepositions.
-    2. A non-empty list of persons other than the Director (the
-       Agents).
+    1. A title, which must be exactly three words, not counting
+       conjunctions, articles or prepositions.
+    2. A non-empty list of persons other than the Director (the Agents).
     3. A description of a set of actions (the Powers).
 
-  An Agency's Director may amend its properties or revoke it with 24
-  hours Notice. For greater certainty, an announced intent to
-  create an Agency or amend an Agency's powers is INEFFECTIVE
-  unless it explicitly specifies the new values of the properties
-  being created or amended.
+  An Agency's Director may amend its properties or revoke it with 24 hours
+  Notice. For greater certainty, an announced intent to create an Agency or
+  amend an Agency's powers is INEFFECTIVE unless it explicitly specifies the
+  new values of the properties being created or amended.
 
-  The Powers of an Agency must be stated as actions, although they
-  may may be conditional on date, time, game state, or other
-  preconditions. If condition(s) are specified as necessary for a
-  power to be used, it is limited; otherwise, it is unlimited. If
-  it attempts to specify a power in a manner that is unclear,
-  ambiguous, circular, inconsistent, paradoxical, or that depends
-  on information that is impossible or unreasonably difficult to
-  determine, then the specification of that power is invalid, and
-  it CANNOT be used.
+  The Powers of an Agency must be stated as actions, although they may may
+  be conditional on date, time, game state, or other preconditions. If
+  condition(s) are specified as necessary for a power to be used, it is
+  limited; otherwise, it is unlimited. If it attempts to specify a power in
+  a manner that is unclear, ambiguous, circular, inconsistent, paradoxical,
+  or that depends on information that is impossible or unreasonably
+  difficult to determine, then the specification of that power is invalid,
+  and it CANNOT be used.
 
-  An Agency, once created, SHOULD be referred to by the acronym
-  formed from its title with conjunctions, articles, and
-  prepositions removed. The acronym of an agency must be unique
-  and any attempt to create or amend an Agency such that two
-  Agencies would have the same acronym is INEFFECTIVE.
+  An Agency, once created, SHOULD be referred to by the acronym formed from
+  its title with conjunctions, articles, and prepositions removed. The
+  acronym of an agency must be unique and any attempt to create or amend an
+  Agency such that two Agencies would have the same acronym is INEFFECTIVE.
 
-  The Agents of an Agency may perform the Actions described in the
-  Powers of the Agency on behalf of the Agency's Director.
+  The Agents of an Agency may perform the Actions described in the Powers of
+  the Agency on behalf of the Agency's Director.
 id: 2467
 rev: 4
 power: 1

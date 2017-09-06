@@ -27,26 +27,29 @@ history:
 - Reenacted and Amended(21) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
 - Amended(22) by Proposal 7868 "Minor economic fixes" (Murphy), 30 July 2017
 text: |
-  An asset is an entity defined as such by the ruleset (hereafter its backing
-  document), and existing solely because its backing document defines its
-  existence.
 
-  Each asset has exactly one owner.  If an asset would otherwise
-  lack an owner, it is owned by Agora.  If an asset's backing document restricts
-  its ownership to a class of entities, then that asset CANNOT be gained by or
-  transferred to an entity outside that class, and is destroyed if it is owned
-  by an entity outside that class (except for Agora, in which case any player
-  CAN transfer or destroy it without objection). The restrictions in the
-  previous sentence are subject to modification by its backing document.
+  An asset is an entity defined as such by the ruleset (hereafter its
+  backing document), and existing solely because its backing document
+  defines its existence.
+
+  Each asset has exactly one owner.If an asset would otherwise lack an
+  owner, it is owned by Agora.If an asset's backing document restricts
+  its ownership to a class of entities, then that asset CANNOT be
+  gained by or transferred to an entity outside that class, and is
+  destroyed if it is owned by an entity outside that class (except for
+  Agora, in which case any player CAN transfer or destroy it without
+  objection). The restrictions in the previous sentence are subject to
+  modification by its backing document.
 
   Unless modified by an asset's backing document, ownership of an asset is
   restricted to Agora, persons, and organizations.
 
   An organization's charter CAN specify whether or not that organization is
-  willing receive assets or a class of assets. Generally, an organization CANNOT
-  be given assets its charter states that it is unwilling to receive. The
-  previous provisions of this paragraph do not apply to an asset if the
-  organization is required to provide that asset in order to continue existing.
+  willing receive assets or a class of assets. Generally, an organization
+  CANNOT be given assets its charter states that it is unwilling to receive.
+  The previous provisions of this paragraph do not apply to an asset if the
+  organization is required to provide that asset in order to continue
+  existing.
 
   The recordkeepor of a class of assets is the entity (if any)
   defined as such by, and bound by, its backing document.  That
@@ -54,14 +57,14 @@ text: |
   and their owners.  This portion of that entity's report is
   self-ratifying.
 
-  An asset generally CAN be destroyed by its owner by
-  announcement, subject to modification by its backing document. An
-  indestructible asset is one defined as such by it backing document, and CANNOT
-  be destroyed except by a rule specifically addressing the destruction of
-  indestructible assets or that asset in particular; any other asset is
-  destructible. In circumstances where another asset would be
-  destroyed, an indestructible asset is generally transferred to Agora, subject
-  to modification by its backing document and the intervention of other rules.
+  An asset generally CAN be destroyed by its owner by announcement, subject
+  to modification by its backing document. An indestructible asset is one
+  defined as such by it backing document, and CANNOT be destroyed except by
+  a rule specifically addressing the destruction of indestructible assets or
+  that asset in particular; any other asset is destructible. In
+  circumstances where another asset would be destroyed, an indestructible
+  asset is generally transferred to Agora, subject to modification by its
+  backing document and the intervention of other rules.
 
   To "lose" an asset is to have it destroyed from one's
   possession; to "revoke" an asset from an entity is to destroy it
@@ -78,23 +81,25 @@ text: |
   A currency is a class of asset defined as such by its backing document.
   Instances of a currency with the same owner are fungible.
 
-  The "x balance of an entity", where x is a currency, is the number of x that
-  entity possesses. If a rule, proposal, or other competent authority attempts
-  to increase or decrease the balance of an entity without specifying a source
-  or destination, then the currency is created or destroyed.
+  The "x balance of an entity", where x is a currency, is the number of x
+  that entity possesses. If a rule, proposal, or other competent authority
+  attempts to increase or decrease the balance of an entity without
+  specifying a source or destination, then the currency is created or
+  destroyed.
 
   When a player causes one or more balances to change, e is ENCOURAGED
   to specify the resulting balance(s). Players SHOULD NOT specify
   inaccurate balances.
 
-  Where it resolves ambiguity, the asset or currency being referred to is the
-  currency designated as "Agora's official currency", if there is one.
+  Where it resolves ambiguity, the asset or currency being referred to is
+  the currency designated as "Agora's official currency", if there is one.
 
-  Amendments to a backing document shall not be construed to alter, transfer,
-  destroy, or otherwise effect any assets defined by that document, unless
-  that is their clear intent.
+  Amendments to a backing document shall not be construed to alter,
+  transfer, destroy, or otherwise effect any assets defined by that
+  document, unless that is their clear intent.
 
-  Assets are always public. [To provide for private contract based assets later]
+  Assets are always public. [To provide for private contract based assets
+  later]
 id: 2166
 rev: 22
 power: 3

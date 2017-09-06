@@ -3,25 +3,22 @@ name: Acting on Behalf
 history:
 - Created by Proposal 7815 (Alexis, aranea), 28 October 2016
 text: |
-  When a rule allows one person (the agent) to act on behalf of
-  another (the principal) to perform an action, that agent CAN
-  perform the action if it is POSSIBLE for the principal to do so,
-  taking into account any prerequisites for the action. If the
-  enabling rule does not specify the mechanism by which the agent
-  may do so, then the agent CAN perform the action in the same
-  manner in which the principal CAN do so, with the additional
-  requirement that the agent must, in the message in which the
-  action is performed, uniquely identify the principal and that
-  the action is being taken on behalf of that person.
+  When a rule allows one person (the agent) to act on behalf of another (the
+  principal) to perform an action, that agent CAN perform the action if it
+  is POSSIBLE for the principal to do so, taking into account any
+  prerequisites for the action. If the enabling rule does not specify the
+  mechanism by which the agent may do so, then the agent CAN perform the
+  action in the same manner in which the principal CAN do so, with the
+  additional requirement that the agent must, in the message in which the
+  action is performed, uniquely identify the principal and that the action
+  is being taken on behalf of that person.
 
-  When an action is performed on behalf of a principal, then the
-  action is considered for all game purposes to have been
-  performed by the principal.
+  When an action is performed on behalf of a principal, then the action is
+  considered for all game purposes to have been performed by the principal.
 
-  This rule takes precedence over any rule which would prohibit a
-  person from taking an action, except that it defers to any rule
-  that imposes limitations specifically on actions taken on behalf
-  of another person.
+  This rule takes precedence over any rule which would prohibit a person
+  from taking an action, except that it defers to any rule that imposes
+  limitations specifically on actions taken on behalf of another person.
 id: 2466
 rev: 0
 power: 3
