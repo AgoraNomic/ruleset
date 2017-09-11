@@ -1,0 +1,39 @@
+---
+name: Comestibles
+id: 2503
+rev: 0
+power: 2.0
+text: |
+  A Comestible is a type of liquid asset, which can be owned by players.
+  Creating Comestibles is secured. The recordkeepor of Comestibles is the
+  Agronomist.
+
+  The Farmer of an Estate may offer Comestibles by announcement, naming a
+  number of Comestibles offered and a price per Comestible in Shinies. A
+  player CANNOT offer more Comestibles in a month than 10 times the number
+  of Farms e owns. The Farmer is ENCOURAGED to name the kind of Comestibles
+  on offer after a plant, vegetable, grain, livestock, or other farm good.
+
+  A player other than the offering Farmer may accept a Comestibles offer by
+  announcement to create that number of Comestibles in eir possession, if e
+  pays the offering Farmer the price per Comestible named in the offer times
+  the number of Comestbiles offered. The Value of a Comestible created this
+  way is equal to the price per Comestible offered by the Farmer.
+
+  An offer expires at the end of the Agoran month in which it is made. Rules
+  to the contrary notwithstanding, an offer CANNOT be accepted if it has
+  expired.
+
+  During an Agoran Decision, a player can increase their voting strength on
+  that decision by destroying (syn. "eating", "consuming") Comestibles. Eir
+  voting strength is increased by one-tenth the total Value of the
+  Comestibles destroyed this way, rounded down, to a maximum of 5.
+
+  A Comestible is an Expired Comestible if it was created by accepting an
+  offer announced more than three Agoran months ago. An Expired Comestible
+  CANNOT be consumed to increase voting strength, and MAY be destroyed by
+  any player, by announcement. The Agronomist SHALL destroy all Expired
+  Comestibles at the start of each Agoran month.
+history:
+- Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September 2017
+annotations: []
