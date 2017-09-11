@@ -28,17 +28,15 @@ The Game of Agora
 Rule 1698/4 (Power=3)
 Agora Is A Nomic
 
-      Agora is ossified if it is IMPOSSIBLE for any reasonable
-      combination of actions by players to cause arbitrary rule
-      changes to be made and/or arbitrary proposals to be adopted
-      within a four-week period.
+      Agora is ossified if it is IMPOSSIBLE for any reasonable combination of
+      actions by players to cause arbitrary rule changes to be made and/or
+      arbitrary proposals to be adopted within a four-week period.
 
-      If, but for this rule, the net effect of a proposal would cause
-      Agora to become ossified, or would cause Agora to cease to
-      exist, it cannot take effect, rules to the contrary
-      notwithstanding.  If any other single change to the gamestate
-      would cause Agora to become ossified, or would cause Agora to
-      cease to exist, it is cancelled and does not occur, rules to the
+      If, but for this rule, the net effect of a proposal would cause Agora to
+      become ossified, or would cause Agora to cease to exist, it cannot take
+      effect, rules to the contrary notwithstanding.If any other single change
+      to the gamestate would cause Agora to become ossified, or would cause
+      Agora to cease to exist, it is cancelled and does not occur, rules to the
       contrary notwithstanding.
 
 ----------------------------------------------------------------------
@@ -646,70 +644,64 @@ The Royal Parade
 Rule 2124/20 (Power=2)
 Agoran Satisfaction
 
-      A Supporter of a dependent action is an eligible entity who has
-      publicly posted (and not withdrawn) support (syn. "consent") for
-      an announcement of intent to perform the action.  An Objector to
-      a dependent action is an eligible entity who has publicly posted
-      (and not withdrawn) an objection to the announcement of intent
-      to perform the action.
 
-      The entities eligible to support or object to a dependent action
-      are, by default, all players, subject to modification by the
-      document authorizing the dependent action.  However, the
-      previous sentence notwithstanding, the Executor of the
-      announcement of intent is not eligible to support it.
+      A Supporter of a dependent action is an eligible entity who has publicly
+      posted (and not withdrawn) support (syn. "consent") for an announcement of
+      intent to perform the action.An Objector to a dependent action is an
+      eligible entity who has publicly posted (and not withdrawn) an objection
+      to the announcement of intent to perform the action.
 
-      Agora is Satisfied with an intent to perform a specific action
-      if and only if:
+      The entities eligible to support or object to a dependent action are, by
+      default, all players, subject to modification by the document authorizing
+      the dependent action.However, the previous sentence notwithstanding, the
+      Executor of the announcement of intent is not eligible to support it.
 
-      1. if the action is to be performed Without N Objections, then
-         it has fewer than N objectors;
+      Agora is Satisfied with an intent to perform a specific action if and only
+      if:
 
-      2. if the action is to be performed With N supporters, then it
-         has N or more supporters; and
+      1. if the action is to be performed Without N Objections, then it has
+         fewer than N objectors;
 
-      3. if the action is to be performed with N Agoran Consent, then
-         the ratio of supporters to objectors is greater than N, or
-         the action has at least one supporter and no objectors.
+      2. if the action is to be performed With N supporters, then it has N or
+         more supporters; and
 
-      4. if the action is to be performed With Notice or With T
-         Notice.
+      3. if the action is to be performed with N Agoran Consent, then the ratio
+         of supporters to objectors is greater than N, or the action has at
+         least one supporter and no objectors.
 
-      The above notwithstanding, if the action depends on objections,
-      and an objection to it has been withdrawn within the past 24
-      hours, then Agora is not Satisfied with the intent.
+      4. if the action is to be performed With Notice or With T Notice.
 
-      The above notwithstanding, Agora is not satisfied with the
-      intent if the Speaker has objected to it in the last 48 hours.
+      The above notwithstanding, if the action depends on objections, and an
+      objection to it has been withdrawn within the past 24 hours, then Agora is
+      not Satisfied with the intent.
 
-      A person CANNOT support or object to an announcement of intent
-      before the intent is announced, or after e has withdrawn the
-      same type of response.
+      The above notwithstanding, Agora is not satisfied with the intent if the
+      Speaker has objected to it in the last 48 hours.
+
+      A person CANNOT support or object to an announcement of intent before the
+      intent is announced, or after e has withdrawn the same type of response.
 
 ----------------------------------------------------------------------
 
 Rule 2466/0 (Power=3)
 Acting on Behalf
 
-      When a rule allows one person (the agent) to act on behalf of
-      another (the principal) to perform an action, that agent CAN
-      perform the action if it is POSSIBLE for the principal to do so,
-      taking into account any prerequisites for the action. If the
-      enabling rule does not specify the mechanism by which the agent
-      may do so, then the agent CAN perform the action in the same
-      manner in which the principal CAN do so, with the additional
-      requirement that the agent must, in the message in which the
-      action is performed, uniquely identify the principal and that
-      the action is being taken on behalf of that person.
+      When a rule allows one person (the agent) to act on behalf of another (the
+      principal) to perform an action, that agent CAN perform the action if it
+      is POSSIBLE for the principal to do so, taking into account any
+      prerequisites for the action. If the enabling rule does not specify the
+      mechanism by which the agent may do so, then the agent CAN perform the
+      action in the same manner in which the principal CAN do so, with the
+      additional requirement that the agent must, in the message in which the
+      action is performed, uniquely identify the principal and that the action
+      is being taken on behalf of that person.
 
-      When an action is performed on behalf of a principal, then the
-      action is considered for all game purposes to have been
-      performed by the principal.
+      When an action is performed on behalf of a principal, then the action is
+      considered for all game purposes to have been performed by the principal.
 
-      This rule takes precedence over any rule which would prohibit a
-      person from taking an action, except that it defers to any rule
-      that imposes limitations specifically on actions taken on behalf
-      of another person.
+      This rule takes precedence over any rule which would prohibit a person
+      from taking an action, except that it defers to any rule that imposes
+      limitations specifically on actions taken on behalf of another person.
 
 ----------------------------------------------------------------------
 
@@ -720,13 +712,14 @@ Assets
       document), and existing solely because its backing document defines its
       existence.
 
-      Each asset has exactly one owner.  If an asset would otherwise
-      lack an owner, it is owned by Agora.  If an asset's backing document restricts
-      its ownership to a class of entities, then that asset CANNOT be gained by or
-      transferred to an entity outside that class, and is destroyed if it is owned
-      by an entity outside that class (except for Agora, in which case any player
-      CAN transfer or destroy it without objection). The restrictions in the
-      previous sentence are subject to modification by its backing document.
+      Each asset has exactly one owner.If an asset would otherwise lack an
+      owner, it is owned by Agora.If an asset's backing document restricts
+      its ownership to a class of entities, then that asset CANNOT be
+      gained by or transferred to an entity outside that class, and is
+      destroyed if it is owned by an entity outside that class (except for
+      Agora, in which case any player CAN transfer or destroy it without
+      objection). The restrictions in the previous sentence are subject to
+      modification by its backing document.
 
       Unless modified by an asset's backing document, ownership of an asset is
       restricted to Agora, persons, and organizations.
@@ -856,10 +849,10 @@ The Regkeepor
 Rule 2500/0 (Power=1)
 Action Points
 
-      At the beginning of every Agoran Week, every player has 2 Action
-      Points. When a player 'spends' an Action Point, e has one less
-      Action Point. If a player has 0 Action Points, e may not spend any
-      more Action Points, rules to the contrary notwithstanding.
+      At the beginning of every Agoran Week, every player has 2 Action Points.
+      When a player 'spends' an Action Point, e has one less Action Point. If a
+      player has 0 Action Points, e may not spend any more Action Points, rules
+      to the contrary notwithstanding.
 
 ----------------------------------------------------------------------
 
@@ -960,25 +953,24 @@ The Assessor
 Rule 106/36 (Power=3)
 Adopting Proposals
 
-      When a decision about whether to adopt a proposal is resolved,
-      if the outcome is ADOPTED, then the proposal in question is
-      adopted, and unless other rules prevent it from taking effect,
-      its power is set to the minimum of four and its adoption index,
-      and then it takes effect.  Except as prohibited by other rules,
-      a proposal that takes effect CAN and does, as part of its
-      effect, apply the changes that it specifies.  If the proposal
-      cannot make some such changes, this does not preclude the other
-      changes from taking place.
+      When a decision about whether to adopt a proposal is resolved, if the
+      outcome is ADOPTED, then the proposal in question is adopted, and unless
+      other rules prevent it from taking effect, its power is set to the minimum
+      of four and its adoption index, and then it takes effect.Except as
+      prohibited by other rules, a proposal that takes effect CAN and does, as
+      part of its effect, apply the changes that it specifies.If the proposal
+      cannot make some such changes, this does not preclude the other changes
+      from taking place.
 
-      If there is no Agoran Decision to adopt a particular proposal
-      that has an outcome of ADOPTED, that proposal CANNOT take
-      effect, rules to the contrary notwithstanding.
+      If there is no Agoran Decision to adopt a particular proposal that has an
+      outcome of ADOPTED, that proposal CANNOT take effect, rules to the
+      contrary notwithstanding.
 
-      Preventing a proposal from taking effect is a secured change;
-      this does not apply to generally preventing changes to specified
-      areas of the gamestate, nor to a proposal preventing itself from
-      taking effect (its no-effect clause is generally interpreted as
-      applying only to the rest of the proposal).
+      Preventing a proposal from taking effect is a secured change; this does
+      not apply to generally preventing changes to specified areas of the
+      gamestate, nor to a proposal preventing itself from taking effect (its no-
+      effect clause is generally interpreted as applying only to the rest of the
+      proposal).
 
 ----------------------------------------------------------------------
 
@@ -1033,9 +1025,9 @@ Voting & Elections
 Rule 693/16 (Power=3)
 Agoran Decisions
 
-      When the rules calls for an Agoran decision to be made, the
-      decision-making process takes place in the following three
-      stages, each described elsewhere:
+      When the rules calls for an Agoran decision to be made, the decision-
+      making process takes place in the following three stages, each described
+      elsewhere:
 
         1. Initiation of the decision.
         2. Voting of the people.
@@ -1903,22 +1895,20 @@ Green Cards
 
 ----------------------------------------------------------------------
 
-Rule 2427/1 (Power=2)
+Rule 2427/2 (Power=2)
 Yellow Cards
 
-      A Yellow Card is a type of Card that is appropriate either for
-      infractions that have a significant, though small, impact on
-      gameplay or for infractions for which a Green Card has already
-      been issued.
+      A Yellow Card is a type of Card that is appropriate either for infractions
+      that have a significant, though small, impact on gameplay or for
+      infractions for which a Green Card has already been issued.
 
-      When a Yellow Card is issued, the bad sport SHOULD publish a
-      formal apology of at least 200 words explaining eir error,
-      shame, remorse, and ardent desire for self-improvement. A player
-      issuing a Yellow Card MAY, when doing so, additionally specify
-      up to 10 words to be included in the apology. Until e publishes
-      such an apology, as a penalty, the bad sport's voting strength
-      on all Agoran decisions initiated within 30 days of the Card's
-      issuance is set to 0 after modifiers.
+      When a Yellow Card is issued, the bad sport SHOULD publish a formal
+      apology of at least 200 words explaining eir error, shame, remorse, and
+      ardent desire for self-improvement. A player issuing a Yellow Card MAY,
+      when doing so, additionally specify up to 10 words to be included in the
+      apology. Until e publishes such an apology, as a penalty, the bad sport's
+      voting strength on all Agoran decisions initiated within 30 days of the
+      Card's issuance is set to 0 after modifiers.
 
 ----------------------------------------------------------------------
 
@@ -2323,42 +2313,37 @@ Pledges
 Rule 2467/4 (Power=1)
 Agencies
 
-      An Agency is a document empowering persons to act on behalf of
-      another player. A player MAY establish an Agency With 24 hours
-      Notice, and thereby become its Director, by specifying the
-      properties of the new Agency, provided e has not established any
-      other Agency that day:
+      An Agency is a document empowering persons to act on behalf of another
+      player. A player MAY establish an Agency With 24 hours Notice, and thereby
+      become its Director, by specifying the properties of the new Agency,
+      provided e has not established any other Agency that day:
 
-        1. A title, which must be exactly three words, not
-           counting conjunctions, articles or prepositions.
-        2. A non-empty list of persons other than the Director (the
-           Agents).
+        1. A title, which must be exactly three words, not counting
+           conjunctions, articles or prepositions.
+        2. A non-empty list of persons other than the Director (the Agents).
         3. A description of a set of actions (the Powers).
 
-      An Agency's Director may amend its properties or revoke it with 24
-      hours Notice. For greater certainty, an announced intent to
-      create an Agency or amend an Agency's powers is INEFFECTIVE
-      unless it explicitly specifies the new values of the properties
-      being created or amended.
+      An Agency's Director may amend its properties or revoke it with 24 hours
+      Notice. For greater certainty, an announced intent to create an Agency or
+      amend an Agency's powers is INEFFECTIVE unless it explicitly specifies the
+      new values of the properties being created or amended.
 
-      The Powers of an Agency must be stated as actions, although they
-      may may be conditional on date, time, game state, or other
-      preconditions. If condition(s) are specified as necessary for a
-      power to be used, it is limited; otherwise, it is unlimited. If
-      it attempts to specify a power in a manner that is unclear,
-      ambiguous, circular, inconsistent, paradoxical, or that depends
-      on information that is impossible or unreasonably difficult to
-      determine, then the specification of that power is invalid, and
-      it CANNOT be used.
+      The Powers of an Agency must be stated as actions, although they may may
+      be conditional on date, time, game state, or other preconditions. If
+      condition(s) are specified as necessary for a power to be used, it is
+      limited; otherwise, it is unlimited. If it attempts to specify a power in
+      a manner that is unclear, ambiguous, circular, inconsistent, paradoxical,
+      or that depends on information that is impossible or unreasonably
+      difficult to determine, then the specification of that power is invalid,
+      and it CANNOT be used.
 
-      An Agency, once created, SHOULD be referred to by the acronym
-      formed from its title with conjunctions, articles, and
-      prepositions removed. The acronym of an agency must be unique
-      and any attempt to create or amend an Agency such that two
-      Agencies would have the same acronym is INEFFECTIVE.
+      An Agency, once created, SHOULD be referred to by the acronym formed from
+      its title with conjunctions, articles, and prepositions removed. The
+      acronym of an agency must be unique and any attempt to create or amend an
+      Agency such that two Agencies would have the same acronym is INEFFECTIVE.
 
-      The Agents of an Agency may perform the Actions described in the
-      Powers of the Agency on behalf of the Agency's Director.
+      The Agents of an Agency may perform the Actions described in the Powers of
+      the Agency on behalf of the Agency's Director.
 
 ----------------------------------------------------------------------
 
@@ -2663,21 +2648,27 @@ The Surveyor
 
 ----------------------------------------------------------------------
 
-Rule 2491/2 (Power=2)
+Rule 2491/3 (Power=2)
 Estate Auctions
 
-      At the start of each month, if Agora owns at least one Estate,
-      the Surveyor shall put one Estate which is owned by Agora up for
-      auction, by announcement. Each auction ends seven days after it
-      begins.
+      During an auction, any player may bid a number of Shinies on eir own
+      behalf by announcement, or on behalf of any Organization for which such a
+      bid is Appropriate by announcement, provided the bid is higher than any
+      previously-placed bid in the same auction.
 
-      During an auction, any player or organization may bid any number of
-      Shinies by announcement. AWithin a week after the end of an auction, if there
-      is a single highest bid on that auction, the player or Organization that
-      placed that bid can cause Agora to transfer the auctioned Estate to emself by
-      paying Agora the number of Shinies stated in that bid. If the highest bidder
-      does not do so in a timely fashion, the Surveyor shall issue the player who
-      submitted the bid a Yellow Card.
+      If, at the end of the auction, there is a single highest bid, then that
+      player or Organization wins the auction. The player who placed the winning
+      bid CAN cause Agora to transfer the auctioned Estate to the winner by
+      announcement, by paying Agora the amount of the bid, or by causing the
+      winning Organization to pay Agora the amount of the bid. E SHALL do so in
+      a timely fashion.
+
+      If, at the end of the auction, there is a single highest bid, then that
+      player or Organization wins the auction. The player who placed the winning
+      bid CAN cause Agora to transfer the auctioned Estate to the winner by
+      announcement, by paying Agora the amount of the bid, or by causing the
+      winning Organization to pay Agora the amount of the bid. E SHALL do so in
+      a timely fashion.
 
 ----------------------------------------------------------------------
 
@@ -2960,7 +2951,7 @@ The Birthday Tournament
 
 ======================================================================
 
-Highest Rule ID number ever assigned: Rule 2500
+Highest Rule ID number ever assigned: Rule 2504
 
 Last Ruleset Ratification:
 	Short Logical Ruleset of 2014-04-07
