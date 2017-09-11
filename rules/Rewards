@@ -3,6 +3,8 @@ name: Rewards
 history:
 - Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok, Aris), 30
   July 2017
+- Amended(1) by Proposal 7871 "Minor fixes (sans typos)" (V.J Rada), 7
+  September 2017
 text: |
   A Reward is a specified amount of shinies associated with a Reward
   Condition. For each time a player meets a Reward Condition, e MAY
@@ -24,12 +26,14 @@ text: |
        Floating Value.
 
     * Judging a CFJ, that was created via spending shinies, that e was
-    assigned to: 1/20th the current Floating Value.
+      assigned to: 1/20th the current Floating Value.
 
-    * Publishing a duty-fulfilling report: 5 shinies.
+    *Publishing a duty-fulfilling report: 5 shinies. This reward can be
+     claimed a maximum of once per office per week for a weekly report, and
+     once per office per month for a monthly report.
 
     * Resolving an Agoran Decision for the first time this week: 5
-    shinies.
+      shinies.
 id: 2496
 rev: 0
 power: 1
