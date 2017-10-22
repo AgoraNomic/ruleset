@@ -21,6 +21,7 @@ history:
 - Amended(13) by Proposal 7713 (Warrigal), 9 November 2014
 - Amended(14) by Proposal 7804 (nichdel), 31 July 2016
 - Amended(15) via Rule 2430 "Cleanup Time," 24 May 2017
+- Amended(16) by Proposal 7918 "Vacant Deputisation Fix" (Publius Scribonius Scholasticus), 15 October 2017
 text: |
   A rule which purports to allow a person (a deputy) to perform an
   action via normal deputisation or special deputisation for an
@@ -30,8 +31,8 @@ text: |
     1. it would be POSSIBLE for the deputy to perform the action,
        other than by deputisation, if e held the office, and
 
-    2. the deputy, when performing the action, announces that e
-       is doing so by the appropriate form of deputisation.
+    2. Either (i) A time limit by which the rules require the action to be
+       performed has expired or (ii) the office is vacant.
 
   Only this rule may allow normal deputisation. Any rule may allow
   special deputisation.
@@ -56,7 +57,7 @@ text: |
   When a player deputises via normal deputisation for an elected
   office, e becomes the holder of that office.
 id: 2160
-rev: 15
+rev: 16
 power: 3
 annotations:
 - cfjs:
