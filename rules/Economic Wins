@@ -5,10 +5,9 @@ history:
   July 2017
 - Amended(1) by Proposal 7876 "Float On" (o), 26 September 2017
 - Amended(2) by Proposal 7881 "Stamp CAN Patch" (o, V.J Rada, Aris, ais523), 26 September 2017
+- Amended(3) by Proposal 7914 "Stamp Floating Derived Value Patch" (o), 15 October 2017
 text: |
   Stamps are an asset. The Secretary is the recordkeepor of Stamps.
-
-  The Stamp Value is always 1/5th the current Floating Value.
 
   Once per month, a player CAN, by announcement, create a stamp
   by transferring the Stamp Value, in shinies, to Agora.
@@ -21,6 +20,6 @@ text: |
   players, e CAN win the game by announcement, by destroying 10
   stamps e owns, each of which was created by a distinct player.
 id: 2498
-rev: 2
+rev: 3
 power: 1
 annotations: []
