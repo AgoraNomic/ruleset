@@ -7,6 +7,7 @@ history:
 - Amended(3) by proposal 7857 "Agency Leadership Consolidation Act" (Grok), 05 June
   2017
 - Amended(4) by proposal 7855 "Limited Agencies" (Quazie), 05 June 2017
+- Amended(5) by Proposal 7880 "Agency Typo Fix" (o), 09 September 2017
 text: |-
   An Agency is a document empowering persons to act on behalf of another
   player. A player MAY establish an Agency With 24 hours Notice, and thereby
@@ -23,7 +24,7 @@ text: |-
   amend an Agency's powers is INEFFECTIVE unless it explicitly specifies the
   new values of the properties being created or amended.
 
-  The Powers of an Agency must be stated as actions, although they may may
+  The Powers of an Agency must be stated as actions, although they may
   be conditional on date, time, game state, or other preconditions. If
   condition(s) are specified as necessary for a power to be used, it is
   limited; otherwise, it is unlimited. If it attempts to specify a power in
@@ -40,6 +41,6 @@ text: |-
   The Agents of an Agency may perform the Actions described in the Powers of
   the Agency on behalf of the Agency's Director.
 id: 2467
-rev: 4
+rev: 5
 power: 1
 annotations: []
