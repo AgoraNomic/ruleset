@@ -3,13 +3,15 @@ name: Welcome Packages
 history:
 - Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok, Aris), 30
   July 2017
+- Amended by Proposal 7882 "Welcome Package CAN Patch" (o, K, ais523), 26 Spetember 2017
 text: |
-  If a player has not received a Welcome Package since e most recently
-  registered, any player MAY cause em to receive one by announcement.
+  If a player has not received a Welcome Package since e most
+  recently registered, any player CAN cause em to receive one by
+  announcement.
 
-  When a player receives a Welcome Package, Agora transfers 50 shinies
-  to em.
+  When a player receives a Welcome Package, Agora transfers 50
+  shinies to em.
 id: 2499
-rev: 0
+rev: 1
 power: 1
 annotations: []
