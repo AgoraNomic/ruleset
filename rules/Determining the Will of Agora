@@ -33,6 +33,7 @@ history:
 - Amended(20) by Proposal 7778 (scshunt), 14 August 2014
 - Amended(21) by Proposal 7816 (Alexis, o, aranea), 28 October 2016
 - Amended(22) by proposal 7853 "Close Ancient Loopholes" (ais523), 05 June 2017
+- Amended(23) by Proposal 7912 "Election Campaigns" (Alexis), 15 October 2017
 text: |
   Each Agoran decision has a voting method, which determines how
   voters may vote on it and how to calculate the outcome. The
@@ -77,9 +78,12 @@ text: |
   - If there are no valid options, the outcome is null.
 
   The outcome of a decision is determined when it is resolved, and
-  cannot change thereafter.
+  cannot change thereafter. The rule providing
+  for an Agoran Decision by instant runoff may disqualify one or more options; in
+  such a case, they are eliminated prior to beginning the first stage of the vote
+  count.
 id: 955
-rev: 22
+rev: 23
 power: 3
 annotations:
 - cfjs:

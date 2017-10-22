@@ -30,6 +30,7 @@ history:
 - Retitled by Proposal 7758 (omd), 19 July 2015
 - Amended(22) by Proposal 7758 (omd), 19 July 2015
 - Amended(23) via Rule 2430 "Cleanup Time," 24 May 2017
+- Amended(24) by Proposal 7912 "Election Campaigns" (Alexis), 15 October 2017
 text: |
   The Associate Director of Personnel (ADoP) is an office; its
   holder is responsible for keeping track of officers.
@@ -38,10 +39,13 @@ text: |
 
   1. The date of the last change (if any) to each office's
      Officeholder.
-  2. The date on which the most recent election for each office
-     was initiated.
+  2. The current status of the ongoing election for that office
+     or, if there is no ongoing election for that office, the
+     date on which the last election ended
+  3. For filled elected offices, whether or not the holder is
+     interim.
 id: 2138
-rev: 23
+rev: 24
 power: 1
 annotations:
 - cfjs:
