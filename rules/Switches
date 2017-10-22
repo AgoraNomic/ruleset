@@ -10,6 +10,7 @@ history:
 - Amended(6) by Proposal 7735 (aranea), 2 May 2015
 - Amended(7) by Proposal 7828 (aranea, ais523), 7 November 2016
 - Amended(8) via Rule 2430 "Cleanup Time," 24 May 2017
+- Amended(9) by Proposal 7902 "Switch no-ops" (G.), 03 October 2017
 text: |
   A type of switch is a property that the rules define as a
   switch, and specify the following:
@@ -57,7 +58,15 @@ text: |
   A boolean switch is a switch with values True and False. A
   positive boolean switch has a default of True; a negative
   boolean switch has a default of False.
+
+  Attempting to flip an instance of a switch to a value it already
+  has does not flip the switch.  However, if a person is REQUIRED
+  to flip a switch instance to a value it already has, then either
+  attempting to do so using the required mechanism, or announcing
+  that the switch already has the required value, fulfills the
+  requirement without flipping the switch.
+
 id: 2162
-rev: 8
+rev: 9
 power: 2
 annotations: []
