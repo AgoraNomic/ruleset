@@ -1,0 +1,28 @@
+---
+name: The Propose-O-Matic
+history:
+  - Created by Proposal 6798 (coppro), 27 August 2010
+  - Amended(1) by Proposal 6861 (omd), 18 October 2010
+  - Repealed by Proposal 6961 (G.), 3 March 2011
+  - Reenacted(2) by Proposal 7883 "Fear v2.1" (G.), 26 September 2017
+text: |
+  When a rule allows one person (the agent) to act on behalf of another (the
+  principal) to perform an action, that agent CAN perform the action if it
+  is POSSIBLE for the principal to do so, taking into account any
+  prerequisites for the action. If the enabling rule does not specify the
+  mechanism by which the agent may do so, then the agent CAN perform the
+  action in the same manner in which the principal CAN do so, with the
+  additional requirement that the agent must, in the message in which the
+  action is performed, uniquely identify the principal and that the action
+  is being taken on behalf of that person.
+
+  When an action is performed on behalf of a principal, then the action is
+  considered for all game purposes to have been performed by the principal.
+
+  This rule takes precedence over any rule which would prohibit a person
+  from taking an action, except that it defers to any rule that imposes
+  limitations specifically on actions taken on behalf of another person.
+id: 2309
+rev: 2
+power: 1
+annotations: []

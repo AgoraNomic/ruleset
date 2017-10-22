@@ -12,6 +12,7 @@ history:
 - Amended(8) by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris),
   30 July 2017
 - Amended(9) by Proposal 7876 "Float On" (o), 26 September 2017
+- Amended(10) by Proposal 7883 "Fear v2.1" (G.), 26 September 2017
 text: |
   Imminence is a switch, tracked by the Promotor, possessed by
   proposals in the Proposal Pool, whose value is either "pending" or
@@ -23,7 +24,14 @@ text: |
     a) spending 1 Action Point, OR
 
     b) spending the current Pend Cost in shinies.
+
+  An Official Proposal is a proposal designated as such by the Rules; generally
+  official proposals that are created as part of an Officer's duties. Rules to
+  the contrary notwithstanding, an Official proposal is always pending. Rules
+  to the contrary notwithstanding, players CANNOT claim rewards for the adoption
+  of an Official proposal.
+
 id: 2445
-rev: 9
+rev: 10
 power: 1
 annotations: []
