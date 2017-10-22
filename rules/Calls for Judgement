@@ -29,6 +29,7 @@ history:
 - Amended(19) by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris),
   30 July 2017
 - Amended(20) by Proposal 7876 "Float On" (o), 26 September 2017
+- Amended(21) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26 September 2017
 text: |
   Any person (the initiator) can initiate a Call for Judgement (CFJ,
   syn. Judicial Case), specifying a statement to be inquired into:
@@ -40,8 +41,8 @@ text: |
 
     c) by announcement if e is not a player.
 
-  When a person initiates a Call for Judgment, e may optionally bar one
-  person from the case.
+  When a person initiates a Call for Judgment, e CAN optionally
+  bar one person from the case by announcement.
 
   At any time, each CFJ is either open (default), suspended, or
   assigned exactly one judgement.
@@ -59,7 +60,7 @@ text: |
   If a CFJ has no judge assigned, then any player eligible to
   judge that CFJ CAN assign it to emself Without 3 Objections.
 id: 991
-rev: 20
+rev: 21
 power: 2
 annotations:
 - cfjs:

@@ -8,15 +8,20 @@ history:
   2017
 - Amended(4) by proposal 7855 "Limited Agencies" (Quazie), 05 June 2017
 - Amended(5) by Proposal 7880 "Agency Typo Fix" (o), 09 September 2017
+- Amended(6) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26 September 2017
 text: |-
-  An Agency is a document empowering persons to act on behalf of another
-  player. A player MAY establish an Agency With 24 hours Notice, and thereby
-  become its Director, by specifying the properties of the new Agency,
-  provided e has not established any other Agency that day:
+  An Agency is a document empowering persons to act on behalf of
+  another player. A player CAN establish an Agency With 24 hours
+  Notice, and thereby become its Director, by specifying the
+  properties of the new Agency, provided e has not established
+  any other Agency that day:
 
     1. A title, which must be exactly three words, not counting
-       conjunctions, articles or prepositions.
-    2. A non-empty list of persons other than the Director (the Agents).
+    conjunctions, articles or prepositions.
+
+    2. A non-empty list of persons other than the Director (the
+    Agents).
+
     3. A description of a set of actions (the Powers).
 
   An Agency's Director may amend its properties or revoke it with 24 hours
@@ -38,9 +43,11 @@ text: |-
   acronym of an agency must be unique and any attempt to create or amend an
   Agency such that two Agencies would have the same acronym is INEFFECTIVE.
 
-  The Agents of an Agency may perform the Actions described in the Powers of
-  the Agency on behalf of the Agency's Director.
+  The Agents of an Agency CAN perform the Actions described in
+  the Powers of the Agency on behalf of the Agency's Director, in
+  the same manner by which the Agency's Director can perform
+  those Actions.
 id: 2467
-rev: 5
+rev: 6
 power: 1
 annotations: []
