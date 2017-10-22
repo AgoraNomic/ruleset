@@ -3,8 +3,9 @@ name: Regulations
 history:
 - Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
 - Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26 September 2017
+- Amended(2) by Proposal 7925 "Safety Regulations v2" (Aris, Alexis), 22 October 2017
 text: |
-  A Regulation is an instrument defined as such by this rule. A regulation
+  A Regulation is an textual entity defined as such by this rule. A regulation
   allows an officer (known as the Promulgator) to exercise rule defined powers.
   A regulation is in effect continuously from the time of its creation to the
   time of either its revocation or the repeal of the rule that allowed for its
@@ -16,11 +17,11 @@ text: |
 
   A regulation must be authorized by at least one rule in order for it to exist.
   A regulation has effect on the game (only) insofar as the rule or rules that
-  authorized it permit it to have effect, and a regulation generally inherits
-  the power of its least powerful parent rule, unless its Promulgator defines
-  a lower power. If reasonably possible, a regulation should be
-  interpreted so as to defer to other rules. The procedure for resolving
-  conflict between regulations is the same as it is for rules.
+  authorized it permit it to have effect. If reasonably possible, a regulation
+  should be interpreted so as to defer to other rules. The procedure for
+  resolving conflict between regulations is the same as it is for rules (for the
+  purposes of resolving conflicts only, a regulation is treated as if it
+  had the power of its least powerful parent rule).
 
   Regulations are generally issued according to the following procedures,
   and they can be repealed by the announcement of their Promulgator. Alternate
@@ -35,6 +36,6 @@ text: |
   to the previous sentence is known as a "recommendation", and
   the regulation(s) are said to be "recommended" to Agora.
 id: 2493
-rev: 1
+rev: 2
 power: 3.1
 annotations: []
