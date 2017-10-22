@@ -11,6 +11,7 @@ history:
 - Amended(7) by Proposal 7828 (aranea, ais523), 7 November 2016
 - Amended(8) via Rule 2430 "Cleanup Time," 24 May 2017
 - Amended(9) by Proposal 7902 "Switch no-ops" (G.), 03 October 2017
+- Amended(10) by Proposal 7903 "Numerical Switches v2" (G.), 03 October 2017
 text: |
   A type of switch is a property that the rules define as a
   switch, and specify the following:
@@ -46,12 +47,6 @@ text: |
   instead takes on its last determinate and possible value, if
   any, otherwise it takes on its default value.
 
-  A natural switch is a switch with a default value of 0, unless
-  the rules explicitly specify a different default value.  If the
-  rules define an upper limit for the switch, then the possible
-  values are non-negative integers not greater than that limit,
-  otherwise the values are the non-negative integers.
-
   A singleton switch is a switch for which Agora Nomic is the only
   entity possessing an instance of that switch.
 
@@ -67,6 +62,6 @@ text: |
   requirement without flipping the switch.
 
 id: 2162
-rev: 9
+rev: 10
 power: 2
 annotations: []
