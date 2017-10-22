@@ -6,6 +6,7 @@ history:
 - Amended(2) by Proposal 7868 "Minor economic fixes" (Murphy), 30 July 2017
 - Amended(3) by Proposal 7872 "Estate Auction Cleanup" (o), 7 September 2017
 - Amended(4) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26 September 2017
+- Amended(5) by Proposal 7927 "Estate Auction Fix" (V.J. Rada, G.), 22 October 2017
 text: |
      At the start of each month, if Agora owns at least one Estate,
      the Surveyor CAN, by announcement, and SHALL in a timely
@@ -21,11 +22,10 @@ text: |
      If, at the end of the auction, there is a single highest bid,
      then that player or Organization wins the auction. The player
      who placed the winning bid CAN, and SHALL in a timely fashion,
-     cause Agora to transfer the auctioned Estate to the winner by
-     announcement, by paying Agora the amount of the bid, or by
-     causing the winning Organization to pay Agora the amount of the
-     bid.
+     cause Agora to transfer the auctioned Estate to the winner by announcement
+     and by either paying Agora the amount of the bid or causing the winning
+     Organization to pay Agora the amount of the bid.
 id: 2491
-rev: 4
+rev: 5
 power: 2
 annotations: []
