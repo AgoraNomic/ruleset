@@ -3,10 +3,21 @@ name: Floating Value
 history:
 - Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok, Aris), 30
   July 2017
+- Amended(1) by Proposal 7876 "Float On" (o), 26 September 2017
 text: |
-  Floating Value is a natural switch. When e publishes eir Weekly Report, the
-  Secretary SHALL flip the Floating Value to Agora's shiny balance.
-id: 2497
-rev: 0
+    Floating Value is a natural singleton switch, tracked by the
+    Secretary. Rules to the contrary notwithstanding, the Floating
+    Value switch CANNOT be flipped to a value other than the number
+    of Shinies owned by Agora.
+
+    The following Floating Derived Values are defined:
+
+    * Pend Cost: 1/20th of the Floating Value, rounded up.
+    * CFJ Cost: 1/20th of the Floating Value, rounded up.
+    * Authorship Reward: 1/40th of the Floating Value, rounded up.
+    * Pend Reward: 1/40th of the Floating Value, rounded up.
+    * CFJ Reward: 1/20th of the Floating Value, rounded up.
+    * Stamp Value: 1/5th of the Floating Value, rounded up.
+rev: 1
 power: 1
 annotations: []

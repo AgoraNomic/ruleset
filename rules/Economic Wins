@@ -3,11 +3,10 @@ name: Economic Wins
 history:
 - Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok, Aris), 30
   July 2017
+- Amended(1) by Proposal 7876 "Float On" (o), 26 September 2017
 text: |
   Stamps are an asset, identified by eir creator and tracked by the
   Secretary.
-
-  The Stamp Value is always 1/5th the current Floating Value.
 
   Once per month, a player MAY, by announcement, transfer to Agora the
   Stamp Value, in shinies, to create a Stamp.
@@ -19,6 +18,6 @@ text: |
   destroy 10 stamps made by 10 different players by announcement to win
   the game.
 id: 2498
-rev: 0
+rev: 1
 power: 1
 annotations: []

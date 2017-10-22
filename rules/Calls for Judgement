@@ -28,13 +28,14 @@ history:
 - Amended(17) by Proposal 7803 (G.), 31 July 2016
 - Amended(19) by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris),
   30 July 2017
+- Amended(20) by Proposal 7876 "Float On" (o), 26 September 2017
 text: |
   Any person (the initiator) can initiate a Call for Judgement (CFJ,
   syn. Judicial Case), specifying a statement to be inquired into:
 
     a) by announcement, and spending 1 Action Point, OR
 
-    b) by announcement, and spending 1/20th the Floating Value in
+    b) by announcement, and spending the current CFJ cost in
     shinies, OR
 
     c) by announcement if e is not a player.
@@ -58,7 +59,7 @@ text: |
   If a CFJ has no judge assigned, then any player eligible to
   judge that CFJ CAN assign it to emself Without 3 Objections.
 id: 991
-rev: 17
+rev: 20
 power: 2
 annotations:
 - cfjs:
