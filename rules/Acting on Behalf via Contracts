@@ -1,0 +1,28 @@
+---
+name: Acting on Behalf via Contracts
+history:
+- Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+text: |
+  If a rule says that a contract CAN do something by announcement, it is
+  equivalent to saying that that any person CAN take that action by announcement
+  if the contract's text says that e CAN do so under the circumstances; if
+  whether the contract enables the person to do so is indeterminate, or is the
+  subject of an inextricable conditional, the action is IMPOSSIBLE. A person
+  SHALL NOT cause a contract to violate a rule using this method.
+
+  If a rule specifies that a contract SHALL or SHALL NOT do something, each
+  party to the contract SHALL ensure that the contract respectively does
+  or does not do that thing.
+
+  The text of a contract can permit persons to act on behalf of a party or
+  group of parties. To do so, it must specify:
+
+    a. Which of its parties can be acted on behalf of;
+    b. What actions can be taken;
+    c. Who can take the actions; and
+    d. Any conditions or limitations upon the actions. If any such
+       limitations or conditions are inextricable, the actions CANNOT be used.
+id: 2524
+rev: 0
+power: 2.4
+annotations: []
