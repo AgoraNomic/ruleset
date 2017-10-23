@@ -1,7 +1,7 @@
 THE FULL LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded:
-  Adoption of Proposal 7875, 7 Sep 2017
+  Adoption of Proposal 7929, 22 October 2017
 
 Online documents:
  https://agoranomic.github.io/ruleset/slr.txt (SLR)
@@ -13,7 +13,7 @@ Online documents:
 Agora
 ----------------------------------------------------------------------
 
-Rule 101/17 (Power=3)
+Rule 101/17 (Power=4)
 The Game of Agora
 
       Agora is a game of Nomic, wherein Persons, acting in accordance
@@ -44,10 +44,12 @@ Amended(14) by Proposal 7183 (G.), 26 February 2012
 Amended(15) by Proposal 7596 (omd), 14 September 2013
 Retitled and amended(16) by Proposal 7614 (G.), 13 January 2014
 Amended(17) by Proposal 7743 (G.), 12 May 2015
+Power Changed(18) by Proposal 7889 "Agora Protection Act" (Aris), 26
+  September 2017
 
 ----------------------------------------------------------------------
 
-Rule 1698/4 (Power=3)
+Rule 1698/5 (Power=4)
 Agora Is A Nomic
 
       Agora is ossified if it is IMPOSSIBLE for any reasonable combination of
@@ -57,9 +59,9 @@ Agora Is A Nomic
       If, but for this rule, the net effect of a proposal would cause Agora to
       become ossified, or would cause Agora to cease to exist, it cannot take
       effect, rules to the contrary notwithstanding.If any other single change
-      to the gamestate would cause Agora to become ossified, or would cause
-      Agora to cease to exist, it is cancelled and does not occur, rules to the
-      contrary notwithstanding.
+      or inseperable group of changes to the gamestate would cause Agora to
+      become ossified, or would cause Agora to cease to exist, it is cancelled
+      and does not occur, rules to the contrary notwithstanding.
 
 History:
 Created by Proposal 3465 (Steve), Apr. 26 1997
@@ -68,6 +70,8 @@ Amended(1) by Proposal 5536 (Murphy), 7 June 2008
 Amended(2) by Proposal 7075 (scshunt), 16 June 2011
 Amended(3) by Proposal 7088 (omd), 23 July 2011
 Amended(4) by Proposal 7628 (ais523), 7 April 2014
+Power Changed and Amended(5) by Proposal 7889 "Agora Protection Act"
+  (Aris), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -155,7 +159,7 @@ Amended(34) via Rule 2430 "Cleanup Time," 24 May 2017
 Players
 ----------------------------------------------------------------------
 
-Rule 869/39 (Power=3)
+Rule 869/40 (Power=3)
 How to Join and Leave Agora
 
       Any organism that is generally capable of freely originating and
@@ -180,9 +184,9 @@ How to Join and Leave Agora
       If a player has not sent a message to a public forum in the last
       month, then any player CAN deregister em without objection.
 
-      The Rules CANNOT compel non-players to act, nor compel players
-      to unduly harass non-players.  A non-person CANNOT be a player,
-      rules to the contrary notwithstanding.
+      The Rules CANNOT compel non-players to act without their express or reasonably
+      implied consent. The rules CANNOT compel players to unduly harass non-players.
+      A non-person CANNOT be a player, rules to the contrary notwithstanding.
 
 History:
 Created by Proposal 498 (Alexx), Sep. 30 1993
@@ -229,10 +233,13 @@ Amended(36) by Proposal 7619 (woggle), 24 January 2014
 Amended(37) by Proposal 7647 (omd), 3 June 2014
 Amended(38) by Proposal 7734 (G.), 2 May 2015
 Amended(39) by Proposal 7810 (nichdel), 11 September 2016
+Amended(40) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2139/9 (Power=2)
+Rule 2139/10 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for
@@ -265,9 +272,9 @@ The Registrar
       * Publishing Cantus Cygnei and Writs of FAGE as described in
         Rule 1789.
 
-      The Registrar is also responsible for tracking any switches that
-      would otherwise lack an officer to track them, unless the switch
-      is defined as untracked.
+      The Registrar is also responsible for tracking any switches, defined in a rule,
+      that would otherwise lack an officer to track them, unless the switch is
+      defined as untracked.
 
 History:
 Created by Proposal 4939 (Murphy), 29 April 2007
@@ -280,7 +287,10 @@ Amended(5) by Proposal 7416 (omd), 12 May 2013
 Amended(6) by Proposal 7586 (omd), 24 August 2013
 Amended(7) by Proposal 7632 (scshunt), 1 May 2014
 Amended(8) by Proposal 7810 (nichdel), 11 September 2016
-Amended(9) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(9) via Rule 2430 "Cleanup Time," 24 May 2017\
+Amended(10) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
@@ -540,7 +550,7 @@ Amended(1) by Proposal 6429 (Murphy), 18 August 2009
 
 ----------------------------------------------------------------------
 
-Rule 105/13 (Power=3)
+Rule 105/14 (Power=3)
 Rule Changes
 
       Where permitted by other rules, an instrument generally can,
@@ -560,14 +570,15 @@ Rule Changes
          rule, and the Rulekeepor need no longer maintain a record
          of it.
 
-      3. reenact a rule.  A repealed rule identified by its most
-         recent rule number may be reenacted with the same ID number
-         and the next change identifier.  If no text is specified,
-         the rule is reenacted with the same text it had when it was
-         most recently repealed.  If the reenacting proposal provides
-         new text for the rule, the rule must have materially the
-         same purpose as did the repealed version; otherwise, the
-         attempt to reenact the rule is null and void.
+
+      3. reenact a rule. A repealed rule identified by its most
+         recent rule number MUST be reenacted with the same ID number and
+         the next change identifier. If no text is specified, the rule
+         is reenacted with the same text it had when it was most
+         recently repealed. If the reenacting proposal provides new text
+         for the rule, the rule must have materially the same purpose as
+         did the repealed version; otherwise, the attempt to reenact the
+         rule is null and void.
 
       4. amend the text of a rule.
 
@@ -615,6 +626,8 @@ Amended(10) by Proposal 7647 (omd), 3 June 2014
 Amended(11) by Proposal 7710 (G.), 3 November 2014
 Amended(12) by Proposal 7759 (G.), 19 July 2015
 Amended(13) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(14) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
 
 ----------------------------------------------------------------------
 
@@ -673,7 +686,7 @@ Amended(7) by Proposal 7613 (Arufonsu), 11 January 2014
 
 ----------------------------------------------------------------------
 
-Rule 2162/8 (Power=2)
+Rule 2162/10 (Power=2)
 Switches
 
       A type of switch is a property that the rules define as a
@@ -710,18 +723,19 @@ Switches
       instead takes on its last determinate and possible value, if
       any, otherwise it takes on its default value.
 
-      A natural switch is a switch with a default value of 0, unless
-      the rules explicitly specify a different default value.  If the
-      rules define an upper limit for the switch, then the possible
-      values are non-negative integers not greater than that limit,
-      otherwise the values are the non-negative integers.
-
       A singleton switch is a switch for which Agora Nomic is the only
       entity possessing an instance of that switch.
 
       A boolean switch is a switch with values True and False. A
       positive boolean switch has a default of True; a negative
       boolean switch has a default of False.
+
+      Attempting to flip an instance of a switch to a value it already
+      has does not flip the switch.  However, if a person is REQUIRED
+      to flip a switch instance to a value it already has, then either
+      attempting to do so using the required mechanism, or announcing
+      that the switch already has the required value, fulfills the
+      requirement without flipping the switch.
 
 History:
 Created by Proposal 5111 (Murphy), 2 August 2007
@@ -733,10 +747,13 @@ Amended(5) by Proposal 7649 (omd), 3 June 2014
 Amended(6) by Proposal 7735 (aranea), 2 May 2015
 Amended(7) by Proposal 7828 (aranea, ais523), 7 November 2016
 Amended(8) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(9) by Proposal 7902 "Switch no-ops" (G.), 03 October 2017
+Amended(10) by Proposal 7903 "Numerical Switches v2" (G.), 03 October
+  2017
 
 ----------------------------------------------------------------------
 
-Rule 2125/9 (Power=3)
+Rule 2125/10 (Power=3)
 Regulated Actions
 
       An action is restricted if: (1) the Rules limit, allow, enable,
@@ -745,8 +762,9 @@ Regulated Actions
       as part of its effect, modify information for which some player
       is required to be a recordkeepor.
 
-      Restricted Actions CAN only be performed as described by the
-      Rules.  The Rules SHALL NOT be interpreted so as to proscribe
+      A Restricted Action CAN only be performed as described by the Rules, and only
+      using the methods explicitly specified in the Rules for performing the given
+      action.  The Rules SHALL NOT be interpreted so as to proscribe
       unrestricted actions.
 
 History:
@@ -760,11 +778,12 @@ Amended(6) by Proposal 6269 (Pavitra), 11 May 2009
 Amended(7) by Proposal 6327 (Murphy), 29 May 2009
 Amended(8) by Proposal 7614 (G.), 13 January 2014
 Amended(9) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+Amended(10) by Proposal 7828 "no we can't" (G.), 22 October 2017
 
 ----------------------------------------------------------------------
 
-Rule 1023/36 (Power=2)
-Common Definitions
+Rule 1023/37 (Power=2)
+Agoran Time
 
       The following terms are defined:
 
@@ -800,15 +819,7 @@ Common Definitions
           These definitions do not apply to relative durations (e.g.
           "within <number> days after <event>").
 
-      3. If a restricted value, or the value of a conditional, or a
-         value otherwise required to determine the outcome of a
-         restricted action, CANNOT be reasonably determined (without
-         circularity or paradox) from information reasonably
-         available, or if it alternates instantaneously and
-         indefinitely between values, then the value is considered to
-         be Indeterminate, otherwise it is Determinate.
-
-      4. Two points in time are within a month of each other if:
+      3. Two points in time are within a month of each other if:
 
           1. they occur in the same Agoran month;
 
@@ -863,6 +874,9 @@ Amended(33) by Proposal 7686 (omd), 7 August 2014
 Amended(34) by Proposal 7760 (G.), 19 July 2015
 Amended(35) via Rule 2430 "Cleanup Time," 24 May 2017
 Amended(36) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+Renamed and Amended(37) by Proposal 7924 "Contracts v8" (Aris, o, G.,
+  ais523, Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.),
+  22 October 2017
 
 ----------------------------------------------------------------------
 
@@ -1067,68 +1081,129 @@ Amended(20) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
-Rule 2466/0 (Power=3)
+Rule 2466/1 (Power=3)
 Acting on Behalf
 
-      When a rule allows one person (the agent) to act on behalf of another (the
-      principal) to perform an action, that agent CAN perform the action if it
-      is POSSIBLE for the principal to do so, taking into account any
-      prerequisites for the action. If the enabling rule does not specify the
-      mechanism by which the agent may do so, then the agent CAN perform the
-      action in the same manner in which the principal CAN do so, with the
-      additional requirement that the agent must, in the message in which the
-      action is performed, uniquely identify the principal and that the action
-      is being taken on behalf of that person.
+      When a rule allows one person (the agent) to act on behalf of another
+      (the principal) to perform an action, that agent CAN perform the action if it
+      is POSSIBLE for the principal to do so, taking into account any prerequisites
+      for the action. If the enabling rule does not specify the mechanism by which
+      the agent may do so, then the agent CAN perform the action in the same manner
+      in which the principal CAN do so, with the additional requirement that the
+      agent must, in the message in which the action is performed, uniquely identify
+      the principal and that the action is being taken on behalf of that person.
 
-      When an action is performed on behalf of a principal, then the action is
-      considered for all game purposes to have been performed by the principal.
+      A person SHALL NOT act on behalf of another person if doing so causes the
+      second person to violate the rules. A person CANNOT act on behalf of another
+      person to do anything except perform a game action; in particular, a person
+      CANNOT act on behalf of another person to send a message, only to perform
+      specific actions that might be taken within a message.
 
-      This rule takes precedence over any rule which would prohibit a person
-      from taking an action, except that it defers to any rule that imposes
-      limitations specifically on actions taken on behalf of another person.
+      When an action is performed on behalf of a principal, then the
+      action is considered for all game purposes to have been performed by the
+      principal, unless a rule specifically states that it is treated differently
+      for some purpose, in which case it is treated as described by that rule.
+
+      Allowing a person to act on behalf of another person is secured at power 2.0.
+      This rule takes precedence over any rule that would prohibit a person from
+      taking an action, except that it defers to any rule that imposes limitations
+      specifically on actions taken on behalf of another person.
 
 History:
 Created by Proposal 7815 (Alexis, aranea), 28 October 2016
+Amended(1) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2166/22 (Power=3)
+Rule 2524/0 (Power=2.4)
+Acting on Behalf via Contracts
+
+      If a rule says that a contract CAN do something by announcement, it is
+      equivalent to saying that that any person CAN take that action by announcement
+      if the contract's text says that e CAN do so under the circumstances; if
+      whether the contract enables the person to do so is indeterminate, or is the
+      subject of an inextricable conditional, the action is IMPOSSIBLE. A person
+      SHALL NOT cause a contract to violate a rule using this method.
+
+      If a rule specifies that a contract SHALL or SHALL NOT do something, each
+      party to the contract SHALL ensure that the contract respectively does
+      or does not do that thing.
+
+      The text of a contract can permit persons to act on behalf of a party or
+      group of parties. To do so, it must specify:
+
+        a. Which of its parties can be acted on behalf of;
+        b. What actions can be taken;
+        c. Who can take the actions; and
+        d. Any conditions or limitations upon the actions. If any such
+           limitations or conditions are inextricable, the actions CANNOT be used.
+
+History:
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+
+----------------------------------------------------------------------
+
+Rule 2166/23 (Power=3)
 Assets
 
-      An asset is an entity defined as such by the ruleset (hereafter its backing
-      document), and existing solely because its backing document defines its
-      existence.
+      An asset is an entity defined as such by a (a) rule, (b) authorized
+      regulation, (c) group of rules and/or authorized regulations (but if such
+      regulations modify a preexisting asset class defined by a rule or another
+      title of regulations, they must be authorized specifically to do so by their
+      parent rule), or (d) contract (hereafter its backing document), and existing
+      solely because its backing document defines its existence. An asset's backing
+      document can specify when and how that asset is created, destroyed, and
+      transferred.
 
-      Each asset has exactly one owner.If an asset would otherwise lack an
-      owner, it is owned by Agora.If an asset's backing document restricts
-      its ownership to a class of entities, then that asset CANNOT be
-      gained by or transferred to an entity outside that class, and is
-      destroyed if it is owned by an entity outside that class (except for
-      Agora, in which case any player CAN transfer or destroy it without
-      objection). The restrictions in the previous sentence are subject to
-      modification by its backing document.
+      Each asset has exactly one owner. If an asset would otherwise
+      lack an owner, it is owned by Agora.  If an asset's backing document restricts
+      its ownership to a class of entities, then that asset CANNOT be gained by or
+      transferred to an entity outside that class, and is destroyed if it is owned
+      by an entity outside that class (except if it is owned by Agora, in which case
+      any player CAN transfer or destroy it without objection). The restrictions in
+      the previous sentence are subject to modification by its backing document.
 
       Unless modified by an asset's backing document, ownership of an asset is
-      restricted to Agora, persons, and organizations.
+      restricted to Agora, players, and contracts. As an exception to the last
+      sentence, non-player persons are generally able to own assets defined by
+      a contract they are a party to, subject to modification by the contract in
+      question.
 
-      An organization's charter CAN specify whether or not that organization is
-      willing receive assets or a class of assets. Generally, an organization CANNOT
-      be given assets its charter states that it is unwilling to receive. The
-      previous provisions of this paragraph do not apply to an asset if the
-      organization is required to provide that asset in order to continue existing.
+      A contract's text can specify whether or not that contract is
+      willing to receive assets or a class of assets. Generally, a contract CANNOT
+      be given assets it is unwilling to receive. If the contract is silent on the
+      matter, or if its willingness is indeterminate or the subject of a
+      inextricable conditional, the procedure to determine its willingness is as
+      follows:
+
+        1. If the contract appears to anticipate being given assets, other than for
+           sustenance (e.g. by authorizing parties to spend the contract's assets),
+           then the contract is willing to receive all assets.
+        2. Otherwise, it is unwilling to receive all assets.
+
+      The previous paragraph (including the list) notwithstanding, a contract
+      CAN be given 1 shiny a month for its sustenance payment, so long as
+      it never has more than 1 shiny at a time.
 
       The recordkeepor of a class of assets is the entity (if any)
-      defined as such by, and bound by, its backing document.  That
+      defined as such by, and bound by, its backing document. That
       entity's report includes a list of all instances of that class
       and their owners.  This portion of that entity's report is
-      self-ratifying.
+      self-ratifying. Rules to the contrary notwithstanding, a contract CANNOT
+      oblige a person who isn't a member to record its internal state, nor is
+      the default recordkeepor responsible for tracking a contract's internal state.
+      For the purposes of this rule, the promulgator of a regulation is bound by
+      it.
 
       An asset generally CAN be destroyed by its owner by
       announcement, subject to modification by its backing document. An
       indestructible asset is one defined as such by it backing document, and CANNOT
-      be destroyed except by a rule specifically addressing the destruction of
-      indestructible assets or that asset in particular; any other asset is
-      destructible. In circumstances where another asset would be
+      be destroyed except by a rule, other than this one, specifically addressing
+      the destruction of indestructible assets or that asset in particular; any
+      other asset is destructible. In circumstances where another asset would be
       destroyed, an indestructible asset is generally transferred to Agora, subject
       to modification by its backing document and the intervention of other rules.
 
@@ -1136,12 +1211,12 @@ Assets
       possession; to "revoke" an asset from an entity is to destroy it
       from that entity's possession.
 
-      An asset generally CAN be transferred (syn. payed, given) by its owner to
-      another entity by announcement, subject to modification by its backing
-      document.  A fixed asset is one defined as such by its backing
+      An asset generally CAN be transferred (syn. paid, given) by announcement by
+      its owner to another entity, subject to modification by its
+      backing document. A fixed asset is one defined as such by its backing
       document, and CANNOT be transferred; any other asset is liquid.
 
-      When a rule indicates transfering an amount that is not a natural number,
+      When a rule indicates transferring an amount that is not a natural number,
       the specified amount is rounded up to the nearest natural number.
 
       A currency is a class of asset defined as such by its backing document.
@@ -1150,7 +1225,7 @@ Assets
       The "x balance of an entity", where x is a currency, is the number of x that
       entity possesses. If a rule, proposal, or other competent authority attempts
       to increase or decrease the balance of an entity without specifying a source
-      or destination, then the currency is created or destroyed.
+      or destination, then the currency is created or destroyed as needed.
 
       When a player causes one or more balances to change, e is ENCOURAGED
       to specify the resulting balance(s). Players SHOULD NOT specify
@@ -1159,11 +1234,8 @@ Assets
       Where it resolves ambiguity, the asset or currency being referred to is the
       currency designated as "Agora's official currency", if there is one.
 
-      Amendments to a backing document shall not be construed to alter, transfer,
-      destroy, or otherwise effect any assets defined by that document, unless
-      that is their clear intent.
-
-      Assets are always public. [To provide for private contract based assets later]
+      An asset or class of assets is private, rather than public, if its
+      backing document is a contract.
 
 History:
 Created by Proposal 5173 (Murphy), 29 August 2007
@@ -1193,13 +1265,33 @@ Reenacted and Amended(21) by Proposal 7864 (Aris, G., o, nichdel,
   Publius Scribonius Scholasticus), 27 June 2017
 Amended(22) by Proposal 7868 "Minor economic fixes" (Murphy), 30 July
   2017
+Amended(23) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2493/0 (Power=3.1)
+Rule 2515/0 (Power=1)
+Distributing Assets
+
+      To “distribute” a quantity of a fungible asset to a set of recipients is to
+      transfer one instance of that asset at a time to the recipient that owns
+      the least number of instances of that asset, until either no more instances
+      of the asset are eligible to be distributed, or the number of instances so
+      transferred equals the quantity to be distributed. If, when distributing a
+      specific asset, two or more recipients each own the least number of instances
+      of that asset, then the recipient that most recently became eligible to own
+      the asset SHALL receive the asset being distributed.
+
+History:
+Created by Proposal 7921 "Passive Income" (o, G.), 15 October 2017
+
+----------------------------------------------------------------------
+
+Rule 2493/2 (Power=3.1)
 Regulations
 
-      A Regulation is an instrument defined as such by this rule. A regulation
+      A Regulation is an textual entity defined as such by this rule. A regulation
       allows an officer (known as the Promulgator) to exercise rule defined powers.
       A regulation is in effect continuously from the time of its creation to the
       time of either its revocation or the repeal of the rule that allowed for its
@@ -1211,11 +1303,11 @@ Regulations
 
       A regulation must be authorized by at least one rule in order for it to exist.
       A regulation has effect on the game (only) insofar as the rule or rules that
-      authorized it permit it to have effect, and a regulation generally inherits
-      the power of its least powerful parent rule, unless its Promulgator defines
-      a lower power. If reasonably possible, a regulation should be
-      interpreted so as to defer to other rules. The procedure for resolving
-      conflict between regulations is the same as it is for rules.
+      authorized it permit it to have effect. If reasonably possible, a regulation
+      should be interpreted so as to defer to other rules. The procedure for
+      resolving conflict between regulations is the same as it is for rules (for the
+      purposes of resolving conflicts only, a regulation is treated as if it
+      had the power of its least powerful parent rule).
 
       Regulations are generally issued according to the following procedures,
       and they can be repealed by the announcement of their Promulgator. Alternate
@@ -1224,14 +1316,18 @@ Regulations
       those that the other(s) specifies, those apply. Creating, modifying, revoking,
       or allowing for a regulation is secured at power 1.
 
-      A regulation (or set of regulations), authorized by another rule, may
-      generally be enacted or modified by its promulgator without 2 objections,
-      or with Agoran consent. A notice pursuant to the previous sentence is
-      known as a "recommendation", and the regulation(s) are said to be
-      "recommended" to Agora.
+      A regulation (or set of regulations), authorized by another
+      rule, CAN generally be enacted or modified by its promulgator
+      without 2 objections, or with Agoran consent. A notice pursuant
+      to the previous sentence is known as a "recommendation", and
+      the regulation(s) are said to be "recommended" to Agora.
 
 History:
 Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
+Amended(2) by Proposal 7925 "Safety Regulations v2" (Aris, Alexis), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
@@ -1282,6 +1378,78 @@ Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
 
 ----------------------------------------------------------------------
 
+Rule 2518/0 (Power=3)
+Determinacy
+
+      If a value CANNOT be reasonably determined (without circularity or paradox)
+      from information reasonably available, or if it alternates indefinitely
+      between values, then the value is considered to be indeterminate, otherwise
+      it is determinate.
+
+History:
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+
+----------------------------------------------------------------------
+
+Rule 1586/0 (Power=2)
+Definition and Continuity of Entities
+
+
+      If multiple rules attempt to define an entity with the same name, then they
+      refer to the same entity. A rule-defined entity's name CANNOT be changed to
+      be the same as another rule-defined entity's name.
+
+      A rule, contract, or regulation that refers to an entity by name refers to the
+      entity that had that name when the rule first came to include that reference,
+      even if the entity's name has since changed.
+
+      If the entity that defines another entity is amended such that it no longer
+      defines the second entity, then the second entity and its attributes cease to
+      exist.
+
+      If the entity that defines another entity is amended such that it defines
+      the second entity both before and after the amendment, but with different
+      attributes, then the second entity and its attributes continue to exist to
+      whatever extent is possible under the new definitions.
+
+History:
+Created by Proposal 2481, Feb. 16 1996
+Amended(1) by Proposal 2795 (Andre), Jan. 30 1997, substantial
+Amended(2) by Proposal 3999 (harvel), May 2 2000
+Power changed from 1 to 2 by Proposal 3999 (harvel), May 2 2000
+Amended(3) by Proposal 5077 (Murphy), 18 July 2007
+Amended(4) by Proposal 5723 (Murphy), 7 October 2008
+Amended(5) by Proposal 5836 (Murphy), 12 October 2008
+Amended(6) by cleaning (comex), 26 January 2009
+Amended(7) by Proposal 6650 (coppro), 10 March 2010
+Amended(8) by Proposal 6981 (Murphy, omd), 10 April 2011
+Repealed by Proposal 7614 (G., omd), 13 January 2014
+Reenacted(9) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
+
+----------------------------------------------------------------------
+
+Rule 2505/0 (Power=1)
+Random Choices
+
+      When a Rule specifies that a random choice be made, then the choice shall be
+      made using whatever probability distribution among the possible outcomes the
+      Rule specifies, defaulting to a uniform probability distribution.
+
+      The choice CAN be made using any physical or computational process whose
+      probability distribution among the possible outcomes is reasonably close to
+      that required by the Rules, and for which the final choice is not trivially
+      predictable by the selecting person in advance.  The selecting person SHOULD
+      make the selection method public, and SHOULD use a method for which
+      the final probability distribution can be readily confirmed.
+
+History:
+Created by Proposal 7883 (G.), 26 September 2017
+
+----------------------------------------------------------------------
+
 ======================================================================
 Proposals
 ----------------------------------------------------------------------
@@ -1329,7 +1497,7 @@ Amended(9) by Proposal 7736 (aranea), 2 May 2015
 
 ----------------------------------------------------------------------
 
-Rule 2445/8 (Power=1)
+Rule 2445/10 (Power=1)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
@@ -1341,7 +1509,13 @@ How to Pend a Proposal
 
         a) spending 1 Action Point, OR
 
-        b) spending 1/20th the Floating Value in shinies.
+        b) spending the current Pend Cost in shinies.
+
+      An Official Proposal is a proposal designated as such by the Rules; generally
+      official proposals that are created as part of an Officer's duties. Rules to
+      the contrary notwithstanding, an Official proposal is always pending. Rules
+      to the contrary notwithstanding, players CANNOT claim rewards for the adoption
+      of an Official proposal.
 
 History:
 Created by Proposal 7728 (Tiger), 24 November 2014
@@ -1355,10 +1529,12 @@ Amended(7) by Proposal 7854 "Close Recent Loopholes v2" (ais523), 05
   June 2017
 Amended(8) by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok,
   Aris), 30 July 2017
+Amended(9) by Proposal 7876 "Float On" (o), 26 September 2017
+Amended(10) by Proposal 7883 "Fear v2.1" (G.), 26 September 2017
 
 ----------------------------------------------------------------------
 
-Rule 1607/43 (Power=3)
+Rule 1607/44 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for
@@ -1368,19 +1544,13 @@ Distribution
       For this decision, the vote collector is the Assessor, the
       adoption index is initially the adoption index of the proposal,
       or 1.0 if the proposal does not have one, and the text, author,
-      and coauthors of the proposal are essential parameters. 
+      and coauthors of the proposal are essential parameters.
       Initiating such a decision is known as distribution, and removes
       the proposal from the Proposal Pool.
 
       The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time. The Promotor SHALL NOT distribute proposals
-      which are not pending.
-
-      In a given Agoran week, the Promotor SHALL, as part of eir
-      weekly duties, distribute all pending proposals.
-
-      Distributed proposals have ID numbers, to be assigned by the
-      Promotor.
+      Pool at any time, by announcement. The Promotor SHALL NOT
+      distribute proposals which are not pending.
 
       If there is a Proposal in the Pool that it would otherwise be
       IMPOSSIBLE for any player to distribute, then any player CAN
@@ -1439,6 +1609,7 @@ Amended(40) by Proposal 7618 (omd), 24 January 2014
 Amended(41) by Proposal 7629 (scshunt), 7 April 2014
 Amended(42) by Proposal 7728 (Tiger), 24 November 2014
 Amended(43) by Proposal 7832 (Alexis), 5 December 2016
+Amended(44) by Proposal 7885 (o, V.J Rada, Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -1793,7 +1964,7 @@ Amended(12) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
-Rule 955/22 (Power=3)
+Rule 955/23 (Power=3)
 Determining the Will of Agora
 
       Each Agoran decision has a voting method, which determines how
@@ -1839,7 +2010,10 @@ Determining the Will of Agora
       - If there are no valid options, the outcome is null.
 
       The outcome of a decision is determined when it is resolved, and
-      cannot change thereafter.
+      cannot change thereafter. The rule providing
+      for an Agoran Decision by instant runoff may disqualify one or more options; in
+      such a case, they are eliminated prior to beginning the first stage of the vote
+      count.
 
 History:
 Initial Mutable Rule 209, Jun. 30 1993
@@ -1875,6 +2049,8 @@ Amended(20) by Proposal 7778 (scshunt), 14 August 2014
 Amended(21) by Proposal 7816 (Alexis, o, aranea), 28 October 2016
 Amended(22) by proposal 7853 "Close Ancient Loopholes" (ais523), 05
   June 2017
+Amended(23) by Proposal 7912 "Election Campaigns" (Alexis), 15 October
+  2017
 
 ----------------------------------------------------------------------
 
@@ -2005,6 +2181,34 @@ Amended(9) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
+Rule 2517/0 (Power=3)
+Conditionals and Extricability
+
+      A conditional is any textual structure that attempts to make a statement (the
+      substrate) affecting any part or aspect of the gamestate, or the
+      permissibility, possibility, or effect of any action affecting such a part or
+      aspect, dependent on the truth value or other state of a textual structure
+      (the condition). The condition is said to be "affixed" to the substrate
+      (inverse "to be conditional upon").
+
+      A condition is inextricable if it is unclear, ambiguous, circular,
+      inconsistent, paradoxical, depends on information that is indeterminate, or
+      is impossible or unreasonably difficult to determine, or otherwise requires an
+      unreasonable effort to resolve; otherwise it is extricable. A conditional is
+      inextricable if its condition is inextricable; otherwise it is extricable. A
+      player SHOULD NOT use an inextricable conditional for any purpose.
+
+      An action is said to be "subject to" a conditional if its possibility,
+      permissibility, or effect (depending on context) is determined by the
+      conditional. A value is said to be subject to a conditional of the state
+      of the value is determined by the conditional.
+
+History:
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+
+----------------------------------------------------------------------
+
 Rule 2168/7 (Power=1)
 Extending the voting period
 
@@ -2115,26 +2319,59 @@ Amended(9) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
-Rule 2154/50 (Power=2)
+Rule 2154/51 (Power=2)
 Election Procedure
 
-      A player CAN initiate an election for a specified elected office
-      for which no election is already in progress
+      A player CAN initiate an election for a specified office:
+          a) With 2 Support, if either the office is interim or the
+             most recent election for that office was resolved more
+             than 90 days prior, and provided that the initiator
+             becomes a candidate in the same message.
+          b) By announcement, if e is the ADoP and if the office is
+             interim, or if e is the holder of that office.
+      The above notwithstanding, an election for an office CANNOT be
+      initiated if one is already in progress.
 
-      1. by announcement, if e is the ADoP, if the office has been
-         deputised for within the past two weeks, or if no election
-         has been initiated for the office either since the last time
-         a player won the game or within the past 90 days;
+      After an election is initiated and until nominations close, any player CAN
+      become a candidate by announcement. A candidate ceases to be a candidate if e
+      ceases to be a player during the election. An election is contested if it has
+      two or more candidates at the end of the nomination period, and uncontested
+      otherwise. For a contested election, nominations close at the end of the
+      poll's voting period. For an uncontested election, nominations close at the
+      end of the nomination period.
 
-      2. with 4 Supporters, otherwise.
+      When an election is initiated, it enters the nomination period,
+      which lasts for 7 days. In a timely fashion after the nomination
+      period ends, the ADoP CAN and SHALL, in the same message:
+          1) If the election is contested, initiate an Agoran decision
+             to select the winner of the election (the poll). For this
+             decision, the Vote Collector is the Assessor, the valid
+             options are the candidates for that election (including
+             those who become candidates after its initiation), and the
+             voting method is instant runoff.
+          2) Distribute all pending Campaign Proposals associated
+             with the election.
+          3) If POSSIBLE per the following paragraph, end the election
+             immediately.
 
-      After the election is initiated, any player CAN once initiate an
-      Agoran decision to determine the new officeholder, and the ADoP
-      SHALL do so in a timely fashion if no one else does first.  For
-      this decision, the valid options are the players, the vote
-      collector is the ADoP, and the voting method is instant runoff.
-      Upon the resolution of this decision, its outcome, if a player,
-      is installed into office, and the election ends.
+      If at any point an uncontested election has a single candidate, and that
+      candidate either is not the author of a Committed Campaign Proposal for that
+      election or that proposal was adopted, then any player CAN declare them the
+      winner of the election by announcement. If at any point an uncontested
+      election has no candidates, or a single candidate who is the author of a
+      failed Committed Campaign Proposal for that election, then any player CAN
+      declare the election ended with no winner by announcement. The Assessor SHALL
+      do one or the other in the same message in which e resolves a decision to
+      adopt a Campaign Proposal for an ongoing uncontested election.
+
+      A poll CANNOT be resolved until the decisions to adopt all associated Campaign
+      Proposals are resolved. When resolving the poll, if a given candidate authored
+      one of the associated Campaign Proposals, that proposal is Committed, and it
+      was not adopted, then that player is disqualified.
+
+      When the poll is resolved, its outcome, if a player, wins the election. When
+      a player wins an election, e is installed into the associated office and the
+      election ends.
 
 History:
 Created by Proposal 5059 (Zefram, Goethe), 9 July 2007
@@ -2191,6 +2428,8 @@ Amended(47) by Proposal 7684 (scshunt), 1 August 2014
 Amended(48) by Proposal 7778 (scshunt), 14 August 2014
 Amended(49) by Proposal 7807 (aranea), 10 August 2016
 Amended(50) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(51) by Proposal 7912 "Election Campaigns" (Alexis), 15 October
+  2017
 
 ----------------------------------------------------------------------
 
@@ -2198,7 +2437,7 @@ Amended(50) via Rule 2430 "Cleanup Time," 24 May 2017
 Offices & Reporting
 ----------------------------------------------------------------------
 
-Rule 1006/38 (Power=2)
+Rule 1006/39 (Power=2)
 Offices
 
       Officeholder is an office switch tracked by the ADoP, with
@@ -2212,9 +2451,18 @@ Offices
       the holder of an elected office without eir explicit or
       reasonably implied consent.
 
+      A holder of an elected office who did not become its holder by winning an
+      election, and has not won an election for that office since, is an interim
+      holder. An elected office that is either vacant or has an interim holder is an
+      interim office.
+
       The holder of an elected office CAN resign it by announcement,
       causing it to become vacant. Any player CAN cause an office to
       become vacant without 2 objections.
+
+      When a proposal takes effect and creates a new office, if the
+      proposal does not specify otherwise, the author of that proposal
+      becomes the holder of the office.
 
 History:
 Created by Proposal 386 (Alexx), Aug. 16 1993
@@ -2264,6 +2512,8 @@ Amended(35) by Proposal 7403 (omd), 27 April 2013
 Amended(36) by Proposal 7586 (omd), 24 August 2013
 Amended(37) by Proposal 7629 (scshunt), 7 April 2014
 Amended(38) by Proposal 7807 (aranea), 10 August 2016
+Amended(39) by Proposal 7912 "Election Campaigns" (Alexis), 15 October
+  2017
 
 ----------------------------------------------------------------------
 
@@ -2343,7 +2593,38 @@ Amended(26) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
 
 ----------------------------------------------------------------------
 
-Rule 2138/23 (Power=1)
+Rule 2513/0 (Power=1)
+Campaign Proposals, with power 3
+
+      During the nomination period of an election, any candidate for that election
+      CAN submit a Campaign Proposal for that election, provided e does not
+      currently have a pending Campaign Proposal for that election, using the normal
+      mechanism for proposal submission. Campaign Proposals SHOULD relate to the
+      duties of the office up for election. Commitment is an untracked Campaign
+      Proposal switch with values Committed (default) and Uncommitted. The author
+      of a Committed proposal may flip it to Uncommitted by announcement.
+
+      A Campaign Proposal is an Official Proposal exempt from automatic
+      distribution, and SHALL NOT be distributed as required by the rules.
+      The election with which a Campaign Proposal is associated, as well as its
+      Commitment, are essential parameters for an Agoran decision to adopt a
+      Campaign Proposal.
+
+      When a Campaign Proposal is adopted, it CANNOT take effect until
+      the associated election ends. When the election ends, if the winner was the
+      proposal's author, then any player CAN once make it take effect by
+      announcement (with its power set as usual for an adopted proposal). If the
+      conditions for a Campaign Proposal to take effect are met as a result of an
+      action in a public message, the author of the message SHALL make it take
+      effect in that message.
+
+History:
+Created by Proposal 7912 "Election Campaigns" (Alexis), 15 October
+  2017
+
+----------------------------------------------------------------------
+
+Rule 2138/24 (Power=1)
 The Associate Director of Personnel
 
       The Associate Director of Personnel (ADoP) is an office; its
@@ -2353,8 +2634,11 @@ The Associate Director of Personnel
 
       1. The date of the last change (if any) to each office's
          Officeholder.
-      2. The date on which the most recent election for each office
-         was initiated.
+      2. The current status of the ongoing election for that office
+         or, if there is no ongoing election for that office, the
+         date on which the last election ended
+      3. For filled elected offices, whether or not the holder is
+         interim.
 
 History:
 Created by Proposal 4939 (Murphy), 29 April 2007
@@ -2386,6 +2670,8 @@ Retitled by Proposal 7757 (scshunt), 17 July 2015
 Retitled by Proposal 7758 (omd), 19 July 2015
 Amended(22) by Proposal 7758 (omd), 19 July 2015
 Amended(23) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(24) by Proposal 7912 "Election Campaigns" (Alexis), 15 October
+  2017
 
 ----------------------------------------------------------------------
 
@@ -2520,7 +2806,7 @@ Amended(7) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
-Rule 2160/15 (Power=3)
+Rule 2160/16 (Power=3)
 Deputisation
 
       A rule which purports to allow a person (a deputy) to perform an
@@ -2531,8 +2817,8 @@ Deputisation
         1. it would be POSSIBLE for the deputy to perform the action,
            other than by deputisation, if e held the office, and
 
-        2. the deputy, when performing the action, announces that e
-           is doing so by the appropriate form of deputisation.
+        2. Either (i) A time limit by which the rules require the action to be
+           performed has expired or (ii) the office is vacant.
 
       Only this rule may allow normal deputisation. Any rule may allow
       special deputisation.
@@ -2578,17 +2864,19 @@ Amended(12) by Proposal 7652 (scshunt), 3 June 2014
 Amended(13) by Proposal 7713 (Warrigal), 9 November 2014
 Amended(14) by Proposal 7804 (nichdel), 31 July 2016
 Amended(15) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(16) by Proposal 7918 "Vacant Deputisation Fix" (Publius
+  Scribonius Scholasticus), 15 October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2472/1 (Power=2)
+Rule 2472/2 (Power=2)
 Office Incompatibilities
 
       Some pairs of office are incompatible:
 
       1. Prime Minister and Speaker
       2. Promotor and Assessor
-      3. Promotor and ADoP
+      3. Assessor and ADoP
       4. Referee and Arbitor
 
       A player is Overpowered if e holds two offices which are
@@ -2604,6 +2892,8 @@ Office Incompatibilities
 History:
 Created by Proposal 7824 (aranea, ais523), 7 November 2016
 Amended(1) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(2) by Proposal 7912 "Election Campaigns" (Alexis), 15 October
+  2017
 
 ----------------------------------------------------------------------
 
@@ -2616,6 +2906,34 @@ No News Is Some News
 
 History:
 Created by Proposal 7286 (FKA441344), 9 September 2012
+
+----------------------------------------------------------------------
+
+Rule 2309/2 (Power=1)
+The Propose-O-Matic
+
+      When a rule allows one person (the agent) to act on behalf of another (the
+      principal) to perform an action, that agent CAN perform the action if it
+      is POSSIBLE for the principal to do so, taking into account any
+      prerequisites for the action. If the enabling rule does not specify the
+      mechanism by which the agent may do so, then the agent CAN perform the
+      action in the same manner in which the principal CAN do so, with the
+      additional requirement that the agent must, in the message in which the
+      action is performed, uniquely identify the principal and that the action
+      is being taken on behalf of that person.
+
+      When an action is performed on behalf of a principal, then the action is
+      considered for all game purposes to have been performed by the principal.
+
+      This rule takes precedence over any rule which would prohibit a person
+      from taking an action, except that it defers to any rule that imposes
+      limitations specifically on actions taken on behalf of another person.
+
+History:
+Created by Proposal 6798 (coppro), 27 August 2010
+Amended(1) by Proposal 6861 (omd), 18 October 2010
+Repealed by Proposal 6961 (G.), 3 March 2011
+Reenacted(2) by Proposal 7883 "Fear v2.1" (G.), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -2764,7 +3082,7 @@ Amended(1) by Proposal 7709 (Murphy), 3 November 2014
 Calls for Judgement
 ----------------------------------------------------------------------
 
-Rule 991/17 (Power=2)
+Rule 991/22 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -2772,13 +3090,13 @@ Calls for Judgement
 
         a) by announcement, and spending 1 Action Point, OR
 
-        b) by announcement, and spending 1/20th the Floating Value in
+        b) by announcement, and spending the current CFJ cost in
         shinies, OR
 
         c) by announcement if e is not a player.
 
-      When a person initiates a Call for Judgment, e may optionally bar one
-      person from the case.
+      When a person initiates a Call for Judgment, e CAN optionally
+      bar one person from the case by announcement.
 
       At any time, each CFJ is either open (default), suspended, or
       assigned exactly one judgement.
@@ -2795,6 +3113,12 @@ Calls for Judgement
       interested players have reasonably equal opportunities to judge.
       If a CFJ has no judge assigned, then any player eligible to
       judge that CFJ CAN assign it to emself Without 3 Objections.
+
+
+      The Arbitor's weekly report includes a summary of recent
+      judicial case activity, including open and recently-judged
+      cases, recent judicial assignments, and a list of players
+      interested in judging.
 
 History:
 Initial Mutable Rule 213, Jun. 30 1993
@@ -2824,6 +3148,10 @@ Amended(16) by Proposal 7777 (omd, G.), 14 August 2015
 Amended(17) by Proposal 7803 (G.), 31 July 2016
 Amended(19) by Proposal 7867 "Economics Overhaul v2" (nichdel, o,
   grok, Aris), 30 July 2017
+Amended(20) by Proposal 7876 "Float On" (o), 26 September 2017
+Amended(21) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
+Amended(22) by Proposal 7899 "Arbitor's Union" (G.), 03 October 2017
 
 ----------------------------------------------------------------------
 
@@ -2834,7 +3162,9 @@ Delivering Judgements
       assign a valid judgement to it by announcement, and SHALL do so
       in a timely fashion after this becomes possible.  If e does not,
       the Arbitor CAN remove em from being the judge of that case by
-      announcement.
+      announcement, and SHALL do so in a timely fashion after the
+      time limit expires, unless the judge assigns a valid judgement
+      in the mean time.
 
       The valid judgements for an inquiry case are as follows, based
           on the truth or falsity of the statement at the time the inquiry
@@ -2918,7 +3248,8 @@ Retitled and amended(39) by Proposal 7616 (G.), 16 January 2014
 Amended(40) by Proposal 7629 (scshunt), 7 April 2014
 Amended(41) by Proposal 7694 (omd), 23 October 2014
 Amended(42) by Proposal 7776 (omd), 14 August 2015
-Amended(43) by Proposal 7859 (Quzie, grok), 27 June 2017
+Amended(43) by Proposal 7859 (Quazie, grok), 27 June 2017
+Amended(44) by Proposal 7899 "Arbitor's Union" (G.), 03 October 2017
 
 ----------------------------------------------------------------------
 
@@ -3046,10 +3377,11 @@ Amended(9) by Proposal 7647 (omd), 3 June 2014
 
 ----------------------------------------------------------------------
 
-Rule 2492/0 (Power=1)
+Rule 2492/1 (Power=1)
 Recusal
 
-      A judge may recuse emself from a CFJ they are assigned to.
+      A judge CAN recuse emself from a CFJ they are assigned to by
+      announcement.
 
       When a judge recuses emself from a CFJ the following happens:
         1 - The CFJ becomes unassigned
@@ -3059,7 +3391,9 @@ Recusal
             make the Arbitor's job easier.
 
 History:
-Created by Proposal 7859 (Quzie, grok), 27 June 2017
+Created by Proposal 7859 (Quazie, grok), 27 June 2017
+Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
 
 ----------------------------------------------------------------------
 
@@ -3094,7 +3428,8 @@ Cards
       is issued.  Unless otherwise specified by the rule defining a
       type of Card, that Card type's penalty and circumstances for
       which it is appropriate are secured at the power threshold of
-      that rule.
+      that rule. It is inappropriate to award a card to a non-player person unless the rule
+      defining the card says otherwise.
 
       A person SHALL NOT issue a Card unless:
 
@@ -3112,6 +3447,8 @@ Amended(3) by Proposal 7720 (omd), 9 November 2014
 Amended(4) by Proposal 7729 (Tiger), 24 November 2014
 Power changed to 2 and Amended(5) by Proposal 7831 (Alexis), 5
   December 2016
+Amended(6) by Proposal 7886 "Card Reform and Expansion v4" (Aris,
+  ais523, Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -3130,19 +3467,19 @@ Amended(1) by self-amendment as per R2477/0, 22 Apr 2017
 
 ----------------------------------------------------------------------
 
-Rule 2478/1 (Power=1.7)
+Rule 2478/2 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
-      this rule, Point eir Finger at a player, citing an alleged
-      violation of the rules by that player.
+      this rule, Point eir Finger at a person who plays the game, citing an alleged
+      violation of the rules by that person.
 
       When a player Points a Finger, the investigator SHALL
       investigate the allegation and, in a timely fashion, SHALL
       conclude the investigation by:
 
-       - issuing a Card to the pointed-at player by announcement whose
-         reason is rooted in the allegation;
+       - issuing a Card to the pointed-at person by announcement whose
+         reason is rooted in the allegation; or
 
        - if e believes that no rules violation occurred or that it
          would be ILLEGAL to issue a Card for it, announcing the
@@ -3155,48 +3492,82 @@ Vigilante Justice
       the investigation and thereby become the investigator.
 
       A player CANNOT point a finger more than twice per Agoran week,
-      or more than once per Agoran week at the same player.
+      or more than once per Agoran week at the same person.
 
 History:
 Created by Proposal 7831 (Alexis), 5 December 2016
 Amended(1) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(2) by Proposal 7886 "Card Reform and Expansion v4" (Aris,
+  ais523, Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
-Rule 2479/0 (Power=1.7)
+Rule 2479/1 (Power=1.7)
 Official Justice
 
       The Referee CAN, subject to the provisions of this rule, impose
-      Summary Judgment on a player by issuing a card to em by
+      Summary Judgment on a person who plays the game by issuing a card to em by
       announcement.
 
       The Referee CANNOT Point eir Finger or impose Summary Judgment
       more than five total times per week, or more than twice per week
-      at or on the same player.
+      at or on the same person.
 
       As part of the Referee's weekly duties, e SHALL either impose
-      Summary Judgment on a player or truthfully announce that e
+      Summary Judgment on a person or truthfully announce that e
       believes that there are no rules violations in the preceding
       Agoran week for which a Card has not already been issued.
 
 History:
 Created by Proposal 7831 (Alexis), 5 December 2016
+Amended(1) by Proposal 7886 "Card Reform and Expansion v4" (Aris,
+  ais523, Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
-Rule 2474/0 (Power=0.5)
+Rule 2474/3 (Power=0.5)
 Green Cards
 
       A Green Card is a type of Card that is appropriate for minor, accidental,
-      and/or inconsequential infraction. A Green Card is also appropriate for
-      any infraction for which no other type of Card is appropriate. When a
-      person is issued a Green Card, e is ENCOURAGED to travel to the United
-      States.
+      and/or inconsequential infraction. A Green Card is also appropriate for any
+      infraction for which no other type of Card is appropriate. 'Tis appropriate to
+      issue a Green Card to a non-player person who plays the game, for the
+      infractions previously described. When a person is issued a Green Card, e
+      is ENCOURAGED to travel to the United States.
 
 History:
 Created by Proposal 7831 (Alexis), 5 December 2016
-Amended by Proposal 7871 "Minor fixes (sans typos)" (V.J Rada), 7
+Amended(1) by Proposal 7871 "Minor fixes (sans typos)" (V.J Rada), 7
   September 2017
+Amended(2) by Proposal 7886 "Card Reform and Expansion v4" (Aris,
+  ais523, Ørjan), 26 September 2017
+
+----------------------------------------------------------------------
+
+Rule 2506/0 (Power=2)
+Blue Cards
+
+      A Blue Card is a type of Card that is appropriate for deliberate or negligent
+      infractions either where the the player responsible profited from violating
+      the rules or where e significantly harmed another person or the game
+      as a whole. The person issuing a Blue Card must, in the same message,
+      announce a penalty between 1 shiny and the greater of 25 shinies and the
+      amount the bad sport profited from the infraction, in order for the card to
+      be effective. E CAN additionally, in the same message, determine the
+      distribution of the money between Agora and the players(s) harmed, save
+      that e CANNOT distribute money to emself or such that it would be under
+      eir effective control. By default, all the money goes to Agora.
+
+      When a Blue Card is issued, as a penalty, within the next 7 days, any player
+      CAN once, with 2 Support, Levy a Fine upon the bad sport. After the Fine is
+      Levied upon the bad sport, e SHALL endeavor in good faith to pay the fine
+      to Agora or the correct player(s), in accordance with the distribution laid
+      out by the carder. Any player CAN also act on the bad sport's behalf to do so,
+      fulfilling eir obligation.
+
+History:
+Created by Proposal 7886 "Card Reform and Expansion v4" (Aris, ais523,
+  Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -3240,6 +3611,30 @@ Red Cards
 
 History:
 Created by Proposal 7831 (Alexis), 5 December 2016
+
+----------------------------------------------------------------------
+
+Rule 2507/0 (Power=2)
+Black Cards
+
+
+      A Black Card is a card appropriate for a person who plays the game, not
+      currently a player, who either broke the rules while not a player or
+      broke them while a player and then deregistered in bad faith. A Black
+      Card CANNOT be issued to current players, and no more than 3 Black Cards
+      CAN be issued per week. Any attempt to issue a Black Card in violation
+      of these limitations is INEFFECTIVE.
+
+      When a Black Card is issued, as a penalty, within the next 7 days, any player
+      CAN once, with Agoran Consent, Slam the Door at the bad sport. After the Door
+      is Slammed at a person, e CANNOT register or take any game actions for 30
+      days, rules to the contrary notwithstanding. Any attempt to Slam the Door on
+      a player or a person whose most recent deregistration took place without
+      eir consent is INEFFECTIVE, rules to the contrary notwithstanding.
+
+History:
+Created by Proposal 7886 "Card Reform and Expansion v4" (Aris, ais523,
+  Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -3301,17 +3696,17 @@ Amended(3) by Proposal 7837 (ais523), 5 December 2016
 
 ----------------------------------------------------------------------
 
-Rule 103/23 (Power=2)
+Rule 103/24 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
       Agora.
 
       The player or players who have most recently won the game are
-      called Laureled. If at any time the office of Speaker is vacant,
-      or when one or more players win Agora, then the Prime Minister
-      CAN and SHALL, once and in a timely fashion, appoint a Laureled
-      player to the office of Speaker.
+      called Laureled. If at any time the office of Speaker is
+      vacant, or when one or more players win Agora, then the Prime
+      Minister CAN and SHALL, once and in a timely fashion, appoint a
+      Laureled player to the office of Speaker by announcement.
 
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player
@@ -3353,6 +3748,7 @@ Amended(20) by Proposal 7650 (scshunt, G.), 3 June 2014
 Amended(21) by Proposal 7690 (aranea), 24 September 2014
 Amended(22) by Proposal 7739 (G.), 2 May 2015
 Amended(23) by Proposal 7824 (aranea, ais523), 7 November 2016
+Amended(24) by Proposal 7885 (o, V.J Rada, Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -3407,6 +3803,69 @@ Victory Elections
 
 History:
 Created by Proposal 7836 (ais523), 5 December 2016
+
+----------------------------------------------------------------------
+
+Rule 2510/1 (Power=1)
+Such is Karma
+
+      Karma is a person switch tracked by the Herald in eir Weekly
+      Report.  Karma is an Integer switch.  The Community Chest also
+      has an instance of the Karma switch.
+
+      A player CAN publish a Notice of Honour.  For a Notice of Honour
+      to be valid, it must:
+           1.  Be clear that it is a Notice of Honour, and be the
+               first valid Notice of Honour that player has published
+               in the current week;
+           2.  Specify any other player to gain karma, and provide a
+               reason for specifying that player; and
+           3.  Specify any player to lose karma, and provide a reason
+               for specifying that player.
+      When a valid Notice of Honour is published, the player specified
+      to gain karma has eir karma increased by one, and the player
+      specified to lose karma has eir karma decreased by one. Raising
+      one entity's karma while lowering another's in this manner is
+      considered to be a "transfer" of karma.
+
+      A player's positions in Court are defined as follows:
+           - Any player with a karma of 7 or greater is a Samurai.
+           - Any player with a karma of -7 or less is an Gamma.
+           - The player with the highest karma (if any) is the Shogun.
+           - The player with the lowest karma (if any) is the
+             Honourless Worm.
+      Each player's positions in Court are part of of the Herald's
+      Weekly Report.
+
+History:
+Created by Proposal 7904 "Such is Karma v2" (G., 天火狐), 03 October 2017
+Amended(1) by Proposal 7916 "Pro Pace v2" (Aris, o, G.), 15 October
+  2017
+
+----------------------------------------------------------------------
+
+Rule 2511/0 (Power=1)
+Karmic Balance
+
+      In a timely fashion after the beginning of each Quarter, the
+      Herald CAN and SHALL by announcement, perform the following
+      tasks in order:
+            1.  Halve (rounding towards 0) the Karma of every
+                Unregistered person.
+            2.  Set the Karma of the Community Chest such that the sum
+                of all Karma switch instance values in the game is
+                equal to 0.
+
+      While the Karma of the Community Chest is not equal to 0, the
+      Herald CAN and SHALL publish a Notice of Honour specifying the
+      Community Chest as a gainer or loser in place of a player; to
+      be valid, it must be specified such that the result would move
+      the Karma of the Community Chest closer to 0.  For selection
+      players in such transactions, the Herald SHOULD use standards
+      of behavior and game balance befitting the spirit of the game.
+
+History:
+Created by Proposal 7904 "Such is Karma v2" (G., 天火狐), 03 October 2017
 
 ----------------------------------------------------------------------
 
@@ -3679,24 +4138,24 @@ Amended(19) by Proposal 7620 (omd), 24 January 2014
 
 ----------------------------------------------------------------------
 
-Rule 2231/5 (Power=3)
+Rule 2231/6 (Power=3)
 Order of the Hero of Agora Nomic
 
       Heroic titles are Agora's premier patent titles of distinction,
       and CAN be awarded to persons for meritorious service only by a
       proposal of power 3 or greater, which SHOULD explain why those
-      persons are qualified.  Bearers of heroic titles (Heroes)
+      persons are qualified. Bearers of heroic titles (Heroes)
       constitute the Order of the Hero of Agora Nomic.
 
       The Heroic titles in decreasing precedence are:
 
-      Grand Hero of Agora Nomic (GHAN) -- This title may be awarded to
-      any person obviously and directly responsible for the existence
-      of Agora and/or Nomic in general.  As this title is the highest
-      honour that Agora may bestow, a Bearer of this title OUGHT to be
-      treated right good forever.
+      Grand Hero of Agora Nomic (GHAN) -- This title CAN be awarded
+      to any person obviously and directly responsible for the
+      existence of Agora and/or Nomic in general. As this title is
+      the highest honour that Agora may bestow, a Bearer of this
+      title OUGHT to be treated right good forever.
 
-      Hero of Agora Nomic (HAN) -- This title may be awarded to any
+      Hero of Agora Nomic (HAN) -- This title CAN be awarded to any
       person for outstanding meritorious service to Agora above and
       beyond the call of duty.
 
@@ -3708,6 +4167,8 @@ Power changed from 2 to 3 by Proposal 6626 (Murphy), 20 February 2010
 Amended(3) by Proposal 6626 (Murphy), 20 February 2010
 Amended(4) by Proposal 7621 (G.), 23 February 2014
 Amended(5) by Proposal 7647 (omd), 3 June 2014
+Amended(6) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
 
 ----------------------------------------------------------------------
 
@@ -3747,12 +4208,12 @@ Created by Proposal 7800 (Henri), 19 July 2016
 
 ----------------------------------------------------------------------
 
-Rule 2451/3 (Power=1.7)
+Rule 2451/4 (Power=1.7)
 Executive Orders
 
-      Once per week and except as otherwise forbidden by this
-      rule, the current Prime Minister CAN issue a Cabinet Order
-      and perform the action(s) authorized by that Order.
+      Once per week and except as otherwise forbidden by this rule,
+      the current Prime Minister CAN issue a Cabinet Order by
+      announcement to perform the action(s) authorized by that Order.
 
       Each Cabinet Order is associated with an office. The current
       Prime Minister CANNOT issue more than one Cabinet Order
@@ -3779,6 +4240,7 @@ Created by Proposal 7764 (scshunt), 24 July 2015
 Amended(1) by Proposal 7829 (Alexis), 7 November 2016
 Amended(2) by Proposal 7831 (Alexis), 5 December 2016
 Amended(3) by Proposal 7860 (Quazie), 27 June 2017
+Amended(4) by Proposal 7885 (o, V.J Rada, Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -3786,90 +4248,213 @@ Amended(3) by Proposal 7860 (Quazie), 27 June 2017
 Obligations
 ----------------------------------------------------------------------
 
-Rule 2450/2 (Power=1.7)
+Rule 2450/3 (Power=1.7)
 Pledges
 
-      A player SHALL NOT break eir own publicly-made pledges.
+      Pledges are an indestructible fixed asset. Ownership of pledges
+      is restricted to persons. The Referee is the recordkeepor of
+      pledges. Creating, destroying, modifying, and transferring
+      pledges are secured.
 
-      A pledge may be considered broken if the pledger does not complete it
-      in a timely manner after it becomes possible to do so. A pledge may be
-      considered broken at the moment the pledger engages in conduct
-      proscribed by that pledge.
+      To "pledge" something is to create a pledge with those terms. A
+      person CAN pledge by announcement to create a pledge e owns.
+
+      To "retract" (syn "withdraw") a pledge is to destroy it. A
+      person CAN retract a pledge e owns without objection.
+
+      To "call in" a pledge" is to destroy it. A player CAN call in
+      any pledge with Agoran Consent, if e announces a reason the
+      Terms of the pledge should be considered broken. Support for an
+      intent to call in a pledge is INEFFECTIVE unless the supporting
+      player explicitly confirms the reasons that the pledge should
+      be considered broken.
+
+      It is ILLEGAL to own a pledge when it is called in.
 
 History:
 Created by Proposal 7761 (G.), 19 July 2015
 Amended(1) by Proposal 7862 (Quazie), 27 June 2017
 Amended(2) by Proposal 7866 (o, Aris, Quazie, G., Gaelan, 天火狐)
+Amended(3) by Proposal 7901 (o, CuddleBeam, Ørjan, V.J Rada, nichdel),
+  03 October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2467/4 (Power=1)
-Agencies
+Rule 2519/0 (Power=3)
+Consent
 
-      An Agency is a document empowering persons to act on behalf of another
-      player. A player MAY establish an Agency With 24 hours Notice, and thereby
-      become its Director, by specifying the properties of the new Agency,
-      provided e has not established any other Agency that day:
-
-        1. A title, which must be exactly three words, not counting
-           conjunctions, articles or prepositions.
-        2. A non-empty list of persons other than the Director (the Agents).
-        3. A description of a set of actions (the Powers).
-
-      An Agency's Director may amend its properties or revoke it with 24 hours
-      Notice. For greater certainty, an announced intent to create an Agency or
-      amend an Agency's powers is INEFFECTIVE unless it explicitly specifies the
-      new values of the properties being created or amended.
-
-      The Powers of an Agency must be stated as actions, although they may may
-      be conditional on date, time, game state, or other preconditions. If
-      condition(s) are specified as necessary for a power to be used, it is
-      limited; otherwise, it is unlimited. If it attempts to specify a power in
-      a manner that is unclear, ambiguous, circular, inconsistent, paradoxical,
-      or that depends on information that is impossible or unreasonably
-      difficult to determine, then the specification of that power is invalid,
-      and it CANNOT be used.
-
-      An Agency, once created, SHOULD be referred to by the acronym formed from
-      its title with conjunctions, articles, and prepositions removed. The
-      acronym of an agency must be unique and any attempt to create or amend an
-      Agency such that two Agencies would have the same acronym is INEFFECTIVE.
-
-      The Agents of an Agency may perform the Actions described in the Powers of
-      the Agency on behalf of the Agency's Director.
+      A person gives consent (syn. consents) to an action when e, acting as emself,
+      publicly states that e agrees to the action. This agreement may be implied,
+      but only if it is reasonably clear from context that the person wanted the
+      agreement to take place.
 
 History:
-Created by Proposal 7815 (Alexis, aranea), 28 October 2016
-Amended(1) by Proposal 7845 (Aris, ais523), 9 May 2017
-Amended(2) via Rule 2430 "Cleanup Time," 24 May 2017
-Amended(3) by proposal 7857 "Agency Leadership Consolidation Act"
-  (Grok), 05 June 2017
-Amended(4) by proposal 7855 "Limited Agencies" (Quazie), 05 June 2017
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2468/2 (Power=1)
-Superintendent
+Rule 2520/0 (Power=2.5)
+Contracts
 
-      The Superintendent is an office; its holder is responsible for
-      keeping track of Agencies.
+      A contract is a ruleset-defined entity embodied in text. An entity can only
+      become a contract through the appropriate ruleset defined procedures. Changes
+      to the contract's text by rule defined mechanisms (including those delegated
+      to the contract itself) do not change the identity of the contract.
 
-      The Superintendent's weekly report includes:
+      If any change to a contract's text, internal state, or other properties would
+      cause them to become indeterminate and remain so for any non-infinitesimal
+      amount of time, the change is canceled and does not occur.
 
-      - the Director and acronym of all Agencies,
-      - the full properties of all Agencies created since the
-        Superintendent's previous report.
-      - the amended properties of all Agencies whose properties were
-        amended since the Superintendent's previous report.
+      The following changes are secured at power 2.1: creating or modifying a
+      contract or causing an entity to become a contract. [Note that,
+      as a precaution, causing an entity to cease being a contract is not secured.]
 
-      The Superintendent's monthly report includes the Director and
-      properties of all Agencies.
+      The properties of contracts, as defined by other rules, include the
+      following:
+
+        - Parties, persons who agree to be bound by and assume powers under
+          the contract.
+        - The ability to be amended or destroyed.
+        - The ability to compel actions by their parties.
+        - The ability to allow persons to take actions on the part of their parties.
+        - The ability to define arbitrary classes of asset.
+        - The ability to possess and control assets.
 
 History:
-Created by Proposal 7815 (Alexis, aranea), 28 October 2016
-Amended(1) by proposal 7857 "Agency Leadership Consolidation Act"
-  (Grok), 05 June 2017
-Amended(2) via Rule 2430 "Cleanup Time," 24 May 2017
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+
+----------------------------------------------------------------------
+
+Rule 2522/0 (Power=2.5)
+Contract Lifecycle
+
+      A person CAN create a contract by announcement by transferring 1 shiny to
+      Agora, specifying the contract's text. A person SHALL NOT create more than
+      X (where X is the contract limit) contracts per week by this method, and the
+      Notary CAN destroy any excess (i.e. beyond the X permitted) contracts by
+      announcement within 7 days of the contract's formation, but only if the
+      contract(s) were excess at the time of their creation.
+
+      The contract limit is an untracked singleton switch, defaulting to 3, with
+      possible values of any integer between 3 and 7. The contract limit can be
+      set to any valid value in a regulation promulgated by the Notary.
+      The amendment limit is an untracked singleton switch, with possible values
+      of integers greater than or equal to 5, or positive infinity (default).
+      The amendment limit can be set in a regulation promulgated by the Notary.
+
+      The person or persons who create a contract CAN and SHOULD also specify a
+      name for the contract; if e does not do so, the Notary CAN and
+      SHALL assign a name in a timely fashion.
+
+      A contract CAN amend, destroy, or retitle itself by announcement. A player
+      CAN amend, destroy, or retitle a contract without objection, even if its
+      text denies em the ability to do so. Players SHOULD only use this mechanism
+      to recover from situations where the contract is underspecified or has
+      unintended effects.
+
+      The Notary CAN by regulation stop the same contract from
+      amending or retitling itself more than Y times (where Y is the amendment limit
+      limit) combined times per Agoran day; e CANNOT stop a contract from being
+      destroyed, or from being retitled or amended by any other means.
+
+      If a contract has fulfilled its purpose, does not specify any gamestate
+      affecting statements, or otherwise seems unlikely to be used, the Notary
+      CAN and SHOULD destroy it with Agoran Consent. Any player CAN destroy a
+      contract with 2 Agoran Consent. Players SHOULD NOT use the methods in this
+      paragraph to further their private interests.
+
+      If the possibility of any action defined by this rule is indeterminate, or
+      is subject to a inextricable conditional, it is impossible.
+
+History:
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+
+----------------------------------------------------------------------
+
+Rule 2523/0 (Power=2.4)
+Contracts as Agreements
+
+      The text of a contract can specify obligations upon its parties. Parties to
+      a contract SHALL abide by its terms, breaching them neither negligently nor
+      deliberately. The fact that the action described by the contract is in
+      violation of the rules is not a defense if the violative nature is
+      reasonably clear from its text. If whether an action is permitted or forbidden
+      by a contract is indeterminate or subject to an inextricable conditional,
+      it is presumptively permitted.
+
+      As an exception to the provisions of the previous paragraph and the
+      circumstances in which cards would ordinarily be appropriate, a person
+      awarding a card under this rule MAY and CAN validly consider the equitable
+      interests of justice and interests of the game, including the importance of
+      the observation of contracts, as a mitigating or aggravating circumstances
+      when awarding a card. Such a person MAY, CAN validly, and SHOULD also consider
+      the instructions of the contract or contracts in question when issuing a card.
+
+History:
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+
+----------------------------------------------------------------------
+
+Rule 2521/0 (Power=2.5)
+Parties to Contracts
+
+      Each contract has an associated set of persons, known as the parties. The
+      person who creates a contract is automatically a party. Other persons CAN
+      become parties to a contract by announcement if the contract's text permits
+      them to do so. Parties can leave a contract by announcement, ceasing being
+      parties, if the contract's text permits them to do so. A contract CAN expel a
+      party or group of parties by announcement, causing them to cease being
+      parties.
+
+      It is IMPOSSIBLE, by any means, for a person to become a party to a contract,
+      for an contract to be created with a person as a party, or for an entity to
+      become a contract with a person as a party, without that person's consent.
+      This rule takes precedence over any rule that might make such a change
+      possible.
+
+History:
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+
+----------------------------------------------------------------------
+
+Rule 2527/0 (Power=2.4)
+Sustenance Payments
+
+      The Notary CAN, once a month, cause each contract that owns at least
+      one shiny to transfer one shiny to Agora. E SHALL do so in the first week
+      of every month. If a contract does not own at least one shiny, and is
+      thus unable to make said payment, the Notary CAN and SHALL destroy
+      it With Notice. If a contract becomes and remains able to pay before its
+      destruction, the Notary CANNOT destroy it, and CAN and SHALL instead
+      collect the shiny.
+
+      The Notary CAN, by regulation, exempt a contract from the preceding paragraph.
+      E SHALL NOT do so unless the contract seems to be in the public interest of
+      Agora.
+
+History:
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+
+----------------------------------------------------------------------
+
+Rule 2528/0 (Power=1)
+The Notary
+
+      The Notary is an office, and the recordkeepor of contracts. The Notary's
+      weekly report contains all contracts, including their name, text, and
+      parties. The Notary's weekly report also contains the list of private classes
+      of asset. The Notary is ENCOURAGED to list all changes to the information e
+      tracks in eir report.
+
+History:
+Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan,
+  天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22 October 2017
 
 ----------------------------------------------------------------------
 
@@ -3957,23 +4542,26 @@ Amended(19) via Rule 2430 "Cleanup Time," 24 May 2017
 
 ----------------------------------------------------------------------
 
-Rule 2464/1 (Power=1)
+Rule 2464/2 (Power=1)
 Tournaments
 
-      A Tournament is a sub-game of Agora specifically sanctioned
-      to be initiated as a tournament by the Rules.  If a winner of a
+      A Tournament is a sub-game of Agora specifically sanctioned to
+      be initiated as a tournament by the Rules. If a winner of a
       tournament is determined within 4 weeks of its initiation, that
       person or persons win the game, otherwise the tournament
-      concludes with no winner. A Tournament is governed by a special temporary
-      title of the ACORN, created in accordance with its parent rule,
-      which have binding control over those who freely agree to play the tournament
-      and over the tournament itself. Once the tournament is concluded, these
-      regulations cease to have any effect, and may be repealed by any player by
+      concludes with no winner. A Tournament is governed by a special
+      temporary title of the ACORN, created in accordance with its
+      parent rule, which have binding control over those who freely
+      agree to play the tournament and over the tournament itself.
+      Once the tournament is concluded, these regulations cease to
+      have any effect, and CAN be repealed by any player by
       announcement.
 
 History:
 Created by Proposal 7809 (G.), 11 September 2016
 Amended(1) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+Amended(2) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
 
 ----------------------------------------------------------------------
 
@@ -4013,230 +4601,23 @@ Amended(13) by Proposal 7647 (omd), 3 June 2014
 ----------------------------------------------------------------------
 
 ======================================================================
-Organizations
-----------------------------------------------------------------------
-
-Rule 2459/3 (Power=1.2)
-Organizations
-
-      An Organization is a type of entity. The following changes are
-      secured: creating, modifying, or destroying an Organization; and
-      causing an entity to become an Organization or cease to be an
-      Organization.
-
-      The Income Cap is 100.
-
-      Budget is a switch belonging to (Organization, player) pairs
-      (i.e. there is one instance of the switch for each combination
-      of an Organization and a player), tracked by the Secretary,
-      whose legal values are integers from 0 to the Income Cap
-      inclusive, defaulting to 0. An Organization's Income is the
-      total value of all Budget switches for pairs that include that
-      Organization. A player's Expenditure is the total value of all
-      Budget switches for pairs that include that player. Changes to
-      Budget are secured.
-
-      A "member" of an Organization is a player for which the pair
-      consisting of that Organization and that player has a nonzero
-      Budget.
-
-      It is IMPOSSIBLE, by any means, for a player to become a member
-      of an Organization, or for an organization to be created with a
-      player as a member, without that player's explicit, willful
-      consent. This rule takes precedence over any rule that might
-      make such a change possible.
-
-      A member of an Organization CAN perform any action the rules authorize that
-      Organization to perform, if the Organization's charter states that doing so
-      is Appropriate.
-
-History:
-Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
-Amended(1) by Proposal 7795 (Murphy), 12 Februray 2016
-Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
-Amended(3) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
-  Scholasticus), 27 June 2017
-
-----------------------------------------------------------------------
-
-Rule 2461/2 (Power=1.2)
-Death and Birth of Organizations
-
-      The Income Floor is 50.
-
-      If an Organization's Income is ever lower than the Income Floor,
-      then any player CAN destroy it by announcement, and the Secretary
-      SHALL do so in a timely fashion if the situation persists.
-
-      If a player's Expenditure is at most the Income Cap minus the
-      Income Floor, and e is not on Lockout, then e CAN create an
-      Organization by announcement, specifying a name for that
-      Organization that is unique among Organizations, and a Charter.
-      When an organization is created this way, its Charter is set to
-      the value that e specified, and the Budget switch for that
-      player and Organization is set to the Income Floor.
-
-      Notwithstanding the above, a player CANNOT create more than one
-      Organization in a day, and CANNOT create Organizations while e
-      is a member of an Organization with an Income lower than the
-      Income Floor.
-
-History:
-Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
-Amended(1) by Proposal 7794 (Murphy), 12 Februray 2016
-Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
-
-----------------------------------------------------------------------
-
-Rule 2460/1 (Power=1.2)
-Organizational Restructuring
-
-      Charter is an Organization switch, tracked by the Secretary in
-      eir monthly report, whose legal values are texts, and with
-      default value "An amendment to this Organization is Appropriate
-      if intent to perform it was announced between 4 and 14 days ago,
-      and no members of the Organization have publicly objected to it
-      since."
-
-      A change to an instance of a Budget or Charter switch is known
-      as an "amendment" to the Organization to which that instance of
-      the switch applies. Each amendment to an Organization is
-      considered to be either Appropriate or Inappropriate. An
-      Organization's Charter SHOULD contain a method of determining
-      the appropriateness of amendments to that Organization.
-
-      If a Charter does not specify the appropriateness of an
-      amendment to its Organization, or if it attempts to specify the
-      appropriateness of such an amendment but in a way that is
-      unclear, ambiguous, circular, inconsistent, paradoxical, or that
-      depends on information that is impossible or unreasonably
-      difficult to determine, the amendment is Inappropriate;
-      otherwise, it is Appropriate if and only if the Charter
-      specifies that it is.
-
-      Organizations can be amended as follows:
-
-      1. A member of an Organization CAN flip that Organization's
-         Charter by announcement, if doing so is Appropriate, and that
-         member is not on Lockout.
-      2. Any player CAN flip a Budget Switch by announcement, if doing
-         so is Appropriate and the player is not on Lockout, except
-         where other rules prevent this.
-      3. A member of an Organization CAN flip that Organization's
-         Charter without objection, even if doing so is Inappropriate,
-         as long as that member is not on Lockout. Players SHOULD only
-         use this mechanism to recover from situations where the
-         Charter is underspecified or has unintended effects.
-
-History:
-Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
-Amended(1) via Rule 2430 "Cleanup Time," 24 May 2017
-
-----------------------------------------------------------------------
-
-Rule 2456/2 (Power=1)
-The Secretary
-
-      The Secretary is an office. The Secretary's weekly report
-      includes:
-
-      1. A list of which persons are on Personal Lockout.
-      2. The time at which each person on Personal Lockout comes off
-         Lockout.
-      3. Whether Agora is on Global Lockout, and if so, when it ends.
-      4. A list of all Organizations and their Income.
-      5. Each player's Expenditure.
-
-      The Secretary's monthly report includes:
-
-      1. Each Organization's Charter.
-
-History:
-Created by Proposal 7791 (ais523), 28 October 2015
-Amended(1) by Proposal 7793 (ais523, aranea, G.), 28 October 2015
-Amended(2) via Rule 2430 "Cleanup Time," 24 May 2017
-
-----------------------------------------------------------------------
-
-Rule 2457/0 (Power=1.2)
-Lockout
-
-      There is such a thing as a Lockout Event, which can happen
-      either to a person or to Agora as a whole. Lockout Events only
-      happen when a Rule with power 1 or greater explicitly states
-      that they happen.
-
-      A person is on Personal Lockout if a Lockout Event happened to
-      that person within the past 90 days.
-
-      Agora is on Global Lockout if a Lockout Event happened to Agora
-      as a whole within the past 7 days.
-
-      A person is on Lockout if that person is on Personal Lockout,
-      Agora is on Global Lockout, or both. A person is "off Lockout"
-      if that person is not on Lockout.
-
-History:
-Created by Proposal 7791 (ais523), 28 October 2015
-
-----------------------------------------------------------------------
-
-Rule 2458/0 (Power=1.2)
-Invoking Lockout
-
-      A player who is not on Lockout can Invoke Lockout by
-      announcement.
-
-      When a player Invokes Lockout, a Lockout Event happens to that
-      player and a Lockout Event happens to Agora as a whole.
-
-History:
-Created by Proposal 7792 (ais523), 28 October 2015
-
-----------------------------------------------------------------------
-
-Rule 2462/5 (Power=1.7)
-Bankruptcy
-
-      While a player's Expenditure exceeds the Income Cap, then any
-      player CAN cause that player to become Bankrupt by announcement,
-      and the Secretary SHALL do so in a timely fashion if the
-      situation persists.
-
-      When a player becomes Bankrupt:
-
-      1. All Budget switches for pairs including that player are
-         flipped to 0.
-      2. The Secretary CAN, and SHALL in a timely manner, award that
-         player a Yellow Card.
-      3. A Lockout Event happens to that player.
-
-History:
-Created by Proposal 7793 (ais523, aranea, G.), 28 October 2015
-Amended(1) by Proposal 7794 (Murphy), 12 Februray 2016
-Amended(2) by Proposal 7795 (Murphy), 12 Februray 2016
-Amended(3) by Proposal 7831 (Alexis), 5 December 2016
-Amended(4) via Rule 2430 "Cleanup Time," 24 May 2017
-Amended(5) by Proposal 7860 (Quazie), 27 June 2017
-
-----------------------------------------------------------------------
-
-======================================================================
 Estates
 ----------------------------------------------------------------------
 
-Rule 2489/1 (Power=2)
+Rule 2489/2 (Power=2)
 Estates
 
-      An Estate is a type of indestructable liquid asset, which can be owned by
-      players, organizations, and Agora. The following changes are secured:
-      creating, modifying, or destroying an Estate; and causing an
+      An Estate is a type of indestructible liquid asset. The following changes are
+      secured: creating, modifying, or destroying an Estate; and causing an
       entity to become an Estate or cease to be an Estate.
 
 History:
 Created by Proposal 7846 (o, Aris), 8 May 2017
 Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
   Scholasticus), 27 June 2017
+Amended(2) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
@@ -4252,27 +4633,24 @@ Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
 
 ----------------------------------------------------------------------
 
-Rule 2491/3 (Power=2)
+Rule 2491/5 (Power=2)
 Estate Auctions
 
-      During an auction, any player may bid a number of Shinies on eir own
-      behalf by announcement, or on behalf of any Organization for which such a
-      bid is Appropriate by announcement, provided the bid is higher than any
-      previously-placed bid in the same auction.
+      At the start of each month, if Agora owns at least one
+      Estate, the Surveyor CAN and SHALL put one Estate that is owned by
+      Agora up for auction by announcement. Each auction ends
+      seven days after it begins.
 
-      If, at the end of the auction, there is a single highest bid, then that
-      player or Organization wins the auction. The player who placed the winning
-      bid CAN cause Agora to transfer the auctioned Estate to the winner by
-      announcement, by paying Agora the amount of the bid, or by causing the
-      winning Organization to pay Agora the amount of the bid. E SHALL do so in
-      a timely fashion.
+      During an auction, any player or contract may bid a number of Shinies
+      by announcement, provided that the bid is higher than all
+      previously-placed bids in the same auction.
 
-      If, at the end of the auction, there is a single highest bid, then that
-      player or Organization wins the auction. The player who placed the winning
-      bid CAN cause Agora to transfer the auctioned Estate to the winner by
-      announcement, by paying Agora the amount of the bid, or by causing the
-      winning Organization to pay Agora the amount of the bid. E SHALL do so in
-      a timely fashion.
+      If, at the end of the auction, there is a single highest bid,
+      then the player or contract who placed that bid wins the auction.
+      The winner CAN cause Agora to transfer the auctioned Estate to emself
+      by announcement, if e pays Agora the amount of the bid for the explicit
+      and sole purpose of fulfilling this requirement. The person who
+      placed the bid SHALL see to it that this is done in a timely fashion.
 
 History:
 Created by Proposal 7846 (o, Aris), 8 May 2017
@@ -4282,6 +4660,11 @@ Amended(2) by Proposal 7868 "Minor economic fixes" (Murphy), 30 July
   2017
 Amended(3) by Proposal 7872 "Estate Auction Cleanup" (o), 7 September
   2017
+Amended(4) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
+Amended(5) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
@@ -4303,15 +4686,12 @@ Created by Proposal 7846 (o, Aris), 8 May 2017
 Shinies
 ----------------------------------------------------------------------
 
-Rule 2483/3 (Power=2)
+Rule 2483/5 (Power=2)
 Economics
 
-      Shinies (sg. shiny) are an indestructible liquid currency, and the official
-      currency of Agora. They may be owned by Agora, any player, or any
-      organization. The Secretary is the recordkeepor for Shinies.
-
-      The Secretary CAN cause Agora to pay any player or organization by
-      announcement if doing so is specified by a rule.
+      Shinies (singular "shiny", abbreviated "sh.") are an
+      indestructible liquid currency, and the official currency
+      of Agora. The Treasuror is the recordkeepor for shinies.
 
 History:
 Created by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
@@ -4319,10 +4699,14 @@ Amended(1) by Proposal 7841 (o, G.), 1 March 2017
 Amended(2) by Proposal 7842 (nichdel, o), 1 March 2017
 Amended(3) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius
   Scholasticus), 27 June 2017
+Amended(4) by Proposal 7898 "Community Chest" (G.), 26 September 2017
+Amended(5) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2487/1 (Power=2)
+Rule 2487/2 (Power=2)
 Shiny Supply Level
 
       The Supply Level is 1000.
@@ -4332,129 +4716,205 @@ Shiny Supply Level
 
       When the Supply level Changes, a Shiny Releveling event occurs.
 
-      The Secretary may cause a Shiny Releveling event to occur without 3
+      The Treasuror may cause a Shiny Releveling event to occur without 3
       Objections.
 
 History:
 Created by Proposal 7842 (nichdel, o), 1 March 2017
 Amended(1) by proposal 7856 "Shiny Releveling Event" (Quazie), 05 June
   2017
+Amended(2) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2485/1 (Power=1)
-You can't take it with you
-
-      "Heir" is a person switch, tracked by the Registrar, whose value
-      is either empty or the name of a player or Organization. Each
-      person's Heir is empty by default. A player may flip eir Heir by
-      announcement.
-
-      When a player is deregistered, if eir Heir switch is not empty,
-      e automatically pays all of eir Balance to the named player or
-      Organization, and transfers all of eir Estates to the named
-      player or Organization. Otherwise, if eir Heir switch is empty,
-      e may specify another player, an Organization, or Agora, and pay
-      all of eir Balance and transfer all of eir Estates to the
-      specified player or Organization. If the player does not do so
-      within 1 day of deregistration, the Registrar CAN and SHALL
-      cause that player to pay eir Balance to Agora and to transfer
-      all of eir Estates to Agora, by announcement.
-
-History:
-Created by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
-Amended(1) by Proposal 7846 (o, Aris), 9 May 2017
-
-----------------------------------------------------------------------
-
-Rule 2496/0 (Power=1)
+Rule 2496/4 (Power=1)
 Rewards
 
-      A Reward is a specified amount of shinies associated with a Reward
-      Condition. For each time a player meets a Reward Condition, e MAY
-      claim the specified award exactly once within 24 hours of meeting the
-      Reward Condition.
+      A Reward is a specified amount of shinies associated with a
+      Reward Condition. For each time a player meets a Reward
+      Condition, e CAN claim the specified award, by announcement,
+      exactly once within 24 hours of meeting the Reward Condition.
 
       When a player 'claims' a Reward, Agora transfers the specified number
       of shinies to the player.
 
       Below is an exhaustive list of Reward Conditions and eir rewards:
 
-        * The following two only apply to proposals that were pended via
-        spending shinies:
+        * The following two only apply to proposals that were pended
+          via spending shinies:
 
-           - Being the author of an adopted proposal: 1/40th the current
-           Floating Value.
+            * Being the author of an adopted proposal: the current
+              Authorship Reward.
 
-           - Being the pender of an adopted proposal: 1/40th the current
-           Floating Value.
+            * Being the pender of an adopted proposal: the current
+              Pend Reward.
 
-        * Judging a CFJ, that was created via spending shinies, that e was
-          assigned to: 1/20th the current Floating Value.
+        * Judging a CFJ, that was created via spending shinies, that e
+          was assigned to: the current CFJ Reward.
 
-        *Publishing a duty-fulfilling report: 5 shinies. This reward can be
-         claimed a maximum of once per office per week for a weekly report, and
-         once per office per month for a monthly report.
+        * Publishing a duty-fulfilling report: 5 shinies. This reward can only be
+          claimed once per office per week for a weekly report and once per office per
+          month for a monthly report.
 
         * Resolving an Agoran Decision for the first time this week: 5
           shinies.
+
+        * Having a Thesis pass peer-review and be granted a Degree based
+          on its merit: 20 shinies
 
 History:
 Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
   Aris), 30 July 2017
 Amended(1) by Proposal 7871 "Minor fixes (sans typos)" (V.J Rada), 7
   September 2017
+Amended(2) by Proposal 7876 "Float On" (o), 26 September 2017
+Amended(3) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
+Amended(4) by Proposal 7897 "University Funding" (CuddleBeam), 26
+  September 2017
+Amended(5) by Proposal 7911 "Infinite Money Fix" (V.J. Rada), 15
+  October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2498/0 (Power=1)
+Rule 2498/4 (Power=1)
 Economic Wins
 
-      Stamps are an asset, identified by eir creator and tracked by the
-      Secretary.
+      Stamps are an asset. The Treasuror is the recordkeepor of Stamps.
 
-      The Stamp Value is always 1/5th the current Floating Value.
+      Once per month, a player CAN, by announcement, create a stamp
+      by transferring the Stamp Value, in shinies, to Agora.
 
-      Once per month, a player MAY, by announcement, transfer to Agora the
-      Stamp Value, in shinies, to create a Stamp.
+      If Agora owns at least as many Shinies as the current Stamp
+      Value, a player CAN, by announcement, destroy a Stamp e owns to
+      cause Agora to transfer the Stamp Value, in shinies, to emself.
 
-      Players MAY, by announcement, destroy a Stamp and cause Agora to
-      transfer the Stamp Value, in shinies, to em.
-
-      While a player has Stamps made by at least 10 different players e MAY
-      destroy 10 stamps made by 10 different players by announcement to win
-      the game.
+      If a player owns Stamps created by at least 10 different
+      players, e CAN win the game by announcement, by destroying 10
+      stamps e owns, each of which was created by a distinct player.
 
 History:
 Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
   Aris), 30 July 2017
+Amended(1) by Proposal 7876 "Float On" (o), 26 September 2017
+Amended(2) by Proposal 7881 "Stamp CAN Patch" (o, V.J Rada, Aris,
+  ais523), 26 September 2017
+Amended(3) by Proposal 7914 "Stamp Floating Derived Value Patch" (o),
+  15 October 2017
+Amended(4) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2497/0 (Power=1)
+Rule /3 (Power=1)
 Floating Value
 
-      Floating Value is a natural switch. When e publishes eir Weekly Report, the
-      Secretary SHALL flip the Floating Value to Agora's shiny balance.
+      Floating Value is a natural singleton switch, tracked by the Treasuror.
+
+
+      The following Floating Derived Values are defined:
+
+      * Pend Cost: 1/20th of the Floating Value, rounded up.
+      * CFJ Cost: 1/20th of the Floating Value, rounded up.
+      * Authorship Reward: 1/40th of the Floating Value, rounded up.
+      * Pend Reward: 1/40th of the Floating Value, rounded up.
+      * CFJ Reward: 1/20th of the Floating Value, rounded up.
+      * Stamp Value: 1/5th of the Floating Value, rounded up.
 
 History:
 Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
   Aris), 30 July 2017
+Amended(1) by Proposal 7876 "Float On" (o), 26 September 2017
+Amended(2) by Proposal 7890 "Improved Buoyancy v2" (Aris, G.), 26
+  September 2017
+Amended(3) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523,
+  Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.), 22
+  October 2017
 
 ----------------------------------------------------------------------
 
-Rule 2499/0 (Power=1)
+Rule 2499/1 (Power=1)
 Welcome Packages
 
-      If a player has not received a Welcome Package since e most recently
-      registered, any player MAY cause em to receive one by announcement.
+      If a player has not received a Welcome Package since e most
+      recently registered, any player CAN cause em to receive one by
+      announcement.
 
-      When a player receives a Welcome Package, Agora transfers 50 shinies
-      to em.
+      When a player receives a Welcome Package, Agora transfers 50
+      shinies to em.
 
 History:
 Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
   Aris), 30 July 2017
+Amended by Proposal 7882 "Welcome Package CAN Patch" (o, K, ais523),
+  26 Spetember 2017
+
+----------------------------------------------------------------------
+
+Rule 2508/0 (Power=2)
+Community Chest
+
+      The Community Chest is an Agoran Institution.  If a player
+      has not done so in the current quarter, e CAN, by announcement,
+      transfer all the Shinies owned by the Community Chest to
+      any specified player.
+
+      If a player uses shinies to pend a Proposal or initiate a CFJ,
+      e MAY additionally specify, as part of the specification of
+      the transaction, that the funds be used for Charity (syn:
+      "Donated").  If e does so, then an instant after the
+      transaction is completed, half the value of the transaction in
+      shinies (rounded up) is transferred from Agora to the Community
+      Chest.
+
+History:
+Created by Proposal 7898 "Community Chest" (G.), 26 September 2017
+
+----------------------------------------------------------------------
+
+Rule 2516/0 (Power=2)
+Passive Income
+
+
+      The Tax Rate is a singleton natural switch which can take values between 0
+      and 100, inclusive, tracked by the Secretary. The Tax Rate has a default
+      value of 50.
+
+      Whenever Agora receives Shinies from another owner other than itself, the
+      Secretary CAN cause Agora to distribute a percentage of that payment equal
+      to the Tax Rate to all players, and SHALL do so in a timely fashion. As
+      part of eir weekly duties, the Secretary SHALL do so for all payments to
+      Agora that have not yet been distributed.
+
+History:
+Created by Proposal 7921 "Passive Income" (o, G.), 15 October 2017
+
+----------------------------------------------------------------------
+
+Rule 2456/4 (Power=1)
+The Treasuror
+
+      The Treasuror is an office, and the recordkeepor of Shinies.
+
+      The Treasuror's weekly report also includes:
+
+      1. the current Floating Value, and all derived values
+         defined by the Rules.
+      2. the list of all public classes of assets.
+
+History:
+Created by Proposal 7791 (ais523), 28 October 2015
+Amended(1) by Proposal 7793 (ais523, aranea, G.), 28 October 2015
+Amended(2) via Rule 2430 "Cleanup Time," 24 May 2017
+Amended(3) by Proposal 7876 "Float On" (o), 26 September 2017
+Amended(4) by Proposal 7890 "Improved Buoyancy v2" (Aris, G.), 26
+  September 2017
+Renamed and Amended(5) by Proposal 7924 "Contracts v8" (Aris, o, G.,
+  ais523, Gaelan, 天火狐, CuddleBeam, V.J Rada, Trigon, Alexis, P.S.S.),
+  22 October 2017
 
 ----------------------------------------------------------------------
 
@@ -4462,7 +4922,7 @@ Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
 Festivals
 ----------------------------------------------------------------------
 
-Rule 2480/0 (Power=2.1)
+Rule 2480/1 (Power=2.1)
 Festivals
 
       Festivity is a singleton switch, whose possible values are integers
@@ -4472,15 +4932,15 @@ Festivals
       is tracked in the Tailor's weekly report. Changes to Festivity are
       secured.
 
-      If Agora's Festivity has had the same nonzero value for 14 days or
-      more, any player may flip it to 0 by announcement.
+      If Agora's Festivity has had the same nonzero value for 14 days
+      or more, any player CAN flip it to 0 by announcement.
 
-      A player who owns at least N types of Ribbon may Start a Rank N
+      A player who owns at least N types of Ribbon CAN Start a Rank N
       Festival, where N is an integer greater than Agora's Festivity,
       with 4 Support from players who own at least N types of Ribbon.
       Upon doing so, Agora's Festivity is flipped to N. Exception: A
-      player may not do so if Agora's Festivity has had a value greater
-      than or equal to N within the past 21 days.
+      player CANNOT do so if Agora's Festivity has had a value
+      greater than or equal to N within the past 21 days.
 
       A person who owns a number of types of Ribbon equal to or greater
       than Agora's Festivity is known as Festive. Other persons are not
@@ -4488,6 +4948,8 @@ Festivals
 
 History:
 Created by Proposal 7833 (ais523), 5 December 2016
+Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o, V.J Rada), 26
+  September 2017
 
 ----------------------------------------------------------------------
 
@@ -4522,14 +4984,24 @@ Amended(1) via Rule 2430 "Cleanup Time," 24 May 2017
 Miscelaneous
 ----------------------------------------------------------------------
 
-Rule 2471/0 (Power=1)
+Rule 2471/1 (Power=1)
 No Faking
 
-      A person SHALL NOT attempt to perform an action which e knows is
-      IMPOSSIBLE so as to deceive others.
+      A person SHALL NOT make a public statement that is a lie. A statment is a lie
+      if its publisher either knew or believed it to be not to be true at the time
+      e published it (or, in the case of an action, not to be effective), and it
+      was made with the intent to mislead. Merely quoting a statement does not
+      constitute making it for the purposes of this rule.  Any disclaimer,
+      conditional clause, or other qualifier attached to a statement constitutes
+      part of the statement for the purposes of this rule; the truth or falsity of
+      the whole is what is significant.
+
+      The previous provisions of this rule notwithstanding, a formal announcement of
+      intent is never a lie.
 
 History:
 Created by Proposal 7822 (Alexis), 7 November 2016
+Amended by Proposal 7892 "Truthfulness v2" (Aris), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -4603,14 +5075,14 @@ Created by Proposal 4329 (Goethe), 9 June 2002
 
 ----------------------------------------------------------------------
 
-Rule 2495/0 (Power=1)
+Rule 2495/1 (Power=1)
 The Birthday Tournament
 
-      In a timely fashion after the start of June 1 of each year,
-      the Herald SHALL propose a set of Regulations governing a
-      Birthday Tournament for that year; the Herald CAN also
-      delegate the responsibility for creating or running the
-      tournament to another player, with that player's consent.
+      In a timely fashion after the start of June 1 of each year, the
+      Herald SHALL propose a set of Regulations governing a Birthday
+      Tournament for that year; the Herald CAN also delegate the
+      responsibility for creating or running the tournament to
+      another player, with that player's consent, by announcement.
 
       The Birthday Tournament's regulations SHOULD be such that all
       persons who choose to participate have a fair chance of winning
@@ -4628,15 +5100,40 @@ The Birthday Tournament
 
 History:
 Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
+Amended(1) by Proposal 7885 (o, V.J Rada, Ørjan), 26 September 2017
+
+----------------------------------------------------------------------
+
+Rule 2514/0 (Power=1)
+Emotions
+
+      Emotion is a player switch, tracked by the registrar, with possible values
+      Joyous, Melancholy, and Indifferent, that defaults to Indifferent.
+
+      At any time, any player CAN by announcement flip eir own Emotion to any
+      value it is currently not. When doing this, e MUST provide a reason as to
+      why e changed eir Emotion as such. It is IMPOSSIBLE to change another
+      player's Emotion. A player's Emotion has the following effects:
+
+      Indifferent: No effect.
+      Melancholy: Any player that is not currently Melancholy MAY pat any Melancholy
+      player on the back. Upon doing this, the Melancholy player is ENCOURAGED to
+      change eir emotion to Joyous.
+      Joyous: Any player that is Joyous is ENCOURAGED to pat Melancholy players on
+      the back. E is also ENCOURAGED to do other kind acts, such as paying shinies
+      to other players or pending other players' proposals.
+
+History:
+Created by Proposal 7913 "Cheer Up v7?" (ATMunn), 15 October 2017
 
 ----------------------------------------------------------------------
 
 
 ======================================================================
 
-Highest Rule ID number ever assigned: Rule 2504
+Highest Rule ID number ever assigned: Rule 2528
 
 Last Ruleset Ratification:
-  Short Logical Ruleset of 2014-04-07
+  Short Logical Ruleset of 2016-09-09
 
 END OF THE FULL LOGICAL RULESET
