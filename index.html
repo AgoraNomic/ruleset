@@ -191,6 +191,8 @@
               
               <li><a href="#Rule2162">Switches</a></li>
               
+              <li><a href="#Rule2509">Numerical Switches</a></li>
+              
               <li><a href="#Rule2125">Regulated Actions</a></li>
               
               <li><a href="#Rule1023">Agoran Time</a></li>
@@ -431,15 +433,17 @@
               
               <li><a href="#Rule2520">Contracts</a></li>
               
+              <li><a href="#Rule2525">Interpreting Contracts</a></li>
+              
               <li><a href="#Rule2522">Contract Lifecycle</a></li>
               
               <li><a href="#Rule2523">Contracts as Agreements</a></li>
               
               <li><a href="#Rule2521">Parties to Contracts</a></li>
               
-              <li><a href="#Rule2527">Sustenance Payments</a></li>
+              <li><a href="#Rule2526">Sustenance Payments</a></li>
               
-              <li><a href="#Rule2528">The Notary</a></li>
+              <li><a href="#Rule2527">The Notary</a></li>
               
             </ul>
           </li>
@@ -470,6 +474,12 @@
               <li><a href="#Rule2491">Estate Auctions</a></li>
               
               <li><a href="#Rule2490">Estate Ballots</a></li>
+              
+              <li><a href="#Rule2504">The Agronomist</a></li>
+              
+              <li><a href="#Rule2502">Agoraculture</a></li>
+              
+              <li><a href="#Rule2503">Comestibles</a></li>
               
             </ul>
           </li>
@@ -525,6 +535,8 @@
               <li><a href="#Rule2495">The Birthday Tournament</a></li>
               
               <li><a href="#Rule2514">Emotions</a></li>
+              
+              <li><a href="#Rule1650">Silliness</a></li>
               
             </ul>
           </li>
@@ -1041,6 +1053,34 @@ to flip a <a href="#Rule2162">switch</a> instance to a value it already has, the
 attempting to do so using the required mechanism, or announcing
 that the <a href="#Rule2162">switch</a> already has the required value, fulfills the
 requirement without flipping the switch.</p>
+
+            
+          </div>
+          
+          <div id="Rule2509" class="rule">
+            <h4>Numerical Switches <span class="label label-default">2509</span>  <span class="label label-default">2</span></h4>
+            
+            <p>If a <a href="#Rule2162">switch</a> is defined as being associated with a specified set
+of numbers (a numerical switch), then the possible values for
+that <a href="#Rule2162">switch</a> are the numbers in that set.  In particular, a
+&quot;natural&quot; <a href="#Rule2162">switch</a> is a <a href="#Rule2162">switch</a> with possible values of the
+non-negative integers.  If a limit is further defined, the
+possible values are the numbers of the set within the specified
+limits.</p>
+
+<p>If 0 is in the specified values for a numerical <a href="#Rule2162">switch</a> and no
+default value is otherwise specified, 0 is the default value
+for that switch.</p>
+
+<p>If the rules describe mathematical operations to be used in
+flipping an instance of a numerical switch, the operations are
+interpreted as having common-sense mathematical application to
+determine that instance&#39;s resulting value.  For example,
+&quot;increasing a <a href="#Rule2162">switch</a> instance by M&quot; is equivalent to &quot;flipping
+a <a href="#Rule2162">switch</a> instance from its current value N to the value N+M&quot;.
+If the specified mathematical operation would result in a value
+outside that switch&#39;s defined set, the flipping <a href="#Rule2152">CANNOT</a> be
+performed, rules to the contrary notwithstanding.</p>
 
             
           </div>
@@ -1625,6 +1665,13 @@ the <a href="#Rule2350">proposal</a> from the <a href="#Rule2350">Proposal</a> P
 <p>The <a href="#Rule1607">Promotor</a> <a href="#Rule2152">CAN</a> distribute a <a href="#Rule2350">proposal</a> which is in the Proposal
 Pool at any time, by announcement. The <a href="#Rule1607">Promotor</a> <a href="#Rule2152">SHALL</a> NOT
 distribute proposals which are not pending.</p>
+
+<p>In a given Agoran week, the <a href="#Rule1607">Promotor</a> SHALL, as part of eir weekly
+duties, distribute all <a href="#Rule2445">pending</a> proposals except for those exempted
+from automatic distribution by other rules.</p>
+
+<p>Distributed proposals have ID numbers, to be assigned by the
+Promotor.</p>
 
 <p>If there is a <a href="#Rule2350">Proposal</a> in the Pool that it would otherwise be
 IMPOSSIBLE for any <a href="#Rule869">player</a> to distribute, then any <a href="#Rule869">player</a> CAN
@@ -3442,8 +3489,7 @@ cause them to become indeterminate and remain so for any non-infinitesimal
 amount of time, the change is canceled and does not occur.</p>
 
 <p>The following changes are secured at <a href="#Rule1688">power</a> 2.1: creating or modifying a
-contract or causing an entity to become a contract. [Note that,
-as a precaution, causing an entity to cease being a contract is not secured.]</p>
+contract or causing an entity to become a contract. </p>
 
 <p>The properties of contracts, as defined by other rules, include the
 following:</p>
@@ -3457,6 +3503,57 @@ the contract.</li>
 <li>The ability to define arbitrary classes of asset.</li>
 <li>The ability to possess and control assets.</li>
 </ul>
+
+            
+          </div>
+          
+          <div id="Rule2525" class="rule">
+            <h4>Interpreting Contracts <span class="label label-default">2525</span>  <span class="label label-default">2.6</span></h4>
+            
+            <p>A contract should generally be interpreted according to its text, including
+any clauses giving directions for its interpretation or construction.
+Additionally, justice, the intent of the contract&#39;s parties, and the principles
+governing <a href="#Rule2141">rule</a> interpretation should be reasonably applied when interpreting
+a contract.</p>
+
+<p>A contract is subservient to the rules. Although a contract may specify
+obligations or powers beyond those created by the rules, a contract may not
+override the rules: in particular, any provision of a contract that would
+unreasonably violate an inalienable right of players and/or persons or
+cause any <a href="#Rule2141">rule</a> defined statement about the gamestate, or about the possibility
+of an action, to become false is void and without effect insofar as it does
+so.</p>
+
+<p>The following are protected actions:</p>
+
+<ol>
+<li>Registering and deregistering;</li>
+<li>Submitting, pending, or voting freely on a proposal, but only if the sole
+effect the <a href="#Rule2350">proposal</a> would have if adopted is to create, modify, or destroy
+a contract or group of contracts, or to cause an entity or group of
+entities to become or cease to be a contract or group of contracts;</li>
+<li>Creating, destroying, or amending a contract, intending to do so, and
+supporting, objecting to, or resolving such an intent, except where the
+mechanism for destruction or amendment is created by the contract
+itself;</li>
+<li>Making true statements about a contract;</li>
+<li>Calling, judging, assigning, or freely discussing a CFJ;</li>
+<li>Lawfully performing an official duty;</li>
+<li>Objecting to or supporting an intent to perform an action while
+Speaker;</li>
+<li>Using an executive order;</li>
+<li>Making, amending, revoking or calling in a pledge; and</li>
+<li>Any action affecting the status of a festival.</li>
+</ol>
+
+<p>Rules to the contrary notwithstanding, a contract <a href="#Rule2152">CANNOT</a> compel, forbid,
+or in any significant way alter, tamper with, or modify the performance of
+a protected action. A contract <a href="#Rule2152">CANNOT</a> punish a <a href="#Rule869">player</a> for performing or
+failing protected action, or for doing so in a particular manner, except
+where it would otherwise be ILLEGAL. A contract also <a href="#Rule2152">CANNOT</a> enable a <a href="#Rule869">person</a> to
+do any of the things prohibited to the contract by this paragraph. Insofar as
+a contract or a provision or clause of a contract contravenes the letter or
+clear intent of this rule, it is void and without effect.</p>
 
             
           </div>
@@ -3547,8 +3644,8 @@ possible.</p>
             
           </div>
           
-          <div id="Rule2527" class="rule">
-            <h4>Sustenance Payments <span class="label label-default">2527</span>  <span class="label label-default">2.4</span></h4>
+          <div id="Rule2526" class="rule">
+            <h4>Sustenance Payments <span class="label label-default">2526</span>  <span class="label label-default">2.4</span></h4>
             
             <p>The Notary CAN, once a month, cause each contract that owns at least
 one <a href="#Rule2483">shiny</a> to transfer one <a href="#Rule2483">shiny</a> to Agora. E <a href="#Rule2152">SHALL</a> do so in the first week
@@ -3565,8 +3662,8 @@ Agora.</p>
             
           </div>
           
-          <div id="Rule2528" class="rule">
-            <h4>The Notary <span class="label label-default">2528</span>  <span class="label label-default">1</span></h4>
+          <div id="Rule2527" class="rule">
+            <h4>The Notary <span class="label label-default">2527</span>  <span class="label label-default">1</span></h4>
             
             <p>The Notary is an office, and the recordkeepor of contracts. The Notary&#39;s
 weekly <a href="#Rule2143">report</a> contains all contracts, including their name, text, and
@@ -3734,6 +3831,87 @@ Estates can, by announcement, expend any number of their owned
 Estates on the Agoran <a href="#Rule693">Decision</a> by transferring that <a href="#Rule2489">Estate</a> to
 Agora. Eir <a href="#Rule2422">voting strength</a> on that <a href="#Rule693">decision</a> is increased by 1
 for each <a href="#Rule2489">Estate</a> expended on it.</p>
+
+            
+          </div>
+          
+          <div id="Rule2504" class="rule">
+            <h4>The Agronomist <span class="label label-default">2504</span>  <span class="label label-default">2.0</span></h4>
+            
+            <p>The Agronomist is an office.</p>
+
+<p>The Agronomist&#39;s weekly <a href="#Rule2143">report</a> includes:</p>
+
+<ul>
+<li><p>A list of Farms and their owners.</p></li>
+<li><p>A list of Comestibles offers that have not been accepted and have
+not expired.</p></li>
+</ul>
+
+            
+          </div>
+          
+          <div id="Rule2502" class="rule">
+            <h4>Agoraculture <span class="label label-default">2502</span>  <span class="label label-default">2.0</span></h4>
+            
+            <p>Each <a href="#Rule2489">Estate</a> has a Farm switch, tracked by the Agronomist, with values
+&quot;farmed&quot; and &quot;unfarmed&quot;, defaulting to &quot;unfarmed&quot;. Changes to Farm
+switches are secured. An <a href="#Rule2489">Estate</a> whose Farm <a href="#Rule2162">switch</a> is &quot;farmed&quot; is a Farm,
+and its owner is the Farmer of that Estate.</p>
+
+<p>In the first <a href="#Rule1023">week</a> of an Agoran month, the owner of an unfarmed <a href="#Rule2489">Estate</a> CAN
+flip its Farm <a href="#Rule2162">switch</a> to “farmed&quot; by paying Agora a number of <a href="#Rule2483">shinies</a> equal
+to the Farm Rate, by announcement.</p>
+
+<p>In the first <a href="#Rule1023">week</a> of an Agoran month, the owner of a Farm <a href="#Rule2152">CAN</a> till the farm
+by paying Agora a number of <a href="#Rule2483">shinies</a> equal to the Farm Rate, by announcement. If
+the Farmer of an <a href="#Rule2489">Estate</a> does not till it within the first <a href="#Rule1023">week</a> of an Agoran
+month, the Agronomist <a href="#Rule2152">CAN</a> flip its Farm <a href="#Rule2162">switch</a> to &quot;unfarmed” by announcement,
+and <a href="#Rule2152">SHALL</a> do so in a <a href="#Rule1023">timely</a> fashion.</p>
+
+<p>When an <a href="#Rule2489">Estate</a> is transferred to Agora or to an Organization, its Farm
+switch is set to &quot;unfarmed&quot; immediately afterwards</p>
+
+            
+          </div>
+          
+          <div id="Rule2503" class="rule">
+            <h4>Comestibles <span class="label label-default">2503</span>  <span class="label label-default">2.0</span></h4>
+            
+            <p>A Comestible is a type of liquid asset, which can be owned by
+players. Creating Comestibles is secured. The recordkeepor of
+Comestibles is the Agronomist.</p>
+
+<p>The Farmer of an <a href="#Rule2489">Estate</a> <a href="#Rule2152">CAN</a> offer Comestibles by announcement,
+naming a number of Comestibles offered and a price per Comestible
+in Shinies. A <a href="#Rule869">player</a> <a href="#Rule2152">CANNOT</a> offer more Comestibles in a <a href="#Rule1023">month</a> than
+10 times the number of Farms e owns. The Farmer is <a href="#Rule2152">ENCOURAGED</a> to
+name the kind of Comestibles on offer after a plant, vegetable,
+grain, livestock, or other farm good.</p>
+
+<p>A <a href="#Rule869">player</a> other than the offering Farmer <a href="#Rule2152">CAN</a> accept a Comestibles
+offer <a href="#Rule478">by announcement</a> to create that number of Comestibles in eir
+possession, by paying the offering Farmer the price per Comestible
+named in the offer times the number of Comestbiles offered. The
+Value of a Comestible created this way is equal to the price per
+Comestible offered by the Farmer.</p>
+
+<p>An offer expires at the end of the Agoran <a href="#Rule1023">month</a> in which it is
+made. Rules to the contrary notwithstanding, an offer <a href="#Rule2152">CANNOT</a> be
+accepted if it has expired.</p>
+
+<p>During an Agoran Decision, a <a href="#Rule869">player</a> <a href="#Rule2152">CAN</a> increase their voting
+strength on that <a href="#Rule693">decision</a> by destroying (syn. &quot;eating&quot;,
+&quot;consuming&quot;) Comestibles. Eir <a href="#Rule2422">voting strength</a> is increased by
+one-tenth the total Value of the Comestibles destroyed this way,
+rounded down, to a maximum of 5.</p>
+
+<p>A Comestible is an Expired Comestible if it was created by
+accepting an offer announced more than three Agoran <a href="#Rule1023">months</a> ago. An
+Expired Comestible <a href="#Rule2152">CANNOT</a> be consumed to increase voting strength,
+and <a href="#Rule2152">CAN</a> be destroyed by any player, by announcement. The Agronomist
+SHALL destroy all Expired Comestibles at the start of each Agoran
+month.</p>
 
             
           </div>
@@ -4108,6 +4286,30 @@ change eir emotion to Joyous.
 Joyous: Any <a href="#Rule869">player</a> that is Joyous is <a href="#Rule2152">ENCOURAGED</a> to pat Melancholy players on
 the back. E is also <a href="#Rule2152">ENCOURAGED</a> to do other kind acts, such as paying shinies
 to other players or <a href="#Rule2445">pending</a> other players&#39; proposals.</p>
+
+            
+          </div>
+          
+          <div id="Rule1650" class="rule">
+            <h4>Silliness <span class="label label-default">1650</span>  <span class="label label-default">2</span></h4>
+            
+            <p>Each Nomic <a href="#Rule1023">Week</a> a <a href="#Rule869">Player</a> is designated the Silly Person.  The Silly Person
+SHALL in that week, <a href="#Rule478">by announcement</a> (1) designate another player, who has not
+been the Silly <a href="#Rule869">Person</a> in the past two weeks, to be the next week&#39;s Silly
+Person; (2) submit a Silly Proposal.  If there is ever no Silly <a href="#Rule869">Person</a> or the
+Silly <a href="#Rule869">Person</a> is not a player, then the next week&#39;s Silly <a href="#Rule869">Person</a> is the first
+player that any <a href="#Rule869">player</a> publicly designates to be the next week&#39;s Silly Person.</p>
+
+<p>A Silly <a href="#Rule2350">Proposal</a> is a <a href="#Rule2350">Proposal</a> whose sole contents are one of
+the following:
+  i) A limerick.
+ ii) A rhymed poem no longer than fourteen lines. (No free
+     verse!)
+iii) A joke of no more than a hundred words.
+ iv) A truly hideous pun.</p>
+
+<p>The first Silly <a href="#Rule2350">Proposal</a> submitted by the week&#39;s Silly <a href="#Rule869">Person</a> is an Official
+Proposal.</p>
 
             
           </div>
