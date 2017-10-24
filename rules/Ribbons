@@ -8,6 +8,7 @@ history:
 - Amended(3) by Proposal 7748 (ais523), 30 June 2015
 - Amended(4) by Proposal 7760 (G.), 19 July 2015
 - Amended(5) by Proposal 7834 (ais523), 5 December 2016
+- Amended(6) by Proposal 7922 (Alexis), 23 October 2017
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -36,8 +37,8 @@ text: |
   with Power >= 3, its proposer earns a Red Ribbon.
 
   Orange (O): When a proposal is adopted via an Agoran Decision on
-  which no valid votes were AGAINST, its proposer earns an Orange
-  Ribbon.
+  which no valid ballots were AGAINST (after evaluating
+  conditionals), its proposer earns an Orange Ribbon.
 
   Green (G): While a person has held an elected office continuously
   for 30 days, and has not failed to perform any duties of that
@@ -88,6 +89,6 @@ text: |
   the number of other types of Ribbon that that person qualifies for
   and/or has earned within the previous 7 days is at least 5.
 id: 2438
-rev: 5
+rev: 6
 power: 3
 annotations: []

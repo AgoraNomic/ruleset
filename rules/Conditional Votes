@@ -12,26 +12,35 @@ history:
 - Power changed from 1 to 3 by Proposal 7447 (omd), 10 June 2013
 - Amended(8) by Proposal 7447 (omd), 10 June 2013
 - Amended(9) by Proposal 7778 (Alexis), 14 August 2014
+- Amended(10) by Proposal 7922 (Alexis), 23 October 2017
 text: |
-  If a vote on an Agoran decision is submitted conditionally (e.g.
-  "FOR if <X> is true, otherwise AGAINST"), then the selected option
-  is evaluated based on the value of the condition(s) at the end of
-  the voting period, and, rules to the contrary notwithstanding, is
-  clearly specified if and only if the value of the condition(s)
-  is/are determinate at the end of the voting period. If the option
-  cannot be clearly identified, a vote of PRESENT is cast.
+  A conditional vote on an Agoran decision is a vote which indicates
+  a vote based on some condition(s). A conditional vote is evaluated
+  at the end of the voting period and, rules to the contrary
+  notwithstanding, is clearly specified if and only if the value of
+  the condition(s) is/are determinate at the end of the voting
+  period. If the conditional is clearly specified, and evaluates to
+  a valid vote, it is counted as that vote; otherwise, it is counted
+  as PRESENT.
 
-  Casting a vote endorsing another voter is equivalent to
-  conditionally casting a vote whose value is the same as the most
-  common value (if any) among that voter's valid votes on that
-  decision.
+  Any vote which is clearly expressed as a conditional, e.g. "FOR if
+  <X> is true, AGAINST otherwise", is a valid conditional vote that
+  evaluates as specified.
 
-  Casting a vote denouncing another voter is equivalent to
-  conditionally casting a vote whose value is opposite to the most
-  common value (if any) among that voter's valid votes on that
-  decision. FOR and AGAINST are opposites.
+  A vote endorsing another person is equivalent to a conditional
+  vote evaluating to the vote specified in that person's valid
+  ballot on the decision, if any.
+
+  For an instant runoff decision, a vote consisting of a list, one
+  or more entries of which are valid conditional votes, and the
+  remaining entries of which are valid options, is a valid
+  conditional vote. Such a vote is evaluated by evaluating each
+  conditional entry to a list of votes (or an empty list, if it
+  evaluates to PRESENT either directly or indirectly), and then
+  concatenating those lists with the specified valid options in the
+  order they occurred in the original vote.
 id: 2127
-rev: 9
+rev: 10
 power: 3
 annotations:
 - cfjs:

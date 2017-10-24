@@ -1,0 +1,31 @@
+---
+name: Voting Methods
+history:
+- Created by Proposal 7922 "Clarity Act" (Alexis), 23 October 2017
+text: |
+  Each Agoran decision has a voting method, which must be
+  AI-majority, instant runoff, or first-past-the-post. The voting
+  method is that specified by the authorizing authority, or
+  first-past-the-post by default.
+
+  Each Agoran decision has a set of valid options (the choices that
+  the voters are being asked to select from) and valid votes (the
+  ways in which the voters can express their opinion or lack
+  thereof. For AI-majority decisions, the valid options are FOR and
+  AGAINST; for other decisions, the valid options are defined by
+  other rules.
+
+  The valid votes on an Agoran decision are:
+
+  1. PRESENT;
+
+  2. The valid conditional votes, as defined by rules of power at
+     least that of this rule; and
+
+  3. For an instant runoff decision, the ordered lists of entities.
+
+  4. For any other decision, the valid options.
+id: 2528
+rev: 0
+power: 3
+annotations: []
