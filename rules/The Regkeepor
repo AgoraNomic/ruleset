@@ -4,29 +4,32 @@ history:
 - Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
 text: |
   The Regkeepor is an office, responsible for the maintenance of the
-  Regulations. The Regulations are contained in the Regkeepor's weekly report,
-  know as the Agora Nomic Code of Regulations (ACORN). E MAY publish multiple
-  versions or editions of the ACORN.
+  Regulations. The Regulations are contained in the Regkeepor's
+  weekly report, know as the Agora Nomic Code of Regulations
+  (ACORN). E MAY publish multiple versions or editions of the ACORN.
 
-  The ACORN is divided into titles, assigned by the Regkeepor, which are
-  each given an integer.  Generally, each office with the power to create
-  regulations SHOULD be assigned the next successive natural number. Title 0 of
-  the ACORN is reserved for use by the Regkeepor, and nothing in that title
-  need be a regulation. Non-regulations printed in the ACORN
-  have no binding effect, and SHALL clearly be marked by the Regkeepor.
+  The ACORN is divided into titles, assigned by the Regkeepor, which
+  are each given an integer.  Generally, each office with the power
+  to create regulations SHOULD be assigned the next successive
+  natural number. Title 0 of the ACORN is reserved for use by the
+  Regkeepor, and nothing in that title need be a regulation.
+  Non-regulations printed in the ACORN have no binding effect, and
+  SHALL clearly be marked by the Regkeepor.
 
-  Each regulation SHALL be assigned an ID number by the Regkeepor, consisting
-  of a string of the characters [0-9] and separator characters. The Regkeepor
-  SHOULD establish some way of keeping track of the version of a regulations.
-  The Regkeepor MAY also, at eir discretion, create ways of marking special
-  types of Regulation (even in violation of the previous restrictions of this
-  paragraph), mark sections or titles as reserved for future use, and
-  make such other discussions of arrangement, annotation, and marking as are
-  necessary and proper in the execution of eir duties.
+  Each regulation SHALL be assigned an ID number by the Regkeepor,
+  consisting of a string of the characters [0-9] and separator
+  characters. The Regkeepor SHOULD establish some way of keeping
+  track of the version of a regulations. The Regkeepor MAY also, at
+  eir discretion, create ways of marking special types of Regulation
+  (even in violation of the previous restrictions of this
+  paragraph), mark sections or titles as reserved for future use,
+  and make such other discussions of arrangement, annotation, and
+  marking as are necessary and proper in the execution of eir
+  duties.
 
-  The Regkeepor SHOULD remember that the purpose of the ACORN is to make the
-  regulations easily readable, and e SHALL not act in a manner intended to
-  deceive others in eir official capacity.
+  The Regkeepor SHOULD remember that the purpose of the ACORN is to
+  make the regulations easily readable, and e SHALL not act in a
+  manner intended to deceive others in eir official capacity.
 id: 2494
 rev: 0
 power: 1

@@ -14,13 +14,12 @@ history:
 - Amended(9) by Proposal 7778 (Alexis), 14 August 2014
 text: |
   If a vote on an Agoran decision is submitted conditionally (e.g.
-  "FOR if <X> is true, otherwise AGAINST"), then the selected
-  option is evaluated based on the value of the condition(s) at
-  the end of the voting period, and, rules to the contrary
-  notwithstanding, is clearly specified if and only if the value
-  of the condition(s) is/are determinate at the end of the voting
-  period.  If the option cannot be clearly identified, a vote of
-  PRESENT is cast.
+  "FOR if <X> is true, otherwise AGAINST"), then the selected option
+  is evaluated based on the value of the condition(s) at the end of
+  the voting period, and, rules to the contrary notwithstanding, is
+  clearly specified if and only if the value of the condition(s)
+  is/are determinate at the end of the voting period.  If the option
+  cannot be clearly identified, a vote of PRESENT is cast.
 
   Casting a vote endorsing another voter is equivalent to
   conditionally casting a vote whose value is the same as the most

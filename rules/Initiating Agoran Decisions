@@ -26,9 +26,9 @@ history:
 text: |
   An Agoran decision is initiated when a person authorized to
   initiate it publishes a valid notice which sets forth the intent
-  to initiate the decision.  This notice is invalid if it lacks
-  any of the following information, and the lack is correctly
-  identified within one week after the notice is published:
+  to initiate the decision.  This notice is invalid if it lacks any
+  of the following information, and the lack is correctly identified
+  within one week after the notice is published:
 
   1. The matter to be decided (for example, "the adoption of
      proposal 4781").
@@ -40,13 +40,13 @@ text: |
   4. Any additional information defined by the rules as essential
      parameters.
 
-  The publication of such a valid notice initiates the voting
-  period for the decision.  The voting period lasts for 7 days.
-  The minimum voting period for a decision with at least two
-  options is five days.  The vote collector for a decision with
-  less than two options CAN and SHALL end the voting period by
-  announcement, if it has not ended already, and provided that e
-  resolves the decision in the same message.
+  The publication of such a valid notice initiates the voting period
+  for the decision.  The voting period lasts for 7 days. The minimum
+  voting period for a decision with at least two options is five
+  days.  The vote collector for a decision with less than two
+  options CAN and SHALL end the voting period by announcement, if it
+  has not ended already, and provided that e resolves the decision
+  in the same message.
 
   The voting period for a decision cannot be set or changed to a
   duration longer than fourteen days.

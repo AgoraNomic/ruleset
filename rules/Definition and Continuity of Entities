@@ -14,22 +14,25 @@ history:
 - Repealed by Proposal 7614 (G., omd), 13 January 2014
 - Reenacted(9) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, CuddleBeam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
 text: |
-  If multiple rules attempt to define an entity with the same name, then they
-  refer to the same entity. A rule-defined entity's name CANNOT be changed to
-  be the same as another rule-defined entity's name.
+  If multiple rules attempt to define an entity with the same name,
+  then they refer to the same entity. A rule-defined entity's name
+  CANNOT be changed to be the same as another rule-defined entity's
+  name.
 
-  A rule, contract, or regulation that refers to an entity by name refers to the
-  entity that had that name when the rule first came to include that reference,
-  even if the entity's name has since changed.
+  A rule, contract, or regulation that refers to an entity by name
+  refers to the entity that had that name when the rule first came
+  to include that reference, even if the entity's name has since
+  changed.
 
-  If the entity that defines another entity is amended such that it no longer
-  defines the second entity, then the second entity and its attributes cease to
-  exist.
+  If the entity that defines another entity is amended such that it
+  no longer defines the second entity, then the second entity and
+  its attributes cease to exist.
 
-  If the entity that defines another entity is amended such that it defines
-  the second entity both before and after the amendment, but with different
-  attributes, then the second entity and its attributes continue to exist to
-  whatever extent is possible under the new definitions.
+  If the entity that defines another entity is amended such that it
+  defines the second entity both before and after the amendment, but
+  with different attributes, then the second entity and its
+  attributes continue to exist to whatever extent is possible under
+  the new definitions.
 id: 1586
 rev: 0
 power: 2

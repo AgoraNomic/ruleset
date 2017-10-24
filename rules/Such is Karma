@@ -5,18 +5,21 @@ history:
 - Amended(1) by Proposal 7916 "Pro Pace v2" (Aris, o, G.), 15 October 2017
 text: |
   Karma is a person switch tracked by the Herald in eir Weekly
-  Report.  Karma is an Integer switch.  The Community Chest also
-  has an instance of the Karma switch.
+  Report.  Karma is an Integer switch.  The Community Chest also has
+  an instance of the Karma switch.
 
   A player CAN publish a Notice of Honour.  For a Notice of Honour
   to be valid, it must:
-       1.  Be clear that it is a Notice of Honour, and be the
-           first valid Notice of Honour that player has published
-           in the current week;
-       2.  Specify any other player to gain karma, and provide a
-           reason for specifying that player; and
-       3.  Specify any player to lose karma, and provide a reason
-           for specifying that player.
+
+  1. Be clear that it is a Notice of Honour, and be the first valid
+     Notice of Honour that player has published in the current week;
+
+  2. Specify any other player to gain karma, and provide a reason
+     for specifying that player; and
+
+  3. Specify any player to lose karma, and provide a reason for
+     specifying that player.
+
   When a valid Notice of Honour is published, the player specified
   to gain karma has eir karma increased by one, and the player
   specified to lose karma has eir karma decreased by one. Raising
@@ -24,11 +27,16 @@ text: |
   considered to be a "transfer" of karma.
 
   A player's positions in Court are defined as follows:
-       - Any player with a karma of 7 or greater is a Samurai.
-       - Any player with a karma of -7 or less is an Gamma.
-       - The player with the highest karma (if any) is the Shogun.
-       - The player with the lowest karma (if any) is the
-         Honourless Worm.
+
+  - Any player with a karma of 7 or greater is a Samurai.
+
+  - Any player with a karma of -7 or less is an Gamma.
+
+  - The player with the highest karma (if any) is the Shogun.
+
+  - The player with the lowest karma (if any) is the Honourless
+    Worm.
+
   Each player's positions in Court are part of of the Herald's
   Weekly Report.
 id: 2510

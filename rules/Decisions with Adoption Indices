@@ -39,16 +39,16 @@ history:
 - Amended(32) by Proposal 7832 (Alexis), 5 December 2016
 text: |
   Adoption index is an untracked switch possessed by Agoran
-  decisions and proposals, whose value is either "none" (default)
-  or an integral multiple of 0.1 from 1.0 to 9.9.
+  decisions and proposals, whose value is either "none" (default) or
+  an integral multiple of 0.1 from 1.0 to 9.9.
 
   Adoption index is secured with a power threshold of 2.
 
-  Adoption index is an essential parameter of an Agoran decision
-  if that decision has an adoption index.
+  Adoption index is an essential parameter of an Agoran decision if
+  that decision has an adoption index.
 
-  For any Agoran decision with an adoption index, the voting
-  method is AI-majority.
+  For any Agoran decision with an adoption index, the voting method
+  is AI-majority.
 id: 1950
 rev: 32
 power: 3

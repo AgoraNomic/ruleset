@@ -42,51 +42,57 @@ history:
 - Amended(36) via Rule 2430 "Cleanup Time," 24 May 2017
 - Amended(37) by Proposal 7871 "Minor fixes (sans typos)" (V.J. Rada), 7 September 2017
 text: |
-  A rule which purports to allow a person (the performer) to
-  perform an action by a set of one or more of the following
-  methods (N is 1 unless otherwise specified):
+  A rule which purports to allow a person (the performer) to perform
+  an action by a set of one or more of the following methods (N is 1
+  unless otherwise specified):
 
-   1. Without N Objections, where N is a positive integer no
-      greater than 8.  ("Without Objection" is shorthand for this
-      method with N = 1.)
-   2. With N Supporters, where N is a positive integer.  ("With
-      Support" is shorthand for this method with N = 1.)
-   3. With N Agoran Consent, where N is an integer multiple of 0.1
-      with a minimum of 1.
-   4. With Notice.
-   5. With T Notice, where T is a time period.
+  1. Without N Objections, where N is a positive integer no greater
+     than 8.  ("Without Objection" is shorthand for this method with
+     N = 1.)
 
-  thereby allows em to perform the action by announcement if all
-  of the following are true:
+  2. With N Supporters, where N is a positive integer.  ("With
+     Support" is shorthand for this method with N = 1.)
 
-   1. A person (the initiator) announced intent to perform the action,
-      unambiguously and clearly specifying the action and method(s) (including
-      the value of N and/or T for each method), at most fourteen days earlier.
+  3. With N Agoran Consent, where N is an integer multiple of 0.1
+     with a minimum of 1.
 
-   2. If the action is to be performed Without N Objections, With N Agoran
-      Consent, or With Notice, if the intent was announced at least 4 days
-      earlier
+  4. With Notice.
 
-   3. If the action is to be performed With T Notice, if the intent was
-      announced at least T earlier.
+  5. With T Notice, where T is a time period.
 
-   4. At least one of the following is true:
+  thereby allows em to perform the action by announcement if all of
+  the following are true:
 
-        1. The performer is the initiator.
+  1. A person (the initiator) announced intent to perform the
+     action, unambiguously and clearly specifying the action and
+     method(s) (including the value of N and/or T for each method),
+     at most fourteen days earlier.
 
-        2. The initiator was authorized to perform the action due to holding
-           a rule-defined position now held by the    performer.
+  2. If the action is to be performed Without N Objections, With N
+     Agoran Consent, or With Notice, if the intent was announced at
+     least 4 days earlier
 
-        3. The initiator is authorized to perform the action, the action
-           depends on support, the performer has supported the intent, and the
-           rule authorizing the performance does not explicitly prohibit
-           supporters from performing it.
+  3. If the action is to be performed With T Notice, if the intent
+     was announced at least T earlier.
 
-   5. Agora is Satisfied with the announced intent, as defined by other rules.
+  4. At least one of the following is true:
 
-   6. If a set of conditions for the performance of the action was given in the
-      announcement of intent to perform the action, all those conditions are
-      met.
+     1. The performer is the initiator.
+
+     2. The initiator was authorized to perform the action due to
+        holding a rule-defined position now held by the performer.
+
+     3. The initiator is authorized to perform the action, the
+        action depends on support, the performer has supported the
+        intent, and the rule authorizing the performance does not
+        explicitly prohibit supporters from performing it.
+
+  5. Agora is Satisfied with the announced intent, as defined by
+     other rules.
+
+  6. If a set of conditions for the performance of the action was
+     given in the announcement of intent to perform the action, all
+     those conditions are met.
 
   The actor SHOULD publish a list of supporters if the action
   depends on support, and a list of objectors if it depends on

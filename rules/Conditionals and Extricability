@@ -3,24 +3,27 @@ name: Conditionals and Extricability
 history:
 - Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, CuddleBeam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
 text: |
-  A conditional is any textual structure that attempts to make a statement (the
-  substrate) affecting any part or aspect of the gamestate, or the
-  permissibility, possibility, or effect of any action affecting such a part or
-  aspect, dependent on the truth value or other state of a textual structure
-  (the condition). The condition is said to be "affixed" to the substrate
-  (inverse "to be conditional upon").
+  A conditional is any textual structure that attempts to make a
+  statement (the substrate) affecting any part or aspect of the
+  gamestate, or the permissibility, possibility, or effect of any
+  action affecting such a part or aspect, dependent on the truth
+  value or other state of a textual structure (the condition). The
+  condition is said to be "affixed" to the substrate (inverse "to be
+  conditional upon").
 
   A condition is inextricable if it is unclear, ambiguous, circular,
-  inconsistent, paradoxical, depends on information that is indeterminate, or
-  is impossible or unreasonably difficult to determine, or otherwise requires an
-  unreasonable effort to resolve; otherwise it is extricable. A conditional is
-  inextricable if its condition is inextricable; otherwise it is extricable. A
+  inconsistent, paradoxical, depends on information that is
+  indeterminate, or is impossible or unreasonably difficult to
+  determine, or otherwise requires an unreasonable effort to
+  resolve; otherwise it is extricable. A conditional is inextricable
+  if its condition is inextricable; otherwise it is extricable. A
   player SHOULD NOT use an inextricable conditional for any purpose.
 
-  An action is said to be "subject to" a conditional if its possibility,
-  permissibility, or effect (depending on context) is determined by the
-  conditional. A value is said to be subject to a conditional of the state
-  of the value is determined by the conditional.
+  An action is said to be "subject to" a conditional if its
+  possibility, permissibility, or effect (depending on context) is
+  determined by the conditional. A value is said to be subject to a
+  conditional of the state of the value is determined by the
+  conditional.
 id: 2517
 rev: 0
 power: 3

@@ -3,27 +3,29 @@ name: Campaign Proposals, with power 3
 history:
 - Created by Proposal 7912 "Election Campaigns" (Alexis), 15 October 2017
 text: |
-  During the nomination period of an election, any candidate for that election
-  CAN submit a Campaign Proposal for that election, provided e does not
-  currently have a pending Campaign Proposal for that election, using the normal
-  mechanism for proposal submission. Campaign Proposals SHOULD relate to the
-  duties of the office up for election. Commitment is an untracked Campaign
-  Proposal switch with values Committed (default) and Uncommitted. The author
-  of a Committed proposal may flip it to Uncommitted by announcement.
+  During the nomination period of an election, any candidate for
+  that election CAN submit a Campaign Proposal for that election,
+  provided e does not currently have a pending Campaign Proposal for
+  that election, using the normal mechanism for proposal submission.
+  Campaign Proposals SHOULD relate to the duties of the office up
+  for election. Commitment is an untracked Campaign Proposal switch
+  with values Committed (default) and Uncommitted. The author of a
+  Committed proposal may flip it to Uncommitted by announcement.
 
   A Campaign Proposal is an Official Proposal exempt from automatic
-  distribution, and SHALL NOT be distributed as required by the rules.
-  The election with which a Campaign Proposal is associated, as well as its
-  Commitment, are essential parameters for an Agoran decision to adopt a
-  Campaign Proposal.
+  distribution, and SHALL NOT be distributed as required by the
+  rules. The election with which a Campaign Proposal is associated,
+  as well as its Commitment, are essential parameters for an Agoran
+  decision to adopt a Campaign Proposal.
 
   When a Campaign Proposal is adopted, it CANNOT take effect until
-  the associated election ends. When the election ends, if the winner was the
-  proposal's author, then any player CAN once make it take effect by
-  announcement (with its power set as usual for an adopted proposal). If the
-  conditions for a Campaign Proposal to take effect are met as a result of an
-  action in a public message, the author of the message SHALL make it take
-  effect in that message.
+  the associated election ends. When the election ends, if the
+  winner was the proposal's author, then any player CAN once make it
+  take effect by announcement (with its power set as usual for an
+  adopted proposal). If the conditions for a Campaign Proposal to
+  take effect are met as a result of an action in a public message,
+  the author of the message SHALL make it take effect in that
+  message.
 id: 2513
 rev: 0
 power: 1

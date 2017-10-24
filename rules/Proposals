@@ -13,19 +13,21 @@ history:
 - Amended(9) by Proposal 7736 (aranea), 2 May 2015
 text: |
   A proposal is a type of entity consisting of a body of text and
-  other attributes.  A player CAN create a proposal by
-  announcement, specifying its text and optionally specifying any
-  of the following attributes:
+  other attributes.  A player CAN create a proposal by announcement,
+  specifying its text and optionally specifying any of the following
+  attributes:
 
   * An associated title.
+
   * A list of co-authors (which must be persons other than the
     author).
+
   * An adoption index.
 
-  Creating a proposal adds it to the Proposal Pool.  Once a
-  proposal is created, nether its text nor any of the
-  aforementioned attributes can be changed.  The author (syn.
-  proposer) of a proposal is the person who submitted it.
+  Creating a proposal adds it to the Proposal Pool.  Once a proposal
+  is created, nether its text nor any of the aforementioned
+  attributes can be changed.  The author (syn. proposer) of a
+  proposal is the person who submitted it.
 
   If a decision of whether to adopt a proposal was resolved as
   FAILED QUORUM in the last seven days, the Promotor CAN once add

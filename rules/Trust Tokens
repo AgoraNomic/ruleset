@@ -10,15 +10,15 @@ text: |
   announcement.
 
   When the Assessor resolves a Decision to adopt a proposal, then
-  any player who cast a valid vote on the Decision and was
-  endorsed by another player's valid vote on the Decision is
-  issued a Trust Token by the endorsing player.
+  any player who cast a valid vote on the Decision and was endorsed
+  by another player's valid vote on the Decision is issued a Trust
+  Token by the endorsing player.
 
   A person can win the game by announcement if e has been issued a
-  Trust Token by each player except emself; if no person has won
-  via this mechanism in the past; and if in the same message, e
-  quotes, for each of those players, a public message in which
-  that player issued em a Trust Token.
+  Trust Token by each player except emself; if no person has won via
+  this mechanism in the past; and if in the same message, e quotes,
+  for each of those players, a public message in which that player
+  issued em a Trust Token.
 id: 2452
 rev: 2
 power: 0.5

@@ -3,10 +3,10 @@ name: Determinacy
 history:
 - Created by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, CuddleBeam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
 text: |
-  If a value CANNOT be reasonably determined (without circularity or paradox)
-  from information reasonably available, or if it alternates indefinitely
-  between values, then the value is considered to be indeterminate, otherwise
-  it is determinate.
+  If a value CANNOT be reasonably determined (without circularity or
+  paradox) from information reasonably available, or if it
+  alternates indefinitely between values, then the value is
+  considered to be indeterminate, otherwise it is determinate.
 id: 2518
 rev: 0
 power: 3

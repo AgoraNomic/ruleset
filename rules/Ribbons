@@ -11,14 +11,13 @@ history:
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
-  Ribbon Ownership is a person switch, tracked by the Tailor in
-  his monthly report, whose values are the subsets of the set of
-  types of Ribbon, defaulting to the empty set.
+  Ribbon Ownership is a person switch, tracked by the Tailor in his
+  monthly report, whose values are the subsets of the set of types
+  of Ribbon, defaulting to the empty set.
 
-  To "award a person a <Ribbon type>" is to add that type of
-  Ribbon to that person's Ribbon Ownership. A person "owns a
-  <Ribbon type>" if that type of Ribbon is an element of eir
-  Ribbon Ownership.
+  To "award a person a <Ribbon type>" is to add that type of Ribbon
+  to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
+  if that type of Ribbon is an element of eir Ribbon Ownership.
 
   While a person qualifies for a type of Ribbon, any player can
   generally award em that type of Ribbon. A person qualifies for a
@@ -33,27 +32,27 @@ text: |
   The types of Ribbon, and the methods of obtaining them, are as
   follows:
 
-  Red (R): When a proposal is adopted and changes at least one
-  rule with Power >= 3, its proposer earns a Red Ribbon.
+  Red (R): When a proposal is adopted and changes at least one rule
+  with Power >= 3, its proposer earns a Red Ribbon.
 
   Orange (O): When a proposal is adopted via an Agoran Decision on
   which no valid votes were AGAINST, its proposer earns an Orange
   Ribbon.
 
-  Green (G): While a person has held an elected office
-  continuously for 30 days, and has not failed to perform any
-  duties of that office within the appropriate time limits during
-  those 30 days, that person qualifies for a Green Ribbon.
+  Green (G): While a person has held an elected office continuously
+  for 30 days, and has not failed to perform any duties of that
+  office within the appropriate time limits during those 30 days,
+  that person qualifies for a Green Ribbon.
 
-  Cyan (C): When a person deputises for an office, that person
-  earns a Cyan Ribbon.
+  Cyan (C): When a person deputises for an office, that person earns
+  a Cyan Ribbon.
 
   Blue (B): When a person assigns a judgement to a CFJ, and has
   never violated a time limit to assign a judgement to that CFJ,
   that person earns a Blue Ribbon.
 
-  Magenta (M): During Agora's Birthday, each person who has
-  publicly acknowledged the fact qualifies for a Magenta Ribbon.
+  Magenta (M): During Agora's Birthday, each person who has publicly
+  acknowledged the fact qualifies for a Magenta Ribbon.
 
   Ultraviolet (U): When a person is awarded the Patent Title
   Champion, that person earns an Ultraviolet Ribbon.
@@ -85,10 +84,9 @@ text: |
   award such a Ribbon in the same message in which e publishes eir
   monthly report.
 
-  Transparent (T): A person qualifies for a Transparent Ribbon
-  while the number of other types of Ribbon that that person
-  qualifies for and/or has earned within the previous 7 days is at
-  least 5.
+  Transparent (T): A person qualifies for a Transparent Ribbon while
+  the number of other types of Ribbon that that person qualifies for
+  and/or has earned within the previous 7 days is at least 5.
 id: 2438
 rev: 5
 power: 3

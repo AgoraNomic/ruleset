@@ -56,55 +56,65 @@ history:
 - Amended(51) by Proposal 7912 "Election Campaigns" (Alexis), 15 October 2017
 text: |
   A player CAN initiate an election for a specified office:
-      a) With 2 Support, if either the office is interim or the
-         most recent election for that office was resolved more
-         than 90 days prior, and provided that the initiator
-         becomes a candidate in the same message.
-      b) By announcement, if e is the ADoP and if the office is
-         interim, or if e is the holder of that office.
+
+  a) With 2 Support, if either the office is interim or the most
+     recent election for that office was resolved more than 90 days
+     prior, and provided that the initiator becomes a candidate in
+     the same message.
+
+  b) By announcement, if e is the ADoP and if the office is interim,
+     or if e is the holder of that office.
+
   The above notwithstanding, an election for an office CANNOT be
   initiated if one is already in progress.
 
-  After an election is initiated and until nominations close, any player CAN
-  become a candidate by announcement. A candidate ceases to be a candidate if e
-  ceases to be a player during the election. An election is contested if it has
-  two or more candidates at the end of the nomination period, and uncontested
-  otherwise. For a contested election, nominations close at the end of the
-  poll's voting period. For an uncontested election, nominations close at the
-  end of the nomination period.
+  After an election is initiated and until nominations close, any
+  player CAN become a candidate by announcement. A candidate ceases
+  to be a candidate if e ceases to be a player during the election.
+  An election is contested if it has two or more candidates at the
+  end of the nomination period, and uncontested otherwise. For a
+  contested election, nominations close at the end of the poll's
+  voting period. For an uncontested election, nominations close at
+  the end of the nomination period.
 
   When an election is initiated, it enters the nomination period,
   which lasts for 7 days. In a timely fashion after the nomination
   period ends, the ADoP CAN and SHALL, in the same message:
-      1) If the election is contested, initiate an Agoran decision
-         to select the winner of the election (the poll). For this
-         decision, the Vote Collector is the Assessor, the valid
-         options are the candidates for that election (including
-         those who become candidates after its initiation), and the
-         voting method is instant runoff.
-      2) Distribute all pending Campaign Proposals associated
-         with the election.
-      3) If POSSIBLE per the following paragraph, end the election
-         immediately.
 
-  If at any point an uncontested election has a single candidate, and that
-  candidate either is not the author of a Committed Campaign Proposal for that
-  election or that proposal was adopted, then any player CAN declare them the
-  winner of the election by announcement. If at any point an uncontested
-  election has no candidates, or a single candidate who is the author of a
-  failed Committed Campaign Proposal for that election, then any player CAN
-  declare the election ended with no winner by announcement. The Assessor SHALL
-  do one or the other in the same message in which e resolves a decision to
-  adopt a Campaign Proposal for an ongoing uncontested election.
+  1) If the election is contested, initiate an Agoran decision
+     to select the winner of the election (the poll). For this
+     decision, the Vote Collector is the Assessor, the valid
+     options are the candidates for that election (including
+     those who become candidates after its initiation), and the
+     voting method is instant runoff.
 
-  A poll CANNOT be resolved until the decisions to adopt all associated Campaign
-  Proposals are resolved. When resolving the poll, if a given candidate authored
-  one of the associated Campaign Proposals, that proposal is Committed, and it
-  was not adopted, then that player is disqualified.
+  2) Distribute all pending Campaign Proposals associated with the
+     election.
 
-  When the poll is resolved, its outcome, if a player, wins the election. When
-  a player wins an election, e is installed into the associated office and the
-  election ends.
+  3) If POSSIBLE per the following paragraph, end the election
+     immediately.
+
+  If at any point an uncontested election has a single candidate,
+  and that candidate either is not the author of a Committed
+  Campaign Proposal for that election or that proposal was adopted,
+  then any player CAN declare them the winner of the election by
+  announcement. If at any point an uncontested election has no
+  candidates, or a single candidate who is the author of a failed
+  Committed Campaign Proposal for that election, then any player CAN
+  declare the election ended with no winner by announcement. The
+  Assessor SHALL do one or the other in the same message in which e
+  resolves a decision to adopt a Campaign Proposal for an ongoing
+  uncontested election.
+
+  A poll CANNOT be resolved until the decisions to adopt all
+  associated Campaign Proposals are resolved. When resolving the
+  poll, if a given candidate authored one of the associated Campaign
+  Proposals, that proposal is Committed, and it was not adopted,
+  then that player is disqualified.
+
+  When the poll is resolved, its outcome, if a player, wins the
+  election. When a player wins an election, e is installed into the
+  associated office and the election ends.
 id: 2154
 rev: 51
 power: 2

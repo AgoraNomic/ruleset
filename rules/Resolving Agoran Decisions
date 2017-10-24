@@ -19,24 +19,24 @@ history:
 - Amended(12) via Rule 2430 "Cleanup Time," 24 May 2017
 text: |
   The vote collector for an unresolved Agoran decision CAN resolve
-  it by announcement, indicating the outcome.  If it was required
-  to be initiated, then e SHALL resolve it in a timely fashion
-  after the end of the voting period.  To be valid, this
-  announcement must satisfy the following conditions:
+  it by announcement, indicating the outcome.  If it was required to
+  be initiated, then e SHALL resolve it in a timely fashion after
+  the end of the voting period.  To be valid, this announcement must
+  satisfy the following conditions:
 
   1. It is published after the voting period has ended.
 
   2. It clearly identifies the matter to be resolved.
 
-  3. It specifies the outcome, as described elsewhere, and, if
-     there was more than one valid option, provides a tally of
-     the voters' valid ballots.
+  3. It specifies the outcome, as described elsewhere, and, if there
+     was more than one valid option, provides a tally of the voters'
+     valid ballots.
 
-  Each Agoran decision has exactly one vote collector, defaulting
-  to the initiator of the decision.  If the vote collector is
-  defined by reference to a position (or, in the default case, if
-  the initiator was so defined), then the vote collector is the
-  current holder of that position.
+  Each Agoran decision has exactly one vote collector, defaulting to
+  the initiator of the decision.  If the vote collector is defined
+  by reference to a position (or, in the default case, if the
+  initiator was so defined), then the vote collector is the current
+  holder of that position.
 
   This rule takes precedence over any rule that would provide
   another mechanism by which an Agoran decision may be resolved.

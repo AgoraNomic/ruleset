@@ -4,24 +4,24 @@ id: 2502
 rev: 1
 power: 2.0
 text: |
-  Each Estate has a Farm switch, tracked by the Agronomist, with values
-  "farmed" and "unfarmed", defaulting to "unfarmed". Changes to Farm
-  switches are secured. An Estate whose Farm switch is "farmed" is a Farm,
-  and its owner is the Farmer of that Estate.
+  Each Estate has a Farm switch, tracked by the Agronomist, with
+  values "farmed" and "unfarmed", defaulting to "unfarmed". Changes
+  to Farm switches are secured. An Estate whose Farm switch is
+  "farmed" is a Farm, and its owner is the Farmer of that Estate.
 
-  In the first week of an Agoran month, the owner of an unfarmed Estate CAN
-  flip its Farm switch to “farmed" by paying Agora a number of shinies equal
-  to the Farm Rate, by announcement.
+  In the first week of an Agoran month, the owner of an unfarmed
+  Estate CAN flip its Farm switch to “farmed" by paying Agora a
+  number of shinies equal to the Farm Rate, by announcement.
 
+  In the first week of an Agoran month, the owner of a Farm CAN till
+  the farm by paying Agora a number of shinies equal to the Farm
+  Rate, by announcement. If the Farmer of an Estate does not till it
+  within the first week of an Agoran month, the Agronomist CAN flip
+  its Farm switch to "unfarmed” by announcement, and SHALL do so in
+  a timely fashion.
 
-  In the first week of an Agoran month, the owner of a Farm CAN till the farm
-  by paying Agora a number of shinies equal to the Farm Rate, by announcement. If
-  the Farmer of an Estate does not till it within the first week of an Agoran
-  month, the Agronomist CAN flip its Farm switch to "unfarmed” by announcement,
-  and SHALL do so in a timely fashion.
-
-  When an Estate is transferred to Agora or to an Organization, its Farm
-  switch is set to "unfarmed" immediately afterwards
+  When an Estate is transferred to Agora or to an Organization, its
+  Farm switch is set to "unfarmed" immediately afterwards
 history:
 - Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September 2017
 - Amended(1) by Proposal 7900 "Come What May" (o), 03 October 2017
