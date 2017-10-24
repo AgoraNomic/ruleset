@@ -20,11 +20,11 @@ text: |
      other entity possesses an instance of that switch.
 
   2. One or more possible values for instances of that switch,
-     exactly one of which is designated as the default.  No other
+     exactly one of which is designated as the default. No other
      values are possible for instances of that switch.
 
   3. Optionally, exactly one office whose holder tracks instances of
-     that switch.  That officer's (weekly, if not specified
+     that switch. That officer's (weekly, if not specified
      otherwise) report includes the value of each instance of that
      switch whose value is not its default value; a public document
      purporting to be this portion of that officer's report is
@@ -32,13 +32,13 @@ text: |
      default value.
 
   At any given time, each instance of a switch has exactly one
-  possible value for that type of switch.  If an instance of a
-  switch comes to have a value, it ceases to have any other value.
-  If an instance of a switch would otherwise fail to have a possible
+  possible value for that type of switch. If an instance of a switch
+  comes to have a value, it ceases to have any other value. If an
+  instance of a switch would otherwise fail to have a possible
   value, it comes to have its default value.
 
   "To flip an instance of a switch" is to make it come to have a
-  given value.  "To become X" (where X is a possible value of
+  given value. "To become X" (where X is a possible value of
   exactly one of the subject's switches) is to flip that switch to
   X.
 
@@ -55,7 +55,7 @@ text: |
   switch has a default of False.
 
   Attempting to flip an instance of a switch to a value it already
-  has does not flip the switch.  However, if a person is REQUIRED to
+  has does not flip the switch. However, if a person is REQUIRED to
   flip a switch instance to a value it already has, then either
   attempting to do so using the required mechanism, or announcing
   that the switch already has the required value, fulfills the

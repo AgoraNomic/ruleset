@@ -5,9 +5,9 @@ history:
 text: |
   If a switch is defined as being associated with a specified set of
   numbers (a numerical switch), then the possible values for that
-  switch are the numbers in that set.  In particular, a "natural"
+  switch are the numbers in that set. In particular, a "natural"
   switch is a switch with possible values of the non-negative
-  integers.  If a limit is further defined, the possible values are
+  integers. If a limit is further defined, the possible values are
   the numbers of the set within the specified limits.
 
   If 0 is in the specified values for a numerical switch and no
@@ -17,7 +17,7 @@ text: |
   If the rules describe mathematical operations to be used in
   flipping an instance of a numerical switch, the operations are
   interpreted as having common-sense mathematical application to
-  determine that instance's resulting value.  For example,
+  determine that instance's resulting value. For example,
   "increasing a switch instance by M" is equivalent to "flipping a
   switch instance from its current value N to the value N+M". If the
   specified mathematical operation would result in a value outside

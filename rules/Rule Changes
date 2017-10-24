@@ -24,16 +24,16 @@ text: |
   Where permitted by other rules, an instrument generally can, as
   part of its effect,
 
-  1. enact a rule.  The new rule has power equal to the minimum of
+  1. enact a rule. The new rule has power equal to the minimum of
      the power specified by the enacting instrument, defaulting to
      one if the enacting instrument does not specify or if it
      specifies a power less than 0.1, and the maximum power
-     permitted by other rules.  The enacting instrument may specify
-     a title for the new rule, which if present shall prevail.  The
-     ID number of the new rule cannot be specified by the enacting
+     permitted by other rules. The enacting instrument may specify a
+     title for the new rule, which if present shall prevail. The ID
+     number of the new rule cannot be specified by the enacting
      instrument; any attempt to so specify is null and void.
 
-  2. repeal a rule.  When a rule is repealed, it ceases to be a
+  2. repeal a rule. When a rule is repealed, it ceases to be a
      rule, and the Rulekeepor need no longer maintain a record of
      it.
 
@@ -56,10 +56,9 @@ text: |
   Rule changes always occur sequentially, never simultaneously.
 
   Any ambiguity in the specification of a rule change causes that
-  change to be void and without effect.  An inconsequential
-  variation in the quotation of an existing rule does not constitute
-  ambiguity for the purposes of this rule, but any other variation
-  does.
+  change to be void and without effect. An inconsequential variation
+  in the quotation of an existing rule does not constitute ambiguity
+  for the purposes of this rule, but any other variation does.
 
   A rule change is wholly prevented from taking effect unless its
   full text was published, along with an unambiguous and clear
@@ -106,13 +105,13 @@ annotations:
 - cfjs:
   - id: '1638'
     called: 29 April 2007
-  text: Where a proposal contains the form of words "Amend rule NNNN by XXX.  Amend
+  text: Where a proposal contains the form of words "Amend rule NNNN by XXX. Amend
     rule NNNN by YYY.", this constitutes two separate attempts at rule changes, even
     though both attempt to amend the same rule.
 - cfjs:
   - id: '1642'
     called: 29 April 2007
-  text: Where a proposal contains the form of words "Amend rule NNNN by XXX.  Further
+  text: Where a proposal contains the form of words "Amend rule NNNN by XXX. Further
     amend rule NNNN by YYY.", where both XXX and YYY specify text changes, this constitutes
     two separate attempts at rule changes.
 - cfjs:

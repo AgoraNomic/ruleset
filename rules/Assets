@@ -38,7 +38,7 @@ text: |
   destroyed, and transferred.
 
   Each asset has exactly one owner. If an asset would otherwise lack
-  an owner, it is owned by Agora.  If an asset's backing document
+  an owner, it is owned by Agora. If an asset's backing document
   restricts its ownership to a class of entities, then that asset
   CANNOT be gained by or transferred to an entity outside that
   class, and is destroyed if it is owned by an entity outside that
@@ -74,7 +74,7 @@ text: |
   The recordkeepor of a class of assets is the entity (if any)
   defined as such by, and bound by, its backing document. That
   entity's report includes a list of all instances of that class and
-  their owners.  This portion of that entity's report is
+  their owners. This portion of that entity's report is
   self-ratifying. Rules to the contrary notwithstanding, a contract
   CANNOT oblige a person who isn't a member to record its internal
   state, nor is the default recordkeepor responsible for tracking a

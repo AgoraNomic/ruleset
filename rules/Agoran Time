@@ -49,8 +49,8 @@ text: |
 
   1. The phrase "in a timely fashion" means "within 7 days". This
      time period is set when the requirement is created (i.e. X days
-     before the limit ends).  A requirement to perform an action at
-     an exact instant (e.g.  "when X, Y SHALL Z"), but not "in the
+     before the limit ends). A requirement to perform an action at
+     an exact instant (e.g. "when X, Y SHALL Z"), but not "in the
      same message", is instead interpreted as a requirement to
      perform that action in a timely fashion after that instant.
 
@@ -71,7 +71,7 @@ text: |
 
        6. A pivot is either the instant at which Agora Nomic began
           (June 30, 1993, 00:04:30 GMT +1200) or an instant at which
-          at least one person won the game.  When used as a period of
+          at least one person won the game. When used as a period of
           time, a "Round" (historical syn: "game") is the period of
           time between a pivot and the next pivot.
 
