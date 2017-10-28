@@ -1,8 +1,11 @@
 ---
 name: Action Points
 history:
-- Created by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris), 30
-  July 2017
+- change:
+    type: creation
+  date: 2017-07-30
+  agent:
+    proposal: 7867
 text: |
   At the beginning of every Agoran Week, every player has 2 Action
   Points. When a player 'spends' an Action Point, e has one less

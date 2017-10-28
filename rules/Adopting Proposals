@@ -1,13 +1,48 @@
 ---
 name: Adopting Proposals
-history:
-- Initial Immutable Rule 106, Jun. 30 1993
-- Mutated from MI=Unanimity to MI=3 by Proposal 1073, Oct. 4 1994
-- Amended by Proposal 1278, Oct. 24 1994
-- Renumbered from 1073 to 106 by Rule 1295, Nov. 1 1994
-- Infected, but not amended, by Rule 1454, May 7 1995
-- Amended(1) by Proposal 3736 (Blob), May 3 1998
-- Amended(2) by Proposal 4811 (Maud, G.), 20 June 2005
+hisory:
+- change:
+    type: initial
+    mutability: immutable
+  date: 1993-06-30
+- change:
+    type: mutation
+    oldmi: unanimity
+    newmi: 3
+  date: 1994-10-04
+  agent:
+    proposal: 1073
+- change:
+    type: amendment
+  date: 1994-10-24
+  agent:
+    proposal: 1278
+- change:
+    type: renumbering
+    oldid: 1073
+    newid: 106
+  date: 1994-11-01
+  agent:
+    rule: 1295
+- change:
+    type: infection
+  date: 1995-05-07
+  agent:
+    rule: 1454
+- change:
+    type: amendment
+  date: 1998-05-03
+  proposal: 3736
+- change:
+    type: amendment
+  date: 2005-06-20
+  agent:
+    proposal: 4811
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4868
 - Amended(3) by Proposal 4868 (G.), 27 August 2006
 - Amended(4) by Proposal 4918 (OscarMeyr), 2 April 2007
 - Amended(5) by Proposal 4939 (Murphy), 29 April 2007

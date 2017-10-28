@@ -3,6 +3,14 @@ name: Agoraculture
 id: 2502
 rev: 1
 power: 2.0
+history:
+- change:
+    type: created
+  date: 2017-09-07
+  agent:
+    proposal: 7873
+- Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September 2017
+- Amended(1) by Proposal 7900 "Come What May" (o), 03 October 2017
 text: |
   Each Estate has a Farm switch, tracked by the Agronomist, with
   values "farmed" and "unfarmed", defaulting to "unfarmed". Changes
@@ -22,7 +30,4 @@ text: |
 
   When an Estate is transferred to Agora or to an Organization, its
   Farm switch is set to "unfarmed" immediately afterwards
-history:
-- Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September 2017
-- Amended(1) by Proposal 7900 "Come What May" (o), 03 October 2017
 annotations: []
