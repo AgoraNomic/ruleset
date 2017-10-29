@@ -59,20 +59,31 @@ history:
 - Amended(49) by Proposal 7629 (Alexis), 7 April 2014
 - Amended(50) by Proposal 7647 (omd), 3 June 2014
 - Amended(51) by Proposal 7777 (omd, G.), 14 August 2015
+- Amended(52) by Proposal 7930 (G.), 29 October 2017
 text: |
-  If a CFJ (1) has a judgement that has been in effect for less than
-  seven days and not been appealed, and (2) has not had a Motion to
-  Reconsider filed for it at any time while it has been assigned to
-  its current judge, then any Player CAN file a Motion to Reconsider
-  the case with 2 Support, or by announcement if e is that case's
-  judge. When a Motion to Reconsider is so filed, the case is
-  rendered open again.
+  Amend Rule 911 (Motions and Moots) by replacing its first 2
+   paragraphs with:
+
+  If a judgement has been in effect for less then seven days and has
+  not been entered into Moot, then:
+
+  - The judge of that CFJ CAN self-file a Motion to Reconsider the
+    case by announcement, if e has not already self-filed a Motion
+    to Reconsider that CFJ.
+  - Any Player CAN group-file a Motion to Reconsider the case with 2
+    Support, if the CFJ has not had a Motion to Reconsider
+    group-filed for it at any time while it has been assigned to its
+    current judge.
+
+  When a Motion to Reconsider is so filed, the case is rendered open
+  again.
 
   If a CFJ has a judgement assigned, a player CAN enter that
-  judgement into Moot with two support. When this occurs, the CFJ is
-  suspended, and the Arbitor is once authorized to initiate the
-  Agoran decision to determine public confidence in the judgement,
-  which e SHALL do in a timely fashion.
+  judgement into Moot with N+2 support, where N is the number of
+  weeks since that judgement has been assigned, rounded down. When
+  this occurs, the CFJ is suspended, and the Arbitor is once
+  authorized to initiate the Agoran decision to determine public
+  confidence in the judgement, which e SHALL do in a timely fashion.
 
   For this decision, the vote collector is the Arbitor and the valid
   options are AFFIRM, REMAND, and REMIT. When the decision is
@@ -88,7 +99,7 @@ text: |
     unless no other eligible judges have displayed interest in
     judging.
 id: 911
-rev: 51
+rev: 52
 power: 1.7
 annotations:
 - cfjs:
