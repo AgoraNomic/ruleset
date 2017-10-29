@@ -1,7 +1,11 @@
 ---
 name: Voting Methods
 history:
-- Created by Proposal 7922 "Clarity Act" (Alexis), 23 October 2017
+- change:
+    type: enactment
+  date: 2017-10-23
+  agent:
+    proposal: 7922
 text: |
   Each Agoran decision has a voting method, which must be
   AI-majority, instant runoff, or first-past-the-post. The voting

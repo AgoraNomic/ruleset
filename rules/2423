@@ -1,17 +1,33 @@
 ---
 name: First Among Equals
 history:
-- Created by Proposal 7633 (Alexis), 1 May 2014
-- Amended(1) by Proposal 7816 (Alexis, o, aranea), 28 October 2016
-- Amended(2) by Proposal 7817 (aranea), 28 October 2016
-- Amended(3) by Proposal 7831 (Alexis), 5 December 2016
+- change:
+    type: enactment
+  date: 2014-05-01
+  agent:
+    proposal: 7633
+- change:
+    type: amendment
+  date: 2016-10-28
+  agent:
+    proposal: 7816
+- change:
+    type: amendment
+  date: 2016-10-28
+  agent:
+    proposal: 7817
+- change:
+    type: amendment
+  date: 2016-12-05
+  agent:
+    proposal: 7831
 text: |
   The Prime Minister is an office. The Prime Minister is elected by
   the players of Agora primarily on account of not being the other
   guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
   smoothly.
 
-  The holder of the office of Prime Minister's voting  strength is
+  The holder of the office of Prime Minister's voting strength is
   increased by 1 on all Agoran decisions other than a elections of
   the Prime Minister.
 id: 2423

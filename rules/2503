@@ -39,6 +39,14 @@ text: |
  SHALL destroy all Expired Comestibles at the start of each Agoran
  month.
 history:
-- Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September 2017
-- Amended(1) by Proposal 7900 "Come What May" (o), 03 October 2017
+- change:
+    type: enactment
+  date: 2017-09-07
+  agent:
+    proposal: 7873
+- change:
+    type: amendment
+  date: 2017-10-03
+  agent:
+    proposal: 7900
 annotations: []

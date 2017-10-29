@@ -1,10 +1,27 @@
 ---
 name: Power Controls Mutability
 history:
-- Created by Proposal 4940 (Zefram), 29 April 2007
-- Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(1) by Proposal 6992 (Murphy, omd), 10 April 2011
-- Amended(2) via Rule 2430 "Cleanup Time," 24 May 2017
+- change:
+    type: enactment
+  date: 2007-04-29
+  agent:
+    proposal: 4940
+- change:
+    type: committee-assignment
+    committee: Committee on Rules
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2011-04-10
+  agent:
+    proposal: 6992
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 text: |
   No entity with power below the power of this rule can
 

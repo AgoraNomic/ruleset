@@ -1,7 +1,11 @@
 ---
 name: Estate Ballots
 history:
-- Created by Proposal 7846 (o, Aris), 8 May 2017
+- change:
+    type: enactment
+  date: 2017-05-08
+  agent:
+    proposal: 7846
 text: |
   During any Agoran Decision, a player who owns one or more Estates
   can, by announcement, expend any number of their owned Estates on

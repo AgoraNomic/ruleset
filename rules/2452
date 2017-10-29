@@ -1,10 +1,26 @@
 ---
 name: Trust Tokens
 history:
-- Created by Proposal 7768 (ais523), 24 July 2015
-- Power changed from 1.0 to 0.5 by Proposal 7768 (ais523), 24 July 2015
-- Amended(1) by Proposal 7790 (the Warrigal, Bucky), 13 October 2015
-- Amended(2) by Proposal 7801 (G.), 19 July 2016
+- change:
+    type: enactment
+  date: 2015-07-24
+  agent:
+    proposal: 7768
+- change:
+    type: power-change
+  date: 2015-07-24
+  agent:
+    proposal: 7768
+- change:
+    type: amendment
+  date: 2015-10-13
+  agent:
+    proposal: 7790
+- change:
+    type: amendment
+  date: 2016-07-19
+  agent:
+    proposal: 7801
 text: |
   Any player can issue a Trust Token to another person by
   announcement.

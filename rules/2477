@@ -1,8 +1,16 @@
 ---
 name: The Referee
 history:
-- Created by Proposal 7831 (Alexis), 5 December 2016
-- Amended(1) by self-amendment as per R2477/0, 22 Apr 2017
+- change:
+    type: enactment
+  date: 2016-12-05
+  agent:
+    proposal: 7831
+- change:
+    type: amendment
+  date: 2017-04-22
+  agent:
+    rule: 2477
 text: |
   The Referee is an office; its holder is responsible for keeping
   track of and adjudicating wrongdoing. The Referee's weekly report

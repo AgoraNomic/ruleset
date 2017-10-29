@@ -1,9 +1,21 @@
 ---
 name: Silver Quill
 history:
-- Created by Proposal 7722 (omd), 11 November 2014
-- Amended(1) by Proposal 7778 (Alexis), 14 August 2014
-- Amended(2) by Proposal 7809 (G.), 11 September 2016
+- change:
+    type: enactment
+  date: 2014-11-11
+  agent:
+    proposal: 7722
+- change:
+    type: amendment
+  date: 2014-08-14
+  agent:
+    proposal: 7778
+- change:
+    type: amendment
+  date: 2016-09-11
+  agent:
+    proposal: 7809
 text: |
   The Silver Quill is an annual award designed to honor the authors
   of proposals of outstanding merit and influence on the game.

@@ -1,9 +1,23 @@
 ---
 name: Silliness
 history:
-- Enacted as MI=1 Rule 1650 by Proposal 2673, 26 September 1996
-- Repealed as Power=1 Rule 1650 by Proposal 3688 "Repeal-O-Matic", 21 February 1998
-- Reenacted(1) by Proposal 7908 "Silly season" (G.), 15 October 2017
+- change:
+    type: enactment
+    mi: 1
+    power: 1
+  date: 1996-09-26
+  agent:
+    proposal: 2673
+- change:
+    type: repeal
+  date: 1998-02-21
+  agent:
+    proposal: 3688
+- change:
+    type reenactment
+  date: 2017-10-05
+  agent:
+    proposal: 7908
 text: |
   Each Nomic Week a Player is designated the Silly Person. The
   Silly Person SHALL in that week, by announcement (1) designate

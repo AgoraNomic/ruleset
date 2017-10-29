@@ -1,7 +1,11 @@
 ---
 name: Victory by Apathy
 history:
-- Created by Proposal 7811 (ais523), 11 September 2016
+- change:
+    type: enactment
+  date: 2016-09-11
+  agent:
+    proposal: 7811
 text: |
   A player CAN Declare Apathy without objection, specifying a set of
   players. Upon doing so, the specified players win the game.

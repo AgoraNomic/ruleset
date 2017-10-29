@@ -1,12 +1,36 @@
 ---
 name: The Agoran Newspaper
 history:
-- Created by Proposal 7729 (Henri), 11 February 2015
-- Amended(1) by Proposal 7766 (Alexis), 24 July 2015
-- Amended(2) by Proposal 7786 (Alexis), 29 August 2015
-- Amended(3) by Proposal 7805 (nichdel), 31 July 2016
-- Amended(4) via Rule 2430 "Cleanup Time," 24 May 2017
-- Amended(5) by Proposal 7871 "Minor fixes (sans typos)" (V.J. Rada), 7 September 2017
+- change:
+    type: enactment
+  date: 2015-02-11
+  agent:
+    proposal: 7729
+- change:
+    type: amendment
+  date: 2015-07-24
+  agent:
+    proposal: 7766
+- change:
+    type: amendment
+  date: 2015-08-29
+  agent:
+    proposal: 7786
+- change:
+    type: amendment
+  date: 2016-07-31
+  agent:
+    proposal: 7805
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
+- change:
+    type: amendment
+  date: 2017-09-07
+  agent:
+    proposal: 7871
 text: |
   The Reportor is an office.
 

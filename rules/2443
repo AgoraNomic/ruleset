@@ -1,8 +1,16 @@
 ---
 name: Expediting Proposals
 history:
-- Created by Proposal 7713 (Warrigal), 9 November 2014
-- Amended(1) via Rule 2430 "Cleanup Time," 24 May 2017
+- change:
+    type: enactment
+  date: 2014-11-09
+  agent:
+    proposal: 7713
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 text: |
   A player CAN expedite a proposal whose adoption index is at most
   1.5, in a message containing the character string "[Expedition]"

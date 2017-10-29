@@ -1,10 +1,26 @@
 ---
 name: The Propose-O-Matic
 history:
-  - Created by Proposal 6798 (Alexis), 27 August 2010
-  - Amended(1) by Proposal 6861 (omd), 18 October 2010
-  - Repealed by Proposal 6961 (G.), 3 March 2011
-  - Reenacted(2) by Proposal 7883 "Fear v2.1" (G.), 26 September 2017
+- change:
+    type: enactment
+  date: 2010-08-27
+  agent:
+    proposal: 6798
+- change:
+    type: amendment
+  date: 2010-10-18
+  agent:
+    proposal: 6861
+- change:
+    type: repeal
+  date: 2011-03-03
+  agent:
+    proposal: 6961
+- change:
+    type: reenactment
+  date: 2017-09-26
+  agent:
+     proposal 7883
 text: |
   The Fearmongor is an Office. Its holder is responsible for
   ensuring the continuous change of the ruleset.

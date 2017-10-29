@@ -1,10 +1,27 @@
 ---
 name: The Assessor
 history:
-- Created by Proposal 4939 (Murphy), 29 April 2007
-- Amended(1) by Proposal 5078 (Zefram), 18 July 2007
-- Amended(2) by Proposal 5453 (Murphy), 1 March 2008
-- Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
+- change:
+    type: enactment
+  date: 2007-04-29
+  agent:
+    proposal: 4939
+- change:
+    type: amendment
+  date: 2007-07-18
+  agent:
+    proposal: 5078
+- change:
+    type: amendment
+  date: 2008-03-01
+  agent:
+    proposal: 5453
+- change:
+    type: committee-assignment
+    committee: Committee on Rules
+  date: 2009-01-23
+  agent:
+    proposal: 6053
 text: |
   The Assessor is an office; its holder is responsible for
   collecting votes and keeping track of related properties.

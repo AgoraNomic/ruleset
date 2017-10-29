@@ -1,7 +1,11 @@
 ---
 name: Campaign Proposals, with power 3
 history:
-- Created by Proposal 7912 "Election Campaigns" (Alexis), 15 October 2017
+- change:
+    type: enactment
+  date: 2017-10-15
+  agent:
+    proposal: 7912
 text: |
   During the nomination period of an election, any candidate for
   that election CAN submit a Campaign Proposal for that election,

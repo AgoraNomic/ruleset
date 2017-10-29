@@ -1,12 +1,36 @@
 ---
 name: Economics
 history:
-- Created by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
-- Amended(1) by Proposal 7841 (o, G.), 1 March 2017
-- Amended(2) by Proposal 7842 (nichdel, o), 1 March 2017
-- Amended(3) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
-- Amended(4) by Proposal 7898 "Community Chest" (G.), 26 September 2017
-- Amended(5) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+- change:
+    type: enactment
+  date: 2016-12-05
+  agent:
+    proposal: 7838
+- change:
+    type: amendment
+  date: 2017-03-01
+  agent:
+    proposal: 7841
+- change:
+    type: amendment
+  date: 2017-03-01
+  agent:
+    proposal: 7842
+- change:
+    type: amendment
+  date: 2017-06-27
+  agent:
+    proposal: 7864
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7898
+- change:
+    type: amendment
+  date: 2017-10-22
+  agent:
+    proposal: 7924
 text: |
   Shinies (singular "shiny", abbreviated "sh.") are an
   indestructible liquid currency, and the official currency of

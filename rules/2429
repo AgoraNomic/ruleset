@@ -1,8 +1,16 @@
 ---
 name: Bleach
 history:
-- Created by Proposal 7665 (Alexis), 3 June 2014
-- Amended(1) by Proposal 7709 (Murphy), 3 November 2014
+- change:
+    type: enactment
+  date: 2014-06-03
+  agent:
+    proposal: 7665
+- change:
+    type: amendment
+  date: 2014-11-03
+  agent:
+    proposal: 7709
 text: |
   Replacing a non-zero amount of whitespace with a different
   non-zero amount of whitespace is generally insignificant, except

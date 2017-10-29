@@ -1,8 +1,16 @@
 ---
 name: Recusal
 history:
-- Created by Proposal 7859 (Quazie, grok), 27 June 2017
-- Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o, V.J. Rada), 26 September 2017
+- change:
+    type: enactment
+  date: 2017-06-27
+  agent:
+    proposal: 7859
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7888
 text: |
   A judge CAN recuse emself from a CFJ they are assigned to by
   announcement.

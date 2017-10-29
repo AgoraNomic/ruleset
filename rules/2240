@@ -1,8 +1,16 @@
 ---
 name: No Cretans Need Apply
 history:
-- Created by Proposal 6073 (Murphy), 22 February 2009
-- Amended(1) by Proposal 6429 (Murphy), 18 August 2009
+- change:
+    type: enactment
+  date: 2009-02-22
+  agent:
+    proposal: 6073
+- change:
+    type: amendment
+  date: 2009-08-18
+  agent:
+    proposal: 6429
 text: |
   In a conflict between clauses of the same Rule, if exactly one
   claims precedence over the other, then it takes precedence;

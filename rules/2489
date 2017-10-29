@@ -1,9 +1,21 @@
 ---
 name: Estates
 history:
-- Created by Proposal 7846 (o, Aris), 8 May 2017
-- Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
-- Amended(2) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+- change:
+    type: enactment
+  date: 2017-05-08
+  agent:
+    proposal: 7846
+- change:
+    type: amendment
+  date: 2017-06-27
+  agent:
+    proposal: 7864
+- change:
+    type: amendment
+  date: 2017-10-22
+  agent:
+    proposal: 7924
 text: |
   An Estate is a type of indestructible liquid asset. The following
   changes are secured: creating, modifying, or destroying an Estate;

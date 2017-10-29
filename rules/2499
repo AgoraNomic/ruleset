@@ -1,8 +1,16 @@
 ---
 name: Welcome Packages
 history:
-- Created by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris), 30 July 2017
-- Amended by Proposal 7882 "Welcome Package CAN Patch" (o, K, ais523), 26 Spetember 2017
+- change:
+    type: enactment
+  date: 2017-07-30
+  agent:
+    proposal: 7867
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7882
 text: |
   If a player has not received a Welcome Package since e most
   recently registered, any player CAN cause em to receive one by

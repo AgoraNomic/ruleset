@@ -1,12 +1,31 @@
 ---
 name: Economic Wins
 history:
-- Created by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris), 30
-  July 2017
-- Amended(1) by Proposal 7876 "Float On" (o), 26 September 2017
-- Amended(2) by Proposal 7881 "Stamp CAN Patch" (o, V.J. Rada, Aris, ais523), 26 September 2017
-- Amended(3) by Proposal 7914 "Stamp Floating Derived Value Patch" (o), 15 October 2017
-- Amended(4) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+- change:
+    type: enactment
+  date: 2017-07-30
+  agent:
+    proposal: 7867
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7876
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7881
+- change:
+    type: amendment
+  date: 2017-10-15
+  agent:
+    proposal: 7914
+- change:
+    type: amendment
+  date: 2017-10-22
+  agent:
+    proposal: 7924
 text: |
   Stamps are an asset. The Treasuror is the recordkeepor of Stamps.
 

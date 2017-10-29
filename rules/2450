@@ -1,10 +1,25 @@
 ---
 name: Pledges
 history:
-- Created by Proposal 7761 (G.), 19 July 2015
-- Amended(1) by Proposal 7862 (Quazie), 27 June 2017
-- Amended(2) by Proposal 7866 (o, Aris, Quazie, G., Gaelan, 天火狐)
-- Amended(3) by Proposal 7901 (o, Cuddle Beam, Ørjan, V.J. Rada, nichdel), 03 October 2017
+- change:
+    type: enactment
+  date: 2015-07-19
+  agent:
+    proposal: 7761
+- change:
+    type: amendment
+  date: 2017-06-27
+  agent:
+    proposal: 7862
+- change:
+    type: amendment
+  agent:
+    proposal: 7866
+- change:
+    type: amendment
+  date: 2017-10-03
+  agent:
+    proposal: 7901
 text: |
   Pledges are an indestructible fixed asset. Ownership of pledges is
   restricted to persons. The Referee is the recordkeepor of pledges.

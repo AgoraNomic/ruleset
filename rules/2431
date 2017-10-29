@@ -1,9 +1,23 @@
 ---
 name: Proposal Competitions
 history:
-- Created by Proposal 7667 (Alexis), 3 June 2014
-- Power changed from 3 to 1 by Proposal 7705 (omd), 3 November 2014
-- Amended(1) by Proposal 7705 (omd), 3 November 2014
+- change:
+    type: enactment
+  date: 2014-06-03
+  agent:
+    proposal: 7667
+- change:
+    type: power-change
+    oldpower: 3
+    newpower: 1
+  date: 2014-11-03
+  agent:
+    proposal: 7705
+- change:
+    type: amendment
+  date: 2014-11-03
+  agent:
+    proposal: 7705
 text: |
   Any player CAN, with Agoran Consent, initiate a Proposal
   Competition with a specified Objective. Only one Competition may

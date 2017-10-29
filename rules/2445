@@ -1,17 +1,61 @@
 ---
 name: How to Pend a Proposal
 history:
-- Created by Proposal 7728 (Tiger), 24 November 2014
-- Amended(1) by Proposal 7742 (ais523), 12 May 2015
-- Amended(2) by Proposal 7773 (Alexis), 14 August 2014
-- Amended(3) by Proposal 7807 (aranea), 10 August 2016
-- Amended(4) by Proposal 7818 (ais523), 31 October 2016
-- Amended(5) by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
-- Amended(6) by Proposal 7848 "Emergency Scam Fix" (ais523), 13 May 2017
-- Amended(7) by Proposal 7854 "Close Recent Loopholes v2" (ais523), 05 June 2017
-- Amended(8) by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris), 30 July 2017
-- Amended(9) by Proposal 7876 "Float On" (o), 26 September 2017
-- Amended(10) by Proposal 7883 "Fear v2.1" (G.), 26 September 2017
+- change:
+    type: enactment
+  date: 2014-11-24
+  agent:
+    proposal: 7728
+- change:
+    type: amendment
+  date: 2015-05-12
+  agent:
+    proposal: 7742
+- change:
+    type: amendment
+  date: 2014-08-14
+  agent:
+    proposal: 7773
+- change:
+    type: amendment
+  date: 2016-08-10
+  agent:
+    proposal: 7807
+- change:
+    type: amendment
+  date: 2016-10-31
+  agent:
+    proposal: 7818
+- change:
+    type: amendment
+  date: 2016-12-05
+  agent:
+    proposal: 7838
+- change:
+    type: amendment
+  date: 2017-05-13
+  agent:
+    proposal: 7848
+- change:
+    type: amendment
+  date: 2017-06-05
+  agent:
+    proposal: 7854
+- change:
+    type: amendment
+  date: 2017-07-30
+  agent:
+    proposal: 7867
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7876
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7883
 text: |
   Imminence is a switch, tracked by the Promotor, possessed by
   proposals in the Proposal Pool, whose value is either "pending" or

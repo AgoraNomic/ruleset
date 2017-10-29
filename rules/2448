@@ -1,10 +1,26 @@
 ---
 name: Eras
 history:
-- Created by Proposal 7733 (Murphy), 14 April 2015
-- Amended(1) by Proposal 7759 (G.), 19 July 2015
-- Amended(2) by Proposal 7766 (Alexis), 24 July 2015
-- Amended(3) by Proposal 7837 (ais523), 5 December 2016
+- change:
+    type: enactment
+  date: 2015-04-14
+  agent:
+    proposal: 7733
+- change:
+    type: amendment
+  date: 2015-07-19
+  agent:
+    proposal: 7759
+- change:
+    type: amendment
+  date: 2015-07-24
+  agent:
+    proposal: 7766
+- change:
+    type: amendment
+  date: 2016-12-05
+  agent:
+    proposal: 7837
 text: |
   An Era is a period of time that has a defined start, either has a
   defined end or is still ongoing, and has been initiated as

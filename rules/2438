@@ -1,14 +1,48 @@
 ---
 name: Ribbons
 history:
-- Created by Proposal 7698 (ais523), 3 November 2014
-- Power changed from 1 to 3 by Proposal 7725 (aranea), 16 November 2014
-- Amended(1) by Proposal 7735 (aranea), 2 May 2015
-- Amended(2) by Proposal 7746 (aranea), 19 May 2015
-- Amended(3) by Proposal 7748 (ais523), 30 June 2015
-- Amended(4) by Proposal 7760 (G.), 19 July 2015
-- Amended(5) by Proposal 7834 (ais523), 5 December 2016
-- Amended(6) by Proposal 7922 (Alexis), 23 October 2017
+- change:
+    type: enactment
+  date: 2014-11-03
+  agent:
+    proposal: 7698
+- change:
+    type: power-change
+    oldpower: 1
+    newpower: 3
+  date: 2014-11-16
+  agent:
+    proposal: 7725
+- change:
+    type: amendment
+  date: 2015-05-02
+  agent:
+    proposal: 7735
+- change:
+    type: amendment
+  date: 2015-05-19
+  agent:
+    proposal: 7746
+- change:
+    type: amendment
+  date: 2015-06-30
+  agent:
+    proposal: 7748
+- change:
+    type: amendment
+  date: 2015-07-19
+  agent:
+    proposal: 7760
+- change:
+    type: amendment
+  date: 2016-12-05
+  agent:
+    proposal: 7834
+- change:
+    type: amendment
+  date: 2017-10-23
+  agent:
+    proposal: 7922
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 

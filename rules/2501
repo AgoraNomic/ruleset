@@ -1,11 +1,15 @@
 ---
 name: Farm Rate
-id: 2501
-rev: 1
-power: 1.0
+history:
+- change:
+    type: created
+  date: 2017-09-07
+  agent:
+    proposal: 7873
 text: |
   The Farm Rate is a natural singleton switch, tracked by the
   Agronomist.
-history:
-- Created by Proposal 7873 "Agoraculture" (o, babelian), Sep. 7 2017
+id: 2501
+rev: 1
+power: 1.0
 annotations: []

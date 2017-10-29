@@ -1,13 +1,42 @@
 ---
 name: Cards
 history:
-- Created by Proposal 7639 (omd), 1 May 2014
-- Amended(1) by Proposal 7696 (omd), 23 October 2014
-- Amended(2) by Proposal 7708 (Murphy), 3 November 2014
-- Amended(3) by Proposal 7720 (omd), 9 November 2014
-- Amended(4) by Proposal 7729 (Tiger), 24 November 2014
-- Power changed to 2 and Amended(5) by Proposal 7831 (Alexis), 5 December 2016
-- Amended(6) by Proposal 7886 "Card Reform and Expansion v4" (Aris, ais523, Ørjan), 26 September 2017
+- change:
+    type: enactment
+  date: 2014-05-01
+  agent:
+    proposal: 7639
+- change:
+    type: amendment
+  date: 2014-10-23
+  agent:
+    proposal: 7696
+- change:
+    type: amendment
+  date: 2014-11-03
+  agent:
+    proposal: 7708
+- change:
+    type: amendment
+  date: 2014-11-09
+  agent:
+    proposal: 7720
+- change:
+    type: amendment
+  date: 2014-11-24
+  agent:
+    proposal: 7729
+- change:
+    type: power-change-amendment
+    newpower: 2
+  date: 2016-12-05
+  agent:
+    proposal: 7831
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7886
 text: |
   A Card is a recognition of a specific violation of the rules or
   other manner of infraction that is awarded to the violator in

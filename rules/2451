@@ -1,11 +1,31 @@
 ---
 name: Executive Orders
 history:
-- Created by Proposal 7764 (Alexis), 24 July 2015
-- Amended(1) by Proposal 7829 (Alexis), 7 November 2016
-- Amended(2) by Proposal 7831 (Alexis), 5 December 2016
-- Amended(3) by Proposal 7860 (Quazie), 27 June 2017
-- Amended(4) by Proposal 7885 (o, V.J. Rada, Ørjan), 26 September 2017
+- change:
+    type: enactment
+  date: 2015-07-24
+  agent:
+    proposal: 7764
+- change:
+    type: amendment
+  date: 2016-11-07
+  agent:
+    proposal: 7829
+- change:
+    type: amendment
+  date: 2016-12-05
+  agent:
+    proposal: 7831
+- change:
+    type: amendment
+  date: 2017-06-27
+  agent:
+    proposal: 7860
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7885
 text: |
   Once per week and except as otherwise forbidden by this rule, the
   current Prime Minister CAN issue a Cabinet Order by announcement

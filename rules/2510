@@ -1,8 +1,16 @@
 ---
 name: Such is Karma
 history:
-- Created by Proposal 7904 "Such is Karma v2" (G., 天火狐), 03 October 2017
-- Amended(1) by Proposal 7916 "Pro Pace v2" (Aris, o, G.), 15 October 2017
+- change:
+    type: enactment
+  date: 2017-10-03
+  agent:
+    proposal: 7904
+- change:
+    type: amendment
+  date: 2017-10-15
+  agent:
+    proposal: 7916
 text: |
   Karma is a person switch tracked by the Herald in eir Weekly
   Report. Karma is an Integer switch.  The Community Chest also has

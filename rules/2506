@@ -1,7 +1,11 @@
 ---
 name: Blue Cards
 history:
-- Created by Proposal 7886 "Card Reform and Expansion v4" (Aris, ais523, Ørjan), 26 September 2017
+- change:
+    type: enactment
+  date: 2017-09-26
+  agent:
+    proposal: 7886
 text: |
   A Blue Card is a type of Card that is appropriate for deliberate
   or negligent infractions either where the the player responsible

@@ -1,8 +1,16 @@
 ---
 name: No Faking
 history:
-- Created by Proposal 7822 (Alexis), 7 November 2016
-- Amended by Proposal 7892 "Truthfulness v2" (Aris), 26 September 2017
+- change:
+    type: enactment
+  date: 2016-11-07
+  agent:
+    proposal: 7822
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7892
 text: |
   A person SHALL NOT make a public statement that is a lie. A
   statment is a lie if its publisher either knew or believed it to

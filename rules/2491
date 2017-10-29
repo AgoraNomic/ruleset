@@ -1,12 +1,36 @@
 ---
 name: Estate Auctions
 history:
-- Created by Proposal 7846 (o, Aris), 8 May 2017
-- Amended(1) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
-- Amended(2) by Proposal 7868 "Minor economic fixes" (Murphy), 30 July 2017
-- Amended(3) by Proposal 7872 "Estate Auction Cleanup" (o), 7 September 2017
-- Amended(4) by Proposal 7888 "BILLY MAYS HERE" (o, V.J. Rada), 26 September 2017
-- Amended(5) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+- change:
+    type: enactment
+  date: 2017-05-08
+  agent:
+    proposal: 7846
+- change:
+    type: amendment
+  date: 2017-06-27
+  agent:
+    proposal: 7864
+- change:
+    type: amendment
+  date: 2017-07-30
+  agent:
+    proposal: 7868
+- change:
+    type: amendment
+  date: 2017-09-07
+  agent:
+    proposal: 7872
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7888
+- change:
+    type: amendment
+  date: 2017-10-22
+  agent:
+    proposal: 7924
 text: |
  At the start of each month, if Agora owns at least one Estate, the
  Surveyor CAN and SHALL put one Estate that is owned by Agora up for

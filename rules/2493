@@ -1,9 +1,21 @@
 ---
 name: Regulations
 history:
-- Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
-- Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o, V.J. Rada), 26 September 2017
-- Amended(2) by Proposal 7925 "Safety Regulations v2" (Aris, Alexis), 22 October 2017
+- change:
+    type: enactment
+  date: 2017-06-27
+  agent:
+    proposal: 7865
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7888
+- change:
+    type: amendment
+  date: 2017-10-22
+  agent:
+    proposal: 7925
 text: |
   A Regulation is an textual entity defined as such by this rule. A
   regulation allows an officer (known as the Promulgator) to

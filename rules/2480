@@ -1,8 +1,16 @@
 ---
 name: Festivals
 history:
-- Created by Proposal 7833 (ais523), 5 December 2016
-- Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o, V.J. Rada), 26 September 2017
+- change:
+    type: enactment
+  date: 2016-12-05
+  agent:
+    proposal: 7833
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7888
 text: |
   Festivity is a singleton switch, whose possible values are
   integers ranging from 0 inclusive to the number of defined types

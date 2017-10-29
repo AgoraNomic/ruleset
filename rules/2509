@@ -1,7 +1,11 @@
 ---
 name: Numerical Switches
 history:
-- Created by Proposal 7903 "Numerical switches v2" (G.), 03 October 2017
+- change:
+    type: enactment
+  date: 2017-10-03
+  agent:
+    proposal: 7903
 text: |
   If a switch is defined as being associated with a specified set of
   numbers (a numerical switch), then the possible values for that

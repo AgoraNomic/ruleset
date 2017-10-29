@@ -1,9 +1,21 @@
 ---
 name: Voting Strength
 history:
-- Created by Proposal 7629 (Alexis), 7 April 2014
-- Amended(1) by Proposal 7816 (Alexis, o, aranea), 28 October 2016
-- Amended(2) by Proposal 7831 (Alexis), 5 December 2016
+- change:
+    type: enactment
+  date: 2014-04-07
+  agent:
+    proposal: 7629
+- change:
+    type: amendment
+  date: 2016-10-28
+  agent:
+    proposal: 7816
+- change:
+    type: amendment
+  date: 2016-12-05
+  agent:
+    proposal: 7831
 text: |
   The voting strength of an entity on an Agoran decision is an
   integer between 0 and 5 inclusive, defined by rules of power 2

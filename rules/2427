@@ -1,9 +1,21 @@
 ---
 name: Yellow Cards
 history:
-- Created by Proposal 7639 (omd), 1 May 2014
-- Amended(1) by Proposal 7831 (Alexis), 5 December 2016
-- Amended(2) by Proposal 7874 "Shorter Apologies" (o), 7 September 2017
+- change:
+    type: enactment
+  date: 2014-05-01
+  agent:
+    proposal: 7639
+- change:
+    type: amendment
+  date: 2016-12-05
+  agent:
+    proposal: 7831
+- change:
+    type: amendment
+  date: 2017-09-07
+  agent:
+    proposal: 7874
 text: |
   A Yellow Card is a type of Card that is appropriate either for infractions
   that have a significant, though small, impact on gameplay or for

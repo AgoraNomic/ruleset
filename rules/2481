@@ -1,8 +1,16 @@
 ---
 name: Festival Restrictions
 history:
-- Created by Proposal 7833 (ais523), 5 December 2016
-- Amended(1) via Rule 2430 "Cleanup Time," 24 May 2017
+- change:
+    type: enactment
+  date: 2016-12-05
+  agent:
+    proposal: 7833
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 text: |
   While Agora's Festivity is nonzero, the following apply:
 

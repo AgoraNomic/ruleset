@@ -1,7 +1,11 @@
 ---
 name: Victory Elections
 history:
-- Created by Proposal 7836 (ais523), 5 December 2016
+- change:
+    type: enactment
+  date: 2016-12-05
+  agent:
+    proposal: 7836
 text: |
   If nobody has done so in the previous 180 days, the Herald CAN
   initiate a Victory Election, a type of Agoran decision. On such a

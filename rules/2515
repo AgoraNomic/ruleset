@@ -1,7 +1,11 @@
 ---
 name: Distributing Assets
 history:
-- Created by Proposal 7921 "Passive Income" (o, G.), 15 October 2017
+- change:
+    type: enactment
+  date: 2017-10-15
+  agent:
+    proposal: 7921
 text: |
   To “distribute” a quantity of a fungible asset to a set of
   recipients is to transfer one instance of that asset at a time to

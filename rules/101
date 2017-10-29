@@ -1,27 +1,113 @@
 ---
 name: The Game of Agora
 history:
-- Initial Immutable Rule 101, Jun. 30 1993
-- Mutated from MI=Unanimity to MI=3 by Proposal 1480, Mar. 15 1995
-- Amended(1) by Proposal 3915 (harvel), Sep. 27 1999
-- Amended(2) by Proposal 4833 (Maud), 6 August 2005
-- Amended(3) by Proposal 4866 (G.), 27 August 2006
-- Amended(4) by Proposal 4867 (G.), 27 August 2006
-- Amended(5) by Proposal 4887 (Murphy), 22 January 2007
-- Amended(6) by Proposal 4944 (Zefram), 3 May 2007
-- Amended(7) by Proposal 5090 (Zefram), 25 July 2007
-- Amended(8) by Proposal 5731 (G.; disi.), 8 October 2008
-- Retitled by Proposal 5769 (G.), 17 October 2008
-- Amended(9) by Proposal 5769 (G.), 17 October 2008
-- Amended(10) by Proposal 5773 (G.), 17 October 2008
-- Amended(11) by Proposal 6028 (Murphy), 8 January 2009
-- Amended(12) by Proposal 6158 (G.), 31 March 2009
-- Amended(13) by Proposal 6589 (omd; disi.), 6 December 2009
-- Amended(14) by Proposal 7183 (G.), 26 February 2012
-- Amended(15) by Proposal 7596 (omd), 14 September 2013
-- Retitled and amended(16) by Proposal 7614 (G.), 13 January 2014
-- Amended(17) by Proposal 7743 (G.), 12 May 2015
-- Power Changed(18) by Proposal 7889 "Agora Protection Act" (Aris), 26 September 2017
+- change:
+    type: initial
+    mutability: immutable
+    id: 101
+  date: 1993-06-30
+- change:
+    type: mutation
+    oldmi: unanimity
+    newmi: 3
+  date: 1995-03-15
+  agent:
+    proposal: 1480
+- change:
+    type: amendment
+  date: 1999-09-27
+  agent:
+    proposal: 3915
+- change:
+    type: amendment
+  date: 2005-08-06
+  agent:
+    proposal: 4833
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4866
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4867
+- change:
+    type: amendment
+  date: 2007-01-22
+  agent:
+    proposal: 4887
+- change:
+    type: amendment
+  date: 2007-05-03
+  agent:
+    proposal: 4944
+- change:
+    type: amendment
+  date: 2007-07-25
+  agent:
+    proposal: 5090
+- change:
+    type: amendment
+  date: 2008-10-08
+  agent:
+    proposal: 5731
+- change:
+    type: retitle
+  date: 2008-10-17
+  agent:
+    proposal: 5769
+- change:
+    type: amendment
+  date: 2008-10-17
+  agent:
+    proposal: 5769
+- change:
+    type: amendment
+  date: 2008-10-17
+  agent:
+    proposal: 5773
+- change:
+    type: amendment
+  date: 2009-01-08
+  agent:
+    proposal: 6028
+- change:
+    type: amendment
+  date: 2009-03-31
+  agent:
+    proposal: 6158
+- change:
+    type: amendment
+  date: 2009-12-06
+  agent:
+    proposal: 6589
+- change:
+    type: amendment
+  date: 2012-02-26
+  agent:
+    proposal: 7183
+- change:
+    type: amendment
+  date: 2013-09-14
+  agent:
+    proposal: 7596
+- change:
+    type: retitled-amendment
+  date: 2014-01-13
+  agent:
+    proposal: 7614
+- change:
+    type: amendment
+  date: 2015-05-12
+  agent:
+    proposal: 7743
+- change:
+    type: power-changed
+  date: 2017-09-26
+  agent:
+    proposal: 7889
 text: |
   Agora is a game of Nomic, wherein Persons, acting in accordance
   with the Rules, communicate their game Actions and/or results of
@@ -30,7 +116,7 @@ text: |
 
   Please treat Agora Right Good Forever.
 id: 101
-rev: 18
+rev: 17
 power: 4
 annotations:
 - cfjs:
