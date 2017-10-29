@@ -1,53 +1,253 @@
 ---
 name: Offices
 history:
-- Created by Proposal 386 (Alexx), Aug. 16 1993
-- Amended by Proposal 733 (Ronald Kunne), Nov. 24 1993
-- Amended by Proposal 881, ca. Apr. 13 1994
-- Amended by Rule 750, ca. Apr. 13 1994
-- Amended by Proposal 1006, ca. Aug. 25 1994
-- Amended by Rule 750, ca. Aug. 25 1994
-- Amended(1) by Proposal 1336, Nov. 22 1994
-- Amended(2) by Proposal 1582, May 15 1995
-- Amended(3) by Proposal 1699, Sep. 1 1995
-- Amended(4) by Proposal 1763, Oct. 31 1995
-- Amended(5) by Proposal 2442, Feb. 6 1996
-- Amended(6) by Proposal 2623, Jun. 19 1996
-- Amended(7) by Proposal 3902 (Murphy), Sep. 6 1999
-- Amended(8) by Proposal 4002 (harvel), May 8 2000
-- Amended(9) by Proposal 4250 (harvel), 19 February 2002
-- Amended(10) by Proposal 4868 (G.), 27 August 2006
-- Amended(11) by Proposal 4887 (Murphy), 22 January 2007
-- Amended(12) by Proposal 4889 (Murphy), 22 January 2007
-- Amended(13) by Proposal 4939 (Murphy), 29 April 2007
-- Amended(14) by Proposal 4956 (Murphy), 7 May 2007
-- Amended(15) by Proposal 4980 (Murphy), 31 May 2007
-- Amended(16) by Proposal 5029 (Murphy), 28 June 2007
-- Amended(17) by Proposal 5059 (Zefram, G.), 9 July 2007
-- Amended(18) by Proposal 5070 (Zefram), 11 July 2007
-- Amended(19) by Proposal 5088 (Murphy), 25 July 2007
-- Amended(20) by Proposal 5103 (Zefram), 1 August 2007
-- Power changed from 1 to 2 by Proposal 5133 (Zefram), 13 August 2007
-- Amended(21) by Proposal 5133 (Zefram), 13 August 2007
-- Amended(22) by Proposal 5239 (AFO), 3 October 2007
-- Amended(23) by Proposal 5407 (root), 22 January 2008
-- Amended(24) by Proposal 5519 (Murphy), 28 May 2008
-- Amended(25) by Proposal 5534 (root; disi.), 7 June 2008
-- Amended(26) by Proposal 5986 (Murphy), 7 December 2008
-- Amended(27) by Proposal 6023 (Murphy), 22 December 2008
-- Assigned to Committee on Administration by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(28) by Proposal 6372 (G.), 23 June 2009
-- Amended(29) by cleaning (Murphy), 16 August 2009
-- Amended(30) by Proposal 6482 (omd), 18 September 2009
-- Amended(31) by cleaning (Murphy), 6 March 2010
-- Amended(32) by Proposal 6790 (Wooble), 27 August 2010
-- Amended(33) by Proposal 6959 (G.), 31 January 2011
-- Amended(34) by Proposal 7272 (FKA441344), 14 August 2012
-- Amended(35) by Proposal 7403 (omd), 27 April 2013
-- Amended(36) by Proposal 7586 (omd), 24 August 2013
-- Amended(37) by Proposal 7629 (Alexis), 7 April 2014
-- Amended(38) by Proposal 7807 (aranea), 10 August 2016
-- Amended(39) by Proposal 7912 "Election Campaigns" (Alexis), 15 October 2017
+- change:
+    type: creation
+  date: 1993-08-16
+  agent:
+    proposal: 386
+- change:
+    type: amendment
+    count-change: false
+  date: 1993-11-24
+  agent:
+    proposal: 733
+- change:
+    type: amendment
+    count-change: false
+  date: 1994-08-13
+  circa: true
+  agent:
+    proposal: 881
+- change:
+    type: amendment
+    count-change: false
+  date: 1994-08-13
+  circa: true
+  agent:
+    rule: 750
+- change:
+    type: amendment
+    count-change: false
+  date: 1994-08-25
+  circa: true
+- change:
+    type: amendment
+    count-change: false
+  date: 1994-08-25
+  circa: true
+  agent:
+    rule: 750
+- change:
+    type: amendment
+  date: 1994-11-22
+  agent:
+    proposal: 1336
+- change:
+    type: amendment
+  date: 1995-05-15
+  agent:
+    proposal: 1582
+- change:
+    type: amendment
+  date: 1995-09-01
+  agent:
+    proposal: 1699
+- change:
+    type: amendment
+  date: 1995-10-31
+  agent:
+    proposal: 1763
+- change:
+    type: amendment
+  date: 1996-02-06
+  agent:
+    proposal: 2442
+- change:
+    type: amendment
+  date: 1996-06-19
+  agent:
+    proposal: 2623
+- change:
+    type: amendment
+  date: 1999-09-06
+  agent:
+    proposal: 3902
+- change:
+    type: amendment
+  date: 2000-05-08
+  agent:
+    proposal: 4002
+- change:
+    type: amendment
+  date: 2002-02-19
+  agent:
+    proposal: 4250
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4868
+- change:
+    type: amendment
+  date: 2007-01-22
+  agent:
+    proposal: 4887
+- change:
+    type: amendment
+  date: 2007-01-22
+  agent:
+    proposal: 4889
+- change:
+    type: amendment
+  date: 2007-04-29
+  agent:
+    proposal: 4939
+- change:
+    type: amendment
+  date: 2007-05-07
+  agent:
+    proposal: 4956
+- change:
+    type: amendment
+  date: 2007-05-31
+  agent:
+    proposal: 4980
+- change:
+    type: amendment
+  date: 2007-06-28
+  agent:
+    proposal: 5029
+- change:
+    type: amendment
+  date: 2007-07-09
+  agent:
+    proposal: 5059
+- change:
+    type: amendment
+  date: 2007-07-11
+  agent:
+    proposal: 5070
+- change:
+    type: amendment
+  date: 2007-07-25
+  agent:
+    proposal: 5088
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5103
+- change:
+    type: power-change
+    oldpower: 1
+    newpower: 2
+  date: 2007-08-13
+  agent:
+    proposal: 5133
+- change:
+    type: amendment
+  date: 2007-08-13
+  agent:
+    proposal: 5133
+- change:
+    type: amendment
+  date: 2007-10-03
+  agent:
+    proposal: 5239
+- change:
+    type: amendment
+  date: 2008-01-22
+  agent:
+    proposal: 5407
+- change:
+    type: amendment
+  date: 2008-05-28
+  agent:
+    proposal: 5519
+- change:
+    type: amendment
+  date: 2008-06-07
+  agent:
+    proposal: 5534
+- change:
+    type: amendment
+  date: 2008-12-7
+  agent:
+    proposal: 5986
+- change:
+    type: amendment
+  date: 2008-12-22
+  agent:
+    proposal: 6023
+- change:
+    type: committee-assignment
+    committee: Committee on Administration
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-June-23
+  agent:
+    proposal: 6372
+- change:
+    type: amendment
+  date: 2009-08-16
+  agent:
+    cleaning:
+      by: Murphy
+- change:
+    type: amendment
+  date: 2009-September-18
+  agent:
+    proposal: 6482
+- change:
+    type: amendment
+  date: 2010-03-06
+  agent:
+    cleaning:
+      by: Murphy
+- change:
+    type: amendment
+  date: 2010-August-27
+  agent:
+    proposal: 6790
+- change:
+    type: amendment
+  date: 2011-January-31
+  agent:
+    proposal: 6959
+- change:
+    type: amendment
+  date: 2012-August-14
+  agent:
+    proposal: 7272
+- change:
+    type: amendment
+  date: 2013-April-27
+  agent:
+    proposal: 7403
+- change:
+    type: amendment
+  date: 2013-August-24
+  agent:
+    proposal: 7586
+- change:
+    type: amendment
+  date: 2014-April-7
+  agent:
+    proposal: 7629
+- change:
+    type: amendment
+  date: 2016-August-10
+  agent:
+    proposal: 7807
+- change:
+    type: amendment
+  date: 2017-10-15
+  agent:
+    proposal: 7912
 text: |
   Officeholder is an office switch tracked by the ADoP, with
   possible values of any person or "vacant". An officer is the
