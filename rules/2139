@@ -1,18 +1,73 @@
 ---
 name: The Registrar
 history:
-- Created by Proposal 4939 (Murphy), 29 April 2007
-- Amended(1) by Proposal 5172 (Murphy), 29 August 2007
-- Amended(2) by Proposal 6322 (Wooble), 26 May 2009
-- Amended(3) twice by Proposal 6567 (Walker), 28 November 2009
-- Power changed from 1 to 2 by Proposal 6567 (Walker), 28 November 2009
-- Amended(4) by Proposal 7141 (G.), 19 November 2011
-- Amended(5) by Proposal 7416 (omd), 12 May 2013
-- Amended(6) by Proposal 7586 (omd), 24 August 2013
-- Amended(7) by Proposal 7632 (Alexis), 1 May 2014
-- Amended(8) by Proposal 7810 (nichdel), 11 September 2016
-- Amended(9) via Rule 2430 "Cleanup Time," 24 May 2017\
-- Amended(10) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+- change:
+    type: enactment
+  date: 2007-04-29
+  agent:
+    proposal: 4939
+- change:
+    type: amendment
+  date: 2007-08-29
+  agent:
+    proposal: 5172
+- change:
+    type: amendment
+  date: 2009-05-26
+  agent:
+    proposal: 6322
+- change:
+    type: amendment
+  date: 2009-11-28
+  agent:
+    proposal: 6567
+- change:
+    type: amendment
+  date: 2009-11-28
+  agent:
+    proposal: 6567
+- change:
+    type: power-change
+    oldpower: 1
+    newpower: 2
+  date: 2009-11-28
+  agent:
+    proposal: 6567
+- change:
+    type: amendment
+  date: 2011-11-19
+  agent:
+    proposal: 7141
+- change:
+    type: amendment
+  date: 2013-05-12
+  agent:
+    proposal: 7416
+- change:
+    type: amendment
+  date: 2013-08-24
+  agent:
+    proposal: 7586
+- change:
+    type: amendment
+  date: 2014-05-01
+  agent:
+    proposal: 7632
+- change:
+    type: amendment
+  date: 2016-09-11
+  agent:
+    proposal: 7810
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
+- change:
+    type: amendment
+  date: 2017-10-22
+  agent:
+    proposal: 7924
 text: |
   The Registrar is an office; its holder is responsible for keeping
   track of players.

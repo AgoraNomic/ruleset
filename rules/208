@@ -1,22 +1,87 @@
 ---
 name: Resolving Agoran Decisions
 history:
-- Initial Mutable Rule 208, Jun. 30 1993
-- Amended(1) by Proposal 1401, Jan. 29 1995
-- Amended(2) by Proposal 1531, Mar. 24 1995
-- Power changed from 1 to 3 by Proposal 4811 (Maud, G.), 20 June 2005
-- Amended(3) by Proposal 4811 (Maud, G.), 20 June 2005
-- Amended(4) by Proposal 5113 (Murphy, Maud), 2 August 2007
-- Amended(5) by Proposal 5229 (root), 27 September 2007
-- Amended(6) by Proposal 5450 (Murphy), 27 February 2008
-- Amended(7) by Proposal 5453 (Murphy), 1 March 2008
-- Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(8) by Proposal 6746 (Alexis; disi.), 1 July 2010
-- Amended(9) by Proposal 7259 (Murphy), 6 July 2012
-- Amended(10) by Proposal 7420 (omd), 27 May 2013
-- Retitled by Proposal 7753 (Alexis), 30 June 2015
-- Amended(11) by Proposal 7778 (Alexis), 14 August 2014
-- Amended(12) via Rule 2430 "Cleanup Time," 24 May 2017
+- change:
+    type: initial
+    id: 208
+    mutability: mutable
+  date: 1993-06-30
+- change:
+    type: amendment
+  date: 1995-01-29
+  agent:
+    proposal: 1401
+- change:
+    type: amendment
+  date: 1995-03-24
+  agent:
+    proposal: 1531
+- change:
+    type: power-change
+  date: 2005-06-20
+  agent:
+    proposal: 4811
+- change:
+    type: amendment
+  date: 2005-06-20
+  agent:
+    proposal: 4811
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5113
+- change:
+    type: amendment
+  date: 2007-09-27
+  agent:
+    proposal: 5229
+- change:
+    type: amendment
+  date: 2008-02-27
+  agent:
+    proposal: 5450
+- change:
+    type: amendment
+  date: 2008-03-01
+  agent:
+    proposal: 5453
+- change:
+    type: committee-assignment
+    committee: Committee on Rules
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2010-07-01
+  agent:
+    proposal: 6746
+- change:
+    type: amendment
+  date: 2012-07-06
+  agent:
+    proposal: 7259
+- change:
+    type: amendment
+  date: 2013-05-27
+  agent:
+    proposal: 7420
+- change:
+    type: retitling
+  date: 2015-06-30
+  agent:
+    proposal: 7753
+- change:
+    type: amendment
+  date: 2014-08-14
+  agent:
+    proposal: 7778
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 text: |
   The vote collector for an unresolved Agoran decision CAN resolve
   it by announcement, indicating the outcome. If it was required to

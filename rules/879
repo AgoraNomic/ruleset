@@ -1,43 +1,194 @@
 ---
 name: Quorum
 history:
-- Initial Mutable Rule 201, Jun. 30 1993
-- Amended by Proposal 879, Apr. 13 1994
-- Amended by Rule 750, Apr. 13 1994
-- Amended(1) by Proposal 1471, Mar. 8 1995
-- Amended(2) by Proposal 1554, Apr. 17 1995
-- Amended(3) by Proposal 1708, Sep. 4 1995
-- Infected and Amended(4) by Rule 1454, Jul. 27 1996
-- Amended(5) by Proposal 2786 (Steve), Jan. 15 1997, substantial
-- Amended(6) by Proposal 3643 (General Chaos), Dec. 29 1997
-- Amended(7) by Proposal 3777 (Blob), Aug. 3 1998
-- Amended(8) by Proposal 'A Separation of Powers' (Steve, Without Objection), Apr. 20 1999
-- Amended(9) by Proposal 3897 (harvel), Aug. 27 1999
-- Amended(10) by Proposal 3956 (harvel), Dec. 28 1999
-- Amended(11) by Proposal 3972 (Peekee), Feb. 14 2000
-- Power changed from 1 to 2 by Proposal 3980 (Steve), Mar. 1 2000
-- Amended(12) by Proposal 3980 (Steve), Mar. 1 2000
-- Amended(13) by Proposal 4018 (Kelly), Jun. 21 2000
-- Amended(14) by Proposal 4239 (Murphy), 29 January 2002
-- Amended(15) by Proposal 4276 (Steve), 28 March 2002
-- Amended(16) by Proposal 4278 (harvel), 3 April 2002
-- Amended(17) by Proposal 4282 (G.), 16 April 2002
-- Amended(18) by Proposal 4311 (root), 28 May 2002
-- Amended(19) by Proposal 4410 (Steve), 6 November 2002
-- Amended(20) by Proposal 4576 (root), 31 May 2004
-- Amended(21) by Proposal 4665 (Kolja), 9 April 2005
-- Amended(22) by Proposal 4811 (Maud, G.), 20 June 2005
-- Amended(23) by Proposal 4964 (Murphy), 3 June 2007
-- Amended(24) by Proposal 4997 (Zefram, Goddess Eris), 6 June 2007
-- Amended(25) by Proposal 5000 (Murphy), 12 June 2007
-- Amended(26) by Proposal 5113 (Murphy, Maud), 2 August 2007
-- Amended(27) by Proposal 5445 (G., Murphy), 21 February 2008
-- Amended(28) by Proposal 7317 (omd), 16 October 2012
-- Amended(29) by Proposal 7552 (omd), 24 August 2013
-- Amended(30) by Proposal 7612 (ais523), 11 January 2014
-- Amended(31) by Proposal 7632 (Alexis), 1 May 2014
-- Amended(32) by Proposal 7647 (omd), 3 June 2014
-- Amended(33) by proposal 7853 "Close Ancient Loopholes" (ais523), 05 June 2017
+- change:
+    type: initial
+    id: 201
+    mutability: mutable
+- change:
+    type: amendment
+    uncounted: true
+  date: 1994-04-13
+  agent:
+    proposal: 879
+- change:
+    type: amendment
+  date: 1994-04-13
+  agent:
+    rule: 750
+- change:
+    type: amendment
+  date: 1995-03-08
+  agent:
+    proposal: 1471
+- change:
+    type: amendment
+  date: 1995-04-17
+  agent:
+    proposal: 1554
+- change:
+    type: amendment
+  date: 1995-09-04
+  agent:
+    proposal: 1708
+- change:
+    type: infection-amendment
+  date: 1996-07-27
+  agent:
+    rule: 1454
+- change:
+    type: amendment
+  date: 1997-01-15
+  agent:
+    proposal: 2786
+  substantial: true
+- change:
+    type: amendment
+  date: 1997-12-29
+  agent:
+    proposal: 3643
+- change:
+    type: amendment
+  date: 1998-08-03
+  agent:
+    proposal: 3777
+- change:
+    type: amendment
+  date: 1999-04-20
+  agent:
+    proposal: A Separation of Powers
+- change:
+    type: amendment
+  date: 1999-08-27
+  agent:
+    proposal: 3897
+- change:
+    type: amendment
+  date: 1999-12-28
+  agent:
+    proposal: 3956
+- change:
+    type: amendment
+  date: 2000-02-14
+  agent:
+    proposal: 3972
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 2
+  date: 2000-03-01
+  agent:
+    proposal: 3980
+- change:
+    type: amendment
+  date: 2000-03-01
+  agent:
+    proposal: 3980
+- change:
+    type: amendment
+  date: 2000-06-21
+  agent:
+    proposal: 4018
+- change:
+    type: amendment
+  date: 2002-01-29
+  agent:
+    proposal: 4239
+- change:
+    type: amendment
+  date: 2002-03-28
+  agent:
+    proposal: 4276
+- change:
+    type: amendment
+  date: 2002-04-03
+  agent:
+    proposal: 4278
+- change:
+    type: amendment
+  date: 2002-04-16
+  agent:
+    proposal: 4282
+- change:
+    type: amendment
+  date: 2002-05-28
+  agent:
+    proposal: 4311
+- change:
+    type: amendment
+  date: 2002-11-06
+  agent:
+    proposal: 4410
+- change:
+    type: amendment
+  date: 2004-05-31
+  agent:
+    proposal: 4576
+- change:
+    type: amendment
+  date: 2005-04-09
+  agent:
+    proposal: 4665
+- change:
+    type: amendment
+  date: 2005-06-20
+  agent:
+    proposal: 4811
+- change:
+    type: amendment
+  date: 2007-06-03
+  agent:
+    proposal: 4964
+- change:
+    type: amendment
+  date: 2007-06-06
+  agent:
+    proposal: 4997
+- change:
+    type: amendment
+  date: 2007-06-12
+  agent:
+    proposal: 5000
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5113
+- change:
+    type: amendment
+  date: 2008-02-21
+  agent:
+    proposal: 5445
+- change:
+    type: amendment
+  date: 2012-10-16
+  agent:
+    proposal: 7317
+- change:
+    type: amendment
+  date: 2013-08-24
+  agent:
+    proposal: 7552
+- change:
+    type: amendment
+  date: 2014-01-11
+  agent:
+    proposal: 7612
+- change:
+    type: amendment
+  date: 2014-05-01
+  agent:
+    proposal: 7632
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7647
+- change:
+    type: amendment
+  date: 2017-06-05
+  agent:
+    proposal: 7853
 text: |
   Each Agoran Decision has a quorum. This is a number set when the
   decision is created, and thereafter cannot be changed. When a

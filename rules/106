@@ -15,7 +15,6 @@ hisory:
     proposal: 1073
 - change:
     type: amendment
-    count-change: false
   date: 1994-10-24
   agent:
     proposal: 1278
@@ -45,41 +44,183 @@ hisory:
   date: 2006-08-27
   agent:
     proposal: 4868
-- Amended(3) by Proposal 4868 (G.), 27 August 2006
-- Amended(4) by Proposal 4918 (OscarMeyr), 2 April 2007
-- Amended(5) by Proposal 4939 (Murphy), 29 April 2007
-- Amended(6) by Proposal 5010 (Levi), 24 June 2007
-- Amended(7) by Proposal 5078 (Zefram), 18 July 2007
-- Amended(8) by Proposal 5083 (Zefram), 1 August 2007
-- Amended(9) by Proposal 5334 (Murphy), 5 December 2007
-- Amended(10) by Proposal 5356 (root), 16 December 2007
-- Amended(11) by Proposal 5418 (root), 2 February 2008
-- Amended(12) by Proposal 5453 (Murphy), 1 March 2008
-- Amended(13) by Proposal 5572 (Murphy), 4 July 2008
-- Amended(14) by Proposal 6001 (G.), 7 December 2008
-- Amended(15) by Proposal 6022 (Murphy), 22 December 2008
-- Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(16) by cleaning (omd), 12 February 2009
-- Amended(17) by Proposal 6089 (G.), 22 February 2009
-- Amended(18) by Proposal 6090 (Murphy, ais523), 22 February 2009
-- Amended(19) by Proposal 6113 (G.), 1 March 2009
-- Amended(20) by Proposal 6222 (Alexis), 27 April 2009
-- Amended(21) by Proposal 6398 (C-walker; disi.), 17 July 2009
-- Amended(22) by Proposal 6414 (C-walker), 8 August 2009
-- Amended(23) by Proposal 6469 (Alexis; disi.), 15 September 2009
-- Amended(24) by Proposal 6571 (ais523), 28 November 2009
-- Amended(25) by Proposal 6625 (Murphy), 20 February 2010
-- Amended(26) by Proposal 6656 (Alexis), 1 March 2010
-- Amended(27) by Proposal 6721 (Alexis; disi), 21 May 2010
-- Amended(28) by Proposal 6732 (omd), 13 June 2010
-- Amended(29) by Proposal 6823 (Murphy, omd), 10 September 2010
-- Amended(30) by Proposal 6968 (Murphy, Alexis, Wooble), 20 March 2011
-- Amended(31) by Proposal 7013 (omd), 23 April 2011
-- Amended(32) by Proposal 7081 (Murphy), 4 July 2011
-- Amended(33) by Proposal 7083 (Walker), 4 July 2011
-- Amended(34) by Proposal 7086 (G., omd), 23 July 2011
-- Amended(35) by Proposal 7246 (omd), 10 June 2012
-- Amended(36) by Proposal 7778 (Alexis), 14 August 2014
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4868
+- change:
+    type: amendment
+  date: 2007-04-02
+  agent:
+    proposal: 4918
+- change:
+    type: amendment
+  date: 2007-04-29
+  agent:
+    proposal: 4939
+- change:
+    type: amendment
+  date: 2007-06-24
+  agent:
+    proposal: 5010
+- change:
+    type: amendment
+  date: 2007-07-18
+  agent:
+    proposal: 5078
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5083
+- change:
+    type: amendment
+  date: 2007-12-05
+  agent:
+    proposal: 5334
+- change:
+    type: amendment
+  date: 2007-12-16
+  agent:
+    proposal: 5356
+- change:
+    type: amendment
+  date: 2008-02-02
+  agent:
+    proposal: 5418
+- change:
+    type: amendment
+  date: 2008-03-01
+  agent:
+    proposal: 5453
+- change:
+    type: amendment
+  date: 2008-07-04
+  agent:
+    proposal: 5572
+- change:
+    type: amendment
+  date: 2008-12-07
+  agent:
+    proposal: 6001
+- change:
+    type: amendment
+  date: 2008-12-22
+  agent:
+    proposal: 6022
+- change:
+    type: committee-assignment
+    committee: Committee on Rules
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-02-12
+  agent:
+    cleaning:
+      by: omd
+- change:
+    type: amendment
+  date: 2009-02-22
+  agent:
+    proposal: 6089
+- change:
+    type: amendment
+  date: 2009-02-22
+  agent:
+    proposal: 6090
+- change:
+    type: amendment
+  date: 2009-03-01
+  agent:
+    proposal: 6113
+- change:
+    type: amendment
+  date: 2009-04-27
+  agent:
+    proposal: 6222
+- change:
+    type: amendment
+  date: 2009-07-17
+  agent:
+    proposal: 6398
+- change:
+    type: amendment
+  date: 2009-08-08
+  agent:
+    proposal: 6414
+- change:
+    type: amendment
+  date: 2009-09-15
+  agent:
+    proposal: 6469
+- change:
+    type: amendment
+  date: 2009-11-28
+  agent:
+    proposal: 6571
+- change:
+    type: amendment
+  date: 2010-02-20
+  agent:
+    proposal: 6625
+- change:
+    type: amendment
+  date: 2010-03-01
+  agent:
+    proposal: 6656
+- change:
+    type: amendment
+  date: 2010-05-21
+  agent:
+    proposal: 6721
+- change:
+    type: amendment
+  date: 2010-06-13
+  agent:
+    proposal: 6732
+- change:
+    type: amendment
+  date: 2010-09-10
+  agent:
+    proposal: 6823
+- change:
+    type: amendment
+  date: 2011-03-20
+  agent:
+    proposal: 6968
+- change:
+    type: amendment
+  date: 2011-04-23
+  agent:
+    proposal: 7013
+- change:
+    type: amendment
+  date: 2011-07-04
+  agent:
+    proposal: 7081
+- change:
+    type: amendment
+  date: 2011-07-04
+  agent:
+    proposal: 7083
+- change:
+    type: amendment
+  date: 2011-07-23
+  agent:
+    proposal: 7086
+- change:
+    type: amendment
+  date: 2012-06-10
+  agent:
+    proposal: 7246
+- change:
+    type: amendment
+  date: 2014-08-14
+  agent:
+    proposal: 7778
 text: |
   When a decision about whether to adopt a proposal is resolved, if
   the outcome is ADOPTED, then the proposal in question is adopted,

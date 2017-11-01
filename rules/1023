@@ -1,49 +1,230 @@
 ---
 name: Agoran Time
 history:
-- Created by Proposal 805, ca. Jan. or Feb. 1994
-- Amended by Proposal 907, ca. Apr. or May 1994
-- Amended by Rule 750, ca. Apr. or May 1994
-- Amended by Proposal 1023, Sep. 5 1994
-- Amended by Rule 750, Sep. 5 1994
-- Amended(1) by Proposal 1413, Feb. 1 1995
-- Amended(2) by Proposal 1434, Feb. 14 1995
-- Amended(3) by Proposal 1682, Aug. 22 1995
-- Amended(4) by Proposal 1727, Oct. 6 1995
-- Amended(5) by Proposal 2042, Dec. 11 1995
-- Amended(6) by Proposal 2489, Feb. 16 1996
-- Amended(7) by Proposal 2567, Apr. 12 1996
-- Mutated from MI=1 to MI=2 by Proposal 2602, May 26 1996
-- Amended(8) by Proposal 2629, Jul. 4 1996
-- Amended(9) by Proposal 2770 (Steve), Dec. 19 1996
-- Amended(10) by Proposal 3823 (Oerjan), Jan. 21 1999
-- Amended(11) by Proposal 3823 (Oerjan), Jan. 21 1999
-- Amended(12) by Proposal 3897 (harvel), Aug. 27 1999
-- Amended(13) by Proposal 3950 (harvel), Dec. 8 1999
-- Amended(14) by Proposal 4004 (Steve), May 8 2000
-- Amended(15) by Proposal 4278 (harvel), 3 April 2002
-- Amended(16) by Proposal 4406 (Murphy), 30 October 2002
-- Amended(17) by Proposal 4866 (G.), 27 August 2006
-- Amended(18) by Proposal 4938 (Murphy), 29 April 2007
-- Amended(19) by Proposal 5005 (root), 18 June 2007
-- Amended(20) by Proposal 5077 (Murphy), 18 July 2007
-- Amended(21) by Proposal 5102 (Zefram), 1 August 2007
-- Amended(22) by Proposal 5081 (Zefram; disi.), 1 August 2007
-- Amended(23) by Proposal 5408 (root), 22 January 2008
-- Amended(24) by Proposal 6046 (omd), 13 January 2009
-- Amended(25) by Proposal 6321 (Murphy; disi.), 26 May 2009
-- Amended(26) by Proposal 6535 (Murphy), 4 November 2009
-- Amended(27) by Proposal 6660 (Murphy; disi.), 10 March 2010
-- Amended(28) by Proposal 7045 (Walker), 16 May 2011
-- Amended(29) by Proposal 7289 (G.), 9 September 2012
-- Amended(30) by Proposal 7420 (omd), 27 May 2013
-- Amended(31) by Proposal 7606 (G.), 13 December 2013
-- Amended(32) by Proposal 7641 (Alexis), 12 May 2014
-- Amended(33) by Proposal 7686 (omd), 7 August 2014
-- Amended(34) by Proposal 7760 (G.), 19 July 2015
-- Amended(35) via Rule 2430 "Cleanup Time," 24 May 2017
-- Amended(36) by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
-- Renamed and Amended(37) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+- change:
+    type: enactment
+  date:
+    between: 1994-01-01
+    and: 1994-02-29
+  agent:
+    proposal: 805
+- change:
+    type: amendment
+    uncounted: true
+  date:
+    bewtween: 1994-04-01
+    and: 1994-05-31
+  agent:
+    proposal: 907
+- change:
+    type: amendment
+    uncounted: true
+  date:
+    bewtween: 1994-04-01
+    and: 1994-05-31
+  agent:
+    rule: 750
+- change:
+    type: amendment
+    uncounted: true
+  date: 1994-09-05
+  agent:
+    proposal: 1023
+- change:
+    type: amendment
+  date: 1994-09-05
+  agent:
+    rule: 750
+- change:
+    type: amendment
+  date: 1995-02-01
+  agent:
+    proposal: 1413
+- change:
+    type: amendment
+  date: 1995-02-14
+  agent:
+    proposal: 1434
+- change:
+    type: amendment
+  date: 1995-08-22
+  agent:
+    proposal: 1682
+- change:
+    type: amendment
+  date: 1995-10-06
+  agent:
+    proposal: 1727
+- change:
+    type: amendment
+  date: 1995-12-11
+  agent:
+    proposal: 2042
+- change:
+    type: amendment
+  date: 1996-02-16
+  agent:
+    proposal: 2489
+- change:
+    type: amendment
+  date: 1996-04-12
+  agent:
+    proposal: 2567
+- change:
+    type: mutation
+  date: 1996-05-26
+  agent:
+    proposal: 2602
+- change:
+    type: amendment
+  date: 1996-07-04
+  agent:
+    proposal: 2629
+- change:
+    type: amendment
+  date: 1996-12-19
+  agent:
+    proposal: 2770
+- change:
+    type: amendment
+  date: 1999-01-21
+  agent:
+    proposal: 3823
+- change:
+    type: amendment
+  date: 1999-01-21
+  agent:
+    proposal: 3823
+- change:
+    type: amendment
+  date: 1999-08-27
+  agent:
+    proposal: 3897
+- change:
+    type: amendment
+  date: 1999-12-08
+  agent:
+    proposal: 3950
+- change:
+    type: amendment
+  date: 2000-05-08
+  agent:
+    proposal: 4004
+- change:
+    type: amendment
+  date: 2002-04-03
+  agent:
+    proposal: 4278
+- change:
+    type: amendment
+  date: 2002-10-30
+  agent:
+    proposal: 4406
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4866
+- change:
+    type: amendment
+  date: 2007-04-29
+  agent:
+    proposal: 4938
+- change:
+    type: amendment
+  date: 2007-06-18
+  agent:
+    proposal: 5005
+- change:
+    type: amendment
+  date: 2007-07-18
+  agent:
+    proposal: 5077
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5102
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5081
+- change:
+    type: amendment
+  date: 2008-01-22
+  agent:
+    proposal: 5408
+- change:
+    type: amendment
+  date: 2009-01-13
+  agent:
+    proposal: 6046
+- change:
+    type: amendment
+  date: 2009-05-26
+  agent:
+    proposal: 6321
+- change:
+    type: amendment
+  date: 2009-11-04
+  agent:
+    proposal: 6535
+- change:
+    type: amendment
+  date: 2010-03-10
+  agent:
+    proposal: 6660
+- change:
+    type: amendment
+  date: 2011-05-16
+  agent:
+    proposal: 7045
+- change:
+    type: amendment
+  date: 2012-09-09
+  agent:
+    proposal: 7289
+- change:
+    type: amendment
+  date: 2013-05-27
+  agent:
+    proposal: 7420
+- change:
+    type: amendment
+  date: 2013-12-13
+  agent:
+    proposal: 7606
+- change:
+    type: amendment
+  date: 2014-05-12
+  agent:
+    proposal: 7641
+- change:
+    type: amendment
+  date: 2014-08-07
+  agent:
+    proposal: 7686
+- change:
+    type: amendment
+  date: 2015-07-19
+  agent:
+    proposal: 7760
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
+- change:
+    type: amendment
+  date: 2017-06-27
+  agent:
+    proposal: 7865
+- change:
+    type: renamed-amended
+  date: 2017-10-22
+  agent:
+    proposal: 7924
 text: |
   The following terms are defined:
 

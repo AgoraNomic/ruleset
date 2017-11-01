@@ -1,29 +1,129 @@
 ---
 name: Degrees
 history:
-- Created by Proposal 1367, Jan. 5 1995
-- Infected and Amended(1) by Rule 1454, Feb. 12 1996
-- Amended(2) by Proposal 3452 (Steve), Apr. 7 1997, substantial
-- Amended(3) by Proposal 3741 (Murphy), May 8 1998
-- Amended(4) by Proposal 3889 (harvel), Aug. 9 1999
-- Amended(5) by Proposal 4002 (harvel), May 8 2000
-- Amended(6) by Proposal 4110 (Ziggy), Feb. 13 2001
-- Amended(7) by Proposal 4865 (G.), 27 August 2006
-- Amended(8) by Proposal 5085 (Zefram), 1 August 2007
-- Power changed from 1 to 1.5 by Proposal 5085 (Zefram), 1 August 2007
-- Amended(9) by Proposal 5243 (root; disi.), 7 October 2007
-- Amended(10) by Proposal 5276 (Murphy, Pavitra, Zefram), 7 November 2007
-- Amended(11) by Proposal 5437 (G.), 13 February 2008
-- Power changed from 1.5 to 1 by Proposal 5947 (ais523), 15 November 2008
-- Amended(12) by Proposal 5955 (ais523, Elysion, Murphy; disi.), 18 November 2008
-- Amended(13) by Proposal 6257 (Alexis), 11 May 2009
-- Amended(14) by Proposal 6624 (Murphy), 20 February 2010
-- Amended(15) by Proposal 6671 (Yally; disi.), 22 March 2010
-- Power changed from 1 to 3 by Proposal 6717 (Alexis), 4 May 2010
-- Amended(16) by SLR ratification (Proposal 6806; Alexis), 27 August 2010
-- Amended(17) by Proposal 7420 (omd), 27 May 2013
-- Amended(18) by Proposal 7591 (Alexis), 14 September 2013
-- Amended(19) by Proposal 7620 (omd), 24 January 2014
+- change:
+    type: enactment
+  date: 1995-01-05
+  agent:
+    proposal: 1367
+- change:
+    type: infection-amendment
+  date: 1996-02-12
+  agent:
+    rule: 1454
+- change:
+    type: amendment
+  date: 1997-04-07
+  agent:
+    proposal: 3452
+  substantial: true
+- change:
+    type: amendment
+  date: 1998-05-08
+  agent:
+    proposal: 3741
+- change:
+    type: amendment
+  date: 1999-08-09
+  agent:
+    proposal: 3889
+- change:
+    type: amendment
+  date: 2000-05-08
+  agent:
+    proposal: 4002
+- change:
+    type: amendment
+  date: 2001-02-13
+  agent:
+    proposal: 4110
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4865
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5085
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 1.5
+  date: 2007-08-01
+  agent:
+    proposal: 5085
+- change:
+    type: amendment
+  date: 2007-10-07
+  agent:
+    proposal: 5243
+- change:
+    type: amendment
+  date: 2007-11-07
+  agent:
+    proposal: 5276
+- change:
+    type: amendment
+  date: 2008-02-13
+  agent:
+    proposal: 5437
+- change:
+    type: power-change
+    oldpower: 1.5
+    newpower: 1
+  date: 2008-11-15
+  agent:
+    proposal: 5947
+- change:
+    type: amendment
+  date: 2008-11-18
+  agent:
+    proposal: 5955
+- change:
+    type: amendment
+  date: 2009-05-11
+  agent:
+    proposal: 6257
+- change:
+    type: amendment
+  date: 2010-02-20
+  agent:
+    proposal: 6624
+- change:
+    type: amendment
+  date: 2010-03-22
+  agent:
+    proposal: 6671
+- change:
+    type: power-change
+  date: 2010-05-04
+  agent:
+    proposal: 6717
+- change:
+    type: amendment
+  date: 2010-08-27
+  agent:
+    ratification:
+      document: SLR
+      agent:
+        proposal: 6806
+- change:
+    type: amendment
+  date: 2013-05-27
+  agent:
+    proposal: 7420
+- change:
+    type: amendment
+  date: 2013-09-14
+  agent:
+    proposal: 7591
+- change:
+    type: amendment
+  date: 2014-01-24
+  agent:
+    proposal: 7620
 text: |
   Certain patent titles are known as degrees. The degrees are
 

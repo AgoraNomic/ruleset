@@ -1,59 +1,275 @@
 ---
 name: Election Procedure
 history:
-- Created by Proposal 5059 (Zefram, G.), 9 July 2007
-- Amended(1) by Proposal 5096 (Murphy; disi.), 25 July 2007
-- Amended(2) by Proposal 5108 (Zefram; disi.), 2 August 2007
-- Amended(3) by Proposal 5133 (Zefram), 13 August 2007
-- Amended(4) by Proposal 5224 (Murphy), 23 September 2007
-- Amended(5) by Proposal 5407 (root), 22 January 2008
-- Amended(6) by Proposal 5452 (Murphy), 1 March 2008
-- Amended(7) by Proposal 5453 (Murphy), 1 March 2008
-- Amended(8) by Proposal 5491 (Murphy), 23 April 2008
-- Amended(9) by Proposal 5497 (Murphy; disi.), 23 April 2008
-- Amended(10) by Proposal 5499 (G.), 23 April 2008
-- Amended(11) by Proposal 5503 (root), 1 May 2008
-- Amended(12) by Proposal 5608 (Murphy), 29 July 2008
-- Amended(13) by Proposal 5609 (Murphy), 29 July 2008
-- Amended(14) by Proposal 5683 (Wooble), 8 September 2008
-- Amended(15) by SLR ratification (omd), 24 September 2008
-- Amended(16) by Proposal 5730 (omd; disi.), 7 October 2008
-- Amended(17) by Proposal 5806 (Wooble; disi.), 30 October 2008
-- Amended(18) by Proposal 5797 (Taral), 3 November 2008
-- Amended(19) by Proposal 5831 (Murphy), 6 November 2008
-- Amended(20) by Proposal 5998 (Sgeo), 7 December 2008
-- Assigned to Committee on Administration by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(21) by Proposal 6157 (G., OscarMeyr, Wooble), 31 March 2009
-- Amended(22) by Proposal 6293 (G.), 19 May 2009
-- Amended(23) by Proposal 6296 (Murphy), 19 May 2009
-- Amended(24) by Proposal 6305 (Taral), 26 May 2009
-- Amended(25) by Proposal 6356 (Yally), 23 June 2009
-- Amended(26) by Proposal 6396 (Yally), 17 July 2009
-- Amended(27) by Proposal 6403 (Alexis), 30 July 2009
-- Amended(28) by Proposal 6411 (Yally), 30 July 2009
-- Amended(29) by Proposal 6651 (Alexis), 10 March 2010
-- Amended(30) by Proposal 6665 (Murphy; disi.), 10 March 2010
-- Amended(31) by Proposal 6696 (Alexis), 25 April 2010
-- Amended(32) by Proposal 6845 (Tanner L. Swett), 3 October 2010
-- Amended(33) by Proposal 6969 (Murphy), 20 March 2011
-- Amended(34) by Proposal 6972 (G.), 30 March 2011
-- Amended(35) by Proposal 7425 (Walker, G., Murphy, omd), 27 May 2013
-- Amended(36) by Proposal 7465 (Walker), 17 June 2013
-- Amended(37) by Proposal 7470 (woggle; disi.), 17 June 2013
-- Amended(38) by Proposal 7586 (omd), 24 August 2013
-- Amended(39) by Proposal 7610 (G.), 22 December 2013
-- Amended(40) by Proposal 7610 (G.), 22 December 2013
-- Amended(41) by Proposal 7610 (G.), 22 December 2013
-- Amended(42) by Proposal 7629 (Alexis), 7 April 2014
-- Amended(43) by Proposal 7632 (Alexis), 1 May 2014
-- Amended(44) by Proposal 7645 (omd), 3 June 2014
-- Amended(45) by Proposal 7654 (Alexis), 3 June 2014
-- Amended(46) by Proposal 7658 (Alexis), 3 June 2014
-- Amended(47) by Proposal 7684 (Alexis), 1 August 2014
-- Amended(48) by Proposal 7778 (Alexis), 14 August 2014
-- Amended(49) by Proposal 7807 (aranea), 10 August 2016
-- Amended(50) via Rule 2430 "Cleanup Time," 24 May 2017
-- Amended(51) by Proposal 7912 "Election Campaigns" (Alexis), 15 October 2017
+- change:
+    type: enactment
+  date: 2007-07-09
+  agent:
+    proposal: 5059
+- change:
+    type: amendment
+  date: 2007-07-25
+  agent:
+    proposal: 5096
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5108
+- change:
+    type: amendment
+  date: 2007-08-13
+  agent:
+    proposal: 5133
+- change:
+    type: amendment
+  date: 2007-09-23
+  agent:
+    proposal: 5224
+- change:
+    type: amendment
+  date: 2008-01-22
+  agent:
+    proposal: 5407
+- change:
+    type: amendment
+  date: 2008-03-01
+  agent:
+    proposal: 5452
+- change:
+    type: amendment
+  date: 2008-03-01
+  agent:
+    proposal: 5453
+- change:
+    type: amendment
+  date: 2008-04-23
+  agent:
+    proposal: 5491
+- change:
+    type: amendment
+  date: 2008-04-23
+  agent:
+    proposal: 5497
+- change:
+    type: amendment
+  date: 2008-04-23
+  agent:
+    proposal: 5499
+- change:
+    type: amendment
+  date: 2008-05-01
+  agent:
+    proposal: 5503
+- change:
+    type: amendment
+  date: 2008-07-29
+  agent:
+    proposal: 5608
+- change:
+    type: amendment
+  date: 2008-07-29
+  agent:
+    proposal: 5609
+- change:
+    type: amendment
+  date: 2008-09-08
+  agent:
+    proposal: 5683
+- change:
+    type: amendment
+  date: 2008-09-24
+  agent:
+    ratification:
+      document: SLR
+      agent:
+        without-objection: omd
+- change:
+    type: amendment
+  date: 2008-10-07
+  agent:
+    proposal: 5730
+- change:
+    type: amendment
+  date: 2008-10-30
+  agent:
+    proposal: 5806
+- change:
+    type: amendment
+  date: 2008-11-03
+  agent:
+    proposal: 5797
+- change:
+    type: amendment
+  date: 2008-11-06
+  agent:
+    proposal: 5831
+- change:
+    type: amendment
+  date: 2008-12-07
+  agent:
+    proposal: 5998
+- change:
+    type: committee-assignment
+    committee: Committee on Administration
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-03-31
+  agent:
+    proposal: 6157
+- change:
+    type: amendment
+  date: 2009-05-19
+  agent:
+    proposal: 6293
+- change:
+    type: amendment
+  date: 2009-05-19
+  agent:
+    proposal: 6296
+- change:
+    type: amendment
+  date: 2009-05-26
+  agent:
+    proposal: 6305
+- change:
+    type: amendment
+  date: 2009-06-23
+  agent:
+    proposal: 6356
+- change:
+    type: amendment
+  date: 2009-07-17
+  agent:
+    proposal: 6396
+- change:
+    type: amendment
+  date: 2009-07-30
+  agent:
+    proposal: 6403
+- change:
+    type: amendment
+  date: 2009-07-30
+  agent:
+    proposal: 6411
+- change:
+    type: amendment
+  date: 2010-03-10
+  agent:
+    proposal: 6651
+- change:
+    type: amendment
+  date: 2010-03-10
+  agent:
+    proposal: 6665
+- change:
+    type: amendment
+  date: 2010-04-25
+  agent:
+    proposal: 6696
+- change:
+    type: amendment
+  date: 2010-10-03
+  agent:
+    proposal: 6845
+- change:
+    type: amendment
+  date: 2011-03-20
+  agent:
+    proposal: 6969
+- change:
+    type: amendment
+  date: 2011-03-30
+  agent:
+    proposal: 6972
+- change:
+    type: amendment
+  date: 2013-05-27
+  agent:
+    proposal: 7425
+- change:
+    type: amendment
+  date: 2013-06-17
+  agent:
+    proposal: 7465
+- change:
+    type: amendment
+  date: 2013-06-17
+  agent:
+    proposal: 7470
+- change:
+    type: amendment
+  date: 2013-08-24
+  agent:
+    proposal: 7586
+- change:
+    type: amendment
+  date: 2013-12-22
+  agent:
+    proposal: 7610
+- change:
+    type: amendment
+  date: 2013-12-22
+  agent:
+    proposal: 7610
+- change:
+    type: amendment
+  date: 2013-12-22
+  agent:
+    proposal: 7610
+- change:
+    type: amendment
+  date: 2014-04-07
+  agent:
+    proposal: 7629
+- change:
+    type: amendment
+  date: 2014-05-01
+  agent:
+    proposal: 7632
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7645
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7654
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7658
+- change:
+    type: amendment
+  date: 2014-08-01
+  agent:
+    proposal: 7684
+- change:
+    type: amendment
+  date: 2014-08-14
+  agent:
+    proposal: 7778
+- change:
+    type: amendment
+  date: 2016-08-10
+  agent:
+    proposal: 7807
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    proposal: 2430
+- change:
+    type: amendment
+  date: 2017-10-15
+  agent:
+    proposal: 7912
 text: |
   A player CAN initiate an election for a specified office:
 

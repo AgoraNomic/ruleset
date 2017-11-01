@@ -1,14 +1,49 @@
 ---
 name: Order of the Hero of Agora Nomic
 history:
-- Created by Proposal 6016 (OscarMeyr), 18 December 2008
-- Amended(1) by cleaning (Murphy), 16 August 2009
-- Amended(2) by Proposal 6571 (ais523), 28 November 2009
-- Power changed from 2 to 3 by Proposal 6626 (Murphy), 20 February 2010
-- Amended(3) by Proposal 6626 (Murphy), 20 February 2010
-- Amended(4) by Proposal 7621 (G.), 23 February 2014
-- Amended(5) by Proposal 7647 (omd), 3 June 2014
-- Amended(6) by Proposal 7888 "BILLY MAYS HERE" (o, V.J. Rada), 26 September 2017
+- change:
+    type: enactment
+  date: 2008-12-18
+  agent:
+    proposal: 6016
+- change:
+    type: amendment
+  date: 2009-08-16
+  agent:
+    cleaning:
+      by: Murphy
+- change:
+    type: amendment
+  date: 2009-11-28
+  agent:
+    proposal: 6571
+- change:
+    type: power-change
+    oldpower: 2
+    newpower: 3
+  date: 2010-02-20
+  agent:
+    proposal: 6626
+- change:
+    type: amendment
+  date: 2010-02-20
+  agent:
+    proposal: 6626
+- change:
+    type: amendment
+  date: 2014-02-23
+  agent:
+    proposal: 7621
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7647
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7888
 text: |
  Heroic titles are Agora's premier patent titles of distinction, and
  CAN be awarded to persons for meritorious service only by a

@@ -3,24 +3,96 @@ name: The Rulekeepor
 history:
 - change:
     type: unknown
-- Amended(1) by Proposal 1735, Oct. 15 1995
-- Amended(2) by Proposal 2042, Dec. 11 1995
-- Amended(3) by Proposal 2048, Dec. 19 1995
-- Amended(4) by Proposal 2662, Sep. 12 1996
-- Amended(5) by Proposal 2696, Oct. 10 1996
-- Null-Amended(6) by Proposal 2710, Oct. 12 1996
-- Amended(7) by Proposal 2741 (Zefram), Nov. 7 1996, substantial
-- Infected and Amended(8) by Rule 1454, Nov. 27 1996, substantial (unattributed)
-- Amended(9) by Proposal 2783 (Chuck), Jan. 15 1997, substantial
-- Amended(10) by Proposal 3452 (Steve), Apr. 7 1997, substantial
-- Amended(11) by Proposal 3675 (Michael), Jan. 30 1998
-- Amended(12) by Proposal 3827 (Kolja A.), Feb. 4 1999
-- Amended(13) by Proposal 3871 (Peekee), Jun. 2 1999
-- Amended(14) by Proposal 3882 (harvel), Jul. 21 1999
-- Amended(15) by Proposal 3902 (Murphy), Sep. 6 1999
-- Amended(16) by Proposal 4002 (harvel), May 8 2000
-- Amended(17) by Proposal 4250 (harvel), 19 February 2002
-- Amended(18) by Proposal 5237 (AFO; disi.), 3 October 2007
+- change:
+    type: amendment
+  date: 1995-10-15
+  agent:
+    proposal: 1735
+- change:
+    type: amendment
+  date: 1995-12-11
+  agent:
+    proposal: 2042
+- change:
+    type: amendment
+  date: 1995-12-19
+  agent:
+    proposal: 2048
+- change:
+    type: amendment
+  date: 1996-09-12
+  agent:
+    proposal: 2662
+- change:
+    type: amendment
+  date: 1996-10-10
+  agent:
+    proposal: 2696
+- change:
+    type: amendment
+  date: 1996-11-07
+  agent:
+    proposal: 2741
+  substantial: true
+- change:
+    type: infection-amendment
+  date: 1996-11-27
+  agent:
+    rule: 1454
+  substantial: true
+  unattributed: true
+- change:
+    type: amendment
+  date: 1997-01-15
+  agent:
+    proposal: 2783
+  substantial: true
+- change:
+    type: amendment
+  date: 1997-04-07
+  agent:
+    proposal: 3452
+  substantial: true
+- change:
+    type: amendment
+  date: 1998-01-30
+  agent:
+    proposal: 3675
+- change:
+    type: amendment
+  date: 1999-02-04
+  agent:
+    proposal: 3827
+- change:
+    type: amendment
+  date: 1999-06-02
+  agent:
+    proposal: 3871
+- change:
+    type: amendment
+  date: 1999-07-21
+  agent:
+    proposal: 3882
+- change:
+    type: amendment
+  date: 1999-09-06
+  agent:
+    proposal: 3902
+- change:
+    type: amendment
+  date: 2000-05-08
+  agent:
+    proposal: 4002
+- change:
+    type: amendment
+  date: 2002-02-19
+  agent:
+    proposal: 4250
+- change:
+    type: amendment
+  date: 2007-10-03
+  agent:
+    proposal: 5237
 text: |
   The Rulekeepor is an office; its holder is responsible for
   maintaining the text of the rules of Agora.

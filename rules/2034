@@ -1,16 +1,56 @@
 ---
 name: Vote Protection and Cutoff for Challenges
 history:
-- Created by Proposal 4366 (Steve), 23 August 2002
-- Amended(1) by Proposal 4637 (Murphy), 19 February 2005
-- Amended(2) by Proposal 4811 (Maud, G.), 20 June 2005
-- Amended(3) by Proposal 5212 (Murphy), 8 September 2007
-- Amended(4) by Proposal 5275 (Murphy), 7 November 2007
-- Amended(5) by Proposal 6139 (Murphy), 15 March 2009
-- Amended(6) by Proposal 6180 (Murphy; disi.), 7 April 2009
-- Amended(7) by Proposal 7355 (ais523), 7 April 2013
-- Amended(8) by Proposal 7585 (omd), 24 August 2013
-- Amended(9) via Rule 2430 "Cleanup Time," 24 May 2017
+- change:
+    type: enactment
+  date: 2002-08-23
+  agent:
+    proposal: 4366
+- change:
+    type: amendment
+  date: 2005-02-19
+  agent:
+    proposal: 4637
+- change:
+    type: amendment
+  date: 2005-06-20
+  agent:
+    proposal: 4811
+- change:
+    type: amendment
+  date: 2007-09-08
+  agent:
+    proposal: 5212
+- change:
+    type: amendment
+  date: 2007-11-07
+  agent:
+    proposal: 5275
+- change:
+    type: amendment
+  date: 2009-03-15
+  agent:
+    proposal: 6139
+- change:
+    type: amendment
+  date: 2009-04-07
+  agent:
+    proposal: 6180
+- change:
+    type: amendment
+  date: 2013-04-07
+  agent:
+    proposal: 7355
+- change:
+    type: amendment
+  date: 2013-08-24
+  agent:
+    proposal: 7585
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 text: |
   A public message purporting to resolve an Agoran decision
   constitutes self-ratifying claims that

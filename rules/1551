@@ -1,29 +1,135 @@
 ---
 name: Ratification
 history:
-- Created by Proposal 2425, Jan. 30 1996
-- Infected and Amended(1) by Rule 1454, Feb. 4 1997, substantial (unattributed)
-- Amended(2) by Proposal 3445 (General Chaos), Mar. 26 1997, substantial
-- Amended(3) by Proposal 3704 (General Chaos), Mar. 19 1998
-- Amended(4) by Proposal 3889 (harvel), Aug. 9 1999
-- Amended(5) by Proposal 4147 (Wes), 13 May 2001
-- Power changed from 1 to 3 by Proposal 4832 (Maud), 6 August 2005
-- Amended(6) by Proposal 4832 (Maud), 6 August 2005
-- Amended(7) by Proposal 4868 (G.), 27 August 2006
-- Amended(8) by Proposal 5101 (Zefram), 1 August 2007
-- Amended(9) by Proposal 5212 (Murphy), 8 September 2007
-- Amended(10) by Proposal 5275 (Murphy), 7 November 2007
-- Amended(11) by Proposal 5315 (Murphy), 28 November 2007
-- Amended(12) by Proposal 5459 (Murphy), 9 March 2008
-- Amended(13) by Proposal 6570 (Murphy), 28 November 2009
-- Power changed from 3 to 3.1 by Proposal 6806 (Alexis), 27 August 2010
-- Amended(14) by Proposal 6930 (ais523), 2 January 2011
-- Amended(15) by Proposal 6938 (omd), 2 January 2011
-- Power changed from 3.1 to 3 by SLR ratification (Proposal 6839; omd), 2 January 2011
-- Power changed from 3 to 3.1 by Proposal 7262 (omd), 7 July 2012
-- Amended(16) by Proposal 7568 (omd, Fool), 24 August 2013
-- Amended(17) by Proposal 7586 (omd), 24 August 2013
-- Amended(18) by Proposal 7664 (omd), 3 June 2014
+- change:
+    type: enactment
+  date: 1996-01-30
+  agent:
+    proposal: 2425
+- change:
+    type: infection-amendment
+  date: 1997-02-04
+  agent:
+    rule: 1454
+  substantial: true
+  unattributed: true
+- change:
+    type: amendment
+  date: 1997-03-26
+  agent:
+    proposal: 3445
+  substantial: true
+- change:
+    type: amendment
+  date: 1998-03-19
+  agent:
+    proposal: 3704
+- change:
+    type: amendment
+  date: 1999-08-09
+  agent:
+    proposal: 3889
+- change:
+    type: amendment
+  date: 2001-05-13
+  agent:
+    proposal: 4147
+- change:
+    type: power-change
+    oldpower: 1
+    newpower: 3
+  date: 2005-08-06
+  agent:
+    proposal: 4832
+- change:
+    type: amendment
+  date: 2005-08-06
+  agent:
+    proposal: 4832
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4868
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5101
+- change:
+    type: amendment
+  date: 2007-09-08
+  agent:
+    proposal: 5212
+- change:
+    type: amendment
+  date: 2007-11-07
+  agent:
+    proposal: 5275
+- change:
+    type: amendment
+  date: 2007-11-28
+  agent:
+    proposal: 5315
+- change:
+    type: amendment
+  date: 2008-03-09
+  agent:
+    proposal: 5459
+- change:
+    type: amendment
+  date: 2009-11-28
+  agent:
+    proposal: 6570
+- change:
+    type: power-change
+    oldpower: 3
+    newpower: 3.1
+  date: 2010-08-27
+  agent:
+    proposal: 6806
+- change:
+    type: amendment
+  date: 2011-01-02
+  agent:
+    proposal: 6930
+- change:
+    type: amendment
+  date: 2011-01-02
+  agent:
+    proposal: 6938
+- change:
+    type: power-change
+    oldpower: 3.1
+    newpower: 3
+  date: 2011-01-02
+  agent:
+    ratification:
+      document: SLR
+      agent:
+        proposal: 6839
+- change:
+    type: power-change
+    oldpower: 3
+    newpower: 3.1
+  date: 2012-07-07
+  agent:
+    proposal: 7262
+- change:
+    type: amendment
+  date: 2013-08-24
+  agent:
+    proposal: 7568
+- change:
+    type: amendment
+  date: 2013-08-24
+  agent:
+    proposal: 7586
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7664
 text: |
   A public document is part (possibly all) of a public message.
 

@@ -1,28 +1,118 @@
 ---
 name: The Logical Rulesets
 history:
-- Created by Proposal 2783 (Chuck), Jan 15 1997
-- Amended(1) by Proposal 3500 (Crito), Jun. 3 1997, substantial (unattributed)
-- Amended(2) by Proposal 3624 (Chuck), Dec. 29 1997
-- Amended(3) by Proposal 3704 (General Chaos), Mar. 19 1998
-- Amended(4) by Proposal 3902 (Murphy), Sep. 6 1999
-- Amended(5) by Proposal 4002 (harvel), May 8 2000
-- Amended(6) by Proposal 4811 (Maud, G.), 20 June 2005
-- Amended(7) by Proposal 4841 (G.), 27 October 2005
-- Amended(8) by Proposal 4868 (G.), 27 August 2006
-- Amended(9) by Proposal 4887 (Murphy), 22 January 2007
-- Amended(10) by Proposal 5006 (Zefram), 18 June 2007
-- Amended(11) by Proposal 5110 (Murphy), 2 August 2007
-- Amended(12) by Proposal 5334 (Murphy), 5 December 2007
-- Amended(13) by Proposal 5956 (omd), 17 November 2008
-- Amended(14) by Proposal 6019 (Murphy), 22 December 2008
-- Amended(15) by Proposal 6026 (Murphy), 22 December 2008
-- Amended(16) by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(17) by Proposal 6124 (ehird), 15 March 2009
-- Amended(18) by Proposal 6662 (Murphy; disi.), 10 March 2010
-- Amended(19) by Proposal 7599 (Walker), 14 September 2013
-- Amended(20) by Proposal 7604 (G.), 13 December 2013
-- Amended(21) via Rule 2430 "Cleanup Time," 24 May 2017
+- change:
+    type: enactment
+  date: 1997-01-15
+  agent:
+    proposal: 2783
+- change:
+    type: amendment
+  date: 1997-06-03
+  agent:
+    proposal: 3500
+  substantial: true
+  unattributed: true
+- change:
+    type: amendment
+  date: 1997-12-29
+  agent:
+    proposal: 3624
+- change:
+    type: amendment
+  date: 1998-03-19
+  agent:
+    proposal: 3704
+- change:
+    type: amendment
+  date: 1999-09-06
+  agent:
+    proposal: 3902
+- change:
+    type: amendment
+  date: 2000-05-08
+  agent:
+    proposal: 4002
+- change:
+    type: amendment
+  date: 2005-06-20
+  agent:
+    proposal: 4811
+- change:
+    type: amendment
+  date: 2005-10-27
+  agent:
+    proposal: 4841
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4868
+- change:
+    type: amendment
+  date: 2007-01-22
+  agent:
+    proposal: 4887
+- change:
+    type: amendment
+  date: 2007-06-18
+  agent:
+    proposal: 5006
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5110
+- change:
+    type: amendment
+  date: 2007-12-05
+  agent:
+    proposal: 5334
+- change:
+    type: amendment
+  date: 2008-11-17
+  agent:
+    proposal: 5956
+- change:
+    type: amendment
+  date: 2008-12-22
+  agent:
+    proposal: 6019
+- change:
+    type: amendment
+  date: 2008-12-22
+  agent:
+    proposal: 6026
+- change:
+    type: amendment
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-03-15
+  agent:
+    proposal: 6124
+- change:
+    type: amendment
+  date: 2010-03-10
+  agent:
+    proposal: 6662
+- change:
+    type: amendment
+  date: 2013-09-14
+  agent:
+    proposal: 7599
+- change:
+    type: amendment
+  date: 2013-12-13
+  agent:
+    proposal: 7604
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 text: |
   The Short Logical Ruleset (SLR) is a format of the ruleset. In
   this format, each rule is assigned to a category, and the rules

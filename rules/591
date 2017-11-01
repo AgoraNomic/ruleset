@@ -1,56 +1,265 @@
 ---
 name: Delivering Judgements
 history:
-- Initial Mutable Rule 216, Jun. 30 1993
-- Amended by Proposal 409 (Alexx), Aug. 26 1993
-- Amended by Proposal 591 (KoJen), Oct. 21 1993
-- Amended(1) by Proposal 1320, Nov. 21 1994
-- Amended(2) by Proposal 1487, Mar. 15 1995
-- Amended(3) by Proposal 2457, Feb. 16 1996
-- Amended(4) by Proposal 2662, Sep. 12 1996
-- Amended(5) by Proposal 2710, Oct. 12 1996
-- Infected and Amended(6) by Rule 1454, Nov. 27 1996, substantial (unattributed)
-- Amended(7) by Proposal 3452 (Steve), Apr. 7 1997, substantial
-- Amended(8) by Proposal 3463 (Harlequin), Apr. 17 1997, substantial
-- Infected and Amended(9) by Rule 1454, May 7 1997, substantial (unattributed)
-- Amended(10) by Rule 591, May 21 1997, substantial
-- Amended(11) by Proposal 3629 (General Chaos), Dec. 29 1997, substantial
-- Amended(12) by Proposal 3645 (elJefe), Dec. 29 1997
-- Amended(13) by Proposal 3889 (harvel), Aug. 9 1999
-- Amended(14) by Proposal 3897 (harvel), Aug. 27 1999
-- Amended(15) by Proposal 3968 (harvel), Feb. 4 2000
-- Amended(16) by Proposal 3998 (harvel), May 2 2000
-- Amended(17) by Proposal 4147 (Wes), 13 May 2001
-- Amended(18) by Proposal 4298 (Murphy), 17 May 2002
-- Amended(19) by Proposal 5068 (Zefram), 11 July 2007
-- Retitled by Proposal 5086 (Zefram), 1 August 2007
-- Power changed from 1 to 1.7 by Proposal 5086 (Zefram), 1 August 2007
-- Amended(20) by Proposal 5086 (Zefram), 1 August 2007
-- Amended(21) by Proposal 5296 (root), 28 November 2007
-- Amended(22) by Proposal 5360 (Murphy), 20 December 2007
-- Amended(23) by Proposal 5371 (Zefram), 20 December 2007
-- Amended(24) by Proposal 5425 (Murphy), 6 February 2008
-- Amended(25) by Proposal 5470 (Murphy), 24 March 2008
-- Amended(26) by Proposal 5476 (Murphy; disi.), 27 March 2008
-- Amended(27) by Proposal 5964 (Murphy), 18 November 2008
-- Amended(28) by Proposal 6002 (Murphy), 7 December 2008
-- Amended(29) by Proposal 6024 (Murphy), 22 December 2008
-- Amended(30) by Proposal 6044 (G.), 13 January 2009
-- Assigned to Committee on the Judiciary by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(31) by Proposal 6571 (ais523), 28 November 2009
-- Amended(32) by Proposal 6931 (omd), 2 January 2011
-- Amended(33) by Proposal 7022 (Walker, Murphy, omd), 5 May 2011
-- Amended(34) by Proposal 7050 (omd), 16 May 2011
-- Amended(35) by Proposal 7078 (omd), 16 June 2011
-- Amended(36) by Proposal 7266 (omd), 25 July 2012
-- Amended(37) by Proposal 7293 (Murphy), 9 September 2012
-- Amended(38) by Proposal 7610 (G.), 22 December 2013
-- Retitled and amended(39) by Proposal 7616 (G.), 16 January 2014
-- Amended(40) by Proposal 7629 (Alexis), 7 April 2014
-- Amended(41) by Proposal 7694 (omd), 23 October 2014
-- Amended(42) by Proposal 7776 (omd), 14 August 2015
-- Amended(43) by Proposal 7859 (Quazie, grok), 27 June 2017
-- Amended(44) by Proposal 7899 "Arbitor's Union" (G.), 03 October 2017
+- change:
+    type: initial
+    id: 216
+    mutability: mutable
+  date: 1993-06-30
+- change:
+    type: amendment
+    uncounted: true
+  date: 1993-08-26
+  agent:
+    proposal: 409
+- change:
+    type: amendment
+    uncounted: true
+  date: 1993-10-21
+  agent:
+    proposal: 591
+- change:
+    type: amendment
+  date: 1994-11-21
+  agent:
+    proposal: 1320
+- change:
+    type: amendment
+  date: 1995-03-15
+  agent:
+    proposal: 1487
+- change:
+    type: amendment
+  date: 1996-02-16
+  agent:
+    proposal: 2457
+- change:
+    type: amendment
+  date: 1996-09-12
+  agent:
+    proposal: 2662
+- change:
+    type: amendment
+  date: 1996-10-12
+  agent:
+    proposal: 2710
+- change:
+    type: infection-amendment
+  date: 1996-11-27
+  agent:
+    rule: 1454
+- change:
+    type: amendment
+  date: 1997-04-07
+  agent:
+    proposal: 3452
+  substantial: true
+- change:
+    type: amendment
+  date: 1997-04-17
+  agent:
+    proposal: 3463
+  substantial: true
+- change:
+    type: infection-amendment
+  date: 1997-05-07
+  agent:
+    rule: 1454
+- change:
+    type: amendment
+  date: 1997-05-21
+  agent:
+    rule: 591
+  substantial: true
+- change:
+    type: amendment
+  date: 1997-12-29
+  agent:
+    proposal: 3629
+  :substantial true
+- change:
+    type: amendment
+  date: 1997-12-29
+  agent:
+    proposal: 3645
+- change:
+    type: amendment
+  date: 1999-08-09
+  agent:
+    proposal: 3889
+- change:
+    type: amendment
+  date: 1999-08-27
+  agent:
+    proposal: 3897
+- change:
+    type: amendment
+  date: 2000-02-04
+  agent:
+    proposal: 3968
+- change:
+    type: amendment
+  date: 2000-05-02
+  agent:
+    proposal: 3998
+- change:
+    type: amendment
+  date: 2001-05-13
+  agent:
+    proposal: 4147
+- change:
+    type: amendment
+  date: 2002-05-17
+  agent:
+    proposal: 4298
+- change:
+    type: amendment
+  date: 2007-07-11
+  agent:
+    proposal: 5068
+- change:
+    type: retitling
+  date: 2007-07-11
+  agent:
+    proposal: 5068
+- change:
+    type: power-change
+    oldpower: 1
+    newpower: 1.7
+  date: 2007-07-11
+  agent:
+    proposal: 5068
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5086
+- change:
+    type: amendment
+  date: 2007-11-28
+  agent:
+    proposal: 5296
+- change:
+    type: amendment
+  date: 2007-12-20
+  agent:
+    proposal: 5360
+- change:
+    type: amendment
+  date: 2007-12-20
+  agent:
+    proposal: 5371
+- change:
+    type: amendment
+  date: 2008-02-06
+  agent:
+    proposal: 5425
+- change:
+    type: amendment
+  date: 2008-03-24
+  agent:
+    proposal: 5470
+- change:
+    type: amendment
+  date: 2008-03-27
+  agent:
+    proposal: 5476
+- change:
+    type: amendment
+  date: 2008-11-18
+  agent:
+    proposal: 5964
+- change:
+    type: amendment
+  date: 2008-12-07
+  agent:
+    proposal: 6002
+- change:
+    type: amendment
+  date: 2008-12-22
+  agent:
+    proposal: 6024
+- change:
+    type: amendment
+  date: 2009-01-13
+  agent:
+    proposal: 6044
+- change:
+    type: committee-assignment
+    committee: Committee on the Judiciary
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-11-28
+  agent:
+    proposal: 6571
+- change:
+    type: amendment
+  date: 2011-01-02
+  agent:
+    proposal: 6931
+- change:
+    type: amendment
+  date: 2011-05-05
+  agent:
+    proposal: 7022
+- change:
+    type: amendment
+  date: 2011-05-16
+  agent:
+    proposal: 7050
+- change:
+    type: amendment
+  date: 2011-06-16
+  agent:
+    proposal: 7078
+- change:
+    type: amendment
+  date: 2012-07-25
+  agent:
+    proposal: 7266
+- change:
+    type: amendment
+  date: 2012-09-09
+  agent:
+    proposal: 7293
+- change:
+    type: amendment
+  date: 2013-12-22
+  agent:
+    proposal: 7610
+- change:
+    type: retitling-amendment
+  date: 2014-01-16
+  agent:
+    proposal: 7616
+- change:
+    type: amendment
+  date: 2014-04-07
+  agent:
+    proposal: 7629
+- change:
+    type: amendment
+  date: 2014-10-23
+  agent:
+    proposal: 7694
+- change:
+    type: amendment
+  date: 2015-08-14
+  agent:
+    proposal: 7776
+- change:
+    type: amendment
+  date: 2017-06-27
+  agent:
+    proposal: 7859
+- change:
+    type: amendment
+  date: 2017-10-03
+  agent:
+    proposal: 7899
 text: |
   When a CFJ is open and assigned to a judge, that judge CAN assign
   a valid judgement to it by announcement, and SHALL do so in a

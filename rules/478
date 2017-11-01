@@ -1,42 +1,191 @@
 ---
 name: Fora
 history:
-- Created by Proposal 478 (Jim Shea), Sep. 20 1993
-- Amended(1) by Proposal 1477, Mar. 8 1995
-- Amended(2) by Proposal 1576, Apr. 28 1995
-- Amended(3) by Proposal 1610, Jul. 10 1995
-- Amended(4) by Proposal 1700, Sep. 1 1995
-- Amended(5) by Proposal 2052, Dec. 19 1995
-- Amended(6) by Proposal 2400, Jan. 20 1996
-- Amended(7) by Proposal 2739 (Swann), Nov. 7 1996, substantial
-- Amended(8) by Proposal 2791 (Andre), Jan. 30 1997, substantial
-- Amended(9) by Proposal 3521 (Chuck), Jun. 23 1997, substantial
-- Amended(10) by Proposal 3823 (oerjan), Jan. 21 1999
-- Amended(11) by Proposal 4147 (Wes), 13 May 2001
-- Amended(12) by Proposal 4248 (Murphy), 19 February 2002
-- Amended(13) by Proposal 4456 (Maud), 22 February 2003
-- Power changed from 1 to 3 by Proposal 4690 (root), 18 April 2005
-- Amended(14) by Proposal 4690 (root), 18 April 2005
-- Amended(15) by Proposal 4833 (Maud), 6 August 2005
-- Amended(16) by Proposal 4866 (G.), 27 August 2006
-- Amended(17) by Proposal 4939 (Murphy), 29 April 2007
-- Amended(18) by Proposal 5014 (Zefram), 24 June 2007
-- Amended(19) by Proposal 5111 (Murphy), 2 August 2007
-- Amended(20) by Proposal 5172 (Murphy), 29 August 2007
-- Amended(21) by Proposal 5272 (Murphy; disi.), 7 November 2007
-- Amended(22) by Proposal 5291 (root), 14 November 2007
-- Amended(23) by Proposal 5535 (Murphy), 7 June 2008
-- Amended(24) by Proposal 5613 (Quazie), 29 July 2008
-- Amended(25) by Proposal 5639 (Murphy), 29 July 2008
-- Amended(26) by Proposal 5818 (omd), 1 November 2008
-- Amended(27) by Proposal 6022 (Murphy), 22 December 2008
-- Amended(28) by Proposal 6785 (Alexis; disi.), 22 August 2010
-- Amended(29) by Proposal 6963 (Murphy), 20 March 2011
-- Amended(30) by Proposal 7073 (woggle), 16 June 2011
-- Amended(31) by Proposal 7614 (G.), 13 January 2014
-- Amended(32) by Proposal 7632 (Alexis), 1 May 2014
-- Amended(33) by Proposal 7810 (nichdel), 11 September 2016
-- Amended(34) via Rule 2430 "Cleanup Time," 24 May 2017
+- change:
+    type: enactment
+  date: 1993-09-20
+  agent:
+    proposal: 478
+- change:
+    type: amendment
+  date: 1995-03-08
+  agent:
+    proposal: 1477
+- change:
+    type: amendment
+  date: 1995-04-28
+  agent:
+    proposal: 1576
+- change:
+    type: amendment
+  date: 1995-07-10
+  agent:
+    proposal: 1610
+- change:
+    type: amendment
+  date: 1995-09-01
+  agent:
+    proposal: 1700
+- change:
+    type: amendment
+  date: 1995-12-19
+  agent:
+    proposal: 2052
+- change:
+    type: amendment
+  date: 1996-01-20
+  agent:
+    proposal: 2400
+- change:
+    type: amendment
+  date: 1996-11-07
+  agent:
+    proposal: 2739
+  substantial: true
+- change:
+    type: amendment
+  date: 1997-01-30
+  agent:
+    proposal: 2791
+  substantial: true
+- change:
+    type: amendment
+  date: 1997-06-23
+  agent:
+    proposal: 3521
+  substantial: true
+- change:
+    type: amendment
+  date: 1999-01-21
+  agent:
+    proposal: 3823
+- change:
+    type: amendment
+  date: 2001-05-13
+  agent:
+    proposal: 4147
+- change:
+    type: amendment
+  date: 2002-02-19
+  agent:
+    proposal: 4248
+- change:
+    type: amendment
+  date: 2003-02-22
+  agent:
+    proposal: 4456
+- change:
+    type: power-change
+    oldpower: 1
+    newpower: 3
+  date: 2005-04-18
+  agent:
+    proposal: 4690
+- change:
+    type: amendment
+  date: 2005-04-18
+  agent:
+    proposal: 4690
+- change:
+    type: amendment
+  date: 2005-08-06
+  agent:
+    proposal: 4833
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4866
+- change:
+    type: amendment
+  date: 2007-04-29
+  agent:
+    proposal: 4939
+- change:
+    type: amendment
+  date: 2007-06-24
+  agent:
+    proposal: 5014
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5111
+- change:
+    type: amendment
+  date: 2007-08-29
+  agent:
+    proposal: 5172
+- change:
+    type: amendment
+  date: 2007-11-07
+  agent:
+    proposal: 5272
+- change:
+    type: amendment
+  date: 2007-11-14
+  agent:
+    proposal: 5291
+- change:
+    type: amendment
+  date: 2008-06-07
+  agent:
+    proposal: 5535
+- change:
+    type: amendment
+  date: 2008-07-29
+  agent:
+    proposal: 5613
+- change:
+    type: amendment
+  date: 2008-07-29
+  agent:
+    proposal: 5639
+- change:
+    type: amendment
+  date: 2008-11-01
+  agent:
+    proposal: 5818
+- change:
+    type: amendment
+  date: 2008-12-22
+  agent:
+    proposal: 6022
+- change:
+    type: amendment
+  date: 2010-08-22
+  agent:
+    proposal: 6785
+- change:
+    type: amendment
+  date: 2011-03-20
+  agent:
+    proposal: 6963
+- change:
+    type: amendment
+  date: 2011-06-16
+  agent:
+    proposal: 7073
+- change:
+    type: amendment
+  date: 2014-01-13
+  agent:
+    proposal: 7614
+- change:
+    type: amendment
+  date: 2014-05-01
+  agent:
+    proposal: 7632
+- change:
+    type: amendment
+  date: 2016-09-11
+  agent:
+    proposal: 7810
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 text: |
   Freedom of speech being essential for the healthy functioning of
   any non-Imperial nomic, it is hereby resolved that no Player shall

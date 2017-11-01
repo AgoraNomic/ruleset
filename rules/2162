@@ -1,17 +1,61 @@
 ---
 name: Switches
 history:
-- Created by Proposal 5111 (Murphy), 2 August 2007
-- Amended(1) by Proposal 5271 (Murphy), 7 November 2007
-- Amended(2) by Proposal 7247 (omd), 10 June 2012
-- Amended(3) by Proposal 7289 (G.), 9 September 2012
-- Amended(4) by Proposal 7425 (Walker, G., Murphy, omd), 27 May 2013
-- Amended(5) by Proposal 7649 (omd), 3 June 2014
-- Amended(6) by Proposal 7735 (aranea), 2 May 2015
-- Amended(7) by Proposal 7828 (aranea, ais523), 7 November 2016
-- Amended(8) via Rule 2430 "Cleanup Time," 24 May 2017
-- Amended(9) by Proposal 7902 "Switch no-ops" (G.), 03 October 2017
-- Amended(10) by Proposal 7903 "Numerical Switches v2" (G.), 03 October 2017
+- change:
+    type: enactment
+  date: 2007-08-02
+  agent:
+    proposal: 5111
+- change:
+    type: amendment
+  date: 2007-11-07
+  agent:
+    proposal: 5271
+- change:
+    type: amendment
+  date: 2012-06-10
+  agent:
+    proposal: 7247
+- change:
+    type: amendment
+  date: 2012-09-09
+  agent:
+    proposal: 7289
+- change:
+    type: amendment
+  date: 2013-05-27
+  agent:
+    proposal: 7425
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7649
+- change:
+    type: amendment
+  date: 2015-05-02
+  agent:
+    proposal: 7735
+- change:
+    type: amendment
+  date: 2016-11-07
+  agent:
+    proposal: 7828
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
+- change:
+    type: amendment
+  date: 2017-10-03
+  agent:
+    proposal: 7902
+- change:
+    type: amendment
+  date: 2017-10-03
+  agent:
+    proposal: 7903
 text: |
   A type of switch is a property that the rules define as a switch,
   and specify the following:

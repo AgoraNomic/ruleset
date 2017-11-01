@@ -1,14 +1,46 @@
 ---
 name: Self-Ratification
 history:
-- Created by Proposal 5459 (Murphy), 9 March 2008
-- Amended(1) by Proposal 6106 (Murphy, ais523), 22 February 2009
-- Amended(2) by Proposal 6243 (Murphy), 9 May 2009
-- Amended(3) by Proposal 6622 (Murphy), 20 February 2010
-- Amended(4) by Proposal 6744 (Murphy), 1 July 2010
-- Amended(5) by Proposal 6922 (Murphy; disi.), 2 January 2011
-- Amended(6) by Proposal 7420 (omd), 27 May 2013
-- Amended(7) via Rule 2430 "Cleanup Time," 24 May 2017
+- change:
+    type: enactment
+  date: 2008-03-09
+  agent:
+    proposal: 5459
+- change:
+    type: amendment
+  date: 2009-02-22
+  agent:
+    proposal: 6106
+- change:
+    type: amendment
+  date: 2009-05-09
+  agent:
+    proposal: 6243
+- change:
+    type: amendment
+  date: 2010-02-20
+  agent:
+    proposal: 6622
+- change:
+    type: amendment
+  date: 2010-07-01
+  agent:
+    proposal: 6744
+- change:
+    type: amendment
+  date: 2011-01-02
+  agent:
+    proposal: 6922
+- change:
+    type: amendment
+  date: 2013-05-27
+  agent:
+    proposal: 7420
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 text: |
   A public document defined by the rules as self-ratifying is
   ratified when it is continuously undoubted for one week.

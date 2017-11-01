@@ -1,13 +1,41 @@
 ---
 name: Ratification Without Objection
 history:
-- Created by Proposal 5459 (Murphy), 9 March 2008
-- Amended(1) by Proposal 6048 (Wooble), 13 January 2009
-- Amended(2) by Proposal 6174 (woggle), 7 April 2009
-- Amended(3) by Proposal 6340 (G.), 11 June 2009
-- Amended(4) by Proposal 6754 (Alexis; disi.), 2 August 2010
-- Amended(5) by Proposal 7451 (omd), 10 June 2013
-- Amended(6) by Proposal 7680 (Alexis), 12 July 2014
+- change:
+    type: enactment
+  date: 2008-03-09
+  agent:
+    proposal: 5459
+- change:
+    type: amendment
+  date: 2009-01-13
+  agent:
+    proposal: 6048
+- change:
+    type: amendment
+  date: 2009-04-07
+  agent:
+    proposal: 6174
+- change:
+    type: amendment
+  date: 2009-06-11
+  agent:
+    proposal: 6340
+- change:
+    type: amendment
+  date: 2010-08-02
+  agent:
+    proposal: 6754
+- change:
+    type: amendment
+  date: 2013-06-10
+  agent:
+    proposal: 7451
+- change:
+    type: amendment
+  date: 2014-07-12
+  agent:
+    proposal: 7680
 text: |
   Any player CAN, without objection, ratify a public document,
   specifying its scope.

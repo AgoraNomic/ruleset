@@ -1,25 +1,109 @@
 ---
 name: Rule Changes
 history:
-- Created by Proposal 4894 (Murphy), 12 February 2007
-- Renumbered from 2131 to 105 by Proposal 4894 (Murphy), 12 February 2007
-- Power changed from 1 to 3 by Proposal 4894 (Murphy), 12 February 2007
-- Retitled by Proposal 4894 (Murphy), 12 February 2007
-- Amended(1) by Proposal 4894 (Murphy), 12 February 2007
-- Amended(2) by Proposal 4940 (Zefram), 29 April 2007
-- Amended(3) by Proposal 5110 (Murphy), 2 August 2007
-- Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(4) by Proposal 6734 (omd), 6 June 2010
-- Amended(5) by Proposal 6741 (omd; disi.), 1 July 2010
-- Amended(6) by Proposal 7433 (Walker), 27 May 2013
-- Amended(7) by Proposal 7607 (OscarMeyr), 13 December 2013
-- Amended(8) by Proposal 7614 (G.), 13 January 2014
-- Amended(9) by SLR ratification (Proposal 7638; omd), 1 May 2014
-- Amended(10) by Proposal 7647 (omd), 3 June 2014
-- Amended(11) by Proposal 7710 (G.), 3 November 2014
-- Amended(12) by Proposal 7759 (G.), 19 July 2015
-- Amended(13) via Rule 2430 "Cleanup Time," 24 May 2017
-- Amended(14) by Proposal 7888 "BILLY MAYS HERE" (o, V.J. Rada), 26 September 2017
+- change:
+    type: enactment
+  date: 2007-02-12
+  agent:
+    proposal: 4894
+- change:
+    type: renumbering
+    oldid: 2131
+    newid: 105
+  date: 2007-02-12
+  agent:
+    proposal: 4894
+- change:
+    type: power-change
+    oldpower: 1
+    newpower: 3
+  date: 2007-02-12
+  agent:
+    proposal: 4894
+- change:
+    type: retitling
+  date: 2007-02-12
+  agent:
+    proposal: 4894
+- change:
+    type: amendment
+  date: 2007-02-12
+  agent:
+    proposal: 4894
+- change:
+    type: amendment
+  date: 2007-04-29
+  agent:
+    proposal: 4940
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5110
+- change:
+    type: committee-assignment
+    committee: Committee on Rules
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2010-06-06
+  agent:
+    proposal: 6734
+- change:
+    type: amendment
+  date: 2010-07-01
+  agent:
+    proposal: 6741
+- change:
+    type: amendment
+  date: 2013-05-27
+  agent:
+    proposal: 7433
+- change:
+    type: amendment
+  date: 2013-12-13
+  agent:
+    proposal: 7607
+- change:
+    type: amendment
+  date: 2014-01-13
+  agent:
+    proposal: 7614
+- change:
+    type: amendment
+  date: 2014-05-01
+  agent:
+    ratification:
+      document: SLR
+      agent:
+        proposal: 7638
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7647
+- change:
+    type: amendment
+  date: 2014-11-03
+  agent:
+    proposal: 7710
+- change:
+    type: amendment
+  date: 2015-07-19
+  agent:
+    proposal: 7759
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7888
 text: |
   Where permitted by other rules, an instrument generally can, as
   part of its effect,

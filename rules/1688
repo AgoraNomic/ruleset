@@ -1,16 +1,57 @@
 ---
 name: Power
 history:
-- Created by Proposal 3445 (General Chaos), Mar. 26 1997
-- Amended(1) by Proposal 3994 (harvel), Apr. 20 2000
-- Amended(2) by Proposal 4811 (Maud, G.), 20 June 2005
-- Amended(3) by Proposal 4940 (Zefram), 29 April 2007
-- Amended(4) by Proposal 5276 (Murphy, Pavitra, Zefram), 7 November 2007
-- Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(5) by Proposal 6513 (Alexis; disi.), 3 October 2009
-- Amended(6) by Proposal 6815 (Murphy, ais523), 4 September 2010
-- Amended(7) by Proposal 7759 (G.), 19 July 2015
-- Amended(8) by Proposal 7781 (the Warrigal), 14 August 2015
+- change:
+    type: enactment
+  date: 1997-03-26
+  agent:
+    proposal: 3445
+- change:
+    type: amendment
+  date: 2000-04-20
+  agent:
+    proposal: 3994
+- change:
+    type: amendment
+  date: 2005-06-20
+  agent:
+    proposal: 4811
+- change:
+    type: amendment
+  date: 2007-04-29
+  agent:
+    proposal: 4940
+- change:
+    type: amendment
+  date: 2007-11-07
+  agent:
+    proposal: 5276
+- change:
+    type: committee-assignment
+    committee: Committee on Rules
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-10-03
+  agent:
+    proposal: 6513
+- change:
+    type: amendment
+  date: 2010-09-04
+  agent:
+    proposal: 6815
+- change:
+    type: amendment
+  date: 2015-07-19
+  agent:
+    proposal: 7759
+- change:
+    type: amendment
+  date: 2015-08-14
+  agent:
+    proposal: 7781
 text: |
   The Power of an entity is a non-negative rational number. An
   Instrument is an entity with positive Power.

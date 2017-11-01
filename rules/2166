@@ -1,31 +1,143 @@
 ---
 name: Assets
 history:
-- Created by Proposal 5173 (Murphy), 29 August 2007
-- Amended(1) by Proposal 5216 (Murphy), 13 September 2007
-- Amended(2) by Proposal 5388 (Murphy), 1 January 2008
-- Amended(3) by Proposal 5475 (Murphy), 24 March 2008
-- Amended(4) by Proposal 5476 (Murphy; disi.), 27 March 2008
-- Amended(5) by Proposal 5496 (Murphy), 23 April 2008
-- Amended(6) by Proposal 5833 (Murphy, Taral), 12 November 2008
-- Amended(7) by Proposal 5840 (root), 12 November 2008
-- Amended(8) by Proposal 5974 (Murphy; disi.), 25 November 2008
-- Amended(9) by Proposal 6023 (Murphy), 22 December 2008
-- Assigned to Committee on Finance by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(10) by Proposal 6161 (Murphy), 31 March 2009
-- Amended(11) by Proposal 6253 (Quazie), 9 May 2009
-- Amended(12) by cleaning (Murphy), 16 August 2009
-- Amended(13) by Proposal 6430 (Alexis; disi.), 18 August 2009
-- Amended(14) twice by Proposal 6650 (Alexis), 10 March 2010
-- Amended(15) by Proposal 6792 (omd), 27 August 2010
-- Amended(16) by Proposal 6916 (omd; disi.), 2 January 2011
-- Amended(17) by Proposal 7298 (FKA441344), 9 September 2012
-- Amended(18) by Proposal 7420 (omd), 27 May 2013
-- Amended(19) by Proposal 7586 (omd), 24 August 2013
-- Amended(20) by Proposal 7617 (G.), 16 January 2014
-- Reenacted and Amended(21) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
-- Amended(22) by Proposal 7868 "Minor economic fixes" (Murphy), 30 July 2017
-- Amended(23) by Proposal 7924 "Contracts v8" (Aris, o, G., ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 October 2017
+- change:
+    type: enactment
+  date: 2007-08-29
+  agent:
+    proposal: 5173
+- change:
+    type: amendment
+  date: 2007-09-13
+  agent:
+    proposal: 5216
+- change:
+    type: amendment
+  date: 2008-01-01
+  agent:
+    proposal: 5388
+- change:
+    type: amendment
+  date: 2008-03-24
+  agent:
+    proposal: 5475
+- change:
+    type: amendment
+  date: 2008-03-27
+  agent:
+    proposal: 5476
+- change:
+    type: amendment
+  date: 2008-04-23
+  agent:
+    proposal: 5496
+- change:
+    type: amendment
+  date: 2008-11-12
+  agent:
+    proposal: 5833
+- change:
+    type: amendment
+  date: 2008-11-12
+  agent:
+    proposal: 5840
+- change:
+    type: amendment
+  date: 2008-11-25
+  agent:
+    proposal: 5974
+- change:
+    type: amendment
+  date: 2008-12-22
+  agent:
+    proposal: 6023
+- change:
+    type: committee-assignment
+    committee: Committee on Finance
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-03-31
+  agent:
+    proposal: 6161
+- change:
+    type: amendment
+  date: 2009-05-09
+  agent:
+    proposal: 6253
+- change:
+    type: amendment
+  date: 2009-08-16
+  agent:
+    cleaning:
+      by: Murphy
+- change:
+    type: amendment
+  date: 2009-08-18
+  agent:
+    proposal: 6430
+- change:
+    type: amendment
+  date: 2010-03-10
+  agent:
+    proposal: 6650
+- change:
+    type: amendment
+  date: 2010-03-10
+  agent:
+    proposal: 6650
+- change:
+    type: amendment
+  date: 2010-08-27
+  agent:
+    proposal: 6792
+- change:
+    type: amendment
+  date: 2011-01-02
+  agent:
+    proposal: 6916
+- change:
+    type: amendment
+  date: 2012-09-09
+  agent:
+    proposal: 7298
+- change:
+    type: amendment
+  date: 2013-05-27
+  agent:
+    proposal: 7420
+- change:
+    type: amendment
+  date: 2013-08-24
+  agent:
+    proposal: 7586
+- change:
+    type: amendment
+  date: 2014-01-16
+  agent:
+    proposal: 7617
+- change:
+    type: repeal
+  date: 2014-04-07
+  agent:
+    proposal: 7629
+- change:
+    type: reenactment
+  date: 2017-06-27
+  agent:
+    proposal: 7864
+- change:
+    type: amendment
+  date: 2017-07-30
+  agent:
+    proposal: 7868
+- change:
+    type: amendment
+  date: 2017-10-22
+  agent:
+    proposal: 7924
 text: |
   An asset is an entity defined as such by a (a) rule, (b)
   authorized regulation, (c) group of rules and/or authorized

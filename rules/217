@@ -1,20 +1,78 @@
 ---
 name: Interpreting the Rules
 history:
-- Initial Mutable Rule 217, Jun. 30 1993
-- Amended(1) by Proposal 1635, Jul. 25 1995
-- Infected and amended(2) by Rule 1454, Aug. 7 1995
-- Amended(3) by Proposal 2507, Mar. 3 1996
-- Amended(4) by Proposal 4825 (Maud), 17 July 2005
-- Power changed from 1 to 3 by Proposal 4867 (G.), 27 August 2006
-- Amended(5) by Proposal 4867 (G.), 27 August 2006
-- Retitled by Proposal 5105 (Zefram), 1 August 2007
-- Amended(6) by Proposal 5105 (Zefram), 1 August 2007
-- Amended(7) by Proposal 7351 (G., ais523, Machiavelli), 27 March 2013
-- Amended(8) by Proposal 7520 (omd), 19 July 2013
-- Amended(9) by Proposal 7584 (omd), 24 August 2013
-- Amended(10) by Proposal 7614 (G.), 13 January 2014
-- Amended(11) by Proposal 7662 (omd), 3 June 2014
+- change:
+    type: initial
+    id: 217
+    mutability: mutable
+  date: 1993-06-30
+- change:
+    type: amendment
+  date: 1995-07-25
+  agent:
+    proposal: 1635
+- change:
+    type: infected-amended
+  date: 1995-08-07
+  agent:
+    rule: 1454
+- change:
+    type: amendment
+  date: 1996-03-03
+  agent:
+    proposal: 2507
+- change:
+    type: amendment
+  date: 2005-07-17
+  agent:
+    proposal: 4825
+- change:
+    type: power-change
+    oldpower: 1
+    newpower: 3
+  date: 2006-08-27
+  agent:
+    proposal: 4867
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4867
+- change:
+    type: retitling
+  date: 2007-08-01
+  agent:
+    proposal: 5105
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5105
+- change:
+    type: amendment
+  date: 2013-03-27
+  agent:
+    proposal: 7351
+- change:
+    type: amendment
+  date: 2013-07-19
+  agent:
+    proposal: 7520
+- change:
+    type: amendment
+  date: 2013-08-24
+  agent:
+    proposal: 7584
+- change:
+    type: amendment
+  date: 2014-01-13
+  agent:
+    proposal: 7614
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7662
 text: |
   When interpreting and applying the rules, the text of the rules
   takes precedence. Where the text is silent, inconsistent, or

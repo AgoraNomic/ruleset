@@ -1,16 +1,56 @@
 ---
 name: Role and Attributes of Rules
 history:
-- Created by Proposal 4940 (Zefram), 29 April 2007
-- Amended(1) by Proposal 5110 (Murphy), 2 August 2007
-- Amended(2) by Proposal 5994 (Murphy), 7 December 2008
-- Amended(3) by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(4) by Proposal 6124 (ehird), 15 March 2009
-- Amended(5) by Proposal 6670 (Alexis), 14 March 2010
-- Amended(6) by Proposal 6992 (Murphy, omd), 10 April 2011
-- Amended(7) by Proposal 7420 (omd), 27 March 2013
-- Amended(8) by Proposal 7614 (G.), 13 January 2014
-- Amended(9) by Proposal 7759 (G.), 19 July 2015
+- change:
+    type: enactment
+  date: 2007-04-29
+  agent:
+    proposal: 4940
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5110
+- change:
+    type: amendment
+  date: 2008-12-07
+  agent:
+    proposal: 5994
+- change:
+    type: amendment
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-03-15
+  agent:
+    proposal: 6124
+- change:
+    type: amendment
+  date: 2010-03-14
+  agent:
+    proposal: 6670
+- change:
+    type: amendment
+  date: 2011-04-10
+  agent:
+    proposal: 6992
+- change:
+    type: amendment
+  date: 2013-03-27
+  agent:
+    proposal: 7420
+- change:
+    type: amendment
+  date: 2014-01-13
+  agent:
+    proposal: 7614
+- change:
+    type: amendment
+  date: 2015-07-19
+  agent:
+    proposal: 7759
 text: |
   A rule is a type of instrument with the capacity to govern the
   game generally, and is always taking effect. A rule's content

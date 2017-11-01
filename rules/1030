@@ -1,23 +1,97 @@
 ---
 name: Precedence between Rules
 history:
-- Initial Mutable Rule 212, Jun. 30 1993
-- Amended by Proposal 1030, Sep. 15 1994
-- Amended by Rule 750, Sep. 15 1994
-- Amended(1) by Proposal 1527, Mar. 24 1995
-- Amended(2) by Proposal 1603, Jun. 19 1995
-- Amended(3) by Proposal 2520, Mar. 10 1996
-- Mutated from MI=1 to MI=3 by Proposal 2763 (Steve), Nov. 30 1996
-- Amended(4) by Proposal 3445 (General Chaos), Mar. 26 1997, cosmetic (unattributed)
-- Amended(5) by Proposal 4887 (Murphy), 22 January 2007
-- Amended(6) by Proposal 5110 (Murphy), 2 August 2007
-- Amended(7) by Proposal 6285 (G.), 19 May 2009
-- Amended(8) by Proposal 6292 (G.), 19 May 2009
-- Title changed by Proposal 6292 (G.), 19 May 2009
-- Power changed from 3 to 3.2 by Proposal 6292 (G.), 19 May 2009
-- Amended(9) by cleaning (Murphy), 16 August 2009
-- Amended(10) by Proposal 7235 (omd), 10 June 2012
-- Amended(11) by Proposal 7334 (woggle), 27 March 2013
+- change:
+    type: initial
+    id: 212
+    mutability: mutable
+  date: 1993-06-30
+- change:
+    type: amendment
+    uncounted: true
+  date: 1994-09-15
+  agent:
+    proposal: 1030
+- change:
+    type: amendment
+  date: 1994-09-15
+  agent:
+    rule: 750
+- change:
+    type: amendment
+  date: 1995-03-24
+  agent:
+    proposal: 1527
+- change:
+    type: amendment
+  date: 1995-06-19
+  agent:
+    proposal: 1603
+- change:
+    type: amendment
+  date: 1996-03-10
+  agent:
+    proposal: 2520
+- change:
+    type: mutation
+    oldmi: 1
+    newmi: 3
+  date: 1996-11-30
+  agent:
+    proposal: 2763
+- change:
+    type: amendment
+  date: 1997-03-26
+  agent:
+    proposal: 3445
+  cosmetic: true
+  unattributed: true
+- change:
+    type: amendment
+  date: 2007-01-22
+  agent:
+    proposal: 4887
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5110
+- change:
+    type: amendment
+  date: 2009-05-19
+  agent:
+    proposal: 6285
+- change:
+    type: amendment
+  date: 2009-05-19
+  agent:
+    proposal: 6292
+- change:
+    type: retitling
+  date: 2009-05-19
+  agent:
+    proposal: 6292
+- change:
+    type: power-change
+  date: 2009-05-19
+  agent:
+    proposal: 6292
+- change:
+    type: amendment
+  date: 2009-08-16
+  agent:
+    cleaning:
+      by: Murphy
+- change:
+    type: amendment
+  date: 2012-06-10
+  agent:
+    proposal: 7235
+- change:
+    type: amendment
+  date: 2013-03-27
+  agent:
+    proposal: 7334
 text: |
   In a conflict between Rules, the conflict shall be resolved by
   performing the following comparisons in the sequence written in

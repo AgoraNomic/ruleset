@@ -1,40 +1,179 @@
 ---
 name: Determining the Will of Agora
 history:
-- Initial Mutable Rule 209, Jun. 30 1993
-- Amended by Proposal 396 (KoJen), Aug. 23 1993
-- Amended by Proposal 658, Oct. 29 1993
-- Amended by Proposal 761, Dec. 8 1993
-- Amended by Rule 750, Dec. 8 1993
-- Amended by Proposal 955, Jul. 25 1994
-- Amended by Rule 750, Jul. 25 1994
-- Amended(1) by Proposal 1279, Oct. 24 1994
-- Amended(2) by Proposal 1531, Mar. 24 1995
-- Amended(3) by Proposal 1723, Oct. 6 1995
-- Mutated from MI=1 to MI=3 by Proposal 2398, Jan. 20 1996
-- Amended(4) by Proposal 3721 (Steve), Apr. 16 1998
-- Amended(5) by Proposal 3818 (Chuck), Dec. 21 1998
-- Amended(6) by Proposal 4263 (Steve), 4 March 2002
-- Amended(7) by Proposal 4302 (Murphy), 17 May 2002
-- Amended(8) by Proposal 4412 (Steve), 6 November 2002
-- Amended(9) by Proposal 4811 (Maud, G.), 20 June 2005
-- Amended(10) by Proposal 4868 (G.), 27 August 2006
-- Amended(11) by Proposal 5113 (Murphy, Maud), 2 August 2007
-- Amended(12) by Proposal 5418 (root), 2 February 2008
-- Amended(13) by Proposal 5445 (G., Murphy), 21 February 2008
-- Amended(14) by Proposal 5783 (Murphy), 22 October 2008
-- Amended(15) by Proposal 5948 (Murphy; disi.), 15 November 2008
-- Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(16) by Proposal 6336 (Alexis; disi.), 29 May 2009
-- Amended(17) by Proposal 6403 (Alexis), 30 July 2009
-- Amended(18) by Proposal 7238 (omd), 10 June 2012
-- Amended(19) by Proposal 7772 (Alexis), 10 August 2015
-- Amended(20) by Proposal 7778 (Alexis), 14 August 2014
-- Amended(21) by Proposal 7816 (Alexis, o, aranea), 28 October 2016
-- Amended(22) by proposal 7853 "Close Ancient Loopholes" (ais523), 05 June 2017
-- Amended(23) by Proposal 7912 "Election Campaigns" (Alexis), 15 October 2017
-- Amended(24) by Proposal 7922 "Clarity Act" (Alexis), 23 October
-  2017
+- change:
+    type: initial
+    id: 209
+    mutability: mutable
+  date: 1993-06-30
+- change:
+    type: amendment
+    uncounted: true
+  date: 1993-08-23
+  agent:
+    proposal: 396
+- change:
+    type: amendment
+    uncounted: true
+  date: 1993-10-29
+  agent:
+    proposal: 658
+- change:
+    type: amendment
+    uncounted: true
+  date: 1993-12-08
+  agent:
+    proposal: 761
+- change:
+    type: amendment
+    uncounted: true
+  date: 1993-12-08
+  agent:
+    rule: 750
+- change:
+    type: amendment
+    uncounted: true
+  date: 1994-07-25
+  agent:
+    proposal: 955
+- change:
+    type: amendment
+  date: 1994-07-25
+  agent:
+    rule: 750
+- change:
+    type: amendment
+  date: 1994-10-24
+  agent:
+    proposal: 1279
+- change:
+    type: amendment
+  date: 1995-03-24
+  agent:
+    proposal: 1531
+- change:
+    type: amendment
+  date: 1995-10-06
+  agent:
+    proposal: 1723
+- change:
+    type: mutation
+    old-mi: 1
+    new-mi: 3
+  date: 1996-01-20
+  agent:
+    proposal: 2398
+- change:
+    type: amendment
+  date: 1998-04-16
+  agent:
+    proposal: 3721
+- change:
+    type: amendment
+  date: 1998-12-21
+  agent:
+    proposal: 3818
+- change:
+    type: amendment
+  date: 2002-03-04
+  agent:
+    proposal: 4263
+- change:
+    type: amendment
+  date: 2002-05-17
+  agent:
+    proposal: 4302
+- change:
+    type: amendment
+  date: 2002-11-06
+  agent:
+    proposal: 4412
+- change:
+    type: amendment
+  date: 2005-06-20
+  agent:
+    proposal: 4811
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4868
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5113
+- change:
+    type: amendment
+  date: 2008-02-02
+  agent:
+    proposal: 5418
+- change:
+    type: amendment
+  date: 2008-02-21
+  agent:
+    proposal: 5445
+- change:
+    type: amendment
+  date: 2008-10-22
+  agent:
+    proposal: 5783
+- change:
+    type: amendment
+  date: 2008-11-15
+  agent:
+    proposal: 5948
+- change:
+    type: committee-assignment
+    committee: Committee on Rules
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2009-05-29
+  agent:
+    proposal: 6336
+- change:
+    type: amendment
+  date: 2009-07-30
+  agent:
+    proposal: 6403
+- change:
+    type: amendment
+  date: 2012-06-10
+  agent:
+    proposal: 7238
+- change:
+    type: amendment
+  date: 2015-08-10
+  agent:
+    proposal: 7772
+- change:
+    type: amendment
+  date: 2014-08-14
+  agent:
+    proposal: 7778
+- change:
+    type: amendment
+  date: 2016-10-28
+  agent:
+    proposal: 7816
+- change:
+    type: amendment
+  date: 2017-06-05
+  agent:
+    proposal: 7853
+- change:
+    type: amendment
+  date: 2017-10-15
+  agent:
+    proposal: 7912
+- change:
+    type: amendment
+  date: 2017-10-23
+  agent:
+    proposal: 7922
 text: |
   Each Agoran decision has a voting method, which determines how
   voters may vote on it and how to calculate the outcome. The

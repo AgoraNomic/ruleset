@@ -1,35 +1,148 @@
 ---
 name: Calls for Judgement
 history:
-- Initial Mutable Rule 213, Jun. 30 1993
-- Amended by Proposal 407 (Alexx), Sep. 3 1993
-- Amended by Proposal 991, ca. Aug. 12 1994
-- Amended by Rule 750, ca. Aug. 12 1994
-- Infected and amended(1) by Rule 1454, Oct. 23 1995
-- Amended(2) by Proposal 2042, Dec. 11 1995
-- Amended(3) by Proposal 2457, Feb. 16 1996
-- Mutated from MI=1 to MI=2 by Proposal 2669, Sep. 19 1996
-- Amended(4) by Proposal 4170 (Elysion), 26 June 2001
-- Amended(5) by Proposal 4298 (Murphy), 17 May 2002
-- Amended(6) by Proposal 4867 (G.), 27 August 2006
-- Amended(7) by Proposal 5015 (Zefram), 24 June 2007
-- Retitled by Proposal 5086 (Zefram), 1 August 2007
-- Amended(8) by Proposal 5086 (Zefram), 1 August 2007
-- Amended(9) by Proposal 5110 (Murphy), 2 August 2007
-- Amended(10) by Proposal 5317 (Murphy), 28 November 2007
-- Amended(11) by Proposal 5464 (Murphy), 13 March 2008
-- Assigned to Committee on the Judiciary by Proposal 6053 (Murphy, woggle, ais523), 23 January 2009
-- Amended(12) by Proposal 7050 (omd), 16 May 2011
-- Retitled and amended(13) by Proposal 7616 (G.), 16 January 2014
-- Amended(14) by Proposal 7629 (Alexis), 7 April 2014
-- Amended(15) by Proposal 7647 (omd), 3 June 2014
-- Amended(16) by Proposal 7777 (omd, G.), 14 August 2015
-- Amended(17) by Proposal 7803 (G.), 31 July 2016
-- Amended(19) by Proposal 7867 "Economics Overhaul v2" (nichdel, o, grok, Aris),
-  30 July 2017
-- Amended(20) by Proposal 7876 "Float On" (o), 26 September 2017
-- Amended(21) by Proposal 7888 "BILLY MAYS HERE" (o, V.J. Rada), 26 September 2017
-- Amended(22) by Proposal 7899 "Arbitor's Union" (G.), 03 October 2017
+- change:
+    type: initial
+    id: 213
+    mutability: mutable
+  date: 1993-06-30
+- change:
+    type: amendment
+  date: 1993-09-03
+  agent:
+    proposal: 407
+- change:
+    type: amendment
+    uncounted: true
+  around: 1994-08-12
+  agent:
+    proposal: 991
+- change:
+    type: amendment
+  around: 1994-08-12
+  agent:
+    rule: 750
+- change:
+    type: infection-amendment
+  date: 1995-10-23
+  agent:
+    rule: 1454
+- change:
+    type: amendment
+  date: 1995-12-11
+  agent:
+    proposal: 2042
+- change:
+    type: amendment
+  date: 1996-02-16
+  agent:
+    proposal: 2457
+- change:
+    type: mutation
+  date: 1996-09-19
+  agent:
+    proposal: 2669
+- change:
+    type: amendment
+  date: 2001-06-26
+  agent:
+    proposal: 4170
+- change:
+    type: amendment
+  date: 2002-05-17
+  agent:
+    proposal: 4298
+- change:
+    type: amendment
+  date: 2006-08-27
+  agent:
+    proposal: 4867
+- change:
+    type: amendment
+  date: 2007-06-24
+  agent:
+    proposal: 5015
+- change:
+    type: retitling
+  date: 2007-08-01
+  agent:
+    proposal: 5086
+- change:
+    type: amendment
+  date: 2007-08-01
+  agent:
+    proposal: 5086
+- change:
+    type: amendment
+  date: 2007-08-02
+  agent:
+    proposal: 5110
+- change:
+    type: amendment
+  date: 2007-11-28
+  agent:
+    proposal: 5317
+- change:
+    type: amendment
+  date: 2008-03-13
+  agent:
+    proposal: 5464
+- change:
+    type: committee-assignment
+    committee: Committee on the Judiciary
+  date: 2009-01-23
+  agent:
+    proposal: 6053
+- change:
+    type: amendment
+  date: 2011-05-16
+  agent:
+    proposal: 7050
+- change:
+    type: retitling-amendment
+  date: 2014-01-16
+  agent:
+    proposal: 7616
+- change:
+    type: amendment
+  date: 2014-04-07
+  agent:
+    proposal: 7629
+- change:
+    type: amendment
+  date: 2014-06-03
+  agent:
+    proposal: 7647
+- change:
+    type: amendment
+  date: 2015-08-14
+  agent:
+    proposal: 7777
+- change:
+    type: amendment
+  date: 2016-07-31
+  agent:
+    proposal: 7803
+- change:
+    type: amendment
+  date: 2017-07-30
+  agent:
+    proposal: 7867
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7876
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: 7888
+- change:
+    type: amendment
+  date: 2017-10-03
+  agent:
+    proposal: 7899
 text: |
   Any person (the initiator) can initiate a Call for Judgement (CFJ,
   syn. Judicial Case), specifying a statement to be inquired into:
