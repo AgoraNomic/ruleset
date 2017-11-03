@@ -1,0 +1,32 @@
+name:                agora-ruleset
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/AgoraNomic/agora-ruleset#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Alexis Hunt
+maintainer:          alercah@gmail.com
+copyright:           Copyright (c) Alexis Hunt
+category:            Game
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Game.Agora.Data.Rule
+  hs-source-dirs:      src
+  build-depends:       aeson >= 1.1.2
+                     , base >= 4.7
+                     , cases >= 0.1.3
+                     , scientific >= 0.3.5
+                     , text >= 1.2.2
+                     , time >= 1.6.0
+                     , yaml >= 0.8.23
+  default-language:    Haskell2010
+  default-extensions:  DeriveGeneric
+                     , OverloadedStrings 
+
+source-repository head
+  type:     git
+  location: https://github.com/AgoraNomic/agora-ruleset
