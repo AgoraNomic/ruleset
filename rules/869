@@ -9,12 +9,14 @@ history:
 - change:
     type: amendment
     uncounted: true
-  around: 1994-04-07
+  date:
+    around: 1994-04-07
   agent:
     proposal: 869
 - change:
     type: amendment
-  around: 1994-04-07
+  date:
+    around: 1994-04-07
   agent:
     rule: 750
 - change:

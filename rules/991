@@ -14,12 +14,14 @@ history:
 - change:
     type: amendment
     uncounted: true
-  around: 1994-08-12
+  date:
+    around: 1994-08-12
   agent:
     proposal: 991
 - change:
     type: amendment
-  around: 1994-08-12
+  date:
+    around: 1994-08-12
   agent:
     rule: 750
 - change:
