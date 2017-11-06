@@ -15,12 +15,15 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Game.Agora.Data.Common
+                     , Game.Agora.Data.Index
                      , Game.Agora.Data.Proposal
                      , Game.Agora.Data.Rule
+                     , Game.Agora.Ruleset
   hs-source-dirs:      src
   build-depends:       aeson >= 1.1.2
                      , base >= 4.7
                      , cases >= 0.1.3
+                     , containers >= 0.5.7
                      , scientific >= 0.3.5
                      , text >= 1.2.2
                      , time >= 1.6.0
@@ -36,6 +39,7 @@ executable rulekeep
                      , base >= 4.7
                      , directory >= 1.3
                      , filepath >= 1.4
+                     , text >= 1.2.2
                      , yaml >= 0.8.23
   default-language:    Haskell2010
 

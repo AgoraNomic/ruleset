@@ -1,6 +1,7 @@
 module Game.Agora.Data.Common
 ( True'(..)
 , Bool'
+, bool'
 , options
 ) where
 
@@ -13,6 +14,10 @@ import GHC.Generics
 
 data True' = True' deriving (Show, Generic)
 type Bool' = Maybe True'
+
+bool' :: Bool' -> Bool
+bool' (Just True') = True
+bool' Nothing = False
 
 instance ToJSON True' where
   toJSON True' = String "true"
