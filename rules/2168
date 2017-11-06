@@ -49,9 +49,9 @@ text: |
   the decision in question.
 
   Upon such an occurrence, the vote collector for the decision SHALL
-  issue a humiliating public reminder to the slackers who have not
-  yet cast any votes on it despite being eligible, and CAN end its
-  voting period by announcement (resolving it constitutes an
+  issue a humiliating public reminder naming the slackers who have
+  not yet cast any votes on it despite being eligible, and CAN end
+  its voting period by announcement (resolving it constitutes an
   implicit announcement that its voting period is first ended) if
   the result would no longer be FAILED QUORUM, or if the decision is
   whether to adopt a proposal and no voter (other than possibly the
