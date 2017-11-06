@@ -14,7 +14,9 @@ extra-source-files:  README.md
 cabal-version:       >=1.10
 
 library
-  exposed-modules:     Game.Agora.Data.Rule
+  exposed-modules:     Game.Agora.Data.Common
+                     , Game.Agora.Data.Proposal
+                     , Game.Agora.Data.Rule
   hs-source-dirs:      src
   build-depends:       aeson >= 1.1.2
                      , base >= 4.7
@@ -26,6 +28,16 @@ library
   default-language:    Haskell2010
   default-extensions:  DeriveGeneric
                      , OverloadedStrings 
+
+executable rulekeep
+  main-is: Main.hs
+  hs-source-dirs:      rulekeep
+  build-depends:       agora-ruleset
+                     , base >= 4.7
+                     , directory >= 1.3
+                     , filepath >= 1.4
+                     , yaml >= 0.8.23
+  default-language:    Haskell2010
 
 source-repository head
   type:     git

@@ -1,37 +1,15 @@
 module Game.Agora.Data.Rule where
 
-import Cases
 import Data.Aeson.Types
 import Data.Functor
 import Data.Maybe
 import Data.Scientific
 import Data.Text (Text)
-import Data.Text as T
 import Data.Time
 import Data.Yaml
 import GHC.Generics
 
-stripPrefix' :: Text -> Text -> Text
-stripPrefix' p t = fromMaybe t $ T.stripPrefix p t
-
-stripSuffix' :: Text -> Text -> Text
-stripSuffix' s t = fromMaybe t $ T.stripSuffix s t
-
-options :: Text -> Text -> Options
-options p s = defaultOptions { fieldLabelModifier = T.unpack . spinalize . stripPrefix' p . T.pack
-                             , constructorTagModifier = T.unpack . spinalize . stripSuffix' s . T.pack
-                             , omitNothingFields = True
-                             , allNullaryToStringTag = True
-                             }
-
-data True' = True' deriving (Show, Generic)
-type Bool' = Maybe True'
-
-instance ToJSON True' where
-  toJSON True' = String "true"
-
-instance FromJSON True' where
-  parseJSON _ = return True'
+import Game.Agora.Data.Common
 
 data Mutability = Mutable | Immutable
   deriving (Show, Generic)
@@ -39,12 +17,16 @@ data Mutability = Mutable | Immutable
 instance ToJSON Mutability where
   toJSON = genericToJSON $ options "" ""
 
-data ChangeType = Initial { initialMutability :: Mutability
-                          , initialId :: Text
+instance FromJSON Mutability where
+  parseJSON = genericParseJSON $ options "" ""
+
+data ChangeType = Initial { changeMutability :: Mutability
+                          , changeId :: Int
                           }
-                | Enactment
+                | Enactment { mi :: Maybe Text }
                 | Amendment { uncounted :: Bool' }
                 | Retitling
+                | Renumbering
                 | Mutation { oldMi :: Text
                            , newMi :: Text
                            }
@@ -54,18 +36,24 @@ data ChangeType = Initial { initialMutability :: Mutability
                 | Repeal
                 | Reenactment
                 | Infection
+                | CommitteeAssignment { committee :: Text }
                 | InfectionAmendment { uncounted :: Bool' }
                 | RetitlingAmendment
                 | PowerChangeAmendment
+                | Unknown
   deriving (Show, Generic)
 
 ctSumEncoding :: SumEncoding
 ctSumEncoding = defaultTaggedObject { tagFieldName = "type" }
 
 instance ToJSON ChangeType where
-  toJSON = genericToJSON $ (options "" "") { sumEncoding = ctSumEncoding }
+  toJSON = genericToJSON $ (options "change" "") { sumEncoding = ctSumEncoding }
+
+instance FromJSON ChangeType where
+  parseJSON = genericParseJSON $ (options "change" "") { sumEncoding = ctSumEncoding }
 
 data ChangeDate = Date Day
+                | UnknownHistory { unknown :: () }
                 | Around { around :: Day }
                 | Range { between :: Day
                         , and :: Day
@@ -75,16 +63,24 @@ data ChangeDate = Date Day
 instance ToJSON ChangeDate where
   toJSON = genericToJSON $ (options "" "") { sumEncoding = UntaggedValue }
 
+instance FromJSON ChangeDate where
+  parseJSON = genericParseJSON $ (options "" "") { sumEncoding = UntaggedValue }
+
 data Agent = ProposalAgent Text
-           | RuleAgent Text
+           | RuleAgent Int
            | CleaningAgent { by :: Text }
            | RatificationAgent { document :: Text
                                , agent :: Agent
                                }
+           | WithoutObjectionAgent Text
+           | DecreeAgent Text
   deriving (Show, Generic)
 
 instance ToJSON Agent where
   toJSON = genericToJSON $ (options "" "Agent") { sumEncoding = ObjectWithSingleField }
+
+instance FromJSON Agent where
+  parseJSON = genericParseJSON $ (options "" "Agent") { sumEncoding = ObjectWithSingleField }
 
 data RuleChange = RuleChange { rcChange :: ChangeType
                              , rcDate :: ChangeDate
@@ -98,13 +94,19 @@ data RuleChange = RuleChange { rcChange :: ChangeType
 instance ToJSON RuleChange where
   toJSON = genericToJSON $ options "rc" ""
 
+instance FromJSON RuleChange where
+  parseJSON = genericParseJSON $ options "rc" ""
+
 data CFJ = CFJ { cfjId :: Text
-               , cfjCalled :: Maybe Day
+               , cfjCalled :: Maybe ChangeDate
                }
   deriving (Show, Generic)
 
 instance ToJSON CFJ where
   toJSON = genericToJSON $ options "cfj" ""
+
+instance FromJSON CFJ where
+  parseJSON = genericParseJSON $ options "cfj" ""
 
 data Annotation = Annotation { annCfjs :: [CFJ]
                              , annText :: Text
@@ -113,7 +115,9 @@ data Annotation = Annotation { annCfjs :: [CFJ]
 
 instance ToJSON Annotation where
   toJSON = genericToJSON $ options "ann" ""
-  toEncoding = genericToEncoding $ options "ann" ""
+
+instance FromJSON Annotation where
+  parseJSON = genericParseJSON $ options "ann" ""
 
 data Rule = Rule { name :: Text
                  , history :: [RuleChange]
@@ -127,4 +131,6 @@ data Rule = Rule { name :: Text
 
 instance ToJSON Rule where
   toJSON = genericToJSON $ options "" ""
-  toEncoding = genericToEncoding $ options "" ""
+
+instance FromJSON Rule where
+  parseJSON = genericParseJSON $ options "" ""
