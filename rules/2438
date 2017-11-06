@@ -43,12 +43,21 @@ history:
   date: 2017-10-23
   agent:
     proposal: "7922"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7933"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
   Ribbon Ownership is a person switch, tracked by the Tailor in his
   monthly report, whose values are the subsets of the set of types
-  of Ribbon, defaulting to the empty set.
+  of Ribbon, defaulting to the empty set.If the rules are amended to
+  change the types of Ribbon, if a player's Ribbon Ownership is
+  subsequently illegal, then it is updated by removing all
+  nonexistent types rather than resetting the entire value to
+  default.
 
   To "award a person a <Ribbon type>" is to add that type of Ribbon
   to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
