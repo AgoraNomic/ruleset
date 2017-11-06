@@ -234,6 +234,11 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7931"
 text: |
   Any organism that is generally capable of freely originating and
   communicating independent thoughts and ideas is a person. Rules to
@@ -241,17 +246,20 @@ text: |
 
   Citizenship is a person switch with values Unregistered (default)
   and Registered, tracked by the Registrar. Changes to citizenship
-  are secured. A registered person is a Player.
+  are secured. A registered person is a Player. To "register"
+  someone is to flip that person's Citizenship switch from
+  Unregistered to Registered.
 
-  A person CAN (unless explicitly forbidden or prevented by the
-  rules) register by publishing a message that indicates reasonably
-  clearly and reasonably unambiguously that e intends to become a
-  player at that time. A person, by registering, agrees to abide by
-  the Rules. The Rules CANNOT otherwise bind a person to abide by
-  any agreement without that person's willful consent.
+  An Unregistered person CAN (unless explicitly forbidden or
+  prevented by the rules) register by publishing a message that
+  indicates reasonably clearly and reasonably unambiguously that e
+  intends to become a player at that time. A player CAN deregister
+  (cease being a player) by announcement. If e does so, e CANNOT
+  register or be registered for 30 days.
 
-  A player CAN deregister (cease being a player) by announcement. If
-  e does so, e CANNOT register by announcement for 30 days.
+  A person, by registering, agrees to abide by the Rules.  The Rules
+  CANNOT otherwise bind a person to abide by any agreementwithout
+  that person's willful consent.
 
   If a player has not sent a message to a public forum in the last
   month, then any player CAN deregister em without objection.
