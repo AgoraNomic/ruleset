@@ -8,12 +8,12 @@ history:
     type: enactment
   date: 2017-09-07
   agent:
-    proposal: 7873
+    proposal: "7873"
 - change:
     type: amendment
   date: 2017-10-03
   agent:
-    proposal: 7900
+    proposal: "7900"
 text: |
   Each Estate has a Farm switch, tracked by the Agronomist, with
   values "farmed" and "unfarmed", defaulting to "unfarmed". Changes

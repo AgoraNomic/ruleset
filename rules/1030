@@ -11,7 +11,7 @@ history:
     uncounted: true
   date: 1994-09-15
   agent:
-    proposal: 1030
+    proposal: "1030"
 - change:
     type: amendment
   date: 1994-09-15
@@ -21,61 +21,61 @@ history:
     type: amendment
   date: 1995-03-24
   agent:
-    proposal: 1527
+    proposal: "1527"
 - change:
     type: amendment
   date: 1995-06-19
   agent:
-    proposal: 1603
+    proposal: "1603"
 - change:
     type: amendment
   date: 1996-03-10
   agent:
-    proposal: 2520
+    proposal: "2520"
 - change:
     type: mutation
-    oldmi: 1
-    newmi: 3
+    old-mi: "1"
+    new-mi: "3"
   date: 1996-11-30
   agent:
-    proposal: 2763
+    proposal: "2763"
 - change:
     type: amendment
   date: 1997-03-26
   agent:
-    proposal: 3445
+    proposal: "3445"
   cosmetic: true
   unattributed: true
 - change:
     type: amendment
   date: 2007-01-22
   agent:
-    proposal: 4887
+    proposal: "4887"
 - change:
     type: amendment
   date: 2007-08-02
   agent:
-    proposal: 5110
+    proposal: "5110"
 - change:
     type: amendment
   date: 2009-05-19
   agent:
-    proposal: 6285
+    proposal: "6285"
 - change:
     type: amendment
   date: 2009-05-19
   agent:
-    proposal: 6292
+    proposal: "6292"
 - change:
     type: retitling
   date: 2009-05-19
   agent:
-    proposal: 6292
+    proposal: "6292"
 - change:
     type: power-change
   date: 2009-05-19
   agent:
-    proposal: 6292
+    proposal: "6292"
 - change:
     type: amendment
   date: 2009-08-16
@@ -86,12 +86,12 @@ history:
     type: amendment
   date: 2012-06-10
   agent:
-    proposal: 7235
+    proposal: "7235"
 - change:
     type: amendment
   date: 2013-03-27
   agent:
-    proposal: 7334
+    proposal: "7334"
 text: |
   In a conflict between Rules, the conflict shall be resolved by
   performing the following comparisons in the sequence written in
@@ -135,13 +135,13 @@ power: 3.2
 annotations:
 - cfjs:
   - id: '1104'
-    called: 20 August 1998
+    called: 1998-08-20
   text: The presence in a Rule of deference clause, claiming that the Rule defers
     to another Rule, does not prevent a conflict with the other Rule arising, but
     shows only how the Rule says that conflict is to be resolved when it does arise.
 - cfjs:
   - id: 1114-1115
-    called: 27 January 1999
+    called: 1999-01-27
   text: This Rule is to be applied to resolve Rule conflicts on a case-by-case basis;
     just because a Rule is inapplicable in one situation due to conflict with a Rule
     of higher precedence does not mean that the Rule is nullified in all cases.

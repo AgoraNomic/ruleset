@@ -5,52 +5,52 @@ history:
     type: enactment
   date: 2011-07-04
   agent:
-    proposal: 7083
+    proposal: "7083"
 - change:
     type: amendment
   date: 2011-07-23
   agent:
-    proposal: 7086
+    proposal: "7086"
 - change:
     type: amendment
   date: 2012-05-04
   agent:
-    proposal: 7216
+    proposal: "7216"
 - change:
     type: amendment
   date: 2012-06-10
   agent:
-    proposal: 7225
+    proposal: "7225"
 - change:
     type: amendment
   date: 2012-06-10
   agent:
-    proposal: 7241
+    proposal: "7241"
 - change:
     type: amendment
   date: 2012-06-10
   agent:
-    proposal: 7245
+    proposal: "7245"
 - change:
     type: amendment
   date: 2012-06-10
   agent:
-    proposal: 7250
+    proposal: "7250"
 - change:
     type: amendment
   date: 2014-06-03
   agent:
-    proposal: 7653
+    proposal: "7653"
 - change:
     type: amendment
   date: 2014-11-24
   agent:
-    proposal: 7728
+    proposal: "7728"
 - change:
     type: amendment
   date: 2015-05-02
   agent:
-    proposal: 7736
+    proposal: "7736"
 text: |
   A proposal is a type of entity consisting of a body of text and
   other attributes. A player CAN create a proposal by announcement,
@@ -85,13 +85,13 @@ power: 3
 annotations:
 - cfjs:
   - id: '1647'
-    called: 30 April 2007
+    called: 2007-04-30
   text: Preceding a proposal-like text with the heading "Proposal:" and a title can
     be sufficient to clearly indicate that it is intended to become a proposal, but
     is not if it can be interpreted as quoting an existing proposal.
 - cfjs:
   - id: '1717'
-    called: 8 August 2007
+    called: 2007-08-08
   text: Preceding a proposal-like text with the question "What is the title of this
     proposal?" can be sufficient to clearly indicate that it is intended to become
     a proposal.

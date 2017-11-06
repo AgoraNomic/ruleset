@@ -5,7 +5,7 @@ history:
     type: enactment
   date: 2002-06-09
   agent:
-    proposal: 4329
+    proposal: "4329"
 text: |2
                   /\   /\
                   / \ / \
@@ -22,12 +22,12 @@ text: |2
 annotations:
 - cfjs:
   - id: '1881'
-    called: 25 January 2008
+    called: 2008-01-25
   text: This rule does not impose an obilgation to always Dance a Powerful Dance,
     because "Marvy" is currently undefined.
 - cfjs:
   - id: '1736'
-    called: 23 August 2007
+    called: 2007-08-23
   text: Failing to hail Eris does not necessarily constitute a violation of this rule.
 id: 2029
 rev: 0

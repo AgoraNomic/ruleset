@@ -5,37 +5,37 @@ history:
     type: enactment
   date: 2008-03-09
   agent:
-    proposal: 5459
+    proposal: "5459"
 - change:
     type: amendment
   date: 2009-01-13
   agent:
-    proposal: 6048
+    proposal: "6048"
 - change:
     type: amendment
   date: 2009-04-07
   agent:
-    proposal: 6174
+    proposal: "6174"
 - change:
     type: amendment
   date: 2009-06-11
   agent:
-    proposal: 6340
+    proposal: "6340"
 - change:
     type: amendment
   date: 2010-08-02
   agent:
-    proposal: 6754
+    proposal: "6754"
 - change:
     type: amendment
   date: 2013-06-10
   agent:
-    proposal: 7451
+    proposal: "7451"
 - change:
     type: amendment
   date: 2014-07-12
   agent:
-    proposal: 7680
+    proposal: "7680"
 text: |
   Any player CAN, without objection, ratify a public document,
   specifying its scope.
@@ -58,13 +58,13 @@ power: 3
 annotations:
 - cfjs:
   - id: '1836'
-    called: 18 December 2007
+    called: 2007-12-18
   text: Ratification of an official document affects only those aspects of gamestate
     that are defined to be part of the official report, and not aspects that are incidentally
     reported on; in particular, ratification of an official report on certain parameters
     pertaining to each player does not ratify the list of players.
 - cfjs:
   - id: '2289'
-    called: 25 November 2008
+    called: 2008-11-25
   text: Ratification Without Objection of a value inseparable from another value may
     change the latter value even if it is not directly part of the report being ratified.

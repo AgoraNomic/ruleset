@@ -5,49 +5,49 @@ history:
     type: amendment
   date: 2000-08-07
   agent:
-    proposal: 4036
+    proposal: "4036"
 - change:
     type: amendment
   date: 2001-02-02
   agent:
-    proposal: 01-003
+    proposal: "01-003"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4866
+    proposal: "4866"
 - change:
     type: amendment
   date: 2007-07-18
   agent:
-    proposal: 5077
+    proposal: "5077"
 - change:
     type: amendment
   date: 2007-08-01
   agent:
-    proposal: 5086
+    proposal: "5086"
 - change:
     type: amendment
   date: 2008-04-02
   agent:
-    proposal: 5484
+    proposal: "5484"
 - change:
     type: amendment
   date: 2008-06-07
   agent:
-    proposal: 5535
+    proposal: "5535"
 - change:
     type: power-change
     oldpower: 2
     newpower: 3
   date: 2008-10-01
   agent:
-    proposal: 5701
+    proposal: "5701"
 - change:
     type: amendment
   date: 2010-02-01
   agent:
-    proposal: 6607
+    proposal: "6607"
 - change:
     type: amendment
   date: 2010-08-27
@@ -55,37 +55,37 @@ history:
     ratification:
       document: SLR
       agent:
-        proposal: 6806
+        proposal: "6806"
 - change:
     type: amendment
   date: 2011-05-16
   agent:
-    proposal: 7050
+    proposal: "7050"
 - change:
     type: amendment
   date: 2012-01-25
   agent:
-    proposal: 7150
+    proposal: "7150"
 - change:
     type: amendment
   date: 2012-01-25
   agent:
-    proposal: 7151
+    proposal: "7151"
 - change:
     type: amendment
   date: 2012-07-07
   agent:
-    proposal: 7262
+    proposal: "7262"
 - change:
     type: amendment
   date: 2013-12-22
   agent:
-    proposal: 7610
+    proposal: "7610"
 - change:
     type: amendment
   date: 2014-06-03
   agent:
-    proposal: 7647
+    proposal: "7647"
 text: |
   The period each year from midnight GMT on the morning of 24
   December to the beginning of the first Agoran week to begin after
@@ -102,15 +102,15 @@ power: 3
 annotations:
 - cfjs:
   - id: '1434'
-    called: 24 January 2003
+    called: 2003-01-24
   text: The registration of a player is an event for the purposes of Rule 1769.
 - cfjs:
   - id: '1434'
-    called: 24 January 2003
+    called: 2003-01-24
   text: The expiration of a rule-defined period is an event for the purposes of Rule
     1769.
 - cfjs:
   - id: '1480'
-    called: 5 January 2004
+    called: 2004-01-05
   text: An automatic event specified to occur at regular calendar intervals, for example
     quarterly, happens at its specified time even if that is during a holiday.

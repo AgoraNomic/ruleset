@@ -3,21 +3,20 @@ name: Silliness
 history:
 - change:
     type: enactment
-    mi: 1
-    power: 1
+    mi: "1"
   date: 1996-09-26
   agent:
-    proposal: 2673
+    proposal: "2673"
 - change:
     type: repeal
   date: 1998-02-21
   agent:
-    proposal: 3688
+    proposal: "3688"
 - change:
-    type reenactment
+    type: reenactment
   date: 2017-10-05
   agent:
-    proposal: 7908
+    proposal: "7908"
 text: |
   Each Nomic Week a Player is designated the Silly Person. The
   Silly Person SHALL in that week, by announcement (1) designate

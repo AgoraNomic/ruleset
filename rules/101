@@ -8,106 +8,106 @@ history:
   date: 1993-06-30
 - change:
     type: mutation
-    oldmi: unanimity
-    newmi: 3
+    old-mi: unanimity
+    new-mi: "3"
   date: 1995-03-15
   agent:
-    proposal: 1480
+    proposal: "1480"
 - change:
     type: amendment
   date: 1999-09-27
   agent:
-    proposal: 3915
+    proposal: "3915"
 - change:
     type: amendment
   date: 2005-08-06
   agent:
-    proposal: 4833
+    proposal: "4833"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4866
+    proposal: "4866"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4867
+    proposal: "4867"
 - change:
     type: amendment
   date: 2007-01-22
   agent:
-    proposal: 4887
+    proposal: "4887"
 - change:
     type: amendment
   date: 2007-05-03
   agent:
-    proposal: 4944
+    proposal: "4944"
 - change:
     type: amendment
   date: 2007-07-25
   agent:
-    proposal: 5090
+    proposal: "5090"
 - change:
     type: amendment
   date: 2008-10-08
   agent:
-    proposal: 5731
+    proposal: "5731"
 - change:
-    type: retitle
+    type: retitling
   date: 2008-10-17
   agent:
-    proposal: 5769
-- change:
-    type: amendment
-  date: 2008-10-17
-  agent:
-    proposal: 5769
+    proposal: "5769"
 - change:
     type: amendment
   date: 2008-10-17
   agent:
-    proposal: 5773
+    proposal: "5769"
+- change:
+    type: amendment
+  date: 2008-10-17
+  agent:
+    proposal: "5773"
 - change:
     type: amendment
   date: 2009-01-08
   agent:
-    proposal: 6028
+    proposal: "6028"
 - change:
     type: amendment
   date: 2009-03-31
   agent:
-    proposal: 6158
+    proposal: "6158"
 - change:
     type: amendment
   date: 2009-12-06
   agent:
-    proposal: 6589
+    proposal: "6589"
 - change:
     type: amendment
   date: 2012-02-26
   agent:
-    proposal: 7183
+    proposal: "7183"
 - change:
     type: amendment
   date: 2013-09-14
   agent:
-    proposal: 7596
+    proposal: "7596"
 - change:
     type: retitling-amendment
   date: 2014-01-13
   agent:
-    proposal: 7614
+    proposal: "7614"
 - change:
     type: amendment
   date: 2015-05-12
   agent:
-    proposal: 7743
+    proposal: "7743"
 - change:
     type: power-change
   date: 2017-09-26
   agent:
-    proposal: 7889
+    proposal: "7889"
 text: |
   Agora is a game of Nomic, wherein Persons, acting in accordance
   with the Rules, communicate their game Actions and/or results of
@@ -125,19 +125,19 @@ annotations:
   text: Players must obey the Rules even in out-of-game actions.
 - cfjs:
   - id: '825'
-    called: 7 November 1995
+    called: 1995-11-07
   text: Players must obey the Rules even if no Rule says so.
 - cfjs:
   - id: '1848'
-    called: 21 December 2007
+    called: 2007-12-21
   text: The game must operate according to the rules that prevail at the time, and
     not attempt to incorporate any retroactive changes made in the future.
 - cfjs:
   - id: '1709'
-    called: 26 July 2007
+    called: 2007-07-26
   text: The rules are binding on all those who play the game in the broader sense,
     regardless of whether they have the rule-defined status of "player".
 - cfjs:
   - id: 1911-1914
-    called: 18 March 2008
+    called: 2008-03-18
   text: Physical realities supersede the Rules by default.

@@ -5,52 +5,52 @@ history:
     type: enactment
   date: 2007-04-29
   agent:
-    proposal: 4940
+    proposal: "4940"
 - change:
     type: amendment
   date: 2007-08-02
   agent:
-    proposal: 5110
+    proposal: "5110"
 - change:
     type: amendment
   date: 2008-12-07
   agent:
-    proposal: 5994
+    proposal: "5994"
 - change:
     type: amendment
   date: 2009-01-23
   agent:
-    proposal: 6053
+    proposal: "6053"
 - change:
     type: amendment
   date: 2009-03-15
   agent:
-    proposal: 6124
+    proposal: "6124"
 - change:
     type: amendment
   date: 2010-03-14
   agent:
-    proposal: 6670
+    proposal: "6670"
 - change:
     type: amendment
   date: 2011-04-10
   agent:
-    proposal: 6992
+    proposal: "6992"
 - change:
     type: amendment
   date: 2013-03-27
   agent:
-    proposal: 7420
+    proposal: "7420"
 - change:
     type: amendment
   date: 2014-01-13
   agent:
-    proposal: 7614
+    proposal: "7614"
 - change:
     type: amendment
   date: 2015-07-19
   agent:
-    proposal: 7759
+    proposal: "7759"
 text: |
   A rule is a type of instrument with the capacity to govern the
   game generally, and is always taking effect. A rule's content
@@ -76,17 +76,17 @@ power: 3
 annotations:
 - cfjs:
   - id: '1498'
-    called: 12 April 2004
+    called: 2004-04-12
   text: A rule's title is not strictly a name for the rule, and so rule titles are
     not subject to the uniqueness requirement on names of rule-defined entities.
 - cfjs:
   - id: '2013'
-    called: 17 June 2009
+    called: 2009-06-17
   text: 'Rule 2141 does not imply that the power of rules is physically unlimited:
     they can only affect the world outside the game by prescribing or proscribing
     player behavior.'
 - cfjs:
   - id: '2213'
-    called: 7 October 2008
+    called: 2008-10-07
   text: The powers granted to rules by the first paragraph of Rule 2141 are general,
     and only apply as otherwise stated by the Rules.

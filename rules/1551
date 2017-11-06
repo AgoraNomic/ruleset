@@ -5,7 +5,7 @@ history:
     type: enactment
   date: 1996-01-30
   agent:
-    proposal: 2425
+    proposal: "2425"
 - change:
     type: infection-amendment
   date: 1997-02-04
@@ -17,87 +17,87 @@ history:
     type: amendment
   date: 1997-03-26
   agent:
-    proposal: 3445
+    proposal: "3445"
   substantial: true
 - change:
     type: amendment
   date: 1998-03-19
   agent:
-    proposal: 3704
+    proposal: "3704"
 - change:
     type: amendment
   date: 1999-08-09
   agent:
-    proposal: 3889
+    proposal: "3889"
 - change:
     type: amendment
   date: 2001-05-13
   agent:
-    proposal: 4147
+    proposal: "4147"
 - change:
     type: power-change
     oldpower: 1
     newpower: 3
   date: 2005-08-06
   agent:
-    proposal: 4832
+    proposal: "4832"
 - change:
     type: amendment
   date: 2005-08-06
   agent:
-    proposal: 4832
+    proposal: "4832"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4868
+    proposal: "4868"
 - change:
     type: amendment
   date: 2007-08-01
   agent:
-    proposal: 5101
+    proposal: "5101"
 - change:
     type: amendment
   date: 2007-09-08
   agent:
-    proposal: 5212
+    proposal: "5212"
 - change:
     type: amendment
   date: 2007-11-07
   agent:
-    proposal: 5275
+    proposal: "5275"
 - change:
     type: amendment
   date: 2007-11-28
   agent:
-    proposal: 5315
+    proposal: "5315"
 - change:
     type: amendment
   date: 2008-03-09
   agent:
-    proposal: 5459
+    proposal: "5459"
 - change:
     type: amendment
   date: 2009-11-28
   agent:
-    proposal: 6570
+    proposal: "6570"
 - change:
     type: power-change
     oldpower: 3
     newpower: 3.1
   date: 2010-08-27
   agent:
-    proposal: 6806
+    proposal: "6806"
 - change:
     type: amendment
   date: 2011-01-02
   agent:
-    proposal: 6930
+    proposal: "6930"
 - change:
     type: amendment
   date: 2011-01-02
   agent:
-    proposal: 6938
+    proposal: "6938"
 - change:
     type: power-change
     oldpower: 3.1
@@ -107,29 +107,29 @@ history:
     ratification:
       document: SLR
       agent:
-        proposal: 6839
+        proposal: "6839"
 - change:
     type: power-change
     oldpower: 3
     newpower: 3.1
   date: 2012-07-07
   agent:
-    proposal: 7262
+    proposal: "7262"
 - change:
     type: amendment
   date: 2013-08-24
   agent:
-    proposal: 7568
+    proposal: "7568"
 - change:
     type: amendment
   date: 2013-08-24
   agent:
-    proposal: 7586
+    proposal: "7586"
 - change:
     type: amendment
   date: 2014-06-03
   agent:
-    proposal: 7664
+    proposal: "7664"
 text: |
   A public document is part (possibly all) of a public message.
 
@@ -165,10 +165,10 @@ power: 3.1
 annotations:
 - cfjs:
   - id: '2165'
-    called: 16 September 2008
+    called: 2008-09-16
   text: Ratification can create legal fictions, but does not always.
 - cfjs:
   - id: '3155'
-    called: 26 January 2012
+    called: 2012-01-26
   text: A "recent history" section of a report is not considered binding as a complete
     list of certain types of events during a certain date range.

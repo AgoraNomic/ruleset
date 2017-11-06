@@ -8,11 +8,11 @@ history:
   date: 1993-06-30
 - change:
     type: mutation
-    oldmi: unanimity
-    newmi: 3
+    old-mi: unanimity
+    new-mi: "3"
   date: 1995-03-15
   agent:
-    proposal: 1482
+    proposal: "1482"
 text: |
   The Speaker for the first game shall be Michael Norrish.
 id: 104
@@ -21,7 +21,7 @@ power: 3
 annotations:
 - cfjs:
   - id: '1534'
-    called: 8 March 2005
+    called: 2005-03-08
   text: This does not mean that Michael Norrish necessarily fills the position of
     Speaker at the present time.
 - cfjs:

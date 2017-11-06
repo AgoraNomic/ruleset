@@ -5,9 +5,9 @@ history:
     type: enactment
   date:
     between: 1994-01-01
-    and: 1994-02-29
+    and: 1994-02-28
   agent:
-    proposal: 805
+    proposal: "805"
 - change:
     type: amendment
     uncounted: true
@@ -15,7 +15,7 @@ history:
     between: 1994-04-01
     and: 1994-05-31
   agent:
-    proposal: 907
+    proposal: "907"
 - change:
     type: amendment
     uncounted: true
@@ -29,7 +29,7 @@ history:
     uncounted: true
   date: 1994-09-05
   agent:
-    proposal: 1023
+    proposal: "1023"
 - change:
     type: amendment
   date: 1994-09-05
@@ -39,177 +39,179 @@ history:
     type: amendment
   date: 1995-02-01
   agent:
-    proposal: 1413
+    proposal: "1413"
 - change:
     type: amendment
   date: 1995-02-14
   agent:
-    proposal: 1434
+    proposal: "1434"
 - change:
     type: amendment
   date: 1995-08-22
   agent:
-    proposal: 1682
+    proposal: "1682"
 - change:
     type: amendment
   date: 1995-10-06
   agent:
-    proposal: 1727
+    proposal: "1727"
 - change:
     type: amendment
   date: 1995-12-11
   agent:
-    proposal: 2042
+    proposal: "2042"
 - change:
     type: amendment
   date: 1996-02-16
   agent:
-    proposal: 2489
+    proposal: "2489"
 - change:
     type: amendment
   date: 1996-04-12
   agent:
-    proposal: 2567
+    proposal: "2567"
 - change:
     type: mutation
+    old-mi: "1"
+    new-mi: "2"
   date: 1996-05-26
   agent:
-    proposal: 2602
+    proposal: "2602"
 - change:
     type: amendment
   date: 1996-07-04
   agent:
-    proposal: 2629
+    proposal: "2629"
 - change:
     type: amendment
   date: 1996-12-19
   agent:
-    proposal: 2770
+    proposal: "2770"
 - change:
     type: amendment
   date: 1999-01-21
   agent:
-    proposal: 3823
+    proposal: "3823"
 - change:
     type: amendment
   date: 1999-01-21
   agent:
-    proposal: 3823
+    proposal: "3823"
 - change:
     type: amendment
   date: 1999-08-27
   agent:
-    proposal: 3897
+    proposal: "3897"
 - change:
     type: amendment
   date: 1999-12-08
   agent:
-    proposal: 3950
+    proposal: "3950"
 - change:
     type: amendment
   date: 2000-05-08
   agent:
-    proposal: 4004
+    proposal: "4004"
 - change:
     type: amendment
   date: 2002-04-03
   agent:
-    proposal: 4278
+    proposal: "4278"
 - change:
     type: amendment
   date: 2002-10-30
   agent:
-    proposal: 4406
+    proposal: "4406"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4866
+    proposal: "4866"
 - change:
     type: amendment
   date: 2007-04-29
   agent:
-    proposal: 4938
+    proposal: "4938"
 - change:
     type: amendment
   date: 2007-06-18
   agent:
-    proposal: 5005
+    proposal: "5005"
 - change:
     type: amendment
   date: 2007-07-18
   agent:
-    proposal: 5077
+    proposal: "5077"
 - change:
     type: amendment
   date: 2007-08-01
   agent:
-    proposal: 5102
+    proposal: "5102"
 - change:
     type: amendment
   date: 2007-08-01
   agent:
-    proposal: 5081
+    proposal: "5081"
 - change:
     type: amendment
   date: 2008-01-22
   agent:
-    proposal: 5408
+    proposal: "5408"
 - change:
     type: amendment
   date: 2009-01-13
   agent:
-    proposal: 6046
+    proposal: "6046"
 - change:
     type: amendment
   date: 2009-05-26
   agent:
-    proposal: 6321
+    proposal: "6321"
 - change:
     type: amendment
   date: 2009-11-04
   agent:
-    proposal: 6535
+    proposal: "6535"
 - change:
     type: amendment
   date: 2010-03-10
   agent:
-    proposal: 6660
+    proposal: "6660"
 - change:
     type: amendment
   date: 2011-05-16
   agent:
-    proposal: 7045
+    proposal: "7045"
 - change:
     type: amendment
   date: 2012-09-09
   agent:
-    proposal: 7289
+    proposal: "7289"
 - change:
     type: amendment
   date: 2013-05-27
   agent:
-    proposal: 7420
+    proposal: "7420"
 - change:
     type: amendment
   date: 2013-12-13
   agent:
-    proposal: 7606
+    proposal: "7606"
 - change:
     type: amendment
   date: 2014-05-12
   agent:
-    proposal: 7641
+    proposal: "7641"
 - change:
     type: amendment
   date: 2014-08-07
   agent:
-    proposal: 7686
+    proposal: "7686"
 - change:
     type: amendment
   date: 2015-07-19
   agent:
-    proposal: 7760
+    proposal: "7760"
 - change:
     type: amendment
   date: 2017-05-24
@@ -219,12 +221,12 @@ history:
     type: amendment
   date: 2017-06-27
   agent:
-    proposal: 7865
+    proposal: "7865"
 - change:
-    type: renamed-amended
+    type: retitling-amendment
   date: 2017-10-22
   agent:
-    proposal: 7924
+    proposal: "7924"
 text: |
   The following terms are defined:
 

@@ -5,12 +5,13 @@ history:
     type: initial
     id: 201
     mutability: mutable
+  date: 1993-06-30
 - change:
     type: amendment
     uncounted: true
   date: 1994-04-13
   agent:
-    proposal: 879
+    proposal: "879"
 - change:
     type: amendment
   date: 1994-04-13
@@ -20,17 +21,17 @@ history:
     type: amendment
   date: 1995-03-08
   agent:
-    proposal: 1471
+    proposal: "1471"
 - change:
     type: amendment
   date: 1995-04-17
   agent:
-    proposal: 1554
+    proposal: "1554"
 - change:
     type: amendment
   date: 1995-09-04
   agent:
-    proposal: 1708
+    proposal: "1708"
 - change:
     type: infection-amendment
   date: 1996-07-27
@@ -40,18 +41,18 @@ history:
     type: amendment
   date: 1997-01-15
   agent:
-    proposal: 2786
+    proposal: "2786"
   substantial: true
 - change:
     type: amendment
   date: 1997-12-29
   agent:
-    proposal: 3643
+    proposal: "3643"
 - change:
     type: amendment
   date: 1998-08-03
   agent:
-    proposal: 3777
+    proposal: "3777"
 - change:
     type: amendment
   date: 1999-04-20
@@ -61,134 +62,134 @@ history:
     type: amendment
   date: 1999-08-27
   agent:
-    proposal: 3897
+    proposal: "3897"
 - change:
     type: amendment
   date: 1999-12-28
   agent:
-    proposal: 3956
+    proposal: "3956"
 - change:
     type: amendment
   date: 2000-02-14
   agent:
-    proposal: 3972
+    proposal: "3972"
 - change:
     type: power-change
     old-power: 1
     new-power: 2
   date: 2000-03-01
   agent:
-    proposal: 3980
+    proposal: "3980"
 - change:
     type: amendment
   date: 2000-03-01
   agent:
-    proposal: 3980
+    proposal: "3980"
 - change:
     type: amendment
   date: 2000-06-21
   agent:
-    proposal: 4018
+    proposal: "4018"
 - change:
     type: amendment
   date: 2002-01-29
   agent:
-    proposal: 4239
+    proposal: "4239"
 - change:
     type: amendment
   date: 2002-03-28
   agent:
-    proposal: 4276
+    proposal: "4276"
 - change:
     type: amendment
   date: 2002-04-03
   agent:
-    proposal: 4278
+    proposal: "4278"
 - change:
     type: amendment
   date: 2002-04-16
   agent:
-    proposal: 4282
+    proposal: "4282"
 - change:
     type: amendment
   date: 2002-05-28
   agent:
-    proposal: 4311
+    proposal: "4311"
 - change:
     type: amendment
   date: 2002-11-06
   agent:
-    proposal: 4410
+    proposal: "4410"
 - change:
     type: amendment
   date: 2004-05-31
   agent:
-    proposal: 4576
+    proposal: "4576"
 - change:
     type: amendment
   date: 2005-04-09
   agent:
-    proposal: 4665
+    proposal: "4665"
 - change:
     type: amendment
   date: 2005-06-20
   agent:
-    proposal: 4811
+    proposal: "4811"
 - change:
     type: amendment
   date: 2007-06-03
   agent:
-    proposal: 4964
+    proposal: "4964"
 - change:
     type: amendment
   date: 2007-06-06
   agent:
-    proposal: 4997
+    proposal: "4997"
 - change:
     type: amendment
   date: 2007-06-12
   agent:
-    proposal: 5000
+    proposal: "5000"
 - change:
     type: amendment
   date: 2007-08-02
   agent:
-    proposal: 5113
+    proposal: "5113"
 - change:
     type: amendment
   date: 2008-02-21
   agent:
-    proposal: 5445
+    proposal: "5445"
 - change:
     type: amendment
   date: 2012-10-16
   agent:
-    proposal: 7317
+    proposal: "7317"
 - change:
     type: amendment
   date: 2013-08-24
   agent:
-    proposal: 7552
+    proposal: "7552"
 - change:
     type: amendment
   date: 2014-01-11
   agent:
-    proposal: 7612
+    proposal: "7612"
 - change:
     type: amendment
   date: 2014-05-01
   agent:
-    proposal: 7632
+    proposal: "7632"
 - change:
     type: amendment
   date: 2014-06-03
   agent:
-    proposal: 7647
+    proposal: "7647"
 - change:
     type: amendment
   date: 2017-06-05
   agent:
-    proposal: 7853
+    proposal: "7853"
 text: |
   Each Agoran Decision has a quorum. This is a number set when the
   decision is created, and thereafter cannot be changed. When a
@@ -214,9 +215,9 @@ power: 2
 annotations:
 - cfjs:
   - id: '1562'
-    called: 3 May 2005
+    called: 2005-05-03
   text: A cancelled vote on a Proposal does not count towards quorum.
 - cfjs:
   - id: 1673-1675
-    called: 20 May 2007
+    called: 2007-05-20
   text: Quorum for an Agoran decision changes as the set of eligible voters changes.

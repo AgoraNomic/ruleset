@@ -5,18 +5,18 @@ history:
     type: enactment
   date: 2007-04-29
   agent:
-    proposal: 4940
+    proposal: "4940"
 - change:
     type: committee-assignment
     committee: Committee on Rules
   date: 2009-01-23
   agent:
-    proposal: 6053
+    proposal: "6053"
 - change:
     type: amendment
   date: 2011-04-10
   agent:
-    proposal: 6992
+    proposal: "6992"
 - change:
     type: amendment
   date: 2017-05-24
@@ -40,10 +40,10 @@ power: 3
 annotations:
 - cfjs:
   - id: '2981'
-    called: 21 March 2011
+    called: 2011-03-21
   text: An attribute of an instrument is not "modified" when an initial value is set
     for it.
 - cfjs:
   - id: '2945'
-    called: 22 December 2010
+    called: 2010-12-22
   text: An attribute of an entity is "changed" when it is removed/unset.

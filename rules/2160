@@ -5,90 +5,90 @@ history:
     type: enactment
   date: 2007-08-01
   agent:
-    proposal: 5103
+    proposal: "5103"
 - change:
     type: amendment
   date: 2007-09-08
   agent:
-    proposal: 5200
+    proposal: "5200"
 - change:
     type: amendment
   date: 2008-01-26
   agent:
-    proposal: 5414
+    proposal: "5414"
 - change:
     type: amendment
   date: 2008-03-09
   agent:
-    proposal: 5454
+    proposal: "5454"
 - change:
     type: power-change
     oldpower: 1
     newpower: 3
   date: 2008-11-29
   agent:
-    porposal: 5983
+    proposal: "5983"
 - change:
     type: committee-assignment
     committee: Committee on Administration
   date: 2009-01-23
   agent:
-    proposal: 6053
+    proposal: "6053"
 - change:
     type: amendment
   date: 2009-03-15
   agent:
-    proposal: 6129
+    proposal: "6129"
 - change:
     type: amendment
   date: 2009-03-23
   agent:
-    proposal: 6144
+    proposal: "6144"
 - change:
     type: amendment
   date: 2009-04-27
   agent:
-    proposal: 6218
+    proposal: "6218"
 - change:
     type: amendment
   date: 2009-09-18
   agent:
-    proposal: 6482
+    proposal: "6482"
 - change:
     type: amendment
   date: 2012-09-27
   agent:
-    proposal: 7300
+    proposal: "7300"
 - change:
     type: amendment
   date: 2013-04-27
   agent:
-    proposal: 7403
+    proposal: "7403"
 - change:
     type: amendment
   date: 2014-04-07
   agent:
-    proposal: 7629
+    proposal: "7629"
 - change:
     type: amendment
   date: 2014-06-03
   agent:
-    proposal: 7651
+    proposal: "7651"
 - change:
     type: amendment
   date: 2014-06-03
   agent:
-    proposal: 7652
+    proposal: "7652"
 - change:
     type: amendment
   date: 2014-11-09
   agent:
-    proposal: 7713
+    proposal: "7713"
 - change:
     type: amendment
   date: 2016-07-31
   agent:
-    proposal: 7804
+    proposal: "7804"
 - change:
     type: amendment
   date: 2017-05-24
@@ -98,7 +98,7 @@ history:
     type: amendment
   date: 2017-10-15
   agent:
-    proposal: 7918
+    proposal: "7918"
 text: |
   A rule which purports to allow a person (a deputy) to perform an
   action via normal deputisation or special deputisation for an
@@ -138,12 +138,12 @@ power: 3
 annotations:
 - cfjs:
   - id: '1776'
-    called: 1 November 2007
+    called: 2007-11-01
   text: A requirement to perform an action, for the purposes of this rule, can be
     a logical implication from rules and circumstances, not just directly imposed
     by the rules. In particular, it is possible to deputise to rotate the bench.
 - cfjs:
   - id: '2400'
-    called: 6 March 2009
+    called: 2009-03-06
   text: Deputisation is generally treated as if the deputy gained the office immediately
     before the action, and lost it immediately after.

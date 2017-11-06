@@ -5,12 +5,12 @@ history:
     type: enactment
   date: 2016-12-05
   agent:
-    proposal: 7833
+    proposal: "7833"
 - change:
     type: amendment
   date: 2017-09-26
   agent:
-    proposal: 7888
+    proposal: "7888"
 text: |
   Festivity is a singleton switch, whose possible values are
   integers ranging from 0 inclusive to the number of defined types

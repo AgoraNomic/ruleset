@@ -11,130 +11,130 @@ history:
     uncounted: true
   date: 1993-11-10
   agent:
-    proposal: 683
+    proposal: "683"
 - change:
     type: amendment
   date: 1995-03-08
   agent:
-    proposal: 1473
+    proposal: "1473"
 - change:
     type: amendment
   date: 1995-03-24
   agent:
-    proposal: 1531
+    proposal: "1531"
 - change:
     type: amendment
   date: 1995-04-17
   agent:
-    proposal: 1554
+    proposal: "1554"
 - change:
     type: amendment
   date: 1995-08-01
   agent:
-    proposal: 1641
+    proposal: "1641"
 - change:
     type: amendment
   date: 1996-05-01
   agent:
-    proposal: 2590
+    proposal: "2590"
 - change:
     type: amendment
   date: 1998-04-03
   agent:
-    proposal: 3718
+    proposal: "3718"
 - change:
     type: amendment
   date: 1999-10-31
   agent:
-    proposal: 3937
+    proposal: "3937"
 - change:
     type: amendment
   date: 2000-02-04
   agent:
-    proposal: 3968
+    proposal: "3968"
 - change:
     type: amendment
   date: 2000-02-14
   agent:
-    proposal: 3972
+    proposal: "3972"
 - change:
     type: amendment
   date: 2001-07-18
   agent:
-    proposal: 4190
+    proposal: "4190"
 - change:
     type: amendment
   date: 2005-04-18
   agent:
-    proposal: 4699
+    proposal: "4699"
 - change:
     type: power-change
     oldpower: 1
     newpower: 3
   date: 2005-06-20
   agent:
-    proposal: 4811
+    proposal: "4811"
 - change:
     type: amendment
   date: 2005-06-20
   agent:
-    proposal: 4811
+    proposal: "4811"
 - change:
     type: amendment
   date: 2007-06-03
   agent:
-    proposal: 4964
+    proposal: "4964"
 - change:
     type: amendment
   date: 2007-07-18
   agent:
-    proposal: 5078
+    proposal: "5078"
 - change:
     type: committee-assignment
     committee: Committee on Rules
   date: 2009-01-23
   agent:
-    proposal: 6053
+    proposal: "6053"
 - change:
     type: amendment
   date: 2009-07-03
   agent:
-    proposal: 6378
+    proposal: "6378"
 - change:
     type: amendment
   date: 2011-05-16
   agent:
-    proposal: 7032
+    proposal: "7032"
 - change:
     type: amendment
   date: 2011-06-16
   agent:
-    proposal: 7077
+    proposal: "7077"
 - change:
     type: amendment
   date: 2014-04-07
   agent:
-    proposal: 7629
+    proposal: "7629"
 - change:
     type: amendment
   date: 2014-05-01
   agent:
-    proposal: 7632
+    proposal: "7632"
 - change:
     type: amendment
   date: 2014-06-03
   agent:
-    proposal: 7647
+    proposal: "7647"
 - change:
     type: amendment
   date: 2014-08-14
   agent:
-    proposal: 7778
+    proposal: "7778"
 - change:
     type: amendment
   date: 2016-10-28
   agent:
-    proposal: 7814
+    proposal: "7814"
 - change:
     type: amendment
   date: 2016-11-10
@@ -149,7 +149,7 @@ history:
     type: amendment
   date: 2017-06-05
   agent:
-    proposal: 7854
+    proposal: "7854"
 text: |
   An entity submits a ballot on an Agoran decision by publishing a
   notice satisfying the following conditions:
@@ -181,11 +181,11 @@ power: 3
 annotations:
 - cfjs:
   - id: '1609'
-    called: 13 January 2007
+    called: 2007-01-13
   text: To "clearly identif{y} the matter to be decided" does not necessarily require
     specifying it in detail.
 - cfjs:
   - id: 1852-1853
-    called: 23 December 2007
+    called: 2007-12-23
   text: Claiming to submit more votes than ones voting limit on the decision does
     not constitute the making of a false statement.

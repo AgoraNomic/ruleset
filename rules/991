@@ -10,14 +10,14 @@ history:
     type: amendment
   date: 1993-09-03
   agent:
-    proposal: 407
+    proposal: "407"
 - change:
     type: amendment
     uncounted: true
   date:
     around: 1994-08-12
   agent:
-    proposal: 991
+    proposal: "991"
 - change:
     type: amendment
   date:
@@ -33,118 +33,120 @@ history:
     type: amendment
   date: 1995-12-11
   agent:
-    proposal: 2042
+    proposal: "2042"
 - change:
     type: amendment
   date: 1996-02-16
   agent:
-    proposal: 2457
+    proposal: "2457"
 - change:
     type: mutation
+    old-mi: "1"
+    new-mi: "2"
   date: 1996-09-19
   agent:
-    proposal: 2669
+    proposal: "2669"
 - change:
     type: amendment
   date: 2001-06-26
   agent:
-    proposal: 4170
+    proposal: "4170"
 - change:
     type: amendment
   date: 2002-05-17
   agent:
-    proposal: 4298
+    proposal: "4298"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4867
+    proposal: "4867"
 - change:
     type: amendment
   date: 2007-06-24
   agent:
-    proposal: 5015
+    proposal: "5015"
 - change:
     type: retitling
   date: 2007-08-01
   agent:
-    proposal: 5086
+    proposal: "5086"
 - change:
     type: amendment
   date: 2007-08-01
   agent:
-    proposal: 5086
+    proposal: "5086"
 - change:
     type: amendment
   date: 2007-08-02
   agent:
-    proposal: 5110
+    proposal: "5110"
 - change:
     type: amendment
   date: 2007-11-28
   agent:
-    proposal: 5317
+    proposal: "5317"
 - change:
     type: amendment
   date: 2008-03-13
   agent:
-    proposal: 5464
+    proposal: "5464"
 - change:
     type: committee-assignment
     committee: Committee on the Judiciary
   date: 2009-01-23
   agent:
-    proposal: 6053
+    proposal: "6053"
 - change:
     type: amendment
   date: 2011-05-16
   agent:
-    proposal: 7050
+    proposal: "7050"
 - change:
     type: retitling-amendment
   date: 2014-01-16
   agent:
-    proposal: 7616
+    proposal: "7616"
 - change:
     type: amendment
   date: 2014-04-07
   agent:
-    proposal: 7629
+    proposal: "7629"
 - change:
     type: amendment
   date: 2014-06-03
   agent:
-    proposal: 7647
+    proposal: "7647"
 - change:
     type: amendment
   date: 2015-08-14
   agent:
-    proposal: 7777
+    proposal: "7777"
 - change:
     type: amendment
   date: 2016-07-31
   agent:
-    proposal: 7803
+    proposal: "7803"
 - change:
     type: amendment
   date: 2017-07-30
   agent:
-    proposal: 7867
+    proposal: "7867"
 - change:
     type: amendment
   date: 2017-09-26
   agent:
-    proposal: 7876
+    proposal: "7876"
 - change:
     type: amendment
   date: 2017-09-26
   agent:
-    proposal: 7888
+    proposal: "7888"
 - change:
     type: amendment
   date: 2017-10-03
   agent:
-    proposal: 7899
+    proposal: "7899"
 text: |
   Any person (the initiator) can initiate a Call for Judgement (CFJ,
   syn. Judicial Case), specifying a statement to be inquired into:
@@ -184,12 +186,12 @@ power: 2
 annotations:
 - cfjs:
   - id: 1692-1693
-    called: 20 June 2007
+    called: 2007-06-20
   text: A CFJ can be unambiguously referenced by using the customarily-assigned sequence
     numbers, even if the number was not assigned in the public forum, provided that
     those involved accept it as unambiguous at the time.
 - cfjs:
   - id: '1355'
-    called: 28 April 2002
+    called: 2002-04-28
   text: Titles for CFJs are unregulated, so it is possible for a title to be assigned
     to a CFJ informally.

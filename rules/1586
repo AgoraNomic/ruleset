@@ -5,66 +5,66 @@ history:
     type: enactment
   date: 1996-02-16
   agent:
-    proposal: 2481
+    proposal: "2481"
 - change:
     type: amendment
   date: 1997-01-30
   agent:
-    proposal: 2795
+    proposal: "2795"
   substantial: true
 - change:
     type: amendment
   date: 2000-05-02
   agent:
-    proposal: 3999
+    proposal: "3999"
 - change:
     type: power-change
     oldpower: 1
     newpower: 2
   date: 2000-05-02
   agent:
-    proposal: 3999
+    proposal: "3999"
 - change:
     type: amendment
   date: 2007-07-18
   agent:
-    proposal: 5077
+    proposal: "5077"
 - change:
     type: amendment
   date: 2008-10-07
   agent:
-    proposal: 5723
+    proposal: "5723"
 - change:
     type: amendment
   date: 2008-10-12
   agent:
-    proposal: 5836
+    proposal: "5836"
 - change:
     type: amendment
   date: 2009-01-26
   agent:
-    cleaning;
+    cleaning:
       by: omd
 - change:
     type: amendment
   date: 2010-03-10
   agent:
-    proposal: 6650
+    proposal: "6650"
 - change:
     type: amendment
   date: 2011-04-10
   agent:
-    proposal: 6981
+    proposal: "6981"
 - change:
     type: repeal
   date: 2014-01-13
   agent:
-    proposal: 7614
+    proposal: "7614"
 - change:
     type: reenactment
   date: 2017-10-22
   agent:
-    proposal: 7924
+    proposal: "7924"
 text: |
   If multiple rules attempt to define an entity with the same name,
   then they refer to the same entity. A rule-defined entity's name

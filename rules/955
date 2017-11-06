@@ -11,19 +11,19 @@ history:
     uncounted: true
   date: 1993-08-23
   agent:
-    proposal: 396
+    proposal: "396"
 - change:
     type: amendment
     uncounted: true
   date: 1993-10-29
   agent:
-    proposal: 658
+    proposal: "658"
 - change:
     type: amendment
     uncounted: true
   date: 1993-12-08
   agent:
-    proposal: 761
+    proposal: "761"
 - change:
     type: amendment
     uncounted: true
@@ -35,7 +35,7 @@ history:
     uncounted: true
   date: 1994-07-25
   agent:
-    proposal: 955
+    proposal: "955"
 - change:
     type: amendment
   date: 1994-07-25
@@ -45,135 +45,135 @@ history:
     type: amendment
   date: 1994-10-24
   agent:
-    proposal: 1279
+    proposal: "1279"
 - change:
     type: amendment
   date: 1995-03-24
   agent:
-    proposal: 1531
+    proposal: "1531"
 - change:
     type: amendment
   date: 1995-10-06
   agent:
-    proposal: 1723
+    proposal: "1723"
 - change:
     type: mutation
-    old-mi: 1
-    new-mi: 3
+    old-mi: "1"
+    new-mi: "3"
   date: 1996-01-20
   agent:
-    proposal: 2398
+    proposal: "2398"
 - change:
     type: amendment
   date: 1998-04-16
   agent:
-    proposal: 3721
+    proposal: "3721"
 - change:
     type: amendment
   date: 1998-12-21
   agent:
-    proposal: 3818
+    proposal: "3818"
 - change:
     type: amendment
   date: 2002-03-04
   agent:
-    proposal: 4263
+    proposal: "4263"
 - change:
     type: amendment
   date: 2002-05-17
   agent:
-    proposal: 4302
+    proposal: "4302"
 - change:
     type: amendment
   date: 2002-11-06
   agent:
-    proposal: 4412
+    proposal: "4412"
 - change:
     type: amendment
   date: 2005-06-20
   agent:
-    proposal: 4811
+    proposal: "4811"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4868
+    proposal: "4868"
 - change:
     type: amendment
   date: 2007-08-02
   agent:
-    proposal: 5113
+    proposal: "5113"
 - change:
     type: amendment
   date: 2008-02-02
   agent:
-    proposal: 5418
+    proposal: "5418"
 - change:
     type: amendment
   date: 2008-02-21
   agent:
-    proposal: 5445
+    proposal: "5445"
 - change:
     type: amendment
   date: 2008-10-22
   agent:
-    proposal: 5783
+    proposal: "5783"
 - change:
     type: amendment
   date: 2008-11-15
   agent:
-    proposal: 5948
+    proposal: "5948"
 - change:
     type: committee-assignment
     committee: Committee on Rules
   date: 2009-01-23
   agent:
-    proposal: 6053
+    proposal: "6053"
 - change:
     type: amendment
   date: 2009-05-29
   agent:
-    proposal: 6336
+    proposal: "6336"
 - change:
     type: amendment
   date: 2009-07-30
   agent:
-    proposal: 6403
+    proposal: "6403"
 - change:
     type: amendment
   date: 2012-06-10
   agent:
-    proposal: 7238
+    proposal: "7238"
 - change:
     type: amendment
   date: 2015-08-10
   agent:
-    proposal: 7772
+    proposal: "7772"
 - change:
     type: amendment
   date: 2014-08-14
   agent:
-    proposal: 7778
+    proposal: "7778"
 - change:
     type: amendment
   date: 2016-10-28
   agent:
-    proposal: 7816
+    proposal: "7816"
 - change:
     type: amendment
   date: 2017-06-05
   agent:
-    proposal: 7853
+    proposal: "7853"
 - change:
     type: amendment
   date: 2017-10-15
   agent:
-    proposal: 7912
+    proposal: "7912"
 - change:
     type: amendment
   date: 2017-10-23
   agent:
-    proposal: 7922
+    proposal: "7922"
 text: |
   Each Agoran decision has a voting method, which determines how
   voters may vote on it and how to calculate the outcome. The
@@ -223,6 +223,6 @@ power: 3
 annotations:
 - cfjs:
   - id: 1673-1675
-    called: 20 May 2007
+    called: 2007-05-20
   text: Quorum for an Agoran decision is determined at the time the vote collector
     makes the calculations described in Rule 955.

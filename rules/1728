@@ -5,7 +5,7 @@ history:
     type: enactment
   date: 1997-06-23
   agent:
-    proposal: 3521
+    proposal: "3521"
 - change:
     type: infection-amendment
   date: 1997-11-02
@@ -23,181 +23,181 @@ history:
     type: amendment
   date: 1998-12-21
   agent:
-    proposal: 3812
+    proposal: "3812"
 - change:
     type: amendment
   date: 1999-03-02
   agent:
-    proposal: 3836
+    proposal: "3836"
 - change:
     type: amendment
   date: 1999-12-08
   agent:
-    proposal: 3950
+    proposal: "3950"
 - change:
     type: amendment
   date: 2000-02-14
   agent:
-    proposal: 3973
+    proposal: "3973"
 - change:
     type: amendment
   date: 2000-03-30
   agent:
-    proposal: 3991
+    proposal: "3991"
 - change:
     type: amendment
   date: 2000-06-01
   agent:
-    proposal: 4011
+    proposal: "4011"
 - change:
     type: power-change
     oldpower: 1
     newpower: 2
   date: 2001-03-16
   agent:
-    proposal: 4121
+    proposal: "4121"
 - change:
     type: amendment
   date: 2001-03-16
   agent:
-    proposal: 4121
+    proposal: "4121"
 - change:
     type: amendment
   date: 2002-04-03
   agent:
-    proposal: 4279
+    proposal: "4279"
 - change:
     type: amendment
   date: 2003-03-17
   agent:
-    proposal: 4461
+    proposal: "4461"
 - change:
     type: amendment
   date: 2007-04-02
   agent:
-    proposal: 4915
+    proposal: "4915"
 - change:
     type: amendment
   date: 2007-05-31
   agent:
-    proposal: 4981
+    proposal: "4981"
 - change:
     type: amendment
   date: 2007-06-12
   agent:
-    proposal: 4999
+    proposal: "4999"
 - change:
     type: amendment
   date: 2007-06-18
   agent:
-    proposal: 5007
+    proposal: "5007"
 - change:
     type: amendment
   date: 2007-08-02
   agent:
-    proposal: 5113
+    proposal: "5113"
 - change:
     type: amendment
   date: 2007-12-20
   agent:
-    proposal: 5370
+    proposal: "5370"
 - change:
     type: amendment
   date: 2008-02-21
   agent:
-    proposal: 5445
+    proposal: "5445"
 - change:
     type: amendment
   date: 2008-06-16
   agent:
-    proposal: 5543
+    proposal: "5543"
 - change:
     type: amendment
   date: 2008-10-17
   agent:
-    proposal: 5775
+    proposal: "5775"
 - change:
     type: amendment
   date: 2008-11-01
   agent:
-    proposal: 5818
+    proposal: "5818"
 - change:
     type: power-change
     oldpower: 2
     newpower: 3
   date: 2008-11-15
   agent:
-    proposal: 5947
+    proposal: "5947"
 - change:
     type: amendment
   date: 2008-12-07
   agent:
-    proposal: 5995
+    proposal: "5995"
 - change:
     type: amendment
   date: 2009-01-13
   agent:
-    proposal: 6041
+    proposal: "6041"
 - change:
     type: amendment
   date: 2009-04-27
   agent:
-    proposal: 6204
+    proposal: "6204"
 - change:
     type: amendment
   date: 2009-08-18
   agent:
-    proposal: 6437
+    proposal: "6437"
 - change:
     type: amendment
   date: 2009-08-27
   agent:
-    proposal: 6448
+    proposal: "6448"
 - change:
     type: amendment
   date: 2009-09-15
   agent:
-    proposal: 6474
+    proposal: "6474"
 - change:
     type: amendment
   date: 2009-10-03
   agent:
-    proposal: 6512
+    proposal: "6512"
 - change:
     type: amendment
   date: 2010-02-04
   agent:
-    proposal: 6619
+    proposal: "6619"
 - change:
     type: amendment
   date: 2010-03-10
   agent:
-    proposal: 6650
+    proposal: "6650"
 - change:
     type: amendment
   date: 2011-04-10
   agent:
-    proposal: 6981
+    proposal: "6981"
 - change:
     type: amendment
   date: 2011-05-16
   agent:
-    proposal: 7045
+    proposal: "7045"
 - change:
     type: amendment
   date: 2013-12-13
   agent:
-    proposal: 7606
+    proposal: "7606"
 - change:
     type: amendment
   date: 2016-10-28
   agent:
-    proposal: 7815
+    proposal: "7815"
 - change:
     type: amendment
   date: 2017-03-01
   agent:
-    proposal: 7840
+    proposal: "7840"
 - change:
     type: amendment
   date: 2017-05-24
@@ -207,7 +207,7 @@ history:
     type: amendment
   date: 2017-09-07
   agent:
-    proposal: 7871
+    proposal: "7871"
 text: |
   A rule which purports to allow a person (the performer) to perform
   an action by a set of one or more of the following methods (N is 1
@@ -270,11 +270,11 @@ power: 3
 annotations:
 - cfjs:
   - id: '1722'
-    called: 15 August 2007
+    called: 2007-08-15
   text: 'The method of dependent action need not be described exactly: an approximate
     but inexact description suffices, as does the rule-defined term.'
 - cfjs:
   - id: '1802'
-    called: 19 November 2007
+    called: 2007-11-19
   text: The phrase "by Agoran Support" is not an unambiguous description of a method
     of dependent action.

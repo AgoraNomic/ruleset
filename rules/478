@@ -5,182 +5,182 @@ history:
     type: enactment
   date: 1993-09-20
   agent:
-    proposal: 478
+    proposal: "478"
 - change:
     type: amendment
   date: 1995-03-08
   agent:
-    proposal: 1477
+    proposal: "1477"
 - change:
     type: amendment
   date: 1995-04-28
   agent:
-    proposal: 1576
+    proposal: "1576"
 - change:
     type: amendment
   date: 1995-07-10
   agent:
-    proposal: 1610
+    proposal: "1610"
 - change:
     type: amendment
   date: 1995-09-01
   agent:
-    proposal: 1700
+    proposal: "1700"
 - change:
     type: amendment
   date: 1995-12-19
   agent:
-    proposal: 2052
+    proposal: "2052"
 - change:
     type: amendment
   date: 1996-01-20
   agent:
-    proposal: 2400
+    proposal: "2400"
 - change:
     type: amendment
   date: 1996-11-07
   agent:
-    proposal: 2739
+    proposal: "2739"
   substantial: true
 - change:
     type: amendment
   date: 1997-01-30
   agent:
-    proposal: 2791
+    proposal: "2791"
   substantial: true
 - change:
     type: amendment
   date: 1997-06-23
   agent:
-    proposal: 3521
+    proposal: "3521"
   substantial: true
 - change:
     type: amendment
   date: 1999-01-21
   agent:
-    proposal: 3823
+    proposal: "3823"
 - change:
     type: amendment
   date: 2001-05-13
   agent:
-    proposal: 4147
+    proposal: "4147"
 - change:
     type: amendment
   date: 2002-02-19
   agent:
-    proposal: 4248
+    proposal: "4248"
 - change:
     type: amendment
   date: 2003-02-22
   agent:
-    proposal: 4456
+    proposal: "4456"
 - change:
     type: power-change
     oldpower: 1
     newpower: 3
   date: 2005-04-18
   agent:
-    proposal: 4690
+    proposal: "4690"
 - change:
     type: amendment
   date: 2005-04-18
   agent:
-    proposal: 4690
+    proposal: "4690"
 - change:
     type: amendment
   date: 2005-08-06
   agent:
-    proposal: 4833
+    proposal: "4833"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4866
+    proposal: "4866"
 - change:
     type: amendment
   date: 2007-04-29
   agent:
-    proposal: 4939
+    proposal: "4939"
 - change:
     type: amendment
   date: 2007-06-24
   agent:
-    proposal: 5014
+    proposal: "5014"
 - change:
     type: amendment
   date: 2007-08-02
   agent:
-    proposal: 5111
+    proposal: "5111"
 - change:
     type: amendment
   date: 2007-08-29
   agent:
-    proposal: 5172
+    proposal: "5172"
 - change:
     type: amendment
   date: 2007-11-07
   agent:
-    proposal: 5272
+    proposal: "5272"
 - change:
     type: amendment
   date: 2007-11-14
   agent:
-    proposal: 5291
+    proposal: "5291"
 - change:
     type: amendment
   date: 2008-06-07
   agent:
-    proposal: 5535
+    proposal: "5535"
 - change:
     type: amendment
   date: 2008-07-29
   agent:
-    proposal: 5613
+    proposal: "5613"
 - change:
     type: amendment
   date: 2008-07-29
   agent:
-    proposal: 5639
+    proposal: "5639"
 - change:
     type: amendment
   date: 2008-11-01
   agent:
-    proposal: 5818
+    proposal: "5818"
 - change:
     type: amendment
   date: 2008-12-22
   agent:
-    proposal: 6022
+    proposal: "6022"
 - change:
     type: amendment
   date: 2010-08-22
   agent:
-    proposal: 6785
+    proposal: "6785"
 - change:
     type: amendment
   date: 2011-03-20
   agent:
-    proposal: 6963
+    proposal: "6963"
 - change:
     type: amendment
   date: 2011-06-16
   agent:
-    proposal: 7073
+    proposal: "7073"
 - change:
     type: amendment
   date: 2014-01-13
   agent:
-    proposal: 7614
+    proposal: "7614"
 - change:
     type: amendment
   date: 2014-05-01
   agent:
-    proposal: 7632
+    proposal: "7632"
 - change:
     type: amendment
   date: 2016-09-11
   agent:
-    proposal: 7810
+    proposal: "7810"
 - change:
     type: amendment
   date: 2017-05-24
@@ -228,45 +228,45 @@ power: 3
 annotations:
 - cfjs:
   - id: 1451-1452
-    called: 6 March 2003
+    called: 2003-03-06
   text: A message that is split into multiple email messages can qualify as a single
     message for game purposes, if it is obvious how to combine the parts to reconstruct
     the single message.
 - cfjs:
   - id: '752'
-    called: 13 March 1995
+    called: 1995-03-13
   text: Something sent to a Player who is obligated to send it to all Players is sufficient
     for sending something to the PF.
 - cfjs:
   - id: '813'
-    called: 22 October 1995
+    called: 1995-10-22
   text: A Player need not prove that e can receive the PF.
 - cfjs:
   - id: '831'
-    called: 10 November 1995
+    called: 1995-11-10
   text: 'The Date: header of a message is not necessarily the time at which the message
     takes effect.'
 - cfjs:
   - id: '2205'
-    called: 2 October 2008
+    called: 2008-10-02
   text: A message takes effect at exactly one of the times date-stamped on it; selecting
     which one is a matter of game custom.
 - cfjs:
   - id: '2212'
-    called: 7 October 2008
+    called: 2008-10-07
   text: An IRC channel is a forum.
 - cfjs:
   - id: '2211'
-    called: 7 October 2008
+    called: 2008-10-07
   text: It is generally possible for an IRC channel to be a public forum.
 - cfjs:
   - id: '2214'
-    called: 7 October 2008
+    called: 2008-10-07
   text: Some IRC messages, such as NICK, are sent to all members of an IRC channel
     but are not sent via that channel.
 - cfjs:
   - id: '866'
-    called: 8 April 1996
+    called: 1996-04-08
   text: A message is "received" when the message enters the recipient's normal technical
     domain of control, whether this be eir private machine or eir private account
     on a shared machine (but not the shared machine itself, if the recipient does
@@ -281,195 +281,195 @@ annotations:
     Forum.
 - cfjs:
   - id: '1314'
-    called: 15 August 2001
+    called: 2001-08-15
   text: If a message sent to a public forum is rejected by the list moderator, it
     still qualifies as having been sent via a public forum.
 - cfjs:
   - id: '1905'
-    called: 7 February 2008
+    called: 2008-02-07
   text: Regardless of CFJ 1314, a message has not been sent via a forum until most
     persons who have arranged to receive messages via the forum receive it.
 - cfjs:
   - id: '1888'
-    called: 31 January 2008
+    called: 2008-01-31
   text: Sending a message to a Discussion Forum, or other mailing list except for
     a Public Forum, does not qualify as sending it to all players.
 - cfjs:
   - id: '1631'
-    called: 29 April 2007
+    called: 2007-04-29
   text: Public announcements must be made in the message body; the subject line is
     insignificant.
 - cfjs:
   - id: '1784'
-    called: 5 November 2007
+    called: 2007-11-05
   text: An undescriptive or misleading subject line does not deprive the message body
     of effect.
 - cfjs:
   - id: '1880'
-    called: 22 January 2008
+    called: 2008-01-22
   text: A phrase that would, in the message body, cancel the effect of the rest of
     the message, does not have such an effect if it appears in the subject line.
 - cfjs:
   - id: '1761'
-    called: 30 September 2007
+    called: 2007-09-30
   text: Publishing part of a message is a different action from publishing the whole
     message.
 - cfjs:
   - id: '1646'
-    called: 30 April 2007
+    called: 2007-04-30
   text: The act of "publishing" or "announcing" is accomplished when the message has
     left the sender's technical domain of control, indicated by one of the "Received:"
     headers.
 - cfjs:
   - id: '1695'
-    called: 23 June 2007
+    called: 2007-06-23
   text: A partnership, which by its nature can't directly send email, can participate
     in the fora by means of its members sending messages on its behalf, if its governing
     agreement says so.
 - cfjs:
   - id: '1768'
-    called: 22 October 2007
+    called: 2007-10-22
   text: The right of participation in the fora is the right to participate in them
     for their intended purposes, and is not necessarily infringed by regulations regarding
     the manner and type of participation.
 - cfjs:
   - id: '1738'
-    called: 29 August 2007
+    called: 2007-08-29
   text: An obligation on a player to not publish statements that e believes are true
     would conflict with the right of participation in the fora.
 - cfjs:
   - id: '1719'
-    called: 12 August 2007
+    called: 2007-08-12
   text: A player can, if e intends, have public messages sent on eir behalf, including
     via a web form that allows all-comers to send messages on eir behalf without specific
     approval.
 - cfjs:
   - id: 1833-1834
-    called: 18 December 2007
+    called: 2007-12-18
   text: A player can, by contractual arrangement, grant another player the capacity
     to act by announcement on eir behalf.
 - cfjs:
   - id: '1893'
-    called: 3 February 2008
+    called: 2008-02-03
   text: A non-consensual non-contractual arrangement cannot grant a player the capacity
     to act by announcement on behalf of another.
 - cfjs:
   - id: '2397'
-    called: 3 March 2009
+    called: 2009-03-03
   text: A player can grant or revoke permission at will for another player to act
     by announcement on eir behalf.
 - cfjs:
   - id: '2322'
-    called: 24 December 2008
+    called: 2008-12-24
   text: The ability to act on behalf can be created by any willful agreement.
 - cfjs:
   - id: '1336'
-    called: 13 December 2001
+    called: 2001-12-13
   text: A public statement that one wishes to perform an action that one can perform
     by announcement can constitute an announcement that performs that action.
 - cfjs:
   - id: '1621'
-    called: 8 February 2007
+    called: 2007-02-08
   text: Where an action can be performed by announcement, announcing that one deems
     something to be the case that would result from that action does not constitute
     performing the action.
 - cfjs:
   - id: '1584'
-    called: 24 February 2006
+    called: 2006-02-24
   - id: '1728'
-    called: 20 August 2007
+    called: 2007-08-20
   text: ' Saying "I do X 1000 times", where X is something that can be done by announcement,
     is an acceptable shorthand for 1000 instances of "I do X", but this shorthand
     cannot be used with an infinite repeat count, because it is impossible to write
     out an infinite number of instances of "I do X".'
 - cfjs:
   - id: '1774'
-    called: 1 November 2007
+    called: 2007-11-01
   text: Saying "I do X 10000 times", where X is something that can be done by announcement,
     does not necessarily achieve 10000 instances of X, if writing out 10000 instances
     of "I do X" would be a substantial effort such that using the shorthand is abusive. The
     presumption is in favour of the shorthand being successful.
 - cfjs:
   - id: '1775'
-    called: 1 November 2007
+    called: 2007-11-01
   text: If an announcement of the form "I do X N times" is not be acceptable shorthand
     for N instances of "I do X", then the announcement is completely nullified, and
     does not have the effect of M instances of "I do X" for any non-zero repeat count
     M.
 - cfjs:
   - id: '1730'
-    called: 22 August 2007
+    called: 2007-08-22
   text: An appropriate announcement will accomplish an action even if its author believed
     the action was impossible.
 - cfjs:
   - id: '1841'
-    called: 20 December 2007
+    called: 2007-12-20
   text: A message-based action cannot be retroactive.
 - cfjs:
   - id: '1971'
-    called: 22 May 2008
+    called: 2008-05-22
   text: An announcement with a general disclaimer as to its contents cannot fulfill
     a requirement to report information, but it may successfully cause game actions
     to be taken if the actions do not depend on the truth value of the disclaimed
     contents.
 - cfjs:
   - id: '2133'
-    called: 9 August 2008
+    called: 2008-08-09
   text: A disclaimed statement cannot cause an action to be taken by announcement.
 - cfjs:
   - id: '2112'
-    called: 23 July 2008
+    called: 2008-07-23
   text: An action is only taken by announcement if the Rules define it as such; e.g.,
     posting an objection to a dependent action is not an action taken by announcement.
 - cfjs:
   - id: '2151'
-    called: 5 September 2008
+    called: 2008-09-05
   text: Some unregulated actions, such as celebrating and revealing things, can be
     taken by announcement.
 - cfjs:
   - id: '2086'
-    called: 15 July 2008
+    called: 2008-07-15
   text: Message-based actions are always taken in some order, never precisely simultaneously,
     possibly unless otherwise stated.
 - cfjs:
   - id: '2179'
-    called: 23 September 2008
+    called: 2008-09-23
   text: An message-based action can be taken even if its sender cannot be identified.
 - cfjs:
   - id: '2221'
-    called: 13 October 2008
+    called: 2008-10-13
   text: When an action is specified as "can do X in order to do Y", and a player does
     X without specifying intent to do Y, e does not do Y.
 - cfjs:
   - id: '2238'
-    called: 22 October 2008
+    called: 2008-10-22
   text: The requirement of unambiguous specification applies to the parameters of
     an action.
 - cfjs:
   - id: '2363'
-    called: 1 February 2009
+    called: 2009-02-01
   text: '"X can do Y by doing Z" does not imply that X can do Z.'
 - cfjs:
   - id: '2441'
-    called: 6 April 2009
+    called: 2009-04-06
   text: Due to a limitation of the mailing list archives, attaching a message with
     a particular text does not count as publishing that text.
 - cfjs:
   - id: '3025'
-    called: 15 May 2011
+    called: 2011-05-15
   text: If it is clear what he did, then it must be clear what he did; if it is not
     clear what he did, then it is not clear what he did.
 - cfjs:
   - id: '3106'
-    called: 19 October 2011
+    called: 2011-10-19
   text: When a person announces that "e performs" an action, the referent of "e" (i.e.
     eir identity) must be clear.
 - cfjs:
   - id: '3002'
-    called: 19 April 2011
+    called: 2011-04-19
   text: A message of the form "This statement causes {action}" is ineffective as a
     way to perform {action}, and may be an attempt to act on behalf of the statement.
 - cfjs:
   - id: '2899'
-    called: 12 November 2010
+    called: 2010-11-12
   text: A player's real name does not necessary identify em.

@@ -6,169 +6,169 @@ history:
   date:
     around: 1993-10-22
   agent:
-    proposal: 649
+    proposal: "649"
 - change:
     type: amendment
   date: 1994-11-22
   agent:
-    proposal: 1334
+    proposal: "1334"
 - change:
     type: amendment
   date: 1995-08-22
   agent:
-    proposal: 1681
+    proposal: "1681"
 - change:
     type: amendment
   date: 1996-03-10
   agent:
-    proposal: 2532
+    proposal: "2532"
 - change:
     type: amendment
   date: 1996-10-03
   agent:
-    proposal: 2693
+    proposal: "2693"
 - change:
     type: amendment
   date: 1997-02-08
   agent:
-    proposal: 2807
+    proposal: "2807"
   cosmetic: true
   unattributed: true
 - change:
     type: amendment
   date: 1997-03-26
   agent:
-    proposal: 3445
+    proposal: "3445"
   substantial: true
 - change:
     type: amendment
   date: 1997-05-19
   agent:
-    proposal: 3488
+    proposal: "3488"
   substantial: true
   unattributed: true
 - change:
     type: amendment
   date: 1999-04-06
   agent:
-    proposal: 3849
+    proposal: "3849"
 - change:
     type: amendment
   date: 1999-05-12
   agent:
-    proposal: 3860
+    proposal: "3860"
 - change:
     type: amendment
   date: 1999-09-19
   agent:
-    proposal: 3914
+    proposal: "3914"
 - change:
     type: amendment
   date: 1999-09-27
   agent:
-    proposal: 3916
+    proposal: "3916"
 - change:
     type: amendment
   date: 2000-02-04
   agent:
-    proposal: 3968
+    proposal: "3968"
 - change:
     type: amendment
   date: 2000-05-08
   agent:
-    proposal: 4002
+    proposal: "4002"
 - change:
     type: amendment
   date: 2001-02-13
   agent:
-    proposal: 4110
+    proposal: "4110"
 - change:
     type: amendment
   date: 2001-05-13
   agent:
-    proposal: 4147
+    proposal: "4147"
 - change:
     type: amendment
   date: 2003-05-13
   agent:
-    proposal: 4497
+    proposal: "4497"
 - change:
     type: amendment
   date: 2005-04-18
   agent:
-    proposal: 4691
+    proposal: "4691"
 - change:
     type: amendment
   date: 2005-07-17
   agent:
-    proposal: 4824
+    proposal: "4824"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4865
+    proposal: "4865"
 - change:
     type: amendment
   date: 2007-06-28
   agent:
-    proposal: 5036
+    proposal: "5036"
 - change:
     type: amendment
   date: 2007-08-01
   agent:
-    proposal: 5084
+    proposal: "5084"
 - change:
     type: amendment
   date: 2007-08-02
   agent:
-    proposal: 5112
+    proposal: "5112"
 - change:
     type: amendment
   date: 2007-08-13
   agent:
-    proposal: 5123
+    proposal: "5123"
 - change:
     type: amendment
   date: 2007-10-03
   agent:
-    proposal: 5237
+    proposal: "5237"
 - change:
     type: amendment
   date: 2007-10-03
   agent:
-    proposal: 5239
+    proposal: "5239"
 - change:
     type: amendment
   date: 2007-12-08
   agent:
-    proposal: 5341
+    proposal: "5341"
 - change:
     type: amendment
   date: 2008-01-26
   agent:
-    proposal: 5412
+    proposal: "5412"
 - change:
     type: power-change
     oldpower: 1
     newpower: 1.5
   date: 2008-02-13
   agent:
-    proposal: 5437
+    proposal: "5437"
 - change:
     type: amendment
   date: 2008-02-13
   agent:
-    proposal: 5437
+    proposal: "5437"
 - change:
     type: amendment
   date: 2009-01-13
   agent:
-    proposal: 6047
+    proposal: "6047"
 - change:
     type: amendment
   date: 2009-04-07
   agent:
-    proposal: 6175
+    proposal: "6175"
 - change:
     type: amendment
   date: 2009-04-13
@@ -179,37 +179,37 @@ history:
     type: amendment
   date: 2009-08-16
   agent:
-    proposal: 6424
+    proposal: "6424"
 - change:
     type: amendment
   date: 2011-05-16
   agent:
-    proposal: 7050
+    proposal: "7050"
 - change:
     type: amendment
   date: 2012-10-16
   agent:
-    proposal: 7315
+    proposal: "7315"
 - change:
     type: amendment
   date: 2013-05-27
   agent:
-    proposal: 7420
+    proposal: "7420"
 - change:
     type: amendment
   date: 2013-06-17
   agent:
-    proposal: 7470
+    proposal: "7470"
 - change:
     type: amendment
   date: 2014-02-23
   agent:
-    proposal: 7621
+    proposal: "7621"
 - change:
     type: amendment
   date: 2015-06-30
   agent:
-    proposal: 7755
+    proposal: "7755"
 text: |
   A Patent Title is a legal title given to a person in recognition
   of the person's distinction. The Herald is an office; its holder
@@ -229,24 +229,24 @@ power: 1.5
 annotations:
 - cfjs:
   - id: '1525'
-    called: 15 November 2004
+    called: 2004-11-15
   text: If a patent title is defined by the rules, and previously the rules defined
     a patent title with the same spelling but a different award condition, the two
     are the same patent title.
 - cfjs:
   - id: '1592'
-    called: 1 December 2006
+    called: 2006-12-01
   text: A patent title, once borne, is borne until explicitly revoked, even if the
     rule defining the patent title is repealed or the patent title was never defined
     by a rule.
 - cfjs:
   - id: '1731'
-    called: 23 August 2007
+    called: 2007-08-23
   text: It is possible for an entity {a person at the time of CFJ 1731} to bear more
     than one instance of a patent title simultaneously.
 - cfjs:
   - id: '1591'
-    called: 1 December 2006
+    called: 2006-12-01
   text: Where a person bears the patent title X, and X is not also defined by the
     rules to have some special meaning, it is correct to say that that person "is
     an X".

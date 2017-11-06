@@ -5,20 +5,20 @@ history:
     type: enactment
   date: 1993-08-16
   agent:
-    proposal: 386
+    proposal: "386"
 - change:
     type: amendment
     uncounted: true
   date: 1993-11-24
   agent:
-    proposal: 733
+    proposal: "733"
 - change:
     type: amendment
     uncounted: true
   date:
     around: 1994-08-13
   agent:
-    proposal: 881
+    proposal: "881"
 - change:
     type: amendment
     uncounted: true
@@ -32,7 +32,7 @@ history:
   date:
     around: 1994-08-25
   agent:
-    proposal: 1006
+    proposal: "1006"
 - change:
     type: amendment
   date:
@@ -43,155 +43,155 @@ history:
     type: amendment
   date: 1994-11-22
   agent:
-    proposal: 1336
+    proposal: "1336"
 - change:
     type: amendment
   date: 1995-05-15
   agent:
-    proposal: 1582
+    proposal: "1582"
 - change:
     type: amendment
   date: 1995-09-01
   agent:
-    proposal: 1699
+    proposal: "1699"
 - change:
     type: amendment
   date: 1995-10-31
   agent:
-    proposal: 1763
+    proposal: "1763"
 - change:
     type: amendment
   date: 1996-02-06
   agent:
-    proposal: 2442
+    proposal: "2442"
 - change:
     type: amendment
   date: 1996-06-19
   agent:
-    proposal: 2623
+    proposal: "2623"
 - change:
     type: amendment
   date: 1999-09-06
   agent:
-    proposal: 3902
+    proposal: "3902"
 - change:
     type: amendment
   date: 2000-05-08
   agent:
-    proposal: 4002
+    proposal: "4002"
 - change:
     type: amendment
   date: 2002-02-19
   agent:
-    proposal: 4250
+    proposal: "4250"
 - change:
     type: amendment
   date: 2006-08-27
   agent:
-    proposal: 4868
+    proposal: "4868"
 - change:
     type: amendment
   date: 2007-01-22
   agent:
-    proposal: 4887
+    proposal: "4887"
 - change:
     type: amendment
   date: 2007-01-22
   agent:
-    proposal: 4889
+    proposal: "4889"
 - change:
     type: amendment
   date: 2007-04-29
   agent:
-    proposal: 4939
+    proposal: "4939"
 - change:
     type: amendment
   date: 2007-05-07
   agent:
-    proposal: 4956
+    proposal: "4956"
 - change:
     type: amendment
   date: 2007-05-31
   agent:
-    proposal: 4980
+    proposal: "4980"
 - change:
     type: amendment
   date: 2007-06-28
   agent:
-    proposal: 5029
+    proposal: "5029"
 - change:
     type: amendment
   date: 2007-07-09
   agent:
-    proposal: 5059
+    proposal: "5059"
 - change:
     type: amendment
   date: 2007-07-11
   agent:
-    proposal: 5070
+    proposal: "5070"
 - change:
     type: amendment
   date: 2007-07-25
   agent:
-    proposal: 5088
+    proposal: "5088"
 - change:
     type: amendment
   date: 2007-08-01
   agent:
-    proposal: 5103
+    proposal: "5103"
 - change:
     type: power-change
     oldpower: 1
     newpower: 2
   date: 2007-08-13
   agent:
-    proposal: 5133
+    proposal: "5133"
 - change:
     type: amendment
   date: 2007-08-13
   agent:
-    proposal: 5133
+    proposal: "5133"
 - change:
     type: amendment
   date: 2007-10-03
   agent:
-    proposal: 5239
+    proposal: "5239"
 - change:
     type: amendment
   date: 2008-01-22
   agent:
-    proposal: 5407
+    proposal: "5407"
 - change:
     type: amendment
   date: 2008-05-28
   agent:
-    proposal: 5519
+    proposal: "5519"
 - change:
     type: amendment
   date: 2008-06-07
   agent:
-    proposal: 5534
+    proposal: "5534"
 - change:
     type: amendment
   date: 2008-12-07
   agent:
-    proposal: 5986
+    proposal: "5986"
 - change:
     type: amendment
   date: 2008-12-22
   agent:
-    proposal: 6023
+    proposal: "6023"
 - change:
     type: committee-assignment
     committee: Committee on Administration
   date: 2009-01-23
   agent:
-    proposal: 6053
+    proposal: "6053"
 - change:
     type: amendment
   date: 2009-06-23
   agent:
-    proposal: 6372
+    proposal: "6372"
 - change:
     type: amendment
   date: 2009-08-16
@@ -202,7 +202,7 @@ history:
     type: amendment
   date: 2009-09-18
   agent:
-    proposal: 6482
+    proposal: "6482"
 - change:
     type: amendment
   date: 2010-03-06
@@ -213,42 +213,42 @@ history:
     type: amendment
   date: 2010-08-27
   agent:
-    proposal: 6790
+    proposal: "6790"
 - change:
     type: amendment
   date: 2011-01-31
   agent:
-    proposal: 6959
+    proposal: "6959"
 - change:
     type: amendment
   date: 2012-08-14
   agent:
-    proposal: 7272
+    proposal: "7272"
 - change:
     type: amendment
   date: 2013-04-27
   agent:
-    proposal: 7403
+    proposal: "7403"
 - change:
     type: amendment
   date: 2013-08-24
   agent:
-    proposal: 7586
+    proposal: "7586"
 - change:
     type: amendment
   date: 2014-04-07
   agent:
-    proposal: 7629
+    proposal: "7629"
 - change:
     type: amendment
   date: 2016-08-10
   agent:
-    proposal: 7807
+    proposal: "7807"
 - change:
     type: amendment
   date: 2017-10-15
   agent:
-    proposal: 7912
+    proposal: "7912"
 text: |
   Officeholder is an office switch tracked by the ADoP, with
   possible values of any person or "vacant". An officer is the
@@ -279,12 +279,12 @@ power: 2
 annotations:
 - cfjs:
   - id: '1660'
-    called: 13 May 2007
+    called: 2007-05-13
   text: This rule does not define the meaning of the term "office", in the sense meant
     by Rule 754, but rather references the usual English definition of "office" and
     governs offices as thus defined.
 - cfjs:
   - id: '1702'
-    called: 12 July 2007
+    called: 2007-07-12
   text: A requirement to submit something to an officer is satisfied by publishing
     it, even if that office is vacant at the time.
