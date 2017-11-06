@@ -6,8 +6,13 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7913"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7943"
 text: |
-  Emotion is a player switch, tracked by the registrar, with
+  Emotion is a player switch, tracked by the Registrar, with
   possible values Joyous, Melancholy, and Indifferent, that defaults
   to Indifferent.
 
