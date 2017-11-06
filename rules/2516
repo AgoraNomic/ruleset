@@ -6,16 +6,21 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7921"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7944"
 text: |
   The Tax Rate is a singleton natural switch which can take values
-  between 0 and 100, inclusive, tracked by the Secretary. The Tax
+  between 0 and 100, inclusive, tracked by the Treasuror. The Tax
   Rate has a default value of 50.
 
   Whenever Agora receives Shinies from another owner other than
-  itself, the Secretary CAN cause Agora to distribute a percentage
+  itself, the Treasuror CAN cause Agora to distribute a percentage
   of that payment equal to the Tax Rate to all players, and SHALL do
   so in a timely fashion. As part of eir weekly duties, the
-  Secretary SHALL do so for all payments to Agora that have not yet
+  Treasuror SHALL do so for all payments to Agora that have not yet
   been distributed.
 id: 2516
 rev: 0
