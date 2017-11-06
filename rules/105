@@ -104,6 +104,16 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7888"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7940"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7940"
 text: |
   Where permitted by other rules, an instrument generally can, as
   part of its effect,
@@ -117,9 +127,9 @@ text: |
      number of the new rule cannot be specified by the enacting
      instrument; any attempt to so specify is null and void.
 
-  2. repeal a rule. When a rule is repealed, it ceases to be a
-     rule, and the Rulekeepor need no longer maintain a record of
-     it.
+  2. When a rule is repealed, it ceases to be a rule, its power is
+     set to 0, and the Rulekeepor need no longer maintain a record
+     of it.
 
   3. reenact a rule. A repealed rule identified by its most recent
      rule number MUST be reenacted with the same ID number and the
@@ -128,7 +138,12 @@ text: |
      repealed. If the reenacting proposal provides new text for the
      rule, the rule must have materially the same purpose as did the
      repealed version; otherwise, the attempt to reenact the rule is
-     null and void.
+     null and void. Unless specified otherwise by the re-enacting
+     instrument, a re-enacted rule has power equal to the power it
+     had at the time of its repeal (or power 1, if power was not
+     defined at the time of that rule's repeal). If the re-enacting
+     instrument is incapable of setting the re-enacted rule's power
+     to that value, then the re-enactment is null and void.
 
   4. amend the text of a rule.
 
