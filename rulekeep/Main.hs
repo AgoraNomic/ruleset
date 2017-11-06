@@ -25,7 +25,7 @@ main = do
     let rules' = map (uncurry extract) $ zip ruleFiles rules
     let props' = map (uncurry extract) $ zip propFiles props
     let index' = extract "index" index
-    TIO.putStr $ slr rules' props' index'
+    TIO.putStr $ flr rules' props' index'
   where
     extract :: FilePath -> Either ParseException a -> a
     extract f (Left e) = error $ f ++ ": " ++ prettyPrintParseException e
