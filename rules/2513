@@ -1,11 +1,28 @@
 ---
-name: Campaign Proposals, with power 3
+name: Campaign Proposals
 history:
 - change:
     type: enactment
   date: 2017-10-15
   agent:
     proposal: "7912"
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 3
+  date: 2017-11-06
+  agent:
+    proposal: "7938"
+- change:
+    type: retitling
+  date: 2017-11-06
+  agent:
+    proposal: "7938"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7938"
 text: |
   During the nomination period of an election, any candidate for
   that election CAN submit a Campaign Proposal for that election,
@@ -17,10 +34,10 @@ text: |
   Committed proposal may flip it to Uncommitted by announcement.
 
   A Campaign Proposal is an Official Proposal exempt from automatic
-  distribution, and SHALL NOT be distributed as required by the
-  rules. The election with which a Campaign Proposal is associated,
-  as well as its Commitment, are essential parameters for an Agoran
-  decision to adopt a Campaign Proposal.
+  distribution, and SHALL NOT be distributed except as required by
+  the rules. The election with which a Campaign Proposal is
+  associated, as well as its Commitment, are essential parameters
+  for an Agoran decision to adopt a Campaign Proposal.
 
   When a Campaign Proposal is adopted, it CANNOT take effect until
   the associated election ends. When the election ends, if the
@@ -32,5 +49,5 @@ text: |
   message.
 id: 2513
 rev: 0
-power: 1
+power: 3
 annotations: []
