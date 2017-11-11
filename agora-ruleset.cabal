@@ -27,7 +27,7 @@ library
                      , scientific >= 0.3.5
                      , text >= 1.2.2
                      , time >= 1.6.0
-                     , word-wrap >= 0.4.1
+                     , word-wrap >= 0.4
                      , yaml >= 0.8.23
   default-language:    Haskell2010
   default-extensions:  DeriveGeneric
