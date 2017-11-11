@@ -37,6 +37,16 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7886"
+- change:
+    type: amendment
+  date: 2017-11-07
+  agent:
+    proposal: "7964"
+- change:
+    type: amendment
+  date: 2017-11-07
+  agent:
+    proposal: "7964"
 text: |
   A Card is a recognition of a specific violation of the rules or
   other manner of infraction that is awarded to the violator in
@@ -44,16 +54,20 @@ text: |
   depending on the type of Card, to impose a penalty.
 
   Cards CANNOT be issued except by players by announcement. Any
-  attempt to issue a Card, or any intent for a dependent action to
-  issue a Card, is INEFFECTIVE if it does not include the following
-  information:
-
-  - The type of Card being issued,
-
-  - The person to whom the Card is being issued (the bad sport), and
-
-  - The specific action, inaction of the bad sport giving rise to
-    the Card (the reason).
+  attempt to issue a Card is INEFFECTIVE if it does not include (1)
+  the type of card being issued, (2) the name of the person being
+  issued the card (the bad sport), and (3) the specific reason for
+  the issuance of the card, or if it attempts to issue a person a
+  card for an action or inaction which e (more likely than not) did
+  not commit, or if it attempts to issue a card for an action or
+  inaction which is not prohibited by law, or if it attempts to
+  issue a type of card which is blatantly and obviously unsuited to
+  the conduct which constitutes the reason for its issuance or to
+  the person to which it is being issued, or if it is made more than
+  14 days after the conduct constituting the reason for the issuance
+  of the card, or if it attempts to issue a card to a player who has
+  already been issued a card for the conduct constituting the reason
+  for the issuance of the card.
 
   Issuing Cards is secured with power threshold 1.7.
 
@@ -71,10 +85,6 @@ text: |
   - the reason is appropriate for the type of Card being issued;
 
   - there has not already been a Card issued for that reason; and
-
-  - the reason occurred within the 14 days preceding the issuance of
-    the Card or, when the Card arises out of any manner of official
-    proceeding, the initiation of that proceeding.
 id: 2426
 rev: 6
 power: 2
