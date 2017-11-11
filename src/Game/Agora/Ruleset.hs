@@ -53,6 +53,9 @@ wrap indent (Concat t a) =
     t' = if indent then (T.drop 2 $ wrapped $ T.append "  " t) else wrapped t
     wrapped t = wrapText (defaultWrapSettings{preserveIndentation=True}) 72 t
 
+data Ruleset = SLR | FLR
+  deriving (Eq, Show)
+
 revisions :: AR.Rule -> Int
 revisions = sum . map (countChange . AR.rcChange) . AR.history
 
@@ -64,14 +67,38 @@ countChange AR.RetitlingAmendment = 1
 countChange AR.PowerChangeAmendment = 1
 countChange _ = 0
 
-flr :: [AR.Rule] -> [AP.Proposal] -> Index -> Text
-flr rules' props' idx = execConcat $ do
-    ln "THE FULL LOGICAL RULESET"
-    blankLn
-    sequence_ $ M.mapWithKey section idx 
+slr :: [AR.Rule] -> [AP.Proposal] -> Index -> Text
+slr rules' props' idx = execConcat $ do
+    ln "THE SHORT LOGICAL RULESET"
+    ruleset SLR rules props idx
+    ln $ "END OF THE SHORT LOGICAL RULESET"
   where
     rules = M.fromList $ map (\r -> (AR.name r, r)) rules'
     props = M.fromList $ map (\p -> (AP.id p, p)) props'
+
+flr :: [AR.Rule] -> [AP.Proposal] -> Index -> Text
+flr rules' props' idx = execConcat $ do
+    ln "THE FULL LOGICAL RULESET"
+    ruleset FLR rules props idx
+    ln $ "END OF THE FULL LOGICAL RULESET"
+  where
+    rules = M.fromList $ map (\r -> (AR.name r, r)) rules'
+    props = M.fromList $ map (\p -> (AP.id p, p)) props'
+
+ruleset :: Ruleset -> M.Map Text AR.Rule -> M.Map Text AP.Proposal -> Index -> Concat ()
+ruleset rs rules props idx = do
+    header
+    blankLn
+    sequence_ $ M.mapWithKey section idx 
+    footer
+  where
+    header :: Concat ()
+    header = return ()
+
+    footer :: Concat()
+    footer = do
+      sepLn "="
+      blankLn
 
     section :: Text -> [Text] -> Concat ()
     section t rs = do
@@ -79,7 +106,6 @@ flr rules' props' idx = execConcat $ do
       ln t
       sepLn "-"
       mapM_ rule rs
-      blankLn
 
     rule :: Text -> Concat ()
     rule n = do
@@ -95,12 +121,13 @@ flr rules' props' idx = execConcat $ do
         blankLn
         mapM_ (\l -> c "      " >> ln l) $ T.lines $ AR.text r
         blankLn
-        ln "History:"
-        foldM_ histLine' 0 $ AR.history r
-        blankLn
-        ln "Annotations:"
-        mapM_ ann $ AR.annotations r
-        blankLn
+        when (rs == FLR) $ do
+          ln "History:"
+          foldM_ histLine' 0 $ AR.history r
+          blankLn
+          ln "Annotations:"
+          mapM_ ann $ AR.annotations r
+          blankLn
         sepLn "-"
       where
         r = fromMaybe (error $ "Rule " ++ show n ++ " does not exist") $ M.lookup n rules
@@ -270,37 +297,3 @@ flr rules' props' idx = execConcat $ do
             c ")"
             ) $ AR.cfjCalled cj
 
-slr :: [AR.Rule] -> [AP.Proposal] -> Index -> Text
-slr rules' props' idx = execConcat $ do
-    ln "THE SHORT LOGICAL RULESET"
-    blankLn
-    sequence_ $ M.mapWithKey section idx 
-  where
-    rules = M.fromList $ map (\r -> (AR.name r, r)) rules'
-    props = M.fromList $ map (\p -> (AP.id p, p)) props'
-
-    section :: Text -> [Text] -> Concat ()
-    section t rs = do
-      sepLn "="
-      ln t
-      sepLn "-"
-      mapM_ rule rs
-      blankLn
-
-    rule :: Text -> Concat ()
-    rule n = do
-        c "Rule "
-        c $ T.pack $ show $ AR.id r
-        c "/"
-        c $ T.pack $ show $ revisions r
-        c " (Power="
-        c $ T.pack $ show $ AR.power r
-        c ")"
-        newLn
-        ln $ AR.name r
-        blankLn
-        mapM_ (\l -> c "      " >> ln l) $ T.lines $ AR.text r
-        blankLn
-        sepLn "-"
-      where
-        r = fromMaybe (error $ "Rule " ++ show n ++ " does not exist") $ M.lookup n rules
