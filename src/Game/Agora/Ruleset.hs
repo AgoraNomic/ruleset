@@ -103,7 +103,7 @@ flr rules' props' idx = execConcat $ do
         blankLn
         sepLn "-"
       where
-        r = fromJust $ M.lookup n rules
+        r = fromMaybe (error $ "Rule " ++ show n ++ " does not exist") $ M.lookup n rules
 
         histLine' :: Int -> AR.RuleChange -> Concat Int
         histLine' cc rc = do
@@ -303,4 +303,4 @@ slr rules' props' idx = execConcat $ do
         blankLn
         sepLn "-"
       where
-        r = fromJust $ M.lookup n rules
+        r = fromMaybe (error $ "Rule " ++ show n ++ " does not exist") $ M.lookup n rules
