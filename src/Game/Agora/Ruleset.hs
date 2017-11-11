@@ -191,6 +191,10 @@ flr rules' props' idx = execConcat $ do
         maybe (return ()) (\a -> do
           c " ("
           c a
+          maybe (return ()) (\o -> do
+            c ", running for "
+            c o
+            ) $ AP.campaign p
           unless (null coauthors) $ do
             c "; with "
             c $ head coauthors

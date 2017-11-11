@@ -12,6 +12,7 @@ data Proposal = Proposal { id :: Text
                          , title :: Maybe Text
                          , coauthors :: Maybe [Text]
                          , disinterested :: Bool'
+                         , campaign :: Maybe Text
                          }
   deriving (Show, Generic)
 
