@@ -121,7 +121,6 @@ data Rule = Rule { name :: Text
                  , history :: [RuleChange]
                  , text :: Text
                  , id :: Int
-                 , rev :: Int
                  , power :: Scientific
                  , annotations :: [Annotation]
                  }
