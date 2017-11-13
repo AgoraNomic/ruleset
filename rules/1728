@@ -51,8 +51,8 @@ history:
     proposal: "4011"
 - change:
     type: power-change
-    oldpower: 1
-    newpower: 2
+    old-power: 1
+    new-power: 2
   date: 2001-03-16
   agent:
     proposal: "4121"
@@ -123,8 +123,8 @@ history:
     proposal: "5818"
 - change:
     type: power-change
-    oldpower: 2
-    newpower: 3
+    old-power: 2
+    new-power: 3
   date: 2008-11-15
   agent:
     proposal: "5947"

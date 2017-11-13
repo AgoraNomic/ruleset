@@ -124,8 +124,8 @@ history:
     proposal: "5068"
 - change:
     type: power-change
-    oldpower: 1
-    newpower: 1.7
+    old-power: 1
+    new-power: 1.7
   date: 2007-07-11
   agent:
     proposal: "5068"
@@ -231,7 +231,13 @@ history:
   agent:
     proposal: "7610"
 - change:
-    type: retitling-amendment
+    type: retitling
+    new-title: Delivering Judgements
+  date: 2014-01-16
+  agent:
+    proposal: "7616"
+- change:
+    type: amendment
   date: 2014-01-16
   agent:
     proposal: "7616"

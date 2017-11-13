@@ -63,8 +63,8 @@ history:
     proposal: "4685"
 - change:
     type: power-change
-    oldpower: 2
-    newpower: 3
+    old-power: 2
+    new-power: 3
   date: 2005-06-20
   agent:
     proposal: "4811"
@@ -129,7 +129,13 @@ history:
   agent:
     proposal: "6961"
 - change:
-    type: retitling-amendment
+    type: retitling
+    new-title: Decisions with Adoption Indices
+  date: 2011-04-23
+  agent:
+    proposal: "7013"
+- change:
+    type: amendment
   date: 2011-04-23
   agent:
     proposal: "7013"

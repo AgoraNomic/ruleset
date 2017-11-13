@@ -18,6 +18,7 @@ library
                      , Game.Agora.Data.Index
                      , Game.Agora.Data.Proposal
                      , Game.Agora.Data.Rule
+                     , Game.Agora.Lint
                      , Game.Agora.Ruleset
   hs-source-dirs:      src
   build-depends:       aeson >= 1.1.2

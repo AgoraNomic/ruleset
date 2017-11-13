@@ -8,6 +8,8 @@ history:
     proposal: "7768"
 - change:
     type: power-change
+    old-power: 1
+    new-power: 0.5
   date: 2015-07-24
   agent:
     proposal: "7768"

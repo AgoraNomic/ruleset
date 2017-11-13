@@ -13,13 +13,15 @@ import System.IO
 import Game.Agora.Data.Index
 import Game.Agora.Data.Proposal
 import Game.Agora.Data.Rule
+import Game.Agora.Lint
 import Game.Agora.Ruleset
 
-data Command = SLR | FLR
+data Command = SLR | FLR | Lint
   deriving (Show)
 
 commands = subparser (command "slr" (info (pure SLR) $ progDesc "Print the SLR")
                    <> command "flr" (info (pure FLR) $ progDesc "Print the FLR")
+                   <> command "lint" (info (pure Lint) $ progDesc "Lint data")
                      )
 commandLine =
   info (commands <**> helper) (fullDesc
@@ -43,6 +45,7 @@ main = do
     case options of
       SLR -> TIO.putStr $ slr rules' props' index'
       FLR -> TIO.putStr $ flr rules' props' index'
+      Lint -> lint rules' props' index'
   where
     extract :: FilePath -> Either ParseException a -> a
     extract f (Left e) = error $ f ++ ": " ++ prettyPrintParseException e

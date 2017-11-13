@@ -27,8 +27,14 @@ history:
   agent:
     proposal: "7729"
 - change:
-    type: power-change-amendment
-    newpower: 2
+    type: power-change
+    old-power: 1
+    new-power: 2
+  date: 2016-12-05
+  agent:
+    proposal: "7831"
+- change:
+    type: amendment
   date: 2016-12-05
   agent:
     proposal: "7831"

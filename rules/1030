@@ -73,6 +73,8 @@ history:
     proposal: "6292"
 - change:
     type: power-change
+    old-power: 3.0
+    new-power: 3.2
   date: 2009-05-19
   agent:
     proposal: "6292"

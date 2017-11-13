@@ -46,15 +46,15 @@ history:
     proposal: "3968"
 - change:
     type: power-change
-    oldpower: 1
-    newpower: 2
+    old-power: 1
+    new-power: 2
   date: 2000-08-07
   agent:
     proposal: "4040"
 - change:
     type: power-change
-    oldpower: 2
-    newpower: 3
+    old-power: 2
+    new-power: 3
   date: 2005-06-20
   agent:
     proposal: "4811"

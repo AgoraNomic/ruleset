@@ -18,6 +18,14 @@ history:
     proposal: "1531"
 - change:
     type: power-change
+    old-power: 1
+    new-power: 3
+  date: 2005-06-20
+  agent:
+    proposal: "4811"
+- change:
+    type: retitling
+    new-title: Resolving Agoran decisions
   date: 2005-06-20
   agent:
     proposal: "4811"

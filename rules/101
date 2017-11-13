@@ -94,7 +94,13 @@ history:
   agent:
     proposal: "7596"
 - change:
-    type: retitling-amendment
+    type: retitling
+    new-title: The Game of Agora
+  date: 2014-01-13
+  agent:
+    proposal: "7614"
+- change:
+    type: amendment
   date: 2014-01-13
   agent:
     proposal: "7614"
@@ -105,6 +111,8 @@ history:
     proposal: "7743"
 - change:
     type: power-change
+    old-power: 3
+    new-power: 4
   date: 2017-09-26
   agent:
     proposal: "7889"

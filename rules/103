@@ -45,8 +45,8 @@ history:
     proposal: "5407"
 - change:
     type: power-change
-    oldpower: 3
-    newpower: 1
+    old-power: 3
+    new-power: 1
   date: 2008-11-15
   agent:
     proposal: "5947"
@@ -62,8 +62,8 @@ history:
     proposal: "6490"
 - change:
     type: power-change
-    oldpower: 1
-    newpower: 2
+    old-power: 1
+    new-power: 2
   date: 2010-09-04
   agent:
     proposal: "6821"

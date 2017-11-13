@@ -8,6 +8,8 @@ history:
     proposal: "5053"
 - change:
     type: power-change
+    old-power: 1
+    new-power: 2
   date: 2007-07-05
   agent:
     proposal: "5054"
@@ -18,8 +20,8 @@ history:
     proposal: "5189"
 - change:
     type: power-change
-    oldpower: 2
-    newpower: 3
+    old-power: 2
+    new-power: 3
   date: 2007-10-14
   agent:
     proposal: "5247"
