@@ -38,8 +38,6 @@ data ChangeType = Initial { changeMutability :: Mutability
                 | Infection
                 | CommitteeAssignment { committee :: Text }
                 | InfectionAmendment { uncounted :: Bool' }
-                | RetitlingAmendment
-                | PowerChangeAmendment
                 | Unknown
   deriving (Show, Generic)
 

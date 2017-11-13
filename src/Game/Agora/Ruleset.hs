@@ -63,8 +63,6 @@ countChange :: AR.ChangeType -> Int
 countChange (AR.Amendment {AR.uncounted=u}) = if bool' u then 0 else 1
 countChange (AR.InfectionAmendment {AR.uncounted=u}) = if bool' u then 0 else 1
 countChange AR.Reenactment = 1
-countChange AR.RetitlingAmendment = 1
-countChange AR.PowerChangeAmendment = 1
 countChange _ = 0
 
 slr :: [AR.Rule] -> [AP.Proposal] -> Index -> Text
@@ -196,12 +194,6 @@ ruleset rs rules props idx = do
     histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.InfectionAmendment{})} = do
       c "Infected and "
       histLine cc rc{AR.rcChange = AR.Amendment{AR.uncounted=AR.uncounted t}}
-    histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.RetitlingAmendment{})} = do
-      c "Retitled and "
-      histLine cc rc{AR.rcChange = AR.Amendment{AR.uncounted=Nothing}}
-    histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.PowerChangeAmendment{})} = do
-      c "Power changed and "
-      histLine cc rc{AR.rcChange = AR.Amendment{AR.uncounted=Nothing}}
     histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.Unknown{})} = do
       ln "... history unknown ..."
 

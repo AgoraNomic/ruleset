@@ -15,15 +15,8 @@ lint rules props index = do
 
 lintRule :: AR.Rule -> IO ()
 lintRule r = do
-  when ((any $ isCompoundChange . AR.rcChange) $ AR.history r) $ do
-    TIO.putStrLn $ T.concat ["Rule ", T.pack $ show $ AR.id r, " has compound change"]
   when ((any $ isUnpoweredChange . AR.rcChange) $ AR.history r) $ do
     TIO.putStrLn $ T.concat ["Rule ", T.pack $ show $ AR.id r, " has a power change with no power"]
-
-isCompoundChange :: AR.ChangeType -> Bool
-isCompoundChange (AR.RetitlingAmendment{}) = True
-isCompoundChange (AR.PowerChangeAmendment{}) = True
-isCompoundChange _ = False
 
 isUnpoweredChange :: AR.ChangeType -> Bool
 isUnpoweredChange (pc@AR.PowerChange{}) =
