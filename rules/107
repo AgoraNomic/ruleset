@@ -114,6 +114,11 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: amendment
+  date: 2017-11-12
+  agent:
+    proposal: "7953"
 text: |
   An Agoran decision is initiated when a person authorized to
   initiate it publishes a valid notice which sets forth the intent
@@ -122,13 +127,15 @@ text: |
   within one week after the notice is published:
 
   1. The matter to be decided (for example, "the adoption of
-     proposal 4781").
+     proposal 4781");
 
-  2. A clear indication of the set of valid votes.
+  2. The voting method;
 
-  3. The identity of the vote collector.
+  3. A clear description of the valid options;
 
-  4. Any additional information defined by the rules as essential
+  4. The identity of the vote collector; and
+
+  5. Any additional information defined by the rules as essential
      parameters.
 
   The publication of such a valid notice initiates the voting period
