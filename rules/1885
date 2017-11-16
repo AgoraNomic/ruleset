@@ -1,6 +1,6 @@
 id: 1885
 name: Zombie Auctions
-power: 1
+power: 2
 text: |
   Whenever a zombie has Agora for a master and an auction for it is
   not underway or been won in the last seven days, then the
@@ -57,4 +57,11 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7951"
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 2
+  date: 2017-11-12
+  agent:
+    proposal: "7952"
 annotations: []
