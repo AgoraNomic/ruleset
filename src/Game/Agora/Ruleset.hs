@@ -132,7 +132,7 @@ ruleset rs rules props idx = do
 
         histLine' :: Int -> AR.RuleChange -> Concat Int
         histLine' cc rc = do
-            wrap True (c "  " >> histLine cc' rc)
+            wrap True $ histLine cc' rc
             newLn
             return cc'
           where
@@ -273,12 +273,11 @@ ruleset rs rules props idx = do
 
     ann :: AR.Annotation -> Concat ()
     ann a = do
-        c "  "
         unless (null $ AR.annCfjs a) $ do
           cfj $ head $ AR.annCfjs a
           mapM_ (\cj -> c ", " >> cfj cj) $ tail $ AR.annCfjs a
         ln ":"
-        wrap False $ c $ T.append "    " $ AR.annText a
+        wrap False $ c $ T.append "  " $ AR.annText a
         newLn
       where
         cfj :: AR.CFJ -> Concat()
