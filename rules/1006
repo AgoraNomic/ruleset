@@ -249,6 +249,11 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7912"
+- change:
+    type: amendment
+  date: 2017-11-12
+  agent:
+    proposal: "7958"
 text: |
   Officeholder is an office switch tracked by the ADoP, with
   possible values of any person or "vacant". An officer is the
@@ -267,8 +272,11 @@ text: |
   vacant or has an interim holder is an interim office.
 
   The holder of an elected office CAN resign it by announcement,
-  causing it to become vacant. Any player CAN cause an office to
-  become vacant without 2 objections.
+  causing it to become vacant. The non-interim holder of an elected
+  office CAN, With 3 Support, resign the office while appointing
+  another player to become the holder of the office, provided that
+  other player is one of the Supporters. Any player CAN cause an
+  office to become vacant without 2 objections.
 
   When a proposal takes effect and creates a new office, if the
   proposal does not specify otherwise, the author of that proposal
