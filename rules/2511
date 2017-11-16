@@ -6,6 +6,11 @@ history:
   date: 2017-10-03
   agent:
     proposal: "7904"
+- change:
+    type: amendment
+  date: 2017-11-12
+  agent:
+    proposal: "7960"
 text: |
   In a timely fashion after the beginning of each Quarter, the
   Herald CAN and SHALL by announcement, perform the following tasks
@@ -14,16 +19,16 @@ text: |
   1. Halve (rounding towards 0) the Karma of every Unregistered
      person.
 
-  2. Set the Karma of the Community Chest such that the sum of all
-     Karma switch instance values in the game is equal to 0.
+  2. Set the Karma of Agora such that the sum of all Karma switch
+     instance values in the game is equal to 0.
 
-  While the Karma of the Community Chest is not equal to 0, the
-  Herald CAN and SHALL publish a Notice of Honour specifying the
-  Community Chest as a gainer or loser in place of a player; to be
-  valid, it must be specified such that the result would move the
-  Karma of the Community Chest closer to 0. For selection players in
-  such transactions, the Herald SHOULD use standards of behavior and
-  game balance befitting the spirit of the game.
+  While the Karma of Agora is not equal to 0, the Herald CAN and
+  SHALL publish a Notice of Honour specifying Agora as a gainer or
+  loser in place of a player; to be valid, it must be specified such
+  that the result would move the Karma of Agora closer to 0. For
+  selection players in such transactions, the Herald SHOULD use
+  standards of behavior and game balance befitting the spirit of the
+  game.
 id: 2511
 power: 1
 annotations: []

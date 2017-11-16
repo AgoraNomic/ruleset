@@ -11,10 +11,15 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7916"
+- change:
+    type: amendment
+  date: 2017-11-12
+  agent:
+    proposal: "7960"
 text: |
   Karma is a person switch tracked by the Herald in eir Weekly
-  Report. Karma is an Integer switch.  The Community Chest also has
-  an instance of the Karma switch.
+  Report. Karma is an Integer switch. Agora also has an instance of
+  the Karma switch.
 
   A player CAN publish a Notice of Honour. For a Notice of Honour
   to be valid, it must:
