@@ -6,13 +6,18 @@ history:
   date: 2017-11-06
   agent:
     proposal: "7932"
+- change:
+    type: amendment
+  date: 2017-11-16
+  agent:
+    proposal: "7962"
 text: |
   Medals of Honour are a destructible fixed currency tracked by the
   Herald.
 
-  In the 7 days of an Agoran month, any player CAN declare emself to
-  be eligible for a Medal of Honour by announcement if all of the
-  following are true:
+  In the first 7 days of an Agoran month, any player CAN declare
+  emself to be eligible for a Medal of Honour by announcement if all
+  of the following are true:
 
   * E has made at least 1 message to a public forum in the last
     Agoran month.
