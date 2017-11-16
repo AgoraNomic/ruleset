@@ -23,18 +23,20 @@ instance FromJSON Mutability where
 data ChangeType = Initial { changeMutability :: Mutability
                           , changeId :: Int
                           }
-                | Enactment { mi :: Maybe Text }
+                | Enactment { mi :: Maybe Text
+                            , changePower :: Maybe Scientific
+                            }
                 | Amendment { uncounted :: Bool' }
                 | Retitling
                 | Renumbering
                 | Mutation { oldMi :: Text
                            , newMi :: Text
                            }
-                | PowerChange { oldPower :: Maybe Scientific
-                              , newPower :: Maybe Scientific
+                | PowerChange { oldPower :: Scientific
+                              , newPower :: Scientific
                               }
                 | Repeal
-                | Reenactment
+                | Reenactment { changePower :: Maybe Scientific }
                 | Infection
                 | CommitteeAssignment { committee :: Text }
                 | InfectionAmendment { uncounted :: Bool' }

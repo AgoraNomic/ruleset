@@ -62,7 +62,7 @@ revisions = sum . map (countChange . AR.rcChange) . AR.history
 countChange :: AR.ChangeType -> Int
 countChange (AR.Amendment {AR.uncounted=u}) = if bool' u then 0 else 1
 countChange (AR.InfectionAmendment {AR.uncounted=u}) = if bool' u then 0 else 1
-countChange AR.Reenactment = 1
+countChange (AR.Reenactment{}) = 1
 countChange _ = 0
 
 slr :: [AR.Rule] -> [AP.Proposal] -> Index -> Text
@@ -171,18 +171,20 @@ ruleset rs rules props idx = do
       c $ AR.newMi t
       agentDate rc
     histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.PowerChange{})} = do
-      c "Power changed"
-      when ((isJust $ AR.oldPower t) && (isJust $ AR.newPower t)) $ do
-        c " from power "
-        c $ T.pack $ show $ fromJust $ AR.oldPower t
-        c " to "
-        c $ T.pack $ show $ fromJust $ AR.newPower t
+      c "Power changed from power "
+      c $ T.pack $ show $ AR.oldPower t
+      c " to "
+      c $ T.pack $ show $ AR.newPower t
       agentDate rc
     histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.Repeal{})} = do
       c "Repealed"
       agentDate rc
     histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.Reenactment{})} = do
       c "Reenacted"
+      when (countChange t > 0) $ do
+        c "("
+        c $ T.pack $ show $ cc
+        c ")"
       agentDate rc
     histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.Infection{})} = do
       c "Infected"

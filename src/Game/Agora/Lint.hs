@@ -14,11 +14,4 @@ lint rules props index = do
   mapM_ lintRule rules
 
 lintRule :: AR.Rule -> IO ()
-lintRule r = do
-  when ((any $ isUnpoweredChange . AR.rcChange) $ AR.history r) $ do
-    TIO.putStrLn $ T.concat ["Rule ", T.pack $ show $ AR.id r, " has a power change with no power"]
-
-isUnpoweredChange :: AR.ChangeType -> Bool
-isUnpoweredChange (pc@AR.PowerChange{}) =
-  isNothing (AR.oldPower pc) || isNothing (AR.newPower pc)
-isUnpoweredChange _ = False
+lintRule r = return ()
