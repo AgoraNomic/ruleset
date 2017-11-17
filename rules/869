@@ -279,10 +279,20 @@ annotations:
 - cfjs:
   - id: '1275'
     called: 2001-02-19
-  text: An entity is a Player if the Rules cannot distinguish that entity from a Player.
+  text: >
+    An entity is a Player if the Rules cannot distinguish that
+    entity from a Player.
 - cfjs:
   - id: '1263'
     called: 2001-02-05
-  text: Any message expressing a clear desire or intent to register as a Player counts
-    as a request for registration, whether or not it is explicitly phrased in the
-    manner stipulated by the rules.
+  text: >
+    Any message expressing a clear desire or intent to register as a
+    Player counts as a request for registration, whether or not it
+    is explicitly phrased in the manner stipulated by the rules.
+- cfjs:
+  - id: '3558'
+    called:  2017-09-06
+  text: >
+    Registering by publishing that you want to be a player is a
+    different mechanism than registering "by announcement" and so
+    gets around rules limitations on "registering by announcement".

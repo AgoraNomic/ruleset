@@ -39,4 +39,11 @@ text: |
   issued em a Trust Token.
 id: 2452
 power: 0.5
-annotations: []
+annotations:
+- cfjs:
+  - id: '3569'
+    called: 2017-10-03
+  text: >
+    Trust Tokens are only awarded for direct endorsements, not
+    indirect ones. If A endorses B, who endorses C, then C does not
+    thereby issue a Trust Token to A.

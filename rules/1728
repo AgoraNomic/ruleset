@@ -270,10 +270,20 @@ annotations:
 - cfjs:
   - id: '1722'
     called: 2007-08-15
-  text: 'The method of dependent action need not be described exactly: an approximate
-    but inexact description suffices, as does the rule-defined term.'
+  text: >
+    The method of dependent action need not be described exactly: an
+    approximate but inexact description suffices, as does the
+    rule-defined term.
 - cfjs:
   - id: '1802'
     called: 2007-11-19
-  text: The phrase "by Agoran Support" is not an unambiguous description of a method
-    of dependent action.
+  text: >
+    The phrase "by Agoran Support" is not an unambiguous description
+    of a method of dependent action.
+- cfjs:
+  - id: '3567'
+    called: 2017-09-27
+  text: >
+    Dependent action intents aren't "by announcement" actions, so a
+    message saying it a lot of times can be read "naturally" as
+    counting as a single intent.

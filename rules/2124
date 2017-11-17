@@ -165,4 +165,10 @@ text: |
   type of response.
 id: 2124
 power: 2
-annotations: []
+annotations:
+- cfjs:
+  - id: '3567'
+    called: 2017-09-27
+  text: >
+    Supports and objections can be made on a group of intents (e.g.
+    "I object to all intents to do X.").
