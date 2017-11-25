@@ -48,10 +48,15 @@ history:
   date: 2017-11-06
   agent:
     proposal: "7933"
+- change:
+    type: amendment
+  date: 2017-11-21
+  agent:
+    proposal: "7965"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
-  Ribbon Ownership is a person switch, tracked by the Tailor in his
+  Ribbon Ownership is a person switch, tracked by the Tailor in eir
   monthly report, whose values are the subsets of the set of types
   of Ribbon, defaulting to the empty set.If the rules are amended to
   change the types of Ribbon, if a player's Ribbon Ownership is
