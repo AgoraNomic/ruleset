@@ -53,6 +53,11 @@ history:
   date: 2017-11-07
   agent:
     proposal: "7964"
+- change:
+    type: amendment
+  date: 2017-11-21
+  agent:
+    proposal: "7970"
 text: |
   A Card is a recognition of a specific violation of the rules or
   other manner of infraction that is awarded to the violator in
@@ -85,12 +90,6 @@ text: |
   is appropriate are secured at the power threshold of that rule. It
   is inappropriate to award a card to a non-player person unless the
   rule defining the card says otherwise.
-
-  A person SHALL NOT issue a Card unless:
-
-  - the reason is appropriate for the type of Card being issued;
-
-  - there has not already been a Card issued for that reason; and
 id: 2426
 power: 2
 annotations: []
