@@ -1,0 +1,58 @@
+id: 2540
+name: Political Elections
+power: 2
+text: |
+  For each Post, Vote for <Post> is a secured Politician switch
+  tracked by the Clork, with possible values all Politicians and
+  undecided (default).
+
+  The voting strength of a Politician for a Post is defined as
+  follows:
+
+  - For an election for Host, Politicians have strength equal to
+    their Rank.
+
+  - For an election for an Upper Echelon Post, the Host has strength
+    4, and Upper Echelon Politicians have strength 2.
+
+  - For an election for a Row Echelon Post, the Host has strength 3,
+    Upper Echelon Politicians have strength 2, and Row Echelon
+    politicians have strength 1.
+
+  - The Organizer has voting strength 1 greater than e would have
+    based on the above.
+
+  The eligible Politicians in an election for a Post are all
+  Politicians in the highest non-empty Echelon below that of the
+  Post up for election. The number of votes cast for an eligible
+  Politician in an election is the sum of voting strengths for that
+  Post of all Politician voting for em; the number of votes cast for
+  an ineligible Politician is 0.
+
+  An election for a Post is resolvable if that Post is vacant, there
+  is a single Politician with the most votes in that election, and
+  either at least four days have passed since either the vacancy or
+  since its previous occupant Announced Retirement, whichever was
+  first, or if the leader has more votes than the Policitian with
+  the second-most, plus the total voting strength of all undecided
+  Politicians in that election. When an election for a Post is
+  resolvable, any player CAN, by announcement, end the election and
+  install the winning Politician (which must be specified or else
+  the announcement is INEFFECTIVE) into the Post.
+
+  If a Post is vacant and either has been so for seven days or more
+  than eleven days have passed since its previous holder Announced
+  Retirement, then the Host CAN and SHALL, in a timely fashion, by
+  announcement end the election and install one of the Politicians
+  with the most votes into the Post.
+
+  When an election for a Post ends, all Vote switches for that Post
+  are set to undecided.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []

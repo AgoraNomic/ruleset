@@ -1,0 +1,18 @@
+id: 2539
+name: Retirement
+power: 2
+text: |
+  Stress Level is a natural Politician switch, tracked by the Clork.
+  At the start of each Agoran week, each Politician's Stress Level
+  is increased by eir Rank. If, after this procedure, a Politician's
+  Stress Level is 20 or greater, the Politician announces retirement
+  and is destroyed at the beginning of the following Agoran week.
+  The Clork SHALL announce this fact in a timely fashion.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []

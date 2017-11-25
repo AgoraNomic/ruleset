@@ -1,0 +1,35 @@
+id: 2537
+name: Balloons
+power: 2
+text: |
+  Balloons are a fixed currency, tracked by the Clork, with
+  ownership restricted to players. Creation or destruction of
+  balloons is secured.
+
+  At the start of each Agoran week, after Advisors are flipped:
+  
+  - For each player, if e owns more Balloons than e was awarded by
+    this procedure at the start of the previous week, any excess
+    Balloons are destroyed.
+
+  - Each player is awarded Balloons equal to the sum of the Ranks of
+    the Politicians for which e is Advisor.
+
+  - The Decorator's Advisor, if any is awarded one additional
+    Balloon.
+
+  A player CAN, by announcement, spend a Balloon e owns to increase
+  eir voting strength on a specified Agoran Decision, other than one
+  with an adoption index of 3 or higher, by 1.
+
+  A player CAN, by announcement, spend Balloons equal to the sum of
+  the Ranks of all Posts in order to win the game. Upon doing so,
+  all eir Influence switches are set to 0.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []

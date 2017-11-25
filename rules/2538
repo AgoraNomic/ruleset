@@ -1,0 +1,21 @@
+id: 2538
+name: Party Favours
+power: 2
+text: |
+  For each Party, there is a currency called Favours in that Party.
+  Ownership of Favours is tracked by the Clork. Ownership of Favours
+  is restricted to players.
+
+  A player CAN, by announcement, spend 3 Favours in a single Party
+  to award another player 2 Favours in that Party.
+
+  A player CAN, by announcement, spend 3 Favours in a single Party
+  to gain a Favour in another specified Party.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []

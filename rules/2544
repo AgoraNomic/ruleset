@@ -1,0 +1,31 @@
+id: 2544
+name: Get This Party Started
+power: 2
+text: |
+  The Clork CAN, by announcement, and SHALL, in a timely fashion
+  after this rule is enacted:
+
+  - Create 20 Politicians, 4 in each Party, specifying their names;
+
+  - Increase each Politician's Stress Level by twice eir Rank;
+
+  - Assign one Politician to each Post, chosen at random;
+
+  - Randomly assign Policies to Parties (obeying the cyclic order
+    restriction); then
+
+  - Cause this rule to repeal itself.
+
+  Rules to the contrary notwithstanding, while this rule is in
+  effect, it provides the only mechanism by which Politicians can be
+  created, Posts or Policies assigned, Stress Levels changed.
+  Moreover, rules to the contrary notwithstanding, Favour cannot be
+  created.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []

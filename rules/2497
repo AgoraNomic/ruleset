@@ -21,6 +21,11 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
 text: |
     Floating Value is a natural singleton switch, tracked by the
     Treasuror.
@@ -38,6 +43,8 @@ text: |
     * CFJ Reward: 1/20th of the Floating Value, rounded up.
 
     * Stamp Value: 1/5th of the Floating Value, rounded up.
+
+    - Favour Value: 1/10th of the Floating Value, rounded up.
 power: 1
 annotations: []
 id: 2497

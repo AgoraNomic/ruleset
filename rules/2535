@@ -1,0 +1,58 @@
+id: 2535
+name: Echelon Forms
+power: 2
+text: |
+  A Post is a position which can be held by at most one Politician.
+  Each Politican can hold at most one Post at a time. Each Post is
+  in an Echelon, which has an associated Rank. The Echelons, and
+  their Posts and Ranks, are as follows:
+
+  Chamber of Power (Rank 5):
+
+  - Host
+
+  Upper Echelon (Rank 3):
+
+  - Planner
+
+  - Enforcer
+
+  - Organizer
+
+  - Creep
+
+  Row Echelon (Rank 1):
+
+  - Schmoozer
+
+  - Decorator
+
+  - Loner
+
+  - Drunk
+
+  - Mystery
+
+  - Wild One
+
+  - Hat Rack
+
+  Each Politician who holds a Post is in the Echelon of that post;
+  other Politicians are in the Row-Reduced Echelon, which has Rank
+  0. Likewise, the Rank of a Post or Politician is the Rank of their
+  Echelon.
+
+  If a rule provides that a Post can take an action, then the
+  Advisor of the holder of that Post CAN take that action. If there
+  is no such player, and the Post is required to take that action,
+  then the Clork CAN do it prior to any deadline for its
+  performance. After a deadline for a Post to perform an action, any
+  player CAN take it.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []

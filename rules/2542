@@ -1,0 +1,62 @@
+id: 2542
+name: Favour Awards
+power: 1
+text: |
+  The following officers CAN by announcement award Favours in the
+  listed Parties, but SHALL NOT do so except as required by rule.
+
+  - Arbitor and Referee: the Party holding Justice.
+
+  - ADoP: the Party holding Efficiency.
+
+  - Assessor: the Parties holding Legislation and Participation.
+
+  - Clork: all Parties.
+
+  When a player judges a CFJ, the Arbitor SHALL, in a timely
+  fashion, award that player 3 Favours in the Party holding Justice.
+  When a player's Finger-Pointing leads to a Card award, or when the
+  Referee issues Summary Judgement, the Referee shall award a Favour
+  in the Party holding Justice to the responsible player.
+
+  Complexity is an office switch, tracked by the ADoP, with values 1
+  (default), 2, and 3. The ADoP CAN, without 2 Objections, set the
+  Complexity of an office. As part of eir weekly duties, the ADoP
+  SHALL award to each officeholder a number of Favours in the Party
+  holding Efficiency equal to the Complexity of that Office.
+
+  Whenever the Assessor resolves an Agoran decision:
+
+  - If the decision was to adopt a proposal, and it was ADOPTED, e
+    SHALL immediately award the proposal's author a number of
+    Favours in the Party holding Legislation equal to the proposal's
+    AI, rounded up.
+
+  - For each voter who has not voted on an Agoran decision resolved
+    earlier in the same Agoran week, e SHALL award that player 2
+    Favours in the Party holding Participaiton.
+
+  Any player CAN spend shinies equal to the Favour Value to gain a
+  Favour in the Party holding Economy.
+
+  As part of eir weekly duties, the Clork SHALL award, to the
+  Advisor of a Politician holding one of the below offices, 3
+  Favours in the corresponding Party:
+
+  - Loner: Platonic Isolationists
+
+  - Drunk: New Punchbowl Reformers
+
+  - Mystery: Costume Conservatives
+
+  - Wild One: Substance Use Liberals
+
+  - Hat Rack: Official Raving Monster Looney Party
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []

@@ -1,0 +1,26 @@
+id: 2543
+name: Post Powers
+power: 2
+text: |
+  The Creep CAN by announcement, but no more than once per Agoran
+  week, increase eir own Stress Level by 1 in order to increase the
+  Stress Level of another specified Politician by 2.
+
+  The Schmoozer CAN by announcement, but no more than once per
+  Agoran week, change the Party of a specified other Politician to
+  the next Party in order, wrapping around.
+
+  The Enforcer CAN, no more than once per week, with Support from at
+  least one other Politician not in the Row-Reduced Echelon, remove
+  a specified Row Echelon Politician from eir Post. E must specify
+  the supporting Politician when doing so, or it is INEFFECTIVE.
+  Upon doing so, both the Enforcer and supporting Politician's
+  Stress Levels are increased by 1.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []

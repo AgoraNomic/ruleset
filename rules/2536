@@ -1,0 +1,35 @@
+id: 2536
+name: Taken Under Advisement
+power: 2
+text: |
+  Advisor is a Politician switch, tracked by the Clork, with
+  possible values all players and none (default). For each
+  Politician, Influence over <Politician> is a natural player
+  switch, tracked by the Clork.
+
+  A player CAN, by announcement, spend Favours in a Party to gain
+  Influence over that Politican, depending on the Politician's
+  Echelon:
+
+  - Chamber of Power: 3 Favours for 2 Influence
+
+  - Upper Echelon: 1 Favour for 1 Influence
+
+  - Row Echelon: 2 Favours for 3 Influence
+
+  - Row-Reduced Echelon: 1 Favour for 2 Influence
+
+  If a player has more Influence over a given Politician than any
+  other player, e can Advise that Politican by announcement. When e
+  does so, if no other player Advises the same Politician later in
+  the same Agoran week, then at the start of the next Agoran week,
+  that player becomes that Politician's Advisor.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2017-11-21
+  agent:
+    proposal: "7968"
+annotations: []
+
