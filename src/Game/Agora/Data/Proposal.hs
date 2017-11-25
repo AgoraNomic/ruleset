@@ -1,6 +1,7 @@
 module Game.Agora.Data.Proposal where
 
 import Data.Aeson.Types
+import Data.Map (Map)
 import Data.Text(Text)
 import Data.Yaml
 import GHC.Generics
@@ -21,3 +22,5 @@ instance ToJSON Proposal where
 
 instance FromJSON Proposal where
   parseJSON = genericParseJSON $ options "" ""
+
+type PropMap = Map Text Proposal

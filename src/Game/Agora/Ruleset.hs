@@ -65,25 +65,19 @@ countChange (AR.InfectionAmendment {AR.uncounted=u}) = if bool' u then 0 else 1
 countChange (AR.Reenactment{}) = 1
 countChange _ = 0
 
-slr :: [AR.Rule] -> [AP.Proposal] -> Index -> Text
-slr rules' props' idx = execConcat $ do
+slr :: AR.RuleMap -> AP.PropMap -> Index -> Text
+slr rules props idx = execConcat $ do
     ln "THE SHORT LOGICAL RULESET"
     ruleset SLR rules props idx
     ln $ "END OF THE SHORT LOGICAL RULESET"
-  where
-    rules = M.fromList $ map (\r -> (AR.name r, r)) rules'
-    props = M.fromList $ map (\p -> (AP.id p, p)) props'
 
-flr :: [AR.Rule] -> [AP.Proposal] -> Index -> Text
-flr rules' props' idx = execConcat $ do
+flr :: AR.RuleMap -> AP.PropMap -> Index -> Text
+flr rules props idx = execConcat $ do
     ln "THE FULL LOGICAL RULESET"
     ruleset FLR rules props idx
     ln $ "END OF THE FULL LOGICAL RULESET"
-  where
-    rules = M.fromList $ map (\r -> (AR.name r, r)) rules'
-    props = M.fromList $ map (\p -> (AP.id p, p)) props'
 
-ruleset :: Ruleset -> M.Map Text AR.Rule -> M.Map Text AP.Proposal -> Index -> Concat ()
+ruleset :: Ruleset -> AR.RuleMap -> AP.PropMap -> Index -> Concat ()
 ruleset rs rules props idx = do
     header
     blankLn

@@ -39,12 +39,14 @@ executable rulekeep
   hs-source-dirs:      rulekeep
   build-depends:       agora-ruleset
                      , base >= 4.7
+                     , containers >= 0.5.7
                      , directory >= 1.3
                      , filepath >= 1.4
                      , optparse-applicative >= 0.13.2
                      , text >= 1.2.2
                      , yaml >= 0.8.23
   default-language:    Haskell2010
+  default-extensions:  OverloadedStrings 
 
 source-repository head
   type:     git

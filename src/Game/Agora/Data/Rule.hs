@@ -2,6 +2,7 @@ module Game.Agora.Data.Rule where
 
 import Data.Aeson.Types
 import Data.Functor
+import Data.Map (Map)
 import Data.Maybe
 import Data.Scientific
 import Data.Text (Text)
@@ -133,3 +134,5 @@ instance ToJSON Rule where
 
 instance FromJSON Rule where
   parseJSON = genericParseJSON $ options "" ""
+
+type RuleMap = Map Text Rule
