@@ -1,11 +1,6 @@
----
+id: 2522
 name: Contract Lifecycle
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 2.5
 text: |
   A person CAN create a contract by announcement by transferring 1
   shiny to Agora, specifying the contract's text. A person SHALL NOT
@@ -49,6 +44,10 @@ text: |
   If the possibility of any action defined by this rule is
   indeterminate, or is subject to a inextricable conditional, it is
   impossible.
-id: 2522
-power: 2.5
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

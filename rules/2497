@@ -1,5 +1,26 @@
----
+id: 2497
 name: Floating Value
+power: 1
+text: |
+    Floating Value is a natural singleton switch, tracked by the
+    Treasuror.
+
+    The following Floating Derived Values are defined:
+
+    * Pend Cost: 1/20th of the Floating Value, rounded up.
+
+    * CFJ Cost: 1/20th of the Floating Value, rounded up.
+
+    * Authorship Reward: 1/40th of the Floating Value, rounded up.
+
+    * Pend Reward: 1/40th of the Floating Value, rounded up.
+
+    * CFJ Reward: 1/20th of the Floating Value, rounded up.
+
+    * Stamp Value: 1/5th of the Floating Value, rounded up.
+
+    - Favour Value: 1/10th of the Floating Value, rounded up.
+annotations: []
 history:
 - change:
     type: enactment
@@ -26,25 +47,3 @@ history:
   date: 2017-11-21
   agent:
     proposal: "7968"
-text: |
-    Floating Value is a natural singleton switch, tracked by the
-    Treasuror.
-
-    The following Floating Derived Values are defined:
-
-    * Pend Cost: 1/20th of the Floating Value, rounded up.
-
-    * CFJ Cost: 1/20th of the Floating Value, rounded up.
-
-    * Authorship Reward: 1/40th of the Floating Value, rounded up.
-
-    * Pend Reward: 1/40th of the Floating Value, rounded up.
-
-    * CFJ Reward: 1/20th of the Floating Value, rounded up.
-
-    * Stamp Value: 1/5th of the Floating Value, rounded up.
-
-    - Favour Value: 1/10th of the Floating Value, rounded up.
-power: 1
-annotations: []
-id: 2497

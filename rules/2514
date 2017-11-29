@@ -1,16 +1,6 @@
----
+id: 2514
 name: Emotions
-history:
-- change:
-    type: enactment
-  date: 2017-10-15
-  agent:
-    proposal: "7913"
-- change:
-    type: amendment
-  date: 2017-11-06
-  agent:
-    proposal: "7943"
+power: 1
 text: |
   Emotion is a player switch, tracked by the Registrar, with
   possible values Joyous, Melancholy, and Indifferent, that defaults
@@ -29,6 +19,15 @@ text: |
   to pat Melancholy players on the back. E is also ENCOURAGED to do
   other kind acts, such as paying shinies to other players or
   pending other players' proposals.
-id: 2514
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-10-15
+  agent:
+    proposal: "7913"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7943"
 annotations: []

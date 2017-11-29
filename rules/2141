@@ -1,5 +1,25 @@
----
+id: 2141
 name: Role and Attributes of Rules
+power: 3
+text: |
+  A rule is a type of instrument with the capacity to govern the
+  game generally, and is always taking effect. A rule's content
+  takes the form of a text, and is unlimited in scope.
+
+  Every rule has power between 0.1 and 4.0 inclusive. It is not
+  possible for a rule to have a power outside this range.
+
+  Rules have ID numbers, to be assigned by the Rulekeepor.
+
+  Every rule shall have a title to aid in identification. If a rule
+  ever does not have a title, the Rulekeepor SHALL assign a title to
+  it by announcement in a timely fashion.
+
+  For the purposes of rules governing modification of instruments,
+  the text, power, ID number, and title of a rule are all
+  substantive aspects of the rule. However, rules to the contrary
+  notwithstanding, the Rulekeepor CAN set rule aspects as described
+  elsewhere in this rule.
 history:
 - change:
     type: enactment
@@ -51,41 +71,24 @@ history:
   date: 2015-07-19
   agent:
     proposal: "7759"
-text: |
-  A rule is a type of instrument with the capacity to govern the
-  game generally, and is always taking effect. A rule's content
-  takes the form of a text, and is unlimited in scope.
-
-  Every rule has power between 0.1 and 4.0 inclusive. It is not
-  possible for a rule to have a power outside this range.
-
-  Rules have ID numbers, to be assigned by the Rulekeepor.
-
-  Every rule shall have a title to aid in identification. If a rule
-  ever does not have a title, the Rulekeepor SHALL assign a title to
-  it by announcement in a timely fashion.
-
-  For the purposes of rules governing modification of instruments,
-  the text, power, ID number, and title of a rule are all
-  substantive aspects of the rule. However, rules to the contrary
-  notwithstanding, the Rulekeepor CAN set rule aspects as described
-  elsewhere in this rule.
-id: 2141
-power: 3
 annotations:
 - cfjs:
   - id: '1498'
     called: 2004-04-12
-  text: A rule's title is not strictly a name for the rule, and so rule titles are
-    not subject to the uniqueness requirement on names of rule-defined entities.
+  text: >
+    A rule's title is not strictly a name for the rule, and so rule
+    titles are not subject to the uniqueness requirement on names of
+    rule-defined entities.
 - cfjs:
   - id: '2013'
     called: 2009-06-17
-  text: 'Rule 2141 does not imply that the power of rules is physically unlimited:
-    they can only affect the world outside the game by prescribing or proscribing
-    player behavior.'
+  text: >
+    Rule 2141 does not imply that the power of rules is physically
+    unlimited: they can only affect the world outside the game by
+    prescribing or proscribing player behavior.
 - cfjs:
   - id: '2213'
     called: 2008-10-07
-  text: The powers granted to rules by the first paragraph of Rule 2141 are general,
-    and only apply as otherwise stated by the Rules.
+  text: >
+    The powers granted to rules by the first paragraph of Rule 2141
+    are general, and only apply as otherwise stated by the Rules.

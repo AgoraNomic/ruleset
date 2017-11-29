@@ -1,5 +1,16 @@
----
+id: 1769
 name: Holidays
+power: 3
+text: |
+  The period each year from midnight GMT on the morning of 24
+  December to the beginning of the first Agoran week to begin after
+  2 January is a Holiday.
+
+  The week that contains the beginning of Agora's Birthday,
+  together with the following week, is a Holiday.
+
+  If a person breaks a Rule by missing a deadline that occurs during
+  a Holiday, punishment is generally not appropriate.
 history:
 - change:
     type: amendment
@@ -86,30 +97,23 @@ history:
   date: 2014-06-03
   agent:
     proposal: "7647"
-text: |
-  The period each year from midnight GMT on the morning of 24
-  December to the beginning of the first Agoran week to begin after
-  2 January is a Holiday.
-
-  The week that contains the beginning of Agora's Birthday,
-  together with the following week, is a Holiday.
-
-  If a person breaks a Rule by missing a deadline that occurs during
-  a Holiday, punishment is generally not appropriate.
-id: 1769
-power: 3
 annotations:
 - cfjs:
   - id: '1434'
     called: 2003-01-24
-  text: The registration of a player is an event for the purposes of Rule 1769.
+  text: >
+    The registration of a player is an event for the purposes of
+    Rule 1769.
 - cfjs:
   - id: '1434'
     called: 2003-01-24
-  text: The expiration of a rule-defined period is an event for the purposes of Rule
-    1769.
+  text: >
+    The expiration of a rule-defined period is an event for the
+    purposes of Rule 1769.
 - cfjs:
   - id: '1480'
     called: 2004-01-05
-  text: An automatic event specified to occur at regular calendar intervals, for example
-    quarterly, happens at its specified time even if that is during a holiday.
+  text: >
+    An automatic event specified to occur at regular calendar
+    intervals, for example quarterly, happens at its specified time
+    even if that is during a holiday.

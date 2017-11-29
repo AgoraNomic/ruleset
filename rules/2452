@@ -1,5 +1,20 @@
----
+id: 2452
 name: Trust Tokens
+power: 0.5
+text: |
+  Any player can issue a Trust Token to another person by
+  announcement.
+
+  When the Assessor resolves a Decision to adopt a proposal, then
+  any player who cast a valid vote on the Decision and was endorsed
+  by another player's valid vote on the Decision is issued a Trust
+  Token by the endorsing player.
+
+  A person can win the game by announcement if e has been issued a
+  Trust Token by each player except emself; if no person has won via
+  this mechanism in the past; and if in the same message, e quotes,
+  for each of those players, a public message in which that player
+  issued em a Trust Token.
 history:
 - change:
     type: enactment
@@ -23,22 +38,6 @@ history:
   date: 2016-07-19
   agent:
     proposal: "7801"
-text: |
-  Any player can issue a Trust Token to another person by
-  announcement.
-
-  When the Assessor resolves a Decision to adopt a proposal, then
-  any player who cast a valid vote on the Decision and was endorsed
-  by another player's valid vote on the Decision is issued a Trust
-  Token by the endorsing player.
-
-  A person can win the game by announcement if e has been issued a
-  Trust Token by each player except emself; if no person has won via
-  this mechanism in the past; and if in the same message, e quotes,
-  for each of those players, a public message in which that player
-  issued em a Trust Token.
-id: 2452
-power: 0.5
 annotations:
 - cfjs:
   - id: '3569'

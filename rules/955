@@ -1,5 +1,49 @@
----
+id: 955
 name: Determining the Will of Agora
+power: 3
+text: |
+  Each Agoran decision has a voting method, which determines how
+  voters may vote on it and how to calculate the outcome. The
+  strength of a ballot is the voting strength of the voter who cast
+  it on that Agoran decision.
+
+  1. For an AI-majority decision, let F be the total strength of all
+     valid ballots cast FOR a decision, A be the same for AGAINST,
+     and AI be the adoption index of the decision. The outcome is
+     ADOPTED if F/A >= AI and F/A > 1 (or F>0 and A=0), otherwise
+     REJECTED.
+
+  2. For an instant runoff decision, the outcome is whichever option
+     wins according to the standard definition of instant runoff.
+     For this purpose, a ballot of strength N is treated as if it
+     were N distinct ballots expressing the same preferences. In
+     case multiple valid options tie for the lowest number of votes
+     at any stage, the vote collector CAN and must, in the
+     announcement of the decision's resolution, select one such
+     option to eliminate; if, for M > 1, all eir possible choices in
+     the next M stages would result in the same set of options being
+     eliminated, e need not specify the order of elimination. If an
+     entity that is part of a valid vote is not a valid option at
+     the end of the voting period, or disqualified by the rule
+     providing for the decision, then that entity is eliminated
+     prior to the first round of counting.
+
+  3. For a first-past-the-post decision, the outcome is whichever
+     option received the highest total strength of valid ballots. In
+     case of a tie, the vote collector CAN and must, in the
+     announcement of the decision's resolution, select one of the
+     leaders as the outcome.
+
+  The previous notwithstanding:
+
+  - If there is more than one option, and the number of valid
+    ballots is less than the quorum of that decision, the outcome is
+    instead FAILED QUORUM.
+
+  - If there are no valid options, the outcome is null.
+
+  The outcome of a decision is determined when it is resolved, and
+  cannot change thereafter.
 history:
 - change:
     type: initial
@@ -174,54 +218,10 @@ history:
   date: 2017-10-23
   agent:
     proposal: "7922"
-text: |
-  Each Agoran decision has a voting method, which determines how
-  voters may vote on it and how to calculate the outcome. The
-  strength of a ballot is the voting strength of the voter who cast
-  it on that Agoran decision.
-
-  1. For an AI-majority decision, let F be the total strength of all
-     valid ballots cast FOR a decision, A be the same for AGAINST,
-     and AI be the adoption index of the decision. The outcome is
-     ADOPTED if F/A >= AI and F/A > 1 (or F>0 and A=0), otherwise
-     REJECTED.
-
-  2. For an instant runoff decision, the outcome is whichever option
-     wins according to the standard definition of instant runoff.
-     For this purpose, a ballot of strength N is treated as if it
-     were N distinct ballots expressing the same preferences. In
-     case multiple valid options tie for the lowest number of votes
-     at any stage, the vote collector CAN and must, in the
-     announcement of the decision's resolution, select one such
-     option to eliminate; if, for M > 1, all eir possible choices in
-     the next M stages would result in the same set of options being
-     eliminated, e need not specify the order of elimination. If an
-     entity that is part of a valid vote is not a valid option at
-     the end of the voting period, or disqualified by the rule
-     providing for the decision, then that entity is eliminated
-     prior to the first round of counting.
-
-  3. For a first-past-the-post decision, the outcome is whichever
-     option received the highest total strength of valid ballots. In
-     case of a tie, the vote collector CAN and must, in the
-     announcement of the decision's resolution, select one of the
-     leaders as the outcome.
-
-  The previous notwithstanding:
-
-  - If there is more than one option, and the number of valid
-    ballots is less than the quorum of that decision, the outcome is
-    instead FAILED QUORUM.
-
-  - If there are no valid options, the outcome is null.
-
-  The outcome of a decision is determined when it is resolved, and
-  cannot change thereafter.
-id: 955
-power: 3
 annotations:
 - cfjs:
   - id: 1673-1675
     called: 2007-05-20
-  text: Quorum for an Agoran decision is determined at the time the vote collector
-    makes the calculations described in Rule 955.
+  text: >
+    Quorum for an Agoran decision is determined at the time the vote
+    collector makes the calculations described in Rule 955.

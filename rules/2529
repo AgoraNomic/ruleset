@@ -1,16 +1,6 @@
 id: 2529
 name: Medals of Honour
-history:
-- change:
-    type: enactment
-  date: 2017-11-06
-  agent:
-    proposal: "7932"
-- change:
-    type: amendment
-  date: 2017-11-16
-  agent:
-    proposal: "7962"
+power: 1
 text: |
   Medals of Honour are a destructible fixed currency tracked by the
   Herald.
@@ -42,5 +32,15 @@ text: |
   If, at any time, any player has 6 or more Medals of Honour, and e
   has not won via this rule previously, e can win the game by
   announcement, destroying all of eir Medals of Honour.
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-11-06
+  agent:
+    proposal: "7932"
+- change:
+    type: amendment
+  date: 2017-11-16
+  agent:
+    proposal: "7962"
 annotations: []

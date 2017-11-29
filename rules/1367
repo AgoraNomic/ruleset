@@ -1,5 +1,25 @@
----
+id: 1367
 name: Degrees
+power: 3
+text: |
+  Certain patent titles are known as degrees. The degrees are
+
+  - Associate of Nomic                 (A.N.)
+  - Bachelor of Nomic                  (B.N.)
+  - Master of Nomic                    (M.N.)
+  - Doctor of Nomic History            (D.N.Hist.)
+  - Doctor of Nomic Science            (D.N.Sci.)
+  - Doctor of Nomic Philosophy         (D.N.Phil.)
+
+  Degrees are ranked in the order they appear in this rule, with
+  degrees listed later being ranked higher. A specific degree CANNOT
+  be awarded to any person more than once.
+
+  A specified degree CAN be awarded with 2 Agoran Consent, and
+  SHOULD only be awarded for the publication of an original thesis
+  of scholarly worth (including responses to peer-review), published
+  with explicit intent to qualify for a degree. The Herald SHOULD
+  coordinate the peer-review process and the awarding of degrees.
 history:
 - change:
     type: enactment
@@ -126,25 +146,4 @@ history:
   date: 2014-01-24
   agent:
     proposal: "7620"
-text: |
-  Certain patent titles are known as degrees. The degrees are
-
-  - Associate of Nomic                 (A.N.)
-  - Bachelor of Nomic                  (B.N.)
-  - Master of Nomic                    (M.N.)
-  - Doctor of Nomic History            (D.N.Hist.)
-  - Doctor of Nomic Science            (D.N.Sci.)
-  - Doctor of Nomic Philosophy         (D.N.Phil.)
-
-  Degrees are ranked in the order they appear in this rule, with
-  degrees listed later being ranked higher. A specific degree CANNOT
-  be awarded to any person more than once.
-
-  A specified degree CAN be awarded with 2 Agoran Consent, and
-  SHOULD only be awarded for the publication of an original thesis
-  of scholarly worth (including responses to peer-review), published
-  with explicit intent to qualify for a degree. The Herald SHOULD
-  coordinate the peer-review process and the awarding of degrees.
-id: 1367
-power: 3
 annotations: []

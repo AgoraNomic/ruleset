@@ -1,5 +1,22 @@
----
+id: 1789
 name: Cantus Cygneus
+power: 2
+text: |
+  Whenever a Player feels that e has been treated so egregiously by
+  the Agoran community that e can no longer abide to be a part of
+  it, e may submit a document to the Registrar, clearly labeled a
+  Cantus Cygneus, detailing eir grievances and expressing eir
+  reproach for those who e feels have treated em so badly.
+
+  In a timely fashion after receiving a Cantus Cygneus, the
+  Registrar shall publish this document along with a Writ of
+  Fugiendae Agorae Grandissima Exprobratione, commanding the Player
+  to be deregistered. The Registrar shall note the method of
+  deregistration for that Player in subsequent Registrar Reports.
+
+  The Player is deregistered as of the posting of the Writ, and the
+  notation in the Registrar's Report will ensure that, henceforth,
+  all may know said Player deregistered in a Writ of FAGE.
 history:
 - change:
     type: enactment
@@ -58,31 +75,16 @@ history:
   date: 2014-06-03
   agent:
     proposal: "7646"
-text: |
-  Whenever a Player feels that e has been treated so egregiously by
-  the Agoran community that e can no longer abide to be a part of
-  it, e may submit a document to the Registrar, clearly labeled a
-  Cantus Cygneus, detailing eir grievances and expressing eir
-  reproach for those who e feels have treated em so badly.
-
-  In a timely fashion after receiving a Cantus Cygneus, the
-  Registrar shall publish this document along with a Writ of
-  Fugiendae Agorae Grandissima Exprobratione, commanding the Player
-  to be deregistered. The Registrar shall note the method of
-  deregistration for that Player in subsequent Registrar Reports.
-
-  The Player is deregistered as of the posting of the Writ, and the
-  notation in the Registrar's Report will ensure that, henceforth,
-  all may know said Player deregistered in a Writ of FAGE.
-id: 1789
-power: 2
 annotations:
 - cfjs:
   - id: '1594'
     called: 2006-12-16
-  text: Players can be deregistered due to this rule even if there is no Registrar.
+  text: >
+    Players can be deregistered due to this rule even if there is no
+    Registrar.
 - cfjs:
   - id: '2358'
     called: 2009-01-26
-  text: A document which is labeled as a Cantus Cygneus but does not actually detail
-    grievances, etc. is not a Cantus Cygneus.
+  text: >
+    A document which is labeled as a Cantus Cygneus but does not
+    actually detail grievances, etc. is not a Cantus Cygneus.

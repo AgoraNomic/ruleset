@@ -1,5 +1,22 @@
----
+id: 2202
 name: Ratification Without Objection
+power: 3
+text: |
+  Any player CAN, without objection, ratify a public document,
+  specifying its scope.
+
+  Ratification Without Objection CANNOT cause the repeal, amendment,
+  enactment, or mutation of any Rule, rules to the contrary
+  notwithstanding.
+
+  A player SHALL NOT knowingly use or announce intent to use
+  Ratification Without Objection to ratify a (prior to ratification)
+  document containing incorrect or Indeterminate information when a
+  corrected document could be produced with reasonable effort,
+  unless the general nature of the document's error and reason for
+  ratifying it is clearly and plainly described in the announcement
+  of intent. Such ratification or announcement of intent to ratify
+  is the Class-8 Crime of Endorsing Forgery.
 history:
 - change:
     type: enactment
@@ -36,34 +53,21 @@ history:
   date: 2014-07-12
   agent:
     proposal: "7680"
-text: |
-  Any player CAN, without objection, ratify a public document,
-  specifying its scope.
-
-  Ratification Without Objection CANNOT cause the repeal, amendment,
-  enactment, or mutation of any Rule, rules to the contrary
-  notwithstanding.
-
-  A player SHALL NOT knowingly use or announce intent to use
-  Ratification Without Objection to ratify a (prior to ratification)
-  document containing incorrect or Indeterminate information when a
-  corrected document could be produced with reasonable effort,
-  unless the general nature of the document's error and reason for
-  ratifying it is clearly and plainly described in the announcement
-  of intent. Such ratification or announcement of intent to ratify
-  is the Class-8 Crime of Endorsing Forgery.
-id: 2202
-power: 3
 annotations:
 - cfjs:
   - id: '1836'
     called: 2007-12-18
-  text: Ratification of an official document affects only those aspects of gamestate
-    that are defined to be part of the official report, and not aspects that are incidentally
-    reported on; in particular, ratification of an official report on certain parameters
-    pertaining to each player does not ratify the list of players.
+  text: >
+    Ratification of an official document affects only those aspects
+    of gamestate that are defined to be part of the official report,
+    and not aspects that are incidentally reported on; in
+    particular, ratification of an official report on certain
+    parameters pertaining to each player does not ratify the list of
+    players.
 - cfjs:
   - id: '2289'
     called: 2008-11-25
-  text: Ratification Without Objection of a value inseparable from another value may
-    change the latter value even if it is not directly part of the report being ratified.
+  text: >
+    Ratification Without Objection of a value inseparable from
+    another value may change the latter value even if it is not
+    directly part of the report being ratified.

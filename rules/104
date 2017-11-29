@@ -1,5 +1,8 @@
----
+id: 104
 name: First Speaker
+power: 3
+text: |
+  The Speaker for the first game shall be Michael Norrish.
 history:
 - change:
     type: initial
@@ -13,18 +16,15 @@ history:
   date: 1995-03-15
   agent:
     proposal: "1482"
-text: |
-  The Speaker for the first game shall be Michael Norrish.
-id: 104
-power: 3
 annotations:
 - cfjs:
   - id: '1534'
     called: 2005-03-08
-  text: This does not mean that Michael Norrish necessarily fills the position of
-    Speaker at the present time.
+  text: >
+    This does not mean that Michael Norrish necessarily fills the
+    position of Speaker at the present time.
 - cfjs:
   - id: '2154'
-    called: 
-  text: "(called 8 September 2008) The Speaker for the first game shall be Michael
-    Norrish."
+    called: 2008-09-08
+  text: >
+    The Speaker for the first game shall be Michael Norrish.

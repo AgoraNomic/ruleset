@@ -1,5 +1,24 @@
----
+id: 2309
 name: The Propose-O-Matic
+power: 1
+text: |
+  The Fearmongor is an Office. Its holder is responsible for
+  ensuring the continuous change of the ruleset.
+
+  Each month, the Fearmongor SHALL do the following as part of eir
+  duties:
+
+  1) Select two existing rules at random. For each of those rules,
+     submit an Official proposal with AI equal to that rules' power.
+     One proposal SHALL specify only to repeal its rule; the other
+     SHALL specify only to amend its rule.
+
+  3) Select a previous rule that was repealed over 1 year ago, and
+     has not been so selected in the past 6 months. Submit an
+     Official proposal of the appropriate AI to re-enact the rule at
+     its previous power, using any past version of the rule as a
+     basis and making minimal modifications to that text to allow
+     the rule to function in the current ruleset.
 history:
 - change:
     type: enactment
@@ -26,24 +45,4 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7961"
-text: |
-  The Fearmongor is an Office. Its holder is responsible for
-  ensuring the continuous change of the ruleset.
-
-  Each month, the Fearmongor SHALL do the following as part of eir
-  duties:
-
-  1) Select two existing rules at random. For each of those rules,
-     submit an Official proposal with AI equal to that rules' power.
-     One proposal SHALL specify only to repeal its rule; the other
-     SHALL specify only to amend its rule.
-
-  3) Select a previous rule that was repealed over 1 year ago, and
-     has not been so selected in the past 6 months. Submit an
-     Official proposal of the appropriate AI to re-enact the rule at
-     its previous power, using any past version of the rule as a
-     basis and making minimal modifications to that text to allow
-     the rule to function in the current ruleset.
-id: 2309
-power: 1
 annotations: []

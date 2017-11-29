@@ -1,11 +1,6 @@
 id: 2531
 name: Referee Accountability
-history:
-- change:
-    type: enactment
-  date: 2017-11-06
-  agent:
-    proposal: "7964"
+power: 1
 text: |
   If the Referee attempts to issue three or more INEFFECTIVE cards
   in a week, any player CAN, with two support, issue a writ of
@@ -13,5 +8,10 @@ text: |
   of Referee vacant. When a writ of Impartial Arbitration
   Restoration is issued, the ADoP SHALL initiate an election for the
   Referee within a timely fashion
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-11-06
+  agent:
+    proposal: "7964"
 annotations: []

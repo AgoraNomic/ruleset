@@ -1,14 +1,13 @@
----
+id: 2379
 name: No News Is Some News
+power: 1
+text: |
+  If the rules define a report as including a list, then while that
+  list is empty, that report includes the fact that it is empty.
+annotations: []
 history:
 - change:
     type: enactment
   date: 2012-09-09
   agent:
     proposal: "7286"
-text: |
-  If the rules define a report as including a list, then while that
-  list is empty, that report includes the fact that it is empty.
-annotations: []
-id: 2379
-power: 1

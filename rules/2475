@@ -1,11 +1,6 @@
----
+id: 2475
 name: Red Cards
-history:
-- change:
-    type: enactment
-  date: 2016-12-05
-  agent:
-    proposal: "7831"
+power: 2
 text: |
   A Red Card is a type of Card that is appropriate for serious and
   deliberate violations of the rules. A Red Card is also appropriate
@@ -18,6 +13,10 @@ text: |
   strength on all Agoran decisions initiated during the first Agoran
   week which begins at least four days after the issuance of the
   Card is reduced by 2.
-id: 2475
-power: 2
+history:
+- change:
+    type: enactment
+  date: 2016-12-05
+  agent:
+    proposal: "7831"
 annotations: []

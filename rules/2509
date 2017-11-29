@@ -1,11 +1,6 @@
----
+id: 2509
 name: Numerical Switches
-history:
-- change:
-    type: enactment
-  date: 2017-10-03
-  agent:
-    proposal: "7903"
+power: 2
 text: |
   If a switch is defined as being associated with a specified set of
   numbers (a numerical switch), then the possible values for that
@@ -27,6 +22,10 @@ text: |
   specified mathematical operation would result in a value outside
   that switch's defined set, the flipping CANNOT be performed, rules
   to the contrary notwithstanding.
-id: 2509
-power: 2
+history:
+- change:
+    type: enactment
+  date: 2017-10-03
+  agent:
+    proposal: "7903"
 annotations: []

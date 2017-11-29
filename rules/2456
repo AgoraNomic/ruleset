@@ -1,5 +1,25 @@
----
+id: 2456
 name: The Treasuror
+power: 1
+text: |
+  The Treasuror is an office, and the recordkeepor of Shinies.
+
+  The Treasuror's weekly report also includes:
+
+  1. the current Floating Value, and all derived values defined by
+     the Rules.
+
+  2. the list of all public classes of assets.
+
+  The Treasuror CAN flip the floating value once a week by
+  announcement. As part of eir weekly duties, e SHALL flip the
+  Floating Value to the number of Shinies owned by Agora; e SHALL
+  NOT ever set it to a different value. E SHOULD do this while
+  publishing eir weekly report. If the Treasuror discovers that e
+  last flipped the floating value to an incorrect value and e would
+  not otherwise be able to set it again yet, e CAN and SHALL set the
+  value to what it should have been set to in the first place by
+  announcement.
 history:
 - change:
     type: enactment
@@ -37,25 +57,4 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
-text: |
-  The Treasuror is an office, and the recordkeepor of Shinies.
-
-  The Treasuror's weekly report also includes:
-
-  1. the current Floating Value, and all derived values defined by
-     the Rules.
-
-  2. the list of all public classes of assets.
-
-  The Treasuror CAN flip the floating value once a week by
-  announcement. As part of eir weekly duties, e SHALL flip the
-  Floating Value to the number of Shinies owned by Agora; e SHALL
-  NOT ever set it to a different value. E SHOULD do this while
-  publishing eir weekly report. If the Treasuror discovers that e
-  last flipped the floating value to an incorrect value and e would
-  not otherwise be able to set it again yet, e CAN and SHALL set the
-  value to what it should have been set to in the first place by
-  announcement.
-id: 2456
-power: 1
 annotations: []

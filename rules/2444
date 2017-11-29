@@ -1,21 +1,6 @@
----
+id: 2444
 name: Silver Quill
-history:
-- change:
-    type: enactment
-  date: 2014-11-11
-  agent:
-    proposal: "7722"
-- change:
-    type: amendment
-  date: 2014-08-14
-  agent:
-    proposal: "7778"
-- change:
-    type: amendment
-  date: 2016-09-11
-  agent:
-    proposal: "7809"
+power: 1
 text: |
   The Silver Quill is an annual award designed to honor the authors
   of proposals of outstanding merit and influence on the game.
@@ -41,6 +26,20 @@ text: |
   is authorized to award its author the Patent Title of "Silver
   Quill YYYY, substituting the ending year; otherwise, there is no
   winner.
-id: 2444
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2014-11-11
+  agent:
+    proposal: "7722"
+- change:
+    type: amendment
+  date: 2014-08-14
+  agent:
+    proposal: "7778"
+- change:
+    type: amendment
+  date: 2016-09-11
+  agent:
+    proposal: "7809"
 annotations: []

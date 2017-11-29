@@ -1,5 +1,13 @@
----
+id: 101
 name: The Game of Agora
+power: 4
+text: |
+  Agora is a game of Nomic, wherein Persons, acting in accordance
+  with the Rules, communicate their game Actions and/or results of
+  these actions via Fora in order to play the game. The game may be
+  won, but the game never ends.
+
+  Please treat Agora Right Good Forever.
 history:
 - change:
     type: initial
@@ -116,35 +124,33 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7889"
-text: |
-  Agora is a game of Nomic, wherein Persons, acting in accordance
-  with the Rules, communicate their game Actions and/or results of
-  these actions via Fora in order to play the game. The game may be
-  won, but the game never ends.
-
-  Please treat Agora Right Good Forever.
-id: 101
-power: 4
 annotations:
 - cfjs:
   - id: '24'
     called:
-  text: Players must obey the Rules even in out-of-game actions.
+  text: >
+    Players must obey the Rules even in out-of-game actions.
 - cfjs:
   - id: '825'
     called: 1995-11-07
-  text: Players must obey the Rules even if no Rule says so.
+  text: >
+    Players must obey the Rules even if no Rule says so.
 - cfjs:
   - id: '1848'
     called: 2007-12-21
-  text: The game must operate according to the rules that prevail at the time, and
-    not attempt to incorporate any retroactive changes made in the future.
+  text: >
+    The game must operate according to the rules that prevail at the
+    time, and not attempt to incorporate any retroactive changes
+    made in the future.
 - cfjs:
   - id: '1709'
     called: 2007-07-26
-  text: The rules are binding on all those who play the game in the broader sense,
-    regardless of whether they have the rule-defined status of "player".
+  text: >
+    The rules are binding on all those who play the game in the
+    broader sense, regardless of whether they have the rule-defined
+    status of "player".
 - cfjs:
   - id: 1911-1914
     called: 2008-03-18
-  text: Physical realities supersede the Rules by default.
+  text: >
+    Physical realities supersede the Rules by default.

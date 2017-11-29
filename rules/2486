@@ -1,11 +1,6 @@
----
+id: 2486
 name: The Royal Parade
-history:
-- change:
-    type: enactment
-  date: 2017-01-17
-  agent:
-    proposal: "7839"
+power: 3.14
 text: |2
                 _
               _\ /_
@@ -31,7 +26,10 @@ text: |2
             near recently-amended rules of high Power;
       AND FURTHERMORE, additions to this Parade are most welcome
            when Events suiting the honour should occur.
-id: 2486
-power: 3.14
+history:
+- change:
+    type: enactment
+  date: 2017-01-17
+  agent:
+    proposal: "7839"
 annotations: []
-no_markdown: true

@@ -1,11 +1,6 @@
----
+id: 2525
 name: Interpreting Contracts
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 2.6
 text: |
   A contract should generally be interpreted according to its text,
   including any clauses giving directions for its interpretation or
@@ -61,6 +56,10 @@ text: |
   contract or a provision or clause of a contract contravenes the
   letter or clear intent of this rule, it is void and without
   effect.
-id: 2525
-power: 2.6
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

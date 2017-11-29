@@ -1,5 +1,9 @@
----
+id: 2137
 name: The Assessor
+power: 1
+text: |
+  The Assessor is an office; its holder is responsible for
+  collecting votes and keeping track of related properties.
 history:
 - change:
     type: enactment
@@ -22,13 +26,10 @@ history:
   date: 2009-01-23
   agent:
     proposal: "6053"
-text: |
-  The Assessor is an office; its holder is responsible for
-  collecting votes and keeping track of related properties.
-id: 2137
-power: 1
 annotations:
 - cfjs:
   - id: 1758-1759
     called: 2007-09-30
-  text: If Assessorship changes hands, vote collection duties move with it.
+  text: >
+    If Assessorship changes hands, vote collection duties move with
+    it.

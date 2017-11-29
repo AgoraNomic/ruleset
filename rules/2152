@@ -1,5 +1,40 @@
----
+id: 2152
 name: Mother, May I?
+power: 3
+text: |
+  The following terms are defined. These definitions are used when a
+  rule includes a term in all caps, and provide guidance in
+  determining the ordinary-language meaning of a term when a rule
+  includes a term otherwise. Earlier definitions take precedence
+  over later ones. If a rule specifies one or more persons in
+  connection with a term, then the term applies only to the
+  specified person(s).
+
+  1. CANNOT, IMPOSSIBLE, INEFFECTIVE, INVALID: Attempts to perform
+     the described action are unsuccessful.
+
+  2. MUST NOT, MAY NOT, SHALL NOT, ILLEGAL, PROHIBITED: Performing
+     the described action violates the rule in question.
+
+  3. NEED NOT, OPTIONAL: Failing to perform the described action
+     does not violate the rules.
+
+  4. SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+     described action, the full implications of performing it should
+     be understood and carefully weighed.
+
+  5. CAN: Attempts to perform the described action are successful.
+
+  6. MAY: Performing the described action does not violate the
+     rules.
+
+  7. MUST, SHALL, REQUIRED, MANDATORY: Failing to perform the
+     described action violates the rule in question.
+
+  8. SHOULD, ENCOURAGED, RECOMMENDED: Before failing to perform the
+     described action, the full implications of failing to perform
+     it should (in the ordinary-language sense) be understood and
+     carefully weighed.
 history:
 - change:
     type: enactment
@@ -55,82 +90,58 @@ history:
   date: 2014-01-11
   agent:
     proposal: "7613"
-text: |
-  The following terms are defined. These definitions are used when a
-  rule includes a term in all caps, and provide guidance in
-  determining the ordinary-language meaning of a term when a rule
-  includes a term otherwise. Earlier definitions take precedence
-  over later ones. If a rule specifies one or more persons in
-  connection with a term, then the term applies only to the
-  specified person(s).
-
-  1. CANNOT, IMPOSSIBLE, INEFFECTIVE, INVALID: Attempts to perform
-     the described action are unsuccessful.
-
-  2. MUST NOT, MAY NOT, SHALL NOT, ILLEGAL, PROHIBITED: Performing
-     the described action violates the rule in question.
-
-  3. NEED NOT, OPTIONAL: Failing to perform the described action
-     does not violate the rules.
-
-  4. SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
-     described action, the full implications of performing it should
-     be understood and carefully weighed.
-
-  5. CAN: Attempts to perform the described action are successful.
-
-  6. MAY: Performing the described action does not violate the
-     rules.
-
-  7. MUST, SHALL, REQUIRED, MANDATORY: Failing to perform the
-     described action violates the rule in question.
-
-  8. SHOULD, ENCOURAGED, RECOMMENDED: Before failing to perform the
-     described action, the full implications of failing to perform
-     it should (in the ordinary-language sense) be understood and
-     carefully weighed.
-id: 2152
-power: 3
 annotations:
 - cfjs:
   - id: '1132'
     called: 
-  text: A Player failing to perform a duty required by the Rules within a reasonable
-    time may be in violation of the Rules, even if the Rules do not provide a time
-    limit for the performance of that duty.
+  text: >
+    A Player failing to perform a duty required by the Rules within
+    a reasonable time may be in violation of the Rules, even if the
+    Rules do not provide a time limit for the performance of that
+    duty.
 - cfjs:
   - id: '1488'
     called: 2004-02-11
-  text: Engineering a situation in which other players are unable to follow a particular
-    rule is not in itself a violation of that rule.
+  text: >
+    Engineering a situation in which other players are unable to
+    follow a particular rule is not in itself a violation of that
+    rule.
 - cfjs:
   - id: '2395'
     called: 2009-03-01
-  text: Even without this being explicitly specified in the rules, it is possible
-    for a non-player to violate a rule by missing a deadline.
+  text: >
+    Even without this being explicitly specified in the rules, it is
+    possible for a non-player to violate a rule by missing a
+    deadline.
 - cfjs:
   - id: '1990'
     called: 2008-06-07
-  text: '"Allowed" may refer to either possibility or permissibility depending on
-    context.'
+  text: >
+    "Allowed" may refer to either possibility or permissibility
+    depending on context.
 - cfjs:
   - id: 2120-2121
     called: 2008-08-04
-  text: A requirement of the form 'within <time limit>, a player SHALL <action> by
-    announcement' means that the player CAN perform the action, and SHALL do so within
-    the time limit.
+  text: >
+    A requirement of the form 'within <time limit>, a player SHALL
+    <action> by announcement' means that the player CAN perform the
+    action, and SHALL do so within the time limit.
 - cfjs:
   - id: '2230'
     called: 2008-10-16
-  text: In a statement of the form "an action that X may take", 'may' generally means
-    'might', i.e. CAN.
+  text: >
+    In a statement of the form "an action that X may take", 'may'
+    generally means 'might', i.e. CAN.
 - cfjs:
   - id: '2282'
     called: 2008-11-19
-  text: To state that an entity "MUST" have certain properties refers to possibility,
-    not legality.
+  text: >
+    To state that an entity "MUST" have certain properties refers to
+    possibility, not legality.
 - cfjs:
   - id: '2414'
     called: 2009-03-14
-  text: A rule of the form "X SHOULD be interpreted as Y" does not allow players to
-    bypass the interpretation by failing to perform the described action.
+  text: >
+    A rule of the form "X SHOULD be interpreted as Y" does not allow
+    players to bypass the interpretation by failing to perform the
+    described action.

@@ -1,5 +1,12 @@
----
+id: 2449
 name: Winning the Game
+power: 3
+text: |
+  When the Rules state that a person or persons win the game,
+  those persons win the game; specifically they win the Round
+  that ends with the indicated win. Agora itself does not end and
+  the ruleset remains unchanged. The Herald is then authorized to
+  award those persons the Patent Title of Champion.
 history:
 - change:
     type: enactment
@@ -16,12 +23,4 @@ history:
   date: 2016-09-11
   agent:
     proposal: "7812"
-text: |
-  When the Rules state that a person or persons win the game,
-  those persons win the game; specifically they win the Round
-  that ends with the indicated win. Agora itself does not end and
-  the ruleset remains unchanged. The Herald is then authorized to
-  award those persons the Patent Title of Champion.
-id: 2449
-power: 3
 annotations: []

@@ -1,5 +1,38 @@
----
+id: 2496
 name: Rewards
+power: 1
+text: |
+  A Reward is a specified amount of shinies associated with a Reward
+  Condition. For each time a player meets a Reward Condition, e CAN
+  claim the specified award, by announcement, exactly once within 7
+  days of meeting the Reward Condition.
+
+  When a player 'claims' a Reward, Agora transfers the specified
+  number of shinies to the player.
+
+  Below is an exhaustive list of Reward Conditions and eir rewards:
+
+  * The following two only apply to proposals that were pended
+    via spending shinies:
+
+    * Being the author of an adopted proposal: the current
+      Authorship Reward.
+
+    * Being the pender of an adopted proposal: the current
+      Pend Reward.
+
+  * Judging a CFJ, that was created via spending shinies, that e
+    was assigned to: the current CFJ Reward.
+
+  * Publishing a duty-fulfilling report: 5 shinies. This reward can
+    only be claimed once per office per week for a weekly report and
+    once per office per month for a monthly report.
+
+  * Resolving an Agoran Decision for the first time this week: 5
+    shinies.
+
+  * Having a Thesis pass peer-review and be granted a Degree based
+    on its merit: 20 shinies
 history:
 - change:
     type: enactment
@@ -36,38 +69,4 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7980"
-text: |
-  A Reward is a specified amount of shinies associated with a Reward
-  Condition. For each time a player meets a Reward Condition, e CAN
-  claim the specified award, by announcement, exactly once within 7
-  days of meeting the Reward Condition.
-
-  When a player 'claims' a Reward, Agora transfers the specified
-  number of shinies to the player.
-
-  Below is an exhaustive list of Reward Conditions and eir rewards:
-
-  * The following two only apply to proposals that were pended
-    via spending shinies:
-
-    * Being the author of an adopted proposal: the current
-      Authorship Reward.
-
-    * Being the pender of an adopted proposal: the current
-      Pend Reward.
-
-  * Judging a CFJ, that was created via spending shinies, that e
-    was assigned to: the current CFJ Reward.
-
-  * Publishing a duty-fulfilling report: 5 shinies. This reward can
-    only be claimed once per office per week for a weekly report and
-    once per office per month for a monthly report.
-
-  * Resolving an Agoran Decision for the first time this week: 5
-    shinies.
-
-  * Having a Thesis pass peer-review and be granted a Degree based
-    on its merit: 20 shinies
-id: 2496
-power: 1
 annotations: []

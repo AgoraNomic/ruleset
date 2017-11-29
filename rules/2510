@@ -1,21 +1,6 @@
----
+id: 2510
 name: Such is Karma
-history:
-- change:
-    type: enactment
-  date: 2017-10-03
-  agent:
-    proposal: "7904"
-- change:
-    type: amendment
-  date: 2017-10-15
-  agent:
-    proposal: "7916"
-- change:
-    type: amendment
-  date: 2017-11-12
-  agent:
-    proposal: "7960"
+power: 1
 text: |
   Karma is a person switch tracked by the Herald in eir Weekly
   Report. Karma is an Integer switch. Agora also has an instance of
@@ -52,6 +37,20 @@ text: |
 
   Each player's positions in Court are part of of the Herald's
   Weekly Report.
-id: 2510
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-10-03
+  agent:
+    proposal: "7904"
+- change:
+    type: amendment
+  date: 2017-10-15
+  agent:
+    proposal: "7916"
+- change:
+    type: amendment
+  date: 2017-11-12
+  agent:
+    proposal: "7960"
 annotations: []

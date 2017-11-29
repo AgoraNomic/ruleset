@@ -1,5 +1,25 @@
----
+id: 879
 name: Quorum
+power: 2
+text: |
+  Each Agoran Decision has a quorum. This is a number set when the
+  decision is created, and thereafter cannot be changed. When a
+  person initiates an Agoran Decision, that person SHALL state the
+  quorum of that decision. However, incorrectly stating the quorum
+  of a decision does not invalidate the initiation, nor does it
+  actually change the quorum of the decision.
+
+  The quorum that an Agoran Decision gains as it is created can be
+  defined by other rules of power 2 or greater. If no other rule
+  defines the quorum of an Agoran Decision, the quorum for that
+  decision is equal to the number of players who voted on the Agoran
+  Decision to adopt a proposal that had been most recently resolved
+  at the time of that decision's initiation, minus 2.
+
+  As an exception to the previous paragraph, the quorum of an
+  Agoran Decision can never be less than 2. If the rules would
+  attempt to set the quorum of an Agoran Decision to less than 2,
+  it is set to 2 instead.
 history:
 - change:
     type: initial
@@ -190,33 +210,15 @@ history:
   date: 2017-06-05
   agent:
     proposal: "7853"
-text: |
-  Each Agoran Decision has a quorum. This is a number set when the
-  decision is created, and thereafter cannot be changed. When a
-  person initiates an Agoran Decision, that person SHALL state the
-  quorum of that decision. However, incorrectly stating the quorum
-  of a decision does not invalidate the initiation, nor does it
-  actually change the quorum of the decision.
-
-  The quorum that an Agoran Decision gains as it is created can be
-  defined by other rules of power 2 or greater. If no other rule
-  defines the quorum of an Agoran Decision, the quorum for that
-  decision is equal to the number of players who voted on the Agoran
-  Decision to adopt a proposal that had been most recently resolved
-  at the time of that decision's initiation, minus 2.
-
-  As an exception to the previous paragraph, the quorum of an
-  Agoran Decision can never be less than 2. If the rules would
-  attempt to set the quorum of an Agoran Decision to less than 2,
-  it is set to 2 instead.
-id: 879
-power: 2
 annotations:
 - cfjs:
   - id: '1562'
     called: 2005-05-03
-  text: A cancelled vote on a Proposal does not count towards quorum.
+  text: >
+    A cancelled vote on a Proposal does not count towards quorum.
 - cfjs:
   - id: 1673-1675
     called: 2007-05-20
-  text: Quorum for an Agoran decision changes as the set of eligible voters changes.
+  text: >
+    Quorum for an Agoran decision changes as the set of eligible
+    voters changes.

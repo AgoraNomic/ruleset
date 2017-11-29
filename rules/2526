@@ -1,11 +1,6 @@
----
+id: 2526
 name: Sustenance Payments
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 2.4
 text: |
   The Notary CAN, once a month, cause each contract that owns at
   least one shiny to transfer one shiny to Agora. E SHALL do so in
@@ -18,6 +13,10 @@ text: |
   The Notary CAN, by regulation, exempt a contract from the
   preceding paragraph. E SHALL NOT do so unless the contract seems
   to be in the public interest of Agora.
-id: 2526
-power: 2.4
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

@@ -1,28 +1,6 @@
----
+id: 2513
 name: Campaign Proposals
-history:
-- change:
-    type: enactment
-  date: 2017-10-15
-  agent:
-    proposal: "7912"
-- change:
-    type: power-change
-    old-power: 1
-    new-power: 3
-  date: 2017-11-06
-  agent:
-    proposal: "7938"
-- change:
-    type: retitling
-  date: 2017-11-06
-  agent:
-    proposal: "7938"
-- change:
-    type: amendment
-  date: 2017-11-06
-  agent:
-    proposal: "7938"
+power: 3
 text: |
   During the nomination period of an election, any candidate for
   that election CAN submit a Campaign Proposal for that election,
@@ -47,6 +25,27 @@ text: |
   take effect are met as a result of an action in a public message,
   the author of the message SHALL make it take effect in that
   message.
-id: 2513
-power: 3
+history:
+- change:
+    type: enactment
+  date: 2017-10-15
+  agent:
+    proposal: "7912"
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 3
+  date: 2017-11-06
+  agent:
+    proposal: "7938"
+- change:
+    type: retitling
+  date: 2017-11-06
+  agent:
+    proposal: "7938"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7938"
 annotations: []

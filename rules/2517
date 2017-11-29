@@ -1,11 +1,6 @@
----
+id: 2517
 name: Conditionals and Extricability
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 3
 text: |
   A conditional is any textual structure that attempts to make a
   statement (the substrate) affecting any part or aspect of the
@@ -28,6 +23,10 @@ text: |
   determined by the conditional. A value is said to be subject to a
   conditional of the state of the value is determined by the
   conditional.
-id: 2517
-power: 3
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

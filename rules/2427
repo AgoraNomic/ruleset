@@ -1,5 +1,20 @@
----
+id: 2427
 name: Yellow Cards
+power: 2
+text: |
+  A Yellow Card is a type of Card that is appropriate either for
+  infractions that have a significant, though small, impact on
+  gameplay or for infractions for which a Green Card has already
+  been issued.
+
+  When a Yellow Card is issued, the bad sport SHOULD publish a
+  formal apology of at least 200 words explaining eir error, shame,
+  remorse, and ardent desire for self-improvement. A player issuing
+  a Yellow Card MAY, when doing so, additionally specify up to 10
+  words to be included in the apology. Until e publishes such an
+  apology, as a penalty, the bad sport's voting strength on all
+  Agoran decisions initiated within 30 days of the Card's issuance
+  is set to 0 after modifiers.
 history:
 - change:
     type: enactment
@@ -16,20 +31,4 @@ history:
   date: 2017-09-07
   agent:
     proposal: "7874"
-text: |
-  A Yellow Card is a type of Card that is appropriate either for
-  infractions that have a significant, though small, impact on
-  gameplay or for infractions for which a Green Card has already
-  been issued.
-
-  When a Yellow Card is issued, the bad sport SHOULD publish a
-  formal apology of at least 200 words explaining eir error, shame,
-  remorse, and ardent desire for self-improvement. A player issuing
-  a Yellow Card MAY, when doing so, additionally specify up to 10
-  words to be included in the apology. Until e publishes such an
-  apology, as a penalty, the bad sport's voting strength on all
-  Agoran decisions initiated within 30 days of the Card's issuance
-  is set to 0 after modifiers.
-id: 2427
-power: 2
 annotations: []

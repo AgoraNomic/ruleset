@@ -1,5 +1,19 @@
----
+id: 649
 name: Patent Titles
+power: 1.5
+text: |
+  A Patent Title is a legal title given to a person in recognition
+  of the person's distinction. The Herald is an office; its holder
+  is responsible for tracking Patent Titles in eir monthly report.
+
+  Awarding or revoking a Patent Title is secured. A person permitted
+  and enabled to award (revoke) a Patent Title SHALL do so in a
+  timely fashion after the conditions authorizing em to do so are
+  announced, unless there is an open judicial case contesting the
+  validity of those conditions.
+
+  The Herald CAN award a specified Patent Title to a specified
+  player With 2 Agoran Consent.
 history:
 - change:
     type: enactment
@@ -210,42 +224,31 @@ history:
   date: 2015-06-30
   agent:
     proposal: "7755"
-text: |
-  A Patent Title is a legal title given to a person in recognition
-  of the person's distinction. The Herald is an office; its holder
-  is responsible for tracking Patent Titles in eir monthly report.
-
-  Awarding or revoking a Patent Title is secured. A person permitted
-  and enabled to award (revoke) a Patent Title SHALL do so in a
-  timely fashion after the conditions authorizing em to do so are
-  announced, unless there is an open judicial case contesting the
-  validity of those conditions.
-
-  The Herald CAN award a specified Patent Title to a specified
-  player With 2 Agoran Consent.
-id: 649
-power: 1.5
 annotations:
 - cfjs:
   - id: '1525'
     called: 2004-11-15
-  text: If a patent title is defined by the rules, and previously the rules defined
-    a patent title with the same spelling but a different award condition, the two
-    are the same patent title.
+  text: >
+    If a patent title is defined by the rules, and previously the
+    rules defined a patent title with the same spelling but a
+    different award condition, the two are the same patent title.
 - cfjs:
   - id: '1592'
     called: 2006-12-01
-  text: A patent title, once borne, is borne until explicitly revoked, even if the
-    rule defining the patent title is repealed or the patent title was never defined
-    by a rule.
+  text: >
+    A patent title, once borne, is borne until explicitly revoked,
+    even if the rule defining the patent title is repealed or the
+    patent title was never defined by a rule.
 - cfjs:
   - id: '1731'
     called: 2007-08-23
-  text: It is possible for an entity {a person at the time of CFJ 1731} to bear more
-    than one instance of a patent title simultaneously.
+  text: >
+    It is possible for an entity {a person at the time of CFJ 1731}
+    to bear more than one instance of a patent title simultaneously.
 - cfjs:
   - id: '1591'
     called: 2006-12-01
-  text: Where a person bears the patent title X, and X is not also defined by the
-    rules to have some special meaning, it is correct to say that that person "is
-    an X".
+  text: >
+    Where a person bears the patent title X, and X is not also
+    defined by the rules to have some special meaning, it is correct
+    to say that that person "is an X".

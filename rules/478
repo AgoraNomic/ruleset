@@ -1,5 +1,42 @@
----
+id: 478
 name: Fora
+power: 3
+text: |
+  Freedom of speech being essential for the healthy functioning of
+  any non-Imperial nomic, it is hereby resolved that no Player shall
+  be prohibited from participating in the Fora, nor shall any person
+  create physical or technological obstacles that unduly favor some
+  players' fora access over others.
+
+  Publicity is a forum switch with values Public, Discussion, and
+  Foreign (default), tracked by the Registrar. Changes to publicity
+  are secured.
+
+  The Registrar may change the publicity of a forum without
+  objection as long as:
+
+  1. e sends eir announcement of intent to that forum; and
+
+  2. if the forum is to be made public, the announcement by which
+     the Registrar makes that forum public is sent to all existing
+     public fora.
+
+  Each player should ensure e can receive messages via each public
+  forum.
+
+  A public message is a message sent via a public forum, or sent to
+  all players and containing a clear designation of intent to be
+  public. A rule can also designate that a part of one public
+  message is considered a public message in its own right. A person
+  "publishes" or "announces" something by sending a public message.
+
+  Where the rules define an action that CAN be performed "by
+  announcement", a person performs that action by unambiguously and
+  clearly specifying the action and announcing that e performs it.
+  Any action performed by sending a message is performed at the time
+  date-stamped on that message. Actions in messages (including
+  sub-messages) are performed in the order they appear in the
+  message, unless otherwise specified.
 history:
 - change:
     type: enactment
@@ -186,44 +223,6 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
-text: |
-  Freedom of speech being essential for the healthy functioning of
-  any non-Imperial nomic, it is hereby resolved that no Player shall
-  be prohibited from participating in the Fora, nor shall any person
-  create physical or technological obstacles that unduly favor some
-  players' fora access over others.
-
-  Publicity is a forum switch with values Public, Discussion, and
-  Foreign (default), tracked by the Registrar. Changes to publicity
-  are secured.
-
-  The Registrar may change the publicity of a forum without
-  objection as long as:
-
-  1. e sends eir announcement of intent to that forum; and
-
-  2. if the forum is to be made public, the announcement by which
-     the Registrar makes that forum public is sent to all existing
-     public fora.
-
-  Each player should ensure e can receive messages via each public
-  forum.
-
-  A public message is a message sent via a public forum, or sent to
-  all players and containing a clear designation of intent to be
-  public. A rule can also designate that a part of one public
-  message is considered a public message in its own right. A person
-  "publishes" or "announces" something by sending a public message.
-
-  Where the rules define an action that CAN be performed "by
-  announcement", a person performs that action by unambiguously and
-  clearly specifying the action and announcing that e performs it.
-  Any action performed by sending a message is performed at the time
-  date-stamped on that message. Actions in messages (including
-  sub-messages) are performed in the order they appear in the
-  message, unless otherwise specified.
-id: 478
-power: 3
 annotations:
 - cfjs:
   - id: 1451-1452

@@ -1,5 +1,30 @@
----
+id: 106
 name: Adopting Proposals
+power: 3
+text: |
+  When a decision about whether to adopt a proposal is resolved, if
+  the outcome is ADOPTED, then the proposal in question is adopted,
+  and unless other rules prevent it from taking effect, its power is
+  set to the minimum of four and its adoption index, and then it
+  takes effect. Except as prohibited by other rules, a proposal that
+  takes effect CAN and does, as part of its effect, apply the
+  changes that it specifies. If the proposal cannot make some such
+  changes, this does not preclude the other changes from taking
+  place.
+
+  If there is no Agoran Decision to adopt a particular proposal that
+  has an outcome of ADOPTED, that proposal CANNOT take effect, rules
+  to the contrary notwithstanding.
+
+  Preventing a proposal from taking effect is a secured change; this
+  does not apply to generally preventing changes to specified areas
+  of the gamestate, nor to a proposal preventing itself from taking
+  effect (its no- effect clause is generally interpreted as applying
+  only to the rest of the proposal). Except insofar as the actions
+  performed by a proposal happen one after another, rather than
+  simultaneously, a proposal's effect is instantaneous. A proposal
+  can neither delay nor extend its own effect. Once a propsal
+  finishes taking effect, its power is set to 0.
 history:
 - change:
     type: initial
@@ -226,55 +251,35 @@ history:
   date: 2017-11-06
   agent:
     proposal: "7940"
-text: |
-  When a decision about whether to adopt a proposal is resolved, if
-  the outcome is ADOPTED, then the proposal in question is adopted,
-  and unless other rules prevent it from taking effect, its power is
-  set to the minimum of four and its adoption index, and then it
-  takes effect. Except as prohibited by other rules, a proposal that
-  takes effect CAN and does, as part of its effect, apply the
-  changes that it specifies. If the proposal cannot make some such
-  changes, this does not preclude the other changes from taking
-  place.
-
-  If there is no Agoran Decision to adopt a particular proposal that
-  has an outcome of ADOPTED, that proposal CANNOT take effect, rules
-  to the contrary notwithstanding.
-
-  Preventing a proposal from taking effect is a secured change; this
-  does not apply to generally preventing changes to specified areas
-  of the gamestate, nor to a proposal preventing itself from taking
-  effect (its no- effect clause is generally interpreted as applying
-  only to the rest of the proposal). Except insofar as the actions
-  performed by a proposal happen one after another, rather than
-  simultaneously, a proposal's effect is instantaneous. A proposal
-  can neither delay nor extend its own effect. Once a propsal
-  finishes taking effect, its power is set to 0.
-id: 106
-power: 3
 annotations:
 - cfjs:
   - id: '1639'
     called: 2007-04-29
-  text: Where a proposal attempts two separate amendments of the text of the same
-    rule, if one of the attempted amendments is not possible and the other is then
-    the possible amendment does in fact occur, unless the proposal explicitly requires
-    a different resolution.
+  text: >
+    Where a proposal attempts two separate amendments of the text of
+    the same rule, if one of the attempted amendments is not
+    possible and the other is then the possible amendment does in
+    fact occur, unless the proposal explicitly requires a different
+    resolution.
 - cfjs:
   - id: '1841'
     called: 2007-12-20
-  text: It is possible for a proposal to have retroactive effect.
+  text: >
+    It is possible for a proposal to have retroactive effect.
 - cfjs:
   - id: '2162'
     called: 2008-09-14
-  text: The retroactive effect of a proposal cannot actually alter the past.
+  text: >
+    The retroactive effect of a proposal cannot actually alter the past.
 - cfjs:
   - id: '2163'
     called: 2008-09-14
-  text: There is no possible proposal text that would cause a proposal to take effect
-    without being adopted.
+  text: >
+    There is no possible proposal text that would cause a proposal
+    to take effect without being adopted.
 - cfjs:
   - id: '2259'
     called: 2008-11-06
-  text: The possibility of the instantaneous effects of a proposal are governed by
-    the rules.
+  text: >
+    The possibility of the instantaneous effects of a proposal are
+    governed by the rules.

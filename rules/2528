@@ -1,11 +1,6 @@
----
+id: 2528
 name: Voting Methods
-history:
-- change:
-    type: enactment
-  date: 2017-10-23
-  agent:
-    proposal: "7922"
+power: 3
 text: |
   Each Agoran decision has a voting method, which must be
   AI-majority, instant runoff, or first-past-the-post. The voting
@@ -29,6 +24,10 @@ text: |
   3. For an instant runoff decision, the ordered lists of entities.
 
   4. For any other decision, the valid options.
-id: 2528
-power: 3
+history:
+- change:
+    type: enactment
+  date: 2017-10-23
+  agent:
+    proposal: "7922"
 annotations: []

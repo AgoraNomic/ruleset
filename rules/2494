@@ -1,11 +1,6 @@
----
+id: 2494
 name: The Regkeepor
-history:
-- change:
-    type: enactment
-  date: 2017-06-27
-  agent:
-    proposal: "7865"
+power: 1
 text: |
   The Regkeepor is an office, responsible for the maintenance of the
   Regulations. The Regulations are contained in the Regkeepor's
@@ -34,6 +29,10 @@ text: |
   The Regkeepor SHOULD remember that the purpose of the ACORN is to
   make the regulations easily readable, and e SHALL not act in a
   manner intended to deceive others in eir official capacity.
-id: 2494
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-06-27
+  agent:
+    proposal: "7865"
 annotations: []

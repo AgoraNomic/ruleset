@@ -1,16 +1,6 @@
----
+id: 2443
 name: Expediting Proposals
-history:
-- change:
-    type: enactment
-  date: 2014-11-09
-  agent:
-    proposal: "7713"
-- change:
-    type: amendment
-  date: 2017-05-24
-  agent:
-    rule: 2430
+power: 3
 text: |
   A player CAN expedite a proposal whose adoption index is at most
   1.5, in a message containing the character string "[Expedition]"
@@ -25,6 +15,15 @@ text: |
   AGAINST is zero, and the proposal was expedited at least 7 days
   earlier, then any player CAN specially deputise for the Assessor
   to resolve the decision.
-id: 2443
-power: 3
+history:
+- change:
+    type: enactment
+  date: 2014-11-09
+  agent:
+    proposal: "7713"
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
 annotations: []

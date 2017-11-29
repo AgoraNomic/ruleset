@@ -1,5 +1,35 @@
----
+id: 1551
 name: Ratification
+power: 3.1
+text: |
+  A public document is part (possibly all) of a public message.
+
+  When a public document is ratified, rules to the contrary
+  notwithstanding, the gamestate is modified to what it would be if,
+  at the time the ratified document was published, the gamestate had
+  been minimally modified to make the ratified document as true and
+  accurate as possible. Such a modification cannot add
+  inconsistencies between the gamestate and the rules, and it cannot
+  include rule changes unless the ratified document explicitly and
+  unambiguously recites either the changes or the resulting
+  properties of the rule(s). If no such modification is possible, or
+  multiple substantially distinct possible modifications would be
+  equally appropriate, the ratification fails.
+
+  An internally inconsistent document generally cannot be ratified;
+  however, if such a document can be divided into a summary section
+  and a main section, where the only purpose of the summary section
+  is to summarize information in the main section, and the main
+  section is internally consistent, ratification of the document
+  proceeds as if it contained only the main section.
+
+  Text purportedly about previous instances of ratification (e.g. a
+  report's date of last ratification) is excluded from ratification.
+  The rules may define additional information that is considered to
+  be part of the document for the purposes of ratification; such
+  definitions are secured at a Power Threshold of 3.
+
+  Ratifying a public document is secured with power threshold 3.
 history:
 - change:
     type: enactment
@@ -130,44 +160,16 @@ history:
   date: 2014-06-03
   agent:
     proposal: "7664"
-text: |
-  A public document is part (possibly all) of a public message.
-
-  When a public document is ratified, rules to the contrary
-  notwithstanding, the gamestate is modified to what it would be if,
-  at the time the ratified document was published, the gamestate had
-  been minimally modified to make the ratified document as true and
-  accurate as possible. Such a modification cannot add
-  inconsistencies between the gamestate and the rules, and it cannot
-  include rule changes unless the ratified document explicitly and
-  unambiguously recites either the changes or the resulting
-  properties of the rule(s). If no such modification is possible, or
-  multiple substantially distinct possible modifications would be
-  equally appropriate, the ratification fails.
-
-  An internally inconsistent document generally cannot be ratified;
-  however, if such a document can be divided into a summary section
-  and a main section, where the only purpose of the summary section
-  is to summarize information in the main section, and the main
-  section is internally consistent, ratification of the document
-  proceeds as if it contained only the main section.
-
-  Text purportedly about previous instances of ratification (e.g. a
-  report's date of last ratification) is excluded from ratification.
-  The rules may define additional information that is considered to
-  be part of the document for the purposes of ratification; such
-  definitions are secured at a Power Threshold of 3.
-
-  Ratifying a public document is secured with power threshold 3.
-id: 1551
-power: 3.1
 annotations:
 - cfjs:
   - id: '2165'
     called: 2008-09-16
-  text: Ratification can create legal fictions, but does not always.
+  text: >
+    Ratification can create legal fictions, but does not always.
 - cfjs:
   - id: '3155'
     called: 2012-01-26
-  text: A "recent history" section of a report is not considered binding as a complete
-    list of certain types of events during a certain date range.
+  text: >
+    A "recent history" section of a report is not considered binding
+    as a complete list of certain types of events during a certain
+    date range.

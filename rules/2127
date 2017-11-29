@@ -1,5 +1,32 @@
----
+id: 2127
 name: Conditional Votes
+power: 3
+text: |
+  A conditional vote on an Agoran decision is a vote which indicates
+  a vote based on some condition(s). A conditional vote is evaluated
+  at the end of the voting period and, rules to the contrary
+  notwithstanding, is clearly specified if and only if the value of
+  the condition(s) is/are determinate at the end of the voting
+  period. If the conditional is clearly specified, and evaluates to
+  a valid vote, it is counted as that vote; otherwise, it is counted
+  as PRESENT.
+
+  Any vote which is clearly expressed as a conditional, e.g. "FOR if
+  <X> is true, AGAINST otherwise", is a valid conditional vote that
+  evaluates as specified.
+
+  A vote endorsing another person is equivalent to a conditional
+  vote evaluating to the vote specified in that person's valid
+  ballot on the decision, if any.
+
+  For an instant runoff decision, a vote consisting of a list, one
+  or more entries of which are valid conditional votes, and the
+  remaining entries of which are valid options, is a valid
+  conditional vote. Such a vote is evaluated by evaluating each
+  conditional entry to a list of votes (or an empty list, if it
+  evaluates to PRESENT either directly or indirectly), and then
+  concatenating those lists with the specified valid options in the
+  order they occurred in the original vote.
 history:
 - change:
     type: enactment
@@ -61,37 +88,10 @@ history:
   date: 2017-10-23
   agent:
     proposal: "7922"
-text: |
-  A conditional vote on an Agoran decision is a vote which indicates
-  a vote based on some condition(s). A conditional vote is evaluated
-  at the end of the voting period and, rules to the contrary
-  notwithstanding, is clearly specified if and only if the value of
-  the condition(s) is/are determinate at the end of the voting
-  period. If the conditional is clearly specified, and evaluates to
-  a valid vote, it is counted as that vote; otherwise, it is counted
-  as PRESENT.
-
-  Any vote which is clearly expressed as a conditional, e.g. "FOR if
-  <X> is true, AGAINST otherwise", is a valid conditional vote that
-  evaluates as specified.
-
-  A vote endorsing another person is equivalent to a conditional
-  vote evaluating to the vote specified in that person's valid
-  ballot on the decision, if any.
-
-  For an instant runoff decision, a vote consisting of a list, one
-  or more entries of which are valid conditional votes, and the
-  remaining entries of which are valid options, is a valid
-  conditional vote. Such a vote is evaluated by evaluating each
-  conditional entry to a list of votes (or an empty list, if it
-  evaluates to PRESENT either directly or indirectly), and then
-  concatenating those lists with the specified valid options in the
-  order they occurred in the original vote.
-id: 2127
-power: 3
 annotations:
 - cfjs:
   - id: '2449'
     called: 2009-04-14
-  text: For an endorsement or denouncement, the identity of the voter in question
-    is part of the condition.
+  text: >
+    For an endorsement or denouncement, the identity of the voter in
+    question is part of the condition.

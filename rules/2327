@@ -1,5 +1,10 @@
----
+id: 2327
 name: Read the Ruleset Week
+power: 1
+text: |
+  The first Agoran week each year which falls entirely in February
+  is Read the Ruleset Week. Agorans are encouraged to read the
+  ruleset during Read the Ruleset Week.
 history:
 - change:
     type: enactment
@@ -11,10 +16,4 @@ history:
   date: 2011-04-10
   agent:
     proposal: "6995"
-text: |
-  The first Agoran week each year which falls entirely in February
-  is Read the Ruleset Week. Agorans are encouraged to read the
-  ruleset during Read the Ruleset Week.
-id: 2327
-power: 1
 annotations: []

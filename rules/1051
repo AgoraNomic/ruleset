@@ -1,5 +1,12 @@
----
+id: 1051
 name: The Rulekeepor
+power: 1
+text: |
+  The Rulekeepor is an office; its holder is responsible for
+  maintaining the text of the rules of Agora.
+
+  The Rulekeepor's Weekly report includes the Short Logical Ruleset.
+  The Rulekeepor's Monthly report includes the Full Logical Ruleset.
 history:
 - change:
     type: unknown
@@ -95,12 +102,4 @@ history:
   date: 2007-10-03
   agent:
     proposal: "5237"
-text: |
-  The Rulekeepor is an office; its holder is responsible for
-  maintaining the text of the rules of Agora.
-
-  The Rulekeepor's Weekly report includes the Short Logical Ruleset.
-  The Rulekeepor's Monthly report includes the Full Logical Ruleset.
-id: 1051
-power: 1
 annotations: []

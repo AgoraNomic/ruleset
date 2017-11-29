@@ -1,11 +1,6 @@
----
+id: 2505
 name: Random Choices
-history:
-- change:
-    type: enactment
-  date: 2017-09-26
-  agent:
-    proposal: "7883"
+power: 1
 text: |
   When a Rule specifies that a random choice be made, then the
   choice shall be made using whatever probability distribution among
@@ -19,6 +14,10 @@ text: |
   in advance. The selecting person SHOULD make the selection method
   public, and SHOULD use a method for which the final probability
   distribution can be readily confirmed.
-id: 2505
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-09-26
+  agent:
+    proposal: "7883"
 annotations: []

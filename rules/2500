@@ -1,16 +1,15 @@
----
+id: 2500
 name: Action Points
+power: 1
+text: |
+  At the beginning of every Agoran Week, every player has 2 Action
+  Points. When a player 'spends' an Action Point, e has one less
+  Action Point. If a player has 0 Action Points, e may not spend any
+  more Action Points, rules to the contrary notwithstanding.
 history:
 - change:
     type: enactment
   date: 2017-07-30
   agent:
     proposal: "7867"
-text: |
-  At the beginning of every Agoran Week, every player has 2 Action
-  Points. When a player 'spends' an Action Point, e has one less
-  Action Point. If a player has 0 Action Points, e may not spend any
-  more Action Points, rules to the contrary notwithstanding.
-id: 2500
-power: 1
 annotations: []

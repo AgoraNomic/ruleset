@@ -1,5 +1,19 @@
----
+id: 2498
 name: Economic Wins
+power: 1
+text: |
+  Stamps are an asset. The Treasuror is the recordkeepor of Stamps.
+
+  Once per month, a player CAN, by announcement, create a stamp by
+  transferring the Stamp Value, in shinies, to Agora.
+
+  If Agora owns at least as many Shinies as the current Stamp Value,
+  a player CAN, by announcement, destroy a Stamp e owns to cause
+  Agora to transfer the Stamp Value, in shinies, to emself.
+
+  If a player owns Stamps created by at least 10 different players,
+  e CAN win the game by announcement, by destroying 10 stamps e
+  owns, each of which was created by a distinct player.
 history:
 - change:
     type: enactment
@@ -26,19 +40,4 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
-text: |
-  Stamps are an asset. The Treasuror is the recordkeepor of Stamps.
-
-  Once per month, a player CAN, by announcement, create a stamp by
-  transferring the Stamp Value, in shinies, to Agora.
-
-  If Agora owns at least as many Shinies as the current Stamp Value,
-  a player CAN, by announcement, destroy a Stamp e owns to cause
-  Agora to transfer the Stamp Value, in shinies, to emself.
-
-  If a player owns Stamps created by at least 10 different players,
-  e CAN win the game by announcement, by destroying 10 stamps e
-  owns, each of which was created by a distinct player.
-id: 2498
-power: 1
 annotations: []

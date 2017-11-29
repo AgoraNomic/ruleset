@@ -1,16 +1,6 @@
----
+id: 2511
 name: Karmic Balance
-history:
-- change:
-    type: enactment
-  date: 2017-10-03
-  agent:
-    proposal: "7904"
-- change:
-    type: amendment
-  date: 2017-11-12
-  agent:
-    proposal: "7960"
+power: 1
 text: |
   In a timely fashion after the beginning of each Quarter, the
   Herald CAN and SHALL by announcement, perform the following tasks
@@ -29,6 +19,15 @@ text: |
   selection players in such transactions, the Herald SHOULD use
   standards of behavior and game balance befitting the spirit of the
   game.
-id: 2511
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-10-03
+  agent:
+    proposal: "7904"
+- change:
+    type: amendment
+  date: 2017-11-12
+  agent:
+    proposal: "7960"
 annotations: []

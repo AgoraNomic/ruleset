@@ -1,5 +1,16 @@
----
+id: 2448
 name: Eras
+power: 1
+text: |
+  An Era is a period of time that has a defined start, either has a
+  defined end or is still ongoing, and has been initiated as
+  specified by this rule.
+
+  Upon the initiation of an Era, each existing Ephemeral Rule (in
+  the order they were created) is repealed, unless the initiation
+  specifies otherwise.
+
+  A player CAN initiate a new Era with Agoran Consent.
 history:
 - change:
     type: enactment
@@ -21,16 +32,4 @@ history:
   date: 2016-12-05
   agent:
     proposal: "7837"
-text: |
-  An Era is a period of time that has a defined start, either has a
-  defined end or is still ongoing, and has been initiated as
-  specified by this rule.
-
-  Upon the initiation of an Era, each existing Ephemeral Rule (in
-  the order they were created) is repealed, unless the initiation
-  specifies otherwise.
-
-  A player CAN initiate a new Era with Agoran Consent.
-id: 2448
-power: 1
 annotations: []

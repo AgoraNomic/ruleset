@@ -1,5 +1,43 @@
----
+id: 1030
 name: Precedence between Rules
+power: 3.2
+text: |
+  In a conflict between Rules, the conflict shall be resolved by
+  performing the following comparisons in the sequence written in
+  this rule, until the conflict is resolved.
+
+  - In a conflict between Rules with different Power, the Rule with
+    the higher Power takes precedence over the Rule with the lower
+    Power; otherwise,
+
+  - If all of the Rules in conflict explicitly say that their
+    precedence relations are determined by some other Rule for
+    determining precedence relations, then the determinations of the
+    precedence-determining Rule shall be used to resolve the
+    conflicts; otherwise,
+
+  - If at least one of the Rules in conflict explicitly says of
+    itself that it defers to another Rule (or type of Rule) or takes
+    precedence over another Rule (or type of Rule), then such
+    provisions shall be used to resolve the conflict, unless they
+    lead to contradictions between each other; otherwise,
+
+  - If any of the rules in conflict have ID numbers, then the Rule
+    with the lowest ID number takes precedence; otherwise,
+
+  - The Rule enacted earliest takes precedence.
+
+  Clauses in any other rule that broadly claim precedence (e.g. over
+  "all rules" of a certain class) shall be, prima facie, considered
+  to be limited claims of precedence or deference that are
+  applicable only when such claims are evaluated as described within
+  the above sequence.
+
+  No change to the Ruleset can occur that would cause a Rule to
+  directly claim precedence over this Rule as a means of determining
+  precedence. This applies to changes by the enactment or amendment
+  of a Rule, or of any other form. This Rule takes precedence over
+  any Rule that would permit such a change to the Ruleset.
 history:
 - change:
     type: initial
@@ -94,55 +132,20 @@ history:
   date: 2013-03-27
   agent:
     proposal: "7334"
-text: |
-  In a conflict between Rules, the conflict shall be resolved by
-  performing the following comparisons in the sequence written in
-  this rule, until the conflict is resolved.
-
-  - In a conflict between Rules with different Power, the Rule with
-    the higher Power takes precedence over the Rule with the lower
-    Power; otherwise,
-
-  - If all of the Rules in conflict explicitly say that their
-    precedence relations are determined by some other Rule for
-    determining precedence relations, then the determinations of the
-    precedence-determining Rule shall be used to resolve the
-    conflicts; otherwise,
-
-  - If at least one of the Rules in conflict explicitly says of
-    itself that it defers to another Rule (or type of Rule) or takes
-    precedence over another Rule (or type of Rule), then such
-    provisions shall be used to resolve the conflict, unless they
-    lead to contradictions between each other; otherwise,
-
-  - If any of the rules in conflict have ID numbers, then the Rule
-    with the lowest ID number takes precedence; otherwise,
-
-  - The Rule enacted earliest takes precedence.
-
-  Clauses in any other rule that broadly claim precedence (e.g. over
-  "all rules" of a certain class) shall be, prima facie, considered
-  to be limited claims of precedence or deference that are
-  applicable only when such claims are evaluated as described within
-  the above sequence.
-
-  No change to the Ruleset can occur that would cause a Rule to
-  directly claim precedence over this Rule as a means of determining
-  precedence. This applies to changes by the enactment or amendment
-  of a Rule, or of any other form. This Rule takes precedence over
-  any Rule that would permit such a change to the Ruleset.
-id: 1030
-power: 3.2
 annotations:
 - cfjs:
   - id: '1104'
     called: 1998-08-20
-  text: The presence in a Rule of deference clause, claiming that the Rule defers
-    to another Rule, does not prevent a conflict with the other Rule arising, but
-    shows only how the Rule says that conflict is to be resolved when it does arise.
+  text: >
+    The presence in a Rule of deference clause, claiming that the
+    Rule defers to another Rule, does not prevent a conflict with
+    the other Rule arising, but shows only how the Rule says that
+    conflict is to be resolved when it does arise.
 - cfjs:
   - id: 1114-1115
     called: 1999-01-27
-  text: This Rule is to be applied to resolve Rule conflicts on a case-by-case basis;
-    just because a Rule is inapplicable in one situation due to conflict with a Rule
-    of higher precedence does not mean that the Rule is nullified in all cases.
+  text: >
+    This Rule is to be applied to resolve Rule conflicts on a
+    case-by-case basis; just because a Rule is inapplicable in one
+    situation due to conflict with a Rule of higher precedence does
+    not mean that the Rule is nullified in all cases.

@@ -1,16 +1,6 @@
----
+id: 2495
 name: The Birthday Tournament
-history:
-- change:
-    type: enactment
-  date: 2017-06-27
-  agent:
-    proposal: "7865"
-- change:
-    type: amendment
-  date: 2017-09-26
-  agent:
-    proposal: "7885"
+power: 1
 text: |
    In a timely fashion after the start of June 1 of each year, the
    Herald SHALL propose a set of Regulations governing a Birthday
@@ -32,6 +22,15 @@ text: |
    thereafter be amended only by the Herald or eir designee without
    objection, to correct minor typos. The initiation SHOULD be timed
    to coincide with Agora's Birthday.
-id: 2495
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-06-27
+  agent:
+    proposal: "7865"
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: "7885"
 annotations: []

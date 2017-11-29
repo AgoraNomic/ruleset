@@ -1,16 +1,6 @@
----
+id: 2516
 name: Passive Income
-history:
-- change:
-    type: enactment
-  date: 2017-10-15
-  agent:
-    proposal: "7921"
-- change:
-    type: amendment
-  date: 2017-11-06
-  agent:
-    proposal: "7944"
+power: 2
 text: |
   The Tax Rate is a singleton natural switch which can take values
   between 0 and 100, inclusive, tracked by the Treasuror. The Tax
@@ -22,6 +12,15 @@ text: |
   so in a timely fashion. As part of eir weekly duties, the
   Treasuror SHALL do so for all payments to Agora that have not yet
   been distributed.
-id: 2516
-power: 2
+history:
+- change:
+    type: enactment
+  date: 2017-10-15
+  agent:
+    proposal: "7921"
+- change:
+    type: amendment
+  date: 2017-11-06
+  agent:
+    proposal: "7944"
 annotations: []

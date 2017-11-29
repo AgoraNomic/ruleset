@@ -1,5 +1,10 @@
----
+id: 2240
 name: No Cretans Need Apply
+power: 3
+text: |
+  In a conflict between clauses of the same Rule, if exactly one
+  claims precedence over the other, then it takes precedence;
+  otherwise, the later clause takes precedence.
 history:
 - change:
     type: enactment
@@ -11,10 +16,4 @@ history:
   date: 2009-08-18
   agent:
     proposal: "6429"
-text: |
-  In a conflict between clauses of the same Rule, if exactly one
-  claims precedence over the other, then it takes precedence;
-  otherwise, the later clause takes precedence.
-id: 2240
-power: 3
 annotations: []

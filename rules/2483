@@ -1,5 +1,10 @@
----
+id: 2483
 name: Economics
+power: 2
+text: |
+  Shinies (singular "shiny", abbreviated "sh.") are an
+  indestructible liquid currency, and the official currency of
+  Agora. The Treasuror is the recordkeepor for shinies.
 history:
 - change:
     type: enactment
@@ -31,10 +36,4 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
-text: |
-  Shinies (singular "shiny", abbreviated "sh.") are an
-  indestructible liquid currency, and the official currency of
-  Agora. The Treasuror is the recordkeepor for shinies.
-id: 2483
-power: 2
 annotations: []

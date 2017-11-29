@@ -1,11 +1,6 @@
----
+id: 2515
 name: Distributing Assets
-history:
-- change:
-    type: enactment
-  date: 2017-10-15
-  agent:
-    proposal: "7921"
+power: 1
 text: |
   To “distribute” a quantity of a fungible asset to a set of
   recipients is to transfer one instance of that asset at a time to
@@ -17,6 +12,10 @@ text: |
   instances of that asset, then the recipient that most recently
   became eligible to own the asset SHALL receive the asset being
   distributed.
-id: 2515
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-10-15
+  agent:
+    proposal: "7921"
 annotations: []

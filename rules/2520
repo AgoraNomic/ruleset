@@ -1,11 +1,6 @@
----
+id: 2520
 name: Contracts
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 2.5
 text: |
   A contract is a ruleset-defined entity embodied in text. An entity
   can only become a contract through the appropriate ruleset defined
@@ -37,6 +32,10 @@ text: |
   - The ability to define arbitrary classes of asset.
 
   - The ability to possess and control assets.
-id: 2520
-power: 2.5
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

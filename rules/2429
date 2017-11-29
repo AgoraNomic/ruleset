@@ -1,5 +1,10 @@
----
+id: 2429
 name: Bleach
+power: 1
+text: |
+  Replacing a non-zero amount of whitespace with a different
+  non-zero amount of whitespace is generally insignificant, except
+  for paragraph breaks.
 history:
 - change:
     type: enactment
@@ -11,10 +16,4 @@ history:
   date: 2014-11-03
   agent:
     proposal: "7709"
-text: |
-  Replacing a non-zero amount of whitespace with a different
-  non-zero amount of whitespace is generally insignificant, except
-  for paragraph breaks.
-id: 2429
-power: 1
 annotations: []

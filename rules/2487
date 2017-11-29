@@ -1,5 +1,17 @@
----
+id: 2487
 name: Shiny Supply Level
+power: 2
+text: |
+  The Supply Level is equal to 70 times the number of players.
+
+  When a Shiny Releveling event occurs, Agora's Balance is increased
+  or decreased such that all Balances add up to the Supply Level.
+
+  When the Supply level Changes, a Shiny Releveling event occurs.
+
+  The Treasuror CAN and SHALL cause a Shiny Releveling event to
+  occur once per Agoran month, in the first Agoran week of that
+  month.
 history:
 - change:
     type: enactment
@@ -21,17 +33,4 @@ history:
   date: 2017-11-06
   agent:
     proposal: "7936"
-text: |
-  The Supply Level is equal to 70 times the number of players.
-
-  When a Shiny Releveling event occurs, Agora's Balance is increased
-  or decreased such that all Balances add up to the Supply Level.
-
-  When the Supply level Changes, a Shiny Releveling event occurs.
-
-  The Treasuror CAN and SHALL cause a Shiny Releveling event to
-  occur once per Agoran month, in the first Agoran week of that
-  month.
-id: 2487
-power: 2
 annotations: []

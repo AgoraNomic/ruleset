@@ -1,11 +1,6 @@
----
+id: 2524
 name: Acting on Behalf via Contracts
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 2.4
 text: |
   If a rule says that a contract CAN do something by announcement,
   it is equivalent to saying that that any person CAN take that
@@ -31,6 +26,10 @@ text: |
   d. Any conditions or limitations upon the actions. If any such
      limitations or conditions are inextricable, the actions CANNOT
      be used.
-id: 2524
-power: 2.4
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

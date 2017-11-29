@@ -1,5 +1,39 @@
----
+id: 2160
 name: Deputisation
+power: 3
+text: |
+  A rule which purports to allow a person (a deputy) to perform an
+  action via normal deputisation or special deputisation for an
+  office thereby allows them to perform the action as if e held the
+  office, as long as
+
+  1. it would be POSSIBLE for the deputy to perform the action,
+     other than by deputisation, if e held the office, and
+
+  2. the deputy, when performing the action, announces that e
+     is doing so by the appropriate form of deputisation.
+
+  Only this rule may allow normal deputisation. Any rule may allow
+  special deputisation.
+
+  A player CAN perform an action as if e held a particular office,
+  via normal deputisation, if all of the following are true:
+
+  1. The rules require the holder of that office, by virtue of
+     holding that office, to perform the action. This requirement is
+     fulfilled by the deputy performing the action.
+
+  2. Either (i) A time limit by which the rules require the action
+     to be performed has expired or (ii) the office is vacant.
+
+  3. Either (i) the office is vacant; or (ii) the aforementioned
+     time limit expired more than fourteen days ago; or (iii) the
+     deputy announced between two and fourteen days earlier that e
+     intended to deputise for that office for the purposes of the
+     particular action.
+
+  When a player deputises via normal deputisation for an elected
+  office, e becomes the holder of that office.
 history:
 - change:
     type: enactment
@@ -99,50 +133,19 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7918"
-text: |
-  A rule which purports to allow a person (a deputy) to perform an
-  action via normal deputisation or special deputisation for an
-  office thereby allows them to perform the action as if e held the
-  office, as long as
-
-  1. it would be POSSIBLE for the deputy to perform the action,
-     other than by deputisation, if e held the office, and
-
-  2. the deputy, when performing the action, announces that e
-     is doing so by the appropriate form of deputisation.
-
-  Only this rule may allow normal deputisation. Any rule may allow
-  special deputisation.
-
-  A player CAN perform an action as if e held a particular office,
-  via normal deputisation, if all of the following are true:
-
-  1. The rules require the holder of that office, by virtue of
-     holding that office, to perform the action. This requirement is
-     fulfilled by the deputy performing the action.
-
-  2. Either (i) A time limit by which the rules require the action
-     to be performed has expired or (ii) the office is vacant.
-
-  3. Either (i) the office is vacant; or (ii) the aforementioned
-     time limit expired more than fourteen days ago; or (iii) the
-     deputy announced between two and fourteen days earlier that e
-     intended to deputise for that office for the purposes of the
-     particular action.
-
-  When a player deputises via normal deputisation for an elected
-  office, e becomes the holder of that office.
-id: 2160
-power: 3
 annotations:
 - cfjs:
   - id: '1776'
     called: 2007-11-01
-  text: A requirement to perform an action, for the purposes of this rule, can be
-    a logical implication from rules and circumstances, not just directly imposed
-    by the rules. In particular, it is possible to deputise to rotate the bench.
+  text: >
+    A requirement to perform an action, for the purposes of this
+    rule, can be a logical implication from rules and circumstances,
+    not just directly imposed by the rules. In particular, it is
+    possible to deputise to rotate the bench.
 - cfjs:
   - id: '2400'
     called: 2009-03-06
-  text: Deputisation is generally treated as if the deputy gained the office immediately
-    before the action, and lost it immediately after.
+  text: >
+    Deputisation is generally treated as if the deputy gained the
+    office immediately before the action, and lost it immediately
+    after.

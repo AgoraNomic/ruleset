@@ -1,5 +1,23 @@
----
+id: 103
 name: The Speaker
+power: 2
+text: |
+  The Speaker is an imposed office and the figurehead leader of
+  Agora.
+
+  The player or players who have most recently won the game are
+  called Laureled. If at any time the office of Speaker is vacant,
+  or when one or more players win Agora, then the Prime Minister CAN
+  and SHALL, once and in a timely fashion, appoint a Laureled player
+  to the office of Speaker by announcement.
+
+  If the office of Speaker has been held continuously by the same
+  person for 90+ days, then any player CAN appoint another player to
+  the office with Support.
+
+  For an election of the Prime Minister, the Speaker has voting
+  strength one greater than e would have if e did not hold the
+  office.
 history:
 - change:
     type: initial
@@ -162,23 +180,4 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7885"
-text: |
-  The Speaker is an imposed office and the figurehead leader of
-  Agora.
-
-  The player or players who have most recently won the game are
-  called Laureled. If at any time the office of Speaker is vacant,
-  or when one or more players win Agora, then the Prime Minister CAN
-  and SHALL, once and in a timely fashion, appoint a Laureled player
-  to the office of Speaker by announcement.
-
-  If the office of Speaker has been held continuously by the same
-  person for 90+ days, then any player CAN appoint another player to
-  the office with Support.
-
-  For an election of the Prime Minister, the Speaker has voting
-  strength one greater than e would have if e did not hold the
-  office.
-id: 103
-power: 2
 annotations: []

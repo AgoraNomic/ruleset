@@ -1,5 +1,39 @@
----
+id: 2139
 name: The Registrar
+power: 2
+text: |
+  The Registrar is an office; its holder is responsible for keeping
+  track of players.
+
+  The Registrar's weekly report includes:
+
+  1. A list of all players, including information sufficient to
+     identify and contact each player.
+
+  2. The date on which each player most recently became a player.
+
+  3. For each forum with non-Foreign publicity, sufficient
+     instructions for players to receive messages there.
+
+  The Registrar's monthly report includes:
+
+  1. For each former player for which the information is reasonably
+     available, the dates on which e registered and deregistered.
+
+  In the first week of every month the Registrar SHALL attempt to
+  deregister every player that has not sent a message to a public
+  forum in the preceding month.
+
+  The Registrar's duties and abilities also include:
+
+  * Changing the publicity of a forum, as described in Rule 478.
+
+  * Publishing Cantus Cygnei and Writs of FAGE as described in
+    Rule 1789.
+
+  The Registrar is also responsible for tracking any switches,
+  defined in a rule, that would otherwise lack an officer to track
+  them, unless the switch is defined as untracked.
 history:
 - change:
     type: enactment
@@ -68,60 +102,31 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
-text: |
-  The Registrar is an office; its holder is responsible for keeping
-  track of players.
-
-  The Registrar's weekly report includes:
-
-  1. A list of all players, including information sufficient to
-     identify and contact each player.
-
-  2. The date on which each player most recently became a player.
-
-  3. For each forum with non-Foreign publicity, sufficient
-     instructions for players to receive messages there.
-
-  The Registrar's monthly report includes:
-
-  1. For each former player for which the information is reasonably
-     available, the dates on which e registered and deregistered.
-
-  In the first week of every month the Registrar SHALL attempt to
-  deregister every player that has not sent a message to a public
-  forum in the preceding month.
-
-  The Registrar's duties and abilities also include:
-
-  * Changing the publicity of a forum, as described in Rule 478.
-
-  * Publishing Cantus Cygnei and Writs of FAGE as described in
-    Rule 1789.
-
-  The Registrar is also responsible for tracking any switches,
-  defined in a rule, that would otherwise lack an officer to track
-  them, unless the switch is defined as untracked.
-id: 2139
-power: 2
 annotations:
 - cfjs:
   - id: '1703'
     called: 2007-07-13
-  text: A player cannot change eir nickname by announcement if the new nickname that
-    e specifies is the current nickname of another player.
+  text: >
+    A player cannot change eir nickname by announcement if the new
+    nickname that e specifies is the current nickname of another
+    player.
 - cfjs:
   - id: '1361'
     called: 2002-05-07
-  text: Purporting to assign a new nickname, previously unused to refer to any entity,
-    to another player is successful, but does not displace the target's existing name
-    or nickname.
+  text: >
+    Purporting to assign a new nickname, previously unused to refer
+    to any entity, to another player is successful, but does not
+    displace the target's existing name or nickname.
 - cfjs:
   - id: '1489'
     called: 2004-02-11
-  text: Watchers are not a rule-defined element of the game.
+  text: >
+    Watchers are not a rule-defined element of the game.
 - cfjs:
   - id: '1420'
     called: 2002-12-17
-  text: The list of watchers, customarily published with the registrar's report, is
-    part of the game state, even though it is not mentioned in the rules and no one
-    is obliged to track or publish it.
+  text: >
+    The list of watchers, customarily published with the registrar's
+    report, is part of the game state, even though it is not
+    mentioned in the rules and no one is obliged to track or publish
+    it.

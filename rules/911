@@ -1,5 +1,41 @@
----
+id: 911
 name: Motions and Moots
+power: 1.7
+text: |
+  If a judgement has been in effect for less then seven days and has
+  not been entered into Moot, then:
+
+  - The judge of that CFJ CAN self-file a Motion to Reconsider the
+    case by announcement, if e has not already self-filed a Motion
+    to Reconsider that CFJ.
+  - Any Player CAN group-file a Motion to Reconsider the case with 2
+    Support, if the CFJ has not had a Motion to Reconsider
+    group-filed for it at any time while it has been assigned to its
+    current judge.
+
+  When a Motion to Reconsider is so filed, the case is rendered open
+  again.
+
+  If a CFJ has a judgement assigned, a player CAN enter that
+  judgement into Moot with N+2 support, where N is the number of
+  weeks since that judgement has been assigned, rounded down. When
+  this occurs, the CFJ is suspended, and the Arbitor is once
+  authorized to initiate the Agoran decision to determine public
+  confidence in the judgement, which e SHALL do in a timely fashion.
+
+  For this decision, the vote collector is the Arbitor and the valid
+  options are AFFIRM, REMAND, and REMIT. When the decision is
+  resolved, the effect depends on the outcome:
+
+  - AFFIRM, FAILED QUORUM: The judgement is reassigned to the case,
+    and cannot be entered into Moot again.
+
+  - REMAND: The case becomes open again.
+
+  - REMIT: The case becomes open again, and the current judge is
+    recused. The Arbitor SHALL NOT assign em to the case again
+    unless no other eligible judges have displayed interest in
+    judging.
 history:
 - change:
     type: enactment
@@ -316,52 +352,17 @@ history:
   date: 2017-10-29
   agent:
     proposal: "7930"
-text: |
-  If a judgement has been in effect for less then seven days and has
-  not been entered into Moot, then:
-
-  - The judge of that CFJ CAN self-file a Motion to Reconsider the
-    case by announcement, if e has not already self-filed a Motion
-    to Reconsider that CFJ.
-  - Any Player CAN group-file a Motion to Reconsider the case with 2
-    Support, if the CFJ has not had a Motion to Reconsider
-    group-filed for it at any time while it has been assigned to its
-    current judge.
-
-  When a Motion to Reconsider is so filed, the case is rendered open
-  again.
-
-  If a CFJ has a judgement assigned, a player CAN enter that
-  judgement into Moot with N+2 support, where N is the number of
-  weeks since that judgement has been assigned, rounded down. When
-  this occurs, the CFJ is suspended, and the Arbitor is once
-  authorized to initiate the Agoran decision to determine public
-  confidence in the judgement, which e SHALL do in a timely fashion.
-
-  For this decision, the vote collector is the Arbitor and the valid
-  options are AFFIRM, REMAND, and REMIT. When the decision is
-  resolved, the effect depends on the outcome:
-
-  - AFFIRM, FAILED QUORUM: The judgement is reassigned to the case,
-    and cannot be entered into Moot again.
-
-  - REMAND: The case becomes open again.
-
-  - REMIT: The case becomes open again, and the current judge is
-    recused. The Arbitor SHALL NOT assign em to the case again
-    unless no other eligible judges have displayed interest in
-    judging.
-id: 911
-power: 1.7
 annotations:
 - cfjs:
   - id: '1597'
     called: 2006-12-22
-  text: It is possible to appeal a judgement even if it is not certain that the judgement
-    exists.
+  text: >
+    It is possible to appeal a judgement even if it is not certain
+    that the judgement exists.
 - cfjs:
   - id: '1800'
     called: 2007-11-18
-  text: An announcement of the form "I call for the appeal of <judgement>" has the
-    effect of initiating the Agoran decision on whether to approve appealing the cited
-    judgement.
+  text: >
+    An announcement of the form "I call for the appeal of
+    <judgement>" has the effect of initiating the Agoran decision on
+    whether to approve appealing the cited judgement.

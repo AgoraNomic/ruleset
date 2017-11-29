@@ -1,16 +1,6 @@
----
+id: 2508
 name: Community Chest
-history:
-- change:
-    type: enactment
-  date: 2017-09-26
-  agent:
-    proposal: "7898"
-- change:
-    type: repeal
-  date: 2017-11-12
-  agent:
-    proposal: "7960"
+power: 2
 text: |
   The Community Chest is an Agoran Institution. If a player has not
   done so in the current quarter, e CAN, by announcement, transfer
@@ -23,6 +13,15 @@ text: |
   If e does so, then an instant after the transaction is completed,
   half the value of the transaction in shinies (rounded up) is
   transferred from Agora to the Community Chest.
-id: 2508
-power: 2
+history:
+- change:
+    type: enactment
+  date: 2017-09-26
+  agent:
+    proposal: "7898"
+- change:
+    type: repeal
+  date: 2017-11-12
+  agent:
+    proposal: "7960"
 annotations: []

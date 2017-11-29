@@ -1,5 +1,31 @@
----
+id: 683
 name: Voting on Agoran Decisions
+power: 3
+text: |
+  An entity submits a ballot on an Agoran decision by publishing a
+  notice satisfying the following conditions:
+
+  1. The ballot is submitted during the voting period for the
+     decision.
+
+  2. The entity casting the ballot (the voter) was, at the
+     initiation of the decision, a player.
+
+  3. The ballot clearly identifies the matter to be decided.
+
+  4. The ballot clearly identifies a valid vote, as determined by
+     the voting method.
+
+  5. The ballot clearly sets forth the voter's intent to place
+     the identified vote.
+
+  6. The voter has no other valid ballots on the same decision.
+
+  A valid ballot is a ballot, correctly submitted, that has not
+  been withdrawn. During the voting period of an Agoran decision,
+  a player CAN by announcement withdraw (syn. retract) a ballot
+  that e submitted on that decision. To "change" one's vote is to
+  retract eir previous ballot (if any), then submit a new one.
 history:
 - change:
     type: initial
@@ -150,41 +176,16 @@ history:
   date: 2017-06-05
   agent:
     proposal: "7854"
-text: |
-  An entity submits a ballot on an Agoran decision by publishing a
-  notice satisfying the following conditions:
-
-  1. The ballot is submitted during the voting period for the
-     decision.
-
-  2. The entity casting the ballot (the voter) was, at the
-     initiation of the decision, a player.
-
-  3. The ballot clearly identifies the matter to be decided.
-
-  4. The ballot clearly identifies a valid vote, as determined by
-     the voting method.
-
-  5. The ballot clearly sets forth the voter's intent to place
-     the identified vote.
-
-  6. The voter has no other valid ballots on the same decision.
-
-  A valid ballot is a ballot, correctly submitted, that has not
-  been withdrawn. During the voting period of an Agoran decision,
-  a player CAN by announcement withdraw (syn. retract) a ballot
-  that e submitted on that decision. To "change" one's vote is to
-  retract eir previous ballot (if any), then submit a new one.
-id: 683
-power: 3
 annotations:
 - cfjs:
   - id: '1609'
     called: 2007-01-13
-  text: To "clearly identif{y} the matter to be decided" does not necessarily require
-    specifying it in detail.
+  text: >
+    To "clearly identif{y} the matter to be decided" does not
+    necessarily require specifying it in detail.
 - cfjs:
   - id: 1852-1853
     called: 2007-12-23
-  text: Claiming to submit more votes than ones voting limit on the decision does
-    not constitute the making of a false statement.
+  text: >
+    Claiming to submit more votes than ones voting limit on the
+    decision does not constitute the making of a false statement.

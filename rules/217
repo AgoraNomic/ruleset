@@ -1,5 +1,26 @@
----
+id: 217
 name: Interpreting the Rules
+power: 3
+text: |
+  When interpreting and applying the rules, the text of the rules
+  takes precedence. Where the text is silent, inconsistent, or
+  unclear, it is to be augmented by game custom, common sense, past
+  judgements, and consideration of the best interests of the game.
+
+  Definitions and prescriptions in the rules are only to be applied
+  using direct, forward reasoning; in particular, an absurdity that
+  can be concluded from the assumption that a statement about
+  rule-defined concepts is false does not constitute proof that it
+  is true. Definitions in lower-powered Rules do not overrule
+  common-sense interpretations or common definitions of terms in
+  higher-powered rules.
+
+  Rules to the contrary notwithstanding, any rule change that would
+  (1) prevent a person from initiating a formal process to resolve
+  matters of controversy, in the reasonable expectation that the
+  controversy will thereby be resolved; or (2) prevent a person from
+  causing formal reconsideration of any judicial determination that
+  e should be punished, is wholly void and without effect.
 history:
 - change:
     type: initial
@@ -73,114 +94,117 @@ history:
   date: 2014-06-03
   agent:
     proposal: "7662"
-text: |
-  When interpreting and applying the rules, the text of the rules
-  takes precedence. Where the text is silent, inconsistent, or
-  unclear, it is to be augmented by game custom, common sense, past
-  judgements, and consideration of the best interests of the game.
-
-  Definitions and prescriptions in the rules are only to be applied
-  using direct, forward reasoning; in particular, an absurdity that
-  can be concluded from the assumption that a statement about
-  rule-defined concepts is false does not constitute proof that it
-  is true. Definitions in lower-powered Rules do not overrule
-  common-sense interpretations or common definitions of terms in
-  higher-powered rules.
-
-  Rules to the contrary notwithstanding, any rule change that would
-  (1) prevent a person from initiating a formal process to resolve
-  matters of controversy, in the reasonable expectation that the
-  controversy will thereby be resolved; or (2) prevent a person from
-  causing formal reconsideration of any judicial determination that
-  e should be punished, is wholly void and without effect.
-id: 217
-power: 3
 annotations:
 - cfjs:
   - id: '1439'
     called: 2003-02-20
-  text: A difference in language qualifies as a difference in dialect; it is possible
-    to take game actions by messages in languages other than English.
+  text: >
+    A difference in language qualifies as a difference in dialect;
+    it is possible to take game actions by messages in languages
+    other than English.
 - cfjs:
   - id: '1460'
     called: 2003-04-04
-  text: If a message is in a language other than English, and its intended audience
-    does not understand the language, this constitutes gross unclarity that makes
-    the message ineffective.
+  text: >
+    If a message is in a language other than English, and its
+    intended audience does not understand the language, this
+    constitutes gross unclarity that makes the message ineffective.
 - cfjs:
   - id: '712'
     called: 
-  text: Referring to a Player by a method other than eir name or nickname is acceptable,
-    as long as it is unambiguous.
+  text: >
+    Referring to a Player by a method other than eir name or
+    nickname is acceptable, as long as it is unambiguous.
 - cfjs:
   - id: '1861'
     called: 2008-01-08
-  text: A player's legal name (legal in eir country of residence) is not necessarily
-    an acceptable way to refer to em.
+  text: >
+    A player's legal name (legal in eir country of residence) is not
+    necessarily an acceptable way to refer to em.
 - cfjs:
   - id: '1782'
     called: 2007-11-04
-  text: Referring to a player by the name of an office that e holds suffices to identify
-    em uniquely as a person, if there is no doubt regarding who holds that office.
+  text: >
+    Referring to a player by the name of an office that e holds
+    suffices to identify em uniquely as a person, if there is no
+    doubt regarding who holds that office.
 - cfjs:
   - id: '1460'
     called: 2003-04-04
-  text: Extremely complex synonyms, requiring extensive effort to interpret correctly,
-    can constitute a sufficient degree of unclarity as to render the message ineffective.
+  text: >
+    Extremely complex synonyms, requiring extensive effort to
+    interpret correctly, can constitute a sufficient degree of
+    unclarity as to render the message ineffective.
 - cfjs:
   - id: '1840'
     called: 2007-12-20
-  text: A proper noun that has not been explicitly defined does not adequately refer
-    to any entity, and is not implicitly defined by the context in which it is used.
+  text: >
+    A proper noun that has not been explicitly defined does not
+    adequately refer to any entity, and is not implicitly defined by
+    the context in which it is used.
 - cfjs:
   - id: '1580'
     called: 2006-01-12
-  text: Base64 encoding of (part of) a message, other than in the context of MIME
-    with appropriate headers, can render a message ineffective for unclarity, because
-    the decoding step requires unreasonable effort within the meaning of CFJ 1460.
+  text: >
+    Base64 encoding of (part of) a message, other than in the
+    context of MIME with appropriate headers, can render a message
+    ineffective for unclarity, because the decoding step requires
+    unreasonable effort within the meaning of CFJ 1460.
 - cfjs:
   - id: '1741'
     called: 2007-09-11
-  text: HTML encoding (including numerical character entity encoding) does not render
-    a message ineffective for unclarity if a suitable MIME type is indicated by a
-    header.
+  text: >
+    HTML encoding (including numerical character entity encoding)
+    does not render a message ineffective for unclarity if a
+    suitable MIME type is indicated by a header.
 - cfjs:
   - id: '1741'
     called: 2007-09-11
-  text: An email message does not need the RFC-required "MIME-Version:" header in
-    order for it to be interpreted in the MIME way.
+  text: >
+    An email message does not need the RFC-required "MIME-Version:"
+    header in order for it to be interpreted in the MIME way.
 - cfjs:
   - id: '1536'
     called: 2005-03-13
-  text: The phrase "AOL!" is not a sufficiently clear synonym for "Me too!".
+  text: >
+    The phrase "AOL!" is not a sufficiently clear synonym for "Me
+    too!".
 - cfjs:
   - id: '1770'
     called: 2007-10-23
-  text: A contract can redefine a rule-defined term in its own way, and the contract's
-    definition will then apply in situations governed by the contract.
+  text: >
+    A contract can redefine a rule-defined term in its own way, and
+    the contract's definition will then apply in situations governed
+    by the contract.
 - cfjs:
   - id: '1885'
     called: 2008-01-26
-  text: A word or phrase can acquire a meaning by custom, provided that it is a reasonable
-    meaning and does not unreasonably change the meaning of phrases that already have
-    a meaning.
+  text: >
+    A word or phrase can acquire a meaning by custom, provided that
+    it is a reasonable meaning and does not unreasonably change the
+    meaning of phrases that already have a meaning.
 - cfjs:
   - id: '1831'
     called: 2007-12-10
-  text: Mentioning a URI, without surrounding text stating its significance, does
-    not incorporate anything identified by that URI into the message that mentions
-    the URI.
+  text: >
+    Mentioning a URI, without surrounding text stating its
+    significance, does not incorporate anything identified by that
+    URI into the message that mentions the URI.
 - cfjs:
   - id: '1831'
     called: 2007-12-10
-  text: Character sequences within a URI by default have no significance other than
-    their functional role as part of the URI.
+  text: >
+    Character sequences within a URI by default have no significance
+    other than their functional role as part of the URI.
 - cfjs:
   - id: '2258'
     called: 2008-11-06
-  text: Changes in whitespace are also inconsequential.
+  text: >
+    Changes in whitespace are also inconsequential.
 - cfjs:
   - id: '1139'
     called: 
-  text: Interpretations {judgements at the time of CFJ 1139} need not necessarily
-    accord with the reasoning and arguments of Judges or Justices given in past CFJs.
+  text: >
+    Interpretations {judgements at the time of CFJ 1139} need not
+    necessarily accord with the reasoning and arguments of Judges or
+    Justices given in past CFJs.

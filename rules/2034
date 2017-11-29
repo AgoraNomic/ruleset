@@ -1,5 +1,16 @@
----
+id: 2034
 name: Vote Protection and Cutoff for Challenges
+power: 3
+text: |
+  A public message purporting to resolve an Agoran decision
+  constitutes self-ratifying claims that
+
+  1. such a decision existed,
+
+  2. it was resolved as indicated, and
+
+  3. (if the indicated outcome was to adopt a proposal) such a
+     proposal existed, was adopted, and took effect.
 history:
 - change:
     type: enactment
@@ -51,16 +62,4 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
-text: |
-  A public message purporting to resolve an Agoran decision
-  constitutes self-ratifying claims that
-
-  1. such a decision existed,
-
-  2. it was resolved as indicated, and
-
-  3. (if the indicated outcome was to adopt a proposal) such a
-     proposal existed, was adopted, and took effect.
-id: 2034
-power: 3
 annotations: []

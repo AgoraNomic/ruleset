@@ -1,16 +1,6 @@
----
+id: 2492
 name: Recusal
-history:
-- change:
-    type: enactment
-  date: 2017-06-27
-  agent:
-    proposal: "7859"
-- change:
-    type: amendment
-  date: 2017-09-26
-  agent:
-    proposal: "7888"
+power: 1
 text: |
   A judge CAN recuse emself from a CFJ they are assigned to by
   announcement.
@@ -24,6 +14,15 @@ text: |
 
   3 - The recused judge SHOULD suggest another judge for the CFJ to
       make the Arbitor's job easier.
-id: 2492
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-06-27
+  agent:
+    proposal: "7859"
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: "7888"
 annotations: []

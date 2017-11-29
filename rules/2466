@@ -1,16 +1,6 @@
----
+id: 2466
 name: Acting on Behalf
-history:
-- change:
-    type: enactment
-  date: 2016-10-28
-  agent:
-    proposal: "7815"
-- change:
-    type: amendment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 3
 text: |
   When a rule allows one person (the agent) to act on behalf of
   another (the principal) to perform an action, that agent CAN
@@ -41,6 +31,15 @@ text: |
   prohibit a person from taking an action, except that it defers to
   any rule that imposes limitations specifically on actions taken on
   behalf of another person.
-id: 2466
-power: 3
+history:
+- change:
+    type: enactment
+  date: 2016-10-28
+  agent:
+    proposal: "7815"
+- change:
+    type: amendment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

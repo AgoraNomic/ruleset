@@ -1,5 +1,29 @@
----
+id: 1650
 name: Silliness
+power: 1
+text: |
+  Each Agoran Week a Player is designated the Silly Person. The
+  Silly Person SHALL in that week, by announcement (1) designate
+  another player, who has not been the Silly Person in the past two
+  weeks, to be the next week's Silly Person; (2) submit a Silly
+  Proposal. If there is ever no Silly Person or the Silly Person is
+  not a player, then the next week's Silly Person is the first
+  player that any player publicly designates to be the next week's
+  Silly Person.
+
+  A Silly Proposal is a Proposal whose sole contents are one of
+  the following:
+
+  i) A limerick.
+
+  ii) A poem with a rhyme scheme and/or strict metrical structure no
+      longer than 14 lines (No free verse!)
+
+  iii) A joke or truly hideous pun of no more than a two hundred
+       words.
+
+  The first Silly Proposal submitted by the week's Silly Person is
+  an Official Proposal.
 history:
 - change:
     type: enactment
@@ -27,29 +51,4 @@ history:
   date: 2017-11-21
   agent:
     proposal: "7972"
-text: |
-  Each Agoran Week a Player is designated the Silly Person. The
-  Silly Person SHALL in that week, by announcement (1) designate
-  another player, who has not been the Silly Person in the past two
-  weeks, to be the next week's Silly Person; (2) submit a Silly
-  Proposal. If there is ever no Silly Person or the Silly Person is
-  not a player, then the next week's Silly Person is the first
-  player that any player publicly designates to be the next week's
-  Silly Person.
-
-  A Silly Proposal is a Proposal whose sole contents are one of
-  the following:
-
-  i) A limerick.
-
-  ii) A poem with a rhyme scheme and/or strict metrical structure no
-      longer than 14 lines (No free verse!)
-
-  iii) A joke or truly hideous pun of no more than a two hundred
-       words.
-
-  The first Silly Proposal submitted by the week's Silly Person is
-  an Official Proposal.
-id: 1650
-power: 1
 annotations: []

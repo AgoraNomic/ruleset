@@ -1,5 +1,29 @@
----
+id: 2451
 name: Executive Orders
+power: 2.0
+text: |
+  Once per week and except as otherwise forbidden by this rule, the
+  current Prime Minister CAN issue a Cabinet Order by announcement
+  to perform the action(s) authorized by that Order.
+
+  Each Cabinet Order is associated with an office. The current Prime
+  Minister CANNOT issue more than one Cabinet Order associated with
+  the same office more than once in the same month, nor can e issue
+  a Cabinet Order associated with a vacant office.
+
+  The available Cabinet Orders are:
+
+  - Certiorari (Arbitor): The Prime Minister assigns emself as judge
+    of a specified open case.
+
+  - Dive (Referee): The Prime Minister issues a specified Card to a
+    specified player. Notwithstanding rule 2426, the reason for the card
+    MAY be any grievance held by the Prime Minister, not necessarily a
+    violation of the rules, against the person to whom the Card is
+    issued.
+
+  - Manifesto (Promotor): The Prime Minister distributes a specified
+    proposal in the Proposal Pool.
 history:
 - change:
     type: enactment
@@ -38,29 +62,4 @@ history:
   date: 2017-11-07
   agent:
     proposal: "7964"
-text: |
-  Once per week and except as otherwise forbidden by this rule, the
-  current Prime Minister CAN issue a Cabinet Order by announcement
-  to perform the action(s) authorized by that Order.
-
-  Each Cabinet Order is associated with an office. The current Prime
-  Minister CANNOT issue more than one Cabinet Order associated with
-  the same office more than once in the same month, nor can e issue
-  a Cabinet Order associated with a vacant office.
-
-  The available Cabinet Orders are:
-
-  - Certiorari (Arbitor): The Prime Minister assigns emself as judge
-    of a specified open case.
-
-  - Dive (Referee): The Prime Minister issues a specified Card to a
-    specified player. Notwithstanding rule 2426, the reason for the card
-    MAY be any grievance held by the Prime Minister, not necessarily a
-    violation of the rules, against the person to whom the Card is
-    issued.
-
-  - Manifesto (Promotor): The Prime Minister distributes a specified
-    proposal in the Proposal Pool.
-id: 2451
-power: 2.0
 annotations: []

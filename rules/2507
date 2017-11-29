@@ -1,11 +1,6 @@
----
+id: 2507
 name: Black Cards
-history:
-- change:
-    type: enactment
-  date: 2017-09-26
-  agent:
-    proposal: "7886"
+power: 2
 text: |
   A Black Card is a card appropriate for a person who plays the
   game, not currently a player, who either broke the rules while not
@@ -22,6 +17,10 @@ text: |
   notwithstanding. Any attempt to Slam the Door on a player or a
   person whose most recent deregistration took place without eir
   consent is INEFFECTIVE, rules to the contrary notwithstanding.
-id: 2507
-power: 2
+history:
+- change:
+    type: enactment
+  date: 2017-09-26
+  agent:
+    proposal: "7886"
 annotations: []

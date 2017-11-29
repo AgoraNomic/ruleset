@@ -1,5 +1,42 @@
----
+id: 1681
 name: The Logical Rulesets
+power: 1
+text: |
+  The Short Logical Ruleset (SLR) is a format of the ruleset. In
+  this format, each rule is assigned to a category, and the rules
+  are grouped according to their category.
+
+  Rules are assigned to, ordered within, or moved between
+  categories, and categories are added, changed, or empty categories
+  removed, as the Rulekeepor sees fit.
+
+  The listing of each rule in the SLR must include the rule's ID
+  number, revision number, power, title, and text.
+
+  The Rulekeepor is strongly DISCOURAGED from including any
+  additional information in the SLR, except that which increases the
+  readability of the SLR.
+
+  The Full Logical Ruleset (FLR) is a format of the ruleset. In this
+  format, rules are assigned to the same category and presented in
+  the same order as in the SLR. The FLR must contain all the
+  information required to be in the SLR, and any historical
+  annotations which the Rulekeepor is required to record.
+
+  The Rulekeepor SHOULD also include any other information which e
+  feels may be helpful in the use of the ruleset in the FLR.
+
+  Whenever a rule is changed in any way, the Rulekeepor SHALL record
+  a historical annotation to the rule indicating:
+
+  1. The type of change.
+
+  2. The date on which the change took effect.
+
+  3. The mechanism that specified the change.
+
+  4. If the rule was changed due to a proposal, then that proposal's
+     ID number, author, and co-author(s) (if any).
 history:
 - change:
     type: enactment
@@ -113,42 +150,4 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
-text: |
-  The Short Logical Ruleset (SLR) is a format of the ruleset. In
-  this format, each rule is assigned to a category, and the rules
-  are grouped according to their category.
-
-  Rules are assigned to, ordered within, or moved between
-  categories, and categories are added, changed, or empty categories
-  removed, as the Rulekeepor sees fit.
-
-  The listing of each rule in the SLR must include the rule's ID
-  number, revision number, power, title, and text.
-
-  The Rulekeepor is strongly DISCOURAGED from including any
-  additional information in the SLR, except that which increases the
-  readability of the SLR.
-
-  The Full Logical Ruleset (FLR) is a format of the ruleset. In this
-  format, rules are assigned to the same category and presented in
-  the same order as in the SLR. The FLR must contain all the
-  information required to be in the SLR, and any historical
-  annotations which the Rulekeepor is required to record.
-
-  The Rulekeepor SHOULD also include any other information which e
-  feels may be helpful in the use of the ruleset in the FLR.
-
-  Whenever a rule is changed in any way, the Rulekeepor SHALL record
-  a historical annotation to the rule indicating:
-
-  1. The type of change.
-
-  2. The date on which the change took effect.
-
-  3. The mechanism that specified the change.
-
-  4. If the rule was changed due to a proposal, then that proposal's
-     ID number, author, and co-author(s) (if any).
-id: 1681
-power: 1
 annotations: []

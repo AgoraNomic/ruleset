@@ -1,5 +1,18 @@
----
+id: 1950
 name: Decisions with Adoption Indices
+power: 3
+text: |
+  Adoption index is an untracked switch possessed by Agoran
+  decisions and proposals, whose value is either "none" (default) or
+  an integral multiple of 0.1 from 1.0 to 9.9.
+
+  Adoption index is secured with a power threshold of 2.
+
+  Adoption index is an essential parameter of an Agoran decision if
+  that decision has an adoption index.
+
+  For any Agoran decision with an adoption index, the voting method
+  is AI-majority.
 history:
 - change:
     type: amendment
@@ -189,23 +202,11 @@ history:
   date: 2016-12-05
   agent:
     proposal: "7832"
-text: |
-  Adoption index is an untracked switch possessed by Agoran
-  decisions and proposals, whose value is either "none" (default) or
-  an integral multiple of 0.1 from 1.0 to 9.9.
-
-  Adoption index is secured with a power threshold of 2.
-
-  Adoption index is an essential parameter of an Agoran decision if
-  that decision has an adoption index.
-
-  For any Agoran decision with an adoption index, the voting method
-  is AI-majority.
-id: 1950
-power: 3
 annotations:
 - cfjs:
   - id: '1885'
     called: 2008-01-26
-  text: '"AGAINT" is a variant spelling of "AGAINST", not a customary synonym for
-    "FOR", despite its former private usage with the latter meaning.'
+  text: >
+    "AGAINT" is a variant spelling of "AGAINST", not a customary
+    synonym for "FOR", despite its former private usage with the
+    latter meaning.

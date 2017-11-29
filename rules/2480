@@ -1,16 +1,6 @@
----
+id: 2480
 name: Festivals
-history:
-- change:
-    type: enactment
-  date: 2016-12-05
-  agent:
-    proposal: "7833"
-- change:
-    type: amendment
-  date: 2017-09-26
-  agent:
-    proposal: "7888"
+power: 2.1
 text: |
   Festivity is a singleton switch, whose possible values are
   integers ranging from 0 inclusive to the number of defined types
@@ -32,6 +22,15 @@ text: |
   A person who owns a number of types of Ribbon equal to or greater
   than Agora's Festivity is known as Festive. Other persons are not
   Festive.
-id: 2480
-power: 2.1
+history:
+- change:
+    type: enactment
+  date: 2016-12-05
+  agent:
+    proposal: "7833"
+- change:
+    type: amendment
+  date: 2017-09-26
+  agent:
+    proposal: "7888"
 annotations: []

@@ -1,21 +1,6 @@
----
+id: 2472
 name: Office Incompatibilities
-history:
-- change:
-    type: enactment
-  date: 2016-11-07
-  agent:
-    proposal: "7824"
-- change:
-    type: amendment
-  date: 2017-05-24
-  agent:
-    rule: 2430
-- change:
-    type: amendment
-  date: 2017-10-15
-  agent:
-    proposal: "7912"
+power: 2
 text: |
   Some pairs of office are incompatible:
 
@@ -36,6 +21,20 @@ text: |
   em by announcement, provided e has announced intent do to so
   between four and fourteen days earlier. The Overpowered player is
   then removed from all offices.
-id: 2472
-power: 2
+history:
+- change:
+    type: enactment
+  date: 2016-11-07
+  agent:
+    proposal: "7824"
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
+- change:
+    type: amendment
+  date: 2017-10-15
+  agent:
+    proposal: "7912"
 annotations: []

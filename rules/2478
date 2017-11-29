@@ -1,5 +1,31 @@
----
+id: 2478
 name: Vigilante Justice
+power: 1.7
+text: |
+  A player CAN by announcement, but subject to the provisions of
+  this rule, Point eir Finger at a person who plays the game, citing
+  an alleged violation of the rules by that person.
+
+  When a player Points a Finger, the investigator SHALL investigate
+  the allegation and, in a timely fashion, SHALL conclude the
+  investigation by:
+
+  - Imposing the Cold Hand of Justice, issuing a Card to the
+    pointed-at person by announcement whose reason is rooted in the
+    allegation; or
+
+  - if e believes that no rules violation occurred or that it would
+    be ILLEGAL to issue a Card for it, announcing the Finger
+    Pointing to be Shenanigans.
+
+  There is no limit on how many times a player may impose the Cold
+  Hand of Justice per week
+
+  The Referee is by default the investigator for all Finger
+  Pointing. When a Finger, other than the Arbitor's, is Pointed over
+  an allegation related to the official duties or powers of the
+  Referee, then the Arbitor CAN, by announcement, take over the
+  investigation and thereby become the investigator.
 history:
 - change:
     type: enactment
@@ -31,31 +57,4 @@ history:
   date: 2017-11-07
   agent:
     proposal: "7964"
-text: |
-  A player CAN by announcement, but subject to the provisions of
-  this rule, Point eir Finger at a person who plays the game, citing
-  an alleged violation of the rules by that person.
-
-  When a player Points a Finger, the investigator SHALL investigate
-  the allegation and, in a timely fashion, SHALL conclude the
-  investigation by:
-
-  - Imposing the Cold Hand of Justice, issuing a Card to the
-    pointed-at person by announcement whose reason is rooted in the
-    allegation; or
-
-  - if e believes that no rules violation occurred or that it would
-    be ILLEGAL to issue a Card for it, announcing the Finger
-    Pointing to be Shenanigans.
-
-  There is no limit on how many times a player may impose the Cold
-  Hand of Justice per week
-
-  The Referee is by default the investigator for all Finger
-  Pointing. When a Finger, other than the Arbitor's, is Pointed over
-  an allegation related to the official duties or powers of the
-  Referee, then the Arbitor CAN, by announcement, take over the
-  investigation and thereby become the investigator.
-id: 2478
-power: 1.7
 annotations: []

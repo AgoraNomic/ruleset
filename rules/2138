@@ -1,5 +1,19 @@
----
+id: 2138
 name: The Associate Director of Personnel
+power: 1
+text: |
+  The Associate Director of Personnel (ADoP) is an office; its
+  holder is responsible for keeping track of officers.
+
+  The ADoP's report includes the following:
+
+  1. The date of the last change (if any) to each office's
+     Officeholder.
+  2. The current status of the ongoing election for that office or,
+     if there is no ongoing election for that office, the date on
+     which the last election ended
+  3. For filled elected offices, whether or not the holder is
+     interim.
 history:
 - change:
     type: enactment
@@ -157,23 +171,10 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7912"
-text: |
-  The Associate Director of Personnel (ADoP) is an office; its
-  holder is responsible for keeping track of officers.
-
-  The ADoP's report includes the following:
-
-  1. The date of the last change (if any) to each office's
-     Officeholder.
-  2. The current status of the ongoing election for that office or,
-     if there is no ongoing election for that office, the date on
-     which the last election ended
-  3. For filled elected offices, whether or not the holder is
-     interim.
-id: 2138
-power: 1
 annotations:
 - cfjs:
   - id: '1672'
     called: 2007-05-18
-  text: The Interstellar Associate Director of Personnel is the Director of Personnel.
+  text: >
+    The Interstellar Associate Director of Personnel is the Director
+    of Personnel.

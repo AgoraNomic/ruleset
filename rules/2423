@@ -1,5 +1,15 @@
----
+id: 2423
 name: First Among Equals
+power: 2
+text: |
+  The Prime Minister is an office. The Prime Minister is elected by
+  the players of Agora primarily on account of not being the other
+  guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
+  smoothly.
+
+  The holder of the office of Prime Minister's voting strength is
+  increased by 1 on all Agoran decisions other than a elections of
+  the Prime Minister.
 history:
 - change:
     type: enactment
@@ -21,15 +31,4 @@ history:
   date: 2016-12-05
   agent:
     proposal: "7831"
-text: |
-  The Prime Minister is an office. The Prime Minister is elected by
-  the players of Agora primarily on account of not being the other
-  guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
-  smoothly.
-
-  The holder of the office of Prime Minister's voting strength is
-  increased by 1 on all Agoran decisions other than a elections of
-  the Prime Minister.
-id: 2423
-power: 2
 annotations: []

@@ -1,4 +1,22 @@
+id: 2491
 name: Estate Auctions
+power: 2
+text: |
+  At the start of each month, if Agora owns at least one Estate,
+  then the Surveyor CAN and SHALL initiate an Estate Auction in a
+  timely fashion.
+
+  The Auctioneer of an Estate Auction is Agora. The Announcer of an
+  Estate Auction is the Surveyor. The Starting Bid of an Estate
+  Auction is 1 Shiny.
+
+  An Estate Auction has one lot for each Estate owned by Agora,
+  containing exactly and only that Estate. The Surveyor CAN freely
+  determine the order in which those lots will be awarded.
+
+  If an entity wins a lot in an Estate Auction, the Surveyor CAN,
+  for each Estate in the lot, and at most once per Estate per Estate
+  Auction, cause Agora to transfer each Estate to that entity.
 history:
 - change:
     type: enactment
@@ -35,22 +53,4 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7975"
-text: |
-  At the start of each month, if Agora owns at least one Estate,
-  then the Surveyor CAN and SHALL initiate an Estate Auction in a
-  timely fashion.
-
-  The Auctioneer of an Estate Auction is Agora. The Announcer of an
-  Estate Auction is the Surveyor. The Starting Bid of an Estate
-  Auction is 1 Shiny.
-
-  An Estate Auction has one lot for each Estate owned by Agora,
-  containing exactly and only that Estate. The Surveyor CAN freely
-  determine the order in which those lots will be awarded.
-
-  If an entity wins a lot in an Estate Auction, the Surveyor CAN,
-  for each Estate in the lot, and at most once per Estate per Estate
-  Auction, cause Agora to transfer each Estate to that entity.
-id: 2491
-power: 2
 annotations: []

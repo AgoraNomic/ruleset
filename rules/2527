@@ -1,17 +1,16 @@
----
+id: 2527
 name: The Notary
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 1
 text: |
   The Notary is an office, and the recordkeepor of contracts. The
   Notary's weekly report contains all contracts, including their
   name, text, and parties. The Notary's weekly report also contains
   the list of private classes of asset. The Notary is ENCOURAGED to
   list all changes to the information e tracks in eir report.
-id: 2527
-power: 1
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

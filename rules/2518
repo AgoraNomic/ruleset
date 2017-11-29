@@ -1,16 +1,15 @@
----
+id: 2518
 name: Determinacy
+power: 3
+text: |
+  If a value CANNOT be reasonably determined (without circularity or
+  paradox) from information reasonably available, or if it
+  alternates indefinitely between values, then the value is
+  considered to be indeterminate, otherwise it is determinate.
 history:
 - change:
     type: enactment
   date: 2017-10-22
   agent:
     proposal: "7924"
-text: |
-  If a value CANNOT be reasonably determined (without circularity or
-  paradox) from information reasonably available, or if it
-  alternates indefinitely between values, then the value is
-  considered to be indeterminate, otherwise it is determinate.
-id: 2518
-power: 3
 annotations: []

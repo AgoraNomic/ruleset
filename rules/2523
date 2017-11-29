@@ -1,11 +1,6 @@
----
+id: 2523
 name: Contracts as Agreements
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 2.4
 text: |
   The text of a contract can specify obligations upon its parties.
   Parties to a contract SHALL abide by its terms, breaching them
@@ -25,6 +20,10 @@ text: |
   Such a person MAY, CAN validly, and SHOULD also consider the
   instructions of the contract or contracts in question when issuing
   a card.
-id: 2523
-power: 2.4
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

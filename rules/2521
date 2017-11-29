@@ -1,11 +1,6 @@
----
+id: 2521
 name: Parties to Contracts
-history:
-- change:
-    type: enactment
-  date: 2017-10-22
-  agent:
-    proposal: "7924"
+power: 2.5
 text: |
   Each contract has an associated set of persons, known as the
   parties. The person who creates a contract is automatically a
@@ -22,6 +17,10 @@ text: |
   party, without that person's consent. This rule takes precedence
   over any rule that might make such a change
   possible.
-id: 2521
-power: 2.5
+history:
+- change:
+    type: enactment
+  date: 2017-10-22
+  agent:
+    proposal: "7924"
 annotations: []

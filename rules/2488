@@ -1,5 +1,8 @@
----
+id: 2488
 name: The Surveyor
+power: 1
+text: |
+  The Surveyor is an office, and the recordkeepor of estates.
 history:
 - change:
     type: enactment
@@ -11,8 +14,4 @@ history:
   date: 2017-06-27
   agent:
     proposal: "7864"
-text: |
-  The Surveyor is an office, and the recordkeepor of estates.
-id: 2488
-power: 1
 annotations: []

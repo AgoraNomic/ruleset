@@ -1,5 +1,35 @@
----
+id: 107
 name: Initiating Agoran Decisions
+power: 3
+text: |
+  An Agoran decision is initiated when a person authorized to
+  initiate it publishes a valid notice which sets forth the intent
+  to initiate the decision. This notice is invalid if it lacks any
+  of the following information, and the lack is correctly identified
+  within one week after the notice is published:
+
+  1. The matter to be decided (for example, "the adoption of
+     proposal 4781");
+
+  2. The voting method;
+
+  3. A clear description of the valid options;
+
+  4. The identity of the vote collector; and
+
+  5. Any additional information defined by the rules as essential
+     parameters.
+
+  The publication of such a valid notice initiates the voting period
+  for the decision. The voting period lasts for 7 days. The minimum
+  voting period for a decision with at least two options is five
+  days. The vote collector for a decision with less than two options
+  CAN and SHALL end the voting period by announcement, if it has not
+  ended already, and provided that e resolves the decision in the
+  same message.
+
+  The voting period for a decision cannot be set or changed to a
+  duration longer than fourteen days.
 history:
 - change:
     type: initial
@@ -119,66 +149,43 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7953"
-text: |
-  An Agoran decision is initiated when a person authorized to
-  initiate it publishes a valid notice which sets forth the intent
-  to initiate the decision. This notice is invalid if it lacks any
-  of the following information, and the lack is correctly identified
-  within one week after the notice is published:
-
-  1. The matter to be decided (for example, "the adoption of
-     proposal 4781");
-
-  2. The voting method;
-
-  3. A clear description of the valid options;
-
-  4. The identity of the vote collector; and
-
-  5. Any additional information defined by the rules as essential
-     parameters.
-
-  The publication of such a valid notice initiates the voting period
-  for the decision. The voting period lasts for 7 days. The minimum
-  voting period for a decision with at least two options is five
-  days. The vote collector for a decision with less than two options
-  CAN and SHALL end the voting period by announcement, if it has not
-  ended already, and provided that e resolves the decision in the
-  same message.
-
-  The voting period for a decision cannot be set or changed to a
-  duration longer than fourteen days.
-id: 107
-power: 3
 annotations:
 - cfjs:
   - id: '1650'
     called: 2007-05-06
-  text: The intent to initiate the decision and the information required in the notice
-    need not be explicit.
+  text: >
+    The intent to initiate the decision and the information required
+    in the notice need not be explicit.
 - cfjs:
   - id: '1743'
     called: 2007-09-18
-  text: If the notice does not mention voter eligibility but the type of Agoran decision
-    is clear and the rule defining the relevant type of Agoran decision fully determines
-    the class of eligible voters, then the notice thereby implicitly describes the
-    class of eligible voters.
+  text: >
+    If the notice does not mention voter eligibility but the type of
+    Agoran decision is clear and the rule defining the relevant type
+    of Agoran decision fully determines the class of eligible
+    voters, then the notice thereby implicitly describes the class
+    of eligible voters.
 - cfjs:
   - id: '1722'
     called: 2007-08-15
-  text: Information that is explicitly presented in the notice takes precedence over
-    any information that would be implicit, even where the explicit information is
-    inaccurate and the implicit information would have been accurate.
+  text: >
+    Information that is explicitly presented in the notice takes
+    precedence over any information that would be implicit, even
+    where the explicit information is inaccurate and the implicit
+    information would have been accurate.
 - cfjs:
   - id: '1651'
     called: 2007-05-06
-  text: If a R107 notice initiating an Agoran decision does not contain an explicit
-    list of the eligible voters, and there is later a dispute (evidenced by submission
-    of a CFJ) over which voters were eligible at that time, then the notice's description
-    of the class of eligible voters was necessarily insufficient to enable public
-    agreement on which persons are eligible.
+  text: >
+    If a R107 notice initiating an Agoran decision does not contain
+    an explicit list of the eligible voters, and there is later a
+    dispute (evidenced by submission of a CFJ) over which voters
+    were eligible at that time, then the notice's description of the
+    class of eligible voters was necessarily insufficient to enable
+    public agreement on which persons are eligible.
 - cfjs:
   - id: '1652'
     called: 2007-05-06
-  text: The set of eligible voters on an Agoran decision can change during its voting
-    period.
+  text: >
+    The set of eligible voters on an Agoran decision can change
+    during its voting period.

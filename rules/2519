@@ -1,16 +1,15 @@
----
+id: 2519
 name: Consent
+power: 3
+text: |
+  A person gives consent (syn. consents) to an action when e, acting
+  as emself, publicly states that e agrees to the action. This
+  agreement may be implied, but only if it is reasonably clear from
+  context that the person wanted the agreement to take place.
 history:
 - change:
     type: enactment
   date: 2017-10-22
   agent:
     proposal: "7924"
-text: |
-  A person gives consent (syn. consents) to an action when e, acting
-  as emself, publicly states that e agrees to the action. This
-  agreement may be implied, but only if it is reasonably clear from
-  context that the person wanted the agreement to take place.
-id: 2519
-power: 3
 annotations: []
