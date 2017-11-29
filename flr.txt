@@ -331,6 +331,373 @@ CFJ 3409 (called Apr 09, 2014):
 
 ------------------------------------------------------------------------
 ========================================================================
+Assets
+------------------------------------------------------------------------
+Rule 2166/24 (Power=3.0)
+Assets
+
+      An asset is an entity defined as such by a (a) rule, (b)
+      authorized regulation, (c) group of rules and/or authorized
+      regulations (but if such regulations modify a preexisting asset
+      class defined by a rule or another title of regulations, they must
+      be authorized specifically to do so by their parent rule), or (d)
+      contract (hereafter its backing document), and existing solely
+      because its backing document defines its existence. An asset's
+      backing document can specify when and how that asset is created,
+      destroyed, and transferred.
+      
+      Each asset has exactly one owner. If an asset would otherwise lack
+      an owner, it is owned by Agora. If an asset's backing document
+      restricts its ownership to a class of entities, then that asset
+      CANNOT be gained by or transferred to an entity outside that
+      class, and is destroyed if it is owned by an entity outside that
+      class (except if it is owned by Agora, in which case any player
+      CAN transfer or destroy it without objection). The restrictions in
+      the previous sentence are subject to modification by its backing
+      document.
+      
+      Unless modified by an asset's backing document, ownership of an
+      asset is restricted to Agora, players, and contracts. As an
+      exception to the last sentence, non-player persons are generally
+      able to own assets defined by a contract they are a party to,
+      subject to modification by the contract in question.
+      
+      A contract's text can specify whether or not that contract is
+      willing to receive assets or a class of assets. Generally, a
+      contract CANNOT be given assets it is unwilling to receive. If the
+      contract is silent on the matter, or if its willingness is
+      indeterminate or the subject of a inextricable conditional, the
+      procedure to determine its willingness is as follows:
+      
+        1. If the contract appears to anticipate being given assets,
+           other than for sustenance (e.g. by authorizing parties to
+           spend the contract's assets), then the contract is willing to
+           receive all assets.
+      
+        2. Otherwise, it is unwilling to receive all assets.
+      
+      The previous paragraph (including the list) notwithstanding, a
+      contract CAN be given 1 shiny a month for its sustenance payment,
+      so long as it never has more than 1 shiny at a time.
+      
+      The recordkeepor of a class of assets is the entity (if any)
+      defined as such by, and bound by, its backing document. That
+      entity's report includes a list of all instances of that class and
+      their owners. This portion of that entity's report is
+      self-ratifying. Rules to the contrary notwithstanding, a contract
+      CANNOT oblige a person who isn't a member to record its internal
+      state, nor is the default recordkeepor responsible for tracking a
+      contract's internal state. For the purposes of this rule, the
+      promulgator of a regulation is bound by it.
+      
+      An asset generally CAN be destroyed by its owner by announcement,
+      subject to modification by its backing document. An indestructible
+      asset is one defined as such by it backing document, and CANNOT be
+      destroyed except by a rule, other than this one, specifically
+      addressing the destruction of indestructible assets or that asset
+      in particular; any other asset is destructible. In circumstances
+      where another asset would be destroyed, an indestructible asset is
+      generally transferred to Agora, subject to modification by its
+      backing document and the intervention of other rules.
+      
+      To "lose" an asset is to have it destroyed from one's possession;
+      to "revoke" an asset from an entity is to destroy it from that
+      entity's possession.
+      
+      An asset generally CAN be transferred (syn. paid, given) by
+      announcement by its owner to another entity, subject to
+      modification by its backing document. A fixed asset is one defined
+      as such by its backing document, and CANNOT be transferred; any
+      other asset is liquid.
+      
+      When a rule indicates transferring an amount that is not a natural
+      number, the specified amount is rounded up to the nearest natural
+      number.
+      
+      A currency is a class of asset defined as such by its backing
+      document. Instances of a currency with the same owner are
+      fungible.
+      
+      The "x balance of an entity", where x is a currency, is the number
+      of x that entity possesses. If a rule, proposal, or other
+      competent authority attempts to increase or decrease the balance
+      of an entity without specifying a source or destination, then the
+      currency is created or destroyed as needed.
+      
+      When a player causes one or more balances to change, e is
+      ENCOURAGED to specify the resulting balance(s). Players SHOULD NOT
+      specify inaccurate balances.
+      
+      Where it resolves ambiguity, the asset or currency being referred
+      to is the currency designated as "Agora's official currency", if
+      there is one.
+      
+      An asset or class of assets is private, rather than public, if its
+      backing document is a contract.
+
+History:
+Enacted by Proposal 5173 (Murphy), Aug 29, 2007
+Amended(1) by Proposal 5216 (Murphy), Sep 13, 2007
+Amended(2) by Proposal 5388 (Murphy), Jan 01, 2008
+Amended(3) by Proposal 5475 (Murphy), Mar 24, 2008
+Amended(4) by Proposal 5476 [disinterested] (Murphy), Mar 27, 2008
+Amended(5) by Proposal 5496 (Murphy), Apr 23, 2008
+Amended(6) by Proposal 5833 (Murphy; with Taral), Nov 12, 2008
+Amended(7) by Proposal 5840 (root), Nov 12, 2008
+Amended(8) by Proposal 5974 [disinterested] (Murphy), Nov 25, 2008
+Amended(9) by Proposal 6023 (Murphy), Dec 22, 2008
+Assigned to the Committee on Finance by Proposal 6053 (Murphy; with
+  woggle, ais523), Jan 23, 2009
+Amended(10) by Proposal 6161 (Murphy), Mar 31, 2009
+Amended(11) by Proposal 6253 (Quazie), May 09, 2009
+Amended(12) by cleaning (Murphy), Aug 16, 2009
+Amended(13) by Proposal 6430 (Alexis), Aug 18, 2009
+Amended(14) by Proposal 6650 (Alexis), Mar 10, 2010
+Amended(15) by Proposal 6650 (Alexis), Mar 10, 2010
+Amended(16) by Proposal 6792 (omd), Aug 27, 2010
+Amended(17) by Proposal 6916 [disinterested] (omd), Jan 02, 2011
+Amended(18) by Proposal 7298 (FKA441344), Sep 09, 2012
+Amended(19) by Proposal 7420 (omd), May 27, 2013
+Amended(20) by Proposal 7586 (omd), Aug 24, 2013
+Amended(21) by Proposal 7617 (G.), Jan 16, 2014
+Repealed by Proposal 7629 (Alexis), Apr 07, 2014
+Reenacted(22) by Proposal 7864 (Aris; with G., o, nichdel, Publius
+  Scribonius Scholasticus), Jun 27, 2017
+Amended(23) by Proposal 7868 "Minor economic fixes" (Murphy), Jul 30,
+  2017
+Amended(24) by Proposal 7924 "Contracts v8" (Aris; with Aris, o, G.,
+  ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.),
+  Oct 22, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2515/0 (Power=1.0)
+Distributing Assets
+
+      To “distribute” a quantity of a fungible asset to a set of
+      recipients is to transfer one instance of that asset at a time to
+      the recipient that owns the least number of instances of that
+      asset, until either no more instances of the asset are eligible to
+      be distributed, or the number of instances so transferred equals
+      the quantity to be distributed. If, when distributing a specific
+      asset, two or more recipients each own the least number of
+      instances of that asset, then the recipient that most recently
+      became eligible to own the asset SHALL receive the asset being
+      distributed.
+
+History:
+Enacted by Proposal 7921 "Passive Income" (o; with G.), Oct 15, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2545/0 (Power=2.0)
+Auctions
+
+      An Auction is a way for entities to give away items in exchange
+      for a currency. Any rule or contract CAN permit (or require)
+      Auctions to be initiated.
+
+History:
+Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
+  G.), Nov 26, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2546/0 (Power=1.0)
+Lots
+
+      Each Auction has one or more lots of items.
+      
+      A lot is a non-empty list of items to be transferred by a single
+      Auction to a single recipient.
+
+History:
+Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
+  G.), Nov 26, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2547/0 (Power=1.0)
+The Auctioneer
+
+      Each Auction has an Auctioneer.
+      
+      The Auctioneer of an Auction is the entity that initiates that
+      Auction, and describes all of the specifics of an Auction. All
+      rules or contracts permitting Auctions to be initiated should
+      specify an entity to be Auctioneer. If no Auctioneer is specified,
+      the default Auctioneer for Auctions defined by the rules is Agora,
+      and the default Auctioneer for Auctions defined by a contract is
+      the contract itself.
+      
+      A clause in a Contract purporting to make an entity which is
+      neither the Contract itself nor a party to the Contract the
+      Auctioneer of an Auction defined by that Contract is INEFFECTIVE.
+
+History:
+Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
+  G.), Nov 26, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2548/0 (Power=1.0)
+The Auction Announcer
+
+      Each Auction has an Announcer. Only persons can be Announcers.
+      
+      If the Auctioneer of an Auction is a player, then that player is
+      the Announcer of that Auction.
+      
+      Otherwise, the rule or contract defining an Auction CAN define the
+      Announcer for that Auction. Rules to the contrary notwithstanding,
+      no Contract can define a person as the Announcer of an Auction
+      unless that person is a party to that Contract.
+
+History:
+Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
+  G.), Nov 26, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2549/0 (Power=1.0)
+Auction Initiation
+
+      An entity authorized by a rule or contract to initiate an Auction
+      CAN do so by announcement. If the rule or contract specifies that
+      that entity MUST do so, that entity SHALL do so in a timely
+      fashion. An Auction CANNOT be initiated other than as described by
+      a rule or contract.
+      
+      An Auction CANNOT be initiated unless the announcer specifies all
+      of
+      
+      * the Auction's lots, in the order they will be awarded,
+      
+      * the items in each lot,
+      
+      * the Auction's Auctioneer,
+      
+      * the Auction's Announcer,
+      
+      * the Auction's minimum bid, and, optionally
+      
+      * the Auction's currency
+      
+      in the message initiating the Auction. An Auction also CANNOT be
+      initiated unless the Auctioneer is able to give away each item in
+      each of the Auction's lots.
+      
+      If no currency is specified, it defaults to Shinies.
+
+History:
+Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
+  G.), Nov 26, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2550/0 (Power=1.0)
+Bidding
+
+      A person authorized to bid on an Auction CAN do so by
+      announcement, specifying the amount of the Auction's currency to
+      bid. A bid placed on an Auction before it is initiated, or after
+      it has ended, is INEFFECTIVE.
+      
+      An attempt to place a bid which is less than the Auction's minimum
+      bid is INEFFECTIVE.
+      
+      A person CAN withdraw their bid on an Auction by announcement. If
+      a person submits a bid on an Auction, all bids previously placed
+      on that Auction by that person are withdrawn.
+      
+      A rule or contract defining an Auction CAN specify a class of
+      players who are authorized to bid on that Auction. If the rule or
+      contract does not specify a class of authorized bidders, any
+      player is authorized to bid on an Auction defined by a rule, and
+      any party to a contract is authorized to bid an Auction defined by
+      that Contract.
+      
+      A person SHALL NOT bid on an Auction if it would be impossible for
+      em to pay that amount at the conclusion of the Auction.
+
+History:
+Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
+  G.), Nov 26, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2551/0 (Power=1.0)
+Auction End
+
+      An Auction ends 7 days after its initiation, or immediately if no
+      bid has been placed or withdrawn in the last 96 hours, or
+      immediately if it is terminated.
+      
+      When an Auction ends, any bid placed by an entity which does not
+      own enough of the Auction's currency to pay the amount specified
+      in the bid is automatically withdrawn.
+      
+      Once an Auction has ended, any further attempts to bid on that
+      Auction or to withdraw bids from that Auction are INEFFECTIVE.
+      
+      Once the Auction has ended, the Auction's announcer SHALL announce
+      the end of the Auction in a timely fashion. In the same message, e
+      SHALL include the a list of all the bids on the Auction and the
+      winner(s) (if there are any) of the Auction.
+      
+      A person's priority on an Auction is their position in the list of
+      persons who have bid on the Auction, sorted by the value of their
+      non-withdrawn bids in descending order. If two persons have placed
+      non-withdrawn bids for the same value, a player who placed their
+      non-withdrawn bid first has a higher priority than a player who
+      placed their non-withdrawn bid at a later time.
+      
+      For each lot in the Auction, the winner of that lot is the player
+      with the highest priority on the Auction who has not won any
+      previous lot. If there are more lots than there are persons with
+      non-withdrawn bids, the excess lots are not won by any person.
+      
+      The winner of a lot SHALL pay the Auctioneer the number of the
+      Auction's currency equal to eir bid, in a single payment, in a
+      timely fashion. When e does so, the Auctioneer SHALL transfer the
+      items in that lot to that winner in a timely fashion. If the
+      Auctioneer is not a person, then a person authorized to cause the
+      Auctioneer to transfer those items SHALL do so in a timely fashion
+      after the winner pays the Auctioneer, instead.
+
+History:
+Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
+  G.), Nov 26, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2552/0 (Power=1.0)
+Auction Termination
+
+      Any player CAN terminate an Auction, by announcement, if the
+      Auction has not ended and the Auctioneer of that Auction cannot
+      transfer any item included in a lot in that Auction.
+      
+      When an Auction is terminated, all bids on that Auction are
+      withdrawn, and then the Auction ends immediately.
+
+History:
+Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
+  G.), Nov 26, 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
 Awards
 ------------------------------------------------------------------------
 Rule 2438/8 (Power=3.0)
@@ -743,7 +1110,7 @@ CFJ 1355 (called Apr 28, 2002):
   assigned to a CFJ informally.
 
 ------------------------------------------------------------------------
-Rule 591/44 (Power=1.7)
+Rule 591/45 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
@@ -755,9 +1122,8 @@ Delivering Judgements
       mean time.
       
       The valid judgements for an inquiry case are as follows, based on
-      the truth or falsity of the statement at the time the inquiry case
-      was initiated (if its truth value changed at that time, then its
-      initial truth value is used):
+      the facts and legal situation at the time the inquiry case was
+      initiated, not taking into account any events since that time:
       
       * FALSE, appropriate if the statement was factually and
         logically false
@@ -778,10 +1144,17 @@ Delivering Judgements
         and evidence. A CFJ judged as INSUFFICIENT CAN and SHOULD be
         submitted again with sufficient arguments/evidence.
       
-      * DISMISS, appropriate if the statement is malformed,
-        undecidable, if insufficient information exists to make a
-        judgement with reasonable effort, or the statement is otherwise
-        not able to be answered with another valid judgement.
+      * DISMISS, appropriate if the statement is malformed, undecidable,
+        if insufficient information exists to make a judgement with
+        reasonable effort, or the statement is otherwise not able to be
+        answered with another valid judgement. DISMISS is not
+        appropriate if PARADOXICAL is appropriate.
+      
+      * PARADOXICAL, appropriate if the statement is logically
+        undecidable as a result of a paradox or or other irresovable
+        logical situation. PARADOXICAL is not appropriate if IRRELEVANT
+        is appropriate, nor is it appropriate if the undecidability
+        arises from the case itself or in reference to it.
 
 History:
 Initial Mutable Rule 216 at Agora's birth, Jun 30, 1993
@@ -838,6 +1211,8 @@ Amended(41) by Proposal 7694 (omd), Oct 23, 2014
 Amended(42) by Proposal 7776 (omd), Aug 14, 2015
 Amended(43) by Proposal 7859 (Quazie; with grok), Jun 27, 2017
 Amended(44) by Proposal 7899 "Arbitor's Union" (G.), Oct 03, 2017
+Amended(45) by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris,
+  nichdel, G.), Nov 26, 2017
 
 Annotations:
 CFJ 1835 (called Dec 18, 2007):
@@ -1076,25 +1451,24 @@ Amended(1) by Proposal 7864 (Aris; with G., o, nichdel, Publius
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2491/5 (Power=2.0)
+Rule 2491/6 (Power=2.0)
 Estate Auctions
 
-      At the start of each month, if Agora owns at least one Estate, the
-      Surveyor CAN and SHALL put one Estate that is owned by Agora up for
-      auction by announcement. Each auction ends seven days after it
-      begins.
-      
-      During an auction, any player or contract may bid a number of
-      Shinies by announcement, provided that the bid is higher than all
-      previously-placed bids in the same auction.
-      
-      If, at the end of the auction, there is a single highest bid, then
-      the player or contract who placed that bid wins the auction. The
-      winner CAN cause Agora to transfer the auctioned Estate to emself
-      by announcement, if e pays Agora the amount of the bid for the
-      explicit and sole purpose of fulfilling this requirement. The
-      person who placed the bid SHALL see to it that this is done in a
+      At the start of each month, if Agora owns at least one Estate,
+      then the Surveyor CAN and SHALL initiate an Estate Auction in a
       timely fashion.
+      
+      The Auctioneer of an Estate Auction is Agora. The Announcer of an
+      Estate Auction is the Surveyor. The Starting Bid of an Estate
+      Auction is 1 Shiny.
+      
+      An Estate Auction has one lot for each Estate owned by Agora,
+      containing exactly and only that Estate. The Surveyor CAN freely
+      determine the order in which those lots will be awarded.
+      
+      If an entity wins a lot in an Estate Auction, the Surveyor CAN,
+      for each Estate in the lot, and at most once per Estate per Estate
+      Auction, cause Agora to transfer each Estate to that entity.
 
 History:
 Enacted by Proposal 7846 (o; with Aris), May 08, 2017
@@ -1108,6 +1482,8 @@ Amended(4) by Proposal 7888 "BILLY MAYS HERE" (o; with V.J. Rada), Sep
 Amended(5) by Proposal 7924 "Contracts v8" (Aris; with Aris, o, G.,
   ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.),
   Oct 22, 2017
+Amended(6) by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris,
+  nichdel, G.), Nov 26, 2017
 
 Annotations:
 
@@ -4487,165 +4863,6 @@ Enacted by Proposal 7924 "Contracts v8" (Aris; with Aris, o, G.,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2166/24 (Power=3.0)
-Assets
-
-      An asset is an entity defined as such by a (a) rule, (b)
-      authorized regulation, (c) group of rules and/or authorized
-      regulations (but if such regulations modify a preexisting asset
-      class defined by a rule or another title of regulations, they must
-      be authorized specifically to do so by their parent rule), or (d)
-      contract (hereafter its backing document), and existing solely
-      because its backing document defines its existence. An asset's
-      backing document can specify when and how that asset is created,
-      destroyed, and transferred.
-      
-      Each asset has exactly one owner. If an asset would otherwise lack
-      an owner, it is owned by Agora. If an asset's backing document
-      restricts its ownership to a class of entities, then that asset
-      CANNOT be gained by or transferred to an entity outside that
-      class, and is destroyed if it is owned by an entity outside that
-      class (except if it is owned by Agora, in which case any player
-      CAN transfer or destroy it without objection). The restrictions in
-      the previous sentence are subject to modification by its backing
-      document.
-      
-      Unless modified by an asset's backing document, ownership of an
-      asset is restricted to Agora, players, and contracts. As an
-      exception to the last sentence, non-player persons are generally
-      able to own assets defined by a contract they are a party to,
-      subject to modification by the contract in question.
-      
-      A contract's text can specify whether or not that contract is
-      willing to receive assets or a class of assets. Generally, a
-      contract CANNOT be given assets it is unwilling to receive. If the
-      contract is silent on the matter, or if its willingness is
-      indeterminate or the subject of a inextricable conditional, the
-      procedure to determine its willingness is as follows:
-      
-        1. If the contract appears to anticipate being given assets,
-           other than for sustenance (e.g. by authorizing parties to
-           spend the contract's assets), then the contract is willing to
-           receive all assets.
-      
-        2. Otherwise, it is unwilling to receive all assets.
-      
-      The previous paragraph (including the list) notwithstanding, a
-      contract CAN be given 1 shiny a month for its sustenance payment,
-      so long as it never has more than 1 shiny at a time.
-      
-      The recordkeepor of a class of assets is the entity (if any)
-      defined as such by, and bound by, its backing document. That
-      entity's report includes a list of all instances of that class and
-      their owners. This portion of that entity's report is
-      self-ratifying. Rules to the contrary notwithstanding, a contract
-      CANNOT oblige a person who isn't a member to record its internal
-      state, nor is the default recordkeepor responsible for tracking a
-      contract's internal state. For the purposes of this rule, the
-      promulgator of a regulation is bound by it.
-      
-      An asset generally CAN be destroyed by its owner by announcement,
-      subject to modification by its backing document. An indestructible
-      asset is one defined as such by it backing document, and CANNOT be
-      destroyed except by a rule, other than this one, specifically
-      addressing the destruction of indestructible assets or that asset
-      in particular; any other asset is destructible. In circumstances
-      where another asset would be destroyed, an indestructible asset is
-      generally transferred to Agora, subject to modification by its
-      backing document and the intervention of other rules.
-      
-      To "lose" an asset is to have it destroyed from one's possession;
-      to "revoke" an asset from an entity is to destroy it from that
-      entity's possession.
-      
-      An asset generally CAN be transferred (syn. paid, given) by
-      announcement by its owner to another entity, subject to
-      modification by its backing document. A fixed asset is one defined
-      as such by its backing document, and CANNOT be transferred; any
-      other asset is liquid.
-      
-      When a rule indicates transferring an amount that is not a natural
-      number, the specified amount is rounded up to the nearest natural
-      number.
-      
-      A currency is a class of asset defined as such by its backing
-      document. Instances of a currency with the same owner are
-      fungible.
-      
-      The "x balance of an entity", where x is a currency, is the number
-      of x that entity possesses. If a rule, proposal, or other
-      competent authority attempts to increase or decrease the balance
-      of an entity without specifying a source or destination, then the
-      currency is created or destroyed as needed.
-      
-      When a player causes one or more balances to change, e is
-      ENCOURAGED to specify the resulting balance(s). Players SHOULD NOT
-      specify inaccurate balances.
-      
-      Where it resolves ambiguity, the asset or currency being referred
-      to is the currency designated as "Agora's official currency", if
-      there is one.
-      
-      An asset or class of assets is private, rather than public, if its
-      backing document is a contract.
-
-History:
-Enacted by Proposal 5173 (Murphy), Aug 29, 2007
-Amended(1) by Proposal 5216 (Murphy), Sep 13, 2007
-Amended(2) by Proposal 5388 (Murphy), Jan 01, 2008
-Amended(3) by Proposal 5475 (Murphy), Mar 24, 2008
-Amended(4) by Proposal 5476 [disinterested] (Murphy), Mar 27, 2008
-Amended(5) by Proposal 5496 (Murphy), Apr 23, 2008
-Amended(6) by Proposal 5833 (Murphy; with Taral), Nov 12, 2008
-Amended(7) by Proposal 5840 (root), Nov 12, 2008
-Amended(8) by Proposal 5974 [disinterested] (Murphy), Nov 25, 2008
-Amended(9) by Proposal 6023 (Murphy), Dec 22, 2008
-Assigned to the Committee on Finance by Proposal 6053 (Murphy; with
-  woggle, ais523), Jan 23, 2009
-Amended(10) by Proposal 6161 (Murphy), Mar 31, 2009
-Amended(11) by Proposal 6253 (Quazie), May 09, 2009
-Amended(12) by cleaning (Murphy), Aug 16, 2009
-Amended(13) by Proposal 6430 (Alexis), Aug 18, 2009
-Amended(14) by Proposal 6650 (Alexis), Mar 10, 2010
-Amended(15) by Proposal 6650 (Alexis), Mar 10, 2010
-Amended(16) by Proposal 6792 (omd), Aug 27, 2010
-Amended(17) by Proposal 6916 [disinterested] (omd), Jan 02, 2011
-Amended(18) by Proposal 7298 (FKA441344), Sep 09, 2012
-Amended(19) by Proposal 7420 (omd), May 27, 2013
-Amended(20) by Proposal 7586 (omd), Aug 24, 2013
-Amended(21) by Proposal 7617 (G.), Jan 16, 2014
-Repealed by Proposal 7629 (Alexis), Apr 07, 2014
-Reenacted(22) by Proposal 7864 (Aris; with G., o, nichdel, Publius
-  Scribonius Scholasticus), Jun 27, 2017
-Amended(23) by Proposal 7868 "Minor economic fixes" (Murphy), Jul 30,
-  2017
-Amended(24) by Proposal 7924 "Contracts v8" (Aris; with Aris, o, G.,
-  ais523, Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.),
-  Oct 22, 2017
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2515/0 (Power=1.0)
-Distributing Assets
-
-      To “distribute” a quantity of a fungible asset to a set of
-      recipients is to transfer one instance of that asset at a time to
-      the recipient that owns the least number of instances of that
-      asset, until either no more instances of the asset are eligible to
-      be distributed, or the number of instances so transferred equals
-      the quantity to be distributed. If, when distributing a specific
-      asset, two or more recipients each own the least number of
-      instances of that asset, then the recipient that most recently
-      became eligible to own the asset SHALL receive the asset being
-      distributed.
-
-History:
-Enacted by Proposal 7921 "Passive Income" (o; with G.), Oct 15, 2017
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2493/2 (Power=3.1)
 Regulations
 
@@ -5497,13 +5714,13 @@ Amended(3) by Proposal 7936 "Print Money" (V.J. Rada), Nov 06, 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/5 (Power=1.0)
+Rule 2496/6 (Power=1.0)
 Rewards
 
       A Reward is a specified amount of shinies associated with a Reward
       Condition. For each time a player meets a Reward Condition, e CAN
-      claim the specified award, by announcement, exactly once within 24
-      hours of meeting the Reward Condition.
+      claim the specified award, by announcement, exactly once within 7
+      days of meeting the Reward Condition.
       
       When a player 'claims' a Reward, Agora transfers the specified
       number of shinies to the player.
@@ -5544,6 +5761,7 @@ Amended(4) by Proposal 7897 "University Funding" (Cuddle Beam), Sep
   26, 2017
 Amended(5) by Proposal 7911 "Infinite Money Fix" (V.J. Rada), Oct 15,
   2017
+Amended(6) by Proposal 7980 "" (ATMunn; with Alexis), Nov 26, 2017
 
 Annotations:
 
@@ -6850,6 +7068,24 @@ Enacted by Proposal 7932 "A Reward for Obedience v5" (ATMunn; with
   Aris, Alexis, G., V.J. Rada), Nov 06, 2017
 Amended(1) by Proposal 7962 "Medals of Honour Fix" (ATMunn), Nov 16,
   2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2553/0 (Power=1.0)
+Win by Paradox
+
+      If a CFJ about the legality or possibility of a game action, has
+      been assigned a judgment of PARADOXICAL continuously for at least
+      7 days, and e has not done so already in respect of that CFJ, then
+      that case's initiator CAN, by announcement, win the game.
+      
+      A player who wins in this fashion SHOULD submit a proposal to
+      prevent the paradox from arising again.
+
+History:
+Enacted by Proposal 7976 "A Mostest Ingenious Paradox" (Alexis; with
+  ais523), Nov 26, 2017
 
 Annotations:
 
