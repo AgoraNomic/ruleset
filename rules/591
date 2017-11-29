@@ -1,5 +1,49 @@
----
 name: Delivering Judgements
+id: 591
+power: 1.7
+text: |
+  When a CFJ is open and assigned to a judge, that judge CAN assign
+  a valid judgement to it by announcement, and SHALL do so in a
+  timely fashion after this becomes possible. If e does not, the
+  Arbitor CAN remove em from being the judge of that case by
+  announcement, and SHALL do so in a timely fashion after the time
+  limit expires, unless the judge assigns a valid judgement in the
+  mean time.
+
+  The valid judgements for an inquiry case are as follows, based on
+  the facts and legal situation at the time the inquiry case was
+  initiated, not taking into account any events since that time:
+
+  * FALSE, appropriate if the statement was factually and
+    logically false
+
+  * TRUE, appropriate if the statement was factually and
+    logically true
+
+  * IRRELEVANT, appropriate if the veracity of the statement is
+    not relevant to the game or is an overly hypothetical
+    extrapolation of the game or its rules to conditions that don't
+    actually exist, or if it can be trivially determined from the
+    outcome of another (possibly still undecided) judicial case that
+    was not itself judged IRRELEVANT
+
+  * INSUFFICIENT, appropriate if the statement does not come
+    with supporting arguments or evidence, and the judge feels as if
+    an undue burden is being placed on em by the lack of arguments
+    and evidence. A CFJ judged as INSUFFICIENT CAN and SHOULD be
+    submitted again with sufficient arguments/evidence.
+
+  * DISMISS, appropriate if the statement is malformed, undecidable,
+    if insufficient information exists to make a judgement with
+    reasonable effort, or the statement is otherwise not able to be
+    answered with another valid judgement. DISMISS is not
+    appropriate if PARADOXICAL is appropriate.
+
+  * PARADOXICAL, appropriate if the statement is logically
+    undecidable as a result of a paradox or or other irresovable
+    logical situation. PARADOXICAL is not appropriate if IRRELEVANT
+    is appropriate, nor is it appropriate if the undecidability
+    arises from the case itself or in reference to it.
 history:
 - change:
     type: initial
@@ -266,45 +310,11 @@ history:
   date: 2017-10-03
   agent:
     proposal: "7899"
-text: |
-  When a CFJ is open and assigned to a judge, that judge CAN assign
-  a valid judgement to it by announcement, and SHALL do so in a
-  timely fashion after this becomes possible. If e does not, the
-  Arbitor CAN remove em from being the judge of that case by
-  announcement, and SHALL do so in a timely fashion after the time
-  limit expires, unless the judge assigns a valid judgement in the
-  mean time.
-
-  The valid judgements for an inquiry case are as follows, based on
-  the truth or falsity of the statement at the time the inquiry case
-  was initiated (if its truth value changed at that time, then its
-  initial truth value is used):
-
-  * FALSE, appropriate if the statement was factually and
-    logically false
-
-  * TRUE, appropriate if the statement was factually and
-    logically true
-
-  * IRRELEVANT, appropriate if the veracity of the statement is
-    not relevant to the game or is an overly hypothetical
-    extrapolation of the game or its rules to conditions that don't
-    actually exist, or if it can be trivially determined from the
-    outcome of another (possibly still undecided) judicial case that
-    was not itself judged IRRELEVANT
-
-  * INSUFFICIENT, appropriate if the statement does not come
-    with supporting arguments or evidence, and the judge feels as if
-    an undue burden is being placed on em by the lack of arguments
-    and evidence. A CFJ judged as INSUFFICIENT CAN and SHOULD be
-    submitted again with sufficient arguments/evidence.
-
-  * DISMISS, appropriate if the statement is malformed,
-    undecidable, if insufficient information exists to make a
-    judgement with reasonable effort, or the statement is otherwise
-    not able to be answered with another valid judgement.
-id: 591
-power: 1.7
+- change:
+    type: amendment
+  date: 2017-11-26
+  agent:
+    proposal: "7976"
 annotations:
 - cfjs:
   - id: '1835'
