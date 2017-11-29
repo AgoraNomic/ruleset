@@ -1,0 +1,47 @@
+id: 2551
+name: Auction End
+power: 1
+text: |
+  An Auction ends 7 days after its initiation, or immediately if no
+  bid has been placed or withdrawn in the last 96 hours, or
+  immediately if it is terminated.
+
+  When an Auction ends, any bid placed by an entity which does not
+  own enough of the Auction's currency to pay the amount specified
+  in the bid is automatically withdrawn.
+
+  Once an Auction has ended, any further attempts to bid on that
+  Auction or to withdraw bids from that Auction are INEFFECTIVE.
+
+  Once the Auction has ended, the Auction's announcer SHALL announce
+  the end of the Auction in a timely fashion. In the same message, e
+  SHALL include the a list of all the bids on the Auction and the
+  winner(s) (if there are any) of the Auction.
+
+  A person's priority on an Auction is their position in the list of
+  persons who have bid on the Auction, sorted by the value of their
+  non-withdrawn bids in descending order. If two persons have placed
+  non-withdrawn bids for the same value, a player who placed their
+  non-withdrawn bid first has a higher priority than a player who
+  placed their non-withdrawn bid at a later time.
+
+  For each lot in the Auction, the winner of that lot is the player
+  with the highest priority on the Auction who has not won any
+  previous lot. If there are more lots than there are persons with
+  non-withdrawn bids, the excess lots are not won by any person.
+
+  The winner of a lot SHALL pay the Auctioneer the number of the
+  Auction's currency equal to eir bid, in a single payment, in a
+  timely fashion. When e does so, the Auctioneer SHALL transfer the
+  items in that lot to that winner in a timely fashion. If the
+  Auctioneer is not a person, then a person authorized to cause the
+  Auctioneer to transfer those items SHALL do so in a timely fashion
+  after the winner pays the Auctioneer, instead.
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2017-11-26
+  agent:
+    proposal: "7975"
+annotations: []

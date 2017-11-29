@@ -1,0 +1,16 @@
+id: 2546
+name: Lots
+power: 1
+text: |
+  Each Auction has one or more lots of items.
+
+  A lot is a non-empty list of items to be transferred by a single
+  Auction to a single recipient.
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2017-11-26
+  agent:
+    proposal: "7975"
+annotations: []

@@ -1,0 +1,21 @@
+id: 2548
+name: The Auction Announcer
+power: 1
+text: |
+  Each Auction has an Announcer. Only persons can be Announcers.
+
+  If the Auctioneer of an Auction is a player, then that player is
+  the Announcer of that Auction.
+
+  Otherwise, the rule or contract defining an Auction CAN define the
+  Announcer for that Auction. Rules to the contrary notwithstanding,
+  no Contract can define a person as the Announcer of an Auction
+  unless that person is a party to that Contract.
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2017-11-26
+  agent:
+    proposal: "7975"
+annotations: []

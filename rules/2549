@@ -1,0 +1,38 @@
+id: 2549
+name: Auction Initiation
+power: 1
+text: |
+  An entity authorized by a rule or contract to initiate an Auction
+  CAN do so by announcement. If the rule or contract specifies that
+  that entity MUST do so, that entity SHALL do so in a timely
+  fashion. An Auction CANNOT be initiated other than as described by
+  a rule or contract.
+
+  An Auction CANNOT be initiated unless the announcer specifies all
+  of
+
+  * the Auction's lots, in the order they will be awarded,
+
+  * the items in each lot,
+
+  * the Auction's Auctioneer,
+
+  * the Auction's Announcer,
+
+  * the Auction's minimum bid, and, optionally
+
+  * the Auction's currency
+
+  in the message initiating the Auction. An Auction also CANNOT be
+  initiated unless the Auctioneer is able to give away each item in
+  each of the Auction's lots.
+
+  If no currency is specified, it defaults to Shinies.
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2017-11-26
+  agent:
+    proposal: "7975"
+annotations: []

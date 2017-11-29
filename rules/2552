@@ -1,0 +1,18 @@
+id: 2552
+name: Auction Termination
+power: 1
+text: |
+  Any player CAN terminate an Auction, by announcement, if the
+  Auction has not ended and the Auctioneer of that Auction cannot
+  transfer any item included in a lot in that Auction.
+
+  When an Auction is terminated, all bids on that Auction are
+  withdrawn, and then the Auction ends immediately.
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2017-11-26
+  agent:
+    proposal: "7975"
+annotations: []
