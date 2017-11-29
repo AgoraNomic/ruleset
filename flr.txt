@@ -198,6 +198,11 @@ CFJ 1112:
   that that text is intended to become a Proposal' (R1483) merely be
   sent to the Public Forum by a Proposing Entity; the collection of text
   must also be received in the Public Forum.
+CFJ 1214-1215 (called May 14, 2000):
+  Conditional actions (of the form "If X, I do Y") are effective only
+  where the relevant agents (such as recordkeepors) are able to
+  conclusively determine the value of the conditional from
+  publicly-available information.
 CFJ 1314 (called Aug 15, 2001):
   If a message sent to a public forum is rejected by the list moderator,
   it still qualifies as having been sent via a public forum.
@@ -328,6 +333,9 @@ CFJ 2899 (called Nov 12, 2010):
 CFJ 3409 (called Apr 09, 2014):
   An action can be performed in the subject line of a message, if it
   sufficiently clear (as outlined in the judgment).
+CFJ 3603-3604 (called Nov 16, 2017):
+  ASCII art of text can be clear enough to suffice for communications,
+  and in particular for taking actions by announcement.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -470,6 +478,9 @@ Amended(24) by Proposal 7924 "Contracts v8" (Aris; with Aris, o, G.,
   Oct 22, 2017
 
 Annotations:
+CFJ 3597 (called Nov 09, 2017):
+  When the rules require a payment of a number of assets, a number of
+  small payments summing to the total do not fulfill the requirement.
 
 ------------------------------------------------------------------------
 Rule 2515/0 (Power=1.0)
@@ -707,8 +718,8 @@ Ribbons
       
       Ribbon Ownership is a person switch, tracked by the Tailor in eir
       monthly report, whose values are the subsets of the set of types
-      of Ribbon, defaulting to the empty set. If the rules are amended to
-      change the types of Ribbon, if a player's Ribbon Ownership is
+      of Ribbon, defaulting to the empty set. If the rules are amended
+      to change the types of Ribbon, if a player's Ribbon Ownership is
       subsequently illegal, then it is updated by removing all
       nonexistent types rather than resetting the entire value to
       default.
@@ -1902,9 +1913,8 @@ Annotations:
 CFJ 1534 (called Mar 08, 2005):
   This does not mean that Michael Norrish necessarily fills the position
   of Speaker at the present time.
-CFJ 2154:
-  (called 8 September 2008) The Speaker for the first game shall be
-  Michael Norrish.
+CFJ 2154 (called Sep 08, 2008):
+  The Speaker for the first game shall be Michael Norrish.
 
 ------------------------------------------------------------------------
 Rule 2495/1 (Power=1.0)
@@ -2768,7 +2778,9 @@ Self-Ratification
          following in a timely fashion:
       
          1. Deny the claim (causing it to cease to be a doubt).
+      
          2. Publish a revision.
+      
          3. Initiate an inquiry case regarding the truth of the claim
             (if the subject is actually a matter of law), or cite a
             relevant existing inquiry case.
@@ -4181,6 +4193,12 @@ History:
 Enacted by Proposal 7886 (Aris; with ais523, Ørjan), Sep 26, 2017
 
 Annotations:
+CFJ 3605 (called Nov 22, 2017):
+  The upper bound of penalty can be in a currency other than shinies. A
+  fine can be assessed in a currency other than shinies, if it is clear
+  that the value of the fined assets fits within the range. In the event
+  of ambiguity of relative value of different assets, the fine is
+  ineffective.
 
 ------------------------------------------------------------------------
 Rule 2427/2 (Power=2.0)
