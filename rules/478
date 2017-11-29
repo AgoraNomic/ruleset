@@ -291,6 +291,14 @@ annotations:
     Proposing Entity; the collection of text must also be received
     in the Public Forum.
 - cfjs:
+  - id: '1214-1215'
+    called: 2000-05-14
+  text: >
+    Conditional actions (of the form "If X, I do Y") are effective
+    only where the relevant agents (such as recordkeepors) are able
+    to conclusively determine the value of the conditional from
+    publicly-available information.
+- cfjs:
   - id: '1314'
     called: 2001-08-15
   text: >
@@ -546,3 +554,10 @@ annotations:
   text: >
     An action can be performed in the subject line of a message, if
     it sufficiently clear (as outlined in the judgment).
+- cfjs:
+  - id: 3603-3604
+    called: 2017-11-16
+  text: >
+    ASCII art of text can be clear enough to suffice for
+    communications, and in particular for taking actions by
+    announcement.

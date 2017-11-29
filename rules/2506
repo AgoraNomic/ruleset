@@ -1,11 +1,6 @@
----
+id: 2506
 name: Blue Cards
-history:
-- change:
-    type: enactment
-  date: 2017-09-26
-  agent:
-    proposal: "7886"
+power: 2
 text: |
   A Blue Card is a type of Card that is appropriate for deliberate
   or negligent infractions either where the the player responsible
@@ -27,6 +22,19 @@ text: |
   player(s), in accordance with the distribution laid out by the
   carder. Any player CAN also act on the bad sport's behalf to do
   so, fulfilling eir obligation.
-id: 2506
-power: 2
-annotations: []
+history:
+- change:
+    type: enactment
+  date: 2017-09-26
+  agent:
+    proposal: "7886"
+annotations:
+- cfjs:
+  - id: '3605'
+    called: 2017-11-22
+  text: >
+    The upper bound of penalty can be in a currency other than
+    shinies. A fine can be assessed in a currency other than
+    shinies, if it is clear that the value of the fined assets fits
+    within the range. In the event of ambiguity of relative value of
+    different assets, the fine is ineffective.
