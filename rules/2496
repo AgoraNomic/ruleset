@@ -31,11 +31,16 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7911"
+- change:
+    type: amendment
+  date: 2017-11-26
+  agent:
+    proposal: "7980"
 text: |
   A Reward is a specified amount of shinies associated with a Reward
   Condition. For each time a player meets a Reward Condition, e CAN
-  claim the specified award, by announcement, exactly once within 24
-  hours of meeting the Reward Condition.
+  claim the specified award, by announcement, exactly once within 7
+  days of meeting the Reward Condition.
 
   When a player 'claims' a Reward, Agora transfers the specified
   number of shinies to the player.
