@@ -53,6 +53,11 @@ history:
   date: 2017-11-21
   agent:
     proposal: "7965"
+- change:
+    type: amendment
+  date: 2018-01-13
+  agent:
+    proposal: "7992"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -68,9 +73,9 @@ text: |
   to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
   if that type of Ribbon is an element of eir Ribbon Ownership.
 
-  While a person qualifies for a type of Ribbon, any player can
-  generally award em that type of Ribbon. A person qualifies for a
-  type of Ribbon if e has earned that type of Ribbon within the
+  While a person qualifies for a type of Ribbon, any player CAN, by
+  announcement, award em that type of Ribbon. A person qualifies for
+  a type of Ribbon if e has earned that type of Ribbon within the
   preceding 7 days (including earlier in the same message) and has
   not owned that type of Ribbon within the preceding 7 days.
 

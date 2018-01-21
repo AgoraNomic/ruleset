@@ -23,9 +23,9 @@ text: |
   Upon the resolution of the decision, if the outcome is not FAILED
   QUORUM and there were at least three votes containing it in any
   preference slot, that proposal wins the Ceremony, and the Herald
-  is authorized to award its author the Patent Title of "Silver
-  Quill YYYY, substituting the ending year; otherwise, there is no
-  winner.
+  CAN once, by announcement, award its author the Patent Title of
+  "Silver Quill YYYY, substituting the ending year; otherwise, there
+  is no winner.
 history:
 - change:
     type: enactment
@@ -42,4 +42,9 @@ history:
   date: 2016-09-11
   agent:
     proposal: "7809"
+- change:
+    type: amendment
+  date: 2018-01-13
+  agent:
+    proposal: "7992"
 annotations: []
