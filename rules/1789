@@ -1,6 +1,6 @@
 id: 1789
 name: Cantus Cygneus
-power: 2
+power: 3
 text: |
   Whenever a Player feels that e has been treated so egregiously by
   the Agoran community that e can no longer abide to be a part of
@@ -75,6 +75,13 @@ history:
   date: 2014-06-03
   agent:
     proposal: "7646"
+- change:
+    type: power-change
+    old-power: 2
+    new-power: 3
+  date: 2018-01-13
+  agent:
+    proposal: "7989"
 annotations:
 - cfjs:
   - id: '1594'
