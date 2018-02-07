@@ -1,4 +1,3 @@
----
 name: The Agronomist
 id: 2504
 power: 2.0
@@ -17,4 +16,9 @@ history:
   date: 2017-09-07
   agent:
     proposal: "7873"
+- change:
+    type: repeal
+  date: 2018-01-31
+  agent:
+    proposal: "8004"
 annotations: []

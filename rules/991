@@ -5,12 +5,10 @@ text: |
   Any person (the initiator) can initiate a Call for Judgement (CFJ,
   syn. Judicial Case), specifying a statement to be inquired into:
 
-  a) by announcement, and spending 1 Action Point, OR
+  a) by announcement, if e has not previously initiated any CFJs in
+     the current week, OR
 
-  b) by announcement, and spending the current CFJ cost in shinies,
-     OR
-
-  c) by announcement if e is not a player.
+  b) by announcement by spending the current CFJ cost in shinies.
 
   When a person initiates a Call for Judgment, e CAN optionally bar
   one person from the case by announcement.
@@ -187,6 +185,11 @@ history:
   date: 2017-10-03
   agent:
     proposal: "7899"
+- change:
+    type: amendment
+  date: 2018-01-30
+  agent:
+    proposal: "8004"
 annotations:
 - cfjs:
   - id: 1692-1693

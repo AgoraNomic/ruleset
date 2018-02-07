@@ -4,7 +4,29 @@ power: 2
 text: |
   Shinies (singular "shiny", abbreviated "sh.") are an
   indestructible liquid currency, and the official currency of
-  Agora. The Treasuror is the recordkeepor for shinies.
+  Agora.
+
+  The Treasuror is an Office, and the recordkeepor for shinies.
+
+  Whenever a Payday occurs, the following events happen in order:
+
+  1. For each entity possessing shinies, half of eir shinies
+     (rounded up) are destroyed.
+
+  2. 10 shinies are created in the possession of each player.
+
+  3. For each office, if a single player held that office for 16 or
+     more days in the previous month and e was not issued any Cards
+     other than Green for eir conduct in that office during that
+     time, 3 shinies are created in the possession of that player.
+
+  The occurrence of Paydays is secured. At the beginning of each
+  month, a Payday occurs.
+
+  When a person registers who has not been a player at any time in
+  the previous 60 days, 10 shinies are created in eir possession.
+
+  The Pend Cost is 3 Shinies. The CFJ Cost is 1 Shiny.
 history:
 - change:
     type: enactment
@@ -36,4 +58,9 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2018-01-31
+  agent:
+    proposal: "8004"
 annotations: []
