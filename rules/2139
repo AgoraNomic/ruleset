@@ -20,9 +20,9 @@ text: |
   1. For each former player for which the information is reasonably
      available, the dates on which e registered and deregistered.
 
-  In the first week of every month the Registrar SHALL attempt to
-  deregister every player that has not sent a message to a public
-  forum in the preceding month.
+  In the first Eastman week of every month the Registrar SHALL
+  attempt to deregister every player that has not sent a message to
+  a public forum in the preceding month.
 
   The Registrar's duties and abilities also include:
 
@@ -102,6 +102,11 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2018-01-31
+  agent:
+    proposal: "7998"
 annotations:
 - cfjs:
   - id: '1703'

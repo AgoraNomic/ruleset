@@ -15,7 +15,10 @@ text: |
 
        1. Agoran days begin at midnight UTC.
 
-       2. Agoran weeks begin at midnight UTC on Monday.
+       2. Agoran weeks begin at midnight UTC on Monday. Eastman
+          weeks begin at midnight UTC on the 1st, 8th, 15th, 22nd,
+          and 29th of each Gregorian month; the fifth one of the
+          month (if any) lasts till the end of the month.
 
        3. Agoran months begin at midnight UTC on the first day of
           each Gregorian month.
@@ -32,8 +35,10 @@ text: |
           time, a "Round" (historical syn: "game") is the period of
           time between a pivot and the next pivot.
 
-     These definitions do not apply to relative durations (e.g.
-     "within <number> days after <event>").
+     The "Agoran" qualifier is assumed unless a different definition
+     is indicated (e.g. Eastman weeks). These definitions do not
+     apply to relative durations (e.g. "within <number> days after
+     <event>").
 
   3. Two points in time are within a month of each other if:
 
@@ -279,4 +284,9 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2018-01-31
+  agent:
+    proposal: "7998"
 annotations: []

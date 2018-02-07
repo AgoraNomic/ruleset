@@ -10,7 +10,7 @@ text: |
   When the Supply level Changes, a Shiny Releveling event occurs.
 
   The Treasuror CAN and SHALL cause a Shiny Releveling event to
-  occur once per Agoran month, in the first Agoran week of that
+  occur once per Agoran month, in the first Eastman week of that
   month.
 history:
 - change:
@@ -33,4 +33,9 @@ history:
   date: 2017-11-06
   agent:
     proposal: "7936"
+- change:
+    type: amendment
+  date: 2018-01-31
+  agent:
+    proposal: "7998"
 annotations: []

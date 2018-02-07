@@ -5,9 +5,9 @@ text: |
   Medals of Honour are a destructible fixed currency tracked by the
   Herald.
 
-  In the first 7 days of an Agoran month, any player CAN declare
-  emself to be eligible for a Medal of Honour by announcement if all
-  of the following are true:
+  In the first Eastman week of an Agoran month, any player CAN
+  declare emself to be eligible for a Medal of Honour by
+  announcement if all of the following are true:
 
   * E has made at least 1 message to a public forum in the last
     Agoran month.
@@ -16,18 +16,18 @@ text: |
 
   * In the last Agoran month, e has not had a Card issued to em.
 
-  In the first 7 days of an Agoran month after the first 7 days, if
-  there are any players who are eligible for a Medal of Honour, the
-  Herald CAN, by announcement, initiate an Agoran Decision on who is
-  to be awarded a Medal of Honour. E SHALL do so within the 7 days
-  of an Agoran month after the first 7 days. For this decision, the
-  valid votes are all players who are eligible for a Medal of
-  Honour, the vote collector is the Herald, and the voting method is
-  instant-runoff. Upon the resolution of this decision, the Herald
-  CAN, and SHALL in a  timely fashion, award the outcome of the
-  decision a Medal of Honour by  announcement. After a player is
-  awarded a Medal of Honour, all players who were previously
-  eligible for a Medal of Honour become no longer eligible.
+  In the second Eastman week of an Agoran month, if there are any
+  players who are eligible for a Medal of Honour, the Herald CAN, by
+  announcement, initiate an Agoran Decision on who is to be awarded
+  a Medal of Honour. E SHALL do so within the second Eastman week of
+  that Agoran month. For this decision, the valid votes are all
+  players who are eligible for a Medal of Honour, the vote collector
+  is the Herald, and the voting method is instant-runoff. Upon the
+  resolution of this decision, the Herald CAN, and SHALL in a timely
+  fashion, award the outcome of the decision a Medal of Honour by
+  announcement. After a player is awarded a Medal of Honour, all
+  players who were previously eligible for a Medal of Honour become
+  no longer eligible.
 
   If, at any time, any player has 6 or more Medals of Honour, and e
   has not won via this rule previously, e can win the game by
@@ -43,4 +43,9 @@ history:
   date: 2017-11-16
   agent:
     proposal: "7962"
+- change:
+    type: amendment
+  date: 2018-01-31
+  agent:
+    proposal: "7998"
 annotations: []
