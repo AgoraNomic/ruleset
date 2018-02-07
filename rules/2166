@@ -59,12 +59,13 @@ text: |
   An asset generally CAN be destroyed by its owner by announcement,
   subject to modification by its backing document. An indestructible
   asset is one defined as such by it backing document, and CANNOT be
-  destroyed except by a rule, other than this one, specifically
-  addressing the destruction of indestructible assets or that asset
-  in particular; any other asset is destructible. In circumstances
-  where another asset would be destroyed, an indestructible asset is
-  generally transferred to Agora, subject to modification by its
-  backing document and the intervention of other rules.
+  destroyed except by a proposal or rule, other than this one,
+  specifically addressing the destruction of indestructible assets
+  or that asset in particular; any other asset is destructible. In
+  circumstances where another asset would be destroyed, an
+  indestructible asset is generally transferred to Agora, subject to
+  modification by its backing document and the intervention of other
+  rules.
 
   To "lose" an asset is to have it destroyed from one's possession;
   to "revoke" an asset from an entity is to destroy it from that
@@ -238,6 +239,11 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2018-01-31
+  agent:
+    proposal: "8003"
 annotations:
 - cfjs:
   - id: '3597'
