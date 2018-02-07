@@ -13,7 +13,12 @@ text: |
   rule-defined concepts is false does not constitute proof that it
   is true. Definitions in lower-powered Rules do not overrule
   common-sense interpretations or common definitions of terms in
-  higher-powered rules.
+  higher-powered rules, but may constructively make reasonable
+  clarifications to those definitions. For this purpose, a
+  clarification is reasonable if and only if it adds detail without
+  changing the underlying general meaning of the term and without
+  causing the higher powered rule to be read in a way inconsistent
+  with its text.
 
   Rules to the contrary notwithstanding, any rule change that would
   (1) prevent a person from initiating a formal process to resolve
@@ -94,6 +99,11 @@ history:
   date: 2014-06-03
   agent:
     proposal: "7662"
+- change:
+    type: amendment
+  date: 2018-01-31
+  agent:
+    proposal: "8002"
 annotations:
 - cfjs:
   - id: '1439'
