@@ -8,11 +8,11 @@ import qualified Data.Text as T
 import qualified Data.Text.IO as TIO
 import System.IO
 
-import Game.Agora.Data.Index
+import qualified Game.Agora.Data.Index as AI
 import qualified Game.Agora.Data.Rule as AR
 import qualified Game.Agora.Data.Proposal as AP
 
-lint :: AR.RuleMap -> AP.PropMap -> Index -> IO ()
+lint :: AR.RuleMap -> AP.PropMap -> AI.Index -> IO ()
 lint rules props index = do
   mapM_ lintRule rules
   checkMissing rules index
@@ -20,10 +20,10 @@ lint rules props index = do
 lintRule :: AR.Rule -> IO ()
 lintRule r = return ()
 
-checkMissing :: AR.RuleMap -> Index -> IO ()
+checkMissing :: AR.RuleMap -> AI.Index -> IO ()
 checkMissing rules index = do
     let
-      missing = M.keys rules \\ foldr (++) [] index
+      missing = M.keys rules \\ concatMap AI.rules index
       bad = filter (not . repealed) $ catMaybes $ map (\k -> M.lookup k rules) $ missing
     mapM_ (\r -> putStrLn $ ("Unrepealed rule missing from index: " ++) $
                  show $ AR.id $ r) bad

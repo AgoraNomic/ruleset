@@ -12,7 +12,7 @@ import Data.Time
 import Text.Wrap
 
 import Game.Agora.Data.Common
-import Game.Agora.Data.Index
+import qualified Game.Agora.Data.Index as AI
 import qualified Game.Agora.Data.Rule as AR
 import qualified Game.Agora.Data.Proposal as AP
 
@@ -65,23 +65,23 @@ countChange (AR.InfectionAmendment {AR.uncounted=u}) = if bool' u then 0 else 1
 countChange (AR.Reenactment{}) = 1
 countChange _ = 0
 
-slr :: AR.RuleMap -> AP.PropMap -> Index -> Text
+slr :: AR.RuleMap -> AP.PropMap -> AI.Index -> Text
 slr rules props idx = execConcat $ do
     ln "THE SHORT LOGICAL RULESET"
     ruleset SLR rules props idx
     ln $ "END OF THE SHORT LOGICAL RULESET"
 
-flr :: AR.RuleMap -> AP.PropMap -> Index -> Text
+flr :: AR.RuleMap -> AP.PropMap -> AI.Index -> Text
 flr rules props idx = execConcat $ do
     ln "THE FULL LOGICAL RULESET"
     ruleset FLR rules props idx
     ln $ "END OF THE FULL LOGICAL RULESET"
 
-ruleset :: Ruleset -> AR.RuleMap -> AP.PropMap -> Index -> Concat ()
+ruleset :: Ruleset -> AR.RuleMap -> AP.PropMap -> AI.Index -> Concat ()
 ruleset rs rules props idx = do
     header
     blankLn
-    sequence_ $ M.mapWithKey section idx 
+    sequence_ $ map section idx 
     footer
   where
     header :: Concat ()
@@ -92,12 +92,12 @@ ruleset rs rules props idx = do
       sepLn "="
       blankLn
 
-    section :: Text -> [Text] -> Concat ()
-    section t rs = do
+    section :: AI.Category -> Concat ()
+    section c = do
       sepLn "="
-      ln t
+      ln $ AI.name c
       sepLn "-"
-      mapM_ rule rs
+      mapM_ rule $ AI.rules c
 
     rule :: Text -> Concat ()
     rule n = do

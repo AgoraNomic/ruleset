@@ -1,151 +1,170 @@
-Agora:
-- The Game of Agora
-- Agora Is A Nomic
-- Fora
-Players:
-- How to Join and Leave Agora
-- The Registrar
-- Cantus Cygneus
-- Zombies
-- Zombie Auctions
-Rules & Power:
-- Role and Attributes of Rules
-- Power
-- Power Controls Mutability
-- Interpreting the Rules
-- Precedence between Rules
-- No Cretans Need Apply
-- Rule Changes
-- The Royal Parade
-Reusable Definitions:
-- Mother, May I?
-- Switches
-- Numerical Switches
-- Regulated Actions
-- Agoran Time
-- Dependent Actions
-- Agoran Satisfaction
-- Acting on Behalf
-- Acting on Behalf via Contracts
-- Regulations
-- The Regkeepor
-- Determinacy
-- Definition and Continuity of Entities
-- Random Choices
-Proposals:
-- Proposals
-- How to Pend a Proposal
-- Distribution
-- The Assessor
-- Adopting Proposals
-- Expediting Proposals
-- Proposal Competitions
-Voting & Elections:
-- Agoran Decisions
-- Initiating Agoran Decisions
-- Voting Methods
-- Voting on Agoran Decisions
-- Resolving Agoran Decisions
-- Determining the Will of Agora
-- Quorum
-- Voting Strength
-- Conditional Votes
-- Conditionals and Extricability
-- Extending the voting period
-- Decisions with Adoption Indices
-- Vote Protection and Cutoff for Challenges
-- Election Procedure
-Offices & Reporting:
-- Offices
-- Official Reports and Duties
-- Campaign Proposals
-- The Associate Director of Personnel
-- Ratification
-- Ratification Without Objection
-- Self-Ratification
-- Deputisation
-- Office Incompatibilities
-- No News Is Some News
-Rulekeeping:
-- The Rulekeepor
-- The Logical Rulesets
-- Cleanliness
-- Bleach
-Calls for Judgement:
-- Calls for Judgement
-- Delivering Judgements
-- Motions and Moots
-- Judicial Retraction and Excess
-- Recusal
-Punishment:
-- Cards
-- The Referee
-- Vigilante Justice
-- Official Justice
-- Referee Accountability
-- Green Cards
-- Blue Cards
-- Yellow Cards
-- Red Cards
-- Black Cards
-- Pink Slips
-Winning:
-- Winning the Game
-- The Speaker
-- Trust Tokens
-- Victory by Apathy
-- Such is Karma
-- Karmic Balance
-- Medals of Honour
-- Win by Paradox
-Awards:
-- Ribbons
-- Patent Titles
-- Silver Quill
-- Badges
-- Degrees
-- Order of the Hero of Agora Nomic
-The Prime Minister:
-- First Among Equals
-- Motion of No Confidence
-- Executive Orders
-Obligations:
-- Pledges
-- Consent
-- Contracts
-- Interpreting Contracts
-- Contract Lifecycle
-- Contracts as Agreements
-- Parties to Contracts
-- Sustenance Payments
-- The Notary
-Holidays, Events & History:
-- Read the Ruleset Week
-- Happy Birthday
-- Tournaments
-- Holidays
-Assets:
-- Assets
-- Distributing Assets
-- Auctions
-- Lots
-- The Auctioneer
-- The Auction Announcer
-- Auction Initiation
-- Bidding
-- Auction End
-- Auction Termination
-Shinies:
-- Economics
-Festivals:
-- Festivals
-- Festival Restrictions
-Miscellaneous:
-- No Faking
-- The Agoran Newspaper
-- First Speaker
-- The Birthday Tournament
-- Emotions
-- Silliness
-- Poetry Duel Challenge Writ
-- Town Fountain
+- name: Agora
+  rules:
+  - The Game of Agora
+  - Agora Is A Nomic
+  - Fora
+- name: Players
+  rules:
+  - How to Join and Leave Agora
+  - The Registrar
+  - Cantus Cygneus
+  - Zombies
+  - Zombie Auctions
+- name: Rules & Power
+  rules:
+  - Role and Attributes of Rules
+  - Power
+  - Power Controls Mutability
+  - Interpreting the Rules
+  - Precedence between Rules
+  - No Cretans Need Apply
+  - Rule Changes
+  - The Royal Parade
+- name: Reusable Definitions
+  rules:
+  - Mother, May I?
+  - Switches
+  - Numerical Switches
+  - Regulated Actions
+  - Agoran Time
+  - Dependent Actions
+  - Agoran Satisfaction
+  - Acting on Behalf
+  - Acting on Behalf via Contracts
+  - Regulations
+  - The Regkeepor
+  - Determinacy
+  - Definition and Continuity of Entities
+  - Random Choices
+- name: Proposals
+  rules:
+  - Proposals
+  - How to Pend a Proposal
+  - Distribution
+  - The Assessor
+  - Adopting Proposals
+  - Expediting Proposals
+  - Proposal Competitions
+- name: Voting & Elections
+  rules:
+  - Agoran Decisions
+  - Initiating Agoran Decisions
+  - Voting Methods
+  - Voting on Agoran Decisions
+  - Resolving Agoran Decisions
+  - Determining the Will of Agora
+  - Quorum
+  - Voting Strength
+  - Conditional Votes
+  - Conditionals and Extricability
+  - Extending the voting period
+  - Decisions with Adoption Indices
+  - Vote Protection and Cutoff for Challenges
+  - Election Procedure
+- name: Offices & Reporting
+  rules:
+  - Offices
+  - Official Reports and Duties
+  - Campaign Proposals
+  - The Associate Director of Personnel
+  - Ratification
+  - Ratification Without Objection
+  - Self-Ratification
+  - Deputisation
+  - Office Incompatibilities
+  - No News Is Some News
+- name: Rulekeeping
+  rules:
+  - The Rulekeepor
+  - The Logical Rulesets
+  - Cleanliness
+  - Bleach
+- name: Calls for Judgement
+  rules:
+  - Calls for Judgement
+  - Delivering Judgements
+  - Motions and Moots
+  - Judicial Retraction and Excess
+  - Recusal
+- name: Punishment
+  rules:
+  - Cards
+  - The Referee
+  - Vigilante Justice
+  - Official Justice
+  - Referee Accountability
+  - Green Cards
+  - Blue Cards
+  - Yellow Cards
+  - Red Cards
+  - Black Cards
+  - Pink Slips
+- name: Winning
+  rules:
+  - Winning the Game
+  - The Speaker
+  - Trust Tokens
+  - Victory by Apathy
+  - Such is Karma
+  - Karmic Balance
+  - Medals of Honour
+  - Win by Paradox
+- name: Awards
+  rules:
+  - Ribbons
+  - Patent Titles
+  - Silver Quill
+  - Badges
+  - Degrees
+  - Order of the Hero of Agora Nomic
+- name: The Prime Minister
+  rules:
+  - First Among Equals
+  - Motion of No Confidence
+  - Executive Orders
+- name: Obligations
+  rules:
+  - Pledges
+  - Consent
+  - Contracts
+  - Interpreting Contracts
+  - Contract Lifecycle
+  - Contracts as Agreements
+  - Parties to Contracts
+  - Sustenance Payments
+  - The Notary
+- name: Holidays, Events & History
+  rules:
+  - Read the Ruleset Week
+  - Happy Birthday
+  - Tournaments
+  - Holidays
+- name: Assets
+  rules:
+  - Assets
+  - Distributing Assets
+  - Auctions
+  - Lots
+  - The Auctioneer
+  - The Auction Announcer
+  - Auction Initiation
+  - Bidding
+  - Auction End
+  - Auction Termination
+- name: Shinies
+  rules:
+  - Economics
+- name: Festivals
+  rules:
+  - Festivals
+  - Festival Restrictions
+- name: Miscellaneous
+  rules:
+  - No Faking
+  - The Agoran Newspaper
+  - First Speaker
+  - The Birthday Tournament
+  - Emotions
+  - Silliness
+  - Poetry Duel Challenge Writ
+  - Town Fountain
