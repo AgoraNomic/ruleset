@@ -32,4 +32,9 @@ history:
   date: 2017-05-25
   agent:
     rule: 2430
+- change:
+    type: repeal
+  date: 2018-01-31
+  agent:
+    proposal: "8000"
 annotations: []
