@@ -1,16 +1,17 @@
-- name: Agora
+- name: The Game of Agora
   rules:
   - The Game of Agora
   - Agora Is A Nomic
-  - Fora
 - name: Players
   rules:
   - How to Join and Leave Agora
+  - Fora
   - The Registrar
   - Cantus Cygneus
   - Zombies
   - Zombie Auctions
-- name: Rules & Power
+  - Emotions
+- name: Rules & Regulations
   rules:
   - Role and Attributes of Rules
   - Power
@@ -19,8 +20,13 @@
   - Precedence between Rules
   - No Cretans Need Apply
   - Rule Changes
-  - The Royal Parade
-- name: Reusable Definitions
+  - Regulations
+  - The Regkeepor
+  - The Rulekeepor
+  - The Logical Rulesets
+  - Cleanliness
+  - Bleach
+- name: General Definitions
   rules:
   - Mother, May I?
   - Switches
@@ -31,11 +37,10 @@
   - Agoran Satisfaction
   - Acting on Behalf
   - Acting on Behalf via Contracts
-  - Regulations
-  - The Regkeepor
   - Determinacy
   - Definition and Continuity of Entities
   - Random Choices
+  - Conditionals and Extricability
 - name: Proposals
   rules:
   - Proposals
@@ -45,7 +50,8 @@
   - Adopting Proposals
   - Expediting Proposals
   - Proposal Competitions
-- name: Voting & Elections
+  - Silliness
+- name: Voting
   rules:
   - Agoran Decisions
   - Initiating Agoran Decisions
@@ -56,29 +62,22 @@
   - Quorum
   - Voting Strength
   - Conditional Votes
-  - Conditionals and Extricability
   - Extending the voting period
   - Decisions with Adoption Indices
   - Vote Protection and Cutoff for Challenges
-  - Election Procedure
 - name: Offices & Reporting
   rules:
   - Offices
   - Official Reports and Duties
-  - Campaign Proposals
+  - No News Is Some News
   - The Associate Director of Personnel
+  - Deputisation
+  - Office Incompatibilities
+  - Election Procedure
+  - Campaign Proposals
   - Ratification
   - Ratification Without Objection
   - Self-Ratification
-  - Deputisation
-  - Office Incompatibilities
-  - No News Is Some News
-- name: Rulekeeping
-  rules:
-  - The Rulekeepor
-  - The Logical Rulesets
-  - Cleanliness
-  - Bleach
 - name: Calls for Judgement
   rules:
   - Calls for Judgement
@@ -86,7 +85,7 @@
   - Motions and Moots
   - Judicial Retraction and Excess
   - Recusal
-- name: Punishment
+- name: Justice
   rules:
   - Cards
   - The Referee
@@ -102,7 +101,6 @@
 - name: Winning
   rules:
   - Winning the Game
-  - The Speaker
   - Trust Tokens
   - Victory by Apathy
   - Such is Karma
@@ -112,17 +110,21 @@
 - name: Awards
   rules:
   - Ribbons
+  - Festivals
+  - Festival Restrictions
   - Patent Titles
   - Silver Quill
   - Badges
   - Degrees
   - Order of the Hero of Agora Nomic
-- name: The Prime Minister
+- name: Figureheads
   rules:
+  - First Speaker
+  - The Speaker
   - First Among Equals
   - Motion of No Confidence
   - Executive Orders
-- name: Obligations
+- name: Contracts & Obligations
   rules:
   - Pledges
   - Consent
@@ -133,15 +135,11 @@
   - Parties to Contracts
   - Sustenance Payments
   - The Notary
-- name: Holidays, Events & History
-  rules:
-  - Read the Ruleset Week
-  - Happy Birthday
-  - Tournaments
-  - Holidays
-- name: Assets
+  - No Faking
+- name: Economics
   rules:
   - Assets
+  - The Royal Parade
   - Distributing Assets
   - Auctions
   - Lots
@@ -151,20 +149,14 @@
   - Bidding
   - Auction End
   - Auction Termination
-- name: Shinies
-  rules:
   - Economics
-- name: Festivals
+- name: Agoran Culture
   rules:
-  - Festivals
-  - Festival Restrictions
-- name: Miscellaneous
-  rules:
-  - No Faking
   - The Agoran Newspaper
-  - First Speaker
+  - Read the Ruleset Week
+  - Happy Birthday
+  - Tournaments
   - The Birthday Tournament
-  - Emotions
-  - Silliness
+  - Holidays
   - Poetry Duel Challenge Writ
   - Town Fountain
