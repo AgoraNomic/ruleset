@@ -33,7 +33,8 @@ text: |
      particular action.
 
   When a player deputises via normal deputisation for an elected
-  office, e becomes the holder of that office.
+  office, e becomes the holder of that office, unless the action
+  being performed would already install someone into that office.
 history:
 - change:
     type: enactment
