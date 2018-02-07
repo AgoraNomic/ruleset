@@ -18,8 +18,6 @@ text: |
     * CFJ Reward: 1/20th of the Floating Value, rounded up.
 
     * Stamp Value: 1/5th of the Floating Value, rounded up.
-
-    - Favour Value: 1/10th of the Floating Value, rounded up.
 annotations: []
 history:
 - change:
@@ -47,3 +45,8 @@ history:
   date: 2017-11-21
   agent:
     proposal: "7968"
+- change:
+    type: amendment
+  date: 2018-01-31
+  agent:
+    proposal: "7999"
