@@ -35,4 +35,11 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7975"
-annotations: []
+annotations:
+- cfjs:
+  - id: '3614'
+    called: 2017-11-27
+  text: >
+    A contract can authorize someone to initiate an auction defined elsewhere,
+    but only when permitted by the rules or by the contract defining the
+    auction.

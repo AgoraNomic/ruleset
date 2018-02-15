@@ -44,4 +44,10 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7975"
-annotations: []
+annotations:
+- cfjs:
+  - id: '3615'
+    called: 2017-11-27
+  text: >
+    An auction normally ends immediately after its initiation, since, at its
+    commencement, no bid was placed or withdrawn in the previous 96 hours.
