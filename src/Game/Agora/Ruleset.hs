@@ -56,15 +56,6 @@ wrap indent (Concat t a) =
 data Ruleset = SLR | FLR
   deriving (Eq, Show)
 
-revisions :: AR.Rule -> Int
-revisions = sum . map (countChange . AR.rcChange) . AR.history
-
-countChange :: AR.ChangeType -> Int
-countChange (AR.Amendment {AR.uncounted=u}) = if bool' u then 0 else 1
-countChange (AR.InfectionAmendment {AR.uncounted=u}) = if bool' u then 0 else 1
-countChange (AR.Reenactment{}) = 1
-countChange _ = 0
-
 slr :: AR.RuleMap -> AP.PropMap -> AI.Index -> Text
 slr rules props idx = execConcat $ do
     ln "THE SHORT LOGICAL RULESET"
@@ -104,7 +95,7 @@ ruleset rs rules props idx = do
         c "Rule "
         c $ T.pack $ show $ AR.id r
         c "/"
-        c $ T.pack $ show $ revisions r
+        c $ T.pack $ show $ AR.revisionCount r
         c " (Power="
         c $ T.pack $ show $ AR.power r
         c ")"
@@ -130,7 +121,7 @@ ruleset rs rules props idx = do
             newLn
             return cc'
           where
-            cc' = cc + countChange (AR.rcChange rc)
+            cc' = cc + AR.countChange (AR.rcChange rc)
 
     histLine :: Int -> AR.RuleChange -> Concat ()
     histLine _ rc@AR.RuleChange{AR.rcChange = t@(AR.Initial{})} = do
@@ -147,7 +138,7 @@ ruleset rs rules props idx = do
       agentDate rc
     histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.Amendment{})} = do
       c "Amended"
-      when (countChange t > 0) $ do
+      when (AR.countChange t > 0) $ do
         c "("
         c $ T.pack $ show $ cc
         c ")"
@@ -175,7 +166,7 @@ ruleset rs rules props idx = do
       agentDate rc
     histLine cc rc@AR.RuleChange{AR.rcChange = t@(AR.Reenactment{})} = do
       c "Reenacted"
-      when (countChange t > 0) $ do
+      when (AR.countChange t > 0) $ do
         c "("
         c $ T.pack $ show $ cc
         c ")"

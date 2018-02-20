@@ -126,8 +126,18 @@ data Rule = Rule { name :: Text
                  , id :: Int
                  , power :: Scientific
                  , annotations :: [Annotation]
+                 , keywords :: [Text]
                  }
   deriving (Show, Generic)
+
+countChange :: ChangeType -> Int
+countChange (Amendment {uncounted=u}) = if bool' u then 0 else 1
+countChange (InfectionAmendment {uncounted=u}) = if bool' u then 0 else 1
+countChange (Reenactment{}) = 1
+countChange _ = 0
+
+revisionCount :: Rule -> Int
+revisionCount = sum . map (countChange . rcChange) . history
 
 instance ToJSON Rule where
   toJSON = genericToJSON $ options "" ""
