@@ -11,14 +11,6 @@ text: |
 
   2. Set the Karma of Agora such that the sum of all Karma switch
      instance values in the game is equal to 0.
-
-  While the Karma of Agora is not equal to 0, the Herald CAN and
-  SHALL publish a Notice of Honour specifying Agora as a gainer or
-  loser in place of a player; to be valid, it must be specified such
-  that the result would move the Karma of Agora closer to 0. For
-  selection players in such transactions, the Herald SHOULD use
-  standards of behavior and game balance befitting the spirit of the
-  game.
 history:
 - change:
     type: enactment
@@ -30,4 +22,9 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7960"
+-change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8022"
 annotations: []
