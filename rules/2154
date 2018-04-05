@@ -1,67 +1,56 @@
 id: 2154
 name: Election Procedure
 power: 2
-text: |
+text:
   A player CAN initiate an election for a specified office:
 
   a) With 2 Support, if either the office is interim or the most
-     recent election for that office was resolved more than 90 days
-     prior, and provided that the initiator becomes a candidate in
-     the same message.
+  recent election for that office was resolved more than 90 days
+  prior, and provided that the initiator becomes a candidate in the
+  same message.
 
   b) By announcement, if e is the ADoP and if the office is interim,
-     or if e is the holder of that office.
+  or if e is the holder of that office.
 
   The above notwithstanding, an election for an office CANNOT be
   initiated if one is already in progress.
 
-  After an election is initiated and until nominations close, any
-  player CAN become a candidate by announcement. A candidate ceases
-  to be a candidate if e ceases to be a player during the election.
+  When an election is initiated, it enters the nomination period,
+  which lasts for 4 days. After an election is initiated and until
+  nominations close, any player CAN become a candidate by
+  announcement. A candidate ceases to be a candidate if e ceases to
+  be a player during the election or if holding the office would
+  make em Overpowered.
+
   An election is contested if it has two or more candidates at the
   end of the nomination period, and uncontested otherwise. For a
   contested election, nominations close at the end of the poll's
   voting period. For an uncontested election, nominations close at
   the end of the nomination period.
 
-  When an election is initiated, it enters the nomination period,
-  which lasts for 7 days. In a timely fashion after the nomination
-  period ends, the ADoP CAN and SHALL, in the same message:
+  In a timely fashion after the nomination period ends, the ADoP CAN
+  and SHALL:
 
-  1) If the election is contested, initiate an Agoran decision
-     to select the winner of the election (the poll). For this
-     decision, the Vote Collector is the Assessor, the valid
-     options are the candidates for that election (including
-     those who become candidates after its initiation), and the
-     voting method is instant runoff.
+  1) If the election is contested, initiate an Agoran decision to
+  select the winner of the election (the poll). For this decision,
+  the Vote Collector is the ADoP, the valid options are the
+  candidates for that election (including those who become
+  candidates after its initiation), and the voting method is instant
+  runoff. When the poll is resolved, its outcome, if a player, wins
+  the election. If the outcome is not a player, the election ends
+  with no winner.
 
-  2) Distribute all pending Campaign Proposals associated with the
-     election.
-
-  3) If POSSIBLE per the following paragraph, end the election
-     immediately.
+  2) If POSSIBLE per the following paragraph, end the election
+  immediately.
 
   If at any point an uncontested election has a single candidate,
-  and that candidate either is not the author of a Committed
-  Campaign Proposal for that election or that proposal was adopted,
   then any player CAN declare them the winner of the election by
   announcement. If at any point an uncontested election has no
-  candidates, or a single candidate who is the author of a failed
-  Committed Campaign Proposal for that election, then any player CAN
-  declare the election ended with no winner by announcement. The
-  Assessor SHALL do one or the other in the same message in which e
-  resolves a decision to adopt a Campaign Proposal for an ongoing
-  uncontested election.
+  candidates, then any player CAN declare the election ended with no
+  winner by announcement.
 
-  A poll CANNOT be resolved until the decisions to adopt all
-  associated Campaign Proposals are resolved. When resolving the
-  poll, if a given candidate authored one of the associated Campaign
-  Proposals, that proposal is Committed, and it was not adopted,
-  then that player is disqualified.
-
-  When the poll is resolved, its outcome, if a player, wins the
-  election. When a player wins an election, e is installed into the
-  associated office and the election ends.
+  When a player wins an election, e is installed into the associated
+  office and the election ends.
 history:
 - change:
     type: enactment
@@ -332,4 +321,9 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7912"
+- change:
+    type: amendment
+  date: 2018-02-24
+  agent:
+    proposal: "8013"
 annotations: []
