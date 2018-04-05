@@ -30,7 +30,7 @@
   rules:
   - Mother, May I?
   - Switches
-  - Numerical Switches
+  - Agoran Numbers
   - Regulated Actions
   - Agoran Time
   - Dependent Actions
@@ -48,8 +48,6 @@
   - Distribution
   - The Assessor
   - Adopting Proposals
-  - Expediting Proposals
-  - Proposal Competitions
   - Silliness
 - name: Voting
   rules:
@@ -74,7 +72,6 @@
   - Deputisation
   - Office Incompatibilities
   - Election Procedure
-  - Campaign Proposals
   - Ratification
   - Ratification Without Objection
   - Self-Ratification
@@ -106,6 +103,7 @@
   - Karmic Balance
   - Medals of Honour
   - Win by Paradox
+  - Zombiception
 - name: Awards
   rules:
   - Ribbons
@@ -151,11 +149,9 @@
   - Economics
 - name: Agoran Culture
   rules:
-  - The Agoran Newspaper
   - Read the Ruleset Week
   - Happy Birthday
   - Tournaments
   - The Birthday Tournament
   - Holidays
-  - Poetry Duel Challenge Writ
   - Town Fountain
