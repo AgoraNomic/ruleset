@@ -3,10 +3,10 @@ name: Cleanliness
 power: 3
 text: |
   Any player CAN clean a rule without objection by specifying one or
-  more corrections to spelling, grammar, capitalization, and/or
-  dialect, or to whether a synonym or abbreviation is used in place
-  of a word or phrase, in the rule's text and/or title; the rule is
-  amended by this rule as specified by that person.
+  more corrections to spelling, grammar, capitalization, formatting,
+  and/or dialect, or to whether a synonym or abbreviation is used in
+  place of a word or phrase, in the rule's text and/or title; the
+  rule is amended by this rule as specified by that person.
 history:
 - change:
     type: enactment
@@ -49,4 +49,9 @@ history:
   date: 2018-01-31
   agent:
     proposal: "8000"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8017"
 annotations: []

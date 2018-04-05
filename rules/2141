@@ -12,8 +12,8 @@ text: |
   Rules have ID numbers, to be assigned by the Rulekeepor.
 
   Every rule shall have a title to aid in identification. If a rule
-  ever does not have a title, the Rulekeepor SHALL assign a title to
-  it by announcement in a timely fashion.
+  ever does not have a title, the the Rulekeepor CAN and SHALL
+  assign a title to it by announcement in a timely fashion.
 
   For the purposes of rules governing modification of instruments,
   the text, power, ID number, and title of a rule are all
@@ -71,6 +71,11 @@ history:
   date: 2015-07-19
   agent:
     proposal: "7759"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8017"
 annotations:
 - cfjs:
   - id: '1498'

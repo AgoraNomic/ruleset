@@ -10,7 +10,7 @@ text: |
   When a Yellow Card is issued, the bad sport SHOULD publish a
   formal apology of at least 200 words explaining eir error, shame,
   remorse, and ardent desire for self-improvement. A player issuing
-  a Yellow Card MAY, when doing so, additionally specify up to 10
+  a Yellow Card CAN, when doing so, additionally specify up to 10
   words to be included in the apology. Until e publishes such an
   apology, as a penalty, the bad sport's voting strength on all
   Agoran decisions initiated within 30 days of the Card's issuance
@@ -31,4 +31,9 @@ history:
   date: 2017-09-07
   agent:
     proposal: "7874"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8017"
 annotations: []

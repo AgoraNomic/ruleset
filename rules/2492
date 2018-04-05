@@ -2,18 +2,16 @@ id: 2492
 name: Recusal
 power: 1
 text: |
-  A judge CAN recuse emself from a CFJ they are assigned to by
-  announcement.
+  A judge CAN recuse emself from a CFJ e is assigned to by
+  announcement. When a judge recuses emself from a CFJ, then
 
-  When a judge recuses emself from a CFJ the following happens:
+  * the CFJ becomes unassigned;
 
-  1 - The CFJ becomes unassigned
+  * the recused judge becomes ineligible to be assigned as a judge
+  * for a week; and
 
-  2 - The recused judge becomes ineligible to be assigned as a judge
-      for a week.
-
-  3 - The recused judge SHOULD suggest another judge for the CFJ to
-      make the Arbitor's job easier.
+  * the recused judge SHOULD suggest another judge for the CFJ to
+  * make the Arbitor's job easier.
 history:
 - change:
     type: enactment
@@ -25,4 +23,9 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7888"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8017"
 annotations: []

@@ -12,21 +12,21 @@ text: |
   The entities eligible to support or object to a dependent action
   are, by default, all players, subject to modification by the
   document authorizing the dependent action. However, the previous
-  sentence notwithstanding, the Executor of the announcement of
-  intent is not eligible to support it.
+  sentence notwithstanding, the initiator of the intent is not
+  eligible to support it.
 
   Agora is Satisfied with an intent to perform a specific action if
   and only if:
 
   1. if the action is to be performed Without N Objections, then it
-     has fewer than N objectors; 
+     has fewer than N objectors;
 
-  2. if the action is to be performed With N supporters, then it has
-     N or more supporters; and 
+  2. if the action is to be performed With N support, then it has
+     N or more supporters; and
 
   3. if the action is to be performed with N Agoran Consent, then
      the ratio of supporters to objectors is greater than N, or the
-     action has at least one supporter and no objectors. 
+     action has at least one supporter and no objectors.
 
   4. if the action is to be performed With Notice or With T Notice.
 
@@ -164,6 +164,11 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8017"
 annotations:
 - cfjs:
   - id: '3567'
