@@ -17,10 +17,11 @@ text: |
   at the discretion of the Registrar. The Registrar is the
   announcer, and the minimum bid is 1.
 
-  The Registrar CAN flip the master switch of a zombie lot from
-  Agora to that lot's winner after the winner has paid for the lot;
-  for the purposes of the auction, to transfer a zombie to a player
-  is to set that zombie's master switch to that player.
+  The Registrar CAN, by announcement, flip the master switch of a
+  zombie lot from Agora to that lot's winner after the winner has
+  paid for the lot; for the purposes of the auction, to transfer a
+  zombie to a player is to set that zombie's master switch to that
+  player.
 history:
 - change:
     type: enactment
@@ -66,4 +67,9 @@ history:
   date: 2018-03-06
   agent:
     proposal: "8023"
+- change:
+    type: amendment
+  date: 2018-03-23
+  agent:
+    proposal: "8028"
 annotations: []
