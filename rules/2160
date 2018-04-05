@@ -2,39 +2,31 @@ id: 2160
 name: Deputisation
 power: 3
 text: |
-  A rule which purports to allow a person (a deputy) to perform an
-  action via normal deputisation or special deputisation for an
-  office thereby allows them to perform the action as if e held the
-  office, as long as
+  A player (the deputy) CAN perform an action ordinarily reserved
+  for an office-holder as if e held the office if
 
-  1. it would be POSSIBLE for the deputy to perform the action,
-     other than by deputisation, if e held the office, and
+  1. the rules require the holder of that office, by virtue of
+  holding that office, to perform the action (this requirement is
+  fulfilled by the deputy performing the action);
 
-  2. the deputy, when performing the action, announces that e
-     is doing so by the appropriate form of deputisation.
+  2. it would be POSSIBLE for the deputy to perform the action,
+  other than by deputisation, if e held the office;
 
-  Only this rule may allow normal deputisation. Any rule may allow
-  special deputisation.
+  3. either (i) a time limit by which the rules require the action
+  to be performed has expired or (ii) the office is vacant.
 
-  A player CAN perform an action as if e held a particular office,
-  via normal deputisation, if all of the following are true:
+  4. either (i) the office is vacant, (ii) the aforementioned time
+  limit expired more than fourteen days ago, or (iii) the deputy
+  announced between two and fourteen days earlier that e intended to
+  deputise for that office for the purposes of the particular
+  action.
 
-  1. The rules require the holder of that office, by virtue of
-     holding that office, to perform the action. This requirement is
-     fulfilled by the deputy performing the action.
+  5. the deputy, when performing the action, announces that e is
+  doing so by deputisation.
 
-  2. Either (i) A time limit by which the rules require the action
-     to be performed has expired or (ii) the office is vacant.
-
-  3. Either (i) the office is vacant; or (ii) the aforementioned
-     time limit expired more than fourteen days ago; or (iii) the
-     deputy announced between two and fourteen days earlier that e
-     intended to deputise for that office for the purposes of the
-     particular action.
-
-  When a player deputises via normal deputisation for an elected
-  office, e becomes the holder of that office, unless the action
-  being performed would already install someone into that office.
+  When a player deputises for an elected office, e becomes the
+  holder of that office, unless the action being performed would
+  already install someone into that office.
 history:
 - change:
     type: enactment
@@ -134,6 +126,11 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7918"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8018"
 annotations:
 - cfjs:
   - id: '1776'
