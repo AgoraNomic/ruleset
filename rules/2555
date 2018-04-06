@@ -1,0 +1,19 @@
+id: 2555
+name: Blots
+power: 2.0
+text: |
+  Rules to the contrary notwithstanding, an impure person CANNOT win
+  the game.
+
+  The voting strength of a player on an Agoran Decision is reduced
+  by 1 for every 3 blots in eir possession.
+
+  The Referee is an office, and the recordkeepor for blots.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
+annotations: []

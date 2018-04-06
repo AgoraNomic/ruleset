@@ -3,13 +3,13 @@ name: Official Justice
 power: 1.7
 text: |
   The Referee CAN, subject to the provisions of this rule, impose
-  Summary Judgment on a person who plays the game by issuing a card
-  to em by announcement. Summary Judgement is imposed on the
+  Summary Judgment on a person who plays the game by levying a fine
+  of up to 2 blots on em. Summary Judgement is imposed on the
   Referee's own initiative, and not in response to any official
-  proceeding
+  proceeding.
 
   The Referee CANNOT impose Summary Judgement more than three times
-  a week
+  a week.
 history:
 - change:
     type: enactment
@@ -36,4 +36,9 @@ history:
   date: 2017-11-07
   agent:
     proposal: "7964"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
 annotations: []
