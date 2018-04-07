@@ -238,7 +238,7 @@ ruleset rs rules props idx = do
       c player
       c "'s Decree"
     agent (AR.ConvergenceAgent reason) = do
-      c "by Convergence caused by "
+      c "Convergence caused by "
       c reason
 
     agentDate :: AR.RuleChange -> Concat ()
