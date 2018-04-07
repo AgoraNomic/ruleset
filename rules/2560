@@ -1,0 +1,30 @@
+id: 2560
+name: Facilities
+power: 2
+text: |
+  Facilities are liquid assets tracked by the Cartographor. In order
+  for a facility to exist, it MUST be built on a Land Unit. Only one
+  facility is allowed per Land Unit. The Land Unit on which a
+  Facility is built is considered its Parent Land Unit.
+
+  A player CAN create a facility by announcement on the land unit e
+  is on by specifying which type of facility e intends to build and
+  destroying the build cost.
+
+  If a player owns any facilities with upkeep costs, e must pay them
+  before the first day of the next Agoran month. Failing to do this
+  destroys the facility. In the second to last Eastman week of the
+  Agoran Month, the Cartographor SHOULD issue a humiliating public
+  reminder to all those who have not paid upkeep fees on any of eir
+  facilities.
+
+  If the ownership of the Parent Land Unit of a Facilty is changed,
+  that facility is transferred along with it.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-02-23
+  agent:
+    proposal: "8014"
+annotations: []

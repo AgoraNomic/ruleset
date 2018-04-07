@@ -1,0 +1,46 @@
+id: 2563
+name: Production Facilities
+power: 2
+text: |
+  For the purposes of this rule, the variable n is equivalent to the
+  rank of the facility.
+
+  The following facilities are defined as production facilities:
+
+  1. Mines
+     -  Build Cost: 5 lumber
+     -  Upkeep Cost: 2n-2 lumber
+     -  Production Details: 3n stones and 2n ore
+     -  Upgrade Costs:
+        -  Rank 2: 3 coins, 2 lumber
+        -  Rank 3: 4 coins, 4 lumber
+        -  Rank 4: 5 coins, 4 lumber, 3 stones
+        -  Rank 5: 6 coins, 6 lumber, 6 stones, 2 fabric
+
+  2. Orchards
+     -  Build Cost: 5 stones
+     -  Upkeep Cost: 2n-2 stones
+     -  Production Details: 3n apples and 3n lumber
+     -  Upgrade Costs:
+        -  Rank 2: 3 coins, 2 stones
+        -  Rank 3: 4 coins, 4 stones
+        -  Rank 4: 5 coins, 4 stones, 3 lumber
+        -  Rank 5: 6 coins, 6 stones, 6 lumber, 2 fabric
+
+  3. Farms
+     -  Build Cost: 3 lumber and 4 stones
+     -  Upkeep Cost: n-1 lumber and n-1 stones
+     -  Production Details: 3n corn and 3n cotton
+     -  Upgrade Costs:
+        -  Rank 2: 3 coins, 1 lumber, 1 stones
+        -  Rank 3: 4 coins, 2 lumber, 2 stones
+        -  Rank 4: 5 coins, 4 lumber, 4 stones, 1 fabric
+        -  Rank 5: 6 coins, 6 lumber, 6 stones, 3 fabric
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-02-23
+  agent:
+    proposal: "8014"
+annotations: []

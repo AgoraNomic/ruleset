@@ -1,0 +1,19 @@
+id: 2562
+name: Facility Ranks
+power: 2
+text: |
+  Rank is a facility switch tracked by the Cartographor defaulting
+  to 1. Its possible values include all integers between 1 and 5,
+  inclusive.
+
+  A player CAN increase the rank of a facility e owns that is at eir
+  location by exactly 1 by announcement by paying any upgrade costs
+  of the facility for that specific rank.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-02-23
+  agent:
+    proposal: "8014"
+annotations: []

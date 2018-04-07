@@ -3,7 +3,7 @@ name: Contract Lifecycle
 power: 2.5
 text: |
   A person CAN create a contract by announcement by transferring 1
-  shiny to Agora, specifying the contract's text. A person SHALL NOT
+  coin to Agora, specifying the contract's text. A person SHALL NOT
   create more than X (where X is the contract limit) contracts per
   week by this method, and the Notary CAN destroy any excess (i.e.
   beyond the X permitted) contracts by announcement within 7 days of
@@ -50,4 +50,9 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2018-02-23
+  agent:
+    proposal: "8014"
 annotations: []

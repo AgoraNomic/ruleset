@@ -1,0 +1,29 @@
+id: 2565
+name: Preserved Land
+power: 2.6
+text: |
+  Preservation is a boolean land switch, defaulting to False. The
+  preservation switch CAN be set in a regulation promulgated by the
+  Cartographor without 2 objections. A Land Unit with its
+  preservation switch set to True is considered a preserved Land
+  Unit. A Land Unit with its preservation switch set to False is
+  considered an unconserved Land Unit.
+
+  Changes to the Land Type or ownership of a preserved land unit
+  are secured at a power threshold of 2.5.
+
+  Any Facilities built on a preserved land unit CANNOT have their
+  rank changed or be destroyed, rules to the contrary
+  notwithstanding.
+
+  Whenever a land unit becomes preserved, it is transferred to
+  Agora. Rules to the contrary notwithstanding, entities that are
+  not Agora CANNOT own preserved land.
+history:
+- change:
+    type: enactment
+    power: 2.6
+  date: 2018-02-23
+  agent:
+    proposal: "8014"
+annotations: []
