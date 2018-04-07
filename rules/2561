@@ -26,13 +26,19 @@ text: |
   by announcement if eir location is the same as the facility's and
   the following criteria are met:
 
-  1. if the facility is built on Public Land, none.
+  1. if the facility is built on unconserved Public Land, none.
 
-  2. if the facility is built on Communal Land, e must be a party to
+  2. if the facility is built on preserved Public Land and less than
+     four days have passed since assets were created in the facility
+     most recently, e must not have taken any assets from the
+     inventory of another facility located on a preserved Land Unit
+     within this Agoran week.
+
+  3. if the facility is built on Communal Land, e must be a party to
      that contract and the text of the contract must permit em to do
      so.
 
-  3. if the facility is built on Private Land, e must own the
+  4. if the facility is built on Private Land, e must own the
      facility, or the owner must have consented.
 history:
 - change:
@@ -41,4 +47,9 @@ history:
   date: 2018-02-23
   agent:
     proposal: "8014"
+- change:
+    type: amendment
+  date: 2018-03-23
+  agent:
+    proposal: "8025"
 annotations: []

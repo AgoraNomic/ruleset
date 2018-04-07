@@ -2,39 +2,39 @@ id: 2564
 name: Processing Facilities
 power: 2
 text: |
-For the purposes of this rule, the variable n is equivalent to the
-rank of the facility.
+  For the purposes of this rule, the variable n is equivalent to the
+  rank of the facility.
 
-The following facilities are defined as processing facilities:
-  1. Refineries
-     -  Build Cost: 4 lumber and 8 stones
-     -  Upkeep Cost: n^2+2 coins
-     -  Processing Details: 1 ore to 2n+3 coins
-     -  Upgrade Costs:
-        -  Rank 2: 5 coins, 2 lumber, 3 stones
-        -  Rank 3: 6 coins, 4 lumber, 4 stones
-        -  Rank 4: 7 coins, 4 lumber, 3 stones, 3 fabric
-        -  Rank 5: 8 coins, 6 lumber, 6 stones, 4 fabric
+  The following facilities are defined as processing facilities:
+    1. Refineries
+       -  Build Cost: 4 lumber and 8 stones
+       -  Upkeep Cost: n^2+2 coins
+       -  Processing Details: 1 ore to 2n+3 coins
+       -  Upgrade Costs:
+          -  Rank 2: 5 coins, 2 lumber, 3 stones
+          -  Rank 3: 6 coins, 4 lumber, 4 stones
+          -  Rank 4: 7 coins, 4 lumber, 3 stones, 3 fabric
+          -  Rank 5: 8 coins, 6 lumber, 6 stones, 4 fabric
 
-  2. Mills
-     -  Build Cost: 6 lumber and 6 stones
-     -  Upkeep Cost: n^2+2 coins
-     -  Processing Details: 1 lumber to 2n+3 paper
-     -  Upgrade Costs:
-        -  Rank 2: 6 coins, 3 lumber, 3 stones
-        -  Rank 3: 7 coins, 4 lumber, 5 stones
-        -  Rank 4: 8 coins, 5 lumber, 5 stones, 3 fabric
-        -  Rank 5: 9 coins, 6 lumber, 7 stones, 5 fabric
+    2. Mills
+       -  Build Cost: 6 lumber and 6 stones
+       -  Upkeep Cost: n^2+2 coins
+       -  Processing Details: 1 lumber to 2n+3 paper
+       -  Upgrade Costs:
+          -  Rank 2: 6 coins, 3 lumber, 3 stones
+          -  Rank 3: 7 coins, 4 lumber, 5 stones
+          -  Rank 4: 8 coins, 5 lumber, 5 stones, 3 fabric
+          -  Rank 5: 9 coins, 6 lumber, 7 stones, 5 fabric
 
-  3. Looms
-     - Build Cost: 8 lumber and 4 stones
-     - Upkeep Cost: n^2+2 coins
-     - Processing Details: 1 cotton to 2n+3 fabric
-     -  Upgrade Costs:
-        -  Rank 2: 6 coins, 3 lumber, 2 stones
-        -  Rank 3: 7 coins, 4 lumber, 3 stones, 3 fabric
-        -  Rank 4: 8 coins, 5 lumber, 4 stones, 5 fabric
-        -  Rank 5: 9 coins, 6 lumber, 5 stones, 7 fabric
+    3. Looms
+       - Build Cost: 8 lumber and 4 stones
+       - Upkeep Cost: n^2+2 coins
+       - Processing Details: 1 cotton to 2n+3 fabric
+       -  Upgrade Costs:
+          -  Rank 2: 6 coins, 3 lumber, 2 stones
+          -  Rank 3: 7 coins, 4 lumber, 3 stones, 3 fabric
+          -  Rank 4: 8 coins, 5 lumber, 4 stones, 5 fabric
+          -  Rank 5: 9 coins, 6 lumber, 5 stones, 7 fabric
 history:
 - change:
     type: enactment
