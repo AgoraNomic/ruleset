@@ -281,7 +281,7 @@ annotations:
     shared machine itself, if the recipient does not control it).
 - cfjs:
   - id: '1112'
-    called: 
+    called:
   text: >
     In order to submit a Proposal, in the sense of R1865 and
     elsewhere, it is not sufficient that a collection of text 'with
@@ -560,3 +560,11 @@ annotations:
     ASCII art of text can be clear enough to suffice for
     communications, and in particular for taking actions by
     announcement.
+- cfjs:
+  - id: 3630
+    called: 2018-03-02
+  text: >
+    An action referencing outside content requires that the attempt
+    to act is clear, the nature of the attempted action is clear,
+    and the outside context cannot be altered by em and will remain
+    available long enough for others to interpret it.

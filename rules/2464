@@ -4,14 +4,15 @@ power: 1
 text: |
   A Tournament is a sub-game of Agora specifically sanctioned to be
   initiated as a tournament by the Rules. If a winner of a
-  tournament is determined within 4 weeks of its initiation, that
-  person or persons win the game, otherwise the tournament concludes
-  with no winner. A Tournament is governed by a special temporary
-  title of the ACORN, created in accordance with its parent rule,
-  which have binding control over those who freely agree to play the
-  tournament and over the tournament itself. Once the tournament is
-  concluded, these regulations cease to have any effect, and CAN be
-  repealed by any player by announcement.
+  tournament is determined within within 3 months of its initiation,
+  that person or persons win the game, otherwise the tournament
+  concludes with no winner. A Tournament is governed by a special
+  temporary title of the ACORN, created in accordance with its
+  parent rule, which have binding control over those who freely
+  agree to play the tournament and over the tournament itself. Once
+  the tournament is concluded, these regulations cease to have any
+  effect, and CAN be repealed by any player by announcement. The
+  person who initiates a tournament is its Gamemaster.
 history:
 - change:
     type: enactment
@@ -28,4 +29,9 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7888"
+- change:
+    type: amendment
+  date: 2018-04-06
+  agent:
+    proposal: "8032"
 annotations: []
