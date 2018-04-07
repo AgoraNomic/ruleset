@@ -18,8 +18,8 @@ text: |
 
   If Proprietary Land becomes Aether, the Cartographor SHALL
   transfer it to Agora in a timely fashion, destroy any facilities
-  on the Land Unit, and set all other switches to their default
-  values.
+  on the Land Unit, and set all other switches on the Land Unit to
+  their default values.
 
   Type is a singleton switch with the values of Black and White,
   defaulting to Black. When an act specifies that an alternating
@@ -44,4 +44,9 @@ history:
   date: 2018-03-30
   agent:
     convergence: "Proposal 8030"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8030"
 annotations: []

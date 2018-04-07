@@ -3,9 +3,10 @@ name: Land Auctions
 power: 1
 text: |
   Every Agoran Week, if the number of units of Private Land is less
-  than one half the total number of units of Land, an auction SHALL
-  be initiated. For this auction, the announcer is the Cartographor,
-  the auctioneer is the Cartographor, the lots are chosen as such:
+  than one half the total number of units of Land, the Cartographor
+  CAN and SHALL initiate an auction. For this auction, the announcer
+  is the Cartographor, the auctioneer is Agora, the lots are chosen
+  as such:
 
   1. if there exist at least 5 Units of non-Aether Land in the
      possession of Agora with the preservation switch set to False:
@@ -50,4 +51,9 @@ history:
   date: 2018-03-30
   agent:
     convergence: "Proposal 8030"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8030"
 annotations: []

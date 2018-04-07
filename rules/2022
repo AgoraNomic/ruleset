@@ -2,9 +2,9 @@ id: 2022
 name: Land Transfiguration
 power: 1
 text: |
-  During the second Eastman week of each Agoran Month, the
-  Cartographor SHALL perform the following actions in sequence, and
-  report these changes:
+  Once during the second or third Eastman week of each Agoran Month,
+  the Cartographor CAN perform the following actions in sequence,
+  and report these changes:
 
   1. Every Land Unit, with a preservation switch of False
      that is not directly connected to a unit of Aether, or is not
@@ -16,6 +16,9 @@ text: |
 
   3. If any land unit so transformed is not property of Agora, it
      becomes property of Agora.
+
+  The Cartographor SHALL do so in the second Eastman week of each
+  Agoran Month.
 history:
 - change:
     type: enactment
@@ -65,4 +68,9 @@ history:
   date: 2018-03-30
   agent:
     convergence: "Proposal 8030"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8030"
 annotations: []
