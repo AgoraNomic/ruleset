@@ -1,0 +1,103 @@
+id: 2003
+name: Actions in Arcadia
+power: 1
+text: |
+  Players CAN destroy:
+
+  1. 1 apple to move from one Land Unit to an adjacent Unit if their
+     Land Types are the same and the destination is not Aether;
+
+  2. 2 apples to move from one Land Unit to an adjacent Unit if
+     their Land Types differ and the destination is not Aether;
+
+  3. 2 apples to set Land Type of a Land Unit which e owns to any
+     Land Type other than Aether, whether or not e is located at
+     that Land Unit.
+
+  4. 3 apples to set the Land Type of a Land Unit that is adjacent
+     to the Entity's current location, is of type Aether, and is
+     owned by Agora, to an alternating Land Type.
+
+  5. 4 apples to set the Land Type of a Land Unit that is adjacent
+     to the Entity's current location, is of type Aether, and is
+     owned by Agora, to a Land Type of eir choice.
+
+  6. 6 apples to set the Land Type of a Land Unit that is of type
+     Aether, and is owned by Agora, to an alternating Land Type.
+
+  Players CAN, while performing the above actions, substitute 3
+  apples for 1 corn.
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2001-09-03
+  agent:
+    proposal: "4207"
+- change:
+    type: amendment
+  date: 2001-09-29
+  agent:
+    proposal: "4215"
+- change:
+    type: amendment
+  date: 2001-11-22
+  agent:
+    proposal: "4229"
+- change:
+    type: amendment
+  date: 2002-04-03
+  agent:
+    proposal: "4280"
+- change:
+    type: amendment
+  date: 2002-04-16
+  agent:
+    proposal: "4283"
+- change:
+    type: amendment
+  date: 2002-05-10
+  agent:
+    proposal: "4293"
+- change:
+    type: amendment
+  date: 2002-09-06
+  agent:
+    proposal: "4373"
+- change:
+    type: amendment
+  date: 2002-10-23
+  agent:
+    proposal: "4405"
+- change:
+    type: amendment
+  date: 2003-01-02
+  agent:
+    proposal: "4425"
+- change:
+    type: amendment
+  date: 2003-01-16
+  agent:
+    proposal: "4431"
+- change:
+    type: amendment
+  date: 2003-01-28
+  agent:
+    proposal: "4434"
+- change:
+    type: amendment
+  date: 2003-02-22
+  agent:
+    proposal: "4453"
+- change:
+    type: repeal
+  date: 2003-04-24
+  agent:
+    proposal: "4486"
+- change:
+    type: reenactment
+    power: 1
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+annotations: []

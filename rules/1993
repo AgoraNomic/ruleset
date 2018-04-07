@@ -1,0 +1,47 @@
+id: 1993
+name: The Land of Arcadia
+power: 2
+text: |
+  Arcadia is a land entirely defined by the Arcadian Map (the Map).
+  The Map is the term for the set of all Land Units.
+
+  The Map divides Arcadia into a finite, discrete number of Units of
+  Land, or simply Land. Each Unit of Land is an indestructible asset
+  specified by an ordered pair of integers known as its Latitude and
+  Longitude.
+
+  Every unique ordered pair of integers within the limits defined in
+  the Rules for Latitude and Longitude signifies an existent Unit of
+  Land. No other Units of Land exist. Units of Land CAN only be
+  created or destroyed by changing the limits of Latitude and
+  Longitude defined in the Rules.
+
+  All values for Latitude and Longitude MUST lie between -6 and +6,
+  inclusive.
+
+  The Total Land Area of Arcadia is the number of existent Units of
+  Land defined by permissible Latitude and Longitude pairs.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2001-08-08
+  agent:
+    proposal: "4197"
+- change:
+    type: amendment
+  date: 2002-04-16
+  agent:
+    proposal: "4283"
+- change:
+    type: repeal
+  date: 2003-04-24
+  agent:
+    proposal: "4486"
+- change:
+    type: reenactment
+    power: 2
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+annotations: []

@@ -1,0 +1,30 @@
+id: 2559
+name: Paydays
+power: 2
+text: |
+  Whenever a Payday occurs, the following events happen in order:
+
+  1. The following assets are created in the possession of each
+     player:
+     A. 10 coins
+     B. 5 apples
+     C. 2 papers
+
+  2. For each office, if a single player held that office for 16 or
+     more days in the previous month and e was not issued any Cards
+     other than Green for eir conduct in that office during that
+     time, the following assets are created in the possession of
+     that player:
+     A. 5 coins
+     B. 1 corn
+
+  The occurrence of Paydays is secured.  At the beginning of each
+  month, a Payday occurs.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+annotations: []

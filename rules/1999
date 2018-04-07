@@ -1,0 +1,36 @@
+id: 1999
+name: Entity Location
+power: 1
+text: |
+  Location is a player switch, tracked by the Cartographer, whose
+  values are ordered pairs of integers where the first value is a
+  valid Latitude, and the second is a valid Longitude. The default
+  Location is (0, 0).
+
+  To "move" a player is to flip that player’s Location switch to the
+  Latitude and Longitude of the destination.
+
+  No other Entity can have a location unless it is defined in a rule
+  other than this one. Changes to the Location of an Entity are
+  secured. If an Entity is specified by this Rule as having a
+  defined Location, but its Location has not been explicitly set or
+  changed, its Location is set to (0, 0).
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2001-08-08
+  agent:
+    proposal: "4197"
+- change:
+    type: repeal
+  date: 2003-05-13
+  agent:
+    proposal: "4496"
+- change:
+    type: reenactment
+    power: 1
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+annotations: []

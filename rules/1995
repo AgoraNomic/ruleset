@@ -1,0 +1,47 @@
+id: 1995
+name: Land Types
+power: 2
+text: |
+  Each Unit of Land has a Land Type switch, tracked by the
+  Cartographor, whose values are "Black", "White", and "Aether" (the
+  default). Changes to Land Type switches are secured. To "change
+  the type" of, or to "transform" a Unit of Land is to flip its Type
+  switch. A “Unit of X” is a Unit of Land whose Land Type switch has
+  the value X.
+
+  When existent Land has not had its Type changed as explicitly
+  permitted by the Rules, or has a Type that is not currently
+  defined by the Rules, it is considered to have the Land Type of
+  Aether. Rules to the contrary nonwithstanding, Units of Aether
+  CANNOT be transferred from Agora, or owned by any entity other
+  than Agora.
+
+  If Proprietary Land becomes Aether, the Cartographor SHALL
+  transfer it to Agora in a timely fashion, destroy any facilities
+  on the Land Unit, and set all other switches to their default
+  values.
+
+  Type is a singleton switch with the values of Black and White,
+  defaulting to Black. When an act specifies that an alternating
+  land type is to be used, the current value of the Alternating Land
+  Type switch is used, and the switch is set to the next value of
+  the switch.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2001-08-08
+  agent:
+    proposal: "4197"
+- change:
+    type: repeal
+  date: 2003-04-24
+  agent:
+    proposal: "4486"
+- change:
+    type: reenactment
+    power: 2
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+annotations: []

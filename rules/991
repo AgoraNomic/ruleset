@@ -3,12 +3,8 @@ name: Calls for Judgement
 power: 2
 text: |
   Any person (the initiator) can initiate a Call for Judgement (CFJ,
-  syn. Judicial Case), specifying a statement to be inquired into:
-
-  a) by announcement, if e has not previously initiated any CFJs in
-     the current week, OR
-
-  b) by announcement by spending the current CFJ cost in shinies.
+  syn. Judicial Case), specifying a statement to be inquired into by
+  announcement.
 
   When a person initiates a Call for Judgment, e CAN optionally bar
   one person from the case by announcement.
@@ -200,6 +196,11 @@ history:
   date: 2018-03-06
   agent:
     proposal: "8017"
+- change:
+    type: amendment
+  date: 2018-02-24
+  agent:
+    proposal: "8014"
 annotations:
 - cfjs:
   - id: 1692-1693
