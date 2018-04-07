@@ -193,14 +193,14 @@ history:
     proposal: "8005"
 - change:
     type: amendment
-  date: 2018-03-06
-  agent:
-    proposal: "8017"
-- change:
-    type: amendment
   date: 2018-02-24
   agent:
     proposal: "8014"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8017"
 annotations:
 - cfjs:
   - id: 1692-1693

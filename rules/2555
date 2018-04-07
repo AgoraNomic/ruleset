@@ -2,11 +2,19 @@ id: 2555
 name: Blots
 power: 2.0
 text: |
-  Rules to the contrary notwithstanding, an impure person CANNOT win
-  the game.
+  Blots are an indestructible fixed currency with ownership
+  restricted to persons. A person with 1 or more blots is Impure, a
+  person with 0 blots is Pure. An impure unregistered person is a
+  Fugitive.
 
-  The voting strength of a player on an Agoran Decision is reduced
-  by 1 for every 3 blots in eir possession.
+  To Levy a Fine of N on a person, where N is a positive integer, is
+  to create N blots in eir possession by announcement. To Expunge a
+  blot is to destroy it by announcement. If expunging blots would
+  reduce a person's blots to less than 0, their blots are instead
+  reduced to 0 but the cost of expunging, if any, is not reduced.
+
+  Levying fines and destroying blots are each secured with a power
+  threshold of 1.7.
 
   The Referee is an office, and the recordkeepor for blots.
 history:
