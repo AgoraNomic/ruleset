@@ -1,0 +1,46 @@
+id: 2431
+name: Proposal Competitions
+power: 1
+text: |
+  Any player CAN, with Agoran Consent, initiate a Proposal
+  Competition with a specified Objective. Only one Competition may
+  be in progress at a time. The Objective should be a specification
+  of effects of a proposal, and SHOULD NOT depend on factors that
+  could not be determined from the text of a proposal.
+
+  During the Agoran Week following the initiation of a Proposal
+  Competition, any player CAN specify that a Proposal e submits is a
+  Competition Proposal for that Competition. Players are ENCOURAGED
+  to describe how their Competition Proposals fulfill the Objective.
+
+  The Promotor SHALL distribute all Competition Proposals for a
+  given Competition in the same message. The Assessor SHALL resolve
+  all the Agoran Decisions to adopt the Competition Proposals for a
+  given Competition in the same message.
+
+  Once all Agoran decisions to adopt Competition Proposals for a
+  given Competition have been resolved, the Competition ends.
+history:
+- change:
+    type: enactment
+  date: 2014-06-03
+  agent:
+    proposal: "7667"
+- change:
+    type: power-change
+    old-power: 3
+    new-power: 1
+  date: 2014-11-03
+  agent:
+    proposal: "7705"
+- change:
+    type: amendment
+  date: 2014-11-03
+  agent:
+    proposal: "7705"
+- change:
+    type: repeal
+  date: 2018-03-06
+  agent:
+    proposal: "8018"
+annotations: []

@@ -1,0 +1,34 @@
+id: 2443
+name: Expediting Proposals
+power: 3
+text: |
+  A player CAN expedite a proposal whose adoption index is at most
+  1.5, in a message containing the character string "[Expedition]"
+  in the subject line,
+
+  1. by specially deputising for the Promotor to distribute the
+     proposal, if it has not been distributed; or
+
+  2. by announcement, otherwise.
+
+  If, in an Agoran Decision to adopt a proposal, the strength of
+  AGAINST is zero, and the proposal was expedited at least 7 days
+  earlier, then any player CAN specially deputise for the Assessor
+  to resolve the decision.
+history:
+- change:
+    type: enactment
+  date: 2014-11-09
+  agent:
+    proposal: "7713"
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
+- change:
+    type: repeal
+  date: 2018-03-06
+  agent:
+    proposal: "8018"
+annotations: []

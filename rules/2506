@@ -1,0 +1,45 @@
+id: 2506
+name: Blue Cards
+power: 2
+text: |
+  A Blue Card is a type of Card that is appropriate for deliberate
+  or negligent infractions either where the the player responsible
+  profited from violating the rules or where e significantly harmed
+  another person or the game as a whole. The person issuing a Blue
+  Card must, in the same message, announce a penalty between 1 shiny
+  and the greater of 25 shinies and the amount the bad sport
+  profited from the infraction, in order for the card to be
+  effective. E CAN additionally, in the same message, determine the
+  distribution of the money between Agora and the players(s) harmed,
+  save that e CANNOT distribute money to emself or such that it
+  would be under eir effective control. By default, all the money
+  goes to Agora.
+
+  When a Blue Card is issued, as a penalty, within the next 7 days,
+  any player CAN once, with 2 Support, Levy a Fine upon the bad
+  sport. After the Fine is Levied upon the bad sport, e SHALL
+  endeavor in good faith to pay the fine to Agora or the correct
+  player(s), in accordance with the distribution laid out by the
+  carder. Any player CAN also act on the bad sport's behalf to do
+  so, fulfilling eir obligation.
+history:
+- change:
+    type: enactment
+  date: 2017-09-26
+  agent:
+    proposal: "7886"
+- change:
+    type: repeal
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
+annotations:
+- cfjs:
+  - id: '3605'
+    called: 2017-11-22
+  text: >
+    The upper bound of penalty can be in a currency other than
+    shinies. A fine can be assessed in a currency other than
+    shinies, if it is clear that the value of the fined assets fits
+    within the range. In the event of ambiguity of relative value of
+    different assets, the fine is ineffective.

@@ -1,0 +1,57 @@
+id: 2446
+name: The Agoran Newspaper
+power: 1
+text: |
+  The Reportor is an office.
+
+  The Reportor's weekly report includes:
+
+  1. A suitable name for a newspaper, at the Reportor's discretion.
+
+  2. A description of events that have happened since the last
+     report that the Reportor believes significant or interesting.
+
+  3. Any editorialization or other pieces of Agora-related
+     information the Reportor pleases, as long as it is neither i)
+     factually incorrect nor ii) disrespectful to any person or
+     Agora itself.
+
+  While meeting these requirements, the Reportor may format eir
+  report however e pleases. The Reportor's reports are still subject
+  to the requirements of rule 2143
+
+  The Reportor SHALL include at least one piece of information
+  relevant to Agora in the last week and SHALL write with the goal
+  of creating a more informed population.
+history:
+- change:
+    type: enactment
+  date: 2015-02-11
+  agent:
+    proposal: "7729 #2"
+- change:
+    type: amendment
+  date: 2015-07-24
+  agent:
+    proposal: "7766"
+- change:
+    type: amendment
+  date: 2015-08-29
+  agent:
+    proposal: "7786"
+- change:
+    type: amendment
+  date: 2016-07-31
+  agent:
+    proposal: "7805"
+- change:
+    type: amendment
+  date: 2017-05-24
+  agent:
+    rule: 2430
+- change:
+    type: amendment
+  date: 2017-09-07
+  agent:
+    proposal: "7871"
+annotations: []
