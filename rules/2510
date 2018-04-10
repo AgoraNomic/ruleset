@@ -12,14 +12,16 @@ text: |
   1. Be clear that it is a Notice of Honour, and be the first valid
      Notice of Honour that player has published in the current week;
 
-  2. Specify any other player to gain karma, and provide a reason
-     for specifying that player; and
+  2. Specify any other player or Agora to gain karma, and provide a
+     reason for specifying that player; and
 
-  3. Specify any player to lose karma, and provide a reason for
-     specifying that player.
+  3. Specify any player or Agora to lose karma, and provide a reason
+     for specifying that player.
 
-  When a valid Notice of Honour is published, the player specified
-  to gain karma has eir karma increased by one, and the player
+  4. Not result in Agora's karma moving farther away from 0.
+
+  When a valid Notice of Honour is published, the entity specified
+  to gain karma has eir karma increased by one, and the entity
   specified to lose karma has eir karma decreased by one. Raising
   one entity's karma while lowering another's in this manner is
   considered to be a "transfer" of karma.
@@ -53,4 +55,9 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7960"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8022"
 annotations: []

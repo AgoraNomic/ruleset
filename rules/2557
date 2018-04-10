@@ -1,0 +1,18 @@
+id: 2557
+name: Removing Blots
+power: 1.7
+text: |
+  If a player has neither gained blots nor expunged any blots from
+  emself in the current Agoran week, e CAN expunge 1 blot from
+  emself by announcement.
+
+  At the beginning of each quarter, half (rounded down) of each
+  fugitive's blots are destroyed.
+history:
+- change:
+    type: enactment
+    power: 1.7
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
+annotations: []

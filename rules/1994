@@ -1,0 +1,30 @@
+id: 1994
+name: Ownership of Land
+power: 2
+text: |
+  Any existent Land for which ownership has not been explicitly
+  changed belongs to Agora.
+
+  Land belonging to Agora is called Public Land. Land belonging to
+  a contract is called Communal Land. Land belonging to any other
+  entity is called Private Land. Together, Communal Land and Private
+  Land are called Proprietary Land.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2001-08-08
+  agent:
+    proposal: "4197"
+- change:
+    type: repeal
+  date: 2003-04-24
+  agent:
+    proposal: "4486"
+- change:
+    type: reenactment
+    power: 2
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+annotations: []

@@ -81,7 +81,7 @@ ruleset :: Ruleset -> AR.RuleMap -> AP.PropMap -> AI.Index -> Concat ()
 ruleset rs rules props idx = do
     header
     blankLn
-    sequence_ $ map section idx 
+    sequence_ $ map section idx
     footer
   where
     header :: Concat ()
@@ -237,6 +237,9 @@ ruleset rs rules props idx = do
     agent (AR.DecreeAgent player) = do
       c player
       c "'s Decree"
+    agent (AR.ConvergenceAgent reason) = do
+      c "Convergence caused by "
+      c reason
 
     agentDate :: AR.RuleChange -> Concat ()
     agentDate rc = do
@@ -263,7 +266,7 @@ ruleset rs rules props idx = do
     date (AR.Date day) = fmtDay day
     date (AR.UnknownHistory{}) = "in days lost to history"
     date (AR.Around {AR.around=day}) = T.append "around " $ fmtDay day
-    date (AR.Range {AR.between=start, AR.and=end}) = T.concat ["sometime between ", fmtDay start, " and ", fmtDay end] 
+    date (AR.Range {AR.between=start, AR.and=end}) = T.concat ["sometime between ", fmtDay start, " and ", fmtDay end]
 
     ann :: AR.Annotation -> Concat ()
     ann a = do

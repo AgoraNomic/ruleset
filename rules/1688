@@ -9,9 +9,6 @@ text: |
   stipulated by the Rules. All entities have Power zero except where
   specifically allowed by the rules.
 
-  Power less than one is called Ephemeral power, and an instrument
-  with a power less than one is an Ephemeral instrument.
-
   A Rule that makes a change, action, or value secured (hereafter
   the securing Rule) thereby makes it IMPOSSIBLE to perform that
   change or action, or to set or modify that value, except as
@@ -71,4 +68,9 @@ history:
   date: 2015-08-14
   agent:
     proposal: "7781"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8017"
 annotations: []

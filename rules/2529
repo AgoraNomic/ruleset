@@ -14,7 +14,7 @@ text: |
 
   * Eir Karma is not below -3.
 
-  * In the last Agoran month, e has not had a Card issued to em.
+  * In the last Agoran month, e has not had a fine levied on em.
 
   In the second Eastman week of an Agoran month, if there are any
   players who are eligible for a Medal of Honour, the Herald CAN, by
@@ -48,4 +48,15 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7998"
-annotations: []
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
+annotations:
+- cfjs:
+  - id: "3629"
+    called: 2018-02-21
+  text: >
+    "valid votes" is already defined in Rule 2528, breaking Medal of
+    Honour elections.

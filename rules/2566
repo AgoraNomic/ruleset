@@ -1,0 +1,24 @@
+id: 2566
+name: Free Tournaments
+power: 1
+text: |
+  A player who is not the gamemaster of an existing tournament CAN
+  initiate a sanctioned tournament with a specified set of
+  regulations with 2 Agoran Consent. A tournament created using this
+  method is called a Free Tournament. Rules to the contrary
+  notwithstanding, only players CAN win the game via a free
+  tournament.
+
+  A free tournament CAN be concluded with no winner without 3
+  objections. Tournaments SHOULD only be concluded in this manner if
+  it is clear that its regulations are malformed or contrary to the
+  tournament's intent or that it is IMPOSSIBLE for any player to win
+  the tournament.
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2018-04-06
+  agent:
+    proposal: "8032"
+annotations: []

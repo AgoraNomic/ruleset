@@ -1,13 +1,19 @@
 id: 2509
-name: Numerical Switches
+name: Agoran Numbers
 power: 2
 text: |
+  A "number" is considered to refer to a real number, unless
+  otherwise explicitly specified.  A "number of (items)", where
+  (items) is a set of discrete entities, is considered to refer to a
+  non-negative integer, unless otherwise explicitly specified.
+
   If a switch is defined as being associated with a specified set of
   numbers (a numerical switch), then the possible values for that
-  switch are the numbers in that set. In particular, a "natural"
-  switch is a switch with possible values of the non-negative
-  integers. If a limit is further defined, the possible values are
-  the numbers of the set within the specified limits.
+  switch are the numbers in that set. In particular, a natural or
+  integer switch is a switch with possible values the non-negative
+  integers or all integers, respectively. If a limit is further
+  defined, the possible values are the numbers of the set within the
+  specified limits.
 
   If 0 is in the specified values for a numerical switch and no
   default value is otherwise specified, 0 is the default value for
@@ -28,4 +34,20 @@ history:
   date: 2017-10-03
   agent:
     proposal: "7903"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8017"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8021"
+- change:
+    type: retitling
+    new-title: Agoran Numbers
+  date: 2018-03-06
+  agent:
+    proposal: "8021"
 annotations: []

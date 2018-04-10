@@ -1,17 +1,43 @@
 id: 2531
 name: Referee Accountability
-power: 1
+power: 2
 text: |
-  If the Referee attempts to issue three or more INEFFECTIVE cards
-  in a week, any player CAN, with two support, issue a writ of
+  Any attempt to levy a fine is INEFFECTIVE if it does not include
+  (1) value of the fine in blots, (2) the name of the person being
+  fined (the perp), and (3) the specific reason for the fine, or if
+  it attempts to levy a fine on a person for an action or inaction
+  which e (more likely than not) did not commit, or if it attempts
+  to levy a fine for an action or inaction which is not prohibited
+  by law, or if it attempts to levy a fine with a value which is
+  blatantly and obviously unsuited to the conduct which constitutes
+  the reason for its levy or to the person to which it is being
+  levied, or if it is made more than 14 days after the conduct
+  constituting the reason for the fine, or if it attempts to levy a
+  fine to a player who has already been levied a fine for the
+  conduct constituting the reason for the levy.
+
+  If the Referee attempts to levy three or more INEFFECTIVE fines in
+  a week, any player CAN, with two support, issue a writ of
   Impartial Arbitration Restoration, immediately making the position
   of Referee vacant. When a writ of Impartial Arbitration
   Restoration is issued, the ADoP SHALL initiate an election for the
-  Referee within a timely fashion
+  Referee within a timely fashion.
 history:
 - change:
     type: enactment
   date: 2017-11-06
   agent:
     proposal: "7964"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 2
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
 annotations: []

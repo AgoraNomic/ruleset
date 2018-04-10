@@ -2,28 +2,26 @@ id: 1885
 name: Zombie Auctions
 power: 2
 text: |
-  Whenever a zombie has Agora for a master and an auction for it is
-  not underway or been won in the last seven days, then the
-  Registrar CAN and SHALL, in a timely fashion, put the specified
-  zombie up for auction by announcement. Each auction ends seven
-  days after it begins.
+  Whenever a zombie (1) has Agora for a master, (2) an auction for
+  it is not underway, and (3) has not been won as an auction lot in
+  the past 14 days, then the Registrar CAN put that zombie (along
+  with any other zombies that fulfill the same conditions) up for
+  auction.
 
-  During an auction, any player who is not a zombie CAN bid a number
-  of Shinies for the specified zombie by announcement.
+  In a timely fashion after the beginning of each month, the
+  Registrar SHALL either initiate such an auction or, if no zombies
+  meeting these conditions existed at the beginning of the month,
+  announce that no such auction is necessary.
 
-  The winner of the auction, if any, is the player who bids the
-  highest number of shinies, with ties broken in favor of the
-  earlier bidder.  The winner CAN and SHALL, in a timely fashion,
-  flip the zombie's master to the winner by announcement, if e pays
-  Agora the amount of the bid for the explicit and sole purpose of
-  fulfilling this requirement. If there are no bids, the auction has
-  no winner.
+  For such an auction, the lots are the qualifying zombies, ordered
+  at the discretion of the Registrar. The Registrar is the
+  announcer, and the minimum bid is 1.
 
-  If a zombie being auctioned ceases to have Agora as a master at
-  any time between the initiation of the auction and the winner
-  becoming the zombie's master (or failing to do so in a timely
-  fashion after the auction), then the auction has no winner, and
-  any obligations to pay for the zombie are voided.
+  The Registrar CAN, by announcement, flip the master switch of a
+  zombie lot from Agora to that lot's winner after the winner has
+  paid for the lot; for the purposes of the auction, to transfer a
+  zombie to a player is to set that zombie's master switch to that
+  player.
 history:
 - change:
     type: enactment
@@ -64,4 +62,14 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7952"
+- change:
+    type: amendment
+  date: 2018-03-06
+  agent:
+    proposal: "8023"
+- change:
+    type: amendment
+  date: 2018-03-23
+  agent:
+    proposal: "8028"
 annotations: []

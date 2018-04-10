@@ -26,4 +26,9 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: repeal
+  date: 2018-03-06
+  agent:
+    proposal: "8018"
 annotations: []

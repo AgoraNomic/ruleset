@@ -289,4 +289,10 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7998"
-annotations: []
+annotations:
+- cfjs:
+  - id: '3624'
+    called: 2018-02-09
+  text: >
+    A condition of "continuously X for one week" is a relative
+    duration, thus unrelated to Agoran or Eastman weeks.

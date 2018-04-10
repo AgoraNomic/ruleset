@@ -17,7 +17,7 @@ text: |
   Upon doing this, the Melancholy player is ENCOURAGED to change eir
   emotion to Joyous. Joyous: Any player that is Joyous is ENCOURAGED
   to pat Melancholy players on the back. E is also ENCOURAGED to do
-  other kind acts, such as paying shinies to other players or
+  other kind acts, such as paying coins to other players or
   pending other players' proposals.
 history:
 - change:
@@ -30,4 +30,9 @@ history:
   date: 2017-11-06
   agent:
     proposal: "7943"
+- change:
+    type: amendment
+  date: 2018-02-23
+  agent:
+    proposal: "8014"
 annotations: []

@@ -1,0 +1,57 @@
+id: 1996
+name: The Cartographor
+power: 1
+text: |
+  The Cartographor is an office; its holder is recordkeepor for the
+  Land of Arcadia.
+
+  The Cartographor's Weekly Report shall include:
+
+  1. the ownership and land type of all existing land;
+  2. all changes in the ownership and land type of existing land
+     since the most recent report;
+  3. the location for the previous week and the current week of each
+     entity with a defined location;
+  4. the next alternating land type;
+  5. all facilities and their parent land units; and
+  6. a list of all preserved land units.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2001-08-08
+  agent:
+    proposal: "4197"
+- change:
+    type: amendment
+  date: 2002-02-19
+  agent:
+    proposal: "4250"
+- change:
+    type: amendment
+  date: 2002-04-03
+  agent:
+    proposal: "4280"
+- change:
+    type: amendment
+  date: 2003-01-02
+  agent:
+    proposal: "4425"
+- change:
+    type: repeal
+  date: 2003-04-24
+  agent:
+    proposal: "4486"
+- change:
+    type: reenactment
+    power: 1
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+- change:
+    type: retitling
+    new-title: The Cartographor
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+annotations: []

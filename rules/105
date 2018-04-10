@@ -23,14 +23,14 @@ text: |
      next change identifier. If no text is specified, the rule is
      reenacted with the same text it had when it was most recently
      repealed. If the reenacting proposal provides new text for the
-     rule, the rule must have materially the same purpose as did the
-     repealed version; otherwise, the attempt to reenact the rule is
-     null and void. Unless specified otherwise by the re-enacting
-     instrument, a re-enacted rule has power equal to the power it
-     had at the time of its repeal (or power 1, if power was not
-     defined at the time of that rule's repeal). If the re-enacting
-     instrument is incapable of setting the re-enacted rule's power
-     to that value, then the re-enactment is null and void.
+     rule, the rule SHOULD have materially the same purpose as did
+     the repealed version. Unless specified otherwise by the
+     re-enacting instrument, a re-enacted rule has power equal to
+     the power it had at the time of its repeal (or power 1, if
+     power was not defined at the time of that rule's repeal). If
+     the re-enacting instrument is incapable of setting the
+     re-enacted rule's power to that value, then the re-enactment is
+     null and void.
 
   4. amend the text of a rule.
 
@@ -179,6 +179,11 @@ history:
   date: 2017-12-03
   agent:
     proposal: "7986"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8030"
 annotations:
 - cfjs:
   - id: '1499'
