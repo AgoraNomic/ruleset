@@ -75,6 +75,7 @@ data Agent = ProposalAgent Text
                                }
            | WithoutObjectionAgent Text
            | DecreeAgent Text
+           | ConvergenceAgent Text
   deriving (Show, Generic)
 
 instance ToJSON Agent where

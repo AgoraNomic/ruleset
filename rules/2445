@@ -7,11 +7,7 @@ text: |
   "not pending" (default).
 
   Any player CAN flip a specified proposal's imminence to "pending"
-  by announcement by:
-
-  a) spending the current Pend Cost in shinies, OR
-
-  b) Without Objection.
+  by announcement by destroying 1 paper.
 
   An Official Proposal is a proposal designated as such by the
   Rules; generally official proposals that are created as part of an
@@ -80,4 +76,9 @@ history:
   date: 2018-01-30
   agent:
     proposal: "8004"
+- change:
+    type: amendment
+  date: 2018-02-24
+  agent:
+    proposal: "8014"
 annotations: []

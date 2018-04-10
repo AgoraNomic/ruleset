@@ -3,32 +3,28 @@ name: Vigilante Justice
 power: 1.7
 text: |
   A player CAN by announcement, but subject to the provisions of
-  this rule, Point eir Finger at a person who plays the game, citing
-  an alleged violation of the rules by that person.
+  this rule, Point eir Finger at a person (the perp) who plays the
+  game, citing an alleged violation of the rules by that person.
 
   When a player Points a Finger, the investigator SHALL investigate
   the allegation and, in a timely fashion, SHALL conclude the
   investigation by:
 
-  - Imposing the Cold Hand of Justice, issuing a Card to the
-    pointed-at person by announcement whose reason is rooted in the
-    allegation; or
+  - Imposing the Cold Hand of Justice on the perp, as described
+  - elsewhere; or
 
   - if e believes that no rules violation occurred or that it would
-    be ILLEGAL to issue a Card for it, announcing the Finger
-    Pointing to be Shenanigans.
-
-  There is no limit on how many times a player may impose the Cold
-  Hand of Justice per week
+  - be ILLEGAL to levy a fine for it, announcing the Finger Pointing
+  - to be Shenanigans.
 
   The Referee is by default the investigator for all Finger
   Pointing. When a Finger, other than the Arbitor's, is Pointed over
   an allegation related to the official duties or powers of the
   Referee, then the Arbitor CAN, by announcement, take over the
   investigation and thereby become the investigator.
-  
+
   The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
-  Finger at the Referee
+  Finger at the Referee.
 history:
 - change:
     type: enactment
@@ -65,4 +61,9 @@ history:
   date: 2017-12-03
   agent:
     proposal: "7982"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
 annotations: []

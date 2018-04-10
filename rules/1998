@@ -1,0 +1,40 @@
+id: 1998
+name: Land Topology
+power: 1
+text: |
+  Two Units of Land are Adjacent if they have the same Latitude, and
+  their Longitudes differ by exactly one; or they have the same
+  Longitude, and their Latitudes differ by exactly one.
+
+  Land Unit A is said to be connected to Land Unit B if it is
+  possible to reach B by moving only to adjacent Land Units of the
+  same color, starting from A.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2001-08-08
+  agent:
+    proposal: "4197"
+- change:
+    type: amendment
+  date: 2001-11-29
+  agent:
+    proposal: "4217"
+- change:
+    type: amendment
+  date: 2002-04-16
+  agent:
+    proposal: "4283"
+- change:
+    type: repeal
+  date: 2003-04-24
+  agent:
+    proposal: "4486"
+- change:
+    type: reenactment
+    power: 1
+  date: 2018-03-30
+  agent:
+    convergence: "Proposal 8030"
+annotations: []

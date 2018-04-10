@@ -3,12 +3,12 @@ name: Sustenance Payments
 power: 2.4
 text: |
   The Notary CAN, once a month, cause each contract that owns at
-  least one shiny to transfer one shiny to Agora. E SHALL do so in
-  the first Eastman week of every month. If a contract does not own
-  at least one shiny, and is thus unable to make said payment, the
+  least one coin to transfer one coin to Agora. E SHALL do so in the
+  first Eastman week of every month. If a contract does not own at
+  least one coin, and is thus unable to make said payment, the
   Notary CAN and SHALL destroy it With Notice. If a contract becomes
   and remains able to pay before its destruction, the Notary CANNOT
-  destroy it, and CAN and SHALL instead collect the shiny.
+  destroy it, and CAN and SHALL instead collect the coin.
 
   The Notary CAN, by regulation, exempt a contract from the
   preceding paragraph. E SHALL NOT do so unless the contract seems
@@ -24,4 +24,9 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7998"
+- change:
+    type: amendment
+  date: 2018-02-23
+  agent:
+    proposal: "8014"
 annotations: []

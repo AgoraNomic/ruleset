@@ -30,7 +30,7 @@
   rules:
   - Mother, May I?
   - Switches
-  - Numerical Switches
+  - Agoran Numbers
   - Regulated Actions
   - Agoran Time
   - Dependent Actions
@@ -48,8 +48,6 @@
   - Distribution
   - The Assessor
   - Adopting Proposals
-  - Expediting Proposals
-  - Proposal Competitions
   - Silliness
 - name: Voting
   rules:
@@ -74,7 +72,6 @@
   - Deputisation
   - Office Incompatibilities
   - Election Procedure
-  - Campaign Proposals
   - Ratification
   - Ratification Without Objection
   - Self-Ratification
@@ -87,16 +84,14 @@
   - Recusal
 - name: Justice
   rules:
-  - Cards
-  - The Referee
+  - Penalties
+  - The Royal Parade
+  - Blots
+  - Removing Blots
   - Vigilante Justice
   - Official Justice
+  - Sentencing Guidelines
   - Referee Accountability
-  - Green Cards
-  - Blue Cards
-  - Yellow Cards
-  - Red Cards
-  - Pink Slips
 - name: Winning
   rules:
   - Winning the Game
@@ -106,6 +101,7 @@
   - Karmic Balance
   - Medals of Honour
   - Win by Paradox
+  - Zombiception
 - name: Awards
   rules:
   - Ribbons
@@ -138,7 +134,6 @@
 - name: Economics
   rules:
   - Assets
-  - The Royal Parade
   - Distributing Assets
   - Auctions
   - Lots
@@ -149,13 +144,30 @@
   - Auction End
   - Auction Termination
   - Economics
+  - Paydays
+- name: The Land of Arcadia
+  rules:
+  - The Land of Arcadia
+  - Ownership of Land
+  - Land Types
+  - The Cartographor
+  - Land Topology
+  - Entity Location
+  - Actions in Arcadia
+  - Land Auctions
+  - Land Transfiguration
+  - Preserved Land
+  - Facilities
+  - Asset Generation with Facilities
+  - Facility Ranks
+  - Production Facilities
+  - Processing Facilities
 - name: Agoran Culture
   rules:
-  - The Agoran Newspaper
   - Read the Ruleset Week
   - Happy Birthday
   - Tournaments
+  - Free Tournaments
   - The Birthday Tournament
   - Holidays
-  - Poetry Duel Challenge Writ
   - Town Fountain

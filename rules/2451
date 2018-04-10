@@ -16,11 +16,11 @@ text: |
   - Certiorari (Arbitor): The Prime Minister assigns emself as judge
     of a specified open case.
 
-  - Dive (Referee): The Prime Minister issues a specified Card to a
-    specified player. Notwithstanding rule 2426, the reason for the card
-    MAY be any grievance held by the Prime Minister, not necessarily a
-    violation of the rules, against the person to whom the Card is
-    issued.
+  - Dive (Referee): The Prime Minister levies a 2 Blot fine on a
+    specified player. Rules to the contrary notwithstanding, the
+    reason for the fine MAY be any grievance held by the Prime
+    Minister, not necessarily a violation of the rules, against the
+    person to whom the fine is levied.
 
   - Manifesto (Promotor): The Prime Minister distributes a specified
     proposal in the Proposal Pool.
@@ -62,4 +62,9 @@ history:
   date: 2017-11-07
   agent:
     proposal: "7964"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8029"
 annotations: []

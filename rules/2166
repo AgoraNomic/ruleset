@@ -43,8 +43,9 @@ text: |
     2. Otherwise, it is unwilling to receive all assets.
 
   The previous paragraph (including the list) notwithstanding, a
-  contract CAN be given 1 shiny a month for its sustenance payment,
-  so long as it never has more than 1 shiny at a time.
+  contract CAN be given 1 unit of Agora’s official currency a month
+  for its sustenance payment, so long as it never has more than 1
+  unit of Agora’s official currency at a time.
 
   The recordkeepor of a class of assets is the entity (if any)
   defined as such by, and bound by, its backing document. That
@@ -244,6 +245,11 @@ history:
   date: 2018-01-31
   agent:
     proposal: "8003"
+- change:
+    type: amendment
+  date: 2018-03-30
+  agent:
+    proposal: "8030"
 annotations:
 - cfjs:
   - id: '3597'

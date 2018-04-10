@@ -1,0 +1,17 @@
+id: 2554
+name: Zombiception
+power: 1
+text: |
+  If every member of a set of zombies has a master who is a member
+  of that set of zombies, then any player CAN announce a
+  Zombiception, listing the members of the set. Upon such an
+  announcement, all members of the set win the game and have their
+  master flipped to Agora.
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2018-03-23
+  agent:
+    proposal: "8026"
+annotations: []
