@@ -1,5 +1,8 @@
 THE FULL LOGICAL RULESET
 
+Most Recent Ruleset Change Recorded:
+      Proposal 8045 (Q*Bert the Second) took effect on 8 May 2018
+      
 ========================================================================
 The Game of Agora
 ------------------------------------------------------------------------
@@ -602,7 +605,7 @@ Enacted by Proposal 7950 "Boooo!" (G.), Nov 12, 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1885/6 (Power=2.0)
+Rule 1885/7 (Power=2.0)
 Zombie Auctions
 
       Whenever a zombie (1) has Agora for a master, (2) an auction for
@@ -618,14 +621,10 @@ Zombie Auctions
       
       For such an auction, the lots are the qualifying zombies, ordered
       at the discretion of the Registrar. The Registrar is the
-      announcer, and the minimum bid is 1.
+      announcer, and the minimum bid is 1. For the purpose of such a 
+      auction, to transfer a zombie to a player is to set that zombie's 
+      master switch to that player.
       
-      The Registrar CAN, by announcement, flip the master switch of a
-      zombie lot from Agora to that lot's winner after the winner has
-      paid for the lot; for the purposes of the auction, to transfer a
-      zombie to a player is to set that zombie's master switch to that
-      player.
-
 History:
 Enacted by Proposal 3853 (Blob), Apr 19, 1999
 Amended(1) by Proposal 3901 (Schneidster), Sep 06, 1999
@@ -638,36 +637,7 @@ Power changed from power 1.0 to 2.0 by Proposal 7952 "It LIVES" (G.),
 Amended(5) by Proposal 8023 "Zombie Lots" (G.; with Aris), Mar 06,
   2018
 Amended(6) by Proposal 8028 "Zombie patch" (G.), Mar 23, 2018
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2514/2 (Power=1.0)
-Emotions
-
-      Emotion is a player switch, tracked by the Registrar, with
-      possible values Joyous, Melancholy, and Indifferent, that defaults
-      to Indifferent.
-      
-      At any time, any player CAN by announcement flip eir own Emotion
-      to any value it is currently not. When doing this, e MUST provide
-      a reason as to why e changed eir Emotion as such. It is IMPOSSIBLE
-      to change another player's Emotion. A player's Emotion has the
-      following effects:
-      
-      Indifferent: No effect. Melancholy: Any player that is not
-      currently Melancholy MAY pat any Melancholy player on the back.
-      Upon doing this, the Melancholy player is ENCOURAGED to change eir
-      emotion to Joyous. Joyous: Any player that is Joyous is ENCOURAGED
-      to pat Melancholy players on the back. E is also ENCOURAGED to do
-      other kind acts, such as paying coins to other players or
-      pending other players' proposals.
-
-History:
-Enacted by Proposal 7913 "Cheer Up v7?" (ATMunn), Oct 15, 2017
-Amended(1) by Proposal 7943 "Mini fixes" (ATMunn), Nov 06, 2017
-Amended(2) by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
-  Aris, ATMunn, G., o, VJ Rada), Feb 23, 2018
+Amended(7) by Proposal 8041 (Aris, Trigon, G.), Apr 28, 2018
 
 Annotations:
 
@@ -2135,7 +2105,7 @@ CFJ 1717 (called Aug 08, 2007):
   intended to become a proposal.
 
 ------------------------------------------------------------------------
-Rule 2445/12 (Power=1.0)
+Rule 2445/13 (Power=1.0)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
@@ -2151,6 +2121,14 @@ How to Pend a Proposal
       Official proposal is always pending. Rules to the contrary
       notwithstanding, players CANNOT claim rewards for the adoption of
       an Official proposal.
+      
+      The holder of an Office CAN Rubberstamp a proposal for that
+      specified office, without 3 objections, if no other proposal has
+      been rubberstamped for that office in the current Agoran month.
+      When rubberstamped, the proposal becomes an official proposal
+      associated with that office. Rubberstamping SHOULD only be used to
+      make rule or gamestate corrections associated with the duties of
+      that office.
 
 History:
 Enacted by Proposal 7728 (Tiger), Nov 24, 2014
@@ -2170,6 +2148,7 @@ Amended(10) by Proposal 7883 "Fear v2.1" (G.), Sep 26, 2017
 Amended(11) by Proposal 8004 "Rusty" (G.), Jan 30, 2018
 Amended(12) by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
   Aris, ATMunn, G., o, VJ Rada), Feb 24, 2018
+Amended(13) by Proposal 8043 (G.), May 8, 2018
 
 Annotations:
 
@@ -2401,46 +2380,6 @@ CFJ 2163 (called Sep 14, 2008):
 CFJ 2259 (called Nov 06, 2008):
   The possibility of the instantaneous effects of a proposal are
   governed by the rules.
-
-------------------------------------------------------------------------
-Rule 1650/4 (Power=1.0)
-Silliness
-
-      Each Agoran Week a Player is designated the Silly Person. The
-      Silly Person SHALL and CAN in that week, by announcement (1)
-      designate another player, who has not been the Silly Person in the
-      past two weeks, to be the next week's Silly Person; (2) submit a
-      Silly Proposal. If there is ever no Silly Person or the Silly
-      Person is not a player, then the next week's Silly Person is the
-      first player that any player publicly designates to be the next
-      week's Silly Person.
-      
-      A Silly Proposal is a Proposal whose sole contents are one of the
-      following:
-      
-      i) A limerick.
-      
-      ii) A poem with a rhyme scheme and/or strict metrical structure no
-      longer than 14 lines (No free verse!)
-      
-      iii) A joke or truly hideous pun of no more than a two hundred
-      words.
-      
-      The first Silly Proposal submitted by the week's Silly Person is
-      an Official Proposal.
-
-History:
-Enactedwith MI=1  by Proposal 2673, Sep 26, 1996
-Repealed by Proposal 3688 "Repeal-O-Matic", Feb 21, 1998
-Reenacted(1) by Proposal 7908 "Silly season" (G.), Oct 05, 2017
-Amended(2) by Proposal 7943 "Mini fixes" (ATMunn), Nov 06, 2017
-Amended(3) by Proposal 7972 "Silly Tweaks" (G.), Nov 21, 2017
-Amended(4) by Proposal 8015 "There once was a Rule" (G.), Feb 24, 2018
-
-Annotations:
-CFJ 3622 (called Feb 07, 2018):
-  There is no Silly Player in a week if no player was designated as
-  such.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3582,6 +3521,22 @@ Amended(52) by Proposal 8013 "Must elections be political?" (G.), Feb
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2573/0 (Power=2.0)
+Impeachment
+
+      A player CAN be expelled (impeached) from a specified elected 
+      office which e holds with 2 Agoran Consent. When a person is
+      impeached from an office, an election is immediately opened for
+      that office. Players SHOULD NOT use this method of removal unless
+      the officer has abused the powers of eir office or otherwise shown
+      emself unworthy the trust of Agora.
+      
+History:
+Enacted by Proposal 8036 (Aris), Apr 28, 2018 
+
+Annotations:
+
+------------------------------------------------------------------------
 Rule 1551/18 (Power=3.1)
 Ratification
 
@@ -4135,7 +4090,7 @@ Annotations:
 ========================================================================
 Justice
 ------------------------------------------------------------------------
-Rule 2556/0 (Power=3.0)
+Rule 2556/1 (Power=3.0)
 Penalties
 
       Rules to the contrary notwithstanding, an impure person CANNOT win
@@ -4143,9 +4098,13 @@ Penalties
       
       The voting strength of a player on an Agoran Decision is reduced
       by 1 for every 3 blots in eir possession.
+      
+      A player CAN, with 7 days notice, deregister (exile) a specified
+      player (the outlaw) who has more than 40 blots.
 
 History:
 Enacted by Proposal 8029 "Blots v1.0" (G.; with Aris), Mar 30, 2018
+Amended(1) by Proposal 8040 (Aris, Ørjan), Apr 28, 2018
 
 Annotations:
 
@@ -4209,18 +4168,22 @@ Enacted by Proposal 8029 "Blots v1.0" (G.; with Aris), Mar 30, 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2557/0 (Power=1.7)
+Rule 2557/1 (Power=1.7)
 Removing Blots
 
-      If a player has neither gained blots nor expunged any blots from
-      emself in the current Agoran week, e CAN expunge 1 blot from
-      emself by announcement.
+      A player CAN, by announcement, destroy N incense in eir possession
+      to expunge N of eir blots. When e does so, e is STRONGLY
+      ENCOURAGED to publicly and grandiloquently apologize to the Spirit
+      of the Game for eir grave crime in breaking the rules, to 
+      verbosely praise the same spirit, and to fervently request 
+      forgiveness.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
 
 History:
-Enacted by Proposal 8029 "Blots v1.0" (G.; with Aris), Mar 30, 2018
+Enacted by Proposal 8029 "Blots v1.0" (G., Aris), Mar 30, 2018
+Amended(1) by Proposal 8040 (Aris, Ørjan), Apr 28, 2018
 
 Annotations:
 
@@ -4503,7 +4466,7 @@ Amended(2) by Proposal 8022 "Anyone can balance Karma" (G.), Mar 06,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2529/3 (Power=1.0)
+Rule 2529/4 (Power=1.0)
 Medals of Honour
 
       Medals of Honour are a destructible fixed currency tracked by the
@@ -4520,17 +4483,18 @@ Medals of Honour
       
       * In the last Agoran month, e has not had a fine levied on em.
       
-      In the second Eastman week of an Agoran month, if there are any
-      players who are eligible for a Medal of Honour, the Herald CAN, by
+      Beginning in the second Eastman week of an Agoran month and ending
+      when the next Agoran month begins, if there are any players who
+      are eligible for a Medal of Honour, the Herald CAN, by
       announcement, initiate an Agoran Decision on who is to be awarded
       a Medal of Honour. E SHALL do so within the second Eastman week of
-      that Agoran month. For this decision, the valid votes are all
+      that Agoran month. For this decision, the valid options are all 
       players who are eligible for a Medal of Honour, the vote collector
-      is the Herald, and the voting method is instant-runoff. Upon the
+      is the Herald, and the voting method is instant-runoff. Upon the 
       resolution of this decision, the Herald CAN, and SHALL in a timely
       fashion, award the outcome of the decision a Medal of Honour by
       announcement. After a player is awarded a Medal of Honour, all
-      players who were previously eligible for a Medal of Honour become
+      players who were previously eligible for a Medal of Honour become 
       no longer eligible.
       
       If, at any time, any player has 6 or more Medals of Honour, and e
@@ -4545,6 +4509,7 @@ Amended(1) by Proposal 7962 "Medals of Honour Fix" (ATMunn), Nov 16,
 Amended(2) by Proposal 7998 "Eastman weeks" (Murphy; with ATMunn), Jan
   31, 2018
 Amended(3) by Proposal 8029 "Blots v1.0" (G.; with Aris), Mar 30, 2018
+Amended(4) by Proposal 8037 (ATMunn), Apr 28, 2018
 
 Annotations:
 CFJ 3629 (called Feb 21, 2018):
@@ -4945,11 +4910,11 @@ Annotations:
 Rule 2231/6 (Power=3.0)
 Order of the Hero of Agora Nomic
 
-      Heroic titles are Agora's premier patent titles of distinction, and
-      CAN be awarded to persons for meritorious service only by a
+      Heroic titles are Agora's premier patent titles of distinction, 
+      and CAN be awarded to persons for meritorious service only by a
       proposal of power 3 or greater, which SHOULD explain why those
-      persons are qualified. Bearers of heroic titles (Heroes) constitute
-      the Order of the Hero of Agora Nomic.
+      persons are qualified. Bearers of heroic titles (Heroes) 
+      constitute the Order of the Hero of Agora Nomic.
       
       The Heroic titles in decreasing precedence are:
       
@@ -5793,7 +5758,7 @@ Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2551/0 (Power=1.0)
+Rule 2551/1 (Power=1.0)
 Auction End
 
       An Auction ends 7 days after its initiation, or immediately if no
@@ -5826,15 +5791,17 @@ Auction End
       
       The winner of a lot SHALL pay the Auctioneer the number of the
       Auction's currency equal to eir bid, in a single payment, in a
-      timely fashion. When e does so, the Auctioneer SHALL transfer the
-      items in that lot to that winner in a timely fashion. If the
-      Auctioneer is not a person, then a person authorized to cause the
-      Auctioneer to transfer those items SHALL do so in a timely fashion
-      after the winner pays the Auctioneer, instead.
+      timely fashion. When e does so, if the auctioneer CAN transfer the 
+      items in that lot to that winner at will, e immediately does so; 
+      otherwise, e SHALL do so in a timely fashion. For this purpose, a 
+      contract CAN do whatever it could do if it were a person in 
+      addition to what it can do as a contract, and Agora CAN do 
+      anything.
 
 History:
 Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
   G.), Nov 26, 2017
+Amended(1) by Proposal 8041 (Aris, Trigon, G.), Apr 28, 2018
 
 Annotations:
 CFJ 3615 (called Nov 27, 2017):
@@ -5860,26 +5827,28 @@ Enacted by Proposal 7975 "Auctions v6" (ATMunn; with o, Aris, nichdel,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2483/7 (Power=2.0)
+Rule 2483/8 (Power=2.0)
 Economics
 
       The following currencies are defined, and are tracked by the
       Treasuror. They can be owned by Agora, players, contracts, and
       facilities.
       
-      1. ore
-      2. stones
-      3. lumber
-      4. apples
-      5. cotton
-      6. corn
-      7. coins
-      8. papers
-      9. fabric
+      1.  ore
+      2.  stones
+      3.  lumber
+      4.  apples
+      5.  cotton
+      6.  corn
+      7.  coins
+      8.  papers
+      9.  fabric
+      10. incense
       
-      Stones, apples, and corn are considered unrefinable currencies;
-      ore, lumber, and cotton are considered refinable currencies; and
-      coins, papers, and fabric are considered refined currencies.
+      Stones, apples, corn, and incense are considered unrefinable
+      currencies; ore, lumber, and cotton are considered refinable 
+      currencies; and coins, papers, and fabric are considered refined 
+      currencies.
       
       Coins are the official currency of Agora.
 
@@ -5896,11 +5865,12 @@ Amended(5) by Proposal 7924 "Contracts v8" (Aris; with Aris, o, G.,
 Amended(6) by Proposal 8004 "Rusty" (G.), Jan 31, 2018
 Amended(7) by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
   Aris, ATMunn, G., o, VJ Rada), Feb 23, 2018
+Amended(8) by Proposal 8040 (Aris, Ørjan), Apr 28, 2018
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2559/0 (Power=2.0)
+Rule 2559/2 (Power=2.0)
 Paydays
 
       Whenever a Payday occurs, the following events happen in order:
@@ -5910,12 +5880,13 @@ Paydays
          A. 10 coins
          B. 5 apples
          C. 2 papers
+         D. 3 incense
       
       2. For each office, if a single player held that office for 16 or
-         more days in the previous month and e was not issued any Cards
-         other than Green for eir conduct in that office during that
-         time, the following assets are created in the possession of
-         that player:
+         more days in the previous month and no unforgivable fines were 
+         levied on em for eir conduct in that office during that time, 
+         the following assets are created in the possession of that 
+         player:
          A. 5 coins
          B. 1 corn
       
@@ -5924,6 +5895,34 @@ Paydays
 
 History:
 Enacted by Convergence caused by Proposal 8030, Mar 30, 2018
+Amended(1) by Proposal 8034 (G.), Apr 28, 2018
+Amended(2) by Proposal 8040 (Aris, Ørjan), Apr 28, 2018  
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2499/2 (Power=1.0)
+Welcome Packages
+
+      If a player has not received a Welcome Package since e most
+      recently registered, any player CAN cause em to receive one by
+      announcement.
+
+      When a player receives a Welcome Package, Agora creates the
+      following assets in eir possession:
+
+      1. 10 coins
+      2. 5 lumber
+      3. 5 stones
+      4. 10 apples
+      5. 3 papers
+
+History:
+Enacted by Proposal 7867 "Economics Overhaul v2" (nichdel; with o,
+  grok, Aris), Jul 30, 2017
+Amended(1) by Proposal 7882 (o; with K, ais523), Sep 26, 2017
+Repealed by Proposal 8004 (G.), Jan 31, 2018
+Re-enacted(2) by Proposal 8041 (Aris, Trigon, G.), Apr 28, 2018
 
 Annotations:
 
@@ -5984,15 +5983,21 @@ Reenacted(1) by Convergence caused by Proposal 8030, Mar 30, 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1995/2 (Power=2.0)
+Rule 1995/4 (Power=2.0)
 Land Types
 
       Each Unit of Land has a Land Type switch, tracked by the
-      Cartographor, whose values are "Black", "White", and "Aether" (the
-      default). Changes to Land Type switches are secured. To "change
-      the type" of, or to "transform" a Unit of Land is to flip its Type
-      switch. A “Unit of X” is a Unit of Land whose Land Type switch has
-      the value X.
+      Cartographor. Possible values are:
+
+      1. Black
+      2. White
+      3. Gray
+      4. Aether (the default)
+
+      Changes to Land Type switches are secured. To "change the type"
+      of, or to "transform" a Unit of Land is to flip its Type switch. A
+      "Unit of X" is a Unit of Land whose Land Type switch has the value
+      X.
       
       When existent Land has not had its Type changed as explicitly
       permitted by the Rules, or has a Type that is not currently
@@ -6006,11 +6011,11 @@ Land Types
       on the Land Unit, and set all other switches on the Land Unit to
       their default values.
       
-      Type is a singleton switch with the values of Black and White,
-      defaulting to Black. When an act specifies that an alternating
-      land type is to be used, the current value of the Alternating Land
-      Type switch is used, and the switch is set to the next value of
-      the switch.
+      Alternating Land Type is a singleton switch with the values of 
+      Black and White, defaulting to Black. When an act specifies that 
+      an alternating land type is to be used, the current value of the 
+      Alternating Land Type switch is used, and the switch is set to the
+      next value of the switch.
 
 History:
 Enacted by Proposal 4197 (Goethe), Aug 08, 2001
@@ -6019,6 +6024,9 @@ Repealed by Proposal 4486 "Of what worth honor?" (Michael), Apr 24,
 Reenacted(1) by Convergence caused by Proposal 8030, Mar 30, 2018
 Amended(2) by Proposal 8030 "PAoaM Patch v4" (Aris; with Gaelan,
   Trigon, G.), Mar 30, 2018
+Amended(3) by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28,
+  2018
+Amended(4) by Proposal 8045 (Trigon, G., Corona), May 8 2018
 
 Annotations:
 
@@ -6100,16 +6108,18 @@ Reenacted(1) by Convergence caused by Proposal 8030, Mar 30, 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2003/12 (Power=1.0)
+Rule 2003/13 (Power=1.0)
 Actions in Arcadia
 
       Players CAN destroy:
       
-      1. 1 apple to move from one Land Unit to an adjacent Unit if their
-         Land Types are the same and the destination is not Aether;
+      1. 1 apple to move from one Land Unit to an adjacent Unit if their 
+         Land Types are the same or one of them is gray, and the 
+         destination is not Aether;
       
-      2. 2 apples to move from one Land Unit to an adjacent Unit if
-         their Land Types differ and the destination is not Aether;
+      2. 2 apples to move from one Land Unit to an adjacent Unit if 
+         their Land Types differ, neither is gray, and the destination 
+         is not Aether;
       
       3. 2 apples to set Land Type of a Land Unit which e owns to any
          Land Type other than Aether, whether or not e is located at
@@ -6126,8 +6136,8 @@ Actions in Arcadia
       6. 6 apples to set the Land Type of a Land Unit that is of type
          Aether, and is owned by Agora, to an alternating Land Type.
       
-      Players CAN, while performing the above actions, substitute 3
-      apples for 1 corn.
+      Players CAN, while performing the above actions, substitute 1 coin 
+      for three or fewer apples.
 
 History:
 Enacted by Proposal 4207 (neil), Sep 03, 2001
@@ -6145,29 +6155,31 @@ Amended(11) by Proposal 4453 (Sherlock), Feb 22, 2003
 Repealed by Proposal 4486 "Of what worth honor?" (Michael), Apr 24,
   2003
 Reenacted(12) by Convergence caused by Proposal 8030, Mar 30, 2018
+Amended(13) by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 
+  28, 2018
+Amended(14) by Proposal 8041 (Aris, Trigon, G.), Apr 28, 2018
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2004/5 (Power=1.0)
+Rule 2004/6 (Power=1.0)
 Land Auctions
 
-      Every Agoran Week, if the number of units of Private Land is less
-      than one half the total number of units of Land, the Cartographor
-      CAN and SHALL initiate an auction. For this auction, the announcer
-      is the Cartographor, the auctioneer is Agora, the lots are chosen
-      as such:
-      
-      1. if there exist at least 5 Units of non-Aether Land in the
-         possession of Agora with the preservation switch set to False:
-         any 5 such Units of Land, to be chosen by the Cartographor,
-         each Land Unit in a separate lot;
-      
-      2. if there exist fewer than 5 Units of non-Aether Land in the
-         possession of Agora: all such Units, each land unit in a
-         separate lot;
-      
-      and the minimum bid is 1 coin.
+      Every Agoran Week, if the number of Units of Private Land is less
+      than one half the total number of units of Land, a number of
+      Public, non-Aether, Preserved Land Units are chosen using the
+      following process:
+
+      1. If there exist more than 5 such units, the Cartographor SHALL
+         choose exactly 5 of them.
+
+      2. If there exist 5 or fewer such units, all are automatically
+         chosen.
+
+      For each land unit selected by the process described above, the
+      Cartographor CAN and SHALL initiate an auction with it as the only
+      lot. For this auction, the announcer is the Cartographor, the
+      auctioneer is Agora, and the minimum bid is 1 coin.
 
 History:
 Enacted by Proposal 4210 (neil), Sep 10, 2001
@@ -6179,6 +6191,7 @@ Repealed by Proposal 4486 "Of what worth honor?" (Michael), Apr 24,
 Reenacted(4) by Convergence caused by Proposal 8030, Mar 30, 2018
 Amended(5) by Proposal 8030 "PAoaM Patch v4" (Aris; with Gaelan,
   Trigon, G.), Mar 30, 2018
+Amended(6) by Proposal 8044 (Trigon), May 8, 2018
 
 Annotations:
 
@@ -6284,76 +6297,80 @@ Amended(1) by Proposal 8030 "PAoaM Patch v4" (Aris; with Gaelan,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2561/1 (Power=2.0)
+Rule 2561/3 (Power=2.0)
 Asset Generation with Facilities
 
-      When facilities create assets, the assets are added to the
-      facility's possession. The rule that creates a facility CAN
-      specify a carrying capacity for assets. If, at any time, the
-      amount of an asset in the possession of a facility exceeds that
-      asset's carrying capacity, an amount of that asset is destroyed
-      until the amount of that asset in the possession of the facility
-      is equal to its carrying capacity.
-      
-      Each facility is either a production facility or processing
-      facility, to be specified in the rule that creates them. At the
-      end of every Agoran Week, Agora creates a number of assets in a
-      production facility specified by the rule which creates the
+      When an Production or Processing facility creates assets, the 
+      assets are added to the facility's possession. The rule that 
+      creates an Production or Processing facility CAN specify a 
+      carrying capacity for assets. If, at any time, the amount of an 
+      asset in the possession of an Production or Processing facility 
+      exceeds that asset's carrying capacity, an amount of that asset is
+      destroyed until the amount of that asset in the possession of the 
+      facility is equal to its carrying capacity.
+
+      At the end of every Agoran Week, Agora creates a number of assets 
+      in a Production facility specified by the rule which creates the 
       facility.
-      
-      At the end of every Agoran Week, Agora destroys any refinable
-      assets in the possession of each processing facility that that
-      facility can change into refinable assets and replaces them with a
+
+      At the end of every Agoran Week, Agora destroys any refinable 
+      assets in the possession of each Processing facility that that 
+      facility can change into refined assets and replaces them with a 
       corresponding number of refined assets to be specified by the rule
       that creates the facility.
-      
-      A player can take a number of assets from a facility's inventory
-      by announcement if eir location is the same as the facility's and
-      the following criteria are met:
-      
-      1. if the facility is built on unconserved Public Land, none.
-      
-      2. if the facility is built on preserved Public Land and less than
-         four days have passed since assets were created in the facility
-         most recently, e must not have taken any assets from the
-         inventory of another facility located on a preserved Land Unit
-         within this Agoran week.
-      
-      3. if the facility is built on Communal Land, e must be a party to
-         that contract and the text of the contract must permit em to do
-         so.
-      
-      4. if the facility is built on Private Land, e must own the
-         facility, or the owner must have consented.
+
+      A player CANNOT transfer assets to a facility not at eir location.
+      A player can take a number of assets from an Production or 
+      Processing facility's inventory by announcement if eir location is
+      the same as the facility's and the following criteria are met:
+       1. if the facility is built on unconserved Public Land, none.
+       2. if the facility is built on preserved Public Land and less 
+          than four days have passed since assets were created in the 
+          facility most recently, e must not have taken any assets from 
+          the inventory of another facility located on a preserved Land
+          Unit within this Agoran week.
+       3. if the facility is built on Communal Land, e must be a party 
+          to that contract and the text of the contract must permit em 
+          to do so.
+       4. if the facility is built on Private Land, e must own the 
+          facility, or the owner must have consented.
 
 History:
 Enacted by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
   Aris, ATMunn, G., o, VJ Rada), Feb 23, 2018
 Amended(1) by Proposal 8025 "Ensure fair distribution of assets"
   (Corona), Mar 23, 2018
-
+Amended(2) by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28, 
+  2018
+Amended(3) by Proposal 8041 (Aris, Trigon, G.), Apr 28, 2018
+ 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2562/0 (Power=2.0)
+Rule 2562/1 (Power=2.0)
 Facility Ranks
 
       Rank is a facility switch tracked by the Cartographor defaulting
-      to 1. Its possible values include all integers between 1 and 5,
+      to 1. Its possible values include all integers between 1 and 5, 
       inclusive.
-      
-      A player CAN increase the rank of a facility e owns that is at eir
-      location by exactly 1 by announcement by paying any upgrade costs
-      of the facility for that specific rank.
+
+      If a facility specifies upgrade costs, a player CAN increase the 
+      rank of a facility e owns that is at eir location by exactly 1 by
+      announcement by paying any upgrade costs of the facility for that
+      specific rank. If no upgrade costs are specified for a facility, a
+      player CANNOT increase the rank of that facility unless specified 
+      in other rules.
 
 History:
 Enacted by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
   Aris, ATMunn, G., o, VJ Rada), Feb 23, 2018
+Amended(1) by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28, 
+  2018
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2563/0 (Power=2.0)
+Rule 2563/1 (Power=2.0)
 Production Facilities
 
       For the purposes of this rule, the variable n is equivalent to the
@@ -6390,10 +6407,21 @@ Production Facilities
             -  Rank 3: 4 coins, 2 lumber, 2 stones
             -  Rank 4: 5 coins, 4 lumber, 4 stones, 1 fabric
             -  Rank 5: 6 coins, 6 lumber, 6 stones, 3 fabric
+            
+      4. Temples
+         -  Build Cost: 2 lumber, and 3 fabric
+         -  Upkeep Cost: n-1 fabric
+         -  Production Details: 3n incense
+         -  Upgrade Costs:
+            -  Rank 2: 4 coins, 1 lumber, 1 fabric
+            -  Rank 3: 6 coins, 2 lumber, 3 fabric
+            -  Rank 4: 8 coins, 4 lumber, 2 stones, 5 fabric
+            -  Rank 5: 10 coins, 6 lumber, 4 stones, 7 fabric
 
 History:
 Enacted by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
   Aris, ATMunn, G., o, VJ Rada), Feb 23, 2018
+Amended(1) by Proposal 8040 (Aris, Ørjan), Apr 28, 2018
 
 Annotations:
 
@@ -6438,6 +6466,153 @@ Processing Facilities
 History:
 Enacted by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
   Aris, ATMunn, G., o, VJ Rada), Feb 23, 2018
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2567/0 (Power=2.0)
+Facility Categories
+      
+      A facility's Category is a switch whose possible values are
+      "Production", "Processing", "Monument", and "Miscellaneous".  An 
+      "x facility", where x is a Category, refers to a facility that has
+      Category switch set to x.
+
+History:
+Enacted by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28, 
+  2018 
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2568/0 (Power=2.0)
+Facility Colors
+
+      A facility's Allowed Land Types is a switch with allowed values of
+      a list of allowed values of the Land Type switch, with a default
+      value of {"Black", "White"}. A facility may not have a Parent Land
+      Unit whose Land Type is not an element of their Allowed Land 
+      Types. If an action or set of actions would cause a facility to be
+      created with a Parent Land Unit whose Land Type is not an element
+      of its Allowed Land Types, that action or set of actions fails. If
+      a facility's Parent Land Unit's Land Type is flipped to a color 
+      that is not in that facility's Allowed Land Types, that facility 
+      is destroyed.
+
+      An “x facility”, where x is a Land Type or list of Land Types, 
+      refers to a facility that has the Allowed Land Types switch set to
+      x.
+
+History:
+Enacted by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28, 
+  2018 
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2569/0 (Power=2.0)
+Gray Land
+
+      Gray Land is preserved and owned by Agora. If Land becomes Gray 
+      Land, it, along with any facilities with it as their Parent Land 
+      Unit, is transferred to Agora.
+
+History:
+Enacted by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28, 
+  2018 
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2570/0 (Power=1.0)
+Monument Facilities
+
+      For each type of Monument facility, there may only be one instance
+      of that facility in existence at any one time. An action CANNOT
+      cause an Monument facility to exist while another Monument 
+      facility of the same type is already in existence.
+
+History:
+Enacted by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28, 
+  2018 
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2571/0 (Power=1.0)
+The Fountain
+
+      A fountain is a Gray Monument facility. A fountain has no upkeep 
+      cost.
+
+History:
+Enacted by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28, 
+  2018 
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2572/0 (Power=1.0)
+Wishing Fountain
+
+      If a player's location is the same as a fountain, e CAN destroy a
+      coin to Throw A Coin into the fountain. This does nothing, unless
+      specified in another Rule. A player MAY announce what e wishes for
+      when e Throws A Coin.
+
+History:
+Enacted by Proposal 8033 (Aris, Cuddle Beam, Gaelan, Trigon), Apr 28, 
+  2018 
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2046/1 (Power=1.0)
+Q*Bert
+
+      Q*Bert is an entity which has a location. Q*Bert CAN be on a unit
+      of Aether.
+
+      Q*Bert has a color switch, tracked by the Cartographor, whose
+      possible values are all defined Land Type other than Aether or
+      Gray. The default value is Black. When Q*Bert moves to a Land
+      Unit, if the current type of the unit is not the same as Q*Bert's
+      color switch, Q*Bert changes that space's type to the value of eir
+      color switch.
+
+      Every week, the Cartographor CAN and SHALL move Q*Bert using the
+      following process:
+
+      1. If Q*Bert is on the same Land Unit as another entity, the
+         Cartographor SHALL select a Land Unit adjacent to Q*Bert's
+         current position and move em there.
+
+      2. Otherwise, the Cartographor SHALL select a Land Unit whose
+         longitude and latitude both differ from Q*Bert's by exactly
+         one.
+
+      If, after Q*Bert has moved, e is on a Preserved Land Unit, the
+      Cartographor SHALL repeat the process above, moving Q*Bert until e
+      is no longer on a Preserved Land Unit.
+
+      If the type of the Land Unit that Q*Bert is located on is switched 
+      by an entity that is not Q*Bert, Q*Bert's color switch is set to 
+      that type instead.
+
+      Whenever Q*Bert is moved to (0, 0), the Cartographor CAN and SHALL
+      choose a random Land Type that is an allowed value of Q*Bert's
+      color switch and set Q*Bert's color switch to it.
+
+      When referring to Q*Bert, entities CAN replace the "*" with any
+      punctuation character or spell it with a lowercase letter "b"
+      (i.e. Q-Bert, Q^bert)
+
+History:
+
+Created by Proposal 4471 "Q-bert" (OscarMeyr), Mar 19, 2003
+Repealed by Proposal 4486 "Of what worth honor?" (Michael; with Goethe,
+  Murphy), Apr 23, 2003
+Re-enacted(1) by Proposal 8045 (Trigon, G., Corona) May 8, 2018
 
 Annotations:
 
@@ -6681,5 +6856,4 @@ CFJ 1736 (called Aug 23, 2007):
 
 ------------------------------------------------------------------------
 ========================================================================
-
 END OF THE FULL LOGICAL RULESET
