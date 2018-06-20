@@ -1,7 +1,8 @@
 THE SHORT LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded:
-      Proposal 8045 (Q*Bert the Second) took effect on 8 May 2018
+  Proposal 8052 (Let's not make game assets...) took effect 8 May 2018
+Highest Rule ID ever assigned: 2575
 
 ========================================================================
 The Game of Agora
@@ -37,7 +38,7 @@ Agora Is A Nomic
 ========================================================================
 Players
 ------------------------------------------------------------------------
-Rule 869/43 (Power=3.0)
+Rule 869/44 (Power=3.0)
 How to Join and Leave Agora
 
       Any organism that is generally capable of freely originating and
@@ -60,9 +61,6 @@ How to Join and Leave Agora
       A person, by registering, agrees to abide by the Rules. The Rules
       CANNOT otherwise bind a person to abide by any agreement without
       that person's willful consent.
-
-      If a player has not sent a message to a public forum in the last
-      month, then any player CAN deregister em with 3 Agoran Consent.
 
       The Rules CANNOT compel non-players to act without their express
       or reasonably implied consent. The rules CANNOT compel players to
@@ -108,6 +106,17 @@ Fora
       date-stamped on that message. Actions in messages (including
       sub-messages) are performed in the order they appear in the
       message, unless otherwise specified.
+
+------------------------------------------------------------------------
+Rule 2575/0 (Power=3.0)
+The Distributor
+
+      The Distributor is an imposed office whose holder is generally
+      responsible for the management of the primary Agoran fora.
+      The holder CANNOT be changed except Without Objection or by
+      proposal.  Rules to the contrary notwithstanding, the
+      Distributor's master switch CANNOT be flipped to be other than
+      emself, and e CANNOT deregister or be deregistered.
 
 ------------------------------------------------------------------------
 Rule 2139/12 (Power=2.0)
@@ -167,7 +176,7 @@ Cantus Cygneus
       all may know said Player deregistered in a Writ of FAGE.
 
 ------------------------------------------------------------------------
-Rule 2532/0 (Power=2.0)
+Rule 2532/1 (Power=2.0)
 Zombies
 
       Master is a secured player switch with possible values of any
@@ -175,35 +184,71 @@ Zombies
       to the contrary notwithstanding, a player CAN always flip eir own
       master to emself by announcement.
 
-      A player whose master is not emself is a Zombie. A zombie's
-      master, if another player, is allowed to act on behalf of the
-      zombie (i.e. as the zombie's agent) to perform LEGAL actions.
+      A player whose master is not emself is a zombie (syn. inactive);
+      all other players are active.  A zombie's master, if another
+      player, is allowed to act on behalf of the zombie (i.e. as the
+      zombie's agent), except a master CANNOT act on behalf of a zombie
+      to:
+        - initiate, support, object to, or perform a dependent action;
+        - act on behalf of that zombie's zombies;
+        - bid in a zombie auction;
+        - enter a contract, pledge, or other type of agreement;
+        - deregister.
 
-      If a player has not made a public announcement in the past 60
-      days, then any player CAN flip that player's master to Agora by
+      A zombie's master CAN flip that zombie's master switch to Agora by
       announcement.
 
-      Each zombie whose master is another player has an untracked switch
-      indicating whether the zombie Owes a Scare to Agora, with values
-      FALSE (default) and TRUE. All such switches are flipped to TRUE at
-      the beginning of each month. A zombie's master CAN flip that
-      zombie's switch to FALSE by causing the zombie to perform a scary
-      public action for the announced purpose of satisfying this scare
-      debt. If that switch for a given zombie is TRUE at the end of a
-      month, then within the next seven days any player can flip that
-      zombie's master to Agora by announcement.
+      If a master causes a zombie to perform an ILLEGAL action, the
+      master commits the Class 4+N Crime of Masterminding (where N is
+      the class of the illegal action).
 
-      This switch is of course the zombie's Boo Lien switch.
+      If a active player who was a zombie has not received a Welcome
+      Package since e most recently ceased being a zombie, and if eir
+      resale value was less than 2 at any point during eir most recent
+      time as a zombie, then any player CAN cause em to receive a
+      Welcome Package by announcement.
 
 ------------------------------------------------------------------------
-Rule 1885/7 (Power=2.0)
+Rule 2574/0 (Power=3.0)
+Zombie Life Cycle
+
+      Any player CAN, with Notice, flip the master switch of an active
+      player who has not made a public announcement in the past 60 days
+      to Agora.
+
+      Resale is a secured natural switch for zombies, tracked by the
+      Registrar, with a default value of 2. Whenever a zombie's master
+      switch is flipped to a player other than emself, eir resale value
+      is decreased by 1.
+
+      A zombie with a resale value of 0 CANNOT have eir master switch
+      flipped to a player other than emself, rules to the contrary
+      notwithstanding.
+
+      Any player CAN, with Notice:
+        - If a zombie has been a zombie for the past 90 days and not had
+          Agora for a master during any of that time, flip the zombie's
+          master switch to Agora;
+        - If a player is master to more than one zombie, flip the master
+          switch of one of that master's zombies to Agora;
+        - Deregister a zombie whose master is Agora and who has a Resale
+         value of 0.
+
+      The Registrar SHALL track the date that each zombie last belonged
+      to Agora in eir weekly report.  The Registrar SHALL perform all
+      POSSIBLE actions in the preceding paragraph in a timely fashion
+      after first reporting their possibility via the facts in eir
+      weekly report.
+
+------------------------------------------------------------------------
+Rule 1885/8 (Power=2.0)
 Zombie Auctions
 
-      Whenever a zombie (1) has Agora for a master, (2) an auction for
-      it is not underway, and (3) has not been won as an auction lot in
-      the past 14 days, then the Registrar CAN put that zombie (along
-      with any other zombies that fulfill the same conditions) up for
-      auction.
+      Whenever a zombie (1) has Agora for a master, (2) is not a lot in
+      an ongoing auction, (3) has a resale value greater than 0, and (4)
+      has not been won as an auction lot in the past 14 days, then the
+      Registrar CAN put that zombie (along with any other zombies that
+      fulfill the same conditions) up for auction.
 
       In a timely fashion after the beginning of each month, the
       Registrar SHALL either initiate such an auction or, if no zombies
@@ -212,9 +257,12 @@ Zombie Auctions
 
       For such an auction, the lots are the qualifying zombies, ordered
       at the discretion of the Registrar. The Registrar is the
-      announcer, and the minimum bid is 1. For the purpose of such a
-      auction, to transfer a zombie to a player is to set that zombie's
-      master switch to that player.
+      announcer, and the minimum bid is 1.  Rules to the contrary
+      notwithstanding, the master of a zombie CANNOT bid in a zombie
+      auction. If a player becomes a zombie's master, all eir bids in
+      zombie auctions that have not ended are withdrawn. For the purpose
+      of such a auction, to transfer a zombie to a player is to set that
+      zombie's master switch to that player.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2046,7 +2094,7 @@ Sentencing Guidelines
       remorse, and ardent desire for self-improvement.
 
 ------------------------------------------------------------------------
-Rule 2531/1 (Power=2.0)
+Rule 2531/2 (Power=2.0)
 Referee Accountability
 
       Any attempt to levy a fine is INEFFECTIVE if it does not include
@@ -2061,7 +2109,9 @@ Referee Accountability
       levied, or if it is made more than 14 days after the conduct
       constituting the reason for the fine, or if it attempts to levy a
       fine to a player who has already been levied a fine for the
-      conduct constituting the reason for the levy.
+      conduct constituting the reason for the levy, or if it attempts to
+      levy a fine on a zombie for an action that its master performed on
+      its behalf.
 
       If the Referee attempts to levy three or more INEFFECTIVE fines in
       a week, any player CAN, with two support, issue a writ of
@@ -2211,16 +2261,6 @@ Win by Paradox
 
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
-
-------------------------------------------------------------------------
-Rule 2554/0 (Power=1.0)
-Zombiception
-
-      If every member of a set of zombies has a master who is a member
-      of that set of zombies, then any player CAN announce a
-      Zombiception, listing the members of the set. Upon such an
-      announcement, all members of the set win the game and have their
-      master flipped to Agora.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2541,28 +2581,23 @@ Executive Orders
 ========================================================================
 Contracts & Obligations
 ------------------------------------------------------------------------
-Rule 2450/3 (Power=1.7)
+Rule 2450/4 (Power=1.7)
 Pledges
 
-      Pledges are an indestructible fixed asset. Ownership of pledges is
-      restricted to persons. The Referee is the recordkeepor of pledges.
-      Creating, destroying, modifying, and transferring pledges are
-      secured.
+      If a Player makes a clear public pledge (syn. Oath) to perform
+      (or refrain from performing) certain actions, then breaking the
+      pledge within the pledge's time window is the Class N crime of
+      Oathbreaking, where N is 2 unless the pledge explicitly states
+      otherwise.  The time window of a pledge is 60 days, unless
+      the pledge explicitly states otherwise.
 
-      To "pledge" something is to create a pledge with those terms. A
-      person CAN pledge by announcement to create a pledge e owns.
+      If breaking the pledge harms specific other parties, the Referee
+      SHOULD solicit the opinion of those parties in determining an
+      appropriate fine.
 
-      To "retract" (syn "withdraw") a pledge is to destroy it. A person
-      CAN retract a pledge e owns without objection.
-
-      To "call in" a pledge" is to destroy it. A player CAN call in any
-      pledge with Agoran Consent, if e announces a reason the Terms of
-      the pledge should be considered broken. Support for an intent to
-      call in a pledge is INEFFECTIVE unless the supporting player
-      explicitly confirms the reasons that the pledge should be
-      considered broken.
-
-      It is ILLEGAL to own a pledge when it is called in.
+      The Notary's Weekly Report includes a copy of all pledges that
+      are within their time window, and the dates the pledges were
+      made.
 
 ------------------------------------------------------------------------
 Rule 2519/0 (Power=3.0)
@@ -2801,6 +2836,14 @@ No Faking
 ------------------------------------------------------------------------
 ========================================================================
 Economics
+------------------------------------------------------------------------
+Rule 2456/6 (Power=1.0)
+
+      The Treasuror is an office.
+
+      The Treasuror's weekly report includes the list of all public
+      classes of assets.
+
 ------------------------------------------------------------------------
 Rule 2166/26 (Power=3.0)
 Assets
@@ -3269,7 +3312,7 @@ Entity Location
       changed, its Location is set to (0, 0).
 
 ------------------------------------------------------------------------
-Rule 2003/13 (Power=1.0)
+Rule 2003/15 (Power=1.0)
 Actions in Arcadia
 
       Players CAN destroy:
@@ -3297,8 +3340,8 @@ Actions in Arcadia
       6. 6 apples to set the Land Type of a Land Unit that is of type
          Aether, and is owned by Agora, to an alternating Land Type.
 
-      Players CAN, while performing the above actions, substitute 1 coin
-      for three or fewer apples.
+      Players CAN, while performing the above actions, substitute 1 corn
+      for 3 or fewer apples.
 
 ------------------------------------------------------------------------
 Rule 2004/6 (Power=1.0)
