@@ -2,11 +2,10 @@ id: 2549
 name: Auction Initiation
 power: 1
 text: |
-  An entity authorized by a rule or contract to initiate an Auction
-  CAN do so by announcement. If the rule or contract specifies that
-  that entity MUST do so, that entity SHALL do so in a timely
-  fashion. An Auction CANNOT be initiated other than as described by
-  a rule or contract.
+  An entity authorized by a rule to initiate an Auction CAN do so by
+  announcement. If the rule specifies that that entity MUST do so,
+  that entity SHALL do so in a timely fashion. An Auction CANNOT be
+  initiated other than as described by a rule.
 
   An Auction CANNOT be initiated unless the announcer specifies all
   of
@@ -40,6 +39,11 @@ history:
   date: 2018-02-23
   agent:
     proposal: "8014"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8054"
 annotations:
 - cfjs:
   - id: '3614'

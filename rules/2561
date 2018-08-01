@@ -31,10 +31,7 @@ text: |
         facility most recently, e must not have taken any assets
         from the inventory of another facility located on a
         preserved Land Unit within this Agoran week.
-     3. if the facility is built on Communal Land, e must be a party
-        to that contract and the text of the contract must permit em
-        to do so.
-     4. if the facility is built on Private Land, e must own the
+     3. if the facility is built on Private Land, e must own the
         facility, or the owner must have consented.
 history:
 - change:
@@ -58,4 +55,9 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8041"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8054"
 annotations: []

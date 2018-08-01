@@ -924,35 +924,6 @@ Acting on Behalf
       behalf of another person.
       
 ------------------------------------------------------------------------
-Rule 2524/0 (Power=2.4)
-Acting on Behalf via Contracts
-
-      If a rule says that a contract CAN do something by announcement,
-      it is equivalent to saying that that any person CAN take that
-      action by announcement if the contract's text says that e CAN do
-      so under the circumstances; if whether the contract enables the
-      person to do so is indeterminate, or is the subject of an
-      inextricable conditional, the action is IMPOSSIBLE. A person SHALL
-      NOT cause a contract to violate a rule using this method.
-      
-      If a rule specifies that a contract SHALL or SHALL NOT do
-      something, each party to the contract SHALL ensure that the
-      contract respectively does or does not do that thing.
-      
-      The text of a contract can permit persons to act on behalf of a
-      party or group of parties. To do so, it must specify:
-      
-      a. Which of its parties can be acted on behalf of;
-      
-      b. What actions can be taken;
-      
-      c. Who can take the actions; and
-      
-      d. Any conditions or limitations upon the actions. If any such
-         limitations or conditions are inextricable, the actions CANNOT
-         be used.
-      
-------------------------------------------------------------------------
 Rule 2518/0 (Power=3.0)
 Determinacy
 
@@ -2560,214 +2531,6 @@ Consent
       context that the person wanted the agreement to take place.
       
 ------------------------------------------------------------------------
-Rule 2520/0 (Power=2.5)
-Contracts
-
-      A contract is a ruleset-defined entity embodied in text. An entity
-      can only become a contract through the appropriate ruleset defined
-      procedures. Changes to the contract's text by rule defined
-      mechanisms (including those delegated to the contract itself) do
-      not change the identity of the contract.
-      
-      If any change to a contract's text, internal state, or other
-      properties would cause them to become indeterminate and remain so
-      for any non-infinitesimal amount of time, the change is canceled
-      and does not occur.
-      
-      The following changes are secured at power 2.1: creating or
-      modifying a contract or causing an entity to become a contract. 
-      
-      The properties of contracts, as defined by other rules, include
-      the following:
-      
-      - Parties, persons who agree to be bound by and assume powers
-        under the contract.
-      
-      - The ability to be amended or destroyed.
-      
-      - The ability to compel actions by their parties.
-      
-      - The ability to allow persons to take actions on the part of
-        their parties.
-      
-      - The ability to define arbitrary classes of asset.
-      
-      - The ability to possess and control assets.
-      
-------------------------------------------------------------------------
-Rule 2525/1 (Power=2.6)
-Interpreting Contracts
-
-      A contract should generally be interpreted according to its text,
-      including any clauses giving directions for its interpretation or
-      construction. Additionally, justice, the intent of the contract's
-      parties, and the principles governing rule interpretation should
-      be reasonably applied when interpreting a contract.
-      
-      A contract is subservient to the rules. Although a contract may
-      specify obligations or powers beyond those created by the rules, a
-      contract may not override the rules: in particular, any provision
-      of a contract that would unreasonably violate an inalienable right
-      of players and/or persons or cause any rule defined statement
-      about the gamestate, or about the possibility of an action, to
-      become false is void and without effect insofar as it does so.
-      
-      The following are protected actions:
-      
-      1. Registering and deregistering;
-      
-      2. Submitting, pending, or voting freely on a proposal, but only
-         if the sole effect the proposal would have if adopted is to
-         create, modify, or destroy a contract or group of contracts, or
-         to cause an entity or group of entities to become or cease to
-         be a contract or group of contracts;
-      
-      3. Creating, destroying, or amending a contract, intending to do
-         so, and supporting, objecting to, or resolving such an intent,
-         except where the mechanism for destruction or amendment is
-         created by the contract itself;
-      
-      4. Making true statements about a contract;
-      
-      5. Calling, judging, assigning, or freely discussing a CFJ;
-      
-      6. Objecting to or supporting an intent to perform an action while
-         Speaker;
-      
-      7. Using an executive order;
-      
-      8. Making, amending, revoking or calling in a pledge; and
-      
-      9. Any action affecting the status of a festival.
-      
-      Rules to the contrary notwithstanding, a contract CANNOT compel,
-      forbid, or in any significant way alter, tamper with, or modify
-      the performance of a protected action. A contract CANNOT punish a
-      player for performing or failing to perform a protected action, or
-      for doing so in a particular manner, except where it would
-      otherwise be ILLEGAL. A contract also CANNOT enable a person to do
-      any of the things prohibited to the contract by this paragraph.
-      Insofar as a contract or a provision or clause of a contract
-      contravenes the letter or clear intent of this rule, it is void
-      and without effect.
-      
-------------------------------------------------------------------------
-Rule 2522/1 (Power=2.5)
-Contract Lifecycle
-
-      A person CAN create a contract by announcement by transferring 1
-      coin to Agora, specifying the contract's text. A person SHALL NOT
-      create more than X (where X is the contract limit) contracts per
-      week by this method, and the Notary CAN destroy any excess (i.e.
-      beyond the X permitted) contracts by announcement within 7 days of
-      the contract's formation, but only if the contract(s) were excess
-      at the time of their creation.
-      
-      The contract limit is an untracked singleton switch, defaulting to
-      3, with possible values of any integer between 3 and 7. The
-      contract limit can be set to any valid value in a regulation
-      promulgated by the Notary. The amendment limit is an untracked
-      singleton switch, with possible values of integers greater than or
-      equal to 5, or positive infinity (default). The amendment limit
-      can be set in a regulation promulgated by the Notary.
-      
-      The person or persons who create a contract CAN and SHOULD also
-      specify a name for the contract; if e does not do so, the Notary
-      CAN and SHALL assign a name in a timely fashion.
-      
-      A contract CAN amend, destroy, or retitle itself by announcement.
-      A player CAN amend, destroy, or retitle a contract without
-      objection, even if its text denies em the ability to do so.
-      Players SHOULD only use this mechanism to recover from situations
-      where the contract is underspecified or has unintended effects.
-      
-      The Notary CAN by regulation stop the same contract from amending
-      or retitling itself more than Y times (where Y is the amendment
-      limit limit) combined times per Agoran day; e CANNOT stop a
-      contract from being destroyed, or from being retitled or amended
-      by any other means.
-      
-      If a contract has fulfilled its purpose, does not specify any
-      gamestate affecting statements, or otherwise seems unlikely to be
-      used, the Notary CAN and SHOULD destroy it with Agoran Consent.
-      Any player CAN destroy a contract with 2 Agoran Consent. Players
-      SHOULD NOT use the methods in this paragraph to further their
-      private interests.
-      
-      If the possibility of any action defined by this rule is
-      indeterminate, or is subject to a inextricable conditional, it is
-      impossible.
-      
-------------------------------------------------------------------------
-Rule 2523/2 (Power=2.4)
-Contracts as Agreements
-
-      The text of a contract can specify obligations upon its parties.
-      Parties to a contract SHALL abide by its terms, breaching them
-      neither negligently nor deliberately. The fact that the action
-      described by the contract is in violation of the rules is not a
-      defense if the violative nature is reasonably clear from its text.
-      If whether an action is permitted, forbidden, required, or made
-      optional by a contract is indeterminate or subject to an
-      inextricable conditional, it is presumptively permitted.
-      
-      As an exception to the provisions of the previous paragraph and
-      the circumstances in which fines would ordinarily be appropriate,
-      a person levying a fine under this rule MAY and CAN validly
-      consider the equitable interests of justice and interests of the
-      game, including the importance of the observation of contracts, as
-      a mitigating or aggravating circumstances when levying a fine.
-      Such a person MAY, CAN validly, and SHOULD also consider the
-      instructions of the contract or contracts in question when levying
-      a fine.
-      
-------------------------------------------------------------------------
-Rule 2521/0 (Power=2.5)
-Parties to Contracts
-
-      Each contract has an associated set of persons, known as the
-      parties. The person who creates a contract is automatically a
-      party. Other persons CAN become parties to a contract by
-      announcement if the contract's text permits them to do so. Parties
-      can leave a contract by announcement, ceasing being parties, if
-      the contract's text permits them to do so. A contract CAN expel a
-      party or group of parties by announcement, causing them to cease
-      being parties.
-      
-      It is IMPOSSIBLE, by any means, for a person to become a party to
-      a contract, for an contract to be created with a person as a
-      party, or for an entity to become a contract with a person as a
-      party, without that person's consent. This rule takes precedence
-      over any rule that might make such a change
-      possible.
-      
-------------------------------------------------------------------------
-Rule 2526/2 (Power=2.4)
-Sustenance Payments
-
-      The Notary CAN, once a month, cause each contract that owns at
-      least one coin to transfer one coin to Agora. E SHALL do so in the
-      first Eastman week of every month. If a contract does not own at
-      least one coin, and is thus unable to make said payment, the
-      Notary CAN and SHALL destroy it With Notice. If a contract becomes
-      and remains able to pay before its destruction, the Notary CANNOT
-      destroy it, and CAN and SHALL instead collect the coin.
-      
-      The Notary CAN, by regulation, exempt a contract from the
-      preceding paragraph. E SHALL NOT do so unless the contract seems
-      to be in the public interest of Agora.
-      
-------------------------------------------------------------------------
-Rule 2527/0 (Power=1.0)
-The Notary
-
-      The Notary is an office, and the recordkeepor of contracts. The
-      Notary's weekly report contains all contracts, including their
-      name, text, and parties. The Notary's weekly report also contains
-      the list of private classes of asset. The Notary is ENCOURAGED to
-      list all changes to the information e tracks in eir report.
-      
-------------------------------------------------------------------------
 Rule 2471/1 (Power=1.0)
 No Faking
 
@@ -2783,6 +2546,29 @@ No Faking
       
       The previous provisions of this rule notwithstanding, a formal
       announcement of intent is never a lie.
+      
+------------------------------------------------------------------------
+Rule 1742/18 (Power=2.5)
+Contracts
+
+      Any group of two or more consenting persons (the parties) may
+      make an agreement among themselves with the intention that it be
+      binding upon them and be governed by the rules. Such an agreement
+      is known as a contract. A contract may be modified, including
+      by changing the set of parties, by agreement between all existing
+      parties. A contract may also terminate by agreement between all
+      parties. A contract automatically terminates if the number of
+      parties to it falls below two. For the purposes of this rule,
+      agreement includes both consent and agreement specified by
+      contract.
+      
+      Parties to a contract governed by the rules SHALL act in
+      accordance with that contract. This obligation is not impaired
+      by contradiction between the contract and any other contract, or
+      between the contract and the rules.
+      
+      A party to a contract may act on behalf of another party to
+      it as allowed in the contract.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2917,12 +2703,11 @@ The Treasuror
       classes of assets.
       
 ------------------------------------------------------------------------
-Rule 2483/8 (Power=2.0)
+Rule 2483/9 (Power=2.0)
 Economics
 
       The following currencies are defined, and are tracked by the
-      Treasuror. They can be owned by Agora, players, contracts, and
-      facilities.
+      Treasuror. They can be owned by Agora, players, and facilities.
       
       1.  ore
       2.  stones
@@ -2943,7 +2728,7 @@ Economics
       Coins are the official currency of Agora.
       
 ------------------------------------------------------------------------
-Rule 2559/2 (Power=2.0)
+Rule 2559/3 (Power=2.0)
 Paydays
 
       Whenever a Payday occurs, the following events happen in order:
@@ -2985,12 +2770,12 @@ Welcome Packages
       6. 5 incense
       
 ------------------------------------------------------------------------
-Rule 2545/0 (Power=2.0)
+Rule 2545/1 (Power=2.0)
 Auctions
 
       An Auction is a way for entities to give away items in exchange
-      for a currency. Any rule or contract CAN permit (or require)
-      Auctions to be initiated.
+      for a currency. Any rule CAN permit (or require) Auctions to be
+      initiated
       
 ------------------------------------------------------------------------
 Rule 2546/0 (Power=1.0)
@@ -3002,25 +2787,19 @@ Lots
       Auction to a single recipient.
       
 ------------------------------------------------------------------------
-Rule 2547/0 (Power=1.0)
+Rule 2547/1 (Power=1.0)
 The Auctioneer
 
       Each Auction has an Auctioneer.
       
       The Auctioneer of an Auction is the entity that initiates that
       Auction, and describes all of the specifics of an Auction. All
-      rules or contracts permitting Auctions to be initiated should
-      specify an entity to be Auctioneer. If no Auctioneer is specified,
-      the default Auctioneer for Auctions defined by the rules is Agora,
-      and the default Auctioneer for Auctions defined by a contract is
-      the contract itself.
-      
-      A clause in a Contract purporting to make an entity which is
-      neither the Contract itself nor a party to the Contract the
-      Auctioneer of an Auction defined by that Contract is INEFFECTIVE.
+      rules permitting Auctions to be initiated should specify an entity
+      to be Auctioneer. If no Auctioneer is specified, the default
+      Auctioneer for Auctions defined by the rules is Agora.
       
 ------------------------------------------------------------------------
-Rule 2548/0 (Power=1.0)
+Rule 2548/1 (Power=1.0)
 The Auction Announcer
 
       Each Auction has an Announcer. Only persons can be Announcers.
@@ -3028,20 +2807,17 @@ The Auction Announcer
       If the Auctioneer of an Auction is a player, then that player is
       the Announcer of that Auction.
       
-      Otherwise, the rule or contract defining an Auction CAN define the
-      Announcer for that Auction. Rules to the contrary notwithstanding,
-      no Contract can define a person as the Announcer of an Auction
-      unless that person is a party to that Contract.
+      Otherwise, the rule defining an Auction CAN define the Announcer
+      for that Auction.
       
 ------------------------------------------------------------------------
-Rule 2549/1 (Power=1.0)
+Rule 2549/2 (Power=1.0)
 Auction Initiation
 
-      An entity authorized by a rule or contract to initiate an Auction
-      CAN do so by announcement. If the rule or contract specifies that
-      that entity MUST do so, that entity SHALL do so in a timely
-      fashion. An Auction CANNOT be initiated other than as described by
-      a rule or contract.
+      An entity authorized by a rule to initiate an Auction CAN do so by
+      announcement. If the rule specifies that that entity MUST do so,
+      that entity SHALL do so in a timely fashion. An Auction CANNOT be
+      initiated other than as described by a rule.
       
       An Auction CANNOT be initiated unless the announcer specifies all
       of
@@ -3065,7 +2841,7 @@ Auction Initiation
       If no currency is specified, it defaults to coins.
       
 ------------------------------------------------------------------------
-Rule 2550/0 (Power=1.0)
+Rule 2550/1 (Power=1.0)
 Bidding
 
       A person authorized to bid on an Auction CAN do so by
@@ -3080,12 +2856,10 @@ Bidding
       a person submits a bid on an Auction, all bids previously placed
       on that Auction by that person are withdrawn.
       
-      A rule or contract defining an Auction CAN specify a class of
-      players who are authorized to bid on that Auction. If the rule or
-      contract does not specify a class of authorized bidders, any
-      player is authorized to bid on an Auction defined by a rule, and
-      any party to a contract is authorized to bid an Auction defined by
-      that Contract.
+      A rule defining an Auction CAN specify a class of players who are
+      authorized to bid on that Auction. If the rule  does not specify a
+      class of authorized bidders, any player is authorized to bid on an
+      Auction defined by a rule.
       
       A person SHALL NOT bid on an Auction if it would be impossible for
       em to pay that amount at the conclusion of the Auction.
@@ -3170,16 +2944,14 @@ The Land of Arcadia
       Land defined by permissible Latitude and Longitude pairs.
       
 ------------------------------------------------------------------------
-Rule 1994/0 (Power=2.0)
+Rule 1994/1 (Power=2.0)
 Ownership of Land
 
       Any existent Land for which ownership has not been explicitly
       changed belongs to Agora.
       
       Land belonging to Agora is called Public Land. Land belonging to
-      a contract is called Communal Land. Land belonging to any other
-      entity is called Private Land. Together, Communal Land and Private
-      Land are called Proprietary Land.
+      any other entity is called Private Land (syn. Proprietary Land)
       
 ------------------------------------------------------------------------
 Rule 1995/2 (Power=2.0)
@@ -3388,7 +3160,7 @@ Facilities
       land unit.
       
 ------------------------------------------------------------------------
-Rule 2561/3 (Power=2.0)
+Rule 2561/4 (Power=2.0)
 Asset Generation with Facilities
 
       When an Production or Processing facility creates assets, the
@@ -3420,10 +3192,7 @@ Asset Generation with Facilities
             facility most recently, e must not have taken any assets
             from the inventory of another facility located on a
             preserved Land Unit within this Agoran week.
-         3. if the facility is built on Communal Land, e must be a party
-            to that contract and the text of the contract must permit em
-            to do so.
-         4. if the facility is built on Private Land, e must own the
+         3. if the facility is built on Private Land, e must own the
             facility, or the owner must have consented.
       
 ------------------------------------------------------------------------

@@ -3,8 +3,7 @@ name: Economics
 power: 2
 text: |
   The following currencies are defined, and are tracked by the
-  Treasuror. They can be owned by Agora, players, contracts, and
-  facilities.
+  Treasuror. They can be owned by Agora, players, and facilities.
 
   1.  ore
   2.  stones
@@ -69,4 +68,9 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8040"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8054"
 annotations: []

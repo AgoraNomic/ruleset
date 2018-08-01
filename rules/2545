@@ -3,8 +3,8 @@ name: Auctions
 power: 2
 text: |
   An Auction is a way for entities to give away items in exchange
-  for a currency. Any rule or contract CAN permit (or require)
-  Auctions to be initiated.
+  for a currency. Any rule CAN permit (or require) Auctions to be
+  initiated
 history:
 - change:
     type: enactment
@@ -12,4 +12,9 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7975"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8054"
 annotations: []

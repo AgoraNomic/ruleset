@@ -37,7 +37,6 @@
   - 1728 # Dependent Actions
   - 2124 # Agoran Satisfaction
   - 2466 # Acting on Behalf
-  - 2524 # Acting on Behalf via Contracts
   - 2518 # Determinacy
   - 1586 # Definition and Continuity of Entities
   - 2505 # Random Choices
@@ -122,14 +121,8 @@
   rules:
   - 2450 # Pledges
   - 2519 # Consent
-  - 2520 # Contracts
-  - 2525 # Interpreting Contracts
-  - 2522 # Contract Lifecycle
-  - 2523 # Contracts as Agreements
-  - 2521 # Parties to Contracts
-  - 2526 # Sustenance Payments
-  - 2527 # The Notary
   - 2471 # No Faking
+  - 1742 # Contracts
 - name: Economics
   rules:
   - 2166 # Assets
