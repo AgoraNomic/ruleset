@@ -2,11 +2,11 @@ id: 1885
 name: Zombie Auctions
 power: 2
 text: |
-  Whenever a zombie (1) has Agora for a master, (2) an auction for
-  it is not underway, and (3) has not been won as an auction lot in
-  the past 14 days, then the Registrar CAN put that zombie (along
-  with any other zombies that fulfill the same conditions) up for
-  auction.
+  Whenever a zombie (1) has Agora for a master, (2) is not a lot in
+  an ongoing auction, (3) has a resale value greater than 0, and (4)
+  has not been won as an auction lot in the past 14 days, then the
+  Registrar CAN put that zombie (along with any other zombies that
+  fulfill the same conditions) up for auction.
 
   In a timely fashion after the beginning of each month, the
   Registrar SHALL either initiate such an auction or, if no zombies
@@ -15,9 +15,12 @@ text: |
 
   For such an auction, the lots are the qualifying zombies, ordered
   at the discretion of the Registrar. The Registrar is the
-  announcer, and the minimum bid is 1. For the purpose of such a
-  auction, to transfer a zombie to a player is to set that zombie's
-  master switch to that player.
+  announcer, and the minimum bid is 1.  Rules  to the contrary
+  notwithstanding, the master of a zombie CANNOT bid in a zombie
+  auction. If a player becomes a zombie's master, all eir bids in
+  zombie auctions that have not ended are withdrawn. For the purpose
+  of such a auction, to transfer a zombie to a player is to set that
+  zombie's master switch to that player.
 history:
 - change:
     type: enactment
@@ -73,4 +76,9 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8041"
+- change:
+    type: amendment
+  date: 2018-06-14
+  agent:
+    proposal: "8051"
 annotations: []
