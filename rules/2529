@@ -26,9 +26,9 @@ text: |
   is the Herald, and the voting method is instant-runoff. Upon the
   resolution of this decision, the Herald CAN, and SHALL in a timely
   fashion, award the outcome of the decision a Medal of Honour by
-  announcement. After a player is awarded a Medal of Honour, all
-  players who were previously eligible for a Medal of Honour become
-  no longer eligible.
+  announcement. After a resolution of an Agoran Decision on who is to be
+  awarded a Medal of Honour, all players who were previously eligible
+  for a Medal of Honour become no longer eligible.
 
   If, at any time, any player has 6 or more Medals of Honour, and e
   has not won via this rule previously, e can win the game by
@@ -59,6 +59,16 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8037"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8057"
+- change:
+    type: repeal
+  date: 2018-07-18
+  agent:
+    proposal: "8059"
 annotations:
 - cfjs:
   - id: "3629"
