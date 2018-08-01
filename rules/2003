@@ -27,8 +27,8 @@ text: |
   6. 6 apples to set the Land Type of a Land Unit that is of type
      Aether, and is owned by Agora, to an alternating Land Type.
 
-  Players CAN, while performing the above actions, substitute 3
-  apples for 1 corn.
+  Players CAN, while performing the above actions, substitute 1 corn
+  for three or fewer apples.
 history:
 - change:
     type: enactment
@@ -107,4 +107,9 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8033"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8041"
 annotations: []

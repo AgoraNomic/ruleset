@@ -19,7 +19,7 @@ for section in load(get_contents("config/index")):
 
     for rule in section["rules"]:
         data = load(get_contents("rules/" + str(rule)))
-        rev = len([i for i in data["history"] if i["change"]["type"] == "amendment"])
+        rev = len([i for i in data["history"] if i["change"]["type"] == "amendment" or "reenactment"])
         slr = slr + "Rule {}/{} (Power={})\n{}\n\n{}\n{}\n".format(
             data["id"], rev, data["power"], data["name"], indent(data["text"]), line("-")
         )
