@@ -6,23 +6,10 @@ text: |
   proposals in the Proposal Pool, whose value is either "pending" or
   "not pending" (default).
 
-  Any player CAN flip a specified proposal's imminence to "pending"
-  by announcement by destroying 1 paper.
-
-  An Official Proposal is a proposal designated as such by the
-  Rules; generally official proposals that are created as part of an
-  Officer's duties. Rules to the contrary notwithstanding, an
-  Official proposal is always pending. Rules to the contrary
-  notwithstanding, players CANNOT claim rewards for the adoption of
-  an Official proposal.
-
-  The holder of an Office CAN Rubberstamp a proposal for that
-  specified office, without 3 objections, if no other proposal has
-  been rubberstamped for that office in the current Agoran month.
-  When rubberstamped, the proposal becomes an official proposal
-  associated with that office. Rubberstamping SHOULD only be used to
-  make rule or gamestate corrections associated with the duties of
-  that office.
+  Any player CAN flip a specified proposal's imminence to "pending" by
+  announcement, but cannot use this method more than five times each
+  week. The first five proposals pended by the Promotor of which e is
+  not the author do not count against eir weekly limit.
 history:
 - change:
     type: enactment
@@ -94,4 +81,9 @@ history:
   date: 2018-05-08
   agent:
     proposal: "8043"
+- change:
+    type: amendment
+  date: 2018-07-18
+  agent:
+    proposal: "8061"
 annotations: []
