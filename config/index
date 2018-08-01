@@ -117,16 +117,22 @@
   - 2423 # First Among Equals
   - 2463 # Motion of No Confidence
   - 2451 # Executive Orders
-- name: Contracts & Obligations
+- name: Obligations
   rules:
   - 2450 # Pledges
   - 2519 # Consent
   - 2471 # No Faking
   - 1742 # Contracts
-- name: Economics
+- name: Assets
   rules:
   - 2166 # Assets
+  - 2576 # Ownership
+  - 2577 # Asset Actions
+  - 2578 # Currencies
+  - 2579 # Fee-based Actions
   - 2515 # Distributing Assets
+- name: Economics
+  rules:
   - 2456 # The Treasuror
   - 2483 # Economics
   - 2559 # Paydays

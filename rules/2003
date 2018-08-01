@@ -2,7 +2,7 @@ id: 2003
 name: Actions in Arcadia
 power: 1
 text: |
-  Players CAN destroy:
+  Players CAN pay the listed fee to take the associated action:
 
   1. 1 apple to move from one Land Unit to an adjacent Unit if their
      Land Types are the same or one of them is gray, and the
@@ -117,4 +117,9 @@ history:
   date: 2018-06-14
   agent:
     proposal: "8052"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8055"
 annotations: []

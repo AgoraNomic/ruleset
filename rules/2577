@@ -1,0 +1,31 @@
+id: 2577
+name: Asset Actions
+power: 3.0
+text: |
+  An asset generally CAN be destroyed by its owner by announcement,
+  subject to modification by its backing document. An indestructible
+  asset is one defined as such by it backing document, and CANNOT be
+  destroyed except by a proposal or rule, other than this one,
+  specifically addressing the destruction of indestructible assets
+  or that asset in particular; any other asset is destructible.
+
+  To "lose" an asset is to have it destroyed from one's possession;
+  to "revoke" an asset from an entity is to destroy it from that
+  entity's possession.
+
+  An asset generally CAN be transferred (syn. given) by announcement
+  by its owner to another entity, subject to modification by its
+  backing document. A fixed asset is one defined as such by its
+  backing document, and CANNOT be transferred; any other asset is
+  liquid.
+
+  When a rule indicates transferring an amount that is not a natural
+  number, the specified amount is rounded up to the nearest natural
+  number.
+history:
+- change:
+    type: enactment
+    power: 3.0
+  date: 2018-07-01
+  agent:
+    proposal: "8055"
