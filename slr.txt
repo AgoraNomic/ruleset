@@ -3076,15 +3076,21 @@ Ownership of Land
       Land are called Proprietary Land.
       
 ------------------------------------------------------------------------
-Rule 1995/4 (Power=2)
+Rule 1995/5 (Power=2)
 Land Types
 
       Each Unit of Land has a Land Type switch, tracked by the
-      Cartographor, whose values are "Black", "White", "Gray" and
-      "Aether" (the default). Changes to Land Type switches are secured.
-      To "change the type" of, or to "transform" a Unit of Land is to
-      flip its Type switch. A "Unit of X" is a Unit of Land whose Land
-      Type switch has the value X.
+      Cartographor. Possible values are:
+      
+      1. Black
+      2. White
+      3. Gray
+      4. Aether (the default)
+      
+      Changes to Land Type switches are secured. To "change the type"
+      of, or to "transform" a Unit of Land is to flip its Type switch. A
+      “Unit of X” is a Unit of Land whose Land Type switch has the value
+      X.
       
       When existent Land has not had its Type changed as explicitly
       permitted by the Rules, or has a Type that is not currently
@@ -3098,11 +3104,11 @@ Land Types
       on the Land Unit, and set all other switches on the Land Unit to
       their default values.
       
-      Type is a singleton switch with the values of Black and White,
-      defaulting to Black. When an act specifies that an alternating
-      land type is to be used, the current value of the Alternating Land
-      Type switch is used, and the switch is set to the next value of
-      the switch.
+      Alternating Land Type is a singleton switch with the values of
+      Black and White, defaulting to Black. When an act specifies that
+      an alternating land type is to be used, the current value of the
+      Alternating Land Type switch is used, and the switch is set to th
+      next value of the switch.
       
 ------------------------------------------------------------------------
 Rule 1996/7 (Power=1)
@@ -3185,25 +3191,24 @@ Actions in Arcadia
       for three or fewer apples.
       
 ------------------------------------------------------------------------
-Rule 2004/7 (Power=1)
+Rule 2004/8 (Power=1)
 Land Auctions
 
-      Every Agoran Week, if the number of units of Private Land is less
-      than one half the total number of units of Land, the Cartographor
-      CAN and SHALL initiate an auction. For this auction, the announcer
-      is the Cartographor, the auctioneer is Agora, the lots are chosen
-      as such:
+      Every Agoran Week, if the number of Units of Private Land is less
+      than one half the total number of units of Land, a number of
+      Public, non-Aether, Preserved Land Units are chosen using the
+      following process:
       
-      1. if there exist at least 5 Units of non-Aether Land in the
-         possession of Agora with the preservation switch set to False:
-         any 5 such Units of Land, to be chosen by the Cartographor,
-         each Land Unit in a separate lot;
+      1. If there exist more than 5 such units, the Cartographor SHALL
+         choose exactly 5 of them.
       
-      2. if there exist fewer than 5 Units of non-Aether Land in the
-         possession of Agora: all such Units, each land unit in a
-         separate lot;
+      2. If there exist 5 or fewer such units, all are automatically
+         chosen.
       
-      and the minimum bid is 1 coin.
+      For each land unit selected by the process described above, the
+      Cartographor CAN and SHALL initiate an auction with it as the only
+      lot. For this auction, the announcer is the Cartographor, the
+      auctioneer is Agora, and the minimum bid is 1 coin.
       
 ------------------------------------------------------------------------
 Rule 2022/10 (Power=1)
@@ -3476,6 +3481,47 @@ Wishing Fountain
       coin to Throw A Coin into the fountain. This does nothing, unless
       specified in another Rule. A player MAY announce what e wishes for
       when e Throws A Coin.
+      
+------------------------------------------------------------------------
+Rule 2046/4 (Power=1.0)
+Q*Bert
+
+      Q*Bert is an entity which has a location. Q*Bert CAN be on a unit
+      of Aether.
+      
+      Q*Bert has a color switch, tracked by the Cartographor, whose
+      possible values are all defined Land Type other than Aether or
+      Gray. The default value is Black. When Q*Bert moves to a Land
+      Unit, if the current type of the unit is not the same as Q*Bert's
+      color switch, Q*Bert changes that space's type to the value of eir
+      color switch.
+      
+      Every week, the Cartographor CAN and SHALL move Q*Bert using the
+      following process:
+      
+      1. If Q*Bert is on the same Land Unit as another entity, the
+         Cartographor SHALL select a Land Unit adjacent to Q*Bert's
+         current position and move em there.
+      
+      2. Otherwise, the Cartographor SHALL select a Land Unit whose
+         longitude and latitude both differ from Q*Bert's by exactly
+         one.
+      
+      If, after Q*Bert has moved, e is on a Preserved Land Unit, the
+      Cartographor SHALL repeat the process above, moving Q*Bert until e
+      is no longer on a Preserved Land Unit.
+      
+      If the type of the Land Unit that Q*Bert is located on is
+      switched by an entity that is not Q*Bert, Q*Bert's color switch is
+      set to that type instead.
+      
+      Whenever Q*Bert is moved to (0, 0), the Cartographor CAN and SHALL
+      choose a random Land Type that is an allowed value of Q*Bert's
+      color switch and set Q*Bert's color switch to it.
+      
+      When referring to Q*Bert, entities CAN replace the "*" with any
+      punctuation character or spell it with a lowercase letter "b"
+      (i.e. Q-Bert, Q^bert)
       
 ------------------------------------------------------------------------
 ========================================================================
