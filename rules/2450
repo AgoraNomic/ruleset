@@ -12,9 +12,6 @@ text: |
   If breaking the pledge harms specific other parties, the Referee
   SHOULD solicit the opinion of those parties in determining an
   appropriate fine.
-
-  The Notary's Weekly Report includes a copy of all pledges that are
-  within their time window, and the dates the pledges were made.
 history:
 - change:
     type: enactment
@@ -39,4 +36,9 @@ history:
 - change:
     type: amendment
   date: 2018-06-11
+- change:
+    type: amendment
+  date: 2018-07-18
+  agent:
+    proposal: "8060"
 annotations: []
