@@ -3,11 +3,11 @@ name: Land Types
 power: 2
 text: |
   Each Unit of Land has a Land Type switch, tracked by the
-  Cartographor, whose values are "Black", "White", and "Aether" (the
-  default). Changes to Land Type switches are secured. To "change
-  the type" of, or to "transform" a Unit of Land is to flip its Type
-  switch. A “Unit of X” is a Unit of Land whose Land Type switch has
-  the value X.
+  Cartographor, whose values are "Black", "White", "Gray" and
+  "Aether" (the default). Changes to Land Type switches are secured.
+  To "change the type" of, or to "transform" a Unit of Land is to
+  flip its Type switch. A "Unit of X" is a Unit of Land whose Land
+  Type switch has the value X.
 
   When existent Land has not had its Type changed as explicitly
   permitted by the Rules, or has a Type that is not currently

@@ -5,10 +5,12 @@ text: |
   Players CAN destroy:
 
   1. 1 apple to move from one Land Unit to an adjacent Unit if their
-     Land Types are the same and the destination is not Aether;
+     Land Types are the same or one of them is gray, and the
+     destination is not Aether;
 
   2. 2 apples to move from one Land Unit to an adjacent Unit if
-     their Land Types differ and the destination is not Aether;
+     their Land Types differ, neither is gray, and the destination
+     is not Aether;
 
   3. 2 apples to set Land Type of a Land Unit which e owns to any
      Land Type other than Aether, whether or not e is located at
@@ -100,4 +102,9 @@ history:
   date: 2018-03-30
   agent:
     convergence: "Proposal 8030"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8033"
 annotations: []

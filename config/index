@@ -1,0 +1,178 @@
+- name: The Game of Agora
+  rules:
+  - 101  # The Game of Agora
+  - 1698 # Agora Is A Nomic
+- name: Players
+  rules:
+  - 869  # How to Join and Leave Agora
+  - 478  # Fora
+  - 2139 # The Registrar
+  - 1789 # Cantus Cygneus
+  - 2532 # Zombies
+  - 1885 # Zombie Auctions
+  - 2514 # Emotions
+- name: Rules & Regulations
+  rules:
+  - 2141 # Role and Attributes of Rules
+  - 1688 # Power
+  - 2140 # Power Controls Mutability
+  - 217  # Interpreting the Rules
+  - 1030 # Precedence between Rules
+  - 2240 # No Cretans Need Apply
+  - 105  # Rule Changes
+  - 2493 # Regulations
+  - 2494 # The Regkeepor
+  - 1051 # The Rulekeepor
+  - 1681 # The Logical Rulesets
+  - 2221 # Cleanliness
+  - 2429 # Bleach
+- name: General Definitions
+  rules:
+  - 2152 # Mother, May I?
+  - 2162 # Switches
+  - 2509 # Agoran Numbers
+  - 2125 # Regulated Actions
+  - 1023 # Agoran Time
+  - 1728 # Dependent Actions
+  - 2124 # Agoran Satisfaction
+  - 2466 # Acting on Behalf
+  - 2524 # Acting on Behalf via Contracts
+  - 2518 # Determinacy
+  - 1586 # Definition and Continuity of Entities
+  - 2505 # Random Choices
+  - 2517 # Conditionals and Extricability
+- name: Proposals
+  rules:
+  - 2350 # Proposals
+  - 2445 # How to Pend a Proposal
+  - 1607 # Distribution
+  - 2137 # The Assessor
+  - 106  # Adopting Proposals
+  - 1650 # Silliness
+- name: Voting
+  rules:
+  - 693  # Agoran Decisions
+  - 107  # Initiating Agoran Decisions
+  - 2528 # Voting Methods
+  - 683  # Voting on Agoran Decisions
+  - 208  # Resolving Agoran Decisions
+  - 955  # Determining the Will of Agora
+  - 879  # Quorum
+  - 2422 # Voting Strength
+  - 2127 # Conditional Votes
+  - 2168 # Extending the voting period
+  - 1950 # Decisions with Adoption Indices
+  - 2034 # Vote Protection and Cutoff for Challenges
+- name: Offices & Reporting
+  rules:
+  - 1006 # Offices
+  - 2143 # Official Reports and Duties
+  - 2379 # No News Is Some News
+  - 2138 # The Associate Director of Personnel
+  - 2160 # Deputisation
+  - 2472 # Office Incompatibilities
+  - 2154 # Election Procedure
+  - 1551 # Ratification
+  - 2202 # Ratification Without Objection
+  - 2201 # Self-Ratification
+- name: Calls for Judgement
+  rules:
+  - 991  # Calls for Judgement
+  - 591  # Delivering Judgements
+  - 911  # Motions and Moots
+  - 2175 # Judicial Retraction and Excess
+  - 2492 # Recusal
+- name: Justice
+  rules:
+  - 2556 # Penalties
+  - 2486 # The Royal Parade
+  - 2555 # Blots
+  - 2478 # Vigilante Justice
+  - 2479 # Official Justice
+  - 2557 # Sentencing Guidelines
+  - 2531 # Referee Accountability
+- name: Winning
+  rules:
+  - 2449 # Winning the Game
+  - 2452 # Trust Tokens
+  - 2465 # Victory by Apathy
+  - 2510 # Such is Karma
+  - 2511 # Karmic Balance
+  - 2529 # Medals of Honour
+  - 2553 # Win by Paradox
+  - 2554 # Zombiception
+- name: Awards
+  rules:
+  - 2538 # Ribbons
+  - 2480 # Festivals
+  - 2481 # Festival Restrictions
+  - 649  # Patent Titles
+  - 2444 # Silver Quill
+  - 2415 # Badges
+  - 1367 # Degrees
+  - 2231 # Order of the Hero of Agora Nomic
+- name: Figureheads
+  rules:
+  - 104  # First Speaker
+  - 103  # The Speaker
+  - 2423 # First Among Equals
+  - 2463 # Motion of No Confidence
+  - 2451 # Executive Orders
+- name: Contracts & Obligations
+  rules:
+  - 2450 # Pledges
+  - 2519 # Consent
+  - 2520 # Contracts
+  - 2525 # Interpreting Contracts
+  - 2522 # Contract Lifecycle
+  - 2523 # Contracts as Agreements
+  - 2521 # Parties to Contracts
+  - 2526 # Sustenance Payments
+  - 2527 # The Notary
+  - 2471 # No Faking
+- name: Economics
+  rules:
+  - 2166 # Assets
+  - 2515 # Distributing Assets
+  - 2545 # Auctions
+  - 2546 # Lots
+  - 2547 # The Auctioneer
+  - 2548 # The Auction Announcer
+  - 2549 # Auction Initiation
+  - 2550 # Bidding
+  - 2551 # Auction End
+  - 2552 # Auction Termination
+  - 2483 # Economics
+  - 2559 # Paydays
+- name: The Land of Arcadia
+  rules:
+  - 1993 # The Land of Arcadia
+  - 1994 # Ownership of Land
+  - 1995 # Land Types
+  - 1996 # The Cartographor
+  - 1998 # Land Topology
+  - 1999 # Entity Location
+  - 2003 # Actions in Arcadia
+  - 2004 # Land Auctions
+  - 2022 # Land Transfiguration
+  - 2565 # Preserved Land
+  - 2560 # Facilities
+  - 2561 # Asset Generation with Facilities
+  - 2562 # Facility Ranks
+  - 2563 # Production Facilities
+  - 2564 # Processing Facilities
+  - 2567 # Facility Categories
+  - 2568 # Facility Colors
+  - 2569 # Gray Land
+  - 2570 # Monument Facilities
+  - 2571 # The Fountain
+  - 2572 # Wishing Fountain
+- name: Agoran Culture
+  rules:
+  - 2327 # Read the Ruleset Week
+  - 1727 # Happy Birthday
+  - 2464 # Tournaments
+  - 2566 # Free Tournaments
+  - 2495 # The Birthday Tournament
+  - 1769 # Holidays
+  - 2029 # Town Fountain
