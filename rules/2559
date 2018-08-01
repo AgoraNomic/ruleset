@@ -11,10 +11,10 @@ text: |
      C. 2 papers
 
   2. For each office, if a single player held that office for 16 or
-     more days in the previous month and e was not issued any Cards
-     other than Green for eir conduct in that office during that
-     time, the following assets are created in the possession of
-     that player:
+     more days in the previous month and no unforgivable fines were
+     levied on em for eir conduct in that office during that time,
+     the following assets are created in the possession of that
+     player:
      A. 5 coins
      B. 1 corn
 
@@ -27,4 +27,9 @@ history:
   date: 2018-03-30
   agent:
     convergence: "Proposal 8030"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8034"
 annotations: []
