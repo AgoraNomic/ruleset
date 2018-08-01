@@ -2,9 +2,12 @@ id: 2557
 name: Removing Blots
 power: 1.7
 text: |
-  If a player has neither gained blots nor expunged any blots from
-  emself in the current Agoran week, e CAN expunge 1 blot from
-  emself by announcement.
+  A player CAN, by announcement, destroy N incense in eir possession
+  to expunge N of eir blots. When e does so, e is STRONGLY
+  ENCOURAGED to publicly and grandiloquently apologize to the Spirit
+  of the Game for eir grave crime in breaking the rules, to
+  verbosely praise the same spirit, and to fervently request
+  forgiveness.
 
   At the beginning of each quarter, half (rounded down) of each
   fugitive's blots are destroyed.
@@ -15,4 +18,9 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8029"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8040"
 annotations: []

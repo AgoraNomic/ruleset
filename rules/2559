@@ -9,6 +9,7 @@ text: |
      A. 10 coins
      B. 5 apples
      C. 2 papers
+     D. 3 incence
 
   2. For each office, if a single player held that office for 16 or
      more days in the previous month and no unforgivable fines were
@@ -17,6 +18,7 @@ text: |
      player:
      A. 5 coins
      B. 1 corn
+     C. 5 incense
 
   The occurrence of Paydays is secured.  At the beginning of each
   month, a Payday occurs.
@@ -32,4 +34,9 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8034"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8040"
 annotations: []

@@ -6,19 +6,21 @@ text: |
   Treasuror. They can be owned by Agora, players, contracts, and
   facilities.
 
-  1. ore
-  2. stones
-  3. lumber
-  4. apples
-  5. cotton
-  6. corn
-  7. coins
-  8. papers
-  9. fabric
+  1.  ore
+  2.  stones
+  3.  lumber
+  4.  apples
+  5.  cotton
+  6.  corn
+  7.  coins
+  8.  papers
+  9.  fabric
+  10. incense
 
-  Stones, apples, and corn are considered unrefinable currencies;
-  ore, lumber, and cotton are considered refinable currencies; and
-  coins, papers, and fabric are considered refined currencies.
+  Stones, apples, corn, and incense are considered unrefinable
+  currencies; ore, lumber, and cotton are considered refinable
+  currencies; and coins, papers, and fabric are considered refined
+  currencies.
 
   Coins are the official currency of Agora.
 history:
@@ -62,4 +64,9 @@ history:
   date: 2018-02-23
   agent:
     proposal: "8014"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8040"
 annotations: []
