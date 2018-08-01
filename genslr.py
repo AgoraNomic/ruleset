@@ -19,11 +19,13 @@ for section in load(get_contents("config/index")):
 
     for rule in section["rules"]:
         data = load(get_contents("rules/" + str(rule)))
-        rev = len([i for i in data["history"] if i["change"]["type"] == "amendment" or "reenactment"])
+        rev = len([i for i in data["history"] if i["change"]["type"] == "amendment"])
+        data["power"] = str(data["power"])
+        if len(data["power"]) == 1: data["power"] = data["power"] + ".0"
         slr = slr + "Rule {}/{} (Power={})\n{}\n\n{}\n{}\n".format(
             data["id"], rev, data["power"], data["name"], indent(data["text"]), line("-")
         )
-        print("procesed rule " + data["name"])
+        print("processed rule " + str(data["id"]))
 
 with open("slr.txt", "w") as f:
     f.write(slr)

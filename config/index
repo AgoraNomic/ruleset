@@ -101,10 +101,9 @@
   - 2511 # Karmic Balance
   - 2529 # Medals of Honour
   - 2553 # Win by Paradox
-  - 2554 # Zombiception
 - name: Awards
   rules:
-  - 2538 # Ribbons
+  - 2438 # Ribbons
   - 2480 # Festivals
   - 2481 # Festival Restrictions
   - 649  # Patent Titles
@@ -135,6 +134,10 @@
   rules:
   - 2166 # Assets
   - 2515 # Distributing Assets
+  - 2456 # The Treasuror
+  - 2483 # Economics
+  - 2559 # Paydays
+  - 2499 # Welcome Packages
   - 2545 # Auctions
   - 2546 # Lots
   - 2547 # The Auctioneer
@@ -143,10 +146,6 @@
   - 2550 # Bidding
   - 2551 # Auction End
   - 2552 # Auction Termination
-  - 2456 # The Treasuror
-  - 2483 # Economics
-  - 2559 # Paydays
-  - 2499 # Welcome Packages
 - name: The Land of Arcadia
   rules:
   - 1993 # The Land of Arcadia

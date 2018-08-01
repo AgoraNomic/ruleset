@@ -1,7 +1,7 @@
 ========================================================================
 The Game of Agora
 ------------------------------------------------------------------------
-Rule 101/22 (Power=4)
+Rule 101/17 (Power=4.0)
 The Game of Agora
 
       Agora is a game of Nomic, wherein Persons, acting in accordance
@@ -12,7 +12,7 @@ The Game of Agora
       Please treat Agora Right Good Forever.
       
 ------------------------------------------------------------------------
-Rule 1698/8 (Power=4)
+Rule 1698/5 (Power=4.0)
 Agora Is A Nomic
 
       Agora is ossified if it is IMPOSSIBLE for any reasonable
@@ -32,7 +32,7 @@ Agora Is A Nomic
 ========================================================================
 Players
 ------------------------------------------------------------------------
-Rule 869/47 (Power=3)
+Rule 869/45 (Power=3.0)
 How to Join and Leave Agora
 
       Any organism that is generally capable of freely originating and
@@ -56,16 +56,13 @@ How to Join and Leave Agora
       CANNOT otherwise bind a person to abide by any agreement without
       that person's willful consent.
       
-      If a player has not sent a message to a public forum in the last
-      month, then any player CAN deregister em with 3 Agoran Consent.
-      
       The Rules CANNOT compel non-players to act without their express
       or reasonably implied consent. The rules CANNOT compel players to
       unduly harass non-players. A non-person CANNOT be a player, rules
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
-Rule 478/36 (Power=3)
+Rule 478/34 (Power=3.0)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -105,7 +102,18 @@ Fora
       message, unless otherwise specified.
       
 ------------------------------------------------------------------------
-Rule 2139/14 (Power=2)
+Rule 2575/0 (Power=3.0)
+The Distributor
+
+      The Distributor is an imposed office whose holder is generally
+      responsible for the management of the primary Agoran fora. The
+      holder CANNOT be changed except Without Objection or by proposal.
+      Rules to the contrary notwithstanding, the Distributor's master
+      switch CANNOT be flipped to be other than emself, and e CANNOT
+      deregister or be deregistered.
+      
+------------------------------------------------------------------------
+Rule 2139/12 (Power=2.0)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -142,7 +150,7 @@ The Registrar
       them, unless the switch is defined as untracked.
       
 ------------------------------------------------------------------------
-Rule 1789/12 (Power=3)
+Rule 1789/9 (Power=3.0)
 Cantus Cygneus
 
       Whenever a Player feels that e has been treated so egregiously by
@@ -162,7 +170,7 @@ Cantus Cygneus
       all may know said Player deregistered in a Writ of FAGE.
       
 ------------------------------------------------------------------------
-Rule 2532/1 (Power=2)
+Rule 2532/1 (Power=2.0)
 Zombies
 
       Master is a secured player switch with possible values of any
@@ -170,35 +178,39 @@ Zombies
       to the contrary notwithstanding, a player CAN always flip eir own
       master to emself by announcement.
       
-      A player whose master is not emself is a Zombie. A zombie's
-      master, if another player, is allowed to act on behalf of the
-      zombie (i.e. as the zombie's agent) to perform LEGAL actions.
+      A player whose master is not emself is a zombie (syn. inactive);
+      all other players are active.  A zombie's master, if another
+      player, is allowed to act on behalf of the zombie (i.e. as the
+      zombie's agent), except a master CANNOT act on behalf of a zombie
+      to:
+        - initiate, support, object to, or perform a dependent action;
+        - act on behalf of that zombie's zombies;
+        - bid in a zombie auction;
+        - enter a contract, pledge, or other type of agreement;
+        - deregister.
       
-      If a player has not made a public announcement in the past 60
-      days, then any player CAN flip that player's master to Agora by
+      A zombie's master CAN flip that zombie's master switch to Agora by
       announcement.
       
-      Each zombie whose master is another player has an untracked switch
-      indicating whether the zombie Owes a Scare to Agora, with values
-      FALSE (default) and TRUE. All such switches are flipped to TRUE at
-      the beginning of each month. A zombie's master CAN flip that
-      zombie's switch to FALSE by causing the zombie to perform a scary
-      public action for the announced purpose of satisfying this scare
-      debt. If that switch for a given zombie is TRUE at the end of a
-      month, then within the next seven days any player can flip that
-      zombie's master to Agora by announcement.
+      If a master causes a zombie to perform an ILLEGAL action, the
+      master commits the Class 4+N Crime of Masterminding (where N is
+      the class of the illegal action).
       
-      This switch is of course the zombie's Boo Lien switch.
+      If a active player who was a zombie has not received a Welcome
+      Package since e most recently ceased being a zombie, and if eir
+      resale value was less than 2 at any point during eir most recent
+      time as a zombie, then any player CAN cause em to receive a
+      Welcome Package by announcement.
       
 ------------------------------------------------------------------------
-Rule 1885/10 (Power=2)
+Rule 1885/7 (Power=2.0)
 Zombie Auctions
 
-      Whenever a zombie (1) has Agora for a master, (2) an auction for
-      it is not underway, and (3) has not been won as an auction lot in
-      the past 14 days, then the Registrar CAN put that zombie (along
-      with any other zombies that fulfill the same conditions) up for
-      auction.
+      Whenever a zombie (1) has Agora for a master, (2) is not a lot in
+      an ongoing auction, (3) has a resale value greater than 0, and (4)
+      has not been won as an auction lot in the past 14 days, then the
+      Registrar CAN put that zombie (along with any other zombies that
+      fulfill the same conditions) up for auction.
       
       In a timely fashion after the beginning of each month, the
       Registrar SHALL either initiate such an auction or, if no zombies
@@ -207,15 +219,50 @@ Zombie Auctions
       
       For such an auction, the lots are the qualifying zombies, ordered
       at the discretion of the Registrar. The Registrar is the
-      announcer, and the minimum bid is 1. For the purpose of such a
-      auction, to transfer a zombie to a player is to set that zombie's
-      master switch to that player.
+      announcer, and the minimum bid is 1.  Rules  to the contrary
+      notwithstanding, the master of a zombie CANNOT bid in a zombie
+      auction. If a player becomes a zombie's master, all eir bids in
+      zombie auctions that have not ended are withdrawn. For the purpose
+      of such a auction, to transfer a zombie to a player is to set that
+      zombie's master switch to that player.
+      
+------------------------------------------------------------------------
+Rule 2574/0 (Power=3.0)
+Zombie Life Cycle
+
+      Any player CAN, with Notice, flip the master switch of an active
+      player who has not made a public announcement in the past 60 days
+      to Agora.
+      
+      Resale is a secured natural switch for zombies, tracked by the
+      Registrar, with a default value of 2. Whenever a zombie's master
+      switch is flipped to a player other than emself, eir resale value
+      is decreased by 1.
+      
+      A zombie with a resale value of 0 CANNOT have eir master switch
+      flipped to a player other than emself, rules to the contrary
+      notwithstanding.
+      
+      Any player CAN, with Notice:
+        - If a zombie has been a zombie for the past 90 days and not had
+         Agora for a master during any of that time, flip the zombie's
+         master switch to Agora;
+        - If a player is master to more than one zombie, flip the master
+         switch of one of that master's zombies to Agora;
+        - Deregister a zombie whose master is Agora and who has a Resale
+         value of 0.
+      
+      The Registrar SHALL track the date that each zombie last belonged
+      to Agora in eir weekly report.  The Registrar SHALL perform all
+      POSSIBLE actions in the preceding paragraph in a timely fashion
+      after first reporting their possibility via the facts in eir
+      weekly report.
       
 ------------------------------------------------------------------------
 ========================================================================
 Rules & Regulations
 ------------------------------------------------------------------------
-Rule 2141/11 (Power=3)
+Rule 2141/10 (Power=3.0)
 Role and Attributes of Rules
 
       A rule is a type of instrument with the capacity to govern the
@@ -238,7 +285,7 @@ Role and Attributes of Rules
       elsewhere in this rule.
       
 ------------------------------------------------------------------------
-Rule 1688/11 (Power=3)
+Rule 1688/9 (Power=3.0)
 Power
 
       The Power of an entity is a non-negative rational number. An
@@ -257,7 +304,7 @@ Power
       (including by the Rule itself).
       
 ------------------------------------------------------------------------
-Rule 2140/4 (Power=3)
+Rule 2140/2 (Power=3.0)
 Power Controls Mutability
 
       No entity with power below the power of this rule can
@@ -273,7 +320,7 @@ Power Controls Mutability
          operation.
       
 ------------------------------------------------------------------------
-Rule 217/15 (Power=3)
+Rule 217/11 (Power=3.0)
 Interpreting the Rules
 
       When interpreting and applying the rules, the text of the rules
@@ -302,7 +349,7 @@ Interpreting the Rules
       e should be punished, is wholly void and without effect.
       
 ------------------------------------------------------------------------
-Rule 1030/17 (Power=3.2)
+Rule 1030/13 (Power=3.2)
 Precedence between Rules
 
       In a conflict between Rules, the conflict shall be resolved by
@@ -343,7 +390,7 @@ Precedence between Rules
       any Rule that would permit such a change to the Ruleset.
       
 ------------------------------------------------------------------------
-Rule 2240/2 (Power=3)
+Rule 2240/1 (Power=3.0)
 No Cretans Need Apply
 
       In a conflict between clauses of the same Rule, if exactly one
@@ -351,7 +398,7 @@ No Cretans Need Apply
       otherwise, the later clause takes precedence.
       
 ------------------------------------------------------------------------
-Rule 105/24 (Power=3)
+Rule 105/19 (Power=3.0)
 Rule Changes
 
       Where permitted by other rules, an instrument generally can, as
@@ -409,7 +456,7 @@ Rule Changes
       a rule or cease to be a rule.
       
 ------------------------------------------------------------------------
-Rule 2493/3 (Power=3.1)
+Rule 2493/2 (Power=3.1)
 Regulations
 
       A Regulation is an textual entity defined as such by this rule. A
@@ -447,7 +494,7 @@ Regulations
       regulation(s) are said to be "recommended" to Agora.
       
 ------------------------------------------------------------------------
-Rule 2494/1 (Power=1)
+Rule 2494/0 (Power=1.0)
 The Regkeepor
 
       The Regkeepor is an office, responsible for the maintenance of the
@@ -479,7 +526,7 @@ The Regkeepor
       manner intended to deceive others in eir official capacity.
       
 ------------------------------------------------------------------------
-Rule 1051/18 (Power=1)
+Rule 1051/16 (Power=1.0)
 The Rulekeepor
 
       The Rulekeepor is an office; its holder is responsible for
@@ -489,7 +536,7 @@ The Rulekeepor
       The Rulekeepor's Monthly report includes the Full Logical Ruleset.
       
 ------------------------------------------------------------------------
-Rule 1681/22 (Power=1)
+Rule 1681/21 (Power=1.0)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -529,7 +576,7 @@ The Logical Rulesets
          ID number, author, and co-author(s) (if any).
       
 ------------------------------------------------------------------------
-Rule 2221/9 (Power=3)
+Rule 2221/6 (Power=3.0)
 Cleanliness
 
       Any player CAN clean a rule without objection by specifying one or
@@ -539,7 +586,7 @@ Cleanliness
       rule is amended by this rule as specified by that person.
       
 ------------------------------------------------------------------------
-Rule 2429/2 (Power=1)
+Rule 2429/1 (Power=1.0)
 Bleach
 
       Replacing a non-zero amount of whitespace with a different
@@ -550,7 +597,7 @@ Bleach
 ========================================================================
 General Definitions
 ------------------------------------------------------------------------
-Rule 2152/10 (Power=3)
+Rule 2152/7 (Power=3.0)
 Mother, May I?
 
       The following terms are defined. These definitions are used when a
@@ -588,7 +635,7 @@ Mother, May I?
          carefully weighed.
       
 ------------------------------------------------------------------------
-Rule 2162/11 (Power=2)
+Rule 2162/10 (Power=2.0)
 Switches
 
       A type of switch is a property that the rules define as a switch,
@@ -640,7 +687,7 @@ Switches
       requirement without flipping the switch.
       
 ------------------------------------------------------------------------
-Rule 2509/4 (Power=2)
+Rule 2509/2 (Power=2.0)
 Agoran Numbers
 
       A "number" is considered to refer to a real number, unless
@@ -671,7 +718,7 @@ Agoran Numbers
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
-Rule 2125/11 (Power=3)
+Rule 2125/10 (Power=3.0)
 Regulated Actions
 
       An action is restricted if: (1) the Rules limit, allow, enable, or
@@ -686,7 +733,7 @@ Regulated Actions
       interpreted so as to proscribe unrestricted actions.
       
 ------------------------------------------------------------------------
-Rule 1023/45 (Power=2)
+Rule 1023/42 (Power=2.0)
 Agoran Time
 
       The following terms are defined:
@@ -740,7 +787,7 @@ Agoran Time
              or earlier time of day.
       
 ------------------------------------------------------------------------
-Rule 1728/41 (Power=3)
+Rule 1728/37 (Power=3.0)
 Dependent Actions
 
       A rule which purports to allow a person (the performer) to perform
@@ -800,7 +847,7 @@ Dependent Actions
       objections.
       
 ------------------------------------------------------------------------
-Rule 2124/26 (Power=2)
+Rule 2124/22 (Power=2.0)
 Agoran Satisfaction
 
       A Supporter of a dependent action is an eligible entity who has
@@ -843,7 +890,7 @@ Agoran Satisfaction
       type of response.
       
 ------------------------------------------------------------------------
-Rule 2466/2 (Power=3)
+Rule 2466/1 (Power=3.0)
 Acting on Behalf
 
       When a rule allows one person (the agent) to act on behalf of
@@ -877,7 +924,7 @@ Acting on Behalf
       behalf of another person.
       
 ------------------------------------------------------------------------
-Rule 2524/1 (Power=2.4)
+Rule 2524/0 (Power=2.4)
 Acting on Behalf via Contracts
 
       If a rule says that a contract CAN do something by announcement,
@@ -906,7 +953,7 @@ Acting on Behalf via Contracts
          be used.
       
 ------------------------------------------------------------------------
-Rule 2518/1 (Power=3)
+Rule 2518/0 (Power=3.0)
 Determinacy
 
       If a value CANNOT be reasonably determined (without circularity or
@@ -915,7 +962,7 @@ Determinacy
       considered to be indeterminate, otherwise it is determinate.
       
 ------------------------------------------------------------------------
-Rule 1586/12 (Power=2)
+Rule 1586/8 (Power=2.0)
 Definition and Continuity of Entities
 
       If multiple rules attempt to define an entity with the same name,
@@ -939,7 +986,7 @@ Definition and Continuity of Entities
       the new definitions.
       
 ------------------------------------------------------------------------
-Rule 2505/1 (Power=1)
+Rule 2505/0 (Power=1.0)
 Random Choices
 
       When a Rule specifies that a random choice be made, then the
@@ -956,7 +1003,7 @@ Random Choices
       distribution can be readily confirmed.
       
 ------------------------------------------------------------------------
-Rule 2517/1 (Power=3)
+Rule 2517/0 (Power=3.0)
 Conditionals and Extricability
 
       A conditional is any textual structure that attempts to make a
@@ -985,7 +1032,7 @@ Conditionals and Extricability
 ========================================================================
 Proposals
 ------------------------------------------------------------------------
-Rule 2350/10 (Power=3)
+Rule 2350/9 (Power=3.0)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -1017,7 +1064,7 @@ Proposals
       more than 14 days ago.
       
 ------------------------------------------------------------------------
-Rule 2445/14 (Power=1)
+Rule 2445/13 (Power=1.0)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
@@ -1043,7 +1090,7 @@ How to Pend a Proposal
       that office.
       
 ------------------------------------------------------------------------
-Rule 1607/46 (Power=3)
+Rule 1607/43 (Power=3.0)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -1078,14 +1125,14 @@ Distribution
       self-ratifying.
       
 ------------------------------------------------------------------------
-Rule 2137/4 (Power=1)
+Rule 2137/2 (Power=1.0)
 The Assessor
 
       The Assessor is an office; its holder is responsible for
       collecting votes and keeping track of related properties.
       
 ------------------------------------------------------------------------
-Rule 106/44 (Power=3)
+Rule 106/39 (Power=3.0)
 Adopting Proposals
 
       When a decision about whether to adopt a proposal is resolved, if
@@ -1116,7 +1163,7 @@ Adopting Proposals
 ========================================================================
 Voting
 ------------------------------------------------------------------------
-Rule 693/21 (Power=3)
+Rule 693/16 (Power=3.0)
 Agoran Decisions
 
       When the rules calls for an Agoran decision to be made, the
@@ -1130,7 +1177,7 @@ Agoran Decisions
       3. Resolution of the decision.
       
 ------------------------------------------------------------------------
-Rule 107/23 (Power=3)
+Rule 107/20 (Power=3.0)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -1163,7 +1210,7 @@ Initiating Agoran Decisions
       duration longer than fourteen days.
       
 ------------------------------------------------------------------------
-Rule 2528/1 (Power=3)
+Rule 2528/0 (Power=3.0)
 Voting Methods
 
       Each Agoran decision has a voting method, which must be
@@ -1190,7 +1237,7 @@ Voting Methods
       4. For any other decision, the valid options.
       
 ------------------------------------------------------------------------
-Rule 683/29 (Power=3)
+Rule 683/26 (Power=3.0)
 Voting on Agoran Decisions
 
       An entity submits a ballot on an Agoran decision by publishing a
@@ -1219,7 +1266,7 @@ Voting on Agoran Decisions
       retract eir previous ballot (if any), then submit a new one.
       
 ------------------------------------------------------------------------
-Rule 208/17 (Power=3)
+Rule 208/12 (Power=3.0)
 Resolving Agoran Decisions
 
       The vote collector for an unresolved Agoran decision CAN resolve
@@ -1249,7 +1296,7 @@ Resolving Agoran Decisions
       Agoran decision take effect when the decision is resolved.
       
 ------------------------------------------------------------------------
-Rule 955/33 (Power=3)
+Rule 955/30 (Power=3.0)
 Determining the Will of Agora
 
       Each Agoran decision has a voting method, which determines how
@@ -1296,7 +1343,7 @@ Determining the Will of Agora
       cannot change thereafter.
       
 ------------------------------------------------------------------------
-Rule 879/37 (Power=2)
+Rule 879/34 (Power=2.0)
 Quorum
 
       Each Agoran Decision has a quorum. This is a number set when the
@@ -1319,7 +1366,7 @@ Quorum
       it is set to 2 instead.
       
 ------------------------------------------------------------------------
-Rule 2422/3 (Power=3)
+Rule 2422/2 (Power=3.0)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -1338,7 +1385,7 @@ Voting Strength
       less and the maximum value if it was more.
       
 ------------------------------------------------------------------------
-Rule 2127/12 (Power=3)
+Rule 2127/11 (Power=3.0)
 Conditional Votes
 
       A conditional vote on an Agoran decision is a vote which indicates
@@ -1368,7 +1415,7 @@ Conditional Votes
       order they occurred in the original vote.
       
 ------------------------------------------------------------------------
-Rule 2168/8 (Power=1)
+Rule 2168/7 (Power=1.0)
 Extending the voting period
 
       Whenever the voting period of an Agoran decision would end, and
@@ -1387,7 +1434,7 @@ Extending the voting period
       proposal's author) has voted FOR.
       
 ------------------------------------------------------------------------
-Rule 1950/37 (Power=3)
+Rule 1950/33 (Power=3.0)
 Decisions with Adoption Indices
 
       Adoption index is an untracked switch possessed by Agoran
@@ -1403,7 +1450,7 @@ Decisions with Adoption Indices
       is AI-majority.
       
 ------------------------------------------------------------------------
-Rule 2034/10 (Power=3)
+Rule 2034/9 (Power=3.0)
 Vote Protection and Cutoff for Challenges
 
       A public message purporting to resolve an Agoran decision
@@ -1420,7 +1467,7 @@ Vote Protection and Cutoff for Challenges
 ========================================================================
 Offices & Reporting
 ------------------------------------------------------------------------
-Rule 1006/48 (Power=2)
+Rule 1006/45 (Power=2.0)
 Offices
 
       Officeholder is an office switch tracked by the ADoP, with
@@ -1451,7 +1498,7 @@ Offices
       becomes the holder of the office.
       
 ------------------------------------------------------------------------
-Rule 2143/30 (Power=1)
+Rule 2143/27 (Power=1.0)
 Official Reports and Duties
 
       For each person:
@@ -1506,14 +1553,14 @@ Official Reports and Duties
       self-ratification.
       
 ------------------------------------------------------------------------
-Rule 2379/1 (Power=1)
+Rule 2379/0 (Power=1.0)
 No News Is Some News
 
       If the rules define a report as including a list, then while that
       list is empty, that report includes the fact that it is empty.
       
 ------------------------------------------------------------------------
-Rule 2138/31 (Power=1)
+Rule 2138/24 (Power=1.0)
 The Associate Director of Personnel
 
       The Associate Director of Personnel (ADoP) is an office; its
@@ -1530,7 +1577,7 @@ The Associate Director of Personnel
          interim.
       
 ------------------------------------------------------------------------
-Rule 2160/20 (Power=3)
+Rule 2160/17 (Power=3.0)
 Deputisation
 
       A player (the deputy) CAN perform an action ordinarily reserved
@@ -1560,7 +1607,7 @@ Deputisation
       already install someone into that office.
       
 ------------------------------------------------------------------------
-Rule 2472/3 (Power=2)
+Rule 2472/2 (Power=2.0)
 Office Incompatibilities
 
       Some pairs of office are incompatible:
@@ -1584,7 +1631,7 @@ Office Incompatibilities
       then removed from all offices.
       
 ------------------------------------------------------------------------
-Rule 2154/54 (Power=2)
+Rule 2154/52 (Power=2.0)
 Election Procedure
 
       A player CAN initiate an election for a specified office:
@@ -1638,7 +1685,7 @@ Election Procedure
       office and the election ends.
       
 ------------------------------------------------------------------------
-Rule 2573/1 (Power=2.0)
+Rule 2573/0 (Power=2.0)
 Impeachment
 
       A player CAN be expelled (impeached) from a specified elected
@@ -1649,7 +1696,7 @@ Impeachment
       emself unworthy the trust of Agora.
       
 ------------------------------------------------------------------------
-Rule 1551/23 (Power=3.1)
+Rule 1551/17 (Power=3.1)
 Ratification
 
       A public document is part (possibly all) of a public message.
@@ -1682,7 +1729,7 @@ Ratification
       Ratifying a public document is secured with power threshold 3.
       
 ------------------------------------------------------------------------
-Rule 2202/7 (Power=3)
+Rule 2202/6 (Power=3.0)
 Ratification Without Objection
 
       Any player CAN, without objection, ratify a public document,
@@ -1702,7 +1749,7 @@ Ratification Without Objection
       is the Class-8 Crime of Endorsing Forgery.
       
 ------------------------------------------------------------------------
-Rule 2201/8 (Power=3)
+Rule 2201/7 (Power=3.0)
 Self-Ratification
 
       A public document defined by the rules as self-ratifying is
@@ -1732,7 +1779,7 @@ Self-Ratification
 ========================================================================
 Calls for Judgement
 ------------------------------------------------------------------------
-Rule 991/33 (Power=2)
+Rule 991/27 (Power=2.0)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -1763,7 +1810,7 @@ Calls for Judgement
       judicial assignments, and a list of players interested in judging.
       
 ------------------------------------------------------------------------
-Rule 591/52 (Power=1.7)
+Rule 591/45 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
@@ -1810,7 +1857,7 @@ Delivering Judgements
         arises from the case itself or in reference to it.
       
 ------------------------------------------------------------------------
-Rule 911/61 (Power=1.7)
+Rule 911/56 (Power=1.7)
 Motions and Moots
 
       If a judgement has been in effect for less then seven days and has
@@ -1849,7 +1896,7 @@ Motions and Moots
         judging.
       
 ------------------------------------------------------------------------
-Rule 2175/11 (Power=1)
+Rule 2175/9 (Power=1.0)
 Judicial Retraction and Excess
 
       A new case is a judicial case that has not had any judge assigned
@@ -1864,7 +1911,7 @@ Judicial Retraction and Excess
       regards to that case.
       
 ------------------------------------------------------------------------
-Rule 2492/3 (Power=1)
+Rule 2492/2 (Power=1.0)
 Recusal
 
       A judge CAN recuse emself from a CFJ e is assigned to by
@@ -1882,7 +1929,7 @@ Recusal
 ========================================================================
 Justice
 ------------------------------------------------------------------------
-Rule 2556/1 (Power=3.0)
+Rule 2556/0 (Power=3.0)
 Penalties
 
       Rules to the contrary notwithstanding, an impure person CANNOT win
@@ -1895,7 +1942,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
       
 ------------------------------------------------------------------------
-Rule 2486/1 (Power=3.14)
+Rule 2486/0 (Power=3.14)
 The Royal Parade
 
                     _
@@ -1924,7 +1971,7 @@ The Royal Parade
                when Events suiting the honour should occur.
       
 ------------------------------------------------------------------------
-Rule 2555/1 (Power=2.0)
+Rule 2555/0 (Power=2.0)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1944,7 +1991,7 @@ Blots
       The Referee is an office, and the recordkeepor for blots.
       
 ------------------------------------------------------------------------
-Rule 2478/8 (Power=1.7)
+Rule 2478/7 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
@@ -1972,7 +2019,7 @@ Vigilante Justice
       Finger at the Referee.
       
 ------------------------------------------------------------------------
-Rule 2479/6 (Power=1.7)
+Rule 2479/5 (Power=1.7)
 Official Justice
 
       The Referee CAN, subject to the provisions of this rule, impose
@@ -1985,7 +2032,7 @@ Official Justice
       a week.
       
 ------------------------------------------------------------------------
-Rule 2557/2 (Power=1.7)
+Rule 2557/1 (Power=1.7)
 Removing Blots
 
       A player CAN, by announcement, destroy N incense in eir possession
@@ -1999,7 +2046,7 @@ Removing Blots
       fugitive's blots are destroyed.
       
 ------------------------------------------------------------------------
-Rule 2531/3 (Power=2)
+Rule 2531/2 (Power=2.0)
 Referee Accountability
 
       Any attempt to levy a fine is INEFFECTIVE if it does not include
@@ -2014,7 +2061,9 @@ Referee Accountability
       levied, or if it is made more than 14 days after the conduct
       constituting the reason for the fine, or if it attempts to levy a
       fine to a player who has already been levied a fine for the
-      conduct constituting the reason for the levy.
+      conduct constituting the reason for the levy, or if it attempts to
+      levy a fine on a zombie for an action that its master performed on
+      its behalf.
       
       If the Referee attempts to levy three or more INEFFECTIVE fines in
       a week, any player CAN, with two support, issue a writ of
@@ -2027,7 +2076,7 @@ Referee Accountability
 ========================================================================
 Winning
 ------------------------------------------------------------------------
-Rule 2449/4 (Power=3)
+Rule 2449/3 (Power=3.0)
 Winning the Game
 
       When the Rules state that a person or persons win the game, those
@@ -2037,7 +2086,7 @@ Winning the Game
       persons the Patent Title of Champion once, by announcement.
       
 ------------------------------------------------------------------------
-Rule 2452/4 (Power=0.5)
+Rule 2452/2 (Power=0.5)
 Trust Tokens
 
       Any player can issue a Trust Token to another person by
@@ -2055,14 +2104,14 @@ Trust Tokens
       issued em a Trust Token.
       
 ------------------------------------------------------------------------
-Rule 2465/1 (Power=0.3)
+Rule 2465/0 (Power=0.3)
 Victory by Apathy
 
       A player CAN Declare Apathy without objection, specifying a set of
       players. Upon doing so, the specified players win the game.
       
 ------------------------------------------------------------------------
-Rule 2510/4 (Power=1)
+Rule 2510/3 (Power=1.0)
 Such is Karma
 
       Karma is a person switch tracked by the Herald in eir Weekly
@@ -2104,7 +2153,7 @@ Such is Karma
       Weekly Report.
       
 ------------------------------------------------------------------------
-Rule 2511/3 (Power=1)
+Rule 2511/2 (Power=1.0)
 Karmic Balance
 
       In a timely fashion after the beginning of each Quarter, the
@@ -2118,7 +2167,7 @@ Karmic Balance
          instance values in the game is equal to 0.
       
 ------------------------------------------------------------------------
-Rule 2529/5 (Power=1)
+Rule 2529/4 (Power=1.0)
 Medals of Honour
 
       Medals of Honour are a destructible fixed currency tracked by the
@@ -2154,7 +2203,7 @@ Medals of Honour
       announcement, destroying all of eir Medals of Honour.
       
 ------------------------------------------------------------------------
-Rule 2553/1 (Power=1)
+Rule 2553/0 (Power=1.0)
 Win by Paradox
 
       If a CFJ about the legality or possibility of a game action, has
@@ -2166,34 +2215,97 @@ Win by Paradox
       prevent the paradox from arising again.
       
 ------------------------------------------------------------------------
-Rule 2554/1 (Power=1)
-Zombiception
-
-      If every member of a set of zombies has a master who is a member
-      of that set of zombies, then any player CAN announce a
-      Zombiception, listing the members of the set. Upon such an
-      announcement, all members of the set win the game and have their
-      master flipped to Agora.
-      
-------------------------------------------------------------------------
 ========================================================================
 Awards
 ------------------------------------------------------------------------
-Rule 2538/2 (Power=2)
-Party Favours
+Rule 2438/9 (Power=3.0)
+Ribbons
 
-      For each Party, there is a currency called Favours in that Party.
-      Ownership of Favours is tracked by the Clork. Ownership of Favours
-      is restricted to players.
+      The Tailor is an office, and the recordkeepor of Ribbons.
       
-      A player CAN, by announcement, spend 3 Favours in a single Party
-      to award another player 2 Favours in that Party.
+      Ribbon Ownership is a person switch, tracked by the Tailor in eir
+      monthly report, whose values are the subsets of the set of types
+      of Ribbon, defaulting to the empty set. If the rules are amended
+      to change the types of Ribbon, if a player's Ribbon Ownership is
+      subsequently illegal, then it is updated by removing all
+      nonexistent types rather than resetting the entire value to
+      default.
       
-      A player CAN, by announcement, spend 3 Favours in a single Party
-      to gain a Favour in another specified Party.
+      To "award a person a <Ribbon type>" is to add that type of Ribbon
+      to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
+      if that type of Ribbon is an element of eir Ribbon Ownership.
+      
+      While a person qualifies for a type of Ribbon, any player CAN, by
+      announcement, award em that type of Ribbon. A person qualifies for
+      a type of Ribbon if e has earned that type of Ribbon within the
+      preceding 7 days (including earlier in the same message) and has
+      not owned that type of Ribbon within the preceding 7 days.
+      
+      While a person owns all types of Ribbon, that person can Raise a
+      Banner by announcement. This causes that person to win the game.
+      That person's Ribbon Ownership becomes the empty set.
+      
+      The types of Ribbon, and the methods of obtaining them, are as
+      follows:
+      
+      Red (R): When a proposal is adopted and changes at least one rule
+      with Power >= 3, its proposer earns a Red Ribbon.
+      
+      Orange (O): When a proposal is adopted via an Agoran Decision on
+      which no valid ballots were AGAINST (after evaluating
+      conditionals), its proposer earns an Orange Ribbon.
+      
+      Green (G): While a person has held an elected office continuously
+      for 30 days, and has not failed to perform any duties of that
+      office within the appropriate time limits during those 30 days,
+      that person qualifies for a Green Ribbon.
+      
+      Cyan (C): When a person deputises for an office, that person earns
+      a Cyan Ribbon.
+      
+      Blue (B): When a person assigns a judgement to a CFJ, and has
+      never violated a time limit to assign a judgement to that CFJ,
+      that person earns a Blue Ribbon.
+      
+      Magenta (M): During Agora's Birthday, each person who has publicly
+      acknowledged the fact qualifies for a Magenta Ribbon.
+      
+      Ultraviolet (U): When a person is awarded the Patent Title
+      Champion, that person earns an Ultraviolet Ribbon.
+      
+      Violet (V): When a person is awarded a Patent Title other than
+      Champion or a degree, that person earns a Violet Ribbon.
+      
+      Indigo (I): When a person is awarded a degree, that person earns
+      an Indigo Ribbon.
+      
+      Platinum (P): The Speaker qualifies for a Platinum Ribbon.
+      
+      Lime (L): A person qualifies for a Lime Ribbon if three or more
+      proposals adopted in the preceding 7 days had that person as a
+      coauthor.
+      
+      White (W): A player qualifies for a White Ribbon if e has never
+      previously owned a White Ribbon (including under previous
+      rulesets). A player who has been registered for at least 30 days
+      and has never caused another person to gain a White Ribbon
+      (including under a previous ruleset) CAN award a White Ribbon to
+      another person by announcement.
+      
+      Black (K): This rule does not specify any methods of obtaining
+      Black Ribbons.
+      
+      Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
+      unless e has done so earlier in the month. E is ENCOURAGED to
+      award such a Ribbon in the same message in which e publishes eir
+      monthly report.
+      
+      Transparent (T): A person qualifies for a Transparent Ribbon while
+      the number of other types of Ribbon that that person qualifies for
+      and/or has earned within the previous 7 days is at least 5.
       
 ------------------------------------------------------------------------
-Rule 2480/2 (Power=2.1)
+Rule 2480/1 (Power=2.1)
 Festivals
 
       Festivity is a singleton switch, whose possible values are
@@ -2218,7 +2330,7 @@ Festivals
       Festive.
       
 ------------------------------------------------------------------------
-Rule 2481/2 (Power=2.1)
+Rule 2481/1 (Power=2.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -2238,7 +2350,7 @@ Festival Restrictions
       effect and are ignored.
       
 ------------------------------------------------------------------------
-Rule 649/41 (Power=1.5)
+Rule 649/39 (Power=1.5)
 Patent Titles
 
       A Patent Title is a legal title given to a person in recognition
@@ -2255,7 +2367,7 @@ Patent Titles
       player With 2 Agoran Consent.
       
 ------------------------------------------------------------------------
-Rule 2444/4 (Power=1)
+Rule 2444/3 (Power=1.0)
 Silver Quill
 
       The Silver Quill is an annual award designed to honor the authors
@@ -2284,7 +2396,7 @@ Silver Quill
       is no winner.
       
 ------------------------------------------------------------------------
-Rule 2415/1 (Power=1.5)
+Rule 2415/0 (Power=1.5)
 Badges
 
       A Badge is any patent title with the word 'badge' as part of its
@@ -2295,7 +2407,7 @@ Badges
       existing badge to persons Without Objection.
       
 ------------------------------------------------------------------------
-Rule 1367/23 (Power=3)
+Rule 1367/18 (Power=3.0)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -2318,7 +2430,7 @@ Degrees
       coordinate the peer-review process and the awarding of degrees.
       
 ------------------------------------------------------------------------
-Rule 2231/8 (Power=3)
+Rule 2231/6 (Power=3.0)
 Order of the Hero of Agora Nomic
 
       Heroic titles are Agora's premier patent titles of distinction, and
@@ -2343,13 +2455,13 @@ Order of the Hero of Agora Nomic
 ========================================================================
 Figureheads
 ------------------------------------------------------------------------
-Rule 104/2 (Power=3)
+Rule 104/0 (Power=3.0)
 First Speaker
 
       The Speaker for the first game shall be Michael Norrish.
       
 ------------------------------------------------------------------------
-Rule 103/31 (Power=2)
+Rule 103/24 (Power=2.0)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -2370,7 +2482,7 @@ The Speaker
       office.
       
 ------------------------------------------------------------------------
-Rule 2423/4 (Power=2)
+Rule 2423/3 (Power=2.0)
 First Among Equals
 
       The Prime Minister is an office. The Prime Minister is elected by
@@ -2383,7 +2495,7 @@ First Among Equals
       the Prime Minister.
       
 ------------------------------------------------------------------------
-Rule 2463/1 (Power=1)
+Rule 2463/0 (Power=1.0)
 Motion of No Confidence
 
       Any player can cause the office of Prime Minister to become vacant
@@ -2391,7 +2503,7 @@ Motion of No Confidence
       string "MOTION OF NO CONFIDENCE" in the subject line.
       
 ------------------------------------------------------------------------
-Rule 2451/8 (Power=2.0)
+Rule 2451/6 (Power=2.0)
 Executive Orders
 
       Once per week and except as otherwise forbidden by this rule, the
@@ -2424,28 +2536,22 @@ Contracts & Obligations
 Rule 2450/4 (Power=1.7)
 Pledges
 
-      Pledges are an indestructible fixed asset. Ownership of pledges is
-      restricted to persons. The Referee is the recordkeepor of pledges.
-      Creating, destroying, modifying, and transferring pledges are
-      secured.
+      If a Player makes a clear public pledge (syn. Oath) to perform (or
+      refrain from performing) certain actions, then breaking the pledge
+      within the pledge's time window is the Class N crime of
+      Oathbreaking, where N is 2 unless the pledge explicitly states
+      otherwise.  The time window of a pledge is 60 days, unless the
+      pledge explicitly states otherwise.
       
-      To "pledge" something is to create a pledge with those terms. A
-      person CAN pledge by announcement to create a pledge e owns.
+      If breaking the pledge harms specific other parties, the Referee
+      SHOULD solicit the opinion of those parties in determining an
+      appropriate fine.
       
-      To "retract" (syn "withdraw") a pledge is to destroy it. A person
-      CAN retract a pledge e owns without objection.
-      
-      To "call in" a pledge" is to destroy it. A player CAN call in any
-      pledge with Agoran Consent, if e announces a reason the Terms of
-      the pledge should be considered broken. Support for an intent to
-      call in a pledge is INEFFECTIVE unless the supporting player
-      explicitly confirms the reasons that the pledge should be
-      considered broken.
-      
-      It is ILLEGAL to own a pledge when it is called in.
+      The Notary's Weekly Report includes a copy of all pledges that are
+      within their time window, and the dates the pledges were made.
       
 ------------------------------------------------------------------------
-Rule 2519/1 (Power=3)
+Rule 2519/0 (Power=3.0)
 Consent
 
       A person gives consent (syn. consents) to an action when e, acting
@@ -2454,7 +2560,7 @@ Consent
       context that the person wanted the agreement to take place.
       
 ------------------------------------------------------------------------
-Rule 2520/1 (Power=2.5)
+Rule 2520/0 (Power=2.5)
 Contracts
 
       A contract is a ruleset-defined entity embodied in text. An entity
@@ -2489,7 +2595,7 @@ Contracts
       - The ability to possess and control assets.
       
 ------------------------------------------------------------------------
-Rule 2525/2 (Power=2.6)
+Rule 2525/1 (Power=2.6)
 Interpreting Contracts
 
       A contract should generally be interpreted according to its text,
@@ -2546,7 +2652,7 @@ Interpreting Contracts
       and without effect.
       
 ------------------------------------------------------------------------
-Rule 2522/2 (Power=2.5)
+Rule 2522/1 (Power=2.5)
 Contract Lifecycle
 
       A person CAN create a contract by announcement by transferring 1
@@ -2593,7 +2699,7 @@ Contract Lifecycle
       impossible.
       
 ------------------------------------------------------------------------
-Rule 2523/3 (Power=2.4)
+Rule 2523/2 (Power=2.4)
 Contracts as Agreements
 
       The text of a contract can specify obligations upon its parties.
@@ -2616,7 +2722,7 @@ Contracts as Agreements
       a fine.
       
 ------------------------------------------------------------------------
-Rule 2521/1 (Power=2.5)
+Rule 2521/0 (Power=2.5)
 Parties to Contracts
 
       Each contract has an associated set of persons, known as the
@@ -2636,7 +2742,7 @@ Parties to Contracts
       possible.
       
 ------------------------------------------------------------------------
-Rule 2526/3 (Power=2.4)
+Rule 2526/2 (Power=2.4)
 Sustenance Payments
 
       The Notary CAN, once a month, cause each contract that owns at
@@ -2652,7 +2758,7 @@ Sustenance Payments
       to be in the public interest of Agora.
       
 ------------------------------------------------------------------------
-Rule 2527/1 (Power=1)
+Rule 2527/0 (Power=1.0)
 The Notary
 
       The Notary is an office, and the recordkeepor of contracts. The
@@ -2662,7 +2768,7 @@ The Notary
       list all changes to the information e tracks in eir report.
       
 ------------------------------------------------------------------------
-Rule 2471/2 (Power=1)
+Rule 2471/1 (Power=1.0)
 No Faking
 
       A person SHALL NOT make a public statement that is a lie. A
@@ -2682,7 +2788,7 @@ No Faking
 ========================================================================
 Economics
 ------------------------------------------------------------------------
-Rule 2166/29 (Power=3)
+Rule 2166/25 (Power=3.0)
 Assets
 
       An asset is an entity defined as such by a (a) rule, (b)
@@ -2787,7 +2893,7 @@ Assets
       backing document is a contract.
       
 ------------------------------------------------------------------------
-Rule 2515/1 (Power=1)
+Rule 2515/0 (Power=1.0)
 Distributing Assets
 
       To “distribute” a quantity of a fungible asset to a set of
@@ -2802,7 +2908,84 @@ Distributing Assets
       distributed.
       
 ------------------------------------------------------------------------
-Rule 2545/1 (Power=2)
+Rule 2456/5 (Power=1.0)
+The Treasuror
+
+      The Treasuror is an office.
+      
+      The Treasuror's weekly report includes the list of all public
+      classes of assets.
+      
+------------------------------------------------------------------------
+Rule 2483/8 (Power=2.0)
+Economics
+
+      The following currencies are defined, and are tracked by the
+      Treasuror. They can be owned by Agora, players, contracts, and
+      facilities.
+      
+      1.  ore
+      2.  stones
+      3.  lumber
+      4.  apples
+      5.  cotton
+      6.  corn
+      7.  coins
+      8.  papers
+      9.  fabric
+      10. incense
+      
+      Stones, apples, corn, and incense are considered unrefinable
+      currencies; ore, lumber, and cotton are considered refinable
+      currencies; and coins, papers, and fabric are considered refined
+      currencies.
+      
+      Coins are the official currency of Agora.
+      
+------------------------------------------------------------------------
+Rule 2559/2 (Power=2.0)
+Paydays
+
+      Whenever a Payday occurs, the following events happen in order:
+      
+      1. The following assets are created in the possession of each
+         player:
+         A. 10 coins
+         B. 5 apples
+         C. 2 papers
+         D. 3 incense
+      
+      2. For each office, if a single player held that office for 16 or
+         more days in the previous month and no unforgivable fines were
+         levied on em for eir conduct in that office during that time,
+         the following assets are created in the possession of that
+         player:
+         A. 5 coins
+         B. 1 corn
+      
+      The occurrence of Paydays is secured.  At the beginning of each
+      month, a Payday occurs.
+      
+------------------------------------------------------------------------
+Rule 2499/2 (Power=1.0)
+Welcome Packages
+
+      If a player has not received a Welcome Package since e most
+      recently registered, any player CAN cause em to receive one by
+      announcement.
+      
+      When a player receives a Welcome Package, Agora creates the
+      following assets in eir possession:
+      
+      1. 10 coins
+      2. 5 lumber
+      3. 5 stones
+      4. 10 apples
+      5. 3 paper
+      6. 5 incense
+      
+------------------------------------------------------------------------
+Rule 2545/0 (Power=2.0)
 Auctions
 
       An Auction is a way for entities to give away items in exchange
@@ -2810,7 +2993,7 @@ Auctions
       Auctions to be initiated.
       
 ------------------------------------------------------------------------
-Rule 2546/1 (Power=1)
+Rule 2546/0 (Power=1.0)
 Lots
 
       Each Auction has one or more lots of items.
@@ -2819,7 +3002,7 @@ Lots
       Auction to a single recipient.
       
 ------------------------------------------------------------------------
-Rule 2547/1 (Power=1)
+Rule 2547/0 (Power=1.0)
 The Auctioneer
 
       Each Auction has an Auctioneer.
@@ -2837,7 +3020,7 @@ The Auctioneer
       Auctioneer of an Auction defined by that Contract is INEFFECTIVE.
       
 ------------------------------------------------------------------------
-Rule 2548/1 (Power=1)
+Rule 2548/0 (Power=1.0)
 The Auction Announcer
 
       Each Auction has an Announcer. Only persons can be Announcers.
@@ -2851,7 +3034,7 @@ The Auction Announcer
       unless that person is a party to that Contract.
       
 ------------------------------------------------------------------------
-Rule 2549/2 (Power=1)
+Rule 2549/1 (Power=1.0)
 Auction Initiation
 
       An entity authorized by a rule or contract to initiate an Auction
@@ -2882,7 +3065,7 @@ Auction Initiation
       If no currency is specified, it defaults to coins.
       
 ------------------------------------------------------------------------
-Rule 2550/1 (Power=1)
+Rule 2550/0 (Power=1.0)
 Bidding
 
       A person authorized to bid on an Auction CAN do so by
@@ -2908,7 +3091,7 @@ Bidding
       em to pay that amount at the conclusion of the Auction.
       
 ------------------------------------------------------------------------
-Rule 2551/2 (Power=1)
+Rule 2551/1 (Power=1.0)
 Auction End
 
       An Auction ends 7 days after its initiation, or immediately if no
@@ -2949,7 +3132,7 @@ Auction End
       anything.
       
 ------------------------------------------------------------------------
-Rule 2552/1 (Power=1)
+Rule 2552/0 (Power=1.0)
 Auction Termination
 
       Any player CAN terminate an Auction, by announcement, if the
@@ -2960,87 +3143,10 @@ Auction Termination
       withdrawn, and then the Auction ends immediately.
       
 ------------------------------------------------------------------------
-Rule 2456/9 (Power=1)
-The Treasuror
-
-      The Treasuror is an office.
-      
-      The Treasuror's weekly report includes the list of all public
-      classes of assets.
-      
-------------------------------------------------------------------------
-Rule 2483/9 (Power=2)
-Economics
-
-      The following currencies are defined, and are tracked by the
-      Treasuror. They can be owned by Agora, players, contracts, and
-      facilities.
-      
-      1.  ore
-      2.  stones
-      3.  lumber
-      4.  apples
-      5.  cotton
-      6.  corn
-      7.  coins
-      8.  papers
-      9.  fabric
-      10. incense
-      
-      Stones, apples, corn, and incense are considered unrefinable
-      currencies; ore, lumber, and cotton are considered refinable
-      currencies; and coins, papers, and fabric are considered refined
-      currencies.
-      
-      Coins are the official currency of Agora.
-      
-------------------------------------------------------------------------
-Rule 2559/3 (Power=2)
-Paydays
-
-      Whenever a Payday occurs, the following events happen in order:
-      
-      1. The following assets are created in the possession of each
-         player:
-         A. 10 coins
-         B. 5 apples
-         C. 2 papers
-         D. 3 incence
-      
-      2. For each office, if a single player held that office for 16 or
-         more days in the previous month and no unforgivable fines were
-         levied on em for eir conduct in that office during that time,
-         the following assets are created in the possession of that
-         player:
-         A. 5 coins
-         B. 1 corn
-      
-      The occurrence of Paydays is secured.  At the beginning of each
-      month, a Payday occurs.
-      
-------------------------------------------------------------------------
-Rule 2499/4 (Power=1)
-Welcome Packages
-
-      If a player has not received a Welcome Package since e most
-      recently registered, any player CAN cause em to receive one by
-      announcement.
-      
-      When a player receives a Welcome Package, Agora creates the
-      following assets in eir possession:
-      
-      1. 10 coins
-      2. 5 lumber
-      3. 5 stones
-      4. 10 apples
-      5. 3 paper
-      6. 5 incense
-      
-------------------------------------------------------------------------
 ========================================================================
 The Land of Arcadia
 ------------------------------------------------------------------------
-Rule 1993/4 (Power=2)
+Rule 1993/1 (Power=2.0)
 The Land of Arcadia
 
       Arcadia is a land entirely defined by the Arcadian Map (the Map).
@@ -3064,7 +3170,7 @@ The Land of Arcadia
       Land defined by permissible Latitude and Longitude pairs.
       
 ------------------------------------------------------------------------
-Rule 1994/3 (Power=2)
+Rule 1994/0 (Power=2.0)
 Ownership of Land
 
       Any existent Land for which ownership has not been explicitly
@@ -3076,7 +3182,7 @@ Ownership of Land
       Land are called Proprietary Land.
       
 ------------------------------------------------------------------------
-Rule 1995/5 (Power=2)
+Rule 1995/2 (Power=2.0)
 Land Types
 
       Each Unit of Land has a Land Type switch, tracked by the
@@ -3107,11 +3213,11 @@ Land Types
       Alternating Land Type is a singleton switch with the values of
       Black and White, defaulting to Black. When an act specifies that
       an alternating land type is to be used, the current value of the
-      Alternating Land Type switch is used, and the switch is set to th
+      Alternating Land Type switch is used, and the switch is set to the
       next value of the switch.
       
 ------------------------------------------------------------------------
-Rule 1996/7 (Power=1)
+Rule 1996/3 (Power=1.0)
 The Cartographor
 
       The Cartographor is an office; its holder is recordkeepor for the
@@ -3129,7 +3235,7 @@ The Cartographor
       6. a list of all preserved land units.
       
 ------------------------------------------------------------------------
-Rule 1998/5 (Power=1)
+Rule 1998/2 (Power=1.0)
 Land Topology
 
       Two Units of Land are Adjacent if they have the same Latitude, and
@@ -3141,7 +3247,7 @@ Land Topology
       same color, starting from A.
       
 ------------------------------------------------------------------------
-Rule 1999/3 (Power=1)
+Rule 1999/0 (Power=1.0)
 Entity Location
 
       Location is a player switch, tracked by the Cartographer, whose
@@ -3159,7 +3265,7 @@ Entity Location
       changed, its Location is set to (0, 0).
       
 ------------------------------------------------------------------------
-Rule 2003/16 (Power=1)
+Rule 2003/14 (Power=1.0)
 Actions in Arcadia
 
       Players CAN destroy:
@@ -3191,7 +3297,7 @@ Actions in Arcadia
       for three or fewer apples.
       
 ------------------------------------------------------------------------
-Rule 2004/8 (Power=1)
+Rule 2004/5 (Power=1.0)
 Land Auctions
 
       Every Agoran Week, if the number of Units of Private Land is less
@@ -3211,7 +3317,7 @@ Land Auctions
       auctioneer is Agora, and the minimum bid is 1 coin.
       
 ------------------------------------------------------------------------
-Rule 2022/10 (Power=1)
+Rule 2022/6 (Power=1.0)
 Land Transfiguration
 
       Once during the second or third Eastman week of each Agoran Month,
@@ -3233,7 +3339,7 @@ Land Transfiguration
       Agoran Month.
       
 ------------------------------------------------------------------------
-Rule 2565/1 (Power=2.6)
+Rule 2565/0 (Power=2.6)
 Preserved Land
 
       Preservation is a boolean land switch, defaulting to False. The
@@ -3255,7 +3361,7 @@ Preserved Land
       not Agora CANNOT own preserved land.
       
 ------------------------------------------------------------------------
-Rule 2560/2 (Power=2)
+Rule 2560/1 (Power=2.0)
 Facilities
 
       Facilities are liquid assets tracked by the Cartographor. In order
@@ -3282,7 +3388,7 @@ Facilities
       land unit.
       
 ------------------------------------------------------------------------
-Rule 2561/4 (Power=2)
+Rule 2561/3 (Power=2.0)
 Asset Generation with Facilities
 
       When an Production or Processing facility creates assets, the
@@ -3321,7 +3427,7 @@ Asset Generation with Facilities
             facility, or the owner must have consented.
       
 ------------------------------------------------------------------------
-Rule 2562/2 (Power=2)
+Rule 2562/1 (Power=2.0)
 Facility Ranks
 
       Rank is a facility switch tracked by the Cartographor defaulting
@@ -3336,7 +3442,7 @@ Facility Ranks
       in other rules.
       
 ------------------------------------------------------------------------
-Rule 2563/2 (Power=2)
+Rule 2563/1 (Power=2.0)
 Production Facilities
 
       For the purposes of this rule, the variable n is equivalent to the
@@ -3384,7 +3490,7 @@ Production Facilities
             -  Rank 5: 10 coins, 6 lumber, 4 stones, 7 fabric
       
 ------------------------------------------------------------------------
-Rule 2564/1 (Power=2)
+Rule 2564/0 (Power=2.0)
 Processing Facilities
 
       For the purposes of this rule, the variable n is equivalent to the
@@ -3422,7 +3528,7 @@ Processing Facilities
               -  Rank 5: 9 coins, 6 lumber, 5 stones, 7 fabric
       
 ------------------------------------------------------------------------
-Rule 2567/1 (Power=2)
+Rule 2567/0 (Power=2.0)
 Facility Categories
 
       A facility's Category is a switch whose possible values are
@@ -3431,7 +3537,7 @@ Facility Categories
       Category switch set to x.
       
 ------------------------------------------------------------------------
-Rule 2568/1 (Power=2)
+Rule 2568/0 (Power=2.0)
 Facility Colors
 
       A facility's Allowed Land Types is a switch with allowed values of
@@ -3440,7 +3546,7 @@ Facility Colors
       Unit whose Land Type is not an element of their Allowed Land
       Types. If an action or set of actions would cause a facility to be
       created with a Parent Land Unit whose Land Type is not an element
-      of its Allowed Land Types, that action or set of actions fails. I
+      of its Allowed Land Types, that action or set of actions fails. If
       a facility's Parent Land Unit's Land Type is flipped to a color
       that is not in that facility's Allowed Land Types, that facility
       is destroyed.
@@ -3450,7 +3556,7 @@ Facility Colors
       x.
       
 ------------------------------------------------------------------------
-Rule 2569/1 (Power=2.0)
+Rule 2569/0 (Power=2.0)
 Gray Land
 
       Gray Land is preserved and owned by Agora. If Land becomes Gray
@@ -3458,7 +3564,7 @@ Gray Land
       Unit, is transferred to Agora.
       
 ------------------------------------------------------------------------
-Rule 2570/1 (Power=1.0)
+Rule 2570/0 (Power=1.0)
 Monument Facilities
 
       For each type of Monument facility, there may only be one instance
@@ -3467,14 +3573,14 @@ Monument Facilities
       facility of the same type is already in existence.
       
 ------------------------------------------------------------------------
-Rule 2571/1 (Power=1.0)
+Rule 2571/0 (Power=1.0)
 The Fountain
 
       A fountain is a Gray Monument facility. A fountain has no upkeep
       cost.
       
 ------------------------------------------------------------------------
-Rule 2572/1 (Power=1.0)
+Rule 2572/0 (Power=1.0)
 Wishing Fountain
 
       If a player's location is the same as a fountain, e CAN destroy a
@@ -3483,7 +3589,7 @@ Wishing Fountain
       when e Throws A Coin.
       
 ------------------------------------------------------------------------
-Rule 2046/4 (Power=1.0)
+Rule 2046/0 (Power=1.0)
 Q*Bert
 
       Q*Bert is an entity which has a location. Q*Bert CAN be on a unit
@@ -3527,7 +3633,7 @@ Q*Bert
 ========================================================================
 Agoran Culture
 ------------------------------------------------------------------------
-Rule 2327/2 (Power=1)
+Rule 2327/1 (Power=1.0)
 Read the Ruleset Week
 
       The first Agoran week each year which falls entirely in February
@@ -3535,7 +3641,7 @@ Read the Ruleset Week
       ruleset during Read the Ruleset Week.
       
 ------------------------------------------------------------------------
-Rule 1727/22 (Power=1)
+Rule 1727/21 (Power=1.0)
 Happy Birthday
 
       WHEREAS, in June 1993, the world's only MUD-based nomic, Nomic
@@ -3576,7 +3682,7 @@ Happy Birthday
       the entire day of June 30, GMT +1200, of each year.
       
 ------------------------------------------------------------------------
-Rule 2464/4 (Power=1)
+Rule 2464/3 (Power=1.0)
 Tournaments
 
       A Tournament is a sub-game of Agora specifically sanctioned to be
@@ -3592,7 +3698,7 @@ Tournaments
       person who initiates a tournament is its Gamemaster.
       
 ------------------------------------------------------------------------
-Rule 2566/1 (Power=1)
+Rule 2566/0 (Power=1.0)
 Free Tournaments
 
       A player who is not the gamemaster of an existing tournament CAN
@@ -3609,7 +3715,7 @@ Free Tournaments
       the tournament.
       
 ------------------------------------------------------------------------
-Rule 2495/2 (Power=1)
+Rule 2495/1 (Power=1.0)
 The Birthday Tournament
 
       In a timely fashion after the start of June 1 of each year, the
@@ -3634,7 +3740,7 @@ The Birthday Tournament
       to coincide with Agora's Birthday.
       
 ------------------------------------------------------------------------
-Rule 1769/16 (Power=3)
+Rule 1769/15 (Power=3.0)
 Holidays
 
       The period each year from midnight GMT on the morning of 24
@@ -3648,7 +3754,7 @@ Holidays
       a Holiday, punishment is generally not appropriate.
       
 ------------------------------------------------------------------------
-Rule 2029/1 (Power=4)
+Rule 2029/0 (Power=4.0)
 Town Fountain
 
                       /\   /\

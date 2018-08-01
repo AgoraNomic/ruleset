@@ -8,7 +8,7 @@ text: |
   Unit whose Land Type is not an element of their Allowed Land
   Types. If an action or set of actions would cause a facility to be
   created with a Parent Land Unit whose Land Type is not an element
-  of its Allowed Land Types, that action or set of actions fails. I
+  of its Allowed Land Types, that action or set of actions fails. If
   a facility's Parent Land Unit's Land Type is flipped to a color
   that is not in that facility's Allowed Land Types, that facility
   is destroyed.
