@@ -170,7 +170,7 @@ Cantus Cygneus
       all may know said Player deregistered in a Writ of FAGE.
       
 ------------------------------------------------------------------------
-Rule 2532/1 (Power=2.0)
+Rule 2532/2 (Power=2.0)
 Zombies
 
       Master is a secured player switch with possible values of any
@@ -187,6 +187,7 @@ Zombies
         - act on behalf of that zombie's zombies;
         - bid in a zombie auction;
         - enter a contract, pledge, or other type of agreement;
+        - initiate a Call fo Judgement;
         - deregister.
       
       A zombie's master CAN flip that zombie's master switch to Agora by
@@ -456,74 +457,20 @@ Rule Changes
       a rule or cease to be a rule.
       
 ------------------------------------------------------------------------
-Rule 2493/2 (Power=3.1)
+Rule 2493/3 (Power=3.0)
 Regulations
 
-      A Regulation is an textual entity defined as such by this rule. A
-      regulation allows an officer (known as the Promulgator) to
-      exercise rule defined powers. A regulation is in effect
-      continuously from the time of its creation to the time of either
-      its revocation or the repeal of the rule that allowed for its
-      creation. When recommending a regulation, its Promulgator must
-      specify by number the rule(s) upon which it is based (the parent
-      rules), the list of which becomes an integral part of the
-      regulation. The list of rules can generally be modified by the
-      Promulgator according to the procedure for text changes.
+      A regulation is an textual entity defined as such by this rule,
+      and under the authority of an officer, known as its Promulgator.
+      A regulation must be authorized by a rule (its parent rule) in
+      order to exist. It has only the effect that rule explicitly
+      gives it.
       
-      A regulation must be authorized by at least one rule in order for
-      it to exist. A regulation has effect on the game (only) insofar as
-      the rule or rules that authorized it permit it to have effect. If
-      reasonably possible, a regulation should be interpreted so as to
-      defer to other rules. The procedure for resolving conflict between
-      regulations is the same as it is for rules (for the purposes of
-      resolving conflicts only, a regulation is treated as if it had the
-      power of its least powerful parent rule).
-      
-      Regulations are generally issued according to the following
-      procedures, and they can be repealed by the announcement of their
-      Promulgator. Alternate procedures may be used if provided for by
-      all of the regulations's parent rules. If one parent rule
-      specifies procedures that are more stringent than those that the
-      other(s) specifies, those apply. Creating, modifying, revoking, or
-      allowing for a regulation is secured at power 1.
-      
-      A regulation (or set of regulations), authorized by another rule,
-      CAN generally be enacted or modified by its promulgator without 2
-      objections, or with Agoran consent. A notice pursuant to the
-      previous sentence is known as a "recommendation", and the
-      regulation(s) are said to be "recommended" to Agora.
-      
-------------------------------------------------------------------------
-Rule 2494/0 (Power=1.0)
-The Regkeepor
-
-      The Regkeepor is an office, responsible for the maintenance of the
-      Regulations. The Regulations are contained in the Regkeepor's
-      weekly report, know as the Agora Nomic Code of Regulations
-      (ACORN). E MAY publish multiple versions or editions of the ACORN.
-      
-      The ACORN is divided into titles, assigned by the Regkeepor, which
-      are each given an integer. Generally, each office with the power
-      to create regulations SHOULD be assigned the next successive
-      natural number. Title 0 of the ACORN is reserved for use by the
-      Regkeepor, and nothing in that title need be a regulation.
-      Non-regulations printed in the ACORN have no binding effect, and
-      SHALL clearly be marked by the Regkeepor.
-      
-      Each regulation SHALL be assigned an ID number by the Regkeepor,
-      consisting of a string of the characters [0-9] and separator
-      characters. The Regkeepor SHOULD establish some way of keeping
-      track of the version of a regulations. The Regkeepor MAY also, at
-      eir discretion, create ways of marking special types of Regulation
-      (even in violation of the previous restrictions of this
-      paragraph), mark sections or titles as reserved for future use,
-      and make such other discussions of arrangement, annotation, and
-      marking as are necessary and proper in the execution of eir
-      duties.
-      
-      The Regkeepor SHOULD remember that the purpose of the ACORN is to
-      make the regulations easily readable, and e SHALL not act in a
-      manner intended to deceive others in eir official capacity.
+      A regulation CAN be enacted, amended, and repealed as specified
+      by its parent rule. By default, a Promulgator can enact or amend
+      a regulation with 2 Agoran Consent and repeal a regulation by
+      announcement. Regulations are tracked in their Promulgator's
+      weekly report.
       
 ------------------------------------------------------------------------
 Rule 1051/16 (Power=1.0)
@@ -721,16 +668,16 @@ Agoran Numbers
 Rule 2125/10 (Power=3.0)
 Regulated Actions
 
-      An action is restricted if: (1) the Rules limit, allow, enable, or
+      An action is regulated if: (1) the Rules limit, allow, enable, or
       permit its performance; (2) describe the circumstances under which
       the action would succeed or fail; or (3) the action would, as part
       of its effect, modify information for which some player is
       required to be a recordkeepor.
       
-      A Restricted Action CAN only be performed as described by the
-      Rules, and only using the methods explicitly specified in the
-      Rules for performing the given action. The Rules SHALL NOT be
-      interpreted so as to proscribe unrestricted actions.
+      A Regulated Action CAN only be performed as described by the
+      Rules,and only using the methods explicitly specified in the Rules
+      for performing the given action. The Rules SHALL NOT be
+      interpreted so as to proscribe unregulated actions.
       
 ------------------------------------------------------------------------
 Rule 1023/42 (Power=2.0)
@@ -1035,7 +982,7 @@ Proposals
       more than 14 days ago.
       
 ------------------------------------------------------------------------
-Rule 2445/13 (Power=1.0)
+Rule 2445/14 (Power=1.0)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
@@ -1043,22 +990,9 @@ How to Pend a Proposal
       "not pending" (default).
       
       Any player CAN flip a specified proposal's imminence to "pending"
-      by announcement by destroying 1 paper.
-      
-      An Official Proposal is a proposal designated as such by the
-      Rules; generally official proposals that are created as part of an
-      Officer's duties. Rules to the contrary notwithstanding, an
-      Official proposal is always pending. Rules to the contrary
-      notwithstanding, players CANNOT claim rewards for the adoption of
-      an Official proposal.
-      
-      The holder of an Office CAN Rubberstamp a proposal for that
-      specified office, without 3 objections, if no other proposal has
-      been rubberstamped for that office in the current Agoran month.
-      When rubberstamped, the proposal becomes an official proposal
-      associated with that office. Rubberstamping SHOULD only be used to
-      make rule or gamestate corrections associated with the duties of
-      that office.
+      by announcement, but cannot use this method more than five times
+      each week. The first five proposals pended by the Promotor of
+      which e is not the author do not count against eir weekly limit.
       
 ------------------------------------------------------------------------
 Rule 1607/43 (Power=3.0)
@@ -1750,7 +1684,7 @@ Self-Ratification
 ========================================================================
 Calls for Judgement
 ------------------------------------------------------------------------
-Rule 991/27 (Power=2.0)
+Rule 991/28 (Power=2.0)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -1770,8 +1704,8 @@ Calls for Judgement
       When a CFJ has no judge assigned, the Arbitor CAN assign any
       eligible player to be its judge by announcement, and SHALL do so
       in a timely fashion. The players eligible to be assigned as judge
-      are all players except the initiator and the person barred (if
-      any). The Arbitor SHALL assign judges over time such that all
+      are all active players except the initiator and the person barred
+      (if any). The Arbitor SHALL assign judges over time such that all
       interested players have reasonably equal opportunities to judge.
       If a CFJ has no judge assigned, then any player eligible to judge
       that CFJ CAN assign it to emself Without 3 Objections.
@@ -2138,42 +2072,6 @@ Karmic Balance
          instance values in the game is equal to 0.
       
 ------------------------------------------------------------------------
-Rule 2529/4 (Power=1.0)
-Medals of Honour
-
-      Medals of Honour are a destructible fixed currency tracked by the
-      Herald.
-      
-      In the first Eastman week of an Agoran month, any player CAN
-      declare emself to be eligible for a Medal of Honour by
-      announcement if all of the following are true:
-      
-      * E has made at least 1 message to a public forum in the last
-        Agoran month.
-      
-      * Eir Karma is not below -3.
-      
-      * In the last Agoran month, e has not had a fine levied on em.
-      
-      Beginning in the second Eastman week of an Agoran month and ending
-      when the next Agoran month begins, if there are any players who
-      are eligible for a Medal of Honour, the Herald CAN, by
-      announcement, initiate an Agoran Decision on who is to be awarded
-      a Medal of Honour. E SHALL do so within the second Eastman week of
-      that Agoran month. For this decision, the valid options are all
-      players who are eligible for a Medal of Honour, the vote collector
-      is the Herald, and the voting method is instant-runoff. Upon the
-      resolution of this decision, the Herald CAN, and SHALL in a timely
-      fashion, award the outcome of the decision a Medal of Honour by
-      announcement. After a player is awarded a Medal of Honour, all
-      players who were previously eligible for a Medal of Honour become
-      no longer eligible.
-      
-      If, at any time, any player has 6 or more Medals of Honour, and e
-      has not won via this rule previously, e can win the game by
-      announcement, destroying all of eir Medals of Honour.
-      
-------------------------------------------------------------------------
 Rule 2553/0 (Power=1.0)
 Win by Paradox
 
@@ -2404,11 +2302,11 @@ Degrees
 Rule 2231/6 (Power=3.0)
 Order of the Hero of Agora Nomic
 
-      Heroic titles are Agora's premier patent titles of distinction, and
-      CAN be awarded to persons for meritorious service only by a
+      Heroic titles are Agora's premier patent titles of distinction,
+      and CAN be awarded to persons for meritorious service only by a
       proposal of power 3 or greater, which SHOULD explain why those
-      persons are qualified. Bearers of heroic titles (Heroes) constitute
-      the Order of the Hero of Agora Nomic.
+      persons are qualified. Bearers of heroic titles (Heroes)
+      constitute the Order of the Hero of Agora Nomic.
       
       The Heroic titles in decreasing precedence are:
       
@@ -2504,7 +2402,7 @@ Executive Orders
 ========================================================================
 Obligations
 ------------------------------------------------------------------------
-Rule 2450/4 (Power=1.7)
+Rule 2450/5 (Power=1.7)
 Pledges
 
       If a Player makes a clear public pledge (syn. Oath) to perform (or
@@ -2517,9 +2415,6 @@ Pledges
       If breaking the pledge harms specific other parties, the Referee
       SHOULD solicit the opinion of those parties in determining an
       appropriate fine.
-      
-      The Notary's Weekly Report includes a copy of all pledges that are
-      within their time window, and the dates the pledges were made.
       
 ------------------------------------------------------------------------
 Rule 2519/0 (Power=3.0)
@@ -3049,7 +2944,7 @@ Entity Location
       changed, its Location is set to (0, 0).
       
 ------------------------------------------------------------------------
-Rule 2003/15 (Power=1.0)
+Rule 2003/16 (Power=1.0)
 Actions in Arcadia
 
       Players CAN pay the listed fee to take the associated action:
@@ -3076,6 +2971,14 @@ Actions in Arcadia
       
       6. 6 apples to set the Land Type of a Land Unit that is of type
          Aether, and is owned by Agora, to an alternating Land Type.
+      
+      7. 3 apples to Stake a Land Claim on a specified land unit that is
+         adjacent to the Entity's current location, is of type Aether,
+         and is owned by Agora, if and only if e is active, has not
+         staked a land claim in the current month, and has not won a
+         land auction in the current or previous month.  When e stakes a
+         land claim, the unit's land type is set to the land type of eir
+         choice, then is transferred to em, then e moves onto that unit.
       
       Players CAN, while performing the above actions, substitute 1 corn
       for three or fewer apples.
@@ -3123,15 +3026,14 @@ Land Transfiguration
       Agoran Month.
       
 ------------------------------------------------------------------------
-Rule 2565/0 (Power=2.6)
+Rule 2565/1 (Power=2.6)
 Preserved Land
 
       Preservation is a boolean land switch, defaulting to False. The
-      preservation switch CAN be set in a regulation promulgated by the
-      Cartographor without 2 objections. A Land Unit with its
-      preservation switch set to True is considered a preserved Land
-      Unit. A Land Unit with its preservation switch set to False is
-      considered an unconserved Land Unit.
+      preservation switch CAN be set by the Cartographor without 2
+      objections. A Land Unit with its preservation switch set to True is
+      considered a preserved Land Unit. A Land Unit with its preservation
+      switch set to False is considered an unconserved Land Unit.
       
       Changes to the Land Type or ownership of a preserved land unit
       are secured at a power threshold of 2.5.

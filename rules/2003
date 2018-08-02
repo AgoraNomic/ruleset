@@ -28,12 +28,12 @@ text: |
      Aether, and is owned by Agora, to an alternating Land Type.
 
   7. 3 apples to Stake a Land Claim on a specified land unit that is
-     adjacent to the Entity's current location, is of type Aether, and
-     is owned by Agora, if and only if e is active, has not staked a
-     land claim in the current month, and has not won a land auction in
-     the current or previous month.  When e stakes a land claim, the
-     unit's land type is set to the land type of eir choice, then is
-     transferred to em, then e moves onto that unit.
+     adjacent to the Entity's current location, is of type Aether,
+     and is owned by Agora, if and only if e is active, has not
+     staked a land claim in the current month, and has not won a
+     land auction in the current or previous month.  When e stakes a
+     land claim, the unit's land type is set to the land type of eir
+     choice, then is transferred to em, then e moves onto that unit.
 
   Players CAN, while performing the above actions, substitute 1 corn
   for three or fewer apples.
