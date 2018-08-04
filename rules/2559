@@ -9,7 +9,6 @@ text: |
      A. 10 coins
      B. 5 apples
      C. 2 papers
-     D. 3 incense
 
   2. For each office, if a single player held that office for 16 or
      more days in the previous month and no unforgivable fines were
@@ -27,7 +26,8 @@ history:
     power: 2
   date: 2018-03-30
   agent:
-    convergence: "Proposal 8030"
+    convergence:
+      proposal: "8030"
 - change:
     type: amendment
   date: 2018-04-27
@@ -43,4 +43,9 @@ history:
   date: 2018-07-01
   agent:
     proposal: "8053"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8066"
 annotations: []

@@ -28,7 +28,7 @@ history:
     power: 1
   date: 1997-10-24
   agent:
-    proposal: "2558"
+    proposal: "3558"
 - change:
     type: amendment
   date: 1998-03-19
@@ -148,9 +148,14 @@ history:
     type: amendment
   date: 2009-04-27
   agent:
-    proposal: 6197
+    proposal: "6197"
 - change:
     type: repeal
   date: 2010-02-20
   agent:
-    proposal: 6635
+    proposal: "6635"
+- change:
+    type: reenactment
+  date: 2018-07-01
+  agent:
+    proposal: "8054"

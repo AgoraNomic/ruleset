@@ -2,15 +2,29 @@ id: 2557
 name: Removing Blots
 power: 1.7
 text: |
-  A player CAN, by announcement, destroy N incense in eir possession
-  to expunge N of eir blots. When e does so, e is STRONGLY
-  ENCOURAGED to publicly and grandiloquently apologize to the Spirit
-  of the Game for eir grave crime in breaking the rules, to
-  verbosely praise the same spirit, and to fervently request
-  forgiveness.
-
-  At the beginning of each quarter, half (rounded down) of each
-  fugitive's blots are destroyed.
+  When the rules authorize an investigator to impose the Cold Hand
+  of Justice for a violation, e CAN do so by levying a fine on the
+  perp with a minimum of 1 and a maximum of 2x the base value of the
+  violation, within the following guidelines:
+  
+  - If the violation is described by the rules as a Class N crime,
+    then N is the base value; otherwise the base value is 2.
+  
+  - The fine SHOULD be reduced to the degree that the violation is a
+    minor, accidental, and/or inconsequential infraction.
+  
+  - The fine SHOULD be increased to the degree that the violation is
+    willful, profitable, egregious, or an abuse of an official
+    position.
+  
+  Optionally, in the same message in which e imposes justice, the
+  investigator CAN specify that the violation is forgivable,
+  specifying up to 10 words to be included in an apology.  If the
+  investigator does so, the perp CAN, in a timely fashion, expunge P
+  blots from emself, where P is the minimum of the value of the fine
+  and 3, by publishing a formal apology of at least 200 words and
+  including all the specified words, explaining eir error, shame,
+  remorse, and ardent desire for self-improvement.
 history:
 - change:
     type: enactment

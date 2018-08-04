@@ -61,13 +61,15 @@ history:
     power: 2
   date: 2018-03-30
   agent:
-    convergence: "Proposal 8030"
+    convergence:
+      proposal: "8030"
 - change:
     type: retitling
     new-title: Land Transfiguration
   date: 2018-03-30
   agent:
-    convergence: "Proposal 8030"
+    convergence:
+      proposal: "8030"
 - change:
     type: amendment
   date: 2018-03-30

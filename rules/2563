@@ -36,15 +36,6 @@ text: |
         -  Rank 3: 4 coins, 2 lumber, 2 stones
         -  Rank 4: 5 coins, 4 lumber, 4 stones, 1 fabric
         -  Rank 5: 6 coins, 6 lumber, 6 stones, 3 fabric
-  4. Temples
-     -  Build Cost: 2 lumber, and 3 fabric
-     -  Upkeep Cost: n-1 fabric
-     -  Production Details: 3n incense
-     -  Upgrade Costs:
-        -  Rank 2: 4 coins, 1 lumber, 1 fabric
-        -  Rank 3: 6 coins, 2 lumber, 3 fabric
-        -  Rank 4: 8 coins, 4 lumber, 2 stones, 5 fabric
-        -  Rank 5: 10 coins, 6 lumber, 4 stones, 7 fabric
 history:
 - change:
     type: enactment
@@ -57,4 +48,9 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8040"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8066"
 annotations: []

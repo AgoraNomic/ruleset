@@ -17,6 +17,13 @@ text: |
   threshold of 1.7.
 
   The Referee is an office, and the recordkeepor for blots.
+
+  If a player has neither gained blots nor expunged any blots from
+  emself in the current Agoran week, e CAN expunge 1 blot from
+  emself by announcement.
+
+  At the beginning of each quarter, half (rounded down) of each
+  fugitive's blots are destroyed.
 history:
 - change:
     type: enactment
@@ -24,4 +31,9 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8029"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8066"
 annotations: []
