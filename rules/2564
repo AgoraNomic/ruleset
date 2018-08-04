@@ -10,12 +10,12 @@ text: |
 
     2. Mills
        -  Build Cost: 6 lumber and 6 stones
-       -  Upkeep Cost: 3 coins
+       -  Upkeep Cost: 3 steel
        -  Processing Details: 1 lumber to 5 paper
 
     3. Looms
        - Build Cost: 8 lumber and 4 stones
-       - Upkeep Cost: 3 coins
+       - Upkeep Cost: 3 steel
        - Processing Details: 1 cotton to 5 fabric
 history:
 - change:
@@ -33,5 +33,10 @@ history:
     type: amendment
   date: 2018-07-26
   agent:
-    proposal: "8069"
+    proposal: "8070"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8072"
 annotations: []
