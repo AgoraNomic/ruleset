@@ -19,8 +19,8 @@ text: |
   auctioneer is Agora, the minimum bid is 1 coin, and the authorized
   bidders are all active players.
   
-  When a land auction ends, all bids by the winner of that auction on
-  other land auctions are withdrawn.
+  When a land auction ends, all bids by the winner of that auction
+  on other land auctions are withdrawn.
 history:
 - change:
     type: enactment
