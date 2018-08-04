@@ -5,8 +5,8 @@ text: |
   The following facilities are defined as processing facilities:
     1. Refineries
        -  Build Cost: 4 lumber and 8 stones
-       -  Upkeep Cost: 3 coins
-       -  Processing Details: 1 ore to 5 coins
+       -  Upkeep Cost: 3 steel
+       -  Processing Details: 1 ore to 5 steel
 
     2. Mills
        -  Build Cost: 6 lumber and 6 stones
@@ -29,4 +29,9 @@ history:
   date: 2018-07-26
   agent:
     proposal: "8067"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8069"
 annotations: []
