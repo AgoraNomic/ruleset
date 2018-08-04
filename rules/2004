@@ -16,7 +16,11 @@ text: |
   For each land unit selected by the process described above, the
   Cartographor CAN and SHALL initiate an auction with it as the only
   lot. For this auction, the announcer is the Cartographor, the
-  auctioneer is Agora, and the minimum bid is 1 coin.
+  auctioneer is Agora, the minimum bid is 1 coin, and the authorized
+  bidders are all active players.
+  
+  When a land auction ends, all bids by the winner of that auction on
+  other land auctions are withdrawn.
 history:
 - change:
     type: enactment
@@ -61,4 +65,9 @@ history:
   date: 2018-05-08
   agent:
     proposal: "8044"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8069"
 annotations: []
