@@ -3,14 +3,13 @@ name: Regulations
 power: 3.0
 text: |
   A regulation is an textual entity defined as such by this rule,
-  and under the authority of an officer, known as its Promulgator.
-  A regulation must be authorized by a rule (its parent rule) in
-  order to exist. It has only the effect that rule explicitly
-  gives it.
+  and under the authority of an person, known as its Promulgator. A
+  regulation must be authorized by a rule (its parent rule) in order
+  to exist. It has only the effect that rule explicitly gives it.
 
-  A regulation CAN be enacted, amended, and repealed as specified
-  by its parent rule. By default, a Promulgator can enact or amend
-  a regulation with 2 Agoran Consent and repeal a regulation by
+  A regulation CAN be enacted, amended, and repealed as specified by
+  its parent rule. By default, a Promulgator can enact or amend a
+  regulation with 2 Agoran Consent and repeal a regulation by
   announcement. Regulations are tracked in their Promulgator's
   weekly report.
 history:
@@ -41,4 +40,9 @@ history:
   date: 2018-07-01
   agent:
     proposal: "8056"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8076"
 annotations: []

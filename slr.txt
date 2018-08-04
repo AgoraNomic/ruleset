@@ -457,18 +457,17 @@ Rule Changes
       a rule or cease to be a rule.
       
 ------------------------------------------------------------------------
-Rule 2493/3 (Power=3.0)
+Rule 2493/6 (Power=3.0)
 Regulations
 
       A regulation is an textual entity defined as such by this rule,
-      and under the authority of an officer, known as its Promulgator.
-      A regulation must be authorized by a rule (its parent rule) in
-      order to exist. It has only the effect that rule explicitly
-      gives it.
+      and under the authority of an person, known as its Promulgator. A
+      regulation must be authorized by a rule (its parent rule) in order
+      to exist. It has only the effect that rule explicitly gives it.
       
-      A regulation CAN be enacted, amended, and repealed as specified
-      by its parent rule. By default, a Promulgator can enact or amend
-      a regulation with 2 Agoran Consent and repeal a regulation by
+      A regulation CAN be enacted, amended, and repealed as specified by
+      its parent rule. By default, a Promulgator can enact or amend a
+      regulation with 2 Agoran Consent and repeal a regulation by
       announcement. Regulations are tracked in their Promulgator's
       weekly report.
       
@@ -582,7 +581,7 @@ Mother, May I?
          carefully weighed.
       
 ------------------------------------------------------------------------
-Rule 2162/10 (Power=2)
+Rule 2162/13 (Power=3.0)
 Switches
 
       A type of switch is a property that the rules define as a switch,
@@ -592,8 +591,11 @@ Switches
          other entity possesses an instance of that switch.
       
       2. One or more possible values for instances of that switch,
-         exactly one of which is designated as the default. No other
-         values are possible for instances of that switch.
+         exactly one of which should be designated as the default. No
+         values other than those listed are possible for instances of
+         that switch, except that, if no default is specified, then
+         rules to the contrary notwithstanding, the "null" value is a
+         possible value for that switch, and is the default.
       
       3. Optionally, exactly one office whose holder tracks instances of
          that switch. That officer's (weekly, if not specified
@@ -1037,7 +1039,7 @@ The Assessor
       collecting votes and keeping track of related properties.
       
 ------------------------------------------------------------------------
-Rule 106/39 (Power=3)
+Rule 106/45 (Power=3)
 Adopting Proposals
 
       When a decision about whether to adopt a proposal is resolved, if
@@ -1046,8 +1048,10 @@ Adopting Proposals
       set to the minimum of four and its adoption index, and then it
       takes effect. Except as prohibited by other rules, a proposal that
       takes effect CAN and does, as part of its effect, apply the
-      changes that it specifies. If the proposal cannot make some such
-      changes, this does not preclude the other changes from taking
+      changes that it specifies. Clearly marked comments are considered
+      to be removed from the proposal before it takes effect, unless
+      otherwise stated by the proposal. If the proposal cannot make some
+      such changes, this does not preclude the other changes from taking
       place.
       
       If there is no Agoran Decision to adopt a particular proposal that
@@ -1372,13 +1376,13 @@ Vote Protection and Cutoff for Challenges
 ========================================================================
 Offices & Reporting
 ------------------------------------------------------------------------
-Rule 1006/45 (Power=2)
+Rule 1006/49 (Power=2)
 Offices
 
       Officeholder is an office switch tracked by the ADoP, with
-      possible values of any person or "vacant". An officer is the
-      holder of an office, who may be referred to by the name of that
-      office. If the holder of an office is ever not a player, it
+      possible values of any person or "vacant" (default). An officer is
+      the holder of an office, who may be referred to by the name of
+      that office. If the holder of an office is ever not a player, it
       becomes vacant.
       
       An imposed office is an office described as such by the rule
@@ -2631,25 +2635,27 @@ The Treasuror
       classes of assets.
       
 ------------------------------------------------------------------------
-Rule 2483/11 (Power=2)
+Rule 2483/12 (Power=2)
 Economics
 
       The following currencies are defined, and are tracked by the
       Treasuror. They can be owned by Agora, players, and facilities.
       
-      1. ore
-      2. stones
-      3. lumber
-      4. apples
-      5. cotton
-      6. corn
-      7. coins
-      8. papers
-      9. fabric
+      1.  ore
+      2.  stones
+      3.  lumber
+      4.  apples
+      5.  cotton
+      6.  corn
+      7.  coins
+      8.  papers
+      9.  fabric
+      10. steel
       
-      Stones, apples, corn, and are considered unrefinable currencies;
-      ore, lumber, and cotton are considered refinable currencies; and
-      coins, papers, and fabric are considered refined currencies.
+      Stones, apples, corn, and steel are considered unrefinable
+      currencies; ore, lumber, and cotton are considered refinable
+      currencies; and papers, fabric, and steel are considered refined
+      currencies.
       
       Coins are the official currency of Agora.
       
@@ -2677,7 +2683,7 @@ Paydays
       month, a Payday occurs.
       
 ------------------------------------------------------------------------
-Rule 2499/2 (Power=1)
+Rule 2499/6 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
@@ -2693,6 +2699,7 @@ Welcome Packages
       4. 10 apples
       5. 3 paper
       6. 5 incense
+      7. 5 steel
       
 ------------------------------------------------------------------------
 Rule 2545/1 (Power=2)
@@ -3002,7 +3009,7 @@ Actions in Arcadia
       for three or fewer apples.
       
 ------------------------------------------------------------------------
-Rule 2004/5 (Power=1)
+Rule 2004/9 (Power=1)
 Land Auctions
 
       Every Agoran Week, if the number of Units of Private Land is less
@@ -3019,7 +3026,11 @@ Land Auctions
       For each land unit selected by the process described above, the
       Cartographor CAN and SHALL initiate an auction with it as the only
       lot. For this auction, the announcer is the Cartographor, the
-      auctioneer is Agora, and the minimum bid is 1 coin.
+      auctioneer is Agora, the minimum bid is 1 coin, and the authorized
+      bidders are all active players.
+      
+      When a land auction ends, all bids by the winner of that auction
+      on other land auctions are withdrawn.
       
 ------------------------------------------------------------------------
 Rule 2022/6 (Power=1)
@@ -3143,7 +3154,7 @@ Facility Ranks
       in other rules.
       
 ------------------------------------------------------------------------
-Rule 2563/3 (Power=2)
+Rule 2563/4 (Power=2)
 Production Facilities
 
       For the purposes of this rule, the variable n is equivalent to the
@@ -3156,49 +3167,49 @@ Production Facilities
          -  Upkeep Cost: 2n-2 lumber
          -  Production Details: 3n stones and 2n ore
          -  Upgrade Costs:
-            -  Rank 2: 3 coins, 2 lumber
-            -  Rank 3: 4 coins, 4 lumber
-            -  Rank 4: 5 coins, 4 lumber, 3 stones
-            -  Rank 5: 6 coins, 6 lumber, 6 stones, 2 fabric
+            -  Rank 2: 3 steel, 2 lumber
+            -  Rank 3: 4 steel, 4 lumber
+            -  Rank 4: 5 steel, 4 lumber, 3 stones
+            -  Rank 5: 6 steel, 6 lumber, 6 stones, 2 fabric
       
       2. Orchards
          -  Build Cost: 5 stones
          -  Upkeep Cost: 2n-2 stones
          -  Production Details: 3n apples and 3n lumber
          -  Upgrade Costs:
-            -  Rank 2: 3 coins, 2 stones
-            -  Rank 3: 4 coins, 4 stones
-            -  Rank 4: 5 coins, 4 stones, 3 lumber
-            -  Rank 5: 6 coins, 6 stones, 6 lumber, 2 fabric
+            -  Rank 2: 3 steel, 2 stones
+            -  Rank 3: 4 steel, 4 stones
+            -  Rank 4: 5 steel, 4 stones, 3 lumber
+            -  Rank 5: 6 steel, 6 stones, 6 lumber, 2 fabric
       
       3. Farms
          -  Build Cost: 3 lumber and 4 stones
          -  Upkeep Cost: n-1 lumber and n-1 stones
          -  Production Details: 3n corn and 3n cotton
          -  Upgrade Costs:
-            -  Rank 2: 3 coins, 1 lumber, 1 stones
-            -  Rank 3: 4 coins, 2 lumber, 2 stones
-            -  Rank 4: 5 coins, 4 lumber, 4 stones, 1 fabric
-            -  Rank 5: 6 coins, 6 lumber, 6 stones, 3 fabric
+            -  Rank 2: 3 steel, 1 lumber, 1 stones
+            -  Rank 3: 4 steel, 2 lumber, 2 stones
+            -  Rank 4: 5 steel, 4 lumber, 4 stones, 1 fabric
+            -  Rank 5: 6 steel, 6 lumber, 6 stones, 3 fabric
       
 ------------------------------------------------------------------------
-Rule 2564/2 (Power=2)
+Rule 2564/4 (Power=2)
 Processing Facilities
 
       The following facilities are defined as processing facilities:
         1. Refineries
            -  Build Cost: 4 lumber and 8 stones
-           -  Upkeep Cost: 3 coins
-           -  Processing Details: 1 ore to 5 coins
+           -  Upkeep Cost: 3 steel
+           -  Processing Details: 1 ore to 5 steel
       
         2. Mills
            -  Build Cost: 6 lumber and 6 stones
-           -  Upkeep Cost: 3 coins
+           -  Upkeep Cost: 3 steel
            -  Processing Details: 1 lumber to 5 paper
       
         3. Looms
            - Build Cost: 8 lumber and 4 stones
-           - Upkeep Cost: 3 coins
+           - Upkeep Cost: 3 steel
            - Processing Details: 1 cotton to 5 fabric
       
 ------------------------------------------------------------------------
@@ -3356,20 +3367,22 @@ Happy Birthday
       the entire day of June 30, GMT +1200, of each year.
       
 ------------------------------------------------------------------------
-Rule 2464/3 (Power=1)
+Rule 2464/5 (Power=1)
 Tournaments
 
       A Tournament is a sub-game of Agora specifically sanctioned to be
-      initiated as a tournament by the Rules. If a winner of a
-      tournament is determined within within 3 months of its initiation,
-      that person or persons win the game, otherwise the tournament
-      concludes with no winner. A Tournament is governed by a special
-      temporary title of the ACORN, created in accordance with its
-      parent rule, which have binding control over those who freely
-      agree to play the tournament and over the tournament itself. Once
-      the tournament is concluded, these regulations cease to have any
-      effect, and CAN be repealed by any player by announcement. The
-      person who initiates a tournament is its Gamemaster.
+      initiated as a tournament by the Rules. The person who initiates a
+      tournament is its Gamemaster. If a winner of a tournament is
+      determined within within 3 months of its initiation, that person
+      or persons win the game, otherwise the tournament concludes with
+      no winner.
+      
+      A Tournament is governed by set of regulations, created in
+      accordance with its parent rule, which have binding control over
+      those who freely consent to play the tournament and over the
+      tournament itself. Once the tournament is concluded, these
+      regulations cease to have any effect, and CAN be repealed by any
+      player by announcement.
       
 ------------------------------------------------------------------------
 Rule 2566/0 (Power=1)
@@ -3389,7 +3402,7 @@ Free Tournaments
       the tournament.
       
 ------------------------------------------------------------------------
-Rule 2495/1 (Power=1)
+Rule 2495/3 (Power=1)
 The Birthday Tournament
 
       In a timely fashion after the start of June 1 of each year, the
@@ -3406,12 +3419,11 @@ The Birthday Tournament
       
       After adequate time for discussion of the Birthday Tournament's
       regulations, the Herald (or delegate) CAN initiate a sanctioned
-      tournament with a specified, finalized set of regulations,
-      Without 3 Objections. By doing so e promulgates those regulations
-      as a special temporary title of the ACORN. This title may
-      thereafter be amended only by the Herald or eir designee without
-      objection, to correct minor typos. The initiation SHOULD be timed
-      to coincide with Agora's Birthday.
+      tournament, promulgating a specified, finalized set of tournament
+      regulations, Without 3 Objections. This title may thereafter
+      be amended only by the Herald or eir designee Without 3
+      Objections. The initiation SHOULD be timed to coincide
+      with Agora's Birthday.
       
 ------------------------------------------------------------------------
 Rule 1769/15 (Power=3)
