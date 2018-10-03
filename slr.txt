@@ -1,7 +1,7 @@
 ========================================================================
 The Game of Agora
 ------------------------------------------------------------------------
-Rule 101/17 (Power=4)
+Rule 101/22 (Power=4)
 The Game of Agora
 
       Agora is a game of Nomic, wherein Persons, acting in accordance
@@ -12,7 +12,7 @@ The Game of Agora
       Please treat Agora Right Good Forever.
       
 ------------------------------------------------------------------------
-Rule 1698/5 (Power=4)
+Rule 1698/8 (Power=4)
 Agora Is A Nomic
 
       Agora is ossified if it is IMPOSSIBLE for any reasonable
@@ -32,7 +32,7 @@ Agora Is A Nomic
 ========================================================================
 Players
 ------------------------------------------------------------------------
-Rule 869/45 (Power=3)
+Rule 869/48 (Power=3)
 How to Join and Leave Agora
 
       Any organism that is generally capable of freely originating and
@@ -62,7 +62,7 @@ How to Join and Leave Agora
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
-Rule 478/34 (Power=3)
+Rule 478/36 (Power=3)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -102,7 +102,7 @@ Fora
       message, unless otherwise specified.
       
 ------------------------------------------------------------------------
-Rule 2575/0 (Power=3.0)
+Rule 2575/1 (Power=3.0)
 The Distributor
 
       The Distributor is an imposed office whose holder is generally
@@ -113,7 +113,7 @@ The Distributor
       deregister or be deregistered.
       
 ------------------------------------------------------------------------
-Rule 2139/12 (Power=2)
+Rule 2139/14 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -150,7 +150,7 @@ The Registrar
       them, unless the switch is defined as untracked.
       
 ------------------------------------------------------------------------
-Rule 1789/9 (Power=3)
+Rule 1789/12 (Power=3)
 Cantus Cygneus
 
       Whenever a Player feels that e has been treated so egregiously by
@@ -170,380 +170,130 @@ Cantus Cygneus
       all may know said Player deregistered in a Writ of FAGE.
       
 ------------------------------------------------------------------------
-Rule 2532/2 (Power=2)
-Zombies
-
-      Master is a secured player switch with possible values of any
-      player, and Agora. Every player's default master is emself; rules
-      to the contrary notwithstanding, a player CAN always flip eir own
-      master to emself by announcement.
-      
-      A player whose master is not emself is a zombie (syn. inactive);
-      all other players are active.  A zombie's master, if another
-      player, is allowed to act on behalf of the zombie (i.e. as the
-      zombie's agent), except a master CANNOT act on behalf of a zombie
-      to:
-        - initiate, support, object to, or perform a dependent action;
-        - act on behalf of that zombie's zombies;
-        - bid in a zombie auction;
-        - enter a contract, pledge, or other type of agreement;
-        - initiate a Call fo Judgement;
-        - deregister.
-      
-      A zombie's master CAN flip that zombie's master switch to Agora by
-      announcement.
-      
-      If a master causes a zombie to perform an ILLEGAL action, the
-      master commits the Class 4+N Crime of Masterminding (where N is
-      the class of the illegal action).
-      
-      If a active player who was a zombie has not received a Welcome
-      Package since e most recently ceased being a zombie, and if eir
-      resale value was less than 2 at any point during eir most recent
-      time as a zombie, then any player CAN cause em to receive a
-      Welcome Package by announcement.
-      
-------------------------------------------------------------------------
-Rule 1885/7 (Power=2)
-Zombie Auctions
-
-      Whenever a zombie (1) has Agora for a master, (2) is not a lot in
-      an ongoing auction, (3) has a resale value greater than 0, and (4)
-      has not been won as an auction lot in the past 14 days, then the
-      Registrar CAN put that zombie (along with any other zombies that
-      fulfill the same conditions) up for auction.
-      
-      In a timely fashion after the beginning of each month, the
-      Registrar SHALL either initiate such an auction or, if no zombies
-      meeting these conditions existed at the beginning of the month,
-      announce that no such auction is necessary.
-      
-      For such an auction, the lots are the qualifying zombies, ordered
-      at the discretion of the Registrar. The Registrar is the
-      announcer, and the minimum bid is 1.  Rules  to the contrary
-      notwithstanding, the master of a zombie CANNOT bid in a zombie
-      auction. If a player becomes a zombie's master, all eir bids in
-      zombie auctions that have not ended are withdrawn. For the purpose
-      of such a auction, to transfer a zombie to a player is to set that
-      zombie's master switch to that player.
-      
-------------------------------------------------------------------------
-Rule 2574/0 (Power=3.0)
-Zombie Life Cycle
-
-      Any player CAN, with Notice, flip the master switch of an active
-      player who has not made a public announcement in the past 60 days
-      to Agora.
-      
-      Resale is a secured natural switch for zombies, tracked by the
-      Registrar, with a default value of 2. Whenever a zombie's master
-      switch is flipped to a player other than emself, eir resale value
-      is decreased by 1.
-      
-      A zombie with a resale value of 0 CANNOT have eir master switch
-      flipped to a player other than emself, rules to the contrary
-      notwithstanding.
-      
-      Any player CAN, with Notice:
-        - If a zombie has been a zombie for the past 90 days and not had
-         Agora for a master during any of that time, flip the zombie's
-         master switch to Agora;
-        - If a player is master to more than one zombie, flip the master
-         switch of one of that master's zombies to Agora;
-        - Deregister a zombie whose master is Agora and who has a Resale
-         value of 0.
-      
-      The Registrar SHALL track the date that each zombie last belonged
-      to Agora in eir weekly report.  The Registrar SHALL perform all
-      POSSIBLE actions in the preceding paragraph in a timely fashion
-      after first reporting their possibility via the facts in eir
-      weekly report.
-      
-------------------------------------------------------------------------
 ========================================================================
-Rules & Regulations
+Proposals
 ------------------------------------------------------------------------
-Rule 2141/10 (Power=3)
-Role and Attributes of Rules
+Rule 2350/10 (Power=3)
+Proposals
 
-      A rule is a type of instrument with the capacity to govern the
-      game generally, and is always taking effect. A rule's content
-      takes the form of a text, and is unlimited in scope.
+      A proposal is a type of entity consisting of a body of text and
+      other attributes. A player CAN create a proposal by announcement,
+      specifying its text and optionally specifying any of the following
+      attributes:
       
-      Every rule has power between 0.1 and 4.0 inclusive. It is not
-      possible for a rule to have a power outside this range.
+      * An associated title.
       
-      Rules have ID numbers, to be assigned by the Rulekeepor.
+      * A list of co-authors (which must be persons other than the
+        author).
       
-      Every rule shall have a title to aid in identification. If a rule
-      ever does not have a title, the the Rulekeepor CAN and SHALL
-      assign a title to it by announcement in a timely fashion.
+      * An adoption index.
       
-      For the purposes of rules governing modification of instruments,
-      the text, power, ID number, and title of a rule are all
-      substantive aspects of the rule. However, rules to the contrary
-      notwithstanding, the Rulekeepor CAN set rule aspects as described
-      elsewhere in this rule.
+      Creating a proposal adds it to the Proposal Pool. Once a proposal
+      is created, nether its text nor any of the aforementioned
+      attributes can be changed. The author (syn. proposer) of a
+      proposal is the person who submitted it.
       
-------------------------------------------------------------------------
-Rule 1688/9 (Power=3)
-Power
-
-      The Power of an entity is a non-negative rational number. An
-      Instrument is an entity with positive Power.
+      If a decision of whether to adopt a proposal was resolved as
+      FAILED QUORUM in the last seven days, the Promotor CAN once add
+      the proposal back to the Proposal Pool by announcement.
       
-      The Power of an entity cannot be set or modified except as
-      stipulated by the Rules. All entities have Power zero except where
-      specifically allowed by the rules.
+      The author of a proposal in the Proposal Pool CAN remove (syn.
+      retract, withdraw) it from the Pool by announcement.
       
-      A Rule that makes a change, action, or value secured (hereafter
-      the securing Rule) thereby makes it IMPOSSIBLE to perform that
-      change or action, or to set or modify that value, except as
-      allowed by an Instrument with Power greater than or equal to the
-      change's Power Threshold.  This Threshold defaults to the securing
-      Rule's Power, but CAN be lowered as allowed by that Rule
-      (including by the Rule itself).
+      The Promotor CAN remove a proposal from the Proposal Pool by
+      announcement if it is not pending and has been added to the Pool
+      more than 14 days ago.
       
 ------------------------------------------------------------------------
-Rule 2140/2 (Power=3)
-Power Controls Mutability
+Rule 2445/15 (Power=1)
+How to Pend a Proposal
 
-      No entity with power below the power of this rule can
+      Imminence is a switch, tracked by the Promotor, possessed by
+      proposals in the Proposal Pool, whose value is either "pending" or
+      "not pending" (default).
       
-      1. cause an entity to have power greater than its own.
-      
-      2. adjust the power of an instrument with power greater than its
-         own.
-      
-      3. set or modify any other substantive aspect of an instrument
-         with power greater than its own. A "substantive" aspect of an
-         instrument is any aspect that affects the instrument's
-         operation.
+      Any player CAN flip a specified proposal's imminence to "pending"
+      by announcement, but cannot use this method more than five times
+      each week. The first five proposals pended by the Promotor of
+      which e is not the author do not count against eir weekly limit.
       
 ------------------------------------------------------------------------
-Rule 217/11 (Power=3)
-Interpreting the Rules
+Rule 1607/46 (Power=3)
+Distribution
 
-      When interpreting and applying the rules, the text of the rules
-      takes precedence. Where the text is silent, inconsistent, or
-      unclear, it is to be augmented by game custom, common sense, past
-      judgements, and consideration of the best interests of the game.
+      The Promotor is an office; its holder is responsible for receiving
+      and distributing proposals.
       
-      Definitions and prescriptions in the rules are only to be applied
-      using direct, forward reasoning; in particular, an absurdity that
-      can be concluded from the assumption that a statement about
-      rule-defined concepts is false does not constitute proof that it
-      is true. Definitions in lower-powered Rules do not overrule
-      common-sense interpretations or common definitions of terms in
-      higher-powered rules, but may constructively make reasonable
-      clarifications to those definitions. For this purpose, a
-      clarification is reasonable if and only if it adds detail without
-      changing the underlying general meaning of the term and without
-      causing the higher powered rule to be read in a way inconsistent
-      with its text.
+      Determining whether to adopt a proposal is an Agoran decision. For
+      this decision, the vote collector is the Assessor, the adoption
+      index is initially the adoption index of the proposal, or 1.0 if
+      the proposal does not have one, and the text, author, and
+      coauthors of the proposal are essential parameters. Initiating
+      such a decision is known as distribution, and removes the proposal
+      from the Proposal Pool.
       
-      Rules to the contrary notwithstanding, any rule change that would
-      (1) prevent a person from initiating a formal process to resolve
-      matters of controversy, in the reasonable expectation that the
-      controversy will thereby be resolved; or (2) prevent a person from
-      causing formal reconsideration of any judicial determination that
-      e should be punished, is wholly void and without effect.
+      The Promotor CAN distribute a proposal which is in the Proposal
+      Pool at any time, by announcement. The Promotor SHALL NOT
+      distribute proposals which are not pending.
+      
+      In a given Agoran week, the Promotor SHALL, as part of eir weekly
+      duties, distribute all pending proposals except for those exempted
+      from automatic distribution by other rules.
+      
+      Distributed proposals have ID numbers, to be assigned by the
+      Promotor.
+      
+      If there is a Proposal in the Pool that it would otherwise be
+      IMPOSSIBLE for any player to distribute, then any player CAN
+      distribute that Proposal Without 3 Objections.
+      
+      The Promotor's report includes a list of all proposals in the
+      Proposal Pool, along with their text and attributes. This portion
+      of a public document purporting to be a Promotor's report is
+      self-ratifying.
       
 ------------------------------------------------------------------------
-Rule 1030/13 (Power=3.2)
-Precedence between Rules
+Rule 2137/4 (Power=1)
+The Assessor
 
-      In a conflict between Rules, the conflict shall be resolved by
-      performing the following comparisons in the sequence written in
-      this rule, until the conflict is resolved.
-      
-      - In a conflict between Rules with different Power, the Rule with
-        the higher Power takes precedence over the Rule with the lower
-        Power; otherwise,
-      
-      - If all of the Rules in conflict explicitly say that their
-        precedence relations are determined by some other Rule for
-        determining precedence relations, then the determinations of the
-        precedence-determining Rule shall be used to resolve the
-        conflicts; otherwise,
-      
-      - If at least one of the Rules in conflict explicitly says of
-        itself that it defers to another Rule (or type of Rule) or takes
-        precedence over another Rule (or type of Rule), then such
-        provisions shall be used to resolve the conflict, unless they
-        lead to contradictions between each other; otherwise,
-      
-      - If any of the rules in conflict have ID numbers, then the Rule
-        with the lowest ID number takes precedence; otherwise,
-      
-      - The Rule enacted earliest takes precedence.
-      
-      Clauses in any other rule that broadly claim precedence (e.g. over
-      "all rules" of a certain class) shall be, prima facie, considered
-      to be limited claims of precedence or deference that are
-      applicable only when such claims are evaluated as described within
-      the above sequence.
-      
-      No change to the Ruleset can occur that would cause a Rule to
-      directly claim precedence over this Rule as a means of determining
-      precedence. This applies to changes by the enactment or amendment
-      of a Rule, or of any other form. This Rule takes precedence over
-      any Rule that would permit such a change to the Ruleset.
+      The Assessor is an office; its holder is responsible for
+      collecting votes and keeping track of related properties.
       
 ------------------------------------------------------------------------
-Rule 2240/1 (Power=3)
-No Cretans Need Apply
+Rule 106/45 (Power=3)
+Adopting Proposals
 
-      In a conflict between clauses of the same Rule, if exactly one
-      claims precedence over the other, then it takes precedence;
-      otherwise, the later clause takes precedence.
+      When a decision about whether to adopt a proposal is resolved, if
+      the outcome is ADOPTED, then the proposal in question is adopted,
+      and unless other rules prevent it from taking effect, its power is
+      set to the minimum of four and its adoption index, and then it
+      takes effect. Except as prohibited by other rules, a proposal that
+      takes effect CAN and does, as part of its effect, apply the
+      changes that it specifies. Clearly marked comments are considered
+      to be removed from the proposal before it takes effect, unless
+      otherwise stated by the proposal. If the proposal cannot make some
+      such changes, this does not preclude the other changes from taking
+      place.
       
-------------------------------------------------------------------------
-Rule 105/19 (Power=3)
-Rule Changes
-
-      Where permitted by other rules, an instrument generally can, as
-      part of its effect,
+      If there is no Agoran Decision to adopt a particular proposal that
+      has an outcome of ADOPTED, that proposal CANNOT take effect, rules
+      to the contrary notwithstanding.
       
-      1. enact a rule. The new rule has power equal to the minimum of
-         the power specified by the enacting instrument, defaulting to
-         one if the enacting instrument does not specify or if it
-         specifies a power less than 0.1, and the maximum power
-         permitted by other rules. The enacting instrument may specify a
-         title for the new rule, which if present shall prevail. The ID
-         number of the new rule cannot be specified by the enacting
-         instrument; any attempt to so specify is null and void.
-      
-      2. repeal a rule. When a rule is repealed, it ceases to be a rule,
-         its power is set to 0, and the Rulekeepor need no longer
-         maintain a record of it.
-      
-      3. reenact a rule. A repealed rule identified by its most recent
-         rule number MUST be reenacted with the same ID number and the
-         next change identifier. If no text is specified, the rule is
-         reenacted with the same text it had when it was most recently
-         repealed. If the reenacting proposal provides new text for the
-         rule, the rule SHOULD have materially the same purpose as did
-         the repealed version. Unless specified otherwise by the
-         re-enacting instrument, a re-enacted rule has power equal to
-         the power it had at the time of its repeal (or power 1, if
-         power was not defined at the time of that rule's repeal). If
-         the re-enacting instrument is incapable of setting the
-         re-enacted rule's power to that value, then the re-enactment is
-         null and void.
-      
-      4. amend the text of a rule.
-      
-      5. retitle a rule.
-      
-      6. change the power of a rule.
-      
-      A rule change is any effect that falls into the above classes.
-      Rule changes always occur sequentially, never simultaneously.
-      
-      Any ambiguity in the specification of a rule change causes that
-      change to be void and without effect. An inconsequential variation
-      in the quotation of an existing rule does not constitute ambiguity
-      for the purposes of this rule, but any other variation does.
-      
-      A rule change is wholly prevented from taking effect unless its
-      full text was published, along with an unambiguous and clear
-      specification of the method to be used for changing the rule, at
-      least 4 days and no more than 60 days before it would otherwise
-      take effect.
-      
-      This rule provides the only mechanism by which rules can be
-      created, modified, or destroyed, or by which an entity can become
-      a rule or cease to be a rule.
-      
-------------------------------------------------------------------------
-Rule 2493/6 (Power=3.0)
-Regulations
-
-      A regulation is an textual entity defined as such by this rule,
-      and under the authority of an person, known as its Promulgator. A
-      regulation must be authorized by a rule (its parent rule) in order
-      to exist. It has only the effect that rule explicitly gives it.
-      
-      A regulation CAN be enacted, amended, and repealed as specified by
-      its parent rule. By default, a Promulgator can enact or amend a
-      regulation with 2 Agoran Consent and repeal a regulation by
-      announcement. Regulations are tracked in their Promulgator's
-      weekly report.
-      
-------------------------------------------------------------------------
-Rule 1051/16 (Power=1)
-The Rulekeepor
-
-      The Rulekeepor is an office; its holder is responsible for
-      maintaining the text of the rules of Agora.
-      
-      The Rulekeepor's Weekly report includes the Short Logical Ruleset.
-      The Rulekeepor's Monthly report includes the Full Logical Ruleset.
-      
-------------------------------------------------------------------------
-Rule 1681/21 (Power=1)
-The Logical Rulesets
-
-      The Short Logical Ruleset (SLR) is a format of the ruleset. In
-      this format, each rule is assigned to a category, and the rules
-      are grouped according to their category.
-      
-      Rules are assigned to, ordered within, or moved between
-      categories, and categories are added, changed, or empty categories
-      removed, as the Rulekeepor sees fit.
-      
-      The listing of each rule in the SLR must include the rule's ID
-      number, revision number, power, title, and text.
-      
-      The Rulekeepor is strongly DISCOURAGED from including any
-      additional information in the SLR, except that which increases the
-      readability of the SLR.
-      
-      The Full Logical Ruleset (FLR) is a format of the ruleset. In this
-      format, rules are assigned to the same category and presented in
-      the same order as in the SLR. The FLR must contain all the
-      information required to be in the SLR, and any historical
-      annotations which the Rulekeepor is required to record.
-      
-      The Rulekeepor SHOULD also include any other information which e
-      feels may be helpful in the use of the ruleset in the FLR.
-      
-      Whenever a rule is changed in any way, the Rulekeepor SHALL record
-      a historical annotation to the rule indicating:
-      
-      1. The type of change.
-      
-      2. The date on which the change took effect.
-      
-      3. The mechanism that specified the change.
-      
-      4. If the rule was changed due to a proposal, then that proposal's
-         ID number, author, and co-author(s) (if any).
-      
-------------------------------------------------------------------------
-Rule 2221/6 (Power=3)
-Cleanliness
-
-      Any player CAN clean a rule without objection by specifying one or
-      more corrections to spelling, grammar, capitalization, formatting,
-      and/or dialect, or to whether a synonym or abbreviation is used in
-      place of a word or phrase, in the rule's text and/or title; the
-      rule is amended by this rule as specified by that person.
-      
-------------------------------------------------------------------------
-Rule 2429/1 (Power=1)
-Bleach
-
-      Replacing a non-zero amount of whitespace with a different
-      non-zero amount of whitespace is generally insignificant, except
-      for paragraph breaks.
+      Preventing a proposal from taking effect is a secured change; this
+      does not apply to generally preventing changes to specified areas
+      of the gamestate, nor to a proposal preventing itself from taking
+      effect (its no- effect clause is generally interpreted as applying
+      only to the rest of the proposal). Except insofar as the actions
+      performed by a proposal happen one after another, rather than
+      simultaneously, a proposal's effect is instantaneous. A proposal
+      can neither delay nor extend its own effect. Once a propsal
+      finishes taking effect, its power is set to 0.
       
 ------------------------------------------------------------------------
 ========================================================================
 General Definitions
 ------------------------------------------------------------------------
-Rule 2152/7 (Power=3)
+Rule 2152/10 (Power=3)
 Mother, May I?
 
       The following terms are defined. These definitions are used when a
@@ -636,7 +386,7 @@ Switches
       requirement without flipping the switch.
       
 ------------------------------------------------------------------------
-Rule 2509/2 (Power=2)
+Rule 2509/4 (Power=2)
 Agoran Numbers
 
       A "number" is considered to refer to a real number, unless
@@ -667,7 +417,7 @@ Agoran Numbers
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
-Rule 2125/10 (Power=3)
+Rule 2125/11 (Power=3)
 Regulated Actions
 
       An action is regulated if: (1) the Rules limit, allow, enable, or
@@ -682,7 +432,7 @@ Regulated Actions
       interpreted so as to proscribe unregulated actions.
       
 ------------------------------------------------------------------------
-Rule 1023/42 (Power=2)
+Rule 1023/45 (Power=2)
 Agoran Time
 
       The following terms are defined:
@@ -736,7 +486,7 @@ Agoran Time
              or earlier time of day.
       
 ------------------------------------------------------------------------
-Rule 1728/37 (Power=3)
+Rule 1728/41 (Power=3)
 Dependent Actions
 
       A rule which purports to allow a person (the performer) to perform
@@ -796,7 +546,7 @@ Dependent Actions
       objections.
       
 ------------------------------------------------------------------------
-Rule 2124/22 (Power=2)
+Rule 2124/26 (Power=2)
 Agoran Satisfaction
 
       A Supporter of a dependent action is an eligible entity who has
@@ -839,7 +589,7 @@ Agoran Satisfaction
       type of response.
       
 ------------------------------------------------------------------------
-Rule 2466/1 (Power=3)
+Rule 2466/2 (Power=3)
 Acting on Behalf
 
       When a rule allows one person (the agent) to act on behalf of
@@ -873,7 +623,7 @@ Acting on Behalf
       behalf of another person.
       
 ------------------------------------------------------------------------
-Rule 2518/0 (Power=3)
+Rule 2518/1 (Power=3)
 Determinacy
 
       If a value CANNOT be reasonably determined (without circularity or
@@ -882,7 +632,7 @@ Determinacy
       considered to be indeterminate, otherwise it is determinate.
       
 ------------------------------------------------------------------------
-Rule 1586/8 (Power=2)
+Rule 1586/12 (Power=2)
 Definition and Continuity of Entities
 
       If multiple rules attempt to define an entity with the same name,
@@ -906,7 +656,7 @@ Definition and Continuity of Entities
       the new definitions.
       
 ------------------------------------------------------------------------
-Rule 2505/0 (Power=1)
+Rule 2505/1 (Power=1)
 Random Choices
 
       When a Rule specifies that a random choice be made, then the
@@ -923,7 +673,7 @@ Random Choices
       distribution can be readily confirmed.
       
 ------------------------------------------------------------------------
-Rule 2517/0 (Power=3)
+Rule 2517/2 (Power=3)
 Conditionals and Extricability
 
       A conditional is any textual structure that attempts to make a
@@ -950,129 +700,318 @@ Conditionals and Extricability
       
 ------------------------------------------------------------------------
 ========================================================================
-Proposals
+Rules & Regulations
 ------------------------------------------------------------------------
-Rule 2350/9 (Power=3)
-Proposals
+Rule 2141/11 (Power=3)
+Role and Attributes of Rules
 
-      A proposal is a type of entity consisting of a body of text and
-      other attributes. A player CAN create a proposal by announcement,
-      specifying its text and optionally specifying any of the following
-      attributes:
+      A rule is a type of instrument with the capacity to govern the
+      game generally, and is always taking effect. A rule's content
+      takes the form of a text, and is unlimited in scope.
       
-      * An associated title.
+      Every rule has power between 0.1 and 4.0 inclusive. It is not
+      possible for a rule to have a power outside this range.
       
-      * A list of co-authors (which must be persons other than the
-        author).
+      Rules have ID numbers, to be assigned by the Rulekeepor.
       
-      * An adoption index.
+      Every rule shall have a title to aid in identification. If a rule
+      ever does not have a title, the the Rulekeepor CAN and SHALL
+      assign a title to it by announcement in a timely fashion.
       
-      Creating a proposal adds it to the Proposal Pool. Once a proposal
-      is created, nether its text nor any of the aforementioned
-      attributes can be changed. The author (syn. proposer) of a
-      proposal is the person who submitted it.
-      
-      If a decision of whether to adopt a proposal was resolved as
-      FAILED QUORUM in the last seven days, the Promotor CAN once add
-      the proposal back to the Proposal Pool by announcement.
-      
-      The author of a proposal in the Proposal Pool CAN remove (syn.
-      retract, withdraw) it from the Pool by announcement.
-      
-      The Promotor CAN remove a proposal from the Proposal Pool by
-      announcement if it is not pending and has been added to the Pool
-      more than 14 days ago.
+      For the purposes of rules governing modification of instruments,
+      the text, power, ID number, and title of a rule are all
+      substantive aspects of the rule. However, rules to the contrary
+      notwithstanding, the Rulekeepor CAN set rule aspects as described
+      elsewhere in this rule.
       
 ------------------------------------------------------------------------
-Rule 2445/14 (Power=1)
-How to Pend a Proposal
+Rule 1688/11 (Power=3)
+Power
 
-      Imminence is a switch, tracked by the Promotor, possessed by
-      proposals in the Proposal Pool, whose value is either "pending" or
-      "not pending" (default).
+      The Power of an entity is a non-negative rational number. An
+      Instrument is an entity with positive Power.
       
-      Any player CAN flip a specified proposal's imminence to "pending"
-      by announcement, but cannot use this method more than five times
-      each week. The first five proposals pended by the Promotor of
-      which e is not the author do not count against eir weekly limit.
+      The Power of an entity cannot be set or modified except as
+      stipulated by the Rules. All entities have Power zero except where
+      specifically allowed by the rules.
+      
+      A Rule that makes a change, action, or value secured (hereafter
+      the securing Rule) thereby makes it IMPOSSIBLE to perform that
+      change or action, or to set or modify that value, except as
+      allowed by an Instrument with Power greater than or equal to the
+      change's Power Threshold.  This Threshold defaults to the securing
+      Rule's Power, but CAN be lowered as allowed by that Rule
+      (including by the Rule itself).
       
 ------------------------------------------------------------------------
-Rule 1607/43 (Power=3)
-Distribution
+Rule 2140/4 (Power=3)
+Power Controls Mutability
 
-      The Promotor is an office; its holder is responsible for receiving
-      and distributing proposals.
+      No entity with power below the power of this rule can
       
-      Determining whether to adopt a proposal is an Agoran decision. For
-      this decision, the vote collector is the Assessor, the adoption
-      index is initially the adoption index of the proposal, or 1.0 if
-      the proposal does not have one, and the text, author, and
-      coauthors of the proposal are essential parameters. Initiating
-      such a decision is known as distribution, and removes the proposal
-      from the Proposal Pool.
+      1. cause an entity to have power greater than its own.
       
-      The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time, by announcement. The Promotor SHALL NOT
-      distribute proposals which are not pending.
+      2. adjust the power of an instrument with power greater than its
+         own.
       
-      In a given Agoran week, the Promotor SHALL, as part of eir weekly
-      duties, distribute all pending proposals except for those exempted
-      from automatic distribution by other rules.
-      
-      Distributed proposals have ID numbers, to be assigned by the
-      Promotor.
-      
-      If there is a Proposal in the Pool that it would otherwise be
-      IMPOSSIBLE for any player to distribute, then any player CAN
-      distribute that Proposal Without 3 Objections.
-      
-      The Promotor's report includes a list of all proposals in the
-      Proposal Pool, along with their text and attributes. This portion
-      of a public document purporting to be a Promotor's report is
-      self-ratifying.
+      3. set or modify any other substantive aspect of an instrument
+         with power greater than its own. A "substantive" aspect of an
+         instrument is any aspect that affects the instrument's
+         operation.
       
 ------------------------------------------------------------------------
-Rule 2137/2 (Power=1)
-The Assessor
+Rule 217/15 (Power=3)
+Interpreting the Rules
 
-      The Assessor is an office; its holder is responsible for
-      collecting votes and keeping track of related properties.
+      When interpreting and applying the rules, the text of the rules
+      takes precedence. Where the text is silent, inconsistent, or
+      unclear, it is to be augmented by game custom, common sense, past
+      judgements, and consideration of the best interests of the game.
+      
+      Definitions and prescriptions in the rules are only to be applied
+      using direct, forward reasoning; in particular, an absurdity that
+      can be concluded from the assumption that a statement about
+      rule-defined concepts is false does not constitute proof that it
+      is true. Definitions in lower-powered Rules do not overrule
+      common-sense interpretations or common definitions of terms in
+      higher-powered rules, but may constructively make reasonable
+      clarifications to those definitions. For this purpose, a
+      clarification is reasonable if and only if it adds detail without
+      changing the underlying general meaning of the term and without
+      causing the higher powered rule to be read in a way inconsistent
+      with its text.
+      
+      Rules to the contrary notwithstanding, any rule change that would
+      (1) prevent a person from initiating a formal process to resolve
+      matters of controversy, in the reasonable expectation that the
+      controversy will thereby be resolved; or (2) prevent a person from
+      causing formal reconsideration of any judicial determination that
+      e should be punished, is wholly void and without effect.
       
 ------------------------------------------------------------------------
-Rule 106/45 (Power=3)
-Adopting Proposals
+Rule 1030/17 (Power=3.2)
+Precedence between Rules
 
-      When a decision about whether to adopt a proposal is resolved, if
-      the outcome is ADOPTED, then the proposal in question is adopted,
-      and unless other rules prevent it from taking effect, its power is
-      set to the minimum of four and its adoption index, and then it
-      takes effect. Except as prohibited by other rules, a proposal that
-      takes effect CAN and does, as part of its effect, apply the
-      changes that it specifies. Clearly marked comments are considered
-      to be removed from the proposal before it takes effect, unless
-      otherwise stated by the proposal. If the proposal cannot make some
-      such changes, this does not preclude the other changes from taking
-      place.
+      In a conflict between Rules, the conflict shall be resolved by
+      performing the following comparisons in the sequence written in
+      this rule, until the conflict is resolved.
       
-      If there is no Agoran Decision to adopt a particular proposal that
-      has an outcome of ADOPTED, that proposal CANNOT take effect, rules
-      to the contrary notwithstanding.
+      - In a conflict between Rules with different Power, the Rule with
+        the higher Power takes precedence over the Rule with the lower
+        Power; otherwise,
       
-      Preventing a proposal from taking effect is a secured change; this
-      does not apply to generally preventing changes to specified areas
-      of the gamestate, nor to a proposal preventing itself from taking
-      effect (its no- effect clause is generally interpreted as applying
-      only to the rest of the proposal). Except insofar as the actions
-      performed by a proposal happen one after another, rather than
-      simultaneously, a proposal's effect is instantaneous. A proposal
-      can neither delay nor extend its own effect. Once a propsal
-      finishes taking effect, its power is set to 0.
+      - If all of the Rules in conflict explicitly say that their
+        precedence relations are determined by some other Rule for
+        determining precedence relations, then the determinations of the
+        precedence-determining Rule shall be used to resolve the
+        conflicts; otherwise,
+      
+      - If at least one of the Rules in conflict explicitly says of
+        itself that it defers to another Rule (or type of Rule) or takes
+        precedence over another Rule (or type of Rule), then such
+        provisions shall be used to resolve the conflict, unless they
+        lead to contradictions between each other; otherwise,
+      
+      - If any of the rules in conflict have ID numbers, then the Rule
+        with the lowest ID number takes precedence; otherwise,
+      
+      - The Rule enacted earliest takes precedence.
+      
+      Clauses in any other rule that broadly claim precedence (e.g. over
+      "all rules" of a certain class) shall be, prima facie, considered
+      to be limited claims of precedence or deference that are
+      applicable only when such claims are evaluated as described within
+      the above sequence.
+      
+      No change to the Ruleset can occur that would cause a Rule to
+      directly claim precedence over this Rule as a means of determining
+      precedence. This applies to changes by the enactment or amendment
+      of a Rule, or of any other form. This Rule takes precedence over
+      any Rule that would permit such a change to the Ruleset.
+      
+------------------------------------------------------------------------
+Rule 2240/2 (Power=3)
+No Cretans Need Apply
+
+      In a conflict between clauses of the same Rule, if exactly one
+      claims precedence over the other, then it takes precedence;
+      otherwise, the later clause takes precedence.
+      
+------------------------------------------------------------------------
+Rule 105/24 (Power=3)
+Rule Changes
+
+      Where permitted by other rules, an instrument generally can, as
+      part of its effect,
+      
+      1. enact a rule. The new rule has power equal to the minimum of
+         the power specified by the enacting instrument, defaulting to
+         one if the enacting instrument does not specify or if it
+         specifies a power less than 0.1, and the maximum power
+         permitted by other rules. The enacting instrument may specify a
+         title for the new rule, which if present shall prevail. The ID
+         number of the new rule cannot be specified by the enacting
+         instrument; any attempt to so specify is null and void.
+      
+      2. repeal a rule. When a rule is repealed, it ceases to be a rule,
+         its power is set to 0, and the Rulekeepor need no longer
+         maintain a record of it.
+      
+      3. reenact a rule. A repealed rule identified by its most recent
+         rule number MUST be reenacted with the same ID number and the
+         next change identifier. If no text is specified, the rule is
+         reenacted with the same text it had when it was most recently
+         repealed. If the reenacting proposal provides new text for the
+         rule, the rule SHOULD have materially the same purpose as did
+         the repealed version. Unless specified otherwise by the
+         re-enacting instrument, a re-enacted rule has power equal to
+         the power it had at the time of its repeal (or power 1, if
+         power was not defined at the time of that rule's repeal). If
+         the re-enacting instrument is incapable of setting the
+         re-enacted rule's power to that value, then the re-enactment is
+         null and void.
+      
+      4. amend the text of a rule.
+      
+      5. retitle a rule.
+      
+      6. change the power of a rule.
+      
+      A rule change is any effect that falls into the above classes.
+      Rule changes always occur sequentially, never simultaneously.
+      
+      Any ambiguity in the specification of a rule change causes that
+      change to be void and without effect. An inconsequential variation
+      in the quotation of an existing rule does not constitute ambiguity
+      for the purposes of this rule, but any other variation does.
+      
+      A rule change is wholly prevented from taking effect unless its
+      full text was published, along with an unambiguous and clear
+      specification of the method to be used for changing the rule, at
+      least 4 days and no more than 60 days before it would otherwise
+      take effect.
+      
+      This rule provides the only mechanism by which rules can be
+      created, modified, or destroyed, or by which an entity can become
+      a rule or cease to be a rule.
+      
+------------------------------------------------------------------------
+Rule 2493/6 (Power=3.0)
+Regulations
+
+      A regulation is an textual entity defined as such by this rule,
+      and under the authority of an person, known as its Promulgator. A
+      regulation must be authorized by a rule (its parent rule) in order
+      to exist. It has only the effect that rule explicitly gives it.
+      
+      A regulation CAN be enacted, amended, and repealed as specified by
+      its parent rule. By default, a Promulgator can enact or amend a
+      regulation with 2 Agoran Consent and repeal a regulation by
+      announcement. Regulations are tracked in their Promulgator's
+      weekly report.
+      
+------------------------------------------------------------------------
+Rule 2486/1 (Power=3.14)
+The Royal Parade
+
+                    _
+                  _\ /_
+                  >_X_<
+           .---._  /_\  _.---.
+         /`.---._`{/ \}`_.---.`\
+        | /   ___`{\_/}`___   \ |
+        \ \."`*  `"{_}"`  *`"./ /
+         \ \  )\  _\ /_  /(  / /
+          \ *<()( >_X_< )()>* /
+           |._)/._./_\._.\(_.|
+      jgs  |() () () () () ()|
+           <<o>><<o>><o>><<o>>
+          `"""""""""""""""""""`
+           IN CELEBRATION of Alexis being crowned Princess of Agora,
+                without prejudice to Any before or since
+                who may come to hold a Title
+                whether Patent or otherwise;
+          IT IS HEREBY PROCLAIMED that a Royal Parade be established,
+                imbued in this very Rule,
+                which shall travel around Agora to Rules of import;
+          AND THEREFORE, the Rulekeepor SHOULD place this Rule
+                near recently-amended rules of high Power;
+          AND FURTHERMORE, additions to this Parade are most welcome
+               when Events suiting the honour should occur.
+      
+------------------------------------------------------------------------
+Rule 1051/18 (Power=1)
+The Rulekeepor
+
+      The Rulekeepor is an office; its holder is responsible for
+      maintaining the text of the rules of Agora.
+      
+      The Rulekeepor's Weekly report includes the Short Logical Ruleset.
+      The Rulekeepor's Monthly report includes the Full Logical Ruleset.
+      
+------------------------------------------------------------------------
+Rule 1681/22 (Power=1)
+The Logical Rulesets
+
+      The Short Logical Ruleset (SLR) is a format of the ruleset. In
+      this format, each rule is assigned to a category, and the rules
+      are grouped according to their category.
+      
+      Rules are assigned to, ordered within, or moved between
+      categories, and categories are added, changed, or empty categories
+      removed, as the Rulekeepor sees fit.
+      
+      The listing of each rule in the SLR must include the rule's ID
+      number, revision number, power, title, and text.
+      
+      The Rulekeepor is strongly DISCOURAGED from including any
+      additional information in the SLR, except that which increases the
+      readability of the SLR.
+      
+      The Full Logical Ruleset (FLR) is a format of the ruleset. In this
+      format, rules are assigned to the same category and presented in
+      the same order as in the SLR. The FLR must contain all the
+      information required to be in the SLR, and any historical
+      annotations which the Rulekeepor is required to record.
+      
+      The Rulekeepor SHOULD also include any other information which e
+      feels may be helpful in the use of the ruleset in the FLR.
+      
+      Whenever a rule is changed in any way, the Rulekeepor SHALL record
+      a historical annotation to the rule indicating:
+      
+      1. The type of change.
+      
+      2. The date on which the change took effect.
+      
+      3. The mechanism that specified the change.
+      
+      4. If the rule was changed due to a proposal, then that proposal's
+         ID number, author, and co-author(s) (if any).
+      
+------------------------------------------------------------------------
+Rule 2221/9 (Power=3)
+Cleanliness
+
+      Any player CAN clean a rule without objection by specifying one or
+      more corrections to spelling, grammar, capitalization, formatting,
+      and/or dialect, or to whether a synonym or abbreviation is used in
+      place of a word or phrase, in the rule's text and/or title; the
+      rule is amended by this rule as specified by that person.
+      
+------------------------------------------------------------------------
+Rule 2429/2 (Power=1)
+Bleach
+
+      Replacing a non-zero amount of whitespace with a different
+      non-zero amount of whitespace is generally insignificant, except
+      for paragraph breaks.
       
 ------------------------------------------------------------------------
 ========================================================================
 Voting
 ------------------------------------------------------------------------
-Rule 693/16 (Power=3)
+Rule 693/21 (Power=3)
 Agoran Decisions
 
       When the rules calls for an Agoran decision to be made, the
@@ -1086,7 +1025,7 @@ Agoran Decisions
       3. Resolution of the decision.
       
 ------------------------------------------------------------------------
-Rule 107/20 (Power=3)
+Rule 107/23 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -1119,7 +1058,7 @@ Initiating Agoran Decisions
       duration longer than fourteen days.
       
 ------------------------------------------------------------------------
-Rule 2528/0 (Power=3)
+Rule 2528/1 (Power=3)
 Voting Methods
 
       Each Agoran decision has a voting method, which must be
@@ -1146,7 +1085,7 @@ Voting Methods
       4. For any other decision, the valid options.
       
 ------------------------------------------------------------------------
-Rule 683/26 (Power=3)
+Rule 683/29 (Power=3)
 Voting on Agoran Decisions
 
       An entity submits a ballot on an Agoran decision by publishing a
@@ -1175,7 +1114,7 @@ Voting on Agoran Decisions
       retract eir previous ballot (if any), then submit a new one.
       
 ------------------------------------------------------------------------
-Rule 208/12 (Power=3)
+Rule 208/18 (Power=3)
 Resolving Agoran Decisions
 
       The vote collector for an unresolved Agoran decision CAN resolve
@@ -1188,7 +1127,13 @@ Resolving Agoran Decisions
       
       2. It clearly identifies the matter to be resolved.
       
-      3. It specifies the outcome, as described elsewhere, and, if there
+      3. It specifies the number of voters (or a list of the voters).
+         For these purposes and for determining quorum, a "voter" is
+         someone who submitted a ballot on the decision that was valid
+         when it was submitted and also valid (i.e. not withdrawn or
+         otherwise invalidated) at the end of the voting period.
+      
+      4. It specifies the outcome, as described elsewhere, and, if there
          was more than one valid option, provides a tally of the voters'
          valid ballots.
       
@@ -1205,7 +1150,7 @@ Resolving Agoran Decisions
       Agoran decision take effect when the decision is resolved.
       
 ------------------------------------------------------------------------
-Rule 955/30 (Power=3)
+Rule 955/34 (Power=3)
 Determining the Will of Agora
 
       Each Agoran decision has a voting method, which determines how
@@ -1242,9 +1187,9 @@ Determining the Will of Agora
       
       The previous notwithstanding:
       
-      - If there is more than one option, and the number of valid
-        ballots is less than the quorum of that decision, the outcome is
-        instead FAILED QUORUM.
+      - If there is more than one option, and the number of voters is
+        less than the quorum of that decision, the outcome is instead
+        FAILED QUORUM.
       
       - If there are no valid options, the outcome is null.
       
@@ -1252,7 +1197,7 @@ Determining the Will of Agora
       cannot change thereafter.
       
 ------------------------------------------------------------------------
-Rule 879/34 (Power=2)
+Rule 879/38 (Power=2)
 Quorum
 
       Each Agoran Decision has a quorum. This is a number set when the
@@ -1265,9 +1210,9 @@ Quorum
       The quorum that an Agoran Decision gains as it is created can be
       defined by other rules of power 2 or greater. If no other rule
       defines the quorum of an Agoran Decision, the quorum for that
-      decision is equal to the number of players who voted on the Agoran
-      Decision to adopt a proposal that had been most recently resolved
-      at the time of that decision's initiation, minus 2.
+      decision is equal to the number of voters on the Agoran Decision to
+      adopt a proposal that had been most recently resolved at the time
+      of that decision's initiation, minus 2.
       
       As an exception to the previous paragraph, the quorum of an
       Agoran Decision can never be less than 2. If the rules would
@@ -1275,7 +1220,7 @@ Quorum
       it is set to 2 instead.
       
 ------------------------------------------------------------------------
-Rule 2422/2 (Power=3)
+Rule 2422/3 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -1294,7 +1239,7 @@ Voting Strength
       less and the maximum value if it was more.
       
 ------------------------------------------------------------------------
-Rule 2127/11 (Power=3)
+Rule 2127/12 (Power=3)
 Conditional Votes
 
       A conditional vote on an Agoran decision is a vote which indicates
@@ -1324,7 +1269,7 @@ Conditional Votes
       order they occurred in the original vote.
       
 ------------------------------------------------------------------------
-Rule 2168/7 (Power=1)
+Rule 2168/8 (Power=1)
 Extending the voting period
 
       Whenever the voting period of an Agoran decision would end, and
@@ -1343,7 +1288,7 @@ Extending the voting period
       proposal's author) has voted FOR.
       
 ------------------------------------------------------------------------
-Rule 1950/33 (Power=3)
+Rule 1950/37 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index is an untracked switch possessed by Agoran
@@ -1359,7 +1304,7 @@ Decisions with Adoption Indices
       is AI-majority.
       
 ------------------------------------------------------------------------
-Rule 2034/9 (Power=3)
+Rule 2034/11 (Power=3)
 Vote Protection and Cutoff for Challenges
 
       A public message purporting to resolve an Agoran decision
@@ -1367,9 +1312,11 @@ Vote Protection and Cutoff for Challenges
       
       1. such a decision existed,
       
-      2. it was resolved as indicated, and
+      2. it had the number of voters indicated,
       
-      3. (if the indicated outcome was to adopt a proposal) such a
+      3. it was resolved as indicated, and
+      
+      4. (if the indicated outcome was to adopt a proposal) such a
          proposal existed, was adopted, and took effect.
       
 ------------------------------------------------------------------------
@@ -1407,7 +1354,7 @@ Offices
       becomes the holder of the office.
       
 ------------------------------------------------------------------------
-Rule 2143/27 (Power=1)
+Rule 2143/30 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -1462,14 +1409,14 @@ Official Reports and Duties
       self-ratification.
       
 ------------------------------------------------------------------------
-Rule 2379/0 (Power=1)
+Rule 2379/1 (Power=1)
 No News Is Some News
 
       If the rules define a report as including a list, then while that
       list is empty, that report includes the fact that it is empty.
       
 ------------------------------------------------------------------------
-Rule 2138/24 (Power=1)
+Rule 2138/31 (Power=1)
 The Associate Director of Personnel
 
       The Associate Director of Personnel (ADoP) is an office; its
@@ -1486,7 +1433,7 @@ The Associate Director of Personnel
          interim.
       
 ------------------------------------------------------------------------
-Rule 2160/17 (Power=3)
+Rule 2160/20 (Power=3)
 Deputisation
 
       A player (the deputy) CAN perform an action ordinarily reserved
@@ -1516,7 +1463,7 @@ Deputisation
       already install someone into that office.
       
 ------------------------------------------------------------------------
-Rule 2472/2 (Power=2)
+Rule 2472/3 (Power=2)
 Office Incompatibilities
 
       Some pairs of office are incompatible:
@@ -1540,7 +1487,7 @@ Office Incompatibilities
       then removed from all offices.
       
 ------------------------------------------------------------------------
-Rule 2154/52 (Power=2)
+Rule 2154/54 (Power=2)
 Election Procedure
 
       A player CAN initiate an election for a specified office:
@@ -1594,7 +1541,7 @@ Election Procedure
       office and the election ends.
       
 ------------------------------------------------------------------------
-Rule 2573/0 (Power=2.0)
+Rule 2573/1 (Power=2.0)
 Impeachment
 
       A player CAN be expelled (impeached) from a specified elected
@@ -1605,7 +1552,7 @@ Impeachment
       emself unworthy the trust of Agora.
       
 ------------------------------------------------------------------------
-Rule 1551/17 (Power=3.1)
+Rule 1551/23 (Power=3.1)
 Ratification
 
       A public document is part (possibly all) of a public message.
@@ -1638,7 +1585,7 @@ Ratification
       Ratifying a public document is secured with power threshold 3.
       
 ------------------------------------------------------------------------
-Rule 2202/6 (Power=3)
+Rule 2202/7 (Power=3)
 Ratification Without Objection
 
       Any player CAN, without objection, ratify a public document,
@@ -1658,7 +1605,7 @@ Ratification Without Objection
       is the Class-8 Crime of Endorsing Forgery.
       
 ------------------------------------------------------------------------
-Rule 2201/7 (Power=3)
+Rule 2201/8 (Power=3)
 Self-Ratification
 
       A public document defined by the rules as self-ratifying is
@@ -1688,7 +1635,7 @@ Self-Ratification
 ========================================================================
 Calls for Judgement
 ------------------------------------------------------------------------
-Rule 991/28 (Power=2)
+Rule 991/34 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -1719,7 +1666,7 @@ Calls for Judgement
       judicial assignments, and a list of players interested in judging.
       
 ------------------------------------------------------------------------
-Rule 591/45 (Power=1.7)
+Rule 591/52 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
@@ -1766,7 +1713,7 @@ Delivering Judgements
         arises from the case itself or in reference to it.
       
 ------------------------------------------------------------------------
-Rule 911/56 (Power=1.7)
+Rule 911/61 (Power=1.7)
 Motions and Moots
 
       If a judgement has been in effect for less then seven days and has
@@ -1805,7 +1752,7 @@ Motions and Moots
         judging.
       
 ------------------------------------------------------------------------
-Rule 2175/9 (Power=1)
+Rule 2175/11 (Power=1)
 Judicial Retraction and Excess
 
       A new case is a judicial case that has not had any judge assigned
@@ -1820,7 +1767,7 @@ Judicial Retraction and Excess
       regards to that case.
       
 ------------------------------------------------------------------------
-Rule 2492/2 (Power=1)
+Rule 2492/3 (Power=1)
 Recusal
 
       A judge CAN recuse emself from a CFJ e is assigned to by
@@ -1838,7 +1785,7 @@ Recusal
 ========================================================================
 Justice
 ------------------------------------------------------------------------
-Rule 2556/0 (Power=3.0)
+Rule 2556/1 (Power=3.0)
 Penalties
 
       Rules to the contrary notwithstanding, an impure person CANNOT win
@@ -1849,35 +1796,6 @@ Penalties
       
       A player CAN, with 7 days notice, deregister (exile) a specified
       player (the outlaw) who has more than 40 blots.
-      
-------------------------------------------------------------------------
-Rule 2486/0 (Power=3.14)
-The Royal Parade
-
-                    _
-                  _\ /_
-                  >_X_<
-           .---._  /_\  _.---.
-         /`.---._`{/ \}`_.---.`\
-        | /   ___`{\_/}`___   \ |
-        \ \."`*  `"{_}"`  *`"./ /
-         \ \  )\  _\ /_  /(  / /
-          \ *<()( >_X_< )()>* /
-           |._)/._./_\._.\(_.|
-      jgs  |() () () () () ()|
-           <<o>><<o>><o>><<o>>
-          `"""""""""""""""""""`
-           IN CELEBRATION of Alexis being crowned Princess of Agora,
-                without prejudice to Any before or since
-                who may come to hold a Title
-                whether Patent or otherwise;
-          IT IS HEREBY PROCLAIMED that a Royal Parade be established,
-                imbued in this very Rule,
-                which shall travel around Agora to Rules of import;
-          AND THEREFORE, the Rulekeepor SHOULD place this Rule
-                near recently-amended rules of high Power;
-          AND FURTHERMORE, additions to this Parade are most welcome
-               when Events suiting the honour should occur.
       
 ------------------------------------------------------------------------
 Rule 2555/2 (Power=2.0)
@@ -1907,7 +1825,7 @@ Blots
       fugitive's blots are destroyed.
       
 ------------------------------------------------------------------------
-Rule 2478/7 (Power=1.7)
+Rule 2478/8 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
@@ -1935,7 +1853,7 @@ Vigilante Justice
       Finger at the Referee.
       
 ------------------------------------------------------------------------
-Rule 2479/5 (Power=1.7)
+Rule 2479/6 (Power=1.7)
 Official Justice
 
       The Referee CAN, subject to the provisions of this rule, impose
@@ -1976,7 +1894,7 @@ Removing Blots
       remorse, and ardent desire for self-improvement.
       
 ------------------------------------------------------------------------
-Rule 2531/2 (Power=2)
+Rule 2531/4 (Power=2)
 Referee Accountability
 
       Any attempt to levy a fine is INEFFECTIVE if it does not include
@@ -2006,7 +1924,7 @@ Referee Accountability
 ========================================================================
 Winning
 ------------------------------------------------------------------------
-Rule 2449/3 (Power=3)
+Rule 2449/4 (Power=3)
 Winning the Game
 
       When the Rules state that a person or persons win the game, those
@@ -2016,7 +1934,7 @@ Winning the Game
       persons the Patent Title of Champion once, by announcement.
       
 ------------------------------------------------------------------------
-Rule 2452/2 (Power=0.5)
+Rule 2452/4 (Power=0.5)
 Trust Tokens
 
       Any player can issue a Trust Token to another person by
@@ -2034,14 +1952,14 @@ Trust Tokens
       issued em a Trust Token.
       
 ------------------------------------------------------------------------
-Rule 2465/0 (Power=0.3)
+Rule 2465/1 (Power=0.3)
 Victory by Apathy
 
       A player CAN Declare Apathy without objection, specifying a set of
       players. Upon doing so, the specified players win the game.
       
 ------------------------------------------------------------------------
-Rule 2510/3 (Power=1)
+Rule 2510/4 (Power=1)
 Such is Karma
 
       Karma is a person switch tracked by the Herald in eir Weekly
@@ -2083,7 +2001,7 @@ Such is Karma
       Weekly Report.
       
 ------------------------------------------------------------------------
-Rule 2511/2 (Power=1)
+Rule 2511/3 (Power=1)
 Karmic Balance
 
       In a timely fashion after the beginning of each Quarter, the
@@ -2097,7 +2015,7 @@ Karmic Balance
          instance values in the game is equal to 0.
       
 ------------------------------------------------------------------------
-Rule 2553/0 (Power=1)
+Rule 2553/1 (Power=1)
 Win by Paradox
 
       If a CFJ about the legality or possibility of a game action, has
@@ -2112,7 +2030,7 @@ Win by Paradox
 ========================================================================
 Awards
 ------------------------------------------------------------------------
-Rule 2438/9 (Power=3)
+Rule 2438/11 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -2199,7 +2117,7 @@ Ribbons
       and/or has earned within the previous 7 days is at least 5.
       
 ------------------------------------------------------------------------
-Rule 2480/1 (Power=2.1)
+Rule 2480/2 (Power=2.1)
 Festivals
 
       Festivity is a singleton switch, whose possible values are
@@ -2224,7 +2142,7 @@ Festivals
       Festive.
       
 ------------------------------------------------------------------------
-Rule 2481/1 (Power=2.1)
+Rule 2481/2 (Power=2.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -2244,7 +2162,7 @@ Festival Restrictions
       effect and are ignored.
       
 ------------------------------------------------------------------------
-Rule 649/39 (Power=1.5)
+Rule 649/41 (Power=1.5)
 Patent Titles
 
       A Patent Title is a legal title given to a person in recognition
@@ -2261,7 +2179,7 @@ Patent Titles
       player With 2 Agoran Consent.
       
 ------------------------------------------------------------------------
-Rule 2444/3 (Power=1)
+Rule 2444/4 (Power=1)
 Silver Quill
 
       The Silver Quill is an annual award designed to honor the authors
@@ -2290,7 +2208,7 @@ Silver Quill
       is no winner.
       
 ------------------------------------------------------------------------
-Rule 2415/0 (Power=1.5)
+Rule 2415/1 (Power=1.5)
 Badges
 
       A Badge is any patent title with the word 'badge' as part of its
@@ -2301,7 +2219,7 @@ Badges
       existing badge to persons Without Objection.
       
 ------------------------------------------------------------------------
-Rule 1367/18 (Power=3)
+Rule 1367/23 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -2324,7 +2242,7 @@ Degrees
       coordinate the peer-review process and the awarding of degrees.
       
 ------------------------------------------------------------------------
-Rule 2231/6 (Power=3)
+Rule 2231/8 (Power=3)
 Order of the Hero of Agora Nomic
 
       Heroic titles are Agora's premier patent titles of distinction,
@@ -2347,111 +2265,9 @@ Order of the Hero of Agora Nomic
       
 ------------------------------------------------------------------------
 ========================================================================
-Figureheads
+Obligations & Contracts
 ------------------------------------------------------------------------
-Rule 104/0 (Power=3)
-First Speaker
-
-      The Speaker for the first game shall be Michael Norrish.
-      
-------------------------------------------------------------------------
-Rule 103/24 (Power=2)
-The Speaker
-
-      The Speaker is an imposed office and the figurehead leader of
-      Agora.
-      
-      The player or players who have most recently won the game are
-      called Laureled. If at any time the office of Speaker is vacant,
-      or when one or more players win Agora, then the Prime Minister CAN
-      and SHALL, once and in a timely fashion, appoint a Laureled player
-      to the office of Speaker by announcement.
-      
-      If the office of Speaker has been held continuously by the same
-      person for 90+ days, then any player CAN appoint another player to
-      the office with Support.
-      
-      For an election of the Prime Minister, the Speaker has voting
-      strength one greater than e would have if e did not hold the
-      office.
-      
-------------------------------------------------------------------------
-Rule 2423/3 (Power=2)
-First Among Equals
-
-      The Prime Minister is an office. The Prime Minister is elected by
-      the players of Agora primarily on account of not being the other
-      guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
-      smoothly.
-      
-      The holder of the office of Prime Minister's voting strength is
-      increased by 1 on all Agoran decisions other than a elections of
-      the Prime Minister.
-      
-------------------------------------------------------------------------
-Rule 2463/0 (Power=1)
-Motion of No Confidence
-
-      Any player can cause the office of Prime Minister to become vacant
-      with 2 Agoran Consent by publishing a message with the character
-      string "MOTION OF NO CONFIDENCE" in the subject line.
-      
-------------------------------------------------------------------------
-Rule 2451/6 (Power=2.0)
-Executive Orders
-
-      Once per week and except as otherwise forbidden by this rule, the
-      current Prime Minister CAN issue a Cabinet Order by announcement
-      to perform the action(s) authorized by that Order.
-      
-      Each Cabinet Order is associated with an office. The current Prime
-      Minister CANNOT issue more than one Cabinet Order associated with
-      the same office more than once in the same month, nor can e issue
-      a Cabinet Order associated with a vacant office.
-      
-      The available Cabinet Orders are:
-      
-      - Certiorari (Arbitor): The Prime Minister assigns emself as judge
-        of a specified open case.
-      
-      - Dive (Referee): The Prime Minister levies a 2 Blot fine on a
-        specified player. Rules to the contrary notwithstanding, the
-        reason for the fine MAY be any grievance held by the Prime
-        Minister, not necessarily a violation of the rules, against the
-        person to whom the fine is levied.
-      
-      - Manifesto (Promotor): The Prime Minister distributes a specified
-        proposal in the Proposal Pool.
-      
-------------------------------------------------------------------------
-========================================================================
-Obligations
-------------------------------------------------------------------------
-Rule 2450/5 (Power=1.7)
-Pledges
-
-      If a Player makes a clear public pledge (syn. Oath) to perform (or
-      refrain from performing) certain actions, then breaking the pledge
-      within the pledge's time window is the Class N crime of
-      Oathbreaking, where N is 2 unless the pledge explicitly states
-      otherwise.  The time window of a pledge is 60 days, unless the
-      pledge explicitly states otherwise.
-      
-      If breaking the pledge harms specific other parties, the Referee
-      SHOULD solicit the opinion of those parties in determining an
-      appropriate fine.
-      
-------------------------------------------------------------------------
-Rule 2519/0 (Power=3)
-Consent
-
-      A person gives consent (syn. consents) to an action when e, acting
-      as emself, publicly states that e agrees to the action. This
-      agreement may be implied, but only if it is reasonably clear from
-      context that the person wanted the agreement to take place.
-      
-------------------------------------------------------------------------
-Rule 2471/1 (Power=1)
+Rule 2471/2 (Power=1)
 No Faking
 
       A person SHALL NOT make a public statement that is a lie. A
@@ -2468,7 +2284,31 @@ No Faking
       announcement of intent is never a lie.
       
 ------------------------------------------------------------------------
-Rule 1742/18 (Power=2.5)
+Rule 2450/6 (Power=1.7)
+Pledges
+
+      If a Player makes a clear public pledge (syn. Oath) to perform (or
+      refrain from performing) certain actions, then breaking the pledge
+      within the pledge's time window is the Class N crime of
+      Oathbreaking, where N is 2 unless the pledge explicitly states
+      otherwise.  The time window of a pledge is 60 days, unless the
+      pledge explicitly states otherwise.
+      
+      If breaking the pledge harms specific other parties, the Referee
+      SHOULD solicit the opinion of those parties in determining an
+      appropriate fine.
+      
+------------------------------------------------------------------------
+Rule 2519/1 (Power=3)
+Consent
+
+      A person gives consent (syn. consents) to an action when e, acting
+      as emself, publicly states that e agrees to the action. This
+      agreement may be implied, but only if it is reasonably clear from
+      context that the person wanted the agreement to take place.
+      
+------------------------------------------------------------------------
+Rule 1742/26 (Power=2.5)
 Contracts
 
       Any group of two or more consenting persons (the parties) may
@@ -2494,7 +2334,7 @@ Contracts
 ========================================================================
 Assets
 ------------------------------------------------------------------------
-Rule 2166/26 (Power=3)
+Rule 2166/30 (Power=3)
 Assets
 
       An asset is an entity defined as such by a document that has been
@@ -2515,7 +2355,7 @@ Assets
       self-ratifying.
       
 ------------------------------------------------------------------------
-Rule 2576/0 (Power=3.0)
+Rule 2576/1 (Power=3.0)
 Ownership
 
       Each asset has exactly one owner. If an asset's backing document
@@ -2533,7 +2373,7 @@ Ownership
       destroyed by any player without objection.
       
 ------------------------------------------------------------------------
-Rule 2577/0 (Power=3.0)
+Rule 2577/1 (Power=3.0)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -2558,7 +2398,7 @@ Asset Actions
       number.
       
 ------------------------------------------------------------------------
-Rule 2578/0 (Power=3.0)
+Rule 2578/1 (Power=3.0)
 Currencies
 
       A currency is a class of asset defined as such by its backing
@@ -2571,7 +2411,7 @@ Currencies
       "Agora's official currency", if there is one.
       
 ------------------------------------------------------------------------
-Rule 2579/0 (Power=3.0)
+Rule 2579/1 (Power=3.0)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter
@@ -2608,7 +2448,7 @@ Fee-based Actions
       (empty or 0) fee for the action.
       
 ------------------------------------------------------------------------
-Rule 2515/0 (Power=1)
+Rule 2515/1 (Power=1)
 Distributing Assets
 
       To “distribute” a quantity of a fungible asset to a set of
@@ -2626,7 +2466,7 @@ Distributing Assets
 ========================================================================
 Economics
 ------------------------------------------------------------------------
-Rule 2456/5 (Power=1)
+Rule 2456/9 (Power=1)
 The Treasuror
 
       The Treasuror is an office.
@@ -2702,7 +2542,7 @@ Welcome Packages
       7. 5 steel
       
 ------------------------------------------------------------------------
-Rule 2545/1 (Power=2)
+Rule 2545/2 (Power=2)
 Auctions
 
       An Auction is a way for entities to give away items in exchange
@@ -2710,7 +2550,7 @@ Auctions
       initiated
       
 ------------------------------------------------------------------------
-Rule 2546/0 (Power=1)
+Rule 2546/1 (Power=1)
 Lots
 
       Each Auction has one or more lots of items.
@@ -2719,7 +2559,7 @@ Lots
       Auction to a single recipient.
       
 ------------------------------------------------------------------------
-Rule 2547/1 (Power=1)
+Rule 2547/2 (Power=1)
 The Auctioneer
 
       Each Auction has an Auctioneer.
@@ -2731,7 +2571,7 @@ The Auctioneer
       Auctioneer for Auctions defined by the rules is Agora.
       
 ------------------------------------------------------------------------
-Rule 2548/1 (Power=1)
+Rule 2548/2 (Power=1)
 The Auction Announcer
 
       Each Auction has an Announcer. Only persons can be Announcers.
@@ -2743,7 +2583,7 @@ The Auction Announcer
       for that Auction.
       
 ------------------------------------------------------------------------
-Rule 2549/2 (Power=1)
+Rule 2549/3 (Power=1)
 Auction Initiation
 
       An entity authorized by a rule to initiate an Auction CAN do so by
@@ -2773,7 +2613,7 @@ Auction Initiation
       If no currency is specified, it defaults to coins.
       
 ------------------------------------------------------------------------
-Rule 2550/1 (Power=1)
+Rule 2550/2 (Power=1)
 Bidding
 
       A person authorized to bid on an Auction CAN do so by
@@ -2797,7 +2637,7 @@ Bidding
       em to pay that amount at the conclusion of the Auction.
       
 ------------------------------------------------------------------------
-Rule 2551/1 (Power=1)
+Rule 2551/2 (Power=1)
 Auction End
 
       An Auction ends 7 days after its initiation, or immediately if no
@@ -2838,7 +2678,7 @@ Auction End
       anything.
       
 ------------------------------------------------------------------------
-Rule 2552/0 (Power=1)
+Rule 2552/1 (Power=1)
 Auction Termination
 
       Any player CAN terminate an Auction, by announcement, if the
@@ -2852,7 +2692,7 @@ Auction Termination
 ========================================================================
 The Land of Arcadia
 ------------------------------------------------------------------------
-Rule 1993/1 (Power=2)
+Rule 1993/4 (Power=2)
 The Land of Arcadia
 
       Arcadia is a land entirely defined by the Arcadian Map (the Map).
@@ -2876,7 +2716,7 @@ The Land of Arcadia
       Land defined by permissible Latitude and Longitude pairs.
       
 ------------------------------------------------------------------------
-Rule 1994/1 (Power=2)
+Rule 1994/4 (Power=2)
 Ownership of Land
 
       Any existent Land for which ownership has not been explicitly
@@ -2886,7 +2726,7 @@ Ownership of Land
       any other entity is called Private Land (syn. Proprietary Land)
       
 ------------------------------------------------------------------------
-Rule 1995/2 (Power=2)
+Rule 1995/5 (Power=2)
 Land Types
 
       Each Unit of Land has a Land Type switch, tracked by the
@@ -2921,7 +2761,7 @@ Land Types
       next value of the switch.
       
 ------------------------------------------------------------------------
-Rule 1996/3 (Power=1)
+Rule 1996/7 (Power=1)
 The Cartographor
 
       The Cartographor is an office; its holder is recordkeepor for the
@@ -2939,7 +2779,7 @@ The Cartographor
       6. a list of all preserved land units.
       
 ------------------------------------------------------------------------
-Rule 1998/2 (Power=1)
+Rule 1998/5 (Power=1)
 Land Topology
 
       Two Units of Land are Adjacent if they have the same Latitude, and
@@ -2951,7 +2791,7 @@ Land Topology
       same color, starting from A.
       
 ------------------------------------------------------------------------
-Rule 1999/0 (Power=1)
+Rule 1999/3 (Power=1)
 Entity Location
 
       Location is a player switch, tracked by the Cartographer, whose
@@ -2969,7 +2809,7 @@ Entity Location
       changed, its Location is set to (0, 0).
       
 ------------------------------------------------------------------------
-Rule 2003/16 (Power=1)
+Rule 2003/19 (Power=1)
 Actions in Arcadia
 
       Players CAN pay the listed fee to take the associated action:
@@ -3033,7 +2873,7 @@ Land Auctions
       on other land auctions are withdrawn.
       
 ------------------------------------------------------------------------
-Rule 2022/6 (Power=1)
+Rule 2022/10 (Power=1)
 Land Transfiguration
 
       Once during the second or third Eastman week of each Agoran Month,
@@ -3055,7 +2895,7 @@ Land Transfiguration
       Agoran Month.
       
 ------------------------------------------------------------------------
-Rule 2565/1 (Power=2.6)
+Rule 2565/2 (Power=2.6)
 Preserved Land
 
       Preservation is a boolean land switch, defaulting to False. The
@@ -3076,7 +2916,7 @@ Preserved Land
       not Agora CANNOT own preserved land.
       
 ------------------------------------------------------------------------
-Rule 2560/1 (Power=2)
+Rule 2560/2 (Power=2)
 Facilities
 
       Facilities are liquid assets tracked by the Cartographor. In order
@@ -3103,7 +2943,7 @@ Facilities
       land unit.
       
 ------------------------------------------------------------------------
-Rule 2561/4 (Power=2)
+Rule 2561/5 (Power=2)
 Asset Generation with Facilities
 
       When an Production or Processing facility creates assets, the
@@ -3139,7 +2979,7 @@ Asset Generation with Facilities
             facility, or the owner must have consented.
       
 ------------------------------------------------------------------------
-Rule 2562/1 (Power=2)
+Rule 2562/2 (Power=2)
 Facility Ranks
 
       Rank is a facility switch tracked by the Cartographor defaulting
@@ -3213,7 +3053,7 @@ Processing Facilities
            - Processing Details: 1 cotton to 5 fabric
       
 ------------------------------------------------------------------------
-Rule 2567/0 (Power=2)
+Rule 2567/1 (Power=2)
 Facility Categories
 
       A facility's Category is a switch whose possible values are
@@ -3222,7 +3062,7 @@ Facility Categories
       Category switch set to x.
       
 ------------------------------------------------------------------------
-Rule 2568/0 (Power=2)
+Rule 2568/1 (Power=2)
 Facility Colors
 
       A facility's Allowed Land Types is a switch with allowed values of
@@ -3241,7 +3081,7 @@ Facility Colors
       x.
       
 ------------------------------------------------------------------------
-Rule 2569/0 (Power=2.0)
+Rule 2569/1 (Power=2.0)
 Gray Land
 
       Gray Land is preserved and owned by Agora. If Land becomes Gray
@@ -3249,7 +3089,7 @@ Gray Land
       Unit, is transferred to Agora.
       
 ------------------------------------------------------------------------
-Rule 2570/0 (Power=1.0)
+Rule 2570/1 (Power=1.0)
 Monument Facilities
 
       For each type of Monument facility, there may only be one instance
@@ -3258,14 +3098,14 @@ Monument Facilities
       facility of the same type is already in existence.
       
 ------------------------------------------------------------------------
-Rule 2571/0 (Power=1.0)
+Rule 2571/1 (Power=1.0)
 The Fountain
 
       A fountain is a Gray Monument facility. A fountain has no upkeep
       cost.
       
 ------------------------------------------------------------------------
-Rule 2572/0 (Power=1.0)
+Rule 2572/1 (Power=1.0)
 Wishing Fountain
 
       If a player's location is the same as a fountain, e CAN destroy a
@@ -3274,7 +3114,7 @@ Wishing Fountain
       when e Throws A Coin.
       
 ------------------------------------------------------------------------
-Rule 2046/0 (Power=1.0)
+Rule 2046/4 (Power=1.0)
 Q*Bert
 
       Q*Bert is an entity which has a location. Q*Bert CAN be on a unit
@@ -3316,9 +3156,180 @@ Q*Bert
       
 ------------------------------------------------------------------------
 ========================================================================
+The Undead
+------------------------------------------------------------------------
+Rule 2532/3 (Power=2)
+Zombies
+
+      Master is a secured player switch with possible values of any
+      player, and Agora. Every player's default master is emself; rules
+      to the contrary notwithstanding, a player CAN always flip eir own
+      master to emself by announcement.
+      
+      A player whose master is not emself is a zombie (syn. inactive);
+      all other players are active.  A zombie's master, if another
+      player, is allowed to act on behalf of the zombie (i.e. as the
+      zombie's agent), except a master CANNOT act on behalf of a zombie
+      to:
+        - initiate, support, object to, or perform a dependent action;
+        - act on behalf of that zombie's zombies;
+        - bid in a zombie auction;
+        - enter a contract, pledge, or other type of agreement;
+        - initiate a Call fo Judgement;
+        - deregister.
+      
+      A zombie's master CAN flip that zombie's master switch to Agora by
+      announcement.
+      
+      If a master causes a zombie to perform an ILLEGAL action, the
+      master commits the Class 4+N Crime of Masterminding (where N is
+      the class of the illegal action).
+      
+      If a active player who was a zombie has not received a Welcome
+      Package since e most recently ceased being a zombie, and if eir
+      resale value was less than 2 at any point during eir most recent
+      time as a zombie, then any player CAN cause em to receive a
+      Welcome Package by announcement.
+      
+------------------------------------------------------------------------
+Rule 2574/1 (Power=3.0)
+Zombie Life Cycle
+
+      Any player CAN, with Notice, flip the master switch of an active
+      player who has not made a public announcement in the past 60 days
+      to Agora.
+      
+      Resale is a secured natural switch for zombies, tracked by the
+      Registrar, with a default value of 2. Whenever a zombie's master
+      switch is flipped to a player other than emself, eir resale value
+      is decreased by 1.
+      
+      A zombie with a resale value of 0 CANNOT have eir master switch
+      flipped to a player other than emself, rules to the contrary
+      notwithstanding.
+      
+      Any player CAN, with Notice:
+        - If a zombie has been a zombie for the past 90 days and not had
+         Agora for a master during any of that time, flip the zombie's
+         master switch to Agora;
+        - If a player is master to more than one zombie, flip the master
+         switch of one of that master's zombies to Agora;
+        - Deregister a zombie whose master is Agora and who has a Resale
+         value of 0.
+      
+      The Registrar SHALL track the date that each zombie last belonged
+      to Agora in eir weekly report.  The Registrar SHALL perform all
+      POSSIBLE actions in the preceding paragraph in a timely fashion
+      after first reporting their possibility via the facts in eir
+      weekly report.
+      
+------------------------------------------------------------------------
+Rule 1885/11 (Power=2)
+Zombie Auctions
+
+      Whenever a zombie (1) has Agora for a master, (2) is not a lot in
+      an ongoing auction, (3) has a resale value greater than 0, and (4)
+      has not been won as an auction lot in the past 14 days, then the
+      Registrar CAN put that zombie (along with any other zombies that
+      fulfill the same conditions) up for auction.
+      
+      In a timely fashion after the beginning of each month, the
+      Registrar SHALL either initiate such an auction or, if no zombies
+      meeting these conditions existed at the beginning of the month,
+      announce that no such auction is necessary.
+      
+      For such an auction, the lots are the qualifying zombies, ordered
+      at the discretion of the Registrar. The Registrar is the
+      announcer, and the minimum bid is 1.  Rules  to the contrary
+      notwithstanding, the master of a zombie CANNOT bid in a zombie
+      auction. If a player becomes a zombie's master, all eir bids in
+      zombie auctions that have not ended are withdrawn. For the purpose
+      of such a auction, to transfer a zombie to a player is to set that
+      zombie's master switch to that player.
+      
+------------------------------------------------------------------------
+========================================================================
+Figureheads
+------------------------------------------------------------------------
+Rule 103/31 (Power=2)
+The Speaker
+
+      The Speaker is an imposed office and the figurehead leader of
+      Agora.
+      
+      The player or players who have most recently won the game are
+      called Laureled. If at any time the office of Speaker is vacant,
+      or when one or more players win Agora, then the Prime Minister CAN
+      and SHALL, once and in a timely fashion, appoint a Laureled player
+      to the office of Speaker by announcement.
+      
+      If the office of Speaker has been held continuously by the same
+      person for 90+ days, then any player CAN appoint another player to
+      the office with Support.
+      
+      For an election of the Prime Minister, the Speaker has voting
+      strength one greater than e would have if e did not hold the
+      office.
+      
+------------------------------------------------------------------------
+Rule 104/2 (Power=3)
+First Speaker
+
+      The Speaker for the first game shall be Michael Norrish.
+      
+------------------------------------------------------------------------
+Rule 2423/4 (Power=2)
+First Among Equals
+
+      The Prime Minister is an office. The Prime Minister is elected by
+      the players of Agora primarily on account of not being the other
+      guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
+      smoothly.
+      
+      The holder of the office of Prime Minister's voting strength is
+      increased by 1 on all Agoran decisions other than a elections of
+      the Prime Minister.
+      
+------------------------------------------------------------------------
+Rule 2463/1 (Power=1)
+Motion of No Confidence
+
+      Any player can cause the office of Prime Minister to become vacant
+      with 2 Agoran Consent by publishing a message with the character
+      string "MOTION OF NO CONFIDENCE" in the subject line.
+      
+------------------------------------------------------------------------
+Rule 2451/8 (Power=2.0)
+Executive Orders
+
+      Once per week and except as otherwise forbidden by this rule, the
+      current Prime Minister CAN issue a Cabinet Order by announcement
+      to perform the action(s) authorized by that Order.
+      
+      Each Cabinet Order is associated with an office. The current Prime
+      Minister CANNOT issue more than one Cabinet Order associated with
+      the same office more than once in the same month, nor can e issue
+      a Cabinet Order associated with a vacant office.
+      
+      The available Cabinet Orders are:
+      
+      - Certiorari (Arbitor): The Prime Minister assigns emself as judge
+        of a specified open case.
+      
+      - Dive (Referee): The Prime Minister levies a 2 Blot fine on a
+        specified player. Rules to the contrary notwithstanding, the
+        reason for the fine MAY be any grievance held by the Prime
+        Minister, not necessarily a violation of the rules, against the
+        person to whom the fine is levied.
+      
+      - Manifesto (Promotor): The Prime Minister distributes a specified
+        proposal in the Proposal Pool.
+      
+------------------------------------------------------------------------
+========================================================================
 Agoran Culture
 ------------------------------------------------------------------------
-Rule 2327/1 (Power=1)
+Rule 2327/2 (Power=1)
 Read the Ruleset Week
 
       The first Agoran week each year which falls entirely in February
@@ -3326,7 +3337,7 @@ Read the Ruleset Week
       ruleset during Read the Ruleset Week.
       
 ------------------------------------------------------------------------
-Rule 1727/21 (Power=1)
+Rule 1727/22 (Power=1)
 Happy Birthday
 
       WHEREAS, in June 1993, the world's only MUD-based nomic, Nomic
@@ -3385,7 +3396,7 @@ Tournaments
       player by announcement.
       
 ------------------------------------------------------------------------
-Rule 2566/0 (Power=1)
+Rule 2566/1 (Power=1)
 Free Tournaments
 
       A player who is not the gamemaster of an existing tournament CAN
@@ -3426,7 +3437,7 @@ The Birthday Tournament
       with Agora's Birthday.
       
 ------------------------------------------------------------------------
-Rule 1769/15 (Power=3)
+Rule 1769/16 (Power=3)
 Holidays
 
       The period each year from midnight GMT on the morning of 24
@@ -3440,7 +3451,7 @@ Holidays
       a Holiday, punishment is generally not appropriate.
       
 ------------------------------------------------------------------------
-Rule 2029/0 (Power=4)
+Rule 2029/1 (Power=4)
 Town Fountain
 
                       /\   /\

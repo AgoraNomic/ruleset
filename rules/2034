@@ -7,9 +7,11 @@ text: |
 
   1. such a decision existed,
 
-  2. it was resolved as indicated, and
+  2. it had the number of voters indicated,
 
-  3. (if the indicated outcome was to adopt a proposal) such a
+  3. it was resolved as indicated, and
+
+  4. (if the indicated outcome was to adopt a proposal) such a
      proposal existed, was adopted, and took effect.
 history:
 - change:
@@ -62,6 +64,11 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: 8083
 annotations:
 - cfjs:
   - id: '3618'

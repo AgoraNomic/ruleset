@@ -335,582 +335,263 @@ Amended(9) by Proposal 7646 (omd), 2014-06-03
 Power changed from 2 to 3 by Proposal 7989 "Don't FAGE the FAGE"
    (Telnaior), 2018-01-13
 ------------------------------------------------------------------------
-Rule 2532/3 (Power=2)
-Zombies
-
-      Master is a secured player switch with possible values of any
-      player, and Agora. Every player's default master is emself; rules
-      to the contrary notwithstanding, a player CAN always flip eir own
-      master to emself by announcement.
-      
-      A player whose master is not emself is a zombie (syn. inactive);
-      all other players are active.  A zombie's master, if another
-      player, is allowed to act on behalf of the zombie (i.e. as the
-      zombie's agent), except a master CANNOT act on behalf of a zombie
-      to:
-        - initiate, support, object to, or perform a dependent action;
-        - act on behalf of that zombie's zombies;
-        - bid in a zombie auction;
-        - enter a contract, pledge, or other type of agreement;
-        - initiate a Call fo Judgement;
-        - deregister.
-      
-      A zombie's master CAN flip that zombie's master switch to Agora by
-      announcement.
-      
-      If a master causes a zombie to perform an ILLEGAL action, the
-      master commits the Class 4+N Crime of Masterminding (where N is
-      the class of the illegal action).
-      
-      If a active player who was a zombie has not received a Welcome
-      Package since e most recently ceased being a zombie, and if eir
-      resale value was less than 2 at any point during eir most recent
-      time as a zombie, then any player CAN cause em to receive a
-      Welcome Package by announcement.
-      
-History:
-
-Enacted by Proposal 7950 "Boooo!" (G.), 2017-11-12
-Amended(1) by Proposal 8051 "Zombie Overhaul v1.0" (G.; with Aris),
-   2018-06-14
-Amended(2) by Proposal 8065 "No undead courts" (twg), 2018-07-18
-------------------------------------------------------------------------
-Rule 1885/11 (Power=2)
-Zombie Auctions
-
-      Whenever a zombie (1) has Agora for a master, (2) is not a lot in
-      an ongoing auction, (3) has a resale value greater than 0, and (4)
-      has not been won as an auction lot in the past 14 days, then the
-      Registrar CAN put that zombie (along with any other zombies that
-      fulfill the same conditions) up for auction.
-      
-      In a timely fashion after the beginning of each month, the
-      Registrar SHALL either initiate such an auction or, if no zombies
-      meeting these conditions existed at the beginning of the month,
-      announce that no such auction is necessary.
-      
-      For such an auction, the lots are the qualifying zombies, ordered
-      at the discretion of the Registrar. The Registrar is the
-      announcer, and the minimum bid is 1.  Rules  to the contrary
-      notwithstanding, the master of a zombie CANNOT bid in a zombie
-      auction. If a player becomes a zombie's master, all eir bids in
-      zombie auctions that have not ended are withdrawn. For the purpose
-      of such a auction, to transfer a zombie to a player is to set that
-      zombie's master switch to that player.
-      
-History:
-
-Enacted by Proposal 3853 (Blob), 1999-04-19
-Amended(1) by Proposal 3901 (Schneidster), 1999-09-06
-Amended(2) by Proposal 4018 (Kelly), 2000-06-21
-Amended(3) by Proposal 4118 (G.), 2001-06-03
-Repealed by Proposal 4211 (harvel), 2001-09-10
-Re-enacted and amended(4) by Proposal 7951 "Zombie Auctions" (G.),
-   2017-11-12
-Power changed from 1 to 2 by Proposal 7952 "It LIVES" (G.), 2017-11-12
-Amended(5) by Proposal 8023 "Zombie Lots" (G.; with Aris), 2018-03-06
-Amended(6) by Proposal 8028 "Zombie patch" (G.), 2018-03-23
-Amended(7) by Proposal 8041 "Consolidated Patch" (Aris; with Trigon,
-   G.), 2018-04-27
-Amended(8) by Proposal 8051 "Zombie Overhaul v1.0" (G.; with Aris),
-   2018-06-14
-------------------------------------------------------------------------
-Rule 2574/1 (Power=3.0)
-Zombie Life Cycle
-
-      Any player CAN, with Notice, flip the master switch of an active
-      player who has not made a public announcement in the past 60 days
-      to Agora.
-      
-      Resale is a secured natural switch for zombies, tracked by the
-      Registrar, with a default value of 2. Whenever a zombie's master
-      switch is flipped to a player other than emself, eir resale value
-      is decreased by 1.
-      
-      A zombie with a resale value of 0 CANNOT have eir master switch
-      flipped to a player other than emself, rules to the contrary
-      notwithstanding.
-      
-      Any player CAN, with Notice:
-        - If a zombie has been a zombie for the past 90 days and not had
-         Agora for a master during any of that time, flip the zombie's
-         master switch to Agora;
-        - If a player is master to more than one zombie, flip the master
-         switch of one of that master's zombies to Agora;
-        - Deregister a zombie whose master is Agora and who has a Resale
-         value of 0.
-      
-      The Registrar SHALL track the date that each zombie last belonged
-      to Agora in eir weekly report.  The Registrar SHALL perform all
-      POSSIBLE actions in the preceding paragraph in a timely fashion
-      after first reporting their possibility via the facts in eir
-      weekly report.
-      
-History:
-
-Enacted by Proposal 8051 "Zombie Overhaul v1.0" (G.; with Aris),
-   2018-06-14
-------------------------------------------------------------------------
 ========================================================================
-Rules & Regulations
+Proposals
 ------------------------------------------------------------------------
-Rule 2141/11 (Power=3)
-Role and Attributes of Rules
+Rule 2350/10 (Power=3)
+Proposals
 
-      A rule is a type of instrument with the capacity to govern the
-      game generally, and is always taking effect. A rule's content
-      takes the form of a text, and is unlimited in scope.
+      A proposal is a type of entity consisting of a body of text and
+      other attributes. A player CAN create a proposal by announcement,
+      specifying its text and optionally specifying any of the following
+      attributes:
       
-      Every rule has power between 0.1 and 4.0 inclusive. It is not
-      possible for a rule to have a power outside this range.
+      * An associated title.
       
-      Rules have ID numbers, to be assigned by the Rulekeepor.
+      * A list of co-authors (which must be persons other than the
+        author).
       
-      Every rule shall have a title to aid in identification. If a rule
-      ever does not have a title, the the Rulekeepor CAN and SHALL
-      assign a title to it by announcement in a timely fashion.
+      * An adoption index.
       
-      For the purposes of rules governing modification of instruments,
-      the text, power, ID number, and title of a rule are all
-      substantive aspects of the rule. However, rules to the contrary
-      notwithstanding, the Rulekeepor CAN set rule aspects as described
-      elsewhere in this rule.
+      Creating a proposal adds it to the Proposal Pool. Once a proposal
+      is created, nether its text nor any of the aforementioned
+      attributes can be changed. The author (syn. proposer) of a
+      proposal is the person who submitted it.
+      
+      If a decision of whether to adopt a proposal was resolved as
+      FAILED QUORUM in the last seven days, the Promotor CAN once add
+      the proposal back to the Proposal Pool by announcement.
+      
+      The author of a proposal in the Proposal Pool CAN remove (syn.
+      retract, withdraw) it from the Pool by announcement.
+      
+      The Promotor CAN remove a proposal from the Proposal Pool by
+      announcement if it is not pending and has been added to the Pool
+      more than 14 days ago.
       
 History:
 
-Enacted by Proposal 4940 (Zefram), 2007-04-29
-Amended(1) by Proposal 5110 (Murphy), 2007-08-02
-Amended(2) by Proposal 5994 (Murphy), 2008-12-07
-Amended(3) by Proposal 6053 (Murphy; with woggle, ais523), 2009-01-23
-Amended(4) by Proposal 6124 (ehird), 2009-03-15
-Amended(5) by Proposal 6670 (Alexis), 2010-03-14
-Amended(6) by Proposal 6992 "Fix rule numbers" (Murphy; with omd),
-   2011-04-10
-Amended(7) by Proposal 7420 (omd), 2013-03-27
-Amended(8) by Proposal 7614 (G.), 2014-01-13
-Amended(9) by Proposal 7759 (G.), 2015-07-19
-Amended(10) by Proposal 8017 "RTRW Cleanups" (Alexis), 2018-03-06
+Enacted by Proposal 7083 (Walker), 2011-07-04
+Amended(1) by Proposal 7086 (G.; with omd), 2011-07-23
+Amended(2) by Proposal 7216 (omd), 2012-05-04
+Amended(3) by Proposal 7225 (omd), 2012-06-10
+Amended(4) by Proposal 7241 "Super Promotor Powers" (omd), 2012-06-10
+Amended(5) by Proposal 7245 (omd), 2012-06-10
+Amended(6) by Proposal 7250 (omd), 2012-06-10
+Amended(7) by Proposal 7653 (Alexis), 2014-06-03
+Amended(8) by Proposal 7728 (Tiger), 2014-11-24
+Amended(9) by Proposal 7736 (aranea), 2015-05-02
 ------------------------------------------------------------------------
-Rule 1688/11 (Power=3)
-Power
+Rule 2445/15 (Power=1)
+How to Pend a Proposal
 
-      The Power of an entity is a non-negative rational number. An
-      Instrument is an entity with positive Power.
+      Imminence is a switch, tracked by the Promotor, possessed by
+      proposals in the Proposal Pool, whose value is either "pending" or
+      "not pending" (default).
       
-      The Power of an entity cannot be set or modified except as
-      stipulated by the Rules. All entities have Power zero except where
-      specifically allowed by the rules.
-      
-      A Rule that makes a change, action, or value secured (hereafter
-      the securing Rule) thereby makes it IMPOSSIBLE to perform that
-      change or action, or to set or modify that value, except as
-      allowed by an Instrument with Power greater than or equal to the
-      change's Power Threshold.  This Threshold defaults to the securing
-      Rule's Power, but CAN be lowered as allowed by that Rule
-      (including by the Rule itself).
+      Any player CAN flip a specified proposal's imminence to "pending"
+      by announcement, but cannot use this method more than five times
+      each week. The first five proposals pended by the Promotor of
+      which e is not the author do not count against eir weekly limit.
       
 History:
 
-Enacted by Proposal 3445 (General Chaos), 1997-03-26
-Amended(1) by Proposal 3994 (harvel), 2000-04-20
-Amended(2) by Proposal 4811 (Maud; with G.), 2005-06-20
-Amended(3) by Proposal 4940 (Zefram), 2007-04-29
-Amended(4) by Proposal 5276 (Murphy; with Pavitra, Zefram), 2007-11-07
+Enacted by Proposal 7728 (Tiger), 2014-11-24
+Amended(1) by Proposal 7742 (ais523), 2015-05-12
+Amended(2) by Proposal 7773 (Alexis), 2014-08-14
+Amended(3) by Proposal 7807 (aranea), 2016-08-10
+Amended(4) by Proposal 7818 (ais523), 2016-10-31
+Amended(5) by Proposal 7838 (o; with nichdel, G., Ørjan), 2016-12-05
+Amended(6) by Proposal 7848 "Emergency Scam Fix" (ais523), 2017-05-13
+Amended(7) by Proposal 7854 "Close Recent Loopholes v2" (ais523),
+   2017-06-05
+Amended(8) by Proposal 7867 "Economics Overhaul v2" (nichdel; with o,
+   grok, Aris), 2017-07-30
+Amended(9) by Proposal 7876 "Float On" (o), 2017-09-26
+Amended(10) by Proposal 7883 "Fear v2.1" (G.), 2017-09-26
+Amended(11) by Proposal 8004 "Rusty" (G.), 2018-01-30
+Amended(12) by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
+   Aris, ATMunn, G., o, VJ Rada), 2018-02-24
+Amended(13) by Proposal 8043 "Officer patching" (G.), 2018-05-08
+Amended(14) by Proposal 8061 "Free Proposals" (Aris), 2018-07-18
+------------------------------------------------------------------------
+Rule 1607/46 (Power=3)
+Distribution
+
+      The Promotor is an office; its holder is responsible for receiving
+      and distributing proposals.
+      
+      Determining whether to adopt a proposal is an Agoran decision. For
+      this decision, the vote collector is the Assessor, the adoption
+      index is initially the adoption index of the proposal, or 1.0 if
+      the proposal does not have one, and the text, author, and
+      coauthors of the proposal are essential parameters. Initiating
+      such a decision is known as distribution, and removes the proposal
+      from the Proposal Pool.
+      
+      The Promotor CAN distribute a proposal which is in the Proposal
+      Pool at any time, by announcement. The Promotor SHALL NOT
+      distribute proposals which are not pending.
+      
+      In a given Agoran week, the Promotor SHALL, as part of eir weekly
+      duties, distribute all pending proposals except for those exempted
+      from automatic distribution by other rules.
+      
+      Distributed proposals have ID numbers, to be assigned by the
+      Promotor.
+      
+      If there is a Proposal in the Pool that it would otherwise be
+      IMPOSSIBLE for any player to distribute, then any player CAN
+      distribute that Proposal Without 3 Objections.
+      
+      The Promotor's report includes a list of all proposals in the
+      Proposal Pool, along with their text and attributes. This portion
+      of a public document purporting to be a Promotor's report is
+      self-ratifying.
+      
+History:
+
+Enacted by Proposal 2522, 1996-03-10
+Amended(1) by Proposal 2662, 1996-09-12
+Amended(2) by Proposal 2696, 1996-10-10
+Amended(3) by Proposal 3827 (Kolja A.), 1999-02-04
+Amended(4) by Proposal 3871 (Peekee), 1999-06-02
+Amended(5) by Proposal 3902 (Murphy), 1999-09-06
+Amended(6) by Proposal 4002 (harvel), 2000-05-08
+Amended(7) by Proposal 4050 (t), 2000-08-15
+Amended(8) by Proposal 4085 (Blob), 2000-11-16
+Amended(9) by Proposal 4250 (harvel), 2002-02-19
+Amended(10) by Proposal 4486 "Of what worth honor?" (Michael),
+   2003-04-24
+Amended(11) by Proposal 4868 (G.), 2006-08-27
+Amended(12) by Proposal 5077 (Murphy), 2007-07-18
+Amended(13) by Proposal 5110 (Murphy), 2007-08-02
+Amended(14) by Proposal 5112 (Murphy), 2007-08-02
+Amended(15) by Proposal 5418 (root), 2008-02-02
+Amended(16) by Proposal 5457 (Murphy), 2008-03-09
+Amended(17) by Proposal 5485 (root), 2008-04-09
+Power changed from 1 to 2 by Proposal 5947 (ais523), 2008-11-15
+Amended(18) by Proposal 6001 (G.), 2008-12-07
 Assigned to the Committee on Rules by Proposal 6053 (Murphy; with
    woggle, ais523), 2009-01-23
-Amended(5) by Proposal 6513 [disinterested] (Alexis), 2009-10-03
-Amended(6) by Proposal 6815 (Murphy; with ais523), 2010-09-04
-Amended(7) by Proposal 7759 (G.), 2015-07-19
-Amended(8) by Proposal 7781 (the Warrigal), 2015-08-14
-Amended(9) by Proposal 8017 "RTRW Cleanups" (Alexis), 2018-03-06
+Amended(19) by Proposal 6313 (G.), 2009-05-26
+Amended(20) by Proposal 6341 (G.), 2009-06-11
+Amended(21) by Proposal 6394 (G.), 2009-07-10
+Amended(22) by Proposal 6395 (Alexis), 2009-07-17
+Amended(23) by Proposal 6406 (Walker), 2009-08-07
+Amended(24) by Proposal 6500 [disinterested] (Alexis), 2009-09-26
+Amended(25) by Proposal 6531 (Walker), 2009-10-23
+Amended(26) by Proposal 6541 (Murphy), 2009-11-04
+Amended(27) by Proposal 6550 [disinterested] (Tiger), 2009-11-13
+Amended(28) by Proposal 6793 (wooble), 2010-08-27
+Amended(29) by Proposal 6961 (G.), 2011-03-03
+Amended(30) by Proposal 7033 (omd), 2011-05-16
+Amended(31) by Proposal 7069 (Walker), 2011-06-16
+Amended(32) by Proposal 7083 (Walker), 2011-07-04
+Amended(33) by Proposal 7226 (omd), 2012-06-10
+Amended(34) by Proposal 7239 (omd), 2012-06-10
+Amended(35) by Proposal 7461 (Walker), 2013-06-17
+Amended(36) by Proposal 7569 (omd; with Alexis), 2013-08-24
+Amended(37) by Proposal 7586 (omd), 2013-08-24
+Amended(38) by Proposal 7610 (G.), 2013-12-22
+Amended(39) by Proposal 7618 (omd), 2014-01-24
+Amended(40) by Proposal 7629 (Alexis), 2014-04-07
+Amended(41) by Proposal 7728 (Tiger), 2014-11-24
+Amended(42) by Proposal 7832 (Alexis), 2016-12-05
+Amended(43) by Proposal 7885 (o; with V.J. Rada, Ørjan), 2017-09-26
 ------------------------------------------------------------------------
-Rule 2140/4 (Power=3)
-Power Controls Mutability
+Rule 2137/4 (Power=1)
+The Assessor
 
-      No entity with power below the power of this rule can
-      
-      1. cause an entity to have power greater than its own.
-      
-      2. adjust the power of an instrument with power greater than its
-         own.
-      
-      3. set or modify any other substantive aspect of an instrument
-         with power greater than its own. A "substantive" aspect of an
-         instrument is any aspect that affects the instrument's
-         operation.
+      The Assessor is an office; its holder is responsible for
+      collecting votes and keeping track of related properties.
       
 History:
 
-Enacted by Proposal 4940 (Zefram), 2007-04-29
+Enacted by Proposal 4939 (Murphy), 2007-04-29
+Amended(1) by Proposal 5078 (Zefram), 2007-07-18
+Amended(2) by Proposal 5453 (Murphy), 2008-03-01
 Assigned to the Committee on Rules by Proposal 6053 (Murphy; with
    woggle, ais523), 2009-01-23
-Amended(1) by Proposal 6992 "Fix rule numbers" (Murphy; with omd),
-   2011-04-10
-Amended(2) by Rule 2430, 2017-05-24
 ------------------------------------------------------------------------
-Rule 217/15 (Power=3)
-Interpreting the Rules
+Rule 106/45 (Power=3)
+Adopting Proposals
 
-      When interpreting and applying the rules, the text of the rules
-      takes precedence. Where the text is silent, inconsistent, or
-      unclear, it is to be augmented by game custom, common sense, past
-      judgements, and consideration of the best interests of the game.
+      When a decision about whether to adopt a proposal is resolved, if
+      the outcome is ADOPTED, then the proposal in question is adopted,
+      and unless other rules prevent it from taking effect, its power is
+      set to the minimum of four and its adoption index, and then it
+      takes effect. Except as prohibited by other rules, a proposal that
+      takes effect CAN and does, as part of its effect, apply the
+      changes that it specifies. Clearly marked comments are considered
+      to be removed from the proposal before it takes effect, unless
+      otherwise stated by the proposal. If the proposal cannot make some
+      such changes, this does not preclude the other changes from taking
+      place.
       
-      Definitions and prescriptions in the rules are only to be applied
-      using direct, forward reasoning; in particular, an absurdity that
-      can be concluded from the assumption that a statement about
-      rule-defined concepts is false does not constitute proof that it
-      is true. Definitions in lower-powered Rules do not overrule
-      common-sense interpretations or common definitions of terms in
-      higher-powered rules, but may constructively make reasonable
-      clarifications to those definitions. For this purpose, a
-      clarification is reasonable if and only if it adds detail without
-      changing the underlying general meaning of the term and without
-      causing the higher powered rule to be read in a way inconsistent
-      with its text.
+      If there is no Agoran Decision to adopt a particular proposal that
+      has an outcome of ADOPTED, that proposal CANNOT take effect, rules
+      to the contrary notwithstanding.
       
-      Rules to the contrary notwithstanding, any rule change that would
-      (1) prevent a person from initiating a formal process to resolve
-      matters of controversy, in the reasonable expectation that the
-      controversy will thereby be resolved; or (2) prevent a person from
-      causing formal reconsideration of any judicial determination that
-      e should be punished, is wholly void and without effect.
+      Preventing a proposal from taking effect is a secured change; this
+      does not apply to generally preventing changes to specified areas
+      of the gamestate, nor to a proposal preventing itself from taking
+      effect (its no- effect clause is generally interpreted as applying
+      only to the rest of the proposal). Except insofar as the actions
+      performed by a proposal happen one after another, rather than
+      simultaneously, a proposal's effect is instantaneous. A proposal
+      can neither delay nor extend its own effect. Once a propsal
+      finishes taking effect, its power is set to 0.
       
 History:
 
-Initial mutable rule 217, Agora's birth
-Amended(1) by Proposal 1635, 1995-07-25
-Infected and amended(2) by Rule 1454, 1995-08-07
-Amended(3) by Proposal 2507, 1996-03-03
-Amended(4) by Proposal 4825 (Maud), 2005-07-17
-Power changed from 1 to 3 by Proposal 4867 (Goethe), 2006-08-27
-Amended(5) by Proposal 4867 (Goethe), 2006-08-27
-Retitled by Proposal 5105 (Zefram), 2007-08-01
-Amended(6) by Proposal 5105 (Zefram), 2007-08-01
-Amended(7) by Proposal 7351 (G.; with ais523, the Warrigal), 2013-03-27
-Amended(8) by Proposal 7520 (omd), 2013-07-19
-Amended(9) by Proposal 7584 (omd), 2013-08-24
-Amended(10) by Proposal 7614 (G.), 2014-01-13
-Amended(11) by Proposal 7662 (omd), 2014-06-03
-Amended(12) by Proposal 8002 "Power Creep Reduction Act" (Aris),
-   2018-01-31
-------------------------------------------------------------------------
-Rule 1030/17 (Power=3.2)
-Precedence between Rules
-
-      In a conflict between Rules, the conflict shall be resolved by
-      performing the following comparisons in the sequence written in
-      this rule, until the conflict is resolved.
-      
-      - In a conflict between Rules with different Power, the Rule with
-        the higher Power takes precedence over the Rule with the lower
-        Power; otherwise,
-      
-      - If all of the Rules in conflict explicitly say that their
-        precedence relations are determined by some other Rule for
-        determining precedence relations, then the determinations of the
-        precedence-determining Rule shall be used to resolve the
-        conflicts; otherwise,
-      
-      - If at least one of the Rules in conflict explicitly says of
-        itself that it defers to another Rule (or type of Rule) or takes
-        precedence over another Rule (or type of Rule), then such
-        provisions shall be used to resolve the conflict, unless they
-        lead to contradictions between each other; otherwise,
-      
-      - If any of the rules in conflict have ID numbers, then the Rule
-        with the lowest ID number takes precedence; otherwise,
-      
-      - The Rule enacted earliest takes precedence.
-      
-      Clauses in any other rule that broadly claim precedence (e.g. over
-      "all rules" of a certain class) shall be, prima facie, considered
-      to be limited claims of precedence or deference that are
-      applicable only when such claims are evaluated as described within
-      the above sequence.
-      
-      No change to the Ruleset can occur that would cause a Rule to
-      directly claim precedence over this Rule as a means of determining
-      precedence. This applies to changes by the enactment or amendment
-      of a Rule, or of any other form. This Rule takes precedence over
-      any Rule that would permit such a change to the Ruleset.
-      
-History:
-
-Initial mutable rule 212, Agora's birth
-Amended(1) by Proposal 1030, 1994-09-15
-Amended(2) by Rule 750, 1994-09-15
-Amended(3) by Proposal 1527, 1995-03-24
-Amended(4) by Proposal 1603, 1995-06-19
-Amended(5) by Proposal 2520, 1996-03-10
-Mutated from MI=1 to MI=3 by Proposal 2763 (Steve), 1996-11-30
-Amended(6) by Proposal 3445 (General Chaos), 1997-03-26
-Amended(7) by Proposal 4887 (Murphy), 2007-01-22
-Amended(8) by Proposal 5110 (Murphy), 2007-08-02
-Amended(9) by Proposal 6285 (G.), 2009-05-19
-Amended(10) by Proposal 6292 (G.), 2009-05-19
-Retitled by Proposal 6292 (G.), 2009-05-19
-Power changed from 3.0 to 3.2 by Proposal 6292 (G.), 2009-05-19
-Amended(11) by cleaning (Murphy), 2009-08-16
-Amended(12) by Proposal 7235 (omd), 2012-06-10
-Amended(13) by Proposal 7334 (woggle), 2013-03-27
-------------------------------------------------------------------------
-Rule 2240/2 (Power=3)
-No Cretans Need Apply
-
-      In a conflict between clauses of the same Rule, if exactly one
-      claims precedence over the other, then it takes precedence;
-      otherwise, the later clause takes precedence.
-      
-History:
-
-Enacted by Proposal 6073 (Murphy), 2009-02-22
-Amended(1) by Proposal 6429 (Murphy), 2009-08-18
-------------------------------------------------------------------------
-Rule 105/24 (Power=3)
-Rule Changes
-
-      Where permitted by other rules, an instrument generally can, as
-      part of its effect,
-      
-      1. enact a rule. The new rule has power equal to the minimum of
-         the power specified by the enacting instrument, defaulting to
-         one if the enacting instrument does not specify or if it
-         specifies a power less than 0.1, and the maximum power
-         permitted by other rules. The enacting instrument may specify a
-         title for the new rule, which if present shall prevail. The ID
-         number of the new rule cannot be specified by the enacting
-         instrument; any attempt to so specify is null and void.
-      
-      2. repeal a rule. When a rule is repealed, it ceases to be a rule,
-         its power is set to 0, and the Rulekeepor need no longer
-         maintain a record of it.
-      
-      3. reenact a rule. A repealed rule identified by its most recent
-         rule number MUST be reenacted with the same ID number and the
-         next change identifier. If no text is specified, the rule is
-         reenacted with the same text it had when it was most recently
-         repealed. If the reenacting proposal provides new text for the
-         rule, the rule SHOULD have materially the same purpose as did
-         the repealed version. Unless specified otherwise by the
-         re-enacting instrument, a re-enacted rule has power equal to
-         the power it had at the time of its repeal (or power 1, if
-         power was not defined at the time of that rule's repeal). If
-         the re-enacting instrument is incapable of setting the
-         re-enacted rule's power to that value, then the re-enactment is
-         null and void.
-      
-      4. amend the text of a rule.
-      
-      5. retitle a rule.
-      
-      6. change the power of a rule.
-      
-      A rule change is any effect that falls into the above classes.
-      Rule changes always occur sequentially, never simultaneously.
-      
-      Any ambiguity in the specification of a rule change causes that
-      change to be void and without effect. An inconsequential variation
-      in the quotation of an existing rule does not constitute ambiguity
-      for the purposes of this rule, but any other variation does.
-      
-      A rule change is wholly prevented from taking effect unless its
-      full text was published, along with an unambiguous and clear
-      specification of the method to be used for changing the rule, at
-      least 4 days and no more than 60 days before it would otherwise
-      take effect.
-      
-      This rule provides the only mechanism by which rules can be
-      created, modified, or destroyed, or by which an entity can become
-      a rule or cease to be a rule.
-      
-History:
-
-Enacted by Proposal 4894 (Murphy), 2007-02-12
-Renumbered by Proposal 4894 (Murphy), 2007-02-12
-Power changed from 1 to 3 by Proposal 4894 (Murphy), 2007-02-12
-Retitled by Proposal 4894 (Murphy), 2007-02-12
-Amended(1) by Proposal 4894 (Murphy), 2007-02-12
-Amended(2) by Proposal 4940 (Zefram), 2007-04-29
-Amended(3) by Proposal 5110 (Murphy), 2007-08-02
+Initial immutable rule 106, Agora's birth
+Mutated from MI=unanimity to MI=3 by Proposal 1073, 1994-10-04
+Amended(1) by Proposal 1278, 1994-10-24
+Renumbered by Rule 1295, 1994-11-01
+Infected by Rule 1454, 1995-05-07
+Amended(2), 1998-05-03
+Amended(3) by Proposal 4811 (Maud; with G.), 2005-06-20
+Amended(4) by Proposal 4868 (G.), 2006-08-27
+Amended(5) by Proposal 4868 (G.), 2006-08-27
+Amended(6) by Proposal 4918 (OscaryMeyr), 2007-04-02
+Amended(7) by Proposal 4939 (Murphy), 2007-04-29
+Amended(8) by Proposal 5010 (Levi), 2007-06-24
+Amended(9) by Proposal 5078 (Zefram), 2007-07-18
+Amended(10) by Proposal 5083 (Zefram), 2007-08-01
+Amended(11) by Proposal 5334 (Murphy), 2007-12-05
+Amended(12) by Proposal 5356 (root), 2007-12-16
+Amended(13) by Proposal 5418 (root), 2008-02-02
+Amended(14) by Proposal 5453 (Murphy), 2008-03-01
+Amended(15) by Proposal 5572 (Murphy), 2008-07-04
+Amended(16) by Proposal 6001 (G.), 2008-12-07
+Amended(17) by Proposal 6022 (Murphy), 2008-12-22
 Assigned to the Committee on Rules by Proposal 6053 (Murphy; with
    woggle, ais523), 2009-01-23
-Amended(4) by Proposal 6734 (omd), 2010-06-06
-Amended(5) by Proposal 6741 [disinterested] (omd), 2010-07-01
-Amended(6) by Proposal 7433 (Walker), 2013-05-27
-Amended(7) by Proposal 7607 (OscarMeyr), 2013-12-13
-Amended(8) by Proposal 7614 (G.), 2014-01-13
-Amended(9) by SLR ratification, 2014-05-01
-Amended(10) by Proposal 7647 (omd), 2014-06-03
-Amended(11) by Proposal 7710 (G.), 2014-11-03
-Amended(12) by Proposal 7759 (G.), 2015-07-19
-Amended(13) by Rule 2430, 2017-05-24
-Amended(14) by Proposal 7888 "BILLY MAYS HERE" (o; with V.J. Rada),
-   2017-09-26
-Amended(15) by Proposal 7940 "High Power Cleanup" (Alexis; with G.,
+Amended(18) by cleaning (omd), 2009-02-12
+Amended(19) by Proposal 6089 (G.), 2009-02-22
+Amended(20) by Proposal 6090 (Murphy; with ais523), 2009-02-22
+Amended(21) by Proposal 6113 (G.), 2009-03-01
+Amended(22) by Proposal 6222 (Alexis), 2009-04-27
+Amended(23) by Proposal 6398 [disinterested] (Walker), 2009-07-17
+Amended(24) by Proposal 6414 (Walker), 2009-08-08
+Amended(25) by Proposal 6469 [disinterested] (Alexis), 2009-09-15
+Amended(26) by Proposal 6571 (ais523), 2009-11-28
+Amended(27) by Proposal 6625 (Murphy), 2010-02-20
+Amended(28) by Proposal 6656 (Alexis), 2010-03-01
+Amended(29) by Proposal 6721 [disinterested] (Alexis), 2010-05-21
+Amended(30) by Proposal 6732 (omd), 2010-06-13
+Amended(31) by Proposal 6823 (Murphy; with omd), 2010-09-10
+Amended(32) by Proposal 6968 (Murphy; with Alexis, Wooble), 2011-03-20
+Amended(33) by Proposal 7013 (omd), 2011-04-23
+Amended(34) by Proposal 7081 (Murphy), 2011-07-04
+Amended(35) by Proposal 7083 (Walker), 2011-07-04
+Amended(36) by Proposal 7086 (G.; with omd), 2011-07-23
+Amended(37) by Proposal 7246 (omd), 2012-06-10
+Amended(38) by Proposal 7778 (Alexis), 2014-08-14
+Amended(39) by Proposal 7940 "High Power Cleanup" (Alexis; with G.,
    Publius Scribonius Scholasticus), 2017-11-06
-Amended(16) by Proposal 7940 "High Power Cleanup" (Alexis; with G.,
-   Publius Scribonius Scholasticus), 2017-11-06
-Amended(17) by Proposal 7969 "Obvious fix" (V.J. Rada; with Alexis),
-   2017-11-21
-Amended(18) by Proposal 7986 "Quick Fix" (Publius Scribonius
-   Scholasticus), 2017-12-03
-Amended(19) by Proposal 8030 "PAoaM Patch v4" (Aris; with Gaelan,
-   Trigon, G.), 2018-03-30
-------------------------------------------------------------------------
-Rule 2493/6 (Power=3.0)
-Regulations
-
-      A regulation is an textual entity defined as such by this rule,
-      and under the authority of an person, known as its Promulgator. A
-      regulation must be authorized by a rule (its parent rule) in order
-      to exist. It has only the effect that rule explicitly gives it.
-      
-      A regulation CAN be enacted, amended, and repealed as specified by
-      its parent rule. By default, a Promulgator can enact or amend a
-      regulation with 2 Agoran Consent and repeal a regulation by
-      announcement. Regulations are tracked in their Promulgator's
-      weekly report.
-      
-History:
-
-Enacted by Proposal 7865 (Aris; with o, nichdel, ais523), 2017-06-27
-Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o; with V.J. Rada),
-   2017-09-26
-Amended(2) by Proposal 7925 "Safety Regulations v2" (Aris; with
-   Alexis), 2017-10-22
-Amended(3) by Proposal 8056 (Aris; with G.), 2018-07-01
-Power changed from 3.1 to 3 by Proposal 8056 (Aris; with G.), 2018-07-01
-Amended(4) by Proposal 8076 "Regulation Patches" (Aris; with G.),
-   2018-07-26
-------------------------------------------------------------------------
-Rule 1051/18 (Power=1)
-The Rulekeepor
-
-      The Rulekeepor is an office; its holder is responsible for
-      maintaining the text of the rules of Agora.
-      
-      The Rulekeepor's Weekly report includes the Short Logical Ruleset.
-      The Rulekeepor's Monthly report includes the Full Logical Ruleset.
-      
-History:
-
-History unknown...
-Amended(1) by Proposal 1735, 1995-10-15
-Amended(2) by Proposal 2042, 1995-12-11
-Amended(3) by Proposal 2048, 1995-12-19
-Amended(4) by Proposal 2662, 1996-09-12
-Amended(5) by Proposal 2696, 1996-10-10
-Amended(6) by Proposal 2741 (Zefram), 1996-11-07
-Infected and amended(7) by Rule 1454, 1996-11-27
-Amended(8) by Proposal 2783 (Chuck), 1997-01-15
-Amended(9) by Proposal 3452 (Steve), 1997-04-07
-Amended(10) by Proposal 3675 (Michael), 1998-01-30
-Amended(11) by Proposal 3827 (Kolja A.), 1999-02-04
-Amended(12) by Proposal 3871 (Peekee), 1999-06-02
-Amended(13) by Proposal 3882 (harvel), 1999-07-21
-Amended(14) by Proposal 3902 (Murphy), 1999-09-06
-Amended(15) by Proposal 4002 (harvel), 2000-05-08
-Amended(16) by Proposal 4250 (harvel), 2002-02-19
-Amended(17) by Proposal 5237 [disinterested] (AFO), 2007-10-03
-------------------------------------------------------------------------
-Rule 1681/22 (Power=1)
-The Logical Rulesets
-
-      The Short Logical Ruleset (SLR) is a format of the ruleset. In
-      this format, each rule is assigned to a category, and the rules
-      are grouped according to their category.
-      
-      Rules are assigned to, ordered within, or moved between
-      categories, and categories are added, changed, or empty categories
-      removed, as the Rulekeepor sees fit.
-      
-      The listing of each rule in the SLR must include the rule's ID
-      number, revision number, power, title, and text.
-      
-      The Rulekeepor is strongly DISCOURAGED from including any
-      additional information in the SLR, except that which increases the
-      readability of the SLR.
-      
-      The Full Logical Ruleset (FLR) is a format of the ruleset. In this
-      format, rules are assigned to the same category and presented in
-      the same order as in the SLR. The FLR must contain all the
-      information required to be in the SLR, and any historical
-      annotations which the Rulekeepor is required to record.
-      
-      The Rulekeepor SHOULD also include any other information which e
-      feels may be helpful in the use of the ruleset in the FLR.
-      
-      Whenever a rule is changed in any way, the Rulekeepor SHALL record
-      a historical annotation to the rule indicating:
-      
-      1. The type of change.
-      
-      2. The date on which the change took effect.
-      
-      3. The mechanism that specified the change.
-      
-      4. If the rule was changed due to a proposal, then that proposal's
-         ID number, author, and co-author(s) (if any).
-      
-History:
-
-Enacted by Proposal 2783 (Chuck), 1997-01-15
-Amended(1) by Proposal 3500 (Crito), 1997-06-03
-Amended(2) by Proposal 3624 (Chuck), 1997-12-29
-Amended(3) by Proposal 3704 (General Chaos), 1998-03-19
-Amended(4) by Proposal 3902 (Murphy), 1999-09-06
-Amended(5) by Proposal 4002 (harvel), 2000-05-08
-Amended(6) by Proposal 4811 (Maud; with G.), 2005-06-20
-Amended(7) by Proposal 4841 (g.), 2005-10-27
-Amended(8) by Proposal 4868 (G.), 2006-08-27
-Amended(9) by Proposal 4887 (Murphy), 2007-01-22
-Amended(10) by Proposal 5006 (Zefram), 2007-06-18
-Amended(11) by Proposal 5110 (Murphy), 2007-08-02
-Amended(12) by Proposal 5334 (Murphy), 2007-12-05
-Amended(13) by Proposal 5956 (omd), 2008-11-17
-Amended(14) by Proposal 6019 (Murphy), 2008-12-22
-Amended(15) by Proposal 6026 (Murphy), 2008-12-22
-Amended(16) by Proposal 6053 (Murphy; with woggle, ais523), 2009-01-23
-Amended(17) by Proposal 6124 (ehird), 2009-03-15
-Amended(18) by Proposal 6662 [disinterested] (Murphy), 2010-03-10
-Amended(19) by Proposal 7599 (Walker), 2013-09-14
-Amended(20) by Proposal 7604 (G.), 2013-12-13
-Amended(21) by Rule 2430, 2017-05-24
-------------------------------------------------------------------------
-Rule 2221/9 (Power=3)
-Cleanliness
-
-      Any player CAN clean a rule without objection by specifying one or
-      more corrections to spelling, grammar, capitalization, formatting,
-      and/or dialect, or to whether a synonym or abbreviation is used in
-      place of a word or phrase, in the rule's text and/or title; the
-      rule is amended by this rule as specified by that person.
-      
-History:
-
-Enacted by Proposal 5975 (Murphy), 2008-11-25
-Amended(1) by Proposal 6098 (omd), 2009-01-22
-Amended(2) by Proposal 6291 (Murphy), 2009-05-19
-Amended(3) by Proposal 6722 (Murphy), 2010-05-21
-Amended(4) by Proposal 6732 (omd), 2010-06-06
-Amended(5) by Proposal 6741 [disinterested] (omd), 2010-07-01
-Repealed by Proposal 6961 (G.), 2011-02-03
-Re-enacted and amended(6) by Proposal 8000 "Older Cleanliness"
-   (Alexis), 2018-01-31
-Amended(7) by Proposal 8017 "RTRW Cleanups" (Alexis), 2018-03-06
-------------------------------------------------------------------------
-Rule 2429/2 (Power=1)
-Bleach
-
-      Replacing a non-zero amount of whitespace with a different
-      non-zero amount of whitespace is generally insignificant, except
-      for paragraph breaks.
-      
-History:
-
-Enacted by Proposal 7665 (Alexis), 2014-06-03
-Amended(1) by Proposal 7709 (Murphy), 2014-11-03
+Amended(40) by Proposal 8073 "Comments" (Aris), 2018-07-26
 ------------------------------------------------------------------------
 ========================================================================
 General Definitions
@@ -1532,262 +1213,497 @@ Repealed by Proposal 8054 "Minimalist Contracts v2" (Aris; with G., V.J.
    Rada), 2018-07-01
 ------------------------------------------------------------------------
 ========================================================================
-Proposals
+Rules & Regulations
 ------------------------------------------------------------------------
-Rule 2350/10 (Power=3)
-Proposals
+Rule 2141/11 (Power=3)
+Role and Attributes of Rules
 
-      A proposal is a type of entity consisting of a body of text and
-      other attributes. A player CAN create a proposal by announcement,
-      specifying its text and optionally specifying any of the following
-      attributes:
+      A rule is a type of instrument with the capacity to govern the
+      game generally, and is always taking effect. A rule's content
+      takes the form of a text, and is unlimited in scope.
       
-      * An associated title.
+      Every rule has power between 0.1 and 4.0 inclusive. It is not
+      possible for a rule to have a power outside this range.
       
-      * A list of co-authors (which must be persons other than the
-        author).
+      Rules have ID numbers, to be assigned by the Rulekeepor.
       
-      * An adoption index.
+      Every rule shall have a title to aid in identification. If a rule
+      ever does not have a title, the the Rulekeepor CAN and SHALL
+      assign a title to it by announcement in a timely fashion.
       
-      Creating a proposal adds it to the Proposal Pool. Once a proposal
-      is created, nether its text nor any of the aforementioned
-      attributes can be changed. The author (syn. proposer) of a
-      proposal is the person who submitted it.
-      
-      If a decision of whether to adopt a proposal was resolved as
-      FAILED QUORUM in the last seven days, the Promotor CAN once add
-      the proposal back to the Proposal Pool by announcement.
-      
-      The author of a proposal in the Proposal Pool CAN remove (syn.
-      retract, withdraw) it from the Pool by announcement.
-      
-      The Promotor CAN remove a proposal from the Proposal Pool by
-      announcement if it is not pending and has been added to the Pool
-      more than 14 days ago.
+      For the purposes of rules governing modification of instruments,
+      the text, power, ID number, and title of a rule are all
+      substantive aspects of the rule. However, rules to the contrary
+      notwithstanding, the Rulekeepor CAN set rule aspects as described
+      elsewhere in this rule.
       
 History:
 
-Enacted by Proposal 7083 (Walker), 2011-07-04
-Amended(1) by Proposal 7086 (G.; with omd), 2011-07-23
-Amended(2) by Proposal 7216 (omd), 2012-05-04
-Amended(3) by Proposal 7225 (omd), 2012-06-10
-Amended(4) by Proposal 7241 "Super Promotor Powers" (omd), 2012-06-10
-Amended(5) by Proposal 7245 (omd), 2012-06-10
-Amended(6) by Proposal 7250 (omd), 2012-06-10
-Amended(7) by Proposal 7653 (Alexis), 2014-06-03
-Amended(8) by Proposal 7728 (Tiger), 2014-11-24
-Amended(9) by Proposal 7736 (aranea), 2015-05-02
+Enacted by Proposal 4940 (Zefram), 2007-04-29
+Amended(1) by Proposal 5110 (Murphy), 2007-08-02
+Amended(2) by Proposal 5994 (Murphy), 2008-12-07
+Amended(3) by Proposal 6053 (Murphy; with woggle, ais523), 2009-01-23
+Amended(4) by Proposal 6124 (ehird), 2009-03-15
+Amended(5) by Proposal 6670 (Alexis), 2010-03-14
+Amended(6) by Proposal 6992 "Fix rule numbers" (Murphy; with omd),
+   2011-04-10
+Amended(7) by Proposal 7420 (omd), 2013-03-27
+Amended(8) by Proposal 7614 (G.), 2014-01-13
+Amended(9) by Proposal 7759 (G.), 2015-07-19
+Amended(10) by Proposal 8017 "RTRW Cleanups" (Alexis), 2018-03-06
 ------------------------------------------------------------------------
-Rule 2445/15 (Power=1)
-How to Pend a Proposal
+Rule 1688/11 (Power=3)
+Power
 
-      Imminence is a switch, tracked by the Promotor, possessed by
-      proposals in the Proposal Pool, whose value is either "pending" or
-      "not pending" (default).
+      The Power of an entity is a non-negative rational number. An
+      Instrument is an entity with positive Power.
       
-      Any player CAN flip a specified proposal's imminence to "pending"
-      by announcement, but cannot use this method more than five times
-      each week. The first five proposals pended by the Promotor of
-      which e is not the author do not count against eir weekly limit.
+      The Power of an entity cannot be set or modified except as
+      stipulated by the Rules. All entities have Power zero except where
+      specifically allowed by the rules.
+      
+      A Rule that makes a change, action, or value secured (hereafter
+      the securing Rule) thereby makes it IMPOSSIBLE to perform that
+      change or action, or to set or modify that value, except as
+      allowed by an Instrument with Power greater than or equal to the
+      change's Power Threshold.  This Threshold defaults to the securing
+      Rule's Power, but CAN be lowered as allowed by that Rule
+      (including by the Rule itself).
       
 History:
 
-Enacted by Proposal 7728 (Tiger), 2014-11-24
-Amended(1) by Proposal 7742 (ais523), 2015-05-12
-Amended(2) by Proposal 7773 (Alexis), 2014-08-14
-Amended(3) by Proposal 7807 (aranea), 2016-08-10
-Amended(4) by Proposal 7818 (ais523), 2016-10-31
-Amended(5) by Proposal 7838 (o; with nichdel, G., Ørjan), 2016-12-05
-Amended(6) by Proposal 7848 "Emergency Scam Fix" (ais523), 2017-05-13
-Amended(7) by Proposal 7854 "Close Recent Loopholes v2" (ais523),
-   2017-06-05
-Amended(8) by Proposal 7867 "Economics Overhaul v2" (nichdel; with o,
-   grok, Aris), 2017-07-30
-Amended(9) by Proposal 7876 "Float On" (o), 2017-09-26
-Amended(10) by Proposal 7883 "Fear v2.1" (G.), 2017-09-26
-Amended(11) by Proposal 8004 "Rusty" (G.), 2018-01-30
-Amended(12) by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
-   Aris, ATMunn, G., o, VJ Rada), 2018-02-24
-Amended(13) by Proposal 8043 "Officer patching" (G.), 2018-05-08
-Amended(14) by Proposal 8061 "Free Proposals" (Aris), 2018-07-18
-------------------------------------------------------------------------
-Rule 1607/46 (Power=3)
-Distribution
-
-      The Promotor is an office; its holder is responsible for receiving
-      and distributing proposals.
-      
-      Determining whether to adopt a proposal is an Agoran decision. For
-      this decision, the vote collector is the Assessor, the adoption
-      index is initially the adoption index of the proposal, or 1.0 if
-      the proposal does not have one, and the text, author, and
-      coauthors of the proposal are essential parameters. Initiating
-      such a decision is known as distribution, and removes the proposal
-      from the Proposal Pool.
-      
-      The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time, by announcement. The Promotor SHALL NOT
-      distribute proposals which are not pending.
-      
-      In a given Agoran week, the Promotor SHALL, as part of eir weekly
-      duties, distribute all pending proposals except for those exempted
-      from automatic distribution by other rules.
-      
-      Distributed proposals have ID numbers, to be assigned by the
-      Promotor.
-      
-      If there is a Proposal in the Pool that it would otherwise be
-      IMPOSSIBLE for any player to distribute, then any player CAN
-      distribute that Proposal Without 3 Objections.
-      
-      The Promotor's report includes a list of all proposals in the
-      Proposal Pool, along with their text and attributes. This portion
-      of a public document purporting to be a Promotor's report is
-      self-ratifying.
-      
-History:
-
-Enacted by Proposal 2522, 1996-03-10
-Amended(1) by Proposal 2662, 1996-09-12
-Amended(2) by Proposal 2696, 1996-10-10
-Amended(3) by Proposal 3827 (Kolja A.), 1999-02-04
-Amended(4) by Proposal 3871 (Peekee), 1999-06-02
-Amended(5) by Proposal 3902 (Murphy), 1999-09-06
-Amended(6) by Proposal 4002 (harvel), 2000-05-08
-Amended(7) by Proposal 4050 (t), 2000-08-15
-Amended(8) by Proposal 4085 (Blob), 2000-11-16
-Amended(9) by Proposal 4250 (harvel), 2002-02-19
-Amended(10) by Proposal 4486 "Of what worth honor?" (Michael),
-   2003-04-24
-Amended(11) by Proposal 4868 (G.), 2006-08-27
-Amended(12) by Proposal 5077 (Murphy), 2007-07-18
-Amended(13) by Proposal 5110 (Murphy), 2007-08-02
-Amended(14) by Proposal 5112 (Murphy), 2007-08-02
-Amended(15) by Proposal 5418 (root), 2008-02-02
-Amended(16) by Proposal 5457 (Murphy), 2008-03-09
-Amended(17) by Proposal 5485 (root), 2008-04-09
-Power changed from 1 to 2 by Proposal 5947 (ais523), 2008-11-15
-Amended(18) by Proposal 6001 (G.), 2008-12-07
+Enacted by Proposal 3445 (General Chaos), 1997-03-26
+Amended(1) by Proposal 3994 (harvel), 2000-04-20
+Amended(2) by Proposal 4811 (Maud; with G.), 2005-06-20
+Amended(3) by Proposal 4940 (Zefram), 2007-04-29
+Amended(4) by Proposal 5276 (Murphy; with Pavitra, Zefram), 2007-11-07
 Assigned to the Committee on Rules by Proposal 6053 (Murphy; with
    woggle, ais523), 2009-01-23
-Amended(19) by Proposal 6313 (G.), 2009-05-26
-Amended(20) by Proposal 6341 (G.), 2009-06-11
-Amended(21) by Proposal 6394 (G.), 2009-07-10
-Amended(22) by Proposal 6395 (Alexis), 2009-07-17
-Amended(23) by Proposal 6406 (Walker), 2009-08-07
-Amended(24) by Proposal 6500 [disinterested] (Alexis), 2009-09-26
-Amended(25) by Proposal 6531 (Walker), 2009-10-23
-Amended(26) by Proposal 6541 (Murphy), 2009-11-04
-Amended(27) by Proposal 6550 [disinterested] (Tiger), 2009-11-13
-Amended(28) by Proposal 6793 (wooble), 2010-08-27
-Amended(29) by Proposal 6961 (G.), 2011-03-03
-Amended(30) by Proposal 7033 (omd), 2011-05-16
-Amended(31) by Proposal 7069 (Walker), 2011-06-16
-Amended(32) by Proposal 7083 (Walker), 2011-07-04
-Amended(33) by Proposal 7226 (omd), 2012-06-10
-Amended(34) by Proposal 7239 (omd), 2012-06-10
-Amended(35) by Proposal 7461 (Walker), 2013-06-17
-Amended(36) by Proposal 7569 (omd; with Alexis), 2013-08-24
-Amended(37) by Proposal 7586 (omd), 2013-08-24
-Amended(38) by Proposal 7610 (G.), 2013-12-22
-Amended(39) by Proposal 7618 (omd), 2014-01-24
-Amended(40) by Proposal 7629 (Alexis), 2014-04-07
-Amended(41) by Proposal 7728 (Tiger), 2014-11-24
-Amended(42) by Proposal 7832 (Alexis), 2016-12-05
-Amended(43) by Proposal 7885 (o; with V.J. Rada, Ørjan), 2017-09-26
+Amended(5) by Proposal 6513 [disinterested] (Alexis), 2009-10-03
+Amended(6) by Proposal 6815 (Murphy; with ais523), 2010-09-04
+Amended(7) by Proposal 7759 (G.), 2015-07-19
+Amended(8) by Proposal 7781 (the Warrigal), 2015-08-14
+Amended(9) by Proposal 8017 "RTRW Cleanups" (Alexis), 2018-03-06
 ------------------------------------------------------------------------
-Rule 2137/4 (Power=1)
-The Assessor
+Rule 2140/4 (Power=3)
+Power Controls Mutability
 
-      The Assessor is an office; its holder is responsible for
-      collecting votes and keeping track of related properties.
+      No entity with power below the power of this rule can
+      
+      1. cause an entity to have power greater than its own.
+      
+      2. adjust the power of an instrument with power greater than its
+         own.
+      
+      3. set or modify any other substantive aspect of an instrument
+         with power greater than its own. A "substantive" aspect of an
+         instrument is any aspect that affects the instrument's
+         operation.
       
 History:
 
-Enacted by Proposal 4939 (Murphy), 2007-04-29
-Amended(1) by Proposal 5078 (Zefram), 2007-07-18
-Amended(2) by Proposal 5453 (Murphy), 2008-03-01
+Enacted by Proposal 4940 (Zefram), 2007-04-29
 Assigned to the Committee on Rules by Proposal 6053 (Murphy; with
    woggle, ais523), 2009-01-23
+Amended(1) by Proposal 6992 "Fix rule numbers" (Murphy; with omd),
+   2011-04-10
+Amended(2) by Rule 2430, 2017-05-24
 ------------------------------------------------------------------------
-Rule 106/45 (Power=3)
-Adopting Proposals
+Rule 217/15 (Power=3)
+Interpreting the Rules
 
-      When a decision about whether to adopt a proposal is resolved, if
-      the outcome is ADOPTED, then the proposal in question is adopted,
-      and unless other rules prevent it from taking effect, its power is
-      set to the minimum of four and its adoption index, and then it
-      takes effect. Except as prohibited by other rules, a proposal that
-      takes effect CAN and does, as part of its effect, apply the
-      changes that it specifies. Clearly marked comments are considered
-      to be removed from the proposal before it takes effect, unless
-      otherwise stated by the proposal. If the proposal cannot make some
-      such changes, this does not preclude the other changes from taking
-      place.
+      When interpreting and applying the rules, the text of the rules
+      takes precedence. Where the text is silent, inconsistent, or
+      unclear, it is to be augmented by game custom, common sense, past
+      judgements, and consideration of the best interests of the game.
       
-      If there is no Agoran Decision to adopt a particular proposal that
-      has an outcome of ADOPTED, that proposal CANNOT take effect, rules
-      to the contrary notwithstanding.
+      Definitions and prescriptions in the rules are only to be applied
+      using direct, forward reasoning; in particular, an absurdity that
+      can be concluded from the assumption that a statement about
+      rule-defined concepts is false does not constitute proof that it
+      is true. Definitions in lower-powered Rules do not overrule
+      common-sense interpretations or common definitions of terms in
+      higher-powered rules, but may constructively make reasonable
+      clarifications to those definitions. For this purpose, a
+      clarification is reasonable if and only if it adds detail without
+      changing the underlying general meaning of the term and without
+      causing the higher powered rule to be read in a way inconsistent
+      with its text.
       
-      Preventing a proposal from taking effect is a secured change; this
-      does not apply to generally preventing changes to specified areas
-      of the gamestate, nor to a proposal preventing itself from taking
-      effect (its no- effect clause is generally interpreted as applying
-      only to the rest of the proposal). Except insofar as the actions
-      performed by a proposal happen one after another, rather than
-      simultaneously, a proposal's effect is instantaneous. A proposal
-      can neither delay nor extend its own effect. Once a propsal
-      finishes taking effect, its power is set to 0.
+      Rules to the contrary notwithstanding, any rule change that would
+      (1) prevent a person from initiating a formal process to resolve
+      matters of controversy, in the reasonable expectation that the
+      controversy will thereby be resolved; or (2) prevent a person from
+      causing formal reconsideration of any judicial determination that
+      e should be punished, is wholly void and without effect.
       
 History:
 
-Initial immutable rule 106, Agora's birth
-Mutated from MI=unanimity to MI=3 by Proposal 1073, 1994-10-04
-Amended(1) by Proposal 1278, 1994-10-24
-Renumbered by Rule 1295, 1994-11-01
-Infected by Rule 1454, 1995-05-07
-Amended(2), 1998-05-03
-Amended(3) by Proposal 4811 (Maud; with G.), 2005-06-20
-Amended(4) by Proposal 4868 (G.), 2006-08-27
-Amended(5) by Proposal 4868 (G.), 2006-08-27
-Amended(6) by Proposal 4918 (OscaryMeyr), 2007-04-02
-Amended(7) by Proposal 4939 (Murphy), 2007-04-29
-Amended(8) by Proposal 5010 (Levi), 2007-06-24
-Amended(9) by Proposal 5078 (Zefram), 2007-07-18
-Amended(10) by Proposal 5083 (Zefram), 2007-08-01
-Amended(11) by Proposal 5334 (Murphy), 2007-12-05
-Amended(12) by Proposal 5356 (root), 2007-12-16
-Amended(13) by Proposal 5418 (root), 2008-02-02
-Amended(14) by Proposal 5453 (Murphy), 2008-03-01
-Amended(15) by Proposal 5572 (Murphy), 2008-07-04
-Amended(16) by Proposal 6001 (G.), 2008-12-07
-Amended(17) by Proposal 6022 (Murphy), 2008-12-22
+Initial mutable rule 217, Agora's birth
+Amended(1) by Proposal 1635, 1995-07-25
+Infected and amended(2) by Rule 1454, 1995-08-07
+Amended(3) by Proposal 2507, 1996-03-03
+Amended(4) by Proposal 4825 (Maud), 2005-07-17
+Power changed from 1 to 3 by Proposal 4867 (Goethe), 2006-08-27
+Amended(5) by Proposal 4867 (Goethe), 2006-08-27
+Retitled by Proposal 5105 (Zefram), 2007-08-01
+Amended(6) by Proposal 5105 (Zefram), 2007-08-01
+Amended(7) by Proposal 7351 (G.; with ais523, the Warrigal), 2013-03-27
+Amended(8) by Proposal 7520 (omd), 2013-07-19
+Amended(9) by Proposal 7584 (omd), 2013-08-24
+Amended(10) by Proposal 7614 (G.), 2014-01-13
+Amended(11) by Proposal 7662 (omd), 2014-06-03
+Amended(12) by Proposal 8002 "Power Creep Reduction Act" (Aris),
+   2018-01-31
+------------------------------------------------------------------------
+Rule 1030/17 (Power=3.2)
+Precedence between Rules
+
+      In a conflict between Rules, the conflict shall be resolved by
+      performing the following comparisons in the sequence written in
+      this rule, until the conflict is resolved.
+      
+      - In a conflict between Rules with different Power, the Rule with
+        the higher Power takes precedence over the Rule with the lower
+        Power; otherwise,
+      
+      - If all of the Rules in conflict explicitly say that their
+        precedence relations are determined by some other Rule for
+        determining precedence relations, then the determinations of the
+        precedence-determining Rule shall be used to resolve the
+        conflicts; otherwise,
+      
+      - If at least one of the Rules in conflict explicitly says of
+        itself that it defers to another Rule (or type of Rule) or takes
+        precedence over another Rule (or type of Rule), then such
+        provisions shall be used to resolve the conflict, unless they
+        lead to contradictions between each other; otherwise,
+      
+      - If any of the rules in conflict have ID numbers, then the Rule
+        with the lowest ID number takes precedence; otherwise,
+      
+      - The Rule enacted earliest takes precedence.
+      
+      Clauses in any other rule that broadly claim precedence (e.g. over
+      "all rules" of a certain class) shall be, prima facie, considered
+      to be limited claims of precedence or deference that are
+      applicable only when such claims are evaluated as described within
+      the above sequence.
+      
+      No change to the Ruleset can occur that would cause a Rule to
+      directly claim precedence over this Rule as a means of determining
+      precedence. This applies to changes by the enactment or amendment
+      of a Rule, or of any other form. This Rule takes precedence over
+      any Rule that would permit such a change to the Ruleset.
+      
+History:
+
+Initial mutable rule 212, Agora's birth
+Amended(1) by Proposal 1030, 1994-09-15
+Amended(2) by Rule 750, 1994-09-15
+Amended(3) by Proposal 1527, 1995-03-24
+Amended(4) by Proposal 1603, 1995-06-19
+Amended(5) by Proposal 2520, 1996-03-10
+Mutated from MI=1 to MI=3 by Proposal 2763 (Steve), 1996-11-30
+Amended(6) by Proposal 3445 (General Chaos), 1997-03-26
+Amended(7) by Proposal 4887 (Murphy), 2007-01-22
+Amended(8) by Proposal 5110 (Murphy), 2007-08-02
+Amended(9) by Proposal 6285 (G.), 2009-05-19
+Amended(10) by Proposal 6292 (G.), 2009-05-19
+Retitled by Proposal 6292 (G.), 2009-05-19
+Power changed from 3.0 to 3.2 by Proposal 6292 (G.), 2009-05-19
+Amended(11) by cleaning (Murphy), 2009-08-16
+Amended(12) by Proposal 7235 (omd), 2012-06-10
+Amended(13) by Proposal 7334 (woggle), 2013-03-27
+------------------------------------------------------------------------
+Rule 2240/2 (Power=3)
+No Cretans Need Apply
+
+      In a conflict between clauses of the same Rule, if exactly one
+      claims precedence over the other, then it takes precedence;
+      otherwise, the later clause takes precedence.
+      
+History:
+
+Enacted by Proposal 6073 (Murphy), 2009-02-22
+Amended(1) by Proposal 6429 (Murphy), 2009-08-18
+------------------------------------------------------------------------
+Rule 105/24 (Power=3)
+Rule Changes
+
+      Where permitted by other rules, an instrument generally can, as
+      part of its effect,
+      
+      1. enact a rule. The new rule has power equal to the minimum of
+         the power specified by the enacting instrument, defaulting to
+         one if the enacting instrument does not specify or if it
+         specifies a power less than 0.1, and the maximum power
+         permitted by other rules. The enacting instrument may specify a
+         title for the new rule, which if present shall prevail. The ID
+         number of the new rule cannot be specified by the enacting
+         instrument; any attempt to so specify is null and void.
+      
+      2. repeal a rule. When a rule is repealed, it ceases to be a rule,
+         its power is set to 0, and the Rulekeepor need no longer
+         maintain a record of it.
+      
+      3. reenact a rule. A repealed rule identified by its most recent
+         rule number MUST be reenacted with the same ID number and the
+         next change identifier. If no text is specified, the rule is
+         reenacted with the same text it had when it was most recently
+         repealed. If the reenacting proposal provides new text for the
+         rule, the rule SHOULD have materially the same purpose as did
+         the repealed version. Unless specified otherwise by the
+         re-enacting instrument, a re-enacted rule has power equal to
+         the power it had at the time of its repeal (or power 1, if
+         power was not defined at the time of that rule's repeal). If
+         the re-enacting instrument is incapable of setting the
+         re-enacted rule's power to that value, then the re-enactment is
+         null and void.
+      
+      4. amend the text of a rule.
+      
+      5. retitle a rule.
+      
+      6. change the power of a rule.
+      
+      A rule change is any effect that falls into the above classes.
+      Rule changes always occur sequentially, never simultaneously.
+      
+      Any ambiguity in the specification of a rule change causes that
+      change to be void and without effect. An inconsequential variation
+      in the quotation of an existing rule does not constitute ambiguity
+      for the purposes of this rule, but any other variation does.
+      
+      A rule change is wholly prevented from taking effect unless its
+      full text was published, along with an unambiguous and clear
+      specification of the method to be used for changing the rule, at
+      least 4 days and no more than 60 days before it would otherwise
+      take effect.
+      
+      This rule provides the only mechanism by which rules can be
+      created, modified, or destroyed, or by which an entity can become
+      a rule or cease to be a rule.
+      
+History:
+
+Enacted by Proposal 4894 (Murphy), 2007-02-12
+Renumbered by Proposal 4894 (Murphy), 2007-02-12
+Power changed from 1 to 3 by Proposal 4894 (Murphy), 2007-02-12
+Retitled by Proposal 4894 (Murphy), 2007-02-12
+Amended(1) by Proposal 4894 (Murphy), 2007-02-12
+Amended(2) by Proposal 4940 (Zefram), 2007-04-29
+Amended(3) by Proposal 5110 (Murphy), 2007-08-02
 Assigned to the Committee on Rules by Proposal 6053 (Murphy; with
    woggle, ais523), 2009-01-23
-Amended(18) by cleaning (omd), 2009-02-12
-Amended(19) by Proposal 6089 (G.), 2009-02-22
-Amended(20) by Proposal 6090 (Murphy; with ais523), 2009-02-22
-Amended(21) by Proposal 6113 (G.), 2009-03-01
-Amended(22) by Proposal 6222 (Alexis), 2009-04-27
-Amended(23) by Proposal 6398 [disinterested] (Walker), 2009-07-17
-Amended(24) by Proposal 6414 (Walker), 2009-08-08
-Amended(25) by Proposal 6469 [disinterested] (Alexis), 2009-09-15
-Amended(26) by Proposal 6571 (ais523), 2009-11-28
-Amended(27) by Proposal 6625 (Murphy), 2010-02-20
-Amended(28) by Proposal 6656 (Alexis), 2010-03-01
-Amended(29) by Proposal 6721 [disinterested] (Alexis), 2010-05-21
-Amended(30) by Proposal 6732 (omd), 2010-06-13
-Amended(31) by Proposal 6823 (Murphy; with omd), 2010-09-10
-Amended(32) by Proposal 6968 (Murphy; with Alexis, Wooble), 2011-03-20
-Amended(33) by Proposal 7013 (omd), 2011-04-23
-Amended(34) by Proposal 7081 (Murphy), 2011-07-04
-Amended(35) by Proposal 7083 (Walker), 2011-07-04
-Amended(36) by Proposal 7086 (G.; with omd), 2011-07-23
-Amended(37) by Proposal 7246 (omd), 2012-06-10
-Amended(38) by Proposal 7778 (Alexis), 2014-08-14
-Amended(39) by Proposal 7940 "High Power Cleanup" (Alexis; with G.,
+Amended(4) by Proposal 6734 (omd), 2010-06-06
+Amended(5) by Proposal 6741 [disinterested] (omd), 2010-07-01
+Amended(6) by Proposal 7433 (Walker), 2013-05-27
+Amended(7) by Proposal 7607 (OscarMeyr), 2013-12-13
+Amended(8) by Proposal 7614 (G.), 2014-01-13
+Amended(9) by SLR ratification, 2014-05-01
+Amended(10) by Proposal 7647 (omd), 2014-06-03
+Amended(11) by Proposal 7710 (G.), 2014-11-03
+Amended(12) by Proposal 7759 (G.), 2015-07-19
+Amended(13) by Rule 2430, 2017-05-24
+Amended(14) by Proposal 7888 "BILLY MAYS HERE" (o; with V.J. Rada),
+   2017-09-26
+Amended(15) by Proposal 7940 "High Power Cleanup" (Alexis; with G.,
    Publius Scribonius Scholasticus), 2017-11-06
-Amended(40) by Proposal 8073 "Comments" (Aris), 2018-07-26
+Amended(16) by Proposal 7940 "High Power Cleanup" (Alexis; with G.,
+   Publius Scribonius Scholasticus), 2017-11-06
+Amended(17) by Proposal 7969 "Obvious fix" (V.J. Rada; with Alexis),
+   2017-11-21
+Amended(18) by Proposal 7986 "Quick Fix" (Publius Scribonius
+   Scholasticus), 2017-12-03
+Amended(19) by Proposal 8030 "PAoaM Patch v4" (Aris; with Gaelan,
+   Trigon, G.), 2018-03-30
+------------------------------------------------------------------------
+Rule 2493/6 (Power=3.0)
+Regulations
+
+      A regulation is an textual entity defined as such by this rule,
+      and under the authority of an person, known as its Promulgator. A
+      regulation must be authorized by a rule (its parent rule) in order
+      to exist. It has only the effect that rule explicitly gives it.
+      
+      A regulation CAN be enacted, amended, and repealed as specified by
+      its parent rule. By default, a Promulgator can enact or amend a
+      regulation with 2 Agoran Consent and repeal a regulation by
+      announcement. Regulations are tracked in their Promulgator's
+      weekly report.
+      
+History:
+
+Enacted by Proposal 7865 (Aris; with o, nichdel, ais523), 2017-06-27
+Amended(1) by Proposal 7888 "BILLY MAYS HERE" (o; with V.J. Rada),
+   2017-09-26
+Amended(2) by Proposal 7925 "Safety Regulations v2" (Aris; with
+   Alexis), 2017-10-22
+Amended(3) by Proposal 8056 (Aris; with G.), 2018-07-01
+Power changed from 3.1 to 3 by Proposal 8056 (Aris; with G.), 2018-07-01
+Amended(4) by Proposal 8076 "Regulation Patches" (Aris; with G.),
+   2018-07-26
+------------------------------------------------------------------------
+Rule 2486/1 (Power=3.14)
+The Royal Parade
+
+                    _
+                  _\ /_
+                  >_X_<
+           .---._  /_\  _.---.
+         /`.---._`{/ \}`_.---.`\
+        | /   ___`{\_/}`___   \ |
+        \ \."`*  `"{_}"`  *`"./ /
+         \ \  )\  _\ /_  /(  / /
+          \ *<()( >_X_< )()>* /
+           |._)/._./_\._.\(_.|
+      jgs  |() () () () () ()|
+           <<o>><<o>><o>><<o>>
+          `"""""""""""""""""""`
+           IN CELEBRATION of Alexis being crowned Princess of Agora,
+                without prejudice to Any before or since
+                who may come to hold a Title
+                whether Patent or otherwise;
+          IT IS HEREBY PROCLAIMED that a Royal Parade be established,
+                imbued in this very Rule,
+                which shall travel around Agora to Rules of import;
+          AND THEREFORE, the Rulekeepor SHOULD place this Rule
+                near recently-amended rules of high Power;
+          AND FURTHERMORE, additions to this Parade are most welcome
+               when Events suiting the honour should occur.
+      
+History:
+
+Enacted by Proposal 7839 (o; with Alexis), 2017-01-17
+------------------------------------------------------------------------
+Rule 1051/18 (Power=1)
+The Rulekeepor
+
+      The Rulekeepor is an office; its holder is responsible for
+      maintaining the text of the rules of Agora.
+      
+      The Rulekeepor's Weekly report includes the Short Logical Ruleset.
+      The Rulekeepor's Monthly report includes the Full Logical Ruleset.
+      
+History:
+
+History unknown...
+Amended(1) by Proposal 1735, 1995-10-15
+Amended(2) by Proposal 2042, 1995-12-11
+Amended(3) by Proposal 2048, 1995-12-19
+Amended(4) by Proposal 2662, 1996-09-12
+Amended(5) by Proposal 2696, 1996-10-10
+Amended(6) by Proposal 2741 (Zefram), 1996-11-07
+Infected and amended(7) by Rule 1454, 1996-11-27
+Amended(8) by Proposal 2783 (Chuck), 1997-01-15
+Amended(9) by Proposal 3452 (Steve), 1997-04-07
+Amended(10) by Proposal 3675 (Michael), 1998-01-30
+Amended(11) by Proposal 3827 (Kolja A.), 1999-02-04
+Amended(12) by Proposal 3871 (Peekee), 1999-06-02
+Amended(13) by Proposal 3882 (harvel), 1999-07-21
+Amended(14) by Proposal 3902 (Murphy), 1999-09-06
+Amended(15) by Proposal 4002 (harvel), 2000-05-08
+Amended(16) by Proposal 4250 (harvel), 2002-02-19
+Amended(17) by Proposal 5237 [disinterested] (AFO), 2007-10-03
+------------------------------------------------------------------------
+Rule 1681/22 (Power=1)
+The Logical Rulesets
+
+      The Short Logical Ruleset (SLR) is a format of the ruleset. In
+      this format, each rule is assigned to a category, and the rules
+      are grouped according to their category.
+      
+      Rules are assigned to, ordered within, or moved between
+      categories, and categories are added, changed, or empty categories
+      removed, as the Rulekeepor sees fit.
+      
+      The listing of each rule in the SLR must include the rule's ID
+      number, revision number, power, title, and text.
+      
+      The Rulekeepor is strongly DISCOURAGED from including any
+      additional information in the SLR, except that which increases the
+      readability of the SLR.
+      
+      The Full Logical Ruleset (FLR) is a format of the ruleset. In this
+      format, rules are assigned to the same category and presented in
+      the same order as in the SLR. The FLR must contain all the
+      information required to be in the SLR, and any historical
+      annotations which the Rulekeepor is required to record.
+      
+      The Rulekeepor SHOULD also include any other information which e
+      feels may be helpful in the use of the ruleset in the FLR.
+      
+      Whenever a rule is changed in any way, the Rulekeepor SHALL record
+      a historical annotation to the rule indicating:
+      
+      1. The type of change.
+      
+      2. The date on which the change took effect.
+      
+      3. The mechanism that specified the change.
+      
+      4. If the rule was changed due to a proposal, then that proposal's
+         ID number, author, and co-author(s) (if any).
+      
+History:
+
+Enacted by Proposal 2783 (Chuck), 1997-01-15
+Amended(1) by Proposal 3500 (Crito), 1997-06-03
+Amended(2) by Proposal 3624 (Chuck), 1997-12-29
+Amended(3) by Proposal 3704 (General Chaos), 1998-03-19
+Amended(4) by Proposal 3902 (Murphy), 1999-09-06
+Amended(5) by Proposal 4002 (harvel), 2000-05-08
+Amended(6) by Proposal 4811 (Maud; with G.), 2005-06-20
+Amended(7) by Proposal 4841 (g.), 2005-10-27
+Amended(8) by Proposal 4868 (G.), 2006-08-27
+Amended(9) by Proposal 4887 (Murphy), 2007-01-22
+Amended(10) by Proposal 5006 (Zefram), 2007-06-18
+Amended(11) by Proposal 5110 (Murphy), 2007-08-02
+Amended(12) by Proposal 5334 (Murphy), 2007-12-05
+Amended(13) by Proposal 5956 (omd), 2008-11-17
+Amended(14) by Proposal 6019 (Murphy), 2008-12-22
+Amended(15) by Proposal 6026 (Murphy), 2008-12-22
+Amended(16) by Proposal 6053 (Murphy; with woggle, ais523), 2009-01-23
+Amended(17) by Proposal 6124 (ehird), 2009-03-15
+Amended(18) by Proposal 6662 [disinterested] (Murphy), 2010-03-10
+Amended(19) by Proposal 7599 (Walker), 2013-09-14
+Amended(20) by Proposal 7604 (G.), 2013-12-13
+Amended(21) by Rule 2430, 2017-05-24
+------------------------------------------------------------------------
+Rule 2221/9 (Power=3)
+Cleanliness
+
+      Any player CAN clean a rule without objection by specifying one or
+      more corrections to spelling, grammar, capitalization, formatting,
+      and/or dialect, or to whether a synonym or abbreviation is used in
+      place of a word or phrase, in the rule's text and/or title; the
+      rule is amended by this rule as specified by that person.
+      
+History:
+
+Enacted by Proposal 5975 (Murphy), 2008-11-25
+Amended(1) by Proposal 6098 (omd), 2009-01-22
+Amended(2) by Proposal 6291 (Murphy), 2009-05-19
+Amended(3) by Proposal 6722 (Murphy), 2010-05-21
+Amended(4) by Proposal 6732 (omd), 2010-06-06
+Amended(5) by Proposal 6741 [disinterested] (omd), 2010-07-01
+Repealed by Proposal 6961 (G.), 2011-02-03
+Re-enacted and amended(6) by Proposal 8000 "Older Cleanliness"
+   (Alexis), 2018-01-31
+Amended(7) by Proposal 8017 "RTRW Cleanups" (Alexis), 2018-03-06
+------------------------------------------------------------------------
+Rule 2429/2 (Power=1)
+Bleach
+
+      Replacing a non-zero amount of whitespace with a different
+      non-zero amount of whitespace is generally insignificant, except
+      for paragraph breaks.
+      
+History:
+
+Enacted by Proposal 7665 (Alexis), 2014-06-03
+Amended(1) by Proposal 7709 (Murphy), 2014-11-03
 ------------------------------------------------------------------------
 ========================================================================
 Voting
@@ -1984,7 +1900,7 @@ Amended(25) by Rule 2430, 2017-05-24
 Amended(26) by Proposal 7854 "Close Recent Loopholes v2" (ais523),
    2017-06-05
 ------------------------------------------------------------------------
-Rule 208/17 (Power=3)
+Rule 208/18 (Power=3)
 Resolving Agoran Decisions
 
       The vote collector for an unresolved Agoran decision CAN resolve
@@ -1997,7 +1913,13 @@ Resolving Agoran Decisions
       
       2. It clearly identifies the matter to be resolved.
       
-      3. It specifies the outcome, as described elsewhere, and, if there
+      3. It specifies the number of voters (or a list of the voters).
+         For these purposes and for determining quorum, a "voter" is
+         someone who submitted a ballot on the decision that was valid
+         when it was submitted and also valid (i.e. not withdrawn or
+         otherwise invalidated) at the end of the voting period.
+      
+      4. It specifies the outcome, as described elsewhere, and, if there
          was more than one valid option, provides a tally of the voters'
          valid ballots.
       
@@ -2033,8 +1955,9 @@ Amended(10) by Proposal 7420 (omd), 2013-05-27
 Retitled by Proposal 7753 (Alexis), 2015-06-30
 Amended(11) by Proposal 7778 (Alexis), 2014-08-14
 Amended(12) by Rule 2430, 2017-05-24
+Amended(13) by Proposal 8083 "quorum fixes" (G.), 2018-10-01
 ------------------------------------------------------------------------
-Rule 955/33 (Power=3)
+Rule 955/34 (Power=3)
 Determining the Will of Agora
 
       Each Agoran decision has a voting method, which determines how
@@ -2071,9 +1994,9 @@ Determining the Will of Agora
       
       The previous notwithstanding:
       
-      - If there is more than one option, and the number of valid
-        ballots is less than the quorum of that decision, the outcome is
-        instead FAILED QUORUM.
+      - If there is more than one option, and the number of voters is
+        less than the quorum of that decision, the outcome is instead
+        FAILED QUORUM.
       
       - If there are no valid options, the outcome is null.
       
@@ -2117,8 +2040,9 @@ Amended(28) by Proposal 7853 "Close Ancient Loopholes" (ais523),
    2017-06-05
 Amended(29) by Proposal 7912 "Election Campaigns" (Alexis), 2017-10-15
 Amended(30) by Proposal 7922 "Clarity Act" (Alexis), 2017-10-23
+Amended(31) by Proposal 8083 "quorum fixes" (G.), 2018-10-01
 ------------------------------------------------------------------------
-Rule 879/37 (Power=2)
+Rule 879/38 (Power=2)
 Quorum
 
       Each Agoran Decision has a quorum. This is a number set when the
@@ -2131,9 +2055,9 @@ Quorum
       The quorum that an Agoran Decision gains as it is created can be
       defined by other rules of power 2 or greater. If no other rule
       defines the quorum of an Agoran Decision, the quorum for that
-      decision is equal to the number of players who voted on the Agoran
-      Decision to adopt a proposal that had been most recently resolved
-      at the time of that decision's initiation, minus 2.
+      decision is equal to the number of voters on the Agoran Decision to
+      adopt a proposal that had been most recently resolved at the time
+      of that decision's initiation, minus 2.
       
       As an exception to the previous paragraph, the quorum of an
       Agoran Decision can never be less than 2. If the rules would
@@ -2181,6 +2105,7 @@ Amended(33) by Proposal 7632 (Alexis), 2014-05-01
 Amended(34) by Proposal 7647 (omd), 2014-06-03
 Amended(35) by Proposal 7853 "Close Ancient Loopholes" (ais523),
    2017-06-05
+Amended(36) by Proposal 8083 "quorum fixes" (G.), 2018-10-01
 ------------------------------------------------------------------------
 Rule 2422/3 (Power=3)
 Voting Strength
@@ -2335,7 +2260,7 @@ Amended(31) by Proposal 7629 (Alexis), 2014-04-07
 Amended(32) by Proposal 7778 (Alexis), 2014-08-14
 Amended(33) by Proposal 7832 (Alexis), 2016-12-05
 ------------------------------------------------------------------------
-Rule 2034/10 (Power=3)
+Rule 2034/11 (Power=3)
 Vote Protection and Cutoff for Challenges
 
       A public message purporting to resolve an Agoran decision
@@ -2343,9 +2268,11 @@ Vote Protection and Cutoff for Challenges
       
       1. such a decision existed,
       
-      2. it was resolved as indicated, and
+      2. it had the number of voters indicated,
       
-      3. (if the indicated outcome was to adopt a proposal) such a
+      3. it was resolved as indicated, and
+      
+      4. (if the indicated outcome was to adopt a proposal) such a
          proposal existed, was adopted, and took effect.
       
 History:
@@ -2360,6 +2287,7 @@ Amended(6) by Proposal 6180 [disinterested] (Murphy), 2009-04-07
 Amended(7) by Proposal 7355 (ais523), 2013-04-07
 Amended(8) by Proposal 7585 (omd), 2013-08-24
 Amended(9) by Rule 2430, 2017-05-24
+Amended(10) by Proposal 8083 "quorum fixes" (G.), 2018-10-01
 ------------------------------------------------------------------------
 ========================================================================
 Offices & Reporting
@@ -3281,38 +3209,6 @@ History:
 
 Enacted by Proposal 8029 "Blots v1.0" (G.; with Aris), 2018-03-30
 ------------------------------------------------------------------------
-Rule 2486/1 (Power=3.14)
-The Royal Parade
-
-                    _
-                  _\ /_
-                  >_X_<
-           .---._  /_\  _.---.
-         /`.---._`{/ \}`_.---.`\
-        | /   ___`{\_/}`___   \ |
-        \ \."`*  `"{_}"`  *`"./ /
-         \ \  )\  _\ /_  /(  / /
-          \ *<()( >_X_< )()>* /
-           |._)/._./_\._.\(_.|
-      jgs  |() () () () () ()|
-           <<o>><<o>><o>><<o>>
-          `"""""""""""""""""""`
-           IN CELEBRATION of Alexis being crowned Princess of Agora,
-                without prejudice to Any before or since
-                who may come to hold a Title
-                whether Patent or otherwise;
-          IT IS HEREBY PROCLAIMED that a Royal Parade be established,
-                imbued in this very Rule,
-                which shall travel around Agora to Rules of import;
-          AND THEREFORE, the Rulekeepor SHOULD place this Rule
-                near recently-amended rules of high Power;
-          AND FURTHERMORE, additions to this Parade are most welcome
-               when Events suiting the honour should occur.
-      
-History:
-
-Enacted by Proposal 7839 (o; with Alexis), 2017-01-17
-------------------------------------------------------------------------
 Rule 2555/2 (Power=2.0)
 Blots
 
@@ -3968,143 +3864,28 @@ Amended(6) by Proposal 7888 "BILLY MAYS HERE" (o; with V.J. Rada),
    2017-09-26
 ------------------------------------------------------------------------
 ========================================================================
-Figureheads
+Obligations & Contracts
 ------------------------------------------------------------------------
-Rule 104/2 (Power=3)
-First Speaker
+Rule 2471/2 (Power=1)
+No Faking
 
-      The Speaker for the first game shall be Michael Norrish.
+      A person SHALL NOT make a public statement that is a lie. A
+      statment is a lie if its publisher either knew or believed it to
+      be not to be true at the time e published it (or, in the case of
+      an action, not to be effective), and it was made with the intent
+      to mislead. Merely quoting a statement does not constitute making
+      it for the purposes of this rule. Any disclaimer, conditional
+      clause, or other qualifier attached to a statement constitutes
+      part of the statement for the purposes of this rule; the truth or
+      falsity of the whole is what is significant.
+      
+      The previous provisions of this rule notwithstanding, a formal
+      announcement of intent is never a lie.
       
 History:
 
-Initial immutable rule 104, Agora's birth
-Mutated from MI=unanimity to MI=3 by Proposal 1482, 1995-03-15
-------------------------------------------------------------------------
-Rule 103/31 (Power=2)
-The Speaker
-
-      The Speaker is an imposed office and the figurehead leader of
-      Agora.
-      
-      The player or players who have most recently won the game are
-      called Laureled. If at any time the office of Speaker is vacant,
-      or when one or more players win Agora, then the Prime Minister CAN
-      and SHALL, once and in a timely fashion, appoint a Laureled player
-      to the office of Speaker by announcement.
-      
-      If the office of Speaker has been held continuously by the same
-      person for 90+ days, then any player CAN appoint another player to
-      the office with Support.
-      
-      For an election of the Prime Minister, the Speaker has voting
-      strength one greater than e would have if e did not hold the
-      office.
-      
-History:
-
-Initial immutable rule 103, Agora's birth
-Mutated from MI=unanimity to MI=3 by Proposal 1481, 1995-03-15
-Amended(1) by Proposal 3829 (Steve), 1999-02-08
-Retitled by Proposal 4944 (Zefram), 2007-05-03
-Amended(2) by Proposal 4944 (Zefram), 2007-05-03
-Retitled by Proposal 5257 (AFO), 2007-10-27
-Amended(3) by Proposal 5257 (AFO), 2007-10-27
-Amended(4) by Proposal 5407 (root), 2008-01-22
-Power changed from 3 to 1 by Proposal 5947 (ais523), 2008-11-15
-Amended(5) by Proposal 6026 (Murphy), 2008-12-22
-Amended(6) by Proposal 6490 (Alexis), 2009-09-18
-Power changed from 1 to 2 by Proposal 6821 (G.; with ais523), 2010-09-04
-Amended(7) by Proposal 6821 (G.; with ais523), 2010-09-04
-Retitled by Proposal 6961 (G.), 2011-03-03
-Amended(8) by Proposal 6961 (G.), 2011-03-03
-Amended(9) by Proposal 7006 (Walker), 2011-04-20
-Amended(10) by Proposal 7084 (omd), 2011-07-23
-Amended(11) by Proposal 7323 (the Warrigal), 2013-01-11
-Amended(12) by Proposal 7336 (woggle), 2013-03-27
-Amended(13) by Proposal 7340 (G.), 2013-03-27
-Amended(14) by Proposal 7375 (G.), 2013-04-20
-Amended(15) by Proposal 7465 (Walker), 2013-06-17
-Amended(16) by Proposal 7486 (Alexis), 2013-07-09
-Amended(17) by Proposal 7610 (G.), 2013-12-22
-Amended(18) by Proposal 7631 (Alexis), 2014-04-14
-Amended(19) by Proposal 7633 (Alexis), 2014-05-01
-Amended(20) by Proposal 7650 (Alexis; with G.), 2014-06-03
-Amended(21) by Proposal 7690 (aranea), 2014-09-24
-Amended(22) by Proposal 7739 (G.), 2015-05-02
-Amended(23) by Proposal 7824 (aranea; with ais523), 2016-11-07
-Amended(24) by Proposal 7885 (o; with V.J. Rada, Ørjan), 2017-09-26
-------------------------------------------------------------------------
-Rule 2423/4 (Power=2)
-First Among Equals
-
-      The Prime Minister is an office. The Prime Minister is elected by
-      the players of Agora primarily on account of not being the other
-      guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
-      smoothly.
-      
-      The holder of the office of Prime Minister's voting strength is
-      increased by 1 on all Agoran decisions other than a elections of
-      the Prime Minister.
-      
-History:
-
-Enacted by Proposal 7633 (Alexis), 2014-05-01
-Amended(1) by Proposal 7816 (Alexis; with o, aranea), 2016-10-28
-Amended(2) by Proposal 7817 (aranea), 2016-10-28
-Amended(3) by Proposal 7831 (Alexis), 2016-12-05
-------------------------------------------------------------------------
-Rule 2463/1 (Power=1)
-Motion of No Confidence
-
-      Any player can cause the office of Prime Minister to become vacant
-      with 2 Agoran Consent by publishing a message with the character
-      string "MOTION OF NO CONFIDENCE" in the subject line.
-      
-History:
-
-Enacted by Proposal 7800 (Henri), 2016-07-19
-------------------------------------------------------------------------
-Rule 2451/8 (Power=2.0)
-Executive Orders
-
-      Once per week and except as otherwise forbidden by this rule, the
-      current Prime Minister CAN issue a Cabinet Order by announcement
-      to perform the action(s) authorized by that Order.
-      
-      Each Cabinet Order is associated with an office. The current Prime
-      Minister CANNOT issue more than one Cabinet Order associated with
-      the same office more than once in the same month, nor can e issue
-      a Cabinet Order associated with a vacant office.
-      
-      The available Cabinet Orders are:
-      
-      - Certiorari (Arbitor): The Prime Minister assigns emself as judge
-        of a specified open case.
-      
-      - Dive (Referee): The Prime Minister levies a 2 Blot fine on a
-        specified player. Rules to the contrary notwithstanding, the
-        reason for the fine MAY be any grievance held by the Prime
-        Minister, not necessarily a violation of the rules, against the
-        person to whom the fine is levied.
-      
-      - Manifesto (Promotor): The Prime Minister distributes a specified
-        proposal in the Proposal Pool.
-      
-History:
-
-Enacted by Proposal 7764 (Alexis), 2015-07-24
-Amended(1) by Proposal 7829 (Alexis), 2016-11-07
-Amended(2) by Proposal 7831 (Alexis), 2016-12-05
-Amended(3) by Proposal 7860 (Quazie), 2017-06-27
-Amended(4) by Proposal 7885 (o; with V.J. Rada, Ørjan), 2017-09-26
-Power changed from 1.7 to 2.0 by Proposal 7964 "Referee Reform and Card
-   Appealability" (V.J. Rada), 2017-11-07
-Amended(5) by Proposal 7964 "Referee Reform and Card Appealability"
-   (V.J. Rada), 2017-11-07
-Amended(6) by Proposal 8029 "Blots v1.0" (G.; with Aris), 2018-03-30
-------------------------------------------------------------------------
-========================================================================
-Obligations
+Enacted by Proposal 7822 (Alexis), 2016-11-07
+Amended(1) by Proposal 7892 "Truthfulness v2" (Aris), 2017-09-26
 ------------------------------------------------------------------------
 Rule 2450/6 (Power=1.7)
 Pledges
@@ -4143,27 +3924,6 @@ History:
 
 Enacted by Proposal 7924 "Contracts v8" (Aris; with Aris, o, G., ais523,
    Gaelan, 天火狐, Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 2017-10-22
-------------------------------------------------------------------------
-Rule 2471/2 (Power=1)
-No Faking
-
-      A person SHALL NOT make a public statement that is a lie. A
-      statment is a lie if its publisher either knew or believed it to
-      be not to be true at the time e published it (or, in the case of
-      an action, not to be effective), and it was made with the intent
-      to mislead. Merely quoting a statement does not constitute making
-      it for the purposes of this rule. Any disclaimer, conditional
-      clause, or other qualifier attached to a statement constitutes
-      part of the statement for the purposes of this rule; the truth or
-      falsity of the whole is what is significant.
-      
-      The previous provisions of this rule notwithstanding, a formal
-      announcement of intent is never a lie.
-      
-History:
-
-Enacted by Proposal 7822 (Alexis), 2016-11-07
-Amended(1) by Proposal 7892 "Truthfulness v2" (Aris), 2017-09-26
 ------------------------------------------------------------------------
 Rule 1742/26 (Power=2.5)
 Contracts
@@ -5390,6 +5150,261 @@ Repealed by Proposal 4486 "Of what worth honor?" (Michael), 2003-04-23
 Re-enacted and amended(1) by Proposal 8045 "Q*Bert the Second"
    (Trigon), 2018-05-08
 Retitled by Proposal 8045 "Q*Bert the Second" (Trigon), 2018-05-08
+------------------------------------------------------------------------
+========================================================================
+The Undead
+------------------------------------------------------------------------
+Rule 2532/3 (Power=2)
+Zombies
+
+      Master is a secured player switch with possible values of any
+      player, and Agora. Every player's default master is emself; rules
+      to the contrary notwithstanding, a player CAN always flip eir own
+      master to emself by announcement.
+      
+      A player whose master is not emself is a zombie (syn. inactive);
+      all other players are active.  A zombie's master, if another
+      player, is allowed to act on behalf of the zombie (i.e. as the
+      zombie's agent), except a master CANNOT act on behalf of a zombie
+      to:
+        - initiate, support, object to, or perform a dependent action;
+        - act on behalf of that zombie's zombies;
+        - bid in a zombie auction;
+        - enter a contract, pledge, or other type of agreement;
+        - initiate a Call fo Judgement;
+        - deregister.
+      
+      A zombie's master CAN flip that zombie's master switch to Agora by
+      announcement.
+      
+      If a master causes a zombie to perform an ILLEGAL action, the
+      master commits the Class 4+N Crime of Masterminding (where N is
+      the class of the illegal action).
+      
+      If a active player who was a zombie has not received a Welcome
+      Package since e most recently ceased being a zombie, and if eir
+      resale value was less than 2 at any point during eir most recent
+      time as a zombie, then any player CAN cause em to receive a
+      Welcome Package by announcement.
+      
+History:
+
+Enacted by Proposal 7950 "Boooo!" (G.), 2017-11-12
+Amended(1) by Proposal 8051 "Zombie Overhaul v1.0" (G.; with Aris),
+   2018-06-14
+Amended(2) by Proposal 8065 "No undead courts" (twg), 2018-07-18
+------------------------------------------------------------------------
+Rule 2574/1 (Power=3.0)
+Zombie Life Cycle
+
+      Any player CAN, with Notice, flip the master switch of an active
+      player who has not made a public announcement in the past 60 days
+      to Agora.
+      
+      Resale is a secured natural switch for zombies, tracked by the
+      Registrar, with a default value of 2. Whenever a zombie's master
+      switch is flipped to a player other than emself, eir resale value
+      is decreased by 1.
+      
+      A zombie with a resale value of 0 CANNOT have eir master switch
+      flipped to a player other than emself, rules to the contrary
+      notwithstanding.
+      
+      Any player CAN, with Notice:
+        - If a zombie has been a zombie for the past 90 days and not had
+         Agora for a master during any of that time, flip the zombie's
+         master switch to Agora;
+        - If a player is master to more than one zombie, flip the master
+         switch of one of that master's zombies to Agora;
+        - Deregister a zombie whose master is Agora and who has a Resale
+         value of 0.
+      
+      The Registrar SHALL track the date that each zombie last belonged
+      to Agora in eir weekly report.  The Registrar SHALL perform all
+      POSSIBLE actions in the preceding paragraph in a timely fashion
+      after first reporting their possibility via the facts in eir
+      weekly report.
+      
+History:
+
+Enacted by Proposal 8051 "Zombie Overhaul v1.0" (G.; with Aris),
+   2018-06-14
+------------------------------------------------------------------------
+Rule 1885/11 (Power=2)
+Zombie Auctions
+
+      Whenever a zombie (1) has Agora for a master, (2) is not a lot in
+      an ongoing auction, (3) has a resale value greater than 0, and (4)
+      has not been won as an auction lot in the past 14 days, then the
+      Registrar CAN put that zombie (along with any other zombies that
+      fulfill the same conditions) up for auction.
+      
+      In a timely fashion after the beginning of each month, the
+      Registrar SHALL either initiate such an auction or, if no zombies
+      meeting these conditions existed at the beginning of the month,
+      announce that no such auction is necessary.
+      
+      For such an auction, the lots are the qualifying zombies, ordered
+      at the discretion of the Registrar. The Registrar is the
+      announcer, and the minimum bid is 1.  Rules  to the contrary
+      notwithstanding, the master of a zombie CANNOT bid in a zombie
+      auction. If a player becomes a zombie's master, all eir bids in
+      zombie auctions that have not ended are withdrawn. For the purpose
+      of such a auction, to transfer a zombie to a player is to set that
+      zombie's master switch to that player.
+      
+History:
+
+Enacted by Proposal 3853 (Blob), 1999-04-19
+Amended(1) by Proposal 3901 (Schneidster), 1999-09-06
+Amended(2) by Proposal 4018 (Kelly), 2000-06-21
+Amended(3) by Proposal 4118 (G.), 2001-06-03
+Repealed by Proposal 4211 (harvel), 2001-09-10
+Re-enacted and amended(4) by Proposal 7951 "Zombie Auctions" (G.),
+   2017-11-12
+Power changed from 1 to 2 by Proposal 7952 "It LIVES" (G.), 2017-11-12
+Amended(5) by Proposal 8023 "Zombie Lots" (G.; with Aris), 2018-03-06
+Amended(6) by Proposal 8028 "Zombie patch" (G.), 2018-03-23
+Amended(7) by Proposal 8041 "Consolidated Patch" (Aris; with Trigon,
+   G.), 2018-04-27
+Amended(8) by Proposal 8051 "Zombie Overhaul v1.0" (G.; with Aris),
+   2018-06-14
+------------------------------------------------------------------------
+========================================================================
+Figureheads
+------------------------------------------------------------------------
+Rule 103/31 (Power=2)
+The Speaker
+
+      The Speaker is an imposed office and the figurehead leader of
+      Agora.
+      
+      The player or players who have most recently won the game are
+      called Laureled. If at any time the office of Speaker is vacant,
+      or when one or more players win Agora, then the Prime Minister CAN
+      and SHALL, once and in a timely fashion, appoint a Laureled player
+      to the office of Speaker by announcement.
+      
+      If the office of Speaker has been held continuously by the same
+      person for 90+ days, then any player CAN appoint another player to
+      the office with Support.
+      
+      For an election of the Prime Minister, the Speaker has voting
+      strength one greater than e would have if e did not hold the
+      office.
+      
+History:
+
+Initial immutable rule 103, Agora's birth
+Mutated from MI=unanimity to MI=3 by Proposal 1481, 1995-03-15
+Amended(1) by Proposal 3829 (Steve), 1999-02-08
+Retitled by Proposal 4944 (Zefram), 2007-05-03
+Amended(2) by Proposal 4944 (Zefram), 2007-05-03
+Retitled by Proposal 5257 (AFO), 2007-10-27
+Amended(3) by Proposal 5257 (AFO), 2007-10-27
+Amended(4) by Proposal 5407 (root), 2008-01-22
+Power changed from 3 to 1 by Proposal 5947 (ais523), 2008-11-15
+Amended(5) by Proposal 6026 (Murphy), 2008-12-22
+Amended(6) by Proposal 6490 (Alexis), 2009-09-18
+Power changed from 1 to 2 by Proposal 6821 (G.; with ais523), 2010-09-04
+Amended(7) by Proposal 6821 (G.; with ais523), 2010-09-04
+Retitled by Proposal 6961 (G.), 2011-03-03
+Amended(8) by Proposal 6961 (G.), 2011-03-03
+Amended(9) by Proposal 7006 (Walker), 2011-04-20
+Amended(10) by Proposal 7084 (omd), 2011-07-23
+Amended(11) by Proposal 7323 (the Warrigal), 2013-01-11
+Amended(12) by Proposal 7336 (woggle), 2013-03-27
+Amended(13) by Proposal 7340 (G.), 2013-03-27
+Amended(14) by Proposal 7375 (G.), 2013-04-20
+Amended(15) by Proposal 7465 (Walker), 2013-06-17
+Amended(16) by Proposal 7486 (Alexis), 2013-07-09
+Amended(17) by Proposal 7610 (G.), 2013-12-22
+Amended(18) by Proposal 7631 (Alexis), 2014-04-14
+Amended(19) by Proposal 7633 (Alexis), 2014-05-01
+Amended(20) by Proposal 7650 (Alexis; with G.), 2014-06-03
+Amended(21) by Proposal 7690 (aranea), 2014-09-24
+Amended(22) by Proposal 7739 (G.), 2015-05-02
+Amended(23) by Proposal 7824 (aranea; with ais523), 2016-11-07
+Amended(24) by Proposal 7885 (o; with V.J. Rada, Ørjan), 2017-09-26
+------------------------------------------------------------------------
+Rule 104/2 (Power=3)
+First Speaker
+
+      The Speaker for the first game shall be Michael Norrish.
+      
+History:
+
+Initial immutable rule 104, Agora's birth
+Mutated from MI=unanimity to MI=3 by Proposal 1482, 1995-03-15
+------------------------------------------------------------------------
+Rule 2423/4 (Power=2)
+First Among Equals
+
+      The Prime Minister is an office. The Prime Minister is elected by
+      the players of Agora primarily on account of not being the other
+      guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
+      smoothly.
+      
+      The holder of the office of Prime Minister's voting strength is
+      increased by 1 on all Agoran decisions other than a elections of
+      the Prime Minister.
+      
+History:
+
+Enacted by Proposal 7633 (Alexis), 2014-05-01
+Amended(1) by Proposal 7816 (Alexis; with o, aranea), 2016-10-28
+Amended(2) by Proposal 7817 (aranea), 2016-10-28
+Amended(3) by Proposal 7831 (Alexis), 2016-12-05
+------------------------------------------------------------------------
+Rule 2463/1 (Power=1)
+Motion of No Confidence
+
+      Any player can cause the office of Prime Minister to become vacant
+      with 2 Agoran Consent by publishing a message with the character
+      string "MOTION OF NO CONFIDENCE" in the subject line.
+      
+History:
+
+Enacted by Proposal 7800 (Henri), 2016-07-19
+------------------------------------------------------------------------
+Rule 2451/8 (Power=2.0)
+Executive Orders
+
+      Once per week and except as otherwise forbidden by this rule, the
+      current Prime Minister CAN issue a Cabinet Order by announcement
+      to perform the action(s) authorized by that Order.
+      
+      Each Cabinet Order is associated with an office. The current Prime
+      Minister CANNOT issue more than one Cabinet Order associated with
+      the same office more than once in the same month, nor can e issue
+      a Cabinet Order associated with a vacant office.
+      
+      The available Cabinet Orders are:
+      
+      - Certiorari (Arbitor): The Prime Minister assigns emself as judge
+        of a specified open case.
+      
+      - Dive (Referee): The Prime Minister levies a 2 Blot fine on a
+        specified player. Rules to the contrary notwithstanding, the
+        reason for the fine MAY be any grievance held by the Prime
+        Minister, not necessarily a violation of the rules, against the
+        person to whom the fine is levied.
+      
+      - Manifesto (Promotor): The Prime Minister distributes a specified
+        proposal in the Proposal Pool.
+      
+History:
+
+Enacted by Proposal 7764 (Alexis), 2015-07-24
+Amended(1) by Proposal 7829 (Alexis), 2016-11-07
+Amended(2) by Proposal 7831 (Alexis), 2016-12-05
+Amended(3) by Proposal 7860 (Quazie), 2017-06-27
+Amended(4) by Proposal 7885 (o; with V.J. Rada, Ørjan), 2017-09-26
+Power changed from 1.7 to 2.0 by Proposal 7964 "Referee Reform and Card
+   Appealability" (V.J. Rada), 2017-11-07
+Amended(5) by Proposal 7964 "Referee Reform and Card Appealability"
+   (V.J. Rada), 2017-11-07
+Amended(6) by Proposal 8029 "Blots v1.0" (G.; with Aris), 2018-03-30
 ------------------------------------------------------------------------
 ========================================================================
 Agoran Culture

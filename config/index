@@ -1,32 +1,38 @@
 - name: The Game of Agora
+  note: |
+    This section includes a few rules concerning the Nature of the Game
+    of Agora.
   rules:
   - 101  # The Game of Agora
   - 1698 # Agora Is A Nomic
 - name: Players
+  note: |
+    This small section provides some rules detailing how joining and
+    leaving Agora works. If you're a new player, this is probably the
+    most important section to read.
   rules:
   - 869  # How to Join and Leave Agora
   - 478  # Fora
   - 2575 # The Distributor
   - 2139 # The Registrar
   - 1789 # Cantus Cygneus
-  - 2532 # Zombies
-  - 1885 # Zombie Auctions
-  - 2574 # Zombie Life Cycle
-- name: Rules & Regulations
+- name: Proposals
+  note: |
+    Proposals are a staple of Nomic games. If you're a new player, this
+    is another important section, since the way proposals work in this
+    Nomic is a little bit complicated.
   rules:
-  - 2141 # Role and Attributes of Rules
-  - 1688 # Power
-  - 2140 # Power Controls Mutability
-  - 217  # Interpreting the Rules
-  - 1030 # Precedence between Rules
-  - 2240 # No Cretans Need Apply
-  - 105  # Rule Changes
-  - 2493 # Regulations
-  - 1051 # The Rulekeepor
-  - 1681 # The Logical Rulesets
-  - 2221 # Cleanliness
-  - 2429 # Bleach
+  - 2350 # Proposals
+  - 2445 # How to Pend a Proposal
+  - 1607 # Distribution
+  - 2137 # The Assessor
+  - 106  # Adopting Proposals
 - name: General Definitions
+  note: |
+    This section describes the terminology used by all the other rules.
+    If, when reading a rule, you don't understand what a word means,
+    chances are that the Agoran definition of that word is described
+    in one of these rules.
   rules:
   - 2152 # Mother, May I?
   - 2162 # Switches
@@ -40,14 +46,29 @@
   - 1586 # Definition and Continuity of Entities
   - 2505 # Random Choices
   - 2517 # Conditionals and Extricability
-- name: Proposals
+- name: Rules & Regulations
+  note: |
+    Ah, yes. What would any game be without rules? And these rules
+    describe how rules work. This section also describes the governance
+    of the Rulekeepor.
   rules:
-  - 2350 # Proposals
-  - 2445 # How to Pend a Proposal
-  - 1607 # Distribution
-  - 2137 # The Assessor
-  - 106  # Adopting Proposals
+  - 2141 # Role and Attributes of Rules
+  - 1688 # Power
+  - 2140 # Power Controls Mutability
+  - 217  # Interpreting the Rules
+  - 1030 # Precedence between Rules
+  - 2240 # No Cretans Need Apply
+  - 105  # Rule Changes
+  - 2493 # Regulations
+  - 2486 # The Royal Parade
+  - 1051 # The Rulekeepor
+  - 1681 # The Logical Rulesets
+  - 2221 # Cleanliness
+  - 2429 # Bleach
 - name: Voting
+  note: |
+    Voting is used primarily for Proposals and Elections. This section
+    describes Agoran Decisions and how to resolve them.
   rules:
   - 693  # Agoran Decisions
   - 107  # Initiating Agoran Decisions
@@ -62,6 +83,10 @@
   - 1950 # Decisions with Adoption Indices
   - 2034 # Vote Protection and Cutoff for Challenges
 - name: Offices & Reporting
+  note: |
+    Players who hold offices have control over and track various
+    different mechanics. These rules govern the special responsibilities
+    that officers have.
   rules:
   - 1006 # Offices
   - 2143 # Official Reports and Duties
@@ -75,6 +100,9 @@
   - 2202 # Ratification Without Objection
   - 2201 # Self-Ratification
 - name: Calls for Judgement
+  note: |
+    But what if the ruleset is ambiguous? What if we can't decide what a
+    rule means? Well then, it's time to call a CFJ.
   rules:
   - 991  # Calls for Judgement
   - 591  # Delivering Judgements
@@ -82,15 +110,21 @@
   - 2175 # Judicial Retraction and Excess
   - 2492 # Recusal
 - name: Justice
+  note: |
+    So you've broken a rule. Now what? This section describes Blots, the
+    main method of punishment for Agorans.
   rules:
   - 2556 # Penalties
-  - 2486 # The Royal Parade
   - 2555 # Blots
   - 2478 # Vigilante Justice
   - 2479 # Official Justice
   - 2557 # Sentencing Guidelines
   - 2531 # Referee Accountability
 - name: Winning
+  note: |
+    All games have winners, and Agora is no exception. If you're
+    interested in getting some serious bragging points among the Agorans,
+    this is the right place to look.
   rules:
   - 2449 # Winning the Game
   - 2452 # Trust Tokens
@@ -99,6 +133,9 @@
   - 2511 # Karmic Balance
   - 2553 # Win by Paradox
 - name: Awards
+  note: |
+    Even if it's not a win, there are still a good few opportunities to
+    win bragging points, like Ribbons and Patent Titles.
   rules:
   - 2438 # Ribbons
   - 2480 # Festivals
@@ -108,20 +145,20 @@
   - 2415 # Badges
   - 1367 # Degrees
   - 2231 # Order of the Hero of Agora Nomic
-- name: Figureheads
+- name: Obligations & Contracts
+  note: |
+    Agreements, promises, treaties, whatever you call them. This section
+    contains rules which can bind players to obligations, in the form of
+    Pledges and Contracts.
   rules:
-  - 104  # First Speaker
-  - 103  # The Speaker
-  - 2423 # First Among Equals
-  - 2463 # Motion of No Confidence
-  - 2451 # Executive Orders
-- name: Obligations
-  rules:
+  - 2471 # No Faking
   - 2450 # Pledges
   - 2519 # Consent
-  - 2471 # No Faking
   - 1742 # Contracts
 - name: Assets
+  note: |
+    Assets are things players can own. This section describes how that
+    works.
   rules:
   - 2166 # Assets
   - 2576 # Ownership
@@ -130,6 +167,9 @@
   - 2579 # Fee-based Actions
   - 2515 # Distributing Assets
 - name: Economics
+  note: |
+    The economic landscape changes quickly in Agora. No matter what name
+    we give to them, though, they all function similarly.
   rules:
   - 2456 # The Treasuror
   - 2483 # Economics
@@ -144,6 +184,9 @@
   - 2551 # Auction End
   - 2552 # Auction Termination
 - name: The Land of Arcadia
+  note: |
+    This section describes a subgame of Agora, in which players can
+    compete for influence over a sprawling map.
   rules:
   - 1993 # The Land of Arcadia
   - 1994 # Ownership of Land
@@ -167,7 +210,27 @@
   - 2571 # The Fountain
   - 2572 # Wishing Fountain
   - 2046 # Q*Bert
+- name: The Undead
+  note: |
+    A silly mechanic describing what happens after you become inactive.
+  rules:
+  - 2532 # Zombies
+  - 2574 # Zombie Life Cycle
+  - 1885 # Zombie Actions
+- name: Figureheads
+  note: |
+    Agora has a good few figurehead leaders, none of which possess all
+    that much power. This section isn't all that important.
+  rules:
+  - 103  # The Speaker
+  - 104  # First Speaker
+  - 2423 # First Among Equals
+  - 2463 # Motion of No Confidence
+  - 2451 # Executive Orders
 - name: Agoran Culture
+  note: |
+    Nothing in here is all that important. Mostly describes holidays and
+    tournaments, and joke rules.
   rules:
   - 2327 # Read the Ruleset Week
   - 1727 # Happy Birthday
