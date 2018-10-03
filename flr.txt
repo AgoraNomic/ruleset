@@ -4736,7 +4736,7 @@ Amended(16) by Proposal 8055 "Distributed Assets v3" (Aris; with G.),
    2018-07-01
 Amended(17) by Proposal 8064 "Land Grants" (G.), 2018-07-18
 ------------------------------------------------------------------------
-Rule 2004/9 (Power=1)
+Rule 2004/10 (Power=1)
 Land Auctions
 
       Every Agoran Week, if the number of Units of Private Land is less
@@ -4744,10 +4744,10 @@ Land Auctions
       Public, non-Aether, Preserved Land Units are chosen using the
       following process:
       
-      1. If there exist more than 5 such units, the Cartographor SHALL
-         choose exactly 5 of them.
+      1. If there exist more than 3 such units, the Cartographor SHALL
+         choose exactly 3 of them.
       
-      2. If there exist 5 or fewer such units, all are automatically
+      2. If there exist 3 or fewer such units, all are automatically
          chosen.
       
       For each land unit selected by the process described above, the
@@ -4773,6 +4773,8 @@ Amended(5) by Proposal 8030 "PAoaM Patch v4" (Aris; with Gaelan,
 Amended(6) by Proposal 8044 "5 auctions" (Trigon), 2018-05-08
 Amended(7) by Proposal 8069 "Frankenstein's land auctions" (twg),
    2018-07-26
+Amended(8) by Proposal 8084 "Needs more Competition" (Trigon),
+   2018-10-01
 ------------------------------------------------------------------------
 Rule 2022/10 (Power=1)
 Land Transfiguration
