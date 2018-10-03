@@ -9,7 +9,9 @@ text: |
   Resale is a secured natural switch for zombies, tracked by the
   Registrar, with a default value of 2. Whenever a zombie's master
   switch is flipped to a player other than emself, eir resale value
-  is decreased by 1.
+  is decreased by 1. At the end of a zombie auction, every zombie
+  that is an excess lot in that auction has eir resale value
+  decreased by 1.
 
   A zombie with a resale value of 0 CANNOT have eir master switch
   flipped to a player other than emself, rules to the contrary
@@ -36,4 +38,9 @@ history:
   date: 2018-06-14
   agent:
     proposal: "8051"
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: 8098
 annotations: []

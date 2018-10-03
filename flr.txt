@@ -391,10 +391,10 @@ How to Pend a Proposal
       
       Any player CAN flip a specified proposal's imminence to "pending"
       by announcement. A player SHALL NOT submit and/or pend proposals
-      that, taken collectively, are manifestly unreasonable and excessive
-      (hereafter excess proposals); doing so constitutes the Class-4
-      Crime of Excess Legislation. The Promotor CAN remove a specified
-      excess proposal from the proposal pool by announcement.
+      that, taken collectively, are manifestly unreasonable and
+      excessive (hereafter excess proposals); doing so constitutes the
+      Class-4 Crime of Excess Legislation. The Promotor CAN remove a
+      specified excess proposal from the proposal pool by announcement.
       
 History:
 
@@ -2059,9 +2059,9 @@ Quorum
       The quorum that an Agoran Decision gains as it is created can be
       defined by other rules of power 2 or greater. If no other rule
       defines the quorum of an Agoran Decision, the quorum for that
-      decision is equal to the number of voters on the Agoran Decision to
-      adopt a proposal that had been most recently resolved at the time
-      of that decision's initiation, minus 2.
+      decision is equal to the number of voters on the Agoran Decision
+      to adopt a proposal that had been most recently resolved at the
+      time of that decision's initiation, minus 2.
       
       As an exception to the previous paragraph, the quorum of an
       Agoran Decision can never be less than 2. If the rules would
@@ -3676,7 +3676,7 @@ History:
 Enacted by Proposal 7833 (ais523), 2016-12-05
 Amended(1) by Rule 2430, 2017-05-24
 ------------------------------------------------------------------------
-Rule 649/41 (Power=1.5)
+Rule 649/42 (Power=1.5)
 Patent Titles
 
       A Patent Title is a legal title given to a person in recognition
@@ -3691,6 +3691,12 @@ Patent Titles
       
       The Herald CAN award a specified Patent Title to a specified
       player With 2 Agoran Consent.
+      
+      If a player publicly petitions that the Herald award a patent
+      title to another player for a specified reason, the Herald SHALL
+      respond in a timely fashion by either attempting to grant an
+      appropriate patent title or explaining publicly why no patent
+      title is warranted.
       
 History:
 
@@ -3735,6 +3741,7 @@ Amended(36) by Proposal 7470 [disinterested] (woggle), 2013-06-17
 Amended(37) by Proposal 7621 (G.), 2014-02-23
 Amended(38) by Proposal 7755 (G.), 2015-06-30
 Amended(39) by Proposal 8011 "Patent Depowering" (G.), 2018-02-24
+Amended(40) by Proposal 8099 "Patent Petitions" (Aris), 2018-10-01
 ------------------------------------------------------------------------
 Rule 2444/4 (Power=1)
 Silver Quill
@@ -4675,46 +4682,56 @@ Repealed by Proposal 4496 "Sink Arcadia" (Sherlock), 2003-05-13
 Re-enacted and amended(1) by a convergence caused by Proposal 8030
    "PAoaM Patch v4" (Aris; with Gaelan, Trigon, G.), 2018-03-30
 ------------------------------------------------------------------------
-Rule 2003/20 (Power=1)
+Rule 2003/21 (Power=1)
 Actions in Arcadia
 
-      Players CAN pay the listed fee to take the associated action:
+      Energy Points (abbreviated EP) is an untracked natural player
+      switch. Any action which would decrease a player's EP below 0
+      is INEFFECTIVE.
       
-      1. 1 apple to move from one Land Unit to an adjacent Unit if their
-         Land Types are the same or one of them is gray, and the
-         destination is not Aether;
+      Players CAN eat a quantity of apples or corn. To eat is to pay a
+      fee of the stated quantity to increase your EP by one for each
+      apple and three for each corn.
       
-      2. 2 apples to move from one Land Unit to an adjacent Unit if
-         their Land Types differ, neither is gray, and the destination
-         is not Aether;
+      Players CAN feed another player a quantity of apples or corn. To
+      feed is to pay a fee of the stated quantity to increase the EP of
+      another player using the values given above.
       
-      3. 2 apples to set Land Type of a Land Unit which e owns to any
-         Land Type other than Aether, whether or not e is located at
-         that Land Unit.
+      At the beginning of the week, each player's Energy Points switch
+      is flipped to 0.
       
-      4. 3 apples to set the Land Type of a Land Unit that is adjacent
-         to the Entity's current location, is of type Aether, and is
-         owned by Agora, to an alternating Land Type.
+      Any player CAN perform any of the following actions by
+      announcement:
       
-      5. 4 apples to set the Land Type of a Land Unit that is adjacent
-         to the Entity's current location, is of type Aether, and is
-         owned by Agora, to a Land Type of eir choice.
+      1. move from one Land Unit to an adjacent Unit. This action
+        decreases eir EP by:
       
-      6. 6 apples to set the Land Type of a Land Unit that is of type
-         Aether, and is owned by Agora, to an alternating Land Type.
+        a. 1 if the their Land Types are the same or one is gray;
+        b. 2 if their Land Types differ, neither is gray, and the
+           destination is not Aether.
       
-      7. 3 apples to Stake a Land Claim on a specified land unit that is
-         adjacent to the Entity's current location, is of type Aether,
-         and is owned by Agora, if and only if e is active, has not
-         staked a land claim in the current month, and has not, in the
-         current or previous month, either won a land auction or been the
-         master of a zombie when the zombie won a land auction.  When e
-         stakes a land claim, the unit's land type is set to the land
-         type of eir choice, then is transferred to em, then e moves onto
-         that unit.
+      2. set the Land Type of a Land Unit that is adjacent to the
+        Entity's current location, is of type Aether, and is owned by
+        Agora, to:
       
-      Players CAN, while performing the above actions, substitute 1 corn
-      for three or fewer apples.
+        a. an alternating Land Type. This action decreases eir EP by 3.
+        b. eir choice of either Black or White. This action decreases
+           eir EP by 4.
+      
+      3. set the Land Type of any Land Unit to:
+      
+        a. if e owns it, eir choice of either Black or White. This
+           action decreases eir EP by 2.
+        b. if Agora owns it, an alternating Land Type. This action
+           decreases eir EP by 6.
+      
+      4. Stake a Land Claim on a specified Land Unit that is adjacent to
+        the Entity's current location, is of type Aether, and is owned
+        by Agora, if and only if e is active, has not staked a land
+        claim in the current month, and has not won a land auction in
+        the current or previous month.  When e stakes a land claim, the
+        unit's land type is set to the land type of eir choice, then is
+        transferred to em, then e moves onto that unit.
       
 History:
 
@@ -4743,6 +4760,8 @@ Amended(16) by Proposal 8055 "Distributed Assets v3" (Aris; with G.),
 Amended(17) by Proposal 8064 "Land Grants" (G.), 2018-07-18
 Amended(18) by Proposal 8088 "Return of the Zombie Loopholes" (Kenyon;
    with twg), 2018-10-01
+Amended(19) by Proposal 8089 "Revamping movement v3.2" (Trigon; with
+   twg, Aris, G., Corona), 2018-10-01
 ------------------------------------------------------------------------
 Rule 2004/10 (Power=1)
 Land Auctions
@@ -4826,9 +4845,10 @@ Preserved Land
 
       Preservation is a boolean land switch, defaulting to False. The
       preservation switch CAN be set by the Cartographor without 2
-      objections. A Land Unit with its preservation switch set to True is
-      considered a preserved Land Unit. A Land Unit with its preservation
-      switch set to False is considered an unconserved Land Unit.
+      objections. A Land Unit with its preservation switch set to True
+      is considered a preserved Land Unit. A Land Unit with its
+      preservation switch set to False is considered an unconserved
+      Land Unit.
       
       Changes to the Land Type or ownership of a preserved land unit
       are secured at a power threshold of 2.5.
@@ -5204,7 +5224,7 @@ Amended(1) by Proposal 8051 "Zombie Overhaul v1.0" (G.; with Aris),
    2018-06-14
 Amended(2) by Proposal 8065 "No undead courts" (twg), 2018-07-18
 ------------------------------------------------------------------------
-Rule 2574/1 (Power=3.0)
+Rule 2574/2 (Power=3.0)
 Zombie Life Cycle
 
       Any player CAN, with Notice, flip the master switch of an active
@@ -5214,7 +5234,9 @@ Zombie Life Cycle
       Resale is a secured natural switch for zombies, tracked by the
       Registrar, with a default value of 2. Whenever a zombie's master
       switch is flipped to a player other than emself, eir resale value
-      is decreased by 1.
+      is decreased by 1. At the end of a zombie auction, every zombie
+      that is an excess lot in that auction has eir resale value
+      decreased by 1.
       
       A zombie with a resale value of 0 CANNOT have eir master switch
       flipped to a player other than emself, rules to the contrary
@@ -5239,6 +5261,7 @@ History:
 
 Enacted by Proposal 8051 "Zombie Overhaul v1.0" (G.; with Aris),
    2018-06-14
+Amended(1) by Proposal 8098 "Zombie Overstock" (G.), 2018-10-01
 ------------------------------------------------------------------------
 Rule 1885/11 (Power=2)
 Zombie Auctions

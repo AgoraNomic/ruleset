@@ -14,6 +14,12 @@ text: |
 
   The Herald CAN award a specified Patent Title to a specified
   player With 2 Agoran Consent.
+
+  If a player publicly petitions that the Herald award a patent
+  title to another player for a specified reason, the Herald SHALL
+  respond in a timely fashion by either attempting to grant an
+  appropriate patent title or explaining publicly why no patent
+  title is warranted.
 history:
 - change:
     type: enactment
@@ -229,6 +235,11 @@ history:
   date: 2018-02-24
   agent:
     proposal: "8011"
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: 8099
 annotations:
 - cfjs:
   - id: '1525'
