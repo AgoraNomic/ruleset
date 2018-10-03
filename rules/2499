@@ -14,8 +14,7 @@ text: |
   3. 5 stones
   4. 10 apples
   5. 3 paper
-  6. 5 incense
-  7. 5 steel
+  6. 5 steel
 history:
 - change:
     type: enactment
@@ -47,4 +46,9 @@ history:
   date: 2018-07-26
   agent:
     proposal: "8072"
+- change:
+    type: amendment
+  date: 2018-09-17
+  agent:
+    proposal: 8092
 annotations: []

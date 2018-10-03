@@ -1212,9 +1212,10 @@ Quorum
       The quorum that an Agoran Decision gains as it is created can be
       defined by other rules of power 2 or greater. If no other rule
       defines the quorum of an Agoran Decision, the quorum for that
-      decision is equal to the number of voters on the Agoran Decision
-      to adopt a proposal that had been most recently resolved at the
-      time of that decision's initiation, minus 2.
+      decision is equal to 2/3 of the number of voters on the Agoran
+      Decision to adopt a proposal that had been most recently resolved
+      at the time of that decision's initiation, the whole rounded to
+      the nearest integer (breaking ties upward).
       
       As an exception to the previous paragraph, the quorum of an
       Agoran Decision can never be less than 2. If the rules would
@@ -2029,6 +2030,32 @@ Win by Paradox
       prevent the paradox from arising again.
       
 ------------------------------------------------------------------------
+Rule 2580/2 (Power=1)
+Round Robin
+
+      The "Effective Date" is the Agoran day that is 8 days after the
+      Agoran day on which this Rule was enacted.  This Rule is
+      automatically repealed at 00:01 UTC on the Agoran day after the
+      Effective Date.
+      
+      The Slate A players are VJ Rada, Cuddle Beam, D. Margaux, Aris,
+      G., omd, Murphy, ATMunn, and Publius Scribonius Scholasticus.
+      
+      The Slate B players are VJ Rada, D. Margaux, G., L., omd, Corona,
+      Trigon, twg, and Publius Scribonius Scholasticus.
+      
+      The Slate C players are Cuddle Beam, Aris, L., Corona, Murphy,
+      Trigon, ATMunn, and twg.
+      
+      The Slate A players CAN win the game by announcement on the
+      Effective Date, unless the Slate B players also CAN win the game
+      by announcement on the Effective Date.
+      
+      The Slate B players CAN win the game by announcement on the
+      Effective Date, unless the Slate C players also CAN win the game
+      by announcement on the Effective Date.
+      
+------------------------------------------------------------------------
 ========================================================================
 Awards
 ------------------------------------------------------------------------
@@ -2531,7 +2558,7 @@ Paydays
       month, a Payday occurs.
       
 ------------------------------------------------------------------------
-Rule 2499/6 (Power=1)
+Rule 2499/7 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
@@ -2546,8 +2573,7 @@ Welcome Packages
       3. 5 stones
       4. 10 apples
       5. 3 paper
-      6. 5 incense
-      7. 5 steel
+      6. 5 steel
       
 ------------------------------------------------------------------------
 Rule 2545/2 (Power=2)
