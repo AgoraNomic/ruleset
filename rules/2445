@@ -7,9 +7,12 @@ text: |
   "not pending" (default).
 
   Any player CAN flip a specified proposal's imminence to "pending"
-  by announcement, but cannot use this method more than five times
-  each week. The first five proposals pended by the Promotor of
-  which e is not the author do not count against eir weekly limit.
+  by announcement. A player SHALL NOT submit and/or pend proposals
+  that, taken collectively, are manifestly unreasonable and excessive
+  (hereafter excess proposals); doing so constitutes the Class-4
+  Crime of Excess Legislation. The Promotor CAN remove a specified
+  excess proposal from the proposal pool by announcement.
+
 history:
 - change:
     type: enactment
@@ -86,4 +89,9 @@ history:
   date: 2018-07-18
   agent:
     proposal: "8061"
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: 8087
 annotations: []

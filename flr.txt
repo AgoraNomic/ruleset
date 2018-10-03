@@ -382,7 +382,7 @@ Amended(7) by Proposal 7653 (Alexis), 2014-06-03
 Amended(8) by Proposal 7728 (Tiger), 2014-11-24
 Amended(9) by Proposal 7736 (aranea), 2015-05-02
 ------------------------------------------------------------------------
-Rule 2445/15 (Power=1)
+Rule 2445/16 (Power=1)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
@@ -390,9 +390,11 @@ How to Pend a Proposal
       "not pending" (default).
       
       Any player CAN flip a specified proposal's imminence to "pending"
-      by announcement, but cannot use this method more than five times
-      each week. The first five proposals pended by the Promotor of
-      which e is not the author do not count against eir weekly limit.
+      by announcement. A player SHALL NOT submit and/or pend proposals
+      that, taken collectively, are manifestly unreasonable and excessive
+      (hereafter excess proposals); doing so constitutes the Class-4
+      Crime of Excess Legislation. The Promotor CAN remove a specified
+      excess proposal from the proposal pool by announcement.
       
 History:
 
@@ -414,6 +416,8 @@ Amended(12) by Proposal 8014 "Putting Agora on a Map v7" (Trigon; with
    Aris, ATMunn, G., o, VJ Rada), 2018-02-24
 Amended(13) by Proposal 8043 "Officer patching" (G.), 2018-05-08
 Amended(14) by Proposal 8061 "Free Proposals" (Aris), 2018-07-18
+Amended(15) by Proposal 8087 "Even Freer Proposals v2" (Aris),
+   2018-10-01
 ------------------------------------------------------------------------
 Rule 1607/46 (Power=3)
 Distribution
@@ -4671,7 +4675,7 @@ Repealed by Proposal 4496 "Sink Arcadia" (Sherlock), 2003-05-13
 Re-enacted and amended(1) by a convergence caused by Proposal 8030
    "PAoaM Patch v4" (Aris; with Gaelan, Trigon, G.), 2018-03-30
 ------------------------------------------------------------------------
-Rule 2003/19 (Power=1)
+Rule 2003/20 (Power=1)
 Actions in Arcadia
 
       Players CAN pay the listed fee to take the associated action:
@@ -4702,10 +4706,12 @@ Actions in Arcadia
       7. 3 apples to Stake a Land Claim on a specified land unit that is
          adjacent to the Entity's current location, is of type Aether,
          and is owned by Agora, if and only if e is active, has not
-         staked a land claim in the current month, and has not won a
-         land auction in the current or previous month.  When e stakes a
-         land claim, the unit's land type is set to the land type of eir
-         choice, then is transferred to em, then e moves onto that unit.
+         staked a land claim in the current month, and has not, in the
+         current or previous month, either won a land auction or been the
+         master of a zombie when the zombie won a land auction.  When e
+         stakes a land claim, the unit's land type is set to the land
+         type of eir choice, then is transferred to em, then e moves onto
+         that unit.
       
       Players CAN, while performing the above actions, substitute 1 corn
       for three or fewer apples.
@@ -4735,6 +4741,8 @@ Amended(15) by Proposal 8052 (V.J. Rada), 2018-06-14
 Amended(16) by Proposal 8055 "Distributed Assets v3" (Aris; with G.),
    2018-07-01
 Amended(17) by Proposal 8064 "Land Grants" (G.), 2018-07-18
+Amended(18) by Proposal 8088 "Return of the Zombie Loopholes" (Kenyon;
+   with twg), 2018-10-01
 ------------------------------------------------------------------------
 Rule 2004/10 (Power=1)
 Land Auctions

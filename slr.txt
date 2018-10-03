@@ -205,7 +205,7 @@ Proposals
       more than 14 days ago.
       
 ------------------------------------------------------------------------
-Rule 2445/15 (Power=1)
+Rule 2445/16 (Power=1)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
@@ -213,9 +213,11 @@ How to Pend a Proposal
       "not pending" (default).
       
       Any player CAN flip a specified proposal's imminence to "pending"
-      by announcement, but cannot use this method more than five times
-      each week. The first five proposals pended by the Promotor of
-      which e is not the author do not count against eir weekly limit.
+      by announcement. A player SHALL NOT submit and/or pend proposals
+      that, taken collectively, are manifestly unreasonable and excessive
+      (hereafter excess proposals); doing so constitutes the Class-4
+      Crime of Excess Legislation. The Promotor CAN remove a specified
+      excess proposal from the proposal pool by announcement.
       
 ------------------------------------------------------------------------
 Rule 1607/46 (Power=3)
@@ -2809,7 +2811,7 @@ Entity Location
       changed, its Location is set to (0, 0).
       
 ------------------------------------------------------------------------
-Rule 2003/19 (Power=1)
+Rule 2003/20 (Power=1)
 Actions in Arcadia
 
       Players CAN pay the listed fee to take the associated action:
@@ -2840,10 +2842,12 @@ Actions in Arcadia
       7. 3 apples to Stake a Land Claim on a specified land unit that is
          adjacent to the Entity's current location, is of type Aether,
          and is owned by Agora, if and only if e is active, has not
-         staked a land claim in the current month, and has not won a
-         land auction in the current or previous month.  When e stakes a
-         land claim, the unit's land type is set to the land type of eir
-         choice, then is transferred to em, then e moves onto that unit.
+         staked a land claim in the current month, and has not, in the
+         current or previous month, either won a land auction or been the
+         master of a zombie when the zombie won a land auction.  When e
+         stakes a land claim, the unit's land type is set to the land
+         type of eir choice, then is transferred to em, then e moves onto
+         that unit.
       
       Players CAN, while performing the above actions, substitute 1 corn
       for three or fewer apples.
