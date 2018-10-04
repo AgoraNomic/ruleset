@@ -189,3 +189,11 @@ annotations:
   text: >
     Claiming to submit more votes than ones voting limit on the
     decision does not constitute the making of a false statement.
+- cfjs:
+  - id: 3647
+    called: 2018-06-24
+  text: >
+    To attempt to "vote in the same way as another player" is
+    ambiguous, because it may refer to the other player's vote at
+    the time of the message (an unconditional vote) or at the time
+    of resolution (a conditional vote).

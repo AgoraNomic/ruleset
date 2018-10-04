@@ -1,5 +1,6 @@
 from os import mkdir
 from hashlib import sha1
+import yaml
 
 def smkdir(fn):
     try:
