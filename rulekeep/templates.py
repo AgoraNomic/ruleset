@@ -10,12 +10,15 @@ def section_heading(name):
     return "{}\n{}\n{}\n".format(line("="), name, line("-"))
 
 def rule_heading(rule):
-    rev = len([i for i in rule["history"]
-        if i["change"]["type"] ==
-               "amendment" or
-               "reenactment" or
-               "infection-amendment"]
-    )
+    rev = 0
+    for i in rule["history"]:
+        try:
+            i["change"]["uncounted"]
+        except KeyError:
+            if i["change"]["type"] in ["amendment",
+                                       "reenactment",
+                                       "infection-amendment"]:
+                rev = rev + 1
     return "Rule {}/{} (Power={})\n{}".format(
         rule["id"], rev, rule["power"], rule["name"]
     )

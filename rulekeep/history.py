@@ -37,7 +37,10 @@ def chtype_string(change):
     elif chtype == "reenactment":
         return "Re-enacted and amended({})"
     elif chtype == "amendment":
-        return "Amended({})"
+        result = "Amended"
+        try: change["uncounted"]
+        except KeyError: result += "({})"
+        return result
     elif chtype == "infection-amendment":
         return "Infected and amended({})"
     elif chtype == "infection":
