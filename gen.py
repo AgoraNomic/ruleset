@@ -57,7 +57,8 @@ for section in yaml.load(get_contents("config/index")):
             write_file("meta/full/" + str(rule), gen)
             flr = flr + gen
 
-if short: write_file("slr.txt", slr)
-if full:  write_file("flr.txt", flr)
+header = header()
+if short: write_file("slr.txt", "THE SHORT LOGICAL RULESET\n\n{}{}".format(header, slr))
+if full:  write_file("flr.txt", "THE FULL LOGICAL RULEST\n\n{}{}".format(header, flr))
 
 write_file("meta/hashlist", hashlist_string(hl))

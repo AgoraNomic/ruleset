@@ -29,3 +29,14 @@ def hashlist_string(dc):
     return "\n".join(
         ["\t".join(line) for line in dc.items()]
     )
+
+def to_int_list(ls):
+    result = []
+    for i in ls:
+        try: result.append(int(i))
+        except ValueError: pass
+    return result
+
+def get_highest(ls):
+    ls.sort()
+    return ls[-1]

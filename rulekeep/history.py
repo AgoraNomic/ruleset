@@ -1,18 +1,25 @@
 import datetime
-from rulekeep.utils import get_contents
+from os import listdir
+from rulekeep.utils import *
 import yaml
 
 cache = {}
+high_eff_proposal = 0
 
-def proposal_data(num):
-    snum = str(num)
+def proposal_data(num, log=False):
+    global high_eff_proposal
+    try: high_eff_proposal = max(int(num), high_eff_proposal)
+    except ValueError: pass
     try:
-        cache[snum]
+        cache[num]
+        if log: print("\tp%s\talready scanned" % num)
     except KeyError:
-        cache[snum] = yaml.load(
-            get_contents("proposals/{}".format(num))
+        if log: print("\tp%s\treading from file " % num)
+        cache[num] = yaml.load(
+            get_contents("proposals/" + num)
         )
-    return cache[snum]
+        if log: print("\t\tread")
+    return cache[num]
 
 def chtype_string(change):
     chtype = change["type"]
@@ -133,3 +140,13 @@ def change_string(ch):
     except: pass
 
     return result
+
+def high_proposal():
+    return get_highest(to_int_list(listdir("proposals")))
+
+def high_rule():
+    return get_highest(to_int_list(listdir("rules")))
+
+def get_hep():
+    global high_eff_proposal
+    return high_eff_proposal
