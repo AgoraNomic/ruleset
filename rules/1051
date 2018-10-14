@@ -9,7 +9,16 @@ text: |
   The Rulekeepor's Monthly report includes the Full Logical Ruleset.
 history:
 - change:
-    type: unknown
+    type: enactment
+  date:
+    around: 1993-08-28
+  agent:
+    proposal: "399"
+- change:
+    type: amendment
+    uncounted: true
+  agent:
+    proposal: "1051"
 - change:
     type: amendment
   date: 1995-10-15

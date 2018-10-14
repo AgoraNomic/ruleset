@@ -4,12 +4,8 @@ from rulekeep.utils import *
 import yaml
 
 cache = {}
-high_eff_proposal = 0
 
 def proposal_data(num, log=False):
-    global high_eff_proposal
-    try: high_eff_proposal = max(int(num), high_eff_proposal)
-    except ValueError: pass
     try:
         cache[num]
         if log: print("\tp%s\talready scanned" % num)
@@ -76,16 +72,24 @@ def chtype_string(change):
 def agent_string(agent):
     try:
         proposal = agent["proposal"]
-        result = "Proposal " + str(proposal)
+        result = "P" + str(proposal)
         data = proposal_data(proposal)
 
-        try: result = result + " \"%s\"" % data["title"]
+        try: result = result + " '%s'" % data["title"]
+        except KeyError: pass
+
+        metadata = []
+
+        try: metadata.append(data["chamber"])
         except KeyError: pass
         
         try:
-            if proposal_data(proposal)["disinterested"]:
-                result = result + " [disinterested]"
+            if data["disinterested"]:
+                metadata.append("disi.")
         except KeyError: pass
+
+        if metadata != []:
+            result = result + " [%s]" % ", ".join(metadata)
         
         try:
             data["author"]
@@ -94,7 +98,7 @@ def agent_string(agent):
             return result
     except KeyError: pass
 
-    try: return "Rule %d" % agent["rule"]
+    try: return "R%d" % agent["rule"]
     except KeyError: pass
 
     try: return "a convergence caused by " + agent_string(agent["convergence"])
@@ -117,7 +121,7 @@ def proposal_blame(num):
     try:
         coauthors = proposal["coauthors"]
         if coauthors != []:
-            result = result + "; with " + ", ".join(coauthors)
+            result = ", ".join([result, *coauthors])
     except KeyError: pass
     except TypeError: pass
     return result + ")"
@@ -141,12 +145,8 @@ def change_string(ch):
 
     return result
 
-def high_proposal():
-    return get_highest(to_int_list(listdir("proposals")))
-
-def high_rule():
-    return get_highest(to_int_list(listdir("rules")))
-
-def get_hep():
-    global high_eff_proposal
-    return high_eff_proposal
+def get_stats():
+    return {
+        "hp": get_highest(to_int_list(listdir("proposals"))),
+        "hr": get_highest(to_int_list(listdir("rules")))
+    }

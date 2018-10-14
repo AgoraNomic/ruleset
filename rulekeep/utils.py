@@ -1,3 +1,4 @@
+from sys import argv
 from os import mkdir
 from hashlib import sha1
 import yaml
@@ -20,14 +21,14 @@ def write_file(fn, tx):
 def get_hash(tx):
     return sha1(bytes(str(tx), "utf8")).hexdigest()
 
-def string_hashlist(tx):
+def string_tablist(tx):
     return {id: hash for id, hash in
-        [line.split("\t") for line in tx.split("\n")]
+        [[line.split("\t")[0], line.split("\t")[1:]] for line in tx.split("\n")]
     }
 
-def hashlist_string(dc):
+def tablist_string(dc):
     return "\n".join(
-        ["\t".join(line) for line in dc.items()]
+        ["\t".join([line[0], *[str(i) for i in line[1]]]) for line in dc.items()]
     )
 
 def to_int_list(ls):
@@ -39,4 +40,13 @@ def to_int_list(ls):
 
 def get_highest(ls):
     ls.sort()
-    return ls[-1]
+    try: return ls[-1]
+    except: return -1
+
+def is_in(target, char):
+    if target.find(char) == -1: return False
+    else: return True
+
+def args_contain(st):
+    if is_in(argv[1], st): return True
+    else: return False

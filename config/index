@@ -13,26 +13,14 @@
   rules:
   - 869  # How to Join and Leave Agora
   - 478  # Fora
-  - 2575 # The Distributor
   - 2139 # The Registrar
   - 1789 # Cantus Cygneus
-- name: Proposals
-  note: |
-    Proposals are a staple of Nomic games. If you're a new player, this
-    is another important section, since the way proposals work in this
-    Nomic is a little bit complicated.
-  rules:
-  - 2350 # Proposals
-  - 2445 # How to Pend a Proposal
-  - 1607 # Distribution
-  - 2137 # The Assessor
-  - 106  # Adopting Proposals
 - name: General Definitions
   note: |
     This section describes the terminology used by all the other rules.
     If, when reading a rule, you don't understand what a word means,
-    chances are that the Agoran definition of that word is described
-    in one of these rules.
+    chances are that the Agoran definition of that word is described in
+    one of these rules.
   rules:
   - 2152 # Mother, May I?
   - 2162 # Switches
@@ -46,6 +34,17 @@
   - 1586 # Definition and Continuity of Entities
   - 2505 # Random Choices
   - 2517 # Conditionals and Extricability
+- name: Proposals
+  note: |
+    Proposals are a staple of Nomic games. If you're a new player, this
+    is another important section, since the way proposals work in this
+    Nomic is a little bit complicated.
+  rules:
+  - 2350 # Proposals
+  - 2445 # How to Pend a Proposal
+  - 1607 # Distribution
+  - 2137 # The Assessor
+  - 106  # Adopting Proposals
 - name: Rules & Regulations
   note: |
     Ah, yes. What would any game be without rules? And these rules
@@ -84,9 +83,9 @@
   - 2034 # Vote Protection and Cutoff for Challenges
 - name: Offices & Reporting
   note: |
-    Players who hold offices have control over and track various
-    different mechanics. These rules govern the special responsibilities
-    that officers have.
+    Players who hold offices have control over and track various different
+    mechanics. These rules govern the special responsibilities that
+    officers have.
   rules:
   - 1006 # Offices
   - 2143 # Official Reports and Duties
@@ -99,16 +98,6 @@
   - 1551 # Ratification
   - 2202 # Ratification Without Objection
   - 2201 # Self-Ratification
-- name: Calls for Judgement
-  note: |
-    But what if the ruleset is ambiguous? What if we can't decide what a
-    rule means? Well then, it's time to call a CFJ.
-  rules:
-  - 991  # Calls for Judgement
-  - 591  # Delivering Judgements
-  - 911  # Motions and Moots
-  - 2175 # Judicial Retraction and Excess
-  - 2492 # Recusal
 - name: Justice
   note: |
     So you've broken a rule. Now what? This section describes Blots, the
@@ -120,32 +109,16 @@
   - 2479 # Official Justice
   - 2557 # Sentencing Guidelines
   - 2531 # Referee Accountability
-- name: Winning
+- name: Calls for Judgement
   note: |
-    All games have winners, and Agora is no exception. If you're
-    interested in getting some serious bragging points among the Agorans,
-    this is the right place to look.
+    What if there is a rule conflict? What if we can't decide what a rule
+    means? Well then, it's time to call a CFJ.
   rules:
-  - 2449 # Winning the Game
-  - 2452 # Trust Tokens
-  - 2465 # Victory by Apathy
-  - 2510 # Such is Karma
-  - 2511 # Karmic Balance
-  - 2553 # Win by Paradox
-  - 2580 # Round Robin
-- name: Awards
-  note: |
-    Even if it's not a win, there are still a good few opportunities to
-    win bragging points, like Ribbons and Patent Titles.
-  rules:
-  - 2438 # Ribbons
-  - 2480 # Festivals
-  - 2481 # Festival Restrictions
-  - 649  # Patent Titles
-  - 2444 # Silver Quill
-  - 2415 # Badges
-  - 1367 # Degrees
-  - 2231 # Order of the Hero of Agora Nomic
+  - 991  # Calls for Judgement
+  - 591  # Delivering Judgements
+  - 911  # Motions and Moots
+  - 2175 # Judicial Retraction and Excess
+  - 2492 # Recusal
 - name: Obligations & Contracts
   note: |
     Agreements, promises, treaties, whatever you call them. This section
@@ -218,6 +191,31 @@
   - 2532 # Zombies
   - 2574 # Zombie Life Cycle
   - 1885 # Zombie Actions
+- name: Winning
+  note: |
+    All games have winners, and Agora is no exception. If you're
+    interested in getting some serious bragging points among the Agorans,
+    this is the right place to look.
+  rules:
+  - 2449 # Winning the Game
+  - 2452 # Trust Tokens
+  - 2465 # Victory by Apathy
+  - 2510 # Such is Karma
+  - 2511 # Karmic Balance
+  - 2553 # Win by Paradox
+- name: Awards
+  note: |
+    Even if it's not a win, there are still a good few opportunities to
+    win bragging points, like Ribbons and Patent Titles.
+  rules:
+  - 2438 # Ribbons
+  - 2480 # Festivals
+  - 2481 # Festival Restrictions
+  - 649  # Patent Titles
+  - 2444 # Silver Quill
+  - 2415 # Badges
+  - 1367 # Degrees
+  - 2231 # Order of the Hero of Agora Nomic
 - name: Figureheads
   note: |
     Agora has a good few figurehead leaders, none of which possess all
@@ -228,6 +226,7 @@
   - 2423 # First Among Equals
   - 2463 # Motion of No Confidence
   - 2451 # Executive Orders
+  - 2575 # The Distributor
 - name: Agoran Culture
   note: |
     Nothing in here is all that important. Mostly describes holidays and

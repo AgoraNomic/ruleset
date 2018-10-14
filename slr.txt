@@ -1,15 +1,19 @@
 THE SHORT LOGICAL RULESET
 
-Highest ID'd proposal affecting this ruleset: Proposal 8102 "Slate B to
-   Win (v2.1)" (D. Margaux; with Aris, G., ais523)
-Highest ID'd rule in this ruleset: Rule 2580
+Date of last report:
 
-Proposal with highest ID: Proposal 8102 "Slate B to Win (v2.1)" (D.
-   Margaux; with Aris, G., ais523)
-Rule with highest ID: 2580
+Number of rules currently enacted: 144
+
+Most recent change to this ruleset: Rule 2580 repeals itself, 2018-10-10
+
+Highest ID'd rule in this ruleset: 2579
+Highest ID'd Proposal Passed: 8102
+Highest ID'd Rule Enacted: 2580
 
 ========================================================================
 The Game of Agora
+   This section includes a few rules concerning the Nature of the Game
+   of Agora.
 ------------------------------------------------------------------------
 Rule 101/17 (Power=4)
 The Game of Agora
@@ -41,6 +45,9 @@ Agora Is A Nomic
 ------------------------------------------------------------------------
 ========================================================================
 Players
+   This small section provides some rules detailing how joining and
+   leaving Agora works. If you're a new player, this is probably the
+   most important section to read.
 ------------------------------------------------------------------------
 Rule 869/44 (Power=3)
 How to Join and Leave Agora
@@ -112,17 +119,6 @@ Fora
       message, unless otherwise specified.
       
 ------------------------------------------------------------------------
-Rule 2575/0 (Power=3.0)
-The Distributor
-
-      The Distributor is an imposed office whose holder is generally
-      responsible for the management of the primary Agoran fora. The
-      holder CANNOT be changed except Without Objection or by proposal.
-      Rules to the contrary notwithstanding, the Distributor's master
-      switch CANNOT be flipped to be other than emself, and e CANNOT
-      deregister or be deregistered.
-      
-------------------------------------------------------------------------
 Rule 2139/12 (Power=2)
 The Registrar
 
@@ -181,129 +177,11 @@ Cantus Cygneus
       
 ------------------------------------------------------------------------
 ========================================================================
-Proposals
-------------------------------------------------------------------------
-Rule 2350/9 (Power=3)
-Proposals
-
-      A proposal is a type of entity consisting of a body of text and
-      other attributes. A player CAN create a proposal by announcement,
-      specifying its text and optionally specifying any of the following
-      attributes:
-      
-      * An associated title.
-      
-      * A list of co-authors (which must be persons other than the
-        author).
-      
-      * An adoption index.
-      
-      Creating a proposal adds it to the Proposal Pool. Once a proposal
-      is created, nether its text nor any of the aforementioned
-      attributes can be changed. The author (syn. proposer) of a
-      proposal is the person who submitted it.
-      
-      If a decision of whether to adopt a proposal was resolved as
-      FAILED QUORUM in the last seven days, the Promotor CAN once add
-      the proposal back to the Proposal Pool by announcement.
-      
-      The author of a proposal in the Proposal Pool CAN remove (syn.
-      retract, withdraw) it from the Pool by announcement.
-      
-      The Promotor CAN remove a proposal from the Proposal Pool by
-      announcement if it is not pending and has been added to the Pool
-      more than 14 days ago.
-      
-------------------------------------------------------------------------
-Rule 2445/15 (Power=1)
-How to Pend a Proposal
-
-      Imminence is a switch, tracked by the Promotor, possessed by
-      proposals in the Proposal Pool, whose value is either "pending" or
-      "not pending" (default).
-      
-      Any player CAN flip a specified proposal's imminence to "pending"
-      by announcement. A player SHALL NOT submit and/or pend proposals
-      that, taken collectively, are manifestly unreasonable and
-      excessive (hereafter excess proposals); doing so constitutes the
-      Class-4 Crime of Excess Legislation. The Promotor CAN remove a
-      specified excess proposal from the proposal pool by announcement.
-      
-------------------------------------------------------------------------
-Rule 1607/43 (Power=3)
-Distribution
-
-      The Promotor is an office; its holder is responsible for receiving
-      and distributing proposals.
-      
-      Determining whether to adopt a proposal is an Agoran decision. For
-      this decision, the vote collector is the Assessor, the adoption
-      index is initially the adoption index of the proposal, or 1.0 if
-      the proposal does not have one, and the text, author, and
-      coauthors of the proposal are essential parameters. Initiating
-      such a decision is known as distribution, and removes the proposal
-      from the Proposal Pool.
-      
-      The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time, by announcement. The Promotor SHALL NOT
-      distribute proposals which are not pending.
-      
-      In a given Agoran week, the Promotor SHALL, as part of eir weekly
-      duties, distribute all pending proposals except for those exempted
-      from automatic distribution by other rules.
-      
-      Distributed proposals have ID numbers, to be assigned by the
-      Promotor.
-      
-      If there is a Proposal in the Pool that it would otherwise be
-      IMPOSSIBLE for any player to distribute, then any player CAN
-      distribute that Proposal Without 3 Objections.
-      
-      The Promotor's report includes a list of all proposals in the
-      Proposal Pool, along with their text and attributes. This portion
-      of a public document purporting to be a Promotor's report is
-      self-ratifying.
-      
-------------------------------------------------------------------------
-Rule 2137/2 (Power=1)
-The Assessor
-
-      The Assessor is an office; its holder is responsible for
-      collecting votes and keeping track of related properties.
-      
-------------------------------------------------------------------------
-Rule 106/40 (Power=3)
-Adopting Proposals
-
-      When a decision about whether to adopt a proposal is resolved, if
-      the outcome is ADOPTED, then the proposal in question is adopted,
-      and unless other rules prevent it from taking effect, its power is
-      set to the minimum of four and its adoption index, and then it
-      takes effect. Except as prohibited by other rules, a proposal that
-      takes effect CAN and does, as part of its effect, apply the
-      changes that it specifies. Clearly marked comments are considered
-      to be removed from the proposal before it takes effect, unless
-      otherwise stated by the proposal. If the proposal cannot make some
-      such changes, this does not preclude the other changes from taking
-      place.
-      
-      If there is no Agoran Decision to adopt a particular proposal that
-      has an outcome of ADOPTED, that proposal CANNOT take effect, rules
-      to the contrary notwithstanding.
-      
-      Preventing a proposal from taking effect is a secured change; this
-      does not apply to generally preventing changes to specified areas
-      of the gamestate, nor to a proposal preventing itself from taking
-      effect (its no- effect clause is generally interpreted as applying
-      only to the rest of the proposal). Except insofar as the actions
-      performed by a proposal happen one after another, rather than
-      simultaneously, a proposal's effect is instantaneous. A proposal
-      can neither delay nor extend its own effect. Once a propsal
-      finishes taking effect, its power is set to 0.
-      
-------------------------------------------------------------------------
-========================================================================
 General Definitions
+   This section describes the terminology used by all the other rules.
+   If, when reading a rule, you don't understand what a word means,
+   chances are that the Agoran definition of that word is described in
+   one of these rules.
 ------------------------------------------------------------------------
 Rule 2152/7 (Power=3)
 Mother, May I?
@@ -343,7 +221,7 @@ Mother, May I?
          carefully weighed.
       
 ------------------------------------------------------------------------
-Rule 2162/11 (Power=3.0)
+Rule 2162/11 (Power=3)
 Switches
 
       A type of switch is a property that the rules define as a switch,
@@ -712,7 +590,135 @@ Conditionals and Extricability
       
 ------------------------------------------------------------------------
 ========================================================================
+Proposals
+   Proposals are a staple of Nomic games. If you're a new player, this
+   is another important section, since the way proposals work in this
+   Nomic is a little bit complicated.
+------------------------------------------------------------------------
+Rule 2350/9 (Power=3)
+Proposals
+
+      A proposal is a type of entity consisting of a body of text and
+      other attributes. A player CAN create a proposal by announcement,
+      specifying its text and optionally specifying any of the following
+      attributes:
+      
+      * An associated title.
+      
+      * A list of co-authors (which must be persons other than the
+        author).
+      
+      * An adoption index.
+      
+      Creating a proposal adds it to the Proposal Pool. Once a proposal
+      is created, nether its text nor any of the aforementioned
+      attributes can be changed. The author (syn. proposer) of a
+      proposal is the person who submitted it.
+      
+      If a decision of whether to adopt a proposal was resolved as
+      FAILED QUORUM in the last seven days, the Promotor CAN once add
+      the proposal back to the Proposal Pool by announcement.
+      
+      The author of a proposal in the Proposal Pool CAN remove (syn.
+      retract, withdraw) it from the Pool by announcement.
+      
+      The Promotor CAN remove a proposal from the Proposal Pool by
+      announcement if it is not pending and has been added to the Pool
+      more than 14 days ago.
+      
+------------------------------------------------------------------------
+Rule 2445/15 (Power=1)
+How to Pend a Proposal
+
+      Imminence is a switch, tracked by the Promotor, possessed by
+      proposals in the Proposal Pool, whose value is either "pending" or
+      "not pending" (default).
+      
+      Any player CAN flip a specified proposal's imminence to "pending"
+      by announcement. A player SHALL NOT submit and/or pend proposals
+      that, taken collectively, are manifestly unreasonable and
+      excessive (hereafter excess proposals); doing so constitutes the
+      Class-4 Crime of Excess Legislation. The Promotor CAN remove a
+      specified excess proposal from the proposal pool by announcement.
+      
+------------------------------------------------------------------------
+Rule 1607/43 (Power=3)
+Distribution
+
+      The Promotor is an office; its holder is responsible for receiving
+      and distributing proposals.
+      
+      Determining whether to adopt a proposal is an Agoran decision. For
+      this decision, the vote collector is the Assessor, the adoption
+      index is initially the adoption index of the proposal, or 1.0 if
+      the proposal does not have one, and the text, author, and
+      coauthors of the proposal are essential parameters. Initiating
+      such a decision is known as distribution, and removes the proposal
+      from the Proposal Pool.
+      
+      The Promotor CAN distribute a proposal which is in the Proposal
+      Pool at any time, by announcement. The Promotor SHALL NOT
+      distribute proposals which are not pending.
+      
+      In a given Agoran week, the Promotor SHALL, as part of eir weekly
+      duties, distribute all pending proposals except for those exempted
+      from automatic distribution by other rules.
+      
+      Distributed proposals have ID numbers, to be assigned by the
+      Promotor.
+      
+      If there is a Proposal in the Pool that it would otherwise be
+      IMPOSSIBLE for any player to distribute, then any player CAN
+      distribute that Proposal Without 3 Objections.
+      
+      The Promotor's report includes a list of all proposals in the
+      Proposal Pool, along with their text and attributes. This portion
+      of a public document purporting to be a Promotor's report is
+      self-ratifying.
+      
+------------------------------------------------------------------------
+Rule 2137/2 (Power=1)
+The Assessor
+
+      The Assessor is an office; its holder is responsible for
+      collecting votes and keeping track of related properties.
+      
+------------------------------------------------------------------------
+Rule 106/40 (Power=3)
+Adopting Proposals
+
+      When a decision about whether to adopt a proposal is resolved, if
+      the outcome is ADOPTED, then the proposal in question is adopted,
+      and unless other rules prevent it from taking effect, its power is
+      set to the minimum of four and its adoption index, and then it
+      takes effect. Except as prohibited by other rules, a proposal that
+      takes effect CAN and does, as part of its effect, apply the
+      changes that it specifies. Clearly marked comments are considered
+      to be removed from the proposal before it takes effect, unless
+      otherwise stated by the proposal. If the proposal cannot make some
+      such changes, this does not preclude the other changes from taking
+      place.
+      
+      If there is no Agoran Decision to adopt a particular proposal that
+      has an outcome of ADOPTED, that proposal CANNOT take effect, rules
+      to the contrary notwithstanding.
+      
+      Preventing a proposal from taking effect is a secured change; this
+      does not apply to generally preventing changes to specified areas
+      of the gamestate, nor to a proposal preventing itself from taking
+      effect (its no- effect clause is generally interpreted as applying
+      only to the rest of the proposal). Except insofar as the actions
+      performed by a proposal happen one after another, rather than
+      simultaneously, a proposal's effect is instantaneous. A proposal
+      can neither delay nor extend its own effect. Once a propsal
+      finishes taking effect, its power is set to 0.
+      
+------------------------------------------------------------------------
+========================================================================
 Rules & Regulations
+   Ah, yes. What would any game be without rules? And these rules
+   describe how rules work. This section also describes the governance
+   of the Rulekeepor.
 ------------------------------------------------------------------------
 Rule 2141/10 (Power=3)
 Role and Attributes of Rules
@@ -908,7 +914,7 @@ Rule Changes
       a rule or cease to be a rule.
       
 ------------------------------------------------------------------------
-Rule 2493/4 (Power=3.0)
+Rule 2493/4 (Power=3)
 Regulations
 
       A regulation is an textual entity defined as such by this rule,
@@ -1022,6 +1028,8 @@ Bleach
 ------------------------------------------------------------------------
 ========================================================================
 Voting
+   Voting is used primarily for Proposals and Elections. This section
+   describes Agoran Decisions and how to resolve them.
 ------------------------------------------------------------------------
 Rule 693/16 (Power=3)
 Agoran Decisions
@@ -1335,6 +1343,9 @@ Vote Protection and Cutoff for Challenges
 ------------------------------------------------------------------------
 ========================================================================
 Offices & Reporting
+   Players who hold offices have control over and track various different
+   mechanics. These rules govern the special responsibilities that
+   officers have.
 ------------------------------------------------------------------------
 Rule 1006/42 (Power=2)
 Offices
@@ -1554,7 +1565,7 @@ Election Procedure
       office and the election ends.
       
 ------------------------------------------------------------------------
-Rule 2573/0 (Power=2.0)
+Rule 2573/0 (Power=2)
 Impeachment
 
       A player CAN be expelled (impeached) from a specified elected
@@ -1646,7 +1657,150 @@ Self-Ratification
       
 ------------------------------------------------------------------------
 ========================================================================
+Justice
+   So you've broken a rule. Now what? This section describes Blots, the
+   main method of punishment for Agorans.
+------------------------------------------------------------------------
+Rule 2556/0 (Power=3)
+Penalties
+
+      Rules to the contrary notwithstanding, an impure person CANNOT win
+      the game.
+      
+      The voting strength of a player on an Agoran Decision is reduced
+      by 1 for every 3 blots in eir possession.
+      
+      A player CAN, with 7 days notice, deregister (exile) a specified
+      player (the outlaw) who has more than 40 blots.
+      
+------------------------------------------------------------------------
+Rule 2555/1 (Power=2)
+Blots
+
+      Blots are an indestructible fixed currency with ownership
+      restricted to persons. A person with 1 or more blots is Impure, a
+      person with 0 blots is Pure. An impure unregistered person is a
+      Fugitive.
+      
+      To Levy a Fine of N on a person, where N is a positive integer, is
+      to create N blots in eir possession by announcement. To Expunge a
+      blot is to destroy it by announcement. If expunging blots would
+      reduce a person's blots to less than 0, their blots are instead
+      reduced to 0 but the cost of expunging, if any, is not reduced.
+      
+      Levying fines and destroying blots are each secured with a power
+      threshold of 1.7.
+      
+      The Referee is an office, and the recordkeepor for blots.
+      
+      If a player has neither gained blots nor expunged any blots from
+      emself in the current Agoran week, e CAN expunge 1 blot from
+      emself by announcement.
+      
+      At the beginning of each quarter, half (rounded down) of each
+      fugitive's blots are destroyed.
+      
+------------------------------------------------------------------------
+Rule 2478/7 (Power=1.7)
+Vigilante Justice
+
+      A player CAN by announcement, but subject to the provisions of
+      this rule, Point eir Finger at a person (the perp) who plays the
+      game, citing an alleged violation of the rules by that person.
+      
+      When a player Points a Finger, the investigator SHALL investigate
+      the allegation and, in a timely fashion, SHALL conclude the
+      investigation by:
+      
+      - Imposing the Cold Hand of Justice on the perp, as described
+      - elsewhere; or
+      
+      - if e believes that no rules violation occurred or that it would
+      - be ILLEGAL to levy a fine for it, announcing the Finger Pointing
+      - to be Shenanigans.
+      
+      The Referee is by default the investigator for all Finger
+      Pointing. When a Finger, other than the Arbitor's, is Pointed over
+      an allegation related to the official duties or powers of the
+      Referee, then the Arbitor CAN, by announcement, take over the
+      investigation and thereby become the investigator.
+      
+      The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
+      Finger at the Referee.
+      
+------------------------------------------------------------------------
+Rule 2479/5 (Power=1.7)
+Official Justice
+
+      The Referee CAN, subject to the provisions of this rule, impose
+      Summary Judgment on a person who plays the game by levying a fine
+      of up to 2 blots on em. Summary Judgement is imposed on the
+      Referee's own initiative, and not in response to any official
+      proceeding.
+      
+      The Referee CANNOT impose Summary Judgement more than three times
+      a week.
+      
+------------------------------------------------------------------------
+Rule 2557/1 (Power=1.7)
+Removing Blots
+
+      When the rules authorize an investigator to impose the Cold Hand
+      of Justice for a violation, e CAN do so by levying a fine on the
+      perp with a minimum of 1 and a maximum of 2x the base value of the
+      violation, within the following guidelines:
+      
+      - If the violation is described by the rules as a Class N crime,
+        then N is the base value; otherwise the base value is 2.
+      
+      - The fine SHOULD be reduced to the degree that the violation is a
+        minor, accidental, and/or inconsequential infraction.
+      
+      - The fine SHOULD be increased to the degree that the violation is
+        willful, profitable, egregious, or an abuse of an official
+        position.
+      
+      Optionally, in the same message in which e imposes justice, the
+      investigator CAN specify that the violation is forgivable,
+      specifying up to 10 words to be included in an apology.  If the
+      investigator does so, the perp CAN, in a timely fashion, expunge P
+      blots from emself, where P is the minimum of the value of the fine
+      and 3, by publishing a formal apology of at least 200 words and
+      including all the specified words, explaining eir error, shame,
+      remorse, and ardent desire for self-improvement.
+      
+------------------------------------------------------------------------
+Rule 2531/2 (Power=2)
+Referee Accountability
+
+      Any attempt to levy a fine is INEFFECTIVE if it does not include
+      (1) value of the fine in blots, (2) the name of the person being
+      fined (the perp), and (3) the specific reason for the fine, or if
+      it attempts to levy a fine on a person for an action or inaction
+      which e (more likely than not) did not commit, or if it attempts
+      to levy a fine for an action or inaction which is not prohibited
+      by law, or if it attempts to levy a fine with a value which is
+      blatantly and obviously unsuited to the conduct which constitutes
+      the reason for its levy or to the person to which it is being
+      levied, or if it is made more than 14 days after the conduct
+      constituting the reason for the fine, or if it attempts to levy a
+      fine to a player who has already been levied a fine for the
+      conduct constituting the reason for the levy, or if it attempts to
+      levy a fine on a zombie for an action that its master performed on
+      its behalf.
+      
+      If the Referee attempts to levy three or more INEFFECTIVE fines in
+      a week, any player CAN, with two support, issue a writ of
+      Impartial Arbitration Restoration, immediately making the position
+      of Referee vacant. When a writ of Impartial Arbitration
+      Restoration is issued, the ADoP SHALL initiate an election for the
+      Referee within a timely fashion.
+      
+------------------------------------------------------------------------
+========================================================================
 Calls for Judgement
+   What if there is a rule conflict? What if we can't decide what a rule
+   means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
 Rule 991/28 (Power=2)
 Calls for Judgement
@@ -1796,521 +1950,10 @@ Recusal
       
 ------------------------------------------------------------------------
 ========================================================================
-Justice
-------------------------------------------------------------------------
-Rule 2556/0 (Power=3.0)
-Penalties
-
-      Rules to the contrary notwithstanding, an impure person CANNOT win
-      the game.
-      
-      The voting strength of a player on an Agoran Decision is reduced
-      by 1 for every 3 blots in eir possession.
-      
-      A player CAN, with 7 days notice, deregister (exile) a specified
-      player (the outlaw) who has more than 40 blots.
-      
-------------------------------------------------------------------------
-Rule 2555/1 (Power=2.0)
-Blots
-
-      Blots are an indestructible fixed currency with ownership
-      restricted to persons. A person with 1 or more blots is Impure, a
-      person with 0 blots is Pure. An impure unregistered person is a
-      Fugitive.
-      
-      To Levy a Fine of N on a person, where N is a positive integer, is
-      to create N blots in eir possession by announcement. To Expunge a
-      blot is to destroy it by announcement. If expunging blots would
-      reduce a person's blots to less than 0, their blots are instead
-      reduced to 0 but the cost of expunging, if any, is not reduced.
-      
-      Levying fines and destroying blots are each secured with a power
-      threshold of 1.7.
-      
-      The Referee is an office, and the recordkeepor for blots.
-      
-      If a player has neither gained blots nor expunged any blots from
-      emself in the current Agoran week, e CAN expunge 1 blot from
-      emself by announcement.
-      
-      At the beginning of each quarter, half (rounded down) of each
-      fugitive's blots are destroyed.
-      
-------------------------------------------------------------------------
-Rule 2478/7 (Power=1.7)
-Vigilante Justice
-
-      A player CAN by announcement, but subject to the provisions of
-      this rule, Point eir Finger at a person (the perp) who plays the
-      game, citing an alleged violation of the rules by that person.
-      
-      When a player Points a Finger, the investigator SHALL investigate
-      the allegation and, in a timely fashion, SHALL conclude the
-      investigation by:
-      
-      - Imposing the Cold Hand of Justice on the perp, as described
-      - elsewhere; or
-      
-      - if e believes that no rules violation occurred or that it would
-      - be ILLEGAL to levy a fine for it, announcing the Finger Pointing
-      - to be Shenanigans.
-      
-      The Referee is by default the investigator for all Finger
-      Pointing. When a Finger, other than the Arbitor's, is Pointed over
-      an allegation related to the official duties or powers of the
-      Referee, then the Arbitor CAN, by announcement, take over the
-      investigation and thereby become the investigator.
-      
-      The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
-      Finger at the Referee.
-      
-------------------------------------------------------------------------
-Rule 2479/5 (Power=1.7)
-Official Justice
-
-      The Referee CAN, subject to the provisions of this rule, impose
-      Summary Judgment on a person who plays the game by levying a fine
-      of up to 2 blots on em. Summary Judgement is imposed on the
-      Referee's own initiative, and not in response to any official
-      proceeding.
-      
-      The Referee CANNOT impose Summary Judgement more than three times
-      a week.
-      
-------------------------------------------------------------------------
-Rule 2557/1 (Power=1.7)
-Removing Blots
-
-      When the rules authorize an investigator to impose the Cold Hand
-      of Justice for a violation, e CAN do so by levying a fine on the
-      perp with a minimum of 1 and a maximum of 2x the base value of the
-      violation, within the following guidelines:
-      
-      - If the violation is described by the rules as a Class N crime,
-        then N is the base value; otherwise the base value is 2.
-      
-      - The fine SHOULD be reduced to the degree that the violation is a
-        minor, accidental, and/or inconsequential infraction.
-      
-      - The fine SHOULD be increased to the degree that the violation is
-        willful, profitable, egregious, or an abuse of an official
-        position.
-      
-      Optionally, in the same message in which e imposes justice, the
-      investigator CAN specify that the violation is forgivable,
-      specifying up to 10 words to be included in an apology.  If the
-      investigator does so, the perp CAN, in a timely fashion, expunge P
-      blots from emself, where P is the minimum of the value of the fine
-      and 3, by publishing a formal apology of at least 200 words and
-      including all the specified words, explaining eir error, shame,
-      remorse, and ardent desire for self-improvement.
-      
-------------------------------------------------------------------------
-Rule 2531/2 (Power=2)
-Referee Accountability
-
-      Any attempt to levy a fine is INEFFECTIVE if it does not include
-      (1) value of the fine in blots, (2) the name of the person being
-      fined (the perp), and (3) the specific reason for the fine, or if
-      it attempts to levy a fine on a person for an action or inaction
-      which e (more likely than not) did not commit, or if it attempts
-      to levy a fine for an action or inaction which is not prohibited
-      by law, or if it attempts to levy a fine with a value which is
-      blatantly and obviously unsuited to the conduct which constitutes
-      the reason for its levy or to the person to which it is being
-      levied, or if it is made more than 14 days after the conduct
-      constituting the reason for the fine, or if it attempts to levy a
-      fine to a player who has already been levied a fine for the
-      conduct constituting the reason for the levy, or if it attempts to
-      levy a fine on a zombie for an action that its master performed on
-      its behalf.
-      
-      If the Referee attempts to levy three or more INEFFECTIVE fines in
-      a week, any player CAN, with two support, issue a writ of
-      Impartial Arbitration Restoration, immediately making the position
-      of Referee vacant. When a writ of Impartial Arbitration
-      Restoration is issued, the ADoP SHALL initiate an election for the
-      Referee within a timely fashion.
-      
-------------------------------------------------------------------------
-========================================================================
-Winning
-------------------------------------------------------------------------
-Rule 2449/3 (Power=3)
-Winning the Game
-
-      When the Rules state that a person or persons win the game, those
-      persons win the game; specifically they win the Round that ends
-      with the indicated win. Agora itself does not end and the ruleset
-      remains unchanged. The Herald is then authorized to award those
-      persons the Patent Title of Champion once, by announcement.
-      
-------------------------------------------------------------------------
-Rule 2452/2 (Power=0.5)
-Trust Tokens
-
-      Any player can issue a Trust Token to another person by
-      announcement.
-      
-      When the Assessor resolves a Decision to adopt a proposal, then
-      any player who cast a valid vote on the Decision and was endorsed
-      by another player's valid vote on the Decision is issued a Trust
-      Token by the endorsing player.
-      
-      A person can win the game by announcement if e has been issued a
-      Trust Token by each player except emself; if no person has won via
-      this mechanism in the past; and if in the same message, e quotes,
-      for each of those players, a public message in which that player
-      issued em a Trust Token.
-      
-------------------------------------------------------------------------
-Rule 2465/0 (Power=0.3)
-Victory by Apathy
-
-      A player CAN Declare Apathy without objection, specifying a set of
-      players. Upon doing so, the specified players win the game.
-      
-------------------------------------------------------------------------
-Rule 2510/3 (Power=1)
-Such is Karma
-
-      Karma is a person switch tracked by the Herald in eir Weekly
-      Report. Karma is an Integer switch. Agora also has an instance of
-      the Karma switch.
-      
-      A player CAN publish a Notice of Honour. For a Notice of Honour
-      to be valid, it must:
-      
-      1. Be clear that it is a Notice of Honour, and be the first valid
-         Notice of Honour that player has published in the current week;
-      
-      2. Specify any other player or Agora to gain karma, and provide a
-         reason for specifying that player; and
-      
-      3. Specify any player or Agora to lose karma, and provide a reason
-         for specifying that player.
-      
-      4. Not result in Agora's karma moving farther away from 0.
-      
-      When a valid Notice of Honour is published, the entity specified
-      to gain karma has eir karma increased by one, and the entity
-      specified to lose karma has eir karma decreased by one. Raising
-      one entity's karma while lowering another's in this manner is
-      considered to be a "transfer" of karma.
-      
-      A player's positions in Court are defined as follows:
-      
-      - Any player with a karma of 7 or greater is a Samurai.
-      
-      - Any player with a karma of -7 or less is an Gamma.
-      
-      - The player with the highest karma (if any) is the Shogun.
-      
-      - The player with the lowest karma (if any) is the Honourless
-        Worm.
-      
-      Each player's positions in Court are part of of the Herald's
-      Weekly Report.
-      
-------------------------------------------------------------------------
-Rule 2511/2 (Power=1)
-Karmic Balance
-
-      In a timely fashion after the beginning of each Quarter, the
-      Herald CAN and SHALL by announcement, perform the following tasks
-      in order:
-      
-      1. Halve (rounding towards 0) the Karma of every Unregistered
-         person.
-      
-      2. Set the Karma of Agora such that the sum of all Karma switch
-         instance values in the game is equal to 0.
-      
-------------------------------------------------------------------------
-Rule 2553/0 (Power=1)
-Win by Paradox
-
-      If a CFJ about the legality or possibility of a game action, has
-      been assigned a judgment of PARADOXICAL continuously for at least
-      7 days, and e has not done so already in respect of that CFJ, then
-      that case's initiator CAN, by announcement, win the game.
-      
-      A player who wins in this fashion SHOULD submit a proposal to
-      prevent the paradox from arising again.
-      
-------------------------------------------------------------------------
-Rule 2580/2 (Power=1)
-Round Robin
-
-      The "Effective Date" is the Agoran day that is 8 days after the
-      Agoran day on which this Rule was enacted.  This Rule is
-      automatically repealed at 00:01 UTC on the Agoran day after the
-      Effective Date.
-      
-      The Slate A players are VJ Rada, Cuddle Beam, D. Margaux, Aris,
-      G., omd, Murphy, ATMunn, and Publius Scribonius Scholasticus.
-      
-      The Slate B players are VJ Rada, D. Margaux, G., L., omd, Corona,
-      Trigon, twg, and Publius Scribonius Scholasticus.
-      
-      The Slate C players are Cuddle Beam, Aris, L., Corona, Murphy,
-      Trigon, ATMunn, and twg.
-      
-      The Slate A players CAN win the game by announcement on the
-      Effective Date, unless the Slate B players also CAN win the game
-      by announcement on the Effective Date.
-      
-      The Slate B players CAN win the game by announcement on the
-      Effective Date, unless the Slate C players also CAN win the game
-      by announcement on the Effective Date.
-      
-------------------------------------------------------------------------
-========================================================================
-Awards
-------------------------------------------------------------------------
-Rule 2438/9 (Power=3)
-Ribbons
-
-      The Tailor is an office, and the recordkeepor of Ribbons.
-      
-      Ribbon Ownership is a person switch, tracked by the Tailor in eir
-      monthly report, whose values are the subsets of the set of types
-      of Ribbon, defaulting to the empty set. If the rules are amended
-      to change the types of Ribbon, if a player's Ribbon Ownership is
-      subsequently illegal, then it is updated by removing all
-      nonexistent types rather than resetting the entire value to
-      default.
-      
-      To "award a person a <Ribbon type>" is to add that type of Ribbon
-      to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
-      if that type of Ribbon is an element of eir Ribbon Ownership.
-      
-      While a person qualifies for a type of Ribbon, any player CAN, by
-      announcement, award em that type of Ribbon. A person qualifies for
-      a type of Ribbon if e has earned that type of Ribbon within the
-      preceding 7 days (including earlier in the same message) and has
-      not owned that type of Ribbon within the preceding 7 days.
-      
-      While a person owns all types of Ribbon, that person can Raise a
-      Banner by announcement. This causes that person to win the game.
-      That person's Ribbon Ownership becomes the empty set.
-      
-      The types of Ribbon, and the methods of obtaining them, are as
-      follows:
-      
-      Red (R): When a proposal is adopted and changes at least one rule
-      with Power >= 3, its proposer earns a Red Ribbon.
-      
-      Orange (O): When a proposal is adopted via an Agoran Decision on
-      which no valid ballots were AGAINST (after evaluating
-      conditionals), its proposer earns an Orange Ribbon.
-      
-      Green (G): While a person has held an elected office continuously
-      for 30 days, and has not failed to perform any duties of that
-      office within the appropriate time limits during those 30 days,
-      that person qualifies for a Green Ribbon.
-      
-      Cyan (C): When a person deputises for an office, that person earns
-      a Cyan Ribbon.
-      
-      Blue (B): When a person assigns a judgement to a CFJ, and has
-      never violated a time limit to assign a judgement to that CFJ,
-      that person earns a Blue Ribbon.
-      
-      Magenta (M): During Agora's Birthday, each person who has publicly
-      acknowledged the fact qualifies for a Magenta Ribbon.
-      
-      Ultraviolet (U): When a person is awarded the Patent Title
-      Champion, that person earns an Ultraviolet Ribbon.
-      
-      Violet (V): When a person is awarded a Patent Title other than
-      Champion or a degree, that person earns a Violet Ribbon.
-      
-      Indigo (I): When a person is awarded a degree, that person earns
-      an Indigo Ribbon.
-      
-      Platinum (P): The Speaker qualifies for a Platinum Ribbon.
-      
-      Lime (L): A person qualifies for a Lime Ribbon if three or more
-      proposals adopted in the preceding 7 days had that person as a
-      coauthor.
-      
-      White (W): A player qualifies for a White Ribbon if e has never
-      previously owned a White Ribbon (including under previous
-      rulesets). A player who has been registered for at least 30 days
-      and has never caused another person to gain a White Ribbon
-      (including under a previous ruleset) CAN award a White Ribbon to
-      another person by announcement.
-      
-      Black (K): This rule does not specify any methods of obtaining
-      Black Ribbons.
-      
-      Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
-      unless e has done so earlier in the month. E is ENCOURAGED to
-      award such a Ribbon in the same message in which e publishes eir
-      monthly report.
-      
-      Transparent (T): A person qualifies for a Transparent Ribbon while
-      the number of other types of Ribbon that that person qualifies for
-      and/or has earned within the previous 7 days is at least 5.
-      
-------------------------------------------------------------------------
-Rule 2480/1 (Power=2.1)
-Festivals
-
-      Festivity is a singleton switch, whose possible values are
-      integers ranging from 0 inclusive to the number of defined types
-      of Ribbon exclusive, and defaulting to 0. While Agora's Festivity
-      is 0, Festivity is tracked in the Tailor's monthly report.
-      Otherwise, it is tracked in the Tailor's weekly report. Changes to
-      Festivity are secured.
-      
-      If Agora's Festivity has had the same nonzero value for 14 days or
-      more, any player CAN flip it to 0 by announcement.
-      
-      A player who owns at least N types of Ribbon CAN Start a Rank N
-      Festival, where N is an integer greater than Agora's Festivity,
-      with 4 Support from players who own at least N types of Ribbon.
-      Upon doing so, Agora's Festivity is flipped to N. Exception: A
-      player CANNOT do so if Agora's Festivity has had a value greater
-      than or equal to N within the past 21 days.
-      
-      A person who owns a number of types of Ribbon equal to or greater
-      than Agora's Festivity is known as Festive. Other persons are not
-      Festive.
-      
-------------------------------------------------------------------------
-Rule 2481/1 (Power=2.1)
-Festival Restrictions
-
-      While Agora's Festivity is nonzero, the following apply:
-      
-      1. Non-Festive players are never considered Supporters of a
-         dependent action;
-      
-      2. Non-Festive players cannot flip the Imminence of any proposal;
-      
-      3. Quorum for Agoran Decisions is equal to half the number of
-         Festive players, rounded up;
-      
-      4. Each Festive player has the maximum possible voting strength.
-         All other players have the minimum possible voting strength.
-      
-      While Agora's Festivity is zero, the paragraphs above have no
-      effect and are ignored.
-      
-------------------------------------------------------------------------
-Rule 649/40 (Power=1.5)
-Patent Titles
-
-      A Patent Title is a legal title given to a person in recognition
-      of the person's distinction. The Herald is an office; its holder
-      is responsible for tracking Patent Titles in eir monthly report.
-      
-      Awarding or revoking a Patent Title is secured at power 1. A
-      person permitted and enabled to award (revoke) a Patent Title
-      SHALL do so in a timely fashion after the conditions authorizing
-      em to do so are announced, unless there is an open judicial case
-      contesting the validity of those conditions.
-      
-      The Herald CAN award a specified Patent Title to a specified
-      player With 2 Agoran Consent.
-      
-      If a player publicly petitions that the Herald award a patent
-      title to another player for a specified reason, the Herald SHALL
-      respond in a timely fashion by either attempting to grant an
-      appropriate patent title or explaining publicly why no patent
-      title is warranted.
-      
-------------------------------------------------------------------------
-Rule 2444/3 (Power=1)
-Silver Quill
-
-      The Silver Quill is an annual award designed to honor the authors
-      of proposals of outstanding merit and influence on the game.
-      
-      In a timely fashion after the end of each Agoran Year, the Herald
-      SHALL initiate and Agoran Decision to determine which Proposal has
-      most greatly influenced that (ending) year of play.
-      
-      For this decision, the valid options are all proposals adopted
-      between November 1 of the year prior to the ending year, and
-      October 31 of the ending year. The vote collector is the Herald,
-      and the voting method is instant runoff.
-      
-      Players are ENCOURAGED to discuss which eligible proposals best
-      satisfy the aforementioned criteria. Proposals submitted by new
-      players SHOULD be given somewhat higher weight, but the primary
-      reference should be the proposals themselves and their effect on
-      the game since adoption.
-      
-      Upon the resolution of the decision, if the outcome is not FAILED
-      QUORUM and there were at least three votes containing it in any
-      preference slot, that proposal wins the Ceremony, and the Herald
-      CAN once, by announcement, award its author the Patent Title of
-      "Silver Quill YYYY, substituting the ending year; otherwise, there
-      is no winner.
-      
-------------------------------------------------------------------------
-Rule 2415/0 (Power=1.5)
-Badges
-
-      A Badge is any patent title with the word 'badge' as part of its
-      name. A badge SHOULD be used to award multiple persons for
-      participating in specific event of note within Agora.  Any player
-      CAN award a badge that does not yet exist to three or more persons
-      simultaneously, with Agoran Consent. The Herald CAN award an
-      existing badge to persons Without Objection.
-      
-------------------------------------------------------------------------
-Rule 1367/19 (Power=3)
-Degrees
-
-      Certain patent titles are known as degrees. The degrees are
-      
-      - Associate of Nomic                 (A.N.)
-      - Bachelor of Nomic                  (B.N.)
-      - Master of Nomic                    (M.N.)
-      - Doctor of Nomic History            (D.N.Hist.)
-      - Doctor of Nomic Science            (D.N.Sci.)
-      - Doctor of Nomic Philosophy         (D.N.Phil.)
-      
-      Degrees are ranked in the order they appear in this rule, with
-      degrees listed later being ranked higher. A specific degree CANNOT
-      be awarded to any person more than once.
-      
-      A specified degree CAN be awarded with 2 Agoran Consent, and
-      SHOULD only be awarded for the publication of an original thesis
-      of scholarly worth (including responses to peer-review), published
-      with explicit intent to qualify for a degree. The Herald SHOULD
-      coordinate the peer-review process and the awarding of degrees.
-      
-------------------------------------------------------------------------
-Rule 2231/6 (Power=3)
-Order of the Hero of Agora Nomic
-
-      Heroic titles are Agora's premier patent titles of distinction,
-      and CAN be awarded to persons for meritorious service only by a
-      proposal of power 3 or greater, which SHOULD explain why those
-      persons are qualified. Bearers of heroic titles (Heroes)
-      constitute the Order of the Hero of Agora Nomic.
-      
-      The Heroic titles in decreasing precedence are:
-      
-      Grand Hero of Agora Nomic (GHAN) -- This title CAN be awarded to
-      any person obviously and directly responsible for the existence of
-      Agora and/or Nomic in general. As this title is the highest honour
-      that Agora may bestow, a Bearer of this title OUGHT to be treated
-      right good forever.
-      
-      Hero of Agora Nomic (HAN) -- This title CAN be awarded to any
-      person for outstanding meritorious service to Agora above and
-      beyond the call of duty.
-      
-------------------------------------------------------------------------
-========================================================================
 Obligations & Contracts
+   Agreements, promises, treaties, whatever you call them. This section
+   contains rules which can bind players to obligations, in the form of
+   Pledges and Contracts.
 ------------------------------------------------------------------------
 Rule 2471/1 (Power=1)
 No Faking
@@ -2378,6 +2021,8 @@ Contracts
 ------------------------------------------------------------------------
 ========================================================================
 Assets
+   Assets are things players can own. This section describes how that
+   works.
 ------------------------------------------------------------------------
 Rule 2166/27 (Power=3)
 Assets
@@ -2400,7 +2045,7 @@ Assets
       self-ratifying.
       
 ------------------------------------------------------------------------
-Rule 2576/0 (Power=3.0)
+Rule 2576/0 (Power=3)
 Ownership
 
       Each asset has exactly one owner. If an asset's backing document
@@ -2418,7 +2063,7 @@ Ownership
       destroyed by any player without objection.
       
 ------------------------------------------------------------------------
-Rule 2577/0 (Power=3.0)
+Rule 2577/0 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -2443,7 +2088,7 @@ Asset Actions
       number.
       
 ------------------------------------------------------------------------
-Rule 2578/0 (Power=3.0)
+Rule 2578/0 (Power=3)
 Currencies
 
       A currency is a class of asset defined as such by its backing
@@ -2456,7 +2101,7 @@ Currencies
       "Agora's official currency", if there is one.
       
 ------------------------------------------------------------------------
-Rule 2579/0 (Power=3.0)
+Rule 2579/0 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter
@@ -2510,6 +2155,8 @@ Distributing Assets
 ------------------------------------------------------------------------
 ========================================================================
 Economics
+   The economic landscape changes quickly in Agora. No matter what name
+   we give to them, though, they all function similarly.
 ------------------------------------------------------------------------
 Rule 2456/6 (Power=1)
 The Treasuror
@@ -2735,6 +2382,8 @@ Auction Termination
 ------------------------------------------------------------------------
 ========================================================================
 The Land of Arcadia
+   This section describes a subgame of Agora, in which players can
+   compete for influence over a sprawling map.
 ------------------------------------------------------------------------
 Rule 1993/2 (Power=2)
 The Land of Arcadia
@@ -3138,7 +2787,7 @@ Facility Colors
       x.
       
 ------------------------------------------------------------------------
-Rule 2569/0 (Power=2.0)
+Rule 2569/0 (Power=2)
 Gray Land
 
       Gray Land is preserved and owned by Agora. If Land becomes Gray
@@ -3146,7 +2795,7 @@ Gray Land
       Unit, is transferred to Agora.
       
 ------------------------------------------------------------------------
-Rule 2570/0 (Power=1.0)
+Rule 2570/0 (Power=1)
 Monument Facilities
 
       For each type of Monument facility, there may only be one instance
@@ -3155,14 +2804,14 @@ Monument Facilities
       facility of the same type is already in existence.
       
 ------------------------------------------------------------------------
-Rule 2571/0 (Power=1.0)
+Rule 2571/0 (Power=1)
 The Fountain
 
       A fountain is a Gray Monument facility. A fountain has no upkeep
       cost.
       
 ------------------------------------------------------------------------
-Rule 2572/0 (Power=1.0)
+Rule 2572/0 (Power=1)
 Wishing Fountain
 
       If a player's location is the same as a fountain, e CAN destroy a
@@ -3171,7 +2820,7 @@ Wishing Fountain
       when e Throws A Coin.
       
 ------------------------------------------------------------------------
-Rule 2046/1 (Power=1.0)
+Rule 2046/1 (Power=1)
 Q*Bert
 
       Q*Bert is an entity which has a location. Q*Bert CAN be on a unit
@@ -3214,6 +2863,7 @@ Q*Bert
 ------------------------------------------------------------------------
 ========================================================================
 The Undead
+   A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
 Rule 2532/2 (Power=2)
 Zombies
@@ -3249,7 +2899,7 @@ Zombies
       Welcome Package by announcement.
       
 ------------------------------------------------------------------------
-Rule 2574/1 (Power=3.0)
+Rule 2574/1 (Power=3)
 Zombie Life Cycle
 
       Any player CAN, with Notice, flip the master switch of an active
@@ -3308,7 +2958,363 @@ Zombie Auctions
       
 ------------------------------------------------------------------------
 ========================================================================
+Winning
+   All games have winners, and Agora is no exception. If you're
+   interested in getting some serious bragging points among the Agorans,
+   this is the right place to look.
+------------------------------------------------------------------------
+Rule 2449/3 (Power=3)
+Winning the Game
+
+      When the Rules state that a person or persons win the game, those
+      persons win the game; specifically they win the Round that ends
+      with the indicated win. Agora itself does not end and the ruleset
+      remains unchanged. The Herald is then authorized to award those
+      persons the Patent Title of Champion once, by announcement.
+      
+------------------------------------------------------------------------
+Rule 2452/2 (Power=0.5)
+Trust Tokens
+
+      Any player can issue a Trust Token to another person by
+      announcement.
+      
+      When the Assessor resolves a Decision to adopt a proposal, then
+      any player who cast a valid vote on the Decision and was endorsed
+      by another player's valid vote on the Decision is issued a Trust
+      Token by the endorsing player.
+      
+      A person can win the game by announcement if e has been issued a
+      Trust Token by each player except emself; if no person has won via
+      this mechanism in the past; and if in the same message, e quotes,
+      for each of those players, a public message in which that player
+      issued em a Trust Token.
+      
+------------------------------------------------------------------------
+Rule 2465/0 (Power=0.3)
+Victory by Apathy
+
+      A player CAN Declare Apathy without objection, specifying a set of
+      players. Upon doing so, the specified players win the game.
+      
+------------------------------------------------------------------------
+Rule 2510/3 (Power=1)
+Such is Karma
+
+      Karma is a person switch tracked by the Herald in eir Weekly
+      Report. Karma is an Integer switch. Agora also has an instance of
+      the Karma switch.
+      
+      A player CAN publish a Notice of Honour. For a Notice of Honour
+      to be valid, it must:
+      
+      1. Be clear that it is a Notice of Honour, and be the first valid
+         Notice of Honour that player has published in the current week;
+      
+      2. Specify any other player or Agora to gain karma, and provide a
+         reason for specifying that player; and
+      
+      3. Specify any player or Agora to lose karma, and provide a reason
+         for specifying that player.
+      
+      4. Not result in Agora's karma moving farther away from 0.
+      
+      When a valid Notice of Honour is published, the entity specified
+      to gain karma has eir karma increased by one, and the entity
+      specified to lose karma has eir karma decreased by one. Raising
+      one entity's karma while lowering another's in this manner is
+      considered to be a "transfer" of karma.
+      
+      A player's positions in Court are defined as follows:
+      
+      - Any player with a karma of 7 or greater is a Samurai.
+      
+      - Any player with a karma of -7 or less is an Gamma.
+      
+      - The player with the highest karma (if any) is the Shogun.
+      
+      - The player with the lowest karma (if any) is the Honourless
+        Worm.
+      
+      Each player's positions in Court are part of of the Herald's
+      Weekly Report.
+      
+------------------------------------------------------------------------
+Rule 2511/2 (Power=1)
+Karmic Balance
+
+      In a timely fashion after the beginning of each Quarter, the
+      Herald CAN and SHALL by announcement, perform the following tasks
+      in order:
+      
+      1. Halve (rounding towards 0) the Karma of every Unregistered
+         person.
+      
+      2. Set the Karma of Agora such that the sum of all Karma switch
+         instance values in the game is equal to 0.
+      
+------------------------------------------------------------------------
+Rule 2553/0 (Power=1)
+Win by Paradox
+
+      If a CFJ about the legality or possibility of a game action, has
+      been assigned a judgment of PARADOXICAL continuously for at least
+      7 days, and e has not done so already in respect of that CFJ, then
+      that case's initiator CAN, by announcement, win the game.
+      
+      A player who wins in this fashion SHOULD submit a proposal to
+      prevent the paradox from arising again.
+      
+------------------------------------------------------------------------
+========================================================================
+Awards
+   Even if it's not a win, there are still a good few opportunities to
+   win bragging points, like Ribbons and Patent Titles.
+------------------------------------------------------------------------
+Rule 2438/9 (Power=3)
+Ribbons
+
+      The Tailor is an office, and the recordkeepor of Ribbons.
+      
+      Ribbon Ownership is a person switch, tracked by the Tailor in eir
+      monthly report, whose values are the subsets of the set of types
+      of Ribbon, defaulting to the empty set. If the rules are amended
+      to change the types of Ribbon, if a player's Ribbon Ownership is
+      subsequently illegal, then it is updated by removing all
+      nonexistent types rather than resetting the entire value to
+      default.
+      
+      To "award a person a <Ribbon type>" is to add that type of Ribbon
+      to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
+      if that type of Ribbon is an element of eir Ribbon Ownership.
+      
+      While a person qualifies for a type of Ribbon, any player CAN, by
+      announcement, award em that type of Ribbon. A person qualifies for
+      a type of Ribbon if e has earned that type of Ribbon within the
+      preceding 7 days (including earlier in the same message) and has
+      not owned that type of Ribbon within the preceding 7 days.
+      
+      While a person owns all types of Ribbon, that person can Raise a
+      Banner by announcement. This causes that person to win the game.
+      That person's Ribbon Ownership becomes the empty set.
+      
+      The types of Ribbon, and the methods of obtaining them, are as
+      follows:
+      
+      Red (R): When a proposal is adopted and changes at least one rule
+      with Power >= 3, its proposer earns a Red Ribbon.
+      
+      Orange (O): When a proposal is adopted via an Agoran Decision on
+      which no valid ballots were AGAINST (after evaluating
+      conditionals), its proposer earns an Orange Ribbon.
+      
+      Green (G): While a person has held an elected office continuously
+      for 30 days, and has not failed to perform any duties of that
+      office within the appropriate time limits during those 30 days,
+      that person qualifies for a Green Ribbon.
+      
+      Cyan (C): When a person deputises for an office, that person earns
+      a Cyan Ribbon.
+      
+      Blue (B): When a person assigns a judgement to a CFJ, and has
+      never violated a time limit to assign a judgement to that CFJ,
+      that person earns a Blue Ribbon.
+      
+      Magenta (M): During Agora's Birthday, each person who has publicly
+      acknowledged the fact qualifies for a Magenta Ribbon.
+      
+      Ultraviolet (U): When a person is awarded the Patent Title
+      Champion, that person earns an Ultraviolet Ribbon.
+      
+      Violet (V): When a person is awarded a Patent Title other than
+      Champion or a degree, that person earns a Violet Ribbon.
+      
+      Indigo (I): When a person is awarded a degree, that person earns
+      an Indigo Ribbon.
+      
+      Platinum (P): The Speaker qualifies for a Platinum Ribbon.
+      
+      Lime (L): A person qualifies for a Lime Ribbon if three or more
+      proposals adopted in the preceding 7 days had that person as a
+      coauthor.
+      
+      White (W): A player qualifies for a White Ribbon if e has never
+      previously owned a White Ribbon (including under previous
+      rulesets). A player who has been registered for at least 30 days
+      and has never caused another person to gain a White Ribbon
+      (including under a previous ruleset) CAN award a White Ribbon to
+      another person by announcement.
+      
+      Black (K): This rule does not specify any methods of obtaining
+      Black Ribbons.
+      
+      Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
+      unless e has done so earlier in the month. E is ENCOURAGED to
+      award such a Ribbon in the same message in which e publishes eir
+      monthly report.
+      
+      Transparent (T): A person qualifies for a Transparent Ribbon while
+      the number of other types of Ribbon that that person qualifies for
+      and/or has earned within the previous 7 days is at least 5.
+      
+------------------------------------------------------------------------
+Rule 2480/1 (Power=2.1)
+Festivals
+
+      Festivity is a singleton switch, whose possible values are
+      integers ranging from 0 inclusive to the number of defined types
+      of Ribbon exclusive, and defaulting to 0. While Agora's Festivity
+      is 0, Festivity is tracked in the Tailor's monthly report.
+      Otherwise, it is tracked in the Tailor's weekly report. Changes to
+      Festivity are secured.
+      
+      If Agora's Festivity has had the same nonzero value for 14 days or
+      more, any player CAN flip it to 0 by announcement.
+      
+      A player who owns at least N types of Ribbon CAN Start a Rank N
+      Festival, where N is an integer greater than Agora's Festivity,
+      with 4 Support from players who own at least N types of Ribbon.
+      Upon doing so, Agora's Festivity is flipped to N. Exception: A
+      player CANNOT do so if Agora's Festivity has had a value greater
+      than or equal to N within the past 21 days.
+      
+      A person who owns a number of types of Ribbon equal to or greater
+      than Agora's Festivity is known as Festive. Other persons are not
+      Festive.
+      
+------------------------------------------------------------------------
+Rule 2481/1 (Power=2.1)
+Festival Restrictions
+
+      While Agora's Festivity is nonzero, the following apply:
+      
+      1. Non-Festive players are never considered Supporters of a
+         dependent action;
+      
+      2. Non-Festive players cannot flip the Imminence of any proposal;
+      
+      3. Quorum for Agoran Decisions is equal to half the number of
+         Festive players, rounded up;
+      
+      4. Each Festive player has the maximum possible voting strength.
+         All other players have the minimum possible voting strength.
+      
+      While Agora's Festivity is zero, the paragraphs above have no
+      effect and are ignored.
+      
+------------------------------------------------------------------------
+Rule 649/40 (Power=1.5)
+Patent Titles
+
+      A Patent Title is a legal title given to a person in recognition
+      of the person's distinction. The Herald is an office; its holder
+      is responsible for tracking Patent Titles in eir monthly report.
+      
+      Awarding or revoking a Patent Title is secured at power 1. A
+      person permitted and enabled to award (revoke) a Patent Title
+      SHALL do so in a timely fashion after the conditions authorizing
+      em to do so are announced, unless there is an open judicial case
+      contesting the validity of those conditions.
+      
+      The Herald CAN award a specified Patent Title to a specified
+      player With 2 Agoran Consent.
+      
+      If a player publicly petitions that the Herald award a patent
+      title to another player for a specified reason, the Herald SHALL
+      respond in a timely fashion by either attempting to grant an
+      appropriate patent title or explaining publicly why no patent
+      title is warranted.
+      
+------------------------------------------------------------------------
+Rule 2444/3 (Power=1)
+Silver Quill
+
+      The Silver Quill is an annual award designed to honor the authors
+      of proposals of outstanding merit and influence on the game.
+      
+      In a timely fashion after the end of each Agoran Year, the Herald
+      SHALL initiate and Agoran Decision to determine which Proposal has
+      most greatly influenced that (ending) year of play.
+      
+      For this decision, the valid options are all proposals adopted
+      between November 1 of the year prior to the ending year, and
+      October 31 of the ending year. The vote collector is the Herald,
+      and the voting method is instant runoff.
+      
+      Players are ENCOURAGED to discuss which eligible proposals best
+      satisfy the aforementioned criteria. Proposals submitted by new
+      players SHOULD be given somewhat higher weight, but the primary
+      reference should be the proposals themselves and their effect on
+      the game since adoption.
+      
+      Upon the resolution of the decision, if the outcome is not FAILED
+      QUORUM and there were at least three votes containing it in any
+      preference slot, that proposal wins the Ceremony, and the Herald
+      CAN once, by announcement, award its author the Patent Title of
+      "Silver Quill YYYY, substituting the ending year; otherwise, there
+      is no winner.
+      
+------------------------------------------------------------------------
+Rule 2415/0 (Power=1.5)
+Badges
+
+      A Badge is any patent title with the word 'badge' as part of its
+      name. A badge SHOULD be used to award multiple persons for
+      participating in specific event of note within Agora.  Any player
+      CAN award a badge that does not yet exist to three or more persons
+      simultaneously, with Agoran Consent. The Herald CAN award an
+      existing badge to persons Without Objection.
+      
+------------------------------------------------------------------------
+Rule 1367/19 (Power=3)
+Degrees
+
+      Certain patent titles are known as degrees. The degrees are
+      
+      - Associate of Nomic                 (A.N.)
+      - Bachelor of Nomic                  (B.N.)
+      - Master of Nomic                    (M.N.)
+      - Doctor of Nomic History            (D.N.Hist.)
+      - Doctor of Nomic Science            (D.N.Sci.)
+      - Doctor of Nomic Philosophy         (D.N.Phil.)
+      
+      Degrees are ranked in the order they appear in this rule, with
+      degrees listed later being ranked higher. A specific degree CANNOT
+      be awarded to any person more than once.
+      
+      A specified degree CAN be awarded with 2 Agoran Consent, and
+      SHOULD only be awarded for the publication of an original thesis
+      of scholarly worth (including responses to peer-review), published
+      with explicit intent to qualify for a degree. The Herald SHOULD
+      coordinate the peer-review process and the awarding of degrees.
+      
+------------------------------------------------------------------------
+Rule 2231/6 (Power=3)
+Order of the Hero of Agora Nomic
+
+      Heroic titles are Agora's premier patent titles of distinction,
+      and CAN be awarded to persons for meritorious service only by a
+      proposal of power 3 or greater, which SHOULD explain why those
+      persons are qualified. Bearers of heroic titles (Heroes)
+      constitute the Order of the Hero of Agora Nomic.
+      
+      The Heroic titles in decreasing precedence are:
+      
+      Grand Hero of Agora Nomic (GHAN) -- This title CAN be awarded to
+      any person obviously and directly responsible for the existence of
+      Agora and/or Nomic in general. As this title is the highest honour
+      that Agora may bestow, a Bearer of this title OUGHT to be treated
+      right good forever.
+      
+      Hero of Agora Nomic (HAN) -- This title CAN be awarded to any
+      person for outstanding meritorious service to Agora above and
+      beyond the call of duty.
+      
+------------------------------------------------------------------------
+========================================================================
 Figureheads
+   Agora has a good few figurehead leaders, none of which possess all
+   that much power. This section isn't all that important.
 ------------------------------------------------------------------------
 Rule 103/24 (Power=2)
 The Speaker
@@ -3358,7 +3364,7 @@ Motion of No Confidence
       string "MOTION OF NO CONFIDENCE" in the subject line.
       
 ------------------------------------------------------------------------
-Rule 2451/6 (Power=2.0)
+Rule 2451/6 (Power=2)
 Executive Orders
 
       Once per week and except as otherwise forbidden by this rule, the
@@ -3385,8 +3391,21 @@ Executive Orders
         proposal in the Proposal Pool.
       
 ------------------------------------------------------------------------
+Rule 2575/0 (Power=3)
+The Distributor
+
+      The Distributor is an imposed office whose holder is generally
+      responsible for the management of the primary Agoran fora. The
+      holder CANNOT be changed except Without Objection or by proposal.
+      Rules to the contrary notwithstanding, the Distributor's master
+      switch CANNOT be flipped to be other than emself, and e CANNOT
+      deregister or be deregistered.
+      
+------------------------------------------------------------------------
 ========================================================================
 Agoran Culture
+   Nothing in here is all that important. Mostly describes holidays and
+   tournaments, and joke rules.
 ------------------------------------------------------------------------
 Rule 2327/1 (Power=1)
 Read the Ruleset Week

@@ -1,20 +1,19 @@
 from rulekeep.utils import *
 from rulekeep.history import *
 
-high_eff_rule = 0
-
 def line(ch, w=72):
     return "".join([ch for i in range(0, w)])
 
 def indent(tx, w=6):
     return "\n".join([line(" ", w) + i for i in tx.split("\n")])
 
-def section_heading(name):
-    return "{}\n{}\n{}\n".format(line("="), name, line("-"))
+def section_heading(section):
+    return "{}\n{}\n{}\n{}\n".format(
+        line("="), section["name"],
+        indent(section["note"].strip(), 3), line("-")
+    )
 
 def rule_heading(rule):
-    global high_eff_rule
-    high_eff_rule = max(rule["id"], high_eff_rule)
     rev = 0
     for i in rule["history"]:
         try:
@@ -87,33 +86,3 @@ def fixed_width(input_string, w=72):
             if len(result) == 1: w = w-3
             result.append(word)
     return "\n   ".join(result)
-
-def update_stats():
-    stats = {"hep": 0, "hp": 0, "her": 0, "hr": 0}
-    try: stats = {i: int(j) for i, j in string_hashlist(get_contents("meta/stats")).items()}
-    except: pass
-
-    stats = {
-        "hep": max(get_hep(), stats["hep"]),
-        "her": max(high_eff_rule, stats["her"]),
-        "hp":  max(high_proposal(), stats["hp"]),
-        "hr":  max(high_rule(), stats["hr"])
-    }
-
-    write_file("meta/stats", hashlist_string({i: str(j) for i, j in stats.items()}))
-    return stats
-
-def header():
-    stats = update_stats()
-
-    result = fixed_width("Highest ID'd proposal affecting this ruleset: {}\n".format(
-        agent_string({"proposal": str(stats["hep"])})
-    ))
-    result = result + fixed_width("Highest ID'd rule in this ruleset: Rule {}\n\n".format(
-        stats["hr"]
-    ))
-    result = result + fixed_width("Proposal with highest ID: {}\n".format(
-        agent_string({"proposal": str(stats["hp"])})
-    ))
-    result = result + fixed_width("Rule with highest ID: {}\n\n".format(stats["hr"]))
-    return result
