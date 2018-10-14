@@ -128,10 +128,19 @@ def proposal_blame(num):
 
 def date_string(date):
     if date == datetime.date(1993, 6, 30): return "Agora's birth"
-    try: return date.isoformat()
+    try: return better_date(date)
+    except AttributeError: pass
+
+    try: return "around " + better_date(date["around"])
     except KeyError: pass
-    except AttributeError:
-        return "around " + date["around"].isoformat()
+    except AttributeError: pass
+
+    try: return "between {} and {}".format(
+        better_date(date["between"]), better_date(date["and"])
+    )
+
+    except KeyError: pass
+    except AttributeError: pass
 
 def change_string(ch):
     result = chtype_string(ch["change"])
@@ -147,6 +156,6 @@ def change_string(ch):
 
 def get_stats():
     return {
-        "hp": get_highest(to_int_list(listdir("proposals"))),
-        "hr": get_highest(to_int_list(listdir("rules")))
+        "hp": max(to_int_list(listdir("proposals"))),
+        "hr": max(to_int_list(listdir("rules")))
     }

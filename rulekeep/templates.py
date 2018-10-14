@@ -49,7 +49,7 @@ def annotation(anno):
             cfj_list.append("CFJ " + str(cfj["id"]))
             if cfj["called"] != None:
                 cfj_list[-1] = cfj_list[-1] + " (called {})".format(
-                    cfj["called"]
+                    date_string(cfj["called"])
                 )
             result = result + ", ".join(cfj_list) + ": ";
     except KeyError: pass

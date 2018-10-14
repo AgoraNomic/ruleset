@@ -13,13 +13,13 @@ text: |
   other than by deputisation, if e held the office;
 
   3. either (i) a time limit by which the rules require the action
-  to be performed has expired or (ii) the office is vacant.
+  to be performed has expired or (ii) the office is vacant;
 
   4. either (i) the office is vacant, (ii) the aforementioned time
   limit expired more than fourteen days ago, or (iii) the deputy
   announced between two and fourteen days earlier that e intended to
   deputise for that office for the purposes of the particular
-  action.
+  action; and
 
   5. the deputy, when performing the action, announces that e is
   doing so by deputisation.
@@ -131,6 +131,12 @@ history:
   date: 2018-03-06
   agent:
     proposal: "8018"
+- change:
+    type: amendment
+  date: 2018-09-30
+  agent:
+    cleaning:
+      by: D. Margaux
 annotations:
 - cfjs:
   - id: '1776'

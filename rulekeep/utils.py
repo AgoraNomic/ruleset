@@ -1,6 +1,7 @@
 from sys import argv
 from os import mkdir
 from hashlib import sha1
+from datetime import date
 import yaml
 
 def smkdir(fn):
@@ -38,11 +39,6 @@ def to_int_list(ls):
         except ValueError: pass
     return result
 
-def get_highest(ls):
-    ls.sort()
-    try: return ls[-1]
-    except: return -1
-
 def is_in(target, char):
     if target.find(char) == -1: return False
     else: return True
@@ -50,3 +46,6 @@ def is_in(target, char):
 def args_contain(st):
     if is_in(argv[1], st): return True
     else: return False
+
+def better_date(dt):
+    return dt.strftime("%d %b %Y")
