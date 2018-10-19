@@ -1,1 +1,8 @@
-.stack-work/
+*.py[cod]
+\#*\#
+.\#*
+*~
+
+env/*
+legacy/*
+meta/*

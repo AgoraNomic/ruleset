@@ -12,7 +12,13 @@ text: |
 
   2. It clearly identifies the matter to be resolved.
 
-  3. It specifies the outcome, as described elsewhere, and, if there
+  3. It specifies the number of voters (or a list of the voters).
+     For these purposes and for determining quorum, a "voter" is
+     someone who submitted a ballot on the decision that was valid
+     when it was submitted and also valid (i.e. not withdrawn or
+     otherwise invalidated) at the end of the voting period.
+
+  4. It specifies the outcome, as described elsewhere, and, if there
      was more than one valid option, provides a tally of the voters'
      valid ballots.
 
@@ -117,6 +123,11 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: "8083"
 annotations:
 - cfjs:
   - id: '1711'

@@ -8,8 +8,10 @@ text: |
   set to the minimum of four and its adoption index, and then it
   takes effect. Except as prohibited by other rules, a proposal that
   takes effect CAN and does, as part of its effect, apply the
-  changes that it specifies. If the proposal cannot make some such
-  changes, this does not preclude the other changes from taking
+  changes that it specifies. Clearly marked comments are considered
+  to be removed from the proposal before it takes effect, unless
+  otherwise stated by the proposal. If the proposal cannot make some
+  such changes, this does not preclude the other changes from taking
   place.
 
   If there is no Agoran Decision to adopt a particular proposal that
@@ -251,6 +253,11 @@ history:
   date: 2017-11-06
   agent:
     proposal: "7940"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8073"
 annotations:
 - cfjs:
   - id: '1639'

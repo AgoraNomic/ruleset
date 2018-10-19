@@ -32,11 +32,12 @@ text: |
 
   The winner of a lot SHALL pay the Auctioneer the number of the
   Auction's currency equal to eir bid, in a single payment, in a
-  timely fashion. When e does so, the Auctioneer SHALL transfer the
-  items in that lot to that winner in a timely fashion. If the
-  Auctioneer is not a person, then a person authorized to cause the
-  Auctioneer to transfer those items SHALL do so in a timely fashion
-  after the winner pays the Auctioneer, instead.
+  timely fashion. When e does so, if the auctioneer CAN transfer the
+  items in that lot to that winner at will, e immediately does so;
+  otherwise, e SHALL do so in a timely fashion. For this purpose, a
+  contract CAN do whatever it could do if it were a person in
+  addition to what it can do as a contract, and Agora CAN do
+  anything.
 history:
 - change:
     type: enactment
@@ -44,6 +45,11 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7975"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8041"
 annotations:
 - cfjs:
   - id: '3615'

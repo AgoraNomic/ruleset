@@ -2,44 +2,37 @@ id: 2561
 name: Asset Generation with Facilities
 power: 2
 text: |
-  When facilities create assets, the assets are added to the
-  facility's possession. The rule that creates a facility CAN
-  specify a carrying capacity for assets. If, at any time, the
-  amount of an asset in the possession of a facility exceeds that
-  asset's carrying capacity, an amount of that asset is destroyed
-  until the amount of that asset in the possession of the facility
-  is equal to its carrying capacity.
+  When an Production or Processing facility creates assets, the
+  assets are added to the facility's possession. The rule that
+  creates an Production or Processing facility CAN specify a
+  carrying capacity for assets. If, at any time, the amount of an
+  asset in the possession of an Production or Processing facility
+  exceeds that asset's carrying capacity, an amount of that asset is
+  destroyed until the amount of that asset in the possession of the
+  facility is equal to its carrying capacity.
 
-  Each facility is either a production facility or processing
-  facility, to be specified in the rule that creates them. At the
-  end of every Agoran Week, Agora creates a number of assets in a
-  production facility specified by the rule which creates the
+  At the end of every Agoran Week, Agora creates a number of assets
+  in a Production facility specified by the rule which creates the
   facility.
 
   At the end of every Agoran Week, Agora destroys any refinable
-  assets in the possession of each processing facility that that
-  facility can change into refinable assets and replaces them with a
+  assets in the possession of each Processing facility that that
+  facility can change into refined assets and replaces them with a
   corresponding number of refined assets to be specified by the rule
   that creates the facility.
 
-  A player can take a number of assets from a facility's inventory
-  by announcement if eir location is the same as the facility's and
-  the following criteria are met:
-
-  1. if the facility is built on unconserved Public Land, none.
-
-  2. if the facility is built on preserved Public Land and less than
-     four days have passed since assets were created in the facility
-     most recently, e must not have taken any assets from the
-     inventory of another facility located on a preserved Land Unit
-     within this Agoran week.
-
-  3. if the facility is built on Communal Land, e must be a party to
-     that contract and the text of the contract must permit em to do
-     so.
-
-  4. if the facility is built on Private Land, e must own the
-     facility, or the owner must have consented.
+  A player CANNOT transfer assets to a facility not at eir location.
+  A player can take a number of assets from an Production or
+  Processing facility's inventory by announcement if eir location is
+  the same as the facility's and the following criteria are met:
+     1. if the facility is built on unconserved Public Land, none.
+     2. if the facility is built on preserved Public Land and less
+        than four days have passed since assets were created in the
+        facility most recently, e must not have taken any assets
+        from the inventory of another facility located on a
+        preserved Land Unit within this Agoran week.
+     3. if the facility is built on Private Land, e must own the
+        facility, or the owner must have consented.
 history:
 - change:
     type: enactment
@@ -52,4 +45,19 @@ history:
   date: 2018-03-23
   agent:
     proposal: "8025"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8033"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8041"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8054"
 annotations: []

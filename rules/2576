@@ -1,0 +1,24 @@
+id: 2576
+name: Ownership
+power: 3
+text: |
+  Each asset has exactly one owner. If an asset's backing document
+  restricts its ownership to a class of entities, then that asset
+  CANNOT be gained by or transferred to an entity outside that
+  class, and is destroyed if it is owned by an entity outside that
+  class. The restrictions in the previous sentence are subject to
+  modification by its backing document. By default, ownership of an
+  asset is restricted to Agora, players, and contracts.
+
+  If an asset would otherwise lack an owner, it is owned by the Lost
+  and Found Department. Rules to the contrary notwithstanding, the
+  Lost and Found Department can own assets of every type. Assets
+  owned by the Lost and Found Department can be transferred or
+  destroyed by any player without objection.
+history:
+- change:
+    type: enactment
+    power: 3.0
+  date: 2018-07-01
+  agent:
+    proposal: "8055"

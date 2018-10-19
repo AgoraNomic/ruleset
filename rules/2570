@@ -1,0 +1,16 @@
+id: 2570
+name: Monument Facilities
+power: 1
+text: |
+  For each type of Monument facility, there may only be one instance
+  of that facility in existence at any one time. An action CANNOT
+  cause an Monument facility to exist while another Monument
+  facility of the same type is already in existence.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-04-27
+  agent:
+    proposal: "8033"
+annotations: []

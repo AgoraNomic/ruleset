@@ -3,11 +3,11 @@ name: Preserved Land
 power: 2.6
 text: |
   Preservation is a boolean land switch, defaulting to False. The
-  preservation switch CAN be set in a regulation promulgated by the
-  Cartographor without 2 objections. A Land Unit with its
-  preservation switch set to True is considered a preserved Land
-  Unit. A Land Unit with its preservation switch set to False is
-  considered an unconserved Land Unit.
+  preservation switch CAN be set by the Cartographor without 2
+  objections. A Land Unit with its preservation switch set to True
+  is considered a preserved Land Unit. A Land Unit with its
+  preservation switch set to False is considered an unconserved
+  Land Unit.
 
   Changes to the Land Type or ownership of a preserved land unit
   are secured at a power threshold of 2.5.
@@ -26,4 +26,9 @@ history:
   date: 2018-02-23
   agent:
     proposal: "8014"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8056"
 annotations: []

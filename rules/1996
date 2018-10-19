@@ -47,11 +47,13 @@ history:
     power: 1
   date: 2018-03-30
   agent:
-    convergence: "Proposal 8030"
+    convergence:
+      proposal: "8030"
 - change:
     type: retitling
     new-title: The Cartographor
   date: 2018-03-30
   agent:
-    convergence: "Proposal 8030"
+    convergence:
+      proposal: "8030"
 annotations: []

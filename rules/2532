@@ -7,25 +7,30 @@ text: |
   to the contrary notwithstanding, a player CAN always flip eir own
   master to emself by announcement.
 
-  A player whose master is not emself is a Zombie. A zombie's
-  master, if another player, is allowed to act on behalf of the
-  zombie (i.e. as the zombie's agent) to perform LEGAL actions.
+  A player whose master is not emself is a zombie (syn. inactive);
+  all other players are active.  A zombie's master, if another
+  player, is allowed to act on behalf of the zombie (i.e. as the
+  zombie's agent), except a master CANNOT act on behalf of a zombie
+  to:
+    - initiate, support, object to, or perform a dependent action;
+    - act on behalf of that zombie's zombies;
+    - bid in a zombie auction;
+    - enter a contract, pledge, or other type of agreement;
+    - initiate a Call fo Judgement;
+    - deregister.
 
-  If a player has not made a public announcement in the past 60
-  days, then any player CAN flip that player's master to Agora by
+  A zombie's master CAN flip that zombie's master switch to Agora by
   announcement.
 
-  Each zombie whose master is another player has an untracked switch
-  indicating whether the zombie Owes a Scare to Agora, with values
-  FALSE (default) and TRUE. All such switches are flipped to TRUE at
-  the beginning of each month. A zombie's master CAN flip that
-  zombie's switch to FALSE by causing the zombie to perform a scary
-  public action for the announced purpose of satisfying this scare
-  debt. If that switch for a given zombie is TRUE at the end of a
-  month, then within the next seven days any player can flip that
-  zombie's master to Agora by announcement.
+  If a master causes a zombie to perform an ILLEGAL action, the
+  master commits the Class 4+N Crime of Masterminding (where N is
+  the class of the illegal action).
 
-  This switch is of course the zombie's Boo Lien switch.
+  If a active player who was a zombie has not received a Welcome
+  Package since e most recently ceased being a zombie, and if eir
+  resale value was less than 2 at any point during eir most recent
+  time as a zombie, then any player CAN cause em to receive a
+  Welcome Package by announcement.
 history:
 - change:
     type: enactment
@@ -33,4 +38,14 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7950"
+- change:
+    type: amendment
+  date: 2018-06-14
+  agent:
+    proposal: "8051"
+- change:
+    type: amendment
+  date: 2018-07-18
+  agent:
+    proposal: "8065"
 annotations: []

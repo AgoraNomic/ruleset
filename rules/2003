@@ -2,31 +2,53 @@ id: 2003
 name: Actions in Arcadia
 power: 1
 text: |
-  Players CAN destroy:
+  Energy Points (abbreviated EP) is an untracked natural player
+  switch. Any action which would decrease a player's EP below 0
+  is INEFFECTIVE.
 
-  1. 1 apple to move from one Land Unit to an adjacent Unit if their
-     Land Types are the same and the destination is not Aether;
+  Players CAN eat a quantity of apples or corn. To eat is to pay a
+  fee of the stated quantity to increase your EP by one for each
+  apple and three for each corn.
 
-  2. 2 apples to move from one Land Unit to an adjacent Unit if
-     their Land Types differ and the destination is not Aether;
+  Players CAN feed another player a quantity of apples or corn. To
+  feed is to pay a fee of the stated quantity to increase the EP of
+  another player using the values given above.
 
-  3. 2 apples to set Land Type of a Land Unit which e owns to any
-     Land Type other than Aether, whether or not e is located at
-     that Land Unit.
+  At the beginning of the week, each player's Energy Points switch
+  is flipped to 0.
 
-  4. 3 apples to set the Land Type of a Land Unit that is adjacent
-     to the Entity's current location, is of type Aether, and is
-     owned by Agora, to an alternating Land Type.
+  Any player CAN perform any of the following actions by
+  announcement:
 
-  5. 4 apples to set the Land Type of a Land Unit that is adjacent
-     to the Entity's current location, is of type Aether, and is
-     owned by Agora, to a Land Type of eir choice.
+  1. move from one Land Unit to an adjacent Unit. This action
+    decreases eir EP by:
 
-  6. 6 apples to set the Land Type of a Land Unit that is of type
-     Aether, and is owned by Agora, to an alternating Land Type.
+    a. 1 if the their Land Types are the same or one is gray;
+    b. 2 if their Land Types differ, neither is gray, and the
+       destination is not Aether.
 
-  Players CAN, while performing the above actions, substitute 3
-  apples for 1 corn.
+  2. set the Land Type of a Land Unit that is adjacent to the
+    Entity's current location, is of type Aether, and is owned by
+    Agora, to:
+
+    a. an alternating Land Type. This action decreases eir EP by 3.
+    b. eir choice of either Black or White. This action decreases
+       eir EP by 4.
+
+  3. set the Land Type of any Land Unit to:
+
+    a. if e owns it, eir choice of either Black or White. This
+       action decreases eir EP by 2.
+    b. if Agora owns it, an alternating Land Type. This action
+       decreases eir EP by 6.
+
+  4. Stake a Land Claim on a specified Land Unit that is adjacent to
+    the Entity's current location, is of type Aether, and is owned
+    by Agora, if and only if e is active, has not staked a land
+    claim in the current month, and has not won a land auction in
+    the current or previous month.  When e stakes a land claim, the
+    unit's land type is set to the land type of eir choice, then is
+    transferred to em, then e moves onto that unit.
 history:
 - change:
     type: enactment
@@ -99,5 +121,41 @@ history:
     power: 1
   date: 2018-03-30
   agent:
-    convergence: "Proposal 8030"
+    convergence:
+      proposal: "8030"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8033"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8041"
+- change:
+    type: amendment
+  date: 2018-06-14
+  agent:
+    proposal: "8052"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8055"
+- change:
+    type: amendment
+  date: 2018-07-18
+  agent:
+    proposal: "8064"
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: "8088"
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: "8089"
 annotations: []

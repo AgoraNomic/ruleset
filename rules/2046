@@ -1,0 +1,64 @@
+id: 2046
+name: "Q*Bert"
+power: 1
+text: |
+  Q*Bert is an entity which has a location. Q*Bert CAN be on a unit
+  of Aether.
+
+  Q*Bert has a color switch, tracked by the Cartographor, whose
+  possible values are all defined Land Type other than Aether or
+  Gray. The default value is Black. When Q*Bert moves to a Land
+  Unit, if the current type of the unit is not the same as Q*Bert's
+  color switch, Q*Bert changes that space's type to the value of eir
+  color switch.
+
+  Every week, the Cartographor CAN and SHALL move Q*Bert using the
+  following process:
+
+  1. If Q*Bert is on the same Land Unit as another entity, the
+     Cartographor SHALL select a Land Unit adjacent to Q*Bert's
+     current position and move em there.
+
+  2. Otherwise, the Cartographor SHALL select a Land Unit whose
+     longitude and latitude both differ from Q*Bert's by exactly
+     one.
+
+  If, after Q*Bert has moved, e is on a Preserved Land Unit, the
+  Cartographor SHALL repeat the process above, moving Q*Bert until e
+  is no longer on a Preserved Land Unit.
+
+  If the type of the Land Unit that Q*Bert is located on is
+  switched by an entity that is not Q*Bert, Q*Bert's color switch is
+  set to that type instead.
+
+  Whenever Q*Bert is moved to (0, 0), the Cartographor CAN and SHALL
+  choose a random Land Type that is an allowed value of Q*Bert's
+  color switch and set Q*Bert's color switch to it.
+
+  When referring to Q*Bert, entities CAN replace the "*" with any
+  punctuation character or spell it with a lowercase letter "b"
+  (i.e. Q-Bert, Q^bert)
+history:
+- change:
+    type: enactment
+    power: 1
+  date: 2003-03-19
+  agent:
+    proposal: "4471"
+- change:
+    type: repeal
+  date: 2003-04-23
+  agent:
+    proposal: "4486"
+- change:
+    type: reenactment
+  date: 2018-05-08
+  agent:
+    proposal: "8045"
+- change:
+    type: retitling
+    new-title: "Q*Bert"
+  date: 2018-05-08
+  agent:
+    proposal: "8045"
+annotations: []

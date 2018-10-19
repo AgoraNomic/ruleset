@@ -1,6 +1,6 @@
 id: 2162
 name: Switches
-power: 2
+power: 3
 text: |
   A type of switch is a property that the rules define as a switch,
   and specify the following:
@@ -9,8 +9,11 @@ text: |
      other entity possesses an instance of that switch.
 
   2. One or more possible values for instances of that switch,
-     exactly one of which is designated as the default. No other
-     values are possible for instances of that switch.
+     exactly one of which should be designated as the default. No
+     values other than those listed are possible for instances of
+     that switch, except that, if no default is specified, then
+     rules to the contrary notwithstanding, the "null" value is a
+     possible value for that switch, and is the default.
 
   3. Optionally, exactly one office whose holder tracks instances of
      that switch. That officer's (weekly, if not specified
@@ -105,4 +108,16 @@ history:
   date: 2017-10-03
   agent:
     proposal: "7903"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8075"
+- change:
+    type: power-change
+    old-power: 2
+    new-power: 3
+  date: 2018-07-26
+  agent:
+    proposal: "8075"
 annotations: []

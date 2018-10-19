@@ -14,12 +14,10 @@ text: |
   a person submits a bid on an Auction, all bids previously placed
   on that Auction by that person are withdrawn.
 
-  A rule or contract defining an Auction CAN specify a class of
-  players who are authorized to bid on that Auction. If the rule or
-  contract does not specify a class of authorized bidders, any
-  player is authorized to bid on an Auction defined by a rule, and
-  any party to a contract is authorized to bid an Auction defined by
-  that Contract.
+  A rule defining an Auction CAN specify a class of players who are
+  authorized to bid on that Auction. If the rule  does not specify a
+  class of authorized bidders, any player is authorized to bid on an
+  Auction defined by a rule.
 
   A person SHALL NOT bid on an Auction if it would be impossible for
   em to pay that amount at the conclusion of the Auction.
@@ -30,4 +28,16 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7975"
-annotations: []
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8054"
+annotations:
+- cfjs:
+  - id: 3633
+    called: 2018-06-18
+  text: >
+    Saying "x on y", where x is an integer and y is a number
+    corresponding to an ongoing auction, is a sufficiently clear
+    announcement of a bid.

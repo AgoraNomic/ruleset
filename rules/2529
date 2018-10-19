@@ -16,18 +16,19 @@ text: |
 
   * In the last Agoran month, e has not had a fine levied on em.
 
-  In the second Eastman week of an Agoran month, if there are any
-  players who are eligible for a Medal of Honour, the Herald CAN, by
+  Beginning in the second Eastman week of an Agoran month and ending
+  when the next Agoran month begins, if there are any players who
+  are eligible for a Medal of Honour, the Herald CAN, by
   announcement, initiate an Agoran Decision on who is to be awarded
   a Medal of Honour. E SHALL do so within the second Eastman week of
-  that Agoran month. For this decision, the valid votes are all
+  that Agoran month. For this decision, the valid options are all
   players who are eligible for a Medal of Honour, the vote collector
   is the Herald, and the voting method is instant-runoff. Upon the
   resolution of this decision, the Herald CAN, and SHALL in a timely
   fashion, award the outcome of the decision a Medal of Honour by
-  announcement. After a player is awarded a Medal of Honour, all
-  players who were previously eligible for a Medal of Honour become
-  no longer eligible.
+  announcement. After a resolution of an Agoran Decision on who is to be
+  awarded a Medal of Honour, all players who were previously eligible
+  for a Medal of Honour become no longer eligible.
 
   If, at any time, any player has 6 or more Medals of Honour, and e
   has not won via this rule previously, e can win the game by
@@ -53,6 +54,21 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8029"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8037"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8057"
+- change:
+    type: repeal
+  date: 2018-07-18
+  agent:
+    proposal: "8059"
 annotations:
 - cfjs:
   - id: "3629"

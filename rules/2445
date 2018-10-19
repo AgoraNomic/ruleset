@@ -7,14 +7,12 @@ text: |
   "not pending" (default).
 
   Any player CAN flip a specified proposal's imminence to "pending"
-  by announcement by destroying 1 paper.
+  by announcement. A player SHALL NOT submit and/or pend proposals
+  that, taken collectively, are manifestly unreasonable and
+  excessive (hereafter excess proposals); doing so constitutes the
+  Class-4 Crime of Excess Legislation. The Promotor CAN remove a
+  specified excess proposal from the proposal pool by announcement.
 
-  An Official Proposal is a proposal designated as such by the
-  Rules; generally official proposals that are created as part of an
-  Officer's duties. Rules to the contrary notwithstanding, an
-  Official proposal is always pending. Rules to the contrary
-  notwithstanding, players CANNOT claim rewards for the adoption of
-  an Official proposal.
 history:
 - change:
     type: enactment
@@ -81,4 +79,19 @@ history:
   date: 2018-02-24
   agent:
     proposal: "8014"
+- change:
+    type: amendment
+  date: 2018-05-08
+  agent:
+    proposal: "8043"
+- change:
+    type: amendment
+  date: 2018-07-18
+  agent:
+    proposal: "8061"
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: "8087"
 annotations: []

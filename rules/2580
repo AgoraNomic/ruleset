@@ -1,0 +1,41 @@
+id: 2580
+name: Round Robin
+power: 1
+text: |
+  The "Effective Date" is the Agoran day that is 8 days after the
+  Agoran day on which this Rule was enacted.  This Rule is
+  automatically repealed at 00:01 UTC on the Agoran day after the
+  Effective Date.
+
+  The Slate A players are VJ Rada, Cuddle Beam, D. Margaux, Aris,
+  G., omd, Murphy, ATMunn, and Publius Scribonius Scholasticus.
+
+  The Slate B players are VJ Rada, D. Margaux, G., L., omd, Corona,
+  Trigon, twg, and Publius Scribonius Scholasticus.
+
+  The Slate C players are Cuddle Beam, Aris, L., Corona, Murphy,
+  Trigon, ATMunn, and twg.
+
+  The Slate A players CAN win the game by announcement on the
+  Effective Date, unless the Slate B players also CAN win the game
+  by announcement on the Effective Date.
+
+  The Slate B players CAN win the game by announcement on the
+  Effective Date, unless the Slate C players also CAN win the game
+  by announcement on the Effective Date.
+history: 
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: "8101"
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: "8102"
+- change:
+    type: repeal
+  date: 2018-10-10
+  agent:
+    rule: 2580

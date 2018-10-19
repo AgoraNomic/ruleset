@@ -1,0 +1,16 @@
+id: 2572
+name: Wishing Fountain
+power: 1
+text: |
+  If a player's location is the same as a fountain, e CAN destroy a
+  coin to Throw A Coin into the fountain. This does nothing, unless
+  specified in another Rule. A player MAY announce what e wishes for
+  when e Throws A Coin.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-04-27
+  agent:
+    proposal: "8033"
+annotations: []

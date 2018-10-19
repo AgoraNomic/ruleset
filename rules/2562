@@ -6,9 +6,12 @@ text: |
   to 1. Its possible values include all integers between 1 and 5,
   inclusive.
 
-  A player CAN increase the rank of a facility e owns that is at eir
-  location by exactly 1 by announcement by paying any upgrade costs
-  of the facility for that specific rank.
+  If a facility specifies upgrade costs, a player CAN increase the
+  rank of a facility e owns that is at eir location by exactly 1 by
+  announcement by paying any upgrade costs of the facility for that
+  specific rank. If no upgrade costs are specified for a facility, a
+  player CANNOT increase the rank of that facility unless specified
+  in other rules.
 history:
 - change:
     type: enactment
@@ -16,4 +19,9 @@ history:
   date: 2018-02-23
   agent:
     proposal: "8014"
+- change:
+    type: amendment
+  date: 2018-04-27
+  agent:
+    proposal: "8033"
 annotations: []

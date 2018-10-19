@@ -1,0 +1,26 @@
+id: 2568
+name: Facility Colors
+power: 2
+text: |
+  A facility's Allowed Land Types is a switch with allowed values of
+  a list of allowed values of the Land Type switch, with a default
+  value of {"Black", "White"}. A facility may not have a Parent Land
+  Unit whose Land Type is not an element of their Allowed Land
+  Types. If an action or set of actions would cause a facility to be
+  created with a Parent Land Unit whose Land Type is not an element
+  of its Allowed Land Types, that action or set of actions fails. If
+  a facility's Parent Land Unit's Land Type is flipped to a color
+  that is not in that facility's Allowed Land Types, that facility
+  is destroyed.
+
+  An “x facility”, where x is a Land Type or list of Land Types,
+  refers to a facility that has the Allowed Land Types switch set to
+  x.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-04-27
+  agent:
+    proposal: "8033"
+annotations: []

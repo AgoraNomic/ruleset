@@ -3,11 +3,17 @@ name: Land Types
 power: 2
 text: |
   Each Unit of Land has a Land Type switch, tracked by the
-  Cartographor, whose values are "Black", "White", and "Aether" (the
-  default). Changes to Land Type switches are secured. To "change
-  the type" of, or to "transform" a Unit of Land is to flip its Type
-  switch. A “Unit of X” is a Unit of Land whose Land Type switch has
-  the value X.
+  Cartographor. Possible values are:
+
+  1. Black
+  2. White
+  3. Gray
+  4. Aether (the default)
+
+  Changes to Land Type switches are secured. To "change the type"
+  of, or to "transform" a Unit of Land is to flip its Type switch. A
+  “Unit of X” is a Unit of Land whose Land Type switch has the value
+  X.
 
   When existent Land has not had its Type changed as explicitly
   permitted by the Rules, or has a Type that is not currently
@@ -21,11 +27,11 @@ text: |
   on the Land Unit, and set all other switches on the Land Unit to
   their default values.
 
-  Type is a singleton switch with the values of Black and White,
-  defaulting to Black. When an act specifies that an alternating
-  land type is to be used, the current value of the Alternating Land
-  Type switch is used, and the switch is set to the next value of
-  the switch.
+  Alternating Land Type is a singleton switch with the values of
+  Black and White, defaulting to Black. When an act specifies that
+  an alternating land type is to be used, the current value of the
+  Alternating Land Type switch is used, and the switch is set to the
+  next value of the switch.
 history:
 - change:
     type: enactment
@@ -43,10 +49,16 @@ history:
     power: 2
   date: 2018-03-30
   agent:
-    convergence: "Proposal 8030"
+    convergence:
+      proposal: "8030"
 - change:
     type: amendment
   date: 2018-03-30
   agent:
     proposal: "8030"
+- change:
+    type: amendment
+  date: 2018-05-08
+  agent:
+    proposal: "8045"
 annotations: []

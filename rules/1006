@@ -3,9 +3,9 @@ name: Offices
 power: 2
 text: |
   Officeholder is an office switch tracked by the ADoP, with
-  possible values of any person or "vacant". An officer is the
-  holder of an office, who may be referred to by the name of that
-  office. If the holder of an office is ever not a player, it
+  possible values of any person or "vacant" (default). An officer is
+  the holder of an office, who may be referred to by the name of
+  that office. If the holder of an office is ever not a player, it
   becomes vacant.
 
   An imposed office is an office described as such by the rule
@@ -282,6 +282,11 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7958"
+- change:
+    type: amendment
+  date: 2017-07-26
+  agent:
+    proposal: "8074"
 annotations:
 - cfjs:
   - id: '1660'

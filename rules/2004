@@ -2,22 +2,25 @@ id: 2004
 name: Land Auctions
 power: 1
 text: |
-  Every Agoran Week, if the number of units of Private Land is less
-  than one half the total number of units of Land, the Cartographor
-  CAN and SHALL initiate an auction. For this auction, the announcer
-  is the Cartographor, the auctioneer is Agora, the lots are chosen
-  as such:
+  Every Agoran Week, if the number of Units of Private Land is less
+  than one half the total number of units of Land, a number of
+  Public, non-Aether, Preserved Land Units are chosen using the
+  following process:
 
-  1. if there exist at least 5 Units of non-Aether Land in the
-     possession of Agora with the preservation switch set to False:
-     any 5 such Units of Land, to be chosen by the Cartographor,
-     each Land Unit in a separate lot;
+  1. If there exist more than 3 such units, the Cartographor SHALL
+     choose exactly 3 of them.
 
-  2. if there exist fewer than 5 Units of non-Aether Land in the
-     possession of Agora: all such Units, each land unit in a
-     separate lot;
+  2. If there exist 3 or fewer such units, all are automatically
+     chosen.
 
-  and the minimum bid is 1 coin.
+  For each land unit selected by the process described above, the
+  Cartographor CAN and SHALL initiate an auction with it as the only
+  lot. For this auction, the announcer is the Cartographor, the
+  auctioneer is Agora, the minimum bid is 1 coin, and the authorized
+  bidders are all active players.
+  
+  When a land auction ends, all bids by the winner of that auction
+  on other land auctions are withdrawn.
 history:
 - change:
     type: enactment
@@ -50,10 +53,26 @@ history:
     power: 1
   date: 2018-03-30
   agent:
-    convergence: "Proposal 8030"
+    convergence:
+      proposal: "8030"
 - change:
     type: amendment
   date: 2018-03-30
   agent:
     proposal: "8030"
+- change:
+    type: amendment
+  date: 2018-05-08
+  agent:
+    proposal: "8044"
+- change:
+    type: amendment
+  date: 2018-07-26
+  agent:
+    proposal: "8069"
+- change:
+    type: amendment
+  date: 2018-10-01
+  agent:
+    proposal: "8084"
 annotations: []

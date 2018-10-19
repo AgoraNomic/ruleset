@@ -1,0 +1,16 @@
+id: 2567
+name: Facility Categories
+power: 2
+text: |
+  A facility's Category is a switch whose possible values are
+  "Production", "Processing", "Monument", and "Miscellaneous". An
+  "x facility", where x is a Category, refers to a facility that has
+  Category switch set to x.
+history:
+- change:
+    type: enactment
+    power: 2
+  date: 2018-04-27
+  agent:
+    proposal: "8033"
+annotations: []

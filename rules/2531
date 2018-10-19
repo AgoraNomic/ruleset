@@ -14,7 +14,9 @@ text: |
   levied, or if it is made more than 14 days after the conduct
   constituting the reason for the fine, or if it attempts to levy a
   fine to a player who has already been levied a fine for the
-  conduct constituting the reason for the levy.
+  conduct constituting the reason for the levy, or if it attempts to
+  levy a fine on a zombie for an action that its master performed on
+  its behalf.
 
   If the Referee attempts to levy three or more INEFFECTIVE fines in
   a week, any player CAN, with two support, issue a writ of
@@ -40,4 +42,9 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8029"
+- change:
+    type: amendment
+  date: 2018-06-14
+  agent:
+    proposal: "8051"
 annotations: []

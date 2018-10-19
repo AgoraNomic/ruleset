@@ -12,9 +12,10 @@ text: |
   The quorum that an Agoran Decision gains as it is created can be
   defined by other rules of power 2 or greater. If no other rule
   defines the quorum of an Agoran Decision, the quorum for that
-  decision is equal to the number of players who voted on the Agoran
+  decision is equal to 2/3 of the number of voters on the Agoran
   Decision to adopt a proposal that had been most recently resolved
-  at the time of that decision's initiation, minus 2.
+  at the time of that decision's initiation, the whole rounded to
+  the nearest integer (breaking ties upward).
 
   As an exception to the previous paragraph, the quorum of an
   Agoran Decision can never be less than 2. If the rules would
@@ -210,6 +211,11 @@ history:
   date: 2017-06-05
   agent:
     proposal: "7853"
+- change:
+    type: amendment
+  date: 2018-09-28
+  agent:
+    proposal: "8095"
 annotations:
 - cfjs:
   - id: '1562'

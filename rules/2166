@@ -2,106 +2,22 @@ id: 2166
 name: Assets
 power: 3
 text: |
-  An asset is an entity defined as such by a (a) rule, (b)
-  authorized regulation, (c) group of rules and/or authorized
-  regulations (but if such regulations modify a preexisting asset
-  class defined by a rule or another title of regulations, they must
-  be authorized specifically to do so by their parent rule), or (d)
-  contract (hereafter its backing document), and existing solely
-  because its backing document defines its existence. An asset's
-  backing document can specify when and how that asset is created,
-  destroyed, and transferred.
+  An asset is an entity defined as such by a document that has been
+  granted Mint Authority by the Rules (hereafter the asset's backing
+  document), and existing solely because its backing document
+  defines its existence. An asset's backing document can generally
+  specify when and how that asset is created, destroyed, and
+  transferred.
 
-  Each asset has exactly one owner. If an asset would otherwise lack
-  an owner, it is owned by Agora. If an asset's backing document
-  restricts its ownership to a class of entities, then that asset
-  CANNOT be gained by or transferred to an entity outside that
-  class, and is destroyed if it is owned by an entity outside that
-  class (except if it is owned by Agora, in which case any player
-  CAN transfer or destroy it without objection). The restrictions in
-  the previous sentence are subject to modification by its backing
-  document.
-
-  Unless modified by an asset's backing document, ownership of an
-  asset is restricted to Agora, players, and contracts. As an
-  exception to the last sentence, non-player persons are generally
-  able to own assets defined by a contract they are a party to,
-  subject to modification by the contract in question.
-
-  A contract's text can specify whether or not that contract is
-  willing to receive assets or a class of assets. Generally, a
-  contract CANNOT be given assets it is unwilling to receive. If the
-  contract is silent on the matter, or if its willingness is
-  indeterminate or the subject of a inextricable conditional, the
-  procedure to determine its willingness is as follows:
-
-    1. If the contract appears to anticipate being given assets,
-       other than for sustenance (e.g. by authorizing parties to
-       spend the contract's assets), then the contract is willing to
-       receive all assets.
-
-    2. Otherwise, it is unwilling to receive all assets.
-
-  The previous paragraph (including the list) notwithstanding, a
-  contract CAN be given 1 unit of Agora’s official currency a month
-  for its sustenance payment, so long as it never has more than 1
-  unit of Agora’s official currency at a time.
+  The rules collectively have Mint Authority. Contracts have Mint
+  Authority. A rule defined asset is public; one defined by a
+  contract is private.
 
   The recordkeepor of a class of assets is the entity (if any)
   defined as such by, and bound by, its backing document. That
   entity's report includes a list of all instances of that class and
   their owners. This portion of that entity's report is
-  self-ratifying. Rules to the contrary notwithstanding, a contract
-  CANNOT oblige a person who isn't a member to record its internal
-  state, nor is the default recordkeepor responsible for tracking a
-  contract's internal state. For the purposes of this rule, the
-  promulgator of a regulation is bound by it.
-
-  An asset generally CAN be destroyed by its owner by announcement,
-  subject to modification by its backing document. An indestructible
-  asset is one defined as such by it backing document, and CANNOT be
-  destroyed except by a proposal or rule, other than this one,
-  specifically addressing the destruction of indestructible assets
-  or that asset in particular; any other asset is destructible. In
-  circumstances where another asset would be destroyed, an
-  indestructible asset is generally transferred to Agora, subject to
-  modification by its backing document and the intervention of other
-  rules.
-
-  To "lose" an asset is to have it destroyed from one's possession;
-  to "revoke" an asset from an entity is to destroy it from that
-  entity's possession.
-
-  An asset generally CAN be transferred (syn. paid, given) by
-  announcement by its owner to another entity, subject to
-  modification by its backing document. A fixed asset is one defined
-  as such by its backing document, and CANNOT be transferred; any
-  other asset is liquid.
-
-  When a rule indicates transferring an amount that is not a natural
-  number, the specified amount is rounded up to the nearest natural
-  number.
-
-  A currency is a class of asset defined as such by its backing
-  document. Instances of a currency with the same owner are
-  fungible.
-
-  The "x balance of an entity", where x is a currency, is the number
-  of x that entity possesses. If a rule, proposal, or other
-  competent authority attempts to increase or decrease the balance
-  of an entity without specifying a source or destination, then the
-  currency is created or destroyed as needed.
-
-  When a player causes one or more balances to change, e is
-  ENCOURAGED to specify the resulting balance(s). Players SHOULD NOT
-  specify inaccurate balances.
-
-  Where it resolves ambiguity, the asset or currency being referred
-  to is the currency designated as "Agora's official currency", if
-  there is one.
-
-  An asset or class of assets is private, rather than public, if its
-  backing document is a contract.
+  self-ratifying.
 history:
 - change:
     type: enactment
@@ -250,6 +166,11 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8030"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8055"
 annotations:
 - cfjs:
   - id: '3597'

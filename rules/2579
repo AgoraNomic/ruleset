@@ -1,0 +1,43 @@
+id: 2579
+name: Fee-based Actions
+power: 3
+text: |
+  If the Rules associate payment of a set of assets (hereafter
+  the fee for the action; syns: cost, price, charge) with performing
+  an action, that action is a fee-based action.
+
+  If the fee is a non-integer quantity of a fungible asset, the
+  actual fee is the next highest integer amount of that asset.
+
+  To perform a fee-based action, an entity (the Actor) who is
+  otherwise permitted to perform the action must announce that e is
+  performing the action; the announcement must specify the correct
+  set of assets for the fee and indicate intent to pay that fee for
+  the sole purpose of performing the action.
+
+  Upon such an announcement:
+
+    - If the Rules specify a recipient for the fee, and the Actor
+      CAN transfer that specified fee from emself to the recipient,
+      then that fee is transferred from the Actor to the recipient
+      and the action is performed simultaneously;
+
+    - If the Rules do not specify a recipient, and the Actor CAN
+      destroy the specified fee in eir possession, then that fee in
+      eir possession is destroyed and the action is performed
+      simultaneously.
+
+    - Otherwise, no changes are made to asset holdings and the
+      action is not performed.
+
+  If the Rules define a fee-based action but the specified set of
+  assets is the empty set, then the action can be performed by
+  announcement, but the announcement must include that there is an
+  (empty or 0) fee for the action.
+history:
+- change:
+    type: enactment
+    power: 3.0
+  date: 2018-07-01
+  agent:
+    proposal: "8055"

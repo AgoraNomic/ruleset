@@ -6,15 +6,9 @@ text: |
 
   The Auctioneer of an Auction is the entity that initiates that
   Auction, and describes all of the specifics of an Auction. All
-  rules or contracts permitting Auctions to be initiated should
-  specify an entity to be Auctioneer. If no Auctioneer is specified,
-  the default Auctioneer for Auctions defined by the rules is Agora,
-  and the default Auctioneer for Auctions defined by a contract is
-  the contract itself.
-
-  A clause in a Contract purporting to make an entity which is
-  neither the Contract itself nor a party to the Contract the
-  Auctioneer of an Auction defined by that Contract is INEFFECTIVE.
+  rules permitting Auctions to be initiated should specify an entity
+  to be Auctioneer. If no Auctioneer is specified, the default
+  Auctioneer for Auctions defined by the rules is Agora.
 history:
 - change:
     type: enactment
@@ -22,4 +16,9 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7975"
+- change:
+    type: amendment
+  date: 2018-07-01
+  agent:
+    proposal: "8054"
 annotations: []
