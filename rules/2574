@@ -19,12 +19,12 @@ text: |
 
   Any player CAN, with Notice:
     - If a zombie has been a zombie for the past 90 days and not had
-     Agora for a master during any of that time, flip the zombie's
-     master switch to Agora;
+      Agora for a master during any of that time, flip the zombie's
+      master switch to Agora;
     - If a player is master to more than one zombie, flip the master
-     switch of one of that master's zombies to Agora;
+      switch of one of that master's zombies to Agora;
     - Deregister a zombie whose master is Agora and who has a Resale
-     value of 0.
+      value of 0.
 
   The Registrar SHALL track the date that each zombie last belonged
   to Agora in eir weekly report.  The Registrar SHALL perform all
