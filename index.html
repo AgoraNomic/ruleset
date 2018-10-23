@@ -1,144 +1,46 @@
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <head>
+    <title>The Agoran Rulesets</title>
+    <style>
+      body {
+        max-width: 700px;
+        margin: 0 auto;
+      }
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <style>
-
-    .fixed {
-      position: fixed;
-    }
-
-    /* sidebar */
-    .bs-docs-sidebar {
-      padding-left: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    /* all links */
-    .bs-docs-sidebar .nav>li>a {
-      color: #999;
-      border-left: 2px solid transparent;
-      padding: 4px 20px;
-      font-size: 12px;
-      font-weight: 400;
-    }
-
-    /* nested links */
-    .bs-docs-sidebar .nav .nav>li>a {
-      padding-top: 1px;
-      padding-bottom: 1px;
-      padding-left: 30px;
-      font-size: 11px;
-    }
-
-    /* active & hover links */
-    .bs-docs-sidebar .nav>.active>a, 
-    .bs-docs-sidebar .nav>li>a:hover, 
-    .bs-docs-sidebar .nav>li>a:focus {
-      color: #563d7c;                 
-      text-decoration: none;          
-      background-color: transparent;  
-      border-left-color: #563d7c; 
-    }
-    /* all active links */
-    .bs-docs-sidebar .nav>.active>a, 
-    .bs-docs-sidebar .nav>.active:hover>a,
-    .bs-docs-sidebar .nav>.active:focus>a {
-      font-weight: 700;
-    }
-    /* nested active links */
-    .bs-docs-sidebar .nav .nav>.active>a, 
-    .bs-docs-sidebar .nav .nav>.active:hover>a,
-    .bs-docs-sidebar .nav .nav>.active:focus>a {
-      font-weight: 500;
-    }
-
-    /* hide inactive nested list */
-    .bs-docs-sidebar .nav ul.nav {
-      display: none;           
-    }
-    /* show active nested list */
-    .bs-docs-sidebar .nav>.active>ul.nav {
-      display: block;           
-    }
-
-    /*Header formatting */
-    .MainContent {
-      margin-top: 50px;
-    }
-    .group, .rule {
-      padding-top: 50px;
-      margin-top: -50px;
-    }
-    #rawlink {
-      margin-top: 20px;
-    }
-
-  </style>
-  <script>
-    $(function() {
-      $('body').scrollspy({
-        target: '.bs-docs-sidebar',
-        offset: 40
-      });
-    })
-  </script>
-</head>
-<body>
-  <!-- Top Navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="http://agoranomic.github.io">Agora</a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="/ruleset">Ruleset</span></a></li>
-          <li class="__ACTIVE_WIKI__"><a href="/wiki">Wiki</span></a></li>
-          <li class="__ACTIVE_HERALD__"><a href="/Herald/">Herald</a></li>
-          <li class="__ACTIVE_ADOP__"><a href="/ADoP">ADoP</a></li>
-          <li class="__ACTIVE_REGISTRAR__"><a href="/Registrar/">Registrar</a></li>
-          <li class="__ACTIVE_SUPERINTENDENT__"><a href="/Superintendent">Superintendent</a></li>
-          <li class="__ACTIVE_COTC__"><a href="https://faculty.washington.edu/kerim/nomic/cases/">CotC</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Archives <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="http://www.mail-archive.com/agora-official@agoranomic.org/info.html">Official</a></li>
-              <li><a href="http://www.mail-archive.com/agora-business@agoranomic.org/info.html">Business</a></li>
-              <li><a href="http://www.mail-archive.com/agora-discussion@agoranomic.org/info.html">Discussion</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-  <div class='container'>
-    <!-- Main Content -->
-    <div class="row MainContent">
-      <!--Main Content -->
-      <div class="col-xs-9">
-        <div id="rawlink">
-        The HTML ruleset is currently being reconstructed. View as raw text: <a href="flr.txt">FLR</a>, <a href="slr.txt">SLR</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
+      html {
+        color: #333;
+        line-height: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Agoran Rulesets</h1>
+    <p>
+      Welcome. If you are trying to access the ruleset of Agora Nomic,
+      you've come to the right place. This website is maintained by
+      Trigon, the current Rulekeepor of Agora Nomic.
+    </p>
+    <p>
+      The Agoran Rulesets come in two flavors: The Short Logical
+      Ruleset (SLR) and the Full Logical Ruleset (FLR).
+    </p>
+    <ul>
+      <li>
+	<a href="slr.txt">The Short Logical Ruleset</a> contains the
+	full text of all currently enacted rules, organized into
+	categories. If you are new to Agora, this is the most
+	accessible version.
+      </li>
+      <li>
+	<a href="flr.txt">The Full Logical Ruleset</a> contains the
+	same rules as the SLR in the same order, along with a list of
+	changes that rule has gone through as well as some other
+	notable historical annotations.
+      </li>
+    </ul>
+    <p>
+      <a href="http://agoranomic.org">Back to Agora's homepage</a>
+    </p>
+  </body>
 </html>
