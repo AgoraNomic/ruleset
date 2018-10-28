@@ -2,16 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last report: 14 Oct 2018
+Date of last report: 28 Oct 2018
 
-Number of rules currently enacted: 144
+Number of rules currently enacted: 122
 
-Most recent change to this ruleset: Rule 2580 repeals itself, 10 Oct
-   2018
+Most recent change to this ruleset: R2583 is enacted by P8110.
 
-Highest ID'd rule in this ruleset: 2579
-Highest ID'd Proposal Passed: 8102
-Highest ID'd Rule Enacted: 2580
+Highest ID'd rule in this ruleset: 2583
+Highest ID'd Proposal Passed: 8110
+Highest ID'd Rule Enacted: 2583
 
 ========================================================================
 The Game of Agora
@@ -379,7 +378,7 @@ Agoran Time
              or earlier time of day.
       
 ------------------------------------------------------------------------
-Rule 1728/38 (Power=3)
+Rule 1728/39 (Power=3)
 Dependent Actions
 
       A rule which purports to allow a person (the performer) to perform
@@ -403,10 +402,11 @@ Dependent Actions
       thereby allows em to perform the action by announcement if all of
       the following are true:
       
-      1. A person (the initiator) announced intent to perform the
-         action, unambiguously and clearly specifying the action and
-         method(s) (including the value of N and/or T for each method),
-         at most fourteen days earlier.
+      1. A person (the initiator) conspicuously and without obfuscation
+         announced intent to perform the action, unambiguously and
+         clearly specifying the action and method(s) (including the
+         value of N and/or T for each method), at most fourteen days
+         earlier.
       
       2. If the action is to be performed Without N Objections, With N
          Agoran Consent, or With Notice, if the intent was announced at
@@ -598,7 +598,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/9 (Power=3)
+Rule 2350/10 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -625,27 +625,8 @@ Proposals
       The author of a proposal in the Proposal Pool CAN remove (syn.
       retract, withdraw) it from the Pool by announcement.
       
-      The Promotor CAN remove a proposal from the Proposal Pool by
-      announcement if it is not pending and has been added to the Pool
-      more than 14 days ago.
-      
 ------------------------------------------------------------------------
-Rule 2445/15 (Power=1)
-How to Pend a Proposal
-
-      Imminence is a switch, tracked by the Promotor, possessed by
-      proposals in the Proposal Pool, whose value is either "pending" or
-      "not pending" (default).
-      
-      Any player CAN flip a specified proposal's imminence to "pending"
-      by announcement. A player SHALL NOT submit and/or pend proposals
-      that, taken collectively, are manifestly unreasonable and
-      excessive (hereafter excess proposals); doing so constitutes the
-      Class-4 Crime of Excess Legislation. The Promotor CAN remove a
-      specified excess proposal from the proposal pool by announcement.
-      
-------------------------------------------------------------------------
-Rule 1607/43 (Power=3)
+Rule 1607/44 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -660,12 +641,11 @@ Distribution
       from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time, by announcement. The Promotor SHALL NOT
-      distribute proposals which are not pending.
+      Pool at any time, by announcement.
       
       In a given Agoran week, the Promotor SHALL, as part of eir weekly
-      duties, distribute all pending proposals except for those exempted
-      from automatic distribution by other rules.
+      duties, distribute all proposals in the Proposal Pool except for
+      those exempted from automatic distribution by other rules.
       
       Distributed proposals have ID numbers, to be assigned by the
       Promotor.
@@ -917,7 +897,7 @@ Rule Changes
       a rule or cease to be a rule.
       
 ------------------------------------------------------------------------
-Rule 2493/4 (Power=3)
+Rule 2493/5 (Power=3)
 Regulations
 
       A regulation is an textual entity defined as such by this rule,
@@ -926,10 +906,9 @@ Regulations
       to exist. It has only the effect that rule explicitly gives it.
       
       A regulation CAN be enacted, amended, and repealed as specified by
-      its parent rule. By default, a Promulgator can enact or amend a
-      regulation with 2 Agoran Consent and repeal a regulation by
-      announcement. Regulations are tracked in their Promulgator's
-      weekly report.
+      its parent rule. By default, a Promulgator can enact, amend, or
+      repeal a regulation with 2 Agoran Consent. Regulations are tracked
+      in their Promulgator's weekly report.
       
 ------------------------------------------------------------------------
 Rule 2486/0 (Power=3.14)
@@ -2170,32 +2149,16 @@ The Treasuror
       classes of assets.
       
 ------------------------------------------------------------------------
-Rule 2483/11 (Power=2)
+Rule 2483/12 (Power=2)
 Economics
-
-      The following currencies are defined, and are tracked by the
-      Treasuror. They can be owned by Agora, players, and facilities.
       
-      1.  ore
-      2.  stones
-      3.  lumber
-      4.  apples
-      5.  cotton
-      6.  corn
-      7.  coins
-      8.  papers
-      9.  fabric
-      10. steel
+      Coins are the official currency of Agora, Tracked by the
+      Treasuror.  They can be owned by Agora, players, and contracts.
       
-      Stones, apples, corn, and steel are considered unrefinable
-      currencies; ore, lumber, and cotton are considered refinable
-      currencies; and papers, fabric, and steel are considered refined
-      currencies.
-      
-      Coins are the official currency of Agora.
+      A player CAN win the game by paying a fee of 1,000 Coins.
       
 ------------------------------------------------------------------------
-Rule 2559/4 (Power=2)
+Rule 2559/5 (Power=2)
 Paydays
 
       Whenever a Payday occurs, the following events happen in order:
@@ -2203,8 +2166,6 @@ Paydays
       1. The following assets are created in the possession of each
          player:
          A. 10 coins
-         B. 5 apples
-         C. 2 papers
       
       2. For each office, if a single player held that office for 16 or
          more days in the previous month and no unforgivable fines were
@@ -2212,7 +2173,6 @@ Paydays
          the following assets are created in the possession of that
          player:
          A. 5 coins
-         B. 1 corn
       
       The occurrence of Paydays is secured.  At the beginning of each
       month, a Payday occurs.
@@ -2229,11 +2189,33 @@ Welcome Packages
       following assets in eir possession:
       
       1. 10 coins
-      2. 5 lumber
-      3. 5 stones
-      4. 10 apples
-      5. 3 paper
-      6. 5 steel
+      
+------------------------------------------------------------------------
+Rule 2583/0 (Power=1.5)
+Earning Coins
+
+      For a player to 'earn' a coin is for it to be created in eir
+      possession.  For a player to 'lose' a coin is for it to be
+      destroyed (if e has one).
+
+      When a decision to adopt a proposal is resolved:
+
+        - If the outcome was ADOPTED, its author earns a number of coins
+          equal to (the total strength of all valid ballots cast FOR the
+          decision - the total strength of all valid ballots cast
+          AGAINST) times the adoption index of the decision (final
+          result rounded up).
+
+        - If the outcome was REJECTED, its author loses a number of
+          coins equal to (the minimum of (the total strength of all
+          valid ballots cast AGAINST the decision - the total strength
+          of all valid ballots cast FOR) and 0).
+
+        - If the outcome was FAILED QUORUM, every active player who
+          didn't cast a ballot loses 1 coin.
+
+      When a judge issues eir first official judgement on a given CFJ, e
+      earns 5 coins.
       
 ------------------------------------------------------------------------
 Rule 2545/1 (Power=2)
@@ -2384,487 +2366,6 @@ Auction Termination
       
 ------------------------------------------------------------------------
 ========================================================================
-The Land of Arcadia
-   This section describes a subgame of Agora, in which players can
-   compete for influence over a sprawling map.
-------------------------------------------------------------------------
-Rule 1993/2 (Power=2)
-The Land of Arcadia
-
-      Arcadia is a land entirely defined by the Arcadian Map (the Map).
-      The Map is the term for the set of all Land Units.
-      
-      The Map divides Arcadia into a finite, discrete number of Units of
-      Land, or simply Land. Each Unit of Land is an indestructible asset
-      specified by an ordered pair of integers known as its Latitude and
-      Longitude.
-      
-      Every unique ordered pair of integers within the limits defined in
-      the Rules for Latitude and Longitude signifies an existent Unit of
-      Land. No other Units of Land exist. Units of Land CAN only be
-      created or destroyed by changing the limits of Latitude and
-      Longitude defined in the Rules.
-      
-      All values for Latitude and Longitude MUST lie between -6 and +6,
-      inclusive.
-      
-      The Total Land Area of Arcadia is the number of existent Units of
-      Land defined by permissible Latitude and Longitude pairs.
-      
-------------------------------------------------------------------------
-Rule 1994/2 (Power=2)
-Ownership of Land
-
-      Any existent Land for which ownership has not been explicitly
-      changed belongs to Agora.
-      
-      Land belonging to Agora is called Public Land. Land belonging to
-      any other entity is called Private Land (syn. Proprietary Land)
-      
-------------------------------------------------------------------------
-Rule 1995/3 (Power=2)
-Land Types
-
-      Each Unit of Land has a Land Type switch, tracked by the
-      Cartographor. Possible values are:
-      
-      1. Black
-      2. White
-      3. Gray
-      4. Aether (the default)
-      
-      Changes to Land Type switches are secured. To "change the type"
-      of, or to "transform" a Unit of Land is to flip its Type switch. A
-      “Unit of X” is a Unit of Land whose Land Type switch has the value
-      X.
-      
-      When existent Land has not had its Type changed as explicitly
-      permitted by the Rules, or has a Type that is not currently
-      defined by the Rules, it is considered to have the Land Type of
-      Aether. Rules to the contrary nonwithstanding, Units of Aether
-      CANNOT be transferred from Agora, or owned by any entity other
-      than Agora.
-      
-      If Proprietary Land becomes Aether, the Cartographor SHALL
-      transfer it to Agora in a timely fashion, destroy any facilities
-      on the Land Unit, and set all other switches on the Land Unit to
-      their default values.
-      
-      Alternating Land Type is a singleton switch with the values of
-      Black and White, defaulting to Black. When an act specifies that
-      an alternating land type is to be used, the current value of the
-      Alternating Land Type switch is used, and the switch is set to the
-      next value of the switch.
-      
-------------------------------------------------------------------------
-Rule 1996/4 (Power=1)
-The Cartographor
-
-      The Cartographor is an office; its holder is recordkeepor for the
-      Land of Arcadia.
-      
-      The Cartographor's Weekly Report shall include:
-      
-      1. the ownership and land type of all existing land;
-      2. all changes in the ownership and land type of existing land
-         since the most recent report;
-      3. the location for the previous week and the current week of each
-         entity with a defined location;
-      4. the next alternating land type;
-      5. all facilities and their parent land units; and
-      6. a list of all preserved land units.
-      
-------------------------------------------------------------------------
-Rule 1998/3 (Power=1)
-Land Topology
-
-      Two Units of Land are Adjacent if they have the same Latitude, and
-      their Longitudes differ by exactly one; or they have the same
-      Longitude, and their Latitudes differ by exactly one.
-      
-      Land Unit A is said to be connected to Land Unit B if it is
-      possible to reach B by moving only to adjacent Land Units of the
-      same color, starting from A.
-      
-------------------------------------------------------------------------
-Rule 1999/1 (Power=1)
-Entity Location
-
-      Location is a player switch, tracked by the Cartographer, whose
-      values are ordered pairs of integers where the first value is a
-      valid Latitude, and the second is a valid Longitude. The default
-      Location is (0, 0).
-      
-      To "move" a player is to flip that player’s Location switch to the
-      Latitude and Longitude of the destination.
-      
-      No other Entity can have a location unless it is defined in a rule
-      other than this one. Changes to the Location of an Entity are
-      secured. If an Entity is specified by this Rule as having a
-      defined Location, but its Location has not been explicitly set or
-      changed, its Location is set to (0, 0).
-      
-------------------------------------------------------------------------
-Rule 2003/19 (Power=1)
-Actions in Arcadia
-
-      Energy Points (abbreviated EP) is an untracked natural player
-      switch. Any action which would decrease a player's EP below 0
-      is INEFFECTIVE.
-      
-      Players CAN eat a quantity of apples or corn. To eat is to pay a
-      fee of the stated quantity to increase your EP by one for each
-      apple and three for each corn.
-      
-      Players CAN feed another player a quantity of apples or corn. To
-      feed is to pay a fee of the stated quantity to increase the EP of
-      another player using the values given above.
-      
-      At the beginning of the week, each player's Energy Points switch
-      is flipped to 0.
-      
-      Any player CAN perform any of the following actions by
-      announcement:
-      
-      1. move from one Land Unit to an adjacent Unit. This action
-        decreases eir EP by:
-      
-        a. 1 if the their Land Types are the same or one is gray;
-        b. 2 if their Land Types differ, neither is gray, and the
-           destination is not Aether.
-      
-      2. set the Land Type of a Land Unit that is adjacent to the
-        Entity's current location, is of type Aether, and is owned by
-        Agora, to:
-      
-        a. an alternating Land Type. This action decreases eir EP by 3.
-        b. eir choice of either Black or White. This action decreases
-           eir EP by 4.
-      
-      3. set the Land Type of any Land Unit to:
-      
-        a. if e owns it, eir choice of either Black or White. This
-           action decreases eir EP by 2.
-        b. if Agora owns it, an alternating Land Type. This action
-           decreases eir EP by 6.
-      
-      4. Stake a Land Claim on a specified Land Unit that is adjacent to
-        the Entity's current location, is of type Aether, and is owned
-        by Agora, if and only if e is active, has not staked a land
-        claim in the current month, and has not won a land auction in
-        the current or previous month.  When e stakes a land claim, the
-        unit's land type is set to the land type of eir choice, then is
-        transferred to em, then e moves onto that unit.
-      
-------------------------------------------------------------------------
-Rule 2004/8 (Power=1)
-Land Auctions
-
-      Every Agoran Week, if the number of Units of Private Land is less
-      than one half the total number of units of Land, a number of
-      Public, non-Aether, Preserved Land Units are chosen using the
-      following process:
-      
-      1. If there exist more than 3 such units, the Cartographor SHALL
-         choose exactly 3 of them.
-      
-      2. If there exist 3 or fewer such units, all are automatically
-         chosen.
-      
-      For each land unit selected by the process described above, the
-      Cartographor CAN and SHALL initiate an auction with it as the only
-      lot. For this auction, the announcer is the Cartographor, the
-      auctioneer is Agora, the minimum bid is 1 coin, and the authorized
-      bidders are all active players.
-      
-      When a land auction ends, all bids by the winner of that auction
-      on other land auctions are withdrawn.
-      
-------------------------------------------------------------------------
-Rule 2022/7 (Power=1)
-Land Transfiguration
-
-      Once during the second or third Eastman week of each Agoran Month,
-      the Cartographor CAN perform the following actions in sequence,
-      and report these changes:
-      
-      1. Every Land Unit, with a preservation switch of False
-         that is not directly connected to a unit of Aether, or is not
-         connected by its own type to a unit of Aether, shall be
-         transformed to Aether.
-      
-      2. Any entities whose locations are on land units so transformed
-         shall have their locations set to (0, 0).
-      
-      3. If any land unit so transformed is not property of Agora, it
-         becomes property of Agora.
-      
-      The Cartographor SHALL do so in the second Eastman week of each
-      Agoran Month.
-      
-------------------------------------------------------------------------
-Rule 2565/1 (Power=2.6)
-Preserved Land
-
-      Preservation is a boolean land switch, defaulting to False. The
-      preservation switch CAN be set by the Cartographor without 2
-      objections. A Land Unit with its preservation switch set to True
-      is considered a preserved Land Unit. A Land Unit with its
-      preservation switch set to False is considered an unconserved
-      Land Unit.
-      
-      Changes to the Land Type or ownership of a preserved land unit
-      are secured at a power threshold of 2.5.
-      
-      Any Facilities built on a preserved land unit CANNOT have their
-      rank changed or be destroyed, rules to the contrary
-      notwithstanding.
-      
-      Whenever a land unit becomes preserved, it is transferred to
-      Agora. Rules to the contrary notwithstanding, entities that are
-      not Agora CANNOT own preserved land.
-      
-------------------------------------------------------------------------
-Rule 2560/1 (Power=2)
-Facilities
-
-      Facilities are liquid assets tracked by the Cartographor. In order
-      for a facility to exist, it must be built on a Land Unit. Only one
-      facility is allowed per Land Unit. The Land Unit on which a
-      Facility is built is considered its Parent Land Unit.
-      
-      A player CAN create a facility by announcement on the land unit e
-      is on by specifying which type of facility e intends to build and
-      destroying the build cost. Facilities on proprietary land can be
-      destroyed by the owner by announcement. Facilities on public land
-      can be destroyed Without Objection.
-      
-      If an entity other than Agora owns any facilities with upkeep
-      costs, e must pay them before the first day of the next Agoran
-      month. Failing to do this destroys the facility. In the second to
-      last Eastman week of the Agoran Month, the Cartographor SHOULD
-      issue a humiliating public reminder to all those who have not paid
-      upkeep fees on any of eir facilities.
-      
-      Facilities always have the same owner as their parent land unit.
-      If the owner of a facility is ever not the same as that of its
-      parent land unit, it is transferred to the owner of its parent
-      land unit.
-      
-------------------------------------------------------------------------
-Rule 2561/4 (Power=2)
-Asset Generation with Facilities
-
-      When an Production or Processing facility creates assets, the
-      assets are added to the facility's possession. The rule that
-      creates an Production or Processing facility CAN specify a
-      carrying capacity for assets. If, at any time, the amount of an
-      asset in the possession of an Production or Processing facility
-      exceeds that asset's carrying capacity, an amount of that asset is
-      destroyed until the amount of that asset in the possession of the
-      facility is equal to its carrying capacity.
-      
-      At the end of every Agoran Week, Agora creates a number of assets
-      in a Production facility specified by the rule which creates the
-      facility.
-      
-      At the end of every Agoran Week, Agora destroys any refinable
-      assets in the possession of each Processing facility that that
-      facility can change into refined assets and replaces them with a
-      corresponding number of refined assets to be specified by the rule
-      that creates the facility.
-      
-      A player CANNOT transfer assets to a facility not at eir location.
-      A player can take a number of assets from an Production or
-      Processing facility's inventory by announcement if eir location is
-      the same as the facility's and the following criteria are met:
-         1. if the facility is built on unconserved Public Land, none.
-         2. if the facility is built on preserved Public Land and less
-            than four days have passed since assets were created in the
-            facility most recently, e must not have taken any assets
-            from the inventory of another facility located on a
-            preserved Land Unit within this Agoran week.
-         3. if the facility is built on Private Land, e must own the
-            facility, or the owner must have consented.
-      
-------------------------------------------------------------------------
-Rule 2562/1 (Power=2)
-Facility Ranks
-
-      Rank is a facility switch tracked by the Cartographor defaulting
-      to 1. Its possible values include all integers between 1 and 5,
-      inclusive.
-      
-      If a facility specifies upgrade costs, a player CAN increase the
-      rank of a facility e owns that is at eir location by exactly 1 by
-      announcement by paying any upgrade costs of the facility for that
-      specific rank. If no upgrade costs are specified for a facility, a
-      player CANNOT increase the rank of that facility unless specified
-      in other rules.
-      
-------------------------------------------------------------------------
-Rule 2563/3 (Power=2)
-Production Facilities
-
-      For the purposes of this rule, the variable n is equivalent to the
-      rank of the facility.
-      
-      The following facilities are defined as production facilities:
-      
-      1. Mines
-         -  Build Cost: 5 lumber
-         -  Upkeep Cost: 2n-2 lumber
-         -  Production Details: 3n stones and 2n ore
-         -  Upgrade Costs:
-            -  Rank 2: 3 steel, 2 lumber
-            -  Rank 3: 4 steel, 4 lumber
-            -  Rank 4: 5 steel, 4 lumber, 3 stones
-            -  Rank 5: 6 steel, 6 lumber, 6 stones, 2 fabric
-      
-      2. Orchards
-         -  Build Cost: 5 stones
-         -  Upkeep Cost: 2n-2 stones
-         -  Production Details: 3n apples and 3n lumber
-         -  Upgrade Costs:
-            -  Rank 2: 3 steel, 2 stones
-            -  Rank 3: 4 steel, 4 stones
-            -  Rank 4: 5 steel, 4 stones, 3 lumber
-            -  Rank 5: 6 steel, 6 stones, 6 lumber, 2 fabric
-      
-      3. Farms
-         -  Build Cost: 3 lumber and 4 stones
-         -  Upkeep Cost: n-1 lumber and n-1 stones
-         -  Production Details: 3n corn and 3n cotton
-         -  Upgrade Costs:
-            -  Rank 2: 3 steel, 1 lumber, 1 stones
-            -  Rank 3: 4 steel, 2 lumber, 2 stones
-            -  Rank 4: 5 steel, 4 lumber, 4 stones, 1 fabric
-            -  Rank 5: 6 steel, 6 lumber, 6 stones, 3 fabric
-      
-------------------------------------------------------------------------
-Rule 2564/3 (Power=2)
-Processing Facilities
-
-      The following facilities are defined as processing facilities:
-        1. Refineries
-           -  Build Cost: 4 lumber and 8 stones
-           -  Upkeep Cost: 3 steel
-           -  Processing Details: 1 ore to 5 steel
-      
-        2. Mills
-           -  Build Cost: 6 lumber and 6 stones
-           -  Upkeep Cost: 3 steel
-           -  Processing Details: 1 lumber to 5 paper
-      
-        3. Looms
-           - Build Cost: 8 lumber and 4 stones
-           - Upkeep Cost: 3 steel
-           - Processing Details: 1 cotton to 5 fabric
-      
-------------------------------------------------------------------------
-Rule 2567/0 (Power=2)
-Facility Categories
-
-      A facility's Category is a switch whose possible values are
-      "Production", "Processing", "Monument", and "Miscellaneous". An
-      "x facility", where x is a Category, refers to a facility that has
-      Category switch set to x.
-      
-------------------------------------------------------------------------
-Rule 2568/0 (Power=2)
-Facility Colors
-
-      A facility's Allowed Land Types is a switch with allowed values of
-      a list of allowed values of the Land Type switch, with a default
-      value of {"Black", "White"}. A facility may not have a Parent Land
-      Unit whose Land Type is not an element of their Allowed Land
-      Types. If an action or set of actions would cause a facility to be
-      created with a Parent Land Unit whose Land Type is not an element
-      of its Allowed Land Types, that action or set of actions fails. If
-      a facility's Parent Land Unit's Land Type is flipped to a color
-      that is not in that facility's Allowed Land Types, that facility
-      is destroyed.
-      
-      An “x facility”, where x is a Land Type or list of Land Types,
-      refers to a facility that has the Allowed Land Types switch set to
-      x.
-      
-------------------------------------------------------------------------
-Rule 2569/0 (Power=2)
-Gray Land
-
-      Gray Land is preserved and owned by Agora. If Land becomes Gray
-      Land, it, along with any facilities with it as their Parent Land
-      Unit, is transferred to Agora.
-      
-------------------------------------------------------------------------
-Rule 2570/0 (Power=1)
-Monument Facilities
-
-      For each type of Monument facility, there may only be one instance
-      of that facility in existence at any one time. An action CANNOT
-      cause an Monument facility to exist while another Monument
-      facility of the same type is already in existence.
-      
-------------------------------------------------------------------------
-Rule 2571/0 (Power=1)
-The Fountain
-
-      A fountain is a Gray Monument facility. A fountain has no upkeep
-      cost.
-      
-------------------------------------------------------------------------
-Rule 2572/0 (Power=1)
-Wishing Fountain
-
-      If a player's location is the same as a fountain, e CAN destroy a
-      coin to Throw A Coin into the fountain. This does nothing, unless
-      specified in another Rule. A player MAY announce what e wishes for
-      when e Throws A Coin.
-      
-------------------------------------------------------------------------
-Rule 2046/1 (Power=1)
-Q*Bert
-
-      Q*Bert is an entity which has a location. Q*Bert CAN be on a unit
-      of Aether.
-      
-      Q*Bert has a color switch, tracked by the Cartographor, whose
-      possible values are all defined Land Type other than Aether or
-      Gray. The default value is Black. When Q*Bert moves to a Land
-      Unit, if the current type of the unit is not the same as Q*Bert's
-      color switch, Q*Bert changes that space's type to the value of eir
-      color switch.
-      
-      Every week, the Cartographor CAN and SHALL move Q*Bert using the
-      following process:
-      
-      1. If Q*Bert is on the same Land Unit as another entity, the
-         Cartographor SHALL select a Land Unit adjacent to Q*Bert's
-         current position and move em there.
-      
-      2. Otherwise, the Cartographor SHALL select a Land Unit whose
-         longitude and latitude both differ from Q*Bert's by exactly
-         one.
-      
-      If, after Q*Bert has moved, e is on a Preserved Land Unit, the
-      Cartographor SHALL repeat the process above, moving Q*Bert until e
-      is no longer on a Preserved Land Unit.
-      
-      If the type of the Land Unit that Q*Bert is located on is
-      switched by an entity that is not Q*Bert, Q*Bert's color switch is
-      set to that type instead.
-      
-      Whenever Q*Bert is moved to (0, 0), the Cartographor CAN and SHALL
-      choose a random Land Type that is an allowed value of Q*Bert's
-      color switch and set Q*Bert's color switch to it.
-      
-      When referring to Q*Bert, entities CAN replace the "*" with any
-      punctuation character or spell it with a lowercase letter "b"
-      (i.e. Q-Bert, Q^bert)
-      
-------------------------------------------------------------------------
-========================================================================
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
@@ -2974,24 +2475,6 @@ Winning the Game
       with the indicated win. Agora itself does not end and the ruleset
       remains unchanged. The Herald is then authorized to award those
       persons the Patent Title of Champion once, by announcement.
-      
-------------------------------------------------------------------------
-Rule 2452/2 (Power=0.5)
-Trust Tokens
-
-      Any player can issue a Trust Token to another person by
-      announcement.
-      
-      When the Assessor resolves a Decision to adopt a proposal, then
-      any player who cast a valid vote on the Decision and was endorsed
-      by another player's valid vote on the Decision is issued a Trust
-      Token by the endorsing player.
-      
-      A person can win the game by announcement if e has been issued a
-      Trust Token by each player except emself; if no person has won via
-      this mechanism in the past; and if in the same message, e quotes,
-      for each of those players, a public message in which that player
-      issued em a Trust Token.
       
 ------------------------------------------------------------------------
 Rule 2465/0 (Power=0.3)
@@ -3229,35 +2712,6 @@ Patent Titles
       title is warranted.
       
 ------------------------------------------------------------------------
-Rule 2444/3 (Power=1)
-Silver Quill
-
-      The Silver Quill is an annual award designed to honor the authors
-      of proposals of outstanding merit and influence on the game.
-      
-      In a timely fashion after the end of each Agoran Year, the Herald
-      SHALL initiate and Agoran Decision to determine which Proposal has
-      most greatly influenced that (ending) year of play.
-      
-      For this decision, the valid options are all proposals adopted
-      between November 1 of the year prior to the ending year, and
-      October 31 of the ending year. The vote collector is the Herald,
-      and the voting method is instant runoff.
-      
-      Players are ENCOURAGED to discuss which eligible proposals best
-      satisfy the aforementioned criteria. Proposals submitted by new
-      players SHOULD be given somewhat higher weight, but the primary
-      reference should be the proposals themselves and their effect on
-      the game since adoption.
-      
-      Upon the resolution of the decision, if the outcome is not FAILED
-      QUORUM and there were at least three votes containing it in any
-      preference slot, that proposal wins the Ceremony, and the Herald
-      CAN once, by announcement, award its author the Patent Title of
-      "Silver Quill YYYY, substituting the ending year; otherwise, there
-      is no winner.
-      
-------------------------------------------------------------------------
 Rule 2415/0 (Power=1.5)
 Badges
 
@@ -3312,6 +2766,95 @@ Order of the Hero of Agora Nomic
       Hero of Agora Nomic (HAN) -- This title CAN be awarded to any
       person for outstanding meritorious service to Agora above and
       beyond the call of duty.
+
+------------------------------------------------------------------------
+Rule 2581/0 (Power=1)
+Official Patent Titles
+
+      The following Patent Titles CAN be awarded by the indicated
+      Officers with 2 Agoran Consent.  In order to balance the history,
+      dignity, spontaneity, and serendipity of the awards, the Herald,
+      Speaker, and Prime Minister are STRONGLY ENCOURAGED to provide
+      their support or objections, and reasons for doing so, reasonably
+      quickly after any such intents are announced.
+      
+       - Tapecutter, awardable by the Rulekeepor to the author of an
+         adopted proposal that significantly reduces, streamlines, or
+         simplifies the ruleset.
+
+       - Scamster, awardable by the Referee to any player who has shown
+         great enthusiasm, persistence, or skill in the perpetrating of
+      scams without breaking any Rules.
+
+       - Hard Labor, awardable by the ADoP to any player who holds 2+
+         offices for 3+ continous months while performing eir official
+         duties in a timely and conscientious manner that promotes the
+         gameplay of the office.
+
+       - MacGyver, awardable by the Assessor to the author of an adopted
+         proposal that fixes serious bugs in the ruleset, especially if
+         the fix uses existing rules text in novel and unexpected ways,
+         or to a judge for similarly using rules text to resolve an
+         apparent bug without the need for legislative action.
+
+       - Bard, by Speaker the award should given be, to persons who
+         publish repeated creative wit or poetry.
+
+       - Necromancer, awardable by the Registrar to any player who makes
+         such sufficient persistent legal use of zombies that rules need
+         to be amended to prevent such practices.
+      
+       - Tycoon, awardable by the Treasuror to any player who executes a
+         novel economic or contractual enterprise that has a significant
+         impact on the game, especially if it involves leveraging
+         synergies for win-win outcomes for the benefit of multiple
+         players.
+
+       - Helping Hand, awardable by any Officer to any person not
+         holding that office who puts substantial labor into aiding in
+         the duties of that office, without consideration of any other
+         reward they might receive.
+
+      The Herald is also ENCOURAGED to proactively recommend or, as
+      otherwise permitted, award these titles when appropriate,
+      especially if the potential awardee is the officer emself.
+
+------------------------------------------------------------------------
+Rule 2582/0 (Power=1)
+Annual Awards
+
+April is hereby designated Awards Month.
+
+      The following Patent Titles CAN be awarded by the indicated
+      Officers with 2 Agoran Consent, provided the intent to make
+      the awards is announced during awards month, and the award is
+      made to commemorate acts performed in the previous Agoran year.
+      The full name of each awarded Patent Title is [Title Below] NNNN,
+      where NNNN is the year each act was performed.
+
+      Each indicated Officer SHOULD award these titles to 1-2 persons
+      each year, and SHOULD solicit an open call for nominations and
+      discussion before making these awards. The Herald SHALL note any
+      additional information indicated below as part of eir report of
+      Patent Titles.
+
+       - Silver Quill, awardable by the Promotor to the author of a
+         proposal of outstanding merit and influence on the game
+         (additional information: ID Number of the proposal).
+
+       - Wooden Gavel, awardable by the Arbitor to the judge of a CFJ
+         or series of CFJs with a strong and foundational impact on the
+         judicial precedents of Agora (additional information: ID Numbers
+         of the judgements).
+
+       - Golden Glove, awardable by the Tailor to the player who made the
+         most interesting, successful, and/or competitive series of moves
+         while attempting to win or get substantially ahead in the game.
+
+       - Employee of the Year, awardable by the ADoP to the persons
+         who put the most persistent hard labor into keeping the game
+         going through the performance of Officers' duties (additional
+         information: offices held by the awardee during that year).
       
 ------------------------------------------------------------------------
 ========================================================================
