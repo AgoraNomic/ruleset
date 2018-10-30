@@ -2,26 +2,10 @@ id: 2483
 name: Economics
 power: 2
 text: |
-  The following currencies are defined, and are tracked by the
-  Treasuror. They can be owned by Agora, players, and facilities.
+  Coins are the official currency of Agora tracked by the Treasuror.
+  They can be owned by Agora, players, and contracts.
 
-  1.  ore
-  2.  stones
-  3.  lumber
-  4.  apples
-  5.  cotton
-  6.  corn
-  7.  coins
-  8.  papers
-  9.  fabric
-  10. steel
-
-  Stones, apples, corn, and steel are considered unrefinable
-  currencies; ore, lumber, and cotton are considered refinable
-  currencies; and papers, fabric, and steel are considered refined
-  currencies.
-
-  Coins are the official currency of Agora.
+  A player CAN win the game by paying a fee of 1,000 Coins.
 history:
 - change:
     type: enactment
@@ -83,4 +67,9 @@ history:
   date: 2018-07-26
   agent:
     proposal: "8070"
+- change:
+    type: amendment
+  date: 2018-10-27
+  agent:
+    proposal: "8110"
 annotations: []

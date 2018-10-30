@@ -1,0 +1,32 @@
+id: 2583
+name: Earning Coins
+power: 1.5
+text: |
+  For a player to 'earn' a coin is for it to be created in eir
+  possession.  For a player to 'lose' a coin is for it to be
+  destroyed (if e has one).
+
+  When a decision to adopt a proposal is resolved:
+
+    - If the outcome was ADOPTED, its author earns a number of coins
+      equal to (the total strength of all valid ballots cast FOR the
+      decision - the total strength of all valid ballots cast AGAINST)
+      times the adoption index of the decision (final result rounded
+      up).
+
+    - If the outcome was REJECTED, its author loses a number of coins
+      equal to (the minimum of (the total strength of all valid ballots
+      cast AGAINST the decision - the total strength of all valid
+      ballots cast FOR) and 0).
+
+    - If the outcome was FAILED QUORUM, every active player who didn't
+      cast a ballot loses 1 coin.
+
+  When a judge issues eir first official judgement on a given CFJ, e
+  earns 5 coins.
+history:
+- change:
+    type: amendment
+  date: 2018-10-27
+  agent:
+    proposal: "8110"

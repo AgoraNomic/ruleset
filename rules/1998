@@ -38,4 +38,9 @@ history:
   agent:
     convergence:
       proposal: "8030"
+- change:
+    type: repeal
+  date: 2018-10-27
+  agent:
+    proposal: "8110"
 annotations: []
