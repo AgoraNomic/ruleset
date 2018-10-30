@@ -14,8 +14,8 @@ text: |
     elsewhere; or
 
   - if e believes that no rules violation occurred or that it would
-    be ILLEGAL to levy a fine for it, announcing the Finger Pointing
-    to be Shenanigans.
+    be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the
+    Finger Pointing to be Shenanigans.
 
   The Referee is by default the investigator for all Finger
   Pointing. When a Finger, other than the Arbitor's, is Pointed over
@@ -66,4 +66,9 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8029"
+- change:
+    type: amendment
+  date: 2018-09-17
+  agent:
+    proposal: "8090"
 annotations: []

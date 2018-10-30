@@ -25,10 +25,6 @@ text: |
 
   The author of a proposal in the Proposal Pool CAN remove (syn.
   retract, withdraw) it from the Pool by announcement.
-
-  The Promotor CAN remove a proposal from the Proposal Pool by
-  announcement if it is not pending and has been added to the Pool
-  more than 14 days ago.
 history:
 - change:
     type: enactment
@@ -80,6 +76,11 @@ history:
   date: 2015-05-02
   agent:
     proposal: "7736"
+- change:
+    type: amendment
+  date: 2018-10-27
+  agent:
+    proposal: "8104"    
 annotations:
 - cfjs:
   - id: '1647'
