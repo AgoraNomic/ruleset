@@ -8,10 +8,9 @@ text: |
   to exist. It has only the effect that rule explicitly gives it.
 
   A regulation CAN be enacted, amended, and repealed as specified by
-  its parent rule. By default, a Promulgator can enact or amend a
-  regulation with 2 Agoran Consent and repeal a regulation by
-  announcement. Regulations are tracked in their Promulgator's
-  weekly report.
+  its parent rule. By default, a Promulgator can enact, amend, or repeal
+  a regulation with 2 Agoran Consent. Regulations are tracked in their
+  Promulgator's weekly report.
 history:
 - change:
     type: enactment
@@ -45,4 +44,9 @@ history:
   date: 2018-07-26
   agent:
     proposal: "8076"
+- change:
+    type: amendment
+  date: 2018-10-27
+  agent:
+    proposal: "8108"
 annotations: []
