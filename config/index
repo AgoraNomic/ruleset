@@ -82,9 +82,9 @@
   - 2034 # Vote Protection and Cutoff for Challenges
 - name: Offices & Reporting
   note: |
-    Players who hold offices have control over and track various different
-    mechanics. These rules govern the special responsibilities that
-    officers have.
+    Players who hold offices have control over and track various
+    different mechanics. These rules govern the special
+    responsibilities that officers have.
   rules:
   - 1006 # Offices
   - 2143 # Official Reports and Duties
@@ -146,6 +146,7 @@
   rules:
   - 2456 # The Treasuror
   - 2483 # Economics
+  - 2583 # Earning Coins
   - 2559 # Paydays
   - 2499 # Welcome Packages
   - 2545 # Auctions
@@ -156,33 +157,6 @@
   - 2550 # Bidding
   - 2551 # Auction End
   - 2552 # Auction Termination
-- name: The Land of Arcadia
-  note: |
-    This section describes a subgame of Agora, in which players can
-    compete for influence over a sprawling map.
-  rules:
-  - 1993 # The Land of Arcadia
-  - 1994 # Ownership of Land
-  - 1995 # Land Types
-  - 1996 # The Cartographor
-  - 1998 # Land Topology
-  - 1999 # Entity Location
-  - 2003 # Actions in Arcadia
-  - 2004 # Land Auctions
-  - 2022 # Land Transfiguration
-  - 2565 # Preserved Land
-  - 2560 # Facilities
-  - 2561 # Asset Generation with Facilities
-  - 2562 # Facility Ranks
-  - 2563 # Production Facilities
-  - 2564 # Processing Facilities
-  - 2567 # Facility Categories
-  - 2568 # Facility Colors
-  - 2569 # Gray Land
-  - 2570 # Monument Facilities
-  - 2571 # The Fountain
-  - 2572 # Wishing Fountain
-  - 2046 # Q*Bert
 - name: The Undead
   note: |
     A silly mechanic describing what happens after you become inactive.
@@ -210,10 +184,11 @@
   - 2480 # Festivals
   - 2481 # Festival Restrictions
   - 649  # Patent Titles
-  - 2444 # Silver Quill
   - 2415 # Badges
   - 1367 # Degrees
   - 2231 # Order of the Hero of Agora Nomic
+  - 2581 # Official Patent Titles
+  - 2582 # Annual Awards
 - name: Figureheads
   note: |
     Agora has a good few figurehead leaders, none of which possess all
