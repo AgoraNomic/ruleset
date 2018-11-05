@@ -6,7 +6,7 @@ text: |
   syn. Judicial Case), specifying a statement to be inquired into by
   announcement.
 
-  When a person initiates a Call for Judgment, e CAN optionally bar
+  When a person initiates a Call for Judgement, e CAN optionally bar
   one person from the case by announcement.
 
   At any time, each CFJ is either open (default), suspended, or
@@ -206,6 +206,12 @@ history:
   date: 2018-07-18
   agent:
     proposal: "8065"
+- change:
+    type: amendment
+  date: 2018-10-31
+  agent:
+    cleaning:
+      by: Trigon
 annotations:
 - cfjs:
   - id: 1692-1693

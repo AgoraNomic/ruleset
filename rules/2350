@@ -15,7 +15,7 @@ text: |
   * An adoption index.
 
   Creating a proposal adds it to the Proposal Pool. Once a proposal
-  is created, nether its text nor any of the aforementioned
+  is created, neither its text nor any of the aforementioned
   attributes can be changed. The author (syn. proposer) of a
   proposal is the person who submitted it.
 
@@ -80,7 +80,13 @@ history:
     type: amendment
   date: 2018-10-27
   agent:
-    proposal: "8104"    
+    proposal: "8104"
+- change:
+    type: amendment
+  date: 2018-11-04
+  agent:
+    cleaning:
+      by: Trigon
 annotations:
 - cfjs:
   - id: '1647'
