@@ -5,7 +5,7 @@ text: |
   The voting strength of an entity on an Agoran decision is an
   integer between 0 and 5 inclusive, defined by rules of power 2
   or greater. If not otherwise specified, the voting strength of
-  an entity on an Agoran decision is 1.
+  an entity on an Agoran decision is 3.
 
   When multiple rules set or modify an entity's voting strength on
   an Agoran decision, it shall be determined by first applying the
@@ -32,4 +32,9 @@ history:
   date: 2016-12-05
   agent:
     proposal: "7831"
+- change:
+    type: amendment
+  date: 2018-11-12
+  agent:
+    proposal: "8122"
 annotations: []

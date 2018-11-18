@@ -4,7 +4,7 @@ power: 1.5
 text: |
   For a player to 'earn' a coin is for it to be created in eir
   possession.  For a player to 'lose' a coin is for it to be
-  destroyed (if e has one).
+  destroyed (if e has any).
 
   When a decision to adopt a proposal is resolved:
 
@@ -26,7 +26,12 @@ text: |
   earns 5 coins.
 history:
 - change:
-    type: amendment
+    type: enactment
   date: 2018-10-27
   agent:
     proposal: "8110"
+- change:
+    type: amendment
+  date: 2018-11-12
+  agent:
+    proposal: "8116"

@@ -34,10 +34,7 @@ text: |
   Auction's currency equal to eir bid, in a single payment, in a
   timely fashion. When e does so, if the auctioneer CAN transfer the
   items in that lot to that winner at will, e immediately does so;
-  otherwise, e SHALL do so in a timely fashion. For this purpose, a
-  contract CAN do whatever it could do if it were a person in
-  addition to what it can do as a contract, and Agora CAN do
-  anything.
+  otherwise, e SHALL do so in a timely fashion.
 history:
 - change:
     type: enactment
@@ -50,6 +47,11 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8041"
+- change:
+    type: amendment
+  date: 2018-11-12
+  agent:
+    proposal: "8113"
 annotations:
 - cfjs:
   - id: '3615'

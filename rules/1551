@@ -8,13 +8,16 @@ text: |
   notwithstanding, the gamestate is modified to what it would be if,
   at the time the ratified document was published, the gamestate had
   been minimally modified to make the ratified document as true and
-  accurate as possible. Such a modification cannot add
-  inconsistencies between the gamestate and the rules, and it cannot
-  include rule changes unless the ratified document explicitly and
-  unambiguously recites either the changes or the resulting
-  properties of the rule(s). If no such modification is possible, or
-  multiple substantially distinct possible modifications would be
-  equally appropriate, the ratification fails.
+  accurate as possible; however, if the document explicitly
+  specifies a different past time as being the time the document was
+  true, the specified time is used to determine the minimal
+  modifications. Such a modification cannot add inconsistencies
+  between the gamestate and the rules, and it cannot include rule
+  changes unless the ratified document explicitly and unambiguously
+  recites either the changes or the resulting properties of the
+  rule(s). If no such modification is possible, or multiple
+  substantially distinct possible modifications would be equally
+  appropriate, the ratification fails.
 
   An internally inconsistent document generally cannot be ratified;
   however, if such a document can be divided into a summary section
@@ -160,6 +163,11 @@ history:
   date: 2014-06-03
   agent:
     proposal: "7664"
+- change:
+    type: amendment
+  date: 2018-11-12
+  agent:
+    proposal: "8121"
 annotations:
 - cfjs:
   - id: '2165'

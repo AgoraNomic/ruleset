@@ -1,0 +1,13 @@
+id: 2584
+name: Free Auctions
+power: 1
+text: |
+  A player who is not the Auctioneer of an existing Auction
+  specified by this rule CAN, by announcement, initiate an auction
+  with emself as the Announcer and Auctioneer.
+history:
+- change:
+    type: enactment
+  date: 2018-11-12
+  agent:
+    proposal: "8114"

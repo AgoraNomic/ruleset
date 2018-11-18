@@ -8,8 +8,12 @@ text: |
   The player or players who have most recently won the game are
   called Laureled. If at any time the office of Speaker is vacant,
   or when one or more players win Agora, then the Prime Minister CAN
-  and SHALL, once and in a timely fashion, appoint a Laureled player
-  to the office of Speaker by announcement.
+  once appoint a Laureled player to the office of Speaker by
+  announcement.  Whenever the Prime Minister CAN appoint a Laureled
+  player to the office of Speaker, e SHALL do so in a timely manner,
+  except that the Prime Minister MAY defer appointing a new Speaker
+  while there is pending one or more open CFJs that could plausibly
+  determine or affect the question of whether a player is Laureled.
 
   If the office of Speaker has been held continuously by the same
   person for 90+ days, then any player CAN appoint another player to
@@ -180,4 +184,9 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7885"
+- change:
+    type: amendment
+  date: 2018-11-12
+  agent:
+    proposal: "8117"
 annotations: []

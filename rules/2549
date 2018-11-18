@@ -26,7 +26,8 @@ text: |
   initiated unless the Auctioneer is able to give away each item in
   each of the Auction's lots.
 
-  If no currency is specified, it defaults to coins.
+  If no currency is specified, it defaults to Agora's official
+  currency.
 history:
 - change:
     type: enactment
@@ -44,6 +45,11 @@ history:
   date: 2018-07-01
   agent:
     proposal: "8054"
+- change:
+    type: amendment
+  date: 2018-11-12
+  agent:
+    proposal: "8113"
 annotations:
 - cfjs:
   - id: '3614'

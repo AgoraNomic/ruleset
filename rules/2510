@@ -28,13 +28,13 @@ text: |
 
   A player's positions in Court are defined as follows:
 
-  - Any player with a karma of 7 or greater is a Samurai.
+  - Any player with a karma of 5 or greater is a Samurai.
 
-  - Any player with a karma of -7 or less is an Gamma.
+  - Any player with a karma of -5 or less is an Gamma.
 
-  - The player with the highest karma (if any) is the Shogun.
+  - The Samurai with the highest karma (if any) is the Shogun.
 
-  - The player with the lowest karma (if any) is the Honourless
+  - The Gamma with the lowest karma (if any) is the Honourless
     Worm.
 
   Each player's positions in Court are part of of the Herald's
@@ -60,4 +60,9 @@ history:
   date: 2018-03-06
   agent:
     proposal: "8022"
+- change:
+    type: amendment
+  date: 2018-11-12
+  agent:
+    proposal: "8112"
 annotations: []
