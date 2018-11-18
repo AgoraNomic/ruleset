@@ -2,16 +2,16 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last FLR: 14 Oct 2018
-Date of this FLR: 11 Nov 2018
+Date of last FLR: 11 Nov 2018
+Date of this FLR: 18 Nov 2018
 
-Number of rules currently enacted: 122
+Number of rules currently enacted: 120
 
-Most recent change to this ruleset: Cleaning by Trigon, 4 Nov 2018
+Most recent change to this ruleset: Rule 2422 amended by Proposal 8122
 
-Highest ID'd rule in this ruleset: 2583
-Highest ID'd Proposal Passed: 8110
-Highest ID'd Rule Enacted: 2583
+Highest ID'd rule in this ruleset: 2584
+Highest ID'd Proposal Passed: 8122
+Highest ID'd Rule Enacted: 2584
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -119,13 +119,11 @@ Economics
    * Rule 2559: Paydays
    * Rule 2499: Welcome Packages
    * Rule 2545: Auctions
-   * Rule 2546: Lots
-   * Rule 2547: The Auctioneer
-   * Rule 2548: The Auction Announcer
    * Rule 2549: Auction Initiation
    * Rule 2550: Bidding
    * Rule 2551: Auction End
    * Rule 2552: Auction Termination
+   * Rule 2584: Free Auctions
 The Undead
    * Rule 2532: Zombies
    * Rule 2574: Zombie Life Cycle
@@ -162,12 +160,13 @@ Agoran Culture
    * Rule 1769: Holidays
    * Rule 2029: Town Fountain
 
+
 ------------------------------------------------------------------------
 
 Power Distribution:
 
 1  with Power=0.3
-33 with Power=1
+31 with Power=1
 3  with Power=1.5
 6  with Power=1.7
 21 with Power=2
@@ -2944,13 +2943,13 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision
    changes as the set of eligible voters changes.
 
 ------------------------------------------------------------------------
-Rule 2422/2 (Power=3)
+Rule 2422/3 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
       integer between 0 and 5 inclusive, defined by rules of power 2
       or greater. If not otherwise specified, the voting strength of
-      an entity on an Agoran decision is 1.
+      an entity on an Agoran decision is 3.
       
       When multiple rules set or modify an entity's voting strength on
       an Agoran decision, it shall be determined by first applying the
@@ -2968,6 +2967,7 @@ Enacted by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(1) by P7816 'Voting Strength Fix (PENDING, BUGGY)' (Alexis, o,
    aranea), 28 Oct 2016
 Amended(2) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
+Amended(3) by P8122 'Middle of the road' (Murphy), 12 Nov 2018
 
 Annotations:
 
@@ -3702,7 +3702,7 @@ Enacted by P8036 'Impeachment' (Aris), 27 Apr 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1551/18 (Power=3.1)
+Rule 1551/19 (Power=3.1)
 Ratification
 
       A public document is part (possibly all) of a public message.
@@ -3711,13 +3711,16 @@ Ratification
       notwithstanding, the gamestate is modified to what it would be if,
       at the time the ratified document was published, the gamestate had
       been minimally modified to make the ratified document as true and
-      accurate as possible. Such a modification cannot add
-      inconsistencies between the gamestate and the rules, and it cannot
-      include rule changes unless the ratified document explicitly and
-      unambiguously recites either the changes or the resulting
-      properties of the rule(s). If no such modification is possible, or
-      multiple substantially distinct possible modifications would be
-      equally appropriate, the ratification fails.
+      accurate as possible; however, if the document explicitly
+      specifies a different past time as being the time the document was
+      true, the specified time is used to determine the minimal
+      modifications. Such a modification cannot add inconsistencies
+      between the gamestate and the rules, and it cannot include rule
+      changes unless the ratified document explicitly and unambiguously
+      recites either the changes or the resulting properties of the
+      rule(s). If no such modification is possible, or multiple
+      substantially distinct possible modifications would be equally
+      appropriate, the ratification fails.
       
       An internally inconsistent document generally cannot be ratified;
       however, if such a document can be divided into a summary section
@@ -3766,6 +3769,7 @@ Amended(17) by P7586 'Self-ratification, victory, office changes' (omd),
    24 Aug 2013
 Amended(18) by P7664 'Fix onerous ratification requirement' (omd), 03
    Jun 2014
+Amended(19) by P8121 'Retroactive Documents' (D. Margaux), 12 Nov 2018
 
 Annotations:
 CFJ 2165 (called 16 Sep 2008): Ratification can create legal fictions,
@@ -4038,31 +4042,51 @@ Amended(1) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2531/2 (Power=2)
+Rule 2531/3 (Power=2)
 Referee Accountability
 
-      Any attempt to levy a fine is INEFFECTIVE if it does not include
-      (1) value of the fine in blots, (2) the name of the person being
-      fined (the perp), and (3) the specific reason for the fine, or if
-      it attempts to levy a fine on a person for an action or inaction
-      which e (more likely than not) did not commit, or if it attempts
-      to levy a fine for an action or inaction which is not prohibited
-      by law, or if it attempts to levy a fine with a value which is
-      blatantly and obviously unsuited to the conduct which constitutes
-      the reason for its levy or to the person to which it is being
-      levied, or if it is made more than 14 days after the conduct
-      constituting the reason for the fine, or if it attempts to levy a
-      fine to a player who has already been levied a fine for the
-      conduct constituting the reason for the levy, or if it attempts to
-      levy a fine on a zombie for an action that its master performed on
-      its behalf.
+      Any attempt to levy a fine is INEFFECTIVE if:
       
-      If the Referee attempts to levy three or more INEFFECTIVE fines in
-      a week, any player CAN, with two support, issue a writ of
-      Impartial Arbitration Restoration, immediately making the position
-      of Referee vacant. When a writ of Impartial Arbitration
-      Restoration is issued, the ADoP SHALL initiate an election for the
-      Referee within a timely fashion.
+        (1) it does not include value of the fine in blots, the name of
+            the person being fined (the perp), and the specific reason for
+            the fine;
+      
+        (2) it attempts to levy a fine on a person for an action or
+            inaction which e (more likely than not) did not commit;
+      
+        (3) it attempts to levy a fine for an action or inaction which is
+            not prohibited by law;
+      
+        (4) it attempts to levy a fine with a value that is blatantly and
+            obviously unsuited to the conduct which constitutes the reason
+            for its levy or to the person on whom it is being levied;
+      
+        (5) it attempts to levy a fine (i) by summary judgement more than
+            14 days after the action constituting the reason for the fine
+            or (ii) based upon the investigation of of a Finger that had
+            been Pointed more than 14 days after the action constituting
+            the reason for the fine;
+      
+        (6) it attempts to levy a fine on a player for failing to take an
+            action within the time period set by the Rules and that time
+            period had expired (i) more than 14 days prior to the
+            attempted fine, if the attempted fine is imposed by summary
+            judgement or (ii) more than 14 days prior to the Pointed
+            Finger, if the fine is imposed based on an investigation of
+            such Finger;
+      
+        (7) it attempts to levy a fine on a player who has already been
+            fined for the conduct constituting the reason for the levy; or
+      
+        (8) it attempts to levy a fine on a zombie for an action that its
+            master performed on its behalf.
+      
+        If the Referee attempts to levy three or more INEFFECTIVE fines in
+        a week, any player CAN, with two support, issue a writ of
+        Impartial Arbitration Restoration, immediately making the position
+        of Referee vacant. When a writ of Impartial Arbitration
+        Restoration is issued, the ADoP SHALL initiate an election for the
+        Referee within a timely fashion.
       
 History:
 
@@ -4071,6 +4095,8 @@ Enacted by P7964 'Referee Reform and Card Appealability' (V.J. Rada), 06
 Amended(1) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Power changed from 1 to 2 by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(2) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
+Amended(3) by P8119 'Criminal Justice Adjustments Act' (G.), 12 Nov
+   2018
 
 Annotations:
 
@@ -4907,7 +4933,7 @@ Earning Coins
 
       For a player to 'earn' a coin is for it to be created in eir
       possession.  For a player to 'lose' a coin is for it to be
-      destroyed (if e has one).
+      destroyed (if e has any).
       
       When a decision to adopt a proposal is resolved:
       
@@ -4930,7 +4956,9 @@ Earning Coins
       
 History:
 
-Amended(1) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
+Enacted by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
+Amended(1) by P8116 'Control-C, Control-V' (Trigon, D. Margaux), 12 Nov
+   2018
 
 Annotations:
 
@@ -4997,12 +5025,24 @@ Amended(5) by P8092 'Yet Another Economics Patch' (twg), 17 Sep 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2545/1 (Power=2)
+Rule 2545/2 (Power=2)
 Auctions
 
       An Auction is a way for entities to give away items in exchange
-      for a currency. Any rule CAN permit (or require) Auctions to be
-      initiated
+      for a currency. Any rule CAN permit or require Auctions to be
+      initiated.
+      
+      Each Auction has one or more lots of items. A lot is a non-empty
+      list of items to be transferred to a single recipient.
+      
+      Each Auction has an Auctioneer. All rules permitting Auctions to
+      be initiated should specify an entity to be Auctioneer. If no
+      Auctioneer is specified, the default Auctioneer is Agora.
+      
+      Each Auction has an Announcer. Only persons can be Announcers. If
+      the Auctioneer of an Auction is a player, then that player is also
+      the Announcer of that Auction. Otherwise, the rule defining an
+      Auction CAN define the Announcer for that Auction.
       
 History:
 
@@ -5010,69 +5050,12 @@ Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
    2017
 Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
    Jul 2018
+Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2546/0 (Power=1)
-Lots
-
-      Each Auction has one or more lots of items.
-      
-      A lot is a non-empty list of items to be transferred by a single
-      Auction to a single recipient.
-      
-History:
-
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
-   2017
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2547/1 (Power=1)
-The Auctioneer
-
-      Each Auction has an Auctioneer.
-      
-      The Auctioneer of an Auction is the entity that initiates that
-      Auction, and describes all of the specifics of an Auction. All
-      rules permitting Auctions to be initiated should specify an entity
-      to be Auctioneer. If no Auctioneer is specified, the default
-      Auctioneer for Auctions defined by the rules is Agora.
-      
-History:
-
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
-   2017
-Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
-   Jul 2018
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2548/1 (Power=1)
-The Auction Announcer
-
-      Each Auction has an Announcer. Only persons can be Announcers.
-      
-      If the Auctioneer of an Auction is a player, then that player is
-      the Announcer of that Auction.
-      
-      Otherwise, the rule defining an Auction CAN define the Announcer
-      for that Auction.
-      
-History:
-
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
-   2017
-Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
-   Jul 2018
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2549/2 (Power=1)
+Rule 2549/3 (Power=1)
 Auction Initiation
 
       An entity authorized by a rule to initiate an Auction CAN do so by
@@ -5099,7 +5082,8 @@ Auction Initiation
       initiated unless the Auctioneer is able to give away each item in
       each of the Auction's lots.
       
-      If no currency is specified, it defaults to coins.
+      If no currency is specified, it defaults to Agora's official
+      currency.
       
 History:
 
@@ -5109,6 +5093,7 @@ Amended(1) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
    G., o, VJ Rada), 23 Feb 2018
 Amended(2) by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
    Jul 2018
+Amended(3) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
 
 Annotations:
 CFJ 3614 (called 27 Nov 2017): A contract can authorize someone to
@@ -5152,7 +5137,7 @@ CFJ 3633 (called 18 Jun 2018): Saying "x on y", where x is an integer
    sufficiently clear announcement of a bid.
 
 ------------------------------------------------------------------------
-Rule 2551/1 (Power=1)
+Rule 2551/2 (Power=1)
 Auction End
 
       An Auction ends 7 days after its initiation, or immediately if no
@@ -5187,10 +5172,7 @@ Auction End
       Auction's currency equal to eir bid, in a single payment, in a
       timely fashion. When e does so, if the auctioneer CAN transfer the
       items in that lot to that winner at will, e immediately does so;
-      otherwise, e SHALL do so in a timely fashion. For this purpose, a
-      contract CAN do whatever it could do if it were a person in
-      addition to what it can do as a contract, and Agora CAN do
-      anything.
+      otherwise, e SHALL do so in a timely fashion.
       
 History:
 
@@ -5198,6 +5180,7 @@ Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
    2017
 Amended(1) by P8041 'Consolidated Patch' (Aris, Trigon, G.), 27 Apr
    2018
+Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
 
 Annotations:
 CFJ 3615 (called 27 Nov 2017): An auction normally ends immediately
@@ -5219,6 +5202,20 @@ History:
 
 Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
    2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2584/0 (Power=1)
+Free Auctions
+
+      A player who is not the Auctioneer of an existing Auction
+      specified by this rule CAN, by announcement, initiate an auction
+      with emself as the Announcer and Auctioneer.
+      
+History:
+
+Enacted by P8114 'Free auctions 2' (Trigon, twg, G.), 12 Nov 2018
 
 Annotations:
 
@@ -5389,7 +5386,7 @@ Enacted by P7811 'Winning by apathy' (ais523), 11 Sep 2016
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2510/3 (Power=1)
+Rule 2510/4 (Power=1)
 Such is Karma
 
       Karma is a person switch tracked by the Herald in eir Weekly
@@ -5418,13 +5415,13 @@ Such is Karma
       
       A player's positions in Court are defined as follows:
       
-      - Any player with a karma of 7 or greater is a Samurai.
+      - Any player with a karma of 5 or greater is a Samurai.
       
-      - Any player with a karma of -7 or less is an Gamma.
+      - Any player with a karma of -5 or less is an Gamma.
       
-      - The player with the highest karma (if any) is the Shogun.
+      - The Samurai with the highest karma (if any) is the Shogun.
       
-      - The player with the lowest karma (if any) is the Honourless
+      - The Gamma with the lowest karma (if any) is the Honourless
         Worm.
       
       Each player's positions in Court are part of of the Herald's
@@ -5437,6 +5434,7 @@ Amended(1) by P7916 'Pro Pace v2' (Aris, o, G.), 15 Oct 2017
 Amended(2) by P7960 'Community Chest Repeal II' (V.J. Rada), 12 Nov
    2017
 Amended(3) by P8022 'Anyone can balance Karma' (G.), 06 Mar 2018
+Amended(4) by P8112 'The Middle Way' (G., ATMunn), 12 Nov 2018
 
 Annotations:
 
@@ -5966,7 +5964,7 @@ Figureheads
    Agora has a good few figurehead leaders, none of which possess all
    that much power. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/24 (Power=2)
+Rule 103/25 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -5975,8 +5973,12 @@ The Speaker
       The player or players who have most recently won the game are
       called Laureled. If at any time the office of Speaker is vacant,
       or when one or more players win Agora, then the Prime Minister CAN
-      and SHALL, once and in a timely fashion, appoint a Laureled player
-      to the office of Speaker by announcement.
+      once appoint a Laureled player to the office of Speaker by
+      announcement.  Whenever the Prime Minister CAN appoint a Laureled
+      player to the office of Speaker, e SHALL do so in a timely manner,
+      except that the Prime Minister MAY defer appointing a new Speaker
+      while there is pending one or more open CFJs that could plausibly
+      determine or affect the question of whether a player is Laureled.
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
@@ -6027,6 +6029,8 @@ Amended(23) by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
    2016
 Amended(24) by P7885 'Restraining Bolt' (o, V.J. Rada, Ørjan), 26 Sep
    2017
+Amended(25) by P8117 'Fix for Uncertain Laurelings' (D. Margaux, twg),
+   12 Nov 2018
 
 Annotations:
 
