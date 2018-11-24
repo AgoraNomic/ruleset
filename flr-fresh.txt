@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last FLR: 11 Nov 2018
-Date of this FLR: 18 Nov 2018
+Date of last official ruleset of this type: 11 Nov 2018
+Date of this ruleset: 24 Nov 2018
 
-Number of rules currently enacted: 120
+Number of rules currently enacted: 119
 
-Most recent change to this ruleset: Rule 2422 amended by Proposal 8122
+Most recent change to this ruleset: Rule 2531 amended by Proposal 8130
 
 Highest ID'd rule in this ruleset: 2584
-Highest ID'd Proposal Passed: 8122
+Highest ID'd Proposal Passed: 8132
 Highest ID'd Rule Enacted: 2584
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -32,17 +32,19 @@ Players
    * Rule 1789: Cantus Cygneus
 General Definitions
    * Rule 2152: Mother, May I?
-   * Rule 2162: Switches
    * Rule 2509: Agoran Numbers
    * Rule 2125: Regulated Actions
    * Rule 1023: Agoran Time
    * Rule 1728: Dependent Actions
    * Rule 2124: Agoran Satisfaction
-   * Rule 2466: Acting on Behalf
    * Rule 2518: Determinacy
-   * Rule 1586: Definition and Continuity of Entities
    * Rule 2505: Random Choices
    * Rule 2517: Conditionals and Extricability
+Entities
+   * Rule 1586: Definition and Continuity of Entities
+   * Rule 2162: Switches
+   * Rule 1688: Power
+   * Rule 2140: Power Controls Mutability
 Proposals
    * Rule 2350: Proposals
    * Rule 1607: Distribution
@@ -50,8 +52,6 @@ Proposals
    * Rule  106: Adopting Proposals
 Rules & Regulations
    * Rule 2141: Role and Attributes of Rules
-   * Rule 1688: Power
-   * Rule 2140: Power Controls Mutability
    * Rule  217: Interpreting the Rules
    * Rule 1030: Precedence between Rules
    * Rule 2240: No Cretans Need Apply
@@ -77,13 +77,14 @@ Voting
    * Rule 2034: Vote Protection and Cutoff for Challenges
 Offices & Reporting
    * Rule 1006: Offices
-   * Rule 2143: Official Reports and Duties
-   * Rule 2379: No News Is Some News
-   * Rule 2138: The Associate Director of Personnel
-   * Rule 2160: Deputisation
-   * Rule 2472: Office Incompatibilities
    * Rule 2154: Election Procedure
    * Rule 2573: Impeachment
+   * Rule 2160: Deputisation
+   * Rule 2138: The Associate Director of Personnel
+   * Rule 2472: Office Incompatibilities
+   * Rule 2143: Official Reports and Duties
+   * Rule 2379: No News Is Some News
+Documents
    * Rule 1551: Ratification
    * Rule 2202: Ratification Without Objection
    * Rule 2201: Self-Ratification
@@ -103,6 +104,7 @@ Calls for Judgement
 Obligations & Contracts
    * Rule 2471: No Faking
    * Rule 2450: Pledges
+   * Rule 2466: Acting on Behalf
    * Rule 2519: Consent
    * Rule 1742: Contracts
 Assets
@@ -111,13 +113,13 @@ Assets
    * Rule 2577: Asset Actions
    * Rule 2578: Currencies
    * Rule 2579: Fee-based Actions
-   * Rule 2515: Distributing Assets
 Economics
    * Rule 2456: The Treasuror
    * Rule 2483: Economics
-   * Rule 2583: Earning Coins
+   * Rule 2496: Rewards
    * Rule 2559: Paydays
    * Rule 2499: Welcome Packages
+Auctions
    * Rule 2545: Auctions
    * Rule 2549: Auction Initiation
    * Rule 2550: Bidding
@@ -144,7 +146,7 @@ Awards
    * Rule 2231: Order of the Hero of Agora Nomic
    * Rule 2581: Official Patent Titles
    * Rule 2582: Annual Awards
-Figureheads
+Leaders
    * Rule  103: The Speaker
    * Rule  104: First Speaker
    * Rule 2423: First Among Equals
@@ -167,7 +169,7 @@ Power Distribution:
 
 1  with Power=0.3
 31 with Power=1
-3  with Power=1.5
+2  with Power=1.5
 6  with Power=1.7
 21 with Power=2
 2  with Power=2.1
@@ -834,81 +836,6 @@ CFJ 2414 (called 14 Mar 2009): A rule of the form "X SHOULD be
    by failing to perform the described action.
 
 ------------------------------------------------------------------------
-Rule 2162/11 (Power=3)
-Switches
-
-      A type of switch is a property that the rules define as a switch,
-      and specify the following:
-      
-      1. The type(s) of entity possessing an instance of that switch. No
-         other entity possesses an instance of that switch.
-      
-      2. One or more possible values for instances of that switch,
-         exactly one of which should be designated as the default. No
-         values other than those listed are possible for instances of
-         that switch, except that, if no default is specified, then
-         rules to the contrary notwithstanding, the "null" value is a
-         possible value for that switch, and is the default.
-      
-      3. Optionally, exactly one office whose holder tracks instances of
-         that switch. That officer's (weekly, if not specified
-         otherwise) report includes the value of each instance of that
-         switch whose value is not its default value; a public document
-         purporting to be this portion of that officer's report is
-         self-ratifying, and implies that other instances are at their
-         default value.
-      
-      At any given time, each instance of a switch has exactly one
-      possible value for that type of switch. If an instance of a switch
-      comes to have a value, it ceases to have any other value. If an
-      instance of a switch would otherwise fail to have a possible
-      value, it comes to have its default value.
-      
-      "To flip an instance of a switch" is to make it come to have a
-      given value. "To become X" (where X is a possible value of
-      exactly one of the subject's switches) is to flip that switch to
-      X.
-      
-      If an action or set of actions would cause the value of an
-      instance of a switch to become indeterminate, the instance instead
-      takes on its last determinate and possible value, if any,
-      otherwise it takes on its default value.
-      
-      A singleton switch is a switch for which Agora Nomic is the only
-      entity possessing an instance of that switch.
-      
-      A boolean switch is a switch with values True and False. A
-      positive boolean switch has a default of True; a negative boolean
-      switch has a default of False.
-      
-      Attempting to flip an instance of a switch to a value it already
-      has does not flip the switch. However, if a person is REQUIRED to
-      flip a switch instance to a value it already has, then either
-      attempting to do so using the required mechanism, or announcing
-      that the switch already has the required value, fulfills the
-      requirement without flipping the switch.
-      
-History:
-
-Enacted by P5111 'Return of switches' (Murphy), 02 Aug 2007
-Amended(1) by P5271 'Implicit Switches v1.1' (Murphy), 07 Nov 2007
-Amended(2) by P7247 'no more almost-switches' (omd), 10 Jun 2012
-Amended(3) by P7289 (G.), 09 Sep 2012
-Amended(4) by P7425 'Yaks' (Walker, G., Murphy, omd), 27 May 2013
-Amended(5) by P7649 'I always thought these already ratified' (omd), 03
-   Jun 2014
-Amended(6) by P7735 'Noise reduction' (aranea), 02 May 2015
-Amended(7) by P7828 'Boolean Switches V2' (G.), 07 Nov 2016
-Amended(8) by R2430, 24 May 2017
-Amended(9) by P7902 'Switch no-ops' (G.), 03 Oct 2017
-Amended(10) by P7903 'Numerical Switches v2' (G.), 03 Oct 2017
-Amended(11) by P8075 'Less Critical Patching' (Aris, G.), 26 Jul 2018
-Power changed from 2 to 3 by P8075 'Less Critical Patching' (Aris, G.),
-   26 Jul 2018
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2509/2 (Power=2)
 Agoran Numbers
 
@@ -1099,7 +1026,7 @@ CFJ 3624 (called 09 Feb 2018): A condition of "continuously X for one
    weeks.
 
 ------------------------------------------------------------------------
-Rule 1728/39 (Power=3)
+Rule 1728/40 (Power=3)
 Dependent Actions
 
       A rule which purports to allow a person (the performer) to perform
@@ -1155,9 +1082,9 @@ Dependent Actions
          given in the announcement of intent to perform the action, all
          those conditions are met.
       
-      The actor SHOULD publish a list of supporters if the action
-      depends on support, and a list of objectors if it depends on
-      objections.
+      Such an action is known as a dependent action. The actor SHOULD
+      publish a list of supporters if the action depends on support, and
+      a list of objectors if it depends on objections.
       
 History:
 
@@ -1215,6 +1142,7 @@ Amended(37) by P7871 'Minor fixes (sans typos)' (V.J. Rada), 07 Sep 2017
 Amended(38) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(39) by P8107 'Buried Intent Prevention Act v2' (D. Margaux,
    Aris, G.), 27 Oct 2018
+Amended(40) by P8123 'Independence' (Gaelan), 19 Nov 2018
 
 Annotations:
 CFJ 1722 (called 15 Aug 2007): The method of dependent action need not
@@ -1309,48 +1237,6 @@ CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
    group of intents (e.g. "I object to all intents to do X.").
 
 ------------------------------------------------------------------------
-Rule 2466/1 (Power=3)
-Acting on Behalf
-
-      When a rule allows one person (the agent) to act on behalf of
-      another (the principal) to perform an action, that agent CAN
-      perform the action if it is POSSIBLE for the principal to do so,
-      taking into account any prerequisites for the action. If the
-      enabling rule does not specify the mechanism by which the agent
-      may do so, then the agent CAN perform the action in the same
-      manner in which the principal CAN do so, with the additional
-      requirement that the agent must, in the message in which the
-      action is performed, uniquely identify the principal and that the
-      action is being taken on behalf of that person.
-      
-      A person SHALL NOT act on behalf of another person if doing so
-      causes the second person to violate the rules. A person CANNOT act
-      on behalf of another person to do anything except perform a game
-      action; in particular, a person CANNOT act on behalf of another
-      person to send a message, only to perform specific actions that
-      might be taken within a message.
-      
-      When an action is performed on behalf of a principal, then the
-      action is considered for all game purposes to have been performed
-      by the principal, unless a rule specifically states that it is
-      treated differently for some purpose, in which case it is treated
-      as described by that rule.
-      
-      Allowing a person to act on behalf of another person is secured at
-      power 2.0. This rule takes precedence over any rule that would
-      prohibit a person from taking an action, except that it defers to
-      any rule that imposes limitations specifically on actions taken on
-      behalf of another person.
-      
-History:
-
-Enacted by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
-Amended(1) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2518/0 (Power=3)
 Determinacy
 
@@ -1363,51 +1249,6 @@ History:
 
 Enacted by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
    D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 1586/9 (Power=2)
-Definition and Continuity of Entities
-
-      If multiple rules attempt to define an entity with the same name,
-      then they refer to the same entity. A rule-defined entity's name
-      CANNOT be changed to be the same as another rule-defined entity's
-      name.
-      
-      A rule, contract, or regulation that refers to an entity by name
-      refers to the entity that had that name when the rule first came
-      to include that reference, even if the entity's name has since
-      changed.
-      
-      If the entity that defines another entity is amended such that it
-      no longer defines the second entity, then the second entity and
-      its attributes cease to exist.
-      
-      If the entity that defines another entity is amended such that it
-      defines the second entity both before and after the amendment, but
-      with different attributes, then the second entity and its
-      attributes continue to exist to whatever extent is possible under
-      the new definitions.
-      
-History:
-
-Enacted by P2481, 16 Feb 1996
-Amended(1) by P2795 (Andre), 30 Jan 1997
-Amended(2) by P3999 'New Entity Reform' (harvel), 02 May 2000
-Power changed from 1 to 2 by P3999 'New Entity Reform' (harvel), 02 May
-   2000
-Amended(3) by P5077 'MMI in practice' (Murphy), 18 Jul 2007
-Amended(4) by P5723 'Namespace conflicts (rule-defined entities)'
-   (Murphy), 07 Oct 2008
-Amended(5) by P5836 'Generalize continuity' (Murphy), 12 Oct 2008
-Amended(6) by cleaning (omd), 26 Jan 2009
-Amended(7) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
-Amended(8) by P6981 'Littler Dutch Boy' (Murphy, omd), 10 Apr 2011
-Repealed by P7614 'Just Not Rights' (G.), 13 Jan 2014
-Re-enacted and amended(9) by P7924 'Contracts v8' (Aris, Aris, o, G.,
-   ais523, Gaelan, D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis,
-   P.S.S.), 22 Oct 2017
 
 Annotations:
 
@@ -1468,6 +1309,200 @@ Repealed by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
    Jul 2018
 
 Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Entities
+   "Entity" is a confusing word to new players. This section describes
+   what an entity is.
+------------------------------------------------------------------------
+Rule 1586/9 (Power=2)
+Definition and Continuity of Entities
+
+      If multiple rules attempt to define an entity with the same name,
+      then they refer to the same entity. A rule-defined entity's name
+      CANNOT be changed to be the same as another rule-defined entity's
+      name.
+      
+      A rule, contract, or regulation that refers to an entity by name
+      refers to the entity that had that name when the rule first came
+      to include that reference, even if the entity's name has since
+      changed.
+      
+      If the entity that defines another entity is amended such that it
+      no longer defines the second entity, then the second entity and
+      its attributes cease to exist.
+      
+      If the entity that defines another entity is amended such that it
+      defines the second entity both before and after the amendment, but
+      with different attributes, then the second entity and its
+      attributes continue to exist to whatever extent is possible under
+      the new definitions.
+      
+History:
+
+Enacted by P2481, 16 Feb 1996
+Amended(1) by P2795 (Andre), 30 Jan 1997
+Amended(2) by P3999 'New Entity Reform' (harvel), 02 May 2000
+Power changed from 1 to 2 by P3999 'New Entity Reform' (harvel), 02 May
+   2000
+Amended(3) by P5077 'MMI in practice' (Murphy), 18 Jul 2007
+Amended(4) by P5723 'Namespace conflicts (rule-defined entities)'
+   (Murphy), 07 Oct 2008
+Amended(5) by P5836 'Generalize continuity' (Murphy), 12 Oct 2008
+Amended(6) by cleaning (omd), 26 Jan 2009
+Amended(7) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
+Amended(8) by P6981 'Littler Dutch Boy' (Murphy, omd), 10 Apr 2011
+Repealed by P7614 'Just Not Rights' (G.), 13 Jan 2014
+Re-enacted and amended(9) by P7924 'Contracts v8' (Aris, Aris, o, G.,
+   ais523, Gaelan, D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis,
+   P.S.S.), 22 Oct 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2162/11 (Power=3)
+Switches
+
+      A type of switch is a property that the rules define as a switch,
+      and specify the following:
+      
+      1. The type(s) of entity possessing an instance of that switch. No
+         other entity possesses an instance of that switch.
+      
+      2. One or more possible values for instances of that switch,
+         exactly one of which should be designated as the default. No
+         values other than those listed are possible for instances of
+         that switch, except that, if no default is specified, then
+         rules to the contrary notwithstanding, the "null" value is a
+         possible value for that switch, and is the default.
+      
+      3. Optionally, exactly one office whose holder tracks instances of
+         that switch. That officer's (weekly, if not specified
+         otherwise) report includes the value of each instance of that
+         switch whose value is not its default value; a public document
+         purporting to be this portion of that officer's report is
+         self-ratifying, and implies that other instances are at their
+         default value.
+      
+      At any given time, each instance of a switch has exactly one
+      possible value for that type of switch. If an instance of a switch
+      comes to have a value, it ceases to have any other value. If an
+      instance of a switch would otherwise fail to have a possible
+      value, it comes to have its default value.
+      
+      "To flip an instance of a switch" is to make it come to have a
+      given value. "To become X" (where X is a possible value of
+      exactly one of the subject's switches) is to flip that switch to
+      X.
+      
+      If an action or set of actions would cause the value of an
+      instance of a switch to become indeterminate, the instance instead
+      takes on its last determinate and possible value, if any,
+      otherwise it takes on its default value.
+      
+      A singleton switch is a switch for which Agora Nomic is the only
+      entity possessing an instance of that switch.
+      
+      A boolean switch is a switch with values True and False. A
+      positive boolean switch has a default of True; a negative boolean
+      switch has a default of False.
+      
+      Attempting to flip an instance of a switch to a value it already
+      has does not flip the switch. However, if a person is REQUIRED to
+      flip a switch instance to a value it already has, then either
+      attempting to do so using the required mechanism, or announcing
+      that the switch already has the required value, fulfills the
+      requirement without flipping the switch.
+      
+History:
+
+Enacted by P5111 'Return of switches' (Murphy), 02 Aug 2007
+Amended(1) by P5271 'Implicit Switches v1.1' (Murphy), 07 Nov 2007
+Amended(2) by P7247 'no more almost-switches' (omd), 10 Jun 2012
+Amended(3) by P7289 (G.), 09 Sep 2012
+Amended(4) by P7425 'Yaks' (Walker, G., Murphy, omd), 27 May 2013
+Amended(5) by P7649 'I always thought these already ratified' (omd), 03
+   Jun 2014
+Amended(6) by P7735 'Noise reduction' (aranea), 02 May 2015
+Amended(7) by P7828 'Boolean Switches V2' (G.), 07 Nov 2016
+Amended(8) by R2430, 24 May 2017
+Amended(9) by P7902 'Switch no-ops' (G.), 03 Oct 2017
+Amended(10) by P7903 'Numerical Switches v2' (G.), 03 Oct 2017
+Amended(11) by P8075 'Less Critical Patching' (Aris, G.), 26 Jul 2018
+Power changed from 2 to 3 by P8075 'Less Critical Patching' (Aris, G.),
+   26 Jul 2018
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 1688/9 (Power=3)
+Power
+
+      The Power of an entity is a non-negative rational number. An
+      Instrument is an entity with positive Power.
+      
+      The Power of an entity cannot be set or modified except as
+      stipulated by the Rules. All entities have Power zero except where
+      specifically allowed by the rules.
+      
+      A Rule that makes a change, action, or value secured (hereafter
+      the securing Rule) thereby makes it IMPOSSIBLE to perform that
+      change or action, or to set or modify that value, except as
+      allowed by an Instrument with Power greater than or equal to the
+      change's Power Threshold.  This Threshold defaults to the securing
+      Rule's Power, but CAN be lowered as allowed by that Rule
+      (including by the Rule itself).
+      
+History:
+
+Enacted by P3445 (General Chaos), 26 Mar 1997
+Amended(1) by P3994 'Simplify Power' (harvel), 20 Apr 2000
+Amended(2) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
+Amended(3) by P4940 'instrument mechanics' (Zefram), 29 Apr 2007
+Amended(4) by P5276 'Generalize security' (Murphy, Pavitra, Zefram), 07
+   Nov 2007
+Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
+   woggle, ais523), 23 Jan 2009
+Amended(5) by P6513 'Power Cleanup' [disi.] (Alexis), 03 Oct 2009
+Amended(6) by P6815 'Initial security' [green] (Murphy, ais523), 04 Sep
+   2010
+Amended(7) by P7759 'minor Powers v0.2' (G.), 19 Jul 2015
+Amended(8) by P7781 'Secure, secures, securing, secured' (the
+   Warrigal), 14 Aug 2015
+Amended(9) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2140/2 (Power=3)
+Power Controls Mutability
+
+      No entity with power below the power of this rule can
+      
+      1. cause an entity to have power greater than its own.
+      
+      2. adjust the power of an instrument with power greater than its
+         own.
+      
+      3. set or modify any other substantive aspect of an instrument
+         with power greater than its own. A "substantive" aspect of an
+         instrument is any aspect that affects the instrument's
+         operation.
+      
+History:
+
+Enacted by P4940 'instrument mechanics' (Zefram), 29 Apr 2007
+Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
+   woggle, ais523), 23 Jan 2009
+Amended(1) by P6992 'Fix rule numbers' (Murphy, omd), 10 Apr 2011
+Amended(2) by R2430, 24 May 2017
+
+Annotations:
+CFJ 2981 (called 21 Mar 2011): An attribute of an instrument is not
+   "modified" when an initial value is set for it.
+CFJ 2945 (called 22 Dec 2010): An attribute of an entity is "changed"
+   when it is removed/unset.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -1833,75 +1868,6 @@ CFJ 2013 (called 17 Jun 2009): Rule 2141 does not imply that the power
 CFJ 2213 (called 07 Oct 2008): The powers granted to rules by the first
    paragraph of Rule 2141 are general, and only apply as otherwise
    stated by the Rules.
-
-------------------------------------------------------------------------
-Rule 1688/9 (Power=3)
-Power
-
-      The Power of an entity is a non-negative rational number. An
-      Instrument is an entity with positive Power.
-      
-      The Power of an entity cannot be set or modified except as
-      stipulated by the Rules. All entities have Power zero except where
-      specifically allowed by the rules.
-      
-      A Rule that makes a change, action, or value secured (hereafter
-      the securing Rule) thereby makes it IMPOSSIBLE to perform that
-      change or action, or to set or modify that value, except as
-      allowed by an Instrument with Power greater than or equal to the
-      change's Power Threshold.  This Threshold defaults to the securing
-      Rule's Power, but CAN be lowered as allowed by that Rule
-      (including by the Rule itself).
-      
-History:
-
-Enacted by P3445 (General Chaos), 26 Mar 1997
-Amended(1) by P3994 'Simplify Power' (harvel), 20 Apr 2000
-Amended(2) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
-Amended(3) by P4940 'instrument mechanics' (Zefram), 29 Apr 2007
-Amended(4) by P5276 'Generalize security' (Murphy, Pavitra, Zefram), 07
-   Nov 2007
-Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
-   woggle, ais523), 23 Jan 2009
-Amended(5) by P6513 'Power Cleanup' [disi.] (Alexis), 03 Oct 2009
-Amended(6) by P6815 'Initial security' [green] (Murphy, ais523), 04 Sep
-   2010
-Amended(7) by P7759 'minor Powers v0.2' (G.), 19 Jul 2015
-Amended(8) by P7781 'Secure, secures, securing, secured' (the
-   Warrigal), 14 Aug 2015
-Amended(9) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2140/2 (Power=3)
-Power Controls Mutability
-
-      No entity with power below the power of this rule can
-      
-      1. cause an entity to have power greater than its own.
-      
-      2. adjust the power of an instrument with power greater than its
-         own.
-      
-      3. set or modify any other substantive aspect of an instrument
-         with power greater than its own. A "substantive" aspect of an
-         instrument is any aspect that affects the instrument's
-         operation.
-      
-History:
-
-Enacted by P4940 'instrument mechanics' (Zefram), 29 Apr 2007
-Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
-   woggle, ais523), 23 Jan 2009
-Amended(1) by P6992 'Fix rule numbers' (Murphy, omd), 10 Apr 2011
-Amended(2) by R2430, 24 May 2017
-
-Annotations:
-CFJ 2981 (called 21 Mar 2011): An attribute of an instrument is not
-   "modified" when an initial value is set for it.
-CFJ 2945 (called 22 Dec 2010): An attribute of an entity is "changed"
-   when it is removed/unset.
 
 ------------------------------------------------------------------------
 Rule 217/12 (Power=3)
@@ -3277,286 +3243,6 @@ CFJ 1702 (called 12 Jul 2007): A requirement to submit something to an
    at the time.
 
 ------------------------------------------------------------------------
-Rule 2143/27 (Power=1)
-Official Reports and Duties
-
-      For each person:
-      
-      1. If any task is defined by the rules as part of that person's
-         weekly duties, then e SHALL perform it at least once each week.
-         If any information is defined by the rules as part of that
-         person's weekly report, then e SHALL maintain all such
-         information, and the publication of all such information is
-         part of eir weekly duties.
-      
-      2. If any task is defined by the rules as part of that person's
-         monthly duties, then e SHALL perform it at least once each
-         month. If any information is defined by the rules as part of
-         that person's monthly report, then e SHALL maintain all such
-         information, and the publication of all such information is
-         part of eir monthly duties.
-      
-      Any information defined by the rules as part of a person's report,
-      without specifying which one, is part of eir weekly report.
-      Failure of a person to perform any duty required of em within the
-      allotted time is the Class-2 crime of Tardiness.
-      
-      An official duty for an office is any duty that the Rules
-      specifically assign to that office's holder in particular
-      (regardless of eir identity).
-      
-      A person SHALL NOT publish information that is inaccurate or
-      misleading while performing an official duty, or within a document
-      purporting to be part of any person or office's weekly or monthly
-      report.
-      
-      Reports SHALL be published in plain text. Tabular data must line
-      up properly when viewed in a monospaced font. Publishing a report
-      that deviates from these restrictions is the Class 2 Crime of
-      Making My Eyes Bleed.
-      
-      Officers SHOULD maintain a publicly visible copy of their reports
-      on the World Wide Web, and they SHOULD publish the address of this
-      copy along with their published reports.
-      
-      A convergence is any change to the gamestate that has, in
-      accordance with the rules, been designated as such. A change to
-      the gamestate SHOULD NOT be designated as a convergence unless it
-      is designed to resolve gamestate ambiguity. Designating a change
-      as a convergence is secured; any player CAN do so with 3 Agoran
-      Consent. When officeholders provide historical information, they
-      NEED NOT accurately document the changes made by the convergence
-      or related ambiguities, provided that they instead note that the
-      convergence occurred. Information about a convergence (but not the
-      resulting state) is inherently uncertain and is thus excluded from
-      self-ratification.
-      
-History:
-
-Enacted by P4970 'define reports' (Zefram), 23 May 2007
-Amended(1) by P5239 'Official frequencies' (AFO), 03 Oct 2007
-Retitled by P5485 (root), 09 Apr 2008
-Amended(2) by P5485 (root), 09 Apr 2008
-Amended(3) by P5956 'random fixes part 1' (omd), 17 Nov 2008
-Amended(4) by P6030 'Undo the rest of 5956x' [disi.] (Murphy), 08 Jan
-   2009
-Assigned to the Committee on Administration by P6053 'Committees'
-   (Murphy, woggle, ais523), 23 Jan 2009
-Amended(5) by P6155 'Refactor falsity' (omd), 31 Mar 2009
-Amended(6) by P6175 'All Offices Are Important' (Yally), 07 Apr 2009
-Amended(7) by P6224 'wrong paragraph' (omd), 27 Apr 2009
-Amended(8) by P6322 'Better Reports' (Wooble), 26 May 2009
-Amended(9) by P6368 'Bleeding Eyes Aren't that Bad' (Walker), 23 Jun
-   2009
-Amended(10) by P6428 'Office Rewards/Penalties Revision v2' (BobTHJ), 18
-   Aug 2009
-Amended(11) by cleaning (Murphy), 06 Mar 2010
-Amended(12) by P6664 'Clarify eye-hurt' [green] (Murphy), 10 Mar 2010
-Amended(13) by cleaning (Murphy), 29 Jul 2010
-Amended(14) by P6967 'clean up remnants' (Wooble), 20 Mar 2011
-Amended(15) by P7045 'Speed' (Walker), 16 May 2011
-Amended(16) by P7313 'Agora expects that every person will do eir duty'
-   (the Warrigal), 27 Sep 2012
-Amended(17) by P7451 'Fix messy statements differently' (omd), 10 Jun
-   2013
-Amended(18) by P7544 'Public Displays' (the Warrigal), 30 Jul 2013
-Amended(19) by P7563 'Clarify inaccuracy ban' (omd), 24 Aug 2013
-Amended(20) by P7599 'Helpfulness' (Walker), 14 Sep 2013
-Amended(21) by P7606 'Cruise Control' (G.), 13 Dec 2013
-Amended(22) by P7648 'This is silly' (omd), 03 Jun 2014
-Amended(23) by P7697 'Non-timed duty accuracy' (omd), 23 Oct 2014
-Amended(24) by P7704 'Fixes the Oxford comma issue, too' (G.), 03 Nov
-   2014
-Amended(25) by R2430, 24 May 2017
-Amended(26) by P7865 'Regulations v4' (Aris, o, nichdel, ais523), 27 Jun
-   2017
-Amended(27) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
-   2018
-
-Annotations:
-CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
-   report does not satisfy this rule's requirement to publish a report.
-CFJ 3645 (called 20 Jun 2018): Including a report in a message to the
-   public forum fulfills an officer's duty to publish said report,
-   regardless of whether or not a disclaimer is included stating that it
-   is not a report.
-------------------------------------------------------------------------
-Rule 2379/0 (Power=1)
-No News Is Some News
-
-      If the rules define a report as including a list, then while that
-      list is empty, that report includes the fact that it is empty.
-      
-History:
-
-Enacted by P7286 'No News Is Some News' (FKA441344), 09 Sep 2012
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2138/24 (Power=1)
-The Associate Director of Personnel
-
-      The Associate Director of Personnel (ADoP) is an office; its
-      holder is responsible for keeping track of officers.
-      
-      The ADoP's report includes the following:
-      
-      1. The date of the last change (if any) to each office's
-         Officeholder.
-      2. The current status of the ongoing election for that office or,
-         if there is no ongoing election for that office, the date on
-         which the last election ended
-      3. For filled elected offices, whether or not the holder is
-         interim.
-      
-History:
-
-Enacted by P4939 'Re-divide some offices' (Murphy), 29 Apr 2007
-Amended(1) by P4956 'Finish re-dividing some offices' (Murphy), 07 May
-   2007
-Amended(2) by P5237 'Comprehensive objective reporting' [disi.] (AFO),
-   03 Oct 2007
-Amended(3) by P5367 [disi.] (Levi), 20 Dec 2007
-Amended(4) by P5517 'Fix IADoP Report Requirements' [disi.] (Wooble),
-   28 May 2008
-Amended(5) by P5718 'The IADoP is always right' (ais523), 07 Oct 2008
-Assigned to the Committee on Administration by P6053 'Committees'
-   (Murphy, woggle, ais523), 23 Jan 2009
-Amended(6) by P6175 'All Offices Are Important' (Yally), 07 Apr 2009
-Amended(7) by P6175 'All Offices Are Important' (Yally), 07 Apr 2009
-Amended(8) by P6230 'More frequent IADoP reporting' (Wooble), 04 May
-   2009
-Amended(9) by P6282 'IADoP Tracks Reports' (Yally), 19 May 2009
-Amended(10) by P6377 'inflation' [disi.] (Alexis), 03 Jul 2009
-Retitled by P6377 'inflation' [disi.] (Alexis), 03 Jul 2009
-Amended(11) by P6493 'Official Acronym' [disi.] (Alexis), 18 Sep 2009
-Retitled by P6667 (Murphy), 10 Mar 2010
-Amended(12) by P6667 (Murphy), 10 Mar 2010
-Retitled by P6975 'Kepler 5555' (Murphy), 30 Mar 2011
-Amended(13) by P6975 'Kepler 5555' (Murphy), 30 Mar 2011
-Amended(14) by P7465 (Walker), 17 Jun 2013
-Amended(15) by P7483 'Scoping it Out' (Alexis), 09 Jul 2013
-Amended(16) by P7524 'SLAjflksagksjhyroinwhyfj' (Alexis), 19 Jul 2013
-Amended(17) by P7566 'because nobody cares' (Walker), 24 Aug 2013
-Amended(18) by P7629 'Do Things' (Alexis), 07 Apr 2014
-Amended(19) by P7663 'IADoP fix' (omd), 03 Jun 2014
-Amended(20) by P7649 'I always thought these already ratified' (omd), 03
-   Jun 2014
-Amended(21) by P7757 'IADoP Titling' (Alexis), 17 Jul 2015
-Amended(22) by P7757 'IADoP Titling' (Alexis), 17 Jul 2015
-Retitled by P7758 'IADoP Untitling' (omd), 19 Jul 2015
-Retitled by P7758 'IADoP Untitling' (omd), 19 Jul 2015
-Amended(23) by R2403, 24 May 2017
-Amended(24) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
-
-Annotations:
-CFJ 1672 (called 18 May 2007): The Interstellar Associate Director of
-   Personnel is the Director of Personnel.
-
-------------------------------------------------------------------------
-Rule 2160/18 (Power=3)
-Deputisation
-
-      A player (the deputy) CAN perform an action ordinarily reserved
-      for an office-holder as if e held the office if
-      
-      1. the rules require the holder of that office, by virtue of
-      holding that office, to perform the action (this requirement is
-      fulfilled by the deputy performing the action);
-      
-      2. it would be POSSIBLE for the deputy to perform the action,
-      other than by deputisation, if e held the office;
-      
-      3. either (i) a time limit by which the rules require the action
-      to be performed has expired or (ii) the office is vacant;
-      
-      4. either (i) the office is vacant, (ii) the aforementioned time
-      limit expired more than fourteen days ago, or (iii) the deputy
-      announced between two and fourteen days earlier that e intended to
-      deputise for that office for the purposes of the particular
-      action; and
-      
-      5. the deputy, when performing the action, announces that e is
-      doing so by deputisation.
-      
-      When a player deputises for an elected office, e becomes the
-      holder of that office, unless the action being performed would
-      already install someone into that office.
-      
-History:
-
-Enacted by P5103 'simpler deputisation' (Zefram), 01 Aug 2007
-Amended(1) by P5200 'no indefinite deputisation notice' [disi.]
-   (Zefram), 08 Sep 2007
-Amended(2) by P5414 'Generalise deputisation' (Murphy), 26 Jan 2008
-Amended(3) by P5454 'Close Pandora's box' (Murphy), 09 Mar 2008
-Power changed from 1 to 3 by P5983 'Stronger Depatation' (the Warrigal),
-   29 Nov 2008
-Assigned to the Committee on Administration by P6053 'Committees'
-   (Murphy, woggle, ais523), 23 Jan 2009
-Amended(4) by P6129 'IADoP Bootstrap' (G.), 15 Mar 2009
-Amended(5) by P6144 'Faster Deputies' (Wooble), 23 Mar 2009
-Amended(6) by P6218 'Deputised duties go away' (Murphy), 27 Apr 2009
-Amended(7) by P6482 'Kick out inactive officers quickly' (omd), 18 Sep
-   2009
-Amended(8) by P7300 'Explicit Deputisation' (Alexis), 27 Sep 2012
-Amended(9) by P7403 'Avoid "casual" vacancies with a carrot' (omd), 27
-   Apr 2013
-Amended(10) by P7629 'Do Things' (Alexis), 07 Apr 2014
-Amended(11) by P7651 'Sillier Scams' (Alexis), 03 Jun 2014
-Amended(12) by P7652 'Deputy Cleanup' (Alexis), 03 Jun 2014
-Amended(13) by P7713 'Speedliness' (the Warrigal), 09 Nov 2014
-Amended(14) by P7804 'Fixed Easier Deputisation' (nichdel), 31 Jul 2016
-Amended(15) by R2430, 24 May 2017
-Amended(16) by P7918 'Vacant Deputisation Fix' (Publius Scribonius
-   Scholasticus), 15 Oct 2017
-Amended(17) by P8018 'Random Bad Rule Cleaning' (Alexis), 06 Mar 2018
-Amended(18) by cleaning (D. Margaux), 30 Sep 2018
-
-Annotations:
-CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
-   the purposes of this rule, can be a logical implication from rules
-   and circumstances, not just directly imposed by the rules. In
-   particular, it is possible to deputise to rotate the bench.
-CFJ 2400 (called 06 Mar 2009): Deputisation is generally treated as if
-   the deputy gained the office immediately before the action, and lost
-   it immediately after.
-
-------------------------------------------------------------------------
-Rule 2472/2 (Power=2)
-Office Incompatibilities
-
-      Some pairs of office are incompatible:
-      
-      1. Prime Minister and Speaker
-      
-      2. Promotor and Assessor
-      
-      3. Assessor and ADoP
-      
-      4. Referee and Arbitor
-      
-      A player is Overpowered if e holds two offices which are
-      incompatible with each other. Rules to the contrary
-      notwithstanding, a player CANNOT be installed into an office if
-      doing so would make em Overpowered.
-      
-      If a player is Overpowered, any player CAN Demand Resignation from
-      em by announcement, provided e has announced intent do to so
-      between four and fourteen days earlier. The Overpowered player is
-      then removed from all offices.
-      
-History:
-
-Enacted by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
-   2016
-Amended(1) by R2430, 24 May 2017
-Amended(2) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2154/52 (Power=2)
 Election Procedure
 
@@ -3701,6 +3387,291 @@ Enacted by P8036 'Impeachment' (Aris), 27 Apr 2018
 
 Annotations:
 
+------------------------------------------------------------------------
+Rule 2160/18 (Power=3)
+Deputisation
+
+      A player (the deputy) CAN perform an action ordinarily reserved
+      for an office-holder as if e held the office if
+      
+      1. the rules require the holder of that office, by virtue of
+      holding that office, to perform the action (this requirement is
+      fulfilled by the deputy performing the action);
+      
+      2. it would be POSSIBLE for the deputy to perform the action,
+      other than by deputisation, if e held the office;
+      
+      3. either (i) a time limit by which the rules require the action
+      to be performed has expired or (ii) the office is vacant;
+      
+      4. either (i) the office is vacant, (ii) the aforementioned time
+      limit expired more than fourteen days ago, or (iii) the deputy
+      announced between two and fourteen days earlier that e intended to
+      deputise for that office for the purposes of the particular
+      action; and
+      
+      5. the deputy, when performing the action, announces that e is
+      doing so by deputisation.
+      
+      When a player deputises for an elected office, e becomes the
+      holder of that office, unless the action being performed would
+      already install someone into that office.
+      
+History:
+
+Enacted by P5103 'simpler deputisation' (Zefram), 01 Aug 2007
+Amended(1) by P5200 'no indefinite deputisation notice' [disi.]
+   (Zefram), 08 Sep 2007
+Amended(2) by P5414 'Generalise deputisation' (Murphy), 26 Jan 2008
+Amended(3) by P5454 'Close Pandora's box' (Murphy), 09 Mar 2008
+Power changed from 1 to 3 by P5983 'Stronger Depatation' (the Warrigal),
+   29 Nov 2008
+Assigned to the Committee on Administration by P6053 'Committees'
+   (Murphy, woggle, ais523), 23 Jan 2009
+Amended(4) by P6129 'IADoP Bootstrap' (G.), 15 Mar 2009
+Amended(5) by P6144 'Faster Deputies' (Wooble), 23 Mar 2009
+Amended(6) by P6218 'Deputised duties go away' (Murphy), 27 Apr 2009
+Amended(7) by P6482 'Kick out inactive officers quickly' (omd), 18 Sep
+   2009
+Amended(8) by P7300 'Explicit Deputisation' (Alexis), 27 Sep 2012
+Amended(9) by P7403 'Avoid "casual" vacancies with a carrot' (omd), 27
+   Apr 2013
+Amended(10) by P7629 'Do Things' (Alexis), 07 Apr 2014
+Amended(11) by P7651 'Sillier Scams' (Alexis), 03 Jun 2014
+Amended(12) by P7652 'Deputy Cleanup' (Alexis), 03 Jun 2014
+Amended(13) by P7713 'Speedliness' (the Warrigal), 09 Nov 2014
+Amended(14) by P7804 'Fixed Easier Deputisation' (nichdel), 31 Jul 2016
+Amended(15) by R2430, 24 May 2017
+Amended(16) by P7918 'Vacant Deputisation Fix' (Publius Scribonius
+   Scholasticus), 15 Oct 2017
+Amended(17) by P8018 'Random Bad Rule Cleaning' (Alexis), 06 Mar 2018
+Amended(18) by cleaning (D. Margaux), 30 Sep 2018
+
+Annotations:
+CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
+   the purposes of this rule, can be a logical implication from rules
+   and circumstances, not just directly imposed by the rules. In
+   particular, it is possible to deputise to rotate the bench.
+CFJ 2400 (called 06 Mar 2009): Deputisation is generally treated as if
+   the deputy gained the office immediately before the action, and lost
+   it immediately after.
+
+------------------------------------------------------------------------
+Rule 2138/24 (Power=1)
+The Associate Director of Personnel
+
+      The Associate Director of Personnel (ADoP) is an office; its
+      holder is responsible for keeping track of officers.
+      
+      The ADoP's report includes the following:
+      
+      1. The date of the last change (if any) to each office's
+         Officeholder.
+      2. The current status of the ongoing election for that office or,
+         if there is no ongoing election for that office, the date on
+         which the last election ended
+      3. For filled elected offices, whether or not the holder is
+         interim.
+      
+History:
+
+Enacted by P4939 'Re-divide some offices' (Murphy), 29 Apr 2007
+Amended(1) by P4956 'Finish re-dividing some offices' (Murphy), 07 May
+   2007
+Amended(2) by P5237 'Comprehensive objective reporting' [disi.] (AFO),
+   03 Oct 2007
+Amended(3) by P5367 [disi.] (Levi), 20 Dec 2007
+Amended(4) by P5517 'Fix IADoP Report Requirements' [disi.] (Wooble),
+   28 May 2008
+Amended(5) by P5718 'The IADoP is always right' (ais523), 07 Oct 2008
+Assigned to the Committee on Administration by P6053 'Committees'
+   (Murphy, woggle, ais523), 23 Jan 2009
+Amended(6) by P6175 'All Offices Are Important' (Yally), 07 Apr 2009
+Amended(7) by P6175 'All Offices Are Important' (Yally), 07 Apr 2009
+Amended(8) by P6230 'More frequent IADoP reporting' (Wooble), 04 May
+   2009
+Amended(9) by P6282 'IADoP Tracks Reports' (Yally), 19 May 2009
+Amended(10) by P6377 'inflation' [disi.] (Alexis), 03 Jul 2009
+Retitled by P6377 'inflation' [disi.] (Alexis), 03 Jul 2009
+Amended(11) by P6493 'Official Acronym' [disi.] (Alexis), 18 Sep 2009
+Retitled by P6667 (Murphy), 10 Mar 2010
+Amended(12) by P6667 (Murphy), 10 Mar 2010
+Retitled by P6975 'Kepler 5555' (Murphy), 30 Mar 2011
+Amended(13) by P6975 'Kepler 5555' (Murphy), 30 Mar 2011
+Amended(14) by P7465 (Walker), 17 Jun 2013
+Amended(15) by P7483 'Scoping it Out' (Alexis), 09 Jul 2013
+Amended(16) by P7524 'SLAjflksagksjhyroinwhyfj' (Alexis), 19 Jul 2013
+Amended(17) by P7566 'because nobody cares' (Walker), 24 Aug 2013
+Amended(18) by P7629 'Do Things' (Alexis), 07 Apr 2014
+Amended(19) by P7663 'IADoP fix' (omd), 03 Jun 2014
+Amended(20) by P7649 'I always thought these already ratified' (omd), 03
+   Jun 2014
+Amended(21) by P7757 'IADoP Titling' (Alexis), 17 Jul 2015
+Amended(22) by P7757 'IADoP Titling' (Alexis), 17 Jul 2015
+Retitled by P7758 'IADoP Untitling' (omd), 19 Jul 2015
+Retitled by P7758 'IADoP Untitling' (omd), 19 Jul 2015
+Amended(23) by R2403, 24 May 2017
+Amended(24) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
+
+Annotations:
+CFJ 1672 (called 18 May 2007): The Interstellar Associate Director of
+   Personnel is the Director of Personnel.
+
+------------------------------------------------------------------------
+Rule 2472/2 (Power=2)
+Office Incompatibilities
+
+      Some pairs of office are incompatible:
+      
+      1. Prime Minister and Speaker
+      
+      2. Promotor and Assessor
+      
+      3. Assessor and ADoP
+      
+      4. Referee and Arbitor
+      
+      A player is Overpowered if e holds two offices which are
+      incompatible with each other. Rules to the contrary
+      notwithstanding, a player CANNOT be installed into an office if
+      doing so would make em Overpowered.
+      
+      If a player is Overpowered, any player CAN Demand Resignation from
+      em by announcement, provided e has announced intent do to so
+      between four and fourteen days earlier. The Overpowered player is
+      then removed from all offices.
+      
+History:
+
+Enacted by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
+   2016
+Amended(1) by R2430, 24 May 2017
+Amended(2) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2143/27 (Power=1)
+Official Reports and Duties
+
+      For each person:
+      
+      1. If any task is defined by the rules as part of that person's
+         weekly duties, then e SHALL perform it at least once each week.
+         If any information is defined by the rules as part of that
+         person's weekly report, then e SHALL maintain all such
+         information, and the publication of all such information is
+         part of eir weekly duties.
+      
+      2. If any task is defined by the rules as part of that person's
+         monthly duties, then e SHALL perform it at least once each
+         month. If any information is defined by the rules as part of
+         that person's monthly report, then e SHALL maintain all such
+         information, and the publication of all such information is
+         part of eir monthly duties.
+      
+      Any information defined by the rules as part of a person's report,
+      without specifying which one, is part of eir weekly report.
+      Failure of a person to perform any duty required of em within the
+      allotted time is the Class-2 crime of Tardiness.
+      
+      An official duty for an office is any duty that the Rules
+      specifically assign to that office's holder in particular
+      (regardless of eir identity).
+      
+      A person SHALL NOT publish information that is inaccurate or
+      misleading while performing an official duty, or within a document
+      purporting to be part of any person or office's weekly or monthly
+      report.
+      
+      Reports SHALL be published in plain text. Tabular data must line
+      up properly when viewed in a monospaced font. Publishing a report
+      that deviates from these restrictions is the Class 2 Crime of
+      Making My Eyes Bleed.
+      
+      Officers SHOULD maintain a publicly visible copy of their reports
+      on the World Wide Web, and they SHOULD publish the address of this
+      copy along with their published reports.
+      
+      A convergence is any change to the gamestate that has, in
+      accordance with the rules, been designated as such. A change to
+      the gamestate SHOULD NOT be designated as a convergence unless it
+      is designed to resolve gamestate ambiguity. Designating a change
+      as a convergence is secured; any player CAN do so with 3 Agoran
+      Consent. When officeholders provide historical information, they
+      NEED NOT accurately document the changes made by the convergence
+      or related ambiguities, provided that they instead note that the
+      convergence occurred. Information about a convergence (but not the
+      resulting state) is inherently uncertain and is thus excluded from
+      self-ratification.
+      
+History:
+
+Enacted by P4970 'define reports' (Zefram), 23 May 2007
+Amended(1) by P5239 'Official frequencies' (AFO), 03 Oct 2007
+Retitled by P5485 (root), 09 Apr 2008
+Amended(2) by P5485 (root), 09 Apr 2008
+Amended(3) by P5956 'random fixes part 1' (omd), 17 Nov 2008
+Amended(4) by P6030 'Undo the rest of 5956x' [disi.] (Murphy), 08 Jan
+   2009
+Assigned to the Committee on Administration by P6053 'Committees'
+   (Murphy, woggle, ais523), 23 Jan 2009
+Amended(5) by P6155 'Refactor falsity' (omd), 31 Mar 2009
+Amended(6) by P6175 'All Offices Are Important' (Yally), 07 Apr 2009
+Amended(7) by P6224 'wrong paragraph' (omd), 27 Apr 2009
+Amended(8) by P6322 'Better Reports' (Wooble), 26 May 2009
+Amended(9) by P6368 'Bleeding Eyes Aren't that Bad' (Walker), 23 Jun
+   2009
+Amended(10) by P6428 'Office Rewards/Penalties Revision v2' (BobTHJ), 18
+   Aug 2009
+Amended(11) by cleaning (Murphy), 06 Mar 2010
+Amended(12) by P6664 'Clarify eye-hurt' [green] (Murphy), 10 Mar 2010
+Amended(13) by cleaning (Murphy), 29 Jul 2010
+Amended(14) by P6967 'clean up remnants' (Wooble), 20 Mar 2011
+Amended(15) by P7045 'Speed' (Walker), 16 May 2011
+Amended(16) by P7313 'Agora expects that every person will do eir duty'
+   (the Warrigal), 27 Sep 2012
+Amended(17) by P7451 'Fix messy statements differently' (omd), 10 Jun
+   2013
+Amended(18) by P7544 'Public Displays' (the Warrigal), 30 Jul 2013
+Amended(19) by P7563 'Clarify inaccuracy ban' (omd), 24 Aug 2013
+Amended(20) by P7599 'Helpfulness' (Walker), 14 Sep 2013
+Amended(21) by P7606 'Cruise Control' (G.), 13 Dec 2013
+Amended(22) by P7648 'This is silly' (omd), 03 Jun 2014
+Amended(23) by P7697 'Non-timed duty accuracy' (omd), 23 Oct 2014
+Amended(24) by P7704 'Fixes the Oxford comma issue, too' (G.), 03 Nov
+   2014
+Amended(25) by R2430, 24 May 2017
+Amended(26) by P7865 'Regulations v4' (Aris, o, nichdel, ais523), 27 Jun
+   2017
+Amended(27) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
+   2018
+
+Annotations:
+CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
+   report does not satisfy this rule's requirement to publish a report.
+CFJ 3645 (called 20 Jun 2018): Including a report in a message to the
+   public forum fulfills an officer's duty to publish said report,
+   regardless of whether or not a disclaimer is included stating that it
+   is not a report.
+------------------------------------------------------------------------
+Rule 2379/0 (Power=1)
+No News Is Some News
+
+      If the rules define a report as including a list, then while that
+      list is empty, that report includes the fact that it is empty.
+      
+History:
+
+Enacted by P7286 'No News Is Some News' (FKA441344), 09 Sep 2012
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Documents
+   Documents are little bits of text that can be ratified, therefore
+   modifying the gamestate slightly.
 ------------------------------------------------------------------------
 Rule 1551/19 (Power=3.1)
 Ratification
@@ -3897,7 +3868,7 @@ Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2555/1 (Power=2)
+Rule 2555/2 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -3906,10 +3877,7 @@ Blots
       Fugitive.
       
       To Levy a Fine of N on a person, where N is a positive integer, is
-      to create N blots in eir possession by announcement. To Expunge a
-      blot is to destroy it by announcement. If expunging blots would
-      reduce a person's blots to less than 0, their blots are instead
-      reduced to 0 but the cost of expunging, if any, is not reduced.
+      to grant em N blots. To expunge a blot is to destroy it.
       
       Levying fines and destroying blots are each secured with a power
       threshold of 1.7.
@@ -3928,6 +3896,7 @@ History:
 Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(1) by P8066 'Separation of church and state' (twg, Trigon), 26
    Jul 2018
+Amended(2) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 
 Annotations:
 
@@ -4042,7 +4011,7 @@ Amended(1) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2531/3 (Power=2)
+Rule 2531/4 (Power=2)
 Referee Accountability
 
       Any attempt to levy a fine is INEFFECTIVE if:
@@ -4055,7 +4024,7 @@ Referee Accountability
             inaction which e (more likely than not) did not commit;
       
         (3) it attempts to levy a fine for an action or inaction which is
-            not prohibited by law;
+            not prohibited by the rules;
       
         (4) it attempts to levy a fine with a value that is blatantly and
             obviously unsuited to the conduct which constitutes the reason
@@ -4096,6 +4065,8 @@ Amended(1) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Power changed from 1 to 2 by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(2) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(3) by P8119 'Criminal Justice Adjustments Act' (G.), 12 Nov
+   2018
+Amended(4) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 19 Nov
    2018
 
 Annotations:
@@ -4570,6 +4541,48 @@ CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
    INEFFECTIVE.
 
 ------------------------------------------------------------------------
+Rule 2466/1 (Power=3)
+Acting on Behalf
+
+      When a rule allows one person (the agent) to act on behalf of
+      another (the principal) to perform an action, that agent CAN
+      perform the action if it is POSSIBLE for the principal to do so,
+      taking into account any prerequisites for the action. If the
+      enabling rule does not specify the mechanism by which the agent
+      may do so, then the agent CAN perform the action in the same
+      manner in which the principal CAN do so, with the additional
+      requirement that the agent must, in the message in which the
+      action is performed, uniquely identify the principal and that the
+      action is being taken on behalf of that person.
+      
+      A person SHALL NOT act on behalf of another person if doing so
+      causes the second person to violate the rules. A person CANNOT act
+      on behalf of another person to do anything except perform a game
+      action; in particular, a person CANNOT act on behalf of another
+      person to send a message, only to perform specific actions that
+      might be taken within a message.
+      
+      When an action is performed on behalf of a principal, then the
+      action is considered for all game purposes to have been performed
+      by the principal, unless a rule specifically states that it is
+      treated differently for some purpose, in which case it is treated
+      as described by that rule.
+      
+      Allowing a person to act on behalf of another person is secured at
+      power 2.0. This rule takes precedence over any rule that would
+      prohibit a person from taking an action, except that it defers to
+      any rule that imposes limitations specifically on actions taken on
+      behalf of another person.
+      
+History:
+
+Enacted by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
+Amended(1) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
+   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+
+Annotations:
+
+------------------------------------------------------------------------
 Rule 2519/0 (Power=3)
 Consent
 
@@ -4655,7 +4668,7 @@ Assets
    Assets are things players can own. This section describes how that
    works.
 ------------------------------------------------------------------------
-Rule 2166/27 (Power=3)
+Rule 2166/28 (Power=3)
 Assets
 
       An asset is an entity defined as such by a document that has been
@@ -4674,6 +4687,9 @@ Assets
       entity's report includes a list of all instances of that class and
       their owners. This portion of that entity's report is
       self-ratifying.
+      
+      For a class of assets to be "tracked by" an entity is for that
+      entity to be its recordkeepor.
       
 History:
 
@@ -4719,6 +4735,8 @@ Amended(25) by P8003 'Asset fix' (Corona), 31 Jan 2018
 Amended(26) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
    2018
 Amended(27) by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(28) by P8129 'Bugfix: Treasuror doesn't self-ratify v2' (twg,
+   Trigon, G.), 19 Nov 2018
 
 Annotations:
 CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
@@ -4750,7 +4768,7 @@ Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2577/0 (Power=3)
+Rule 2577/1 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -4760,9 +4778,16 @@ Asset Actions
       specifically addressing the destruction of indestructible assets
       or that asset in particular; any other asset is destructible.
       
-      To "lose" an asset is to have it destroyed from one's possession;
-      to "revoke" an asset from an entity is to destroy it from that
-      entity's possession.
+      For an entity to earn an asset is for that asset to be created in
+      that entity's possession. To grant an entity an asset is to create
+      it in eir possession.
+      
+      For an entity to lose an asset is for that asset to be destroyed
+      from that entity's possession. To revoke an asset from an entity
+      is to destroy it from that entity's possession.
+      
+      For entity A to take an asset from entity B is to transfer it from
+      entity B to entity A.
       
       An asset generally CAN be transferred (syn. given) by announcement
       by its owner to another entity, subject to modification by its
@@ -4777,6 +4802,7 @@ Asset Actions
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(1) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 
 Annotations:
 
@@ -4843,31 +4869,12 @@ Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2515/0 (Power=1)
-Distributing Assets
-
-      To “distribute” a quantity of a fungible asset to a set of
-      recipients is to transfer one instance of that asset at a time to
-      the recipient that owns the least number of instances of that
-      asset, until either no more instances of the asset are eligible to
-      be distributed, or the number of instances so transferred equals
-      the quantity to be distributed. If, when distributing a specific
-      asset, two or more recipients each own the least number of
-      instances of that asset, then the recipient that most recently
-      became eligible to own the asset SHALL receive the asset being
-      distributed.
-      
-History:
-
-Enacted by P7921 'Passive Income' (o, G.), 15 Oct 2017
-
-Annotations:
-
-------------------------------------------------------------------------
 ========================================================================
 Economics
    The economic landscape changes quickly in Agora. No matter what name
-   we give to them, though, they all function similarly.
+   we give to them, though, they all function similarly. This section
+   only describes the core mechanics. Any other economic subsystems are
+   described elsewhere.
 ------------------------------------------------------------------------
 Rule 2456/6 (Power=1)
 The Treasuror
@@ -4928,56 +4935,58 @@ Amended(12) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2583/1 (Power=1.5)
-Earning Coins
+Rule 2496/7 (Power=1)
+Rewards
 
-      For a player to 'earn' a coin is for it to be created in eir
-      possession.  For a player to 'lose' a coin is for it to be
-      destroyed (if e has any).
+      A player CAN create in eir possession the set of assets associated
+      with a reward condition exactly once in a timely fashion each time
+      e fulfills it by stating how many assets e earns as a result of
+      this action.
       
-      When a decision to adopt a proposal is resolved:
+      Below is a list of reward conditions and their associated assets.
       
-        - If the outcome was ADOPTED, its author earns a number of coins
-          equal to (the total strength of all valid ballots cast FOR the
-          decision - the total strength of all valid ballots cast AGAINST)
-          times the adoption index of the decision (final result rounded
-          up).
+      * Being the author of an adopted proposal: a number of coins equal
+        to ((the total strength of all valid ballots cast FOR the
+        decision - the total strength of all valid ballots cast AGAINST)
+        times the adoption index of the result) rounded up.
       
-        - If the outcome was REJECTED, its author loses a number of coins
-          equal to (the minimum of (the total strength of all valid ballots
-          cast AGAINST the decision - the total strength of all valid
-          ballots cast FOR) and 0).
+      * Judging a CFJ that e was assigned to: 5 coins.
       
-        - If the outcome was FAILED QUORUM, every active player who didn't
-          cast a ballot loses 1 coin.
+      * Publishing a duty-fulfilling report: 5 coins. This reward can
+        only be claimed once per office per week for a weekly report and
+        once per office per month for a monthly report.
       
-      When a judge issues eir first official judgement on a given CFJ, e
-      earns 5 coins.
+      * Having a Thesis pass peer-review and be granted a Degree based
+        on its merit: 20 shinies.
       
 History:
 
-Enacted by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
-Amended(1) by P8116 'Control-C, Control-V' (Trigon, D. Margaux), 12 Nov
-   2018
+Enacted by P7867 'Economics Overhaul v2' (nichdel, o, grok, Aris), 30
+   Aug 2017
+Amended(1) by P7871 'Minor fixes (sans typos)' (V.J. Rada), 07 Sep 2017
+Amended(2) by P7876 'Float On' (o), 26 Sep 2017
+Amended(3) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(4) by P7897 'University Funding' (Cuddle Beam), 26 Sep 2017
+Amended(5) by P7911 'Infinite Money Fix' (V.J. Rada), 15 Oct 2017
+Amended(6) by P7980 (ATMunn, Alexis), 26 Nov 2017
+Repealed by P8004 'Rusty' (G.), 31 Jan 2018
+Re-enacted and amended(7) by P8127 'Reinstituting Rewards' (Trigon), 19
+   Nov 2018
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2559/5 (Power=2)
+Rule 2559/6 (Power=2)
 Paydays
 
       Whenever a Payday occurs, the following events happen in order:
       
-      1. The following assets are created in the possession of each
-         player:
-         A. 10 coins
+      1. Each player first earns 10 coins; then
       
       2. For each office, if a single player held that office for 16 or
          more days in the previous month and no unforgivable fines were
          levied on em for eir conduct in that office during that time,
-         the following assets are created in the possession of that
-         player:
-         A. 5 coins
+         that player earns 5 coins.
       
       The occurrence of Paydays is secured.  At the beginning of each
       month, a Payday occurs.
@@ -4992,21 +5001,19 @@ Amended(3) by P8053 'patch patch patch' (G., Aris), 01 Jul 2018
 Amended(4) by P8066 'Separation of church and state' (twg, Trigon), 26
    Jul 2018
 Amended(5) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
+Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/5 (Power=1)
+Rule 2499/6 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
       recently registered, any player CAN cause em to receive one by
       announcement.
       
-      When a player receives a Welcome Package, Agora creates the
-      following assets in eir possession:
-      
-      1. 10 coins
+      When a player receives a Welcome Package, e earns 10 coins.
       
 History:
 
@@ -5021,9 +5028,14 @@ Amended(3) by P8053 'patch patch patch' (G., Aris), 01 Jul 2018
 Amended(4) by P8072 'Steel Based Manufacturing v3' (Aris, twg), 26 Jul
    2018
 Amended(5) by P8092 'Yet Another Economics Patch' (twg), 17 Sep 2018
+Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 
 Annotations:
 
+------------------------------------------------------------------------
+========================================================================
+Auctions
+   If you want to give out assets, this is the section to look at.
 ------------------------------------------------------------------------
 Rule 2545/2 (Power=2)
 Auctions
@@ -5307,7 +5319,7 @@ Amended(1) by P8098 'Zombie Overstock' (G.), 01 Oct 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1885/8 (Power=2)
+Rule 1885/9 (Power=2)
 Zombie Auctions
 
       Whenever a zombie (1) has Agora for a master, (2) is not a lot in
@@ -5330,6 +5342,12 @@ Zombie Auctions
       of such a auction, to transfer a zombie to a player is to set that
       zombie's master switch to that player.
       
+      Rules to the contrary notwithstanding, if a player's master switch
+      is flipped while a zombie auction in which e is a lot is ongoing,
+      then the winner of that lot NEED NOT pay Agora eir bid and Agora
+      CANNOT and NEED NOT transfer the contents of the lot to the
+      winner.
+      
 History:
 
 Enacted by P3853 'All You Zombies... v1.3' (Blob), 19 Apr 1999
@@ -5344,6 +5362,8 @@ Amended(6) by P8028 'Zombie patch' (G.), 23 Mar 2018
 Amended(7) by P8041 'Consolidated Patch' (Aris, Trigon, G.), 27 Apr
    2018
 Amended(8) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
+Amended(9) by P8131 'V.J. Rada Protection Act' (D.F.F., twg), 19 Nov
+   2018
 
 Annotations:
 
@@ -5960,9 +5980,9 @@ Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
-Figureheads
-   Agora has a good few figurehead leaders, none of which possess all
-   that much power. This section isn't all that important.
+Leaders
+   Agora has a good few leaders, most of which are nothing more than
+   sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
 Rule 103/25 (Power=2)
 The Speaker
