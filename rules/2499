@@ -6,10 +6,7 @@ text: |
   recently registered, any player CAN cause em to receive one by
   announcement.
 
-  When a player receives a Welcome Package, Agora creates the
-  following assets in eir possession:
-
-  1. 10 coins
+  When a player receives a Welcome Package, e earns 10 coins.
 history:
 - change:
     type: enactment
@@ -46,4 +43,9 @@ history:
   date: 2018-09-17
   agent:
     proposal: "8092"
+- change:
+    type: amendment
+  date: 2018-11-19
+  agent:
+    proposal: "8126"
 annotations: []

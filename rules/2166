@@ -18,6 +18,10 @@ text: |
   entity's report includes a list of all instances of that class and
   their owners. This portion of that entity's report is
   self-ratifying.
+
+  For a class of assets to be "tracked by" an entity is for that
+  entity to be its recordkeepor.
+
 history:
 - change:
     type: enactment
@@ -171,6 +175,11 @@ history:
   date: 2018-07-01
   agent:
     proposal: "8055"
+- change:
+    type: amendment
+  date: 2018-11-19
+  agent:
+    proposal: "8129"
 annotations:
 - cfjs:
   - id: '3597'

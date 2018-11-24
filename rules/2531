@@ -12,7 +12,7 @@ text: |
         inaction which e (more likely than not) did not commit;
   
     (3) it attempts to levy a fine for an action or inaction which is
-        not prohibited by law;
+        not prohibited by the rules;
   
     (4) it attempts to levy a fine with a value that is blatantly and
         obviously unsuited to the conduct which constitutes the reason
@@ -72,4 +72,9 @@ history:
   date: 2018-11-12
   agent:
     proposal: "8119"
+- change:
+    type: amendment
+  date: 2018-11-19
+  agent:
+    proposal: "8030"
 annotations: []

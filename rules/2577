@@ -9,10 +9,17 @@ text: |
   specifically addressing the destruction of indestructible assets
   or that asset in particular; any other asset is destructible.
 
-  To "lose" an asset is to have it destroyed from one's possession;
-  to "revoke" an asset from an entity is to destroy it from that
-  entity's possession.
+  For an entity to earn an asset is for that asset to be created in
+  that entity's possession. To grant an entity an asset is to create
+  it in eir possession.
 
+  For an entity to lose an asset is for that asset to be destroyed
+  from that entity's possession. To revoke an asset from an entity
+  is to destroy it from that entity's possession.
+
+  For entity A to take an asset from entity B is to transfer it from
+  entity B to entity A.
+  
   An asset generally CAN be transferred (syn. given) by announcement
   by its owner to another entity, subject to modification by its
   backing document. A fixed asset is one defined as such by its
@@ -29,3 +36,8 @@ history:
   date: 2018-07-01
   agent:
     proposal: "8055"
+- change:
+    type: amendment
+  date: 2018-11-19
+  agent:
+    proposal: "8126"

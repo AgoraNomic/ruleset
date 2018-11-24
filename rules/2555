@@ -8,10 +8,7 @@ text: |
   Fugitive.
 
   To Levy a Fine of N on a person, where N is a positive integer, is
-  to create N blots in eir possession by announcement. To Expunge a
-  blot is to destroy it by announcement. If expunging blots would
-  reduce a person's blots to less than 0, their blots are instead
-  reduced to 0 but the cost of expunging, if any, is not reduced.
+  to grant em N blots. To expunge a blot is to destroy it.
 
   Levying fines and destroying blots are each secured with a power
   threshold of 1.7.
@@ -36,4 +33,9 @@ history:
   date: 2018-07-26
   agent:
     proposal: "8066"
+- change:
+    type: amendment
+  date: 2018-11-19
+  agent:
+    proposal: "8126"
 annotations: []

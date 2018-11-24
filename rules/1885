@@ -21,6 +21,12 @@ text: |
   zombie auctions that have not ended are withdrawn. For the purpose
   of such a auction, to transfer a zombie to a player is to set that
   zombie's master switch to that player.
+
+  Rules to the contrary notwithstanding, if a player's master switch
+  is flipped while a zombie auction in which e is a lot is ongoing,
+  then the winner of that lot NEED NOT pay Agora eir bid and Agora
+  CANNOT and NEED NOT transfer the contents of the lot to the
+  winner.
 history:
 - change:
     type: enactment
@@ -81,4 +87,9 @@ history:
   date: 2018-06-14
   agent:
     proposal: "8051"
+- change:
+    type: amendment
+  date: 2018-11-19
+  agent:
+    proposal: "8131"
 annotations: []
