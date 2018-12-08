@@ -2,17 +2,16 @@ id: 2496
 name: Rewards
 power: 1
 text: |
-  A player CAN create in eir possession the set of assets associated
-  with a reward condition exactly once in a timely fashion each time
-  e fulfills it by stating how many assets e earns as a result of
-  this action.
+  A player CAN earn the set of assets associated with a reward
+  condition exactly once in a timely fashion each time e fulfills it
+  by stating how many assets e earns as a result of this action.
 
   Below is a list of reward conditions and their associated assets.
 
   * Being the author of an adopted proposal: a number of coins equal
-    to ((the total strength of all valid ballots cast FOR the
-    decision - the total strength of all valid ballots cast AGAINST)
-    times the adoption index of the result) rounded up.
+    to ((the total number of valid ballots cast FOR the decision -
+    the total number of valid ballots cast AGAINST) times the
+    adoption index of the result) rounded up.
 
   * Judging a CFJ that e was assigned to: 5 coins.
 
@@ -68,4 +67,14 @@ history:
   date: 2018-11-19
   agent:
     proposal: "8127"
+- change:
+    type: amendment
+  date: 2018-12-02
+  agent:
+    proposal: "8133"
+- change:
+    type: amendment
+  date: 2018-12-02
+  agent:
+    proposal: "8137"
 annotations: []

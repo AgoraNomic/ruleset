@@ -16,7 +16,13 @@ text: |
   justice in a manner that is fair for emself, if not for the rest
   of Agora.
 
-  When a CFJ has no judge assigned, the Arbitor CAN assign any
+  Judge is an untracked CFJ switch with possible values of any
+  person or "unassigned" (default).  To "assign" a CFJ to a person
+  is to flip that CFJ's judge to that person.  To "remove" or
+  "recuse" a person from a being the judge of a CFJ is to flip that
+  CFJ's judge from that person to unassigned.
+
+  When a CFJ's judge is unassigned, the Arbitor CAN assign any
   eligible player to be its judge by announcement, and SHALL do so
   in a timely fashion. The players eligible to be assigned as judge
   are all active players except the initiator and the person barred
@@ -212,6 +218,11 @@ history:
   agent:
     cleaning:
       by: Trigon
+- change:
+    type: amendment
+  date: 2018-12-02
+  agent:
+    proposal: "8134"
 annotations:
 - cfjs:
   - id: 1692-1693
