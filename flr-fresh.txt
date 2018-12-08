@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type: 11 Nov 2018
-Date of this ruleset: 1 Dec 2018
+Date of this ruleset: 7 Dec 2018
 
 Number of rules currently enacted: 119
 
-Most recent change to this ruleset: Rule 2531 amended by Proposal 8130
+Most recent change to this ruleset: Rule 2496 amended by Proposal 8137
 
 Highest ID'd rule in this ruleset: 2584
-Highest ID'd Proposal Passed: 8132
+Highest ID'd Proposal Passed: 8137
 Highest ID'd Rule Enacted: 2584
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -4077,7 +4077,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/29 (Power=2)
+Rule 991/30 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -4094,7 +4094,13 @@ Calls for Judgement
       justice in a manner that is fair for emself, if not for the rest
       of Agora.
       
-      When a CFJ has no judge assigned, the Arbitor CAN assign any
+      Judge is an untracked CFJ switch with possible values of any
+      person or "unassigned" (default).  To "assign" a CFJ to a person
+      is to flip that CFJ's judge to that person.  To "remove" or
+      "recuse" a person from a being the judge of a CFJ is to flip that
+      CFJ's judge from that person to unassigned.
+      
+      When a CFJ's judge is unassigned, the Arbitor CAN assign any
       eligible player to be its judge by announcement, and SHALL do so
       in a timely fashion. The players eligible to be assigned as judge
       are all active players except the initiator and the person barred
@@ -4149,6 +4155,7 @@ Amended(26) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
 Amended(27) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(28) by P8065 'No undead courts' (twg), 18 Jul 2018
 Amended(29) by cleaning (Trigon), 31 Oct 2018
+Amended(30) by P8134 'The judge switch' (G.), 02 Dec 2018
 
 Annotations:
 CFJ 1692-1693 (called 20 Jun 2007): A CFJ can be unambiguously
@@ -4935,20 +4942,19 @@ Amended(12) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/7 (Power=1)
+Rule 2496/9 (Power=1)
 Rewards
 
-      A player CAN create in eir possession the set of assets associated
-      with a reward condition exactly once in a timely fashion each time
-      e fulfills it by stating how many assets e earns as a result of
-      this action.
+      A player CAN earn the set of assets associated with a reward
+      condition exactly once in a timely fashion each time e fulfills it
+      by stating how many assets e earns as a result of this action.
       
       Below is a list of reward conditions and their associated assets.
       
       * Being the author of an adopted proposal: a number of coins equal
-        to ((the total strength of all valid ballots cast FOR the
-        decision - the total strength of all valid ballots cast AGAINST)
-        times the adoption index of the result) rounded up.
+        to ((the total number of valid ballots cast FOR the decision -
+        the total number of valid ballots cast AGAINST) times the
+        adoption index of the result) rounded up.
       
       * Judging a CFJ that e was assigned to: 5 coins.
       
@@ -4972,6 +4978,10 @@ Amended(6) by P7980 (ATMunn, Alexis), 26 Nov 2017
 Repealed by P8004 'Rusty' (G.), 31 Jan 2018
 Re-enacted and amended(7) by P8127 'Reinstituting Rewards' (Trigon), 19
    Nov 2018
+Amended(8) by P8133 'Proposals aren't worth *that* much' (Trigon), 02
+   Dec 2018
+Amended(9) by P8137 'Uncorrecting Rewards' (Aris, twg, Trigon), 02 Dec
+   2018
 
 Annotations:
 

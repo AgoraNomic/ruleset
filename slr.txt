@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 24 Nov 2018
-Date of this ruleset: 1 Dec 2018
+Date of last official ruleset of this type: 1 Dec 2018
+Date of this ruleset: 7 Dec 2018
 
 Number of rules currently enacted: 119
 
-Most recent change to this ruleset: Rule 2531 amended by Proposal 8130
+Most recent change to this ruleset: Rule 2496 amended by Proposal 8137
 
 Highest ID'd rule in this ruleset: 2584
-Highest ID'd Proposal Passed: 8132
+Highest ID'd Proposal Passed: 8137
 Highest ID'd Rule Enacted: 2584
 
 ========================================================================
@@ -1781,7 +1781,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/29 (Power=2)
+Rule 991/30 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -1798,7 +1798,13 @@ Calls for Judgement
       justice in a manner that is fair for emself, if not for the rest
       of Agora.
       
-      When a CFJ has no judge assigned, the Arbitor CAN assign any
+      Judge is an untracked CFJ switch with possible values of any
+      person or "unassigned" (default).  To "assign" a CFJ to a person
+      is to flip that CFJ's judge to that person.  To "remove" or
+      "recuse" a person from a being the judge of a CFJ is to flip that
+      CFJ's judge from that person to unassigned.
+      
+      When a CFJ's judge is unassigned, the Arbitor CAN assign any
       eligible player to be its judge by announcement, and SHALL do so
       in a timely fashion. The players eligible to be assigned as judge
       are all active players except the initiator and the person barred
@@ -2186,20 +2192,19 @@ Economics
       A player CAN win the game by paying a fee of 1,000 Coins.
       
 ------------------------------------------------------------------------
-Rule 2496/7 (Power=1)
+Rule 2496/9 (Power=1)
 Rewards
 
-      A player CAN create in eir possession the set of assets associated
-      with a reward condition exactly once in a timely fashion each time
-      e fulfills it by stating how many assets e earns as a result of
-      this action.
+      A player CAN earn the set of assets associated with a reward
+      condition exactly once in a timely fashion each time e fulfills it
+      by stating how many assets e earns as a result of this action.
       
       Below is a list of reward conditions and their associated assets.
       
       * Being the author of an adopted proposal: a number of coins equal
-        to ((the total strength of all valid ballots cast FOR the
-        decision - the total strength of all valid ballots cast AGAINST)
-        times the adoption index of the result) rounded up.
+        to ((the total number of valid ballots cast FOR the decision -
+        the total number of valid ballots cast AGAINST) times the
+        adoption index of the result) rounded up.
       
       * Judging a CFJ that e was assigned to: 5 coins.
       
