@@ -5,26 +5,22 @@ text: |
   There are 5 Parties, in order:
 
   - Platonic Isolationists
-
   - New Punchbowl Reformers
-
   - Costume Conservatives
-
   - Substance Use Liberals
-
   - Official Raving Monster Looney Party
 
   Politicians are entities; each Politician has a name and an
   associated Party. Politicians exist only as specified by the
   rules. Creating, altering, or destroying Politicians is secured.
 
-  If there are ever fewer than 20 Politicians, then the Clork CAN
-  and SHALL, by announcement, create a new Politician, specifying
-  eir Party and name. The Party must be selected at random from:
+  If there are ever fewer than 20 Politicians, then the Clork CAN by
+  announcement and SHALL in a timely fashion create a new
+  Politician, specifying eir Party and name. The Party must be
+  selected at random from:
 
   - If any Party has fewer than 3 Politicans, the Party or Parties
     with the fewest.
-
   - Otherwise, the Parties with fewer than 5 Politicians.
 history:
 - change:
@@ -38,4 +34,9 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7999"
+- change:
+    type: reenactment
+  date: 2019-01-15
+  agent:
+    proposal: "8142"
 annotations: []

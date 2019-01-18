@@ -1,0 +1,21 @@
+id: 2594
+name: Fame
+power: 1
+text: |
+  Fame is an integer player switch tracked by the Astronomor, limited
+  to values between -10 and 10 inclusive. Players with positive Fame
+  are "Famous", and those with negative Fame are "Infamous".
+
+  If a player is the Winner in a Space Battle against an Infamous
+  player, eir Fame is increased by 1. Likewise, if a player is the
+  Winner in a Space Battle against a Famous player or one with a Fame
+  of 0, eir Fame is decreased by 1.
+
+  Any player whose Fame is either 10 or -10 CAN win the game With 2
+  Days Notice.
+history:
+- change:
+    type: enactment
+  date: 2019-01-15
+  agent:
+    proposal: "8140"

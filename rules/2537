@@ -7,14 +7,11 @@ text: |
   balloons is secured.
 
   At the start of each Agoran week, after Advisors are flipped:
-  
   - For each player, if e owns more Balloons than e was awarded by
     this procedure at the start of the previous week, any excess
     Balloons are destroyed.
-
   - Each player is awarded Balloons equal to the sum of the Ranks of
     the Politicians for which e is Advisor.
-
   - The Decorator's Advisor, if any is awarded one additional
     Balloon.
 
@@ -37,4 +34,9 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7999"
+- change:
+    type: reenactment
+  date: 2019-01-15
+  agent:
+    proposal: "8142"
 annotations: []

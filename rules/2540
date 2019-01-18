@@ -8,17 +8,13 @@ text: |
 
   The voting strength of a Politician for a Post is defined as
   follows:
-
   - For an election for Host, Politicians have strength equal to
     their Rank.
-
   - For an election for an Upper Echelon Post, the Host has strength
     4, and Upper Echelon Politicians have strength 2.
-
   - For an election for a Row Echelon Post, the Host has strength 3,
     Upper Echelon Politicians have strength 2, and Row Echelon
     politicians have strength 1.
-
   - The Organizer has voting strength 1 greater than e would have
     based on the above.
 
@@ -26,8 +22,9 @@ text: |
   Politicians in the highest non-empty Echelon below that of the
   Post up for election. The number of votes cast for an eligible
   Politician in an election is the sum of voting strengths for that
-  Post of all Politician voting for em; the number of votes cast for
-  an ineligible Politician is 0.
+  Post of all Politicians whose Vote for that Post is the eligible
+  Politician; the number of votes cast for a Politician that is not
+  eligible is 0.
 
   An election for a Post is resolvable if that Post is vacant, there
   is a single Politician with the most votes in that election, and
@@ -60,4 +57,9 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7999"
+- change:
+    type: reenactment
+  date: 2019-01-15
+  agent:
+    proposal: "8142"
 annotations: []

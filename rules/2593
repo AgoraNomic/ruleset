@@ -1,0 +1,74 @@
+id: 2593
+name: Space Battles
+power: 1
+text: |
+  Two players are "allied" if they agree to be allied or if one is
+  the master of the other; otherwise they are "opponents". For the
+  purposes of this rule, agreement includes both consent and
+  agreement specified by contract.
+
+  A player who owns a Pilotable Spaceship in the same Sector as one of
+  eir opponents' Pilotable Spaceships CAN, by announcement, initiate a
+  Space Battle between the two Spaceships. These two players are the
+  "combatants" of the Space Battle, and the two Spaceships are then
+  "engaging" in the Space Battle until it is resolved.
+
+  A Space Battle CANNOT be initiated if either of the two involved
+  Spaceships has been engaging in a Space Battle within the last 24
+  hours.
+
+  The resolver for a Space Battle is the player highest in the
+  following list at the time of the Space Battle's initiation who is
+  not a combatant in the Space Battle:
+
+  1) the Astronomor;
+  2) the Arbitor;
+  3) the Prime Minister;
+  4) the non-combatant who has least recently registered.
+
+  For the initiation of a Space Battle to be EFFECTIVE, the initiator
+  must correctly specify the resolver.
+
+  In a timely fashion after a Space Battle is initiated, the
+  combatants SHALL each once communicate to the resolver the amount
+  of Energy they wish to spend in the battle, via any method that
+  cannot be understood by the other combatant until e has also
+  fulfilled this obligation. For example:
+
+  * by publishing a salted cryptographic hash, and revealing its text
+    after the other combatant has also communicated the Energy e will
+    spend;
+  * by sending the amount to the resolver in a private message;
+  * by publishing the amount, if the other combatant has already
+    communicated the Energy e will spend.
+
+  Failing to do so is the Class-2 Crime of Being a Bad Space Captain.
+
+  For the resolver to reveal the Energy a combatant is spending
+  before both combatants have made their decisions is the Class-5
+  Crime of Violating General Relativity.
+
+  After both combatants have communicated the Energy they will spend,
+  or if the time limit to do so has expired, the resolver CAN, and
+  SHALL in a timely fashion, resolve the Space Battle by announcing
+  the changes in each Spaceship's Energy balance and Armour
+  (described below), and the Winner (if any) of the Space Battle.
+
+  When a Space Battle is resolved:
+
+  1) N Energy is revoked from each Spaceship, where N is the lesser of
+     the Spaceship's Energy balance and the amount of Energy decided
+     on by the Spaceship's owner, or 0 if the Spaceship's owner
+     failed to do so;
+  2) each Spaceship's Armour is decreased by X, where X is the lesser
+     of the Spaceship's Armour and the amount of Energy revoked from
+     the other Spaceship;
+  3) the Winner of the Space Battle is the combatant, if any, whose
+     Spaceship's Armour was reduced by a smaller amount than the other
+     Spaceship's.
+history:
+- change:
+    type: enactment
+  date: 2019-01-15
+  agent:
+    proposal: "8140"

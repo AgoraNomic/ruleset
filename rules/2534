@@ -2,15 +2,9 @@ id: 2534
 name: Clork
 power: 2
 text: |
-  The Clork (pronounced "clark") is an office. The Clork's weekly
-  report includes:
-
+  The Clork is an office. The Clork's weekly report includes:
   - a list of all Politicans with their names and Parties.
-
   - the assignment of Policies to Parties.
-
-  The portion of a document purporting to be a Clork's report
-  containing the above information is self-ratifying.
 history:
 - change:
     type: enactment
@@ -23,4 +17,9 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7999"
+- change:
+    type: reenactment
+  date: 2019-01-15
+  agent:
+    proposal: "8142"
 annotations: []

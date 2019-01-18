@@ -1,0 +1,19 @@
+id: 2588
+name: Sectors
+power: 1
+text: |
+  Sectors are entities; each Sector has an ID number, which is (the
+  number of existent sectors that were created before it + 1).
+
+  Creating, destroying or altering Sectors is secured.
+
+  If no Spaceship is in a particular Sector, then that Sector is
+  "empty"; otherwise it is "occupied".
+
+  Two Sectors are "adjacent" if their IDs differ by exactly 1.
+history:
+- change:
+    type: enactment
+  date: 2019-01-15
+  agent:
+    proposal: "8140"

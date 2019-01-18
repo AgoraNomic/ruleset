@@ -7,16 +7,12 @@ text: |
   Politician, Influence over <Politician> is a natural player
   switch, tracked by the Clork.
 
-  A player CAN, by announcement, spend Favours in a Party to gain
-  Influence over that Politican, depending on the Politician's
-  Echelon:
-
+  A player CAN, by announcement, spend Favours in a Politician's
+  Party to gain Influence over that Politican, depending on the
+  Politician's Echelon:
   - Chamber of Power: 3 Favours for 2 Influence
-
   - Upper Echelon: 1 Favour for 1 Influence
-
   - Row Echelon: 2 Favours for 3 Influence
-
   - Row-Reduced Echelon: 1 Favour for 2 Influence
 
   If a player has more Influence over a given Politician than any
@@ -36,5 +32,10 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7999"
+- change:
+    type: reenactment
+  date: 2019-01-15
+  agent:
+    proposal: "8142"
 annotations: []
 

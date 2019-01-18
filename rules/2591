@@ -1,0 +1,33 @@
+id: 2591
+name: Spaceships
+power: 1
+text: |
+  Spaceships are a class of fixed asset, tracked by the Astronomor,
+  with ownership restricted to players. The following are Spaceship
+  switches, tracked by the Astronomor:
+
+  * Location (possible values any Sector, defaulting to the Sector
+    with the lowest ID number);
+
+  * Armour (an integer switch limited to values from 0 to 10
+    inclusive).
+
+  A Spaceship is "in" its Location. For a Spaceship to "move" to a
+  Sector is for its Location to be flipped to that Sector. When a
+  player registers, a Spaceship is created in eir possession. When a
+  Spaceship is created, it immediately moves to the lowest-numbered
+  empty Sector, if any.
+
+  A Spaceship with an Armour of 0 is "Defeated". A Spaceship is
+  "Pilotable" if it is neither Defeated nor engaging in a Space
+  Battle.
+
+  Any player CAN, by announcement, spend a coin to increase the
+  Armour of a Pilotable Spaceship e owns by 1. This is called
+  "Repairing" the Spaceship.
+history:
+- change:
+    type: enactment
+  date: 2019-01-15
+  agent:
+    proposal: "8140"

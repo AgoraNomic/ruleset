@@ -13,14 +13,16 @@ text: |
     the total number of valid ballots cast AGAINST) times the
     adoption index of the result) rounded up.
 
-  * Judging a CFJ that e was assigned to: 5 coins.
+  * Judging a CFJ that e was assigned to without violating a time
+    limit to do so: 5 coins.
 
-  * Publishing a duty-fulfilling report: 5 coins. This reward can
-    only be claimed once per office per week for a weekly report and
-    once per office per month for a monthly report.
+  * Publishing a duty-fulfilling report: 5 coins. For each office,
+    this reward can only be claimed for the first weekly report
+    published in a week and the first monthly report published in a
+    month.
 
   * Having a Thesis pass peer-review and be granted a Degree based
-    on its merit: 20 shinies.
+    on its merit: 20 coins
 history:
 - change:
     type: enactment
@@ -77,4 +79,14 @@ history:
   date: 2018-12-02
   agent:
     proposal: "8137"
+- change:
+    type: amendment
+  date: 2019-01-15
+  agent:
+    proposal: "8144"
+- change:
+    type: amendment
+  date: 2019-01-15
+  agent:
+    proposal: "8141"
 annotations: []

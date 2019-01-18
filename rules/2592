@@ -1,0 +1,22 @@
+id: 2592
+name: Spaceship Energy
+power: 1
+text: |
+  Energy is a fixed currency, tracked by the Astronomor, with
+  ownership restricted to Spaceships. If a Spaceship's Energy
+  balance exceeds 20, any excess Energy it possesses is destroyed.
+
+  When a Spaceship is created, 20 Energy is created in its possession.
+
+  At the start of each Agoran day, each Pilotable Spaceship gains 2
+  Energy. Any player also CAN, by announcement, pay 2 coins to grant
+  a Pilotable Spaceship e owns 1 Energy.
+
+  Any player CAN, by announcement, cause a Pilotable Spaceship e
+  owns to pay 1 Energy to move to a Sector adjacent to its Location.
+history:
+- change:
+    type: enactment
+  date: 2019-01-15
+  agent:
+    proposal: "8140"

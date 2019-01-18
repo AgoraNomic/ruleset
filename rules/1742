@@ -18,8 +18,14 @@ text: |
   by contradiction between the contract and any other contract, or
   between the contract and the rules.
 
-  A party to a contract may act on behalf of another party to
-  it as allowed in the contract.
+  A party to a contract CAN perform any of the following actions
+  as permitted by the contract's text:
+
+  * Act on behalf of another party to the contract.
+
+  * By announcement, revoke destructible assets from the contract.
+
+  * By announcement, take liquid assets from the contract.
 history:
 - change:
     type: enactment
@@ -157,6 +163,11 @@ history:
   date: 2018-07-01
   agent:
     proposal: "8054"
+- change:
+    type: amendment
+  date: 2019-01-15
+  agent:
+    proposal: "8139"
 annotations:
 - cfjs:
   - id: 3644

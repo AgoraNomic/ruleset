@@ -1,0 +1,21 @@
+id: 2589
+name: Galaxy Maintenance
+power: 1
+text: |
+  Ideal Sector Count is the number of Spaceships plus two.
+
+  If there are ever fewer Sectors than the Ideal Sector Count, then
+  the Astronomor CAN by announcement and SHALL in a timely fashion
+  create a new Sector.
+
+  If there are ever more Sectors than the Ideal Sector Count, then
+  the Astronomor CAN by announcement and SHALL in a timely fashion
+  destroy an empty Sector.
+
+  Violation of this rule is the Class-3 Crime of Galaxy Neglect.
+history:
+- change:
+    type: enactment
+  date: 2019-01-15
+  agent:
+    proposal: "8140"

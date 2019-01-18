@@ -1,0 +1,29 @@
+id: 2586
+name: Party Policy
+power: 2
+text: |
+  There are 5 Policies, in order:
+
+  - Justice: interested in seeing justice served
+  - Efficiency: interested in seeing official duties performed
+  - Legislation: interested in seeing proposals passed
+  - Participation: interested in seeing votes cast
+  - Economy: interested in economic activity
+
+  At any time, each Policy is held by exactly one Party. The
+  assignments must be in cyclic order of their definitions, wrapping
+  from bottom to top. For example, if the Platonic Isolationists
+  hold Participation as their Policy, then the New Punchbowl Reformers
+  hold Economy, the Costume Conservatives hold Justice, and so on.
+
+  At the start of each Agoran month, the Planner CAN and SHALL, in a
+  timely fashion, by announcement, select a new assignment of
+  Policies to Parties (specifying the Policy of one Party is
+  sufficient, since it implies the remainder). E CANNOT specify
+  either of the assignments used in the previous two months.
+history:
+- change:
+    type: enactment
+  date: 2019-01-15
+  agent:
+    proposal: "8142"

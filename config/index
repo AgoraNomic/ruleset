@@ -160,6 +160,7 @@
   - 2496 # Rewards
   - 2559 # Paydays
   - 2499 # Welcome Packages
+  - 2585 # Birthday Gifts
 - name: Auctions
   note: |
     If you want to give out assets, this is the section to look at.
@@ -177,6 +178,34 @@
   - 2532 # Zombies
   - 2574 # Zombie Life Cycle
   - 1885 # Zombie Actions
+- name: Spaaace!
+  note: |
+    A subgame of Agora based on traveling around the galaxy and having
+    Space Battles with each other.
+  rules:
+  - 2588 # Sectors
+  - 2589 # Galaxy Maintenance
+  - 2590 # The Astronomor
+  - 2591 # Spaceships
+  - 2592 # Spaceship Energy
+  - 2593 # Space Battles
+  - 2594 # Fame
+- name: Politics
+  note: |
+    This is a subgame of Agora built around advising and manipulating
+    twenty politicians to do your will.
+  rules:
+  - 2533 # Political Parties
+  - 2534 # Clork
+  - 2535 # Echelon Forms
+  - 2536 # Taken Under Advisement
+  - 2537 # Balloons
+  - 2538 # Party Favours
+  - 2539 # Retirement
+  - 2540 # Political Elections
+  - 2586 # Party Policy
+  - 2542 # Favour Award
+  - 2543 # Post Powers
 - name: Victory & Karma
   note: |
     All games have winners, and Agora is no exception. If you're
