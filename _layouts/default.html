@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title}} | {{site.name}}</title>
+    <style>
+      body {
+        max-width: 700px;
+        margin: 0 auto;
+	padding: 10px;
+      }
+
+      html {
+        color: #333;
+        line-height: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    {{ content }}
+    <nav>
+      {% for item in site.data.nav %}
+      <a href="{{ item.url }}">{{ item.text }}</a><br>
+      {% endfor %}
+    </nav>  
+  </body>
+</html>
