@@ -24,13 +24,14 @@ text: |
   1) the Astronomor;
   2) the Arbitor;
   3) the Prime Minister;
-  4) the non-combatant who has least recently registered.
+  4) the non-combatant active player who has least recently
+     registered.
 
   For the initiation of a Space Battle to be EFFECTIVE, the initiator
   must correctly specify the resolver.
 
   In a timely fashion after a Space Battle is initiated, the
-  combatants SHALL each once communicate to the resolver the amount
+  combatants SHOULD each once communicate to the resolver the amount
   of Energy they wish to spend in the battle, via any method that
   cannot be understood by the other combatant until e has also
   fulfilled this obligation. For example:
@@ -41,8 +42,6 @@ text: |
   * by sending the amount to the resolver in a private message;
   * by publishing the amount, if the other combatant has already
     communicated the Energy e will spend.
-
-  Failing to do so is the Class-2 Crime of Being a Bad Space Captain.
 
   For the resolver to reveal the Energy a combatant is spending
   before both combatants have made their decisions is the Class-5
@@ -72,3 +71,13 @@ history:
   date: 2019-01-15
   agent:
     proposal: "8140"
+- change:
+    type: amendment
+  date: 2019-01-29
+  agent:
+    proposal: "8149"
+- change:
+    type: amendment
+  date: 2019-01-29
+  agent:
+    proposal: "8151"
