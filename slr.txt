@@ -2,16 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 13 Jan 2019
-Date of this ruleset: 18 Jan 2019
+Date of last official ruleset of this type:
+Date of this ruleset:
 
 Number of rules currently enacted: 138
 
-Most recent change to this ruleset: Rule 2496 amended by Proposal 8141,
-15 Jan 2018
+Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2594
-Highest ID'd Proposal Passed: 8145
+Highest ID'd Proposal Passed: 8151
 Highest ID'd Rule Enacted: 2594
 
 ========================================================================
@@ -2593,7 +2592,7 @@ Spaceship Energy
       owns to pay 1 Energy to move to a Sector adjacent to its Location.
       
 ------------------------------------------------------------------------
-Rule 2593/0 (Power=1)
+Rule 2593/2 (Power=1)
 Space Battles
 
       Two players are "allied" if they agree to be allied or if one is
@@ -2618,13 +2617,14 @@ Space Battles
       1) the Astronomor;
       2) the Arbitor;
       3) the Prime Minister;
-      4) the non-combatant who has least recently registered.
+      4) the non-combatant active player who has least recently
+         registered.
       
       For the initiation of a Space Battle to be EFFECTIVE, the initiator
       must correctly specify the resolver.
       
       In a timely fashion after a Space Battle is initiated, the
-      combatants SHALL each once communicate to the resolver the amount
+      combatants SHOULD each once communicate to the resolver the amount
       of Energy they wish to spend in the battle, via any method that
       cannot be understood by the other combatant until e has also
       fulfilled this obligation. For example:
@@ -2635,8 +2635,6 @@ Space Battles
       * by sending the amount to the resolver in a private message;
       * by publishing the amount, if the other combatant has already
         communicated the Energy e will spend.
-      
-      Failing to do so is the Class-2 Crime of Being a Bad Space Captain.
       
       For the resolver to reveal the Energy a combatant is spending
       before both combatants have made their decisions is the Class-5
