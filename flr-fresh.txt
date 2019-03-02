@@ -2,16 +2,22 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type:
-Date of this ruleset:
+Date of last official ruleset of this type: 18 Jan 2019
+Date of this ruleset: 24 Feb 2019
 
-Number of rules currently enacted: 138
+Number of rules currently enacted: 139
 
-Most recent change to this ruleset:
+Most recent change to this ruleset: Rule 683 'Voting on Agoran
+Decisions' amended by Proposal 8163 'Holey Loops, Batman!'
 
 Highest ID'd rule in this ruleset: 2594
-Highest ID'd Proposal Passed: 8151
+Highest ID'd Proposal Passed: 8163
 Highest ID'd Rule Enacted: 2594
+
+THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
+BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
+RECENTLY PUBLISHED FULL LOGICAL RULESET, FOLLOW THIS LINK:
+https://agoranomic.org/ruleset/flr.txt
 
 ------------------------------------------------------------------------
 
@@ -96,6 +102,7 @@ Calls for Judgement
    * Rule  911: Motions and Moots
    * Rule 2175: Judicial Retraction and Excess
    * Rule 2492: Recusal
+   * Rule 2246: Submitting a CFJ to the Referee
 Obligations & Contracts
    * Rule 2471: No Faking
    * Rule 2450: Pledges
@@ -187,7 +194,7 @@ Power Distribution:
 40 with Power=1
 2  with Power=1.5
 6  with Power=1.7
-31 with Power=2
+32 with Power=2
 2  with Power=2.1
 1  with Power=2.5
 49 with Power=3
@@ -291,7 +298,7 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/44 (Power=3)
+Rule 869/45 (Power=3)
 How to Join and Leave Agora
 
       Any organism that is generally capable of freely originating and
@@ -307,9 +314,9 @@ How to Join and Leave Agora
       An Unregistered person CAN (unless explicitly forbidden or
       prevented by the rules) register by publishing a message that
       indicates reasonably clearly and reasonably unambiguously that e
-      intends to become a player at that time. A player CAN deregister
-      (cease being a player) by announcement. If e does so, e CANNOT
-      register or be registered for 30 days.
+      intends to become a player at that time. A player, acting as
+      emself, CAN deregister (cease being a player) by announcement. If
+      e does so, e CANNOT register or be registered for 30 days.
       
       A person, by registering, agrees to abide by the Rules. The Rules
       CANNOT otherwise bind a person to abide by any agreement without
@@ -379,6 +386,7 @@ Amended(41) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
 Amended(42) by P7931 'Registration fix finally' (G.), 06 Nov 2017
 Amended(43) by P7959 'Deregistration Fix' (Telnaior), 12 Nov 2017
 Amended(44) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
+Amended(45) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -1171,15 +1179,15 @@ CFJ 3567 (called 27 Sep 2017): Dependent action intents aren't "by
    read "naturally" as counting as a single intent.
 
 ------------------------------------------------------------------------
-Rule 2124/22 (Power=2)
+Rule 2124/23 (Power=2)
 Agoran Satisfaction
 
-      A Supporter of a dependent action is an eligible entity who has
-      publicly posted (and not withdrawn) support (syn. "consent") for
-      an announcement of intent to perform the action. An Objector to a
-      dependent action is an eligible entity who has publicly posted
-      (and not withdrawn) an objection to the announcement of intent to
-      perform the action.
+      A Supporter of a dependent action is an eligible entity, acting as
+      emself, who has publicly posted (and not withdrawn) support (syn.
+      "consent") for an announcement of intent to perform the action. An
+      Objector to a dependent action is an eligible entity, acting as
+      emself, who has publicly posted (and not withdrawn) an objection
+      to the announcement of intent to perform the action.
       
       The entities eligible to support or object to a dependent action
       are, by default, all players, subject to modification by the
@@ -1247,6 +1255,7 @@ Amended(19) by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
 Amended(20) by R2430, 24 May 2017
 Amended(21) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(22) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
+Amended(23) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 
 Annotations:
 CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
@@ -2597,7 +2606,7 @@ Enacted by P7922 'Clarity Act' (Alexis), 23 Oct 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 683/25 (Power=3)
+Rule 683/26 (Power=3)
 Voting on Agoran Decisions
 
       An entity submits a ballot on an Agoran decision by publishing a
@@ -2621,7 +2630,7 @@ Voting on Agoran Decisions
       
       A valid ballot is a ballot, correctly submitted, that has not
       been withdrawn. During the voting period of an Agoran decision,
-      a player CAN by announcement withdraw (syn. retract) a ballot
+      an entity CAN by announcement withdraw (syn. retract) a ballot
       that e submitted on that decision. To "change" one's vote is to
       retract eir previous ballot (if any), then submit a new one.
       
@@ -2661,6 +2670,7 @@ Amended(22) by P7814 'FOR Require Intent on Ballots' (o), 28 Oct 2016
 Amended(23) by ratification, 10 Nov 2016
 Amended(24) by R2430, 24 May 2017
 Amended(25) by P7854 'Close Recent Loopholes v2' (ais523), 05 Jun 2017
+Amended(26) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 
 Annotations:
 CFJ 1609 (called 13 Jan 2007): To "clearly identif{y} the matter to be
@@ -3404,7 +3414,7 @@ Enacted by P8036 'Impeachment' (Aris), 27 Apr 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2160/18 (Power=3)
+Rule 2160/19 (Power=3)
 Deputisation
 
       A player (the deputy) CAN perform an action ordinarily reserved
@@ -3427,11 +3437,12 @@ Deputisation
       action; and
       
       5. the deputy, when performing the action, announces that e is
-      doing so by deputisation.
+      doing so by deputisation or by temporary deputisation
       
       When a player deputises for an elected office, e becomes the
       holder of that office, unless the action being performed would
-      already install someone into that office.
+      already install someone into that office, and/or unless the
+      deputisiation is temporary.
       
 History:
 
@@ -3462,6 +3473,7 @@ Amended(16) by P7918 'Vacant Deputisation Fix' (Publius Scribonius
    Scholasticus), 15 Oct 2017
 Amended(17) by P8018 'Random Bad Rule Cleaning' (Alexis), 06 Mar 2018
 Amended(18) by cleaning (D. Margaux), 30 Sep 2018
+Amended(19) by P8159 'Temporary Deputies' (G.), 22 Feb 2019
 
 Annotations:
 CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
@@ -4082,8 +4094,7 @@ Power changed from 1 to 2 by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(2) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(3) by P8119 'Criminal Justice Adjustments Act' (G.), 12 Nov
    2018
-Amended(4) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 19 Nov
-   2018
+Amended(4) by P8130 'Law is Ambiguous Word Act' (Gaelan), 19 Nov 2018
 
 Annotations:
 
@@ -4503,6 +4514,36 @@ Amended(3) by ruleset ratification, 14 Apr 2018
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2246/6 (Power=2)
+Submitting a CFJ to the Referee
+
+      When a person initiates a Call for Judgement, e CAN, optionally,
+      submit it to the Referee by announcement. All persons are
+      ENCOURAGED to submit a case to the Referee only when there is a
+      good reason not to let it be processed by the Arbitor as usual.
+      
+      When a CFJ is submitted to the Referee, the Referee receives all
+      obligations and powers for the specific case that the Arbitor
+      would otherwise receive due to being Arbitor.  This takes
+      precedence over Rules that would otherwise assign duties and
+      powers regarding a judicial case to the Arbitor.
+      
+History:
+
+Enacted by P6181 'Try 3' (comex), 07 Apr 2009
+Amended(1) by P6333 'Justiciar has no duty' (Alexis), 29 May 2009
+Amended(2) by P6496 'Justiciar Swap' (Alexis), 26 Sep 2009
+Amended(3) by P6662 'Maternal courage' [green, disi.] (Murphy), 10 Mar
+   2010
+Amended(4) by P6752 'Fix the Justiciar hijinks' (Murphy), 02 Aug 2010
+Amended(5) by P6891 'Disentanglement' (Alexis), 20 Nov 2010
+Repealed by P6961 '52-pickup v2' (G.), 03 Mar 2011
+Re-enacted(6) and amended by P8152 'Justice Reenactment' (G.), 22 Feb
+   2019
+
+Annotations:
+
+------------------------------------------------------------------------
 ========================================================================
 Obligations & Contracts
    Agreements, promises, treaties, whatever you call them. This section
@@ -4622,7 +4663,7 @@ Enacted by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1742/20 (Power=2.5)
+Rule 1742/21 (Power=2.5)
 Contracts
 
       Any group of two or more consenting persons (the parties) may
@@ -4632,9 +4673,10 @@ Contracts
       by changing the set of parties, by agreement between all existing
       parties. A contract may also terminate by agreement between all
       parties. A contract automatically terminates if the number of
-      parties to it falls below two. For the purposes of this rule,
-      agreement includes both consent and agreement specified by
-      contract.
+      parties to it falls below two. It is IMPOSSIBLE for a person to
+      become a party to a contract without eir agreement. For the
+      purposes of this rule, agreement includes both consent and
+      agreement specified by contract.
       
       Parties to a contract governed by the rules SHALL act in
       accordance with that contract. This obligation is not impaired
@@ -4688,6 +4730,7 @@ Re-enacted(19) and amended by P8054 'Minimalist Contracts v2' (Aris, G.,
    V.J. Rada), 01 Jul 2018
 Amended(20) by P8139 'Access to contracts' assets v2' (twg, G.), 15 Jan
    2019
+Amended(21) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 
 Annotations:
 CFJ 3644 (called 29 Sep 2018): If a set of players consent to make an
@@ -5494,7 +5537,7 @@ Enacted by P8140 'spaaace! v5.2' (twg, Aris, ATMunn, CuddleBeam, D.
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2591/0 (Power=1)
+Rule 2591/1 (Power=1)
 Spaceships
 
       Spaceships are a class of fixed asset, tracked by the Astronomor,
@@ -5504,8 +5547,8 @@ Spaceships
       * Location (possible values any Sector, defaulting to the Sector
         with the lowest ID number);
       
-      * Armour (an integer switch limited to values from 0 to 10
-        inclusive).
+      * Armour (an integer switch limited to values less than or equal
+        to 10).
       
       A Spaceship is "in" its Location. For a Spaceship to "move" to a
       Sector is for its Location to be flipped to that Sector. When a
@@ -5513,9 +5556,9 @@ Spaceships
       Spaceship is created, it immediately moves to the lowest-numbered
       empty Sector, if any.
       
-      A Spaceship with an Armour of 0 is "Defeated". A Spaceship is
-      "Pilotable" if it is neither Defeated nor engaging in a Space
-      Battle.
+      A Spaceship with an Armour of 0 or less is "Defeated". A
+      Spaceship is "Pilotable" if it is neither Defeated nor engaging
+      in a Space Battle.
       
       Any player CAN, by announcement, spend a coin to increase the
       Armour of a Pilotable Spaceship e owns by 1. This is called
@@ -5525,6 +5568,7 @@ History:
 
 Enacted by P8140 'spaaace! v5.2' (twg, Aris, ATMunn, CuddleBeam, D.
    Margaux, G., Gaelan, Murphy, Ørjan, Trigon), 15 Jan 2019
+Amended(1) by P8155 'Spaaace Loophole' (twg, Telnaior), 22 Feb 2019
 
 Annotations:
 
@@ -5553,7 +5597,7 @@ Enacted by P8140 'spaaace! v5.2' (twg, Aris, ATMunn, CuddleBeam, D.
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2593/2 (Power=1)
+Rule 2593/3 (Power=1)
 Space Battles
 
       Two players are "allied" if they agree to be allied or if one is
@@ -5569,7 +5613,9 @@ Space Battles
       
       A Space Battle CANNOT be initiated if either of the two involved
       Spaceships has been engaging in a Space Battle within the last 24
-      hours.
+      hours or if the prior Space Battle the spaceship initiating the
+      Space Battle has been in was against the spaceship it is
+      attacking.
       
       The resolver for a Space Battle is the player highest in the
       following list at the time of the Space Battle's initiation who is
@@ -5628,6 +5674,8 @@ Amended(1) by P8149 'Bad Space Captaincy Legislation' (twg, G.), 29 Jan
    2019
 Amended(2) by P8151 'With apologies to Michael Suber' (twg, G.), 29 Jan
    2019
+Amended(3) by P8157 'No one likes a (space) bully' (Trigon), 22 Feb
+   2010
 
 Annotations:
 
@@ -5963,11 +6011,11 @@ Enacted by P8142 'Let Me Back In!' (twg, Alexis, Aris, Murphy, Trigon),
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2542/1 (Power=1)
+Rule 2542/3 (Power=1)
 Favour Awards
 
       The following officers CAN by announcement award Favours in the
-      listed Parties, but SHALL NOT do so except as required by rule.
+      listed Parties only to the extent required by rule.
       
       - Arbitor and Referee: the Party holding Justice.
       - ADoP: the Party holding Efficiency.
@@ -5976,15 +6024,16 @@ Favour Awards
       
       When a player judges a CFJ, the Arbitor SHALL, in a timely
       fashion, award that player 3 Favours in the Party holding Justice.
-      When a player's Finger-Pointing leads to a Card award, or when the
-      Referee issues Summary Judgement, the Referee shall award a Favour
-      in the Party holding Justice to the responsible player.
+      When a player's Finger-Pointing results in a player being fined
+      one or more blots, or when the Referee issues Summary Judgement,
+      the Referee SHALL in a timely fashion award 2 Favours in the Party
+      holding Justice to the responsible player.
       
-      Complexity is an office switch, tracked by the ADoP, with values 0, 1
-      (default), 2, and 3. The ADoP CAN, without 2 Objections, set the
-      Complexity of an office. As part of eir weekly duties, the ADoP
-      SHALL award to each officeholder a number of Favours in the Party
-      holding Efficiency equal to the Complexity of that Office.
+      Complexity is an office switch, tracked by the ADoP, with values
+      0, 1 (default), 2, and 3. The ADoP CAN, without 2 Objections, set
+      the Complexity of an office. As part of eir weekly duties, the
+      ADoP SHALL award to each officeholder a number of Favours in the
+      Party holding Efficiency equal to the Complexity of that Office.
       
       Whenever the Assessor resolves an Agoran decision:
       - If the decision was to adopt a proposal, and it was ADOPTED, e
@@ -5997,7 +6046,7 @@ Favour Awards
         Participation.
       
       Any player CAN spend 2 coins to gain a Favour in the Party holding
-       Economy.
+      Economy.
       
       As part of eir weekly duties, the Clork SHALL award, to the
       Advisor of a Politician holding one of the below Posts, 3
@@ -6015,6 +6064,9 @@ Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
 Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
 Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
    Aris, Murphy, Trigon), 15 Jan 2019
+Amended(2) by P8153 'Favour Loophole Closure' (D. Margaux), 22 Feb 2019
+Amended(3) by P8160 'Justice Favour Adjustments' (D. Margaux), 22 Feb
+   2019
 
 Annotations:
 
@@ -6293,7 +6345,7 @@ Amended(9) by P7992 'More CAN Fixes' (Alexis), 13 Jan 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2480/1 (Power=2.1)
+Rule 2480/2 (Power=2.1)
 Festivals
 
       Festivity is a singleton switch, whose possible values are
@@ -6304,7 +6356,8 @@ Festivals
       Festivity are secured.
       
       If Agora's Festivity has had the same nonzero value for 14 days or
-      more, any player CAN flip it to 0 by announcement.
+      more, or if it has a nonzero value and fewer than 5 players are
+      Festive, then any player CAN flip it to 0 by announcement.
       
       A player who owns at least N types of Ribbon CAN Start a Rank N
       Festival, where N is an integer greater than Agora's Festivity,
@@ -6321,6 +6374,7 @@ History:
 
 Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
 Amended(1) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(2) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 
 Annotations:
 
