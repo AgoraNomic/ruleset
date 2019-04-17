@@ -15,9 +15,9 @@ text: |
   An Unregistered person CAN (unless explicitly forbidden or
   prevented by the rules) register by publishing a message that
   indicates reasonably clearly and reasonably unambiguously that e
-  intends to become a player at that time. A player CAN deregister
-  (cease being a player) by announcement. If e does so, e CANNOT
-  register or be registered for 30 days.
+  intends to become a player at that time. A player, acting as
+  emself, CAN deregister (cease being a player) by announcement. If
+  e does so, e CANNOT register or be registered for 30 days.
 
   A person, by registering, agrees to abide by the Rules. The Rules
   CANNOT otherwise bind a person to abide by any agreement without
@@ -276,6 +276,11 @@ history:
   date: 2018-06-14
   agent:
     proposal: "8051"
+- change:
+    type: amendment
+  date: 2019-02-22
+  agent:
+    proposal: "8163"
 annotations:
 - cfjs:
   - id: '1275'

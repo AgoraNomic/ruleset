@@ -15,7 +15,9 @@ text: |
 
   A Space Battle CANNOT be initiated if either of the two involved
   Spaceships has been engaging in a Space Battle within the last 24
-  hours.
+  hours or if the prior Space Battle the spaceship initiating the
+  Space Battle has been in was against the spaceship it is
+  attacking.
 
   The resolver for a Space Battle is the player highest in the
   following list at the time of the Space Battle's initiation who is
@@ -81,3 +83,8 @@ history:
   date: 2019-01-29
   agent:
     proposal: "8151"
+- change:
+    type: amendment
+  date: 2010-02-22
+  agent:
+    proposal: "8157"

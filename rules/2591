@@ -9,8 +9,8 @@ text: |
   * Location (possible values any Sector, defaulting to the Sector
     with the lowest ID number);
 
-  * Armour (an integer switch limited to values from 0 to 10
-    inclusive).
+  * Armour (an integer switch limited to values less than or equal
+    to 10).
 
   A Spaceship is "in" its Location. For a Spaceship to "move" to a
   Sector is for its Location to be flipped to that Sector. When a
@@ -18,9 +18,9 @@ text: |
   Spaceship is created, it immediately moves to the lowest-numbered
   empty Sector, if any.
 
-  A Spaceship with an Armour of 0 is "Defeated". A Spaceship is
-  "Pilotable" if it is neither Defeated nor engaging in a Space
-  Battle.
+  A Spaceship with an Armour of 0 or less is "Defeated". A
+  Spaceship is "Pilotable" if it is neither Defeated nor engaging
+  in a Space Battle.
 
   Any player CAN, by announcement, spend a coin to increase the
   Armour of a Pilotable Spaceship e owns by 1. This is called
@@ -31,3 +31,8 @@ history:
   date: 2019-01-15
   agent:
     proposal: "8140"
+- change:
+    type: amendment
+  date: 2019-02-22
+  agent:
+    proposal: "8155"

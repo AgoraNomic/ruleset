@@ -2,39 +2,37 @@ id: 2124
 name: Agoran Satisfaction
 power: 2
 text: |
-  A Supporter of a dependent action is an eligible entity who has
-  publicly posted (and not withdrawn) support (syn. "consent") for
-  an announcement of intent to perform the action. An Objector to a
-  dependent action is an eligible entity who has publicly posted
-  (and not withdrawn) an objection to the announcement of intent to
-  perform the action.
+  A Supporter of an intent to perform an action is an eligible
+  entity who has publicly posted (and not withdrawn) support (syn.
+  "consent") for an announcement of that intent. An Objector to an
+  intent to perform an action is an eligible entity who has publicly
+  posted (and not withdrawn) an objection to the announcement of
+  that intent.
 
-  The entities eligible to support or object to a dependent action
-  are, by default, all players, subject to modification by the
-  document authorizing the dependent action. However, the previous
-  sentence notwithstanding, the initiator of the intent is not
-  eligible to support it.
+  The entities eligible to support or object to an intent to perform
+  an action are, by default, all players, subject to modification by
+  the document authorizing the dependent action. However, the
+  previous sentence notwithstanding, the initiator of the intent is
+  not eligible to support it.
 
-  Agora is Satisfied with an intent to perform a specific action if
-  and only if:
+  Agora is Satisfied with an intent to perform a specific action
+  unless at least one of the following is true:
 
-  1. if the action is to be performed Without N Objections, then it
-     has fewer than N objectors;
+  1. The action is to be performed Without N Objections, and there
+     are at least N Objectors to that intent.
 
-  2. if the action is to be performed With N support, then it has
-     N or more supporters; and
+  2. The action is to be performed With N support, and there are
+     fewer than than N Supporters of that intent.
 
-  3. if the action is to be performed with N Agoran Consent, then
-     the ratio of supporters to objectors is greater than N, or the
-     action has at least one supporter and no objectors.
+  3. The action is to be performed with N Agoran Consent, and the
+     number of Supporters of the intent is less than or equal to N
+     times the number of Objectors to the intent.
 
-  4. if the action is to be performed With Notice or With T Notice.
+  The above notwithstanding, if an action depends on objections, and
+  an objection to an intent to perform it has been withdrawn within
+  the past 24 hours, then Agora is not Satisfied with that intent.
 
-  The above notwithstanding, if the action depends on objections,
-  and an objection to it has been withdrawn within the past 24
-  hours, then Agora is not Satisfied with the intent.
-
-  The above notwithstanding, Agora is not satisfied with the intent
+  The above notwithstanding, Agora is not satisfied with an intent
   if the Speaker has objected to it in the last 48 hours.
 
   A person CANNOT support or object to an announcement of intent
@@ -174,6 +172,16 @@ history:
   date: 2018-03-06
   agent:
     proposal: "8017"
+- change:
+    type: amendment
+  date: 2019-02-22
+  agent:
+    proposal: "8163"
+- change:
+    type: amendment
+  date: 2019-03-31
+  agent:
+    proposal: "8164"
 annotations:
 - cfjs:
   - id: '3567'

@@ -3,7 +3,7 @@ name: Favour Awards
 power: 1
 text: |
   The following officers CAN by announcement award Favours in the
-  listed Parties, but SHALL NOT do so except as required by rule.
+  listed Parties only to the extent required by rule.
 
   - Arbitor and Referee: the Party holding Justice.
   - ADoP: the Party holding Efficiency.
@@ -12,15 +12,16 @@ text: |
 
   When a player judges a CFJ, the Arbitor SHALL, in a timely
   fashion, award that player 3 Favours in the Party holding Justice.
-  When a player's Finger-Pointing leads to a Card award, or when the
-  Referee issues Summary Judgement, the Referee shall award a Favour
-  in the Party holding Justice to the responsible player.
+  When a player's Finger-Pointing results in a player being fined
+  one or more blots, or when the Referee issues Summary Judgement,
+  the Referee SHALL in a timely fashion award 2 Favours in the Party
+  holding Justice to the responsible player.
 
-  Complexity is an office switch, tracked by the ADoP, with values 0, 1
-  (default), 2, and 3. The ADoP CAN, without 2 Objections, set the
-  Complexity of an office. As part of eir weekly duties, the ADoP
-  SHALL award to each officeholder a number of Favours in the Party
-  holding Efficiency equal to the Complexity of that Office.
+  Complexity is an office switch, tracked by the ADoP, with values
+  0, 1 (default), 2, and 3. The ADoP CAN, without 2 Objections, set
+  the Complexity of an office. As part of eir weekly duties, the
+  ADoP SHALL award to each officeholder a number of Favours in the
+  Party holding Efficiency equal to the Complexity of that Office.
 
   Whenever the Assessor resolves an Agoran decision:
   - If the decision was to adopt a proposal, and it was ADOPTED, e
@@ -33,7 +34,7 @@ text: |
     Participation.
 
   Any player CAN spend 2 coins to gain a Favour in the Party holding
-   Economy.
+  Economy.
 
   As part of eir weekly duties, the Clork SHALL award, to the
   Advisor of a Politician holding one of the below Posts, 3
@@ -60,4 +61,14 @@ history:
   date: 2019-01-15
   agent:
     proposal: "8142"
+- change:
+    type: amendment
+  date: 2019-02-22
+  agent:
+    proposal: "8153"
+- change:
+    type: amendment
+  date: 2019-02-22
+  agent:
+    proposal: "8160"
 annotations: []

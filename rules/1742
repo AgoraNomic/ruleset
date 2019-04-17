@@ -9,9 +9,10 @@ text: |
   by changing the set of parties, by agreement between all existing
   parties. A contract may also terminate by agreement between all
   parties. A contract automatically terminates if the number of
-  parties to it falls below two. For the purposes of this rule,
-  agreement includes both consent and agreement specified by
-  contract.
+  parties to it falls below two. It is IMPOSSIBLE for a person to
+  become a party to a contract without eir agreement. For the
+  purposes of this rule, agreement includes both consent and
+  agreement specified by contract.
 
   Parties to a contract governed by the rules SHALL act in
   accordance with that contract. This obligation is not impaired
@@ -168,6 +169,11 @@ history:
   date: 2019-01-15
   agent:
     proposal: "8139"
+- change:
+    type: amendment
+  date: 2019-02-22
+  agent:
+    proposal: "8163"
 annotations:
 - cfjs:
   - id: 3644

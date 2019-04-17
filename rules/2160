@@ -22,11 +22,12 @@ text: |
   action; and
 
   5. the deputy, when performing the action, announces that e is
-  doing so by deputisation.
+  doing so by deputisation or by temporary deputisation
 
   When a player deputises for an elected office, e becomes the
   holder of that office, unless the action being performed would
-  already install someone into that office.
+  already install someone into that office, and/or unless the
+  deputisiation is temporary.
 history:
 - change:
     type: enactment
@@ -137,6 +138,11 @@ history:
   agent:
     cleaning:
       by: D. Margaux
+- change:
+    type: amendment
+  date: 2019-02-22
+  agent:
+    proposal: "8159"
 annotations:
 - cfjs:
   - id: '1776'

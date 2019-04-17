@@ -10,8 +10,9 @@ text: |
   Festivity are secured.
 
   If Agora's Festivity has had the same nonzero value for 14 days or
-  more, any player CAN flip it to 0 by announcement.
-
+  more, or if it has a nonzero value and fewer than 5 players are
+  Festive, then any player CAN flip it to 0 by announcement.
+  
   A player who owns at least N types of Ribbon CAN Start a Rank N
   Festival, where N is an integer greater than Agora's Festivity,
   with 4 Support from players who own at least N types of Ribbon.
@@ -33,4 +34,9 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7888"
+- change:
+    type: amendment
+  date: 2019-02-22
+  agent:
+    proposal: "8163"
 annotations: []
