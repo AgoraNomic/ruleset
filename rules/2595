@@ -1,0 +1,66 @@
+id: 2595
+name: Performing a Dependent Action
+power: 3
+text: |
+  A rule that purports to allow a person (the performer) to perform
+  an action by a set of one or more dependent actions identified in
+  Rule 1728 thereby allows em to perform the action by announcement
+  if all of the following are true:
+  
+  1. A person (the initiator) published an announcement of intent
+     that unambiguously, clearly, conspicuously, and without
+     obfuscation specified the action intended to be taken and the
+     method(s) to be used;
+  
+  2. The announcement referenced in paragraph (1) of this Rule
+     unambiguously, clearly, conspicuously, and without obfuscation
+     states:
+  
+     * the value of T, if the action is to be taken with T Notice;
+       and
+  
+     * the value of N, if N is not equal to 1 and the action is to
+       be taken Without N Objections, With N Support, or With N
+       Agoran Consent;
+  
+  3. The announcement referenced in paragraph (1) of this Rule was
+     published:
+  
+     * within the 14 days preceding the action, if the action is to
+       be performed With N Support;
+  
+     * between 4 and 14 days preceding the action, if the action is
+       to be performed Without N Objections, With N Agoran Consent,
+       or With Notice; or
+  
+     * between T and 14 days preceding the action, if the action is
+       to be performed With T Notice;
+  
+  4. At least one of the following is true:
+  
+       * the performer is the initiator;
+  
+       * the initiator was authorized to perform the action due to
+         holding a rule-defined position now held by the performer;
+         or
+  
+       * the initiator is authorized to perform the action, the
+         action depends on support, the performer has supported the
+         intent, and the rule authorizing the performance does not
+         explicitly prohibit supporters from performing it;
+  
+  5. Agora is Satisfied with the announced intent, as defined by
+     other Rules; and
+  
+  6. The conditions are all met, if any conditions were stated in
+     the announcement of intent referenced in paragraph (1) of this
+     Rule.
+  
+  The performer SHOULD publish a list of supporters and objectors if
+  the action is to be taken with N Agoran Consent.
+history:
+- change:
+    type: enactment
+  date: 27-04-2019
+  agent:
+    proposal: "8165"

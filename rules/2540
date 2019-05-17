@@ -4,7 +4,9 @@ power: 2
 text: |
   For each Post, Vote for <Post> is a secured Politician switch
   tracked by the Clork, with possible values all Politicians and
-  undecided (default).
+  undecided (default). For each Politician, the player (if any)
+  advising that politician CAN by announcement flip that
+  Politician’s Vote switch.
 
   The voting strength of a Politician for a Post is defined as
   follows:
@@ -39,9 +41,10 @@ text: |
 
   If a Post is vacant and either has been so for seven days or more
   than eleven days have passed since its previous holder Announced
-  Retirement, then the Host CAN and SHALL, in a timely fashion, by
-  announcement end the election and install one of the Politicians
-  with the most votes into the Post.
+  Retirement, then a player advising a Politician with the most
+  votes, or if no such player exists, the Clork, CAN and SHALL, in a
+  timely fashion, by announcement end the election and install one
+  of the Politicians with the most votes into the Post.
 
   When an election for a Post ends, all Vote switches for that Post
   are set to undecided.
@@ -62,4 +65,9 @@ history:
   date: 2019-01-15
   agent:
     proposal: "8142"
+- change:
+    type: amendment
+  date: 27-04-2019
+  agent:
+    proposal: "8166"
 annotations: []

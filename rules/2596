@@ -1,0 +1,20 @@
+id: 2596
+name: Ritual Sacrifice
+power: 0.5
+text: |
+  Any player CAN perform The Ritual by paying a fee of 7 Coins. The
+  Ritual MUST be performed at least once in every Agoran week. If
+  The Ritual was performed at least once in the previous Agoran
+  week, then the Ruleset is Appeased.
+
+  If the Ruleset is appeased, then any player CAN banish this rule
+  (cause it to repeal itself) with N Agoran Consent, where N is the
+  maximum of 1.0 and 10/(B+1), rounded up to the nearest 0.1, and B
+  is the number of weeks that the Ruleset has been continuously
+  appeased at the moment of banishment.
+history:
+- change:
+    type: enactment
+  date: 27-04-2019
+  agent:
+    proposal: "8167"

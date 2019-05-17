@@ -1,0 +1,36 @@
+id: 2597
+name: Line-item Veto
+power: 1
+text:
+  The Comptrollor is an imposed office.  When the office is vacant,
+  the ADoP CAN, by announcement, set the Comptrollor to a player
+  chosen at random from the set of current Officers, excepting any
+  player who was most recently the Comptrollor.  The ADoP SHALL do
+  so in a timely fashion after the office becomes vacant.
+
+  When the Comptrollor office has been held for the same player for
+  30 days, it becomes vacant.
+
+  A Notice of Veto is a body of text, published by the Comptrollor,
+  clearly, directly, and without obfuscation labelled within the
+  publishing message as being a Notice of Veto.
+
+  When a Comptrollor publishes a Notice of Veto, the office of
+  Comptrollor becomes vacant.
+
+  If the text of a Notice of Veto clearly indicates certain
+  provisions within specified Proposals as being vetoed, and the
+  voting period for a decision to adopt the proposal is ongoing
+  when the Notice is published, then the provisions are vetoed. For
+  the purposes of this Rule, each individual change specified within
+  a proposal's text is a "provision".
+
+  Vetoed provisions in a proposal are prohibited from being applied
+  when the proposal takes effect (that is, that part of the
+  proposal's effect CANNOT be applied).
+history:
+- change:
+    type: enactment
+  date: 27-04-2019
+  agent:
+    proposal: "8170"
