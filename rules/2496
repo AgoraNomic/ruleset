@@ -2,9 +2,10 @@ id: 2496
 name: Rewards
 power: 1
 text: |
-  A player CAN earn the set of assets associated with a reward
-  condition exactly once in a timely fashion each time e fulfills it
-  by stating how many assets e earns as a result of this action.
+  A player CAN, by announcement, earn the set of assets associated
+  with a reward condition exactly once in a timely fashion each time
+  e fulfills it, provided the announcement specifies the action that
+  e performed and the amount of assets e earns as a result.
 
   Below is a list of reward conditions and their associated assets.
 
@@ -89,4 +90,9 @@ history:
   date: 2019-01-15
   agent:
     proposal: "8141"
+- change:
+    type: amendment
+  date: 08-05-2019
+  agent:
+    proposal: "8174"
 annotations: []
