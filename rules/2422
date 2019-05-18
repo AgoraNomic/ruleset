@@ -12,7 +12,7 @@ text: |
   rule(s) which set it to a specific value, using the ordinary
   precedence of rules, and then applying the rules, other than
   this one, which modify it, in numerical order by ID. Finally, if
-  theresult of the calculation is not an integer, it is rounded
+  the result of the calculation is not an integer, it is rounded
   up, and then if it is outside the allowable range of values for
   voting strength, it is set to the the minimum value if it was
   less and the maximum value if it was more.
@@ -37,4 +37,10 @@ history:
   date: 2018-11-12
   agent:
     proposal: "8122"
+- change:
+    type: amendment
+  date: 2019-04-28
+  agent:
+    cleaning:
+      by: Falsifian
 annotations: []
