@@ -2,16 +2,17 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 31 Mar 2019
-Date of this ruleset: 17 Apr 2019
+Date of last official ruleset of this type: 17 Apr 2019
+Date of this ruleset: 17 May 2019
 
-Number of rules currently enacted: 139
+Number of rules currently enacted: 142
 
-Most recent change to this ruleset: Rule 2124 amended by Proposal 8164.
+Most recent change to this ruleset: Rule 2139 'The Registrar' amended by
+Proposal 8176 'Zombies take care of this now', 13 May 2019
 
-Highest ID'd rule in this ruleset: 2594
-Highest ID'd Proposal Passed: 8164
-Highest ID'd Rule Enacted: 2594
+Highest ID'd rule in this ruleset: 2597
+Highest ID'd Proposal Passed: 8176
+Highest ID'd Rule Enacted: 2597
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -25,6 +26,7 @@ Table of Contents:
 The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
+   * Rule 2596: The Ritual
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -35,7 +37,8 @@ General Definitions
    * Rule 2509: Agoran Numbers
    * Rule 2125: Regulated Actions
    * Rule 1023: Agoran Time
-   * Rule 1728: Dependent Actions
+   * Rule 1728: Dependent Action Methods
+   * Rule 2595: Performing a Dependent Action
    * Rule 2124: Agoran Satisfaction
    * Rule 2518: Determinacy
    * Rule 2505: Random Choices
@@ -50,6 +53,7 @@ Proposals
    * Rule 1607: Distribution
    * Rule 2137: The Assessor
    * Rule  106: Adopting Proposals
+   * Rule 2597: Line-item Veto
 Rules & Regulations
    * Rule 2141: Role and Attributes of Rules
    * Rule  217: Interpreting the Rules
@@ -190,13 +194,14 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-40 with Power=1
+1  with Power=0.5
+41 with Power=1
 2  with Power=1.5
 6  with Power=1.7
 32 with Power=2
 2  with Power=2.1
 1  with Power=2.5
-49 with Power=3
+50 with Power=3
 1  with Power=3.1
 1  with Power=3.14
 1  with Power=3.2
@@ -287,6 +292,27 @@ Amended(4) by P7628 'Secure Ending the Game' (ais523), 07 Apr 2014
 Amended(5) by P7889 'Agora Protection Act' (Aris), 26 Sep 2017
 Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aris), 26 Sep
    2017
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2596/0 (Power=0.5)
+The Ritual
+
+      Any player CAN perform The Ritual by paying a fee of 7 Coins. The
+      Ritual MUST be performed at least once in every Agoran week. If
+      The Ritual was performed at least once in the previous Agoran
+      week, then the Ruleset is Appeased.
+      
+      If the Ruleset is appeased, then any player CAN banish this rule
+      (cause it to repeal itself) with N Agoran Consent, where N is the
+      maximum of 1.0 and 10/(B+1), rounded up to the nearest 0.1, and B
+      is the number of weeks that the Ruleset has been continuously
+      appeased at the moment of banishment.
+      
+History:
+
+Enacted by P8167 'Ritual Sacrifice' (G.), 27 Apr 2019
 
 Annotations:
 
@@ -670,10 +696,6 @@ The Registrar
       1. For each former player for which the information is reasonably
          available, the dates on which e registered and deregistered.
       
-      In the first Eastman week of every month the Registrar SHALL
-      attempt to deregister every player that has not sent a message to
-      a public forum in the preceding month.
-      
       The Registrar's duties and abilities also include:
       
       * Changing the publicity of a forum, as described in Rule 478.
@@ -1049,65 +1071,27 @@ CFJ 3624 (called 09 Feb 2018): A condition of "continuously X for one
    weeks.
 
 ------------------------------------------------------------------------
-Rule 1728/40 (Power=3)
-Dependent Actions
+Rule 1728/41 (Power=3)
+Dependent Action Methods
 
-      A rule which purports to allow a person (the performer) to perform
-      an action by a set of one or more of the following methods (N is 1
-      unless otherwise specified):
+      The following methods of taking actions are known as "dependent
+      actions":
       
-      1. Without N Objections, where N is a positive integer no greater
-         than 8. ("Without Objection" is shorthand for this method with
-         N = 1.)
+      1. Without N Objections, where N is a positive integer no greater than
+         8 ("Without Objection" is shorthand for this method with N = 1);
       
-      2. With N Support, where N is a positive integer. ("With
-         Support" is shorthand for this method with N = 1.)
+      2. With N Support, where N is a positive integer ("With Support" is
+         shorthand for this method with N = 1);
       
-      3. With N Agoran Consent, where N is an integer multiple of 0.1
-         with a minimum of 1.
+      3. With N Agoran Consent, where N is an integer multiple of 0.1 with a
+         minimum of 1 ("With Agoran Consent" is shorthand for this method
+         with N = 1);
       
-      4. With Notice.
+      4. With Notice; or
       
       5. With T Notice, where T is a time period.
       
-      thereby allows em to perform the action by announcement if all of
-      the following are true:
-      
-      1. A person (the initiator) conspicuously and without obfuscation
-         announced intent to perform the action, unambiguously and
-         clearly specifying the action and method(s) (including the
-         value of N and/or T for each method), at most fourteen days
-         earlier.
-      
-      2. If the action is to be performed Without N Objections, With N
-         Agoran Consent, or With Notice, if the intent was announced at
-         least 4 days earlier
-      
-      3. If the action is to be performed With T Notice, if the intent
-         was announced at least T earlier.
-      
-      4. At least one of the following is true:
-      
-         1. The performer is the initiator.
-      
-         2. The initiator was authorized to perform the action due to
-            holding a rule-defined position now held by the performer.
-      
-         3. The initiator is authorized to perform the action, the
-            action depends on support, the performer has supported the
-            intent, and the rule authorizing the performance does not
-            explicitly prohibit supporters from performing it.
-      
-      5. Agora is Satisfied with the announced intent, as defined by
-         other rules.
-      
-      6. If a set of conditions for the performance of the action was
-         given in the announcement of intent to perform the action, all
-         those conditions are met.
-      
-      Such an action is known as a dependent action. The actor SHOULD
-      publish a list of supporters if the action depends on support, and
-      a list of objectors if it depends on objections.
+      N is 1 unless otherwise specified.
       
 History:
 
@@ -1166,6 +1150,10 @@ Amended(38) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(39) by P8107 'Buried Intent Prevention Act v2' (D. Margaux,
    Aris, G.), 27 Oct 2018
 Amended(40) by P8123 'Independence' (Gaelan), 19 Nov 2018
+Retitled by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan),
+   27 Apr 2019
+Amended(41) by P8165 'Dependent Action Cleanup Act' (D. Margaux,
+   Gaelan), 27 Apr 2019
 
 Annotations:
 CFJ 1722 (called 15 Aug 2007): The method of dependent action need not
@@ -1176,6 +1164,74 @@ CFJ 1802 (called 19 Nov 2007): The phrase "by Agoran Support" is not an
 CFJ 3567 (called 27 Sep 2017): Dependent action intents aren't "by
    announcement" actions, so a message saying it a lot of times can be
    read "naturally" as counting as a single intent.
+
+------------------------------------------------------------------------
+Rule 2595/0 (Power=3)
+Performing a Dependent Action
+
+      A rule that purports to allow a person (the performer) to perform
+      an action by a set of one or more dependent actions identified in
+      Rule 1728 thereby allows em to perform the action by announcement
+      if all of the following are true:
+      
+      1. A person (the initiator) published an announcement of intent
+         that unambiguously, clearly, conspicuously, and without
+         obfuscation specified the action intended to be taken and the
+         method(s) to be used;
+      
+      2. The announcement referenced in paragraph (1) of this Rule
+         unambiguously, clearly, conspicuously, and without obfuscation
+         states:
+      
+         * the value of T, if the action is to be taken with T Notice;
+           and
+      
+         * the value of N, if N is not equal to 1 and the action is to
+           be taken Without N Objections, With N Support, or With N
+           Agoran Consent;
+      
+      3. The announcement referenced in paragraph (1) of this Rule was
+         published:
+      
+         * within the 14 days preceding the action, if the action is to
+           be performed With N Support;
+      
+         * between 4 and 14 days preceding the action, if the action is
+           to be performed Without N Objections, With N Agoran Consent,
+           or With Notice; or
+      
+         * between T and 14 days preceding the action, if the action is
+           to be performed With T Notice;
+      
+      4. At least one of the following is true:
+      
+           * the performer is the initiator;
+      
+           * the initiator was authorized to perform the action due to
+             holding a rule-defined position now held by the performer;
+             or
+      
+           * the initiator is authorized to perform the action, the
+             action depends on support, the performer has supported the
+             intent, and the rule authorizing the performance does not
+             explicitly prohibit supporters from performing it;
+      
+      5. Agora is Satisfied with the announced intent, as defined by
+         other Rules; and
+      
+      6. The conditions are all met, if any conditions were stated in
+         the announcement of intent referenced in paragraph (1) of this
+         Rule.
+      
+      The performer SHOULD publish a list of supporters and objectors if
+      the action is to be taken with N Agoran Consent.
+      
+History:
+
+Enacted by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan), 27
+   Apr 2019
+
+Annotations:
 
 ------------------------------------------------------------------------
 Rule 2124/24 (Power=2)
@@ -1835,6 +1891,22 @@ CFJ 2163 (called 14 Sep 2008): There is no possible proposal text that
    would cause a proposal to take effect without being adopted.
 CFJ 2259 (called 06 Nov 2008): The possibility of the instantaneous
    effects of a proposal are governed by the rules.
+
+------------------------------------------------------------------------
+Rule 2597/0 (Power=1)
+Line-item Veto
+
+      The Comptrollor is an imposed office.  When the office is vacant, the ADoP CAN, by announcement, set the Comptrollor to a player chosen at random from the set of current Officers, excepting any player who was most recently the Comptrollor.  The ADoP SHALL do so in a timely fashion after the office becomes vacant.
+      When the Comptrollor office has been held for the same player for 30 days, it becomes vacant.
+      A Notice of Veto is a body of text, published by the Comptrollor, clearly, directly, and without obfuscation labelled within the publishing message as being a Notice of Veto.
+      When a Comptrollor publishes a Notice of Veto, the office of Comptrollor becomes vacant.
+      If the text of a Notice of Veto clearly indicates certain provisions within specified Proposals as being vetoed, and the voting period for a decision to adopt the proposal is ongoing when the Notice is published, then the provisions are vetoed. For the purposes of this Rule, each individual change specified within a proposal's text is a "provision".
+      Vetoed provisions in a proposal are prohibited from being applied when the proposal takes effect (that is, that part of the proposal's effect CANNOT be applied).
+History:
+
+Enacted by P8170 'line-item veto 2.02' (G.), 27 Apr 2019
+
+Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2934,7 +3006,7 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision
    changes as the set of eligible voters changes.
 
 ------------------------------------------------------------------------
-Rule 2422/3 (Power=3)
+Rule 2422/4 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -2947,7 +3019,7 @@ Voting Strength
       rule(s) which set it to a specific value, using the ordinary
       precedence of rules, and then applying the rules, other than
       this one, which modify it, in numerical order by ID. Finally, if
-      theresult of the calculation is not an integer, it is rounded
+      the result of the calculation is not an integer, it is rounded
       up, and then if it is outside the allowable range of values for
       voting strength, it is set to the the minimum value if it was
       less and the maximum value if it was more.
@@ -2959,6 +3031,7 @@ Amended(1) by P7816 'Voting Strength Fix (PENDING, BUGGY)' (Alexis, o,
    aranea), 28 Oct 2016
 Amended(2) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(3) by P8122 'Middle of the road' (Murphy), 12 Nov 2018
+Amended(4) by cleaning (Falsifian), 28 Apr 2019
 
 Annotations:
 
@@ -5008,12 +5081,13 @@ Amended(12) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/11 (Power=1)
+Rule 2496/12 (Power=1)
 Rewards
 
-      A player CAN earn the set of assets associated with a reward
-      condition exactly once in a timely fashion each time e fulfills it
-      by stating how many assets e earns as a result of this action.
+      A player CAN, by announcement, earn the set of assets associated
+      with a reward condition exactly once in a timely fashion each time
+      e fulfills it, provided the announcement specifies the action that
+      e performed and the amount of assets e earns as a result.
       
       Below is a list of reward conditions and their associated assets.
       
@@ -5053,6 +5127,7 @@ Amended(9) by P8137 'Uncorrecting Rewards' (Aris, twg, Trigon), 02 Dec
 Amended(10) by P8144 'Sharing the Wealth' (Trigon), 15 Jan 2019
 Amended(11) by P8141 'Miscellaneous Reward Fixes v2' (twg, G., Ørjan),
    15 Jan 2019
+Amended(12) by P8174 'Understated' (G.), 08 May 2019
 
 Annotations:
 
@@ -5340,7 +5415,7 @@ Annotations:
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/2 (Power=2)
+Rule 2532/3 (Power=2)
 Zombies
 
       Master is a secured player switch with possible values of any
@@ -5357,7 +5432,7 @@ Zombies
         - act on behalf of that zombie's zombies;
         - bid in a zombie auction;
         - enter a contract, pledge, or other type of agreement;
-        - initiate a Call fo Judgement;
+        - initiate a Call for Judgement;
         - deregister.
       
       A zombie's master CAN flip that zombie's master switch to Agora by
@@ -5378,6 +5453,7 @@ History:
 Enacted by P7950 'Boooo!' (G.), 12 Nov 2017
 Amended(1) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(2) by P8065 'No undead courts' (twg), 18 Jul 2018
+Amended(3) by cleaning (Falsifian), 28 Apr 2019
 
 Annotations:
 
@@ -5921,12 +5997,14 @@ Re-enacted(1) by P8142 'Let Me Back In!' (twg, Alexis, Aris, Murphy,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2540/1 (Power=2)
+Rule 2540/2 (Power=2)
 Political Elections
 
       For each Post, Vote for <Post> is a secured Politician switch
       tracked by the Clork, with possible values all Politicians and
-      undecided (default).
+      undecided (default). For each Politician, the player (if any)
+      advising that politician CAN by announcement flip that
+      Politician’s Vote switch.
       
       The voting strength of a Politician for a Post is defined as
       follows:
@@ -5961,9 +6039,10 @@ Political Elections
       
       If a Post is vacant and either has been so for seven days or more
       than eleven days have passed since its previous holder Announced
-      Retirement, then the Host CAN and SHALL, in a timely fashion, by
-      announcement end the election and install one of the Politicians
-      with the most votes into the Post.
+      Retirement, then a player advising a Politician with the most
+      votes, or if no such player exists, the Clork, CAN and SHALL, in a
+      timely fashion, by announcement end the election and install one
+      of the Politicians with the most votes into the Post.
       
       When an election for a Post ends, all Vote switches for that Post
       are set to undecided.
@@ -5975,6 +6054,7 @@ Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
 Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
 Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
    Aris, Murphy, Trigon), 15 Jan 2019
+Amended(2) by P8166 (D. Margaux, twg), 27 Apr 2019
 
 Annotations:
 
@@ -6610,7 +6690,7 @@ Amended(6) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2581/0 (Power=1)
+Rule 2581/1 (Power=1)
 Official Patent Titles
 
       The following Patent Titles CAN be awarded by the indicated
@@ -6656,6 +6736,11 @@ Official Patent Titles
          holding that office who puts substantial labor into aiding in
          the duties of that office, without consideration of any other
          reward they might receive.
+         
+       - Tiger Team, awardable by any Officer to any player who points
+         out a usable rules bug that would directly provide em with a
+         strong game advantage if e used it, but proposes a fix without
+         attempting to use the bug.
       
       The Herald is also ENCOURAGED to proactively recommend or, as
       otherwise permitted, award these titles when appropriate,
@@ -6664,6 +6749,7 @@ Official Patent Titles
 History:
 
 Enacted by P8109 'Patent Diversity' (G.), 27 Oct 2018
+Amended(1) by P8171 'The Tiger Team' (G.), 27 Apr 2019
 
 Annotations:
 
