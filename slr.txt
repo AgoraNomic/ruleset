@@ -2,17 +2,17 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 17 Apr 2019
-Date of this ruleset: 17 May 2019
+Date of last official ruleset of this type: 26 May 2019
+Date of this ruleset: 31 May 2019
 
-Number of rules currently enacted: 142
+Number of rules currently enacted: 143
 
-Most recent change to this ruleset: Rule 2139 'The Registrar' amended by
-Proposal 8176 'Zombies take care of this now', 13 May 2019
+Most recent change to this ruleset: Rule 2598 'Side-Game Suspension'
+enacted by Proposal 8177 'Side-Game Suspension Act'
 
-Highest ID'd rule in this ruleset: 2597
-Highest ID'd Proposal Passed: 8176
-Highest ID'd Rule Enacted: 2597
+Highest ID'd rule in this ruleset: 2598
+Highest ID'd Proposal Passed: 8177
+Highest ID'd Rule Enacted: 2598
 
 ========================================================================
 The Game of Agora
@@ -47,6 +47,12 @@ Agora Is A Nomic
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
+========================================================================
+Important Temporary Rules
+   This category is a temporary dumping ground for rules that don't
+   easily fit in any other category but that hold special relevance
+   for the current gamestate.
+------------------------------------------------------------------------
 Rule 2596/0 (Power=0.5)
 The Ritual
 
@@ -60,6 +66,43 @@ The Ritual
       maximum of 1.0 and 10/(B+1), rounded up to the nearest 0.1, and B
       is the number of weeks that the Ruleset has been continuously
       appeased at the moment of banishment.
+      
+------------------------------------------------------------------------
+Rule 2598/0 (Power=3)
+Side-Game Suspension
+
+      
+      1. The Spaaace Rules are defined to be Rules 2588, 2589, 2590,
+         2591, 2592, 2593 and 2594.
+      
+      2. The Politics Rules are defined to be Rules 2533, 2534, 2535,
+         2536, 2537, 2538, 2539, 2540, 2586, 2542, and 2543.
+      
+      3. Rules to the contrary notwithstanding, the Spaaace Rules are
+         suspended and have no force or effect until Spaaace is Revived.
+      
+      4. Rules to the contrary notwithstanding, the Politics Rules are
+         suspended and have no force or effect until Politics is
+         Revived.
+      
+      5. A player CAN with 2 support Revive Spaaace (unless Spaaace has
+         already been Revived); that player is thereby installed into
+         the office of Astronomor.
+      
+      6. A player CAN with 2 support Revive Politics (unless Politics
+         has already been Revived); that player is thereby installed
+         into the office of Clork.
+      
+      7. If Politics and Spaaace have both been Revived, then any player
+         CAN cause this Rule to repeal itself with Notice.
+      
+      8. Any player CAN with Agoran Consent trigger this Rule.  When
+         this Rule is triggered, the following events happen in order:
+         (a) the Politics Rules are automatically repealed in ascending
+         numerical order (unless Politics has been Revived), (b) the
+         Spaaace Rules are automatically repealed in ascending numerical
+         order (unless Spaaace has been Revived), and (c) this Rule is
+         automatically repealed.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -138,7 +181,7 @@ Fora
       message, unless otherwise specified.
       
 ------------------------------------------------------------------------
-Rule 2139/12 (Power=2)
+Rule 2139/13 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -342,15 +385,16 @@ Dependent Action Methods
       The following methods of taking actions are known as "dependent
       actions":
       
-      1. Without N Objections, where N is a positive integer no greater than
-         8 ("Without Objection" is shorthand for this method with N = 1);
+      1. Without N Objections, where N is a positive integer no greater
+         than 8 ("Without Objection" is shorthand for this method with
+         N = 1);
       
-      2. With N Support, where N is a positive integer ("With Support" is
-         shorthand for this method with N = 1);
+      2. With N Support, where N is a positive integer ("With Support"
+         is shorthand for this method with N = 1);
       
-      3. With N Agoran Consent, where N is an integer multiple of 0.1 with a
-         minimum of 1 ("With Agoran Consent" is shorthand for this method
-         with N = 1);
+      3. With N Agoran Consent, where N is an integer multiple of 0.1
+         with a minimum of 1 ("With Agoran Consent" is shorthand for
+         this method with N = 1);
       
       4. With Notice; or
       
@@ -740,12 +784,33 @@ Adopting Proposals
 Rule 2597/0 (Power=1)
 Line-item Veto
 
-      The Comptrollor is an imposed office.  When the office is vacant, the ADoP CAN, by announcement, set the Comptrollor to a player chosen at random from the set of current Officers, excepting any player who was most recently the Comptrollor.  The ADoP SHALL do so in a timely fashion after the office becomes vacant.
-      When the Comptrollor office has been held for the same player for 30 days, it becomes vacant.
-      A Notice of Veto is a body of text, published by the Comptrollor, clearly, directly, and without obfuscation labelled within the publishing message as being a Notice of Veto.
-      When a Comptrollor publishes a Notice of Veto, the office of Comptrollor becomes vacant.
-      If the text of a Notice of Veto clearly indicates certain provisions within specified Proposals as being vetoed, and the voting period for a decision to adopt the proposal is ongoing when the Notice is published, then the provisions are vetoed. For the purposes of this Rule, each individual change specified within a proposal's text is a "provision".
-      Vetoed provisions in a proposal are prohibited from being applied when the proposal takes effect (that is, that part of the proposal's effect CANNOT be applied).
+      The Comptrollor is an imposed office.  When the office is vacant,
+      the ADoP CAN, by announcement, set the Comptrollor to a player
+      chosen at random from the set of current Officers, excepting any
+      player who was most recently the Comptrollor.  The ADoP SHALL do
+      so in a timely fashion after the office becomes vacant.
+      
+      When the Comptrollor office has been held for the same player for
+      30 days, it becomes vacant.
+      
+      A Notice of Veto is a body of text, published by the Comptrollor,
+      clearly, directly, and without obfuscation labelled within the
+      publishing message as being a Notice of Veto.
+      
+      When a Comptrollor publishes a Notice of Veto, the office of
+      Comptrollor becomes vacant.
+      
+      If the text of a Notice of Veto clearly indicates certain
+      provisions within specified Proposals as being vetoed, and the
+      voting period for a decision to adopt the proposal is ongoing
+      when the Notice is published, then the provisions are vetoed. For
+      the purposes of this Rule, each individual change specified within
+      a proposal's text is a "provision".
+      
+      Vetoed provisions in a proposal are prohibited from being applied
+      when the proposal takes effect (that is, that part of the
+      proposal's effect CANNOT be applied).
+      
 ------------------------------------------------------------------------
 ========================================================================
 Rules & Regulations
@@ -1779,45 +1844,47 @@ Referee Accountability
       Any attempt to levy a fine is INEFFECTIVE if:
       
         (1) it does not include value of the fine in blots, the name of
-            the person being fined (the perp), and the specific reason for
-            the fine;
+            the person being fined (the perp), and the specific reason
+            for the fine;
       
         (2) it attempts to levy a fine on a person for an action or
             inaction which e (more likely than not) did not commit;
       
-        (3) it attempts to levy a fine for an action or inaction which is
-            not prohibited by the rules;
+        (3) it attempts to levy a fine for an action or inaction which
+            is not prohibited by the rules;
       
-        (4) it attempts to levy a fine with a value that is blatantly and
-            obviously unsuited to the conduct which constitutes the reason
-            for its levy or to the person on whom it is being levied;
+        (4) it attempts to levy a fine with a value that is blatantly
+            and obviously unsuited to the conduct which constitutes the
+            reason for its levy or to the person on whom it is being
+            levied;
       
-        (5) it attempts to levy a fine (i) by summary judgement more than
-            14 days after the action constituting the reason for the fine
-            or (ii) based upon the investigation of of a Finger that had
-            been Pointed more than 14 days after the action constituting
-            the reason for the fine;
+        (5) it attempts to levy a fine (i) by summary judgement more
+            than 14 days after the action constituting the reason for
+            the fine or (ii) based upon the investigation of of a Finger
+            that had been Pointed more than 14 days after the action
+            constituting the reason for the fine;
       
-        (6) it attempts to levy a fine on a player for failing to take an
-            action within the time period set by the Rules and that time
-            period had expired (i) more than 14 days prior to the
+        (6) it attempts to levy a fine on a player for failing to take
+            an action within the time period set by the Rules and that
+            time period had expired (i) more than 14 days prior to the
             attempted fine, if the attempted fine is imposed by summary
             judgement or (ii) more than 14 days prior to the Pointed
             Finger, if the fine is imposed based on an investigation of
             such Finger;
       
         (7) it attempts to levy a fine on a player who has already been
-            fined for the conduct constituting the reason for the levy; or
+            fined for the conduct constituting the reason for the levy;
+            or
       
-        (8) it attempts to levy a fine on a zombie for an action that its
-            master performed on its behalf.
+        (8) it attempts to levy a fine on a zombie for an action that
+            its master performed on its behalf.
       
-        If the Referee attempts to levy three or more INEFFECTIVE fines in
-        a week, any player CAN, with two support, issue a writ of
-        Impartial Arbitration Restoration, immediately making the position
-        of Referee vacant. When a writ of Impartial Arbitration
-        Restoration is issued, the ADoP SHALL initiate an election for the
-        Referee within a timely fashion.
+        If the Referee attempts to levy three or more INEFFECTIVE fines
+        in a week, any player CAN, with two support, issue a writ of
+        Impartial Arbitration Restoration, immediately making the
+        position of Referee vacant. When a writ of Impartial Arbitration
+        Restoration is issued, the ADoP SHALL initiate an election for
+        the Referee within a timely fashion.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2604,8 +2671,8 @@ Rule 2590/0 (Power=1)
 The Astronomor
 
       The Astronomor is an office. The Astronomor's weekly report
-      includes, in addition to any information required by other rules, a
-      list of all Sectors and their ID numbers.
+      includes, in addition to any information required by other rules,
+      a list of all Sectors and their ID numbers.
       
 ------------------------------------------------------------------------
 Rule 2591/1 (Power=1)
@@ -2643,7 +2710,8 @@ Spaceship Energy
       ownership restricted to Spaceships. If a Spaceship's Energy
       balance exceeds 20, any excess Energy it possesses is destroyed.
       
-      When a Spaceship is created, 20 Energy is created in its possession.
+      When a Spaceship is created, 20 Energy is created in its
+      possession.
       
       At the start of each Agoran day, each Pilotable Spaceship gains 2
       Energy. Any player also CAN, by announcement, pay 2 coins to grant
@@ -2661,11 +2729,12 @@ Space Battles
       purposes of this rule, agreement includes both consent and
       agreement specified by contract.
       
-      A player who owns a Pilotable Spaceship in the same Sector as one of
-      eir opponents' Pilotable Spaceships CAN, by announcement, initiate a
-      Space Battle between the two Spaceships. These two players are the
-      "combatants" of the Space Battle, and the two Spaceships are then
-      "engaging" in the Space Battle until it is resolved.
+      A player who owns a Pilotable Spaceship in the same Sector as one
+      of eir opponents' Pilotable Spaceships CAN, by announcement,
+      initiate a Space Battle between the two Spaceships. These two
+      players are the "combatants" of the Space Battle, and the two
+      Spaceships are then "engaging" in the Space Battle until it is
+      resolved.
       
       A Space Battle CANNOT be initiated if either of the two involved
       Spaceships has been engaging in a Space Battle within the last 24
@@ -2683,8 +2752,8 @@ Space Battles
       4) the non-combatant active player who has least recently
          registered.
       
-      For the initiation of a Space Battle to be EFFECTIVE, the initiator
-      must correctly specify the resolver.
+      For the initiation of a Space Battle to be EFFECTIVE, the
+      initiator must correctly specify the resolver.
       
       In a timely fashion after a Space Battle is initiated, the
       combatants SHOULD each once communicate to the resolver the amount
@@ -2692,9 +2761,9 @@ Space Battles
       cannot be understood by the other combatant until e has also
       fulfilled this obligation. For example:
       
-      * by publishing a salted cryptographic hash, and revealing its text
-        after the other combatant has also communicated the Energy e will
-        spend;
+      * by publishing a salted cryptographic hash, and revealing its
+        text after the other combatant has also communicated the Energy
+        e will spend;
       * by sending the amount to the resolver in a private message;
       * by publishing the amount, if the other combatant has already
         communicated the Energy e will spend.
@@ -2703,37 +2772,39 @@ Space Battles
       before both combatants have made their decisions is the Class-5
       Crime of Violating General Relativity.
       
-      After both combatants have communicated the Energy they will spend,
-      or if the time limit to do so has expired, the resolver CAN, and
-      SHALL in a timely fashion, resolve the Space Battle by announcing
-      the changes in each Spaceship's Energy balance and Armour
-      (described below), and the Winner (if any) of the Space Battle.
+      After both combatants have communicated the Energy they will
+      spend, or if the time limit to do so has expired, the resolver
+      CAN, and SHALL in a timely fashion, resolve the Space Battle by
+      announcing the changes in each Spaceship's Energy balance and
+      Armour (described below), and the Winner (if any) of the Space
+      Battle.
       
       When a Space Battle is resolved:
       
-      1) N Energy is revoked from each Spaceship, where N is the lesser of
-         the Spaceship's Energy balance and the amount of Energy decided
-         on by the Spaceship's owner, or 0 if the Spaceship's owner
-         failed to do so;
-      2) each Spaceship's Armour is decreased by X, where X is the lesser
-         of the Spaceship's Armour and the amount of Energy revoked from
-         the other Spaceship;
+      1) N Energy is revoked from each Spaceship, where N is the lesser
+         of the Spaceship's Energy balance and the amount of Energy
+         decided on by the Spaceship's owner, or 0 if the Spaceship's
+         owner failed to do so;
+      2) each Spaceship's Armour is decreased by X, where X is the
+         lesser of the Spaceship's Armour and the amount of Energy
+         revoked from the other Spaceship;
       3) the Winner of the Space Battle is the combatant, if any, whose
-         Spaceship's Armour was reduced by a smaller amount than the other
-         Spaceship's.
+         Spaceship's Armour was reduced by a smaller amount than the
+         other Spaceship's.
       
 ------------------------------------------------------------------------
 Rule 2594/0 (Power=1)
 Fame
 
-      Fame is an integer player switch tracked by the Astronomor, limited
-      to values between -10 and 10 inclusive. Players with positive Fame
-      are "Famous", and those with negative Fame are "Infamous".
+      Fame is an integer player switch tracked by the Astronomor,
+      limited to values between -10 and 10 inclusive. Players with
+      positive Fame are "Famous", and those with negative Fame are
+      "Infamous".
       
       If a player is the Winner in a Space Battle against an Infamous
       player, eir Fame is increased by 1. Likewise, if a player is the
-      Winner in a Space Battle against a Famous player or one with a Fame
-      of 0, eir Fame is decreased by 1.
+      Winner in a Space Battle against a Famous player or one with a
+      Fame of 0, eir Fame is decreased by 1.
       
       Any player whose Fame is either 10 or -10 CAN win the game With 2
       Days Notice.
@@ -2953,8 +3024,9 @@ Party Policy
       At any time, each Policy is held by exactly one Party. The
       assignments must be in cyclic order of their definitions, wrapping
       from bottom to top. For example, if the Platonic Isolationists
-      hold Participation as their Policy, then the New Punchbowl Reformers
-      hold Economy, the Costume Conservatives hold Justice, and so on.
+      hold Participation as their Policy, then the New Punchbowl
+      Reformers hold Economy, the Costume Conservatives hold Justice,
+      and so on.
       
       At the start of each Agoran month, the Planner CAN and SHALL, in a
       timely fashion, by announcement, select a new assignment of
