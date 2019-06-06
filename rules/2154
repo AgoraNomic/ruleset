@@ -5,12 +5,12 @@ text: |
   A player CAN initiate an election for a specified office:
 
   a) With 2 Support, if either the office is interim or the most
-  recent election for that office was resolved more than 90 days
-  prior, and provided that the initiator becomes a candidate in the
-  same message.
+     recent election for that office was resolved more than 90 days
+     prior, and provided that the initiator becomes a candidate in
+     the same message.
 
   b) By announcement, if e is the ADoP and if the office is interim,
-  or if e is the holder of that office.
+     or if e is the holder of that office.
 
   The above notwithstanding, an election for an office CANNOT be
   initiated if one is already in progress.
@@ -32,16 +32,16 @@ text: |
   and SHALL:
 
   1) If the election is contested, initiate an Agoran decision to
-  select the winner of the election (the poll). For this decision,
-  the Vote Collector is the ADoP, the valid options are the
-  candidates for that election (including those who become
-  candidates after its initiation), and the voting method is instant
-  runoff. When the poll is resolved, its outcome, if a player, wins
-  the election. If the outcome is not a player, the election ends
-  with no winner.
+     select the winner of the election (the poll). For this
+     decision, the Vote Collector is the ADoP, the valid options are
+     the candidates for that election (including those who become
+     candidates after its initiation), and the voting method is
+     instant runoff. When the poll is resolved, its outcome, if a
+     player, wins the election. If the outcome is not a player, the
+     election ends with no winner.
 
   2) If POSSIBLE per the following paragraph, end the election
-  immediately.
+     immediately.
 
   If at any point an uncontested election has a single candidate,
   then any player CAN declare them the winner of the election by
