@@ -2,16 +2,16 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 17 May 2019
-Date of this ruleset: 16 Jun 2019
+Date of last official ruleset of this type: 16 Jun 2019
+Date of this ruleset: 22 Jun 2019
 
 Number of rules currently enacted: 143
 
-Most recent change to this ruleset: Rule 2598 'Side-Game Suspension'
-enacted by Proposal 8177 'Side-Game Suspension Act' 
+Most recent change to this ruleset: Rule 2577 'Asset Actions' amended by
+Proposal 8187 'Not so indestructible now, eh?'
 
 Highest ID'd rule in this ruleset: 2598
-Highest ID'd Proposal Passed: 8177
+Highest ID'd Proposal Passed: 8187
 Highest ID'd Rule Enacted: 2598
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -459,7 +459,7 @@ Amended(39) by P7734 'Protest Noted' (G.), 02 May 2015
 Amended(40) by P7810 'Cleerer Registrar Responsibilities' (nichdel), 11
    Sep 2016
 Amended(41) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(42) by P7931 'Registration fix finally' (G.), 06 Nov 2017
 Amended(43) by P7959 'Deregistration Fix' (Telnaior), 12 Nov 2017
 Amended(44) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
@@ -780,7 +780,7 @@ Amended(9) by P7810 'Cleerer Registrar Responsibilities' (nichdel), 11
    Sep 2016
 Amended(10) by R2430, 24 May 2017
 Amended(11) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(12) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
 Amended(13) by P8176 'Zombies take care of this now' (G.), 13 May 2019
 
@@ -984,8 +984,8 @@ Regulated Actions
       required to be a recordkeepor.
       
       A Regulated Action CAN only be performed as described by the
-      Rules,and only using the methods explicitly specified in the Rules
-      for performing the given action. The Rules SHALL NOT be
+      Rules, and only using the methods explicitly specified in the
+      Rules for performing the given action. The Rules SHALL NOT be
       interpreted so as to proscribe unregulated actions.
       
 History:
@@ -1005,9 +1005,11 @@ Amended(7) by P6327 'Does a public message have the <X> nature?'
 Amended(8) by P7614 'Just Not Rights' (G.), 13 Jan 2014
 Amended(9) by P7865 'Regulations v4' (Aris, o, nichdel, ais523), 27 Jun
    2017
-Amended(10) by P7828 'Boolean Switches V2' (G.), 22 Oct 2017
+Amended(10) by P7928 'no we can't' (G.), 22 Oct 2017
 
 Annotations:
+CFJ 3737 (called 15 Jun 2019): Actions that the rules state a player
+   SHALL NOT perform are considered to be regulated actions.
 
 ------------------------------------------------------------------------
 Rule 1023/39 (Power=2)
@@ -1113,9 +1115,9 @@ Amended(36) by R2430, 24 May 2017
 Amended(37) by P7865 'Regulations v4' (Aris, o, nichdel, ais523), 27 Jun
    2017
 Amended(38) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Retitled by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(39) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
 
 Annotations:
@@ -1199,7 +1201,7 @@ Amended(33) by P7606 'Cruise Control' (G.), 13 Dec 2013
 Amended(34) by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
 Amended(35) by P7840 'Not an Apple campsite' (G.), 01 Mar 2017
 Amended(36) by R2430, 24 May 2017
-Amended(37) by P7871 'Minor fixes (sans typos)' (V.J. Rada), 07 Sep 2017
+Amended(37) by P7871 'Minor fixes (sans typos)' (R. Lee), 07 Sep 2017
 Amended(38) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(39) by P8107 'Buried Intent Prevention Act v2' (D. Margaux,
    Aris, G.), 27 Oct 2018
@@ -1382,7 +1384,7 @@ Determinacy
 History:
 
 Enacted by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 
 Annotations:
 
@@ -1438,9 +1440,9 @@ Conditionals and Extricability
 History:
 
 Enacted by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
-Repealed by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
-   Jul 2018
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Repealed by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01 Jul
+   2018
 
 Annotations:
 
@@ -1489,8 +1491,8 @@ Amended(7) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
 Amended(8) by P6981 'Littler Dutch Boy' (Murphy, omd), 10 Apr 2011
 Repealed by P7614 'Just Not Rights' (G.), 13 Jan 2014
 Re-enacted(9) and amended by P7924 'Contracts v8' (Aris, Aris, o, G.,
-   ais523, Gaelan, D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis,
-   P.S.S.), 22 Oct 2017
+   ais523, Gaelan, D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.),
+   22 Oct 2017
 
 Annotations:
 
@@ -1789,8 +1791,7 @@ Amended(40) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(41) by P7728 'Even More Restricted Distribution' (Tiger), 24 Nov
    2014
 Amended(42) by P7832 'Quintessential Parameters' (Alexis), 05 Dec 2016
-Amended(43) by P7885 'Restraining Bolt' (o, V.J. Rada, Ørjan), 26 Sep
-   2017
+Amended(43) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
 Amended(44) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
 
 Annotations:
@@ -2314,12 +2315,12 @@ Amended(10) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(11) by P7710 'Defining Reasonable Review' (G.), 03 Nov 2014
 Amended(12) by P7759 'minor Powers v0.2' (G.), 19 Jul 2015
 Amended(13) by R2430, 24 May 2017
-Amended(14) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(14) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(15) by P7940 'High Power Cleanup' (Alexis, G., P.S.S.), 06 Nov
    2017
 Amended(16) by P7940 'High Power Cleanup' (Alexis, G., P.S.S.), 06 Nov
    2017
-Amended(17) by P7969 'Obvious fix' (V.J. Rada, Alexis), 21 Nov 2017
+Amended(17) by P7969 'Obvious fix' (R. Lee, Alexis), 21 Nov 2017
 Amended(18) by P7986 'Quick Fix' (P.S.S.), 03 Dec 2017
 Amended(19) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
    2018
@@ -2382,7 +2383,7 @@ History:
 
 Enacted by P7865 'Regulations v4' (Aris, o, nichdel, ais523), 27 Jun
    2017
-Amended(1) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(2) by P7925 'Safety Regulations v2' (Aris, Alexis), 22 Oct 2017
 Amended(3) by P8056 'Deregulation Act v2' (Aris, G.), 01 Jul 2018
 Power changed from 3.1 to 3 by P8056 'Deregulation Act v2' (Aris, G.),
@@ -3630,7 +3631,8 @@ CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
 CFJ 2400 (called 06 Mar 2009): Deputisation is generally treated as if
    the deputy gained the office immediately before the action, and lost
    it immediately after.
-
+CFJ 3739 (called 16 Jun 2019): To perform an action by temporary
+   deputisation is to deputise.
 ------------------------------------------------------------------------
 Rule 2138/24 (Power=1)
 The Associate Director of Personnel
@@ -4076,7 +4078,7 @@ Amended(2) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/8 (Power=1.7)
+Rule 2478/9 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
@@ -4084,7 +4086,7 @@ Vigilante Justice
       game, citing an alleged violation of the rules by that person.
       
       When a player Points a Finger, the investigator SHALL investigate
-      the allegation and, in a timely fashion, SHALL conclude the
+      the allegation and CAN, in a timely fashion, SHALL conclude the
       investigation by:
       
       - Imposing the Cold Hand of Justice on the perp, as described
@@ -4109,16 +4111,18 @@ Enacted by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(1) by R2430, 24 May 2017
 Amended(2) by P7886 'Card Reform and Expansion v4' (Aris, ais523,
    Ørjan), 26 Sep 2017
-Amended(3) by P7964 'Referee Reform and Card Appealability' (V.J.
-   Rada), 07 Nov 2017
-Amended(4) by P7964 'Referee Reform and Card Appealability' (V.J.
-   Rada), 07 Nov 2017
-Amended(5) by P7964 'Referee Reform and Card Appealability' (V.J.
-   Rada), 07 Nov 2017
-Amended(6) by P7982 'Referee Reform Fix' (V.J. Rada), 03 Dec 2017
+Amended(3) by P7964 'Referee Reform and Card Appealability' (R. Lee),
+   07 Nov 2017
+Amended(4) by P7964 'Referee Reform and Card Appealability' (R. Lee),
+   07 Nov 2017
+Amended(5) by P7964 'Referee Reform and Card Appealability' (R. Lee),
+   07 Nov 2017
+Amended(6) by P7982 'Referee Reform Fix' (R. Lee), 03 Dec 2017
 Amended(7) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(8) by P8090 'Shenanigans For INEFFECTIVE Fines (v2)' (D.
    Margaux), 17 Sep 2018
+Amended(9) by P8181 'Referee CAN Impose Fines (v1.1)' (D. Margaux,
+   Falsifian, twg), 22 Jun 2019
 
 Annotations:
 
@@ -4140,12 +4144,12 @@ History:
 Enacted by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(1) by P7886 'Card Reform and Expansion v4' (Aris, ais523,
    Ørjan), 26 Sep 2017
-Amended(2) by P7964 'Referee Reform and Card Appealability' (V.J.
-   Rada), 07 Nov 2017
-Amended(3) by P7964 'Referee Reform and Card Appealability' (V.J.
-   Rada), 07 Nov 2017
-Amended(4) by P7964 'Referee Reform and Card Appealability' (V.J.
-   Rada), 07 Nov 2017
+Amended(2) by P7964 'Referee Reform and Card Appealability' (R. Lee),
+   07 Nov 2017
+Amended(3) by P7964 'Referee Reform and Card Appealability' (R. Lee),
+   07 Nov 2017
+Amended(4) by P7964 'Referee Reform and Card Appealability' (R. Lee),
+   07 Nov 2017
 Amended(5) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 
 Annotations:
@@ -4236,7 +4240,7 @@ Referee Accountability
       
 History:
 
-Enacted by P7964 'Referee Reform and Card Appealability' (V.J. Rada), 06
+Enacted by P7964 'Referee Reform and Card Appealability' (R. Lee), 06
    Nov 2017
 Amended(1) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Power changed from 1 to 2 by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
@@ -4322,12 +4326,12 @@ Amended(19) by P7803 'Self-service judiciary' (G.), 31 Jul 2016
 Amended(20) by P7867 'Economics Overhaul v2' (nichdel, o, grok, Aris),
    30 Jul 2017
 Amended(21) by P7876 'Float On' (o), 26 Sep 2017
-Amended(22) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(22) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(23) by P7899 'Arbitor's Union' (G.), 03 Oct 2017
 Amended(24) by P8004 'Rusty' (G.), 30 Jan 2018
 Amended(25) by P8005 'Hopefully routine fixes' (Murphy), 06 Feb 2018
 Amended(26) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
-   G., o, VJ Rada), 24 Feb 2018
+   G., o, R. Lee), 24 Feb 2018
 Amended(27) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(28) by P8065 'No undead courts' (twg), 18 Jul 2018
 Amended(29) by cleaning (Trigon), 31 Oct 2018
@@ -4656,7 +4660,7 @@ Recusal
 History:
 
 Enacted by P7859 'Gentle Judicial Updates' (Quazie, grok), 27 Jun 2017
-Amended(1) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(2) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(3) by ruleset ratification, 14 Apr 2018
 
@@ -4743,10 +4747,10 @@ Enacted by P7761 'I wonder what this does' (G.), 19 Jul 2015
 Amended(1) by P7862 'Betterer Pledges' (Quazie), 27 Jun 2017
 Amended(2) by P7866 'More Betterer Pledges' (o, Aris, Quazie, G.,
    Gaelan, D.F.F.), 16 Jul 2017
-Amended(3) by P7901 'Make Your Home Shine' (o, Cuddle Beam, Ørjan, V.J.
-   Rada, nichdel), 03 Oct 2017
+Amended(3) by P7901 'Make Your Home Shine' (o, Cuddle Beam, Ørjan, R.
+   Lee, nichdel), 03 Oct 2017
 Amended(4), 11 Jun 2018
-Amended(5) by P8060 'Notary-B-Gone' (V.J. Rada), 18 Jul 2018
+Amended(5) by P8060 'Notary-B-Gone' (R. Lee), 18 Jul 2018
 
 Annotations:
 CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
@@ -4791,7 +4795,7 @@ History:
 
 Enacted by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
 Amended(1) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 
 Annotations:
 
@@ -4807,7 +4811,7 @@ Consent
 History:
 
 Enacted by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 
 Annotations:
 
@@ -4876,7 +4880,7 @@ Assigned to the Committee on Small Business and Entrepeneurship by P6053
 Amended(18) by P6197 'Refactor contracts' (Murphy), 27 Apr 2009
 Repealed by P6635 'Agree to Disagree' [red] (coppro), 20 Feb 2010
 Re-enacted(19) and amended by P8054 'Minimalist Contracts v2' (Aris, G.,
-   V.J. Rada), 01 Jul 2018
+   R. Lee), 01 Jul 2018
 Amended(20) by P8139 'Access to contracts' assets v2' (twg, G.), 15 Jan
    2019
 Amended(21) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
@@ -4953,7 +4957,7 @@ Re-enacted(22) and amended by P7864 (Aris, G., o, nichdel, P.S.S.), 27
    Jun 2017
 Amended(23) by P7868 'Minor economic fixes' (Murphy), 30 Jul 2017
 Amended(24) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(25) by P8003 'Asset fix' (Corona), 31 Jan 2018
 Amended(26) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
    2018
@@ -4991,15 +4995,14 @@ Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2577/1 (Power=3)
+Rule 2577/2 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
       subject to modification by its backing document. An indestructible
-      asset is one defined as such by it backing document, and CANNOT be
-      destroyed except by a proposal or rule, other than this one,
-      specifically addressing the destruction of indestructible assets
-      or that asset in particular; any other asset is destructible.
+      asset is one defined as such by its backing document, and CANNOT
+      be destroyed except as explicitly specified by its backing
+      document; any other asset is destructible.
       
       For an entity to earn an asset is for that asset to be created in
       that entity's possession. To grant an entity an asset is to create
@@ -5026,11 +5029,13 @@ History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
+Amended(2) by P8187 'Not so indestructible now, eh?' (Jason Cobb), 22
+   Jun 2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2578/0 (Power=3)
+Rule 2578/1 (Power=3)
 Currencies
 
       A currency is a class of asset defined as such by its backing
@@ -5040,11 +5045,12 @@ Currencies
       The "x balance of an entity", where x is a currency, is the number
       of x that entity possesses. Where it resolves ambiguity, the asset
       or currency being referred to is the currency designated as
-      "Agora's official currency", if there is one.
+      the official currency of Agora, if there is one.
       
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(1) by P8186 'Minor currency fixes' (Jason Cobb), 22 Jun 2019
 
 Annotations:
 
@@ -5115,9 +5121,9 @@ Amended(2) by R2430, 24 May 2017
 Amended(3) by P7876 'Float On' (o), 26 Sep 2017
 Amended(4) by P7890 'Improved Buoyancy v2' (Aris, G.), 26 Sep 2017
 Retitled by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(5) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Repealed by P8004 'Rusty' (G.), 31 Jan 2018
 Re-enacted(6) and amended by P8041 'Consolidated Patch' (Aris, Trigon,
    G.), 27 Apr 2018
@@ -5125,11 +5131,11 @@ Re-enacted(6) and amended by P8041 'Consolidated Patch' (Aris, Trigon,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2483/12 (Power=2)
+Rule 2483/13 (Power=2)
 Economics
 
-      Coins are the official currency of Agora tracked by the Treasuror.
-      They can be owned by Agora, players, and contracts.
+      Coins are the official currency of Agora and are tracked by the
+      Treasuror. They can be owned by Agora, players, and contracts.
       
       A player CAN win the game by paying a fee of 1,000 Coins.
       
@@ -5142,23 +5148,24 @@ Amended(2) by P7842 'Economic Flexibility v2' (nichdel, o), 01 Mar 2017
 Amended(3) by P7864 (Aris, G., o, nichdel, P.S.S.), 27 Jun 2017
 Amended(4) by P7898 'Community Chest' (G.), 26 Sep 2017
 Amended(5) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, V.J. Rada, Trigon, Alexis, P.S.S.), 22 Oct 2017
+   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(6) by P8004 'Rusty' (G.), 31 Jan 2018
 Amended(7) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
-   G., o, VJ Rada), 23 Feb 2018
+   G., o, R. Lee), 23 Feb 2018
 Amended(8) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
-Amended(9) by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
+Amended(9) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01
    Jul 2018
 Amended(10) by P8066 'Separation of church and state' (twg, Trigon), 26
    Jul 2018
 Amended(11) by P8070 'Crackdown on minting (reindustrialisation
    edition)' (twg), 26 Jul 2018
 Amended(12) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
+Amended(13) by P8186 'Minor currency fixes' (Jason Cobb), 22 Jun 2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/12 (Power=1)
+Rule 2496/13 (Power=1)
 Rewards
 
       A player CAN, by announcement, earn the set of assets associated
@@ -5181,6 +5188,11 @@ Rewards
         published in a week and the first monthly report published in a
         month.
       
+      * Resolving an Agoran Decision on whether to adopt a proposal,
+        provided that no other Agoran Decision on whether to adopt that
+        or any other proposal had been resolved earlier in that Agoran
+        week: 5 coins.
+      
       * Having a Thesis pass peer-review and be granted a Degree based
         on its merit: 20 coins
       
@@ -5188,11 +5200,11 @@ History:
 
 Enacted by P7867 'Economics Overhaul v2' (nichdel, o, grok, Aris), 30
    Aug 2017
-Amended(1) by P7871 'Minor fixes (sans typos)' (V.J. Rada), 07 Sep 2017
+Amended(1) by P7871 'Minor fixes (sans typos)' (R. Lee), 07 Sep 2017
 Amended(2) by P7876 'Float On' (o), 26 Sep 2017
-Amended(3) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(3) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(4) by P7897 'University Funding' (Cuddle Beam), 26 Sep 2017
-Amended(5) by P7911 'Infinite Money Fix' (V.J. Rada), 15 Oct 2017
+Amended(5) by P7911 'Infinite Money Fix' (R. Lee), 15 Oct 2017
 Amended(6) by P7980 (ATMunn, Alexis), 26 Nov 2017
 Repealed by P8004 'Rusty' (G.), 31 Jan 2018
 Re-enacted(7) and amended by P8127 'Reinstituting Rewards' (Trigon), 19
@@ -5205,6 +5217,8 @@ Amended(10) by P8144 'Sharing the Wealth' (Trigon), 15 Jan 2019
 Amended(11) by P8141 'Miscellaneous Reward Fixes v2' (twg, G., Ørjan),
    15 Jan 2019
 Amended(12) by P8174 'Understated' (G.), 08 May 2019
+Amended(13) by P8180 'Paying our Assessor' (Trigon, D. Margaux), 22 Jun
+   2019
 
 Annotations:
 
@@ -5316,14 +5330,14 @@ History:
 
 Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
    2017
-Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
+Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01
    Jul 2018
 Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2549/3 (Power=1)
+Rule 2549/4 (Power=1)
 Auction Initiation
 
       An entity authorized by a rule to initiate an Auction CAN do so by
@@ -5350,18 +5364,19 @@ Auction Initiation
       initiated unless the Auctioneer is able to give away each item in
       each of the Auction's lots.
       
-      If no currency is specified, it defaults to Agora's official
-      currency.
+      If no currency is specified, it defaults to the official currency
+      of Agora.
       
 History:
 
 Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
    2017
 Amended(1) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
-   G., o, VJ Rada), 23 Feb 2018
-Amended(2) by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
+   G., o, R. Lee), 23 Feb 2018
+Amended(2) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01
    Jul 2018
 Amended(3) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
+Amended(4) by P8186 'Minor currency fixes' (Jason Cobb), 22 Jun 2019
 
 Annotations:
 CFJ 3614 (called 27 Nov 2017): A contract can authorize someone to
@@ -5396,14 +5411,15 @@ History:
 
 Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nichdel, G.), 26 Nov
    2017
-Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., V.J. Rada), 01
+Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01
    Jul 2018
 
 Annotations:
-CFJ 3633 (called 18 Jun 2018): Saying "x on y", where x is an integer
-   and y is a number corresponding to an ongoing auction, is a
+CFJ 3633 (called 18 Jun 2018): Saying "x on y" where x is an integer and
+   y is an identifier corresponding to an ongoing auction is a
    sufficiently clear announcement of a bid.
-
+CFJ 3740 (called 20 Jun 2019): The successfulness of a bid does not
+   depend on having the bid amount at the time the bid was placed.
 ------------------------------------------------------------------------
 Rule 2551/2 (Power=1)
 Auction End
@@ -5535,18 +5551,18 @@ Amended(3) by cleaning (Falsifian), 28 Apr 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2574/1 (Power=3)
+Rule 2574/2 (Power=3)
 Zombie Life Cycle
 
       Any player CAN, with Notice, flip the master switch of an active
       player who has not made a public announcement in the past 60 days
       to Agora.
       
-      Resale is a secured natural switch for zombies, tracked by the
-      Registrar, with a default value of 2. Whenever a zombie's master
-      switch is flipped to a player other than emself, eir resale value
-      is decreased by 1. At the end of a zombie auction, every zombie
-      that is an excess lot in that auction has eir resale value
+      Resale value is a secured natural switch for zombies, tracked by
+      the Registrar, with a default value of 2. Whenever a zombie's
+      master switch is flipped to a player other than emself, eir resale
+      value is decreased by 1. At the end of a zombie auction, every
+      zombie that is an excess lot in that auction has eir resale value
       decreased by 1.
       
       A zombie with a resale value of 0 CANNOT have eir master switch
@@ -5559,7 +5575,7 @@ Zombie Life Cycle
           master switch to Agora;
         - If a player is master to more than one zombie, flip the master
           switch of one of that master's zombies to Agora;
-        - Deregister a zombie whose master is Agora and who has a Resale
+        - Deregister a zombie whose master is Agora and who has a resale
           value of 0.
       
       The Registrar SHALL track the date that each zombie last belonged
@@ -5572,6 +5588,7 @@ History:
 
 Enacted by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(1) by P8098 'Zombie Overstock' (G.), 01 Oct 2018
+Amended(2) by P8182 'Add value to zombies' (Jason Cobb), 22 Jun 2019
 
 Annotations:
 
@@ -6344,8 +6361,7 @@ History:
 
 Enacted by P7904 'Such is Karma v2' (G., D.F.F.), 03 Oct 2017
 Amended(1) by P7916 'Pro Pace v2' (Aris, o, G.), 15 Oct 2017
-Amended(2) by P7960 'Community Chest Repeal II' (V.J. Rada), 12 Nov
-   2017
+Amended(2) by P7960 'Community Chest Repeal II' (R. Lee), 12 Nov 2017
 Amended(3) by P8022 'Anyone can balance Karma' (G.), 06 Mar 2018
 Amended(4) by P8112 'The Middle Way' (G., ATMunn), 12 Nov 2018
 
@@ -6368,8 +6384,7 @@ Karmic Balance
 History:
 
 Enacted by P7904 'Such is Karma v2' (G., D.F.F.), 03 Oct 2017
-Amended(1) by P7960 'Community Chest Repeal II' (V.J. Rada), 12 Nov
-   2017
+Amended(1) by P7960 'Community Chest Repeal II' (R. Lee), 12 Nov 2017
 Amended(2) by P8022 'Anyone can balance Karma' (G.), 06 Mar 2018
 
 Annotations:
@@ -6534,7 +6549,7 @@ Festivals
 History:
 
 Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
-Amended(1) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(2) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 
 Annotations:
@@ -6767,7 +6782,7 @@ Amended(3) by P6626 'Standards of heroism' [green] (Murphy), 20 Feb
    2010
 Amended(4) by P7621 'Further Patent Cleanup' (G.), 23 Feb 2014
 Amended(5) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
-Amended(6) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(6) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 
 Annotations:
 
@@ -6948,8 +6963,7 @@ Amended(21) by P7690 'Speaker/Prime Minister incompatibility' (aranea),
 Amended(22) by P7739 'Succession' (G.), 02 May 2015
 Amended(23) by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
    2016
-Amended(24) by P7885 'Restraining Bolt' (o, V.J. Rada, Ørjan), 26 Sep
-   2017
+Amended(24) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
 Amended(25) by P8117 'Fix for Uncertain Laurelings' (D. Margaux, twg),
    12 Nov 2018
 
@@ -7043,12 +7057,11 @@ Enacted by P7764 'Prime Ministerial Perks' (Alexis), 24 Jul 2015
 Amended(1) by P7829 'Rename Fix' (Alexis), 07 Nov 2016
 Amended(2) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(3) by P7860 'Cards are power 1.7' (Quazie), 27 Jun 2017
-Amended(4) by P7885 'Restraining Bolt' (o, V.J. Rada, Ørjan), 26 Sep
-   2017
+Amended(4) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
 Power changed from 1.7 to 2.0 by P7964 'Referee Reform and Card
-   Appealability' (V.J. Rada), 07 Nov 2017
-Amended(5) by P7964 'Referee Reform and Card Appealability' (V.J.
-   Rada), 07 Nov 2017
+   Appealability' (R. Lee), 07 Nov 2017
+Amended(5) by P7964 'Referee Reform and Card Appealability' (R. Lee),
+   07 Nov 2017
 Amended(6) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 
 Annotations:
@@ -7183,7 +7196,7 @@ History:
 Enacted by P7809 'Quill and Tournaments' (G.), 11 Sep 2016
 Amended(1) by P7865 'Regulations v4' (Aris, o, nichdel, ais523), 27 Jun
    2017
-Amended(2) by P7888 'BILLY MAYS HERE' (o, V.J. Rada), 26 Sep 2017
+Amended(2) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(3) by P8032 'Free Tournaments' (G.), 06 Apr 2018
 Amended(4) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
 
@@ -7240,8 +7253,7 @@ History:
 
 Enacted by P7865 'Regulations v4' (Aris, o, nichdel, ais523), 27 Jun
    2017
-Amended(1) by P7885 'Restraining Bolt' (o, V.J. Rada, Ørjan), 26 Sep
-   2017
+Amended(1) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
 Amended(2) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
 
 Annotations:

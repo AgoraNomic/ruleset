@@ -2,16 +2,16 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 6 Jun 2019
-Date of this ruleset: 16 Jun 2019
+Date of last official ruleset of this type: 16 Jun 2019
+Date of this ruleset: 22 Jun 2019
 
 Number of rules currently enacted: 143
 
-Most recent change to this ruleset: Rule 2598 'Side-Game Suspension'
-enacted by Proposal 8177 'Side-Game Suspension Act' 
+Most recent change to this ruleset: Rule 2577 'Asset Actions' amended by
+Proposal 8187 'Not so indestructible now, eh?'
 
 Highest ID'd rule in this ruleset: 2598
-Highest ID'd Proposal Passed: 8177
+Highest ID'd Proposal Passed: 8187
 Highest ID'd Rule Enacted: 2598
 
 ========================================================================
@@ -320,8 +320,8 @@ Regulated Actions
       required to be a recordkeepor.
       
       A Regulated Action CAN only be performed as described by the
-      Rules,and only using the methods explicitly specified in the Rules
-      for performing the given action. The Rules SHALL NOT be
+      Rules, and only using the methods explicitly specified in the
+      Rules for performing the given action. The Rules SHALL NOT be
       interpreted so as to proscribe unregulated actions.
       
 ------------------------------------------------------------------------
@@ -1769,7 +1769,7 @@ Blots
       fugitive's blots are destroyed.
       
 ------------------------------------------------------------------------
-Rule 2478/8 (Power=1.7)
+Rule 2478/9 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
@@ -1777,7 +1777,7 @@ Vigilante Justice
       game, citing an alleged violation of the rules by that person.
       
       When a player Points a Finger, the investigator SHALL investigate
-      the allegation and, in a timely fashion, SHALL conclude the
+      the allegation and CAN, in a timely fashion, SHALL conclude the
       investigation by:
       
       - Imposing the Cold Hand of Justice on the perp, as described
@@ -2218,15 +2218,14 @@ Ownership
       destroyed by any player without objection.
       
 ------------------------------------------------------------------------
-Rule 2577/1 (Power=3)
+Rule 2577/2 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
       subject to modification by its backing document. An indestructible
-      asset is one defined as such by it backing document, and CANNOT be
-      destroyed except by a proposal or rule, other than this one,
-      specifically addressing the destruction of indestructible assets
-      or that asset in particular; any other asset is destructible.
+      asset is one defined as such by its backing document, and CANNOT
+      be destroyed except as explicitly specified by its backing
+      document; any other asset is destructible.
       
       For an entity to earn an asset is for that asset to be created in
       that entity's possession. To grant an entity an asset is to create
@@ -2250,7 +2249,7 @@ Asset Actions
       number.
       
 ------------------------------------------------------------------------
-Rule 2578/0 (Power=3)
+Rule 2578/1 (Power=3)
 Currencies
 
       A currency is a class of asset defined as such by its backing
@@ -2260,7 +2259,7 @@ Currencies
       The "x balance of an entity", where x is a currency, is the number
       of x that entity possesses. Where it resolves ambiguity, the asset
       or currency being referred to is the currency designated as
-      "Agora's official currency", if there is one.
+      the official currency of Agora, if there is one.
       
 ------------------------------------------------------------------------
 Rule 2579/0 (Power=3)
@@ -2316,16 +2315,16 @@ The Treasuror
       classes of assets.
       
 ------------------------------------------------------------------------
-Rule 2483/12 (Power=2)
+Rule 2483/13 (Power=2)
 Economics
 
-      Coins are the official currency of Agora tracked by the Treasuror.
-      They can be owned by Agora, players, and contracts.
+      Coins are the official currency of Agora and are tracked by the
+      Treasuror. They can be owned by Agora, players, and contracts.
       
       A player CAN win the game by paying a fee of 1,000 Coins.
       
 ------------------------------------------------------------------------
-Rule 2496/12 (Power=1)
+Rule 2496/13 (Power=1)
 Rewards
 
       A player CAN, by announcement, earn the set of assets associated
@@ -2347,6 +2346,11 @@ Rewards
         this reward can only be claimed for the first weekly report
         published in a week and the first monthly report published in a
         month.
+      
+      * Resolving an Agoran Decision on whether to adopt a proposal,
+        provided that no other Agoran Decision on whether to adopt that
+        or any other proposal had been resolved earlier in that Agoran
+        week: 5 coins.
       
       * Having a Thesis pass peer-review and be granted a Degree based
         on its merit: 20 coins
@@ -2418,7 +2422,7 @@ Auctions
       Auction CAN define the Announcer for that Auction.
       
 ------------------------------------------------------------------------
-Rule 2549/3 (Power=1)
+Rule 2549/4 (Power=1)
 Auction Initiation
 
       An entity authorized by a rule to initiate an Auction CAN do so by
@@ -2445,8 +2449,8 @@ Auction Initiation
       initiated unless the Auctioneer is able to give away each item in
       each of the Auction's lots.
       
-      If no currency is specified, it defaults to Agora's official
-      currency.
+      If no currency is specified, it defaults to the official currency
+      of Agora.
       
 ------------------------------------------------------------------------
 Rule 2550/1 (Power=1)
@@ -2568,18 +2572,18 @@ Zombies
       Welcome Package by announcement.
       
 ------------------------------------------------------------------------
-Rule 2574/1 (Power=3)
+Rule 2574/2 (Power=3)
 Zombie Life Cycle
 
       Any player CAN, with Notice, flip the master switch of an active
       player who has not made a public announcement in the past 60 days
       to Agora.
       
-      Resale is a secured natural switch for zombies, tracked by the
-      Registrar, with a default value of 2. Whenever a zombie's master
-      switch is flipped to a player other than emself, eir resale value
-      is decreased by 1. At the end of a zombie auction, every zombie
-      that is an excess lot in that auction has eir resale value
+      Resale value is a secured natural switch for zombies, tracked by
+      the Registrar, with a default value of 2. Whenever a zombie's
+      master switch is flipped to a player other than emself, eir resale
+      value is decreased by 1. At the end of a zombie auction, every
+      zombie that is an excess lot in that auction has eir resale value
       decreased by 1.
       
       A zombie with a resale value of 0 CANNOT have eir master switch
@@ -2592,7 +2596,7 @@ Zombie Life Cycle
           master switch to Agora;
         - If a player is master to more than one zombie, flip the master
           switch of one of that master's zombies to Agora;
-        - Deregister a zombie whose master is Agora and who has a Resale
+        - Deregister a zombie whose master is Agora and who has a resale
           value of 0.
       
       The Registrar SHALL track the date that each zombie last belonged
