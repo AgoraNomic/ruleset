@@ -22,6 +22,11 @@ text: |
     published in a week and the first monthly report published in a
     month.
 
+  * Resolving an Agoran Decision on whether to adopt a proposal,
+    provided that no other Agoran Decision on whether to adopt that
+    or any other proposal had been resolved earlier in that Agoran
+    week: 5 coins.
+
   * Having a Thesis pass peer-review and be granted a Degree based
     on its merit: 20 coins
 history:
@@ -95,4 +100,9 @@ history:
   date: 2019-05-08
   agent:
     proposal: "8174"
+- change:
+    type: amendment
+  date: 2019-06-22
+  agent:
+    proposal: "8180"
 annotations: []

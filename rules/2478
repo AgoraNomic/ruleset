@@ -7,7 +7,7 @@ text: |
   game, citing an alleged violation of the rules by that person.
 
   When a player Points a Finger, the investigator SHALL investigate
-  the allegation and, in a timely fashion, SHALL conclude the
+  the allegation and CAN, in a timely fashion, SHALL conclude the
   investigation by:
 
   - Imposing the Cold Hand of Justice on the perp, as described
@@ -71,4 +71,9 @@ history:
   date: 2018-09-17
   agent:
     proposal: "8090"
+- change:
+    type: amendment
+  date: 2019-06-22
+  agent:
+    proposal: "8181"
 annotations: []

@@ -4,10 +4,9 @@ power: 3
 text: |
   An asset generally CAN be destroyed by its owner by announcement,
   subject to modification by its backing document. An indestructible
-  asset is one defined as such by it backing document, and CANNOT be
-  destroyed except by a proposal or rule, other than this one,
-  specifically addressing the destruction of indestructible assets
-  or that asset in particular; any other asset is destructible.
+  asset is one defined as such by its backing document, and CANNOT
+  be destroyed except as explicitly specified by its backing
+  document; any other asset is destructible.
 
   For an entity to earn an asset is for that asset to be created in
   that entity's possession. To grant an entity an asset is to create
@@ -41,3 +40,8 @@ history:
   date: 2018-11-19
   agent:
     proposal: "8126"
+- change:
+    type: amendment
+  date: 2019-06-22
+  agent:
+    proposal: "8187"

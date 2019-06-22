@@ -6,11 +6,11 @@ text: |
   player who has not made a public announcement in the past 60 days
   to Agora.
 
-  Resale is a secured natural switch for zombies, tracked by the
-  Registrar, with a default value of 2. Whenever a zombie's master
-  switch is flipped to a player other than emself, eir resale value
-  is decreased by 1. At the end of a zombie auction, every zombie
-  that is an excess lot in that auction has eir resale value
+  Resale value is a secured natural switch for zombies, tracked by
+  the Registrar, with a default value of 2. Whenever a zombie's
+  master switch is flipped to a player other than emself, eir resale
+  value is decreased by 1. At the end of a zombie auction, every
+  zombie that is an excess lot in that auction has eir resale value
   decreased by 1.
 
   A zombie with a resale value of 0 CANNOT have eir master switch
@@ -23,7 +23,7 @@ text: |
       master switch to Agora;
     - If a player is master to more than one zombie, flip the master
       switch of one of that master's zombies to Agora;
-    - Deregister a zombie whose master is Agora and who has a Resale
+    - Deregister a zombie whose master is Agora and who has a resale
       value of 0.
 
   The Registrar SHALL track the date that each zombie last belonged
@@ -43,4 +43,9 @@ history:
   date: 2018-10-01
   agent:
     proposal: "8098"
+- change:
+    type: amendment
+  date: 2019-06-22
+  agent:
+    proposal: "8182"
 annotations: []

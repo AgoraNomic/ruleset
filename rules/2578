@@ -9,7 +9,7 @@ text: |
   The "x balance of an entity", where x is a currency, is the number
   of x that entity possesses. Where it resolves ambiguity, the asset
   or currency being referred to is the currency designated as
-  "Agora's official currency", if there is one.
+  the official currency of Agora, if there is one.
 history:
 - change:
     type: enactment
@@ -17,3 +17,8 @@ history:
   date: 2018-07-01
   agent:
     proposal: "8055"
+- change:
+    type: amendment
+  date: 2019-06-22
+  agent:
+    proposal: "8186"
