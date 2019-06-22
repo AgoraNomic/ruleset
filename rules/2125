@@ -9,8 +9,8 @@ text: |
   required to be a recordkeepor.
 
   A Regulated Action CAN only be performed as described by the
-  Rules,and only using the methods explicitly specified in the Rules
-  for performing the given action. The Rules SHALL NOT be
+  Rules, and only using the methods explicitly specified in the
+  Rules for performing the given action. The Rules SHALL NOT be
   interpreted so as to proscribe unregulated actions.
 history:
 - change:
@@ -67,5 +67,11 @@ history:
     type: amendment
   date: 2017-10-22
   agent:
-    proposal: "7828"
-annotations: []
+    proposal: "7928"
+annotations:
+- cfjs:
+  - id: '3737'
+    called: 2019-06-15
+  text: >
+    Actions that the rules state a player SHALL NOT perform are
+    considered to be regulated actions.

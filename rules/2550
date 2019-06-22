@@ -35,9 +35,15 @@ history:
     proposal: "8054"
 annotations:
 - cfjs:
-  - id: 3633
+  - id: '3633'
     called: 2018-06-18
   text: >
-    Saying "x on y", where x is an integer and y is a number
-    corresponding to an ongoing auction, is a sufficiently clear
+    Saying "x on y" where x is an integer and y is an identifier
+    corresponding to an ongoing auction is a sufficiently clear
     announcement of a bid.
+- cfjs:
+  - id: '3740'
+    called: 2019-06-20
+  text: >
+    The successfulness of a bid does not depend on having the bid
+    amount at the time the bid was placed.
