@@ -2,9 +2,11 @@ id: 1950
 name: Decisions with Adoption Indices
 power: 3
 text: |
-  Adoption index is an untracked switch possessed by Agoran
-  decisions and proposals, whose value is either "none" (default) or
-  an integral multiple of 0.1 from 1.0 to 9.9.
+  Adoption index (AI) is an untracked switch possessed by Agoran
+  decisions and proposals.  For decisions, the possible values are
+  "none" (default) or integral multiples of 0.1 from 1.0 to 9.9.
+  For proposals, the possible values are integral multiples of 0.1
+  from 1.0 to 9.9 (default 1.0).
 
   Adoption index is secured with a power threshold of 2.
 
@@ -202,6 +204,11 @@ history:
   date: 2016-12-05
   agent:
     proposal: "7832"
+- change:
+    type: amendment
+  date: 2019-07-10
+  agent:
+    proposal: "8200"
 annotations:
 - cfjs:
   - id: '1885'

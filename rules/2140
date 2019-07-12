@@ -2,7 +2,8 @@ id: 2140
 name: Power Controls Mutability
 power: 3
 text: |
-  No entity with power below the power of this rule can
+  Rules to the contrary notwithstanding, no entity with power below
+  the power of this rule can
 
   1. cause an entity to have power greater than its own.
 
@@ -35,6 +36,11 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: amendment
+  date: 2019-07-09
+  agent:
+    proposal: "8184"
 annotations:
 - cfjs:
   - id: '2981'
