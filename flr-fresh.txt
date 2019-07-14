@@ -3,15 +3,18 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type: 16 Jun 2019
-Date of this ruleset: 22 Jun 2019
+Date of this ruleset: 14 Jul 2019
 
-Number of rules currently enacted: 143
+Date of last SLR ratification: 8 May 2019
 
-Most recent change to this ruleset: Rule 2577 'Asset Actions' amended by
-Proposal 8187 'Not so indestructible now, eh?'
+Number of rules currently enacted: 130
 
-Highest ID'd rule in this ruleset: 2598
-Highest ID'd Proposal Passed: 8187
+Most recent change to this ruleset: Rule 1950 "Decisions with Adoption
+Indices" amended by Proposal 8200 "Sane AI Defaulting" (Aris), 10 Jul
+2019
+
+Highest ID'd rule in this ruleset: 2597
+Highest ID'd Proposal Passed: 8200
 Highest ID'd Rule Enacted: 2598
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -26,9 +29,6 @@ Table of Contents:
 The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
-Important Temporary Rules
-   * Rule 2596: The Ritual
-   * Rule 2598: Side-Game Suspension
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -146,18 +146,6 @@ Spaaace!
    * Rule 2592: Spaceship Energy
    * Rule 2593: Space Battles
    * Rule 2594: Fame
-Politics
-   * Rule 2533: Political Parties
-   * Rule 2534: Clork
-   * Rule 2535: Echelon Forms
-   * Rule 2536: Taken Under Advisement
-   * Rule 2537: Balloons
-   * Rule 2538: Party Favours
-   * Rule 2539: Retirement
-   * Rule 2540: Political Elections
-   * Rule 2586: Party Policy
-   * Rule 2542: Favour Awards
-   * Rule 2543: Post Powers
 Victory & Karma
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -196,14 +184,13 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-1  with Power=0.5
-41 with Power=1
+40 with Power=1
 2  with Power=1.5
 6  with Power=1.7
-32 with Power=2
+22 with Power=2
 2  with Power=2.1
 1  with Power=2.5
-51 with Power=3
+50 with Power=3
 1  with Power=3.1
 1  with Power=3.14
 1  with Power=3.2
@@ -294,77 +281,6 @@ Amended(4) by P7628 'Secure Ending the Game' (ais523), 07 Apr 2014
 Amended(5) by P7889 'Agora Protection Act' (Aris), 26 Sep 2017
 Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aris), 26 Sep
    2017
-
-Annotations:
-
-------------------------------------------------------------------------
-========================================================================
-Important Temporary Rules
-   This category is a temporary dumping ground for rules that don't
-   easily fit in any other category but that hold special relevance
-   for the current gamestate.
-------------------------------------------------------------------------
-Rule 2596/0 (Power=0.5)
-The Ritual
-
-      Any player CAN perform The Ritual by paying a fee of 7 Coins. The
-      Ritual MUST be performed at least once in every Agoran week. If
-      The Ritual was performed at least once in the previous Agoran
-      week, then the Ruleset is Appeased.
-      
-      If the Ruleset is appeased, then any player CAN banish this rule
-      (cause it to repeal itself) with N Agoran Consent, where N is the
-      maximum of 1.0 and 10/(B+1), rounded up to the nearest 0.1, and B
-      is the number of weeks that the Ruleset has been continuously
-      appeased at the moment of banishment.
-      
-History:
-
-Enacted by P8167 'Ritual Sacrifice' (G.), 27 Apr 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2598/0 (Power=3)
-Side-Game Suspension
-
-      
-      1. The Spaaace Rules are defined to be Rules 2588, 2589, 2590,
-         2591, 2592, 2593 and 2594.
-      
-      2. The Politics Rules are defined to be Rules 2533, 2534, 2535,
-         2536, 2537, 2538, 2539, 2540, 2586, 2542, and 2543.
-      
-      3. Rules to the contrary notwithstanding, the Spaaace Rules are
-         suspended and have no force or effect until Spaaace is Revived.
-      
-      4. Rules to the contrary notwithstanding, the Politics Rules are
-         suspended and have no force or effect until Politics is
-         Revived.
-      
-      5. A player CAN with 2 support Revive Spaaace (unless Spaaace has
-         already been Revived); that player is thereby installed into
-         the office of Astronomor.
-      
-      6. A player CAN with 2 support Revive Politics (unless Politics
-         has already been Revived); that player is thereby installed
-         into the office of Clork.
-      
-      7. If Politics and Spaaace have both been Revived, then any player
-         CAN cause this Rule to repeal itself with Notice.
-      
-      8. Any player CAN with Agoran Consent trigger this Rule.  When
-         this Rule is triggered, the following events happen in order:
-         (a) the Politics Rules are automatically repealed in ascending
-         numerical order (unless Politics has been Revived), (b) the
-         Spaaace Rules are automatically repealed in ascending numerical
-         order (unless Spaaace has been Revived), and (c) this Rule is
-         automatically repealed.
-      
-History:
-
-Enacted by P8177 'Side-Game Suspension Act' (Aris, D. Margaux, G.), 26
-   May 2019
 
 Annotations:
 
@@ -1611,10 +1527,11 @@ Amended(9) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2140/2 (Power=3)
+Rule 2140/3 (Power=3)
 Power Controls Mutability
 
-      No entity with power below the power of this rule can
+      Rules to the contrary notwithstanding, no entity with power below
+      the power of this rule can
       
       1. cause an entity to have power greater than its own.
       
@@ -1633,6 +1550,7 @@ Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
    woggle, ais523), 23 Jan 2009
 Amended(1) by P6992 'Fix rule numbers' (Murphy, omd), 10 Apr 2011
 Amended(2) by R2430, 24 May 2017
+Amended(3) by P8184 'power-limit precedence' (G.), 09 Jul 2019
 
 Annotations:
 CFJ 2981 (called 21 Mar 2011): An attribute of an instrument is not
@@ -3202,12 +3120,14 @@ CFJ 3644 (called 18 Jun 2018): Players can't guarantee actual
    humiliation, so an indication that humiliation might occur is
    sufficient to fulfill the requirement that a reminder be humiliating.
 ------------------------------------------------------------------------
-Rule 1950/33 (Power=3)
+Rule 1950/34 (Power=3)
 Decisions with Adoption Indices
 
-      Adoption index is an untracked switch possessed by Agoran
-      decisions and proposals, whose value is either "none" (default) or
-      an integral multiple of 0.1 from 1.0 to 9.9.
+      Adoption index (AI) is an untracked switch possessed by Agoran
+      decisions and proposals.  For decisions, the possible values are
+      "none" (default) or integral multiples of 0.1 from 1.0 to 9.9.
+      For proposals, the possible values are integral multiples of 0.1
+      from 1.0 to 9.9 (default 1.0).
       
       Adoption index is secured with a power threshold of 2.
       
@@ -3262,6 +3182,7 @@ Amended(30) by P7610 'Low-hanging Fruit' (G.), 22 Dec 2013
 Amended(31) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(32) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
 Amended(33) by P7832 'Quintessential Parameters' (Alexis), 05 Dec 2016
+Amended(34) by P8200 'Sane AI Defaulting' (Aris), 10 Jul 2019
 
 Annotations:
 CFJ 1885 (called 26 Jan 2008): "AGAINT" is a variant spelling of
@@ -4086,8 +4007,8 @@ Vigilante Justice
       game, citing an alleged violation of the rules by that person.
       
       When a player Points a Finger, the investigator SHALL investigate
-      the allegation and CAN, in a timely fashion, SHALL conclude the
-      investigation by:
+      the allegation and CAN, and in a timely fashion SHALL, conclude
+      the investigation by:
       
       - Imposing the Cold Hand of Justice on the perp, as described
         elsewhere; or
@@ -5872,408 +5793,6 @@ History:
 
 Enacted by P8140 'spaaace! v5.2' (twg, Aris, ATMunn, CuddleBeam, D.
    Margaux, G., Gaelan, Murphy, Ørjan, Trigon), 15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-========================================================================
-Politics
-   This is a subgame of Agora built around advising and manipulating
-   twenty politicians to do your will.
-------------------------------------------------------------------------
-Rule 2533/1 (Power=2)
-Political Parties
-
-      There are 5 Parties, in order:
-      
-      - Platonic Isolationists
-      - New Punchbowl Reformers
-      - Costume Conservatives
-      - Substance Use Liberals
-      - Official Raving Monster Looney Party
-      
-      Politicians are entities; each Politician has a name and an
-      associated Party. Politicians exist only as specified by the
-      rules. Creating, altering, or destroying Politicians is secured.
-      
-      If there are ever fewer than 20 Politicians, then the Clork CAN by
-      announcement and SHALL in a timely fashion create a new
-      Politician, specifying eir Party and name. The Party must be
-      selected at random from:
-      
-      - If any Party has fewer than 3 Politicans, the Party or Parties
-        with the fewest.
-      - Otherwise, the Parties with fewer than 5 Politicians.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
-   Aris, Murphy, Trigon), 15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2534/1 (Power=2)
-Clork
-
-      The Clork is an office. The Clork's weekly report includes:
-      - a list of all Politicans with their names and Parties.
-      - the assignment of Policies to Parties.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
-   Aris, Murphy, Trigon), 15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2535/1 (Power=2)
-Echelon Forms
-
-      Posts are entities. Holder is a Post switch, tracked by the Clork,
-      with possible values all Politicians and none (default). No
-      Politician can hold more than one Post at a time. Each Post is in
-      an Echelon, which has an associated Rank. The Echelons, and their
-      Posts and Ranks, are as follows:
-      
-      Chamber of Power (Rank 5):
-      - Host
-      Upper Echelon (Rank 3):
-      - Planner
-      - Enforcer
-      - Organizer
-      - Creep
-      Row Echelon (Rank 1):
-      - Schmoozer
-      - Decorator
-      - Loner
-      - Drunk
-      - Mystery
-      - Wild One
-      - Hat Rack
-      
-      Each Politician who holds a Post is in the Echelon of that post;
-      other Politicians are in the Row-Reduced Echelon, which has Rank
-      0. Likewise, the Rank of a Post or Politician is the Rank of their
-      Echelon.
-      
-      If a rule provides that a Post can take an action, then the
-      Advisor of the holder of that Post CAN take that action. If there
-      is no such player, and the Post is required to take that action,
-      then the Clork CAN do it prior to any deadline for its
-      performance. After a deadline for a Post to perform an action, any
-      player CAN take it.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
-   Aris, Murphy, Trigon), 15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2536/1 (Power=2)
-Taken Under Advisement
-
-      Advisor is a Politician switch, tracked by the Clork, with
-      possible values all players and none (default). For each
-      Politician, Influence over <Politician> is a natural player
-      switch, tracked by the Clork.
-      
-      A player CAN, by announcement, spend Favours in a Politician's
-      Party to gain Influence over that Politican, depending on the
-      Politician's Echelon:
-      - Chamber of Power: 3 Favours for 2 Influence
-      - Upper Echelon: 1 Favour for 1 Influence
-      - Row Echelon: 2 Favours for 3 Influence
-      - Row-Reduced Echelon: 1 Favour for 2 Influence
-      
-      If a player has more Influence over a given Politician than any
-      other player, e can Advise that Politican by announcement. When e
-      does so, if no other player Advises the same Politician later in
-      the same Agoran week, then at the start of the next Agoran week,
-      that player becomes that Politician's Advisor.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
-   Aris, Murphy, Trigon), 15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2537/1 (Power=2)
-Balloons
-
-      Balloons are a fixed currency, tracked by the Clork, with
-      ownership restricted to players. Creation or destruction of
-      balloons is secured.
-      
-      At the start of each Agoran week, after Advisors are flipped:
-      - For each player, if e owns more Balloons than e was awarded by
-        this procedure at the start of the previous week, any excess
-        Balloons are destroyed.
-      - Each player is awarded Balloons equal to the sum of the Ranks of
-        the Politicians for which e is Advisor.
-      - The Decorator's Advisor, if any is awarded one additional
-        Balloon.
-      
-      A player CAN, by announcement, spend a Balloon e owns to increase
-      eir voting strength on a specified Agoran Decision, other than one
-      with an adoption index of 3 or higher, by 1.
-      
-      A player CAN, by announcement, spend Balloons equal to the sum of
-      the Ranks of all Posts in order to win the game. Upon doing so,
-      all eir Influence switches are set to 0.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
-   Aris, Murphy, Trigon), 15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2538/1 (Power=2)
-Party Favours
-
-      For each Party, there is a currency called Favours in that Party.
-      Ownership of Favours is tracked by the Clork. Ownership of Favours
-      is restricted to players.
-      
-      A player CAN, by announcement, spend 3 Favours in a single Party
-      to award another player 2 Favours in that Party.
-      
-      A player CAN, by announcement, spend 3 Favours in a single Party
-      to gain a Favour in another specified Party.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) by P8142 'Let Me Back In!' (twg, Alexis, Aris, Murphy,
-   Trigon), 15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2539/1 (Power=2)
-Retirement
-
-      Stress Level is a natural Politician switch, tracked by the Clork.
-      At the start of each Agoran week, each Politician's Stress Level
-      is increased by eir Rank. If, after this procedure, a Politician's
-      Stress Level is 20 or greater, the Politician announces retirement
-      and is destroyed at the beginning of the following Agoran week.
-      The Clork SHALL announce this fact in a timely fashion.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) by P8142 'Let Me Back In!' (twg, Alexis, Aris, Murphy,
-   Trigon), 15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2540/2 (Power=2)
-Political Elections
-
-      For each Post, Vote for <Post> is a secured Politician switch
-      tracked by the Clork, with possible values all Politicians and
-      undecided (default). For each Politician, the player (if any)
-      advising that politician CAN by announcement flip that
-      Politician’s Vote switch.
-      
-      The voting strength of a Politician for a Post is defined as
-      follows:
-      - For an election for Host, Politicians have strength equal to
-        their Rank.
-      - For an election for an Upper Echelon Post, the Host has strength
-        4, and Upper Echelon Politicians have strength 2.
-      - For an election for a Row Echelon Post, the Host has strength 3,
-        Upper Echelon Politicians have strength 2, and Row Echelon
-        politicians have strength 1.
-      - The Organizer has voting strength 1 greater than e would have
-        based on the above.
-      
-      The eligible Politicians in an election for a Post are all
-      Politicians in the highest non-empty Echelon below that of the
-      Post up for election. The number of votes cast for an eligible
-      Politician in an election is the sum of voting strengths for that
-      Post of all Politicians whose Vote for that Post is the eligible
-      Politician; the number of votes cast for a Politician that is not
-      eligible is 0.
-      
-      An election for a Post is resolvable if that Post is vacant, there
-      is a single Politician with the most votes in that election, and
-      either at least four days have passed since either the vacancy or
-      since its previous occupant Announced Retirement, whichever was
-      first, or if the leader has more votes than the Policitian with
-      the second-most, plus the total voting strength of all undecided
-      Politicians in that election. When an election for a Post is
-      resolvable, any player CAN, by announcement, end the election and
-      install the winning Politician (which must be specified or else
-      the announcement is INEFFECTIVE) into the Post.
-      
-      If a Post is vacant and either has been so for seven days or more
-      than eleven days have passed since its previous holder Announced
-      Retirement, then a player advising a Politician with the most
-      votes, or if no such player exists, the Clork, CAN and SHALL, in a
-      timely fashion, by announcement end the election and install one
-      of the Politicians with the most votes into the Post.
-      
-      When an election for a Post ends, all Vote switches for that Post
-      are set to undecided.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
-   Aris, Murphy, Trigon), 15 Jan 2019
-Amended(2) by P8166 (D. Margaux, twg), 27 Apr 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2586/0 (Power=2)
-Party Policy
-
-      There are 5 Policies, in order:
-      
-      - Justice: interested in seeing justice served
-      - Efficiency: interested in seeing official duties performed
-      - Legislation: interested in seeing proposals passed
-      - Participation: interested in seeing votes cast
-      - Economy: interested in economic activity
-      
-      At any time, each Policy is held by exactly one Party. The
-      assignments must be in cyclic order of their definitions, wrapping
-      from bottom to top. For example, if the Platonic Isolationists
-      hold Participation as their Policy, then the New Punchbowl
-      Reformers hold Economy, the Costume Conservatives hold Justice,
-      and so on.
-      
-      At the start of each Agoran month, the Planner CAN and SHALL, in a
-      timely fashion, by announcement, select a new assignment of
-      Policies to Parties (specifying the Policy of one Party is
-      sufficient, since it implies the remainder). E CANNOT specify
-      either of the assignments used in the previous two months.
-      
-History:
-
-Enacted by P8142 'Let Me Back In!' (twg, Alexis, Aris, Murphy, Trigon),
-   15 Jan 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2542/3 (Power=1)
-Favour Awards
-
-      The following officers CAN by announcement award Favours in the
-      listed Parties only to the extent required by rule.
-      
-      - Arbitor and Referee: the Party holding Justice.
-      - ADoP: the Party holding Efficiency.
-      - Assessor: the Parties holding Legislation and Participation.
-      - Clork: all Parties.
-      
-      When a player judges a CFJ, the Arbitor SHALL, in a timely
-      fashion, award that player 3 Favours in the Party holding Justice.
-      When a player's Finger-Pointing results in a player being fined
-      one or more blots, or when the Referee issues Summary Judgement,
-      the Referee SHALL in a timely fashion award 2 Favours in the Party
-      holding Justice to the responsible player.
-      
-      Complexity is an office switch, tracked by the ADoP, with values
-      0, 1 (default), 2, and 3. The ADoP CAN, without 2 Objections, set
-      the Complexity of an office. As part of eir weekly duties, the
-      ADoP SHALL award to each officeholder a number of Favours in the
-      Party holding Efficiency equal to the Complexity of that Office.
-      
-      Whenever the Assessor resolves an Agoran decision:
-      - If the decision was to adopt a proposal, and it was ADOPTED, e
-        SHALL immediately award the proposal's author a number of
-        Favours in the Party holding Legislation equal to the proposal's
-        AI, rounded up.
-      - For each voter who voted on that Agoran decision and did not
-        already receive this type of award earlier in the same Agoran
-        week, e SHALL award that player 2 Favours in the Party holding
-        Participation.
-      
-      Any player CAN spend 2 coins to gain a Favour in the Party holding
-      Economy.
-      
-      As part of eir weekly duties, the Clork SHALL award, to the
-      Advisor of a Politician holding one of the below Posts, 3
-      Favours in the corresponding Party:
-      - Loner: Platonic Isolationists
-      - Drunk: New Punchbowl Reformers
-      - Mystery: Costume Conservatives
-      - Wild One: Substance Use Liberals
-      - Hat Rack: Official Raving Monster Looney Party
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) and amended by P8142 'Let Me Back In!' (twg, Alexis,
-   Aris, Murphy, Trigon), 15 Jan 2019
-Amended(2) by P8153 'Favour Loophole Closure' (D. Margaux), 22 Feb 2019
-Amended(3) by P8160 'Justice Favour Adjustments' (D. Margaux), 22 Feb
-   2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2543/1 (Power=2)
-Post Powers
-
-      The Creep CAN by announcement, but no more than once per Agoran
-      week, increase eir own Stress Level by 1 in order to increase the
-      Stress Level of another specified Politician by 2.
-      
-      The Schmoozer CAN by announcement, but no more than once per
-      Agoran week, change the Party of a specified other Politician to
-      the next Party in order, wrapping around.
-      
-      The Enforcer CAN, no more than once per week, with Support from at
-      least one other Politician not in the Row-Reduced Echelon, remove
-      a specified Row Echelon Politician from eir Post. E must specify
-      the supporting Politician when doing so, or it is INEFFECTIVE.
-      Upon doing so, both the Enforcer and supporting Politician's
-      Stress Levels are increased by 1.
-      
-History:
-
-Enacted by P7968 'Backed Out the Door' (Alexis, Telnaior, Aris, ais523,
-   G.), 21 Nov 2017
-Repealed by P7999 'Party's Over, Back to Work' (Alexis), 31 Jan 2018
-Re-enacted(1) by P8142 'Let Me Back In!' (twg, Alexis, Aris, Murphy,
-   Trigon), 15 Jan 2019
 
 Annotations:
 
