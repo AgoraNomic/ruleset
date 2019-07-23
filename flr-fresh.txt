@@ -3,18 +3,17 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type: 14 Jul 2019
-Date of this ruleset: 21 Jul 2019
+Date of this ruleset: 23 Jul 2019
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 130
+Number of rules currently enacted: 129
 
-Most recent change to this ruleset: Rule 1950 "Decisions with Adoption
-Indices" amended by Proposal 8200 "Sane AI Defaulting" (Aris), 10 Jul
-2019
+Most recent change to this ruleset: Rule 2588 'Sectors' amended by
+Proposal 8214 'Space Isn't Linear' (nch), 23 Jul 2019
 
 Highest ID'd rule in this ruleset: 2597
-Highest ID'd Proposal Passed: 8200
+Highest ID'd Proposal Passed: 8214
 Highest ID'd Rule Enacted: 2598
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -44,7 +43,6 @@ General Definitions
    * Rule 2124: Agoran Satisfaction
    * Rule 2518: Determinacy
    * Rule 2505: Random Choices
-   * Rule 2517: Conditionals and Extricability
 Entities
    * Rule 1586: Definition and Continuity of Entities
    * Rule 2162: Switches
@@ -99,7 +97,7 @@ Justice
    * Rule 2555: Blots
    * Rule 2478: Vigilante Justice
    * Rule 2479: Official Justice
-   * Rule 2557: Removing Blots
+   * Rule 2557: Sentencing Guidelines
    * Rule 2531: Referee Accountability
 Calls for Judgement
    * Rule  991: Calls for Judgement
@@ -190,7 +188,7 @@ Power Distribution:
 22 with Power=2
 2  with Power=2.1
 1  with Power=2.5
-50 with Power=3
+49 with Power=3
 1  with Power=3.1
 1  with Power=3.14
 1  with Power=3.2
@@ -1324,42 +1322,6 @@ Random Choices
 History:
 
 Enacted by P7883 'Fear v2.1' (G.), 26 Sep 2017
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2517/1 (Power=3)
-Conditionals and Extricability
-
-      A conditional is any textual structure that attempts to make a
-      statement (the substrate) affecting any part or aspect of the
-      gamestate, or the permissibility, possibility, or effect of any
-      action affecting such a part or aspect, dependent on the truth
-      value or other state of a textual structure (the condition). The
-      condition is said to be "affixed" to the substrate (inverse "to be
-      conditional upon").
-      
-      A condition is inextricable if it is unclear, ambiguous, circular,
-      inconsistent, paradoxical, depends on information that is
-      indeterminate, or is impossible or unreasonably difficult to
-      determine, or otherwise requires an unreasonable effort to
-      resolve; otherwise it is extricable. A conditional is inextricable
-      if its condition is inextricable; otherwise it is extricable. A
-      player SHOULD NOT use an inextricable conditional for any purpose.
-      
-      An action is said to be "subject to" a conditional if its
-      possibility, permissibility, or effect (depending on context) is
-      determined by the conditional. A value is said to be subject to a
-      conditional of the state of the value is determined by the
-      conditional.
-      
-History:
-
-Enacted by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
-   D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
-Repealed by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01 Jul
-   2018
-Re-enacted(1) and amended by SLR ratification, 08 May 2019
 
 Annotations:
 
@@ -3233,9 +3195,10 @@ Offices & Reporting
    different mechanics. These rules govern the special
    responsibilities that officers have.
 ------------------------------------------------------------------------
-Rule 1006/42 (Power=2)
+Rule 1006/43 (Power=2)
 Offices
 
+      An Office is a position described as an Office by the Rules.
       Officeholder is an office switch tracked by the ADoP, with
       possible values of any person or "vacant" (default). An officer is
       the holder of an office, who may be referred to by the name of
@@ -3327,6 +3290,7 @@ Amended(39) by P7807 's/I(?=ADoP)//' (aranea), 10 Aug 2016
 Amended(40) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
 Amended(41) by P7958 'Succession Planning' (G.), 12 Nov 2017
 Amended(42) by P8074 'Office Patch' (Aris, G., P.S.S.), 26 Jul 2017
+Amended(43) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -3616,7 +3580,7 @@ CFJ 1672 (called 18 May 2007): The Interstellar Associate Director of
    Personnel is the Director of Personnel.
 
 ------------------------------------------------------------------------
-Rule 2472/2 (Power=2)
+Rule 2472/3 (Power=2)
 Office Incompatibilities
 
       Some pairs of office are incompatible:
@@ -3634,10 +3598,9 @@ Office Incompatibilities
       notwithstanding, a player CANNOT be installed into an office if
       doing so would make em Overpowered.
       
-      If a player is Overpowered, any player CAN Demand Resignation from
-      em by announcement, provided e has announced intent do to so
-      between four and fourteen days earlier. The Overpowered player is
-      then removed from all offices.
+      If a player is Overpowered, any player CAN, with Notice, Demand
+      Resignation from em. When this occurs, each office that the
+      Overpowered player holds becomes vacant.
       
 History:
 
@@ -3645,6 +3608,8 @@ Enacted by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
    2016
 Amended(1) by R2430, 24 May 2017
 Amended(2) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
+Amended(3) by P8206 'Rule 2472 Simplification' (Jason Cobb), 23 Jul
+   2019
 
 Annotations:
 
@@ -3894,7 +3859,7 @@ CFJ 2289 (called 25 Nov 2008): Ratification Without Objection of a value
    is not directly part of the report being ratified.
 
 ------------------------------------------------------------------------
-Rule 2201/7 (Power=3)
+Rule 2201/8 (Power=3)
 Self-Ratification
 
       A public document defined by the rules as self-ratifying is
@@ -3910,7 +3875,8 @@ Self-Ratification
       2. A claim of error, appropriate for matters of fact. The
          publisher of the original document SHALL (if e was required to
          publish that document) or SHOULD (otherwise) do one of the
-         following in a timely fashion:
+         following in a timely fashion, in an announcement that clearly
+         cites the claim of error:
       
          1. Deny the claim (causing it to cease to be a doubt).
       
@@ -3932,6 +3898,7 @@ Amended(5) by P6922 'Take a fourth option' [disi.] (Murphy), 02 Jan
 Amended(6) by P7420 'We don't need to be that idiosyncratic un-derp
    version' (omd), 27 May 2013
 Amended(7) by R2430, 24 May 2017
+Amended(8) by P8188 'Blanket Denial' (G.), 23 Jul 2019
 
 Annotations:
 CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
@@ -4048,12 +4015,14 @@ Amended(9) by P8181 'Referee CAN Impose Fines (v1.1)' (D. Margaux,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2479/5 (Power=1.7)
+Rule 2479/6 (Power=1.7)
 Official Justice
 
-      The Referee CAN, subject to the provisions of this rule, impose
-      Summary Judgment on a person who plays the game by levying a fine
-      of up to 2 blots on em. Summary Judgement is imposed on the
+      Subject to the provisions of this rule, the Referee CAN, by
+      announcement, impose Summary Judgment on a player. When e does so,
+      e levies a fine of up to 2 Blots on em. If e does not specify the
+      number of Blots in the fine, the attempt to impose Summary
+      Judgment is INEFFECTIVE. Summary Judgement is imposed on the
       Referee's own initiative, and not in response to any official
       proceeding.
       
@@ -4072,17 +4041,21 @@ Amended(3) by P7964 'Referee Reform and Card Appealability' (R. Lee),
 Amended(4) by P7964 'Referee Reform and Card Appealability' (R. Lee),
    07 Nov 2017
 Amended(5) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
+Amended(6) by P8189 'Rule 2479 Cleanup (v1.2)' (Jason Cobb), 23 Jul
+   2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2557/1 (Power=1.7)
-Removing Blots
+Rule 2557/2 (Power=1.7)
+Sentencing Guidelines
 
       When the rules authorize an investigator to impose the Cold Hand
-      of Justice for a violation, e CAN do so by levying a fine on the
-      perp with a minimum of 1 and a maximum of 2x the base value of the
-      violation, within the following guidelines:
+      of Justice for a violation, e CAN do so by levying a fine of B on
+      the perp by announcement, within the following guidelines:
+      
+      - B is at least 1 and at most twice the base value of the
+        violation.
       
       - If the violation is described by the rules as a Class N crime,
         then N is the base value; otherwise the base value is 2.
@@ -4107,11 +4080,13 @@ History:
 
 Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(1) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
+Amended(2) by P8202 'Police Power' (Falsifian, Jason Cobb), 23 Jul 2019
+Retitled by P8202 'Police Power' (Falsifian, Jason Cobb), 23 Jul 2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2531/4 (Power=2)
+Rule 2531/5 (Power=2)
 Referee Accountability
 
       Any attempt to levy a fine is INEFFECTIVE if:
@@ -4120,24 +4095,27 @@ Referee Accountability
             the person being fined (the perp), and the specific reason
             for the fine;
       
-        (2) it attempts to levy a fine on a person for an action or
+      Any attempt to levy a fine pursuant to the imposition of the Cold
+      Hand of Justice is INEFFECTIVE if:
+      
+        (1) it attempts to levy a fine on a person for an action or
             inaction which e (more likely than not) did not commit;
       
-        (3) it attempts to levy a fine for an action or inaction which
+        (2) it attempts to levy a fine for an action or inaction which
             is not prohibited by the rules;
       
-        (4) it attempts to levy a fine with a value that is blatantly
+        (3) it attempts to levy a fine with a value that is blatantly
             and obviously unsuited to the conduct which constitutes the
             reason for its levy or to the person on whom it is being
             levied;
       
-        (5) it attempts to levy a fine (i) by summary judgement more
+        (4) it attempts to levy a fine (i) by summary judgement more
             than 14 days after the action constituting the reason for
             the fine or (ii) based upon the investigation of of a Finger
             that had been Pointed more than 14 days after the action
             constituting the reason for the fine;
       
-        (6) it attempts to levy a fine on a player for failing to take
+        (5) it attempts to levy a fine on a player for failing to take
             an action within the time period set by the Rules and that
             time period had expired (i) more than 14 days prior to the
             attempted fine, if the attempted fine is imposed by summary
@@ -4145,11 +4123,11 @@ Referee Accountability
             Finger, if the fine is imposed based on an investigation of
             such Finger;
       
-        (7) it attempts to levy a fine on a player who has already been
+        (6) it attempts to levy a fine on a player who has already been
             fined for the conduct constituting the reason for the levy;
             or
       
-        (8) it attempts to levy a fine on a zombie for an action that
+        (7) it attempts to levy a fine on a zombie for an action that
             its master performed on its behalf.
       
         If the Referee attempts to levy three or more INEFFECTIVE fines
@@ -4169,6 +4147,8 @@ Amended(2) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(3) by P8119 'Criminal Justice Adjustments Act' (G.), 12 Nov
    2018
 Amended(4) by P8130 'Law is Ambiguous Word Act' (Gaelan), 19 Nov 2018
+Amended(5) by P8203 'Fixing Summary Judgement' (Jason Cobb), 23 Jul
+   2019
 
 Annotations:
 
@@ -5085,7 +5065,7 @@ Amended(13) by P8186 'Minor currency fixes' (Jason Cobb), 22 Jun 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/13 (Power=1)
+Rule 2496/14 (Power=1)
 Rewards
 
       A player CAN, by announcement, earn the set of assets associated
@@ -5103,10 +5083,10 @@ Rewards
       * Judging a CFJ that e was assigned to without violating a time
         limit to do so: 5 coins.
       
-      * Publishing a duty-fulfilling report: 5 coins. For each office,
-        this reward can only be claimed for the first weekly report
-        published in a week and the first monthly report published in a
-        month.
+      * Publishing an office's weekly or monthly report, provided that
+        publication was the first report published for that office in
+        the relevant time period (week or month respectively) to fulfill
+        an official weekly or monthly duty: 5 coins.
       
       * Resolving an Agoran Decision on whether to adopt a proposal,
         provided that no other Agoran Decision on whether to adopt that
@@ -5139,6 +5119,7 @@ Amended(11) by P8141 'Miscellaneous Reward Fixes v2' (twg, G., Ørjan),
 Amended(12) by P8174 'Understated' (G.), 08 May 2019
 Amended(13) by P8180 'Paying our Assessor' (Trigon, D. Margaux), 22 Jun
    2019
+Amended(14) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
 
 Annotations:
 
@@ -5338,7 +5319,7 @@ CFJ 3633 (called 18 Jun 2018): Saying "x on y" where x is an integer and
 CFJ 3740 (called 20 Jun 2019): The successfulness of a bid does not
    depend on having the bid amount at the time the bid was placed.
 ------------------------------------------------------------------------
-Rule 2551/2 (Power=1)
+Rule 2551/3 (Power=1)
 Auction End
 
       An Auction ends 7 days after its initiation, or immediately if no
@@ -5369,11 +5350,12 @@ Auction End
       previous lot. If there are more lots than there are persons with
       non-withdrawn bids, the excess lots are not won by any person.
       
-      The winner of a lot SHALL pay the Auctioneer the number of the
-      Auction's currency equal to eir bid, in a single payment, in a
-      timely fashion. When e does so, if the auctioneer CAN transfer the
-      items in that lot to that winner at will, e immediately does so;
-      otherwise, e SHALL do so in a timely fashion.
+      The winner of the lot SHALL, in a timely fashion, pay a fee (the
+      number of the Auction's currency equal to eir bid) to the
+      Auctioneer in order to satisfy eir auction debt. When e does so,
+      if the auctioneer CAN transfer the items in that lot to that
+      winner at will, e immediately does so; otherwise, e SHALL do so in
+      a timely fashion.
       
 History:
 
@@ -5381,6 +5363,7 @@ Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nch, G.), 26 Nov 2017
 Amended(1) by P8041 'Consolidated Patch' (Aris, Trigon, G.), 27 Apr
    2018
 Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
+Amended(3) by P8192 'auctions have fees' (G.), 23 Jul 2019
 
 Annotations:
 CFJ 3615 (called 27 Nov 2017): An auction normally ends immediately
@@ -5562,7 +5545,7 @@ Spaaace!
    A subgame of Agora based on traveling around the galaxy and having
    Space Battles with each other.
 ------------------------------------------------------------------------
-Rule 2588/0 (Power=1)
+Rule 2588/1 (Power=1)
 Sectors
 
       Sectors are entities; each Sector has an ID number, which is (the
@@ -5573,12 +5556,16 @@ Sectors
       If no Spaceship is in a particular Sector, then that Sector is
       "empty"; otherwise it is "occupied".
       
-      Two Sectors are "adjacent" if their IDs differ by exactly 1.
+      Two Sectors are "adjacent" if their IDs differ by exactly 1. If a
+      sector exists with an ID equivalent to the current month of the
+      year, and a sector exists with an ID equivalent to the current day
+      of the month then those sectors are adjacent.
       
 History:
 
 Enacted by P8140 'spaaace! v5.2' (twg, Aris, ATMunn, CuddleBeam, D.
    Margaux, G., Gaelan, Murphy, Ørjan, Trigon), 15 Jan 2019
+Amended(1) by P8214 'Space Isn't Linear' (nch), 23 Jul 2019
 
 Annotations:
 
@@ -5621,7 +5608,7 @@ Enacted by P8140 'spaaace! v5.2' (twg, Aris, ATMunn, CuddleBeam, D.
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2591/1 (Power=1)
+Rule 2591/2 (Power=1)
 Spaceships
 
       Spaceships are a class of fixed asset, tracked by the Astronomor,
@@ -5632,7 +5619,7 @@ Spaceships
         with the lowest ID number);
       
       * Armour (an integer switch limited to values less than or equal
-        to 10).
+        to 10, defaulting to 10).
       
       A Spaceship is "in" its Location. For a Spaceship to "move" to a
       Sector is for its Location to be flipped to that Sector. When a
@@ -5648,11 +5635,15 @@ Spaceships
       Armour of a Pilotable Spaceship e owns by 1. This is called
       "Repairing" the Spaceship.
       
+      If a player does not have a spaceship in eir possession e CAN, by
+      announcement, create a spaceship in eir posession.
+      
 History:
 
 Enacted by P8140 'spaaace! v5.2' (twg, Aris, ATMunn, CuddleBeam, D.
    Margaux, G., Gaelan, Murphy, Ørjan, Trigon), 15 Jan 2019
 Amended(1) by P8155 'Spaaace Loophole' (twg, Telnaior), 22 Feb 2019
+Amended(2) by P8213 'Space Fixes' (nch), 23 Jul 2019
 
 Annotations:
 
@@ -6202,15 +6193,17 @@ Enacted by P7516 'Badges Badges Badges Badges' (G.), 19 Jul 2013
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1367/19 (Power=3)
+Rule 1367/20 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
       
       - Associate of Nomic                 (A.N.)
+      - Juris Doctor of Nomic              (J.N.)
       - Bachelor of Nomic                  (B.N.)
       - Master of Nomic                    (M.N.)
       - Doctor of Nomic History            (D.N.Hist.)
+      - Doctor of Nomic Law                (D.N.Law.)
       - Doctor of Nomic Science            (D.N.Sci.)
       - Doctor of Nomic Philosophy         (D.N.Phil.)
       
@@ -6258,6 +6251,7 @@ Amended(17) by P7420 'We don't need to be that idiosyncratic un-derp
    version' (omd), 27 May 2013
 Amended(18) by P7591 'Conflicts of Interest' (Alexis), 14 Sep 2013
 Amended(19) by P7620 'Fire the Full Committee' (omd), 24 Jan 2014
+Amended(20) by P8211 'Law School' (G.), 23 Jul 2019
 
 Annotations:
 

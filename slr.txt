@@ -2,19 +2,18 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 14 Jul 2019
-Date of this ruleset: 21 Jul 2019
+Date of last official ruleset of this type: 21 Jul 2019
+Date of this ruleset: 23 Jul 2019
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 130
+Number of rules currently enacted: 129
 
-Most recent change to this ruleset: Rule 1950 "Decisions with Adoption
-Indices" amended by Proposal 8200 "Sane AI Defaulting" (Aris), 10 Jul
-2019
+Most recent change to this ruleset: Rule 2588 'Sectors' amended by
+Proposal 8214 'Space Isn't Linear' (nch), 23 Jul 2019
 
 Highest ID'd rule in this ruleset: 2597
-Highest ID'd Proposal Passed: 8200
+Highest ID'd Proposal Passed: 8214
 Highest ID'd Rule Enacted: 2598
 
 ========================================================================
@@ -474,32 +473,6 @@ Random Choices
       in advance. The selecting person SHOULD make the selection method
       public, and SHOULD use a method for which the final probability
       distribution can be readily confirmed.
-      
-------------------------------------------------------------------------
-Rule 2517/1 (Power=3)
-Conditionals and Extricability
-
-      A conditional is any textual structure that attempts to make a
-      statement (the substrate) affecting any part or aspect of the
-      gamestate, or the permissibility, possibility, or effect of any
-      action affecting such a part or aspect, dependent on the truth
-      value or other state of a textual structure (the condition). The
-      condition is said to be "affixed" to the substrate (inverse "to be
-      conditional upon").
-      
-      A condition is inextricable if it is unclear, ambiguous, circular,
-      inconsistent, paradoxical, depends on information that is
-      indeterminate, or is impossible or unreasonably difficult to
-      determine, or otherwise requires an unreasonable effort to
-      resolve; otherwise it is extricable. A conditional is inextricable
-      if its condition is inextricable; otherwise it is extricable. A
-      player SHOULD NOT use an inextricable conditional for any purpose.
-      
-      An action is said to be "subject to" a conditional if its
-      possibility, permissibility, or effect (depending on context) is
-      determined by the conditional. A value is said to be subject to a
-      conditional of the state of the value is determined by the
-      conditional.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -1357,9 +1330,10 @@ Offices & Reporting
    different mechanics. These rules govern the special
    responsibilities that officers have.
 ------------------------------------------------------------------------
-Rule 1006/42 (Power=2)
+Rule 1006/43 (Power=2)
 Offices
 
+      An Office is a position described as an Office by the Rules.
       Officeholder is an office switch tracked by the ADoP, with
       possible values of any person or "vacant" (default). An officer is
       the holder of an office, who may be referred to by the name of
@@ -1501,7 +1475,7 @@ The Associate Director of Personnel
          interim.
       
 ------------------------------------------------------------------------
-Rule 2472/2 (Power=2)
+Rule 2472/3 (Power=2)
 Office Incompatibilities
 
       Some pairs of office are incompatible:
@@ -1519,10 +1493,9 @@ Office Incompatibilities
       notwithstanding, a player CANNOT be installed into an office if
       doing so would make em Overpowered.
       
-      If a player is Overpowered, any player CAN Demand Resignation from
-      em by announcement, provided e has announced intent do to so
-      between four and fourteen days earlier. The Overpowered player is
-      then removed from all offices.
+      If a player is Overpowered, any player CAN, with Notice, Demand
+      Resignation from em. When this occurs, each office that the
+      Overpowered player holds becomes vacant.
       
 ------------------------------------------------------------------------
 Rule 2143/27 (Power=1)
@@ -1648,7 +1621,7 @@ Ratification Without Objection
       is the Class-8 Crime of Endorsing Forgery.
       
 ------------------------------------------------------------------------
-Rule 2201/7 (Power=3)
+Rule 2201/8 (Power=3)
 Self-Ratification
 
       A public document defined by the rules as self-ratifying is
@@ -1664,7 +1637,8 @@ Self-Ratification
       2. A claim of error, appropriate for matters of fact. The
          publisher of the original document SHALL (if e was required to
          publish that document) or SHOULD (otherwise) do one of the
-         following in a timely fashion:
+         following in a timely fashion, in an announcement that clearly
+         cites the claim of error:
       
          1. Deny the claim (causing it to cease to be a doubt).
       
@@ -1745,12 +1719,14 @@ Vigilante Justice
       Finger at the Referee.
       
 ------------------------------------------------------------------------
-Rule 2479/5 (Power=1.7)
+Rule 2479/6 (Power=1.7)
 Official Justice
 
-      The Referee CAN, subject to the provisions of this rule, impose
-      Summary Judgment on a person who plays the game by levying a fine
-      of up to 2 blots on em. Summary Judgement is imposed on the
+      Subject to the provisions of this rule, the Referee CAN, by
+      announcement, impose Summary Judgment on a player. When e does so,
+      e levies a fine of up to 2 Blots on em. If e does not specify the
+      number of Blots in the fine, the attempt to impose Summary
+      Judgment is INEFFECTIVE. Summary Judgement is imposed on the
       Referee's own initiative, and not in response to any official
       proceeding.
       
@@ -1758,13 +1734,15 @@ Official Justice
       a week.
       
 ------------------------------------------------------------------------
-Rule 2557/1 (Power=1.7)
-Removing Blots
+Rule 2557/2 (Power=1.7)
+Sentencing Guidelines
 
       When the rules authorize an investigator to impose the Cold Hand
-      of Justice for a violation, e CAN do so by levying a fine on the
-      perp with a minimum of 1 and a maximum of 2x the base value of the
-      violation, within the following guidelines:
+      of Justice for a violation, e CAN do so by levying a fine of B on
+      the perp by announcement, within the following guidelines:
+      
+      - B is at least 1 and at most twice the base value of the
+        violation.
       
       - If the violation is described by the rules as a Class N crime,
         then N is the base value; otherwise the base value is 2.
@@ -1786,7 +1764,7 @@ Removing Blots
       remorse, and ardent desire for self-improvement.
       
 ------------------------------------------------------------------------
-Rule 2531/4 (Power=2)
+Rule 2531/5 (Power=2)
 Referee Accountability
 
       Any attempt to levy a fine is INEFFECTIVE if:
@@ -1795,24 +1773,27 @@ Referee Accountability
             the person being fined (the perp), and the specific reason
             for the fine;
       
-        (2) it attempts to levy a fine on a person for an action or
+      Any attempt to levy a fine pursuant to the imposition of the Cold
+      Hand of Justice is INEFFECTIVE if:
+      
+        (1) it attempts to levy a fine on a person for an action or
             inaction which e (more likely than not) did not commit;
       
-        (3) it attempts to levy a fine for an action or inaction which
+        (2) it attempts to levy a fine for an action or inaction which
             is not prohibited by the rules;
       
-        (4) it attempts to levy a fine with a value that is blatantly
+        (3) it attempts to levy a fine with a value that is blatantly
             and obviously unsuited to the conduct which constitutes the
             reason for its levy or to the person on whom it is being
             levied;
       
-        (5) it attempts to levy a fine (i) by summary judgement more
+        (4) it attempts to levy a fine (i) by summary judgement more
             than 14 days after the action constituting the reason for
             the fine or (ii) based upon the investigation of of a Finger
             that had been Pointed more than 14 days after the action
             constituting the reason for the fine;
       
-        (6) it attempts to levy a fine on a player for failing to take
+        (5) it attempts to levy a fine on a player for failing to take
             an action within the time period set by the Rules and that
             time period had expired (i) more than 14 days prior to the
             attempted fine, if the attempted fine is imposed by summary
@@ -1820,11 +1801,11 @@ Referee Accountability
             Finger, if the fine is imposed based on an investigation of
             such Finger;
       
-        (7) it attempts to levy a fine on a player who has already been
+        (6) it attempts to levy a fine on a player who has already been
             fined for the conduct constituting the reason for the levy;
             or
       
-        (8) it attempts to levy a fine on a zombie for an action that
+        (7) it attempts to levy a fine on a zombie for an action that
             its master performed on its behalf.
       
         If the Referee attempts to levy three or more INEFFECTIVE fines
@@ -2272,7 +2253,7 @@ Economics
       A player CAN win the game by paying a fee of 1,000 Coins.
       
 ------------------------------------------------------------------------
-Rule 2496/13 (Power=1)
+Rule 2496/14 (Power=1)
 Rewards
 
       A player CAN, by announcement, earn the set of assets associated
@@ -2290,10 +2271,10 @@ Rewards
       * Judging a CFJ that e was assigned to without violating a time
         limit to do so: 5 coins.
       
-      * Publishing a duty-fulfilling report: 5 coins. For each office,
-        this reward can only be claimed for the first weekly report
-        published in a week and the first monthly report published in a
-        month.
+      * Publishing an office's weekly or monthly report, provided that
+        publication was the first report published for that office in
+        the relevant time period (week or month respectively) to fulfill
+        an official weekly or monthly duty: 5 coins.
       
       * Resolving an Agoran Decision on whether to adopt a proposal,
         provided that no other Agoran Decision on whether to adopt that
@@ -2425,7 +2406,7 @@ Bidding
       em to pay that amount at the conclusion of the Auction.
       
 ------------------------------------------------------------------------
-Rule 2551/2 (Power=1)
+Rule 2551/3 (Power=1)
 Auction End
 
       An Auction ends 7 days after its initiation, or immediately if no
@@ -2456,11 +2437,12 @@ Auction End
       previous lot. If there are more lots than there are persons with
       non-withdrawn bids, the excess lots are not won by any person.
       
-      The winner of a lot SHALL pay the Auctioneer the number of the
-      Auction's currency equal to eir bid, in a single payment, in a
-      timely fashion. When e does so, if the auctioneer CAN transfer the
-      items in that lot to that winner at will, e immediately does so;
-      otherwise, e SHALL do so in a timely fashion.
+      The winner of the lot SHALL, in a timely fashion, pay a fee (the
+      number of the Auction's currency equal to eir bid) to the
+      Auctioneer in order to satisfy eir auction debt. When e does so,
+      if the auctioneer CAN transfer the items in that lot to that
+      winner at will, e immediately does so; otherwise, e SHALL do so in
+      a timely fashion.
       
 ------------------------------------------------------------------------
 Rule 2552/0 (Power=1)
@@ -2589,7 +2571,7 @@ Spaaace!
    A subgame of Agora based on traveling around the galaxy and having
    Space Battles with each other.
 ------------------------------------------------------------------------
-Rule 2588/0 (Power=1)
+Rule 2588/1 (Power=1)
 Sectors
 
       Sectors are entities; each Sector has an ID number, which is (the
@@ -2600,7 +2582,10 @@ Sectors
       If no Spaceship is in a particular Sector, then that Sector is
       "empty"; otherwise it is "occupied".
       
-      Two Sectors are "adjacent" if their IDs differ by exactly 1.
+      Two Sectors are "adjacent" if their IDs differ by exactly 1. If a
+      sector exists with an ID equivalent to the current month of the
+      year, and a sector exists with an ID equivalent to the current day
+      of the month then those sectors are adjacent.
       
 ------------------------------------------------------------------------
 Rule 2589/0 (Power=1)
@@ -2627,7 +2612,7 @@ The Astronomor
       a list of all Sectors and their ID numbers.
       
 ------------------------------------------------------------------------
-Rule 2591/1 (Power=1)
+Rule 2591/2 (Power=1)
 Spaceships
 
       Spaceships are a class of fixed asset, tracked by the Astronomor,
@@ -2638,7 +2623,7 @@ Spaceships
         with the lowest ID number);
       
       * Armour (an integer switch limited to values less than or equal
-        to 10).
+        to 10, defaulting to 10).
       
       A Spaceship is "in" its Location. For a Spaceship to "move" to a
       Sector is for its Location to be flipped to that Sector. When a
@@ -2653,6 +2638,9 @@ Spaceships
       Any player CAN, by announcement, spend a coin to increase the
       Armour of a Pilotable Spaceship e owns by 1. This is called
       "Repairing" the Spaceship.
+      
+      If a player does not have a spaceship in eir possession e CAN, by
+      announcement, create a spaceship in eir posession.
       
 ------------------------------------------------------------------------
 Rule 2592/0 (Power=1)
@@ -3025,15 +3013,17 @@ Badges
       existing badge to persons Without Objection.
       
 ------------------------------------------------------------------------
-Rule 1367/19 (Power=3)
+Rule 1367/20 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
       
       - Associate of Nomic                 (A.N.)
+      - Juris Doctor of Nomic              (J.N.)
       - Bachelor of Nomic                  (B.N.)
       - Master of Nomic                    (M.N.)
       - Doctor of Nomic History            (D.N.Hist.)
+      - Doctor of Nomic Law                (D.N.Law.)
       - Doctor of Nomic Science            (D.N.Sci.)
       - Doctor of Nomic Philosophy         (D.N.Phil.)
       
