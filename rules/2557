@@ -1,11 +1,13 @@
 id: 2557
-name: Removing Blots
+name: Sentencing Guidelines
 power: 1.7
 text: |
   When the rules authorize an investigator to impose the Cold Hand
-  of Justice for a violation, e CAN do so by levying a fine on the
-  perp with a minimum of 1 and a maximum of 2x the base value of the
-  violation, within the following guidelines:
+  of Justice for a violation, e CAN do so by levying a fine of B on
+  the perp by announcement, within the following guidelines:
+
+  - B is at least 1 and at most twice the base value of the
+    violation.
   
   - If the violation is described by the rules as a Class N crime,
     then N is the base value; otherwise the base value is 2.
@@ -37,4 +39,14 @@ history:
   date: 2018-04-27
   agent:
     proposal: "8040"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8202"
+- change:
+    type: retitling
+  date: 2019-07-23
+  agent:
+    proposal: "8202"
 annotations: []

@@ -17,10 +17,9 @@ text: |
   notwithstanding, a player CANNOT be installed into an office if
   doing so would make em Overpowered.
 
-  If a player is Overpowered, any player CAN Demand Resignation from
-  em by announcement, provided e has announced intent do to so
-  between four and fourteen days earlier. The Overpowered player is
-  then removed from all offices.
+  If a player is Overpowered, any player CAN, with Notice, Demand
+  Resignation from em. When this occurs, each office that the
+  Overpowered player holds becomes vacant.
 history:
 - change:
     type: enactment
@@ -37,4 +36,9 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7912"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8206"
 annotations: []

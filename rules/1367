@@ -5,9 +5,11 @@ text: |
   Certain patent titles are known as degrees. The degrees are
 
   - Associate of Nomic                 (A.N.)
+  - Juris Doctor of Nomic              (J.N.)
   - Bachelor of Nomic                  (B.N.)
   - Master of Nomic                    (M.N.)
   - Doctor of Nomic History            (D.N.Hist.)
+  - Doctor of Nomic Law                (D.N.Law.)
   - Doctor of Nomic Science            (D.N.Sci.)
   - Doctor of Nomic Philosophy         (D.N.Phil.)
 
@@ -146,4 +148,9 @@ history:
   date: 2014-01-24
   agent:
     proposal: "7620"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8211"
 annotations: []

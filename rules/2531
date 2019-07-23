@@ -7,25 +7,28 @@ text: |
     (1) it does not include value of the fine in blots, the name of
         the person being fined (the perp), and the specific reason
         for the fine;
+
+  Any attempt to levy a fine pursuant to the imposition of the Cold
+  Hand of Justice is INEFFECTIVE if:
   
-    (2) it attempts to levy a fine on a person for an action or
+    (1) it attempts to levy a fine on a person for an action or
         inaction which e (more likely than not) did not commit;
   
-    (3) it attempts to levy a fine for an action or inaction which
+    (2) it attempts to levy a fine for an action or inaction which
         is not prohibited by the rules;
   
-    (4) it attempts to levy a fine with a value that is blatantly
+    (3) it attempts to levy a fine with a value that is blatantly
         and obviously unsuited to the conduct which constitutes the
         reason for its levy or to the person on whom it is being
         levied;
   
-    (5) it attempts to levy a fine (i) by summary judgement more
+    (4) it attempts to levy a fine (i) by summary judgement more
         than 14 days after the action constituting the reason for
         the fine or (ii) based upon the investigation of of a Finger
         that had been Pointed more than 14 days after the action
         constituting the reason for the fine;
   
-    (6) it attempts to levy a fine on a player for failing to take
+    (5) it attempts to levy a fine on a player for failing to take
         an action within the time period set by the Rules and that
         time period had expired (i) more than 14 days prior to the
         attempted fine, if the attempted fine is imposed by summary
@@ -33,11 +36,11 @@ text: |
         Finger, if the fine is imposed based on an investigation of
         such Finger;
   
-    (7) it attempts to levy a fine on a player who has already been
+    (6) it attempts to levy a fine on a player who has already been
         fined for the conduct constituting the reason for the levy;
         or
   
-    (8) it attempts to levy a fine on a zombie for an action that
+    (7) it attempts to levy a fine on a zombie for an action that
         its master performed on its behalf.
   
     If the Referee attempts to levy three or more INEFFECTIVE fines
@@ -79,4 +82,9 @@ history:
   date: 2018-11-19
   agent:
     proposal: "8130"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8203"
 annotations: []

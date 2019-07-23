@@ -10,10 +10,18 @@ text: |
   If no Spaceship is in a particular Sector, then that Sector is
   "empty"; otherwise it is "occupied".
 
-  Two Sectors are "adjacent" if their IDs differ by exactly 1.
+  Two Sectors are "adjacent" if their IDs differ by exactly 1. If a
+  sector exists with an ID equivalent to the current month of the
+  year, and a sector exists with an ID equivalent to the current day
+  of the month then those sectors are adjacent.
 history:
 - change:
     type: enactment
   date: 2019-01-15
   agent:
     proposal: "8140"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8214"

@@ -10,7 +10,7 @@ text: |
     with the lowest ID number);
 
   * Armour (an integer switch limited to values less than or equal
-    to 10).
+    to 10, defaulting to 10).
 
   A Spaceship is "in" its Location. For a Spaceship to "move" to a
   Sector is for its Location to be flipped to that Sector. When a
@@ -25,6 +25,9 @@ text: |
   Any player CAN, by announcement, spend a coin to increase the
   Armour of a Pilotable Spaceship e owns by 1. This is called
   "Repairing" the Spaceship.
+
+  If a player does not have a spaceship in eir possession e CAN, by
+  announcement, create a spaceship in eir posession.
 history:
 - change:
     type: enactment
@@ -36,3 +39,8 @@ history:
   date: 2019-02-22
   agent:
     proposal: "8155"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8213"
