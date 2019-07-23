@@ -30,11 +30,12 @@ text: |
   previous lot. If there are more lots than there are persons with
   non-withdrawn bids, the excess lots are not won by any person.
 
-  The winner of a lot SHALL pay the Auctioneer the number of the
-  Auction's currency equal to eir bid, in a single payment, in a
-  timely fashion. When e does so, if the auctioneer CAN transfer the
-  items in that lot to that winner at will, e immediately does so;
-  otherwise, e SHALL do so in a timely fashion.
+  The winner of the lot SHALL, in a timely fashion, pay a fee (the
+  number of the Auction's currency equal to eir bid) to the
+  Auctioneer in order to satisfy eir auction debt. When e does so,
+  if the auctioneer CAN transfer the items in that lot to that
+  winner at will, e immediately does so; otherwise, e SHALL do so in
+  a timely fashion.
 history:
 - change:
     type: enactment
@@ -52,6 +53,11 @@ history:
   date: 2018-11-12
   agent:
     proposal: "8113"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8192"
 annotations:
 - cfjs:
   - id: '3615'

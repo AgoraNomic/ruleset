@@ -2,9 +2,11 @@ id: 2479
 name: Official Justice
 power: 1.7
 text: |
-  The Referee CAN, subject to the provisions of this rule, impose
-  Summary Judgment on a person who plays the game by levying a fine
-  of up to 2 blots on em. Summary Judgement is imposed on the
+  Subject to the provisions of this rule, the Referee CAN, by
+  announcement, impose Summary Judgment on a player. When e does so,
+  e levies a fine of up to 2 Blots on em. If e does not specify the
+  number of Blots in the fine, the attempt to impose Summary
+  Judgment is INEFFECTIVE. Summary Judgement is imposed on the
   Referee's own initiative, and not in response to any official
   proceeding.
 
@@ -41,4 +43,9 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8029"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8189"
 annotations: []

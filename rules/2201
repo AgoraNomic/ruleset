@@ -15,7 +15,8 @@ text: |
   2. A claim of error, appropriate for matters of fact. The
      publisher of the original document SHALL (if e was required to
      publish that document) or SHOULD (otherwise) do one of the
-     following in a timely fashion:
+     following in a timely fashion, in an announcement that clearly
+     cites the claim of error:
 
      1. Deny the claim (causing it to cease to be a doubt).
 
@@ -65,6 +66,11 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8188"
 annotations:
 - cfjs:
   - id: '1690'

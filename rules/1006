@@ -2,6 +2,7 @@ id: 1006
 name: Offices
 power: 2
 text: |
+  An Office is a position described as an Office by the Rules.
   Officeholder is an office switch tracked by the ADoP, with
   possible values of any person or "vacant" (default). An officer is
   the holder of an office, who may be referred to by the name of
@@ -287,6 +288,11 @@ history:
   date: 2017-07-26
   agent:
     proposal: "8074"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8190"
 annotations:
 - cfjs:
   - id: '1660'

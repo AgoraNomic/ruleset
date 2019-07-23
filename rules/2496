@@ -17,10 +17,10 @@ text: |
   * Judging a CFJ that e was assigned to without violating a time
     limit to do so: 5 coins.
 
-  * Publishing a duty-fulfilling report: 5 coins. For each office,
-    this reward can only be claimed for the first weekly report
-    published in a week and the first monthly report published in a
-    month.
+  * Publishing an office's weekly or monthly report, provided that
+    publication was the first report published for that office in
+    the relevant time period (week or month respectively) to fulfill
+    an official weekly or monthly duty: 5 coins.
 
   * Resolving an Agoran Decision on whether to adopt a proposal,
     provided that no other Agoran Decision on whether to adopt that
@@ -105,4 +105,9 @@ history:
   date: 2019-06-22
   agent:
     proposal: "8180"
+- change:
+    type: amendment
+  date: 2019-07-23
+  agent:
+    proposal: "8190"
 annotations: []
