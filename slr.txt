@@ -2,18 +2,18 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 23 Jul 2019
-Date of this ruleset: 1 Aug 2019
+Date of last official ruleset of this type: 1 Aug 2019
+Date of this ruleset: 7 Sep 2019
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 129
+Number of rules currently enacted: 121
 
-Most recent change to this ruleset: Rule 2588 'Sectors' amended by
-Proposal 8214 'Space Isn't Linear' (nch), 23 Jul 2019
+Most recent change to this ruleset: Rule 2532 'Zombies' amended by
+Proposal 8246 'Tracking of Master' (Jason Cobb), 5 Sep 2019
 
 Highest ID'd rule in this ruleset: 2597
-Highest ID'd Proposal Passed: 8214
+Highest ID'd Proposal Passed: 8247
 Highest ID'd Rule Enacted: 2598
 
 ========================================================================
@@ -629,7 +629,7 @@ Proposals
       retract, withdraw) it from the Pool by announcement.
       
 ------------------------------------------------------------------------
-Rule 1607/44 (Power=3)
+Rule 1607/45 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -646,16 +646,17 @@ Distribution
       The Promotor CAN distribute a proposal which is in the Proposal
       Pool at any time, by announcement.
       
-      In a given Agoran week, the Promotor SHALL, as part of eir weekly
-      duties, distribute all proposals in the Proposal Pool except for
-      those exempted from automatic distribution by other rules.
+      In a given Agoran week, the Promotor SHALL distribute each
+      proposal that was in the Proposal Pool at the beginning of that
+      week, except for those excepted from automatic distribution by
+      other rules, or those that are otherwise removed from the Pool.
       
       Distributed proposals have ID numbers, to be assigned by the
       Promotor.
       
       If there is a Proposal in the Pool that it would otherwise be
       IMPOSSIBLE for any player to distribute, then any player CAN
-      distribute that Proposal Without 3 Objections.
+      distribute that Proposal without 3 objections.
       
       The Promotor's report includes a list of all proposals in the
       Proposal Pool, along with their text and attributes. This portion
@@ -896,7 +897,7 @@ Rule Changes
       a rule or cease to be a rule.
       
 ------------------------------------------------------------------------
-Rule 2493/5 (Power=3)
+Rule 2493/6 (Power=3)
 Regulations
 
       A regulation is an textual entity defined as such by this rule,
@@ -906,7 +907,7 @@ Regulations
       
       A regulation CAN be enacted, amended, and repealed as specified by
       its parent rule. By default, a Promulgator can enact, amend, or
-      repeal a regulation with 2 Agoran Consent. Regulations are tracked
+      repeal a regulation with 2 Agoran consent. Regulations are tracked
       in their Promulgator's weekly report.
       
 ------------------------------------------------------------------------
@@ -1330,7 +1331,7 @@ Offices & Reporting
    different mechanics. These rules govern the special
    responsibilities that officers have.
 ------------------------------------------------------------------------
-Rule 1006/43 (Power=2)
+Rule 1006/44 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -1352,7 +1353,7 @@ Offices
       
       The holder of an elected office CAN resign it by announcement,
       causing it to become vacant. The non-interim holder of an elected
-      office CAN, With 3 Support, resign the office while appointing
+      office CAN, with 3 support, resign the office while appointing
       another player to become the holder of the office, provided that
       other player is one of the Supporters. Any player CAN cause an
       office to become vacant without 2 objections.
@@ -1362,12 +1363,12 @@ Offices
       becomes the holder of the office.
       
 ------------------------------------------------------------------------
-Rule 2154/52 (Power=2)
+Rule 2154/53 (Power=2)
 Election Procedure
 
       A player CAN initiate an election for a specified office:
       
-      a) With 2 Support, if either the office is interim or the most
+      a) with 2 support, if either the office is interim or the most
          recent election for that office was resolved more than 90 days
          prior, and provided that the initiator becomes a candidate in
          the same message.
@@ -1416,22 +1417,23 @@ Election Procedure
       office and the election ends.
       
 ------------------------------------------------------------------------
-Rule 2573/0 (Power=2)
+Rule 2573/1 (Power=2)
 Impeachment
 
       A player CAN be expelled (impeached) from a specified elected
-      office which e holds with 2 Agoran Consent. When a person is
+      office which e holds with 2 Agoran consent. When a person is
       impeached from an office, an election is immediately opened for
       that office. Players SHOULD NOT use this method of removal unless
       the officer has abused the powers of eir office or otherwise shown
       emself unworthy the trust of Agora.
       
 ------------------------------------------------------------------------
-Rule 2160/19 (Power=3)
+Rule 2160/20 (Power=3)
 Deputisation
 
-      A player (the deputy) CAN perform an action ordinarily reserved
-      for an office-holder as if e held the office if
+      A player acting on eir own behalf (the deputy) CAN perform an
+      action ordinarily reserved for an office-holder as if e held the
+      office if
       
       1. the rules require the holder of that office, by virtue of
          holding that office, to perform the action (this requirement is
@@ -1475,7 +1477,7 @@ The Associate Director of Personnel
          interim.
       
 ------------------------------------------------------------------------
-Rule 2472/3 (Power=2)
+Rule 2472/4 (Power=2)
 Office Incompatibilities
 
       Some pairs of office are incompatible:
@@ -1493,12 +1495,14 @@ Office Incompatibilities
       notwithstanding, a player CANNOT be installed into an office if
       doing so would make em Overpowered.
       
+      A zombie who holds one or more offices is Overpowered.
+      
       If a player is Overpowered, any player CAN, with Notice, Demand
       Resignation from em. When this occurs, each office that the
       Overpowered player holds becomes vacant.
       
 ------------------------------------------------------------------------
-Rule 2143/27 (Power=1)
+Rule 2143/28 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -1520,7 +1524,7 @@ Official Reports and Duties
       Any information defined by the rules as part of a person's report,
       without specifying which one, is part of eir weekly report.
       Failure of a person to perform any duty required of em within the
-      allotted time is the Class-2 crime of Tardiness.
+      allotted time is the Class 2 Crime of Tardiness.
       
       An official duty for an office is any duty that the Rules
       specifically assign to that office's holder in particular
@@ -1601,7 +1605,7 @@ Ratification
       Ratifying a public document is secured with power threshold 3.
       
 ------------------------------------------------------------------------
-Rule 2202/6 (Power=3)
+Rule 2202/7 (Power=3)
 Ratification Without Objection
 
       Any player CAN, without objection, ratify a public document,
@@ -1618,7 +1622,7 @@ Ratification Without Objection
       unless the general nature of the document's error and reason for
       ratifying it is clearly and plainly described in the announcement
       of intent. Such ratification or announcement of intent to ratify
-      is the Class-8 Crime of Endorsing Forgery.
+      is the Class 8 Crime of Endorsing Forgery.
       
 ------------------------------------------------------------------------
 Rule 2201/8 (Power=3)
@@ -1667,7 +1671,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
       
 ------------------------------------------------------------------------
-Rule 2555/2 (Power=2)
+Rule 2555/3 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1683,9 +1687,11 @@ Blots
       
       The Referee is an office, and the recordkeepor for blots.
       
-      If a player has neither gained blots nor expunged any blots from
-      emself in the current Agoran week, e CAN expunge 1 blot from
-      emself by announcement.
+      If a person (the penitent) has neither gained blots nor had more
+      than 2 blots expunged from emself in the current Agoran week, then
+      any player (the confessor) who has not expunged any blots in the
+      current Agoran week CAN expunge 1 blot from the penitent, by
+      announcement.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -1734,7 +1740,7 @@ Official Justice
       a week.
       
 ------------------------------------------------------------------------
-Rule 2557/2 (Power=1.7)
+Rule 2557/3 (Power=1.7)
 Sentencing Guidelines
 
       When the rules authorize an investigator to impose the Cold Hand
@@ -1744,8 +1750,10 @@ Sentencing Guidelines
       - B is at least 1 and at most twice the base value of the
         violation.
       
-      - If the violation is described by the rules as a Class N crime,
-        then N is the base value; otherwise the base value is 2.
+      - If the violation is described by the rules as a "Class N Crime"
+        (where N is a positive integer, or an expression that evaluates
+        to a positive integer), then N is the base value; otherwise the
+        base value is 2.
       
       - The fine SHOULD be reduced to the degree that the violation is a
         minor, accidental, and/or inconsequential infraction.
@@ -1764,7 +1772,7 @@ Sentencing Guidelines
       remorse, and ardent desire for self-improvement.
       
 ------------------------------------------------------------------------
-Rule 2531/5 (Power=2)
+Rule 2531/6 (Power=2)
 Referee Accountability
 
       Any attempt to levy a fine is INEFFECTIVE if:
@@ -1787,19 +1795,15 @@ Referee Accountability
             reason for its levy or to the person on whom it is being
             levied;
       
-        (4) it attempts to levy a fine (i) by summary judgement more
-            than 14 days after the action constituting the reason for
-            the fine or (ii) based upon the investigation of of a Finger
-            that had been Pointed more than 14 days after the action
-            constituting the reason for the fine;
+        (4) it attempts to levy a fine based upon the investigation of
+            of a Finger that had been Pointed more than 14 days after
+            the action constituting the reason for the fine;
       
         (5) it attempts to levy a fine on a player for failing to take
             an action within the time period set by the Rules and that
-            time period had expired (i) more than 14 days prior to the
-            attempted fine, if the attempted fine is imposed by summary
-            judgement or (ii) more than 14 days prior to the Pointed
-            Finger, if the fine is imposed based on an investigation of
-            such Finger;
+            time period had expired more than 14 days prior to the
+            Pointed Finger, if the fine is imposed based on an
+            investigation of such Finger;
       
         (6) it attempts to levy a fine on a player who has already been
             fined for the conduct constituting the reason for the levy;
@@ -1821,7 +1825,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/30 (Power=2)
+Rule 991/31 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -1851,23 +1855,19 @@ Calls for Judgement
       (if any). The Arbitor SHALL assign judges over time such that all
       interested players have reasonably equal opportunities to judge.
       If a CFJ has no judge assigned, then any player eligible to judge
-      that CFJ CAN assign it to emself Without 3 Objections.
+      that CFJ CAN assign it to emself without 3 objections.
       
       The Arbitor's weekly report includes a summary of recent judicial
       case activity, including open and recently-judged cases, recent
       judicial assignments, and a list of players interested in judging.
       
 ------------------------------------------------------------------------
-Rule 591/45 (Power=1.7)
+Rule 591/46 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
       a valid judgement to it by announcement, and SHALL do so in a
-      timely fashion after this becomes possible. If e does not, the
-      Arbitor CAN remove em from being the judge of that case by
-      announcement, and SHALL do so in a timely fashion after the time
-      limit expires, unless the judge assigns a valid judgement in the
-      mean time.
+      timely fashion after this becomes possible.
       
       The valid judgements for an inquiry case are as follows, based on
       the facts and legal situation at the time the inquiry case was
@@ -1905,7 +1905,7 @@ Delivering Judgements
         arises from the case itself or in reference to it.
       
 ------------------------------------------------------------------------
-Rule 911/54 (Power=1.7)
+Rule 911/55 (Power=1.7)
 Motions and Moots
 
       If a judgement has been in effect for less then seven days and has
@@ -1915,7 +1915,7 @@ Motions and Moots
         case by announcement, if e has not already self-filed a Motion
         to Reconsider that CFJ.
       - Any Player CAN group-file a Motion to Reconsider the case with 2
-        Support, if the CFJ has not had a Motion to Reconsider
+        support, if the CFJ has not had a Motion to Reconsider
         group-filed for it at any time while it has been assigned to its
         current judge.
       
@@ -1959,19 +1959,20 @@ Judicial Retraction and Excess
       regards to that case.
       
 ------------------------------------------------------------------------
-Rule 2492/3 (Power=1)
+Rule 2492/4 (Power=1)
 Recusal
 
       A judge CAN recuse emself from a CFJ e is assigned to by
-      announcement. When a judge recuses emself from a CFJ, then
+      announcement.
       
-      * the CFJ becomes unassigned;
+      The Arbitor CAN recuse a judge from a case by announcement, if that
+      judge has violated a time limit for judging the case and has not
+      judged it in the mean time; the Arbitor SHALL do so in a timely
+      fashion after the time limit expires, if able.
       
-      * the recused judge becomes ineligible to be assigned as a judge
-      * for a week; and
-      
-      * the recused judge SHOULD suggest another judge for the CFJ to
-      * make the Arbitor's job easier.
+      If a judge is recused from a case 4+ days after being assigned to
+      it, e SHOULD NOT be assigned as a judge until e has apologised and
+      or reasonably explained eir actions.
       
 ------------------------------------------------------------------------
 Rule 2246/6 (Power=2)
@@ -2311,12 +2312,12 @@ Welcome Packages
       When a player receives a Welcome Package, e earns 10 coins.
       
 ------------------------------------------------------------------------
-Rule 2585/1 (Power=1)
+Rule 2585/2 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
       anniversary of the day e first registered. If the day a player
-      first registered is unknown, that player CAN, with Agoran Consent,
+      first registered is unknown, that player CAN, with Agoran consent,
       declare a day to be eir Agoran Birthday. As long as the day a
       player first registered remains unknown, it is considered to be
       eir Agoran Birthday on the anniversary of the day e most recently
@@ -2468,13 +2469,13 @@ Free Auctions
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/3 (Power=2)
+Rule 2532/4 (Power=2)
 Zombies
 
-      Master is a secured player switch with possible values of any
-      player, and Agora. Every player's default master is emself; rules
-      to the contrary notwithstanding, a player CAN always flip eir own
-      master to emself by announcement.
+      Master is a secured player switch, tracked by the Registrar, with
+      possible values of any player, and Agora. Every player's default
+      master is emself; rules to the contrary notwithstanding, a player
+      CAN always flip eir own master to emself by announcement.
       
       A player whose master is not emself is a zombie (syn. inactive);
       all other players are active.  A zombie's master, if another
@@ -2502,10 +2503,10 @@ Zombies
       Welcome Package by announcement.
       
 ------------------------------------------------------------------------
-Rule 2574/2 (Power=3)
+Rule 2574/3 (Power=3)
 Zombie Life Cycle
 
-      Any player CAN, with Notice, flip the master switch of an active
+      Any player CAN, with notice, flip the master switch of an active
       player who has not made a public announcement in the past 60 days
       to Agora.
       
@@ -2520,7 +2521,7 @@ Zombie Life Cycle
       flipped to a player other than emself, rules to the contrary
       notwithstanding.
       
-      Any player CAN, with Notice:
+      Any player CAN, with notice:
         - If a zombie has been a zombie for the past 90 days and not had
           Agora for a master during any of that time, flip the zombie's
           master switch to Agora;
@@ -2567,190 +2568,6 @@ Zombie Auctions
       
 ------------------------------------------------------------------------
 ========================================================================
-Spaaace!
-   A subgame of Agora based on traveling around the galaxy and having
-   Space Battles with each other.
-------------------------------------------------------------------------
-Rule 2588/1 (Power=1)
-Sectors
-
-      Sectors are entities; each Sector has an ID number, which is (the
-      number of existent sectors that were created before it + 1).
-      
-      Creating, destroying or altering Sectors is secured.
-      
-      If no Spaceship is in a particular Sector, then that Sector is
-      "empty"; otherwise it is "occupied".
-      
-      Two Sectors are "adjacent" if their IDs differ by exactly 1. If a
-      sector exists with an ID equivalent to the current month of the
-      year, and a sector exists with an ID equivalent to the current day
-      of the month then those sectors are adjacent.
-      
-------------------------------------------------------------------------
-Rule 2589/0 (Power=1)
-Galaxy Maintenance
-
-      Ideal Sector Count is the number of Spaceships plus two.
-      
-      If there are ever fewer Sectors than the Ideal Sector Count, then
-      the Astronomor CAN by announcement and SHALL in a timely fashion
-      create a new Sector.
-      
-      If there are ever more Sectors than the Ideal Sector Count, then
-      the Astronomor CAN by announcement and SHALL in a timely fashion
-      destroy an empty Sector.
-      
-      Violation of this rule is the Class-3 Crime of Galaxy Neglect.
-      
-------------------------------------------------------------------------
-Rule 2590/0 (Power=1)
-The Astronomor
-
-      The Astronomor is an office. The Astronomor's weekly report
-      includes, in addition to any information required by other rules,
-      a list of all Sectors and their ID numbers.
-      
-------------------------------------------------------------------------
-Rule 2591/2 (Power=1)
-Spaceships
-
-      Spaceships are a class of fixed asset, tracked by the Astronomor,
-      with ownership restricted to players. The following are Spaceship
-      switches, tracked by the Astronomor:
-      
-      * Location (possible values any Sector, defaulting to the Sector
-        with the lowest ID number);
-      
-      * Armour (an integer switch limited to values less than or equal
-        to 10, defaulting to 10).
-      
-      A Spaceship is "in" its Location. For a Spaceship to "move" to a
-      Sector is for its Location to be flipped to that Sector. When a
-      player registers, a Spaceship is created in eir possession. When a
-      Spaceship is created, it immediately moves to the lowest-numbered
-      empty Sector, if any.
-      
-      A Spaceship with an Armour of 0 or less is "Defeated". A
-      Spaceship is "Pilotable" if it is neither Defeated nor engaging
-      in a Space Battle.
-      
-      Any player CAN, by announcement, spend a coin to increase the
-      Armour of a Pilotable Spaceship e owns by 1. This is called
-      "Repairing" the Spaceship.
-      
-      If a player does not have a spaceship in eir possession e CAN, by
-      announcement, create a spaceship in eir posession.
-      
-------------------------------------------------------------------------
-Rule 2592/0 (Power=1)
-Spaceship Energy
-
-      Energy is a fixed currency, tracked by the Astronomor, with
-      ownership restricted to Spaceships. If a Spaceship's Energy
-      balance exceeds 20, any excess Energy it possesses is destroyed.
-      
-      When a Spaceship is created, 20 Energy is created in its
-      possession.
-      
-      At the start of each Agoran day, each Pilotable Spaceship gains 2
-      Energy. Any player also CAN, by announcement, pay 2 coins to grant
-      a Pilotable Spaceship e owns 1 Energy.
-      
-      Any player CAN, by announcement, cause a Pilotable Spaceship e
-      owns to pay 1 Energy to move to a Sector adjacent to its Location.
-      
-------------------------------------------------------------------------
-Rule 2593/3 (Power=1)
-Space Battles
-
-      Two players are "allied" if they agree to be allied or if one is
-      the master of the other; otherwise they are "opponents". For the
-      purposes of this rule, agreement includes both consent and
-      agreement specified by contract.
-      
-      A player who owns a Pilotable Spaceship in the same Sector as one
-      of eir opponents' Pilotable Spaceships CAN, by announcement,
-      initiate a Space Battle between the two Spaceships. These two
-      players are the "combatants" of the Space Battle, and the two
-      Spaceships are then "engaging" in the Space Battle until it is
-      resolved.
-      
-      A Space Battle CANNOT be initiated if either of the two involved
-      Spaceships has been engaging in a Space Battle within the last 24
-      hours or if the prior Space Battle the spaceship initiating the
-      Space Battle has been in was against the spaceship it is
-      attacking.
-      
-      The resolver for a Space Battle is the player highest in the
-      following list at the time of the Space Battle's initiation who is
-      not a combatant in the Space Battle:
-      
-      1) the Astronomor;
-      2) the Arbitor;
-      3) the Prime Minister;
-      4) the non-combatant active player who has least recently
-         registered.
-      
-      For the initiation of a Space Battle to be EFFECTIVE, the
-      initiator must correctly specify the resolver.
-      
-      In a timely fashion after a Space Battle is initiated, the
-      combatants SHOULD each once communicate to the resolver the amount
-      of Energy they wish to spend in the battle, via any method that
-      cannot be understood by the other combatant until e has also
-      fulfilled this obligation. For example:
-      
-      * by publishing a salted cryptographic hash, and revealing its
-        text after the other combatant has also communicated the Energy
-        e will spend;
-      * by sending the amount to the resolver in a private message;
-      * by publishing the amount, if the other combatant has already
-        communicated the Energy e will spend.
-      
-      For the resolver to reveal the Energy a combatant is spending
-      before both combatants have made their decisions is the Class-5
-      Crime of Violating General Relativity.
-      
-      After both combatants have communicated the Energy they will
-      spend, or if the time limit to do so has expired, the resolver
-      CAN, and SHALL in a timely fashion, resolve the Space Battle by
-      announcing the changes in each Spaceship's Energy balance and
-      Armour (described below), and the Winner (if any) of the Space
-      Battle.
-      
-      When a Space Battle is resolved:
-      
-      1) N Energy is revoked from each Spaceship, where N is the lesser
-         of the Spaceship's Energy balance and the amount of Energy
-         decided on by the Spaceship's owner, or 0 if the Spaceship's
-         owner failed to do so;
-      2) each Spaceship's Armour is decreased by X, where X is the
-         lesser of the Spaceship's Armour and the amount of Energy
-         revoked from the other Spaceship;
-      3) the Winner of the Space Battle is the combatant, if any, whose
-         Spaceship's Armour was reduced by a smaller amount than the
-         other Spaceship's.
-      
-------------------------------------------------------------------------
-Rule 2594/0 (Power=1)
-Fame
-
-      Fame is an integer player switch tracked by the Astronomor,
-      limited to values between -10 and 10 inclusive. Players with
-      positive Fame are "Famous", and those with negative Fame are
-      "Infamous".
-      
-      If a player is the Winner in a Space Battle against an Infamous
-      player, eir Fame is increased by 1. Likewise, if a player is the
-      Winner in a Space Battle against a Famous player or one with a
-      Fame of 0, eir Fame is decreased by 1.
-      
-      Any player whose Fame is either 10 or -10 CAN win the game With 2
-      Days Notice.
-      
-------------------------------------------------------------------------
-========================================================================
 Victory & Karma
    All games have winners, and Agora is no exception. If you're
    interested in getting some serious bragging points among the Agorans,
@@ -2773,7 +2590,7 @@ Victory by Apathy
       players. Upon doing so, the specified players win the game.
       
 ------------------------------------------------------------------------
-Rule 2510/4 (Power=1)
+Rule 2510/5 (Power=1)
 Such is Karma
 
       Karma is a person switch tracked by the Herald in eir Weekly
@@ -2814,19 +2631,9 @@ Such is Karma
       Each player's positions in Court are part of of the Herald's
       Weekly Report.
       
-------------------------------------------------------------------------
-Rule 2511/2 (Power=1)
-Karmic Balance
-
-      In a timely fashion after the beginning of each Quarter, the
-      Herald CAN and SHALL by announcement, perform the following tasks
-      in order:
-      
-      1. Halve (rounding towards 0) the Karma of every Unregistered
-         person.
-      
-      2. Set the Karma of Agora such that the sum of all Karma switch
-         instance values in the game is equal to 0.
+      At the beginning of each quarter, the Karma of every Unregistered
+      person is halved (rounding towards 0), then the Karma of Agora is
+      set such that the sum of all Karma values in the game equals 0.
       
 ------------------------------------------------------------------------
 Rule 2553/0 (Power=1)
@@ -2846,7 +2653,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/9 (Power=3)
+Rule 2438/10 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -2883,10 +2690,10 @@ Ribbons
       which no valid ballots were AGAINST (after evaluating
       conditionals), its proposer earns an Orange Ribbon.
       
-      Green (G): While a person has held an elected office continuously
-      for 30 days, and has not failed to perform any duties of that
-      office within the appropriate time limits during those 30 days,
-      that person qualifies for a Green Ribbon.
+      Green (G): While a person holds an elected office, has done so
+      continuously for the past 30 days, and has not failed to perform
+      any duties of that office within the appropriate time limits
+      during those 30 days, that person qualifies for a Green Ribbon.
       
       Cyan (C): When a person deputises for an office, that person earns
       a Cyan Ribbon.
@@ -2895,8 +2702,8 @@ Ribbons
       never violated a time limit to assign a judgement to that CFJ,
       that person earns a Blue Ribbon.
       
-      Magenta (M): During Agora's Birthday, each person who has publicly
-      acknowledged the fact qualifies for a Magenta Ribbon.
+      Magenta (M): When, during Agora's Birthday, a person publicly
+      acknowledges it, that person earns a Magenta Ribbon.
       
       Ultraviolet (U): When a person is awarded the Patent Title
       Champion, that person earns an Ultraviolet Ribbon.
@@ -2929,8 +2736,9 @@ Ribbons
       monthly report.
       
       Transparent (T): A person qualifies for a Transparent Ribbon while
-      the number of other types of Ribbon that that person qualifies for
-      and/or has earned within the previous 7 days is at least 5.
+      the number of other types of Ribbon that that person qualifies
+      for, earns, and/or was awarded within the previous 7 days is at
+      least 5.
       
 ------------------------------------------------------------------------
 Rule 2480/2 (Power=2.1)
@@ -2979,7 +2787,7 @@ Festival Restrictions
       effect and are ignored.
       
 ------------------------------------------------------------------------
-Rule 649/40 (Power=1.5)
+Rule 649/41 (Power=1.5)
 Patent Titles
 
       A Patent Title is a legal title given to a person in recognition
@@ -2993,7 +2801,7 @@ Patent Titles
       contesting the validity of those conditions.
       
       The Herald CAN award a specified Patent Title to a specified
-      player With 2 Agoran Consent.
+      player with 2 Agoran consent.
       
       If a player publicly petitions that the Herald award a patent
       title to another player for a specified reason, the Herald SHALL
@@ -3002,18 +2810,18 @@ Patent Titles
       title is warranted.
       
 ------------------------------------------------------------------------
-Rule 2415/0 (Power=1.5)
+Rule 2415/1 (Power=1.5)
 Badges
 
       A Badge is any patent title with the word 'badge' as part of its
       name. A badge SHOULD be used to award multiple persons for
       participating in specific event of note within Agora.  Any player
       CAN award a badge that does not yet exist to three or more persons
-      simultaneously, with Agoran Consent. The Herald CAN award an
-      existing badge to persons Without Objection.
+      simultaneously, with Agoran consent. The Herald CAN award an
+      existing badge to persons without objection.
       
 ------------------------------------------------------------------------
-Rule 1367/20 (Power=3)
+Rule 1367/21 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -3031,7 +2839,7 @@ Degrees
       degrees listed later being ranked higher. A specific degree CANNOT
       be awarded to any person more than once.
       
-      A specified degree CAN be awarded with 2 Agoran Consent, and
+      A specified degree CAN be awarded with 2 Agoran consent, and
       SHOULD only be awarded for the publication of an original thesis
       of scholarly worth (including responses to peer-review), published
       with explicit intent to qualify for a degree. The Herald SHOULD
@@ -3060,11 +2868,11 @@ Order of the Hero of Agora Nomic
       beyond the call of duty.
       
 ------------------------------------------------------------------------
-Rule 2581/1 (Power=1)
+Rule 2581/2 (Power=1)
 Official Patent Titles
 
       The following Patent Titles CAN be awarded by the indicated
-      Officers with 2 Agoran Consent.  In order to balance the history,
+      Officers with 2 Agoran consent.  In order to balance the history,
       dignity, spontaneity, and serendipity of the awards, the Herald,
       Speaker, and Prime Minister are STRONGLY ENCOURAGED to provide
       their support or objections, and reasons for doing so, reasonably
@@ -3117,13 +2925,13 @@ Official Patent Titles
       especially if the potential awardee is the officer emself.
       
 ------------------------------------------------------------------------
-Rule 2582/0 (Power=1)
+Rule 2582/1 (Power=1)
 Annual Awards
 
       April is hereby designated Awards Month.
       
       The following Patent Titles CAN be awarded by the indicated
-      Officers with 2 Agoran Consent, provided the intent to make
+      Officers with 2 Agoran consent, provided the intent to make
       the awards is announced during awards month, and the award is
       made to commemorate acts performed in the previous Agoran year.
       The full name of each awarded Patent Title is [Title Below] NNNN,
@@ -3160,7 +2968,7 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/25 (Power=2)
+Rule 103/26 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -3178,7 +2986,7 @@ The Speaker
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
-      the office with Support.
+      the office with support.
       
       For an election of the Prime Minister, the Speaker has voting
       strength one greater than e would have if e did not hold the
@@ -3204,11 +3012,11 @@ First Among Equals
       the Prime Minister.
       
 ------------------------------------------------------------------------
-Rule 2463/0 (Power=1)
+Rule 2463/1 (Power=1)
 Motion of No Confidence
 
       Any player can cause the office of Prime Minister to become vacant
-      with 2 Agoran Consent by publishing a message with the character
+      with 2 Agoran consent by publishing a message with the character
       string "MOTION OF NO CONFIDENCE" in the subject line.
       
 ------------------------------------------------------------------------
@@ -3239,12 +3047,12 @@ Executive Orders
         proposal in the Proposal Pool.
       
 ------------------------------------------------------------------------
-Rule 2575/0 (Power=3)
+Rule 2575/1 (Power=3)
 The Distributor
 
       The Distributor is an imposed office whose holder is generally
       responsible for the management of the primary Agoran fora. The
-      holder CANNOT be changed except Without Objection or by proposal.
+      holder CANNOT be changed except without objection or by proposal.
       Rules to the contrary notwithstanding, the Distributor's master
       switch CANNOT be flipped to be other than emself, and e CANNOT
       deregister or be deregistered.
@@ -3322,12 +3130,12 @@ Tournaments
       player by announcement.
       
 ------------------------------------------------------------------------
-Rule 2566/0 (Power=1)
+Rule 2566/1 (Power=1)
 Free Tournaments
 
       A player who is not the gamemaster of an existing tournament CAN
       initiate a sanctioned tournament with a specified set of
-      regulations with 2 Agoran Consent. A tournament created using this
+      regulations with 2 Agoran consent. A tournament created using this
       method is called a Free Tournament. Rules to the contrary
       notwithstanding, only players CAN win the game via a free
       tournament.
@@ -3357,7 +3165,7 @@ The Birthday Tournament
       After adequate time for discussion of the Birthday Tournament's
       regulations, the Herald (or delegate) CAN initiate a sanctioned
       tournament, promulgating a specified, finalized set of tournament
-      regulations, Without 3 Objections. This title may thereafter
+      regulations, without 3 objections. This title may thereafter
       be amended only by the Herald or eir designee Without 3
       Objections. The initiation SHOULD be timed to coincide
       with Agora's Birthday.
