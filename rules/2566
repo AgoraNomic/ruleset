@@ -4,7 +4,7 @@ power: 1
 text: |
   A player who is not the gamemaster of an existing tournament CAN
   initiate a sanctioned tournament with a specified set of
-  regulations with 2 Agoran Consent. A tournament created using this
+  regulations with 2 Agoran consent. A tournament created using this
   method is called a Free Tournament. Rules to the contrary
   notwithstanding, only players CAN win the game via a free
   tournament.
@@ -21,4 +21,9 @@ history:
   date: 2018-04-06
   agent:
     proposal: "8032"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
 annotations: []

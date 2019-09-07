@@ -2,7 +2,7 @@ id: 2574
 name: Zombie Life Cycle
 power: 3
 text: |
-  Any player CAN, with Notice, flip the master switch of an active
+  Any player CAN, with notice, flip the master switch of an active
   player who has not made a public announcement in the past 60 days
   to Agora.
 
@@ -17,7 +17,7 @@ text: |
   flipped to a player other than emself, rules to the contrary
   notwithstanding.
 
-  Any player CAN, with Notice:
+  Any player CAN, with notice:
     - If a zombie has been a zombie for the past 90 days and not had
       Agora for a master during any of that time, flip the zombie's
       master switch to Agora;
@@ -48,4 +48,9 @@ history:
   date: 2019-06-22
   agent:
     proposal: "8182"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
 annotations: []

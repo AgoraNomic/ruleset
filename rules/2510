@@ -39,6 +39,10 @@ text: |
 
   Each player's positions in Court are part of of the Herald's
   Weekly Report.
+
+  At the beginning of each quarter, the Karma of every Unregistered
+  person is halved (rounding towards 0), then the Karma of Agora is
+  set such that the sum of all Karma values in the game equals 0.
 history:
 - change:
     type: enactment
@@ -65,4 +69,9 @@ history:
   date: 2018-11-12
   agent:
     proposal: "8112"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8234"
 annotations: []

@@ -3,15 +3,16 @@ name: Recusal
 power: 1
 text: |
   A judge CAN recuse emself from a CFJ e is assigned to by
-  announcement. When a judge recuses emself from a CFJ, then
+  announcement.
 
-  * the CFJ becomes unassigned;
+  The Arbitor CAN recuse a judge from a case by announcement, if that
+  judge has violated a time limit for judging the case and has not
+  judged it in the mean time; the Arbitor SHALL do so in a timely
+  fashion after the time limit expires, if able.
 
-  * the recused judge becomes ineligible to be assigned as a judge
-  * for a week; and
-
-  * the recused judge SHOULD suggest another judge for the CFJ to
-  * make the Arbitor's job easier.
+  If a judge is recused from a case 4+ days after being assigned to
+  it, e SHOULD NOT be assigned as a judge until e has apologised and
+  or reasonably explained eir actions.
 history:
 - change:
     type: enactment
@@ -34,4 +35,9 @@ history:
   agent:
     ratification:
       document: ruleset
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8215"
 annotations: []

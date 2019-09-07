@@ -17,7 +17,7 @@ text: |
 
   If the office of Speaker has been held continuously by the same
   person for 90+ days, then any player CAN appoint another player to
-  the office with Support.
+  the office with support.
 
   For an election of the Prime Minister, the Speaker has voting
   strength one greater than e would have if e did not hold the
@@ -189,4 +189,9 @@ history:
   date: 2018-11-12
   agent:
     proposal: "8117"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
 annotations: []

@@ -12,11 +12,21 @@ text: |
   Winner in a Space Battle against a Famous player or one with a
   Fame of 0, eir Fame is decreased by 1.
 
-  Any player whose Fame is either 10 or -10 CAN win the game With 2
-  Days Notice.
+  Any player whose Fame is either 10 or -10 CAN win the game with 2
+  days notice.
 history:
 - change:
     type: enactment
   date: 2019-01-15
   agent:
     proposal: "8140"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
+- change:
+    type: repeal
+  date: 2019-09-05
+  agent:
+    proposal: "8229"

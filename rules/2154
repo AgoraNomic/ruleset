@@ -4,7 +4,7 @@ power: 2
 text: |
   A player CAN initiate an election for a specified office:
 
-  a) With 2 Support, if either the office is interim or the most
+  a) with 2 support, if either the office is interim or the most
      recent election for that office was resolved more than 90 days
      prior, and provided that the initiator becomes a candidate in
      the same message.
@@ -326,4 +326,9 @@ history:
   date: 2018-02-24
   agent:
     proposal: "8013"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
 annotations: []

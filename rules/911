@@ -9,7 +9,7 @@ text: |
     case by announcement, if e has not already self-filed a Motion
     to Reconsider that CFJ.
   - Any Player CAN group-file a Motion to Reconsider the case with 2
-    Support, if the CFJ has not had a Motion to Reconsider
+    support, if the CFJ has not had a Motion to Reconsider
     group-filed for it at any time while it has been assigned to its
     current judge.
 
@@ -352,6 +352,11 @@ history:
   date: 2017-10-29
   agent:
     proposal: "7930"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
 annotations:
 - cfjs:
   - id: '1597'

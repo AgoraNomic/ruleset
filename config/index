@@ -186,18 +186,6 @@
   - 2532 # Zombies
   - 2574 # Zombie Life Cycle
   - 1885 # Zombie Actions
-- name: Spaaace!
-  note: |
-    A subgame of Agora based on traveling around the galaxy and having
-    Space Battles with each other.
-  rules:
-  - 2588 # Sectors
-  - 2589 # Galaxy Maintenance
-  - 2590 # The Astronomor
-  - 2591 # Spaceships
-  - 2592 # Spaceship Energy
-  - 2593 # Space Battles
-  - 2594 # Fame
 - name: Victory & Karma
   note: |
     All games have winners, and Agora is no exception. If you're
@@ -207,7 +195,6 @@
   - 2449 # Winning the Game
   - 2465 # Victory by Apathy
   - 2510 # Such is Karma
-  - 2511 # Karmic Balance
   - 2553 # Win by Paradox
 - name: Awards
   note: |

@@ -21,7 +21,7 @@ text: |
 
   The holder of an elected office CAN resign it by announcement,
   causing it to become vacant. The non-interim holder of an elected
-  office CAN, With 3 Support, resign the office while appointing
+  office CAN, with 3 support, resign the office while appointing
   another player to become the holder of the office, provided that
   other player is one of the Supporters. Any player CAN cause an
   office to become vacant without 2 objections.
@@ -293,6 +293,11 @@ history:
   date: 2019-07-23
   agent:
     proposal: "8190"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
 annotations:
 - cfjs:
   - id: '1660'

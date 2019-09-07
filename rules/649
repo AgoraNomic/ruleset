@@ -13,7 +13,7 @@ text: |
   contesting the validity of those conditions.
 
   The Herald CAN award a specified Patent Title to a specified
-  player With 2 Agoran Consent.
+  player with 2 Agoran consent.
 
   If a player publicly petitions that the Herald award a patent
   title to another player for a specified reason, the Herald SHALL
@@ -240,6 +240,11 @@ history:
   date: 2018-10-01
   agent:
     proposal: "8099"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
 annotations:
 - cfjs:
   - id: '1525'

@@ -17,6 +17,8 @@ text: |
   notwithstanding, a player CANNOT be installed into an office if
   doing so would make em Overpowered.
 
+  A zombie who holds one or more offices is Overpowered.
+
   If a player is Overpowered, any player CAN, with Notice, Demand
   Resignation from em. When this occurs, each office that the
   Overpowered player holds becomes vacant.
@@ -41,4 +43,9 @@ history:
   date: 2019-07-23
   agent:
     proposal: "8206"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8228"
 annotations: []

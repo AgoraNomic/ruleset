@@ -4,11 +4,7 @@ power: 1.7
 text: |
   When a CFJ is open and assigned to a judge, that judge CAN assign
   a valid judgement to it by announcement, and SHALL do so in a
-  timely fashion after this becomes possible. If e does not, the
-  Arbitor CAN remove em from being the judge of that case by
-  announcement, and SHALL do so in a timely fashion after the time
-  limit expires, unless the judge assigns a valid judgement in the
-  mean time.
+  timely fashion after this becomes possible.
 
   The valid judgements for an inquiry case are as follows, based on
   the facts and legal situation at the time the inquiry case was
@@ -315,6 +311,11 @@ history:
   date: 2017-11-26
   agent:
     proposal: "7976"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8215"
 annotations:
 - cfjs:
   - id: '1835'

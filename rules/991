@@ -29,7 +29,7 @@ text: |
   (if any). The Arbitor SHALL assign judges over time such that all
   interested players have reasonably equal opportunities to judge.
   If a CFJ has no judge assigned, then any player eligible to judge
-  that CFJ CAN assign it to emself Without 3 Objections.
+  that CFJ CAN assign it to emself without 3 objections.
 
   The Arbitor's weekly report includes a summary of recent judicial
   case activity, including open and recently-judged cases, recent
@@ -223,6 +223,11 @@ history:
   date: 2018-12-02
   agent:
     proposal: "8134"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8221"
 annotations:
 - cfjs:
   - id: 1692-1693

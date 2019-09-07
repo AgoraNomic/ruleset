@@ -2,8 +2,9 @@ id: 2160
 name: Deputisation
 power: 3
 text: |
-  A player (the deputy) CAN perform an action ordinarily reserved
-  for an office-holder as if e held the office if
+  A player acting on eir own behalf (the deputy) CAN perform an
+  action ordinarily reserved for an office-holder as if e held the
+  office if
 
   1. the rules require the holder of that office, by virtue of
      holding that office, to perform the action (this requirement is
@@ -143,6 +144,11 @@ history:
   date: 2019-02-22
   agent:
     proposal: "8159"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8228"
 annotations:
 - cfjs:
   - id: '1776'
