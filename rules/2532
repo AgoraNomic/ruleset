@@ -2,10 +2,10 @@ id: 2532
 name: Zombies
 power: 2
 text: |
-  Master is a secured player switch with possible values of any
-  player, and Agora. Every player's default master is emself; rules
-  to the contrary notwithstanding, a player CAN always flip eir own
-  master to emself by announcement.
+  Master is a secured player switch, tracked by the Registrar, with
+  possible values of any player, and Agora. Every player's default
+  master is emself; rules to the contrary notwithstanding, a player
+  CAN always flip eir own master to emself by announcement.
 
   A player whose master is not emself is a zombie (syn. inactive);
   all other players are active.  A zombie's master, if another
@@ -54,4 +54,9 @@ history:
   agent:
     cleaning:
       by: Falsifian
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8246"
 annotations: []

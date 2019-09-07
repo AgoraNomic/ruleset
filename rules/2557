@@ -9,8 +9,10 @@ text: |
   - B is at least 1 and at most twice the base value of the
     violation.
   
-  - If the violation is described by the rules as a Class N crime,
-    then N is the base value; otherwise the base value is 2.
+  - If the violation is described by the rules as a "Class N Crime"
+    (where N is a positive integer, or an expression that evaluates
+    to a positive integer), then N is the base value; otherwise the
+    base value is 2.
   
   - The fine SHOULD be reduced to the degree that the violation is a
     minor, accidental, and/or inconsequential infraction.
@@ -49,4 +51,9 @@ history:
   date: 2019-07-23
   agent:
     proposal: "8202"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8244"
 annotations: []

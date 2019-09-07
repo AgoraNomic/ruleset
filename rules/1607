@@ -16,9 +16,10 @@ text: |
   The Promotor CAN distribute a proposal which is in the Proposal
   Pool at any time, by announcement.
 
-  In a given Agoran week, the Promotor SHALL, as part of eir weekly
-  duties, distribute all proposals in the Proposal Pool except for
-  those exempted from automatic distribution by other rules.
+  In a given Agoran week, the Promotor SHALL distribute each
+  proposal that was in the Proposal Pool at the beginning of that
+  week, except for those excepted from automatic distribution by
+  other rules, or those that are otherwise removed from the Pool.
 
   Distributed proposals have ID numbers, to be assigned by the
   Promotor.
@@ -270,6 +271,11 @@ history:
   date: 2018-10-27
   agent:
     proposal: "8104"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8245"
 annotations:
 - cfjs:
   - id: '1546'

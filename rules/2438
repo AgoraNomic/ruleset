@@ -58,6 +58,11 @@ history:
   date: 2018-01-13
   agent:
     proposal: "7992"
+- change:
+    type: amendment
+  date: 2019-09-05
+  agent:
+    proposal: "8232"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -93,10 +98,10 @@ text: |
   which no valid ballots were AGAINST (after evaluating
   conditionals), its proposer earns an Orange Ribbon.
 
-  Green (G): While a person has held an elected office continuously
-  for 30 days, and has not failed to perform any duties of that
-  office within the appropriate time limits during those 30 days,
-  that person qualifies for a Green Ribbon.
+  Green (G): While a person holds an elected office, has done so
+  continuously for the past 30 days, and has not failed to perform
+  any duties of that office within the appropriate time limits
+  during those 30 days, that person qualifies for a Green Ribbon.
 
   Cyan (C): When a person deputises for an office, that person earns
   a Cyan Ribbon.
@@ -105,8 +110,8 @@ text: |
   never violated a time limit to assign a judgement to that CFJ,
   that person earns a Blue Ribbon.
 
-  Magenta (M): During Agora's Birthday, each person who has publicly
-  acknowledged the fact qualifies for a Magenta Ribbon.
+  Magenta (M): When, during Agora's Birthday, a person publicly
+  acknowledges it, that person earns a Magenta Ribbon.
 
   Ultraviolet (U): When a person is awarded the Patent Title
   Champion, that person earns an Ultraviolet Ribbon.
@@ -139,8 +144,9 @@ text: |
   monthly report.
 
   Transparent (T): A person qualifies for a Transparent Ribbon while
-  the number of other types of Ribbon that that person qualifies for
-  and/or has earned within the previous 7 days is at least 5.
+  the number of other types of Ribbon that that person qualifies
+  for, earns, and/or was awarded within the previous 7 days is at
+  least 5.
 id: 2438
 power: 3
 annotations: []
