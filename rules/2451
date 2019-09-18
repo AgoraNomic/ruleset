@@ -16,7 +16,7 @@ text: |
   - Certiorari (Arbitor): The Prime Minister assigns emself as judge
     of a specified open case.
 
-  - Dive (Referee): The Prime Minister levies a 2 Blot fine on a
+  - Dive (Referee): The Prime Minister levies a fine of 2 on a
     specified player. Rules to the contrary notwithstanding, the
     reason for the fine MAY be any grievance held by the Prime
     Minister, not necessarily a violation of the rules, against the
@@ -67,4 +67,9 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8029"
+- change:
+    type: amendment
+  date: 2019-09-18
+  agent:
+    proposal: "8235"
 annotations: []

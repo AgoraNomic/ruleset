@@ -18,13 +18,13 @@ text: |
   Agora is Satisfied with an intent to perform a specific action
   unless at least one of the following is true:
 
-  1. The action is to be performed Without N Objections, and there
+  1. The action is to be performed Without N objections, and there
      are at least N Objectors to that intent.
 
   2. The action is to be performed With N support, and there are
      fewer than than N Supporters of that intent.
 
-  3. The action is to be performed with N Agoran Consent, and the
+  3. The action is to be performed with N Agoran consent, and the
      number of Supporters of the intent is less than or equal to N
      times the number of Objectors to the intent.
 
@@ -182,6 +182,11 @@ history:
   date: 2019-03-31
   agent:
     proposal: "8164"
+- change:
+    type: amendment
+  date: 2019-09-18
+  agent:
+    proposal: "8236"
 annotations:
 - cfjs:
   - id: '3567'

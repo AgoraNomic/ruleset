@@ -2,12 +2,11 @@ id: 2480
 name: Festivals
 power: 2.1
 text: |
-  Festivity is a singleton switch, whose possible values are
+  Festivity is a secured singleton switch, whose possible values are
   integers ranging from 0 inclusive to the number of defined types
   of Ribbon exclusive, and defaulting to 0. While Agora's Festivity
   is 0, Festivity is tracked in the Tailor's monthly report.
-  Otherwise, it is tracked in the Tailor's weekly report. Changes to
-  Festivity are secured.
+  Otherwise, it is tracked in the Tailor's weekly report.
 
   If Agora's Festivity has had the same nonzero value for 14 days or
   more, or if it has a nonzero value and fewer than 5 players are
@@ -39,4 +38,9 @@ history:
   date: 2019-02-22
   agent:
     proposal: "8163"
+- change:
+    type: amendment
+  date: 2019-09-18
+  agent:
+    proposal: "8241"
 annotations: []

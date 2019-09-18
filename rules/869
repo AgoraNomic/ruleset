@@ -6,11 +6,10 @@ text: |
   communicating independent thoughts and ideas is a person. Rules to
   the contrary notwithstanding, no other entities are persons.
 
-  Citizenship is a person switch with values Unregistered (default)
-  and Registered, tracked by the Registrar. Changes to citizenship
-  are secured. A registered person is a Player. To "register"
-  someone is to flip that person's Citizenship switch from
-  Unregistered to Registered.
+  Citizenship is a secured person switch with values Unregistered
+  (default) and Registered, tracked by the Registrar. A registered
+  person is a Player. To "register" someone is to flip that person's
+  Citizenship switch from Unregistered to Registered.
 
   An Unregistered person CAN (unless explicitly forbidden or
   prevented by the rules) register by publishing a message that
@@ -281,6 +280,11 @@ history:
   date: 2019-02-22
   agent:
     proposal: "8163"
+- change:
+    type: amendment
+  date: 2019-09-18
+  agent:
+    proposal: "8241"
 annotations:
 - cfjs:
   - id: '1275'

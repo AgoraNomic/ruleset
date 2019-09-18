@@ -27,11 +27,6 @@ text: |
   specifically assign to that office's holder in particular
   (regardless of eir identity).
 
-  A person SHALL NOT publish information that is inaccurate or
-  misleading while performing an official duty, or within a document
-  purporting to be part of any person or office's weekly or monthly
-  report.
-
   Reports SHALL be published in plain text. Tabular data must line
   up properly when viewed in a monospaced font. Publishing a report
   that deviates from these restrictions is the Class 2 Crime of
@@ -211,6 +206,11 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8244"
+- change:
+    type: amendment
+  date: 2019-09-18
+  agent:
+    proposal: "8249"
 annotations:
 - cfjs:
   - id: '2392'

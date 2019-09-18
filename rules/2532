@@ -5,7 +5,9 @@ text: |
   Master is a secured player switch, tracked by the Registrar, with
   possible values of any player, and Agora. Every player's default
   master is emself; rules to the contrary notwithstanding, a player
-  CAN always flip eir own master to emself by announcement.
+  CAN always flip eir own master to emself by announcement. When a
+  zombie's master ceases to be a player, the value of the zombie's
+  master switch is set to Agora.
 
   A player whose master is not emself is a zombie (syn. inactive);
   all other players are active.  A zombie's master, if another

@@ -27,7 +27,11 @@ text: |
   possible value for that type of switch. If an instance of a switch
   comes to have a value, it ceases to have any other value. If an
   instance of a switch would otherwise fail to have a possible
-  value, it comes to have its default value.
+  value, it comes to have its default value. A Rule that designates
+  a switch as "secured" (at a given power level) designates changes
+  to the properties of that type of switch as secured (at that power
+  level) and designates changes to the value of each instance of the
+  switch as secured (at that power level).
 
   "To flip an instance of a switch" is to make it come to have a
   given value. "To become X" (where X is a possible value of
@@ -120,4 +124,9 @@ history:
   date: 2018-07-26
   agent:
     proposal: "8075"
+- change:
+    type: amendment
+  date: 2019-09-18
+  agent:
+    proposal: "8241"
 annotations: []

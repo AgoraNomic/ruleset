@@ -16,25 +16,25 @@ text: |
      unambiguously, clearly, conspicuously, and without obfuscation
      states:
   
-     * the value of T, if the action is to be taken with T Notice;
+     * the value of T, if the action is to be taken with T notice;
        and
   
      * the value of N, if N is not equal to 1 and the action is to
-       be taken Without N Objections, With N Support, or With N
+       be taken without N objections, with N support, or with N
        Agoran Consent;
   
   3. The announcement referenced in paragraph (1) of this Rule was
      published:
   
      * within the 14 days preceding the action, if the action is to
-       be performed With N Support;
+       be performed with N support;
   
      * between 4 and 14 days preceding the action, if the action is
-       to be performed Without N Objections, With N Agoran Consent,
-       or With Notice; or
+       to be performed without N objections, with N Agoran consent,
+       or with notice; or
   
      * between T and 14 days preceding the action, if the action is
-       to be performed With T Notice;
+       to be performed with T notice;
   
   4. At least one of the following is true:
   
@@ -57,10 +57,15 @@ text: |
      Rule.
   
   The performer SHOULD publish a list of supporters and objectors if
-  the action is to be taken with N Agoran Consent.
+  the action is to be taken with N Agoran consent.
 history:
 - change:
     type: enactment
   date: 2019-04-27
   agent:
     proposal: "8165"
+- change:
+    type: amendment
+  date: 2019-09-18
+  agent:
+    proposal: "8236"
