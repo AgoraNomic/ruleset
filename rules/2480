@@ -14,7 +14,7 @@ text: |
   
   A player who owns at least N types of Ribbon CAN Start a Rank N
   Festival, where N is an integer greater than Agora's Festivity,
-  with 4 Support from players who own at least N types of Ribbon.
+  with 4 support from players who own at least N types of Ribbon.
   Upon doing so, Agora's Festivity is flipped to N. Exception: A
   player CANNOT do so if Agora's Festivity has had a value greater
   than or equal to N within the past 21 days.
@@ -38,6 +38,12 @@ history:
   date: 2019-02-22
   agent:
     proposal: "8163"
+- change:
+    type: amendment
+  date: 2019-09-07
+  agent:
+    cleaning:
+      by: Jason Cobb
 - change:
     type: amendment
   date: 2019-09-18
