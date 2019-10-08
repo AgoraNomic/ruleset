@@ -17,11 +17,12 @@ text: |
     be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the
     Finger Pointing to be Shenanigans.
 
+  The above notwithstanding, the investigator CANNOT resolve a
+  Finger Pointing for which e is the perp.
+
   The Referee is by default the investigator for all Finger
-  Pointing. When a Finger, other than the Arbitor's, is Pointed over
-  an allegation related to the official duties or powers of the
-  Referee, then the Arbitor CAN, by announcement, take over the
-  investigation and thereby become the investigator.
+  Pointing. If the Referee is the perp, then the Arbitor CAN
+  become the investigator of that Finger Pointing by announcement.
 
   The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
   Finger at the Referee.
@@ -76,4 +77,9 @@ history:
   date: 2019-06-22
   agent:
     proposal: "8181"
+- change:
+    type: amendment
+  date: 2019-10-04
+  agent:
+    proposal: "8250"
 annotations: []
