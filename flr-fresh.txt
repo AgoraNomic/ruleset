@@ -2,18 +2,18 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 7 Sep 2019
-Date of this ruleset: 18 Sep 2019
+Date of last official ruleset of this type: 18 Sep 2019
+Date of this ruleset: 15 Oct 2019
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 122
 
-Most recent change to this ruleset: Rule 2143 'Official Reports and
-Duties' amended by Proposal 8249, 18 Sep 2019
+Most recent change to this ruleset: Rule 1030 'Precedence between Rules'
+amended by Proposal 8251 'Ruleset definition'
 
 Highest ID'd rule in this ruleset: 2599
-Highest ID'd Proposal Passed: 8249
+Highest ID'd Proposal Passed: 8252
 Highest ID'd Rule Enacted: 2599
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -1882,12 +1882,13 @@ Rules & Regulations
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/10 (Power=3)
+Rule 2141/11 (Power=3)
 Role and Attributes of Rules
 
       A rule is a type of instrument with the capacity to govern the
       game generally, and is always taking effect. A rule's content
-      takes the form of a text, and is unlimited in scope.
+      takes the form of a text, and is unlimited in scope. The ruleset
+      is the set of all currently-existing rules.
       
       Every rule has power between 0.1 and 4.0 inclusive. It is not
       possible for a rule to have a power outside this range.
@@ -1920,6 +1921,7 @@ Amended(7) by P7420 'We don't need to be that idiosyncratic un-derp
 Amended(8) by P7614 'Just Not Rights' (G.), 13 Jan 2014
 Amended(9) by P7759 'minor Powers v0.2' (G.), 19 Jul 2015
 Amended(10) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
+Amended(11) by P8251 'Ruleset definition' (G.), 13 Oct 2019
 
 Annotations:
 CFJ 1498 (called 12 Apr 2004): A rule's title is not strictly a name for
@@ -2037,7 +2039,7 @@ CFJ 1139: Interpretations {judgements at the time of CFJ 1139} need not
    Justices given in past CFJs.
 
 ------------------------------------------------------------------------
-Rule 1030/12 (Power=3.2)
+Rule 1030/13 (Power=3.2)
 Precedence between Rules
 
       In a conflict between Rules, the conflict shall be resolved by
@@ -2071,11 +2073,11 @@ Precedence between Rules
       applicable only when such claims are evaluated as described within
       the above sequence.
       
-      No change to the Ruleset can occur that would cause a Rule to
+      No change to the ruleset can occur that would cause a Rule to
       directly claim precedence over this Rule as a means of determining
       precedence. This applies to changes by the enactment or amendment
       of a Rule, or of any other form. This Rule takes precedence over
-      any Rule that would permit such a change to the Ruleset.
+      any Rule that would permit such a change to the ruleset.
       
 History:
 
@@ -2098,6 +2100,7 @@ Amended(10) by cleaning (Murphy), 16 Aug 2009
 Amended(11) by P7235 'semicolon' (omd), 10 Jun 2012
 Amended(12) by P7334 'Precedence of unnumbered rules' (woggle), 27 Mar
    2013
+Amended(13) by P8251 'Ruleset definition' (G.), 13 Oct 2019
 
 Annotations:
 CFJ 1104 (called 20 Aug 1998): The presence in a Rule of deference
@@ -3655,7 +3658,7 @@ Office Incompatibilities
       incompatible with each other. Rules to the contrary
       notwithstanding, a player CANNOT be installed into an office if
       doing so would make em Overpowered.
-            
+      
       If a player is Overpowered, any player CAN, with Notice, Demand
       Resignation from em. When this occurs, each office that the
       Overpowered player holds becomes vacant.
@@ -4028,7 +4031,7 @@ Amended(4) by P8235 'Unified fine creation syntax' (Jason Cobb), 18 Sep
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/9 (Power=1.7)
+Rule 2478/10 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
@@ -4046,11 +4049,12 @@ Vigilante Justice
         be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the
         Finger Pointing to be Shenanigans.
       
+      The above notwithstanding, the investigator CANNOT resolve a
+      Finger Pointing for which e is the perp.
+      
       The Referee is by default the investigator for all Finger
-      Pointing. When a Finger, other than the Arbitor's, is Pointed over
-      an allegation related to the official duties or powers of the
-      Referee, then the Arbitor CAN, by announcement, take over the
-      investigation and thereby become the investigator.
+      Pointing. If the Referee is the perp, then the Arbitor CAN
+      become the investigator of that Finger Pointing by announcement.
       
       The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
       Finger at the Referee.
@@ -4073,6 +4077,7 @@ Amended(8) by P8090 'Shenanigans For INEFFECTIVE Fines (v2)' (D.
    Margaux), 17 Sep 2018
 Amended(9) by P8181 'Referee CAN Impose Fines (v1.1)' (D. Margaux,
    Falsifian, twg), 22 Jun 2019
+Amended(10) by P8250 'Finger bending' (Murphy, twg), 04 Oct 2019
 
 Annotations:
 
@@ -5871,7 +5876,7 @@ History:
 Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
 Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(2) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
-Amended(3) by cleaning (Jason Cobb), 14 Sep 2019
+Amended(3) by cleaning (Jason Cobb), 07 Sep 2019
 Amended(4) by P8241 'Secured switches (v2.0)' (Jason Cobb, Falsifian),
    18 Sep 2019
 
