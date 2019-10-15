@@ -4,7 +4,8 @@ power: 3
 text: |
   A rule is a type of instrument with the capacity to govern the
   game generally, and is always taking effect. A rule's content
-  takes the form of a text, and is unlimited in scope.
+  takes the form of a text, and is unlimited in scope. The ruleset
+  is the set of all currently-existing rules.
 
   Every rule has power between 0.1 and 4.0 inclusive. It is not
   possible for a rule to have a power outside this range.
@@ -76,6 +77,11 @@ history:
   date: 2018-03-06
   agent:
     proposal: "8017"
+- change:
+    type: amendment
+  date: 2019-10-13
+  agent:
+    proposal: "8251"
 annotations:
 - cfjs:
   - id: '1498'

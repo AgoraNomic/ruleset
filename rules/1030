@@ -33,11 +33,11 @@ text: |
   applicable only when such claims are evaluated as described within
   the above sequence.
 
-  No change to the Ruleset can occur that would cause a Rule to
+  No change to the ruleset can occur that would cause a Rule to
   directly claim precedence over this Rule as a means of determining
   precedence. This applies to changes by the enactment or amendment
   of a Rule, or of any other form. This Rule takes precedence over
-  any Rule that would permit such a change to the Ruleset.
+  any Rule that would permit such a change to the ruleset.
 history:
 - change:
     type: initial
@@ -132,6 +132,11 @@ history:
   date: 2013-03-27
   agent:
     proposal: "7334"
+- change:
+    type: amendment
+  date: 2019-10-13
+  agent:
+    proposal: "8251"
 annotations:
 - cfjs:
   - id: '1104'
