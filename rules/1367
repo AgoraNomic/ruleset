@@ -17,11 +17,14 @@ text: |
   degrees listed later being ranked higher. A specific degree CANNOT
   be awarded to any person more than once.
 
-  A specified degree CAN be awarded with 2 Agoran consent, and
-  SHOULD only be awarded for the publication of an original thesis
-  of scholarly worth (including responses to peer-review), published
-  with explicit intent to qualify for a degree. The Herald SHOULD
-  coordinate the peer-review process and the awarding of degrees.
+  A specified degree CAN be awarded by any player other than the
+  awardee, with 2 Agoran consent.  It SHOULD only be awarded for the
+  publication of an original thesis of scholarly worth (including
+  responses to peer-review), published with explicit intent to qualify
+  for a degree. Any degree with D.N. as part of its abbreviation
+  SHOULD take into account the awardee's academic history and participation
+  in Agora over time. The Herald SHOULD coordinate the peer-review process
+  and the awarding of degrees.
 history:
 - change:
     type: enactment
@@ -158,4 +161,9 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8221"
+- change:
+    type: amendment
+  date: 2019-11-11
+  agent:
+    proposal: "8271"
 annotations: []
