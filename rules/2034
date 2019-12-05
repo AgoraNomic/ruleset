@@ -3,7 +3,7 @@ name: Vote Protection and Cutoff for Challenges
 power: 3
 text: |
   A public message purporting to resolve an Agoran decision
-  constitutes self-ratifying claims that
+  is a self-ratifying attestation that
 
   1. such a decision existed,
 
@@ -69,6 +69,11 @@ history:
   date: 2018-10-01
   agent:
     proposal: "8083"
+- change:
+    type: amendment
+  date: 2019-11-11
+  agent:
+    proposal: "8270"
 annotations:
 - cfjs:
   - id: '3618'

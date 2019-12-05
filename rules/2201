@@ -2,12 +2,22 @@ id: 2201
 name: Self-Ratification
 power: 3
 text: |
-  A public document defined by the rules as self-ratifying is
-  ratified when it is continuously undoubted for one week.
+  When a public document is continuously undoubted for one week
+  after publication:
+
+  - If the rules define it as self-ratifying, it is ratified.
+
+  - If the rules define it as a self-ratifying attestation to a
+    given statement, the statement is ratified.
+
+    This clause is inapplicable if the statement to be ratified
+    cannot be reasonably ascertained from the ruleset and the
+    contents of the message.
 
   A doubt is an explicit public challenge via one of the following
   methods, identifying a document and explaining the scope and
-  nature of a perceived error in it:
+  nature of a perceived error in it (or in a statement it attests
+  to):
 
   1. An inquiry case, appropriate for questions of legal
      interpretation.
@@ -71,6 +81,11 @@ history:
   date: 2019-07-23
   agent:
     proposal: "8188"
+- change:
+    type: amendment
+  date: 2019-11-11
+  agent:
+    proposal: "8270"
 annotations:
 - cfjs:
   - id: '1690'

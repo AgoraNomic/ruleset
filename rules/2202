@@ -2,6 +2,8 @@ id: 2202
 name: Ratification Without Objection
 power: 3
 text: |
+  A public document is part (possibly all) of a public message.
+
   Any player CAN, without objection, ratify a public document,
   specifying its scope.
 
@@ -58,6 +60,11 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8244"
+- change:
+    type: amendment
+  date: 2019-11-11
+  agent:
+    proposal: "8270"
 annotations:
 - cfjs:
   - id: '1836'

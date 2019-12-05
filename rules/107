@@ -4,9 +4,8 @@ power: 3
 text: |
   An Agoran decision is initiated when a person authorized to
   initiate it publishes a valid notice which sets forth the intent
-  to initiate the decision. This notice is invalid if it lacks any
-  of the following information, and the lack is correctly identified
-  within one week after the notice is published:
+  to initiate the decision. To be valid, the notice must clearly
+  specify the following information:
 
   1. The matter to be decided (for example, "the adoption of
      proposal 4781");
@@ -30,6 +29,9 @@ text: |
 
   The voting period for a decision cannot be set or changed to a
   duration longer than fourteen days.
+  
+  A public notice purporting to initiate an Agoran decision is a
+  self-ratifying attestation of the notice's validity.
 history:
 - change:
     type: initial
@@ -149,6 +151,11 @@ history:
   date: 2017-11-12
   agent:
     proposal: "7953"
+- change:
+    type: amendment
+  date: 2019-11-11
+  agent:
+    proposal: "8270"
 annotations:
 - cfjs:
   - id: '1650'
