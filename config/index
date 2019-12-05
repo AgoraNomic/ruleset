@@ -12,6 +12,7 @@
     for the current gamestate.
   rules:
   - 2600 # Boo!!
+  - 2601 # Blink
 - name: Players
   note: |
     This small section provides some rules detailing how joining and
