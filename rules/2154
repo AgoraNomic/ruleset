@@ -28,8 +28,8 @@ text: |
   voting period. For an uncontested election, nominations close at
   the end of the nomination period.
 
-  In a timely fashion after the nomination period ends, the ADoP CAN
-  and SHALL:
+  After the nomination period ends, the ADoP CAN and, in a timely
+  fashion, SHALL:
 
   1) If the election is contested, initiate an Agoran decision to
      select the winner of the election (the poll). For this
@@ -44,10 +44,10 @@ text: |
      immediately.
 
   If at any point an uncontested election has a single candidate,
-  then any player CAN declare em the winner of the election by
-  announcement. If at any point an uncontested election has no
-  candidates, then any player CAN declare the election ended with no
-  winner by announcement.
+  then any player CAN by announcement declare em the winner of the
+  election, thereby causing em to win the election. If at any point
+  an uncontested election has no candidates, then any player CAN
+  declare the election ended with no winner by announcement.
 
   When a player wins an election, e is installed into the associated
   office and the election ends.
@@ -336,4 +336,14 @@ history:
   date: 2019-11-03
   agent:
     proposal: "8258"
+- change:
+    type: amendment
+  date: 2019-12-01
+  agent:
+    proposal: "8276"
+- change:
+    type: amendment
+  date: 2019-12-01
+  agent:
+    proposal: "8276"
 annotations: []
