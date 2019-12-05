@@ -23,7 +23,8 @@ text: |
      described action, the full implications of performing it should
      be understood and carefully weighed.
 
-  5. CAN: Attempts to perform the described action are successful.
+  5. CAN, POSSIBLE: Attempts to perform the described action are
+     successful.
 
   6. MAY: Performing the described action does not violate the
      rules.
@@ -90,6 +91,11 @@ history:
   date: 2014-01-11
   agent:
     proposal: "7613"
+- change:
+    type: amendment
+  date: 2019-11-03
+  agent:
+    proposal: "8254"
 annotations:
 - cfjs:
   - id: '1132'
