@@ -2,7 +2,7 @@ id: 2154
 name: Election Procedure
 power: 2
 text: |
-  A player CAN initiate an election for a specified office:
+  A player CAN initiate an election for a specified elected office:
 
   a) with 2 support, if either the office is interim or the most
      recent election for that office was resolved more than 90 days
@@ -331,4 +331,9 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8221"
+- change:
+    type: amendment
+  date: 2019-11-03
+  agent:
+    proposal: "8258"
 annotations: []
