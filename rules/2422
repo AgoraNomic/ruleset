@@ -14,8 +14,8 @@ text: |
   this one, which modify it, in numerical order by ID. Finally, if
   the result of the calculation is not an integer, it is rounded
   up, and then if it is outside the allowable range of values for
-  voting strength, it is set to the the minimum value if it was
-  less and the maximum value if it was more.
+  voting strength, it is set to the minimum value if it was less
+  and the maximum value if it was more.
 history:
 - change:
     type: enactment
@@ -43,4 +43,10 @@ history:
   agent:
     cleaning:
       by: Falsifian
+- change:
+    type: amendment
+  date: 2019-11-03
+  agent:
+    cleaning:
+      by: Murphy
 annotations: []

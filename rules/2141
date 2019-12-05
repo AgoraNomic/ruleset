@@ -13,7 +13,7 @@ text: |
   Rules have ID numbers, to be assigned by the Rulekeepor.
 
   Every rule shall have a title to aid in identification. If a rule
-  ever does not have a title, the the Rulekeepor CAN and SHALL
+  ever does not have a title, then the Rulekeepor CAN and SHALL
   assign a title to it by announcement in a timely fashion.
 
   For the purposes of rules governing modification of instruments,
@@ -82,6 +82,12 @@ history:
   date: 2019-10-13
   agent:
     proposal: "8251"
+- change:
+    type: amendment
+  date: 2019-11-03
+  agent:
+    cleaning:
+      by: Murphy
 annotations:
 - cfjs:
   - id: '1498'
