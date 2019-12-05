@@ -8,7 +8,7 @@ text: |
   smoothly.
 
   The holder of the office of Prime Minister's voting strength is
-  increased by 1 on all Agoran decisions other than a elections of
+  increased by 1 on all Agoran decisions other than elections of
   the Prime Minister.
 history:
 - change:
@@ -31,4 +31,10 @@ history:
   date: 2016-12-05
   agent:
     proposal: "7831"
+- change:
+    type: amendment
+  date: 2019-11-03
+  agent:
+    cleaning:
+      by: Murphy
 annotations: []
