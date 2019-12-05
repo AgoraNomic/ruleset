@@ -14,7 +14,7 @@ text: |
   from the Proposal Pool.
 
   The Promotor CAN distribute a proposal which is in the Proposal
-  Pool at any time, by announcement.
+  Pool at any time.
 
   In a given Agoran week, the Promotor SHALL distribute each
   proposal that was in the Proposal Pool at the beginning of that
@@ -276,6 +276,11 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8245"
+- change:
+    type: amendment
+  date: 2019-11-11
+  agent:
+    proposal: "8269"
 annotations:
 - cfjs:
   - id: '1546'
