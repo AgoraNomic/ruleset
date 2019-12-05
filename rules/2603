@@ -1,0 +1,14 @@
+id: 2603
+name: Switch Responsiblity
+power: 1
+text: |
+  For each type of switch which would otherwise lack an officer to track it,
+  and is not defined as untracked, there exists an imposed office named
+  “Tracker of [switch name]” that is responsible for tracking that switch.
+history:
+- change:
+    type: enactment
+  date: 2019-11-11
+  agent:
+    proposal: "8273"
+annotations: []

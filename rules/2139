@@ -26,10 +26,6 @@ text: |
 
   * Publishing Cantus Cygnei and Writs of FAGE as described in
     Rule 1789.
-
-  The Registrar is also responsible for tracking any switches,
-  defined in a rule, that would otherwise lack an officer to track
-  them, unless the switch is defined as untracked.
 history:
 - change:
     type: enactment
@@ -108,6 +104,11 @@ history:
   date: 2019-05-13
   agent:
     proposal: "8176"
+- change:
+    type: amendment
+  date: 2019-11-11
+  agent:
+    proposal: "8273"
 annotations:
 - cfjs:
   - id: '1703'
