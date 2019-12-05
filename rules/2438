@@ -63,6 +63,11 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8232"
+- change:
+    type: amendment
+  date: 2019-11-11
+  agent:
+    proposal: "8267"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -147,6 +152,8 @@ text: |
   the number of other types of Ribbon that that person qualifies
   for, earns, and/or was awarded within the previous 7 days is at
   least 5.
+  
+  Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
 id: 2438
 power: 3
 annotations: []
