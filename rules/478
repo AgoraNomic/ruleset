@@ -30,8 +30,8 @@ text: |
   "publish" or "announce" something is to send a public message
   whose body contains that thing.
 
-  Where the rules define an action that CAN be performed "by
-  announcement", a person performs that action by unambiguously and
+  Where the rules define an action that a person CAN perform "by
+  announcement", that person performs that action by unambiguously and
   clearly specifying the action and announcing that e performs it.
   Any action performed by sending a message is performed at the time
   date-stamped on that message. Actions in messages (including
@@ -233,6 +233,11 @@ history:
   date: 2019-09-18
   agent:
     proposal: "8248"
+- change:
+    type: amendment
+  date: 2019-12-01
+  agent:
+    proposal: "8275"
 annotations:
 - cfjs:
   - id: 1451-1452
