@@ -2,19 +2,18 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of last official ruleset of this type: 18 Sep 2019
-Date of this ruleset: 15 Oct 2019
+Date of last official ruleset of this type:
+Date of this ruleset:
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 122
+Number of rules currently enacted: 126
 
-Most recent change to this ruleset: Rule 1030 'Precedence between Rules'
-amended by Proposal 8251 'Ruleset definition'
+Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2599
-Highest ID'd Proposal Passed: 8252
-Highest ID'd Rule Enacted: 2599
+Highest ID'd rule in this ruleset: 2603
+Highest ID'd Proposal Passed: 8276
+Highest ID'd Rule Enacted: 2603
 
 ========================================================================
 The Game of Agora
@@ -47,6 +46,27 @@ Agora Is A Nomic
       gamestate would cause Agora to become ossified, or would cause
       Agora to cease to exist, it is cancelled and does not occur, rules
       to the contrary notwithstanding.
+      
+------------------------------------------------------------------------
+========================================================================
+Important Temporary Rules
+   This category is a temporary dumping ground for rules that don't
+   easily fit in any other category but that hold special relevance
+   for the current gamestate.
+------------------------------------------------------------------------
+Rule 2600/0 (Power=3)
+Boo!!
+
+      Rules to the contrary notwithstanding, one week after this rule is
+      repealed, it is reenacted.
+      
+------------------------------------------------------------------------
+Rule 2601/0 (Power=1)
+Blink
+
+      One week after this sentence is modified in any way, this rule
+      is amended by inserting this sentence as the first paragraph of
+      this rule.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -84,7 +104,7 @@ How to Join and Leave Agora
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
-Rule 478/36 (Power=3)
+Rule 478/37 (Power=3)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -115,8 +135,8 @@ Fora
       "publish" or "announce" something is to send a public message
       whose body contains that thing.
       
-      Where the rules define an action that CAN be performed "by
-      announcement", a person performs that action by unambiguously and
+      Where the rules define an action that a person CAN perform "by
+      announcement", that person performs that action by unambiguously and
       clearly specifying the action and announcing that e performs it.
       Any action performed by sending a message is performed at the time
       date-stamped on that message. Actions in messages (including
@@ -124,7 +144,7 @@ Fora
       message, unless otherwise specified.
       
 ------------------------------------------------------------------------
-Rule 2139/13 (Power=2)
+Rule 2139/14 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -151,10 +171,6 @@ The Registrar
       
       * Publishing Cantus Cygnei and Writs of FAGE as described in
         Rule 1789.
-      
-      The Registrar is also responsible for tracking any switches,
-      defined in a rule, that would otherwise lack an officer to track
-      them, unless the switch is defined as untracked.
       
 ------------------------------------------------------------------------
 Rule 1789/9 (Power=3)
@@ -184,7 +200,7 @@ General Definitions
    chances are that the Agoran definition of that word is described in
    one of these rules.
 ------------------------------------------------------------------------
-Rule 2152/7 (Power=3)
+Rule 2152/8 (Power=3)
 Mother, May I?
 
       The following terms are defined. These definitions are used when a
@@ -208,7 +224,8 @@ Mother, May I?
          described action, the full implications of performing it should
          be understood and carefully weighed.
       
-      5. CAN: Attempts to perform the described action are successful.
+      5. CAN, POSSIBLE: Attempts to perform the described action are
+         successful.
       
       6. MAY: Performing the described action does not violate the
          rules.
@@ -502,7 +519,7 @@ Definition and Continuity of Entities
       the new definitions.
       
 ------------------------------------------------------------------------
-Rule 2162/12 (Power=3)
+Rule 2162/13 (Power=3)
 Switches
 
       A type of switch is a property that the rules define as a switch,
@@ -541,10 +558,12 @@ Switches
       exactly one of the subject's switches) is to flip that switch to
       X.
       
-      If an action or set of actions would cause the value of an
-      instance of a switch to become indeterminate, the instance instead
-      takes on its last determinate and possible value, if any,
-      otherwise it takes on its default value.
+      If a type of switch is not explicitly designated as
+      possibly-indeterminate by the rule that defines it, and if an action
+      or set of actions would cause the value of an instance of that type
+      of switch to become indeterminate, that instance instead takes on
+      its last determinate and possible value, if any, otherwise it takes
+      on its default value.
       
       A singleton switch is a switch for which Agora Nomic is the only
       entity possessing an instance of that switch.
@@ -631,7 +650,7 @@ Proposals
       retract, withdraw) it from the Pool by announcement.
       
 ------------------------------------------------------------------------
-Rule 1607/45 (Power=3)
+Rule 1607/46 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -646,7 +665,7 @@ Distribution
       from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time, by announcement.
+      Pool at any time.
       
       In a given Agoran week, the Promotor SHALL distribute each
       proposal that was in the Proposal Pool at the beginning of that
@@ -740,7 +759,7 @@ Rules & Regulations
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/11 (Power=3)
+Rule 2141/12 (Power=3)
 Role and Attributes of Rules
 
       A rule is a type of instrument with the capacity to govern the
@@ -754,7 +773,7 @@ Role and Attributes of Rules
       Rules have ID numbers, to be assigned by the Rulekeepor.
       
       Every rule shall have a title to aid in identification. If a rule
-      ever does not have a title, the the Rulekeepor CAN and SHALL
+      ever does not have a title, then the Rulekeepor CAN and SHALL
       assign a title to it by announcement in a timely fashion.
       
       For the purposes of rules governing modification of instruments,
@@ -842,7 +861,7 @@ No Cretans Need Apply
       otherwise, the later clause takes precedence.
       
 ------------------------------------------------------------------------
-Rule 105/19 (Power=3)
+Rule 105/20 (Power=3)
 Rule Changes
 
       Where permitted by other rules, an instrument generally can, as
@@ -868,11 +887,11 @@ Rule Changes
          repealed. If the reenacting proposal provides new text for the
          rule, the rule SHOULD have materially the same purpose as did
          the repealed version. Unless specified otherwise by the
-         re-enacting instrument, a re-enacted rule has power equal to
+         reenacting instrument, a reenacted rule has power equal to
          the power it had at the time of its repeal (or power 1, if
          power was not defined at the time of that rule's repeal). If
-         the re-enacting instrument is incapable of setting the
-         re-enacted rule's power to that value, then the re-enactment is
+         the reenacting instrument is incapable of setting the
+         reenacted rule's power to that value, then the reenactment is
          null and void.
       
       4. amend the text of a rule.
@@ -1057,14 +1076,13 @@ Agoran Decisions
       3. Resolution of the decision.
       
 ------------------------------------------------------------------------
-Rule 107/20 (Power=3)
+Rule 107/21 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
       initiate it publishes a valid notice which sets forth the intent
-      to initiate the decision. This notice is invalid if it lacks any
-      of the following information, and the lack is correctly identified
-      within one week after the notice is published:
+      to initiate the decision. To be valid, the notice must clearly
+      specify the following information:
       
       1. The matter to be decided (for example, "the adoption of
          proposal 4781");
@@ -1088,6 +1106,9 @@ Initiating Agoran Decisions
       
       The voting period for a decision cannot be set or changed to a
       duration longer than fourteen days.
+      
+      A public notice purporting to initiate an Agoran decision is a
+      self-ratifying attestation of the notice's validity.
       
 ------------------------------------------------------------------------
 Rule 2528/0 (Power=3)
@@ -1253,7 +1274,7 @@ Quorum
       it is set to 2 instead.
       
 ------------------------------------------------------------------------
-Rule 2422/4 (Power=3)
+Rule 2422/5 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -1268,8 +1289,8 @@ Voting Strength
       this one, which modify it, in numerical order by ID. Finally, if
       the result of the calculation is not an integer, it is rounded
       up, and then if it is outside the allowable range of values for
-      voting strength, it is set to the the minimum value if it was
-      less and the maximum value if it was more.
+      voting strength, it is set to the minimum value if it was less
+      and the maximum value if it was more.
       
 ------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
@@ -1339,11 +1360,11 @@ Decisions with Adoption Indices
       is AI-majority.
       
 ------------------------------------------------------------------------
-Rule 2034/10 (Power=3)
+Rule 2034/11 (Power=3)
 Vote Protection and Cutoff for Challenges
 
       A public message purporting to resolve an Agoran decision
-      constitutes self-ratifying claims that
+      is a self-ratifying attestation that
       
       1. such a decision existed,
       
@@ -1393,10 +1414,10 @@ Offices
       becomes the holder of the office.
       
 ------------------------------------------------------------------------
-Rule 2154/53 (Power=2)
+Rule 2154/57 (Power=2)
 Election Procedure
 
-      A player CAN initiate an election for a specified office:
+      A player CAN initiate an election for a specified elected office:
       
       a) with 2 support, if either the office is interim or the most
          recent election for that office was resolved more than 90 days
@@ -1422,8 +1443,8 @@ Election Procedure
       voting period. For an uncontested election, nominations close at
       the end of the nomination period.
       
-      In a timely fashion after the nomination period ends, the ADoP CAN
-      and SHALL:
+      After the nomination period ends, the ADoP CAN and, in a timely
+      fashion, SHALL:
       
       1) If the election is contested, initiate an Agoran decision to
          select the winner of the election (the poll). For this
@@ -1438,10 +1459,10 @@ Election Procedure
          immediately.
       
       If at any point an uncontested election has a single candidate,
-      then any player CAN declare them the winner of the election by
-      announcement. If at any point an uncontested election has no
-      candidates, then any player CAN declare the election ended with no
-      winner by announcement.
+      then any player CAN by announcement declare em the winner of the
+      election, thereby causing em to win the election. If at any point
+      an uncontested election has no candidates, then any player CAN
+      declare the election ended with no winner by announcement.
       
       When a player wins an election, e is installed into the associated
       office and the election ends.
@@ -1458,11 +1479,11 @@ Impeachment
       emself unworthy the trust of Agora.
       
 ------------------------------------------------------------------------
-Rule 2160/20 (Power=3)
+Rule 2160/21 (Power=3)
 Deputisation
 
-      A player acting on eir own behalf (the deputy) CAN perform an
-      action ordinarily reserved for an office-holder as if e held the
+      A player acting as emself (the deputy) CAN perform an action
+      ordinarily reserved for an office-holder as if e held the
       office if
       
       1. the rules require the holder of that office, by virtue of
@@ -1580,6 +1601,14 @@ Official Reports and Duties
       self-ratification.
       
 ------------------------------------------------------------------------
+Rule 2603/0 (Power=1)
+Switch Responsiblity
+
+      For each type of switch which would otherwise lack an officer to track it,
+      and is not defined as untracked, there exists an imposed office named
+      “Tracker of [switch name]” that is responsible for tracking that switch.
+      
+------------------------------------------------------------------------
 Rule 2379/0 (Power=1)
 No News Is Some News
 
@@ -1592,23 +1621,21 @@ Documents
    Documents are little bits of text that can be ratified, therefore
    modifying the gamestate slightly.
 ------------------------------------------------------------------------
-Rule 1551/19 (Power=3.1)
+Rule 1551/20 (Power=3.1)
 Ratification
 
-      A public document is part (possibly all) of a public message.
-      
-      When a public document is ratified, rules to the contrary
-      notwithstanding, the gamestate is modified to what it would be if,
-      at the time the ratified document was published, the gamestate had
-      been minimally modified to make the ratified document as true and
-      accurate as possible; however, if the document explicitly
-      specifies a different past time as being the time the document was
-      true, the specified time is used to determine the minimal
-      modifications. Such a modification cannot add inconsistencies
-      between the gamestate and the rules, and it cannot include rule
-      changes unless the ratified document explicitly and unambiguously
-      recites either the changes or the resulting properties of the
-      rule(s). If no such modification is possible, or multiple
+      When a document or statement (hereafter "document") is ratified,
+      rules to the contrary notwithstanding, the gamestate is modified
+      to what it would be if, at the time the ratified document was
+      published, the gamestate had been minimally modified to make the
+      ratified document as true and accurate as possible; however, if the
+      document explicitly specifies a different past time as being the
+      time the document was true, the specified time is used to determine
+      the minimal modifications. Such a modification cannot add
+      inconsistencies between the gamestate and the rules, and it cannot
+      include rule changes unless the ratified document explicitly and
+      unambiguously recites either the changes or the resulting properties
+      of the rule(s). If no such modification is possible, or multiple
       substantially distinct possible modifications would be equally
       appropriate, the ratification fails.
       
@@ -1625,12 +1652,14 @@ Ratification
       be part of the document for the purposes of ratification; such
       definitions are secured at a Power Threshold of 3.
       
-      Ratifying a public document is secured with power threshold 3.
+      Ratification is secured with power threshold 3.
       
 ------------------------------------------------------------------------
-Rule 2202/7 (Power=3)
+Rule 2202/8 (Power=3)
 Ratification Without Objection
 
+      A public document is part (possibly all) of a public message.
+      
       Any player CAN, without objection, ratify a public document,
       specifying its scope.
       
@@ -1648,15 +1677,25 @@ Ratification Without Objection
       is the Class 8 Crime of Endorsing Forgery.
       
 ------------------------------------------------------------------------
-Rule 2201/8 (Power=3)
+Rule 2201/9 (Power=3)
 Self-Ratification
 
-      A public document defined by the rules as self-ratifying is
-      ratified when it is continuously undoubted for one week.
+      When a public document is continuously undoubted for one week
+      after publication:
+      
+      - If the rules define it as self-ratifying, it is ratified.
+      
+      - If the rules define it as a self-ratifying attestation to a
+        given statement, the statement is ratified.
+      
+        This clause is inapplicable if the statement to be ratified
+        cannot be reasonably ascertained from the ruleset and the
+        contents of the message.
       
       A doubt is an explicit public challenge via one of the following
       methods, identifying a document and explaining the scope and
-      nature of a perceived error in it:
+      nature of a perceived error in it (or in a statement it attests
+      to):
       
       1. An inquiry case, appropriate for questions of legal
          interpretation.
@@ -1796,7 +1835,7 @@ Sentencing Guidelines
       remorse, and ardent desire for self-improvement.
       
 ------------------------------------------------------------------------
-Rule 2531/6 (Power=2)
+Rule 2531/7 (Power=2)
 Referee Accountability
 
       Any attempt to levy a fine is INEFFECTIVE if:
@@ -1841,7 +1880,7 @@ Referee Accountability
         Impartial Arbitration Restoration, immediately making the
         position of Referee vacant. When a writ of Impartial Arbitration
         Restoration is issued, the ADoP SHALL initiate an election for
-        the Referee within a timely fashion.
+        the Referee in a timely fashion.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2310,7 +2349,7 @@ Rewards
         on its merit: 20 coins
       
 ------------------------------------------------------------------------
-Rule 2559/6 (Power=2)
+Rule 2559/7 (Power=2)
 Paydays
 
       Whenever a Payday occurs, the following events happen in order:
@@ -2319,7 +2358,7 @@ Paydays
       
       2. For each office, if a single player held that office for 16 or
          more days in the previous month and no unforgivable fines were
-         levied on em for eir conduct in that office during that time,
+         levied on em during that month for eir conduct in that office,
          that player earns 5 coins.
       
       The occurrence of Paydays is secured.  At the beginning of each
@@ -2493,7 +2532,7 @@ Free Auctions
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/4 (Power=2)
+Rule 2532/5 (Power=2)
 Zombies
 
       Master is a secured player switch, tracked by the Registrar, with
@@ -2679,7 +2718,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/10 (Power=3)
+Rule 2438/11 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -2766,6 +2805,16 @@ Ribbons
       for, earns, and/or was awarded within the previous 7 days is at
       least 5.
       
+      Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
+      
+------------------------------------------------------------------------
+Rule 2602/0 (Power=1)
+Glitter
+
+      If a player has earned a ribbon in the past 7 days but already owned it e CAN
+      once (until e earns another ribbon), by announcement, earn N+1 coins where
+      N is the number of current players that do not own the same ribbon.
+      
 ------------------------------------------------------------------------
 Rule 2480/4 (Power=2.1)
 Festivals
@@ -2846,7 +2895,7 @@ Badges
       existing badge to persons without objection.
       
 ------------------------------------------------------------------------
-Rule 1367/21 (Power=3)
+Rule 1367/22 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -2864,11 +2913,14 @@ Degrees
       degrees listed later being ranked higher. A specific degree CANNOT
       be awarded to any person more than once.
       
-      A specified degree CAN be awarded with 2 Agoran consent, and
-      SHOULD only be awarded for the publication of an original thesis
-      of scholarly worth (including responses to peer-review), published
-      with explicit intent to qualify for a degree. The Herald SHOULD
-      coordinate the peer-review process and the awarding of degrees.
+      A specified degree CAN be awarded by any player other than the
+      awardee, with 2 Agoran consent.  It SHOULD only be awarded for the
+      publication of an original thesis of scholarly worth (including
+      responses to peer-review), published with explicit intent to qualify
+      for a degree. Any degree with D.N. as part of its abbreviation
+      SHOULD take into account the awardee's academic history and participation
+      in Agora over time. The Herald SHOULD coordinate the peer-review process
+      and the awarding of degrees.
       
 ------------------------------------------------------------------------
 Rule 2231/6 (Power=3)
@@ -3024,7 +3076,7 @@ First Speaker
       The Speaker for the first game shall be Michael Norrish.
       
 ------------------------------------------------------------------------
-Rule 2423/3 (Power=2)
+Rule 2423/4 (Power=2)
 First Among Equals
 
       The Prime Minister is an office. The Prime Minister is elected by
@@ -3033,7 +3085,7 @@ First Among Equals
       smoothly.
       
       The holder of the office of Prime Minister's voting strength is
-      increased by 1 on all Agoran decisions other than a elections of
+      increased by 1 on all Agoran decisions other than elections of
       the Prime Minister.
       
 ------------------------------------------------------------------------
@@ -3045,10 +3097,10 @@ Motion of No Confidence
       string "MOTION OF NO CONFIDENCE" in the subject line.
       
 ------------------------------------------------------------------------
-Rule 2451/7 (Power=2)
+Rule 2451/8 (Power=2)
 Executive Orders
 
-      Once per week and except as otherwise forbidden by this rule, the
+      Once per week, except as otherwise forbidden by this rule, the
       current Prime Minister CAN issue a Cabinet Order by announcement
       to perform the action(s) authorized by that Order.
       
