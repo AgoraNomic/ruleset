@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset:
+Date of this ruleset: 2020-01-20
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 126
+Number of rules currently enacted: 127
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2603
-Highest ID'd Proposal Passed: 8276
-Highest ID'd Rule Enacted: 2603
+Highest ID'd rule in this ruleset: 2604
+Highest ID'd Proposal Passed: 8283
+Highest ID'd Rule Enacted: 2604
 
 ========================================================================
 The Game of Agora
@@ -67,6 +67,20 @@ Blink
       One week after this sentence is modified in any way, this rule
       is amended by inserting this sentence as the first paragraph of
       this rule.
+      
+------------------------------------------------------------------------
+Rule 2604/0 (Power=0.1)
+Nothing to see here, Rule 1030,
+
+      This rule takes precedence over That One Rule, provisions of That One Rule
+      notwithstanding. That One Rule is defined as the rule that Gaelan has most
+      recently declared, by announcement, to be That One Rule.
+      
+      Additionally, this rule takes precedence over all rules other than Rule 1030,
+      provisions of That One Rule notwithstanding.
+      
+      Gaelan CAN, by announcement, award emself the patent title of “The
+      Powerless”.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -1604,9 +1618,10 @@ Official Reports and Duties
 Rule 2603/0 (Power=1)
 Switch Responsiblity
 
-      For each type of switch which would otherwise lack an officer to track it,
-      and is not defined as untracked, there exists an imposed office named
-      “Tracker of [switch name]” that is responsible for tracking that switch.
+      For each type of switch which would otherwise lack an officer to
+      track it, and is not defined as untracked, there exists an imposed
+      office named “Tracker of [switch name]” that is responsible for
+      tracking that switch.
       
 ------------------------------------------------------------------------
 Rule 2379/0 (Power=1)
@@ -2718,7 +2733,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/11 (Power=3)
+Rule 2438/12 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -2749,7 +2764,8 @@ Ribbons
       follows:
       
       Red (R): When a proposal is adopted and changes at least one rule
-      with Power >= 3, its proposer earns a Red Ribbon.
+      that, immediately before or after the change, has Power >= 3, its
+      proposer earns a Red Ribbon.
       
       Orange (O): When a proposal is adopted via an Agoran Decision on
       which no valid ballots were AGAINST (after evaluating

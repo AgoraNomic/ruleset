@@ -3,17 +3,17 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset:
+Date of this ruleset: 2020-01-20
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 126
+Number of rules currently enacted: 127
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2603
-Highest ID'd Proposal Passed: 8276
-Highest ID'd Rule Enacted: 2603
+Highest ID'd rule in this ruleset: 2604
+Highest ID'd Proposal Passed: 8283
+Highest ID'd Rule Enacted: 2604
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -30,6 +30,7 @@ The Game of Agora
 Important Temporary Rules
    * Rule 2600: Boo!!
    * Rule 2601: Blink
+   * Rule 2604: Nothing to see here, Rule 1030,
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -177,6 +178,7 @@ Agoran Culture
 
 Power Distribution:
 
+1  with Power=0.1
 1  with Power=0.3
 36 with Power=1
 2  with Power=1.5
@@ -308,6 +310,27 @@ Blink
 History:
 
 Enacted by P8262 'trick candles' (G.), 03 Nov 2019
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2604/0 (Power=0.1)
+Nothing to see here, Rule 1030,
+
+      This rule takes precedence over That One Rule, provisions of That One Rule
+      notwithstanding. That One Rule is defined as the rule that Gaelan has most
+      recently declared, by announcement, to be That One Rule.
+      
+      Additionally, this rule takes precedence over all rules other than Rule 1030,
+      provisions of That One Rule notwithstanding.
+      
+      Gaelan CAN, by announcement, award emself the patent title of “The
+      Powerless”.
+      
+History:
+
+Enacted by P8281 'Nothing to see here, Rule 1030 v2' (Gaelan), 20 Jan
+   2020
 
 Annotations:
 
@@ -3840,9 +3863,10 @@ CFJ 3645 (called 20 Jun 2018): Including a report in a message to the
 Rule 2603/0 (Power=1)
 Switch Responsiblity
 
-      For each type of switch which would otherwise lack an officer to track it,
-      and is not defined as untracked, there exists an imposed office named
-      “Tracker of [switch name]” that is responsible for tracking that switch.
+      For each type of switch which would otherwise lack an officer to
+      track it, and is not defined as untracked, there exists an imposed
+      office named “Tracker of [switch name]” that is responsible for
+      tracking that switch.
       
 History:
 
@@ -5832,7 +5856,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/11 (Power=3)
+Rule 2438/12 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -5863,7 +5887,8 @@ Ribbons
       follows:
       
       Red (R): When a proposal is adopted and changes at least one rule
-      with Power >= 3, its proposer earns a Red Ribbon.
+      that, immediately before or after the change, has Power >= 3, its
+      proposer earns a Red Ribbon.
       
       Orange (O): When a proposal is adopted via an Agoran Decision on
       which no valid ballots were AGAINST (after evaluating
@@ -5938,6 +5963,7 @@ Amended(9) by P7992 'More CAN Fixes' (Alexis), 13 Jan 2018
 Amended(10) by P8232 'Increased transparency v1.1' (Murphy, Jason Cobb,
    twg), 05 Sep 2019
 Amended(11) by P8267 'Emerald Ribbons' (Jason Cobb), 11 Nov 2019
+Amended(12) by P8283 'Ex Post Ribbon' (Alexis), 20 Jan 2020
 
 Annotations:
 
@@ -5945,9 +5971,10 @@ Annotations:
 Rule 2602/0 (Power=1)
 Glitter
 
-      If a player has earned a ribbon in the past 7 days but already owned it e CAN
-      once (until e earns another ribbon), by announcement, earn N+1 coins where
-      N is the number of current players that do not own the same ribbon.
+      If a player has earned a ribbon in the past 7 days but already
+      owned it e CAN once (until e earns another ribbon), by
+      announcement, earn N+1 coins where N is the number of current
+      players that do not own the same ribbon.
       
 History:
 
