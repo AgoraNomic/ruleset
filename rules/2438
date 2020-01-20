@@ -68,6 +68,11 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8267"
+- change:
+    type: amendment
+  date: 2020-01-20
+  agent:
+    proposal: "8283"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -97,7 +102,8 @@ text: |
   follows:
 
   Red (R): When a proposal is adopted and changes at least one rule
-  with Power >= 3, its proposer earns a Red Ribbon.
+  that, immediately before or after the change, has Power >= 3, its
+  proposer earns a Red Ribbon.
 
   Orange (O): When a proposal is adopted via an Agoran Decision on
   which no valid ballots were AGAINST (after evaluating
