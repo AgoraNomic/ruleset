@@ -28,7 +28,7 @@ text: |
   When a player deputises for an elected office, e becomes the
   holder of that office, unless the action being performed would
   already install someone into that office, and/or unless the
-  deputisiation is temporary.
+  deputisation is temporary.
 history:
 - change:
     type: enactment
@@ -154,6 +154,12 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8268"
+- change:
+    type: amendment
+  date: 2020-01-23
+  agent:
+    cleaning:
+      by: twg
 annotations:
 - cfjs:
   - id: '1776'
