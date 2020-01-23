@@ -10,8 +10,8 @@ text: |
   To levy a fine of N on a person, where N is a positive integer, is
   to grant em N blots. To expunge a blot is to destroy it.
 
-  Levying fines and destroying blots are each secured with a power
-  threshold of 1.7.
+  Levying fines and destroying blots are each secured with a Power
+  Threshold of 1.7.
 
   The Referee is an office, and the recordkeepor for blots.
 
@@ -50,4 +50,10 @@ history:
   date: 2019-09-18
   agent:
     proposal: "8235"
+- change:
+    type: amendment
+  date: 2020-01-23
+  agent:
+    cleaning:
+      by: Alexis
 annotations: []

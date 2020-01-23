@@ -30,7 +30,7 @@ text: |
   be part of the document for the purposes of ratification; such
   definitions are secured at a Power Threshold of 3.
 
-  Ratification is secured with power threshold 3.
+  Ratification is secured with Power Threshold 3.
 history:
 - change:
     type: enactment
@@ -171,6 +171,12 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8270"
+- change:
+    type: amendment
+  date: 2020-01-23
+  agent:
+    cleaning:
+      by: Alexis
 annotations:
 - cfjs:
   - id: '2165'

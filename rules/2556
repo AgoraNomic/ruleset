@@ -5,7 +5,7 @@ text: |
   Rules to the contrary notwithstanding, an impure person CANNOT win
   the game.
 
-  The voting strength of a player on an Agoran Decision is reduced
+  The voting strength of a player on an Agoran decision is reduced
   by 1 for every 3 blots in eir possession.
 
   A player CAN, with 7 days notice, deregister (exile) a specified
@@ -17,4 +17,10 @@ history:
   date: 2018-03-30
   agent:
     proposal: "8029"
+- change:
+    type: amendment
+  date: 2020-01-23
+  agent:
+    cleaning:
+      by: Alexis
 annotations: []

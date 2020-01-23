@@ -2,24 +2,24 @@ id: 879
 name: Quorum
 power: 2
 text: |
-  Each Agoran Decision has a quorum. This is a number set when the
+  Each Agoran decision has a quorum. This is a number set when the
   decision is created, and thereafter cannot be changed. When a
-  person initiates an Agoran Decision, that person SHALL state the
+  person initiates an Agoran decision, that person SHALL state the
   quorum of that decision. However, incorrectly stating the quorum
   of a decision does not invalidate the initiation, nor does it
   actually change the quorum of the decision.
 
-  The quorum that an Agoran Decision gains as it is created can be
+  The quorum that an Agoran decision gains as it is created can be
   defined by other rules of power 2 or greater. If no other rule
-  defines the quorum of an Agoran Decision, the quorum for that
+  defines the quorum of an Agoran decision, the quorum for that
   decision is equal to 2/3 of the number of voters on the Agoran
-  Decision to adopt a proposal that had been most recently resolved
+  decision to adopt a proposal that had been most recently resolved
   at the time of that decision's initiation, the whole rounded to
   the nearest integer (breaking ties upward).
 
   As an exception to the previous paragraph, the quorum of an
-  Agoran Decision can never be less than 2. If the rules would
-  attempt to set the quorum of an Agoran Decision to less than 2,
+  Agoran decision can never be less than 2. If the rules would
+  attempt to set the quorum of an Agoran decision to less than 2,
   it is set to 2 instead.
 history:
 - change:
@@ -216,6 +216,12 @@ history:
   date: 2018-09-28
   agent:
     proposal: "8095"
+- change:
+    type: amendment
+  date: 2020-01-23
+  agent:
+    cleaning:
+      by: Alexis
 annotations:
 - cfjs:
   - id: '1562'

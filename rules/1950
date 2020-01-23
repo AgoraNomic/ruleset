@@ -8,7 +8,7 @@ text: |
   from 1.0 to 9.9. For proposals, the possible values are integral
   multiples of 0.1 from 1.0 to 9.9 (default 1.0).
 
-  Adoption index is secured with a power threshold of 2.
+  Adoption index is secured with a Power Threshold of 2.
 
   Adoption index is an essential parameter of an Agoran decision if
   that decision has an adoption index.
@@ -214,6 +214,12 @@ history:
   date: 2019-09-18
   agent:
     proposal: "8241"
+- change:
+    type: amendment
+  date: 2020-01-23
+  agent:
+    cleaning:
+      by: Alexis
 annotations:
 - cfjs:
   - id: '1885'
