@@ -12,4 +12,11 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8266"
-annotations: []
+annotations:
+- cfjs:
+  - id: '3783'
+    called: 2019-12-07
+  text: >
+    A player cannot use this rule to earn coins for a ribbon
+    after e has earned another ribbon, regardless of the
+    latter's type or whether e had it already.
