@@ -73,6 +73,11 @@ history:
   date: 2020-01-20
   agent:
     proposal: "8283"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8295"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -88,11 +93,9 @@ text: |
   to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
   if that type of Ribbon is an element of eir Ribbon Ownership.
 
-  While a person qualifies for a type of Ribbon, any player CAN, by
-  announcement, award em that type of Ribbon. A person qualifies for
-  a type of Ribbon if e has earned that type of Ribbon within the
-  preceding 7 days (including earlier in the same message) and has
-  not owned that type of Ribbon within the preceding 7 days.
+  A person qualifies for a type of Ribbon if e has earned that type
+  of Ribbon within the preceding 7 days (including earlier in the
+  same message).
 
   While a person owns all types of Ribbon, that person can Raise a
   Banner by announcement. This causes that person to win the game.
@@ -113,6 +116,8 @@ text: |
   continuously for the past 30 days, and has not failed to perform
   any duties of that office within the appropriate time limits
   during those 30 days, that person qualifies for a Green Ribbon.
+
+  Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
 
   Cyan (C): When a person deputises for an office, that person earns
   a Cyan Ribbon.
@@ -159,7 +164,16 @@ text: |
   for, earns, and/or was awarded within the previous 7 days is at
   least 5.
   
-  Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
+  While a person qualifies for a type of Ribbon:
+
+    - If e has not owned that type of Ribbon within the preceding 7 days,
+      any player CAN, by announcement, award em that type of Ribbon.
+
+    - Otherwise, if e has not been awarded that type of Ribbon or the
+      corresponding type of Glitter since e last earned or came to qualify
+      for that type of Ribbon, e CAN, by announcement, award emself that
+      type of Glitter.
+
 id: 2438
 power: 3
 annotations: []

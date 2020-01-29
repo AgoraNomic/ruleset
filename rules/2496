@@ -2,33 +2,34 @@ id: 2496
 name: Rewards
 power: 1
 text: |
-  A player CAN, by announcement, earn the set of assets associated
-  with a reward condition exactly once in a timely fashion each time
-  e fulfills it, provided the announcement specifies the action that
-  e performed and the amount of assets e earns as a result.
+  Each time a player fulfills a reward condition, the officer
+  associated with the condition CAN once, and SHALL before the end
+  of the next Agoran week, grant the associated set of assets to the
+  player.
 
-  Below is a list of reward conditions and their associated assets.
+  Below is a list of reward conditions and their associated assets
+  and officers.
 
   * Being the author of an adopted proposal: a number of coins equal
     to ((the total number of valid ballots cast FOR the decision -
     the total number of valid ballots cast AGAINST) times the
-    adoption index of the result) rounded up.
+    adoption index of the result) rounded up (Assessor).
 
   * Judging a CFJ that e was assigned to without violating a time
-    limit to do so: 5 coins.
+    limit to do so: 5 coins (Arbitor).
 
   * Publishing an office's weekly or monthly report, provided that
     publication was the first report published for that office in
     the relevant time period (week or month respectively) to fulfill
-    an official weekly or monthly duty: 5 coins.
+    an official weekly or monthly duty: 5 coins (ADoP).
 
   * Resolving an Agoran Decision on whether to adopt a proposal,
     provided that no other Agoran Decision on whether to adopt that
     or any other proposal had been resolved earlier in that Agoran
-    week: 5 coins.
+    week: 5 coins (ADoP).
 
   * Having a Thesis pass peer-review and be granted a Degree based
-    on its merit: 20 coins
+    on its merit: 20 coins (Herald)
 history:
 - change:
     type: enactment
@@ -110,4 +111,9 @@ history:
   date: 2019-07-23
   agent:
     proposal: "8190"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8295"
 annotations: []

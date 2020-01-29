@@ -2,11 +2,14 @@ id: 2602
 name: Glitter
 power: 1
 text: |
-  Each time a player earns a type of Ribbon while already owning
-  that type of Ribbon, e CAN, once within the next 7 days, claim a
-  consolation prize by announcement.  Claiming a consolation prize
-  causes em to earn N+1 coins, where N is the number of players
-  that do not own the same type of Ribbon.
+  For each type of Ribbon, there is a type of Glitter with the same
+  name. An attempt to award Glitter is INEFFECTIVE if the type of
+  Glitter is not specified.
+
+  Each time a player is awarded a type of Glitter, the Tailor CAN
+  once, and SHALL before the end of the next Agoran week, grant the
+  player N+1 coins, where N is the number of players who did not
+  own the corresponding type of Ribbon at the time of the award.
 history:
 - change:
     type: enactment
@@ -18,4 +21,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8288"
+- change:
+    type: enactment
+  date: 2020-01-29
+  agent:
+    proposal: "8295"
 annotations: []
