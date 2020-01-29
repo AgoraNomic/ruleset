@@ -7,12 +7,10 @@ text: |
   1. Non-Festive players are never considered Supporters of a
      dependent action;
 
-  2. Non-Festive players cannot flip the Imminence of any proposal;
-
-  3. Quorum for Agoran Decisions is equal to half the number of
+  2. Quorum for Agoran Decisions is equal to half the number of
      Festive players, rounded up;
 
-  4. Each Festive player has the maximum possible voting strength.
+  3. Each Festive player has the maximum possible voting strength.
      All other players have the minimum possible voting strength.
 
   While Agora's Festivity is zero, the paragraphs above have no
@@ -28,4 +26,9 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8297"
 annotations: []
