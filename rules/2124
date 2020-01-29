@@ -3,11 +3,10 @@ name: Agoran Satisfaction
 power: 2
 text: |
   A Supporter of an intent to perform an action is an eligible
-  entity who has publicly posted (and not withdrawn) support (syn.
-  "consent") for an announcement of that intent. An Objector to an
-  intent to perform an action is an eligible entity who has publicly
-  posted (and not withdrawn) an objection to the announcement of
-  that intent.
+  entity who has publicly posted (and not withdrawn) support for an
+  announcement of that intent. An Objector to an intent to perform
+  an action is an eligible entity who has publicly posted (and not
+  withdrawn) an objection to the announcement of that intent.
 
   The entities eligible to support or object to an intent to perform
   an action are, by default, all players, subject to modification by
@@ -187,6 +186,11 @@ history:
   date: 2019-09-18
   agent:
     proposal: "8236"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8303"
 annotations:
 - cfjs:
   - id: '3567'

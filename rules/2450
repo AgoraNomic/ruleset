@@ -7,7 +7,8 @@ text: |
   within the pledge's time window is the Class N crime of
   Oathbreaking, where N is 2 unless the pledge explicitly states
   otherwise.  The time window of a pledge is 60 days, unless the
-  pledge explicitly states otherwise.
+  pledge explicitly states otherwise. A pledge ceases to exist at
+  the end of its time window.
 
   If breaking the pledge harms specific other parties, the Referee
   SHOULD solicit the opinion of those parties in determining an
@@ -41,6 +42,11 @@ history:
   date: 2018-07-18
   agent:
     proposal: "8060"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8303"
 annotations:
 - cfjs:
   - id: 3683-3684

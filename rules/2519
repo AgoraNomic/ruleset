@@ -2,14 +2,21 @@ id: 2519
 name: Consent
 power: 3
 text: |
-  A person gives consent (syn. consents) to an action when e, acting
-  as emself, publicly states that e agrees to the action. This
-  agreement may be implied, but only if it is reasonably clear from
-  context that the person wanted the agreement to take place.
+  1. e, acting as emself, has publicly stated that e agrees to the
+     action and not subsequently publicly withdrawn eir statement;
+  2. e is party to a contract whose body explicitly and unambiguously
+     indicates eir consent; or
+  3. it is reasonably clear from context that e wanted the
+     action to take place or assented to it taking place.
 history:
 - change:
     type: enactment
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8303"
 annotations: []

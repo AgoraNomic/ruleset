@@ -2,31 +2,39 @@ id: 1742
 name: Contracts
 power: 2.5
 text: |
-  Any group of two or more consenting persons (the parties) may
-  make an agreement among themselves with the intention that it be
-  binding upon them and be governed by the rules. Such an agreement
-  is known as a contract. A contract may be modified, including
-  by changing the set of parties, by agreement between all existing
-  parties. A contract may also terminate by agreement between all
-  parties. A contract automatically terminates if the number of
-  parties to it falls below two. It is IMPOSSIBLE for a person to
-  become a party to a contract without eir agreement. For the
-  purposes of this rule, agreement includes both consent and
-  agreement specified by contract.
+  Any group of one or more consenting persons (the parties) may
+  publicly make an agreement among themselves with the intention that
+  it be binding upon them and be governed by the rules. Such an
+  agreement is known as a contract. A contract may be modified,
+  including by changing the set of parties, with the consent of all
+  existing parties. A contract may also be terminated with the
+  consent of all parties. A contract automatically terminates if the
+  number of parties to it falls below one. It is IMPOSSIBLE for a
+  person to become a party to a contract without eir consent.
 
   Parties to a contract governed by the rules SHALL act in
   accordance with that contract. This obligation is not impaired
   by contradiction between the contract and any other contract, or
   between the contract and the rules.
 
-  A party to a contract CAN perform any of the following actions
-  as permitted by the contract's text:
+  Rules to the contrary notwithstanding, any change that would cause
+  the full provisions or parties of a contract to become publicly
+  unavailable is canceled and does not take effect.
+
+  The portion of a contract's provisions that can be interpreted
+  with reference only to information that is either publicly or
+  generally available are known as its body; the remainder of the
+  provisions are known as the annex.
+
+  A party to a contract CAN perform any of the following actions as
+  explicitly and unambiguously permitted by the contract's body:
 
   * Act on behalf of another party to the contract.
 
   * By announcement, revoke destructible assets from the contract.
 
-  * By announcement, take liquid assets from the contract.
+  * By announcement, transfer liquid assets from the contract to a
+    specified recipient.
 history:
 - change:
     type: enactment
@@ -174,6 +182,11 @@ history:
   date: 2019-02-22
   agent:
     proposal: "8163"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8303"
 annotations:
 - cfjs:
   - id: 3644
