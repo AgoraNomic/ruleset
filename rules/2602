@@ -2,21 +2,20 @@ id: 2602
 name: Glitter
 power: 1
 text: |
-  If a player has earned a ribbon in the past 7 days but already
-  owned it e CAN once (until e earns another ribbon), by
-  announcement, earn N+1 coins where N is the number of current
-  players that do not own the same ribbon.
+  Each time a player earns a type of Ribbon while already owning
+  that type of Ribbon, e CAN, once within the next 7 days, claim a
+  consolation prize by announcement.  Claiming a consolation prize
+  causes em to earn N+1 coins, where N is the number of players
+  that do not own the same type of Ribbon.
 history:
 - change:
     type: enactment
   date: 2019-11-11
   agent:
     proposal: "8266"
-annotations:
-- cfjs:
-  - id: '3783'
-    called: 2019-12-07
-  text: >
-    A player cannot use this rule to earn coins for a ribbon
-    after e has earned another ribbon, regardless of the
-    latter's type or whether e had it already.
+- change:
+    type: enactment
+  date: 2020-01-29
+  agent:
+    proposal: "8288"
+annotations: []
