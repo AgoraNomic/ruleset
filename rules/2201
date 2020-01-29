@@ -14,19 +14,14 @@ text: |
     cannot be reasonably ascertained from the ruleset and the
     contents of the message.
 
-  A doubt is an explicit public challenge via one of the following
-  methods, identifying a document and explaining the scope and
-  nature of a perceived error in it (or in a statement it attests
-  to):
+  Any person CAN by announcement issue a doubt (syn. claim of
+  error), identifying a document and explaining the scope and nature
+  of a perceived error in it (or in a statement it attests to).
 
-  1. An inquiry case, appropriate for questions of legal
-     interpretation.
-
-  2. A claim of error, appropriate for matters of fact. The
-     publisher of the original document SHALL (if e was required to
-     publish that document) or SHOULD (otherwise) do one of the
-     following in a timely fashion, in an announcement that clearly
-     cites the claim of error:
+  When this happens, the publisher of the original document SHALL
+  (if e was required to publish that document) or SHOULD (otherwise)
+  do one of the following in a timely fashion, in an announcement
+  that clearly cites the claim of error:
 
      1. Deny the claim (causing it to cease to be a doubt).
 
@@ -86,6 +81,11 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8270"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8292"
 annotations:
 - cfjs:
   - id: '1690'
