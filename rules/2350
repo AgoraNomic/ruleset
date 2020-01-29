@@ -14,6 +14,9 @@ text: |
 
   * An adoption index.
 
+  * A chamber to which the proposal shall be assigned upon its
+    creation.
+
   Creating a proposal adds it to the Proposal Pool. Once a proposal
   is created, neither its text nor any of the aforementioned
   attributes can be changed. The author (syn. proposer) of a
@@ -87,6 +90,11 @@ history:
   agent:
     cleaning:
       by: Trigon
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8291"
 annotations:
 - cfjs:
   - id: '1647'

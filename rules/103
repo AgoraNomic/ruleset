@@ -19,9 +19,8 @@ text: |
   person for 90+ days, then any player CAN appoint another player to
   the office with support.
 
-  For an election of the Prime Minister, the Speaker has voting
-  strength one greater than e would have if e did not hold the
-  office.
+  The Speaker has voting strength one greater than e would have if e
+  did not hold the office.
 history:
 - change:
     type: initial
@@ -194,4 +193,9 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8221"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8291"
 annotations: []

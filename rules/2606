@@ -1,0 +1,22 @@
+id: 2606
+name: Proposal Classes
+power: 2.0
+text: |
+  Proposals created since the enactment of this rule have an
+  untracked Class switch with possible values ordinary (the default)
+  and democratic.
+
+  When a proposal with an adoption index greater than 2.0 is
+  created, its class becomes democratic.
+
+  Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
+  class to democratic, provided that it is in the Proposal Pool or
+  that there is an Agoran decision on its adoption whose voting
+  period has not yet ended.
+history:
+- change:
+    type: enactment
+  date: 2020-01-29
+  agent:
+    proposal: "8291"
+annotations: []

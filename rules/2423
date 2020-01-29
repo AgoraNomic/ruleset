@@ -6,10 +6,6 @@ text: |
   the players of Agora primarily on account of not being the other
   guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
   smoothly.
-
-  The holder of the office of Prime Minister's voting strength is
-  increased by 1 on all Agoran decisions other than elections of
-  the Prime Minister.
 history:
 - change:
     type: enactment
@@ -37,4 +33,9 @@ history:
   agent:
     cleaning:
       by: Murphy
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8291"
 annotations: []

@@ -8,10 +8,10 @@ text: |
   Determining whether to adopt a proposal is an Agoran decision. For
   this decision, the vote collector is the Assessor, the adoption
   index is initially the adoption index of the proposal, or 1.0 if
-  the proposal does not have one, and the text, author, and
-  coauthors of the proposal are essential parameters. Initiating
-  such a decision is known as distribution, and removes the proposal
-  from the Proposal Pool.
+  the proposal does not have one, and the text, author, coauthors,
+  class and (if applicable) chamber of the proposal are essential
+  parameters. Initiating such a decision is known as distribution,
+  and removes the proposal from the Proposal Pool.
 
   The Promotor CAN distribute a proposal which is in the Proposal
   Pool at any time.
@@ -281,6 +281,11 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8269"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8291"
 annotations:
 - cfjs:
   - id: '1546'
