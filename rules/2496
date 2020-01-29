@@ -3,9 +3,8 @@ name: Rewards
 power: 1
 text: |
   Each time a player fulfills a reward condition, the officer
-  associated with the condition CAN once, and SHALL before the end
-  of the next Agoran week, grant the associated set of assets to the
-  player.
+  associated with the condition CAN once, and SHALL in an officially
+  timely fashion, grant the associated set of assets to the player.
 
   Below is a list of reward conditions and their associated assets
   and officers.
@@ -116,4 +115,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8295"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8304"
 annotations: []

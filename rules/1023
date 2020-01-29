@@ -11,7 +11,12 @@ text: |
      same message", is instead interpreted as a requirement to
      perform that action in a timely fashion after that instant.
 
-  2. Agoran epochs:
+  2. The phrase "in an officially timely fashion" means "before the
+     end of the next Agoran week". This time period is set when the
+     requirement is created (i.e. between 7 and 14 days before the
+     period ends).
+
+  3. Agoran epochs:
 
        1. Agoran days begin at midnight UTC.
 
@@ -40,7 +45,7 @@ text: |
      apply to relative durations (e.g. "within <number> days after
      <event>").
 
-  3. Two points in time are within a month of each other if:
+  4. Two points in time are within a month of each other if:
 
       1. they occur in the same Agoran month;
 
@@ -289,6 +294,11 @@ history:
   date: 2018-01-31
   agent:
     proposal: "7998"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8304"
 annotations:
 - cfjs:
   - id: '3624'
