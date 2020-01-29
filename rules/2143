@@ -35,18 +35,6 @@ text: |
   Officers SHOULD maintain a publicly visible copy of their reports
   on the World Wide Web, and they SHOULD publish the address of this
   copy along with their published reports.
-
-  A convergence is any change to the gamestate that has, in
-  accordance with the rules, been designated as such. A change to
-  the gamestate SHOULD NOT be designated as a convergence unless it
-  is designed to resolve gamestate ambiguity. Designating a change
-  as a convergence is secured; any player CAN do so with 3 Agoran
-  Consent. When officeholders provide historical information, they
-  NEED NOT accurately document the changes made by the convergence
-  or related ambiguities, provided that they instead note that the
-  convergence occurred. Information about a convergence (but not the
-  resulting state) is inherently uncertain and is thus excluded from
-  self-ratification.
 history:
 - change:
     type: enactment
@@ -211,6 +199,11 @@ history:
   date: 2019-09-18
   agent:
     proposal: "8249"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8296"
 annotations:
 - cfjs:
   - id: '2392'
