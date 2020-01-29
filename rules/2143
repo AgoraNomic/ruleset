@@ -35,6 +35,10 @@ text: |
   Officers SHOULD maintain a publicly visible copy of their reports
   on the World Wide Web, and they SHOULD publish the address of this
   copy along with their published reports.
+
+  If an office has a discretionary power, and a player publicly
+  petitions the officer to apply that power in a specific case or
+  manner, the officer SHALL publicly respond in a timely fashion.
 history:
 - change:
     type: enactment
@@ -204,6 +208,11 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8296"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8302"
 annotations:
 - cfjs:
   - id: '2392'
