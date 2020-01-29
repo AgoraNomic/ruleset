@@ -6,8 +6,8 @@ text: |
 
   - Associate of Nomic                 (A.N.)
   - Juris Doctor of Nomic              (J.N.)
-  - Bachelor of Nomic                  (B.N.)
-  - Master of Nomic                    (M.N.)
+  - Baccalaureate of Nomic             (B.N.)
+  - Magisteriate of Nomic              (M.N.)
   - Doctor of Nomic History            (D.N.Hist.)
   - Doctor of Nomic Law                (D.N.Law.)
   - Doctor of Nomic Science            (D.N.Sci.)
@@ -166,4 +166,9 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8271"
+- change:
+    type: amendment
+  date: 2020-01-29
+  agent:
+    proposal: "8305"
 annotations: []
