@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 2020-01-20
+Date of this ruleset:
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 127
+Number of rules currently enacted: 131
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2604
-Highest ID'd Proposal Passed: 8283
-Highest ID'd Rule Enacted: 2604
+Highest ID'd rule in this ruleset: 2608
+Highest ID'd Proposal Passed: 8305
+Highest ID'd Rule Enacted: 2608
 
 ========================================================================
 The Game of Agora
@@ -299,7 +299,7 @@ Regulated Actions
       interpreted so as to proscribe unregulated actions.
       
 ------------------------------------------------------------------------
-Rule 1023/39 (Power=2)
+Rule 1023/40 (Power=2)
 Agoran Time
 
       The following terms are defined:
@@ -311,7 +311,12 @@ Agoran Time
          same message", is instead interpreted as a requirement to
          perform that action in a timely fashion after that instant.
       
-      2. Agoran epochs:
+      2. The phrase "in an officially timely fashion" means "before the
+         end of the next Agoran week". This time period is set when the
+         requirement is created (i.e. between 7 and 14 days before the
+         period ends).
+      
+      3. Agoran epochs:
       
            1. Agoran days begin at midnight UTC.
       
@@ -340,7 +345,7 @@ Agoran Time
          apply to relative durations (e.g. "within <number> days after
          <event>").
       
-      3. Two points in time are within a month of each other if:
+      4. Two points in time are within a month of each other if:
       
           1. they occur in the same Agoran month;
       
@@ -437,15 +442,14 @@ Performing a Dependent Action
       the action is to be taken with N Agoran consent.
       
 ------------------------------------------------------------------------
-Rule 2124/25 (Power=2)
+Rule 2124/26 (Power=2)
 Agoran Satisfaction
 
       A Supporter of an intent to perform an action is an eligible
-      entity who has publicly posted (and not withdrawn) support (syn.
-      "consent") for an announcement of that intent. An Objector to an
-      intent to perform an action is an eligible entity who has publicly
-      posted (and not withdrawn) an objection to the announcement of
-      that intent.
+      entity who has publicly posted (and not withdrawn) support for an
+      announcement of that intent. An Objector to an intent to perform
+      an action is an eligible entity who has publicly posted (and not
+      withdrawn) an objection to the announcement of that intent.
       
       The entities eligible to support or object to an intent to perform
       an action are, by default, all players, subject to modification by
@@ -636,7 +640,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/11 (Power=3)
+Rule 2350/12 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -651,6 +655,9 @@ Proposals
       
       * An adoption index.
       
+      * A chamber to which the proposal shall be assigned upon its
+        creation.
+      
       Creating a proposal adds it to the Proposal Pool. Once a proposal
       is created, neither its text nor any of the aforementioned
       attributes can be changed. The author (syn. proposer) of a
@@ -664,7 +671,61 @@ Proposals
       retract, withdraw) it from the Pool by announcement.
       
 ------------------------------------------------------------------------
-Rule 1607/46 (Power=3)
+Rule 2605/0 (Power=2.0)
+Ministries
+
+      A Ministry is an entity defined as such by this rule. Each
+      Ministry has a goal. The Ministries of Agora, and their goals, are
+      as follows:
+      
+       A. Ministry of Justice: serve justice to rulebreakers
+       B. Ministry of Efficiency: see official duties performed swiftly
+       C. Ministry of Legislation: see votes cast on proposals
+       D. Ministry of Participation: reward players for achievements
+       E. Ministry of Economy: encourage economic activity and contracts
+      
+      Interest is an office switch, tracked by the ADoP, whose possible
+      values are lists of ministries, defaulting to the empty list. The
+      ADoP CAN flip an office's interest without objection.
+      
+      For each item of each office's interest, that office's holder's
+      voting strength is increased by 2 on proposals whose chamber is
+      set to that ministry.
+      
+------------------------------------------------------------------------
+Rule 2606/0 (Power=2.0)
+Proposal Classes
+
+      Proposals created since the enactment of this rule have an
+      untracked Class switch with possible values ordinary (the default)
+      and democratic.
+      
+      When a proposal with an adoption index greater than 2.0 is
+      created, its class becomes democratic.
+      
+      Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
+      class to democratic, provided that it is in the Proposal Pool or
+      that there is an Agoran decision on its adoption whose voting
+      period has not yet ended.
+      
+------------------------------------------------------------------------
+Rule 2607/0 (Power=2.0)
+Proposal Chambers
+
+      Chamber is an untracked ordinary proposal switch whose possible
+      values include unset (the default) and each of the ministries of
+      Agora.
+      
+      A proposal's chamber SHOULD only be decided by which ministry's
+      goals it effects to the greatest degree.
+      
+      Any player CAN, with 2 Agoran consent, flip the chamber of an
+      ordinary proposal to any ministry, provided that it is in the
+      Proposal Pool or that there is an Agoran decision on its adoption
+      whose voting period has not yet ended.
+      
+------------------------------------------------------------------------
+Rule 1607/47 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -673,10 +734,10 @@ Distribution
       Determining whether to adopt a proposal is an Agoran decision. For
       this decision, the vote collector is the Assessor, the adoption
       index is initially the adoption index of the proposal, or 1.0 if
-      the proposal does not have one, and the text, author, and
-      coauthors of the proposal are essential parameters. Initiating
-      such a decision is known as distribution, and removes the proposal
-      from the Proposal Pool.
+      the proposal does not have one, and the text, author, coauthors,
+      class and (if applicable) chamber of the proposal are essential
+      parameters. Initiating such a decision is known as distribution,
+      and removes the proposal from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
       Pool at any time.
@@ -933,7 +994,7 @@ Rule Changes
       a rule or cease to be a rule.
       
 ------------------------------------------------------------------------
-Rule 2493/7 (Power=3)
+Rule 2493/8 (Power=3)
 Regulations
 
       A regulation is an textual entity defined as such by this rule,
@@ -944,8 +1005,8 @@ Regulations
       A regulation CAN be enacted, amended, and repealed as specified by
       its parent rule. By default, a person CAN, with 2 Agoran consent,
       enact, amend, or repeal a regulation for which e is the
-      Promulgator. Regulations are tracked in their Promulgator's weekly
-      report.
+      Promulgator. Regulations are tracked by the Rulekeepor as part of
+      eir weekly and monthly reports in a fashion similar to rules.
       
 ------------------------------------------------------------------------
 Rule 2486/0 (Power=3.14)
@@ -987,7 +1048,7 @@ The Rulekeepor
       The Rulekeepor's Monthly report includes the Full Logical Ruleset.
       
 ------------------------------------------------------------------------
-Rule 1681/21 (Power=1)
+Rule 1681/22 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -1015,7 +1076,8 @@ The Logical Rulesets
       feels may be helpful in the use of the ruleset in the FLR.
       
       Whenever a rule is changed in any way, the Rulekeepor SHALL record
-      a historical annotation to the rule indicating:
+      and thereafter maintain a reasonably accurate historical annotation
+      to the rule indicating:
       
       1. The type of change.
       
@@ -1264,35 +1326,35 @@ Determining the Will of Agora
       cannot change thereafter.
       
 ------------------------------------------------------------------------
-Rule 879/35 (Power=2)
+Rule 879/36 (Power=2)
 Quorum
 
-      Each Agoran Decision has a quorum. This is a number set when the
+      Each Agoran decision has a quorum. This is a number set when the
       decision is created, and thereafter cannot be changed. When a
-      person initiates an Agoran Decision, that person SHALL state the
+      person initiates an Agoran decision, that person SHALL state the
       quorum of that decision. However, incorrectly stating the quorum
       of a decision does not invalidate the initiation, nor does it
       actually change the quorum of the decision.
       
-      The quorum that an Agoran Decision gains as it is created can be
+      The quorum that an Agoran decision gains as it is created can be
       defined by other rules of power 2 or greater. If no other rule
-      defines the quorum of an Agoran Decision, the quorum for that
+      defines the quorum of an Agoran decision, the quorum for that
       decision is equal to 2/3 of the number of voters on the Agoran
-      Decision to adopt a proposal that had been most recently resolved
+      decision to adopt a proposal that had been most recently resolved
       at the time of that decision's initiation, the whole rounded to
       the nearest integer (breaking ties upward).
       
       As an exception to the previous paragraph, the quorum of an
-      Agoran Decision can never be less than 2. If the rules would
-      attempt to set the quorum of an Agoran Decision to less than 2,
+      Agoran decision can never be less than 2. If the rules would
+      attempt to set the quorum of an Agoran decision to less than 2,
       it is set to 2 instead.
       
 ------------------------------------------------------------------------
-Rule 2422/5 (Power=3)
+Rule 2422/6 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
-      integer between 0 and 5 inclusive, defined by rules of power 2
+      integer between 0 and 15 inclusive, defined by rules of power 2
       or greater. If not otherwise specified, the voting strength of
       an entity on an Agoran decision is 3.
       
@@ -1356,7 +1418,7 @@ Extending the voting period
       proposal's author) has voted FOR.
       
 ------------------------------------------------------------------------
-Rule 1950/35 (Power=3)
+Rule 1950/36 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index (AI) is an untracked switch possessed by Agoran
@@ -1365,7 +1427,7 @@ Decisions with Adoption Indices
       from 1.0 to 9.9. For proposals, the possible values are integral
       multiples of 0.1 from 1.0 to 9.9 (default 1.0).
       
-      Adoption index is secured with a power threshold of 2.
+      Adoption index is secured with a Power Threshold of 2.
       
       Adoption index is an essential parameter of an Agoran decision if
       that decision has an adoption index.
@@ -1493,7 +1555,7 @@ Impeachment
       emself unworthy the trust of Agora.
       
 ------------------------------------------------------------------------
-Rule 2160/21 (Power=3)
+Rule 2160/22 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
@@ -1522,7 +1584,7 @@ Deputisation
       When a player deputises for an elected office, e becomes the
       holder of that office, unless the action being performed would
       already install someone into that office, and/or unless the
-      deputisiation is temporary.
+      deputisation is temporary.
       
 ------------------------------------------------------------------------
 Rule 2138/24 (Power=1)
@@ -1565,7 +1627,7 @@ Office Incompatibilities
       Overpowered player holds becomes vacant.
       
 ------------------------------------------------------------------------
-Rule 2143/29 (Power=1)
+Rule 2143/31 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -1602,17 +1664,9 @@ Official Reports and Duties
       on the World Wide Web, and they SHOULD publish the address of this
       copy along with their published reports.
       
-      A convergence is any change to the gamestate that has, in
-      accordance with the rules, been designated as such. A change to
-      the gamestate SHOULD NOT be designated as a convergence unless it
-      is designed to resolve gamestate ambiguity. Designating a change
-      as a convergence is secured; any player CAN do so with 3 Agoran
-      Consent. When officeholders provide historical information, they
-      NEED NOT accurately document the changes made by the convergence
-      or related ambiguities, provided that they instead note that the
-      convergence occurred. Information about a convergence (but not the
-      resulting state) is inherently uncertain and is thus excluded from
-      self-ratification.
+      If an office has a discretionary power, and a player publicly
+      petitions the officer to apply that power in a specific case or
+      manner, the officer SHALL publicly respond in a timely fashion.
       
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
@@ -1636,7 +1690,7 @@ Documents
    Documents are little bits of text that can be ratified, therefore
    modifying the gamestate slightly.
 ------------------------------------------------------------------------
-Rule 1551/20 (Power=3.1)
+Rule 1551/21 (Power=3.1)
 Ratification
 
       When a document or statement (hereafter "document") is ratified,
@@ -1667,7 +1721,7 @@ Ratification
       be part of the document for the purposes of ratification; such
       definitions are secured at a Power Threshold of 3.
       
-      Ratification is secured with power threshold 3.
+      Ratification is secured with Power Threshold 3.
       
 ------------------------------------------------------------------------
 Rule 2202/8 (Power=3)
@@ -1692,7 +1746,7 @@ Ratification Without Objection
       is the Class 8 Crime of Endorsing Forgery.
       
 ------------------------------------------------------------------------
-Rule 2201/9 (Power=3)
+Rule 2201/10 (Power=3)
 Self-Ratification
 
       When a public document is continuously undoubted for one week
@@ -1707,19 +1761,14 @@ Self-Ratification
         cannot be reasonably ascertained from the ruleset and the
         contents of the message.
       
-      A doubt is an explicit public challenge via one of the following
-      methods, identifying a document and explaining the scope and
-      nature of a perceived error in it (or in a statement it attests
-      to):
+      Any person CAN by announcement issue a doubt (syn. claim of
+      error), identifying a document and explaining the scope and nature
+      of a perceived error in it (or in a statement it attests to).
       
-      1. An inquiry case, appropriate for questions of legal
-         interpretation.
-      
-      2. A claim of error, appropriate for matters of fact. The
-         publisher of the original document SHALL (if e was required to
-         publish that document) or SHOULD (otherwise) do one of the
-         following in a timely fashion, in an announcement that clearly
-         cites the claim of error:
+      When this happens, the publisher of the original document SHALL
+      (if e was required to publish that document) or SHOULD (otherwise)
+      do one of the following in a timely fashion, in an announcement
+      that clearly cites the claim of error:
       
          1. Deny the claim (causing it to cease to be a doubt).
       
@@ -1735,20 +1784,20 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2556/0 (Power=3)
+Rule 2556/1 (Power=3)
 Penalties
 
       Rules to the contrary notwithstanding, an impure person CANNOT win
       the game.
       
-      The voting strength of a player on an Agoran Decision is reduced
+      The voting strength of a player on an Agoran decision is reduced
       by 1 for every 3 blots in eir possession.
       
       A player CAN, with 7 days notice, deregister (exile) a specified
       player (the outlaw) who has more than 40 blots.
       
 ------------------------------------------------------------------------
-Rule 2555/4 (Power=2)
+Rule 2555/5 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1759,8 +1808,8 @@ Blots
       To levy a fine of N on a person, where N is a positive integer, is
       to grant em N blots. To expunge a blot is to destroy it.
       
-      Levying fines and destroying blots are each secured with a power
-      threshold of 1.7.
+      Levying fines and destroying blots are each secured with a Power
+      Threshold of 1.7.
       
       The Referee is an office, and the recordkeepor for blots.
       
@@ -2091,7 +2140,7 @@ No Faking
       announcement of intent is never a lie.
       
 ------------------------------------------------------------------------
-Rule 2450/5 (Power=1.7)
+Rule 2450/6 (Power=1.7)
 Pledges
 
       If a Player makes a clear public pledge (syn. Oath) to perform (or
@@ -2099,7 +2148,8 @@ Pledges
       within the pledge's time window is the Class N crime of
       Oathbreaking, where N is 2 unless the pledge explicitly states
       otherwise.  The time window of a pledge is 60 days, unless the
-      pledge explicitly states otherwise.
+      pledge explicitly states otherwise. A pledge ceases to exist at
+      the end of its time window.
       
       If breaking the pledge harms specific other parties, the Referee
       SHOULD solicit the opinion of those parties in determining an
@@ -2140,43 +2190,83 @@ Acting on Behalf
       behalf of another person.
       
 ------------------------------------------------------------------------
-Rule 2519/0 (Power=3)
+Rule 2519/1 (Power=3)
 Consent
 
-      A person gives consent (syn. consents) to an action when e, acting
-      as emself, publicly states that e agrees to the action. This
-      agreement may be implied, but only if it is reasonably clear from
-      context that the person wanted the agreement to take place.
+      A person is deemed to have consented to an action if and only if,
+      at the time the action took place:
+      
+      1. e, acting as emself, has publicly stated that e agrees to the
+         action and not subsequently publicly withdrawn eir statement;
+      2. e is party to a contract whose body explicitly and unambiguously
+         indicates eir consent; or
+      3. it is reasonably clear from context that e wanted the
+         action to take place or assented to it taking place.
       
 ------------------------------------------------------------------------
-Rule 1742/21 (Power=2.5)
+Rule 1742/22 (Power=2.5)
 Contracts
 
-      Any group of two or more consenting persons (the parties) may
-      make an agreement among themselves with the intention that it be
-      binding upon them and be governed by the rules. Such an agreement
-      is known as a contract. A contract may be modified, including
-      by changing the set of parties, by agreement between all existing
-      parties. A contract may also terminate by agreement between all
-      parties. A contract automatically terminates if the number of
-      parties to it falls below two. It is IMPOSSIBLE for a person to
-      become a party to a contract without eir agreement. For the
-      purposes of this rule, agreement includes both consent and
-      agreement specified by contract.
+      Any group of one or more consenting persons (the parties) may
+      publicly make an agreement among themselves with the intention that
+      it be binding upon them and be governed by the rules. Such an
+      agreement is known as a contract. A contract may be modified,
+      including by changing the set of parties, with the consent of all
+      existing parties. A contract may also be terminated with the
+      consent of all parties. A contract automatically terminates if the
+      number of parties to it falls below one. It is IMPOSSIBLE for a
+      person to become a party to a contract without eir consent.
       
       Parties to a contract governed by the rules SHALL act in
       accordance with that contract. This obligation is not impaired
       by contradiction between the contract and any other contract, or
       between the contract and the rules.
       
-      A party to a contract CAN perform any of the following actions
-      as permitted by the contract's text:
+      Rules to the contrary notwithstanding, any change that would cause
+      the full provisions or parties of a contract to become publicly
+      unavailable is canceled and does not take effect.
+      
+      The portion of a contract's provisions that can be interpreted
+      with reference only to information that is either publicly or
+      generally available are known as its body; the remainder of the
+      provisions are known as the annex.
+      
+      A party to a contract CAN perform any of the following actions as
+      explicitly and unambiguously permitted by the contract's body:
       
       * Act on behalf of another party to the contract.
       
       * By announcement, revoke destructible assets from the contract.
       
-      * By announcement, take liquid assets from the contract.
+      * By announcement, transfer liquid assets from the contract to a
+        specified recipient.
+      
+------------------------------------------------------------------------
+Rule 2608/0 (Power=2.0)
+The Notary
+
+      The Notary is an office.
+      
+      The Notary's weekly report contains:
+      
+      1. every pledge, along with its title, creator, time window, time
+         of creation, and time of expiry; and
+      2. every contract, with its title, full provisions, and parties.
+      
+      If the Notary is required to report a title, but none has been
+      otherwise publicly provided, e CAN select one.
+      
+      The transitional period lasts for at least 90 days after this rule
+      comes into force; thereafter, any player CAN end it by announcement.
+      A pledge or contract is invisible if it was created before this rule
+      came into force, and has not been publicly posted since this rule
+      came into force; for a contract, this publication must include its
+      full provisions and list of parties, along with a certification or
+      adequate proof of their accuracy and completeness. During the
+      transitional period, the Notary NEED NOT report any invisible
+      contract or pledge. When the transitional period is ended, each
+      invisible contract or pledge ceases to exist in the order they were
+      created, and then this rule amends itself by deleting this paragraph.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2332,36 +2422,36 @@ Economics
       A player CAN win the game by paying a fee of 1,000 Coins.
       
 ------------------------------------------------------------------------
-Rule 2496/14 (Power=1)
+Rule 2496/16 (Power=1)
 Rewards
 
-      A player CAN, by announcement, earn the set of assets associated
-      with a reward condition exactly once in a timely fashion each time
-      e fulfills it, provided the announcement specifies the action that
-      e performed and the amount of assets e earns as a result.
+      Each time a player fulfills a reward condition, the officer
+      associated with the condition CAN once, and SHALL in an officially
+      timely fashion, grant the associated set of assets to the player.
       
-      Below is a list of reward conditions and their associated assets.
+      Below is a list of reward conditions and their associated assets
+      and officers.
       
       * Being the author of an adopted proposal: a number of coins equal
         to ((the total number of valid ballots cast FOR the decision -
         the total number of valid ballots cast AGAINST) times the
-        adoption index of the result) rounded up.
+        adoption index of the result) rounded up (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
-        limit to do so: 5 coins.
+        limit to do so: 5 coins (Arbitor).
       
       * Publishing an office's weekly or monthly report, provided that
         publication was the first report published for that office in
         the relevant time period (week or month respectively) to fulfill
-        an official weekly or monthly duty: 5 coins.
+        an official weekly or monthly duty: 5 coins (ADoP).
       
       * Resolving an Agoran Decision on whether to adopt a proposal,
         provided that no other Agoran Decision on whether to adopt that
         or any other proposal had been resolved earlier in that Agoran
-        week: 5 coins.
+        week: 5 coins (ADoP).
       
       * Having a Thesis pass peer-review and be granted a Degree based
-        on its merit: 20 coins
+        on its merit: 20 coins (Herald)
       
 ------------------------------------------------------------------------
 Rule 2559/7 (Power=2)
@@ -2547,7 +2637,7 @@ Free Auctions
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/5 (Power=2)
+Rule 2532/6 (Power=2)
 Zombies
 
       Master is a secured player switch, tracked by the Registrar, with
@@ -2733,7 +2823,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/12 (Power=3)
+Rule 2438/13 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -2750,11 +2840,9 @@ Ribbons
       to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
       if that type of Ribbon is an element of eir Ribbon Ownership.
       
-      While a person qualifies for a type of Ribbon, any player CAN, by
-      announcement, award em that type of Ribbon. A person qualifies for
-      a type of Ribbon if e has earned that type of Ribbon within the
-      preceding 7 days (including earlier in the same message) and has
-      not owned that type of Ribbon within the preceding 7 days.
+      A person qualifies for a type of Ribbon if e has earned that type
+      of Ribbon within the preceding 7 days (including earlier in the
+      same message).
       
       While a person owns all types of Ribbon, that person can Raise a
       Banner by announcement. This causes that person to win the game.
@@ -2775,6 +2863,8 @@ Ribbons
       continuously for the past 30 days, and has not failed to perform
       any duties of that office within the appropriate time limits
       during those 30 days, that person qualifies for a Green Ribbon.
+      
+      Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
       
       Cyan (C): When a person deputises for an office, that person earns
       a Cyan Ribbon.
@@ -2821,16 +2911,28 @@ Ribbons
       for, earns, and/or was awarded within the previous 7 days is at
       least 5.
       
-      Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
+      While a person qualifies for a type of Ribbon:
+      
+        - If e has not owned that type of Ribbon within the preceding 7 days,
+          any player CAN, by announcement, award em that type of Ribbon.
+      
+        - Otherwise, if e has not been awarded that type of Ribbon or the
+          corresponding type of Glitter since e last earned or came to qualify
+          for that type of Ribbon, e CAN, by announcement, award emself that
+          type of Glitter.
       
 ------------------------------------------------------------------------
-Rule 2602/0 (Power=1)
+Rule 2602/1 (Power=1)
 Glitter
 
-      If a player has earned a ribbon in the past 7 days but already
-      owned it e CAN once (until e earns another ribbon), by
-      announcement, earn N+1 coins where N is the number of current
-      players that do not own the same ribbon.
+      For each type of Ribbon, there is a type of Glitter with the same
+      name. An attempt to award Glitter is INEFFECTIVE if the type of
+      Glitter is not specified.
+      
+      Each time a player is awarded a type of Glitter, the Tailor CAN
+      once, and SHALL in an officially timely fashion, grant the
+      player N+1 coins, where N is the number of players who did not
+      own the corresponding type of Ribbon at the time of the award.
       
 ------------------------------------------------------------------------
 Rule 2480/4 (Power=2.1)
@@ -2858,7 +2960,7 @@ Festivals
       Festive.
       
 ------------------------------------------------------------------------
-Rule 2481/1 (Power=2.1)
+Rule 2481/2 (Power=2.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -2866,19 +2968,17 @@ Festival Restrictions
       1. Non-Festive players are never considered Supporters of a
          dependent action;
       
-      2. Non-Festive players cannot flip the Imminence of any proposal;
-      
-      3. Quorum for Agoran Decisions is equal to half the number of
+      2. Quorum for Agoran Decisions is equal to half the number of
          Festive players, rounded up;
       
-      4. Each Festive player has the maximum possible voting strength.
+      3. Each Festive player has the maximum possible voting strength.
          All other players have the minimum possible voting strength.
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
       
 ------------------------------------------------------------------------
-Rule 649/41 (Power=1.5)
+Rule 649/42 (Power=1.5)
 Patent Titles
 
       A Patent Title is a legal title given to a person in recognition
@@ -2894,12 +2994,6 @@ Patent Titles
       The Herald CAN award a specified Patent Title to a specified
       player with 2 Agoran consent.
       
-      If a player publicly petitions that the Herald award a patent
-      title to another player for a specified reason, the Herald SHALL
-      respond in a timely fashion by either attempting to grant an
-      appropriate patent title or explaining publicly why no patent
-      title is warranted.
-      
 ------------------------------------------------------------------------
 Rule 2415/1 (Power=1.5)
 Badges
@@ -2912,15 +3006,15 @@ Badges
       existing badge to persons without objection.
       
 ------------------------------------------------------------------------
-Rule 1367/22 (Power=3)
+Rule 1367/23 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
       
       - Associate of Nomic                 (A.N.)
       - Juris Doctor of Nomic              (J.N.)
-      - Bachelor of Nomic                  (B.N.)
-      - Master of Nomic                    (M.N.)
+      - Baccalaureate of Nomic             (B.N.)
+      - Magisteriate of Nomic              (M.N.)
       - Doctor of Nomic History            (D.N.Hist.)
       - Doctor of Nomic Law                (D.N.Law.)
       - Doctor of Nomic Science            (D.N.Sci.)
@@ -3062,7 +3156,7 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/26 (Power=2)
+Rule 103/27 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -3082,9 +3176,8 @@ The Speaker
       person for 90+ days, then any player CAN appoint another player to
       the office with support.
       
-      For an election of the Prime Minister, the Speaker has voting
-      strength one greater than e would have if e did not hold the
-      office.
+      The Speaker has voting strength one greater than e would have if e
+      did not hold the office.
       
 ------------------------------------------------------------------------
 Rule 104/0 (Power=3)
@@ -3093,17 +3186,13 @@ First Speaker
       The Speaker for the first game shall be Michael Norrish.
       
 ------------------------------------------------------------------------
-Rule 2423/4 (Power=2)
+Rule 2423/5 (Power=2)
 First Among Equals
 
       The Prime Minister is an office. The Prime Minister is elected by
       the players of Agora primarily on account of not being the other
       guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
       smoothly.
-      
-      The holder of the office of Prime Minister's voting strength is
-      increased by 1 on all Agoran decisions other than elections of
-      the Prime Minister.
       
 ------------------------------------------------------------------------
 Rule 2463/1 (Power=1)
