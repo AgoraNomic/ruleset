@@ -9,10 +9,12 @@ text: |
   A proposal's chamber SHOULD only be decided by which ministry's
   goals it effects to the greatest degree.
 
-  Any player CAN, with 2 Agoran consent, flip the chamber of an
-  ordinary proposal to any ministry, provided that it is in the
-  Proposal Pool or that there is an Agoran decision on its adoption
-  whose voting period has not yet ended.
+  If a proposal in the Proposal Pool has its chamber unset, the
+  Promotor CAN set the chamber to a specified ministry by
+  announcement. Any player CAN, with 2 Agoran consent, flip the
+  chamber of an ordinary proposal to any ministry, provided that
+  it is in the Proposal Pool or that there is an Agoran decision
+  on its adoption whose voting period has not yet ended.
 history:
 - change:
     type: enactment
@@ -24,4 +26,9 @@ history:
   date: 2020-02-13
   agent:
     proposal: "8319"
+- change:
+    type: amendment
+  date: 2020-02-13
+  agent:
+    proposal: "8320"
 annotations: []
