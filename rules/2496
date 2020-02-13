@@ -3,8 +3,9 @@ name: Rewards
 power: 1
 text: |
   Each time a player fulfills a reward condition, the officer
-  associated with the condition CAN once, and SHALL in an officially
-  timely fashion, grant the associated set of assets to the player.
+  associated with the condition CAN once by announcement, and SHALL
+  in an officially timely fashion, grant the associated set of
+  assets to the player.
 
   Below is a list of reward conditions and their associated assets
   and officers.
@@ -120,4 +121,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8304"
+- change:
+    type: amendment
+  date: 2020-02-13
+  agent:
+    proposal: "8311"
 annotations: []
