@@ -15,7 +15,7 @@ text: |
   decision is equal to 2/3 of the number of voters on the Agoran
   decision to adopt a proposal that had been most recently resolved
   at the time of that decision's initiation, the whole rounded to
-  the nearest integer (breaking ties upward).
+  the nearest integer.
 
   As an exception to the previous paragraph, the quorum of an
   Agoran decision can never be less than 2. If the rules would
@@ -222,6 +222,11 @@ history:
   agent:
     cleaning:
       by: Alexis
+- change:
+    type: amendment
+  date: 2020-02-13
+  agent:
+    proposal: "8321"
 annotations:
 - cfjs:
   - id: '1562'
