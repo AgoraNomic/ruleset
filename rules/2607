@@ -2,9 +2,9 @@ id: 2607
 name: Proposal Chambers
 power: 2.0
 text: |
-  Chamber is an untracked ordinary proposal switch whose possible
-  values include unset (the default) and each of the ministries of
-  Agora.
+  Chamber is a a secured untracked ordinary proposal switch whose
+  possible values include unset (the default) and each of the
+  ministries of Agora.
 
   A proposal's chamber SHOULD only be decided by which ministry's
   goals it effects to the greatest degree.
@@ -19,4 +19,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8291"
+- change:
+    type: amendment
+  date: 2020-02-13
+  agent:
+    proposal: "8319"
 annotations: []

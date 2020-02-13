@@ -2,7 +2,7 @@ id: 2606
 name: Proposal Classes
 power: 2.0
 text: |
-  Proposals created since the enactment of this rule have an
+  Proposals created since the enactment of this rule have a secured
   untracked Class switch with possible values ordinary (the default)
   and democratic.
 
@@ -19,4 +19,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8291"
+- change:
+    type: amendment
+  date: 2020-02-13
+  agent:
+    proposal: "8319"
 annotations: []

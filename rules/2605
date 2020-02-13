@@ -12,9 +12,9 @@ text: |
    D. Ministry of Participation: reward players for achievements
    E. Ministry of Economy: encourage economic activity and contracts
 
-  Interest is an office switch, tracked by the ADoP, whose possible
-  values are lists of ministries, defaulting to the empty list. The
-  ADoP CAN flip an office's interest without objection.
+  Interest is secured office switch, tracked by the ADoP, whose
+  possible values are lists of ministries, defaulting to the empty
+  list. The ADoP CAN flip an office's interest without objection.
 
   For each item of each office's interest, that office's holder's
   voting strength is increased by 2 on proposals whose chamber is
@@ -25,4 +25,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8291"
+- change:
+    type: amendment
+  date: 2020-02-13
+  agent:
+    proposal: "8319"
 annotations: []
