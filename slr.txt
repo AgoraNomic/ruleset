@@ -12,7 +12,7 @@ Number of rules currently enacted: 131
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2608
-Highest ID'd Proposal Passed: 8305
+Highest ID'd Proposal Passed: 8321
 Highest ID'd Rule Enacted: 2608
 
 ========================================================================
@@ -640,7 +640,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/12 (Power=3)
+Rule 2350/13 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -671,7 +671,7 @@ Proposals
       retract, withdraw) it from the Pool by announcement.
       
 ------------------------------------------------------------------------
-Rule 2605/0 (Power=2.0)
+Rule 2605/1 (Power=2.0)
 Ministries
 
       A Ministry is an entity defined as such by this rule. Each
@@ -684,19 +684,19 @@ Ministries
        D. Ministry of Participation: reward players for achievements
        E. Ministry of Economy: encourage economic activity and contracts
       
-      Interest is an office switch, tracked by the ADoP, whose possible
-      values are lists of ministries, defaulting to the empty list. The
-      ADoP CAN flip an office's interest without objection.
+      Interest is secured office switch, tracked by the ADoP, whose
+      possible values are lists of ministries, defaulting to the empty
+      list. The ADoP CAN flip an office's interest without objection.
       
       For each item of each office's interest, that office's holder's
       voting strength is increased by 2 on proposals whose chamber is
       set to that ministry.
       
 ------------------------------------------------------------------------
-Rule 2606/0 (Power=2.0)
+Rule 2606/1 (Power=2.0)
 Proposal Classes
 
-      Proposals created since the enactment of this rule have an
+      Proposals created since the enactment of this rule have a secured
       untracked Class switch with possible values ordinary (the default)
       and democratic.
       
@@ -709,20 +709,22 @@ Proposal Classes
       period has not yet ended.
       
 ------------------------------------------------------------------------
-Rule 2607/0 (Power=2.0)
+Rule 2607/2 (Power=2.0)
 Proposal Chambers
 
-      Chamber is an untracked ordinary proposal switch whose possible
-      values include unset (the default) and each of the ministries of
-      Agora.
+      Chamber is a a secured untracked ordinary proposal switch whose
+      possible values include unset (the default) and each of the
+      ministries of Agora.
       
       A proposal's chamber SHOULD only be decided by which ministry's
       goals it effects to the greatest degree.
       
-      Any player CAN, with 2 Agoran consent, flip the chamber of an
-      ordinary proposal to any ministry, provided that it is in the
-      Proposal Pool or that there is an Agoran decision on its adoption
-      whose voting period has not yet ended.
+      If a proposal in the Proposal Pool has its chamber unset, the
+      Promotor CAN set the chamber to a specified ministry by
+      announcement. Any player CAN, with 2 Agoran consent, flip the
+      chamber of an ordinary proposal to any ministry, provided that
+      it is in the Proposal Pool or that there is an Agoran decision
+      on its adoption whose voting period has not yet ended.
       
 ------------------------------------------------------------------------
 Rule 1607/47 (Power=3)
@@ -1326,7 +1328,7 @@ Determining the Will of Agora
       cannot change thereafter.
       
 ------------------------------------------------------------------------
-Rule 879/36 (Power=2)
+Rule 879/37 (Power=2)
 Quorum
 
       Each Agoran decision has a quorum. This is a number set when the
@@ -1342,7 +1344,7 @@ Quorum
       decision is equal to 2/3 of the number of voters on the Agoran
       decision to adopt a proposal that had been most recently resolved
       at the time of that decision's initiation, the whole rounded to
-      the nearest integer (breaking ties upward).
+      the nearest integer.
       
       As an exception to the previous paragraph, the quorum of an
       Agoran decision can never be less than 2. If the rules would
@@ -2422,12 +2424,13 @@ Economics
       A player CAN win the game by paying a fee of 1,000 Coins.
       
 ------------------------------------------------------------------------
-Rule 2496/16 (Power=1)
+Rule 2496/17 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
-      associated with the condition CAN once, and SHALL in an officially
-      timely fashion, grant the associated set of assets to the player.
+      associated with the condition CAN once by announcement, and SHALL
+      in an officially timely fashion, grant the associated set of
+      assets to the player.
       
       Below is a list of reward conditions and their associated assets
       and officers.
@@ -2480,7 +2483,7 @@ Welcome Packages
       When a player receives a Welcome Package, e earns 10 coins.
       
 ------------------------------------------------------------------------
-Rule 2585/2 (Power=1)
+Rule 2585/3 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -2490,8 +2493,8 @@ Birthday Gifts
       player first registered remains unknown, it is considered to be
       eir Agoran Birthday on the anniversary of the day e most recently
       declared as eir Agoran Birthday. Every time it is a player's
-      Agoran Birthday, each of the other players CAN grant em 3 coins by
-      announcement.
+      Agoran Birthday, each of the other players CAN once grant em 3
+      coins by announcement.
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
       
@@ -2922,7 +2925,7 @@ Ribbons
           type of Glitter.
       
 ------------------------------------------------------------------------
-Rule 2602/1 (Power=1)
+Rule 2602/2 (Power=1)
 Glitter
 
       For each type of Ribbon, there is a type of Glitter with the same
@@ -2930,9 +2933,10 @@ Glitter
       Glitter is not specified.
       
       Each time a player is awarded a type of Glitter, the Tailor CAN
-      once, and SHALL in an officially timely fashion, grant the
-      player N+1 coins, where N is the number of players who did not
-      own the corresponding type of Ribbon at the time of the award.
+      once by announcement, and SHALL in an officially timely
+      fashion, grant the player N+1 coins, where N is the number of
+      players who did not own the corresponding type of Ribbon at the
+      time of the award.
       
 ------------------------------------------------------------------------
 Rule 2480/4 (Power=2.1)
