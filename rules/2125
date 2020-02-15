@@ -75,3 +75,13 @@ annotations:
   text: >
     Actions that the rules state a player SHALL NOT perform are
     considered to be regulated actions.
+- cfjs:
+  - id: '3793'
+    called: 2020-01-16
+  text: >
+    Rule 2125 is an interpretive principle applied to the rules
+    as a whole and not to any individual rule. For a method to
+    be explicitly specified, it must actually specify a way
+    that the action can be realized; it is not enough that a
+    rule claims there is a method. Circular reasoning cannot be
+    used to permit an action or to provide a method.
