@@ -28,7 +28,8 @@ text: |
   public. A rule can also designate that a part of one public
   message is considered a public message in its own right. To
   "publish" or "announce" something is to send a public message
-  whose body contains that thing.
+  whose body contains that thing. To do something "publicly" is
+  to do that thing within a public message.
 
   Where the rules define an action that a person CAN perform "by
   announcement", that person performs that action by unambiguously and
@@ -238,6 +239,11 @@ history:
   date: 2019-12-01
   agent:
     proposal: "8275"
+- change:
+    type: amendment
+  date: 2020-02-24
+  agent:
+    proposal: "8336"
 annotations:
 - cfjs:
   - id: 1451-1452
