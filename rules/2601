@@ -2,13 +2,19 @@ id: 2601
 name: Blink
 power: 1
 text: |
-  One week after this sentence is modified in any way, this rule
-  is amended by inserting this sentence as the first paragraph of
-  this rule.
+  If this is the only paragraph in this rule, and it has been at
+  least one week since this rule was last amended, then any player
+  CAN Close the Eye by announcement. When that happens, this rule
+  repeals itself.
 history:
 - change:
     type: enactment
   date: 2019-11-03
   agent:
     proposal: "8262"
+- change:
+    type: amendment
+  date: 2020-02-24
+  agent:
+    proposal: "8327"
 annotations: []
