@@ -3,16 +3,16 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset:
+Date of this ruleset: 27 Feb 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 131
+Number of rules currently enacted: 129
 
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2608
-Highest ID'd Proposal Passed: 8321
+Highest ID'd Proposal Passed: 8340
 Highest ID'd Rule Enacted: 2608
 
 ========================================================================
@@ -54,33 +54,13 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance
    for the current gamestate.
 ------------------------------------------------------------------------
-Rule 2600/0 (Power=3)
-Boo!!
-
-      Rules to the contrary notwithstanding, one week after this rule is
-      repealed, it is reenacted.
-      
-------------------------------------------------------------------------
-Rule 2601/0 (Power=1)
+Rule 2601/1 (Power=1)
 Blink
 
-      One week after this sentence is modified in any way, this rule
-      is amended by inserting this sentence as the first paragraph of
-      this rule.
-      
-------------------------------------------------------------------------
-Rule 2604/0 (Power=0.1)
-Nothing to see here, Rule 1030,
-
-      This rule takes precedence over That One Rule, provisions of That One Rule
-      notwithstanding. That One Rule is defined as the rule that Gaelan has most
-      recently declared, by announcement, to be That One Rule.
-      
-      Additionally, this rule takes precedence over all rules other than Rule 1030,
-      provisions of That One Rule notwithstanding.
-      
-      Gaelan CAN, by announcement, award emself the patent title of “The
-      Powerless”.
+      If this is the only paragraph in this rule, and it has been at
+      least one week since this rule was last amended, then any player
+      CAN Close the Eye by announcement. When that happens, this rule
+      repeals itself.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -118,7 +98,7 @@ How to Join and Leave Agora
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
-Rule 478/37 (Power=3)
+Rule 478/38 (Power=3)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -147,7 +127,8 @@ Fora
       public. A rule can also designate that a part of one public
       message is considered a public message in its own right. To
       "publish" or "announce" something is to send a public message
-      whose body contains that thing.
+      whose body contains that thing. To do something "publicly" is
+      to do that thing within a public message.
       
       Where the rules define an action that a person CAN perform "by
       announcement", that person performs that action by unambiguously and
@@ -640,7 +621,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/13 (Power=3)
+Rule 2350/12 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -709,7 +690,7 @@ Proposal Classes
       period has not yet ended.
       
 ------------------------------------------------------------------------
-Rule 2607/2 (Power=2.0)
+Rule 2607/3 (Power=2.0)
 Proposal Chambers
 
       Chamber is a a secured untracked ordinary proposal switch whose
@@ -719,12 +700,12 @@ Proposal Chambers
       A proposal's chamber SHOULD only be decided by which ministry's
       goals it effects to the greatest degree.
       
-      If a proposal in the Proposal Pool has its chamber unset, the
-      Promotor CAN set the chamber to a specified ministry by
-      announcement. Any player CAN, with 2 Agoran consent, flip the
-      chamber of an ordinary proposal to any ministry, provided that
-      it is in the Proposal Pool or that there is an Agoran decision
-      on its adoption whose voting period has not yet ended.
+      If the chamber of an ordinary proposal in the Proposal Pool is
+      unset, the Promotor CAN set the chamber to a specified ministry
+      by announcement. Any player CAN, with 2 Agoran consent, flip
+      the chamber of an ordinary proposal to any ministry, provided
+      that it is in the Proposal Pool or that there is an Agoran
+      decision on its adoption whose voting period has not yet ended.
       
 ------------------------------------------------------------------------
 Rule 1607/47 (Power=3)
@@ -1328,7 +1309,7 @@ Determining the Will of Agora
       cannot change thereafter.
       
 ------------------------------------------------------------------------
-Rule 879/37 (Power=2)
+Rule 879/38 (Power=2)
 Quorum
 
       Each Agoran decision has a quorum. This is a number set when the
@@ -1342,9 +1323,9 @@ Quorum
       defined by other rules of power 2 or greater. If no other rule
       defines the quorum of an Agoran decision, the quorum for that
       decision is equal to 2/3 of the number of voters on the Agoran
-      decision to adopt a proposal that had been most recently resolved
-      at the time of that decision's initiation, the whole rounded to
-      the nearest integer.
+      decision on whether to adopt a proposal that had been most
+      recently resolved at the time of that decision's initiation, the
+      whole rounded to the nearest integer.
       
       As an exception to the previous paragraph, the quorum of an
       Agoran decision can never be less than 2. If the rules would
@@ -2142,7 +2123,7 @@ No Faking
       announcement of intent is never a lie.
       
 ------------------------------------------------------------------------
-Rule 2450/6 (Power=1.7)
+Rule 2450/7 (Power=1.7)
 Pledges
 
       If a Player makes a clear public pledge (syn. Oath) to perform (or
@@ -2156,6 +2137,10 @@ Pledges
       If breaking the pledge harms specific other parties, the Referee
       SHOULD solicit the opinion of those parties in determining an
       appropriate fine.
+      
+      The Notary CAN destroy a pledge Without Objection, and should do
+      so if and only if the pledge no longer serves any significant
+      purpose.
       
 ------------------------------------------------------------------------
 Rule 2466/1 (Power=3)
@@ -2826,18 +2811,18 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/13 (Power=3)
+Rule 2438/15 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
       
-      Ribbon Ownership is a person switch, tracked by the Tailor in eir
-      monthly report, whose values are the subsets of the set of types
-      of Ribbon, defaulting to the empty set. If the rules are amended
-      to change the types of Ribbon, if a player's Ribbon Ownership is
-      subsequently illegal, then it is updated by removing all
-      nonexistent types rather than resetting the entire value to
-      default.
+      Ribbon Ownership is a secured person switch, tracked by the
+      Tailor in eir monthly report, whose values are the subsets of
+      the set of types of Ribbon, defaulting to the empty set. If the
+      rules are amended to change the types of Ribbon, if a player's
+      Ribbon Ownership is subsequently illegal, then it is updated by
+      removing all nonexistent types rather than resetting the entire
+      value to default.
       
       To "award a person a <Ribbon type>" is to add that type of Ribbon
       to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
@@ -2897,9 +2882,10 @@ Ribbons
       White (W): A player qualifies for a White Ribbon if e has never
       previously owned a White Ribbon (including under previous
       rulesets). A player who has been registered for at least 30 days
-      and has never caused another person to gain a White Ribbon
-      (including under a previous ruleset) CAN award a White Ribbon to
-      another person by announcement.
+      and has never acted on eir own behalf to cause another person to
+      gain a White Ribbon (including under a previous ruleset) CAN act
+      on eir own behalf to award a White Ribbon to another person by
+      announcement.
       
       Black (K): This rule does not specify any methods of obtaining
       Black Ribbons.
@@ -3160,21 +3146,26 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/27 (Power=2)
+Rule 103/28 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
-      Agora.
-      
-      The player or players who have most recently won the game are
+      Agora. The player or players who have most recently won the game are
       called Laureled. If at any time the office of Speaker is vacant,
       or when one or more players win Agora, then the Prime Minister CAN
       once appoint a Laureled player to the office of Speaker by
-      announcement.  Whenever the Prime Minister CAN appoint a Laureled
+      announcement.
+      
+      Whenever the Prime Minister CAN appoint a Laureled
       player to the office of Speaker, e SHALL do so in a timely manner,
       except that the Prime Minister MAY defer appointing a new Speaker
       while there is pending one or more open CFJs that could plausibly
       determine or affect the question of whether a player is Laureled.
+      If the Prime Minister is emself Laureled, eir power to appoint a
+      Speaker continues for the entirety of a message in which e resigns as
+      Prime Minister, and if e is the only Laureled player, e CAN void that
+      power, and thereby discharge the obligation to use it, by announcing
+      that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
@@ -3250,12 +3241,17 @@ Agoran Culture
    Nothing in here is all that important. Mostly describes holidays and
    tournaments, and joke rules.
 ------------------------------------------------------------------------
-Rule 2327/1 (Power=1)
+Rule 2327/2 (Power=1)
 Read the Ruleset Week
 
       The first Agoran week each year which falls entirely in February
       is Read the Ruleset Week. Agorans are encouraged to read the
       ruleset during Read the Ruleset Week.
+      
+      The above notwithstanding, due to serious uncertainty surrounding
+      the state of the rules during the scheduled Read the Ruleset Week,
+      in the year 2020, Read the Ruleset Week is, instead, the week of
+      February 24 - March 1
       
 ------------------------------------------------------------------------
 Rule 1727/21 (Power=1)

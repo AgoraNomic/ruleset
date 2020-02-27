@@ -3,16 +3,16 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset:
+Date of this ruleset: 27 Feb 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 131
+Number of rules currently enacted: 129
 
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2608
-Highest ID'd Proposal Passed: 8321
+Highest ID'd Proposal Passed: 8340
 Highest ID'd Rule Enacted: 2608
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -28,9 +28,7 @@ The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
-   * Rule 2600: Boo!!
    * Rule 2601: Blink
-   * Rule 2604: Nothing to see here, Rule 1030,
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -182,7 +180,6 @@ Agoran Culture
 
 Power Distribution:
 
-1  with Power=0.1
 1  with Power=0.3
 36 with Power=1
 2  with Power=1.5
@@ -190,7 +187,7 @@ Power Distribution:
 26 with Power=2
 2  with Power=2.1
 1  with Power=2.5
-50 with Power=3
+49 with Power=3
 1  with Power=3.1
 1  with Power=3.14
 1  with Power=3.2
@@ -291,50 +288,18 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance
    for the current gamestate.
 ------------------------------------------------------------------------
-Rule 2600/0 (Power=3)
-Boo!!
-
-      Rules to the contrary notwithstanding, one week after this rule is
-      repealed, it is reenacted.
-      
-History:
-
-Enacted by P8261 'The High Zombie' (G.), 03 Nov 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2601/0 (Power=1)
+Rule 2601/1 (Power=1)
 Blink
 
-      One week after this sentence is modified in any way, this rule
-      is amended by inserting this sentence as the first paragraph of
-      this rule.
+      If this is the only paragraph in this rule, and it has been at
+      least one week since this rule was last amended, then any player
+      CAN Close the Eye by announcement. When that happens, this rule
+      repeals itself.
       
 History:
 
 Enacted by P8262 'trick candles' (G.), 03 Nov 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2604/0 (Power=0.1)
-Nothing to see here, Rule 1030,
-
-      This rule takes precedence over That One Rule, provisions of That One Rule
-      notwithstanding. That One Rule is defined as the rule that Gaelan has most
-      recently declared, by announcement, to be That One Rule.
-      
-      Additionally, this rule takes precedence over all rules other than Rule 1030,
-      provisions of That One Rule notwithstanding.
-      
-      Gaelan CAN, by announcement, award emself the patent title of “The
-      Powerless”.
-      
-History:
-
-Enacted by P8281 'Nothing to see here, Rule 1030 v2' (Gaelan), 20 Jan
-   2020
+Amended(1) by P8327 'Blink test v1.2' (Falsifian), 24 Feb 2020
 
 Annotations:
 
@@ -453,7 +418,7 @@ CFJ 3625 (called 12 Feb 2018): The rules don't bind recently
    rules doesn't count as agreeing to be bound by all of them.
 
 ------------------------------------------------------------------------
-Rule 478/37 (Power=3)
+Rule 478/38 (Power=3)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -482,7 +447,8 @@ Fora
       public. A rule can also designate that a part of one public
       message is considered a public message in its own right. To
       "publish" or "announce" something is to send a public message
-      whose body contains that thing.
+      whose body contains that thing. To do something "publicly" is
+      to do that thing within a public message.
       
       Where the rules define an action that a person CAN perform "by
       announcement", that person performs that action by unambiguously and
@@ -542,6 +508,7 @@ Amended(35) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
 Amended(36) by P8248 'Publishing definition' (Jason, Aris), 18 Sep 2019
 Amended(37) by P8275 '"By announcement" clarification' (Jason), 01 Dec
    2019
+Amended(38) by P8336 'Define "publicly"' (Jason), 24 Feb 2020
 
 Annotations:
 CFJ 1451-1452 (called 06 Mar 2003): A message that is split into
@@ -702,6 +669,8 @@ CFJ 3642 (called 15 Jun 2018): Regardless of CFJ 1314, a message has not
    been sent via a public forum if its non-reception by some persons who
    arranged to receive it has affected which game actions they chose to
    take or not to take.
+CFJ 3790 (called 01 Jan 2020): The sender of a message is the last
+   exerciser of free will that exercised free will on its path.
 
 ------------------------------------------------------------------------
 Rule 2139/14 (Power=2)
@@ -987,6 +956,12 @@ Amended(10) by P7928 'no we can't' (G.), 22 Oct 2017
 Annotations:
 CFJ 3737 (called 15 Jun 2019): Actions that the rules state a player
    SHALL NOT perform are considered to be regulated actions.
+CFJ 3793 (called 16 Jan 2020): Rule 2125 is an interpretive principle
+   applied to the rules as a whole and not to any individual rule. For a
+   method to be explicitly specified, it must actually specify a way
+   that the action can be realized; it is not enough that a rule claims
+   there is a method. Circular reasoning cannot be used to permit an
+   action or to provide a method.
 
 ------------------------------------------------------------------------
 Rule 1023/40 (Power=2)
@@ -1614,7 +1589,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/13 (Power=3)
+Rule 2350/12 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -1661,8 +1636,6 @@ Amended(10) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
 Amended(11) by cleaning (Trigon), 04 Nov 2018
 Amended(12) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
-Amended(13) by P8308 'Imposing order on the order' (Falsifian), 13 Feb
-   2020
 
 Annotations:
 CFJ 1647 (called 30 Apr 2007): Preceding a proposal-like text with the
@@ -1728,7 +1701,7 @@ Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2607/2 (Power=2.0)
+Rule 2607/3 (Power=2.0)
 Proposal Chambers
 
       Chamber is a a secured untracked ordinary proposal switch whose
@@ -1738,12 +1711,12 @@ Proposal Chambers
       A proposal's chamber SHOULD only be decided by which ministry's
       goals it effects to the greatest degree.
       
-      If a proposal in the Proposal Pool has its chamber unset, the
-      Promotor CAN set the chamber to a specified ministry by
-      announcement. Any player CAN, with 2 Agoran consent, flip the
-      chamber of an ordinary proposal to any ministry, provided that
-      it is in the Proposal Pool or that there is an Agoran decision
-      on its adoption whose voting period has not yet ended.
+      If the chamber of an ordinary proposal in the Proposal Pool is
+      unset, the Promotor CAN set the chamber to a specified ministry
+      by announcement. Any player CAN, with 2 Agoran consent, flip
+      the chamber of an ordinary proposal to any ministry, provided
+      that it is in the Proposal Pool or that there is an Agoran
+      decision on its adoption whose voting period has not yet ended.
       
 History:
 
@@ -1751,6 +1724,7 @@ Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
 Amended(2) by P8320 'Promotorial Assignment' (Aris), 13 Feb 2020
+Amended(3) by P8324 'Democratic unassignment' (Falsifian), 24 Feb 2020
 
 Annotations:
 
@@ -2007,6 +1981,8 @@ CFJ 2163 (called 14 Sep 2008): There is no possible proposal text that
    would cause a proposal to take effect without being adopted.
 CFJ 2259 (called 06 Nov 2008): The possibility of the instantaneous
    effects of a proposal are governed by the rules.
+CFJ 3784 (called 22 Dec 2019): A proposal using the first person refers
+   to the proposal itself.
 
 ------------------------------------------------------------------------
 Rule 2597/0 (Power=1)
@@ -2208,6 +2184,11 @@ CFJ 2258 (called 06 Nov 2008): Changes in whitespace are also
 CFJ 1139: Interpretations {judgements at the time of CFJ 1139} need not
    necessarily accord with the reasoning and arguments of Judges or
    Justices given in past CFJs.
+CFJ 3793 (called 16 Jan 2020): The "text of the rules", for the purposes
+   of Rule 217, is the text of the rules as actually written, as
+   agumented by the  semantic context of applicable definitions.
+   Substituting definitions into the text of a rule cannot eliminate
+   unclarity caused by ambiguous grammar or other linguistic aspects.
 
 ------------------------------------------------------------------------
 Rule 1030/13 (Power=3.2)
@@ -3110,7 +3091,7 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision is
    described in Rule 955.
 
 ------------------------------------------------------------------------
-Rule 879/37 (Power=2)
+Rule 879/38 (Power=2)
 Quorum
 
       Each Agoran decision has a quorum. This is a number set when the
@@ -3124,9 +3105,9 @@ Quorum
       defined by other rules of power 2 or greater. If no other rule
       defines the quorum of an Agoran decision, the quorum for that
       decision is equal to 2/3 of the number of voters on the Agoran
-      decision to adopt a proposal that had been most recently resolved
-      at the time of that decision's initiation, the whole rounded to
-      the nearest integer.
+      decision on whether to adopt a proposal that had been most
+      recently resolved at the time of that decision's initiation, the
+      whole rounded to the nearest integer.
       
       As an exception to the previous paragraph, the quorum of an
       Agoran decision can never be less than 2. If the rules would
@@ -3185,6 +3166,7 @@ Amended(35) by P8095 'Quorum Reduction v2' (Aris, Murphy, D. Margaux),
    28 Sep 2018
 Amended(36) by cleaning (Alexis), 23 Jan 2020
 Amended(37) by P8321 'Untying Quorum' (Aris), 13 Feb 2020
+Amended(38) by P8338 'Clarify quorum (option 1)' (Murphy), 24 Feb 2020
 
 Annotations:
 CFJ 1562 (called 03 May 2005): A cancelled vote on a Proposal does not
@@ -4075,6 +4057,9 @@ CFJ 3155 (called 26 Jan 2012): A "recent history" section of a report is
    during a certain date range.
 CFJ 3643 (called 18 Jun 2018): A disclaimer attached to a public
    document does not prevent its ratification.
+CFJ 3788 (called 01 Jan 2020): Ratifying that an event took place at a
+   time before a ratified document's effective date also ratifies that
+   all consequences of that event occurred.
 
 ------------------------------------------------------------------------
 Rule 2202/8 (Power=3)
@@ -4531,6 +4516,7 @@ CFJ 1355 (called 28 Apr 2002): Titles for CFJs are unregulated, so it is
    possible for a title to be assigned to a CFJ informally.
 CFJ 3623 (called 09 Feb 2018): CFJing on a future hypothetical without
    specifying relevant assumptions is indeterminate.
+CFJ 3805 (called 31 Jan 2020): Maintaining CFJ archives is hard.
 
 ------------------------------------------------------------------------
 Rule 591/46 (Power=1.7)
@@ -4913,7 +4899,7 @@ Amended(1) by P7892 'Truthfulness v2' (Aris), 26 Sep 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2450/6 (Power=1.7)
+Rule 2450/7 (Power=1.7)
 Pledges
 
       If a Player makes a clear public pledge (syn. Oath) to perform (or
@@ -4928,6 +4914,10 @@ Pledges
       SHOULD solicit the opinion of those parties in determining an
       appropriate fine.
       
+      The Notary CAN destroy a pledge Without Objection, and should do
+      so if and only if the pledge no longer serves any significant
+      purpose.
+      
 History:
 
 Enacted by P7761 'I wonder what this does' (G.), 19 Jul 2015
@@ -4940,6 +4930,8 @@ Amended(4), 11 Jun 2018
 Amended(5) by P8060 'Notary-B-Gone' (R. Lee), 18 Jul 2018
 Amended(6) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
    Falsifian), 29 Jan 2020
+Amended(7) by P8331 'Promissory cleanliness' (Warrigal, Warrigal), 24
+   Feb 2020
 
 Annotations:
 CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
@@ -6020,18 +6012,18 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/13 (Power=3)
+Rule 2438/15 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
       
-      Ribbon Ownership is a person switch, tracked by the Tailor in eir
-      monthly report, whose values are the subsets of the set of types
-      of Ribbon, defaulting to the empty set. If the rules are amended
-      to change the types of Ribbon, if a player's Ribbon Ownership is
-      subsequently illegal, then it is updated by removing all
-      nonexistent types rather than resetting the entire value to
-      default.
+      Ribbon Ownership is a secured person switch, tracked by the
+      Tailor in eir monthly report, whose values are the subsets of
+      the set of types of Ribbon, defaulting to the empty set. If the
+      rules are amended to change the types of Ribbon, if a player's
+      Ribbon Ownership is subsequently illegal, then it is updated by
+      removing all nonexistent types rather than resetting the entire
+      value to default.
       
       To "award a person a <Ribbon type>" is to add that type of Ribbon
       to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
@@ -6091,9 +6083,10 @@ Ribbons
       White (W): A player qualifies for a White Ribbon if e has never
       previously owned a White Ribbon (including under previous
       rulesets). A player who has been registered for at least 30 days
-      and has never caused another person to gain a White Ribbon
-      (including under a previous ruleset) CAN award a White Ribbon to
-      another person by announcement.
+      and has never acted on eir own behalf to cause another person to
+      gain a White Ribbon (including under a previous ruleset) CAN act
+      on eir own behalf to award a White Ribbon to another person by
+      announcement.
       
       Black (K): This rule does not specify any methods of obtaining
       Black Ribbons.
@@ -6138,6 +6131,8 @@ Amended(11) by P8267 'Emerald Ribbons' (Jason), 11 Nov 2019
 Amended(12) by P8283 'Ex Post Ribbon' (Alexis), 20 Jan 2020
 Amended(13) by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan
    2020
+Amended(14) by P8323 'Secure Ribbons' (Jason), 24 Feb 2020
+Amended(15) by P8330 'No looting white ribbons' (G.), 24 Feb 2020
 
 Annotations:
 
@@ -6561,21 +6556,26 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/27 (Power=2)
+Rule 103/28 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
-      Agora.
-      
-      The player or players who have most recently won the game are
+      Agora. The player or players who have most recently won the game are
       called Laureled. If at any time the office of Speaker is vacant,
       or when one or more players win Agora, then the Prime Minister CAN
       once appoint a Laureled player to the office of Speaker by
-      announcement.  Whenever the Prime Minister CAN appoint a Laureled
+      announcement.
+      
+      Whenever the Prime Minister CAN appoint a Laureled
       player to the office of Speaker, e SHALL do so in a timely manner,
       except that the Prime Minister MAY defer appointing a new Speaker
       while there is pending one or more open CFJs that could plausibly
       determine or affect the question of whether a player is Laureled.
+      If the Prime Minister is emself Laureled, eir power to appoint a
+      Speaker continues for the entirety of a message in which e resigns as
+      Prime Minister, and if e is the only Laureled player, e CAN void that
+      power, and thereby discharge the obligation to use it, by announcing
+      that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
@@ -6630,6 +6630,8 @@ Amended(26) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
 Amended(27) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
+Amended(28) by P8340 'The Paradox of Self-Appointment' (Alexis), 24 Feb
+   2020
 
 Annotations:
 
@@ -6758,17 +6760,23 @@ Agoran Culture
    Nothing in here is all that important. Mostly describes holidays and
    tournaments, and joke rules.
 ------------------------------------------------------------------------
-Rule 2327/1 (Power=1)
+Rule 2327/2 (Power=1)
 Read the Ruleset Week
 
       The first Agoran week each year which falls entirely in February
       is Read the Ruleset Week. Agorans are encouraged to read the
       ruleset during Read the Ruleset Week.
       
+      The above notwithstanding, due to serious uncertainty surrounding
+      the state of the rules during the scheduled Read the Ruleset Week,
+      in the year 2020, Read the Ruleset Week is, instead, the week of
+      February 24 - March 1
+      
 History:
 
 Enacted by P6973 'I miss RtRW' (Murphy), 30 Mar 2011
 Amended(1) by P6995 'Ugliest rule text ever' (omd, harvel), 10 Apr 2011
+Amended(2) by P8329 'RtRW Reschedule' (Alexis), 24 Feb 2020
 
 Annotations:
 

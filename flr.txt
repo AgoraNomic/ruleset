@@ -3,17 +3,17 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset:
+Date of this ruleset: 27 Feb 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 126
+Number of rules currently enacted: 129
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2603
-Highest ID'd Proposal Passed: 8276
-Highest ID'd Rule Enacted: 2603
+Highest ID'd rule in this ruleset: 2608
+Highest ID'd Proposal Passed: 8340
+Highest ID'd Rule Enacted: 2608
 
 ------------------------------------------------------------------------
 
@@ -23,7 +23,6 @@ The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
-   * Rule 2600: Boo!!
    * Rule 2601: Blink
 Players
    * Rule  869: How to Join and Leave Agora
@@ -47,6 +46,9 @@ Entities
    * Rule 2140: Power Controls Mutability
 Proposals
    * Rule 2350: Proposals
+   * Rule 2605: Ministries
+   * Rule 2606: Proposal Classes
+   * Rule 2607: Proposal Chambers
    * Rule 1607: Distribution
    * Rule 2137: The Assessor
    * Rule  106: Adopting Proposals
@@ -111,6 +113,7 @@ Obligations & Contracts
    * Rule 2466: Acting on Behalf
    * Rule 2519: Consent
    * Rule 1742: Contracts
+   * Rule 2608: The Notary
 Assets
    * Rule 2166: Assets
    * Rule 2576: Ownership
@@ -176,10 +179,10 @@ Power Distribution:
 36 with Power=1
 2  with Power=1.5
 6  with Power=1.7
-22 with Power=2
+26 with Power=2
 2  with Power=2.1
 1  with Power=2.5
-50 with Power=3
+49 with Power=3
 1  with Power=3.1
 1  with Power=3.14
 1  with Power=3.2
@@ -280,29 +283,18 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance
    for the current gamestate.
 ------------------------------------------------------------------------
-Rule 2600/0 (Power=3)
-Boo!!
-
-      Rules to the contrary notwithstanding, one week after this rule is
-      repealed, it is reenacted.
-      
-History:
-
-Enacted by P8261 'The High Zombie' (G.), 03 Nov 2019
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2601/0 (Power=1)
+Rule 2601/1 (Power=1)
 Blink
 
-      One week after this sentence is modified in any way, this rule
-      is amended by inserting this sentence as the first paragraph of
-      this rule.
+      If this is the only paragraph in this rule, and it has been at
+      least one week since this rule was last amended, then any player
+      CAN Close the Eye by announcement. When that happens, this rule
+      repeals itself.
       
 History:
 
 Enacted by P8262 'trick candles' (G.), 03 Nov 2019
+Amended(1) by P8327 'Blink test v1.2' (Falsifian), 24 Feb 2020
 
 Annotations:
 
@@ -401,8 +393,8 @@ Amended(42) by P7931 'Registration fix finally' (G.), 06 Nov 2017
 Amended(43) by P7959 'Deregistration Fix' (Telnaior), 12 Nov 2017
 Amended(44) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(45) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
-Amended(46) by P8241 'Secured switches (v2.0)' (Jason Cobb, Falsifian),
-   18 Sep 2019
+Amended(46) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
+   Sep 2019
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -421,7 +413,7 @@ CFJ 3625 (called 12 Feb 2018): The rules don't bind recently
    rules doesn't count as agreeing to be bound by all of them.
 
 ------------------------------------------------------------------------
-Rule 478/37 (Power=3)
+Rule 478/38 (Power=3)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -450,7 +442,8 @@ Fora
       public. A rule can also designate that a part of one public
       message is considered a public message in its own right. To
       "publish" or "announce" something is to send a public message
-      whose body contains that thing.
+      whose body contains that thing. To do something "publicly" is
+      to do that thing within a public message.
       
       Where the rules define an action that a person CAN perform "by
       announcement", that person performs that action by unambiguously and
@@ -505,12 +498,12 @@ Amended(32) by P7632 'All Activity is Good Activity' (Alexis), 01 May
 Amended(33) by P7810 'Cleerer Registrar Responsibilities' (nch), 11 Sep
    2016
 Amended(34) by R2430, 24 May 2017
-Amended(35) by P8241 'Secured switches (v2.0)' (Jason Cobb, Falsifian),
-   18 Sep 2019
-Amended(36) by P8248 'Publishing definition' (Jason Cobb, Aris), 18 Sep
+Amended(35) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
+   Sep 2019
+Amended(36) by P8248 'Publishing definition' (Jason, Aris), 18 Sep 2019
+Amended(37) by P8275 '"By announcement" clarification' (Jason), 01 Dec
    2019
-Amended(37) by P8275 '"By announcement" clarification' (Jason Cobb), 01
-   Dec 2019
+Amended(38) by P8336 'Define "publicly"' (Jason), 24 Feb 2020
 
 Annotations:
 CFJ 1451-1452 (called 06 Mar 2003): A message that is split into
@@ -671,6 +664,8 @@ CFJ 3642 (called 15 Jun 2018): Regardless of CFJ 1314, a message has not
    been sent via a public forum if its non-reception by some persons who
    arranged to receive it has affected which game actions they chose to
    take or not to take.
+CFJ 3790 (called 01 Jan 2020): The sender of a message is the last
+   exerciser of free will that exercised free will on its path.
 
 ------------------------------------------------------------------------
 Rule 2139/14 (Power=2)
@@ -726,7 +721,7 @@ Amended(11) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
 Amended(12) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
 Amended(13) by P8176 'Zombies take care of this now' (G.), 13 May 2019
 Amended(14) by P8273 'Clean up your own mess, without making a bigger
-   one' (Gaelan, Jason Cobb), 11 Nov 2019
+   one' (Gaelan, Jason), 11 Nov 2019
 
 Annotations:
 CFJ 1703 (called 13 Jul 2007): A player cannot change eir nickname by
@@ -852,7 +847,7 @@ Amended(5) by P6571 'This gets on my nerves' [green] (ais523), 28 Nov
 Amended(6) by P6983 'Fix MMI' (Murphy), 10 Apr 2011
 Amended(7) by P7613 'What is PERMITTED NEED NOT be POSSIBLE'
    (Arufonsu), 11 Jan 2014
-Amended(8) by P8254 'Anything is POSSIBLE' (Jason Cobb), 03 Nov 2019
+Amended(8) by P8254 'Anything is POSSIBLE' (Jason), 03 Nov 2019
 
 Annotations:
 CFJ 1132: A Player failing to perform a duty required by the Rules
@@ -956,9 +951,15 @@ Amended(10) by P7928 'no we can't' (G.), 22 Oct 2017
 Annotations:
 CFJ 3737 (called 15 Jun 2019): Actions that the rules state a player
    SHALL NOT perform are considered to be regulated actions.
+CFJ 3793 (called 16 Jan 2020): Rule 2125 is an interpretive principle
+   applied to the rules as a whole and not to any individual rule. For a
+   method to be explicitly specified, it must actually specify a way
+   that the action can be realized; it is not enough that a rule claims
+   there is a method. Circular reasoning cannot be used to permit an
+   action or to provide a method.
 
 ------------------------------------------------------------------------
-Rule 1023/39 (Power=2)
+Rule 1023/40 (Power=2)
 Agoran Time
 
       The following terms are defined:
@@ -970,7 +971,12 @@ Agoran Time
          same message", is instead interpreted as a requirement to
          perform that action in a timely fashion after that instant.
       
-      2. Agoran epochs:
+      2. The phrase "in an officially timely fashion" means "before the
+         end of the next Agoran week". This time period is set when the
+         requirement is created (i.e. between 7 and 14 days before the
+         period ends).
+      
+      3. Agoran epochs:
       
            1. Agoran days begin at midnight UTC.
       
@@ -999,7 +1005,7 @@ Agoran Time
          apply to relative durations (e.g. "within <number> days after
          <event>").
       
-      3. Two points in time are within a month of each other if:
+      4. Two points in time are within a month of each other if:
       
           1. they occur in the same Agoran month;
       
@@ -1065,6 +1071,8 @@ Amended(38) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
 Retitled by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
    D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(39) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
+Amended(40) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
+   Jason), 29 Jan 2020
 
 Annotations:
 CFJ 3624 (called 09 Feb 2018): A condition of "continuously X for one
@@ -1155,8 +1163,8 @@ Retitled by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan),
    27 Apr 2019
 Amended(41) by P8165 'Dependent Action Cleanup Act' (D. Margaux,
    Gaelan), 27 Apr 2019
-Amended(42) by P8236 'Definition de-capitalization' (Jason Cobb, Aris),
-   18 Sep 2019
+Amended(42) by P8236 'Definition de-capitalization' (Jason, Aris), 18
+   Sep 2019
 
 Annotations:
 CFJ 1722 (called 15 Aug 2007): The method of dependent action need not
@@ -1233,21 +1241,20 @@ History:
 
 Enacted by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan), 27
    Apr 2019
-Amended(1) by P8236 'Definition de-capitalization' (Jason Cobb, Aris),
-   18 Sep 2019
+Amended(1) by P8236 'Definition de-capitalization' (Jason, Aris), 18
+   Sep 2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2124/25 (Power=2)
+Rule 2124/26 (Power=2)
 Agoran Satisfaction
 
       A Supporter of an intent to perform an action is an eligible
-      entity who has publicly posted (and not withdrawn) support (syn.
-      "consent") for an announcement of that intent. An Objector to an
-      intent to perform an action is an eligible entity who has publicly
-      posted (and not withdrawn) an objection to the announcement of
-      that intent.
+      entity who has publicly posted (and not withdrawn) support for an
+      announcement of that intent. An Objector to an intent to perform
+      an action is an eligible entity who has publicly posted (and not
+      withdrawn) an objection to the announcement of that intent.
       
       The entities eligible to support or object to an intent to perform
       an action are, by default, all players, subject to modification by
@@ -1316,8 +1323,10 @@ Amended(22) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(23) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 Amended(24) by P8164 'Correction to Agoran Satisfaction, Version 2.4'
    (Falsifian, ais523, D. Margaux, G., twg), 31 Mar 2019
-Amended(25) by P8236 'Definition de-capitalization' (Jason Cobb, Aris),
-   18 Sep 2019
+Amended(25) by P8236 'Definition de-capitalization' (Jason, Aris), 18
+   Sep 2019
+Amended(26) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
+   Falsifian), 29 Jan 2020
 
 Annotations:
 CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
@@ -1490,10 +1499,10 @@ Amended(10) by P7903 'Numerical Switches v2' (G.), 03 Oct 2017
 Amended(11) by P8075 'Less Critical Patching' (Aris, G.), 26 Jul 2018
 Power changed from 2 to 3 by P8075 'Less Critical Patching' (Aris, G.),
    26 Jul 2018
-Amended(12) by P8241 'Secured switches (v2.0)' (Jason Cobb, Falsifian),
-   18 Sep 2019
-Amended(13) by P8255 'Possibly-Inderterminate Switches' (Jason Cobb), 03
-   Nov 2019
+Amended(12) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
+   Sep 2019
+Amended(13) by P8255 'Possibly-Inderterminate Switches' (Jason), 03 Nov
+   2019
 
 Annotations:
 
@@ -1575,7 +1584,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/11 (Power=3)
+Rule 2350/12 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -1589,6 +1598,9 @@ Proposals
         author).
       
       * An adoption index.
+      
+      * A chamber to which the proposal shall be assigned upon its
+        creation.
       
       Creating a proposal adds it to the Proposal Pool. Once a proposal
       is created, neither its text nor any of the aforementioned
@@ -1617,6 +1629,8 @@ Amended(8) by P7728 'Even More Restricted Distribution' (Tiger), 24 Nov
 Amended(9) by P7736 'Draining the pool' (aranea), 02 May 2015
 Amended(10) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
 Amended(11) by cleaning (Trigon), 04 Nov 2018
+Amended(12) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Jason, twg), 29 Jan 2020
 
 Annotations:
 CFJ 1647 (called 30 Apr 2007): Preceding a proposal-like text with the
@@ -1628,7 +1642,89 @@ CFJ 1717 (called 08 Aug 2007): Preceding a proposal-like text with the
    clearly indicate that it is intended to become a proposal.
 
 ------------------------------------------------------------------------
-Rule 1607/46 (Power=3)
+Rule 2605/1 (Power=2.0)
+Ministries
+
+      A Ministry is an entity defined as such by this rule. Each
+      Ministry has a goal. The Ministries of Agora, and their goals, are
+      as follows:
+      
+       A. Ministry of Justice: serve justice to rulebreakers
+       B. Ministry of Efficiency: see official duties performed swiftly
+       C. Ministry of Legislation: see votes cast on proposals
+       D. Ministry of Participation: reward players for achievements
+       E. Ministry of Economy: encourage economic activity and contracts
+      
+      Interest is secured office switch, tracked by the ADoP, whose
+      possible values are lists of ministries, defaulting to the empty
+      list. The ADoP CAN flip an office's interest without objection.
+      
+      For each item of each office's interest, that office's holder's
+      voting strength is increased by 2 on proposals whose chamber is
+      set to that ministry.
+      
+History:
+
+Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Jason, twg), 29 Jan 2020
+Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2606/1 (Power=2.0)
+Proposal Classes
+
+      Proposals created since the enactment of this rule have a secured
+      untracked Class switch with possible values ordinary (the default)
+      and democratic.
+      
+      When a proposal with an adoption index greater than 2.0 is
+      created, its class becomes democratic.
+      
+      Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
+      class to democratic, provided that it is in the Proposal Pool or
+      that there is an Agoran decision on its adoption whose voting
+      period has not yet ended.
+      
+History:
+
+Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Jason, twg), 29 Jan 2020
+Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2607/3 (Power=2.0)
+Proposal Chambers
+
+      Chamber is a a secured untracked ordinary proposal switch whose
+      possible values include unset (the default) and each of the
+      ministries of Agora.
+      
+      A proposal's chamber SHOULD only be decided by which ministry's
+      goals it effects to the greatest degree.
+      
+      If the chamber of an ordinary proposal in the Proposal Pool is
+      unset, the Promotor CAN set the chamber to a specified ministry
+      by announcement. Any player CAN, with 2 Agoran consent, flip
+      the chamber of an ordinary proposal to any ministry, provided
+      that it is in the Proposal Pool or that there is an Agoran
+      decision on its adoption whose voting period has not yet ended.
+      
+History:
+
+Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Jason, twg), 29 Jan 2020
+Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
+Amended(2) by P8320 'Promotorial Assignment' (Aris), 13 Feb 2020
+Amended(3) by P8324 'Democratic unassignment' (Falsifian), 24 Feb 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 1607/47 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -1637,10 +1733,10 @@ Distribution
       Determining whether to adopt a proposal is an Agoran decision. For
       this decision, the vote collector is the Assessor, the adoption
       index is initially the adoption index of the proposal, or 1.0 if
-      the proposal does not have one, and the text, author, and
-      coauthors of the proposal are essential parameters. Initiating
-      such a decision is known as distribution, and removes the proposal
-      from the Proposal Pool.
+      the proposal does not have one, and the text, author, coauthors,
+      class and (if applicable) chamber of the proposal are essential
+      parameters. Initiating such a decision is known as distribution,
+      and removes the proposal from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
       Pool at any time.
@@ -1725,6 +1821,8 @@ Amended(44) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
 Amended(45) by P8245 'Pool drain timing' (G.), 05 Sep 2019
 Amended(46) by P8269 'Clean up distribution mechanisms' (omd), 11 Nov
    2019
+Amended(47) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Jason, twg), 29 Jan 2020
 
 Annotations:
 CFJ 1546 (called 14 Apr 2005): CFJ 1546 (called 14 Apr 2005), CFJ 1669
@@ -1878,6 +1976,8 @@ CFJ 2163 (called 14 Sep 2008): There is no possible proposal text that
    would cause a proposal to take effect without being adopted.
 CFJ 2259 (called 06 Nov 2008): The possibility of the instantaneous
    effects of a proposal are governed by the rules.
+CFJ 3784 (called 22 Dec 2019): A proposal using the first person refers
+   to the proposal itself.
 
 ------------------------------------------------------------------------
 Rule 2597/0 (Power=1)
@@ -2079,6 +2179,11 @@ CFJ 2258 (called 06 Nov 2008): Changes in whitespace are also
 CFJ 1139: Interpretations {judgements at the time of CFJ 1139} need not
    necessarily accord with the reasoning and arguments of Judges or
    Justices given in past CFJs.
+CFJ 3793 (called 16 Jan 2020): The "text of the rules", for the purposes
+   of Rule 217, is the text of the rules as actually written, as
+   agumented by the  semantic context of applicable definitions.
+   Substituting definitions into the text of a rule cannot eliminate
+   unclarity caused by ambiguous grammar or other linguistic aspects.
 
 ------------------------------------------------------------------------
 Rule 1030/13 (Power=3.2)
@@ -2260,7 +2365,7 @@ Amended(17) by P7969 'Obvious fix' (R. Lee, Alexis), 21 Nov 2017
 Amended(18) by P7986 'Quick Fix' (P.S.S.), 03 Dec 2017
 Amended(19) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
    2018
-Amended(20) by cleaning (Jason Cobb), 26 Jul 2019
+Amended(20) by cleaning (Jason), 26 Jul 2019
 
 Annotations:
 CFJ 1499 (called 20 Apr 2004): CFJ 1499 (called 20 Apr 2004), CFJ 1623
@@ -2303,7 +2408,7 @@ CFJ 2201 (called 30 Sep 2008): The permission required by Rule 105 need
    not be explicit.
 
 ------------------------------------------------------------------------
-Rule 2493/7 (Power=3)
+Rule 2493/8 (Power=3)
 Regulations
 
       A regulation is an textual entity defined as such by this rule,
@@ -2314,8 +2419,8 @@ Regulations
       A regulation CAN be enacted, amended, and repealed as specified by
       its parent rule. By default, a person CAN, with 2 Agoran consent,
       enact, amend, or repeal a regulation for which e is the
-      Promulgator. Regulations are tracked in their Promulgator's weekly
-      report.
+      Promulgator. Regulations are tracked by the Rulekeepor as part of
+      eir weekly and monthly reports in a fashion similar to rules.
       
 History:
 
@@ -2328,10 +2433,11 @@ Power changed from 3.1 to 3 by P8056 'Deregulation Act v2' (Aris, G.),
 Amended(4) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
 Amended(5) by P8108 'Uniform Regulatory Process Act' (Aris), 27 Oct
    2018
-Amended(6) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
-Amended(7) by P8240 'Regulation clarification' (Jason Cobb), 18 Sep
+Amended(6) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
+Amended(7) by P8240 'Regulation clarification' (Jason), 18 Sep 2019
+Amended(8) by P8301 'Consolidated Regulatory Rulekeeping v2' (Aris,
+   Jason), 29 Jan 2020
 
 Annotations:
 
@@ -2407,7 +2513,7 @@ Amended(17) by P5237 'Comprehensive objective reporting' [disi.] (AFO),
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1681/21 (Power=1)
+Rule 1681/22 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -2435,7 +2541,8 @@ The Logical Rulesets
       feels may be helpful in the use of the ruleset in the FLR.
       
       Whenever a rule is changed in any way, the Rulekeepor SHALL record
-      a historical annotation to the rule indicating:
+      and thereafter maintain a reasonably accurate historical annotation
+      to the rule indicating:
       
       1. The type of change.
       
@@ -2474,6 +2581,7 @@ Amended(18) by P6662 'Maternal courage' [green, disi.] (Murphy), 10 Mar
 Amended(19) by P7599 'Helpfulness' (Walker), 14 Sep 2013
 Amended(20) by P7604 'Come back woggle!' (G.), 13 Dec 2013
 Amended(21) by R2430, 24 May 2017
+Amended(22) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
 
 Annotations:
 
@@ -2549,8 +2657,8 @@ The Editor
       
 History:
 
-Enacted by P8239 'The Editor (v2.0.1)' (Jason Cobb, G., Aris, Trigon),
-   18 Sep 2019
+Enacted by P8239 'The Editor (v2.0.1)' (Jason, G., Aris, Trigon), 18 Sep
+   2019
 
 Annotations:
 
@@ -2978,27 +3086,27 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision is
    described in Rule 955.
 
 ------------------------------------------------------------------------
-Rule 879/35 (Power=2)
+Rule 879/38 (Power=2)
 Quorum
 
-      Each Agoran Decision has a quorum. This is a number set when the
+      Each Agoran decision has a quorum. This is a number set when the
       decision is created, and thereafter cannot be changed. When a
-      person initiates an Agoran Decision, that person SHALL state the
+      person initiates an Agoran decision, that person SHALL state the
       quorum of that decision. However, incorrectly stating the quorum
       of a decision does not invalidate the initiation, nor does it
       actually change the quorum of the decision.
       
-      The quorum that an Agoran Decision gains as it is created can be
+      The quorum that an Agoran decision gains as it is created can be
       defined by other rules of power 2 or greater. If no other rule
-      defines the quorum of an Agoran Decision, the quorum for that
+      defines the quorum of an Agoran decision, the quorum for that
       decision is equal to 2/3 of the number of voters on the Agoran
-      Decision to adopt a proposal that had been most recently resolved
-      at the time of that decision's initiation, the whole rounded to
-      the nearest integer (breaking ties upward).
+      decision on whether to adopt a proposal that had been most
+      recently resolved at the time of that decision's initiation, the
+      whole rounded to the nearest integer.
       
       As an exception to the previous paragraph, the quorum of an
-      Agoran Decision can never be less than 2. If the rules would
-      attempt to set the quorum of an Agoran Decision to less than 2,
+      Agoran decision can never be less than 2. If the rules would
+      attempt to set the quorum of an Agoran decision to less than 2,
       it is set to 2 instead.
       
 History:
@@ -3051,6 +3159,9 @@ Amended(33) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(34) by P7853 'Close Ancient Loopholes' (ais523), 05 Jun 2017
 Amended(35) by P8095 'Quorum Reduction v2' (Aris, Murphy, D. Margaux),
    28 Sep 2018
+Amended(36) by cleaning (Alexis), 23 Jan 2020
+Amended(37) by P8321 'Untying Quorum' (Aris), 13 Feb 2020
+Amended(38) by P8338 'Clarify quorum (option 1)' (Murphy), 24 Feb 2020
 
 Annotations:
 CFJ 1562 (called 03 May 2005): A cancelled vote on a Proposal does not
@@ -3059,11 +3170,11 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision
    changes as the set of eligible voters changes.
 
 ------------------------------------------------------------------------
-Rule 2422/5 (Power=3)
+Rule 2422/6 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
-      integer between 0 and 5 inclusive, defined by rules of power 2
+      integer between 0 and 15 inclusive, defined by rules of power 2
       or greater. If not otherwise specified, the voting strength of
       an entity on an Agoran decision is 3.
       
@@ -3086,6 +3197,8 @@ Amended(2) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(3) by P8122 'Middle of the road' (Murphy), 12 Nov 2018
 Amended(4) by cleaning (Falsifian), 28 Apr 2019
 Amended(5) by cleaning (Murphy), 03 Nov 2019
+Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Jason, twg), 29 Jan 2020
 
 Annotations:
 
@@ -3180,7 +3293,7 @@ CFJ 3644 (called 18 Jun 2018): Players can't guarantee actual
    humiliation, so an indication that humiliation might occur is
    sufficient to fulfill the requirement that a reminder be humiliating.
 ------------------------------------------------------------------------
-Rule 1950/35 (Power=3)
+Rule 1950/36 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index (AI) is an untracked switch possessed by Agoran
@@ -3189,7 +3302,7 @@ Decisions with Adoption Indices
       from 1.0 to 9.9. For proposals, the possible values are integral
       multiples of 0.1 from 1.0 to 9.9 (default 1.0).
       
-      Adoption index is secured with a power threshold of 2.
+      Adoption index is secured with a Power Threshold of 2.
       
       Adoption index is an essential parameter of an Agoran decision if
       that decision has an adoption index.
@@ -3243,8 +3356,9 @@ Amended(31) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(32) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
 Amended(33) by P7832 'Quintessential Parameters' (Alexis), 05 Dec 2016
 Amended(34) by P8200 'Sane AI Defaulting' (Aris), 10 Jul 2019
-Amended(35) by P8241 'Secured switches (v2.0)' (Jason Cobb, Falsifian),
-   18 Sep 2019
+Amended(35) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
+   Sep 2019
+Amended(36) by cleaning (Alexis), 23 Jan 2020
 
 Annotations:
 CFJ 1885 (called 26 Jan 2008): "AGAINT" is a variant spelling of
@@ -3392,8 +3506,8 @@ Amended(40) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
 Amended(41) by P7958 'Succession Planning' (G.), 12 Nov 2017
 Amended(42) by P8074 'Office Patch' (Aris, G., P.S.S.), 26 Jul 2017
 Amended(43) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
-Amended(44) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(44) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -3529,14 +3643,12 @@ Amended(49) by P7807 's/I(?=ADoP)//' (aranea), 10 Aug 2016
 Amended(50) by R2430, 24 May 2017
 Amended(51) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
 Amended(52) by P8013 'Must elections be political?' (G.), 24 Feb 2018
-Amended(53) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(53) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 Amended(54) by cleaning (Falsifian), 20 Oct 2019
-Amended(55) by P8258 'Elections Fix' (Jason Cobb), 03 Nov 2019
-Amended(56) by P8276 'Various Election Fixes v2' (Jason Cobb), 01 Dec
-   2019
-Amended(57) by P8276 'Various Election Fixes v2' (Jason Cobb), 01 Dec
-   2019
+Amended(55) by P8258 'Elections Fix' (Jason), 03 Nov 2019
+Amended(56) by P8276 'Various Election Fixes v2' (Jason), 01 Dec 2019
+Amended(57) by P8276 'Various Election Fixes v2' (Jason), 01 Dec 2019
 
 Annotations:
 
@@ -3554,13 +3666,13 @@ Impeachment
 History:
 
 Enacted by P8036 'Impeachment' (Aris), 27 Apr 2018
-Amended(1) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2160/21 (Power=3)
+Rule 2160/22 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
@@ -3589,7 +3701,7 @@ Deputisation
       When a player deputises for an elected office, e becomes the
       holder of that office, unless the action being performed would
       already install someone into that office, and/or unless the
-      deputisiation is temporary.
+      deputisation is temporary.
       
 History:
 
@@ -3621,8 +3733,9 @@ Amended(16) by P7918 'Vacant Deputisation Fix' (Publius Scribonius
 Amended(17) by P8018 'Random Bad Rule Cleaning' (Alexis), 06 Mar 2018
 Amended(18) by cleaning (D. Margaux), 30 Sep 2018
 Amended(19) by P8159 'Temporary Deputies' (G.), 22 Feb 2019
-Amended(20) by P8228 'Active Officers' (G., Jason Cobb), 05 Sep 2019
-Amended(21) by P8268 'Deputisation fix' (Jason Cobb), 11 Nov 2019
+Amended(20) by P8228 'Active Officers' (G., Jason), 05 Sep 2019
+Amended(21) by P8268 'Deputisation fix' (Jason), 11 Nov 2019
+Amended(22) by cleaning (twg), 23 Jan 2020
 
 Annotations:
 CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
@@ -3725,13 +3838,12 @@ Enacted by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
    2016
 Amended(1) by R2430, 24 May 2017
 Amended(2) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
-Amended(3) by P8206 'Rule 2472 Simplification' (Jason Cobb), 23 Jul
-   2019
+Amended(3) by P8206 'Rule 2472 Simplification' (Jason), 23 Jul 2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2143/29 (Power=1)
+Rule 2143/31 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -3768,17 +3880,9 @@ Official Reports and Duties
       on the World Wide Web, and they SHOULD publish the address of this
       copy along with their published reports.
       
-      A convergence is any change to the gamestate that has, in
-      accordance with the rules, been designated as such. A change to
-      the gamestate SHOULD NOT be designated as a convergence unless it
-      is designed to resolve gamestate ambiguity. Designating a change
-      as a convergence is secured; any player CAN do so with 3 Agoran
-      Consent. When officeholders provide historical information, they
-      NEED NOT accurately document the changes made by the convergence
-      or related ambiguities, provided that they instead note that the
-      convergence occurred. Information about a convergence (but not the
-      resulting state) is inherently uncertain and is thus excluded from
-      self-ratification.
+      If an office has a discretionary power, and a player publicly
+      petitions the officer to apply that power in a specific case or
+      manner, the officer SHALL publicly respond in a timely fashion.
       
 History:
 
@@ -3821,8 +3925,10 @@ Amended(26) by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun
    2017
 Amended(27) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
    2018
-Amended(28) by P8244 'Crime Cleanup' (Jason Cobb), 05 Sep 2019
+Amended(28) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
 Amended(29) by P8249 'No Harm No Foul' (Jacob Arduino, twg), 18 Sep 2019
+Amended(30) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
+Amended(31) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
 
 Annotations:
 CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
@@ -3831,18 +3937,22 @@ CFJ 3645 (called 20 Jun 2018): Including a report in a message to the
    public forum fulfills an officer's duty to publish said report,
    regardless of whether or not a disclaimer is included stating that it
    is not a report.
+CFJ 3783 (called 07 Dec 2019): It is not possible to wan an election
+   after it has ended.
+
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
 Switch Responsiblity
 
-      For each type of switch which would otherwise lack an officer to track it,
-      and is not defined as untracked, there exists an imposed office named
-      “Tracker of [switch name]” that is responsible for tracking that switch.
+      For each type of switch which would otherwise lack an officer to
+      track it, and is not defined as untracked, there exists an imposed
+      office named “Tracker of [switch name]” that is responsible for
+      tracking that switch.
       
 History:
 
 Enacted by P8273 'Clean up your own mess, without making a bigger one'
-   (Gaelan, Jason Cobb), 11 Nov 2019
+   (Gaelan, Jason), 11 Nov 2019
 
 Annotations:
 
@@ -3865,7 +3975,7 @@ Documents
    Documents are little bits of text that can be ratified, therefore
    modifying the gamestate slightly.
 ------------------------------------------------------------------------
-Rule 1551/20 (Power=3.1)
+Rule 1551/21 (Power=3.1)
 Ratification
 
       When a document or statement (hereafter "document") is ratified,
@@ -3896,7 +4006,7 @@ Ratification
       be part of the document for the purposes of ratification; such
       definitions are secured at a Power Threshold of 3.
       
-      Ratification is secured with power threshold 3.
+      Ratification is secured with Power Threshold 3.
       
 History:
 
@@ -3932,6 +4042,7 @@ Amended(18) by P7664 'Fix onerous ratification requirement' (omd), 03
    Jun 2014
 Amended(19) by P8121 'Retroactive Documents' (D. Margaux), 12 Nov 2018
 Amended(20) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
+Amended(21) by cleaning (Alexis), 23 Jan 2020
 
 Annotations:
 CFJ 2165 (called 16 Sep 2008): Ratification can create legal fictions,
@@ -3941,6 +4052,9 @@ CFJ 3155 (called 26 Jan 2012): A "recent history" section of a report is
    during a certain date range.
 CFJ 3643 (called 18 Jun 2018): A disclaimer attached to a public
    document does not prevent its ratification.
+CFJ 3788 (called 01 Jan 2020): Ratifying that an event took place at a
+   time before a ratified document's effective date also ratifies that
+   all consequences of that event occurred.
 
 ------------------------------------------------------------------------
 Rule 2202/8 (Power=3)
@@ -3976,7 +4090,7 @@ Amended(5) by P7451 'Fix messy statements differently' (omd), 10 Jun
    2013
 Amended(6) by P7680 'History Schmistory version 2' (Alexis), 12 Jul
    2014
-Amended(7) by P8244 'Crime Cleanup' (Jason Cobb), 05 Sep 2019
+Amended(7) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
 Amended(8) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
 
 Annotations:
@@ -3991,7 +4105,7 @@ CFJ 2289 (called 25 Nov 2008): Ratification Without Objection of a value
    is not directly part of the report being ratified.
 
 ------------------------------------------------------------------------
-Rule 2201/9 (Power=3)
+Rule 2201/10 (Power=3)
 Self-Ratification
 
       When a public document is continuously undoubted for one week
@@ -4006,19 +4120,14 @@ Self-Ratification
         cannot be reasonably ascertained from the ruleset and the
         contents of the message.
       
-      A doubt is an explicit public challenge via one of the following
-      methods, identifying a document and explaining the scope and
-      nature of a perceived error in it (or in a statement it attests
-      to):
+      Any person CAN by announcement issue a doubt (syn. claim of
+      error), identifying a document and explaining the scope and nature
+      of a perceived error in it (or in a statement it attests to).
       
-      1. An inquiry case, appropriate for questions of legal
-         interpretation.
-      
-      2. A claim of error, appropriate for matters of fact. The
-         publisher of the original document SHALL (if e was required to
-         publish that document) or SHOULD (otherwise) do one of the
-         following in a timely fashion, in an announcement that clearly
-         cites the claim of error:
+      When this happens, the publisher of the original document SHALL
+      (if e was required to publish that document) or SHOULD (otherwise)
+      do one of the following in a timely fashion, in an announcement
+      that clearly cites the claim of error:
       
          1. Deny the claim (causing it to cease to be a doubt).
       
@@ -4042,6 +4151,8 @@ Amended(6) by P7420 'We don't need to be that idiosyncratic un-derp
 Amended(7) by R2430, 24 May 2017
 Amended(8) by P8188 'Blanket Denial' (G.), 23 Jul 2019
 Amended(9) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
+Amended(10) by P8292 'Self-Ratification Simplification Act' (Bernie,
+   twg), 29 Jan 2020
 
 Annotations:
 CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
@@ -4057,13 +4168,13 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2556/0 (Power=3)
+Rule 2556/1 (Power=3)
 Penalties
 
       Rules to the contrary notwithstanding, an impure person CANNOT win
       the game.
       
-      The voting strength of a player on an Agoran Decision is reduced
+      The voting strength of a player on an Agoran decision is reduced
       by 1 for every 3 blots in eir possession.
       
       A player CAN, with 7 days notice, deregister (exile) a specified
@@ -4072,11 +4183,12 @@ Penalties
 History:
 
 Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
+Amended(1) by cleaning (Alexis), 23 Jan 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2555/4 (Power=2)
+Rule 2555/5 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -4087,8 +4199,8 @@ Blots
       To levy a fine of N on a person, where N is a positive integer, is
       to grant em N blots. To expunge a blot is to destroy it.
       
-      Levying fines and destroying blots are each secured with a power
-      threshold of 1.7.
+      Levying fines and destroying blots are each secured with a Power
+      Threshold of 1.7.
       
       The Referee is an office, and the recordkeepor for blots.
       
@@ -4108,8 +4220,8 @@ Amended(1) by P8066 'Separation of church and state' (twg, Trigon), 26
    Jul 2018
 Amended(2) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(3) by P8217 'penance as a service' (G.), 05 Sep 2019
-Amended(4) by P8235 'Unified fine creation syntax' (Jason Cobb), 18 Sep
-   2019
+Amended(4) by P8235 'Unified fine creation syntax' (Jason), 18 Sep 2019
+Amended(5) by cleaning (Alexis), 23 Jan 2020
 
 Annotations:
 
@@ -4191,8 +4303,7 @@ Amended(3) by P7964 'Referee Reform and Card Appealability' (R. Lee),
 Amended(4) by P7964 'Referee Reform and Card Appealability' (R. Lee),
    07 Nov 2017
 Amended(5) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
-Amended(6) by P8189 'Rule 2479 Cleanup (v1.2)' (Jason Cobb), 23 Jul
-   2019
+Amended(6) by P8189 'Rule 2479 Cleanup (v1.2)' (Jason), 23 Jul 2019
 
 Annotations:
 
@@ -4232,9 +4343,9 @@ History:
 
 Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(1) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
-Amended(2) by P8202 'Police Power' (Falsifian, Jason Cobb), 23 Jul 2019
-Retitled by P8202 'Police Power' (Falsifian, Jason Cobb), 23 Jul 2019
-Amended(3) by P8244 'Crime Cleanup' (Jason Cobb), 05 Sep 2019
+Amended(2) by P8202 'Police Power' (Falsifian, Jason), 23 Jul 2019
+Retitled by P8202 'Police Power' (Falsifian, Jason), 23 Jul 2019
+Amended(3) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
 
 Annotations:
 
@@ -4296,11 +4407,10 @@ Amended(2) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(3) by P8119 'Criminal Justice Adjustments Act' (G.), 12 Nov
    2018
 Amended(4) by P8130 'Law is Ambiguous Word Act' (Gaelan), 19 Nov 2018
-Amended(5) by P8203 'Fixing Summary Judgement' (Jason Cobb), 23 Jul
+Amended(5) by P8203 'Fixing Summary Judgement' (Jason), 23 Jul 2019
+Amended(6) by P8222 'Fixing Summary Judgement (v2)' (Jason), 05 Sep
    2019
-Amended(6) by P8222 'Fixing Summary Judgement (v2)' (Jason Cobb), 05
-   Sep 2019
-Amended(7) by cleaning (Jason Cobb), 17 Oct 2019
+Amended(7) by cleaning (Jason), 17 Oct 2019
 
 Annotations:
 
@@ -4389,8 +4499,8 @@ Amended(27) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(28) by P8065 'No undead courts' (twg), 18 Jul 2018
 Amended(29) by cleaning (Trigon), 31 Oct 2018
 Amended(30) by P8134 'The judge switch' (G.), 02 Dec 2018
-Amended(31) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(31) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 CFJ 1692-1693 (called 20 Jun 2007): A CFJ can be unambiguously
@@ -4401,6 +4511,7 @@ CFJ 1355 (called 28 Apr 2002): Titles for CFJs are unregulated, so it is
    possible for a title to be assigned to a CFJ informally.
 CFJ 3623 (called 09 Feb 2018): CFJing on a future hypothetical without
    specifying relevant assumptions is indeterminate.
+CFJ 3805 (called 31 Jan 2020): Maintaining CFJ archives is hard.
 
 ------------------------------------------------------------------------
 Rule 591/46 (Power=1.7)
@@ -4654,8 +4765,8 @@ Amended(51) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(52) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(53) by P7777 'Simplified moot fix' (omd), 14 Aug 2015
 Amended(54) by P7930 'Appeals improvements' (G.), 29 Oct 2017
-Amended(55) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(55) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 CFJ 1597 (called 22 Dec 2006): It is possible to appeal a judgement even
@@ -4783,7 +4894,7 @@ Amended(1) by P7892 'Truthfulness v2' (Aris), 26 Sep 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2450/5 (Power=1.7)
+Rule 2450/7 (Power=1.7)
 Pledges
 
       If a Player makes a clear public pledge (syn. Oath) to perform (or
@@ -4791,11 +4902,16 @@ Pledges
       within the pledge's time window is the Class N crime of
       Oathbreaking, where N is 2 unless the pledge explicitly states
       otherwise.  The time window of a pledge is 60 days, unless the
-      pledge explicitly states otherwise.
+      pledge explicitly states otherwise. A pledge ceases to exist at
+      the end of its time window.
       
       If breaking the pledge harms specific other parties, the Referee
       SHOULD solicit the opinion of those parties in determining an
       appropriate fine.
+      
+      The Notary CAN destroy a pledge Without Objection, and should do
+      so if and only if the pledge no longer serves any significant
+      purpose.
       
 History:
 
@@ -4807,6 +4923,10 @@ Amended(3) by P7901 'Make Your Home Shine' (o, Cuddle Beam, Ørjan, R.
    Lee, nch), 03 Oct 2017
 Amended(4), 11 Jun 2018
 Amended(5) by P8060 'Notary-B-Gone' (R. Lee), 18 Jul 2018
+Amended(6) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
+   Falsifian), 29 Jan 2020
+Amended(7) by P8331 'Promissory cleanliness' (Warrigal, Warrigal), 24
+   Feb 2020
 
 Annotations:
 CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
@@ -4856,50 +4976,65 @@ Amended(1) by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2519/0 (Power=3)
+Rule 2519/1 (Power=3)
 Consent
 
-      A person gives consent (syn. consents) to an action when e, acting
-      as emself, publicly states that e agrees to the action. This
-      agreement may be implied, but only if it is reasonably clear from
-      context that the person wanted the agreement to take place.
+      A person is deemed to have consented to an action if and only if,
+      at the time the action took place:
+      
+      1. e, acting as emself, has publicly stated that e agrees to the
+         action and not subsequently publicly withdrawn eir statement;
+      2. e is party to a contract whose body explicitly and unambiguously
+         indicates eir consent; or
+      3. it is reasonably clear from context that e wanted the
+         action to take place or assented to it taking place.
       
 History:
 
 Enacted by P7924 'Contracts v8' (Aris, Aris, o, G., ais523, Gaelan,
    D.F.F., Cuddle Beam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Amended(1) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
+   Falsifian), 29 Jan 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1742/21 (Power=2.5)
+Rule 1742/22 (Power=2.5)
 Contracts
 
-      Any group of two or more consenting persons (the parties) may
-      make an agreement among themselves with the intention that it be
-      binding upon them and be governed by the rules. Such an agreement
-      is known as a contract. A contract may be modified, including
-      by changing the set of parties, by agreement between all existing
-      parties. A contract may also terminate by agreement between all
-      parties. A contract automatically terminates if the number of
-      parties to it falls below two. It is IMPOSSIBLE for a person to
-      become a party to a contract without eir agreement. For the
-      purposes of this rule, agreement includes both consent and
-      agreement specified by contract.
+      Any group of one or more consenting persons (the parties) may
+      publicly make an agreement among themselves with the intention that
+      it be binding upon them and be governed by the rules. Such an
+      agreement is known as a contract. A contract may be modified,
+      including by changing the set of parties, with the consent of all
+      existing parties. A contract may also be terminated with the
+      consent of all parties. A contract automatically terminates if the
+      number of parties to it falls below one. It is IMPOSSIBLE for a
+      person to become a party to a contract without eir consent.
       
       Parties to a contract governed by the rules SHALL act in
       accordance with that contract. This obligation is not impaired
       by contradiction between the contract and any other contract, or
       between the contract and the rules.
       
-      A party to a contract CAN perform any of the following actions
-      as permitted by the contract's text:
+      Rules to the contrary notwithstanding, any change that would cause
+      the full provisions or parties of a contract to become publicly
+      unavailable is canceled and does not take effect.
+      
+      The portion of a contract's provisions that can be interpreted
+      with reference only to information that is either publicly or
+      generally available are known as its body; the remainder of the
+      provisions are known as the annex.
+      
+      A party to a contract CAN perform any of the following actions as
+      explicitly and unambiguously permitted by the contract's body:
       
       * Act on behalf of another party to the contract.
       
       * By announcement, revoke destructible assets from the contract.
       
-      * By announcement, take liquid assets from the contract.
+      * By announcement, transfer liquid assets from the contract to a
+        specified recipient.
       
 History:
 
@@ -4940,11 +5075,48 @@ Re-enacted(19) and amended by P8054 'Minimalist Contracts v2' (Aris, G.,
 Amended(20) by P8139 'Access to contracts' assets v2' (twg, G.), 15 Jan
    2019
 Amended(21) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
+Amended(22) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
+   Falsifian), 29 Jan 2020
 
 Annotations:
 CFJ 3644 (called 29 Sep 2018): If a set of players consent to make an
    agreement that is to be binding, it is a contract, regardless of
    whether or not it is explicitly stated to be one.
+
+------------------------------------------------------------------------
+Rule 2608/0 (Power=2.0)
+The Notary
+
+      The Notary is an office.
+      
+      The Notary's weekly report contains:
+      
+      1. every pledge, along with its title, creator, time window, time
+         of creation, and time of expiry; and
+      2. every contract, with its title, full provisions, and parties.
+      
+      If the Notary is required to report a title, but none has been
+      otherwise publicly provided, e CAN select one.
+      
+      The transitional period lasts for at least 90 days after this rule
+      comes into force; thereafter, any player CAN end it by announcement.
+      A pledge or contract is invisible if it was created before this rule
+      came into force, and has not been publicly posted since this rule
+      came into force; for a contract, this publication must include its
+      full provisions and list of parties, along with a certification or
+      adequate proof of their accuracy and completeness. During the
+      transitional period, the Notary NEED NOT report any invisible
+      contract or pledge. When the transitional period is ended, each
+      invisible contract or pledge ceases to exist in the order they were
+      created, and then this rule amends itself by deleting this paragraph.
+      
+History:
+
+Enacted by P8303 'Contract Patency v3' (Aris, Gaelan, Jason, Falsifian),
+   29 Jan 2020
+
+Annotations:
+
 ------------------------------------------------------------------------
 ========================================================================
 Assets
@@ -5085,8 +5257,8 @@ History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
-Amended(2) by P8187 'Not so indestructible now, eh?' (Jason Cobb), 22
-   Jun 2019
+Amended(2) by P8187 'Not so indestructible now, eh?' (Jason), 22 Jun
+   2019
 
 Annotations:
 
@@ -5106,7 +5278,7 @@ Currencies
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
-Amended(1) by P8186 'Minor currency fixes' (Jason Cobb), 22 Jun 2019
+Amended(1) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 
 Annotations:
 
@@ -5215,41 +5387,42 @@ Amended(10) by P8066 'Separation of church and state' (twg, Trigon), 26
 Amended(11) by P8070 'Crackdown on minting (reindustrialisation
    edition)' (twg), 26 Jul 2018
 Amended(12) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
-Amended(13) by P8186 'Minor currency fixes' (Jason Cobb), 22 Jun 2019
+Amended(13) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/14 (Power=1)
+Rule 2496/17 (Power=1)
 Rewards
 
-      A player CAN, by announcement, earn the set of assets associated
-      with a reward condition exactly once in a timely fashion each time
-      e fulfills it, provided the announcement specifies the action that
-      e performed and the amount of assets e earns as a result.
+      Each time a player fulfills a reward condition, the officer
+      associated with the condition CAN once by announcement, and SHALL
+      in an officially timely fashion, grant the associated set of
+      assets to the player.
       
-      Below is a list of reward conditions and their associated assets.
+      Below is a list of reward conditions and their associated assets
+      and officers.
       
       * Being the author of an adopted proposal: a number of coins equal
         to ((the total number of valid ballots cast FOR the decision -
         the total number of valid ballots cast AGAINST) times the
-        adoption index of the result) rounded up.
+        adoption index of the result) rounded up (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
-        limit to do so: 5 coins.
+        limit to do so: 5 coins (Arbitor).
       
       * Publishing an office's weekly or monthly report, provided that
         publication was the first report published for that office in
         the relevant time period (week or month respectively) to fulfill
-        an official weekly or monthly duty: 5 coins.
+        an official weekly or monthly duty: 5 coins (ADoP).
       
       * Resolving an Agoran Decision on whether to adopt a proposal,
         provided that no other Agoran Decision on whether to adopt that
         or any other proposal had been resolved earlier in that Agoran
-        week: 5 coins.
+        week: 5 coins (ADoP).
       
       * Having a Thesis pass peer-review and be granted a Degree based
-        on its merit: 20 coins
+        on its merit: 20 coins (Herald)
       
 History:
 
@@ -5275,6 +5448,12 @@ Amended(12) by P8174 'Understated' (G.), 08 May 2019
 Amended(13) by P8180 'Paying our Assessor' (Trigon, D. Margaux), 22 Jun
    2019
 Amended(14) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
+Amended(15) by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan
+   2020
+Amended(16) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
+   Jason), 29 Jan 2020
+Amended(17) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
+   2020
 
 Annotations:
 
@@ -5305,8 +5484,7 @@ Amended(4) by P8066 'Separation of church and state' (twg, Trigon), 26
    Jul 2018
 Amended(5) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
 Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
-Amended(7) by P8253 'Clarify salary' (Murphy, G., Jason Cobb), 03 Nov
-   2019
+Amended(7) by P8253 'Clarify salary' (Murphy, G., Jason), 03 Nov 2019
 
 Annotations:
 
@@ -5338,7 +5516,7 @@ Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2585/2 (Power=1)
+Rule 2585/3 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -5348,8 +5526,8 @@ Birthday Gifts
       player first registered remains unknown, it is considered to be
       eir Agoran Birthday on the anniversary of the day e most recently
       declared as eir Agoran Birthday. Every time it is a player's
-      Agoran Birthday, each of the other players CAN grant em 3 coins by
-      announcement.
+      Agoran Birthday, each of the other players CAN once grant em 3
+      coins by announcement.
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
       
@@ -5357,8 +5535,9 @@ History:
 
 Enacted by P8143 'Happy Birthday to You v3' (Trigon), 15 Jan 2018
 Amended(1) by P8145 'No Rebirth' (Gaelan), 15 Jan 2019
-Amended(2) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(2) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
+Amended(3) by P8314 'Finite Gifting' (Aris), 13 Feb 2020
 
 Annotations:
 
@@ -5434,7 +5613,7 @@ Amended(1) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
 Amended(2) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01
    Jul 2018
 Amended(3) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
-Amended(4) by P8186 'Minor currency fixes' (Jason Cobb), 22 Jun 2019
+Amended(4) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 
 Annotations:
 CFJ 3614 (called 27 Nov 2017): A contract can authorize someone to
@@ -5565,7 +5744,7 @@ Annotations:
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/5 (Power=2)
+Rule 2532/6 (Power=2)
 Zombies
 
       Master is a secured player switch, tracked by the Registrar, with
@@ -5606,8 +5785,9 @@ Enacted by P7950 'Boooo!' (G.), 12 Nov 2017
 Amended(1) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(2) by P8065 'No undead courts' (twg), 18 Jul 2018
 Amended(3) by cleaning (Falsifian), 28 Apr 2019
-Amended(4) by P8246 'Tracking of Master' (Jason Cobb), 05 Sep 2019
+Amended(4) by P8246 'Tracking of Master' (Jason), 05 Sep 2019
 Amended(5) by P8242 'Let the dead rest' (Falsifian), 05 Sep 2019
+Amended(6) by cleaning (Alexis), 07 Feb 2020
 
 Annotations:
 
@@ -5649,9 +5829,9 @@ History:
 
 Enacted by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(1) by P8098 'Zombie Overstock' (G.), 01 Oct 2018
-Amended(2) by P8182 'Add value to zombies' (Jason Cobb), 22 Jun 2019
-Amended(3) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(2) by P8182 'Add value to zombies' (Jason), 22 Jun 2019
+Amended(3) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 
@@ -5795,7 +5975,7 @@ Amended(1) by P7916 'Pro Pace v2' (Aris, o, G.), 15 Oct 2017
 Amended(2) by P7960 'Community Chest Repeal II' (R. Lee), 12 Nov 2017
 Amended(3) by P8022 'Anyone can balance Karma' (G.), 06 Mar 2018
 Amended(4) by P8112 'The Middle Way' (G., ATMunn), 12 Nov 2018
-Amended(5) by P8234 'auto-balance' (G., Jason Cobb), 05 Sep 2019
+Amended(5) by P8234 'auto-balance' (G., Jason), 05 Sep 2019
 
 Annotations:
 
@@ -5827,28 +6007,26 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/11 (Power=3)
+Rule 2438/15 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
       
-      Ribbon Ownership is a person switch, tracked by the Tailor in eir
-      monthly report, whose values are the subsets of the set of types
-      of Ribbon, defaulting to the empty set. If the rules are amended
-      to change the types of Ribbon, if a player's Ribbon Ownership is
-      subsequently illegal, then it is updated by removing all
-      nonexistent types rather than resetting the entire value to
-      default.
+      Ribbon Ownership is a secured person switch, tracked by the
+      Tailor in eir monthly report, whose values are the subsets of
+      the set of types of Ribbon, defaulting to the empty set. If the
+      rules are amended to change the types of Ribbon, if a player's
+      Ribbon Ownership is subsequently illegal, then it is updated by
+      removing all nonexistent types rather than resetting the entire
+      value to default.
       
       To "award a person a <Ribbon type>" is to add that type of Ribbon
       to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
       if that type of Ribbon is an element of eir Ribbon Ownership.
       
-      While a person qualifies for a type of Ribbon, any player CAN, by
-      announcement, award em that type of Ribbon. A person qualifies for
-      a type of Ribbon if e has earned that type of Ribbon within the
-      preceding 7 days (including earlier in the same message) and has
-      not owned that type of Ribbon within the preceding 7 days.
+      A person qualifies for a type of Ribbon if e has earned that type
+      of Ribbon within the preceding 7 days (including earlier in the
+      same message).
       
       While a person owns all types of Ribbon, that person can Raise a
       Banner by announcement. This causes that person to win the game.
@@ -5858,7 +6036,8 @@ Ribbons
       follows:
       
       Red (R): When a proposal is adopted and changes at least one rule
-      with Power >= 3, its proposer earns a Red Ribbon.
+      that, immediately before or after the change, has Power >= 3, its
+      proposer earns a Red Ribbon.
       
       Orange (O): When a proposal is adopted via an Agoran Decision on
       which no valid ballots were AGAINST (after evaluating
@@ -5868,6 +6047,8 @@ Ribbons
       continuously for the past 30 days, and has not failed to perform
       any duties of that office within the appropriate time limits
       during those 30 days, that person qualifies for a Green Ribbon.
+      
+      Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
       
       Cyan (C): When a person deputises for an office, that person earns
       a Cyan Ribbon.
@@ -5897,9 +6078,10 @@ Ribbons
       White (W): A player qualifies for a White Ribbon if e has never
       previously owned a White Ribbon (including under previous
       rulesets). A player who has been registered for at least 30 days
-      and has never caused another person to gain a White Ribbon
-      (including under a previous ruleset) CAN award a White Ribbon to
-      another person by announcement.
+      and has never acted on eir own behalf to cause another person to
+      gain a White Ribbon (including under a previous ruleset) CAN act
+      on eir own behalf to award a White Ribbon to another person by
+      announcement.
       
       Black (K): This rule does not specify any methods of obtaining
       Black Ribbons.
@@ -5914,7 +6096,15 @@ Ribbons
       for, earns, and/or was awarded within the previous 7 days is at
       least 5.
       
-      Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
+      While a person qualifies for a type of Ribbon:
+      
+        - If e has not owned that type of Ribbon within the preceding 7 days,
+          any player CAN, by announcement, award em that type of Ribbon.
+      
+        - Otherwise, if e has not been awarded that type of Ribbon or the
+          corresponding type of Glitter since e last earned or came to qualify
+          for that type of Ribbon, e CAN, by announcement, award emself that
+          type of Glitter.
       
 History:
 
@@ -5930,24 +6120,40 @@ Amended(6) by P7922 'Clarity Act' (Alexis), 23 Oct 2017
 Amended(7) by P7933 'Ribbon Preservation Act' (Alexis), 06 Nov 2017
 Amended(8) by P7965 'One pronoun fix' (Trigon), 21 Nov 2017
 Amended(9) by P7992 'More CAN Fixes' (Alexis), 13 Jan 2018
-Amended(10) by P8232 'Increased transparency v1.1' (Murphy, Jason Cobb,
-   twg), 05 Sep 2019
-Amended(11) by P8267 'Emerald Ribbons' (Jason Cobb), 11 Nov 2019
+Amended(10) by P8232 'Increased transparency v1.1' (Murphy, Jason, twg),
+   05 Sep 2019
+Amended(11) by P8267 'Emerald Ribbons' (Jason), 11 Nov 2019
+Amended(12) by P8283 'Ex Post Ribbon' (Alexis), 20 Jan 2020
+Amended(13) by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan
+   2020
+Amended(14) by P8323 'Secure Ribbons' (Jason), 24 Feb 2020
+Amended(15) by P8330 'No looting white ribbons' (G.), 24 Feb 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2602/0 (Power=1)
+Rule 2602/2 (Power=1)
 Glitter
 
-      If a player has earned a ribbon in the past 7 days but already
-      owned it e CAN once (until e earns another ribbon), by
-      announcement, earn N+1 coins where N is the number of current
-      players that do not own the same ribbon.
+      For each type of Ribbon, there is a type of Glitter with the same
+      name. An attempt to award Glitter is INEFFECTIVE if the type of
+      Glitter is not specified.
+      
+      Each time a player is awarded a type of Glitter, the Tailor CAN
+      once by announcement, and SHALL in an officially timely
+      fashion, grant the player N+1 coins, where N is the number of
+      players who did not own the corresponding type of Ribbon at the
+      time of the award.
       
 History:
 
 Enacted by P8266 'Glitter' (nch), 11 Nov 2019
+Enacted by P8288 'Glitteral' (omd), 29 Jan 2020
+Enacted by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan 2020
+Amended(1) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
+   Jason), 29 Jan 2020
+Amended(2) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
+   2020
 
 Annotations:
 
@@ -5981,14 +6187,14 @@ History:
 Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
 Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(2) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
-Amended(3) by cleaning (Jason Cobb), 14 Sep 2019
-Amended(4) by P8241 'Secured switches (v2.0)' (Jason Cobb, Falsifian),
-   18 Sep 2019
+Amended(3) by cleaning (Jason), 14 Sep 2019
+Amended(4) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
+   Sep 2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/1 (Power=2.1)
+Rule 2481/2 (Power=2.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -5996,12 +6202,10 @@ Festival Restrictions
       1. Non-Festive players are never considered Supporters of a
          dependent action;
       
-      2. Non-Festive players cannot flip the Imminence of any proposal;
-      
-      3. Quorum for Agoran Decisions is equal to half the number of
+      2. Quorum for Agoran Decisions is equal to half the number of
          Festive players, rounded up;
       
-      4. Each Festive player has the maximum possible voting strength.
+      3. Each Festive player has the maximum possible voting strength.
          All other players have the minimum possible voting strength.
       
       While Agora's Festivity is zero, the paragraphs above have no
@@ -6011,11 +6215,12 @@ History:
 
 Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
 Amended(1) by R2430, 24 May 2017
+Amended(2) by P8297 'Imminent Failure' (Aris), 29 Jan 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 649/41 (Power=1.5)
+Rule 649/42 (Power=1.5)
 Patent Titles
 
       A Patent Title is a legal title given to a person in recognition
@@ -6030,12 +6235,6 @@ Patent Titles
       
       The Herald CAN award a specified Patent Title to a specified
       player with 2 Agoran consent.
-      
-      If a player publicly petitions that the Herald award a patent
-      title to another player for a specified reason, the Herald SHALL
-      respond in a timely fashion by either attempting to grant an
-      appropriate patent title or explaining publicly why no patent
-      title is warranted.
       
 History:
 
@@ -6088,8 +6287,9 @@ Amended(37) by P7621 'Further Patent Cleanup' (G.), 23 Feb 2014
 Amended(38) by P7755 'Patenting II' (G.), 30 Jun 2015
 Amended(39) by P8011 'Patent Depowering' (G.), 24 Feb 2018
 Amended(40) by P8099 'Patent Petitions' (Aris), 01 Oct 2018
-Amended(41) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(41) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
+Amended(42) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
 
 Annotations:
 CFJ 1525 (called 15 Nov 2004): If a patent title is defined by the
@@ -6120,21 +6320,21 @@ Badges
 History:
 
 Enacted by P7516 'Badges Badges Badges Badges' (G.), 19 Jul 2013
-Amended(1) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1367/22 (Power=3)
+Rule 1367/23 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
       
       - Associate of Nomic                 (A.N.)
       - Juris Doctor of Nomic              (J.N.)
-      - Bachelor of Nomic                  (B.N.)
-      - Master of Nomic                    (M.N.)
+      - Baccalaureate of Nomic             (B.N.)
+      - Magisteriate of Nomic              (M.N.)
       - Doctor of Nomic History            (D.N.Hist.)
       - Doctor of Nomic Law                (D.N.Law.)
       - Doctor of Nomic Science            (D.N.Sci.)
@@ -6188,9 +6388,10 @@ Amended(17) by P7420 'We don't need to be that idiosyncratic un-derp
 Amended(18) by P7591 'Conflicts of Interest' (Alexis), 14 Sep 2013
 Amended(19) by P7620 'Fire the Full Committee' (omd), 24 Jan 2014
 Amended(20) by P8211 'Law School' (G.), 23 Jul 2019
-Amended(21) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(21) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 Amended(22) by P8271 'Doctorate expectations' (G.), 11 Nov 2019
+Amended(23) by P8305 'Keeping Up With the Times' (Alexis), 29 Jan 2020
 
 Annotations:
 
@@ -6293,8 +6494,8 @@ History:
 
 Enacted by P8109 'Patent Diversity' (G.), 27 Oct 2018
 Amended(1) by P8171 'The Tiger Team' (G.), 27 Apr 2019
-Amended(2) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(2) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 
@@ -6339,8 +6540,8 @@ Annual Awards
 History:
 
 Enacted by P8109 'Patent Diversity' (G.), 27 Oct 2018
-Amended(1) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 
@@ -6350,29 +6551,33 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/26 (Power=2)
+Rule 103/28 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
-      Agora.
-      
-      The player or players who have most recently won the game are
+      Agora. The player or players who have most recently won the game are
       called Laureled. If at any time the office of Speaker is vacant,
       or when one or more players win Agora, then the Prime Minister CAN
       once appoint a Laureled player to the office of Speaker by
-      announcement.  Whenever the Prime Minister CAN appoint a Laureled
+      announcement.
+      
+      Whenever the Prime Minister CAN appoint a Laureled
       player to the office of Speaker, e SHALL do so in a timely manner,
       except that the Prime Minister MAY defer appointing a new Speaker
       while there is pending one or more open CFJs that could plausibly
       determine or affect the question of whether a player is Laureled.
+      If the Prime Minister is emself Laureled, eir power to appoint a
+      Speaker continues for the entirety of a message in which e resigns as
+      Prime Minister, and if e is the only Laureled player, e CAN void that
+      power, and thereby discharge the obligation to use it, by announcing
+      that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
       the office with support.
       
-      For an election of the Prime Minister, the Speaker has voting
-      strength one greater than e would have if e did not hold the
-      office.
+      The Speaker has voting strength one greater than e would have if e
+      did not hold the office.
       
 History:
 
@@ -6416,8 +6621,12 @@ Amended(23) by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
 Amended(24) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
 Amended(25) by P8117 'Fix for Uncertain Laurelings' (D. Margaux, twg),
    12 Nov 2018
-Amended(26) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(26) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
+Amended(27) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Jason, twg), 29 Jan 2020
+Amended(28) by P8340 'The Paradox of Self-Appointment' (Alexis), 24 Feb
+   2020
 
 Annotations:
 
@@ -6439,17 +6648,13 @@ CFJ 2154 (called 08 Sep 2008): The Speaker for the first game shall be
    Michael Norrish.
 
 ------------------------------------------------------------------------
-Rule 2423/4 (Power=2)
+Rule 2423/5 (Power=2)
 First Among Equals
 
       The Prime Minister is an office. The Prime Minister is elected by
       the players of Agora primarily on account of not being the other
       guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
       smoothly.
-      
-      The holder of the office of Prime Minister's voting strength is
-      increased by 1 on all Agoran decisions other than elections of
-      the Prime Minister.
       
 History:
 
@@ -6460,6 +6665,8 @@ Amended(2) by P7817 'Prime Minister Voting Strength' (aranea), 28 Oct
    2016
 Amended(3) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(4) by cleaning (Murphy), 03 Nov 2019
+Amended(5) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Jason, twg), 29 Jan 2020
 
 Annotations:
 
@@ -6474,8 +6681,8 @@ Motion of No Confidence
 History:
 
 Enacted by P7800 'Motion of No Confidence' (Henri), 19 Jul 2016
-Amended(1) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 
@@ -6518,8 +6725,7 @@ Power changed from 1.7 to 2.0 by P7964 'Referee Reform and Card
 Amended(5) by P7964 'Referee Reform and Card Appealability' (R. Lee),
    07 Nov 2017
 Amended(6) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
-Amended(7) by P8235 'Unified fine creation syntax' (Jason Cobb), 18 Sep
-   2019
+Amended(7) by P8235 'Unified fine creation syntax' (Jason), 18 Sep 2019
 Amended(8) by cleaning (Murphy), 03 Nov 2019
 
 Annotations:
@@ -6538,8 +6744,8 @@ The Distributor
 History:
 
 Enacted by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
-Amended(1) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 
@@ -6549,17 +6755,23 @@ Agoran Culture
    Nothing in here is all that important. Mostly describes holidays and
    tournaments, and joke rules.
 ------------------------------------------------------------------------
-Rule 2327/1 (Power=1)
+Rule 2327/2 (Power=1)
 Read the Ruleset Week
 
       The first Agoran week each year which falls entirely in February
       is Read the Ruleset Week. Agorans are encouraged to read the
       ruleset during Read the Ruleset Week.
       
+      The above notwithstanding, due to serious uncertainty surrounding
+      the state of the rules during the scheduled Read the Ruleset Week,
+      in the year 2020, Read the Ruleset Week is, instead, the week of
+      February 24 - March 1
+      
 History:
 
 Enacted by P6973 'I miss RtRW' (Murphy), 30 Mar 2011
 Amended(1) by P6995 'Ugliest rule text ever' (omd, harvel), 10 Apr 2011
+Amended(2) by P8329 'RtRW Reschedule' (Alexis), 24 Feb 2020
 
 Annotations:
 
@@ -6682,8 +6894,8 @@ Free Tournaments
 History:
 
 Enacted by P8032 'Free Tournaments' (G.), 06 Apr 2018
-Amended(1) by P8221 'Usage de-capitalization' (Jason Cobb, Aris), 05
-   Sep 2019
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+   2019
 
 Annotations:
 
