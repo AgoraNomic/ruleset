@@ -10,7 +10,7 @@ text: |
   If, but for this rule, the net effect of a proposal would cause
   Agora to become ossified, or would cause Agora to cease to exist,
   it cannot take effect, rules to the contrary notwithstanding. If
-  any other single change or inseperable group of changes to the
+  any other single change or inseparable group of changes to the
   gamestate would cause Agora to become ossified, or would cause
   Agora to cease to exist, it is cancelled and does not occur, rules
   to the contrary notwithstanding.
@@ -57,4 +57,10 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7889"
+- change:
+    type: amendment
+  date: 2020-03-03
+  agent:
+    cleaning:
+      by: Murphy
 annotations: []
