@@ -13,6 +13,9 @@ text: |
   Levying fines and destroying blots are each secured with a Power
   Threshold of 1.7.
 
+  A person CAN, by announcement, create a specified number of blots
+  in eir possession.
+
   The Referee is an office, and the recordkeepor for blots.
 
   If a person (the penitent) has neither gained blots nor had more
@@ -56,4 +59,9 @@ history:
   agent:
     cleaning:
       by: Alexis
+- change:
+    type: amendment
+  date: 2020-03-10
+  agent:
+    proposal: "8345"
 annotations: []
