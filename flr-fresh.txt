@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 27 Feb 2020
+Date of this ruleset: 12 Mar 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 129
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2608
-Highest ID'd Proposal Passed: 8340
+Highest ID'd Proposal Passed: 8347
 Highest ID'd Rule Enacted: 2608
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -187,8 +187,8 @@ Power Distribution:
 26 with Power=2
 2  with Power=2.1
 1  with Power=2.5
-49 with Power=3
-1  with Power=3.1
+48 with Power=3
+2  with Power=3.1
 1  with Power=3.14
 1  with Power=3.2
 3  with Power=4
@@ -251,7 +251,7 @@ CFJ 1911-1914 (called 18 Mar 2008): Physical realities supersede the
    Rules by default.
 
 ------------------------------------------------------------------------
-Rule 1698/5 (Power=4)
+Rule 1698/6 (Power=4)
 Agora Is A Nomic
 
       Agora is ossified if it is IMPOSSIBLE for any reasonable
@@ -262,7 +262,7 @@ Agora Is A Nomic
       If, but for this rule, the net effect of a proposal would cause
       Agora to become ossified, or would cause Agora to cease to exist,
       it cannot take effect, rules to the contrary notwithstanding. If
-      any other single change or inseperable group of changes to the
+      any other single change or inseparable group of changes to the
       gamestate would cause Agora to become ossified, or would cause
       Agora to cease to exist, it is cancelled and does not occur, rules
       to the contrary notwithstanding.
@@ -278,6 +278,7 @@ Amended(4) by P7628 'Secure Ending the Game' (ais523), 07 Apr 2014
 Amended(5) by P7889 'Agora Protection Act' (Aris), 26 Sep 2017
 Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aris), 26 Sep
    2017
+Amended(6) by cleaning (Murphy), 03 Mar 2020
 
 Annotations:
 
@@ -2028,7 +2029,7 @@ Rules & Regulations
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/12 (Power=3)
+Rule 2141/12 (Power=3.1)
 Role and Attributes of Rules
 
       A rule is a type of instrument with the capacity to govern the
@@ -2069,6 +2070,8 @@ Amended(9) by P7759 'minor Powers v0.2' (G.), 19 Jul 2015
 Amended(10) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(11) by P8251 'Ruleset definition' (G.), 13 Oct 2019
 Amended(12) by cleaning (Murphy), 03 Nov 2019
+Power changed from 3 to 3.1 by P8347 'R2141 power increase v2' (Jason),
+   10 Mar 2020
 
 Annotations:
 CFJ 1498 (called 12 Apr 2004): A rule's title is not strictly a name for
@@ -4193,7 +4196,7 @@ Amended(1) by cleaning (Alexis), 23 Jan 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2555/5 (Power=2)
+Rule 2555/6 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -4206,6 +4209,9 @@ Blots
       
       Levying fines and destroying blots are each secured with a Power
       Threshold of 1.7.
+      
+      A person CAN, by announcement, create a specified number of blots
+      in eir possession.
       
       The Referee is an office, and the recordkeepor for blots.
       
@@ -4227,6 +4233,7 @@ Amended(2) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(3) by P8217 'penance as a service' (G.), 05 Sep 2019
 Amended(4) by P8235 'Unified fine creation syntax' (Jason), 18 Sep 2019
 Amended(5) by cleaning (Alexis), 23 Jan 2020
+Amended(6) by P8345 'Self-punishment' (Jason), 10 Mar 2020
 
 Annotations:
 
@@ -6012,7 +6019,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/15 (Power=3)
+Rule 2438/16 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6088,8 +6095,9 @@ Ribbons
       on eir own behalf to award a White Ribbon to another person by
       announcement.
       
-      Black (K): This rule does not specify any methods of obtaining
-      Black Ribbons.
+      Black (K): An Instrument CAN, as part of its effect, cause a
+      person to earn a Black Ribbon. When this occurs, this Rule awards
+      that person a Black Ribbon.
       
       Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
       unless e has done so earlier in the month. E is ENCOURAGED to
@@ -6133,6 +6141,8 @@ Amended(13) by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan
    2020
 Amended(14) by P8323 'Secure Ribbons' (Jason), 24 Feb 2020
 Amended(15) by P8330 'No looting white ribbons' (G.), 24 Feb 2020
+Amended(16) by P8346 'De-secure Black Ribbons v2' (Jason, ais523), 10
+   Mar 2020
 
 Annotations:
 

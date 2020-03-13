@@ -3,7 +3,7 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 27 Feb 2020
+Date of this ruleset: 12 Mar 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 129
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2608
-Highest ID'd Proposal Passed: 8340
+Highest ID'd Proposal Passed: 8347
 Highest ID'd Rule Enacted: 2608
 
 ========================================================================
@@ -31,7 +31,7 @@ The Game of Agora
       Please treat Agora Right Good Forever.
       
 ------------------------------------------------------------------------
-Rule 1698/5 (Power=4)
+Rule 1698/6 (Power=4)
 Agora Is A Nomic
 
       Agora is ossified if it is IMPOSSIBLE for any reasonable
@@ -42,7 +42,7 @@ Agora Is A Nomic
       If, but for this rule, the net effect of a proposal would cause
       Agora to become ossified, or would cause Agora to cease to exist,
       it cannot take effect, rules to the contrary notwithstanding. If
-      any other single change or inseperable group of changes to the
+      any other single change or inseparable group of changes to the
       gamestate would cause Agora to become ossified, or would cause
       Agora to cease to exist, it is cancelled and does not occur, rules
       to the contrary notwithstanding.
@@ -817,7 +817,7 @@ Rules & Regulations
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/12 (Power=3)
+Rule 2141/12 (Power=3.1)
 Role and Attributes of Rules
 
       A rule is a type of instrument with the capacity to govern the
@@ -1780,7 +1780,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
       
 ------------------------------------------------------------------------
-Rule 2555/5 (Power=2)
+Rule 2555/6 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1793,6 +1793,9 @@ Blots
       
       Levying fines and destroying blots are each secured with a Power
       Threshold of 1.7.
+      
+      A person CAN, by announcement, create a specified number of blots
+      in eir possession.
       
       The Referee is an office, and the recordkeepor for blots.
       
@@ -2811,7 +2814,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/15 (Power=3)
+Rule 2438/16 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -2887,8 +2890,9 @@ Ribbons
       on eir own behalf to award a White Ribbon to another person by
       announcement.
       
-      Black (K): This rule does not specify any methods of obtaining
-      Black Ribbons.
+      Black (K): An Instrument CAN, as part of its effect, cause a
+      person to earn a Black Ribbon. When this occurs, this Rule awards
+      that person a Black Ribbon.
       
       Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
       unless e has done so earlier in the month. E is ENCOURAGED to
