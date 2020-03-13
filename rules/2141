@@ -1,6 +1,6 @@
 id: 2141
 name: Role and Attributes of Rules
-power: 3
+power: 3.1
 text: |
   A rule is a type of instrument with the capacity to govern the
   game generally, and is always taking effect. A rule's content
@@ -88,6 +88,13 @@ history:
   agent:
     cleaning:
       by: Murphy
+- change:
+    type: power-change
+    old-power: 3
+    new-power: 3.1
+  date: 2020-03-10
+  agent:
+    proposal: "8347"
 annotations:
 - cfjs:
   - id: '1498'
