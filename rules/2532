@@ -19,6 +19,7 @@ text: |
     - bid in a zombie auction;
     - enter a contract, pledge, or other type of agreement;
     - initiate a Call for Judgement;
+    - create blots;
     - deregister.
 
   A zombie's master CAN flip that zombie's master switch to Agora by
@@ -72,4 +73,9 @@ history:
   agent:
     cleaning:
       by: Alexis
+- change:
+    type: amendment
+  date: 2020-04-04
+  agent:
+    proposal: "8358"
 annotations: []
