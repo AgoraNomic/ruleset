@@ -12,6 +12,7 @@
     for the current gamestate.
   rules:
   - 2601 # Blink
+  - 2609 # Temporary CFJ Setup
 - name: Players
   note: |
     This small section provides some rules detailing how joining and
