@@ -20,9 +20,9 @@ text: |
 
   If a person (the penitent) has neither gained blots nor had more
   than 2 blots expunged from emself in the current Agoran week, then
-  any player (the confessor) who has not expunged any blots in the
-  current Agoran week CAN expunge 1 blot from the penitent, by
-  announcement.
+  any player (the confessor) who has not, by this mechanism,
+  expunged any blots in the current Agoran week CAN expunge 1 blot
+  from the penitent, by announcement.
 
   At the beginning of each quarter, half (rounded down) of each
   fugitive's blots are destroyed.
@@ -64,4 +64,9 @@ history:
   date: 2020-03-10
   agent:
     proposal: "8345"
+- change:
+    type: amendment
+  date: 2020-03-21
+  agent:
+    proposal: "8350"
 annotations: []
