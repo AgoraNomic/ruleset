@@ -2,17 +2,17 @@ id: 105
 name: Rule Changes
 power: 3
 text: |
-  Where permitted by other rules, an instrument generally can, as
+  Where permitted by other rules, an statue generally can, as
   part of its effect,
 
   1. enact a rule. The new rule has power equal to the minimum of
-     the power specified by the enacting instrument, defaulting to
-     one if the enacting instrument does not specify or if it
+     the power specified by the enacting statute, defaulting to
+     one if the enacting statute does not specify or if it
      specifies a power less than 0.1, and the maximum power
-     permitted by other rules. The enacting instrument may specify a
+     permitted by other rules. The enacting statute may specify a
      title for the new rule, which if present shall prevail. The ID
      number of the new rule cannot be specified by the enacting
-     instrument; any attempt to so specify is null and void.
+     statute; any attempt to so specify is null and void.
 
   2. repeal a rule. When a rule is repealed, it ceases to be a rule,
      its power is set to 0, and the Rulekeepor need no longer
@@ -25,10 +25,10 @@ text: |
      repealed. If the reenacting proposal provides new text for the
      rule, the rule SHOULD have materially the same purpose as did
      the repealed version. Unless specified otherwise by the
-     reenacting instrument, a reenacted rule has power equal to
+     reenacting statute, a reenacted rule has power equal to
      the power it had at the time of its repeal (or power 1, if
      power was not defined at the time of that rule's repeal). If
-     the reenacting instrument is incapable of setting the
+     the reenacting statute is incapable of setting the
      reenacted rule's power to that value, then the reenactment is
      null and void.
 
@@ -190,6 +190,11 @@ history:
   agent:
     cleaning:
       by: Jason
+- change:
+    type: amendment
+  date: 2020-03-21
+  agent:
+    proposal: "8354"
 annotations:
 - cfjs:
   - id: '1499'

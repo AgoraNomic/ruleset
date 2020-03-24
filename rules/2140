@@ -7,13 +7,17 @@ text: |
 
   1. cause an entity to have power greater than its own.
 
-  2. adjust the power of an instrument with power greater than its
+  2. adjust the power of an statute with power greater than its
      own.
 
   3. set or modify any other substantive aspect of an instrument
-     with power greater than its own. A "substantive" aspect of an
-     instrument is any aspect that affects the instrument's
-     operation.
+     with power greater than its own except as otherwise provided
+     in this rule. A "substantive" aspect of an statute is any
+     aspect that affects the statute's operation.
+
+  An ephemeral instrument is bound by prohibitions and limitations
+  specified in rules of lower power, unless it explicitly overrides
+  those prohibition(s) as provided for in other rules.
 history:
 - change:
     type: enactment
@@ -41,6 +45,11 @@ history:
   date: 2019-07-09
   agent:
     proposal: "8184"
+- change:
+    type: amendment
+  date: 2020-03-21
+  agent:
+    proposal: "8354"
 annotations:
 - cfjs:
   - id: '2981'
