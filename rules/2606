@@ -6,8 +6,8 @@ text: |
   untracked Class switch with possible values ordinary (the default)
   and democratic.
 
-  When a proposal with an adoption index greater than 2.0 is
-  created, its class becomes democratic.
+  When a proposal with an adoption index greater than or equal to
+  3.0 is created, its class becomes democratic.
 
   Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
   class to democratic, provided that it is in the Proposal Pool or
@@ -24,4 +24,9 @@ history:
   date: 2020-02-13
   agent:
     proposal: "8319"
+- change:
+    type: amendment
+  date: 2020-03-21
+  agent:
+    proposal: "8356"
 annotations: []
