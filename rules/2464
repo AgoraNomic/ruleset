@@ -14,7 +14,8 @@ text: |
   those who freely consent to play the tournament and over the
   tournament itself. Once the tournament is concluded, these
   regulations cease to have any effect, and CAN be repealed by any
-  player by announcement.
+  player by announcement. A Tournament's regulations collectively
+  have Mint Authority.
 history:
 - change:
     type: enactment
@@ -41,4 +42,9 @@ history:
   date: 2018-07-26
   agent:
     proposal: "8076"
+- change:
+    type: amendment
+  date: 2020-04-04
+  agent:
+    proposal: "8364"
 annotations: []

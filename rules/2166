@@ -10,8 +10,8 @@ text: |
   transferred.
 
   The rules collectively have Mint Authority. Contracts have Mint
-  Authority. A rule defined asset is public; one defined by a
-  contract is private.
+  Authority. An asset defined by rule or regulation is public; one
+  defined by a contract is private.
 
   The recordkeepor of a class of assets is the entity (if any)
   defined as such by, and bound by, its backing document. That
@@ -180,6 +180,11 @@ history:
   date: 2018-11-19
   agent:
     proposal: "8129"
+- change:
+    type: amendment
+  date: 2020-04-04
+  agent:
+    proposal: "8364"
 annotations:
 - cfjs:
   - id: '3597'

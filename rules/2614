@@ -19,6 +19,7 @@ text: |
   its original length.
     - Create, destroy, or transfer assets, or require or forbid their
   creation, destruction, or transfer.
+    - Collectively, exercise Mint Authority
     - Cause one or more players to win Agora.
     - Appoint or remove officeholders.
     - Modify the Festivity.
@@ -54,4 +55,9 @@ history:
   date: 2020-04-04
   agent:
     proposal: "8362"
+- change:
+    type: amendment
+  date: 2020-04-04
+  agent:
+    proposal: "8364"
 annotations: []
