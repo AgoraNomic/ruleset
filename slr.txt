@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 12 Mar 2020
+Date of this ruleset: 23 Mar 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 129
+Number of rules currently enacted: 133
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2608
-Highest ID'd Proposal Passed: 8347
-Highest ID'd Rule Enacted: 2608
+Highest ID'd rule in this ruleset: 2613
+Highest ID'd Proposal Passed: 8356
+Highest ID'd Rule Enacted: 2613
 
 ========================================================================
 The Game of Agora
@@ -61,6 +61,15 @@ Blink
       least one week since this rule was last amended, then any player
       CAN Close the Eye by announcement. When that happens, this rule
       repeals itself.
+      
+------------------------------------------------------------------------
+Rule 2609/0 (Power=1.0)
+Temporary CFJ Setup
+
+      Rules to the contrary notwithstanding, twg CANNOT publish a Notice
+      of Honour.
+      
+      twg CAN, by announcement, cause this Rule to repeal itself.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -265,19 +274,21 @@ Agoran Numbers
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
-Rule 2125/10 (Power=3)
+Rule 2125/11 (Power=3)
 Regulated Actions
 
-      An action is regulated if: (1) the Rules limit, allow, enable, or
-      permit its performance; (2) describe the circumstances under which
-      the action would succeed or fail; or (3) the action would, as part
-      of its effect, modify information for which some player is
-      required to be a recordkeepor.
+      An action is regulated by a body of law if (1) its performance is
+      limited, allowed, enabled, or permitted by that body of law; (2) that
+      body of law describes the circumstances under which it would succeed
+      or fail; or (3) it would, as part of its effect, modify information
+      for which some person bound by that body of law is required, by that
+      body of law, to be a recordkeepor.
       
-      A Regulated Action CAN only be performed as described by the
-      Rules, and only using the methods explicitly specified in the
-      Rules for performing the given action. The Rules SHALL NOT be
-      interpreted so as to proscribe unregulated actions.
+      If a body of law regulates an action, then to the extent that doing so
+      is within its scope, that body of law prevents the action from being
+      performed except as described within it, including by limiting the
+      methods to perform that action to those specified within it. A body of
+      law does not proscribed any action which it does not regulate.
       
 ------------------------------------------------------------------------
 Rule 1023/40 (Power=2)
@@ -579,11 +590,11 @@ Switches
       requirement without flipping the switch.
       
 ------------------------------------------------------------------------
-Rule 1688/9 (Power=3)
+Rule 1688/10 (Power=3)
 Power
 
       The Power of an entity is a non-negative rational number. An
-      Instrument is an entity with positive Power.
+      statute is a document with positive Power.
       
       The Power of an entity cannot be set or modified except as
       stipulated by the Rules. All entities have Power zero except where
@@ -592,13 +603,13 @@ Power
       A Rule that makes a change, action, or value secured (hereafter
       the securing Rule) thereby makes it IMPOSSIBLE to perform that
       change or action, or to set or modify that value, except as
-      allowed by an Instrument with Power greater than or equal to the
+      allowed by an State with Power greater than or equal to the
       change's Power Threshold.  This Threshold defaults to the securing
       Rule's Power, but CAN be lowered as allowed by that Rule
       (including by the Rule itself).
       
 ------------------------------------------------------------------------
-Rule 2140/3 (Power=3)
+Rule 2140/4 (Power=3)
 Power Controls Mutability
 
       Rules to the contrary notwithstanding, no entity with power below
@@ -606,13 +617,126 @@ Power Controls Mutability
       
       1. cause an entity to have power greater than its own.
       
-      2. adjust the power of an instrument with power greater than its
+      2. adjust the power of an statute with power greater than its
          own.
       
       3. set or modify any other substantive aspect of an instrument
-         with power greater than its own. A "substantive" aspect of an
-         instrument is any aspect that affects the instrument's
-         operation.
+         with power greater than its own except as otherwise provided
+         in this rule. A "substantive" aspect of an statute is any
+         aspect that affects the statute's operation.
+      
+      An ephemeral instrument is bound by prohibitions and limitations
+      specified in rules of lower power, unless it explicitly overrides
+      those prohibition(s) as provided for in other rules.
+      
+------------------------------------------------------------------------
+Rule 2612/0 (Power=3.0)
+Bodies of Law
+
+      A body of law is a collection of related instruments and bodies of law
+      whose effects are collective and possibly interdependent, and which is
+      defined as such by a body of law. The statutes of Agora form a body of
+      law with unlimited scope. All other bodies of law are defined by a
+      different body of law, in such a way as to be able to trace their
+      origins back to the statutes of Agora. Two or more bodies of law may
+      jointly define another body of law, but only each of them clearly
+      expresses the intent to participate in a joint definition with each of
+      the others. Otherwise, the definitions are separate, distinct, and
+      unrelated.
+      
+      A body of law is governed by all bodies of law which, directly or
+      indirectly, participate in its definition, as well as any body of law
+      specified as governing it by any of its governing law. A body of law
+      is subordinate to the law that governs it, other than itself, and a
+      body of law is
+      superior to the law that it governs, other than itself. For greater
+      certainty, rules to
+      the contrary notwithstanding, the statutes of Agora govern all law and
+      are governed by no law except themselves, and no body of law can be
+      both subordinate to and superior to another.
+      
+      With respect to interactions between separate bodies of law, a body of
+      law is generally to be interpreted as acting harmoniously as a single
+      whole. The precedence between, and organization of, instruments in a
+      body of law are internal matters to that body of law and generally do
+      not affect the effect of other bodies of law, except to the extent
+      that they affect the body's operation as a whole.
+      
+      The definition of a body of law includes the definition if its scope,
+      being the areas of the game that it governs. By definition, the scope
+      of a body of law is no greater than the union of the scopes of the
+      bodies of law that define it, nor does it include anything which would
+      bring it into direct conflict with superior law. To the extent that a
+      body of law's scope is not explicitly defined by superior law, it is
+      as broad as possible while excluding any effect on any substantive
+      aspect of any body of law, besides itself, that it does not govern.
+      
+      Every instrument is a direct member of exactly one body of law; if not
+      specified in its definition, it is a body of law in itself. A given
+      fixation of text may, however, be the text of multiple instruments,
+      each in different bodies of law. The scope of an instrument is the
+      scope of the body of law it forms a part of. To the extent that the
+      provisions of an instrument are outside its scope, they are void and
+      without effect.
+      
+------------------------------------------------------------------------
+Rule 2611/0 (Power=3.0)
+Instruments
+
+      An instrument is a type of document, either ephemeral or enduring,
+      that is defined as such by a body of law. An instrument's text, where
+      otherwise permitted, can be amended from time to time.
+      
+      Rules to the contrary notwithstanding, an instrument other than a
+      statute CANNOT become binding on a person without eir willful consent,
+      however, consent can be given by implication. In particular,
+      consenting to be bound to an instrument can imply consent to be bound
+      by amendments to it and consent to be bound by other instruments.
+      
+------------------------------------------------------------------------
+Rule 2613/0 (Power=3.0)
+Effects of Instruments
+
+      An instrument's effect is defined by its text, as amended from time to
+      time in accordance with the law governing its operation. A
+      "substantive" aspect of an instrument is any aspect that affects the
+      instrument's operation. If an instrument's text contains clearly
+      marked comments then, they have no effect on its interpretation or
+      operation except as that instrument itself specifies, although they
+      remain part of its text. For the purposes of rules concerning the
+      methods by which actions are performed, an instrument taking effect is
+      such a method.
+      
+      An enduring instrument is one that it is always taking effect, to the
+      extent it is permitted to so by the Rules and any other applicable
+      instruments. An enduring instrument is always speaking; uses of the
+      present tense in an enduring instrument are interpreted contextually
+      according to the applicable rules of interpretation.
+      
+      An ephemeral instrument is one that takes effect only briefly, to
+      effect a number of changes on the game. When it takes effect, the
+      changes specified in its text are applied, provided that the
+      instrument is not prohibited from doing so. Unless otherwise specified
+      by the instrument or by its governing law, the provisions of an
+      instrument are applied sequentially and independently, in the sense
+      that the success or failure of each provision does not depend directly
+      on the success or failure of any other provision.
+      
+      An ephemeral instrument has no ongoing effect, except to the extent
+      that the changes it makes have ongoing consequences. It cannot, except
+      by way of an enduring instrument, extend or delay its own effect. An
+      ephemeral instrument CAN, where explicitly permitted to do so by the
+      law governing it, override the effect of an enduring instrument within
+      its scope by modifying, suppressing, or postponing it. Such an
+      override is INEFFECTIVE unless the nature and scope of the override
+      are clearly specified either in the governing law or, where so
+      authorized by the governing law, in the instrument itself.
+      
+      An instrument or body of law is not, except where it specifies
+      otherwise, bound by or restricted in any way by any subordinate law
+      and implicitly overrides and takes precedence over all provisions,
+      including outright prohibitions or definitions, of all subordinate
+      law.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -674,15 +798,15 @@ Ministries
       set to that ministry.
       
 ------------------------------------------------------------------------
-Rule 2606/1 (Power=2.0)
+Rule 2606/2 (Power=2.0)
 Proposal Classes
 
       Proposals created since the enactment of this rule have a secured
       untracked Class switch with possible values ordinary (the default)
       and democratic.
       
-      When a proposal with an adoption index greater than 2.0 is
-      created, its class becomes democratic.
+      When a proposal with an adoption index greater than or equal to
+      3.0 is created, its class becomes democratic.
       
       Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
       class to democratic, provided that it is in the Proposal Pool or
@@ -750,34 +874,18 @@ The Assessor
       collecting votes and keeping track of related properties.
       
 ------------------------------------------------------------------------
-Rule 106/40 (Power=3)
+Rule 106/42 (Power=3)
 Adopting Proposals
 
-      When a decision about whether to adopt a proposal is resolved, if
-      the outcome is ADOPTED, then the proposal in question is adopted,
-      and unless other rules prevent it from taking effect, its power is
-      set to the minimum of four and its adoption index, and then it
-      takes effect. Except as prohibited by other rules, a proposal that
-      takes effect CAN and does, as part of its effect, apply the
-      changes that it specifies. Clearly marked comments are considered
-      to be removed from the proposal before it takes effect, unless
-      otherwise stated by the proposal. If the proposal cannot make some
-      such changes, this does not preclude the other changes from taking
-      place.
+      When a decision about whether to adopt a proposal is resolved, if the
+      outcome is ADOPTED, then the proposal in question is adopted, its
+      power is set to the minimum of four and its adoption index, it takes
+      effect as an ephemeral instrument, and then its power is set to 0.
+      This rule defers to rules that would prevent a proposal from taking
+      effect.
       
-      If there is no Agoran Decision to adopt a particular proposal that
-      has an outcome of ADOPTED, that proposal CANNOT take effect, rules
-      to the contrary notwithstanding.
-      
-      Preventing a proposal from taking effect is a secured change; this
-      does not apply to generally preventing changes to specified areas
-      of the gamestate, nor to a proposal preventing itself from taking
-      effect (its no- effect clause is generally interpreted as applying
-      only to the rest of the proposal). Except insofar as the actions
-      performed by a proposal happen one after another, rather than
-      simultaneously, a proposal's effect is instantaneous. A proposal
-      can neither delay nor extend its own effect. Once a propsal
-      finishes taking effect, its power is set to 0.
+      A proposal CAN override the effect of any rule which it is capable
+      of amending by specifying that it does so.
       
 ------------------------------------------------------------------------
 Rule 2597/0 (Power=1)
@@ -817,16 +925,14 @@ Rules & Regulations
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/12 (Power=3.1)
+Rule 2141/13 (Power=3.1)
 Role and Attributes of Rules
 
-      A rule is a type of instrument with the capacity to govern the
-      game generally, and is always taking effect. A rule's content
-      takes the form of a text, and is unlimited in scope. The ruleset
-      is the set of all currently-existing rules.
-      
-      Every rule has power between 0.1 and 4.0 inclusive. It is not
-      possible for a rule to have a power outside this range.
+      A rule is an enduring statute. Every rule has a power between 0.1 and
+      4.0, inclusive. Rules to the contrary notwithstanding, it is
+      IMPOSSIBLE to enact a rule with power outside this range, or to change
+      the power of an existing rule to a nonzero value outside this range.
+      The set of all currently-existing rules is called the ruleset.
       
       Rules have ID numbers, to be assigned by the Rulekeepor.
       
@@ -919,20 +1025,20 @@ No Cretans Need Apply
       otherwise, the later clause takes precedence.
       
 ------------------------------------------------------------------------
-Rule 105/20 (Power=3)
+Rule 105/21 (Power=3)
 Rule Changes
 
-      Where permitted by other rules, an instrument generally can, as
+      Where permitted by other rules, an statue generally can, as
       part of its effect,
       
       1. enact a rule. The new rule has power equal to the minimum of
-         the power specified by the enacting instrument, defaulting to
-         one if the enacting instrument does not specify or if it
+         the power specified by the enacting statute, defaulting to
+         one if the enacting statute does not specify or if it
          specifies a power less than 0.1, and the maximum power
-         permitted by other rules. The enacting instrument may specify a
+         permitted by other rules. The enacting statute may specify a
          title for the new rule, which if present shall prevail. The ID
          number of the new rule cannot be specified by the enacting
-         instrument; any attempt to so specify is null and void.
+         statute; any attempt to so specify is null and void.
       
       2. repeal a rule. When a rule is repealed, it ceases to be a rule,
          its power is set to 0, and the Rulekeepor need no longer
@@ -945,10 +1051,10 @@ Rule Changes
          repealed. If the reenacting proposal provides new text for the
          rule, the rule SHOULD have materially the same purpose as did
          the repealed version. Unless specified otherwise by the
-         reenacting instrument, a reenacted rule has power equal to
+         reenacting statute, a reenacted rule has power equal to
          the power it had at the time of its repeal (or power 1, if
          power was not defined at the time of that rule's repeal). If
-         the reenacting instrument is incapable of setting the
+         the reenacting statute is incapable of setting the
          reenacted rule's power to that value, then the reenactment is
          null and void.
       
@@ -1419,7 +1525,7 @@ Decisions with Adoption Indices
       is AI-majority.
       
 ------------------------------------------------------------------------
-Rule 2034/11 (Power=3)
+Rule 2034/12 (Power=3)
 Vote Protection and Cutoff for Challenges
 
       A public message purporting to resolve an Agoran decision
@@ -1432,7 +1538,8 @@ Vote Protection and Cutoff for Challenges
       3. it was resolved as indicated, and
       
       4. (if the indicated outcome was to adopt a proposal) such a
-         proposal existed, was adopted, and took effect.
+         proposal existed, was adopted, and, if it had not
+         previoiusly taken effect, took effect.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -1780,7 +1887,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
       
 ------------------------------------------------------------------------
-Rule 2555/6 (Power=2)
+Rule 2555/7 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1801,9 +1908,9 @@ Blots
       
       If a person (the penitent) has neither gained blots nor had more
       than 2 blots expunged from emself in the current Agoran week, then
-      any player (the confessor) who has not expunged any blots in the
-      current Agoran week CAN expunge 1 blot from the penitent, by
-      announcement.
+      any player (the confessor) who has not, by this mechanism,
+      expunged any blots in the current Agoran week CAN expunge 1 blot
+      from the penitent, by announcement.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -2566,7 +2673,7 @@ Bidding
       em to pay that amount at the conclusion of the Auction.
       
 ------------------------------------------------------------------------
-Rule 2551/3 (Power=1)
+Rule 2551/4 (Power=1)
 Auction End
 
       An Auction ends 7 days after its initiation, or immediately if no
@@ -2601,7 +2708,7 @@ Auction End
       number of the Auction's currency equal to eir bid) to the
       Auctioneer in order to satisfy eir auction debt. When e does so,
       if the auctioneer CAN transfer the items in that lot to that
-      winner at will, e immediately does so; otherwise, e SHALL do so in
+      winner, e immediately does so; otherwise, e SHALL do so in
       a timely fashion.
       
 ------------------------------------------------------------------------
@@ -2698,7 +2805,7 @@ Zombie Life Cycle
       weekly report.
       
 ------------------------------------------------------------------------
-Rule 1885/9 (Power=2)
+Rule 1885/10 (Power=2)
 Zombie Auctions
 
       Whenever a zombie (1) has Agora for a master, (2) is not a lot in
@@ -2717,9 +2824,12 @@ Zombie Auctions
       announcer, and the minimum bid is 1.  Rules  to the contrary
       notwithstanding, the master of a zombie CANNOT bid in a zombie
       auction. If a player becomes a zombie's master, all eir bids in
-      zombie auctions that have not ended are withdrawn. For the purpose
-      of such a auction, to transfer a zombie to a player is to set that
-      zombie's master switch to that player.
+      zombie auctions that have not ended are withdrawn.
+      
+      For the purpose of such a auction, to transfer a zombie to a
+      player is to set that zombie's master switch to that player, and
+      Agora CAN perform such transfers of the appropriate lots to
+      auction winners.
       
       Rules to the contrary notwithstanding, if a player's master switch
       is flipped while a zombie auction in which e is a lot is ongoing,
@@ -2814,7 +2924,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/16 (Power=3)
+Rule 2438/17 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -2909,10 +3019,11 @@ Ribbons
         - If e has not owned that type of Ribbon within the preceding 7 days,
           any player CAN, by announcement, award em that type of Ribbon.
       
-        - Otherwise, if e has not been awarded that type of Ribbon or the
-          corresponding type of Glitter since e last earned or came to qualify
-          for that type of Ribbon, e CAN, by announcement, award emself that
-          type of Glitter.
+        - Otherwise, if e has not been awarded that type of Ribbon or
+          the corresponding type of Glitter since e last earned or came
+          to qualify for that type of Ribbon, and has not been so
+          awarded five or more times within the past 24 hours, e CAN, by
+          announcement, award emself that type of Glitter.
       
 ------------------------------------------------------------------------
 Rule 2602/2 (Power=1)
