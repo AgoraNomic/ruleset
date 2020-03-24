@@ -8,6 +8,9 @@ text: |
   effect as an ephemeral instrument, and then its power is set to 0.
   This rule defers to rules that would prevent a proposal from taking
   effect.
+
+  A proposal CAN override the effect of any rule which it is capable
+  of amending by specifying that it does so.
 history:
 - change:
     type: initial
@@ -244,6 +247,11 @@ history:
   date: 2020-03-21
   agent:
     proposal: "8354"
+- change:
+    type: amendment
+  date: 2020-03-21
+  agent:
+    proposal: "8355"
 annotations:
 - cfjs:
   - id: '1639'
