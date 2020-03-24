@@ -1,0 +1,15 @@
+id: 2615
+name: A Coin Award
+power: 1.0
+text: |
+  When this rule is enacted, a player other than the
+  author of the proposal which enacted this rule earns 1
+  coin. Then, if a player earned a coin this way, this
+  rule repeals itself.
+history:
+- change:
+    type: enactment
+  date: 2020-04-04
+  agent:
+    proposal: "8363"
+annotations: []
