@@ -34,7 +34,7 @@ text: |
   number of the Auction's currency equal to eir bid) to the
   Auctioneer in order to satisfy eir auction debt. When e does so,
   if the auctioneer CAN transfer the items in that lot to that
-  winner at will, e immediately does so; otherwise, e SHALL do so in
+  winner, e immediately does so; otherwise, e SHALL do so in
   a timely fashion.
 history:
 - change:
@@ -58,6 +58,11 @@ history:
   date: 2019-07-23
   agent:
     proposal: "8192"
+- change:
+    type: amendment
+  date: 2020-03-21
+  agent:
+    proposal: "8352"
 annotations:
 - cfjs:
   - id: '3615'

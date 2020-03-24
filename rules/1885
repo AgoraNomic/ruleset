@@ -18,9 +18,12 @@ text: |
   announcer, and the minimum bid is 1.  Rules  to the contrary
   notwithstanding, the master of a zombie CANNOT bid in a zombie
   auction. If a player becomes a zombie's master, all eir bids in
-  zombie auctions that have not ended are withdrawn. For the purpose
-  of such a auction, to transfer a zombie to a player is to set that
-  zombie's master switch to that player.
+  zombie auctions that have not ended are withdrawn.
+
+  For the purpose of such a auction, to transfer a zombie to a
+  player is to set that zombie's master switch to that player, and
+  Agora CAN perform such transfers of the appropriate lots to
+  auction winners.
 
   Rules to the contrary notwithstanding, if a player's master switch
   is flipped while a zombie auction in which e is a lot is ongoing,
@@ -92,4 +95,9 @@ history:
   date: 2018-11-19
   agent:
     proposal: "8131"
+- change:
+    type: amendment
+  date: 2020-03-21
+  agent:
+    proposal: "8352"
 annotations: []
