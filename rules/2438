@@ -93,6 +93,11 @@ history:
   date: 2020-03-10
   agent:
     proposal: "8346"
+- change:
+    type: amendment
+  date: 2020-03-21
+  agent:
+    proposal: "8353"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -186,10 +191,11 @@ text: |
     - If e has not owned that type of Ribbon within the preceding 7 days,
       any player CAN, by announcement, award em that type of Ribbon.
 
-    - Otherwise, if e has not been awarded that type of Ribbon or the
-      corresponding type of Glitter since e last earned or came to qualify
-      for that type of Ribbon, e CAN, by announcement, award emself that
-      type of Glitter.
+    - Otherwise, if e has not been awarded that type of Ribbon or
+      the corresponding type of Glitter since e last earned or came
+      to qualify for that type of Ribbon, and has not been so
+      awarded five or more times within the past 24 hours, e CAN, by
+      announcement, award emself that type of Glitter.
 
 id: 2438
 power: 3
