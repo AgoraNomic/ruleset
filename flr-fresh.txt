@@ -3,17 +3,17 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 23 Mar 2020
+Date of this ruleset: 8 Apr 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 133
+Number of rules currently enacted: 135
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2613
-Highest ID'd Proposal Passed: 8356
-Highest ID'd Rule Enacted: 2613
+Highest ID'd rule in this ruleset: 2615
+Highest ID'd Proposal Passed: 8365
+Highest ID'd Rule Enacted: 2615
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -75,6 +75,7 @@ Rules & Regulations
    * Rule 2221: Cleanliness
    * Rule 2429: Bleach
    * Rule 2599: The Editor
+   * Rule 2614: Eclipse Light
 Voting
    * Rule  693: Agoran Decisions
    * Rule  107: Initiating Agoran Decisions
@@ -136,6 +137,7 @@ Economics
    * Rule 2559: Paydays
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
+   * Rule 2615: A Coin Award
 Auctions
    * Rule 2545: Auctions
    * Rule 2549: Auction Initiation
@@ -185,13 +187,14 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-37 with Power=1
+38 with Power=1
 2  with Power=1.5
 6  with Power=1.7
 26 with Power=2
 2  with Power=2.1
 1  with Power=2.5
 51 with Power=3
+1  with Power=3.01
 2  with Power=3.1
 1  with Power=3.14
 1  with Power=3.2
@@ -2823,6 +2826,57 @@ Enacted by P8239 'The Editor (v2.0.1)' (Jason, G., Aris, Trigon), 18 Sep
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2614/3 (Power=3.01)
+Eclipse Light
+
+      An emergency message is one whose subject line contains the text
+      "[Emergency]".
+      
+      The Prime Minister CAN, in an emergency message and with 3 Agoran
+      consent, enact, amend, or repeal Emergency Regulations, provided that
+      the intent to do so was also contained in an emergency message.
+      
+      Emergency Regulations CAN:
+        - Extend any deadline provided for by any instrument other than this
+      rule, including a deadline for an obligation to be met, or deadline
+      prior to which an action must be performed in order to be valid, such
+      as the end of voting period. Such an extension CANNOT cause the total
+      time period, such as the time from when an obligation was created to
+      the deadline or the whole of a voting period, to be more than double
+      its original length.
+        - Create, destroy, or transfer assets, or require or forbid their
+      creation, destruction, or transfer.
+        - Collectively, exercise Mint Authority
+        - Cause one or more players to win Agora.
+        - Appoint or remove officeholders.
+        - Modify the Festivity.
+        - Award Patent Titles not mentioned in any Rule and Badges.
+        - Modify the Publicity of Fora.
+      
+      The Prime Minister CAN, in an emergency message and with 4 Agoran
+      Consent, provided that the intent to do so was also contained in an
+      emergency message, Extend the Emergency.
+      
+      If there is an Emergency Regulation that has existed for at least a month
+      and the Prime Minister has not Extended the Emergency in the past month, any
+      player CAN, by announcement, cause this rule to repeal all Emergency
+      Regulations.
+      
+      If the Prime Minister has not sent a message to a public forum in the
+      preceding four days, the Speaker CAN exercise eir powers under this
+      rule as if e were the Prime Minister, and notwithstanding any rule
+      that would prohibit a single player from holding both offices.
+      
+History:
+
+Enacted by P8360 'Social Distancing' (Alexis), 04 Apr 2020
+Amended(1) by P8361 'Fix Emergencies' (Aris, Alexis), 04 Apr 2020
+Amended(2) by P8362 'Recurring Emergencies' (Aris), 04 Apr 2020
+Amended(3) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
+
+Annotations:
+
+------------------------------------------------------------------------
 ========================================================================
 Voting
    Voting is used primarily for Proposals and Elections. This section
@@ -5291,7 +5345,7 @@ Assets
    Assets are things players can own. This section describes how that
    works.
 ------------------------------------------------------------------------
-Rule 2166/28 (Power=3)
+Rule 2166/29 (Power=3)
 Assets
 
       An asset is an entity defined as such by a document that has been
@@ -5302,8 +5356,8 @@ Assets
       transferred.
       
       The rules collectively have Mint Authority. Contracts have Mint
-      Authority. A rule defined asset is public; one defined by a
-      contract is private.
+      Authority. An asset defined by rule or regulation is public; one
+      defined by a contract is private.
       
       The recordkeepor of a class of assets is the entity (if any)
       defined as such by, and bound by, its backing document. That
@@ -5360,6 +5414,7 @@ Amended(26) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
 Amended(27) by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(28) by P8129 'Bugfix: Treasuror doesn't self-ratify v2' (twg,
    Trigon, G.), 19 Nov 2018
+Amended(29) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
 
 Annotations:
 CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
@@ -5710,6 +5765,21 @@ Amended(3) by P8314 'Finite Gifting' (Aris), 13 Feb 2020
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2615/0 (Power=1.0)
+A Coin Award
+
+      When this rule is enacted, a player other than the
+      author of the proposal which enacted this rule earns 1
+      coin. Then, if a player earned a coin this way, this
+      rule repeals itself.
+      
+History:
+
+Enacted by P8363 'Somebody gets a coin' (Warrigal), 04 Apr 2020
+
+Annotations:
+
+------------------------------------------------------------------------
 ========================================================================
 Auctions
    If you want to give out assets, this is the section to look at.
@@ -5913,7 +5983,7 @@ Annotations:
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/6 (Power=2)
+Rule 2532/7 (Power=2)
 Zombies
 
       Master is a secured player switch, tracked by the Registrar, with
@@ -5933,6 +6003,7 @@ Zombies
         - bid in a zombie auction;
         - enter a contract, pledge, or other type of agreement;
         - initiate a Call for Judgement;
+        - create blots;
         - deregister.
       
       A zombie's master CAN flip that zombie's master switch to Agora by
@@ -5957,6 +6028,8 @@ Amended(3) by cleaning (Falsifian), 28 Apr 2019
 Amended(4) by P8246 'Tracking of Master' (Jason), 05 Sep 2019
 Amended(5) by P8242 'Let the dead rest' (Falsifian), 05 Sep 2019
 Amended(6) by cleaning (Alexis), 07 Feb 2020
+Amended(7) by P8358 'No zombie blot creation v2' (Jason, Alexis), 04
+   Apr 2020
 
 Annotations:
 
@@ -6933,23 +7006,19 @@ Agoran Culture
    Nothing in here is all that important. Mostly describes holidays and
    tournaments, and joke rules.
 ------------------------------------------------------------------------
-Rule 2327/2 (Power=1)
+Rule 2327/3 (Power=1)
 Read the Ruleset Week
 
       The first Agoran week each year which falls entirely in February
       is Read the Ruleset Week. Agorans are encouraged to read the
       ruleset during Read the Ruleset Week.
       
-      The above notwithstanding, due to serious uncertainty surrounding
-      the state of the rules during the scheduled Read the Ruleset Week,
-      in the year 2020, Read the Ruleset Week is, instead, the week of
-      February 24 - March 1
-      
 History:
 
 Enacted by P6973 'I miss RtRW' (Murphy), 30 Mar 2011
 Amended(1) by P6995 'Ugliest rule text ever' (omd, harvel), 10 Apr 2011
 Amended(2) by P8329 'RtRW Reschedule' (Alexis), 24 Feb 2020
+Amended(3) by P8357 'Homework extension fail' (G.), 04 Apr 2020
 
 Annotations:
 
@@ -7024,7 +7093,7 @@ Amended(21) by R2430, 24 May 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2464/4 (Power=1)
+Rule 2464/5 (Power=1)
 Tournaments
 
       A Tournament is a sub-game of Agora specifically sanctioned to be
@@ -7039,7 +7108,8 @@ Tournaments
       those who freely consent to play the tournament and over the
       tournament itself. Once the tournament is concluded, these
       regulations cease to have any effect, and CAN be repealed by any
-      player by announcement.
+      player by announcement. A Tournament's regulations collectively
+      have Mint Authority.
       
 History:
 
@@ -7049,6 +7119,7 @@ Amended(1) by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun
 Amended(2) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(3) by P8032 'Free Tournaments' (G.), 06 Apr 2018
 Amended(4) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
+Amended(5) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
 
 Annotations:
 
