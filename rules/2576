@@ -10,8 +10,9 @@ text: |
   modification by its backing document. By default, ownership of an
   asset is restricted to Agora, players, and contracts.
 
-  If an asset would otherwise lack an owner, it is owned by the Lost
-  and Found Department. Rules to the contrary notwithstanding, the
+  If an asset would otherwise lack an owner, or if its ownership
+  would otherwise be indeterminate, it is owned by the Lost and
+  Found Department.. Rules to the contrary notwithstanding, the
   Lost and Found Department can own assets of every type. Assets
   owned by the Lost and Found Department can be transferred or
   destroyed by any player without objection.
@@ -22,3 +23,9 @@ history:
   date: 2018-07-01
   agent:
     proposal: "8055"
+- change:
+    type: amendment
+  date: 2020-04-17
+  agent:
+    proposal: "8366"
+
