@@ -15,8 +15,9 @@ text: |
   deregistration for that Player in subsequent Registrar Reports.
 
   The Player is deregistered as of the posting of the Writ, and the
-  notation in the Registrar's Report will ensure that, henceforth,
-  all may know said Player deregistered in a Writ of FAGE.
+  notation in the Registrar's monthly report will ensure that,
+  henceforth, all may know said Player deregistered in a Writ of
+  FAGE.
 history:
 - change:
     type: enactment
@@ -82,6 +83,11 @@ history:
   date: 2018-01-13
   agent:
     proposal: "7989"
+- change:
+    type: amendment
+  date: 2020-04-17
+  agent:
+    proposal: "8367"
 annotations:
 - cfjs:
   - id: '1594'
