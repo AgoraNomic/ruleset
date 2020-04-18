@@ -3,16 +3,16 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 12 Apr 2020
+Date of this ruleset: 18 Apr 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 135
+Number of rules currently enacted: 134
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2615
-Highest ID'd Proposal Passed: 8365
+Highest ID'd rule in this ruleset: 2614
+Highest ID'd Proposal Passed: 8367
 Highest ID'd Rule Enacted: 2615
 
 ========================================================================
@@ -177,7 +177,7 @@ The Registrar
         Rule 1789.
       
 ------------------------------------------------------------------------
-Rule 1789/9 (Power=3)
+Rule 1789/10 (Power=3)
 Cantus Cygneus
 
       Whenever a Player feels that e has been treated so egregiously by
@@ -193,8 +193,9 @@ Cantus Cygneus
       deregistration for that Player in subsequent Registrar Reports.
       
       The Player is deregistered as of the posting of the Writ, and the
-      notation in the Registrar's Report will ensure that, henceforth,
-      all may know said Player deregistered in a Writ of FAGE.
+      notation in the Registrar's monthly report will ensure that,
+      henceforth, all may know said Player deregistered in a Writ of
+      FAGE.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2450,7 +2451,7 @@ Assets
       entity to be its recordkeepor.
       
 ------------------------------------------------------------------------
-Rule 2576/0 (Power=3)
+Rule 2576/1 (Power=3)
 Ownership
 
       Each asset has exactly one owner. If an asset's backing document
@@ -2461,8 +2462,9 @@ Ownership
       modification by its backing document. By default, ownership of an
       asset is restricted to Agora, players, and contracts.
       
-      If an asset would otherwise lack an owner, it is owned by the Lost
-      and Found Department. Rules to the contrary notwithstanding, the
+      If an asset would otherwise lack an owner, or if its ownership
+      would otherwise be indeterminate, it is owned by the Lost and
+      Found Department.. Rules to the contrary notwithstanding, the
       Lost and Found Department can own assets of every type. Assets
       owned by the Lost and Found Department can be transferred or
       destroyed by any player without objection.
@@ -2647,15 +2649,6 @@ Birthday Gifts
       coins by announcement.
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
-      
-------------------------------------------------------------------------
-Rule 2615/0 (Power=1.0)
-A Coin Award
-
-      When this rule is enacted, a player other than the
-      author of the proposal which enacted this rule earns 1
-      coin. Then, if a player earned a coin this way, this
-      rule repeals itself.
       
 ------------------------------------------------------------------------
 ========================================================================

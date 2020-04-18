@@ -3,16 +3,16 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 12 Apr 2020
+Date of this ruleset: 18 Apr 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 135
+Number of rules currently enacted: 134
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2615
-Highest ID'd Proposal Passed: 8365
+Highest ID'd rule in this ruleset: 2614
+Highest ID'd Proposal Passed: 8367
 Highest ID'd Rule Enacted: 2615
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -137,7 +137,6 @@ Economics
    * Rule 2559: Paydays
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
-   * Rule 2615: A Coin Award
 Auctions
    * Rule 2545: Auctions
    * Rule 2549: Auction Initiation
@@ -187,7 +186,7 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-38 with Power=1
+37 with Power=1
 2  with Power=1.5
 6  with Power=1.7
 26 with Power=2
@@ -767,7 +766,7 @@ CFJ 1420 (called 17 Dec 2002): The list of watchers, customarily
    track or publish it.
 
 ------------------------------------------------------------------------
-Rule 1789/9 (Power=3)
+Rule 1789/10 (Power=3)
 Cantus Cygneus
 
       Whenever a Player feels that e has been treated so egregiously by
@@ -783,8 +782,9 @@ Cantus Cygneus
       deregistration for that Player in subsequent Registrar Reports.
       
       The Player is deregistered as of the posting of the Writ, and the
-      notation in the Registrar's Report will ensure that, henceforth,
-      all may know said Player deregistered in a Writ of FAGE.
+      notation in the Registrar's monthly report will ensure that,
+      henceforth, all may know said Player deregistered in a Writ of
+      FAGE.
       
 History:
 
@@ -805,6 +805,7 @@ Amended(8) by P7470 'Finish d-ASAP'ing' [disi.] (woggle), 17 Jun 2013
 Amended(9) by P7646 'Latin fix' (omd), 03 Jun 2014
 Power changed from 2 to 3 by P7989 'Don't FAGE the FAGE' (Telnaior), 13
    Jan 2018
+Amended(10) by P8367 'Slow burn' (Murphy, Falsifian), 17 Apr 2020
 
 Annotations:
 CFJ 1594 (called 16 Dec 2006): Players can be deregistered due to this
@@ -5435,7 +5436,7 @@ CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
    not fulfill the requirement.
 
 ------------------------------------------------------------------------
-Rule 2576/0 (Power=3)
+Rule 2576/1 (Power=3)
 Ownership
 
       Each asset has exactly one owner. If an asset's backing document
@@ -5446,8 +5447,9 @@ Ownership
       modification by its backing document. By default, ownership of an
       asset is restricted to Agora, players, and contracts.
       
-      If an asset would otherwise lack an owner, it is owned by the Lost
-      and Found Department. Rules to the contrary notwithstanding, the
+      If an asset would otherwise lack an owner, or if its ownership
+      would otherwise be indeterminate, it is owned by the Lost and
+      Found Department.. Rules to the contrary notwithstanding, the
       Lost and Found Department can own assets of every type. Assets
       owned by the Lost and Found Department can be transferred or
       destroyed by any player without objection.
@@ -5455,6 +5457,7 @@ Ownership
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(1) by P8366 'Asset Determinacy' (Aris, twg), 17 Apr 2020
 
 Annotations:
 
@@ -5774,21 +5777,6 @@ Amended(1) by P8145 'No Rebirth' (Gaelan), 15 Jan 2019
 Amended(2) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
 Amended(3) by P8314 'Finite Gifting' (Aris), 13 Feb 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2615/0 (Power=1.0)
-A Coin Award
-
-      When this rule is enacted, a player other than the
-      author of the proposal which enacted this rule earns 1
-      coin. Then, if a player earned a coin this way, this
-      rule repeals itself.
-      
-History:
-
-Enacted by P8363 'Somebody gets a coin' (Warrigal), 04 Apr 2020
 
 Annotations:
 
