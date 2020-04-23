@@ -4,14 +4,15 @@ power: 1.7
 text: |
   A player CAN by announcement, but subject to the provisions of
   this rule, Point eir Finger at a person (the perp) who plays the
-  game, citing an alleged violation of the rules by that person.
+  game; the announcement has to explicitly name the perp and cite a
+  specific rule and an alleged violation of that rule by that person.
 
   When a player Points a Finger, the investigator SHALL investigate
   the allegation and CAN, and in a timely fashion SHALL, conclude
   the investigation by:
 
-  - Imposing the Cold Hand of Justice on the perp, as described
-    elsewhere; or
+  - Imposing the Cold Hand of Justice on the perp for the cited rule
+    violation, as described elsewhere; or
 
   - if e believes that no rules violation occurred or that it would
     be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the
@@ -82,4 +83,9 @@ history:
   date: 2019-10-04
   agent:
     proposal: "8250"
+- change:
+    type: amendment
+  date: 2020-04-21
+  agent:
+    proposal: "8368"
 annotations: []
