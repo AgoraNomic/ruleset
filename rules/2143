@@ -36,9 +36,9 @@ text: |
   on the World Wide Web, and they SHOULD publish the address of this
   copy along with their published reports.
 
-  If an office has a discretionary power, and a player publicly
-  petitions the officer to apply that power in a specific case or
-  manner, the officer SHALL publicly respond in a timely fashion.
+  A player CAN, by announcement, petition a specified officer to take
+  a specified action; the officer SHALL publicly respond to the
+  petition in a timely fashion.
 history:
 - change:
     type: enactment
@@ -213,6 +213,11 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8302"
+- change:
+    type: amendment
+  date: 2020-04-21
+  agent:
+    proposal: "8370"
 annotations:
 - cfjs:
   - id: '2392'
