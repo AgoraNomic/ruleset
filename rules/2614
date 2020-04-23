@@ -34,8 +34,8 @@ text: |
 
   If there is an Emergency Regulation that has existed for at least
   a month and the Prime Minister has not Extended the Emergency in
-  the past month, any player CAN, by announcement, cause this rule
-  to repeal all Emergency Regulations.
+  the past month, any player CAN, with 7 days notice, cause this
+  rule to repeal all Emergency Regulations.
 
   If the Prime Minister has not sent a message to a public forum in
   the preceding four days, the Speaker CAN exercise eir powers under
@@ -63,4 +63,9 @@ history:
   date: 2020-04-04
   agent:
     proposal: "8364"
+- change:
+    type: amendment
+  date: 2020-04-21
+  agent:
+    proposal: "8369"
 annotations: []
