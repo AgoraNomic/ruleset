@@ -3,16 +3,16 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 18 Apr 2020
+Date of this ruleset: 23 Apr 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 134
+Number of rules currently enacted: 133
 
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2614
-Highest ID'd Proposal Passed: 8367
+Highest ID'd Proposal Passed: 8370
 Highest ID'd Rule Enacted: 2615
 
 ========================================================================
@@ -53,15 +53,6 @@ Important Temporary Rules
    This category is a temporary dumping ground for rules that don't
    easily fit in any other category but that hold special relevance
    for the current gamestate.
-------------------------------------------------------------------------
-Rule 2601/1 (Power=1)
-Blink
-
-      If this is the only paragraph in this rule, and it has been at
-      least one week since this rule was last amended, then any player
-      CAN Close the Eye by announcement. When that happens, this rule
-      repeals itself.
-      
 ------------------------------------------------------------------------
 Rule 2609/0 (Power=1.0)
 Temporary CFJ Setup
@@ -620,12 +611,11 @@ Power Controls Mutability
       
       1. cause an entity to have power greater than its own.
       
-      2. adjust the power of an statute with power greater than its
-         own.
+      2. adjust the power of a statute with power greater than its own.
       
       3. set or modify any other substantive aspect of an instrument
          with power greater than its own except as otherwise provided
-         in this rule. A "substantive" aspect of an statute is any
+         in this rule. A "substantive" aspect of a statute is any
          aspect that affects the statute's operation.
       
       An ephemeral instrument is bound by prohibitions and limitations
@@ -1037,7 +1027,7 @@ No Cretans Need Apply
 Rule 105/21 (Power=3)
 Rule Changes
 
-      Where permitted by other rules, an statue generally can, as
+      Where permitted by other rules, a statute generally can, as
       part of its effect,
       
       1. enact a rule. The new rule has power equal to the minimum of
@@ -1231,7 +1221,7 @@ The Editor
       Editorial Guideline is the Class 1 Crime of Editorial Hypocrisy.
       
 ------------------------------------------------------------------------
-Rule 2614/3 (Power=3.01)
+Rule 2614/4 (Power=3.01)
 Eclipse Light
 
       An emergency message is one whose subject line contains the text
@@ -1266,8 +1256,8 @@ Eclipse Light
       
       If there is an Emergency Regulation that has existed for at least
       a month and the Prime Minister has not Extended the Emergency in
-      the past month, any player CAN, by announcement, cause this rule
-      to repeal all Emergency Regulations.
+      the past month, any player CAN, with 7 days notice, cause this
+      rule to repeal all Emergency Regulations.
       
       If the Prime Minister has not sent a message to a public forum in
       the preceding four days, the Speaker CAN exercise eir powers under
@@ -1771,7 +1761,7 @@ Office Incompatibilities
       Overpowered player holds becomes vacant.
       
 ------------------------------------------------------------------------
-Rule 2143/31 (Power=1)
+Rule 2143/32 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -1808,9 +1798,9 @@ Official Reports and Duties
       on the World Wide Web, and they SHOULD publish the address of this
       copy along with their published reports.
       
-      If an office has a discretionary power, and a player publicly
-      petitions the officer to apply that power in a specific case or
-      manner, the officer SHALL publicly respond in a timely fashion.
+      A player CAN, by announcement, petition a specified officer to take
+      a specified action; the officer SHALL publicly respond to the
+      petition in a timely fashion.
       
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
@@ -1971,19 +1961,20 @@ Blots
       fugitive's blots are destroyed.
       
 ------------------------------------------------------------------------
-Rule 2478/10 (Power=1.7)
+Rule 2478/11 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
       this rule, Point eir Finger at a person (the perp) who plays the
-      game, citing an alleged violation of the rules by that person.
+      game; the announcement has to explicitly name the perp and cite a
+      specific rule and an alleged violation of that rule by that person.
       
       When a player Points a Finger, the investigator SHALL investigate
       the allegation and CAN, and in a timely fashion SHALL, conclude
       the investigation by:
       
-      - Imposing the Cold Hand of Justice on the perp, as described
-        elsewhere; or
+      - Imposing the Cold Hand of Justice on the perp for the cited rule
+        violation, as described elsewhere; or
       
       - if e believes that no rules violation occurred or that it would
         be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the

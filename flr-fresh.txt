@@ -3,16 +3,16 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 18 Apr 2020
+Date of this ruleset: 23 Apr 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 134
+Number of rules currently enacted: 133
 
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2614
-Highest ID'd Proposal Passed: 8367
+Highest ID'd Proposal Passed: 8370
 Highest ID'd Rule Enacted: 2615
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -28,7 +28,6 @@ The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
-   * Rule 2601: Blink
    * Rule 2609: Temporary CFJ Setup
 Players
    * Rule  869: How to Join and Leave Agora
@@ -186,7 +185,7 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-37 with Power=1
+36 with Power=1.0
 2  with Power=1.5
 6  with Power=1.7
 26 with Power=2
@@ -294,22 +293,6 @@ Important Temporary Rules
    This category is a temporary dumping ground for rules that don't
    easily fit in any other category but that hold special relevance
    for the current gamestate.
-------------------------------------------------------------------------
-Rule 2601/1 (Power=1)
-Blink
-
-      If this is the only paragraph in this rule, and it has been at
-      least one week since this rule was last amended, then any player
-      CAN Close the Eye by announcement. When that happens, this rule
-      repeals itself.
-      
-History:
-
-Enacted by P8262 'trick candles' (G.), 03 Nov 2019
-Amended(1) by P8327 'Blink test v1.2' (Falsifian), 24 Feb 2020
-
-Annotations:
-
 ------------------------------------------------------------------------
 Rule 2609/0 (Power=1.0)
 Temporary CFJ Setup
@@ -1591,12 +1574,11 @@ Power Controls Mutability
       
       1. cause an entity to have power greater than its own.
       
-      2. adjust the power of an statute with power greater than its
-         own.
+      2. adjust the power of a statute with power greater than its own.
       
       3. set or modify any other substantive aspect of an instrument
          with power greater than its own except as otherwise provided
-         in this rule. A "substantive" aspect of an statute is any
+         in this rule. A "substantive" aspect of a statute is any
          aspect that affects the statute's operation.
       
       An ephemeral instrument is bound by prohibitions and limitations
@@ -2450,7 +2432,7 @@ Annotations:
 Rule 105/21 (Power=3)
 Rule Changes
 
-      Where permitted by other rules, an statue generally can, as
+      Where permitted by other rules, a statute generally can, as
       part of its effect,
       
       1. enact a rule. The new rule has power equal to the minimum of
@@ -2578,6 +2560,8 @@ CFJ 1643 (called 29 Apr 2007): Where a proposal specifies a single rule
    other is possible, the possible part is applied alone.
 CFJ 2201 (called 30 Sep 2008): The permission required by Rule 105 need
    not be explicit.
+CFJ 3830 (called 12 Apr 2020): Text in a rule cannot cause a rule-change
+   after it has been deleted by an amendment.
 
 ------------------------------------------------------------------------
 Rule 2493/8 (Power=3)
@@ -2835,7 +2819,7 @@ Enacted by P8239 'The Editor (v2.0.1)' (Jason, G., Aris, Trigon), 18 Sep
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2614/3 (Power=3.01)
+Rule 2614/4 (Power=3.01)
 Eclipse Light
 
       An emergency message is one whose subject line contains the text
@@ -2870,8 +2854,8 @@ Eclipse Light
       
       If there is an Emergency Regulation that has existed for at least
       a month and the Prime Minister has not Extended the Emergency in
-      the past month, any player CAN, by announcement, cause this rule
-      to repeal all Emergency Regulations.
+      the past month, any player CAN, with 7 days notice, cause this
+      rule to repeal all Emergency Regulations.
       
       If the Prime Minister has not sent a message to a public forum in
       the preceding four days, the Speaker CAN exercise eir powers under
@@ -2885,6 +2869,7 @@ Enacted by P8360 'Social Distancing' (Alexis), 04 Apr 2020
 Amended(1) by P8361 'Fix Emergencies' (Aris, Alexis), 04 Apr 2020
 Amended(2) by P8362 'Recurring Emergencies' (Aris), 04 Apr 2020
 Amended(3) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
+Amended(4) by P8369 'Emergency Termination Notice' (Aris), 21 Apr 2020
 
 Annotations:
 
@@ -4072,7 +4057,7 @@ Amended(3) by P8206 'Rule 2472 Simplification' (Jason), 23 Jul 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2143/31 (Power=1)
+Rule 2143/32 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -4109,9 +4094,9 @@ Official Reports and Duties
       on the World Wide Web, and they SHOULD publish the address of this
       copy along with their published reports.
       
-      If an office has a discretionary power, and a player publicly
-      petitions the officer to apply that power in a specific case or
-      manner, the officer SHALL publicly respond in a timely fashion.
+      A player CAN, by announcement, petition a specified officer to take
+      a specified action; the officer SHALL publicly respond to the
+      petition in a timely fashion.
       
 History:
 
@@ -4158,6 +4143,7 @@ Amended(28) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
 Amended(29) by P8249 'No Harm No Foul' (Jacob Arduino, twg), 18 Sep 2019
 Amended(30) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
 Amended(31) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
+Amended(32) by P8370 'Announced Petitions' (Aris), 21 Apr 2020
 
 Annotations:
 CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
@@ -4461,19 +4447,20 @@ Amended(7) by P8350 'Apologies Don't Interfere' (Alexis), 21 Mar 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/10 (Power=1.7)
+Rule 2478/11 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
       this rule, Point eir Finger at a person (the perp) who plays the
-      game, citing an alleged violation of the rules by that person.
+      game; the announcement has to explicitly name the perp and cite a
+      specific rule and an alleged violation of that rule by that person.
       
       When a player Points a Finger, the investigator SHALL investigate
       the allegation and CAN, and in a timely fashion SHALL, conclude
       the investigation by:
       
-      - Imposing the Cold Hand of Justice on the perp, as described
-        elsewhere; or
+      - Imposing the Cold Hand of Justice on the perp for the cited rule
+        violation, as described elsewhere; or
       
       - if e believes that no rules violation occurred or that it would
         be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the
@@ -4508,6 +4495,7 @@ Amended(8) by P8090 'Shenanigans For INEFFECTIVE Fines (v2)' (D.
 Amended(9) by P8181 'Referee CAN Impose Fines (v1.1)' (D. Margaux,
    Falsifian, twg), 22 Jun 2019
 Amended(10) by P8250 'Finger bending' (Murphy, twg), 04 Oct 2019
+Amended(11) by P8368 'Explicit Accusations' (G.), 21 Apr 2020
 
 Annotations:
 

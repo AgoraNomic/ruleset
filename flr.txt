@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 23 Mar 2020
+Date of this ruleset: 23 Apr 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -11,14 +11,9 @@ Number of rules currently enacted: 133
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2613
-Highest ID'd Proposal Passed: 8356
-Highest ID'd Rule Enacted: 2613
-
-THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
-BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
-RECENTLY PUBLISHED FULL LOGICAL RULESET, FOLLOW THIS LINK:
-https://agoranomic.org/ruleset/flr.txt
+Highest ID'd rule in this ruleset: 2614
+Highest ID'd Proposal Passed: 8370
+Highest ID'd Rule Enacted: 2615
 
 ------------------------------------------------------------------------
 
@@ -28,7 +23,6 @@ The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
-   * Rule 2601: Blink
    * Rule 2609: Temporary CFJ Setup
 Players
    * Rule  869: How to Join and Leave Agora
@@ -75,6 +69,7 @@ Rules & Regulations
    * Rule 2221: Cleanliness
    * Rule 2429: Bleach
    * Rule 2599: The Editor
+   * Rule 2614: Eclipse Light
 Voting
    * Rule  693: Agoran Decisions
    * Rule  107: Initiating Agoran Decisions
@@ -185,13 +180,14 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-37 with Power=1
+36 with Power=1.0
 2  with Power=1.5
 6  with Power=1.7
 26 with Power=2
 2  with Power=2.1
 1  with Power=2.5
 51 with Power=3
+1  with Power=3.01
 2  with Power=3.1
 1  with Power=3.14
 1  with Power=3.2
@@ -292,22 +288,6 @@ Important Temporary Rules
    This category is a temporary dumping ground for rules that don't
    easily fit in any other category but that hold special relevance
    for the current gamestate.
-------------------------------------------------------------------------
-Rule 2601/1 (Power=1)
-Blink
-
-      If this is the only paragraph in this rule, and it has been at
-      least one week since this rule was last amended, then any player
-      CAN Close the Eye by announcement. When that happens, this rule
-      repeals itself.
-      
-History:
-
-Enacted by P8262 'trick candles' (G.), 03 Nov 2019
-Amended(1) by P8327 'Blink test v1.2' (Falsifian), 24 Feb 2020
-
-Annotations:
-
 ------------------------------------------------------------------------
 Rule 2609/0 (Power=1.0)
 Temporary CFJ Setup
@@ -471,10 +451,10 @@ Fora
       to do that thing within a public message.
       
       Where the rules define an action that a person CAN perform "by
-      announcement", that person performs that action by unambiguously and
-      clearly specifying the action and announcing that e performs it.
-      Any action performed by sending a message is performed at the time
-      date-stamped on that message. Actions in messages (including
+      announcement", that person performs that action by unambiguously
+      and clearly specifying the action and announcing that e performs
+      it. Any action performed by sending a message is performed at the
+      time date-stamped on that message. Actions in messages (including
       sub-messages) are performed in the order they appear in the
       message, unless otherwise specified.
       
@@ -764,7 +744,7 @@ CFJ 1420 (called 17 Dec 2002): The list of watchers, customarily
    track or publish it.
 
 ------------------------------------------------------------------------
-Rule 1789/9 (Power=3)
+Rule 1789/10 (Power=3)
 Cantus Cygneus
 
       Whenever a Player feels that e has been treated so egregiously by
@@ -780,8 +760,9 @@ Cantus Cygneus
       deregistration for that Player in subsequent Registrar Reports.
       
       The Player is deregistered as of the posting of the Writ, and the
-      notation in the Registrar's Report will ensure that, henceforth,
-      all may know said Player deregistered in a Writ of FAGE.
+      notation in the Registrar's monthly report will ensure that,
+      henceforth, all may know said Player deregistered in a Writ of
+      FAGE.
       
 History:
 
@@ -802,6 +783,7 @@ Amended(8) by P7470 'Finish d-ASAP'ing' [disi.] (woggle), 17 Jun 2013
 Amended(9) by P7646 'Latin fix' (omd), 03 Jun 2014
 Power changed from 2 to 3 by P7989 'Don't FAGE the FAGE' (Telnaior), 13
    Jan 2018
+Amended(10) by P8367 'Slow burn' (Murphy, Falsifian), 17 Apr 2020
 
 Annotations:
 CFJ 1594 (called 16 Dec 2006): Players can be deregistered due to this
@@ -944,17 +926,18 @@ Rule 2125/11 (Power=3)
 Regulated Actions
 
       An action is regulated by a body of law if (1) its performance is
-      limited, allowed, enabled, or permitted by that body of law; (2) that
-      body of law describes the circumstances under which it would succeed
-      or fail; or (3) it would, as part of its effect, modify information
-      for which some person bound by that body of law is required, by that
-      body of law, to be a recordkeepor.
+      limited, allowed, enabled, or permitted by that body of law; (2)
+      that body of law describes the circumstances under which it would
+      succeed or fail; or (3) it would, as part of its effect, modify
+      information for which some person bound by that body of law is
+      required, by that body of law, to be a recordkeepor.
       
-      If a body of law regulates an action, then to the extent that doing so
-      is within its scope, that body of law prevents the action from being
-      performed except as described within it, including by limiting the
-      methods to perform that action to those specified within it. A body of
-      law does not proscribed any action which it does not regulate.
+      If a body of law regulates an action, then to the extent that
+      doing so is within its scope, that body of law prevents the action
+      from being performed except as described within it, including by
+      limiting the methods to perform that action to those specified
+      within it. A body of law does not proscribed any action which it
+      does not regulate.
       
 History:
 
@@ -1116,14 +1099,15 @@ Dependent Action Methods
       actions":
       
       1. without N objections, where N is a positive integer no greater
-      than 8 ("without objection" is shorthand for this method with N = 1);
+      than 8 ("without objection" is shorthand for this method with
+      N = 1);
       
-      2. with N support, where N is a positive integer ("with support" is
-      shorthand for this method with N = 1);
+      2. with N support, where N is a positive integer ("with support"
+      is shorthand for this method with N = 1);
       
-      3. with N Agoran consent, where N is an integer multiple of 0.1 with
-      a minimum of 1 ("With Agoran consent" is shorthand for this method
-      with N = 1);
+      3. with N Agoran consent, where N is an integer multiple of 0.1
+      with a minimum of 1 ("With Agoran consent" is shorthand for this
+      method with N = 1);
       
       4. with notice; or
       
@@ -1491,11 +1475,11 @@ Switches
       X.
       
       If a type of switch is not explicitly designated as
-      possibly-indeterminate by the rule that defines it, and if an action
-      or set of actions would cause the value of an instance of that type
-      of switch to become indeterminate, that instance instead takes on
-      its last determinate and possible value, if any, otherwise it takes
-      on its default value.
+      possibly-indeterminate by the rule that defines it, and if an
+      action or set of actions would cause the value of an instance of
+      that type of switch to become indeterminate, that instance instead
+      takes on its last determinate and possible value, if any,
+      otherwise it takes on its default value.
       
       A singleton switch is a switch for which Agora Nomic is the only
       entity possessing an instance of that switch.
@@ -1585,12 +1569,11 @@ Power Controls Mutability
       
       1. cause an entity to have power greater than its own.
       
-      2. adjust the power of an statute with power greater than its
-         own.
+      2. adjust the power of a statute with power greater than its own.
       
       3. set or modify any other substantive aspect of an instrument
          with power greater than its own except as otherwise provided
-         in this rule. A "substantive" aspect of an statute is any
+         in this rule. A "substantive" aspect of a statute is any
          aspect that affects the statute's operation.
       
       An ephemeral instrument is bound by prohibitions and limitations
@@ -1618,51 +1601,52 @@ CFJ 2945 (called 22 Dec 2010): An attribute of an entity is "changed"
 Rule 2612/0 (Power=3.0)
 Bodies of Law
 
-      A body of law is a collection of related instruments and bodies of law
-      whose effects are collective and possibly interdependent, and which is
-      defined as such by a body of law. The statutes of Agora form a body of
-      law with unlimited scope. All other bodies of law are defined by a
-      different body of law, in such a way as to be able to trace their
-      origins back to the statutes of Agora. Two or more bodies of law may
-      jointly define another body of law, but only each of them clearly
-      expresses the intent to participate in a joint definition with each of
-      the others. Otherwise, the definitions are separate, distinct, and
-      unrelated.
+      A body of law is a collection of related instruments and bodies of
+      law whose effects are collective and possibly interdependent, and
+      which is defined as such by a body of law. The statutes of Agora
+      form a body of law with unlimited scope. All other bodies of law
+      are defined by a different body of law, in such a way as to be
+      able to trace their origins back to the statutes of Agora. Two or
+      more bodies of law may jointly define another body of law, but
+      only each of them clearly expresses the intent to participate in a
+      joint definition with each of the others. Otherwise, the
+      definitions are separate, distinct, and unrelated.
       
       A body of law is governed by all bodies of law which, directly or
-      indirectly, participate in its definition, as well as any body of law
-      specified as governing it by any of its governing law. A body of law
-      is subordinate to the law that governs it, other than itself, and a
-      body of law is
-      superior to the law that it governs, other than itself. For greater
-      certainty, rules to
-      the contrary notwithstanding, the statutes of Agora govern all law and
-      are governed by no law except themselves, and no body of law can be
+      indirectly, participate in its definition, as well as any body of
+      law specified as governing it by any of its governing law. A body
+      of law is subordinate to the law that governs it, other than
+      itself, and a body of law is superior to the law that it governs,
+      other than itself. For greater certainty, rules to the contrary
+      notwithstanding, the statutes of Agora govern all law and are
+      governed by no law except themselves, and no body of law can be
       both subordinate to and superior to another.
       
-      With respect to interactions between separate bodies of law, a body of
-      law is generally to be interpreted as acting harmoniously as a single
-      whole. The precedence between, and organization of, instruments in a
-      body of law are internal matters to that body of law and generally do
-      not affect the effect of other bodies of law, except to the extent
-      that they affect the body's operation as a whole.
+      With respect to interactions between separate bodies of law, a
+      body of law is generally to be interpreted as acting harmoniously
+      as a single whole. The precedence between, and organization of,
+      instruments in a body of law are internal matters to that body of
+      law and generally do not affect the effect of other bodies of
+      law, except to the extent that they affect the body's operation
+      as a whole.
       
-      The definition of a body of law includes the definition if its scope,
-      being the areas of the game that it governs. By definition, the scope
-      of a body of law is no greater than the union of the scopes of the
-      bodies of law that define it, nor does it include anything which would
-      bring it into direct conflict with superior law. To the extent that a
-      body of law's scope is not explicitly defined by superior law, it is
-      as broad as possible while excluding any effect on any substantive
-      aspect of any body of law, besides itself, that it does not govern.
+      The definition of a body of law includes the definition if its
+      scope, being the areas of the game that it governs. By
+      definition, the scope of a body of law is no greater than the
+      union of the scopes of the bodies of law that define it, nor does
+      it include anything which would bring it into direct conflict
+      with superior law. To the extent that a body of law's scope is
+      not explicitly defined by superior law, it is as broad as
+      possible while excluding any effect on any substantive aspect of
+      any body of law, besides itself, that it does not govern.
       
-      Every instrument is a direct member of exactly one body of law; if not
-      specified in its definition, it is a body of law in itself. A given
-      fixation of text may, however, be the text of multiple instruments,
-      each in different bodies of law. The scope of an instrument is the
-      scope of the body of law it forms a part of. To the extent that the
-      provisions of an instrument are outside its scope, they are void and
-      without effect.
+      Every instrument is a direct member of exactly one body of law; if
+      not specified in its definition, it is a body of law in itself. A
+      given fixation of text may, however, be the text of multiple
+      instruments, each in different bodies of law. The scope of an
+      instrument is the scope of the body of law it forms a part of. To
+      the extent that the provisions of an instrument are outside its
+      scope, they are void and without effect.
       
 History:
 
@@ -1676,14 +1660,15 @@ Rule 2611/0 (Power=3.0)
 Instruments
 
       An instrument is a type of document, either ephemeral or enduring,
-      that is defined as such by a body of law. An instrument's text, where
-      otherwise permitted, can be amended from time to time.
+      that is defined as such by a body of law. An instrument's text,
+      where otherwise permitted, can be amended from time to time.
       
       Rules to the contrary notwithstanding, an instrument other than a
-      statute CANNOT become binding on a person without eir willful consent,
-      however, consent can be given by implication. In particular,
-      consenting to be bound to an instrument can imply consent to be bound
-      by amendments to it and consent to be bound by other instruments.
+      statute CANNOT become binding on a person without eir willful
+      consent, however, consent can be given by implication. In
+      particular, consenting to be bound to an instrument can imply
+      consent to be bound by amendments to it and consent to be bound by
+      other instruments.
       
 History:
 
@@ -1696,46 +1681,49 @@ Annotations:
 Rule 2613/0 (Power=3.0)
 Effects of Instruments
 
-      An instrument's effect is defined by its text, as amended from time to
-      time in accordance with the law governing its operation. A
-      "substantive" aspect of an instrument is any aspect that affects the
-      instrument's operation. If an instrument's text contains clearly
-      marked comments then, they have no effect on its interpretation or
-      operation except as that instrument itself specifies, although they
-      remain part of its text. For the purposes of rules concerning the
-      methods by which actions are performed, an instrument taking effect is
-      such a method.
+      An instrument's effect is defined by its text, as amended from
+      time to time in accordance with the law governing its operation. A
+      "substantive" aspect of an instrument is any aspect that affects
+      the instrument's operation. If an instrument's text contains
+      clearly marked comments then, they have no effect on its
+      interpretation or operation except as that instrument itself
+      specifies, although they remain part of its text. For the purposes
+      of rules concerning the methods by which actions are performed, an
+      instrument taking effect is such a method.
       
-      An enduring instrument is one that it is always taking effect, to the
-      extent it is permitted to so by the Rules and any other applicable
-      instruments. An enduring instrument is always speaking; uses of the
-      present tense in an enduring instrument are interpreted contextually
-      according to the applicable rules of interpretation.
+      An enduring instrument is one that it is always taking effect, to
+      the extent it is permitted to so by the Rules and any other
+      applicable instruments. An enduring instrument is always speaking;
+      uses of the present tense in an enduring instrument are
+      interpreted contextually according to the applicable rules of
+      interpretation.
       
       An ephemeral instrument is one that takes effect only briefly, to
       effect a number of changes on the game. When it takes effect, the
       changes specified in its text are applied, provided that the
-      instrument is not prohibited from doing so. Unless otherwise specified
-      by the instrument or by its governing law, the provisions of an
-      instrument are applied sequentially and independently, in the sense
-      that the success or failure of each provision does not depend directly
-      on the success or failure of any other provision.
+      instrument is not prohibited from doing so. Unless otherwise
+      specified by the instrument or by its governing law, the
+      provisions of an instrument are applied sequentially and
+      independently, in the sense that the success or failure of each
+      provision does not depend directly on the success or failure of
+      any other provision.
       
-      An ephemeral instrument has no ongoing effect, except to the extent
-      that the changes it makes have ongoing consequences. It cannot, except
-      by way of an enduring instrument, extend or delay its own effect. An
-      ephemeral instrument CAN, where explicitly permitted to do so by the
-      law governing it, override the effect of an enduring instrument within
-      its scope by modifying, suppressing, or postponing it. Such an
-      override is INEFFECTIVE unless the nature and scope of the override
-      are clearly specified either in the governing law or, where so
-      authorized by the governing law, in the instrument itself.
+      An ephemeral instrument has no ongoing effect, except to the
+      extent that the changes it makes have ongoing consequences. It
+      cannot, except by way of an enduring instrument, extend or delay
+      its own effect. An ephemeral instrument CAN, where explicitly
+      permitted to do so by the law governing it, override the effect of
+      an enduring instrument within its scope by modifying, suppressing,
+      or postponing it. Such an override is INEFFECTIVE unless the
+      nature and scope of the override are clearly specified either in
+      the governing law or, where so authorized by the governing law, in
+      the instrument itself.
       
       An instrument or body of law is not, except where it specifies
-      otherwise, bound by or restricted in any way by any subordinate law
-      and implicitly overrides and takes precedence over all provisions,
-      including outright prohibitions or definitions, of all subordinate
-      law.
+      otherwise, bound by or restricted in any way by any subordinate
+      law and implicitly overrides and takes precedence over all
+      provisions, including outright prohibitions or definitions, of all
+      subordinate law.
       
 History:
 
@@ -2044,12 +2032,12 @@ CFJ 1758-1759 (called 30 Sep 2007): If Assessorship changes hands, vote
 Rule 106/42 (Power=3)
 Adopting Proposals
 
-      When a decision about whether to adopt a proposal is resolved, if the
-      outcome is ADOPTED, then the proposal in question is adopted, its
-      power is set to the minimum of four and its adoption index, it takes
-      effect as an ephemeral instrument, and then its power is set to 0.
-      This rule defers to rules that would prevent a proposal from taking
-      effect.
+      When a decision about whether to adopt a proposal is resolved, if
+      the outcome is ADOPTED, then the proposal in question is adopted,
+      its power is set to the minimum of four and its adoption index, it
+      takes effect as an ephemeral instrument, and then its power is set
+      to 0. This rule defers to rules that would prevent a proposal from
+      taking effect.
       
       A proposal CAN override the effect of any rule which it is capable
       of amending by specifying that it does so.
@@ -2182,11 +2170,12 @@ Rules & Regulations
 Rule 2141/13 (Power=3.1)
 Role and Attributes of Rules
 
-      A rule is an enduring statute. Every rule has a power between 0.1 and
-      4.0, inclusive. Rules to the contrary notwithstanding, it is
-      IMPOSSIBLE to enact a rule with power outside this range, or to change
-      the power of an existing rule to a nonzero value outside this range.
-      The set of all currently-existing rules is called the ruleset.
+      A rule is an enduring statute. Every rule has a power between 0.1
+      and 4.0, inclusive. Rules to the contrary notwithstanding, it is
+      IMPOSSIBLE to enact a rule with power outside this range, or to
+      change the power of an existing rule to a nonzero value outside
+      this range. The set of all currently-existing rules is called the
+      ruleset.
       
       Rules have ID numbers, to be assigned by the Rulekeepor.
       
@@ -2438,7 +2427,7 @@ Annotations:
 Rule 105/21 (Power=3)
 Rule Changes
 
-      Where permitted by other rules, an statue generally can, as
+      Where permitted by other rules, a statute generally can, as
       part of its effect,
       
       1. enact a rule. The new rule has power equal to the minimum of
@@ -2566,6 +2555,8 @@ CFJ 1643 (called 29 Apr 2007): Where a proposal specifies a single rule
    other is possible, the possible part is applied alone.
 CFJ 2201 (called 30 Sep 2008): The permission required by Rule 105 need
    not be explicit.
+CFJ 3830 (called 12 Apr 2020): Text in a rule cannot cause a rule-change
+   after it has been deleted by an amendment.
 
 ------------------------------------------------------------------------
 Rule 2493/8 (Power=3)
@@ -2701,8 +2692,8 @@ The Logical Rulesets
       feels may be helpful in the use of the ruleset in the FLR.
       
       Whenever a rule is changed in any way, the Rulekeepor SHALL record
-      and thereafter maintain a reasonably accurate historical annotation
-      to the rule indicating:
+      and thereafter maintain a reasonably accurate historical
+      annotation to the rule indicating:
       
       1. The type of change.
       
@@ -2795,10 +2786,10 @@ The Editor
 
       The Editor is the same person, if any, as the Rulekeepor.
       
-      The Editor CAN, with Agoran consent, enact regulations, collectively
-      called "Editorial Guidelines". The Editor CAN, with Agoran consent,
-      repeal and amend Editorial Guidelines. The Editor is the Promulgator
-      for all Editorial Guidelines.
+      The Editor CAN, with Agoran consent, enact regulations,
+      collectively called "Editorial Guidelines". The Editor CAN, with
+      Agoran consent, repeal and amend Editorial Guidelines. The Editor
+      is the Promulgator for all Editorial Guidelines.
       
       Editorial Guidelines SHOULD pertain only to matters that affect
       non-substantive aspects of the Rules, e.g. capitalization or
@@ -2808,9 +2799,9 @@ The Editor
       the Editorial Guidelines SHOULD NOT affect the interpretation of
       that entity.
       
-      When writing proposals and enacting or amending regulations, players
-      SHOULD follow all reasonable directives that are set out in the
-      Editorial Guidelines.
+      When writing proposals and enacting or amending regulations,
+      players SHOULD follow all reasonable directives that are set out
+      in the Editorial Guidelines.
       
       Causing an Editorial Guideline to be inconsistent with any other
       Editorial Guideline is the Class 1 Crime of Editorial Hypocrisy.
@@ -2819,6 +2810,61 @@ History:
 
 Enacted by P8239 'The Editor (v2.0.1)' (Jason, G., Aris, Trigon), 18 Sep
    2019
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2614/4 (Power=3.01)
+Eclipse Light
+
+      An emergency message is one whose subject line contains the text
+      "[Emergency]".
+      
+      The Prime Minister CAN, in an emergency message and with 3 Agoran
+      consent, enact, amend, or repeal Emergency Regulations, provided
+      that the intent to do so was also contained in an emergency
+      message.
+      
+      Emergency Regulations CAN:
+        - Extend any deadline provided for by any instrument other than
+          this rule, including a deadline for an obligation to be met,
+          or deadline prior to which an action must be performed in
+          order to be valid, such as the end of voting period. Such an
+          extension CANNOT cause the total time period, such as the
+          time from when an obligation was created to the deadline or
+          the whole of a voting period, to be more than double its
+          original length.
+        - Create, destroy, or transfer assets, or require or forbid
+          their creation, destruction, or transfer.
+        - Collectively, exercise Mint Authority
+        - Cause one or more players to win Agora.
+        - Appoint or remove officeholders.
+        - Modify the Festivity.
+        - Award Patent Titles not mentioned in any Rule and Badges.
+        - Modify the Publicity of Fora.
+      
+      The Prime Minister CAN, in an emergency message and with 4 Agoran
+      Consent, provided that the intent to do so was also contained in
+      an emergency message, Extend the Emergency.
+      
+      If there is an Emergency Regulation that has existed for at least
+      a month and the Prime Minister has not Extended the Emergency in
+      the past month, any player CAN, with 7 days notice, cause this
+      rule to repeal all Emergency Regulations.
+      
+      If the Prime Minister has not sent a message to a public forum in
+      the preceding four days, the Speaker CAN exercise eir powers under
+      this rule as if e were the Prime Minister, and notwithstanding any
+      rule that would prohibit a single player from holding both
+      offices.
+      
+History:
+
+Enacted by P8360 'Social Distancing' (Alexis), 04 Apr 2020
+Amended(1) by P8361 'Fix Emergencies' (Aris, Alexis), 04 Apr 2020
+Amended(2) by P8362 'Recurring Emergencies' (Aris), 04 Apr 2020
+Amended(3) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
+Amended(4) by P8369 'Emergency Termination Notice' (Aris), 21 Apr 2020
 
 Annotations:
 
@@ -4006,7 +4052,7 @@ Amended(3) by P8206 'Rule 2472 Simplification' (Jason), 23 Jul 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2143/31 (Power=1)
+Rule 2143/32 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -4043,9 +4089,9 @@ Official Reports and Duties
       on the World Wide Web, and they SHOULD publish the address of this
       copy along with their published reports.
       
-      If an office has a discretionary power, and a player publicly
-      petitions the officer to apply that power in a specific case or
-      manner, the officer SHALL publicly respond in a timely fashion.
+      A player CAN, by announcement, petition a specified officer to take
+      a specified action; the officer SHALL publicly respond to the
+      petition in a timely fashion.
       
 History:
 
@@ -4092,6 +4138,7 @@ Amended(28) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
 Amended(29) by P8249 'No Harm No Foul' (Jacob Arduino, twg), 18 Sep 2019
 Amended(30) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
 Amended(31) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
+Amended(32) by P8370 'Announced Petitions' (Aris), 21 Apr 2020
 
 Annotations:
 CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
@@ -4145,16 +4192,17 @@ Ratification
       rules to the contrary notwithstanding, the gamestate is modified
       to what it would be if, at the time the ratified document was
       published, the gamestate had been minimally modified to make the
-      ratified document as true and accurate as possible; however, if the
-      document explicitly specifies a different past time as being the
-      time the document was true, the specified time is used to determine
-      the minimal modifications. Such a modification cannot add
-      inconsistencies between the gamestate and the rules, and it cannot
-      include rule changes unless the ratified document explicitly and
-      unambiguously recites either the changes or the resulting properties
-      of the rule(s). If no such modification is possible, or multiple
-      substantially distinct possible modifications would be equally
-      appropriate, the ratification fails.
+      ratified document as true and accurate as possible; however, if
+      the document explicitly specifies a different past time as being
+      the time the document was true, the specified time is used to
+      determine the minimal modifications. Such a modification cannot
+      add inconsistencies between the gamestate and the rules, and it
+      cannot include rule changes unless the ratified document
+      explicitly and unambiguously recites either the changes or the
+      resulting properties of the rule(s). If no such modification is
+      possible, or multiple substantially distinct possible
+      modifications would be equally appropriate, the ratification
+      fails.
       
       An internally inconsistent document generally cannot be ratified;
       however, if such a document can be divided into a summary section
@@ -4394,19 +4442,20 @@ Amended(7) by P8350 'Apologies Don't Interfere' (Alexis), 21 Mar 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/10 (Power=1.7)
+Rule 2478/11 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
       this rule, Point eir Finger at a person (the perp) who plays the
-      game, citing an alleged violation of the rules by that person.
+      game; the announcement has to explicitly name the perp and cite a
+      specific rule and an alleged violation of that rule by that person.
       
       When a player Points a Finger, the investigator SHALL investigate
       the allegation and CAN, and in a timely fashion SHALL, conclude
       the investigation by:
       
-      - Imposing the Cold Hand of Justice on the perp, as described
-        elsewhere; or
+      - Imposing the Cold Hand of Justice on the perp for the cited rule
+        violation, as described elsewhere; or
       
       - if e believes that no rules violation occurred or that it would
         be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the
@@ -4441,6 +4490,7 @@ Amended(8) by P8090 'Shenanigans For INEFFECTIVE Fines (v2)' (D.
 Amended(9) by P8181 'Referee CAN Impose Fines (v1.1)' (D. Margaux,
    Falsifian, twg), 22 Jun 2019
 Amended(10) by P8250 'Finger bending' (Murphy, twg), 04 Oct 2019
+Amended(11) by P8368 'Explicit Accusations' (G.), 21 Apr 2020
 
 Annotations:
 
@@ -4982,10 +5032,10 @@ Recusal
       A judge CAN recuse emself from a CFJ e is assigned to by
       announcement.
       
-      The Arbitor CAN recuse a judge from a case by announcement, if that
-      judge has violated a time limit for judging the case and has not
-      judged it in the mean time; the Arbitor SHALL do so in a timely
-      fashion after the time limit expires, if able.
+      The Arbitor CAN recuse a judge from a case by announcement, if
+      that judge has violated a time limit for judging the case and has
+      not judged it in the mean time; the Arbitor SHALL do so in a
+      timely fashion after the time limit expires, if able.
       
       If a judge is recused from a case 4+ days after being assigned to
       it, e SHOULD NOT be assigned as a judge until e has apologised and
@@ -5152,8 +5202,8 @@ Consent
       
       1. e, acting as emself, has publicly stated that e agrees to the
          action and not subsequently publicly withdrawn eir statement;
-      2. e is party to a contract whose body explicitly and unambiguously
-         indicates eir consent; or
+      2. e is party to a contract whose body explicitly and
+         unambiguously indicates eir consent; or
       3. it is reasonably clear from context that e wanted the
          action to take place or assented to it taking place.
       
@@ -5171,9 +5221,9 @@ Rule 1742/22 (Power=2.5)
 Contracts
 
       Any group of one or more consenting persons (the parties) may
-      publicly make an agreement among themselves with the intention that
-      it be binding upon them and be governed by the rules. Such an
-      agreement is known as a contract. A contract may be modified,
+      publicly make an agreement among themselves with the intention
+      that it be binding upon them and be governed by the rules. Such
+      an agreement is known as a contract. A contract may be modified,
       including by changing the set of parties, with the consent of all
       existing parties. A contract may also be terminated with the
       consent of all parties. A contract automatically terminates if the
@@ -5267,16 +5317,17 @@ The Notary
       otherwise publicly provided, e CAN select one.
       
       The transitional period lasts for at least 90 days after this rule
-      comes into force; thereafter, any player CAN end it by announcement.
-      A pledge or contract is invisible if it was created before this rule
-      came into force, and has not been publicly posted since this rule
-      came into force; for a contract, this publication must include its
-      full provisions and list of parties, along with a certification or
-      adequate proof of their accuracy and completeness. During the
-      transitional period, the Notary NEED NOT report any invisible
-      contract or pledge. When the transitional period is ended, each
-      invisible contract or pledge ceases to exist in the order they were
-      created, and then this rule amends itself by deleting this paragraph.
+      comes into force; thereafter, any player CAN end it by
+      announcement. A pledge or contract is invisible if it was created
+      before this rule came into force, and has not been publicly posted
+      since this rule came into force; for a contract, this publication
+      must include its full provisions and list of parties, along with a
+      certification or adequate proof of their accuracy and
+      completeness. During the transitional period, the Notary NEED NOT
+      report any invisible contract or pledge. When the transitional
+      period is ended, each invisible contract or pledge ceases to exist
+      in the order they were created, and then this rule amends itself
+      by deleting this paragraph.
       
 History:
 
@@ -5291,7 +5342,7 @@ Assets
    Assets are things players can own. This section describes how that
    works.
 ------------------------------------------------------------------------
-Rule 2166/28 (Power=3)
+Rule 2166/29 (Power=3)
 Assets
 
       An asset is an entity defined as such by a document that has been
@@ -5302,8 +5353,8 @@ Assets
       transferred.
       
       The rules collectively have Mint Authority. Contracts have Mint
-      Authority. A rule defined asset is public; one defined by a
-      contract is private.
+      Authority. An asset defined by rule or regulation is public; one
+      defined by a contract is private.
       
       The recordkeepor of a class of assets is the entity (if any)
       defined as such by, and bound by, its backing document. That
@@ -5360,6 +5411,7 @@ Amended(26) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
 Amended(27) by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(28) by P8129 'Bugfix: Treasuror doesn't self-ratify v2' (twg,
    Trigon, G.), 19 Nov 2018
+Amended(29) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
 
 Annotations:
 CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
@@ -5367,7 +5419,7 @@ CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
    not fulfill the requirement.
 
 ------------------------------------------------------------------------
-Rule 2576/0 (Power=3)
+Rule 2576/1 (Power=3)
 Ownership
 
       Each asset has exactly one owner. If an asset's backing document
@@ -5378,8 +5430,9 @@ Ownership
       modification by its backing document. By default, ownership of an
       asset is restricted to Agora, players, and contracts.
       
-      If an asset would otherwise lack an owner, it is owned by the Lost
-      and Found Department. Rules to the contrary notwithstanding, the
+      If an asset would otherwise lack an owner, or if its ownership
+      would otherwise be indeterminate, it is owned by the Lost and
+      Found Department.. Rules to the contrary notwithstanding, the
       Lost and Found Department can own assets of every type. Assets
       owned by the Lost and Found Department can be transferred or
       destroyed by any player without objection.
@@ -5387,6 +5440,7 @@ Ownership
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(1) by P8366 'Asset Determinacy' (Aris, twg), 17 Apr 2020
 
 Annotations:
 
@@ -5913,7 +5967,7 @@ Annotations:
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/6 (Power=2)
+Rule 2532/7 (Power=2)
 Zombies
 
       Master is a secured player switch, tracked by the Registrar, with
@@ -5933,6 +5987,7 @@ Zombies
         - bid in a zombie auction;
         - enter a contract, pledge, or other type of agreement;
         - initiate a Call for Judgement;
+        - create blots;
         - deregister.
       
       A zombie's master CAN flip that zombie's master switch to Agora by
@@ -5957,6 +6012,8 @@ Amended(3) by cleaning (Falsifian), 28 Apr 2019
 Amended(4) by P8246 'Tracking of Master' (Jason), 05 Sep 2019
 Amended(5) by P8242 'Let the dead rest' (Falsifian), 05 Sep 2019
 Amended(6) by cleaning (Alexis), 07 Feb 2020
+Amended(7) by P8358 'No zombie blot creation v2' (Jason, Alexis), 04
+   Apr 2020
 
 Annotations:
 
@@ -6221,7 +6278,8 @@ Ribbons
       any duties of that office within the appropriate time limits
       during those 30 days, that person qualifies for a Green Ribbon.
       
-      Emerald (E): When a person wins an election, e earns an Emerald Ribbon.
+      Emerald (E): When a person wins an election, e earns an Emerald
+      Ribbon.
       
       Cyan (C): When a person deputises for an office, that person earns
       a Cyan Ribbon.
@@ -6272,8 +6330,9 @@ Ribbons
       
       While a person qualifies for a type of Ribbon:
       
-        - If e has not owned that type of Ribbon within the preceding 7 days,
-          any player CAN, by announcement, award em that type of Ribbon.
+        - If e has not owned that type of Ribbon within the preceding 7
+          days, any player CAN, by announcement, award em that type of
+          Ribbon.
       
         - Otherwise, if e has not been awarded that type of Ribbon or
           the corresponding type of Glitter since e last earned or came
@@ -6525,11 +6584,11 @@ Degrees
       A specified degree CAN be awarded by any player other than the
       awardee, with 2 Agoran consent.  It SHOULD only be awarded for the
       publication of an original thesis of scholarly worth (including
-      responses to peer-review), published with explicit intent to qualify
-      for a degree. Any degree with D.N. as part of its abbreviation
-      SHOULD take into account the awardee's academic history and participation
-      in Agora over time. The Herald SHOULD coordinate the peer-review process
-      and the awarding of degrees.
+      responses to peer-review), published with explicit intent to
+      qualify for a degree. Any degree with D.N. as part of its
+      abbreviation SHOULD take into account the awardee's academic
+      history and participation in Agora over time. The Herald SHOULD
+      coordinate the peer-review process and the awarding of degrees.
       
 History:
 
@@ -6733,11 +6792,11 @@ Rule 103/28 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
-      Agora. The player or players who have most recently won the game are
-      called Laureled. If at any time the office of Speaker is vacant,
-      or when one or more players win Agora, then the Prime Minister CAN
-      once appoint a Laureled player to the office of Speaker by
-      announcement.
+      Agora. The player or players who have most recently won the game
+      are called Laureled. If at any time the office of Speaker is
+      vacant, or when one or more players win Agora, then the Prime
+      Minister CAN once appoint a Laureled player to the office of
+      Speaker by announcement.
       
       Whenever the Prime Minister CAN appoint a Laureled
       player to the office of Speaker, e SHALL do so in a timely manner,
@@ -6745,10 +6804,10 @@ The Speaker
       while there is pending one or more open CFJs that could plausibly
       determine or affect the question of whether a player is Laureled.
       If the Prime Minister is emself Laureled, eir power to appoint a
-      Speaker continues for the entirety of a message in which e resigns as
-      Prime Minister, and if e is the only Laureled player, e CAN void that
-      power, and thereby discharge the obligation to use it, by announcing
-      that e declines to take the office.
+      Speaker continues for the entirety of a message in which e resigns
+      as Prime Minister, and if e is the only Laureled player, e CAN
+      void that power, and thereby discharge the obligation to use it,
+      by announcing that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
@@ -6933,23 +6992,19 @@ Agoran Culture
    Nothing in here is all that important. Mostly describes holidays and
    tournaments, and joke rules.
 ------------------------------------------------------------------------
-Rule 2327/2 (Power=1)
+Rule 2327/3 (Power=1)
 Read the Ruleset Week
 
       The first Agoran week each year which falls entirely in February
       is Read the Ruleset Week. Agorans are encouraged to read the
       ruleset during Read the Ruleset Week.
       
-      The above notwithstanding, due to serious uncertainty surrounding
-      the state of the rules during the scheduled Read the Ruleset Week,
-      in the year 2020, Read the Ruleset Week is, instead, the week of
-      February 24 - March 1
-      
 History:
 
 Enacted by P6973 'I miss RtRW' (Murphy), 30 Mar 2011
 Amended(1) by P6995 'Ugliest rule text ever' (omd, harvel), 10 Apr 2011
 Amended(2) by P8329 'RtRW Reschedule' (Alexis), 24 Feb 2020
+Amended(3) by P8357 'Homework extension fail' (G.), 04 Apr 2020
 
 Annotations:
 
@@ -7024,7 +7079,7 @@ Amended(21) by R2430, 24 May 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2464/4 (Power=1)
+Rule 2464/5 (Power=1)
 Tournaments
 
       A Tournament is a sub-game of Agora specifically sanctioned to be
@@ -7039,7 +7094,8 @@ Tournaments
       those who freely consent to play the tournament and over the
       tournament itself. Once the tournament is concluded, these
       regulations cease to have any effect, and CAN be repealed by any
-      player by announcement.
+      player by announcement. A Tournament's regulations collectively
+      have Mint Authority.
       
 History:
 
@@ -7049,6 +7105,7 @@ Amended(1) by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun
 Amended(2) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(3) by P8032 'Free Tournaments' (G.), 06 Apr 2018
 Amended(4) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
+Amended(5) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
 
 Annotations:
 
