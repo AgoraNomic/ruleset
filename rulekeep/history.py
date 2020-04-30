@@ -43,7 +43,8 @@ def proposal_data(num, log=False):
     except KeyError:
         if log: print("\tp%s\treading from file " % num)
         cache[num] = yaml.load(
-            get_contents("proposals/" + num)
+            get_contents("proposals/" + num),
+            Loader=yaml.FullLoader
         )
         if log: print("\t\tread")
     return cache[num]
