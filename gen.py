@@ -27,7 +27,7 @@ smkdir("meta")
 if short: smkdir("meta/short")
 if full: smkdir("meta/full")
 
-for section in yaml.load(get_contents("config/index")):
+for section in yaml.load(get_contents("config/index"), Loader=yaml.FullLoader):
     if short: slr = slr + section_heading(section)
     if full:
         flr = flr + section_heading(section)
@@ -52,7 +52,7 @@ for section in yaml.load(get_contents("config/index")):
             except: print("%d\tchanged" % rule)
         else: print("%d\tprocessing" % rule)
 
-        ldata = yaml.load(data)
+        ldata = yaml.load(data, Loader=yaml.FullLoader)
         
         prop_list[str(rule)] = [
             get_hash(data),
