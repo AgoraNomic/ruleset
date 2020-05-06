@@ -13,6 +13,10 @@
         color: #333;
         line-height: 1.5rem;
       }
+      
+      body .container {
+        margin-top: 5px;
+        }
     </style>
   </head>
   <body>
@@ -25,7 +29,9 @@
 
     {% include Header/header.html %}
     
+    <div class="container">
     {{ content }}
+    </div>
     <nav>
       {% for item in site.data.nav %}
       <a href="{{ item.url }}">{{ item.text }}</a><br>
