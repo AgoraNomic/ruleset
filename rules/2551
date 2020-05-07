@@ -18,18 +18,20 @@ text: |
   SHALL include the a list of all the bids on the Auction and the
   winner(s) (if there are any) of the Auction.
 
-  A person's priority on an Auction is their position in the list of
-  persons who have bid on the Auction, sorted by the value of their
-  non-withdrawn bids in descending order. If two persons have placed
-  non-withdrawn bids for the same value, a player who placed their
-  non-withdrawn bid first has a higher priority than a player who
-  placed their non-withdrawn bid at a later time.
+  The bidders in an Auction are the players who have a non-withdrawn
+  bid in that Auction. Priority is a strict total ordering over the
+  bidders in an Auction. For two bidders with different bid amounts
+  on their non-withdrawn bids, the bidder with the higher bid has
+  higher priority than the other bidder; otherwise, the bidder whose
+  non-withdrawn bid was placed earlier has higher priority than the
+  other bidder.
 
-  For each lot in the Auction, the winner of that lot is the player
-  with the highest priority on the Auction who has not won any
-  previous lot. If there are more lots than there are persons with
-  non-withdrawn bids, the excess lots are not won by any person.
-
+  Upon the end of an Auction, for each lot, in the order they are to
+  be awarded, the bidder with the highest priority in the Auction
+  who is not yet the winner of a lot becomes the winner of the lot.
+  If there are more lots than there are persons with non-withdrawn
+  bids, the excess lots are not won by any person.
+  
   The winner of the lot SHALL, in a timely fashion, pay a fee (the
   number of the Auction's currency equal to eir bid) to the
   Auctioneer in order to satisfy eir auction debt. When e does so,
@@ -63,6 +65,11 @@ history:
   date: 2020-03-21
   agent:
     proposal: "8352"
+- change:
+    type: amendment
+  date: 2020-05-06
+  agent:
+    proposal: "8373"
 annotations:
 - cfjs:
   - id: '3615'
