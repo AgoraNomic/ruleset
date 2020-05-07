@@ -12,7 +12,8 @@ text: |
   Registrar shall publish this document along with a Writ of
   Fugiendae Agorae Grandissima Exprobratione, commanding the Player
   to be deregistered. The Registrar shall note the method of
-  deregistration for that Player in subsequent Registrar Reports.
+  deregistration for that Player in subsequent Registrar montly
+  Reports.
 
   The Player is deregistered as of the posting of the Writ, and the
   notation in the Registrar's monthly report will ensure that,
@@ -88,6 +89,11 @@ history:
   date: 2020-04-17
   agent:
     proposal: "8367"
+- change:
+    type: amendment
+  date: 2020-05-06
+  agent:
+    proposal: "8376"
 annotations:
 - cfjs:
   - id: '1594'
