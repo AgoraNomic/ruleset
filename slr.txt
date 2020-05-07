@@ -3,7 +3,7 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 23 Apr 2020
+Date of this ruleset: 7 May 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 133
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2614
-Highest ID'd Proposal Passed: 8370
+Highest ID'd Proposal Passed: 8376
 Highest ID'd Rule Enacted: 2615
 
 ========================================================================
@@ -168,7 +168,7 @@ The Registrar
         Rule 1789.
       
 ------------------------------------------------------------------------
-Rule 1789/10 (Power=3)
+Rule 1789/11 (Power=3)
 Cantus Cygneus
 
       Whenever a Player feels that e has been treated so egregiously by
@@ -181,7 +181,8 @@ Cantus Cygneus
       Registrar shall publish this document along with a Writ of
       Fugiendae Agorae Grandissima Exprobratione, commanding the Player
       to be deregistered. The Registrar shall note the method of
-      deregistration for that Player in subsequent Registrar Reports.
+      deregistration for that Player in subsequent Registrar montly
+      Reports.
       
       The Player is deregistered as of the posting of the Writ, and the
       notation in the Registrar's monthly report will ensure that,
@@ -1572,8 +1573,8 @@ Decisions with Adoption Indices
 Rule 2034/12 (Power=3)
 Vote Protection and Cutoff for Challenges
 
-      A public message purporting to resolve an Agoran decision
-      is a self-ratifying attestation that
+      A public message purporting to resolve an Agoran decision is a
+      self-ratifying attestation that
       
       1. such a decision existed,
       
@@ -1693,8 +1694,8 @@ Rule 2160/22 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
-      ordinarily reserved for an office-holder as if e held the
-      office if
+      ordinarily reserved for an office-holder as if e held the office
+      if
       
       1. the rules require the holder of that office, by virtue of
          holding that office, to perform the action (this requirement is
@@ -1798,9 +1799,9 @@ Official Reports and Duties
       on the World Wide Web, and they SHOULD publish the address of this
       copy along with their published reports.
       
-      A player CAN, by announcement, petition a specified officer to take
-      a specified action; the officer SHALL publicly respond to the
-      petition in a timely fashion.
+      A player CAN, by announcement, petition a specified officer to
+      take a specified action; the officer SHALL publicly respond to
+      the petition in a timely fashion.
       
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
@@ -1967,7 +1968,8 @@ Vigilante Justice
       A player CAN by announcement, but subject to the provisions of
       this rule, Point eir Finger at a person (the perp) who plays the
       game; the announcement has to explicitly name the perp and cite a
-      specific rule and an alleged violation of that rule by that person.
+      specific rule and an alleged violation of that rule by that
+      person.
       
       When a player Points a Finger, the investigator SHALL investigate
       the allegation and CAN, and in a timely fashion SHALL, conclude
@@ -2385,7 +2387,7 @@ Contracts
         specified recipient.
       
 ------------------------------------------------------------------------
-Rule 2608/0 (Power=2.0)
+Rule 2608/1 (Power=2.0)
 The Notary
 
       The Notary is an office.
@@ -2398,19 +2400,6 @@ The Notary
       
       If the Notary is required to report a title, but none has been
       otherwise publicly provided, e CAN select one.
-      
-      The transitional period lasts for at least 90 days after this rule
-      comes into force; thereafter, any player CAN end it by
-      announcement. A pledge or contract is invisible if it was created
-      before this rule came into force, and has not been publicly posted
-      since this rule came into force; for a contract, this publication
-      must include its full provisions and list of parties, along with a
-      certification or adequate proof of their accuracy and
-      completeness. During the transitional period, the Notary NEED NOT
-      report any invisible contract or pledge. When the transitional
-      period is ended, each invisible contract or pledge ceases to exist
-      in the order they were created, and then this rule amends itself
-      by deleting this paragraph.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2721,7 +2710,7 @@ Bidding
       em to pay that amount at the conclusion of the Auction.
       
 ------------------------------------------------------------------------
-Rule 2551/4 (Power=1)
+Rule 2551/5 (Power=1)
 Auction End
 
       An Auction ends 7 days after its initiation, or immediately if no
@@ -2740,17 +2729,19 @@ Auction End
       SHALL include the a list of all the bids on the Auction and the
       winner(s) (if there are any) of the Auction.
       
-      A person's priority on an Auction is their position in the list of
-      persons who have bid on the Auction, sorted by the value of their
-      non-withdrawn bids in descending order. If two persons have placed
-      non-withdrawn bids for the same value, a player who placed their
-      non-withdrawn bid first has a higher priority than a player who
-      placed their non-withdrawn bid at a later time.
+      The bidders in an Auction are the players who have a non-withdrawn
+      bid in that Auction. Priority is a strict total ordering over the
+      bidders in an Auction. For two bidders with different bid amounts
+      on their non-withdrawn bids, the bidder with the higher bid has
+      higher priority than the other bidder; otherwise, the bidder whose
+      non-withdrawn bid was placed earlier has higher priority than the
+      other bidder.
       
-      For each lot in the Auction, the winner of that lot is the player
-      with the highest priority on the Auction who has not won any
-      previous lot. If there are more lots than there are persons with
-      non-withdrawn bids, the excess lots are not won by any person.
+      Upon the end of an Auction, for each lot, in the order they are to
+      be awarded, the bidder with the highest priority in the Auction
+      who is not yet the winner of a lot becomes the winner of the lot.
+      If there are more lots than there are persons with non-withdrawn
+      bids, the excess lots are not won by any person.
       
       The winner of the lot SHALL, in a timely fashion, pay a fee (the
       number of the Auction's currency equal to eir bid) to the
@@ -3085,10 +3076,10 @@ Glitter
       Glitter is not specified.
       
       Each time a player is awarded a type of Glitter, the Tailor CAN
-      once by announcement, and SHALL in an officially timely
-      fashion, grant the player N+1 coins, where N is the number of
-      players who did not own the corresponding type of Ribbon at the
-      time of the award.
+      once by announcement, and SHALL in an officially timely fashion,
+      grant the player N+1 coins, where N is the number of players who
+      did not own the corresponding type of Ribbon at the time of the
+      award.
       
 ------------------------------------------------------------------------
 Rule 2480/4 (Power=2.1)
