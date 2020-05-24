@@ -1,5 +1,5 @@
 id: 2531
-name: Referee Accountability
+name: Defendant's Rights
 power: 2
 text: |
   Any attempt to levy a fine is INEFFECTIVE if:
@@ -11,8 +11,10 @@ text: |
   Any attempt to levy a fine pursuant to the imposition of the Cold
   Hand of Justice is INEFFECTIVE if:
   
-    (1) it attempts to levy a fine on a person for an action or
-        inaction which e (more likely than not) did not commit;
+    (1) it attempts to levy a fine on a person when that person
+        can't be established by a preponderance of the evidence to
+        have committed the action or inaction for which the fine was
+        levied;
   
     (2) it attempts to levy a fine for an action or inaction which
         is not prohibited by the rules;
@@ -94,4 +96,14 @@ history:
   agent:
     cleaning:
       by: Jason
+- change:
+    type: retitling
+  date: 2020-05-22
+  agent:
+    proposal: "8377"
+- change:
+    type: amendment
+  date: 2020-05-22
+  agent:
+    proposal: "8377"
 annotations: []
