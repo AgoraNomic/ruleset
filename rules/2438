@@ -98,6 +98,11 @@ history:
   date: 2020-03-21
   agent:
     proposal: "8353"
+- change:
+    type: amendment
+  date: 2020-05-22
+  agent:
+    proposal: "8386"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -145,7 +150,8 @@ text: |
 
   Blue (B): When a person assigns a judgement to a CFJ, and has
   never violated a time limit to assign a judgement to that CFJ,
-  that person earns a Blue Ribbon.
+  nor ever self-filed a motion to reconsider that CFJ, that person
+  earns a Blue Ribbon.
 
   Magenta (M): When, during Agora's Birthday, a person publicly
   acknowledges it, that person earns a Magenta Ribbon.

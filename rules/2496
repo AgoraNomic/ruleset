@@ -16,7 +16,9 @@ text: |
     adoption index of the result) rounded up (Assessor).
 
   * Judging a CFJ that e was assigned to without violating a time
-    limit to do so: 5 coins (Arbitor).
+    limit to do so, unless at the time of judgement the case was
+    open due to self-filing a motion to reconsider it: 5 coins
+    (Arbitor).
 
   * Publishing an office's weekly or monthly report, provided that
     publication was the first report published for that office in
@@ -126,4 +128,9 @@ history:
   date: 2020-02-13
   agent:
     proposal: "8311"
+- change:
+    type: amendment
+  date: 2020-05-22
+  agent:
+    proposal: "8386"
 annotations: []
