@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 7 May 2020
+Date of this ruleset: 23 May 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 133
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2614
-Highest ID'd Proposal Passed: 8376
+Highest ID'd Proposal Passed: 8386
 Highest ID'd Rule Enacted: 2615
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -106,9 +106,9 @@ Justice
    * Rule 2556: Penalties
    * Rule 2555: Blots
    * Rule 2478: Vigilante Justice
-   * Rule 2479: Official Justice
+   * Rule 2479: Official Injustice
    * Rule 2557: Sentencing Guidelines
-   * Rule 2531: Referee Accountability
+   * Rule 2531: Defendant's Rights
 Calls for Judgement
    * Rule  991: Calls for Judgement
    * Rule  591: Delivering Judgements
@@ -1531,7 +1531,7 @@ Annotations:
 Rule 1688/10 (Power=3)
 Power
 
-      The Power of an entity is a non-negative rational number. An
+      The Power of an entity is a non-negative rational number. A
       statute is a document with positive Power.
       
       The Power of an entity cannot be set or modified except as
@@ -1541,7 +1541,7 @@ Power
       A Rule that makes a change, action, or value secured (hereafter
       the securing Rule) thereby makes it IMPOSSIBLE to perform that
       change or action, or to set or modify that value, except as
-      allowed by an State with Power greater than or equal to the
+      allowed by a Statute with Power greater than or equal to the
       change's Power Threshold.  This Threshold defaults to the securing
       Rule's Power, but CAN be lowered as allowed by that Rule
       (including by the Rule itself).
@@ -4155,7 +4155,7 @@ CFJ 3645 (called 20 Jun 2018): Including a report in a message to the
    public forum fulfills an officer's duty to publish said report,
    regardless of whether or not a disclaimer is included stating that it
    is not a report.
-CFJ 3783 (called 07 Dec 2019): It is not possible to wan an election
+CFJ 3783 (called 07 Dec 2019): It is not possible to win an election
    after it has ended.
 
 ------------------------------------------------------------------------
@@ -4505,7 +4505,7 @@ Annotations:
 
 ------------------------------------------------------------------------
 Rule 2479/6 (Power=1.7)
-Official Justice
+Official Injustice
 
       Subject to the provisions of this rule, the Referee CAN, by
       announcement, impose Summary Judgment on a player. When e does so,
@@ -4531,6 +4531,7 @@ Amended(4) by P7964 'Referee Reform and Card Appealability' (R. Lee),
    07 Nov 2017
 Amended(5) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(6) by P8189 'Rule 2479 Cleanup (v1.2)' (Jason), 23 Jul 2019
+Retitled by P8377 'Burden + Accurate Naming' (R. Lee), 22 May 2020
 
 Annotations:
 
@@ -4577,8 +4578,8 @@ Amended(3) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2531/7 (Power=2)
-Referee Accountability
+Rule 2531/8 (Power=2)
+Defendant's Rights
 
       Any attempt to levy a fine is INEFFECTIVE if:
       
@@ -4589,8 +4590,10 @@ Referee Accountability
       Any attempt to levy a fine pursuant to the imposition of the Cold
       Hand of Justice is INEFFECTIVE if:
       
-        (1) it attempts to levy a fine on a person for an action or
-            inaction which e (more likely than not) did not commit;
+        (1) it attempts to levy a fine on a person when that person
+            can't be established by a preponderance of the evidence to
+            have committed the action or inaction for which the fine was
+            levied;
       
         (2) it attempts to levy a fine for an action or inaction which
             is not prohibited by the rules;
@@ -4638,6 +4641,8 @@ Amended(5) by P8203 'Fixing Summary Judgement' (Jason), 23 Jul 2019
 Amended(6) by P8222 'Fixing Summary Judgement (v2)' (Jason), 05 Sep
    2019
 Amended(7) by cleaning (Jason), 17 Oct 2019
+Retitled by P8377 'Burden + Accurate Naming' (R. Lee), 22 May 2020
+Amended(8) by P8377 'Burden + Accurate Naming' (R. Lee), 22 May 2020
 
 Annotations:
 
@@ -5611,7 +5616,7 @@ Amended(13) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/17 (Power=1)
+Rule 2496/18 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
@@ -5628,7 +5633,9 @@ Rewards
         adoption index of the result) rounded up (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
-        limit to do so: 5 coins (Arbitor).
+        limit to do so, unless at the time of judgement the case was
+        open due to self-filing a motion to reconsider it: 5 coins
+        (Arbitor).
       
       * Publishing an office's weekly or monthly report, provided that
         publication was the first report published for that office in
@@ -5673,6 +5680,7 @@ Amended(16) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
    Jason), 29 Jan 2020
 Amended(17) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
    2020
+Amended(18) by P8386 'Restraining Motions' (G.), 22 May 2020
 
 Annotations:
 
@@ -6211,13 +6219,14 @@ Amended(5) by P8234 'auto-balance' (G., Jason), 05 Sep 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2553/0 (Power=1)
+Rule 2553/1 (Power=1)
 Win by Paradox
 
-      If a CFJ about the legality or possibility of a game action, has
-      been assigned a judgment of PARADOXICAL continuously for at least
-      7 days, and e has not done so already in respect of that CFJ, then
-      that case's initiator CAN, by announcement, win the game.
+      If a CFJ about the effectiveness, possiblity, or legality of a
+      change in the gamestate has been assigned a judgment of
+      PARADOXICAL continuously for at least 7 days, and e has not done
+      so already in respect of that CFJ, then that case's initiator CAN,
+      by announcement, win the game.
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
@@ -6226,6 +6235,7 @@ History:
 
 Enacted by P7976 'A Mostest Ingenious Paradox' (Alexis, ais523), 26 Nov
    2017
+Amended(1) by P8379 'Expand wins by paradox' (Murphy), 22 May 2020
 
 Annotations:
 CFJ 3620 (called 06 Feb 2018): A CFJ assigned a judgment of PARADOXICAL
@@ -6238,7 +6248,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/17 (Power=3)
+Rule 2438/18 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6287,7 +6297,8 @@ Ribbons
       
       Blue (B): When a person assigns a judgement to a CFJ, and has
       never violated a time limit to assign a judgement to that CFJ,
-      that person earns a Blue Ribbon.
+      nor ever self-filed a motion to reconsider that CFJ, that person
+      earns a Blue Ribbon.
       
       Magenta (M): When, during Agora's Birthday, a person publicly
       acknowledges it, that person earns a Magenta Ribbon.
@@ -6366,11 +6377,12 @@ Amended(15) by P8330 'No looting white ribbons' (G.), 24 Feb 2020
 Amended(16) by P8346 'De-secure Black Ribbons v2' (Jason, ais523), 10
    Mar 2020
 Amended(17) by P8353 'All that glisters' (Murphy), 21 Mar 2020
+Amended(18) by P8386 'Restraining Motions' (G.), 22 May 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2602/2 (Power=1)
+Rule 2602/4 (Power=1)
 Glitter
 
       For each type of Ribbon, there is a type of Glitter with the same
@@ -6386,11 +6398,12 @@ Glitter
 History:
 
 Enacted by P8266 'Glitter' (nch), 11 Nov 2019
-Enacted by P8288 'Glitteral' (omd), 29 Jan 2020
-Enacted by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan 2020
-Amended(1) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
+Amended(1) by P8288 'Glitteral' (omd), 29 Jan 2020
+Amended(2) by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan
+   2020
+Amended(3) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
    Jason), 29 Jan 2020
-Amended(2) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
+Amended(4) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
    2020
 
 Annotations:

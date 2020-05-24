@@ -3,7 +3,7 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 7 May 2020
+Date of this ruleset: 23 May 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 133
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2614
-Highest ID'd Proposal Passed: 8376
+Highest ID'd Proposal Passed: 8386
 Highest ID'd Rule Enacted: 2615
 
 ========================================================================
@@ -588,7 +588,7 @@ Switches
 Rule 1688/10 (Power=3)
 Power
 
-      The Power of an entity is a non-negative rational number. An
+      The Power of an entity is a non-negative rational number. A
       statute is a document with positive Power.
       
       The Power of an entity cannot be set or modified except as
@@ -598,7 +598,7 @@ Power
       A Rule that makes a change, action, or value secured (hereafter
       the securing Rule) thereby makes it IMPOSSIBLE to perform that
       change or action, or to set or modify that value, except as
-      allowed by an State with Power greater than or equal to the
+      allowed by a Statute with Power greater than or equal to the
       change's Power Threshold.  This Threshold defaults to the securing
       Rule's Power, but CAN be lowered as allowed by that Rule
       (including by the Rule itself).
@@ -1994,7 +1994,7 @@ Vigilante Justice
       
 ------------------------------------------------------------------------
 Rule 2479/6 (Power=1.7)
-Official Justice
+Official Injustice
 
       Subject to the provisions of this rule, the Referee CAN, by
       announcement, impose Summary Judgment on a player. When e does so,
@@ -2040,8 +2040,8 @@ Sentencing Guidelines
       remorse, and ardent desire for self-improvement.
       
 ------------------------------------------------------------------------
-Rule 2531/7 (Power=2)
-Referee Accountability
+Rule 2531/8 (Power=2)
+Defendant's Rights
 
       Any attempt to levy a fine is INEFFECTIVE if:
       
@@ -2052,8 +2052,10 @@ Referee Accountability
       Any attempt to levy a fine pursuant to the imposition of the Cold
       Hand of Justice is INEFFECTIVE if:
       
-        (1) it attempts to levy a fine on a person for an action or
-            inaction which e (more likely than not) did not commit;
+        (1) it attempts to levy a fine on a person when that person
+            can't be established by a preponderance of the evidence to
+            have committed the action or inaction for which the fine was
+            levied;
       
         (2) it attempts to levy a fine for an action or inaction which
             is not prohibited by the rules;
@@ -2556,7 +2558,7 @@ Economics
       A player CAN win the game by paying a fee of 1,000 Coins.
       
 ------------------------------------------------------------------------
-Rule 2496/17 (Power=1)
+Rule 2496/18 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
@@ -2573,7 +2575,9 @@ Rewards
         adoption index of the result) rounded up (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
-        limit to do so: 5 coins (Arbitor).
+        limit to do so, unless at the time of judgement the case was
+        open due to self-filing a motion to reconsider it: 5 coins
+        (Arbitor).
       
       * Publishing an office's weekly or monthly report, provided that
         publication was the first report published for that office in
@@ -2947,13 +2951,14 @@ Such is Karma
       set such that the sum of all Karma values in the game equals 0.
       
 ------------------------------------------------------------------------
-Rule 2553/0 (Power=1)
+Rule 2553/1 (Power=1)
 Win by Paradox
 
-      If a CFJ about the legality or possibility of a game action, has
-      been assigned a judgment of PARADOXICAL continuously for at least
-      7 days, and e has not done so already in respect of that CFJ, then
-      that case's initiator CAN, by announcement, win the game.
+      If a CFJ about the effectiveness, possiblity, or legality of a
+      change in the gamestate has been assigned a judgment of
+      PARADOXICAL continuously for at least 7 days, and e has not done
+      so already in respect of that CFJ, then that case's initiator CAN,
+      by announcement, win the game.
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
@@ -2964,7 +2969,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/17 (Power=3)
+Rule 2438/18 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3013,7 +3018,8 @@ Ribbons
       
       Blue (B): When a person assigns a judgement to a CFJ, and has
       never violated a time limit to assign a judgement to that CFJ,
-      that person earns a Blue Ribbon.
+      nor ever self-filed a motion to reconsider that CFJ, that person
+      earns a Blue Ribbon.
       
       Magenta (M): When, during Agora's Birthday, a person publicly
       acknowledges it, that person earns a Magenta Ribbon.
@@ -3068,7 +3074,7 @@ Ribbons
           announcement, award emself that type of Glitter.
       
 ------------------------------------------------------------------------
-Rule 2602/2 (Power=1)
+Rule 2602/4 (Power=1)
 Glitter
 
       For each type of Ribbon, there is a type of Glitter with the same
