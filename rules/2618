@@ -1,0 +1,38 @@
+id: 2618
+name: Promises
+power: 2.2
+text: |
+  Promises are a class of assets, tracked by the Notary. Their
+  essential attributes are their text and creator. A person CAN, by
+  announcement, acting as emself, grant emself a promise, specifying
+  its text and becoming its creator. A promise's owner is referred
+  to as its bearer. Promises with the same text, creator, and bearer
+  are fungible. Promises with the same text and creator SHOULD be
+  referred to by the same title, but the title is not an essential
+  attribute of the promise, just a way of referring to it.
+
+  A promise's bearer CAN, by announcement, cash the promise,
+  provided that any conditions for cashing it specified by its text
+  are unambiguously met. By doing so, e acts on the creator of the
+  promise's behalf, causing the creator to act as if e published the
+  promise's text, and destroys the promise. The bearer SHOULD recite
+  the promise's essential attributes in the same message e cashes
+  it.
+
+  In a promise's text, "the bearer" (or the like) refers to the
+  promise's bearer, and "this promise" (or the like) refers to the
+  promise. The text of the promise can refer to the context of the
+  message in which it is cashed, but the context of the message does
+  not otherwise change the meaning of the promise.
+
+  The Library is an entity and CAN own promises. Any player CAN take
+  a specified promise from the Library by announcement, provided e
+  cashes the promise in the same message. Any player CAN revoke a
+  specified promise from the Library without objection.
+history:
+- change:
+    type: enactment
+  date: 2020-06-03
+  agent:
+    proposal: "8402"
+annotations: []

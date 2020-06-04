@@ -8,9 +8,10 @@ text: |
   1. e, acting as emself, has publicly stated that e agrees to the
      action and not subsequently publicly withdrawn eir statement;
   2. e is party to a contract whose body explicitly and
-     unambiguously indicates eir consent; or
-  3. it is reasonably clear from context that e wanted the
-     action to take place or assented to it taking place.
+      unambiguously indicates eir consent;
+  3. the action is taken as part of a promise which e created; or
+  4. it is reasonably clear from context that e wanted the action to
+     take place or assented to it taking place.
 history:
 - change:
     type: enactment
@@ -22,4 +23,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8303"
+- change:
+    type: amendment
+  date: 2020-06-03
+  agent:
+    proposal: "8402"
 annotations: []

@@ -18,7 +18,8 @@ text: |
   on behalf of another person to do anything except perform a game
   action; in particular, a person CANNOT act on behalf of another
   person to send a message, only to perform specific actions that
-  might be taken within a message.
+  might be taken within a message, including actions that would
+  otherwise be taken by publishing certain text.
 
   When an action is performed on behalf of a principal, then the
   action is considered for all game purposes to have been performed
@@ -42,4 +43,9 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: 2020-06-03
+  agent:
+    proposal: "8402"
 annotations: []

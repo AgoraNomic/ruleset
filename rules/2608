@@ -7,8 +7,10 @@ text: |
   The Notary's weekly report contains:
 
   1. every pledge, along with its title, creator, time window, time
-     of creation, and time of expiry; and
-  2. every contract, with its title, full provisions, and parties.
+     of creation, and time of expiry;
+  2. every contract, with its title, full provisions, and parties;
+     and
+  3. every promise, along with its title, text, creator, and bearer.
 
   If the Notary is required to report a title, but none has been
   otherwise publicly provided, e CAN select one.
@@ -23,4 +25,9 @@ history:
   date: 2020-04-28
   agent:
     rule: 2608
+- change:
+    type: amendment
+  date: 2020-06-03
+  agent:
+    proposal: "8402"
 annotations: []
