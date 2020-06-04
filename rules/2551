@@ -2,9 +2,19 @@ id: 2551
 name: Auction End
 power: 1
 text: |
-  An Auction ends 7 days after its initiation, or immediately if no
-  bid has been placed or withdrawn in the last 96 hours, or
-  immediately if it is terminated.
+  An Auction ends immediately when any of the following conditions
+  are met:
+
+  1. The auction was initiated 7 days ago.
+
+  2. The auction was initiated at least 96 hours ago, and it has
+     been 96 hours since the most recent placement or withdrawal of
+     a bid in that auction.
+
+  3. The auction was initiated 96 hours ago and no bids have been
+     placed or withdrawn in that auction.
+
+  4. The auction is terminated.
 
   When an Auction ends, any bid placed by an entity which does not
   own enough of the Auction's currency to pay the amount specified
@@ -70,6 +80,11 @@ history:
   date: 2020-05-06
   agent:
     proposal: "8373"
+- change:
+    type: amendment
+  date: 2020-06-03
+  agent:
+    proposal: "8396"
 annotations:
 - cfjs:
   - id: '3615'
