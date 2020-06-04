@@ -15,6 +15,9 @@ text: |
   the chamber of an ordinary proposal to any ministry, provided
   that it is in the Proposal Pool or that there is an Agoran
   decision on its adoption whose voting period has not yet ended.
+
+  To refer a proposal to a ministry is to set the chamber of that
+  proposal to the specified ministry.
 history:
 - change:
     type: enactment
@@ -36,4 +39,9 @@ history:
   date: 2020-02-24
   agent:
     proposal: "8324"
+- change:
+    type: amendment
+  date: 2020-06-03
+  agent:
+    proposal: "8397"
 annotations: []
