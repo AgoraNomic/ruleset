@@ -22,11 +22,10 @@ text: |
   be a player during the election or if holding the office would
   make em Overpowered.
 
-  An election is contested if it has two or more candidates at the
-  end of the nomination period, and uncontested otherwise. For a
-  contested election, nominations close at the end of the poll's
-  voting period. For an uncontested election, nominations close at
-  the end of the nomination period.
+  An election whose nomination period is complete is contested if it
+  has two or more candidates, and uncontested otherwise. Nominations
+  close at the end of the poll's voting period or when the election
+  is ended, whichever comes first.
 
   After the nomination period ends, the ADoP CAN and, in a timely
   fashion, SHALL:
@@ -352,4 +351,9 @@ history:
   date: 2019-12-01
   agent:
     proposal: "8276"
+- change:
+    type: amendment
+  date: 2020-06-03
+  agent:
+    proposal: "8393"
 annotations: []
