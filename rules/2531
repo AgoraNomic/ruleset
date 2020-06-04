@@ -40,13 +40,6 @@ text: |
   
     (7) it attempts to levy a fine on a zombie for an action that
         its master performed on its behalf.
-  
-    If the Referee attempts to levy three or more INEFFECTIVE fines
-    in a week, any player CAN, with two support, issue a writ of
-    Impartial Arbitration Restoration, immediately making the
-    position of Referee vacant. When a writ of Impartial Arbitration
-    Restoration is issued, the ADoP SHALL initiate an election for
-    the Referee in a timely fashion.
 history:
 - change:
     type: enactment
@@ -106,4 +99,9 @@ history:
   date: 2020-05-22
   agent:
     proposal: "8377"
+- change:
+    type: amendment
+  date: 2020-06-03
+  agent:
+    proposal: "8389"
 annotations: []
