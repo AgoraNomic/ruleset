@@ -16,9 +16,10 @@ text: |
         have committed the action or inaction for which the fine was
         levied;
   
-    (2) it attempts to levy a fine for an action or inaction which
-        is not prohibited by the rules;
-  
+    (2) it attempts to levy a fine for an action or inaction which,
+        at the time the inaction or action occurred, was not
+        prohibited by the rules;
+
     (3) it attempts to levy a fine with a value that is blatantly
         and obviously unsuited to the conduct which constitutes the
         reason for its levy or to the person on whom it is being
@@ -104,4 +105,9 @@ history:
   date: 2020-06-03
   agent:
     proposal: "8389"
+- change:
+    type: amendment
+  date: 2020-06-03
+  agent:
+    proposal: "8392"
 annotations: []
