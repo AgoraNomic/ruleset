@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 23 May 2020
+Date of this ruleset: 4 Jun 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 133
+Number of rules currently enacted: 134
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2614
-Highest ID'd Proposal Passed: 8386
-Highest ID'd Rule Enacted: 2615
+Highest ID'd rule in this ruleset: 2619
+Highest ID'd Proposal Passed: 8404
+Highest ID'd Rule Enacted: 2619
 
 ========================================================================
 The Game of Agora
@@ -46,21 +46,6 @@ Agora Is A Nomic
       gamestate would cause Agora to become ossified, or would cause
       Agora to cease to exist, it is cancelled and does not occur, rules
       to the contrary notwithstanding.
-      
-------------------------------------------------------------------------
-========================================================================
-Important Temporary Rules
-   This category is a temporary dumping ground for rules that don't
-   easily fit in any other category but that hold special relevance
-   for the current gamestate.
-------------------------------------------------------------------------
-Rule 2609/0 (Power=1.0)
-Temporary CFJ Setup
-
-      Rules to the contrary notwithstanding, twg CANNOT publish a Notice
-      of Honour.
-      
-      twg CAN, by announcement, cause this Rule to repeal itself.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -813,7 +798,7 @@ Proposal Classes
       period has not yet ended.
       
 ------------------------------------------------------------------------
-Rule 2607/3 (Power=2.0)
+Rule 2607/4 (Power=2.0)
 Proposal Chambers
 
       Chamber is a a secured untracked ordinary proposal switch whose
@@ -829,6 +814,9 @@ Proposal Chambers
       the chamber of an ordinary proposal to any ministry, provided
       that it is in the Proposal Pool or that there is an Agoran
       decision on its adoption whose voting period has not yet ended.
+      
+      To refer a proposal to a ministry is to set the chamber of that
+      proposal to the specified ministry.
       
 ------------------------------------------------------------------------
 Rule 1607/47 (Power=3)
@@ -885,37 +873,6 @@ Adopting Proposals
       
       A proposal CAN override the effect of any rule which it is capable
       of amending by specifying that it does so.
-      
-------------------------------------------------------------------------
-Rule 2597/0 (Power=1)
-Line-item Veto
-
-      The Comptrollor is an imposed office.  When the office is vacant,
-      the ADoP CAN, by announcement, set the Comptrollor to a player
-      chosen at random from the set of current Officers, excepting any
-      player who was most recently the Comptrollor.  The ADoP SHALL do
-      so in a timely fashion after the office becomes vacant.
-      
-      When the Comptrollor office has been held for the same player for
-      30 days, it becomes vacant.
-      
-      A Notice of Veto is a body of text, published by the Comptrollor,
-      clearly, directly, and without obfuscation labelled within the
-      publishing message as being a Notice of Veto.
-      
-      When a Comptrollor publishes a Notice of Veto, the office of
-      Comptrollor becomes vacant.
-      
-      If the text of a Notice of Veto clearly indicates certain
-      provisions within specified Proposals as being vetoed, and the
-      voting period for a decision to adopt the proposal is ongoing
-      when the Notice is published, then the provisions are vetoed. For
-      the purposes of this Rule, each individual change specified within
-      a proposal's text is a "provision".
-      
-      Vetoed provisions in a proposal are prohibited from being applied
-      when the proposal takes effect (that is, that part of the
-      proposal's effect CANNOT be applied).
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -1194,32 +1151,6 @@ Bleach
       Replacing a non-zero amount of whitespace with a different
       non-zero amount of whitespace is generally insignificant, except
       for paragraph breaks.
-      
-------------------------------------------------------------------------
-Rule 2599/0 (Power=1)
-The Editor
-
-      The Editor is the same person, if any, as the Rulekeepor.
-      
-      The Editor CAN, with Agoran consent, enact regulations,
-      collectively called "Editorial Guidelines". The Editor CAN, with
-      Agoran consent, repeal and amend Editorial Guidelines. The Editor
-      is the Promulgator for all Editorial Guidelines.
-      
-      Editorial Guidelines SHOULD pertain only to matters that affect
-      non-substantive aspects of the Rules, e.g. capitalization or
-      spelling. Editorial Guidelines CANNOT place any enforceable
-      requirements upon any player and CANNOT cause any changes to the
-      gamestate. Whether or not the text of a textual entity conforms to
-      the Editorial Guidelines SHOULD NOT affect the interpretation of
-      that entity.
-      
-      When writing proposals and enacting or amending regulations,
-      players SHOULD follow all reasonable directives that are set out
-      in the Editorial Guidelines.
-      
-      Causing an Editorial Guideline to be inconsistent with any other
-      Editorial Guideline is the Class 1 Crime of Editorial Hypocrisy.
       
 ------------------------------------------------------------------------
 Rule 2614/4 (Power=3.01)
@@ -1625,7 +1556,7 @@ Offices
       becomes the holder of the office.
       
 ------------------------------------------------------------------------
-Rule 2154/57 (Power=2)
+Rule 2154/58 (Power=2)
 Election Procedure
 
       A player CAN initiate an election for a specified elected office:
@@ -1648,11 +1579,10 @@ Election Procedure
       be a player during the election or if holding the office would
       make em Overpowered.
       
-      An election is contested if it has two or more candidates at the
-      end of the nomination period, and uncontested otherwise. For a
-      contested election, nominations close at the end of the poll's
-      voting period. For an uncontested election, nominations close at
-      the end of the nomination period.
+      An election whose nomination period is complete is contested if it
+      has two or more candidates, and uncontested otherwise. Nominations
+      close at the end of the poll's voting period or when the election
+      is ended, whichever comes first.
       
       After the nomination period ends, the ADoP CAN and, in a timely
       fashion, SHALL:
@@ -1739,7 +1669,7 @@ The Associate Director of Personnel
          interim.
       
 ------------------------------------------------------------------------
-Rule 2472/3 (Power=2)
+Rule 2472/4 (Power=2)
 Office Incompatibilities
 
       Some pairs of office are incompatible:
@@ -1756,6 +1686,8 @@ Office Incompatibilities
       incompatible with each other. Rules to the contrary
       notwithstanding, a player CANNOT be installed into an office if
       doing so would make em Overpowered.
+      
+      A zombie is Overpowered if e holds one or more offices.
       
       If a player is Overpowered, any player CAN, with Notice, Demand
       Resignation from em. When this occurs, each office that the
@@ -1818,6 +1750,20 @@ No News Is Some News
 
       If the rules define a report as including a list, then while that
       list is empty, that report includes the fact that it is empty.
+      
+------------------------------------------------------------------------
+Rule 2616/0 (Power=1.0)
+The Webmastor
+
+      The Webmastor's monthly report includes a Directory, a Changelog,
+      a Warning Log, and an Error Log. The Directory lists notable
+      currently maintained public resources. The Changelog lists notable
+      changes to resources. The Warning Log lists notable potential
+      issues, such as inaccurate or aging resources or unintended issues
+      with a public resource. The Error Log lists notable losses of
+      resources - where a resource has become inaccessible,
+      unmaintained, or unusable. Where 'notable' is used in this rule
+      its meaning is up to the Webmastor's discretion.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -1962,7 +1908,7 @@ Blots
       fugitive's blots are destroyed.
       
 ------------------------------------------------------------------------
-Rule 2478/11 (Power=1.7)
+Rule 2478/13 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
@@ -1976,6 +1922,9 @@ Vigilante Justice
       the investigation by:
       
       - Imposing the Cold Hand of Justice on the perp for the cited rule
+        violation, as described elsewhere;
+      
+      - Issuing an Indictment against the perp for the cited rule
         violation, as described elsewhere; or
       
       - if e believes that no rules violation occurred or that it would
@@ -1990,7 +1939,9 @@ Vigilante Justice
       become the investigator of that Finger Pointing by announcement.
       
       The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
-      Finger at the Referee.
+      Finger at the Referee. A high crime is any crime specified as
+      being class 4 or greater. The Referee CANNOT levy the Cold Hand of
+      Justice to punish a high crime, notwithstanding Rule 2478.
       
 ------------------------------------------------------------------------
 Rule 2479/6 (Power=1.7)
@@ -2040,7 +1991,37 @@ Sentencing Guidelines
       remorse, and ardent desire for self-improvement.
       
 ------------------------------------------------------------------------
-Rule 2531/8 (Power=2)
+Rule 2619/0 (Power=1.0)
+Indictment
+
+      When the rules authorize an investigator to issue an Indictment
+      for a violation, e CAN do so by announcement, specifying a fine of
+      blots to be issued and the perpetrator and making an argument for
+      the conviction of the accused.
+      
+      When an investigator has issued an Indictment, the perpetrator CAN
+      state a defence. Within 10 days but no less than 4 days after the
+      indictment has been issued, the judge SHALL initiate two Agoran
+      Decisions, one to determine whether to convict the perpetrator and
+      one to determine whether to accept the indictment. For these
+      decision, the vote collector is the Judge and the voting method is
+      AI-majority with AI=1.5. When initiating the decisions, the Judge
+      SHALL, in the same message, publish the full texts of the
+      Indictment and the defence. If both decisions are resolved as
+      ADOPTED, the investigator CAN and SHALL impose the fine stated in
+      the indictment. If the decision to convict is resolved as ADOPTED
+      but the decision to accept is resolved as REJECTED, the
+      investigator CAN issue a new Indictment. If the decision to
+      convict is resolved as REJECTED, a fine SHALL NOT be imposed for
+      the crime stated in the indictment.
+      
+      The Judge of the Indictment is the first of the following players
+      who is neither the investigator nor the perp: the Arbitor, the
+      Speaker, the Prime Minister. If this still fails to specify a
+      player, then the Indictment lacks a Judge until that changes.
+      
+------------------------------------------------------------------------
+Rule 2531/10 (Power=2)
 Defendant's Rights
 
       Any attempt to levy a fine is INEFFECTIVE if:
@@ -2057,8 +2038,9 @@ Defendant's Rights
             have committed the action or inaction for which the fine was
             levied;
       
-        (2) it attempts to levy a fine for an action or inaction which
-            is not prohibited by the rules;
+        (2) it attempts to levy a fine for an action or inaction which,
+            at the time the inaction or action occurred, was not
+            prohibited by the rules;
       
         (3) it attempts to levy a fine with a value that is blatantly
             and obviously unsuited to the conduct which constitutes the
@@ -2082,12 +2064,27 @@ Defendant's Rights
         (7) it attempts to levy a fine on a zombie for an action that
             its master performed on its behalf.
       
-        If the Referee attempts to levy three or more INEFFECTIVE fines
-        in a week, any player CAN, with two support, issue a writ of
-        Impartial Arbitration Restoration, immediately making the
-        position of Referee vacant. When a writ of Impartial Arbitration
-        Restoration is issued, the ADoP SHALL initiate an election for
-        the Referee in a timely fashion.
+------------------------------------------------------------------------
+Rule 2617/0 (Power=1.0)
+Defense Against the Dark Arts
+
+      A proposal is forbidden if it would, upon successfully taking
+      effect, cause Agora to be ossified or to cease to exist.  An
+      action is forbidden if it would, upon its successful occurrence,
+      cause Agora to be ossified or to cease to exist.
+      
+      Attempting a forbidden action is PROHIBITED, and is the Class-4
+      Crime of Engaging in Forbidden Arts.
+      
+      Submitting a forbidden proposal is PROHIBITED, and is the Class-1
+      Crime of Contemplating Forbidden Arts.
+      
+      Being the author of an adopted forbidden proposal is PROHIBITED,
+      and is the Class-2 Crime of Suborning Forbidden Arts.
+      
+      Having a final ballot that evaluates to FOR in the Agoran decision
+      on whether to adopt a forbidden proposal is PROHIBITED, and is the
+      Class-1 Crime of Abetting Forbidden Arts.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2303,7 +2300,7 @@ Pledges
       purpose.
       
 ------------------------------------------------------------------------
-Rule 2466/1 (Power=3)
+Rule 2466/2 (Power=3)
 Acting on Behalf
 
       When a rule allows one person (the agent) to act on behalf of
@@ -2322,7 +2319,8 @@ Acting on Behalf
       on behalf of another person to do anything except perform a game
       action; in particular, a person CANNOT act on behalf of another
       person to send a message, only to perform specific actions that
-      might be taken within a message.
+      might be taken within a message, including actions that would
+      otherwise be taken by publishing certain text.
       
       When an action is performed on behalf of a principal, then the
       action is considered for all game purposes to have been performed
@@ -2337,7 +2335,39 @@ Acting on Behalf
       behalf of another person.
       
 ------------------------------------------------------------------------
-Rule 2519/1 (Power=3)
+Rule 2618/0 (Power=2.2)
+Promises
+
+      Promises are a class of assets, tracked by the Notary. Their
+      essential attributes are their text and creator. A person CAN, by
+      announcement, acting as emself, grant emself a promise, specifying
+      its text and becoming its creator. A promise's owner is referred
+      to as its bearer. Promises with the same text, creator, and bearer
+      are fungible. Promises with the same text and creator SHOULD be
+      referred to by the same title, but the title is not an essential
+      attribute of the promise, just a way of referring to it.
+      
+      A promise's bearer CAN, by announcement, cash the promise,
+      provided that any conditions for cashing it specified by its text
+      are unambiguously met. By doing so, e acts on the creator of the
+      promise's behalf, causing the creator to act as if e published the
+      promise's text, and destroys the promise. The bearer SHOULD recite
+      the promise's essential attributes in the same message e cashes
+      it.
+      
+      In a promise's text, "the bearer" (or the like) refers to the
+      promise's bearer, and "this promise" (or the like) refers to the
+      promise. The text of the promise can refer to the context of the
+      message in which it is cashed, but the context of the message does
+      not otherwise change the meaning of the promise.
+      
+      The Library is an entity and CAN own promises. Any player CAN take
+      a specified promise from the Library by announcement, provided e
+      cashes the promise in the same message. Any player CAN revoke a
+      specified promise from the Library without objection.
+      
+------------------------------------------------------------------------
+Rule 2519/2 (Power=3)
 Consent
 
       A person is deemed to have consented to an action if and only if,
@@ -2346,9 +2376,10 @@ Consent
       1. e, acting as emself, has publicly stated that e agrees to the
          action and not subsequently publicly withdrawn eir statement;
       2. e is party to a contract whose body explicitly and
-         unambiguously indicates eir consent; or
-      3. it is reasonably clear from context that e wanted the
-         action to take place or assented to it taking place.
+          unambiguously indicates eir consent;
+      3. the action is taken as part of a promise which e created; or
+      4. it is reasonably clear from context that e wanted the action to
+         take place or assented to it taking place.
       
 ------------------------------------------------------------------------
 Rule 1742/22 (Power=2.5)
@@ -2389,7 +2420,7 @@ Contracts
         specified recipient.
       
 ------------------------------------------------------------------------
-Rule 2608/1 (Power=2.0)
+Rule 2608/2 (Power=2.0)
 The Notary
 
       The Notary is an office.
@@ -2397,8 +2428,10 @@ The Notary
       The Notary's weekly report contains:
       
       1. every pledge, along with its title, creator, time window, time
-         of creation, and time of expiry; and
-      2. every contract, with its title, full provisions, and parties.
+         of creation, and time of expiry;
+      2. every contract, with its title, full provisions, and parties;
+         and
+      3. every promise, along with its title, text, creator, and bearer.
       
       If the Notary is required to report a title, but none has been
       otherwise publicly provided, e CAN select one.
@@ -2714,12 +2747,22 @@ Bidding
       em to pay that amount at the conclusion of the Auction.
       
 ------------------------------------------------------------------------
-Rule 2551/5 (Power=1)
+Rule 2551/6 (Power=1)
 Auction End
 
-      An Auction ends 7 days after its initiation, or immediately if no
-      bid has been placed or withdrawn in the last 96 hours, or
-      immediately if it is terminated.
+      An Auction ends immediately when any of the following conditions
+      are met:
+      
+      1. The auction was initiated 7 days ago.
+      
+      2. The auction was initiated at least 96 hours ago, and it has
+         been 96 hours since the most recent placement or withdrawal of
+         a bid in that auction.
+      
+      3. The auction was initiated 96 hours ago and no bids have been
+         placed or withdrawn in that auction.
+      
+      4. The auction is terminated.
       
       When an Auction ends, any bid placed by an entity which does not
       own enough of the Auction's currency to pay the amount specified
