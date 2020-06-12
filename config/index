@@ -185,11 +185,6 @@
     If you want to give out assets, this is the section to look at.
   rules:
   - 2545 # Auctions
-  - 2549 # Auction Initiation
-  - 2550 # Bidding
-  - 2551 # Auction End
-  - 2552 # Auction Termination
-  - 2584 # Free Auctions
 - name: The Undead
   note: |
     A silly mechanic describing what happens after you become inactive.

@@ -2,21 +2,33 @@ id: 2545
 name: Auctions
 power: 2
 text: |
-  An Auction is a way for entities to give away items in exchange
-  for a currency. Any rule CAN permit or require Auctions to be
-  initiated.
+  An auction is a way for entities to give away specified assets
+  (items), grouped into lots, in exchange for a currency. A lot is a
+  non-empty list of items to be transferred to a single recipient
+  (an auction winner).
 
-  Each Auction has one or more lots of items. A lot is a non-empty
-  list of items to be transferred to a single recipient.
+  When the rules authorize a person (the auctioneer) to conduct an
+  auction, e CAN do so by any wholly public method that would be
+  generally recognizable, as specified by the auctioneer at the
+  start of the auction, and under common definitions and terms used
+  in auctions, as a fair, equitable, and timely means of determining
+  the auction winners from among the current players, and enabling
+  the appropriate exchange of goods.
 
-  Each Auction has an Auctioneer. All rules permitting Auctions to
-  be initiated should specify an entity to be Auctioneer. If no
-  Auctioneer is specified, the default Auctioneer is Agora.
+  The rule that authorizes the auction further authorizes the
+  auctioneer or auction winners to transfer said items as necessary
+  to conduct the auction in a manner consistent with the auction
+  method. If the authorization is to auction "new" items, it further
+  authorizes the creation of said items as per the chosen method.
 
-  Each Auction has an Announcer. Only persons can be Announcers. If
-  the Auctioneer of an Auction is a player, then that player is also
-  the Announcer of that Auction. Otherwise, the rule defining an
-  Auction CAN define the Announcer for that Auction.
+  The Treasuror is the promulgator for regulations that define
+  specific auction methods (i.e. "the default auction method") and
+  SHOULD do in order to aid trade and commerce.  For the purposes of
+  interpreting auction definitions, such methods are treated as if
+  they are defined in this rule. To further aid trade and commerce,
+  auction methods should be interpreted in the name of fairness with
+  deference to the method's clear intent, if intent can be
+  reasonably inferred.
 history:
 - change:
     type: enactment
@@ -34,4 +46,9 @@ history:
   date: 2018-11-12
   agent:
     proposal: "8113"
+- change:
+    type: amendment
+  date: 2020-06-12
+  agent:
+    proposal: "8407"
 annotations: []
