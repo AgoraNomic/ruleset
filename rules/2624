@@ -1,0 +1,25 @@
+id: 2624
+name: Card Administration
+power: 1.0
+text: |
+  Justice Cards are associated with the Ministry of Justice.
+  Legislative Cards are associated with the Ministry of Legislation.
+  Voting Cards are associated with the ministry of Participation.
+
+  An officer CAN, once per month and by announcement, grant another
+  player a specified type of card under the following conditions:
+
+  * the officer holds at least one office with the Card's associated
+    ministry in its interests,
+
+  * the player receiving the Card does not hold an office with the
+    Card's associated ministry in its interests, AND
+
+  * the player receiving the Card is not a zombie.
+history:
+- change:
+    type: enactment
+  date: 2020-06-12
+  agent:
+    proposal: "8408"
+annotations: []

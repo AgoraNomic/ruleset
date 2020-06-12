@@ -1,0 +1,32 @@
+id: 2620
+name: Cards & Sets
+power: 1.0
+text: |
+  Cards are a type of currency with a corresponding Product.
+  Products are also currencies. The types of Cards and their
+  corresponding Products are:
+  
+  * Victory Cards and Victory Points.
+  * Justice Cards and Blot-B-Gones
+  * Legislative Cards and Pendants
+  * Voting Cards and Extra Votes
+
+  A player CAN pay a 'set' of X Cards of the same type to earn Y
+  corresponding Products. The value of X determines the value of Y
+  in the following ways:
+
+  * 1 Card = 1 Product
+  * 2 Cards = 3 Products
+  * 3 Cards = 6 Products
+  * 4 Cards = 10 Products
+
+  A player CANNOT pay more than 4 Cards as one 'set'.
+
+  Cards and Products are tracked by the Treasuror.
+history:
+- change:
+    type: enactment
+  date: 2020-06-12
+  agent:
+    proposal: "8408"
+annotations: []

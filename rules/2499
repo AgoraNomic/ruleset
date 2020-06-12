@@ -6,7 +6,8 @@ text: |
   recently registered, any player CAN cause em to receive one by
   announcement.
 
-  When a player receives a Welcome Package, e earns 10 coins.
+  When a player receives a Welcome Package, e earns 10 coins and
+  one of each type of Card defined in the rules.
 history:
 - change:
     type: enactment
@@ -48,4 +49,9 @@ history:
   date: 2018-11-19
   agent:
     proposal: "8126"
+- change:
+    type: amendment
+  date: 2020-06-12
+  agent:
+    proposal: "8408"
 annotations: []

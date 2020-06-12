@@ -4,8 +4,6 @@ power: 2
 text: |
   Coins are the official currency of Agora and are tracked by the
   Treasuror. They can be owned by Agora, players, and contracts.
-
-  A player CAN win the game by paying a fee of 1,000 Coins.
 history:
 - change:
     type: enactment
@@ -77,4 +75,9 @@ history:
   date: 2019-06-22
   agent:
     proposal: "8186"
+- change:
+    type: amendment
+  date: 2020-06-12
+  agent:
+    proposal: "8408"
 annotations: []

@@ -18,9 +18,8 @@ text: |
     creation.
 
   Creating a proposal adds it to the Proposal Pool. Once a proposal
-  is created, neither its text nor any of the aforementioned
-  attributes can be changed. The author (syn. proposer) of a
-  proposal is the person who submitted it.
+  is created, its text, author, and AI cannot be changed. The author
+  (syn. proposer) of a proposal is the person who submitted it.
 
   If a decision of whether to adopt a proposal was resolved as
   FAILED QUORUM in the last seven days, the Promotor CAN once add
@@ -95,6 +94,11 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8291"
+- change:
+    type: amendment
+  date: 2020-06-12
+  agent:
+    proposal: "8408"
 annotations:
 - cfjs:
   - id: '1647'
