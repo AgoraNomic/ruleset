@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 4 Jun 2020
+Date of this ruleset: 13 Jun 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -11,9 +11,9 @@ Number of rules currently enacted: 134
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2619
-Highest ID'd Proposal Passed: 8404
-Highest ID'd Rule Enacted: 2619
+Highest ID'd rule in this ruleset: 2624
+Highest ID'd Proposal Passed: 8408
+Highest ID'd Rule Enacted: 2624
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -52,12 +52,14 @@ Entities
    * Rule 2613: Effects of Instruments
 Proposals
    * Rule 2350: Proposals
+   * Rule 2622: Pending Proposals
    * Rule 2605: Ministries
    * Rule 2606: Proposal Classes
    * Rule 2607: Proposal Chambers
    * Rule 1607: Distribution
    * Rule 2137: The Assessor
    * Rule  106: Adopting Proposals
+   * Rule 2623: Popular Proposal Proposer Privilege
 Rules & Regulations
    * Rule 2141: Role and Attributes of Rules
    * Rule  217: Interpreting the Rules
@@ -134,15 +136,13 @@ Economics
    * Rule 2483: Economics
    * Rule 2496: Rewards
    * Rule 2559: Paydays
+   * Rule 2620: Cards & Sets
+   * Rule 2621: VP Wins
+   * Rule 2624: Card Administration
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
 Auctions
    * Rule 2545: Auctions
-   * Rule 2549: Auction Initiation
-   * Rule 2550: Bidding
-   * Rule 2551: Auction End
-   * Rule 2552: Auction Termination
-   * Rule 2584: Free Auctions
 The Undead
    * Rule 2532: Zombies
    * Rule 2574: Zombie Life Cycle
@@ -1727,7 +1727,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/12 (Power=3)
+Rule 2350/13 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -1746,9 +1746,8 @@ Proposals
         creation.
       
       Creating a proposal adds it to the Proposal Pool. Once a proposal
-      is created, neither its text nor any of the aforementioned
-      attributes can be changed. The author (syn. proposer) of a
-      proposal is the person who submitted it.
+      is created, its text, author, and AI cannot be changed. The author
+      (syn. proposer) of a proposal is the person who submitted it.
       
       If a decision of whether to adopt a proposal was resolved as
       FAILED QUORUM in the last seven days, the Promotor CAN once add
@@ -1774,6 +1773,8 @@ Amended(10) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
 Amended(11) by cleaning (Trigon), 04 Nov 2018
 Amended(12) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
+Amended(13) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 
 Annotations:
 CFJ 1647 (called 30 Apr 2007): Preceding a proposal-like text with the
@@ -1783,6 +1784,30 @@ CFJ 1647 (called 30 Apr 2007): Preceding a proposal-like text with the
 CFJ 1717 (called 08 Aug 2007): Preceding a proposal-like text with the
    question "What is the title of this proposal?" can be sufficient to
    clearly indicate that it is intended to become a proposal.
+
+------------------------------------------------------------------------
+Rule 2622/0 (Power=1.0)
+Pending Proposals
+
+      Pended is a negative boolean proposal switch tracked by the
+      Promotor. Any player CAN pay 1 Pendant to flip the Pended switch
+      of a specified proposal to True. If the player did not create the
+      proposal and is not listed in the list of co-authors of the
+      proposal, e is added to the list of co-authors.
+      
+      The Promotor CAN, once a week and with 2 support, flip the Pended
+      switch of a proposal in the Proposal Pool to True. E SHOULD NOT do
+      so if the author of the proposal has at least one Pendant or
+      Legislative Card.
+      
+      A proposal with a Pended switch set to True is 'pending'.
+      
+History:
+
+Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+
+Annotations:
 
 ------------------------------------------------------------------------
 Rule 2605/1 (Power=2.0)
@@ -1873,7 +1898,7 @@ Amended(4) by P8397 'Referral' (Publius Scribonius Scholasticus), 03
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1607/47 (Power=3)
+Rule 1607/48 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -1888,12 +1913,16 @@ Distribution
       and removes the proposal from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time.
+      Pool at any time, but SHALL NOT do so unless it is pending.
       
-      In a given Agoran week, the Promotor SHALL distribute each
+      In a given Agoran week, the Promotor SHALL distribute each pending
       proposal that was in the Proposal Pool at the beginning of that
       week, except for those excepted from automatic distribution by
       other rules, or those that are otherwise removed from the Pool.
+      
+      If a proposal has been in the proposal pool for more than 7 days
+      and is not pending, the Promotor CAN and SHOULD remove it from the
+      Pool by announcement.
       
       Distributed proposals have ID numbers, to be assigned by the
       Promotor.
@@ -1972,6 +2001,8 @@ Amended(46) by P8269 'Clean up distribution mechanisms' (omd), 11 Nov
    2019
 Amended(47) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
+Amended(48) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 
 Annotations:
 CFJ 1546 (called 14 Apr 2005): CFJ 1546 (called 14 Apr 2005), CFJ 1669
@@ -2115,6 +2146,22 @@ CFJ 2259 (called 06 Nov 2008): The possibility of the instantaneous
    effects of a proposal are governed by the rules.
 CFJ 3784 (called 22 Dec 2019): A proposal using the first person refers
    to the proposal itself.
+
+------------------------------------------------------------------------
+Rule 2623/0 (Power=1.0)
+Popular Proposal Proposer Privilege
+
+      The player who proposed the proposal with the greatest F/A, as
+      defined in rule 955, among all proposals assessed in the last 7
+      days CAN once earn one Legislative Card by announcement. If there
+      is a tie, all authors of the tied proposals may do so once each.
+      
+History:
+
+Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+
+Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3299,7 +3346,7 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision
    changes as the set of eligible voters changes.
 
 ------------------------------------------------------------------------
-Rule 2422/6 (Power=3)
+Rule 2422/7 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -3317,6 +3364,12 @@ Voting Strength
       voting strength, it is set to the minimum value if it was less
       and the maximum value if it was more.
       
+      A player CAN Buy Strength by paying 1 Extra Vote and specifying a
+      current Agoran decision on which e is a voter. For each time a
+      player has Bought Strength on a decision, eir voting strength is 1
+      greater on that decision. A player CANNOT Buy Strength for the
+      same decision more than 3 times.
+      
 History:
 
 Enacted by P7629 'Do Things' (Alexis), 07 Apr 2014
@@ -3328,6 +3381,8 @@ Amended(4) by cleaning (Falsifian), 28 Apr 2019
 Amended(5) by cleaning (Murphy), 03 Nov 2019
 Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
+Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 
 Annotations:
 
@@ -4346,7 +4401,7 @@ Amended(1) by cleaning (Alexis), 23 Jan 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2555/7 (Power=2)
+Rule 2555/8 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -4365,11 +4420,8 @@ Blots
       
       The Referee is an office, and the recordkeepor for blots.
       
-      If a person (the penitent) has neither gained blots nor had more
-      than 2 blots expunged from emself in the current Agoran week, then
-      any player (the confessor) who has not, by this mechanism,
-      expunged any blots in the current Agoran week CAN expunge 1 blot
-      from the penitent, by announcement.
+      Any player CAN expunge a blot from a specified person (or emself
+      if no one is specified) by paying a fee of one Blot-B-Gone.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -4385,6 +4437,8 @@ Amended(4) by P8235 'Unified fine creation syntax' (Jason), 18 Sep 2019
 Amended(5) by cleaning (Alexis), 23 Jan 2020
 Amended(6) by P8345 'Self-punishment' (Jason), 10 Mar 2020
 Amended(7) by P8350 'Apologies Don't Interfere' (Alexis), 21 Mar 2020
+Amended(8) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 
 Annotations:
 
@@ -5399,7 +5453,7 @@ Assets
    Assets are things players can own. This section describes how that
    works.
 ------------------------------------------------------------------------
-Rule 2166/29 (Power=3)
+Rule 2166/30 (Power=3)
 Assets
 
       An asset is an entity defined as such by a document that has been
@@ -5410,8 +5464,8 @@ Assets
       transferred.
       
       The rules collectively have Mint Authority. Contracts have Mint
-      Authority. An asset defined by rule or regulation is public; one
-      defined by a contract is private.
+      Authority. An asset defined by rule or regulation is public; any
+      other asset is private.
       
       The recordkeepor of a class of assets is the entity (if any)
       defined as such by, and bound by, its backing document. That
@@ -5469,6 +5523,7 @@ Amended(27) by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(28) by P8129 'Bugfix: Treasuror doesn't self-ratify v2' (twg,
    Trigon, G.), 19 Nov 2018
 Amended(29) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
+Amended(30) by P8405 'Generic private assets' (Jason), 12 Jun 2020
 
 Annotations:
 CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
@@ -5638,13 +5693,11 @@ Re-enacted(6) and amended by P8041 'Consolidated Patch' (Aris, Trigon,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2483/13 (Power=2)
+Rule 2483/14 (Power=2)
 Economics
 
       Coins are the official currency of Agora and are tracked by the
       Treasuror. They can be owned by Agora, players, and contracts.
-      
-      A player CAN win the game by paying a fee of 1,000 Coins.
       
 History:
 
@@ -5667,6 +5720,8 @@ Amended(11) by P8070 'Crackdown on minting (reindustrialisation
    edition)' (twg), 26 Jul 2018
 Amended(12) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
 Amended(13) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
+Amended(14) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 
 Annotations:
 
@@ -5771,14 +5826,90 @@ Amended(7) by P8253 'Clarify salary' (Murphy, G., Jason), 03 Nov 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/6 (Power=1)
+Rule 2620/0 (Power=1.0)
+Cards & Sets
+
+      Cards are a type of currency with a corresponding Product.
+      Products are also currencies. The types of Cards and their
+      corresponding Products are:
+      
+      * Victory Cards and Victory Points.
+      * Justice Cards and Blot-B-Gones
+      * Legislative Cards and Pendants
+      * Voting Cards and Extra Votes
+      
+      A player CAN pay a 'set' of X Cards of the same type to earn Y
+      corresponding Products. The value of X determines the value of Y
+      in the following ways:
+      
+      * 1 Card = 1 Product
+      * 2 Cards = 3 Products
+      * 3 Cards = 6 Products
+      * 4 Cards = 10 Products
+      
+      A player CANNOT pay more than 4 Cards as one 'set'.
+      
+      Cards and Products are tracked by the Treasuror.
+      
+History:
+
+Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2621/0 (Power=1.0)
+VP Wins
+
+      If a player has at least 20 more Victory Points than any other
+      player, e CAN win by announcement. When a player wins this way,
+      all Cards and all Products are destroyed. Then each non-zombie
+      player is granted 1 card of each type.
+      
+History:
+
+Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2624/0 (Power=1.0)
+Card Administration
+
+      Justice Cards are associated with the Ministry of Justice.
+      Legislative Cards are associated with the Ministry of Legislation.
+      Voting Cards are associated with the ministry of Participation.
+      
+      An officer CAN, once per month and by announcement, grant another
+      player a specified type of card under the following conditions:
+      
+      * the officer holds at least one office with the Card's associated
+        ministry in its interests,
+      
+      * the player receiving the Card does not hold an office with the
+        Card's associated ministry in its interests, AND
+      
+      * the player receiving the Card is not a zombie.
+      
+History:
+
+Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2499/7 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
       recently registered, any player CAN cause em to receive one by
       announcement.
       
-      When a player receives a Welcome Package, e earns 10 coins.
+      When a player receives a Welcome Package, e earns 10 coins and
+      one of each type of Card defined in the rules.
       
 History:
 
@@ -5794,6 +5925,8 @@ Amended(4) by P8072 'Steel Based Manufacturing v3' (Aris, twg), 26 Jul
    2018
 Amended(5) by P8092 'Yet Another Economics Patch' (twg), 17 Sep 2018
 Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
+Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 
 Annotations:
 
@@ -5828,24 +5961,36 @@ Annotations:
 Auctions
    If you want to give out assets, this is the section to look at.
 ------------------------------------------------------------------------
-Rule 2545/2 (Power=2)
+Rule 2545/3 (Power=2)
 Auctions
 
-      An Auction is a way for entities to give away items in exchange
-      for a currency. Any rule CAN permit or require Auctions to be
-      initiated.
+      An auction is a way for entities to give away specified assets
+      (items), grouped into lots, in exchange for a currency. A lot is a
+      non-empty list of items to be transferred to a single recipient
+      (an auction winner).
       
-      Each Auction has one or more lots of items. A lot is a non-empty
-      list of items to be transferred to a single recipient.
+      When the rules authorize a person (the auctioneer) to conduct an
+      auction, e CAN do so by any wholly public method that would be
+      generally recognizable, as specified by the auctioneer at the
+      start of the auction, and under common definitions and terms used
+      in auctions, as a fair, equitable, and timely means of determining
+      the auction winners from among the current players, and enabling
+      the appropriate exchange of goods.
       
-      Each Auction has an Auctioneer. All rules permitting Auctions to
-      be initiated should specify an entity to be Auctioneer. If no
-      Auctioneer is specified, the default Auctioneer is Agora.
+      The rule that authorizes the auction further authorizes the
+      auctioneer or auction winners to transfer said items as necessary
+      to conduct the auction in a manner consistent with the auction
+      method. If the authorization is to auction "new" items, it further
+      authorizes the creation of said items as per the chosen method.
       
-      Each Auction has an Announcer. Only persons can be Announcers. If
-      the Auctioneer of an Auction is a player, then that player is also
-      the Announcer of that Auction. Otherwise, the rule defining an
-      Auction CAN define the Announcer for that Auction.
+      The Treasuror is the promulgator for regulations that define
+      specific auction methods (i.e. "the default auction method") and
+      SHOULD do in order to aid trade and commerce.  For the purposes of
+      interpreting auction definitions, such methods are treated as if
+      they are defined in this rule. To further aid trade and commerce,
+      auction methods should be interpreted in the name of fairness with
+      deference to the method's clear intent, if intent can be
+      reasonably inferred.
       
 History:
 
@@ -5853,187 +5998,7 @@ Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nch, G.), 26 Nov 2017
 Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01
    Jul 2018
 Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2549/4 (Power=1)
-Auction Initiation
-
-      An entity authorized by a rule to initiate an Auction CAN do so by
-      announcement. If the rule specifies that that entity MUST do so,
-      that entity SHALL do so in a timely fashion. An Auction CANNOT be
-      initiated other than as described by a rule.
-      
-      An Auction CANNOT be initiated unless the announcer specifies all
-      of
-      
-      * the Auction's lots, in the order they will be awarded,
-      
-      * the items in each lot,
-      
-      * the Auction's Auctioneer,
-      
-      * the Auction's Announcer,
-      
-      * the Auction's minimum bid, and, optionally
-      
-      * the Auction's currency
-      
-      in the message initiating the Auction. An Auction also CANNOT be
-      initiated unless the Auctioneer is able to give away each item in
-      each of the Auction's lots.
-      
-      If no currency is specified, it defaults to the official currency
-      of Agora.
-      
-History:
-
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nch, G.), 26 Nov 2017
-Amended(1) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
-   G., o, R. Lee), 23 Feb 2018
-Amended(2) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01
-   Jul 2018
-Amended(3) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
-Amended(4) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
-
-Annotations:
-CFJ 3614 (called 27 Nov 2017): A contract can authorize someone to
-   initiate an auction defined elsewhere, but only when permitted by the
-   rules or by the contract defining the auction.
-
-------------------------------------------------------------------------
-Rule 2550/1 (Power=1)
-Bidding
-
-      A person authorized to bid on an Auction CAN do so by
-      announcement, specifying the amount of the Auction's currency to
-      bid. A bid placed on an Auction before it is initiated, or after
-      it has ended, is INEFFECTIVE.
-      
-      An attempt to place a bid which is less than the Auction's minimum
-      bid is INEFFECTIVE.
-      
-      A person CAN withdraw their bid on an Auction by announcement. If
-      a person submits a bid on an Auction, all bids previously placed
-      on that Auction by that person are withdrawn.
-      
-      A rule defining an Auction CAN specify a class of players who are
-      authorized to bid on that Auction. If the rule  does not specify a
-      class of authorized bidders, any player is authorized to bid on an
-      Auction defined by a rule.
-      
-      A person SHALL NOT bid on an Auction if it would be impossible for
-      em to pay that amount at the conclusion of the Auction.
-      
-History:
-
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nch, G.), 26 Nov 2017
-Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01
-   Jul 2018
-
-Annotations:
-CFJ 3633 (called 18 Jun 2018): Saying "x on y" where x is an integer and
-   y is an identifier corresponding to an ongoing auction is a
-   sufficiently clear announcement of a bid.
-CFJ 3740 (called 20 Jun 2019): The successfulness of a bid does not
-   depend on having the bid amount at the time the bid was placed.
-------------------------------------------------------------------------
-Rule 2551/6 (Power=1)
-Auction End
-
-      An Auction ends immediately when any of the following conditions
-      are met:
-      
-      1. The auction was initiated 7 days ago.
-      
-      2. The auction was initiated at least 96 hours ago, and it has
-         been 96 hours since the most recent placement or withdrawal of
-         a bid in that auction.
-      
-      3. The auction was initiated 96 hours ago and no bids have been
-         placed or withdrawn in that auction.
-      
-      4. The auction is terminated.
-      
-      When an Auction ends, any bid placed by an entity which does not
-      own enough of the Auction's currency to pay the amount specified
-      in the bid is automatically withdrawn.
-      
-      Once an Auction has ended, any further attempts to bid on that
-      Auction or to withdraw bids from that Auction are INEFFECTIVE.
-      
-      Once the Auction has ended, the Auction's announcer SHALL announce
-      the end of the Auction in a timely fashion. In the same message, e
-      SHALL include the a list of all the bids on the Auction and the
-      winner(s) (if there are any) of the Auction.
-      
-      The bidders in an Auction are the players who have a non-withdrawn
-      bid in that Auction. Priority is a strict total ordering over the
-      bidders in an Auction. For two bidders with different bid amounts
-      on their non-withdrawn bids, the bidder with the higher bid has
-      higher priority than the other bidder; otherwise, the bidder whose
-      non-withdrawn bid was placed earlier has higher priority than the
-      other bidder.
-      
-      Upon the end of an Auction, for each lot, in the order they are to
-      be awarded, the bidder with the highest priority in the Auction
-      who is not yet the winner of a lot becomes the winner of the lot.
-      If there are more lots than there are persons with non-withdrawn
-      bids, the excess lots are not won by any person.
-      
-      The winner of the lot SHALL, in a timely fashion, pay a fee (the
-      number of the Auction's currency equal to eir bid) to the
-      Auctioneer in order to satisfy eir auction debt. When e does so,
-      if the auctioneer CAN transfer the items in that lot to that
-      winner, e immediately does so; otherwise, e SHALL do so in
-      a timely fashion.
-      
-History:
-
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nch, G.), 26 Nov 2017
-Amended(1) by P8041 'Consolidated Patch' (Aris, Trigon, G.), 27 Apr
-   2018
-Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
-Amended(3) by P8192 'auctions have fees' (G.), 23 Jul 2019
-Amended(4) by P8352 'zombie auction fix 1.1' (G.), 21 Mar 2020
-Amended(5) by P8373 'Auction resolution fixes' (Jason, Aris), 06 May
-   2020
-Amended(6) by P8396 'Auction End Clarification' (grok, G.), 03 Jun 2020
-
-Annotations:
-CFJ 3615 (called 27 Nov 2017): An auction normally ends immediately
-   after its initiation, since, at its commencement, no bid was placed
-   or withdrawn in the previous 96 hours.
-
-------------------------------------------------------------------------
-Rule 2552/0 (Power=1)
-Auction Termination
-
-      Any player CAN terminate an Auction, by announcement, if the
-      Auction has not ended and the Auctioneer of that Auction cannot
-      transfer any item included in a lot in that Auction.
-      
-      When an Auction is terminated, all bids on that Auction are
-      withdrawn, and then the Auction ends immediately.
-      
-History:
-
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nch, G.), 26 Nov 2017
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2584/0 (Power=1)
-Free Auctions
-
-      A player who is not the Auctioneer of an existing Auction
-      specified by this rule CAN, by announcement, initiate an auction
-      with emself as the Announcer and Auctioneer.
-      
-History:
-
-Enacted by P8114 'Free auctions 2' (Trigon, twg, G.), 12 Nov 2018
+Amended(3) by P8407 'no stinking auction definitions' (G.), 12 Jun 2020
 
 Annotations:
 
