@@ -19,12 +19,6 @@ text: |
 
   1. For each former player for which the information is reasonably
      available, the dates on which e registered and deregistered.
-
-  The Registrar's duties and abilities also include:
-
-  * Changing the publicity of a forum.
-
-  * Publishing Cantus Cygnei and Writs of FAGE.
 history:
 - change:
     type: enactment
@@ -118,6 +112,11 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8422"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8423"
 annotations:
 - cfjs:
   - id: '1703'
