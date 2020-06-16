@@ -12,10 +12,9 @@ text: |
   The quorum that an Agoran decision gains as it is created can be
   defined by other rules of power 2 or greater. If no other rule
   defines the quorum of an Agoran decision, the quorum for that
-  decision is equal to 2/3 of the number of voters on the Agoran
-  decision on whether to adopt a proposal that had been most
-  recently resolved at the time of that decision's initiation, the
-  whole rounded to the nearest integer.
+  decision is equal to 2/3 of the number of voters on the referendum
+  that had been most recently resolved at the time of that
+  decision's initiation, the whole rounded to the nearest integer.
 
   As an exception to the previous paragraph, the quorum of an
   Agoran decision can never be less than 2. If the rules would
@@ -232,6 +231,11 @@ history:
   date: 2020-02-24
   agent:
     proposal: "8338"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8418"
 annotations:
 - cfjs:
   - id: '1562'

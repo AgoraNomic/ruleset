@@ -13,8 +13,8 @@ text: |
   unset, the Promotor CAN set the chamber to a specified ministry
   by announcement. Any player CAN, with 2 Agoran consent, flip
   the chamber of an ordinary proposal to any ministry, provided
-  that it is in the Proposal Pool or that there is an Agoran
-  decision on its adoption whose voting period has not yet ended.
+  that it is in the Proposal Pool or that there is an referendum on
+  it whose voting period has not yet ended.
 
   To refer a proposal to a ministry is to set the chamber of that
   proposal to the specified ministry.
@@ -44,4 +44,9 @@ history:
   date: 2020-06-03
   agent:
     proposal: "8397"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8418"
 annotations: []

@@ -5,13 +5,14 @@ text: |
   The Promotor is an office; its holder is responsible for receiving
   and distributing proposals.
 
-  Determining whether to adopt a proposal is an Agoran decision. For
-  this decision, the vote collector is the Assessor, the adoption
-  index is initially the adoption index of the proposal, or 1.0 if
-  the proposal does not have one, and the text, author, coauthors,
-  class and (if applicable) chamber of the proposal are essential
-  parameters. Initiating such a decision is known as distribution,
-  and removes the proposal from the Proposal Pool.
+  A referendum is the Agoran decision to determine whether to adopt
+  a proposal.  For this decision, the vote collector is the
+  Assessor, the adoption index is initially the adoption index of
+  the proposal, or 1.0 if the proposal does not have one, and the
+  text, author, coauthors, class and (if applicable) chamber of the
+  proposal are essential parameters. Initiating a referendum is
+  known as distribution, and removes the proposal from the Proposal
+  Pool.
 
   The Promotor CAN distribute a proposal which is in the Proposal
   Pool at any time, but SHALL NOT do so unless it is pending.
@@ -295,6 +296,11 @@ history:
   date: 2020-06-12
   agent:
     proposal: "8408"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8418"
 annotations:
 - cfjs:
   - id: '1546'

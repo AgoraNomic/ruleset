@@ -2,19 +2,18 @@ id: 2623
 name: Popular Proposal Proposer Privilege
 power: 1.0
 text: |
-  For an Agoran decision on whether to adopt a proposal, let F be
-  the total number of valid ballots resolving to FOR, A be the same
-  for AGAINST, and T be the total number of valid ballots. The
-  decision's popularity is equal to (F - A)/T. The Assessor SHOULD
-  publish the popularity of each decision when resolving it.
+  For a referendum, let F be the total number of valid ballots
+  resolving to FOR, A be the same for AGAINST, and T be the total
+  number of valid ballots.  The referendum's popularity is equal to
+  (F - A)/T. The Assessor SHOULD publish the popularity of each
+  referendum when resolving it.
 
-  The player who proposed the adopted proposal such that the
-  decision on whether to adopt it had the greatest popularity, among
-  all such decisions assessed in the last 7 days CAN once earn one
-  Legislative Card by announcement, provided that no decision on
-  whether to adopt any proposal distributed in the same message
-  remains unresolved. If there is a tie, all authors of the tied
-  proposals can do so once each.
+  The player who proposed the adopted proposal whose referendum had
+  the greatest popularity among all referenda assessed in the last 7
+  days CAN once earn one Legislative Card by announcement, provided
+  that no referendum initiated in the same message as it remains
+  unresolved. If there is a tie, all authors of the tied proposals
+  can do so once each.
 history:
 - change:
     type: enactment
@@ -26,4 +25,9 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8417"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8418"
 annotations: []

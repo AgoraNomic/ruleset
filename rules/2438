@@ -103,6 +103,11 @@ history:
   date: 2020-05-22
   agent:
     proposal: "8386"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8418"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -133,9 +138,9 @@ text: |
   that, immediately before or after the change, has Power >= 3, its
   proposer earns a Red Ribbon.
 
-  Orange (O): When a proposal is adopted via an Agoran Decision on
-  which no valid ballots were AGAINST (after evaluating
-  conditionals), its proposer earns an Orange Ribbon.
+  Orange (O): When a proposal is adopted via a referendum on which
+  no valid ballots were AGAINST (after evaluating conditionals), its
+  proposer earns an Orange Ribbon.
 
   Green (G): While a person holds an elected office, has done so
   continuously for the past 30 days, and has not failed to perform

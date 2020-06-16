@@ -14,7 +14,7 @@ text: |
   its voting period by announcement (resolving it constitutes an
   implicit announcement that its voting period is first ended) if
   the result would no longer be FAILED QUORUM, or if the decision is
-  whether to adopt a proposal and no voter (other than possibly the
+  a referendum on a proposal and no voter (other than possibly the
   proposal's author) has voted FOR.
 history:
 - change:
@@ -57,6 +57,11 @@ history:
   date: 2011-05-16
   agent:
     proposal: "7045"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8418"
 annotations:
 - cfjs:
   - id: 3644

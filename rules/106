@@ -2,12 +2,12 @@ id: 106
 name: Adopting Proposals
 power: 3
 text: |
-  When a decision about whether to adopt a proposal is resolved, if
-  the outcome is ADOPTED, then the proposal in question is adopted,
-  its power is set to the minimum of four and its adoption index, it
-  takes effect as an ephemeral instrument, and then its power is set
-  to 0. This rule defers to rules that would prevent a proposal from
-  taking effect.
+  When a referendum on a proposal is resolved, if the outcome is
+  ADOPTED, then the proposal in question is adopted, its power is
+  set to the minimum of four and its adoption index, it takes effect
+  as an ephemeral instrument, and then its power is set to 0. This
+  rule defers to rules that would prevent a proposal from taking
+  effect.
 
   A proposal CAN override the effect of any rule which it is capable
   of amending by specifying that it does so.
@@ -252,6 +252,11 @@ history:
   date: 2020-03-21
   agent:
     proposal: "8355"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8418"
 annotations:
 - cfjs:
   - id: '1639'
