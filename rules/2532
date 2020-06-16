@@ -17,7 +17,7 @@ text: |
     - initiate, support, object to, or perform a dependent action;
     - act on behalf of that zombie's zombies;
     - bid in a zombie auction;
-    - enter a contract, pledge, or other type of agreement;
+    - enter a contract, pledge, promise, or other type of agreement;
     - initiate a Call for Judgement;
     - create blots;
     - deregister.
@@ -78,4 +78,9 @@ history:
   date: 2020-04-04
   agent:
     proposal: "8358"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8410"
 annotations: []
