@@ -20,7 +20,9 @@ text: |
   nominations close, any player CAN become a candidate by
   announcement. A candidate ceases to be a candidate if e ceases to
   be a player during the election or if holding the office would
-  make em Overpowered.
+  make em Overpowered. During the nomination period, a candidate CAN
+  cease to be a candidate by announcement if there is at least one
+  other candidate.
 
   An election whose nomination period is complete is contested if it
   has two or more candidates, and uncontested otherwise. Nominations
@@ -356,4 +358,9 @@ history:
   date: 2020-06-03
   agent:
     proposal: "8393"
+- change:
+    type: amendment
+  date: 2020-06-18
+  agent:
+    proposal: "8439"
 annotations: []
