@@ -17,10 +17,11 @@ text: |
   The Promotor CAN distribute a proposal which is in the Proposal
   Pool at any time, but SHALL NOT do so unless it is pending.
 
-  In a given Agoran week, the Promotor SHALL distribute each pending
-  proposal that was in the Proposal Pool at the beginning of that
-  week, except for those excepted from automatic distribution by
-  other rules, or those that are otherwise removed from the Pool.
+  In a given Agoran week, the Promotor SHALL distribute each
+  proposal that was in the Proposal Pool and pending at the
+  beginning of that week, except for those excepted from automatic
+  distribution by other rules, or those that are otherwise removed
+  from the Pool.
 
   If a proposal has been in the proposal pool for more than 7 days
   and is not pending, the Promotor CAN and SHOULD remove it from the
@@ -301,6 +302,11 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8428"
 annotations:
 - cfjs:
   - id: '1546'
