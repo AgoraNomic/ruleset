@@ -4,27 +4,51 @@ power: 3
 text: |
   Certain patent titles are known as degrees. The degrees are
 
+  - Associate of Nomic Artistry        (A.N.A.)
   - Associate of Nomic                 (A.N.)
-  - Juris Doctor of Nomic              (J.N.)
+  - Juris Doctorate of Nomic           (J.N.)
+  - Baccalaureate of Nomic Artistry    (B.N.A.)
   - Baccalaureate of Nomic             (B.N.)
+  - Magisteriate of Nomic Artistry     (M.N.A)
   - Magisteriate of Nomic              (M.N.)
-  - Doctor of Nomic History            (D.N.Hist.)
-  - Doctor of Nomic Law                (D.N.Law.)
-  - Doctor of Nomic Science            (D.N.Sci.)
-  - Doctor of Nomic Philosophy         (D.N.Phil.)
+  - Doctorate of Nomic Artistry        (D.N.Art.)
+  - Doctorate of Nomic History         (D.N.Hist.)
+  - Doctorate of Nomic Law             (D.N.Law.)
+  - Doctorate of Nomic Science         (D.N.Sci.)
+  - Doctorate of Nomic Philosophy      (D.N.Phil.)
 
-  Degrees are ranked in the order they appear in this rule, with
-  degrees listed later being ranked higher. A specific degree CANNOT
-  be awarded to any person more than once.
+  There are four classes of degrees, ranked in ascending order of
+  merit: Associate degrees (A.N.A. and A.N.), Baccalaureate degrees
+  (J.N through B.N.), Magisteriate degrees (M.N.A and M.N), and
+  Doctorate degrees (D.N.Art. through D.N.Phil.).
 
   A specified degree CAN be awarded by any player other than the
-  awardee, with 2 Agoran consent.  It SHOULD only be awarded for the
+  awardee, with 2 Agoran consent. It SHOULD only be awarded for the
   publication of an original thesis of scholarly worth (including
   responses to peer-review), published with explicit intent to
-  qualify for a degree. Any degree with D.N. as part of its
-  abbreviation SHOULD take into account the awardee's academic
-  history and participation in Agora over time. The Herald SHOULD
-  coordinate the peer-review process and the awarding of degrees.
+  qualify for a degree. The Herald SHOULD coordinate the peer-review
+  process and the awarding of degrees.
+
+  Degrees SHOULD be awarded according to the extent to which the
+  thesis contributes to Nomic culture or thought: Associate degrees
+  for an appreciable contribution, Baccalaureate degrees for a
+  substantial contribution, Magisteriate degrees for a remarkable
+  contribution, and Doctorate degrees for an exceptional
+  contribution. Any degree at the Doctorate level SHOULD take into
+  account the awardee's academic history and participation in Agora
+  over time.
+
+  Theses for Artistry degrees SHOULD demonstrate substantial
+  creativity and need not be in written form. Theses for all other
+  degrees SHOULD demonstrate substantial research or analysis. J.N.
+  and D.N.Law are appropriate for high-quality legal analysis, of
+  the sort typical to CFJs, but exceeding an ordinary CFJ in depth.
+  The D.N.Hist. degree is appropriate for historical research,
+  especially when it presents a narrative that educates Agorans
+  about the events of the past. The D.N.Sci.  degree is appropriate
+  for theses that demonstrate concrete or scientific thinking,
+  whereas the D.N.Phil. is appropriate for theses that demonstrate
+  abstract or philosophical thinking.
 history:
 - change:
     type: enactment
@@ -171,4 +195,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8305"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8409"
 annotations: []
