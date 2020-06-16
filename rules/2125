@@ -13,7 +13,7 @@ text: |
   doing so is within its scope, that body of law prevents the action
   from being performed except as described within it, including by
   limiting the methods to perform that action to those specified
-  within it. A body of law does not proscribed any action which it
+  within it. A body of law does not proscribe any action which it
   does not regulate.
 history:
 - change:
@@ -76,6 +76,12 @@ history:
   date: 2020-03-21
   agent:
     proposal: "8354"
+- change:
+    type: amendment
+  date: 2020-06-16
+  agent:
+    cleaning:
+      by: Falsifian
 annotations:
 - cfjs:
   - id: '3737'
