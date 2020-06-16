@@ -3,9 +3,9 @@ name: Performing a Dependent Action
 power: 3
 text: |
   A rule that purports to allow a person (the performer) to perform
-  an action by a set of one or more dependent actions identified in
-  Rule 1728 thereby allows em to perform the action by announcement
-  if all of the following are true:
+  an action by a set of one or more dependent actions thereby allows
+  em to perform the action by announcement if all of the following
+  are true:
   
   1. A person (the initiator) published an announcement of intent
      that unambiguously, clearly, conspicuously, and without
@@ -69,3 +69,8 @@ history:
   date: 2019-09-18
   agent:
     proposal: "8236"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8422"
