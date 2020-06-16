@@ -21,10 +21,6 @@ text: |
   is created, its text, author, and AI cannot be changed. The author
   (syn. proposer) of a proposal is the person who submitted it.
 
-  If a decision of whether to adopt a proposal was resolved as
-  FAILED QUORUM in the last seven days, the Promotor CAN once add
-  the proposal back to the Proposal Pool by announcement.
-
   The author of a proposal in the Proposal Pool CAN remove (syn.
   retract, withdraw) it from the Pool by announcement.
 history:
@@ -99,6 +95,11 @@ history:
   date: 2020-06-12
   agent:
     proposal: "8408"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8415"
 annotations:
 - cfjs:
   - id: '1647'
