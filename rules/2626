@@ -1,0 +1,42 @@
+id: 2626
+name: Certifiable Patches
+power: 1.0
+text: |
+  Any player CAN, by announcement, certify a specified proposal (as
+  a patch), causing it to become pending.
+
+  A player SHALL NOT certify a proposal unless its sole function is
+  to minimally rectify a bug, error, or ambiguity (a problem) that
+  relates to a) an office e holds; or b) a CFJ, open within the last
+  week, of which e is the judge. Certifying a proposal in violation
+  of this paragraph is the Class-4 Crime of Uncertain Certification.
+  A player certifying a proposal SHOULD explain why doing so does
+  not violate this paragraph.
+
+  For the purposes of this rule:
+
+  1. A bug is a situation in which a rule operates in a way that is
+     clearly contrary to legislative intent or common sense.
+  2. An error is a change introduced by apparent mistake, such as
+     the self-ratification of an incorrect report or a typo in a
+     rule amendment.
+  3. An ambiguity is a state of affairs in which reasonable players
+     could disagree about the operation of the rules or the state of
+     a rule defined property.
+  4. A minimal rectification is one that resolves the problem
+     without doing substantially more than is necessary to resolve
+     it.  For instance, rectification that uses more slightly words
+     than necessary to resolve the problem may still be minimal,
+     whereas a rectification that makes rule changes unrelated to
+     fixing the problem would not be.
+  5. A problem relates to an office if it plausibly affects the area
+     of the game the office is responsible for and relates to a CFJ
+     if it could plausibly be interpreted to affect that CFJ's
+     outcome.
+history:
+- change:
+    type: enactment
+  date: 2020-06-14
+  agent:
+    proposal: "8424"
+annotations: []
