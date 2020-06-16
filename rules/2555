@@ -7,8 +7,8 @@ text: |
   person with 0 blots is Pure. An impure unregistered person is a
   Fugitive.
 
-  To levy a fine of N on a person, where N is a positive integer, is
-  to grant em N blots. To expunge a blot is to destroy it.
+  To levy a fine of N on a person, where N is a positive integer or
+  zero, is to grant em N blots To expunge a blot is to destroy it.
 
   Levying fines and destroying blots are each secured with a Power
   Threshold of 1.7.
@@ -71,4 +71,9 @@ history:
   date: 2020-06-12
   agent:
     proposal: "8408"
+- change:
+    type: amendment
+  date: 2020-06-14
+  agent:
+    proposal: "8427"
 annotations: []
