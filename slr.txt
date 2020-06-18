@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 13 Jun 2020
+Date of this ruleset: 18 Jun 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 134
+Number of rules currently enacted: 136
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2624
-Highest ID'd Proposal Passed: 8408
-Highest ID'd Rule Enacted: 2624
+Highest ID'd rule in this ruleset: 2626
+Highest ID'd Proposal Passed: 8439
+Highest ID'd Rule Enacted: 2626
 
 ========================================================================
 The Game of Agora
@@ -124,7 +124,7 @@ Fora
       message, unless otherwise specified.
       
 ------------------------------------------------------------------------
-Rule 2139/14 (Power=2)
+Rule 2139/17 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -144,13 +144,6 @@ The Registrar
       
       1. For each former player for which the information is reasonably
          available, the dates on which e registered and deregistered.
-      
-      The Registrar's duties and abilities also include:
-      
-      * Changing the publicity of a forum, as described in Rule 478.
-      
-      * Publishing Cantus Cygnei and Writs of FAGE as described in
-        Rule 1789.
       
 ------------------------------------------------------------------------
 Rule 1789/11 (Power=3)
@@ -252,7 +245,7 @@ Agoran Numbers
       to the contrary notwithstanding.
       
 ------------------------------------------------------------------------
-Rule 2125/11 (Power=3)
+Rule 2125/12 (Power=3)
 Regulated Actions
 
       An action is regulated by a body of law if (1) its performance is
@@ -266,7 +259,7 @@ Regulated Actions
       doing so is within its scope, that body of law prevents the action
       from being performed except as described within it, including by
       limiting the methods to perform that action to those specified
-      within it. A body of law does not proscribed any action which it
+      within it. A body of law does not proscribe any action which it
       does not regulate.
       
 ------------------------------------------------------------------------
@@ -353,13 +346,13 @@ Dependent Action Methods
       N is 1 unless otherwise specified.
       
 ------------------------------------------------------------------------
-Rule 2595/1 (Power=3)
+Rule 2595/2 (Power=3)
 Performing a Dependent Action
 
       A rule that purports to allow a person (the performer) to perform
-      an action by a set of one or more dependent actions identified in
-      Rule 1728 thereby allows em to perform the action by announcement
-      if all of the following are true:
+      an action by a set of one or more dependent actions thereby allows
+      em to perform the action by announcement if all of the following
+      are true:
       
       1. A person (the initiator) published an announcement of intent
          that unambiguously, clearly, conspicuously, and without
@@ -729,7 +722,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/13 (Power=3)
+Rule 2350/14 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -751,22 +744,18 @@ Proposals
       is created, its text, author, and AI cannot be changed. The author
       (syn. proposer) of a proposal is the person who submitted it.
       
-      If a decision of whether to adopt a proposal was resolved as
-      FAILED QUORUM in the last seven days, the Promotor CAN once add
-      the proposal back to the Proposal Pool by announcement.
-      
       The author of a proposal in the Proposal Pool CAN remove (syn.
       retract, withdraw) it from the Pool by announcement.
       
 ------------------------------------------------------------------------
-Rule 2622/0 (Power=1.0)
+Rule 2622/1 (Power=1.0)
 Pending Proposals
 
-      Pended is a negative boolean proposal switch tracked by the
-      Promotor. Any player CAN pay 1 Pendant to flip the Pended switch
-      of a specified proposal to True. If the player did not create the
-      proposal and is not listed in the list of co-authors of the
-      proposal, e is added to the list of co-authors.
+      Pended is an untracked negative boolean proposal switch. Any
+      player CAN pay 1 Pendant to flip the Pended switch of a specified
+      proposal to True. If the player did not create the proposal and is
+      not listed in the list of co-authors of the proposal, e is added
+      to the list of co-authors.
       
       The Promotor CAN, once a week and with 2 support, flip the Pended
       switch of a proposal in the Proposal Pool to True. E SHOULD NOT do
@@ -774,6 +763,51 @@ Pending Proposals
       Legislative Card.
       
       A proposal with a Pended switch set to True is 'pending'.
+      
+------------------------------------------------------------------------
+Rule 2626/0 (Power=1.0)
+Certifiable Patches
+
+      Any player CAN, by announcement, certify a specified proposal (as
+      a patch), causing it to become pending.
+      
+      A player SHALL NOT certify a proposal unless its sole function is
+      to minimally rectify a bug, error, or ambiguity (a problem) that
+      relates to a) an office e holds; or b) a CFJ, open within the last
+      week, of which e is the judge. Certifying a proposal in violation
+      of this paragraph is the Class-4 Crime of Uncertain Certification.
+      A player certifying a proposal SHOULD explain why doing so does
+      not violate this paragraph.
+      
+      For the purposes of this rule:
+      
+      1. A bug is a situation in which a rule operates in a way that is
+         clearly contrary to legislative intent or common sense.
+      2. An error is a change introduced by apparent mistake, such as
+         the self-ratification of an incorrect report or a typo in a
+         rule amendment.
+      3. An ambiguity is a state of affairs in which reasonable players
+         could disagree about the operation of the rules or the state of
+         a rule defined property.
+      4. A minimal rectification is one that resolves the problem
+         without doing substantially more than is necessary to resolve
+         it.  For instance, rectification that uses more slightly words
+         than necessary to resolve the problem may still be minimal,
+         whereas a rectification that makes rule changes unrelated to
+         fixing the problem would not be.
+      5. A problem relates to an office if it plausibly affects the area
+         of the game the office is responsible for and relates to a CFJ
+         if it could plausibly be interpreted to affect that CFJ's
+         outcome.
+      
+------------------------------------------------------------------------
+Rule 2625/1 (Power=1.0)
+Proposal Recycling
+
+      If a referendum on a proposal was resolved as FAILED QUORUM in the
+      last seven days, the Promotor CAN once recycle the proposal by
+      announcement, adding it to the Proposal Pool and causing it to
+      become pended.
       
 ------------------------------------------------------------------------
 Rule 2605/1 (Power=2.0)
@@ -798,7 +832,7 @@ Ministries
       set to that ministry.
       
 ------------------------------------------------------------------------
-Rule 2606/2 (Power=2.0)
+Rule 2606/3 (Power=2.0)
 Proposal Classes
 
       Proposals created since the enactment of this rule have a secured
@@ -810,11 +844,11 @@ Proposal Classes
       
       Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
       class to democratic, provided that it is in the Proposal Pool or
-      that there is an Agoran decision on its adoption whose voting
-      period has not yet ended.
+      that there is an referendum on it whose voting period has not yet
+      ended.
       
 ------------------------------------------------------------------------
-Rule 2607/4 (Power=2.0)
+Rule 2607/5 (Power=2.0)
 Proposal Chambers
 
       Chamber is a a secured untracked ordinary proposal switch whose
@@ -828,34 +862,36 @@ Proposal Chambers
       unset, the Promotor CAN set the chamber to a specified ministry
       by announcement. Any player CAN, with 2 Agoran consent, flip
       the chamber of an ordinary proposal to any ministry, provided
-      that it is in the Proposal Pool or that there is an Agoran
-      decision on its adoption whose voting period has not yet ended.
+      that it is in the Proposal Pool or that there is an referendum on
+      it whose voting period has not yet ended.
       
       To refer a proposal to a ministry is to set the chamber of that
       proposal to the specified ministry.
       
 ------------------------------------------------------------------------
-Rule 1607/48 (Power=3)
+Rule 1607/50 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
       and distributing proposals.
       
-      Determining whether to adopt a proposal is an Agoran decision. For
-      this decision, the vote collector is the Assessor, the adoption
-      index is initially the adoption index of the proposal, or 1.0 if
-      the proposal does not have one, and the text, author, coauthors,
-      class and (if applicable) chamber of the proposal are essential
-      parameters. Initiating such a decision is known as distribution,
-      and removes the proposal from the Proposal Pool.
+      A referendum is the Agoran decision to determine whether to adopt
+      a proposal.  For this decision, the vote collector is the
+      Assessor, the adoption index is initially the adoption index of
+      the proposal, or 1.0 if the proposal does not have one, and the
+      text, author, coauthors, class and (if applicable) chamber of the
+      proposal are essential parameters. Initiating a referendum is
+      known as distribution, and removes the proposal from the Proposal
+      Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
       Pool at any time, but SHALL NOT do so unless it is pending.
       
-      In a given Agoran week, the Promotor SHALL distribute each pending
-      proposal that was in the Proposal Pool at the beginning of that
-      week, except for those excepted from automatic distribution by
-      other rules, or those that are otherwise removed from the Pool.
+      In a given Agoran week, the Promotor SHALL distribute each
+      proposal that was in the Proposal Pool and pending at the
+      beginning of that week, except for those excepted from automatic
+      distribution by other rules, or those that are otherwise removed
+      from the Pool.
       
       If a proposal has been in the proposal pool for more than 7 days
       and is not pending, the Promotor CAN and SHOULD remove it from the
@@ -881,27 +917,35 @@ The Assessor
       collecting votes and keeping track of related properties.
       
 ------------------------------------------------------------------------
-Rule 106/42 (Power=3)
+Rule 106/43 (Power=3)
 Adopting Proposals
 
-      When a decision about whether to adopt a proposal is resolved, if
-      the outcome is ADOPTED, then the proposal in question is adopted,
-      its power is set to the minimum of four and its adoption index, it
-      takes effect as an ephemeral instrument, and then its power is set
-      to 0. This rule defers to rules that would prevent a proposal from
-      taking effect.
+      When a referendum on a proposal is resolved, if the outcome is
+      ADOPTED, then the proposal in question is adopted, its power is
+      set to the minimum of four and its adoption index, it takes effect
+      as an ephemeral instrument, and then its power is set to 0. This
+      rule defers to rules that would prevent a proposal from taking
+      effect.
       
       A proposal CAN override the effect of any rule which it is capable
       of amending by specifying that it does so.
       
 ------------------------------------------------------------------------
-Rule 2623/0 (Power=1.0)
+Rule 2623/2 (Power=1.0)
 Popular Proposal Proposer Privilege
 
-      The player who proposed the proposal with the greatest F/A, as
-      defined in rule 955, among all proposals assessed in the last 7
-      days CAN once earn one Legislative Card by announcement. If there
-      is a tie, all authors of the tied proposals may do so once each.
+      For a referendum, let F be the total number of valid ballots
+      resolving to FOR, A be the same for AGAINST, and T be the total
+      number of valid ballots.  The referendum's popularity is equal to
+      (F - A)/T. The Assessor SHOULD publish the popularity of each
+      referendum when resolving it.
+      
+      The player who proposed the adopted proposal whose referendum had
+      the greatest popularity among all referenda assessed in the last 7
+      days CAN once earn one Legislative Card by announcement, provided
+      that no referendum initiated in the same message as it remains
+      unresolved. If there is a tie, all authors of the tied proposals
+      can do so once each.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -910,7 +954,7 @@ Rules & Regulations
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/13 (Power=3.1)
+Rule 2141/14 (Power=3.1)
 Role and Attributes of Rules
 
       A rule is an enduring statute. Every rule has a power between 0.1
@@ -920,7 +964,8 @@ Role and Attributes of Rules
       this range. The set of all currently-existing rules is called the
       ruleset.
       
-      Rules have ID numbers, to be assigned by the Rulekeepor.
+      Every rule shall have an ID number, distinct among current and
+      former rules, to be assigned once by the Rulekeepor.
       
       Every rule shall have a title to aid in identification. If a rule
       ever does not have a title, then the Rulekeepor CAN and SHALL
@@ -1420,7 +1465,7 @@ Determining the Will of Agora
       cannot change thereafter.
       
 ------------------------------------------------------------------------
-Rule 879/38 (Power=2)
+Rule 879/39 (Power=2)
 Quorum
 
       Each Agoran decision has a quorum. This is a number set when the
@@ -1433,10 +1478,9 @@ Quorum
       The quorum that an Agoran decision gains as it is created can be
       defined by other rules of power 2 or greater. If no other rule
       defines the quorum of an Agoran decision, the quorum for that
-      decision is equal to 2/3 of the number of voters on the Agoran
-      decision on whether to adopt a proposal that had been most
-      recently resolved at the time of that decision's initiation, the
-      whole rounded to the nearest integer.
+      decision is equal to 2/3 of the number of voters on the referendum
+      that had been most recently resolved at the time of that
+      decision's initiation, the whole rounded to the nearest integer.
       
       As an exception to the previous paragraph, the quorum of an
       Agoran decision can never be less than 2. If the rules would
@@ -1499,7 +1543,7 @@ Conditional Votes
       order they occurred in the original vote.
       
 ------------------------------------------------------------------------
-Rule 2168/7 (Power=1)
+Rule 2168/8 (Power=1)
 Extending the voting period
 
       Whenever the voting period of an Agoran decision would end, and
@@ -1514,7 +1558,7 @@ Extending the voting period
       its voting period by announcement (resolving it constitutes an
       implicit announcement that its voting period is first ended) if
       the result would no longer be FAILED QUORUM, or if the decision is
-      whether to adopt a proposal and no voter (other than possibly the
+      a referendum on a proposal and no voter (other than possibly the
       proposal's author) has voted FOR.
       
 ------------------------------------------------------------------------
@@ -1591,7 +1635,7 @@ Offices
       becomes the holder of the office.
       
 ------------------------------------------------------------------------
-Rule 2154/58 (Power=2)
+Rule 2154/59 (Power=2)
 Election Procedure
 
       A player CAN initiate an election for a specified elected office:
@@ -1612,7 +1656,9 @@ Election Procedure
       nominations close, any player CAN become a candidate by
       announcement. A candidate ceases to be a candidate if e ceases to
       be a player during the election or if holding the office would
-      make em Overpowered.
+      make em Overpowered. During the nomination period, a candidate CAN
+      cease to be a candidate by announcement if there is at least one
+      other candidate.
       
       An election whose nomination period is complete is contested if it
       has two or more candidates, and uncontested otherwise. Nominations
@@ -1914,7 +1960,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
       
 ------------------------------------------------------------------------
-Rule 2555/8 (Power=2)
+Rule 2555/9 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1922,8 +1968,8 @@ Blots
       person with 0 blots is Pure. An impure unregistered person is a
       Fugitive.
       
-      To levy a fine of N on a person, where N is a positive integer, is
-      to grant em N blots. To expunge a blot is to destroy it.
+      To levy a fine of N on a person, where N is a positive integer or
+      zero, is to grant em N blots To expunge a blot is to destroy it.
       
       Levying fines and destroying blots are each secured with a Power
       Threshold of 1.7.
@@ -2053,7 +2099,7 @@ Indictment
       player, then the Indictment lacks a Judge until that changes.
       
 ------------------------------------------------------------------------
-Rule 2531/10 (Power=2)
+Rule 2531/12 (Power=2)
 Defendant's Rights
 
       Any attempt to levy a fine is INEFFECTIVE if:
@@ -2074,49 +2120,49 @@ Defendant's Rights
             at the time the inaction or action occurred, was not
             prohibited by the rules;
       
-        (3) it attempts to levy a fine with a value that is blatantly
+        (3) it attempts to levy a fine on a person for failure to take
+            an action that e, through no fault of eir own, COULD NOT
+            have performed;
+      
+        (4) it attempts to levy a fine on a person for conduct that e,
+            through no fault of eir own, was obliged to undertake by a
+            rule of equal or greater power to the one e violated;
+      
+        (5) it attempts to levy a fine on a person taking an action or
+            inaction e could not have avoided when exercising the
+            highest reasonably possible standard of care;
+      
+        (5) it attempts to levy a fine with a value that is blatantly
             and obviously unsuited to the conduct which constitutes the
             reason for its levy or to the person on whom it is being
             levied;
       
-        (4) it attempts to levy a fine based upon the investigation of
+        (6) it attempts to levy a fine based upon the investigation of
             of a Finger that had been Pointed more than 14 days after
             the action constituting the reason for the fine;
       
-        (5) it attempts to levy a fine on a player for failing to take
+        (7) it attempts to levy a fine on a player for failing to take
             an action within the time period set by the Rules and that
             time period had expired more than 14 days prior to the
             Pointed Finger, if the fine is imposed based on an
             investigation of such Finger;
       
-        (6) it attempts to levy a fine on a player who has already been
+        (8) it attempts to levy a fine on a player who has already been
             fined for the conduct constituting the reason for the levy;
             or
       
-        (7) it attempts to levy a fine on a zombie for an action that
+        (9) it attempts to levy a fine on a zombie for an action that
             its master performed on its behalf.
       
 ------------------------------------------------------------------------
-Rule 2617/0 (Power=1.0)
+Rule 2617/1 (Power=1.0)
 Defense Against the Dark Arts
 
-      A proposal is forbidden if it would, upon successfully taking
-      effect, cause Agora to be ossified or to cease to exist.  An
-      action is forbidden if it would, upon its successful occurrence,
-      cause Agora to be ossified or to cease to exist.
+      An action is forbidden if it would, upon its successful
+      occurrence, cause Agora to be ossified or to cease to exist.
       
       Attempting a forbidden action is PROHIBITED, and is the Class-4
       Crime of Engaging in Forbidden Arts.
-      
-      Submitting a forbidden proposal is PROHIBITED, and is the Class-1
-      Crime of Contemplating Forbidden Arts.
-      
-      Being the author of an adopted forbidden proposal is PROHIBITED,
-      and is the Class-2 Crime of Suborning Forbidden Arts.
-      
-      Having a final ballot that evaluates to FOR in the Agoran decision
-      on whether to adopt a forbidden proposal is PROHIBITED, and is the
-      Class-1 Crime of Abetting Forbidden Arts.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2312,7 +2358,7 @@ No Faking
       announcement of intent is never a lie.
       
 ------------------------------------------------------------------------
-Rule 2450/7 (Power=1.7)
+Rule 2450/8 (Power=1.7)
 Pledges
 
       If a Player makes a clear public pledge (syn. Oath) to perform (or
@@ -2327,9 +2373,8 @@ Pledges
       SHOULD solicit the opinion of those parties in determining an
       appropriate fine.
       
-      The Notary CAN destroy a pledge Without Objection, and should do
-      so if and only if the pledge no longer serves any significant
-      purpose.
+      The Notary CAN destroy a pledge Without Objection, but SHOULD NOT
+      do so unless the pledge no longer serves any significant purpose.
       
 ------------------------------------------------------------------------
 Rule 2466/2 (Power=3)
@@ -2367,15 +2412,15 @@ Acting on Behalf
       behalf of another person.
       
 ------------------------------------------------------------------------
-Rule 2618/0 (Power=2.2)
+Rule 2618/1 (Power=2.2)
 Promises
 
       Promises are a class of assets, tracked by the Notary. Their
       essential attributes are their text and creator. A person CAN, by
-      announcement, acting as emself, grant emself a promise, specifying
-      its text and becoming its creator. A promise's owner is referred
-      to as its bearer. Promises with the same text, creator, and bearer
-      are fungible. Promises with the same text and creator SHOULD be
+      announcement, grant emself a promise, specifying its text and
+      becoming its creator. A promise's owner is referred to as its
+      bearer. Promises with the same text, creator, and bearer are
+      fungible. Promises with the same text and creator SHOULD be
       referred to by the same title, but the title is not an essential
       attribute of the promise, just a way of referring to it.
       
@@ -2621,7 +2666,7 @@ Economics
       Treasuror. They can be owned by Agora, players, and contracts.
       
 ------------------------------------------------------------------------
-Rule 2496/18 (Power=1)
+Rule 2496/20 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
@@ -2633,9 +2678,8 @@ Rewards
       and officers.
       
       * Being the author of an adopted proposal: a number of coins equal
-        to ((the total number of valid ballots cast FOR the decision -
-        the total number of valid ballots cast AGAINST) times the
-        adoption index of the result) rounded up (Assessor).
+        to (the total number of valid ballots cast FOR the decision -
+        the total number of valid ballots cast AGAINST) (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
         limit to do so, unless at the time of judgement the case was
@@ -2647,10 +2691,8 @@ Rewards
         the relevant time period (week or month respectively) to fulfill
         an official weekly or monthly duty: 5 coins (ADoP).
       
-      * Resolving an Agoran Decision on whether to adopt a proposal,
-        provided that no other Agoran Decision on whether to adopt that
-        or any other proposal had been resolved earlier in that Agoran
-        week: 5 coins (ADoP).
+      * Resolving a referendum, provided that no other referendum had
+        been resolved earlier in that Agoran week: 5 coins (ADoP).
       
       * Having a Thesis pass peer-review and be granted a Degree based
         on its merit: 20 coins (Herald)
@@ -2793,7 +2835,7 @@ Auctions
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/7 (Power=2)
+Rule 2532/8 (Power=2)
 Zombies
 
       Master is a secured player switch, tracked by the Registrar, with
@@ -2811,7 +2853,7 @@ Zombies
         - initiate, support, object to, or perform a dependent action;
         - act on behalf of that zombie's zombies;
         - bid in a zombie auction;
-        - enter a contract, pledge, or other type of agreement;
+        - enter a contract, pledge, promise, or other type of agreement;
         - initiate a Call for Judgement;
         - create blots;
         - deregister.
@@ -2984,7 +3026,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/18 (Power=3)
+Rule 2438/19 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3016,9 +3058,9 @@ Ribbons
       that, immediately before or after the change, has Power >= 3, its
       proposer earns a Red Ribbon.
       
-      Orange (O): When a proposal is adopted via an Agoran Decision on
-      which no valid ballots were AGAINST (after evaluating
-      conditionals), its proposer earns an Orange Ribbon.
+      Orange (O): When a proposal is adopted via a referendum on which
+      no valid ballots were AGAINST (after evaluating conditionals), its
+      proposer earns an Orange Ribbon.
       
       Green (G): While a person holds an elected office, has done so
       continuously for the past 30 days, and has not failed to perform
@@ -3089,7 +3131,7 @@ Ribbons
           announcement, award emself that type of Glitter.
       
 ------------------------------------------------------------------------
-Rule 2602/4 (Power=1)
+Rule 2602/5 (Power=1)
 Glitter
 
       For each type of Ribbon, there is a type of Glitter with the same
@@ -3100,7 +3142,8 @@ Glitter
       once by announcement, and SHALL in an officially timely fashion,
       grant the player N+1 coins, where N is the number of players who
       did not own the corresponding type of Ribbon at the time of the
-      award.
+      award. The amount payable for each type of glitter is tracker in
+      the Tailor's weekly report.
       
 ------------------------------------------------------------------------
 Rule 2480/4 (Power=2.1)
@@ -3174,32 +3217,56 @@ Badges
       existing badge to persons without objection.
       
 ------------------------------------------------------------------------
-Rule 1367/23 (Power=3)
+Rule 1367/24 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
       
+      - Associate of Nomic Artistry        (A.N.A.)
       - Associate of Nomic                 (A.N.)
-      - Juris Doctor of Nomic              (J.N.)
+      - Juris Doctorate of Nomic           (J.N.)
+      - Baccalaureate of Nomic Artistry    (B.N.A.)
       - Baccalaureate of Nomic             (B.N.)
+      - Magisteriate of Nomic Artistry     (M.N.A)
       - Magisteriate of Nomic              (M.N.)
-      - Doctor of Nomic History            (D.N.Hist.)
-      - Doctor of Nomic Law                (D.N.Law.)
-      - Doctor of Nomic Science            (D.N.Sci.)
-      - Doctor of Nomic Philosophy         (D.N.Phil.)
+      - Doctorate of Nomic Artistry        (D.N.Art.)
+      - Doctorate of Nomic History         (D.N.Hist.)
+      - Doctorate of Nomic Law             (D.N.Law.)
+      - Doctorate of Nomic Science         (D.N.Sci.)
+      - Doctorate of Nomic Philosophy      (D.N.Phil.)
       
-      Degrees are ranked in the order they appear in this rule, with
-      degrees listed later being ranked higher. A specific degree CANNOT
-      be awarded to any person more than once.
+      There are four classes of degrees, ranked in ascending order of
+      merit: Associate degrees (A.N.A. and A.N.), Baccalaureate degrees
+      (J.N through B.N.), Magisteriate degrees (M.N.A and M.N), and
+      Doctorate degrees (D.N.Art. through D.N.Phil.).
       
       A specified degree CAN be awarded by any player other than the
-      awardee, with 2 Agoran consent.  It SHOULD only be awarded for the
+      awardee, with 2 Agoran consent. It SHOULD only be awarded for the
       publication of an original thesis of scholarly worth (including
       responses to peer-review), published with explicit intent to
-      qualify for a degree. Any degree with D.N. as part of its
-      abbreviation SHOULD take into account the awardee's academic
-      history and participation in Agora over time. The Herald SHOULD
-      coordinate the peer-review process and the awarding of degrees.
+      qualify for a degree. The Herald SHOULD coordinate the peer-review
+      process and the awarding of degrees.
+      
+      Degrees SHOULD be awarded according to the extent to which the
+      thesis contributes to Nomic culture or thought: Associate degrees
+      for an appreciable contribution, Baccalaureate degrees for a
+      substantial contribution, Magisteriate degrees for a remarkable
+      contribution, and Doctorate degrees for an exceptional
+      contribution. Any degree at the Doctorate level SHOULD take into
+      account the awardee's academic history and participation in Agora
+      over time.
+      
+      Theses for Artistry degrees SHOULD demonstrate substantial
+      creativity and need not be in written form. Theses for all other
+      degrees SHOULD demonstrate substantial research or analysis. J.N.
+      and D.N.Law are appropriate for high-quality legal analysis, of
+      the sort typical to CFJs, but exceeding an ordinary CFJ in depth.
+      The D.N.Hist. degree is appropriate for historical research,
+      especially when it presents a narrative that educates Agorans
+      about the events of the past. The D.N.Sci.  degree is appropriate
+      for theses that demonstrate concrete or scientific thinking,
+      whereas the D.N.Phil. is appropriate for theses that demonstrate
+      abstract or philosophical thinking.
       
 ------------------------------------------------------------------------
 Rule 2231/6 (Power=3)
@@ -3224,7 +3291,7 @@ Order of the Hero of Agora Nomic
       beyond the call of duty.
       
 ------------------------------------------------------------------------
-Rule 2581/2 (Power=1)
+Rule 2581/3 (Power=1)
 Official Patent Titles
 
       The following Patent Titles CAN be awarded by the indicated
@@ -3275,6 +3342,10 @@ Official Patent Titles
          out a usable rules bug that would directly provide em with a
          strong game advantage if e used it, but proposes a fix without
          attempting to use the bug.
+      
+       - Terms of Service, awardable by the Notary to any player who
+         creates multiple Contracts that achieve fun gameplay and
+         significantly impacts Agora as a whole
       
       The Herald is also ENCOURAGED to proactively recommend or, as
       otherwise permitted, award these titles when appropriate,
@@ -3368,12 +3439,14 @@ First Among Equals
       smoothly.
       
 ------------------------------------------------------------------------
-Rule 2463/1 (Power=1)
+Rule 2463/3 (Power=1)
 Motion of No Confidence
 
       Any player can cause the office of Prime Minister to become vacant
-      with 2 Agoran consent by publishing a message with the character
-      string "MOTION OF NO CONFIDENCE" in the subject line.
+      with Agoran consent by publishing a message with the character
+      string "MOTION OF NO CONFIDENCE" in the subject line. Motions of
+      confidence SHOULD used whenever Agorans want to shake things up,
+      rather than as a personal judgement of the Prime Minister.
       
 ------------------------------------------------------------------------
 Rule 2451/8 (Power=2)
