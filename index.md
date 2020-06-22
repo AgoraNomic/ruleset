@@ -6,7 +6,7 @@ layout: default
 # The Agoran Rulesets
 
 Welcome. If you are trying to access the ruleset of Agora Nomic, you've
-come to the right place. This website is maintained by Trigon, the
+come to the right place. This website is maintained by Jason, the
 current Rulekeepor of Agora Nomic.
 
 ## Textual Rulesets
@@ -24,12 +24,6 @@ and the Full Logical Ruleset (FLR).
   **Note that the file linked above is usually going to be unofficial
   and updated to include the most recent changes. Officially, the FLR is
   only published monthly. That version can be found [here](flr.txt).**
-
-## [Ruleset Changelogs](changelogs)
-
-I keep a log of every rule change, partially to help me check and
-re-check my work, but also for the benefit of the Agoran public and
-future Agoran historians.
 
 ## [Ruleset Format Updates](updates)
 
