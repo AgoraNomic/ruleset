@@ -1,0 +1,23 @@
+id: 2629
+name: Victory Auctions
+power: 1.0
+text: |
+  The Treasuror CAN conduct an auction (a "victory auction") if no
+  victory auction is ongoing.  The Treasuror MUST do so at least
+  once a month, and SHOULD do so at least twice each month.
+
+  A victory auction includes the following lots:
+
+  * one new Victory Card.
+
+  * all of any single type of card or product, currently owned by
+    the Lost and Found Department, if any.
+
+  The currency of a victory auction is coins (minimum bid 1).
+history:
+- change:
+    type: enactment
+  date: 2020-06-30
+  agent:
+    proposal: "8446"
+annotations: []
