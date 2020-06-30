@@ -9,7 +9,7 @@ text: |
 
   * An associated title.
 
-  * A list of co-authors (which must be persons other than the
+  * A list of coauthors (which must be persons other than the
     author).
 
   * An adoption index.
@@ -100,6 +100,12 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8415"
+- change:
+    type: amendment
+  date: 2020-06-29
+  agent:
+    cleaning:
+      by: Jason
 annotations:
 - cfjs:
   - id: '1647'

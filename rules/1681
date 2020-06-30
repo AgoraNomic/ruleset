@@ -37,7 +37,7 @@ text: |
   3. The mechanism that specified the change.
 
   4. If the rule was changed due to a proposal, then that proposal's
-     ID number, author, and co-author(s) (if any).
+     ID number, author, and coauthor(s) (if any).
 history:
 - change:
     type: enactment
@@ -156,4 +156,10 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8296"
+- change:
+    type: amendment
+  date: 2020-06-29
+  agent:
+    cleaning:
+      by: Jason
 annotations: []
