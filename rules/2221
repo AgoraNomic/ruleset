@@ -1,5 +1,5 @@
 id: 2221
-name: Cleanliness
+name: Cleanliness and Tidy Filing
 power: 3
 text: |
   Any player CAN clean a rule without objection by specifying one or
@@ -7,6 +7,9 @@ text: |
   and/or dialect, or to whether a synonym or abbreviation is used in
   place of a word or phrase, in the rule's text and/or title; the
   rule is amended by this rule as specified by that person.
+
+  Any player CAN refile a rule without objection, specifying a new
+  title; the rule is retitled to the specified title by this rule.
 history:
 - change:
     type: enactment
@@ -54,4 +57,14 @@ history:
   date: 2018-03-06
   agent:
     proposal: "8017"
+- change:
+    type: amendment
+  date: 2020-06-30
+  agent:
+    proposal: "8445"
+- change:
+    type: retitling
+  date: 2020-06-30
+  agent:
+    proposal: "8445"
 annotations: []
