@@ -1,0 +1,25 @@
+id: 2628
+name: Bargains on the Barrel
+power: 1.0
+text: |
+  If there are fewer than four bargains on the barrel, the Coopor
+  CAN put a bargain on the barrel with notice.  If there are fewer
+  than eight bargains on the barrel, the Coopor CAN put a bargain on
+  the barrel with 3 support.
+
+  The Coopor CAN take a bargain off the barrel without N objections,
+  where N is the number of months, rounded up, since that bargain
+  was last placed on the barrel.  Within 14 days after winning an
+  election for Coopor, the Coopor CAN take any bargain off the
+  barrel with notice.
+
+  The Coopor's monthly report includes a list of all bargains on the
+  barrel.  E SHOULD publish such a list whenever e adds or removes a
+  bargain from the barrel.
+history:
+- change:
+    type: enactment
+  date: 2020-06-30
+  agent:
+    proposal: "8442"
+annotations: []

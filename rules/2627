@@ -1,0 +1,33 @@
+id: 2627
+name: The General Store
+power: 1.0
+text: |
+  Barrels are a currency tracked by the Coopor (an office) in eir
+  monthly report. A player CAN Corner the Market by paying a fee of
+  100 barrels.  When a player corners the market, e wins the game.
+
+  A bargain is a specification consisting of a title, a payout (a
+  number of barrels between 1 and 10), and a tender (a list of 6 or
+  more rules-defined card types; a type may be repeated, with each
+  repeat being a separate element on the list).
+
+  A player CAN cash out a specified bargain that's "on the barrel",
+  by announcement, provided that, in the same message, e paid cards
+  (possibly spread over multiple sets) to successfully earn rules-
+  defined products, and those cards match all of the cards types in
+  that bargain's tender.  The payment of a particular card instance
+  can only match a single tender element for the single cashing out
+  of a bargain.
+
+  When a player cashes out a bargain on the barrel, e earns the
+  payout for that bargain.
+
+  The Coopor CANNOT cash out a specific bargain in the 14 days after
+  putting that bargain on the barrel.
+history:
+- change:
+    type: enactment
+  date: 2020-06-30
+  agent:
+    proposal: "8442"
+annotations: []
