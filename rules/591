@@ -40,6 +40,14 @@ text: |
     logical situation. PARADOXICAL is not appropriate if IRRELEVANT
     is appropriate, nor is it appropriate if the undecidability
     arises from the case itself or in reference to it.
+
+  If the judge of an open CFJ has not violated a time limit for
+  assigning it a judgement, and has not previously filed a motion to
+  either extend or reconsider the case, e CAN file a motion to
+  extend the case by announcement. Doing so extends eir judgement
+  deadline for that case by one week. In doing so, e SHOULD include
+  a (nonbinding) draft or outline of eir current thoughts on the
+  case.
 history:
 - change:
     type: initial
@@ -316,6 +324,11 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8215"
+- change:
+    type: amendment
+  date: 2020-06-30
+  agent:
+    proposal: "8450"
 annotations:
 - cfjs:
   - id: '1835'
