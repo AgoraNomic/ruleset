@@ -10,7 +10,7 @@ text: |
   one person from the case by announcement.
 
   At any time, each CFJ is either open (default), suspended, or
-  assigned exactly one judgement.
+  assigned exactly one judgement that was validly assigned.
 
   The Arbitor is an office, responsible for the administration of
   justice in a manner that is fair for emself, if not for the rest
@@ -234,6 +234,11 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8454"
+- change:
+    type: amendment
+  date: 2020-06-30
+  agent:
+    proposal: "8455"
 annotations:
 - cfjs:
   - id: 1692-1693
