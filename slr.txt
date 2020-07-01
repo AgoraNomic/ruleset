@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 18 Jun 2020
+Date of this ruleset: 1 Jul 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 136
+Number of rules currently enacted: 140
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2626
-Highest ID'd Proposal Passed: 8439
-Highest ID'd Rule Enacted: 2626
+Highest ID'd rule in this ruleset: 2630
+Highest ID'd Proposal Passed: 8458
+Highest ID'd Rule Enacted: 2630
 
 ========================================================================
 The Game of Agora
@@ -722,7 +722,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/14 (Power=3)
+Rule 2350/15 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -732,7 +732,7 @@ Proposals
       
       * An associated title.
       
-      * A list of co-authors (which must be persons other than the
+      * A list of coauthors (which must be persons other than the
         author).
       
       * An adoption index.
@@ -748,14 +748,14 @@ Proposals
       retract, withdraw) it from the Pool by announcement.
       
 ------------------------------------------------------------------------
-Rule 2622/1 (Power=1.0)
+Rule 2622/2 (Power=1.0)
 Pending Proposals
 
       Pended is an untracked negative boolean proposal switch. Any
       player CAN pay 1 Pendant to flip the Pended switch of a specified
       proposal to True. If the player did not create the proposal and is
-      not listed in the list of co-authors of the proposal, e is added
-      to the list of co-authors.
+      not listed in the list of coauthors of the proposal, e is added to
+      the list of coauthors.
       
       The Promotor CAN, once a week and with 2 support, flip the Pended
       switch of a proposal in the Proposal Pool to True. E SHOULD NOT do
@@ -1168,7 +1168,7 @@ The Rulekeepor
       The Rulekeepor's Monthly report includes the Full Logical Ruleset.
       
 ------------------------------------------------------------------------
-Rule 1681/22 (Power=1)
+Rule 1681/23 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -1206,17 +1206,20 @@ The Logical Rulesets
       3. The mechanism that specified the change.
       
       4. If the rule was changed due to a proposal, then that proposal's
-         ID number, author, and co-author(s) (if any).
+         ID number, author, and coauthor(s) (if any).
       
 ------------------------------------------------------------------------
-Rule 2221/7 (Power=3)
-Cleanliness
+Rule 2221/8 (Power=3)
+Cleanliness and Tidy Filing
 
       Any player CAN clean a rule without objection by specifying one or
       more corrections to spelling, grammar, capitalization, formatting,
       and/or dialect, or to whether a synonym or abbreviation is used in
       place of a word or phrase, in the rule's text and/or title; the
       rule is amended by this rule as specified by that person.
+      
+      Any player CAN refile a rule without objection, specifying a new
+      title; the rule is retitled to the specified title by this rule.
       
 ------------------------------------------------------------------------
 Rule 2429/1 (Power=1)
@@ -1633,6 +1636,22 @@ Offices
       When a proposal takes effect and creates a new office, if the
       proposal does not specify otherwise, the author of that proposal
       becomes the holder of the office.
+      
+------------------------------------------------------------------------
+Rule 2630/0 (Power=2.0)
+The Administrative State
+
+      Each officer CAN, with 1.5 Agoran consent, enact, amend, or repeal
+      eir own office's Administrative Regulations. Administrative
+      Regulations have the following properties:
+      
+      1. An officer SHALL abide by eir office's administrative
+         regulations in the discharge of eir office.
+      2. Any player CAN act on behalf of an officer to exercise eir
+         official powers as authorized by eir office's administrative
+         regulations.
+      3. All players SHOULD abide by an officer's administrative
+         regulations in matters relating to eir area of responsibility.
       
 ------------------------------------------------------------------------
 Rule 2154/59 (Power=2)
@@ -2069,7 +2088,7 @@ Sentencing Guidelines
       remorse, and ardent desire for self-improvement.
       
 ------------------------------------------------------------------------
-Rule 2619/0 (Power=1.0)
+Rule 2619/3 (Power=1.0)
 Indictment
 
       When the rules authorize an investigator to issue an Indictment
@@ -2079,24 +2098,29 @@ Indictment
       
       When an investigator has issued an Indictment, the perpetrator CAN
       state a defence. Within 10 days but no less than 4 days after the
-      indictment has been issued, the judge SHALL initiate two Agoran
-      Decisions, one to determine whether to convict the perpetrator and
-      one to determine whether to accept the indictment. For these
-      decision, the vote collector is the Judge and the voting method is
-      AI-majority with AI=1.5. When initiating the decisions, the Judge
-      SHALL, in the same message, publish the full texts of the
-      Indictment and the defence. If both decisions are resolved as
-      ADOPTED, the investigator CAN and SHALL impose the fine stated in
-      the indictment. If the decision to convict is resolved as ADOPTED
-      but the decision to accept is resolved as REJECTED, the
-      investigator CAN issue a new Indictment. If the decision to
-      convict is resolved as REJECTED, a fine SHALL NOT be imposed for
-      the crime stated in the indictment.
+      indictment has been issued, the judge CAN and SHALL initiate two
+      Agoran Decisions, one to determine whether to convict the
+      perpetrator and one to determine whether to accept the indictment.
+      For these decision, the vote collector is the Judge and the voting
+      method is AI-majority with AI=1.5. When initiating the decisions,
+      the Judge SHALL, in the same message, publish the full texts of
+      the Indictment and the defence. If both decisions are resolved as
+      ADOPTED, the investigator CAN, by announcement, and SHALL impose
+      the fine stated in the indictment. If the decision to convict is
+      resolved as ADOPTED but the decision to accept is resolved as
+      REJECTED, the investigator CAN issue a new Indictment. If the
+      decision to convict is resolved as REJECTED, a fine SHALL NOT be
+      imposed for the crime stated in the indictment.
       
       The Judge of the Indictment is the first of the following players
       who is neither the investigator nor the perp: the Arbitor, the
       Speaker, the Prime Minister. If this still fails to specify a
       player, then the Indictment lacks a Judge until that changes.
+      
+      If it would be ILLEGAL or INEFFECTIVE for the Investigator to levy
+      a fine for the stated crime, all decisions associated with the
+      Indictment cease to exist, and the Judge and Investigator are
+      freed of any obligations of this rule.
       
 ------------------------------------------------------------------------
 Rule 2531/12 (Power=2)
@@ -2170,7 +2194,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/31 (Power=2)
+Rule 991/33 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -2181,33 +2205,34 @@ Calls for Judgement
       one person from the case by announcement.
       
       At any time, each CFJ is either open (default), suspended, or
-      assigned exactly one judgement.
+      assigned exactly one judgement that was validly assigned.
       
       The Arbitor is an office, responsible for the administration of
       justice in a manner that is fair for emself, if not for the rest
       of Agora.
       
       Judge is an untracked CFJ switch with possible values of any
-      person or "unassigned" (default).  To "assign" a CFJ to a person
-      is to flip that CFJ's judge to that person.  To "remove" or
-      "recuse" a person from a being the judge of a CFJ is to flip that
-      CFJ's judge from that person to unassigned.
+      person or former person, or "unassigned" (default). To "assign" a
+      CFJ to a person is to flip that CFJ's judge to that person.  To
+      "remove" or "recuse" a person from a being the judge of a CFJ is
+      to flip that CFJ's judge from that person to unassigned.
       
-      When a CFJ's judge is unassigned, the Arbitor CAN assign any
+      When an open CFJ's judge is unassigned, the Arbitor CAN assign any
       eligible player to be its judge by announcement, and SHALL do so
-      in a timely fashion. The players eligible to be assigned as judge
-      are all active players except the initiator and the person barred
-      (if any). The Arbitor SHALL assign judges over time such that all
-      interested players have reasonably equal opportunities to judge.
-      If a CFJ has no judge assigned, then any player eligible to judge
-      that CFJ CAN assign it to emself without 3 objections.
+      in a timely fashion after it becomes an open and unassigned CFJ.
+      The players eligible to be assigned as judge are all active
+      players except the initiator and the person barred (if any). The
+      Arbitor SHALL assign judges over time such that all interested
+      players have reasonably equal opportunities to judge.  If a CFJ
+      has no judge assigned, then any player eligible to judge that CFJ
+      CAN assign it to emself without 3 objections.
       
       The Arbitor's weekly report includes a summary of recent judicial
       case activity, including open and recently-judged cases, recent
       judicial assignments, and a list of players interested in judging.
       
 ------------------------------------------------------------------------
-Rule 591/46 (Power=1.7)
+Rule 591/47 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
@@ -2248,6 +2273,14 @@ Delivering Judgements
         logical situation. PARADOXICAL is not appropriate if IRRELEVANT
         is appropriate, nor is it appropriate if the undecidability
         arises from the case itself or in reference to it.
+      
+      If the judge of an open CFJ has not violated a time limit for
+      assigning it a judgement, and has not previously filed a motion to
+      either extend or reconsider the case, e CAN file a motion to
+      extend the case by announcement. Doing so extends eir judgement
+      deadline for that case by one week. In doing so, e SHOULD include
+      a (nonbinding) draft or outline of eir current thoughts on the
+      case.
       
 ------------------------------------------------------------------------
 Rule 911/55 (Power=1.7)
@@ -2749,6 +2782,23 @@ VP Wins
       player is granted 1 card of each type.
       
 ------------------------------------------------------------------------
+Rule 2629/0 (Power=1.0)
+Victory Auctions
+
+      The Treasuror CAN conduct an auction (a "victory auction") if no
+      victory auction is ongoing.  The Treasuror MUST do so at least
+      once a month, and SHOULD do so at least twice each month.
+      
+      A victory auction includes the following lots:
+      
+      * one new Victory Card.
+      
+      * all of any single type of card or product, currently owned by
+        the Lost and Found Department, if any.
+      
+      The currency of a victory auction is coins (minimum bid 1).
+      
+------------------------------------------------------------------------
 Rule 2624/0 (Power=1.0)
 Card Administration
 
@@ -2768,15 +2818,16 @@ Card Administration
       * the player receiving the Card is not a zombie.
       
 ------------------------------------------------------------------------
-Rule 2499/7 (Power=1)
+Rule 2499/8 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
       recently registered, any player CAN cause em to receive one by
-      announcement.
+      announcement. A player CANNOT receive a Welcome Package via this
+      method if e was deregistered on account of having excessive blots.
       
-      When a player receives a Welcome Package, e earns 10 coins and
-      one of each type of Card defined in the rules.
+      When a player receives a Welcome Package, e earns 10 coins and one
+      of each type of Card defined in the rules.
       
 ------------------------------------------------------------------------
 Rule 2585/3 (Power=1)
@@ -2794,10 +2845,6 @@ Birthday Gifts
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
       
-------------------------------------------------------------------------
-========================================================================
-Auctions
-   If you want to give out assets, this is the section to look at.
 ------------------------------------------------------------------------
 Rule 2545/3 (Power=2)
 Auctions
@@ -3008,14 +3055,15 @@ Such is Karma
       set such that the sum of all Karma values in the game equals 0.
       
 ------------------------------------------------------------------------
-Rule 2553/1 (Power=1)
+Rule 2553/2 (Power=1)
 Win by Paradox
 
       If a CFJ about the effectiveness, possiblity, or legality of a
       change in the gamestate has been assigned a judgment of
       PARADOXICAL continuously for at least 7 days, and e has not done
-      so already in respect of that CFJ, then that case's initiator CAN,
-      by announcement, win the game.
+      so already in respect of that CFJ, then that case's initiator,
+      CAN, by announcement, Transcend Logic. When a person transcends
+      logic, e wins the game.
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
@@ -3189,7 +3237,7 @@ Festival Restrictions
       effect and are ignored.
       
 ------------------------------------------------------------------------
-Rule 649/42 (Power=1.5)
+Rule 649/43 (Power=1.5)
 Patent Titles
 
       A Patent Title is a legal title given to a person in recognition
@@ -3203,7 +3251,9 @@ Patent Titles
       contesting the validity of those conditions.
       
       The Herald CAN award a specified Patent Title to a specified
-      player with 2 Agoran consent.
+      player with 2 Agoran consent. Any player CAN award a specified
+      Patent Title to a specified player, as authorized by the Herald's
+      Administrative Regulations.
       
 ------------------------------------------------------------------------
 Rule 2415/1 (Power=1.5)
@@ -3630,5 +3680,56 @@ Town Fountain
            and OscarMeyr, Scamsters. Look
            on our works, ye Marvy, but do
       always Dance a Powerful Dance.  Hail Eris!
+      
+------------------------------------------------------------------------
+========================================================================
+Barrels
+   A minigame in which people try to collect barrles by fulfilling
+   bargains.
+------------------------------------------------------------------------
+Rule 2627/0 (Power=1.0)
+The General Store
+
+      Barrels are a currency tracked by the Coopor (an office) in eir
+      monthly report. A player CAN Corner the Market by paying a fee of
+      100 barrels.  When a player corners the market, e wins the game.
+      
+      A bargain is a specification consisting of a title, a payout (a
+      number of barrels between 1 and 10), and a tender (a list of 6 or
+      more rules-defined card types; a type may be repeated, with each
+      repeat being a separate element on the list).
+      
+      A player CAN cash out a specified bargain that's "on the barrel",
+      by announcement, provided that, in the same message, e paid cards
+      (possibly spread over multiple sets) to successfully earn rules-
+      defined products, and those cards match all of the cards types in
+      that bargain's tender.  The payment of a particular card instance
+      can only match a single tender element for the single cashing out
+      of a bargain.
+      
+      When a player cashes out a bargain on the barrel, e earns the
+      payout for that bargain.
+      
+      The Coopor CANNOT cash out a specific bargain in the 14 days after
+      putting that bargain on the barrel.
+      
+------------------------------------------------------------------------
+Rule 2628/0 (Power=1.0)
+Bargains on the Barrel
+
+      If there are fewer than four bargains on the barrel, the Coopor
+      CAN put a bargain on the barrel with notice.  If there are fewer
+      than eight bargains on the barrel, the Coopor CAN put a bargain on
+      the barrel with 3 support.
+      
+      The Coopor CAN take a bargain off the barrel without N objections,
+      where N is the number of months, rounded up, since that bargain
+      was last placed on the barrel.  Within 14 days after winning an
+      election for Coopor, the Coopor CAN take any bargain off the
+      barrel with notice.
+      
+      The Coopor's monthly report includes a list of all bargains on the
+      barrel.  E SHOULD publish such a list whenever e adds or removes a
+      bargain from the barrel.
       
 ------------------------------------------------------------------------
