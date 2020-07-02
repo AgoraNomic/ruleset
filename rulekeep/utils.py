@@ -75,7 +75,7 @@ def is_in(target, char):
     else: return True
 
 def args_contain(st):
-    if is_in(argv[1], st): return True
+    if is_in(argv[2], st): return True
     else: return False
 
 def better_date(dt):

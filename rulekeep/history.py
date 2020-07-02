@@ -30,20 +30,20 @@
 # THE POSSIBILITY OF SUCH DAMAGE.
 
 import datetime
-from os import listdir
+from os import listdir, path
 from rulekeep.utils import *
 import yaml
 
 cache = {}
 
-def proposal_data(num, log=False):
+def proposal_data(data_path, num, log=False):
     try:
         cache[num]
         if log: print("\tp%s\talready scanned" % num)
     except KeyError:
         if log: print("\tp%s\treading from file " % num)
         cache[num] = yaml.load(
-            get_contents("proposals/" + num),
+            get_contents(path.join(data_path, "proposals", str(num))),
             Loader=yaml.FullLoader
         )
         if log: print("\t\tread")
@@ -106,11 +106,11 @@ def chtype_string(change):
         print("\tunrecognised type: " + chtype)
         return "Changed"
 
-def agent_string(agent):
+def agent_string(data_path, agent):
     try:
         proposal = agent["proposal"]
         result = "P" + str(proposal)
-        data = proposal_data(proposal)
+        data = proposal_data(data_path, proposal)
 
         try: result = result + " '%s'" % data["title"]
         except KeyError: pass
@@ -130,7 +130,7 @@ def agent_string(agent):
         
         try:
             data["author"]
-            return result + " " + proposal_blame(proposal)
+            return result + " " + proposal_blame(data_path, proposal)
         except KeyError:
             return result
     except KeyError: pass
@@ -138,7 +138,7 @@ def agent_string(agent):
     try: return "R%d" % agent["rule"]
     except KeyError: pass
 
-    try: return "a convergence caused by " + agent_string(agent["convergence"])
+    try: return "a convergence caused by " + agent_string(data_path, agent["convergence"])
     except KeyError: pass
 
     try:
@@ -152,8 +152,8 @@ def agent_string(agent):
     try: return "Decree given by " + agent["decree"]
     except KeyError: pass
 
-def proposal_blame(num):
-    proposal = proposal_data(num)
+def proposal_blame(data_path, num):
+    proposal = proposal_data(data_path, num)
     result = "(" + proposal["author"]
     try:
         coauthors = proposal["coauthors"]
@@ -179,11 +179,11 @@ def date_string(date):
     except KeyError: pass
     except AttributeError: pass
 
-def change_string(ch):
+def change_string(data_path, ch):
     result = chtype_string(ch["change"])
 
     try:
-        result = result + " by " + agent_string(ch["agent"])
+        result = result + " by " + agent_string(data_path, ch["agent"])
     except KeyError: pass
 
     try: result = result + ", " + date_string(ch["date"])
@@ -191,8 +191,8 @@ def change_string(ch):
 
     return result
 
-def get_stats():
+def get_stats(data_path):
     return {
-        "hp": max(to_int_list(listdir("proposals"))),
-        "hr": max(to_int_list(listdir("rules")))
+        "hp": max(to_int_list(listdir(path.join(data_path, "proposals")))),
+        "hr": max(to_int_list(listdir(path.join(data_path, "rules"))))
     }

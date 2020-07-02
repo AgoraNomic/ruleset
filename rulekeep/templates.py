@@ -63,11 +63,11 @@ def short_rule(rule):
         rule_heading(rule), indent(rule["text"]), line("-")
     )
 
-def history(hist):
+def history(data_path, hist):
     result = ""
 
     for change in hist:
-        result = result + "\n" + fixed_width(change_string(change))
+        result = result + "\n" + fixed_width(change_string(data_path, change))
     
     return result.format(*range(1, result.count("{}") + 1))
 
@@ -95,11 +95,11 @@ def annotation_list(annos):
 
     return result
 
-def full_rule(rule):
+def full_rule(data_path, rule):
     result = "{}\n\n{}\nHistory:\n{}\n\nAnnotations:\n".format(
         rule_heading(rule),
         indent(rule["text"]),
-        history(rule["history"])
+        history(data_path, rule["history"])
     )
 
     try: result = result +  annotation_list(rule["annotations"])

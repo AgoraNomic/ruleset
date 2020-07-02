@@ -37,7 +37,13 @@ How This Thing Works
 
 ``gen.py`` generates rulesets. If you just run ``python gen.py``, however,
 you will recieve an error. That's because there are a few arguments you
-need to know. These just need to be added as a second word.
+need to know.
+
+The first argument is the path of the directory containing the data (i.e.
+the ``config``, ``proposals``, and ``rules`` directories).
+
+The next argument is the mode to be used when generating the output.
+It can have one or more of the following letters in it:
 
 * ``s``: generate a Short Logical Ruleset
 * ``f``: generate a Full Logical Ruleset
@@ -50,4 +56,4 @@ are the same as before, and it will only generate new rule text if they
 are not.
 
 If you want to regenerate the ruleset from scratch, however, run gen.py
-with the ``r`` argument.
+with the ``r`` mode.
