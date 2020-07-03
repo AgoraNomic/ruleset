@@ -44,7 +44,7 @@ def section_heading(section):
         indent(section["note"].strip(), 3), line("-")
     )
 
-def rule_heading(rule):
+def rule_heading(entity_kind, rule):
     rev = 0
     for i in rule["history"]:
         try:
@@ -54,13 +54,13 @@ def rule_heading(rule):
                                        "reenactment",
                                        "infection-amendment"]:
                 rev = rev + 1
-    return "Rule {}/{} (Power={})\n{}".format(
-        rule["id"], rev, rule["power"], rule["name"]
+    return "{} {}/{} (Power={})\n{}".format(
+        entity_kind, rule["id"], rev, rule["power"], rule["name"]
     )
 
-def short_rule(rule):
+def short_rule(entity_kind, rule):
     return "{}\n\n{}\n{}\n".format(
-        rule_heading(rule), indent(rule["text"]), line("-")
+        rule_heading(entity_kind=entity_kind, rule=rule), indent(rule["text"]), line("-")
     )
 
 def history(data_path, hist):
@@ -95,9 +95,9 @@ def annotation_list(annos):
 
     return result
 
-def full_rule(data_path, rule):
+def full_rule(data_path, entity_kind, rule):
     result = "{}\n\n{}\nHistory:\n{}\n\nAnnotations:\n".format(
-        rule_heading(rule),
+        rule_heading(entity_kind=entity_kind, rule=rule),
         indent(rule["text"]),
         history(data_path, rule["history"])
     )

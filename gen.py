@@ -38,6 +38,10 @@ smkdir(meta_dir_path)
 if short: smkdir(short_meta_dir_path)
 if full: smkdir(full_meta_dir_path)
 
+general_config_path = path.join(config_dir_path, "general")
+general_config = yaml.load(get_contents(general_config_path), Loader=yaml.FullLoader)
+entity_kind = general_config["entity_kind"]
+
 for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Loader=yaml.FullLoader):
     if short: slr = slr + section_heading(section)
     if full:
@@ -72,13 +76,13 @@ for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Load
         ]
 
         if short:
-            gen = short_rule(ldata)
+            gen = short_rule(entity_kind=entity_kind, rule=ldata)
             
             print("\tprocessed short rule")
             write_file(path.join(short_meta_dir_path, str(rule)), gen)
             slr = slr + gen
         if full:
-            gen = full_rule(data_path, ldata)
+            gen = full_rule(data_path=data_path, entity_kind=entity_kind, rule=ldata)
 
             toc = toc + "   * Rule {0:>4}: {1}\n".format(
                 rule, ldata["name"]
