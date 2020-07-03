@@ -44,7 +44,7 @@ def section_heading(section):
         indent(section["note"].strip(), 3), line("-")
     )
 
-def rule_heading(entity_kind, rule):
+def rule_heading(entity_config, rule):
     rev = 0
     for i in rule["history"]:
         try:
@@ -54,13 +54,13 @@ def rule_heading(entity_kind, rule):
                                        "reenactment",
                                        "infection-amendment"]:
                 rev = rev + 1
-    return "{} {}/{} (Power={})\n{}".format(
-        entity_kind, rule["id"], rev, rule["power"], rule["name"]
+    return "{} {}/{}{}\n{}".format(
+        entity_config.kind, rule["id"], rev, (" (Power=" + str(rule["power"]) + ")") if entity_config.has_power else "", rule["name"]
     )
 
-def short_rule(entity_kind, rule):
+def short_rule(entity_config, rule):
     return "{}\n\n{}\n{}\n".format(
-        rule_heading(entity_kind=entity_kind, rule=rule), indent(rule["text"]), line("-")
+        rule_heading(entity_config=entity_config, rule=rule), indent(rule["text"]), line("-")
     )
 
 def history(data_path, hist):
@@ -95,9 +95,9 @@ def annotation_list(annos):
 
     return result
 
-def full_rule(data_path, entity_kind, rule):
+def full_rule(data_path, entity_config, rule):
     result = "{}\n\n{}\nHistory:\n{}\n\nAnnotations:\n".format(
-        rule_heading(entity_kind=entity_kind, rule=rule),
+        rule_heading(entity_config=entity_config, rule=rule),
         indent(rule["text"]),
         history(data_path, rule["history"])
     )

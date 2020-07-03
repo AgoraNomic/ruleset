@@ -3,6 +3,7 @@ from sys import argv
 from datetime import datetime as dt
 from rulekeep.utils import *
 from rulekeep.templates import *
+from rulekeep.entity import *
 import yaml
 
 short = False
@@ -40,7 +41,11 @@ if full: smkdir(full_meta_dir_path)
 
 general_config_path = path.join(config_dir_path, "general")
 general_config = yaml.load(get_contents(general_config_path), Loader=yaml.FullLoader)
+
 entity_kind = general_config["entity_kind"]
+entity_has_power = general_config["entity_has_power"]
+
+entity_config = EntityConfig(kind=entity_kind, has_power=entity_has_power)
 
 for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Loader=yaml.FullLoader):
     if short: slr = slr + section_heading(section)
@@ -76,13 +81,13 @@ for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Load
         ]
 
         if short:
-            gen = short_rule(entity_kind=entity_kind, rule=ldata)
+            gen = short_rule(entity_config=entity_config, rule=ldata)
             
             print("\tprocessed short rule")
             write_file(path.join(short_meta_dir_path, str(rule)), gen)
             slr = slr + gen
         if full:
-            gen = full_rule(data_path=data_path, entity_kind=entity_kind, rule=ldata)
+            gen = full_rule(data_path=data_path, entity_config=entity_config, rule=ldata)
 
             toc = toc + "   * Rule {0:>4}: {1}\n".format(
                 rule, ldata["name"]
@@ -98,14 +103,21 @@ header = get_contents(path.join(config_dir_path, "header")).format(
     num=len(rules)
 )
 
-powers = {}
+def get_powers():
+    if (not entity_has_power): raise NotImplementedError()
 
-for rule in rules:
-    power = prop_list[str(rule)][1]
-    try: powers[power] = powers[power] + 1
-    except KeyError: powers[power] = 1
+    powers = {}
 
-power_string = "\n".join(["{0:<2} with Power={1}".format(powers[i], i) for i in sorted(powers.keys())])
+    for rule in rules:
+        power = prop_list[str(rule)][1]
+        try: powers[power] = powers[power] + 1
+        except KeyError: powers[power] = 1
+
+    return powers
+
+def get_power_string():
+    powers = get_powers()
+    return "\n".join(["{0:<2} with Power={1}".format(powers[i], i) for i in sorted(powers.keys())])
 
 if short: write_file(
     "slr.txt", get_contents(path.join(config_dir_path, "slr_format")).format(
@@ -114,10 +126,15 @@ if short: write_file(
 )
 
 if full:
+    mappings = {}
+    mappings["header"] = header
+    mappings["line"] = line("-")
+    mappings["toc"] = toc
+    mappings["ruleset"] = flr
+    if (entity_has_power): mappings["power"] = get_power_string()
+
     write_file(
-    "flr.txt", get_contents(path.join(config_dir_path, "flr_format")).format(
-        header=header, line=line("-"), toc=toc, ruleset=flr, powers=power_string
-    )
+    "flr.txt", get_contents(path.join(config_dir_path, "flr_format")).format(**mappings)
 )
 
 write_file(path.join(meta_dir_path, "proplist"), tablist_string(prop_list))
