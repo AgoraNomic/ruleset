@@ -152,6 +152,9 @@ def agent_string(data_path, agent):
     try: return "Decree given by " + agent["decree"]
     except KeyError: pass
 
+    try: return "initiation of " + agent["tournament"]["name"] + " by " + agent["tournament"]["initiator"]
+    except KeyError: pass
+
 def proposal_blame(data_path, num):
     proposal = proposal_data(data_path, num)
     result = "(" + proposal["author"]
