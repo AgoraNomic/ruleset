@@ -3,7 +3,7 @@ from sys import argv
 from datetime import datetime as dt
 from rulekeep.utils import *
 from rulekeep.templates import *
-from rulekeep.entity import *
+from rulekeep.config import *
 import yaml
 
 short = False
