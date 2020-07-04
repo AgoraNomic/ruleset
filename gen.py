@@ -42,10 +42,19 @@ if full: smkdir(full_meta_dir_path)
 general_config_path = path.join(config_dir_path, "general")
 general_config = yaml.load(get_contents(general_config_path), Loader=yaml.FullLoader)
 
-entity_kind = general_config["entity_kind"]
-entity_has_power = general_config["entity_has_power"]
+def get_entity_config():
+    entity_kind = general_config["entity_kind"]
+    entity_has_power = general_config["entity_has_power"]
 
-entity_config = EntityConfig(kind=entity_kind, has_power=entity_has_power)
+    return EntityConfig(kind=entity_kind, has_power=entity_has_power)
+
+def get_report_config():
+    use_stats = general_config["use_stats"]
+
+    return ReportConfig(entity_config=get_entity_config(), use_stats=use_stats)
+
+report_config = get_report_config()
+entity_config = report_config.entity_config
 
 for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Loader=yaml.FullLoader):
     if short: slr = slr + section_heading(section)
@@ -97,14 +106,20 @@ for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Load
             write_file(path.join(full_meta_dir_path, str(rule)), gen)
             flr = flr + gen
 
-header = get_contents(path.join(config_dir_path, "header")).format(
-    **get_stats(data_path),
-    her=max(rules),
-    num=len(rules)
-)
+def generate_header():
+    format_args = {}
+
+    if (report_config.use_stats):
+        format_args.update(get_stats(data_path))
+        format_args["her"] = max(rules)
+    format_args["num"] = len(rules)
+
+    return get_contents(path.join(config_dir_path, "header")).format(**format_args)
+
+header = generate_header()
 
 def get_powers():
-    if (not entity_has_power): raise NotImplementedError()
+    if (not entity_config.has_power): raise NotImplementedError()
 
     powers = {}
 
@@ -131,10 +146,9 @@ if full:
     mappings["line"] = line("-")
     mappings["toc"] = toc
     mappings["ruleset"] = flr
-    if (entity_has_power): mappings["power"] = get_power_string()
+    if (entity_config.has_power): mappings["powers"] = get_power_string()
 
-    write_file(
-    "flr.txt", get_contents(path.join(config_dir_path, "flr_format")).format(**mappings)
+    write_file( "flr.txt", get_contents(path.join(config_dir_path, "flr_format")).format(**mappings)
 )
 
 write_file(path.join(meta_dir_path, "proplist"), tablist_string(prop_list))
