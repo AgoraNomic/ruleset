@@ -1,5 +1,5 @@
 id: BT13
-title: Birthday Tournament 13
+name: Birthday Tournament 13
 text: |
   There can only be one unit in a province at a time.
 history:
@@ -7,6 +7,6 @@ history:
     type: enactment
   date: 2020-07-03
   agent:
-    tournament:
+    tournament_init:
        name: 2020 Birthday Tournament
        initiator: Publius Scribonius Scholasticus

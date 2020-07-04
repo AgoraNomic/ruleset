@@ -1,5 +1,5 @@
 id: BT22
-title: Birthday Tournament 22
+name: Birthday Tournament 22
 text: |
   A dislodged unit must retreat to an adjacent province. Retreats
   can’t be convoyed or supported. If two or more units are ordered
@@ -11,6 +11,6 @@ history:
     type: enactment
   date: 2020-07-03
   agent:
-    tournament:
+    tournament_init:
        name: 2020 Birthday Tournament
        initiator: Publius Scribonius Scholasticus

@@ -1,5 +1,5 @@
 id: BT17
-title: Birthday Tournament 17
+name: Birthday Tournament 17
 text: |
   There are four possible orders: Hold, Move, Support, and Convoy.
   Not giving a unit an order is interpreted as ordering it to hold.
@@ -19,6 +19,6 @@ history:
     type: enactment
   date: 2020-07-03
   agent:
-    tournament:
+    tournament_init:
        name: 2020 Birthday Tournament
        initiator: Publius Scribonius Scholasticus

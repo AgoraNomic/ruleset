@@ -1,5 +1,5 @@
 id: BT25
-title: Birthday Tournament 25
+name: Birthday Tournament 25
 text: |
   Where these regulations are silent, the Gamemaster CAN make use of
   the official rules or eir own common sense to ensure smooth play.
@@ -8,6 +8,6 @@ history:
     type: enactment
   date: 2020-07-03
   agent:
-    tournament:
+    tournament_init:
        name: 2020 Birthday Tournament
        initiator: Publius Scribonius Scholasticus

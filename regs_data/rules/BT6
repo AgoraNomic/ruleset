@@ -1,5 +1,5 @@
 id: BT6
-title: Birthday Tournament 6
+name: Birthday Tournament 6
 text: |
   The game SHALL be conducted on a map mechanically
   indistinguishable from that appearing at [2]. The Gamemaster SHALL
@@ -10,6 +10,6 @@ history:
     type: enactment
   date: 2020-07-03
   agent:
-    tournament:
+    tournament_init:
        name: 2020 Birthday Tournament
        initiator: Publius Scribonius Scholasticus

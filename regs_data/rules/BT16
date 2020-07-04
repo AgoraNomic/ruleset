@@ -1,5 +1,5 @@
 id: BT16
-title: Birthday Tournament 16
+name: Birthday Tournament 16
 text: |
   Each turn represents six months of time. The first turn is called
   a Spring turn and the next a Fall turn. After each Fall turn, each
@@ -14,6 +14,6 @@ history:
     type: enactment
   date: 2020-07-03
   agent:
-    tournament:
+    tournament_init:
        name: 2020 Birthday Tournament
        initiator: Publius Scribonius Scholasticus

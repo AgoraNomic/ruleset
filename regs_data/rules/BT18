@@ -1,5 +1,5 @@
 id: BT18
-title: Birthday Tournament 18
+name: Birthday Tournament 18
 text: |
   Bulgaria, Spain, and St. Petersburg have separately identified
   coasts, between which fleets cannot move. If Fleets occupy
@@ -11,6 +11,6 @@ history:
     type: enactment
   date: 2020-07-03
   agent:
-    tournament:
+    tournament_init:
        name: 2020 Birthday Tournament
        initiator: Publius Scribonius Scholasticus
