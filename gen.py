@@ -76,10 +76,10 @@ for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Load
                         toc = toc + "   * Rule {0:>4}: {1}\n".format(
                             rule, h[2]
                         )
-                    print("%d\tunchanged" % rule)
+                    print("{}\tunchanged".format(rule))
                     continue
-            except: print("%d\tchanged" % rule)
-        else: print("%d\tprocessing" % rule)
+            except: print("{}\tchanged".format(rule))
+        else: print("{}\tprocessing".format(rule))
 
         ldata = yaml.load(data, Loader=yaml.FullLoader)
         
