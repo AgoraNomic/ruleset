@@ -1,0 +1,15 @@
+id: BT20
+title: Birthday Tournament 20
+text: |
+  A unit moves with its own strength combined with all of its valid
+  supports. Support is cut if the unit giving support is attacked
+  from any province except the one where support is being given or
+  if the unit giving support is dislodged.
+history:
+- change:
+    type: enactment
+  date: 2020-07-03
+  agent:
+    tournament:
+       name: 2020 Birthday Tournament
+       initiator: Publius Scribonius Scholasticus

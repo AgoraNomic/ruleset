@@ -1,0 +1,16 @@
+id: BT21
+title: Birthday Tournament 21
+text: |
+  A country can’t dislodge or support the dislodgment of one of its
+  own units, even if that dislodgment is unexpected. An attack by a
+  country on one of its own units doesn’t cut support. A convoyed
+  Army doesn’t cut the support of a unit supporting an attack
+  against one of the Fleets necessary for the Army to convoy.
+history:
+- change:
+    type: enactment
+  date: 2020-07-03
+  agent:
+    tournament:
+       name: 2020 Birthday Tournament
+       initiator: Publius Scribonius Scholasticus

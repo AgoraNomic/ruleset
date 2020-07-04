@@ -1,0 +1,24 @@
+id: BT17
+title: Birthday Tournament 17
+text: |
+  There are four possible orders: Hold, Move, Support, and Convoy.
+  Not giving a unit an order is interpreted as ordering it to hold.
+  A Hold order orders a unit to stay where it is. A Move order
+  orders a unit to move to a different province. Armies can only
+  move onto adjacent inland or coastal provinces. Fleets can only
+  move to adjacent water or coastal provinces. A Move order making
+  use of a Convoy must specify what Convoy paths it will use or
+  conditionals to determine such. Support orders help another unit's
+  action, whether or not it is a unit of the same Great Power. An
+  Army or Fleet can provide support to another Army or Fleet.
+  Support can be offensive or defensive. A Convoy order orders a
+  fleet in a water province to move an army from an adjacent coastal
+  province to another adjacent coastal province.
+history:
+- change:
+    type: enactment
+  date: 2020-07-03
+  agent:
+    tournament:
+       name: 2020 Birthday Tournament
+       initiator: Publius Scribonius Scholasticus

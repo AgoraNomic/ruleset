@@ -1,0 +1,21 @@
+id: BT24
+title: Birthday Tournament 24
+text: |
+  If a player leaves the game or otherwise fail to submit orders on
+  a given Spring or Fall turn, the Gamemaster SHALL attempt to replace
+  em with a new Contestant, but if this fails, it's assumed that eir
+  government has collapsed. Eir units all hold in position, but
+  don’t support each other. If they’re dislodged, they’re disbanded.
+  No new units are raised for the country. If a country in civil
+  disorder has to remove units, the units farthest from the country
+  are removed first. If units are equally distant, then remove
+  Fleets before Armies and then in alphabetical order by the
+  provinces in which they’re located.
+history:
+- change:
+    type: enactment
+  date: 2020-07-03
+  agent:
+    tournament:
+       name: 2020 Birthday Tournament
+       initiator: Publius Scribonius Scholasticus
