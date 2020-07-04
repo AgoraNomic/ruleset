@@ -85,7 +85,7 @@ for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Load
         
         prop_list[str(rule)] = [
             get_hash(data),
-            ldata["power"],
+            ldata["power"] if (entity_config.has_power) else None,
             ldata["name"]
         ]
 
