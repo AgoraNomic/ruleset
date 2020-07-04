@@ -147,13 +147,15 @@ def agent_string(data_path, agent):
     except KeyError: pass
 
     try: return agent["ratification"]["document"] + " ratification"
-    except KeyError: return "ratification"
+    except KeyError: pass
 
     try: return "Decree given by " + agent["decree"]
     except KeyError: pass
 
     try: return "initiation of " + agent["tournament"]["name"] + " by " + agent["tournament"]["initiator"]
     except KeyError: pass
+
+    raise NotImplementedError()
 
 def proposal_blame(data_path, num):
     proposal = proposal_data(data_path, num)
