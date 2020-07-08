@@ -5,8 +5,8 @@ text: |
   The vote collector for an unresolved Agoran decision CAN resolve
   it by announcement, indicating the outcome. If it was required to
   be initiated, then e SHALL resolve it in a timely fashion after
-  the end of the voting period. To be valid, this announcement must
-  satisfy the following conditions:
+  the end of the voting period. To be EFFECTIVE, such an attempt
+  must satisfy the following conditions:
 
   1. It is published after the voting period has ended.
 
@@ -128,6 +128,11 @@ history:
   date: 2018-10-01
   agent:
     proposal: "8083"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8468"
 annotations:
 - cfjs:
   - id: '1711'
