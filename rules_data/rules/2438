@@ -108,6 +108,11 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8460"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -162,7 +167,9 @@ text: |
   acknowledges it, that person earns a Magenta Ribbon.
 
   Ultraviolet (U): When a person is awarded the Patent Title
-  Champion, that person earns an Ultraviolet Ribbon.
+  Champion, that person earns an Ultraviolet Ribbon, unless the
+  Champion title was awarded as the result of winning the game via
+  this rule.
 
   Violet (V): When a person is awarded a Patent Title other than
   Champion or a degree, that person earns a Violet Ribbon.
