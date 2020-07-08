@@ -3,10 +3,12 @@ name: The Administrative State
 power: 2.0
 text: |
   Each officer CAN, with 1.5 Agoran consent, enact, amend, or repeal
-  eir own office's Administrative Regulations. Administrative
-  Regulations have the following properties:
+  eir own office's Administrative Regulations. If e has won an
+  election for the office in the last 7 days, e CAN repeal them by
+  announcement.  Administrative Regulations have the following
+  properties:
 
-  1. An officer SHALL abide by eir office's administrative
+  1. An officer SHALL NOT violate eir office's administrative
      regulations in the discharge of eir office.
   2. Any player CAN act on behalf of an officer to exercise eir
      official powers as authorized by eir office's administrative
@@ -19,4 +21,9 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8448"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8469"
 annotations: []
