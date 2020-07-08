@@ -6,9 +6,11 @@ text: |
   refrain from performing) certain actions, then breaking the pledge
   within the pledge's time window is the Class N crime of
   Oathbreaking, where N is 2 unless the pledge explicitly states
-  otherwise.  The time window of a pledge is 60 days, unless the
-  pledge explicitly states otherwise. A pledge ceases to exist at
-  the end of its time window.
+  otherwise. It is also Oathbreaking for a player to let a pledge
+  expire without taking an action e pledged to do in that pledge.
+  The time window of a pledge is 60 days, unless the pledge
+  explicitly states otherwise. A pledge ceases to exist at the end
+  of its time window.
 
   If breaking the pledge harms specific other parties, the Referee
   SHOULD solicit the opinion of those parties in determining an
@@ -60,6 +62,11 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8412"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8461"
 annotations:
 - cfjs:
   - id: 3683-3684

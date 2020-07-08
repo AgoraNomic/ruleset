@@ -25,10 +25,10 @@ text: |
   investigator CAN specify that the violation is forgivable,
   specifying up to 10 words to be included in an apology.  If the
   investigator does so, the perp CAN, in a timely fashion, expunge P
-  blots from emself, where P is the minimum of the value of the fine
-  and 3, by publishing a formal apology of at least 200 words and
-  including all the specified words, explaining eir error, shame,
-  remorse, and ardent desire for self-improvement.
+  blots from emself, where P is the value of the fine, by publishing
+  a formal apology of at least 200 words and including all the
+  specified words, explaining eir error, shame, remorse, and ardent
+  desire for self-improvement.
 history:
 - change:
     type: enactment
@@ -56,4 +56,9 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8244"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8461"
 annotations: []
