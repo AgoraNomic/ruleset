@@ -16,9 +16,7 @@ text: |
 
   For such an auction, each lot consists of the talisman for one
   zombie, ordered at the discretion of the Registrar. The Registrar
-  is the auctioneer, and the minimum bid is 1. The method to be used
-  for this auction is the zombie auction method if such a method
-  exists, or otherwise the default auction method.
+  is the auctioneer, and the minimum bid is 1.
 history:
 - change:
     type: enactment
@@ -94,4 +92,9 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8459"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8467"
 annotations: []
