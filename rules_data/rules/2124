@@ -27,9 +27,10 @@ text: |
      number of Supporters of the intent is less than or equal to N
      times the number of Objectors to the intent.
 
-  The above notwithstanding, if an action depends on objections, and
-  an objection to an intent to perform it has been withdrawn within
-  the past 24 hours, then Agora is not Satisfied with that intent.
+  The above notwithstanding, if an action is to be performed without
+  N objections or with N Agoran consent, and an objection to an
+  intent to perform it has been withdrawn within the past 24 hours,
+  then Agora is not Satisfied with that intent.
 
   The above notwithstanding, Agora is not satisfied with an intent
   if the Speaker has objected to it in the last 48 hours.
@@ -191,6 +192,11 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8303"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8472"
 annotations:
 - cfjs:
   - id: '3567'
