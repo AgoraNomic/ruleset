@@ -8,12 +8,11 @@ text: |
   (F - A)/T. The Assessor SHOULD publish the popularity of each
   referendum when resolving it.
 
-  The player who proposed the adopted proposal whose referendum had
-  the greatest popularity among all referenda assessed in the last 7
-  days CAN once earn one Legislative Card by announcement, provided
-  that no referendum initiated in the same message as it remains
-  unresolved. If there is a tie, all authors of the tied proposals
-  can do so once each.
+  The author of the most popular sponsored proposal adopted in the
+  last 7 days CAN once earn one Legislative Card by announcement,
+  provided that no referenda initiated in the same message as it
+  remain unresolved. If there is a tie, all authors of the tied
+  proposals can do so once each.
 history:
 - change:
     type: enactment
@@ -30,4 +29,9 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8470"
 annotations: []

@@ -2,16 +2,20 @@ id: 2622
 name: Pending Proposals
 power: 1.0
 text: |
-  Pended is an untracked negative boolean proposal switch. Any
-  player CAN pay 1 Pendant to flip the Pended switch of a specified
-  proposal to True. If the player did not create the proposal and is
-  not listed in the list of coauthors of the proposal, e is added to
-  the list of coauthors.
+  Pended is an untracked negative boolean proposal switch.
 
-  The Promotor CAN, once a week and with 2 support, flip the Pended
-  switch of a proposal in the Proposal Pool to True. E SHOULD NOT do
-  so if the author of the proposal has at least one Pendant or
-  Legislative Card.
+  Any player CAN pay 1 Pendant to flip the Pended switch of a
+  specified proposal to True. If the player did not create the
+  proposal and is not listed in the list of co-authors of the
+  proposal, e is added to the list of co-authors. When e does so,
+  the proposal becomes sponsored.
+
+  The Promotor CAN, with 2+X support, flip the Pended switch of a
+  proposal in the Proposal Pool to true. For this, X is equal to the
+  number of times e has done so in the past 7 days.
+
+  Any player CAN, without objection, flip the Pended switch of a
+  proposal in the Proposal Pool to true.
 
   A proposal with a Pended switch set to True is 'pending'.
 history:
@@ -31,4 +35,9 @@ history:
   agent:
     cleaning:
       by: Jason
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8470"
 annotations: []
