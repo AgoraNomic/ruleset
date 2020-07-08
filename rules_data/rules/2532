@@ -2,34 +2,35 @@ id: 2532
 name: Zombies
 power: 2
 text: |
-  Master is a secured player switch, tracked by the Registrar, with
-  possible values of any player, and Agora. Every player's default
-  master is emself; rules to the contrary notwithstanding, a player
-  CAN always flip eir own master to emself by announcement. When a
-  zombie's master ceases to be a player, the value of the zombie's
-  master switch is set to Agora.
+  A talisman is an indestructible asset, tracked by the Registrar,
+  and with ownership wholly restricted to players and Agora. There
+  exists exactly one talisman for each player, and no other
+  talismans; if one does not exist for a certain player, it is
+  created in eir posession.  Talismans CAN only be transferred as
+  explicitly specified by the rules.  The creation, destruction, and
+  transfer of talismans is secured.
 
-  A player whose master is not emself is a zombie (syn. inactive);
-  all other players are active.  A zombie's master, if another
-  player, is allowed to act on behalf of the zombie (i.e. as the
-  zombie's agent), except a master CANNOT act on behalf of a zombie
-  to:
+  Rules to the contrary notwithstanding, a player CAN, by
+  announcement, transfer the talisman for em to emself. The master
+  of a player is the entity that possesses the talisman for em. A
+  player who is eir own master is active; any other player is a
+  zombie (syn. inactive).
+
+  The master of a zombie CAN act on behalf of em, except a master
+  CANNOT act on behalf of a zombie to:
     - initiate, support, object to, or perform a dependent action;
     - act on behalf of that zombie's zombies;
     - bid in a zombie auction;
-    - enter a contract, pledge, promise, or other type of agreement;
+    - enter a contract, pledge, or other type of agreement;
     - initiate a Call for Judgement;
     - create blots;
     - deregister.
 
-  A zombie's master CAN flip that zombie's master switch to Agora by
-  announcement.
-
   If a master causes a zombie to perform an ILLEGAL action, the
-  master commits the Class 4+N Crime of Masterminding (where N is
-  the class of the illegal action).
+  master commits the Class 4+N Crime of Masterminding (where N is the
+  class of the illegal action).
 
-  If a active player who was a zombie has not received a Welcome
+  If an active player who was a zombie has not received a Welcome
   Package since e most recently ceased being a zombie, and if eir
   resale value was less than 2 at any point during eir most recent
   time as a zombie, then any player CAN cause em to receive a
@@ -83,4 +84,9 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8410"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8459"
 annotations: []
