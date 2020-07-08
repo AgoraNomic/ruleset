@@ -5,8 +5,8 @@ text: |
   An action is forbidden if it would, upon its successful
   occurrence, cause Agora to be ossified or to cease to exist.
 
-  Attempting a forbidden action is PROHIBITED, and is the Class-4
-  Crime of Engaging in Forbidden Arts.
+  Publicly attempting a forbidden action is PROHIBITED, and is the
+  Class-4 Crime of Engaging in Forbidden Arts.
 history:
 - change:
     type: enactment
@@ -18,4 +18,9 @@ history:
   date: 2020-06-18
   agent:
     proposal: "8437"
+- change:
+    type: amendment
+  date: 2020-07-08
+  agent:
+    proposal: "8465"
 annotations: []
