@@ -155,6 +155,9 @@ def agent_string(data_path, agent):
     try: return "initiation of " + agent["tournament_init"]["name"] + " by " + agent["tournament_init"]["initiator"]
     except KeyError: pass
 
+    try: return agent["tournament_change"]["person"] + " as part of " + agent["tournament_change"]["name"]
+    except KeyError: pass
+
     try: return agent["person"]
     except KeyError: pass
 
