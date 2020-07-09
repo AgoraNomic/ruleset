@@ -3,16 +3,16 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 1 Jul 2020
+Date of this ruleset: 8 Jul 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 140
+Number of rules currently enacted: 139
 
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2630
-Highest ID'd Proposal Passed: 8458
+Highest ID'd Proposal Passed: 8472
 Highest ID'd Rule Enacted: 2630
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -53,7 +53,6 @@ Entities
 Proposals
    * Rule 2350: Proposals
    * Rule 2622: Pending Proposals
-   * Rule 2626: Certifiable Patches
    * Rule 2625: Proposal Recycling
    * Rule 2605: Ministries
    * Rule 2606: Proposal Classes
@@ -191,7 +190,7 @@ Barrels
 Power Distribution:
 
 1  with Power=0.3
-41 with Power=1
+40 with Power=1
 2  with Power=1.5
 6  with Power=1.7
 27 with Power=2
@@ -1256,7 +1255,7 @@ Amended(2) by P8422 'No More Numbers!' (Publius Scribonius
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2124/26 (Power=2)
+Rule 2124/27 (Power=2)
 Agoran Satisfaction
 
       A Supporter of an intent to perform an action is an eligible
@@ -1284,9 +1283,10 @@ Agoran Satisfaction
          number of Supporters of the intent is less than or equal to N
          times the number of Objectors to the intent.
       
-      The above notwithstanding, if an action depends on objections, and
-      an objection to an intent to perform it has been withdrawn within
-      the past 24 hours, then Agora is not Satisfied with that intent.
+      The above notwithstanding, if an action is to be performed without
+      N objections or with N Agoran consent, and an objection to an
+      intent to perform it has been withdrawn within the past 24 hours,
+      then Agora is not Satisfied with that intent.
       
       The above notwithstanding, Agora is not satisfied with an intent
       if the Speaker has objected to it in the last 48 hours.
@@ -1336,6 +1336,7 @@ Amended(25) by P8236 'Definition de-capitalization' (Jason, Aris), 18
    Sep 2019
 Amended(26) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
    Falsifian), 29 Jan 2020
+Amended(27) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
 
 Annotations:
 CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
@@ -1792,19 +1793,23 @@ CFJ 1717 (called 08 Aug 2007): Preceding a proposal-like text with the
    clearly indicate that it is intended to become a proposal.
 
 ------------------------------------------------------------------------
-Rule 2622/2 (Power=1.0)
+Rule 2622/3 (Power=1.0)
 Pending Proposals
 
-      Pended is an untracked negative boolean proposal switch. Any
-      player CAN pay 1 Pendant to flip the Pended switch of a specified
-      proposal to True. If the player did not create the proposal and is
-      not listed in the list of coauthors of the proposal, e is added to
-      the list of coauthors.
+      Pended is an untracked negative boolean proposal switch.
       
-      The Promotor CAN, once a week and with 2 support, flip the Pended
-      switch of a proposal in the Proposal Pool to True. E SHOULD NOT do
-      so if the author of the proposal has at least one Pendant or
-      Legislative Card.
+      Any player CAN pay 1 Pendant to flip the Pended switch of a
+      specified proposal to True. If the player did not create the
+      proposal and is not listed in the list of co-authors of the
+      proposal, e is added to the list of co-authors. When e does so,
+      the proposal becomes sponsored.
+      
+      The Promotor CAN, with 2+X support, flip the Pended switch of a
+      proposal in the Proposal Pool to true. For this, X is equal to the
+      number of times e has done so in the past 7 days.
+      
+      Any player CAN, without objection, flip the Pended switch of a
+      proposal in the Proposal Pool to true.
       
       A proposal with a Pended switch set to True is 'pending'.
       
@@ -1814,49 +1819,8 @@ Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 Amended(1) by P8413 'Why Track Pendency?' (Aris), 14 Jun 2020
 Amended(2) by cleaning (Jason), 29 Jun 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2626/0 (Power=1.0)
-Certifiable Patches
-
-      Any player CAN, by announcement, certify a specified proposal (as
-      a patch), causing it to become pending.
-      
-      A player SHALL NOT certify a proposal unless its sole function is
-      to minimally rectify a bug, error, or ambiguity (a problem) that
-      relates to a) an office e holds; or b) a CFJ, open within the last
-      week, of which e is the judge. Certifying a proposal in violation
-      of this paragraph is the Class-4 Crime of Uncertain Certification.
-      A player certifying a proposal SHOULD explain why doing so does
-      not violate this paragraph.
-      
-      For the purposes of this rule:
-      
-      1. A bug is a situation in which a rule operates in a way that is
-         clearly contrary to legislative intent or common sense.
-      2. An error is a change introduced by apparent mistake, such as
-         the self-ratification of an incorrect report or a typo in a
-         rule amendment.
-      3. An ambiguity is a state of affairs in which reasonable players
-         could disagree about the operation of the rules or the state of
-         a rule defined property.
-      4. A minimal rectification is one that resolves the problem
-         without doing substantially more than is necessary to resolve
-         it.  For instance, rectification that uses more slightly words
-         than necessary to resolve the problem may still be minimal,
-         whereas a rectification that makes rule changes unrelated to
-         fixing the problem would not be.
-      5. A problem relates to an office if it plausibly affects the area
-         of the game the office is responsible for and relates to a CFJ
-         if it could plausibly be interpreted to affect that CFJ's
-         outcome.
-      
-History:
-
-Enacted by P8424 'Certifiable Patches' (Aris, nch, Publius Scribonius
-   Scholasticus), 14 Jun 2020
+Amended(3) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul
+   2020
 
 Annotations:
 
@@ -2222,7 +2186,7 @@ CFJ 3784 (called 22 Dec 2019): A proposal using the first person refers
    to the proposal itself.
 
 ------------------------------------------------------------------------
-Rule 2623/2 (Power=1.0)
+Rule 2623/3 (Power=1.0)
 Popular Proposal Proposer Privilege
 
       For a referendum, let F be the total number of valid ballots
@@ -2231,12 +2195,11 @@ Popular Proposal Proposer Privilege
       (F - A)/T. The Assessor SHOULD publish the popularity of each
       referendum when resolving it.
       
-      The player who proposed the adopted proposal whose referendum had
-      the greatest popularity among all referenda assessed in the last 7
-      days CAN once earn one Legislative Card by announcement, provided
-      that no referendum initiated in the same message as it remains
-      unresolved. If there is a tie, all authors of the tied proposals
-      can do so once each.
+      The author of the most popular sponsored proposal adopted in the
+      last 7 days CAN once earn one Legislative Card by announcement,
+      provided that no referenda initiated in the same message as it
+      remain unresolved. If there is a tie, all authors of the tied
+      proposals can do so once each.
       
 History:
 
@@ -2245,6 +2208,8 @@ Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
 Amended(1) by P8417 'Properly Prioritized Popular Proposal Proposer
    Privilege' (Aris, G.), 14 Jun 2020
 Amended(2) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(3) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul
+   2020
 
 Annotations:
 
@@ -3169,7 +3134,7 @@ Amended(19) by P7632 'All Activity is Good Activity' (Alexis), 01 May
 Amended(20) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(21) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
 Amended(22) by P7814 'FOR Require Intent on Ballots' (o), 28 Oct 2016
-Amended(23) by ratification, 10 Nov 2016
+Amended(23) by Decree given by Alexis, 10 Nov 2016
 Amended(24) by R2430, 24 May 2017
 Amended(25) by P7854 'Close Recent Loopholes v2' (ais523), 05 Jun 2017
 Amended(26) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
@@ -3186,14 +3151,14 @@ CFJ 3647 (called 24 Jun 2018): To attempt to "vote in the same way as
    at the time of resolution (a conditional vote).
 
 ------------------------------------------------------------------------
-Rule 208/13 (Power=3)
+Rule 208/14 (Power=3)
 Resolving Agoran Decisions
 
       The vote collector for an unresolved Agoran decision CAN resolve
       it by announcement, indicating the outcome. If it was required to
       be initiated, then e SHALL resolve it in a timely fashion after
-      the end of the voting period. To be valid, this announcement must
-      satisfy the following conditions:
+      the end of the voting period. To be EFFECTIVE, such an attempt
+      must satisfy the following conditions:
       
       1. It is published after the voting period has ended.
       
@@ -3249,6 +3214,8 @@ Retitled by P7753 'Title Caps Fix' (Alexis), 30 Jun 2015
 Amended(11) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
 Amended(12) by R2430, 24 May 2017
 Amended(13) by P8083 'quorum fixes' (G.), 01 Oct 2018
+Amended(14) by P8468 'Decision resolution patch' (Jason, nch, G.), 08
+   Jul 2020
 
 Annotations:
 CFJ 1711 (called 01 Aug 2007): If a purported resolution notice refers
@@ -3804,14 +3771,16 @@ CFJ 1702 (called 12 Jul 2007): A requirement to submit something to an
    at the time.
 
 ------------------------------------------------------------------------
-Rule 2630/0 (Power=2.0)
+Rule 2630/1 (Power=2.0)
 The Administrative State
 
       Each officer CAN, with 1.5 Agoran consent, enact, amend, or repeal
-      eir own office's Administrative Regulations. Administrative
-      Regulations have the following properties:
+      eir own office's Administrative Regulations. If e has won an
+      election for the office in the last 7 days, e CAN repeal them by
+      announcement.  Administrative Regulations have the following
+      properties:
       
-      1. An officer SHALL abide by eir office's administrative
+      1. An officer SHALL NOT violate eir office's administrative
          regulations in the discharge of eir office.
       2. Any player CAN act on behalf of an officer to exercise eir
          official powers as authorized by eir office's administrative
@@ -3823,6 +3792,8 @@ History:
 
 Enacted by P8448 'Populist Administration' (Aris, Alexis, Falsifian), 30
    Jun 2020
+Amended(1) by P8469 'Bureaucratic Reenginerring' (Aris, Alexis,
+   Falsifian, nch, G.), 08 Jul 2020
 
 Annotations:
 
@@ -4664,7 +4635,7 @@ Retitled by P8377 'Burden + Accurate Naming' (R. Lee), 22 May 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2557/3 (Power=1.7)
+Rule 2557/4 (Power=1.7)
 Sentencing Guidelines
 
       When the rules authorize an investigator to impose the Cold Hand
@@ -4690,10 +4661,10 @@ Sentencing Guidelines
       investigator CAN specify that the violation is forgivable,
       specifying up to 10 words to be included in an apology.  If the
       investigator does so, the perp CAN, in a timely fashion, expunge P
-      blots from emself, where P is the minimum of the value of the fine
-      and 3, by publishing a formal apology of at least 200 words and
-      including all the specified words, explaining eir error, shame,
-      remorse, and ardent desire for self-improvement.
+      blots from emself, where P is the value of the fine, by publishing
+      a formal apology of at least 200 words and including all the
+      specified words, explaining eir error, shame, remorse, and ardent
+      desire for self-improvement.
       
 History:
 
@@ -4702,6 +4673,8 @@ Amended(1) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
 Amended(2) by P8202 'Police Power' (Falsifian, Jason), 23 Jul 2019
 Retitled by P8202 'Police Power' (Falsifian, Jason), 23 Jul 2019
 Amended(3) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
+Amended(4) by P8461 'Reoding Adopted Proposals' (R. Lee, Aris), 08 Jul
+   2020
 
 Annotations:
 
@@ -4833,20 +4806,22 @@ Amended(12) by P8426 'Impracticability Defense' (Aris), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2617/1 (Power=1.0)
+Rule 2617/2 (Power=1.0)
 Defense Against the Dark Arts
 
       An action is forbidden if it would, upon its successful
       occurrence, cause Agora to be ossified or to cease to exist.
       
-      Attempting a forbidden action is PROHIBITED, and is the Class-4
-      Crime of Engaging in Forbidden Arts.
+      Publicly attempting a forbidden action is PROHIBITED, and is the
+      Class-4 Crime of Engaging in Forbidden Arts.
       
 History:
 
 Enacted by P8401 'Defense Against the Dark Arts' (Aris, Publius
    Scribonious Scholasticus), 03 Jun 2020
 Amended(1) by P8437 'Guilderoy Lockhart' (R. Lee, G.), 18 Jun 2020
+Amended(2) by P8465 'Public defense' (Jason, Publius Scribonious
+   Scholasticus), 08 Jul 2020
 
 Annotations:
 
@@ -5344,16 +5319,18 @@ Amended(1) by P7892 'Truthfulness v2' (Aris), 26 Sep 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2450/8 (Power=1.7)
+Rule 2450/9 (Power=1.7)
 Pledges
 
       If a Player makes a clear public pledge (syn. Oath) to perform (or
       refrain from performing) certain actions, then breaking the pledge
       within the pledge's time window is the Class N crime of
       Oathbreaking, where N is 2 unless the pledge explicitly states
-      otherwise.  The time window of a pledge is 60 days, unless the
-      pledge explicitly states otherwise. A pledge ceases to exist at
-      the end of its time window.
+      otherwise. It is also Oathbreaking for a player to let a pledge
+      expire without taking an action e pledged to do in that pledge.
+      The time window of a pledge is 60 days, unless the pledge
+      explicitly states otherwise. A pledge ceases to exist at the end
+      of its time window.
       
       If breaking the pledge harms specific other parties, the Referee
       SHOULD solicit the opinion of those parties in determining an
@@ -5377,6 +5354,8 @@ Amended(6) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
 Amended(7) by P8331 'Promissory cleanliness' (Warrigal, Warrigal), 24
    Feb 2020
 Amended(8) by P8412 'Small Pledge Amendments' (R. Lee), 14 Jun 2020
+Amended(9) by P8461 'Reoding Adopted Proposals' (R. Lee, Aris), 08 Jul
+   2020
 
 Annotations:
 CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
@@ -5772,21 +5751,22 @@ Amended(1) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2579/0 (Power=3)
+Rule 2579/1 (Power=3)
 Fee-based Actions
 
-      If the Rules associate payment of a set of assets (hereafter
-      the fee for the action; syns: cost, price, charge) with performing
-      an action, that action is a fee-based action.
+      If the Rules associate payment of a set of assets (hereafter the
+      fee for the action; syns: cost, price, charge) with performing an
+      action, that method for performing that action is a fee-based
+      method.
       
       If the fee is a non-integer quantity of a fungible asset, the
       actual fee is the next highest integer amount of that asset.
       
-      To perform a fee-based action, an entity (the Actor) who is
-      otherwise permitted to perform the action must announce that e is
-      performing the action; the announcement must specify the correct
-      set of assets for the fee and indicate intent to pay that fee for
-      the sole purpose of performing the action.
+      To use a fee-based method, an entity (the Actor) who is otherwise
+      permitted to perform the action must announce that e is performing
+      the action; the announcement must specify the correct set of
+      assets for the fee and indicate intent to pay that fee for the
+      sole purpose of using that method to perform that action.
       
       Upon such an announcement:
       
@@ -5803,14 +5783,14 @@ Fee-based Actions
         - Otherwise, no changes are made to asset holdings and the
           action is not performed.
       
-      If the Rules define a fee-based action but the specified set of
-      assets is the empty set, then the action can be performed by
-      announcement, but the announcement must include that there is an
-      (empty or 0) fee for the action.
+      If a fee-based method to perform an action has a fee of no assets,
+      that action CAN be performed by announcement, but the actor SHOULD
+      announce that there was a 0 or empty fee.
       
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(1) by P8462 'Fee-based methods' (Jason, Falsifian), 08 Jul 2020
 
 Annotations:
 
@@ -5881,7 +5861,7 @@ Amended(14) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/20 (Power=1)
+Rule 2496/21 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
@@ -5892,9 +5872,10 @@ Rewards
       Below is a list of reward conditions and their associated assets
       and officers.
       
-      * Being the author of an adopted proposal: a number of coins equal
-        to (the total number of valid ballots cast FOR the decision -
-        the total number of valid ballots cast AGAINST) (Assessor).
+      * Being the author of an adopted sponsored proposal: a number of
+        coins equal to (the total number of valid ballots cast FOR the
+        decision - the total number of valid ballots cast AGAINST)
+        (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
         limit to do so, unless at the time of judgement the case was
@@ -5945,6 +5926,8 @@ Amended(17) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
 Amended(18) by P8386 'Restraining Motions' (G.), 22 May 2020
 Amended(19) by P8418 'Referenda' (Aris), 14 Jun 2020
 Amended(20) by P8431 'Proposal Reward Trimming' (Aris, ais523), 18 Jun
+   2020
+Amended(21) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul
    2020
 
 Annotations:
@@ -6079,13 +6062,14 @@ Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/8 (Power=1)
+Rule 2499/9 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
       recently registered, any player CAN cause em to receive one by
       announcement. A player CANNOT receive a Welcome Package via this
-      method if e was deregistered on account of having excessive blots.
+      method if e has been deregistered on account of having excessive
+      blots within the last 30 days.
       
       When a player receives a Welcome Package, e earns 10 coins and one
       of each type of Card defined in the rules.
@@ -6107,6 +6091,7 @@ Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 Amended(8) by P8458 'Welcome Package Patch' (Aris), 30 Jun 2020
+Amended(9) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
 
 Annotations:
 
@@ -6183,37 +6168,38 @@ Annotations:
 The Undead
    A silly mechanic describing what happens after you become inactive.
 ------------------------------------------------------------------------
-Rule 2532/8 (Power=2)
+Rule 2532/9 (Power=2)
 Zombies
 
-      Master is a secured player switch, tracked by the Registrar, with
-      possible values of any player, and Agora. Every player's default
-      master is emself; rules to the contrary notwithstanding, a player
-      CAN always flip eir own master to emself by announcement. When a
-      zombie's master ceases to be a player, the value of the zombie's
-      master switch is set to Agora.
+      A talisman is an indestructible asset, tracked by the Registrar,
+      and with ownership wholly restricted to players and Agora. There
+      exists exactly one talisman for each player, and no other
+      talismans; if one does not exist for a certain player, it is
+      created in eir posession.  Talismans CAN only be transferred as
+      explicitly specified by the rules.  The creation, destruction, and
+      transfer of talismans is secured.
       
-      A player whose master is not emself is a zombie (syn. inactive);
-      all other players are active.  A zombie's master, if another
-      player, is allowed to act on behalf of the zombie (i.e. as the
-      zombie's agent), except a master CANNOT act on behalf of a zombie
-      to:
+      Rules to the contrary notwithstanding, a player CAN, by
+      announcement, transfer the talisman for em to emself. The master
+      of a player is the entity that possesses the talisman for em. A
+      player who is eir own master is active; any other player is a
+      zombie (syn. inactive).
+      
+      The master of a zombie CAN act on behalf of em, except a master
+      CANNOT act on behalf of a zombie to:
         - initiate, support, object to, or perform a dependent action;
         - act on behalf of that zombie's zombies;
         - bid in a zombie auction;
-        - enter a contract, pledge, promise, or other type of agreement;
+        - enter a contract, pledge, or other type of agreement;
         - initiate a Call for Judgement;
         - create blots;
         - deregister.
       
-      A zombie's master CAN flip that zombie's master switch to Agora by
-      announcement.
-      
       If a master causes a zombie to perform an ILLEGAL action, the
-      master commits the Class 4+N Crime of Masterminding (where N is
-      the class of the illegal action).
+      master commits the Class 4+N Crime of Masterminding (where N is the
+      class of the illegal action).
       
-      If a active player who was a zombie has not received a Welcome
+      If an active player who was a zombie has not received a Welcome
       Package since e most recently ceased being a zombie, and if eir
       resale value was less than 2 at any point during eir most recent
       time as a zombie, then any player CAN cause em to receive a
@@ -6231,39 +6217,40 @@ Amended(6) by cleaning (Alexis), 07 Feb 2020
 Amended(7) by P8358 'No zombie blot creation v2' (Jason, Alexis), 04
    Apr 2020
 Amended(8) by P8410 'Promise Powers Patch' (Aris), 14 Jun 2020
+Amended(9) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul
+   2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2574/3 (Power=3)
+Rule 2574/4 (Power=3)
 Zombie Life Cycle
 
-      Any player CAN, with notice, flip the master switch of an active
+      Any player CAN, with notice, transfer the talisman for an active
       player who has not made a public announcement in the past 60 days
       to Agora.
       
       Resale value is a secured natural switch for zombies, tracked by
-      the Registrar, with a default value of 2. Whenever a zombie's
-      master switch is flipped to a player other than emself, eir resale
-      value is decreased by 1. At the end of a zombie auction, every
-      zombie that is an excess lot in that auction has eir resale value
-      decreased by 1.
+      the Registrar, with a default value of 2. Whenever the talisman
+      for a zombie is transferred to a player, that zombie's resale value
+      is decreased by 1. At the end of a zombie auction, the resale
+      value of every zombie that is an excess lot in that auction
+      decreases by 1.
       
-      A zombie with a resale value of 0 CANNOT have eir master switch
-      flipped to a player other than emself, rules to the contrary
-      notwithstanding.
+      The talisman for a zombie with zero resale value CANNOT be
+      transferred to any player other than that zombie.
       
       Any player CAN, with notice:
         - If a zombie has been a zombie for the past 90 days and not had
-          Agora for a master during any of that time, flip the zombie's
-          master switch to Agora;
-        - If a player is master to more than one zombie, flip the master
-          switch of one of that master's zombies to Agora;
-        - Deregister a zombie whose master is Agora and who has a resale
-          value of 0.
+          Agora for a master during any of that time, transfer the
+          talisman for em to Agora;
+        - If a player possesses more than one talisman, specify and
+          transfer one of those talismans to Agora;
+        - Deregister a zombie whose resale value is zero and whose
+          master is Agora.
       
-      The Registrar SHALL track the date that each zombie last belonged
-      to Agora in eir weekly report.  The Registrar SHALL perform all
+      The Registrar SHALL track the date for each zombie on which Agora
+      was most recently eir master. The Registrar SHALL perform all
       POSSIBLE actions in the preceding paragraph in a timely fashion
       after first reporting their possibility via the facts in eir
       weekly report.
@@ -6275,41 +6262,30 @@ Amended(1) by P8098 'Zombie Overstock' (G.), 01 Oct 2018
 Amended(2) by P8182 'Add value to zombies' (Jason), 22 Jun 2019
 Amended(3) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
+Amended(4) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul
+   2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1885/10 (Power=2)
+Rule 1885/12 (Power=2)
 Zombie Auctions
 
-      Whenever a zombie (1) has Agora for a master, (2) is not a lot in
-      an ongoing auction, (3) has a resale value greater than 0, and (4)
-      has not been won as an auction lot in the past 14 days, then the
-      Registrar CAN put that zombie (along with any other zombies that
-      fulfill the same conditions) up for auction.
+      Whenever a zombie has Agora for a master and has a resale value
+      greater than 0, and when eir talisman is not currently a lot in an
+      auction and has not been won as an auction lot in the past 14
+      days, then the Registrar CAN put that zombie's talisman (along
+      with any other talismans that fulfill the same conditions) up for
+      auction.
       
       In a timely fashion after the beginning of each month, the
-      Registrar SHALL either initiate such an auction or, if no zombies
-      meeting these conditions existed at the beginning of the month,
-      announce that no such auction is necessary.
+      Registrar SHALL either initiate such an auction or, if no
+      talismans meeting these conditions existed at the beginning of the
+      month, announce that no such auction is necessary.
       
-      For such an auction, the lots are the qualifying zombies, ordered
-      at the discretion of the Registrar. The Registrar is the
-      announcer, and the minimum bid is 1.  Rules  to the contrary
-      notwithstanding, the master of a zombie CANNOT bid in a zombie
-      auction. If a player becomes a zombie's master, all eir bids in
-      zombie auctions that have not ended are withdrawn.
-      
-      For the purpose of such a auction, to transfer a zombie to a
-      player is to set that zombie's master switch to that player, and
-      Agora CAN perform such transfers of the appropriate lots to
-      auction winners.
-      
-      Rules to the contrary notwithstanding, if a player's master switch
-      is flipped while a zombie auction in which e is a lot is ongoing,
-      then the winner of that lot NEED NOT pay Agora eir bid and Agora
-      CANNOT and NEED NOT transfer the contents of the lot to the
-      winner.
+      For such an auction, each lot consists of the talisman for one
+      zombie, ordered at the discretion of the Registrar. The Registrar
+      is the auctioneer, and the minimum bid is 1.
       
 History:
 
@@ -6328,6 +6304,10 @@ Amended(8) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(9) by P8131 'V.J. Rada Protection Act' (D.F.F., twg), 19 Nov
    2018
 Amended(10) by P8352 'zombie auction fix 1.1' (G.), 21 Mar 2020
+Amended(11) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul
+   2020
+Amended(12) by P8467 'Talismans auction patch' (Jason, Trigon), 08 Jul
+   2020
 
 Annotations:
 
@@ -6458,7 +6438,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/19 (Power=3)
+Rule 2438/21 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6514,7 +6494,9 @@ Ribbons
       acknowledges it, that person earns a Magenta Ribbon.
       
       Ultraviolet (U): When a person is awarded the Patent Title
-      Champion, that person earns an Ultraviolet Ribbon.
+      Champion, that person earns an Ultraviolet Ribbon, unless the
+      Champion title was awarded as the result of winning the game via
+      this rule.
       
       Violet (V): When a person is awarded a Patent Title other than
       Champion or a degree, that person earns a Violet Ribbon.
@@ -6536,9 +6518,9 @@ Ribbons
       on eir own behalf to award a White Ribbon to another person by
       announcement.
       
-      Black (K): An Instrument CAN, as part of its effect, cause a
-      person to earn a Black Ribbon. When this occurs, this Rule awards
-      that person a Black Ribbon.
+      Black (K): A statute CAN, as part of its effect, cause a person to
+      earn a Black Ribbon. When this occurs, this Rule awards that
+      person a Black Ribbon.
       
       Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
       unless e has done so earlier in the month. E is ENCOURAGED to
@@ -6589,6 +6571,9 @@ Amended(16) by P8346 'De-secure Black Ribbons v2' (Jason, ais523), 10
 Amended(17) by P8353 'All that glisters' (Murphy), 21 Mar 2020
 Amended(18) by P8386 'Restraining Motions' (G.), 22 May 2020
 Amended(19) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(20) by P8460 'UV-G Sunblock' (G., ais523), 08 Jul 2020
+Amended(21) by P8463 'Future-proofing black ribbons' (Jason), 08 Jul
+   2020
 
 Annotations:
 
@@ -6840,7 +6825,7 @@ Degrees
       the sort typical to CFJs, but exceeding an ordinary CFJ in depth.
       The D.N.Hist. degree is appropriate for historical research,
       especially when it presents a narrative that educates Agorans
-      about the events of the past. The D.N.Sci.  degree is appropriate
+      about the events of the past. The D.N.Sci. degree is appropriate
       for theses that demonstrate concrete or scientific thinking,
       whereas the D.N.Phil. is appropriate for theses that demonstrate
       abstract or philosophical thinking.
@@ -7234,21 +7219,23 @@ Amended(8) by cleaning (Murphy), 03 Nov 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2575/1 (Power=3)
+Rule 2575/2 (Power=3)
 The Distributor
 
       The Distributor is an imposed office whose holder is generally
       responsible for the management of the primary Agoran fora. The
       holder CANNOT be changed except without objection or by proposal.
-      Rules to the contrary notwithstanding, the Distributor's master
-      switch CANNOT be flipped to be other than emself, and e CANNOT
-      deregister or be deregistered.
+      Rules to the contrary notwithstanding, the talisman for the
+      Distributor is possessed by emself (and is transferred to em if it
+      ever is not), and e CANNOT deregister or be deregistered.
       
 History:
 
 Enacted by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
+Amended(2) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul
+   2020
 
 Annotations:
 
@@ -7568,3 +7555,4 @@ Enacted by P8442 'Barrel Barrel Badger Barrel' (G.), 30 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
+
