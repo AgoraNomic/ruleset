@@ -18,8 +18,6 @@ text: |
   3. Specify any player or Agora to lose karma, and provide a reason
      for specifying that player.
 
-  4. Not result in Agora's karma moving farther away from 0.
-
   When a valid Notice of Honour is published, the entity specified
   to gain karma has eir karma increased by one, and the entity
   specified to lose karma has eir karma decreased by one. Raising
@@ -40,9 +38,8 @@ text: |
   Each player's positions in Court are part of of the Herald's
   Weekly Report.
 
-  At the beginning of each quarter, the Karma of every Unregistered
-  person is halved (rounding towards 0), then the Karma of Agora is
-  set such that the sum of all Karma values in the game equals 0.
+  At the beginning of each quarter, the Karma of every person is
+  halved (rounding towards 0).
 history:
 - change:
     type: enactment
@@ -74,4 +71,9 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8234"
+- change:
+    type: amendment
+  date: 2020-07-19
+  agent:
+    proposal: "8474"
 annotations: []
