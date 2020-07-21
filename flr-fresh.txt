@@ -3,17 +3,17 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 8 Jul 2020
+Date of this ruleset: 21 Jul 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 139
+Number of rules currently enacted: 140
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2630
-Highest ID'd Proposal Passed: 8472
-Highest ID'd Rule Enacted: 2630
+Highest ID'd rule in this ruleset: 2631
+Highest ID'd Proposal Passed: 8476
+Highest ID'd Rule Enacted: 2631
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -127,6 +127,7 @@ Obligations & Contracts
    * Rule 2519: Consent
    * Rule 1742: Contracts
    * Rule 2608: The Notary
+   * Rule 2631: Contract charities
 Assets
    * Rule 2166: Assets
    * Rule 2576: Ownership
@@ -190,7 +191,7 @@ Barrels
 Power Distribution:
 
 1  with Power=0.3
-40 with Power=1
+41 with Power=1
 2  with Power=1.5
 6  with Power=1.7
 27 with Power=2
@@ -5582,6 +5583,31 @@ Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2631/0 (Power=1.0)
+Contract charities
+
+      Donation Level is a natural switch for contracts, tracked by the
+      Notary, with a default of 0 and a maximum of 25. A contract with
+      nonzero donation level is called a Charity.
+      
+      The Notary CAN flip a contract's donation level to a non-default
+      value with 3 Agoran consent. This SHOULD only be done if the
+      contract's provisions ensure that its funds received from Agora
+      will be used solely for the betterment of Agora. Any player CAN
+      flip a contract's donation level to 0 with Agoran consent.
+      
+      Whenever a payday occurs, half of each charity's coin holdings
+      (rounded down) are destroyed, and then each charity earns a number
+      of coins equal to its donation level.
+      
+History:
+
+Enacted by P8476 'Contract charities' (ATMunn, G., Falsifian, Publius
+   Scribonius Scholasticus), 19 Jul 2020
+
+Annotations:
+
+------------------------------------------------------------------------
 ========================================================================
 Assets
    Assets are things players can own. This section describes how that
@@ -6350,7 +6376,7 @@ Enacted by P7811 'Winning by apathy' (ais523), 11 Sep 2016
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2510/5 (Power=1)
+Rule 2510/6 (Power=1)
 Such is Karma
 
       Karma is a person switch tracked by the Herald in eir Weekly
@@ -6368,8 +6394,6 @@ Such is Karma
       
       3. Specify any player or Agora to lose karma, and provide a reason
          for specifying that player.
-      
-      4. Not result in Agora's karma moving farther away from 0.
       
       When a valid Notice of Honour is published, the entity specified
       to gain karma has eir karma increased by one, and the entity
@@ -6391,9 +6415,8 @@ Such is Karma
       Each player's positions in Court are part of of the Herald's
       Weekly Report.
       
-      At the beginning of each quarter, the Karma of every Unregistered
-      person is halved (rounding towards 0), then the Karma of Agora is
-      set such that the sum of all Karma values in the game equals 0.
+      At the beginning of each quarter, the Karma of every person is
+      halved (rounding towards 0).
       
 History:
 
@@ -6403,6 +6426,7 @@ Amended(2) by P7960 'Community Chest Repeal II' (R. Lee), 12 Nov 2017
 Amended(3) by P8022 'Anyone can balance Karma' (G.), 06 Mar 2018
 Amended(4) by P8112 'The Middle Way' (G., ATMunn), 12 Nov 2018
 Amended(5) by P8234 'auto-balance' (G., Jason), 05 Sep 2019
+Amended(6) by P8474 'Agora the karma bank' (G., omd), 19 Jul 2020
 
 Annotations:
 
