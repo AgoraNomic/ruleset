@@ -6,20 +6,28 @@ text: |
   Legislative Cards are associated with the Ministry of Legislation.
   Voting Cards are associated with the ministry of Participation.
 
-  An officer CAN, once per month and by announcement, grant another
-  player a specified type of card under the following conditions:
+  The officeholder of an office CAN by announcement grant another
+  player a specified type of card, specifying that office, under the
+  following conditions:
 
-  * the officer holds at least one office with the Card's associated
-    ministry in its interests,
+  * e has not done so in reference to that office in the current
+    Agoran month,
 
-  * the player receiving the Card does not hold an office with the
-    Card's associated ministry in its interests, AND
+  * that office's interests includes the card's associated ministry,
 
-  * the player receiving the Card is not a zombie.
+  * the player receiving the card does not hold an office with the
+    card's associated ministry in its interests, and
+
+  * the player receiving the card is not a zombie.
 history:
 - change:
     type: enactment
   date: 2020-06-12
   agent:
     proposal: "8408"
+- change:
+    type: amendment
+  date: 2020-07-27
+  agent:
+    proposal: "8477"
 annotations: []
