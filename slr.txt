@@ -3,7 +3,7 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 21 Jul 2020
+Date of this ruleset: 28 Jul 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 140
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2631
-Highest ID'd Proposal Passed: 8476
+Highest ID'd Proposal Passed: 8477
 Highest ID'd Rule Enacted: 2631
 
 ========================================================================
@@ -2790,23 +2790,26 @@ Victory Auctions
       The currency of a victory auction is coins (minimum bid 1).
       
 ------------------------------------------------------------------------
-Rule 2624/0 (Power=1.0)
+Rule 2624/1 (Power=1.0)
 Card Administration
 
       Justice Cards are associated with the Ministry of Justice.
       Legislative Cards are associated with the Ministry of Legislation.
       Voting Cards are associated with the ministry of Participation.
       
-      An officer CAN, once per month and by announcement, grant another
-      player a specified type of card under the following conditions:
+      The officeholder of an office CAN by announcement grant another
+      player a specified type of card, specifying that office, under the
+      following conditions:
       
-      * the officer holds at least one office with the Card's associated
-        ministry in its interests,
+      * e has not done so in reference to that office in the current
+        Agoran month,
       
-      * the player receiving the Card does not hold an office with the
-        Card's associated ministry in its interests, AND
+      * that office's interests includes the card's associated ministry,
       
-      * the player receiving the Card is not a zombie.
+      * the player receiving the card does not hold an office with the
+        card's associated ministry in its interests, and
+      
+      * the player receiving the card is not a zombie.
       
 ------------------------------------------------------------------------
 Rule 2499/9 (Power=1)
