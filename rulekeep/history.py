@@ -146,6 +146,9 @@ def agent_string(data_path, agent):
         return "cleaning ({})".format(agent["cleaning"]["by"])
     except KeyError: pass
 
+    try: return "refiling ({})".format(agent["refiling"]["by"])
+    except KeyError: pass
+
     try: return agent["ratification"]["document"] + " ratification"
     except KeyError: pass
 
