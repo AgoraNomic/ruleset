@@ -9,7 +9,7 @@ text: |
   - Juris Doctorate of Nomic           (J.N.)
   - Baccalaureate of Nomic Artistry    (B.N.A.)
   - Baccalaureate of Nomic             (B.N.)
-  - Magisteriate of Nomic Artistry     (M.N.A)
+  - Magisteriate of Nomic Artistry     (M.N.A.)
   - Magisteriate of Nomic              (M.N.)
   - Doctorate of Nomic Artistry        (D.N.Art.)
   - Doctorate of Nomic History         (D.N.Hist.)
@@ -200,4 +200,10 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8409"
+- change:
+    type: amendment
+  date: 2020-08-08
+  agent:
+    cleaning:
+      by: Aris
 annotations: []
