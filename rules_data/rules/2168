@@ -1,5 +1,5 @@
 id: 2168
-name: Extending the voting period
+name: Extending the Voting Period
 power: 1
 text: |
   Whenever the voting period of an Agoran decision would end, and
@@ -62,6 +62,12 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
+- change:
+    type: retitling
+  date: 2020-08-08
+  agent:
+    refiling:
+      by: Aris
 annotations:
 - cfjs:
   - id: 3644
