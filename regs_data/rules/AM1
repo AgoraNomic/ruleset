@@ -1,0 +1,14 @@
+id: AM1
+name: Forward Auctions
+text: |
+  Forward auctions function like generalized auctions except:
+
+  * The Nth awardee for a forward auction is the player who
+    submitted the Nth-highest bid in the set of all funded,
+    non-withdrawn players' highest bids on that auction.
+history:
+- change:
+    type: enactment
+  date: 2020-08-08
+  agent:
+    person: Trigon
