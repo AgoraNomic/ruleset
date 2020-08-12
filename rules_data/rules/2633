@@ -1,0 +1,32 @@
+id: 2633
+name: Rulebending
+power: 1.0
+text: |
+  G. CAN, by announcement, make a Rulebender (defined as being an
+  active player holding the patent title of Rulebender) into a
+  Rulebending Magister, or make any entity cease being a rulebending
+  magister.  Changes to an entity's rulebending magister status are
+  secured.
+
+  A rulebending magister CAN demonstrate a Rulebending Form by
+  announcement, specifying a published document as being the form.
+  When e does so, the form's power is set to the power of this rule,
+  it takes effect as an ephemeral instrument, and then its power is
+  set to 0.  However, a rulebending form CANNOT apply any of the
+  following changes:
+
+  - rule changes;
+  - the creation, destruction, or transfer of assets;
+  - the flipping of switches;
+  - the creation, modification, or termination of any pledge,
+    promise, or contract;
+  - the changing of an entity's rulebending magister status.
+
+  G. CAN cause this rule to repeal itself by announcement.
+history:
+- change:
+    type: enactment
+  date: 2020-08-10
+  agent:
+    proposal: "8483"
+annotations: []
