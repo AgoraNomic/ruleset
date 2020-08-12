@@ -2,9 +2,10 @@ id: 869
 name: How to Join and Leave Agora
 power: 3
 text: |
-  Any organism that is generally capable of freely originating and
-  communicating independent thoughts and ideas is a person. Rules to
-  the contrary notwithstanding, no other entities are persons.
+  Any entity that is or ever was an organism generally capable of
+  freely originating and communicating independent thoughts and
+  ideas is a person. Rules to the contrary notwithstanding, no other
+  entities are persons.
 
   Citizenship is a secured person switch with values Unregistered
   (default) and Registered, tracked by the Registrar. A registered
@@ -285,6 +286,11 @@ history:
   date: 2019-09-18
   agent:
     proposal: "8241"
+- change:
+    type: amendment
+  date: 2020-08-10
+  agent:
+    proposal: "8485"
 annotations:
 - cfjs:
   - id: '1275'
