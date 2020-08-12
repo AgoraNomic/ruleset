@@ -118,20 +118,21 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8463"
+- change:
+    type: amendment
+  date: 2020-08-10
+  agent:
+    proposal: "8487"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
-  Ribbon Ownership is a secured person switch, tracked by the
-  Tailor in eir monthly report, whose values are the subsets of
-  the set of types of Ribbon, defaulting to the empty set. If the
-  rules are amended to change the types of Ribbon, if a player's
-  Ribbon Ownership is subsequently illegal, then it is updated by
-  removing all nonexistent types rather than resetting the entire
-  value to default.
+  For each type of Ribbon, <type> Ribbon Ownership is a secured
+  negative boolean person switch, tracked by the Tailor in eir
+  monthly report.
 
-  To "award a person a <Ribbon type>" is to add that type of Ribbon
-  to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
-  if that type of Ribbon is an element of eir Ribbon Ownership.
+  To "award a person a <Ribbon type>" is to flip that person's
+  <that type> Ribbon Ownership to True. A person "owns a <Ribbon
+  type>" if eir <that type> Ribbon Ownership is True.
 
   A person qualifies for a type of Ribbon if e has earned that type
   of Ribbon within the preceding 7 days (including earlier in the
@@ -139,7 +140,8 @@ text: |
 
   While a person owns all types of Ribbon, that person can Raise a
   Banner by announcement. This causes that person to win the game.
-  That person's Ribbon Ownership becomes the empty set.
+  When a person wins this way, for each type of Ribbon, that
+  person's <type> Ribbon Ownership is flipped to False.
 
   The types of Ribbon, and the methods of obtaining them, are as
   follows:
