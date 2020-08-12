@@ -20,8 +20,9 @@ text: |
     - If a zombie has been a zombie for the past 90 days and not had
       Agora for a master during any of that time, transfer the
       talisman for em to Agora;
-    - If a player possesses more than one talisman, specify and
-      transfer one of those talismans to Agora;
+    - If a player possesses more than one talisman for persons other
+      than emself, specify and transfer one of those talismans to
+      Agora;
     - Deregister a zombie whose resale value is zero and whose
       master is Agora.
 
@@ -57,4 +58,9 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8459"
+- change:
+    type: amendment
+  date: 2020-08-10
+  agent:
+    proposal: "8478"
 annotations: []
