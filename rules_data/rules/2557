@@ -29,6 +29,11 @@ text: |
   a formal apology of at least 200 words and including all the
   specified words, explaining eir error, shame, remorse, and ardent
   desire for self-improvement.
+
+  When the rules authorize an investigator to issue a Warning for a
+  violation, e CAN do so by announcement if the violation is
+  described by the rules as a "Class N Crime" where N is 0 or an
+  expression that evaluates to 0.
 history:
 - change:
     type: enactment
@@ -61,4 +66,9 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8461"
+- change:
+    type: amendment
+  date: 2020-08-10
+  agent:
+    proposal: "8479"
 annotations: []
