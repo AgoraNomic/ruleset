@@ -3,17 +3,17 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 28 Jul 2020
+Date of this ruleset: 12 Aug 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 140
+Number of rules currently enacted: 142
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2631
-Highest ID'd Proposal Passed: 8477
-Highest ID'd Rule Enacted: 2631
+Highest ID'd rule in this ruleset: 2633
+Highest ID'd Proposal Passed: 8487
+Highest ID'd Rule Enacted: 2633
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -27,6 +27,8 @@ Table of Contents:
 The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
+Important Temporary Rules
+   * Rule 2633: Rulebending
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -84,7 +86,7 @@ Voting
    * Rule  879: Quorum
    * Rule 2422: Voting Strength
    * Rule 2127: Conditional Votes
-   * Rule 2168: Extending the voting period
+   * Rule 2168: Extending the Voting Period
    * Rule 1950: Decisions with Adoption Indices
    * Rule 2034: Vote Protection and Cutoff for Challenges
 Offices & Reporting
@@ -96,6 +98,7 @@ Offices & Reporting
    * Rule 2138: The Associate Director of Personnel
    * Rule 2472: Office Incompatibilities
    * Rule 2143: Official Reports and Duties
+   * Rule 2632: Complexity
    * Rule 2603: Switch Responsiblity
    * Rule 2379: No News Is Some News
    * Rule 2616: The Webmastor
@@ -127,7 +130,7 @@ Obligations & Contracts
    * Rule 2519: Consent
    * Rule 1742: Contracts
    * Rule 2608: The Notary
-   * Rule 2631: Contract charities
+   * Rule 2631: Charities
 Assets
    * Rule 2166: Assets
    * Rule 2576: Ownership
@@ -191,7 +194,7 @@ Barrels
 Power Distribution:
 
 1  with Power=0.3
-41 with Power=1
+43 with Power=1.0
 2  with Power=1.5
 6  with Power=1.7
 27 with Power=2
@@ -296,17 +299,56 @@ Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
+Important Temporary Rules
+   This category is a temporary dumping ground for rules that don't
+   easily fit in any other category but that hold special relevance
+   for the current gamestate.
+------------------------------------------------------------------------
+Rule 2633/0 (Power=1.0)
+Rulebending
+
+      G. CAN, by announcement, make a Rulebender (defined as being an
+      active player holding the patent title of Rulebender) into a
+      Rulebending Magister, or make any entity cease being a rulebending
+      magister.  Changes to an entity's rulebending magister status are
+      secured.
+      
+      A rulebending magister CAN demonstrate a Rulebending Form by
+      announcement, specifying a published document as being the form.
+      When e does so, the form's power is set to the power of this rule,
+      it takes effect as an ephemeral instrument, and then its power is
+      set to 0.  However, a rulebending form CANNOT apply any of the
+      following changes:
+      
+      - rule changes;
+      - the creation, destruction, or transfer of assets;
+      - the flipping of switches;
+      - the creation, modification, or termination of any pledge,
+        promise, or contract;
+      - the changing of an entity's rulebending magister status.
+      
+      G. CAN cause this rule to repeal itself by announcement.
+      
+History:
+
+Enacted by P8483 'a minor adjustment' (G.), 10 Aug 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
 Players
    This small section provides some rules detailing how joining and
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/46 (Power=3)
+Rule 869/47 (Power=3)
 How to Join and Leave Agora
 
-      Any organism that is generally capable of freely originating and
-      communicating independent thoughts and ideas is a person. Rules to
-      the contrary notwithstanding, no other entities are persons.
+      Any entity that is or ever was an organism generally capable of
+      freely originating and communicating independent thoughts and
+      ideas is a person. Rules to the contrary notwithstanding, no other
+      entities are persons.
       
       Citizenship is a secured person switch with values Unregistered
       (default) and Registered, tracked by the Registrar. A registered
@@ -391,6 +433,7 @@ Amended(44) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(45) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 Amended(46) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
    Sep 2019
+Amended(47) by P8485 'Eternal Personhood' (Gaelan, Aris), 10 Aug 2020
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -3505,7 +3548,7 @@ CFJ 2449 (called 14 Apr 2009): For an endorsement or denouncement, the
 
 ------------------------------------------------------------------------
 Rule 2168/8 (Power=1)
-Extending the voting period
+Extending the Voting Period
 
       Whenever the voting period of an Agoran decision would end, and
       the result would be FAILED QUORUM, the length of the voting period
@@ -3535,6 +3578,7 @@ Amended(6) by P6504 'We don't need this exception' [disi.] (Murphy), 03
    Oct 2009
 Amended(7) by P7045 'Speed' (Walker), 16 May 2011
 Amended(8) by P8418 'Referenda' (Aris), 14 Jun 2020
+Retitled by refiling (Aris), 08 Aug 2020
 
 Annotations:
 CFJ 3644 (called 18 Jun 2018): Players can't guarantee actual
@@ -4230,6 +4274,22 @@ CFJ 3783 (called 07 Dec 2019): It is not possible to win an election
    after it has ended.
 
 ------------------------------------------------------------------------
+Rule 2632/0 (Power=1.0)
+Complexity
+
+      Complexity is an office switch reflecting how complex it is to
+      fulfill the duties of its office. Its possible values are all
+      integers from 0 to 3 inclusive, where 1 is the default. It is
+      tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
+      consent, flip the complexity of an office.
+      
+History:
+
+Enacted by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug 2020
+
+Annotations:
+
+------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
 Switch Responsiblity
 
@@ -4541,7 +4601,7 @@ Amended(9) by P8427 'Slap on the wrist' (R. Lee), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/13 (Power=1.7)
+Rule 2478/14 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
@@ -4554,6 +4614,8 @@ Vigilante Justice
       the allegation and CAN, and in a timely fashion SHALL, conclude
       the investigation by:
       
+      - Issuing a Warning to the perp, as described elsewhere;
+      
       - Imposing the Cold Hand of Justice on the perp for the cited rule
         violation, as described elsewhere;
       
@@ -4563,6 +4625,11 @@ Vigilante Justice
       - if e believes that no rules violation occurred or that it would
         be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the
         Finger Pointing to be Shenanigans.
+      
+      Initiating a Finger Pointing found to be Shenanigans is ILLEGAL
+      and the Class 0+N Crime of Unjustified Gesticulation, where N is
+      the number of times e has previously committed the crime in the
+      current Agoran Week.
       
       The above notwithstanding, the investigator CANNOT resolve a
       Finger Pointing for which e is the perp.
@@ -4575,6 +4642,10 @@ Vigilante Justice
       Finger at the Referee. A high crime is any crime specified as
       being class 4 or greater. The Referee CANNOT levy the Cold Hand of
       Justice to punish a high crime, notwithstanding Rule 2478.
+      
+      The player who initiated the most Finger Pointings that resulted
+      in a Warning, Indictment, or Cold Hand of Justice in the previous
+      Agoran Week CAN once grant emself a Justice Card by announcement.
       
 History:
 
@@ -4600,6 +4671,8 @@ Amended(12) by P8404 'High Crimes and Treason' (Publius Scribonius
    Scholasticus, G., Jason, Murphy), 03 Jun 2020
 Amended(13) by P8404 'High Crimes and Treason' (Publius Scribonius
    Scholasticus, G., Jason, Murphy), 03 Jun 2020
+Amended(14) by P8479 'Competitive Finger Pointing v2' (nix, Aris,
+   Publius Scribonius Scholasticus, ATMunn), 10 Aug 2020
 
 Annotations:
 
@@ -4636,7 +4709,7 @@ Retitled by P8377 'Burden + Accurate Naming' (R. Lee), 22 May 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2557/4 (Power=1.7)
+Rule 2557/5 (Power=1.7)
 Sentencing Guidelines
 
       When the rules authorize an investigator to impose the Cold Hand
@@ -4667,6 +4740,11 @@ Sentencing Guidelines
       specified words, explaining eir error, shame, remorse, and ardent
       desire for self-improvement.
       
+      When the rules authorize an investigator to issue a Warning for a
+      violation, e CAN do so by announcement if the violation is
+      described by the rules as a "Class N Crime" where N is 0 or an
+      expression that evaluates to 0.
+      
 History:
 
 Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
@@ -4676,6 +4754,8 @@ Retitled by P8202 'Police Power' (Falsifian, Jason), 23 Jul 2019
 Amended(3) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
 Amended(4) by P8461 'Reoding Adopted Proposals' (R. Lee, Aris), 08 Jul
    2020
+Amended(5) by P8479 'Competitive Finger Pointing v2' (nix, Aris,
+   Publius Scribonius Scholasticus, ATMunn), 10 Aug 2020
 
 Annotations:
 
@@ -5584,7 +5664,7 @@ Annotations:
 
 ------------------------------------------------------------------------
 Rule 2631/0 (Power=1.0)
-Contract charities
+Charities
 
       Donation Level is a natural switch for contracts, tracked by the
       Notary, with a default of 0 and a maximum of 25. A contract with
@@ -5691,28 +5771,31 @@ CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
    not fulfill the requirement.
 
 ------------------------------------------------------------------------
-Rule 2576/1 (Power=3)
+Rule 2576/2 (Power=3)
 Ownership
 
-      Each asset has exactly one owner. If an asset's backing document
-      restricts its ownership to a class of entities, then that asset
-      CANNOT be gained by or transferred to an entity outside that
-      class, and is destroyed if it is owned by an entity outside that
-      class. The restrictions in the previous sentence are subject to
-      modification by its backing document. By default, ownership of an
-      asset is restricted to Agora, players, and contracts.
+      Each asset has exactly one owner.
       
-      If an asset would otherwise lack an owner, or if its ownership
-      would otherwise be indeterminate, it is owned by the Lost and
-      Found Department.. Rules to the contrary notwithstanding, the
-      Lost and Found Department can own assets of every type. Assets
-      owned by the Lost and Found Department can be transferred or
-      destroyed by any player without objection.
+      If ownership of an asset is restricted to a class of entities,
+      then that asset CANNOT be gained by or transferred to an entity
+      outside that class. By default, ownership of an asset is
+      restricted to Agora, players, and contracts, but an asset's
+      backing document may modify this.
+      
+      If an asset's owner would otherwise be nonexistent, indeterminate,
+      or invalid, then it is owned by the Lost and Found Department (if
+      possible) or destroyed (otherwise), subject to modification by its
+      backing document. Rules to the contrary notwithstanding, the Lost
+      and Found Department can own assets of every type. Assets owned by
+      the Lost and Found Department can be transferred or destroyed by
+      any player without objection.
       
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8366 'Asset Determinacy' (Aris, twg), 17 Apr 2020
+Amended(2) by P8484 'Clarify asset ownership' (Murphy, Cuddlebeam,
+   Aris), 10 Aug 2020
 
 Annotations:
 
@@ -5777,7 +5860,7 @@ Amended(1) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2579/1 (Power=3)
+Rule 2579/2 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -5809,14 +5892,16 @@ Fee-based Actions
         - Otherwise, no changes are made to asset holdings and the
           action is not performed.
       
-      If a fee-based method to perform an action has a fee of no assets,
-      that action CAN be performed by announcement, but the actor SHOULD
-      announce that there was a 0 or empty fee.
+      If a Rule purports to provide a fee-based method to perform an
+      action with a fee of no assets, that Rule enables the performance
+      of the action by announcement. When using such a method, the actor
+      SHOULD announce that there was a 0 or empty fee.
       
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8462 'Fee-based methods' (Jason, Falsifian), 08 Jul 2020
+Amended(2) by P8486 'Fee-based de-escalation' (Jason, omd), 10 Aug 2020
 
 Annotations:
 
@@ -5887,7 +5972,7 @@ Amended(14) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/21 (Power=1)
+Rule 2496/22 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
@@ -5911,10 +5996,12 @@ Rewards
       * Publishing an office's weekly or monthly report, provided that
         publication was the first report published for that office in
         the relevant time period (week or month respectively) to fulfill
-        an official weekly or monthly duty: 5 coins (ADoP).
+        an official weekly or monthly duty: 5 coins times the complexity
+        of the office (ADoP).
       
       * Resolving a referendum, provided that no other referendum had
-        been resolved earlier in that Agoran week: 5 coins (ADoP).
+        been resolved earlier in that Agoran week: 5 coins times the
+        Assessor's complexity (ADoP).
       
       * Having a Thesis pass peer-review and be granted a Degree based
         on its merit: 20 coins (Herald)
@@ -5954,6 +6041,8 @@ Amended(19) by P8418 'Referenda' (Aris), 14 Jun 2020
 Amended(20) by P8431 'Proposal Reward Trimming' (Aris, ais523), 18 Jun
    2020
 Amended(21) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul
+   2020
+Amended(22) by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug
    2020
 
 Annotations:
@@ -6092,17 +6181,16 @@ Amended(1) by P8477 'More officer cards' (Jason), 27 Jul 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/9 (Power=1)
+Rule 2499/10 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
       recently registered, any player CAN cause em to receive one by
-      announcement. A player CANNOT receive a Welcome Package via this
-      method if e has been deregistered on account of having excessive
-      blots within the last 30 days.
+      announcement.
       
-      When a player receives a Welcome Package, e earns 10 coins and one
-      of each type of Card defined in the rules.
+      When a player receives a Welcome Package, if e has not received
+      one in the past 30 days, then e earns 10 coins and one of each
+      type of Card defined in the rules.
       
 History:
 
@@ -6122,6 +6210,7 @@ Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 Amended(8) by P8458 'Welcome Package Patch' (Aris), 30 Jun 2020
 Amended(9) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
+Amended(10) by P8480 'Generic welcome package fix' (Jason), 10 Aug 2020
 
 Annotations:
 
@@ -6253,7 +6342,7 @@ Amended(9) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2574/4 (Power=3)
+Rule 2574/5 (Power=3)
 Zombie Life Cycle
 
       Any player CAN, with notice, transfer the talisman for an active
@@ -6274,8 +6363,9 @@ Zombie Life Cycle
         - If a zombie has been a zombie for the past 90 days and not had
           Agora for a master during any of that time, transfer the
           talisman for em to Agora;
-        - If a player possesses more than one talisman, specify and
-          transfer one of those talismans to Agora;
+        - If a player possesses more than one talisman for persons other
+          than emself, specify and transfer one of those talismans to
+          Agora;
         - Deregister a zombie whose resale value is zero and whose
           master is Agora.
       
@@ -6293,6 +6383,8 @@ Amended(2) by P8182 'Add value to zombies' (Jason), 22 Jun 2019
 Amended(3) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
 Amended(4) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul
+   2020
+Amended(5) by P8478 'another talismans fix' (Jason, nix, G.), 10 Aug
    2020
 
 Annotations:
@@ -6466,22 +6558,18 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/21 (Power=3)
+Rule 2438/22 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
       
-      Ribbon Ownership is a secured person switch, tracked by the
-      Tailor in eir monthly report, whose values are the subsets of
-      the set of types of Ribbon, defaulting to the empty set. If the
-      rules are amended to change the types of Ribbon, if a player's
-      Ribbon Ownership is subsequently illegal, then it is updated by
-      removing all nonexistent types rather than resetting the entire
-      value to default.
+      For each type of Ribbon, <type> Ribbon Ownership is a secured
+      negative boolean person switch, tracked by the Tailor in eir
+      monthly report.
       
-      To "award a person a <Ribbon type>" is to add that type of Ribbon
-      to that person's Ribbon Ownership. A person "owns a <Ribbon type>"
-      if that type of Ribbon is an element of eir Ribbon Ownership.
+      To "award a person a <Ribbon type>" is to flip that person's
+      <that type> Ribbon Ownership to True. A person "owns a <Ribbon
+      type>" if eir <that type> Ribbon Ownership is True.
       
       A person qualifies for a type of Ribbon if e has earned that type
       of Ribbon within the preceding 7 days (including earlier in the
@@ -6489,7 +6577,8 @@ Ribbons
       
       While a person owns all types of Ribbon, that person can Raise a
       Banner by announcement. This causes that person to win the game.
-      That person's Ribbon Ownership becomes the empty set.
+      When a person wins this way, for each type of Ribbon, that
+      person's <type> Ribbon Ownership is flipped to False.
       
       The types of Ribbon, and the methods of obtaining them, are as
       follows:
@@ -6601,6 +6690,8 @@ Amended(18) by P8386 'Restraining Motions' (G.), 22 May 2020
 Amended(19) by P8418 'Referenda' (Aris), 14 Jun 2020
 Amended(20) by P8460 'UV-G Sunblock' (G., ais523), 08 Jul 2020
 Amended(21) by P8463 'Future-proofing black ribbons' (Jason), 08 Jul
+   2020
+Amended(22) by P8487 'Simpler ribbon switches' (Murphy, R. Lee), 10 Aug
    2020
 
 Annotations:
@@ -6807,7 +6898,7 @@ Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1367/24 (Power=3)
+Rule 1367/25 (Power=3)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -6817,7 +6908,7 @@ Degrees
       - Juris Doctorate of Nomic           (J.N.)
       - Baccalaureate of Nomic Artistry    (B.N.A.)
       - Baccalaureate of Nomic             (B.N.)
-      - Magisteriate of Nomic Artistry     (M.N.A)
+      - Magisteriate of Nomic Artistry     (M.N.A.)
       - Magisteriate of Nomic              (M.N.)
       - Doctorate of Nomic Artistry        (D.N.Art.)
       - Doctorate of Nomic History         (D.N.Hist.)
@@ -6899,6 +6990,7 @@ Amended(22) by P8271 'Doctorate expectations' (G.), 11 Nov 2019
 Amended(23) by P8305 'Keeping Up With the Times' (Alexis), 29 Jan 2020
 Amended(24) by P8409 'College of Letters, Arts, and Sciences' (Aris), 14
    Jun 2020
+Amended(25) by cleaning (Aris), 08 Aug 2020
 
 Annotations:
 

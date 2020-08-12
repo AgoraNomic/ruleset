@@ -2,87 +2,132 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 28 Jul 2020
+Date of this ACORN: 12 Aug 2020
 
 ========================================================================
-The Birthday Tournament
-   This section has the regulations governing the Birthday Tournament.
+Auction Regulations
+   This section has the regulations, written by the Treasuror, governing
+   how auctions proceed.
 ------------------------------------------------------------------------
-Regulation BT0/0
-Birthday Tournament 0
+Regulation AM0/0
+Generalized Auction
 
-      P.S.S. CANNOT win this Tournament or become a Contestant. P.S.S.
-      is the Gamemaster and Judge of this game.
+      Generalized auctions exist to give context to the form of other
+      types of auctions. They cannot be held directly. Other auction
+      methods that use this type of auction as a starting point can
+      override attributes of generalized auctions except when it is
+      explicitly stated that that attribute is not able to be
+      overridden.
+      
+      1. INITIATION:
+          * The auctioneer CAN begin an auction that e is authorized to
+            by creating a public message (henceforth the "initiation
+            message"), specifying the type of auction method that will
+            be held, a list of lots that will be auctioned off, and the
+            currency that the auction uses. Bidding is initally open.
+          * Derivative auction methods cannot specify the exclusion of
+            any information listed above from the initiation message of
+            auctions using that method.
+      2. BIDDING:
+          * Players CAN place a bid on an open auction by creating a
+            public message (henceforth a "bid message") specifying a
+            number of the auction's currency as eir bid not equal to the
+            bid of another player.
+          * Players CAN withdraw from an open auction by announcement.
+      3. TERMINATION:
+          * Bidding is closed four days after either the beginning of
+            the auction or after the most recent bid was placed,
+            whichever is later. The auction ends at this time as well.
+      4. AWARDING:
+          * For each auction, there are a number of awardees equal to
+            the number of lots. The Nth lot of an auction goes to the
+            Nth awardee of that auction. If the identity of an awardee
+            is undecidable, then that lot cannot be given away.
+          * Auction methods specify how awardees are picked for auctions
+            using that method.
+          * Derivative auction methods should ensure that only players
+            who have at least as much of that auction's currency as eir
+            highest bid on that auction (hereafter "funded players") can
+            be selected as awardees for auctions using that auction
+            method.
+          * The auctioneer of an auction SHALL within, four days after
+            the ending of that auction, create a public message
+            (henceforth the "termination message") that contains a full
+            history of bids on the auction and withdrawals from the
+            auction. It should also clearly indicate each awardee and
+            the lot e recieves.
+      5. CLAIMING:
+          * For a period of seven days after an auction ends, each
+            awardee of that auction CAN transfer (or create in eir own
+            possession if the item is new) the set of assets associated
+            with the lot e won by paying a fee corresponding to eir
+            winning bid.
       
 ------------------------------------------------------------------------
-Regulation BT2/1
-Birthday Tournament 2
+Regulation AM1/0
+Forward Auctions
 
-      The Gamemaster CAN cause any person to cease to be a Contestant by
-      announcement. The Gamemaster CAN cause any consenting person to
-      become a Contestant by announcement. The Gamemaster CAN, by
-      announcement, amend the gamestate by substituting one Contestant
-      into all instances of another Contestant.  The Gamemaster CAN
-      amend the text of the Diplonomic 2020 rules arbitrarily in order
-      to prevent breaches of Agoran custom or rules. The Gamemaster
-      SHOULD NOT take any actions permitted by this section unless it is
-      in the best interests of the game.
+      Forward auctions function like generalized auctions except:
+      
+      * The Nth awardee for a forward auction is the player who
+        submitted the Nth-highest bid in the set of all funded,
+        non-withdrawn players' highest bids on that auction.
       
 ------------------------------------------------------------------------
-Regulation BT3/0
-Birthday Tournament 3
+Regulation AM2/0
+Sealed-bid Auctions
 
-      When all contestants except one have been eliminated from the
-      contest, the victor is the last contestant remaining. The judge
-      SHALL then, with 2 days notice, announce them as winners,
-      whereupon they win the tournament and the tournament is concluded.
-      If the judge believes that more than one person is deserving of
-      the win, e CAN announce them all as winners. The judge SHOULD
-      award a badge to all participants in the Tournament, broadly
-      construed, after the conclusion of the Tournament unless it has
-      not been completed in a satisfactory manner.
+      Sealed-bid auctions function like generalized auctions except:
+      
+      * Players can only submit bids on a sealed-bid auction if they do
+        not have a bid in that auction.
+      * Bids must be initially hidden so that it is impossible to tell
+        its value but that it is verifiable that the amount bid was *
+        decided before the bid was placed. Anything that claims to be a
+        bid and fits these conditions is considered a bid.
+      * Sealed-bid auctions do not end when bidding is closed. Instead,
+        they end four days afterward.
+      * Each player SHOULD reveal eir bid amount on a sealed-bid auction
+        while the auction is closed but has not ended. If e does not do
+        so then eir bid is nulled.
+      * The termination message also includes whether or not each bid is
+        null.
+      * The Nth awardee of a sealed-bid auction is the non-withdrawn
+        funded player whose bid is not nulled and is the Nth highest of
+        all bids placed.
       
 ------------------------------------------------------------------------
-Regulation BT4/0
-Birthday Tournament 4
+Regulation AM3/0
+Second-price Auctions
 
-      The judge is the final arbitor on matters of this tournament, and
-      eir decisions can be overturned if and only if a CFJ finds eir
-      decisions were made with arbitrary or capricious disregard for the
-      terms of these regulations. The judge shall adjudicate these
-      regulations in an equitable manner, with emphasis placed on the
-      intent of the clauses and the fair treatment of all parties.
+      Second-price auctions function like forward auctions except:
+      
+      * When claiming lots in a second-price auction, awardees instead
+        pay a fee corresponding to the next-highest bid in the set of
+        all funded, non-withdrawn players' highest bids in that auction.
       
 ------------------------------------------------------------------------
-Regulation BT26/0
-Birthday Tournament 26
+Regulation AM4/0
+Nonwinning-price Auctions
 
-      This year's Birthday Tournament shall be known as "Diplonomic
-      2020" and governed by these regulations and the Diplonomic 2020
-      rules.  
+      Nonwinning-price auctions function like forward auctions except:
+      
+      * When claiming lots in a nonwinning-price auction, awardees
+        instead pay a fee corresponding to the highest bid on that
+        auction from a funded, non-withdrawn player who is not an
+        awardee.
       
 ------------------------------------------------------------------------
-Regulation BT27/0
-Birthday Tournament 27
+Regulation AM5/0
+Selective-bid Auctions
 
-      The Diplonomic 2020 rules SHALL be promulgated by the Gamemaster
-      no later than July 10. All Contestants and the Gamemaster SHALL
-      obide by them. The Gamemaster CAN amend the Diplonomic 2020 rules
-      in accordance with those rules and these regulations.
+      Selective-bit auctions function like generalized auctions except:
       
-------------------------------------------------------------------------
-Regulation BT28/1
-Birthday Tournament 28
-
-      Unless explicitly permitted by the Diplonomic 2020 rules, all
-      Contestants SHALL NOT engage in any behaviors outside of
-      Diplonomic 2020 as part of negotiations or other activities
-      intended to influence the course of Diplonomic 2020.
-      
-      Unless explicitly prohibited by the Diplonomic 2020 rules,
-      Contestants are encouraged to lie and cheat each other and SHOULD
-      NOT be found in violation of "No Faking" for actions taken within
-      Diplonomic 2020.  
+      * Bidding messages on a selective-bid auction must also specify a
+        lot that is preferred.
+      * The Nth awardee of a selective-bid auction is the highest bid
+        from a funded, non-withdrawn player whose preferred bid is that
+        lot.
       
 ------------------------------------------------------------------------
 
