@@ -4,12 +4,11 @@ power: 1
 text: |
   If a player has not received a Welcome Package since e most
   recently registered, any player CAN cause em to receive one by
-  announcement. A player CANNOT receive a Welcome Package via this
-  method if e has been deregistered on account of having excessive
-  blots within the last 30 days.
+  announcement.
 
-  When a player receives a Welcome Package, e earns 10 coins and one
-  of each type of Card defined in the rules.
+  When a player receives a Welcome Package, if e has not received
+  one in the past 30 days, then e earns 10 coins and one of each
+  type of Card defined in the rules.
 history:
 - change:
     type: enactment
@@ -66,4 +65,9 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8472"
+- change:
+    type: amendment
+  date: 2020-08-10
+  agent:
+    proposal: "8480"
 annotations: []
