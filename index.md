@@ -25,8 +25,8 @@ and the Full Logical Ruleset (FLR).
   and updated to include the most recent changes. Officially, the FLR is
   only published monthly. That version can be found [here](flr.txt).**
 * [The Agora Nomic Code of Regulations](acorn.txt) contains the full
-  text of all currently enacted rules, organized into categories. A
-  new version comes out every week.
+  text of all currently enacted regulations, organized into categories.
+  A new version comes out every week.
 
 ## [Ruleset Format Updates](updates)
 
