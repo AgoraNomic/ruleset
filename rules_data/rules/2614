@@ -8,7 +8,8 @@ text: |
   The Prime Minister CAN, in an emergency message and with 3 Agoran
   consent, enact, amend, or repeal Emergency Regulations, provided
   that the intent to do so was also contained in an emergency
-  message.
+  message. To the extent explicitly permitted by this rule,
+  Emergency regulations are always taking effect.
 
   Emergency Regulations CAN:
     - Extend any deadline provided for by any instrument other than
@@ -68,4 +69,9 @@ history:
   date: 2020-04-21
   agent:
     proposal: "8369"
+- change:
+    type: amendment
+  date: 2020-08-30
+  agent:
+    proposal: "8490"
 annotations: []
