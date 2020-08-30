@@ -4,8 +4,8 @@ power: 3
 text: |
   A public document is part (possibly all) of a public message.
 
-  Any player CAN, without objection, ratify a public document,
-  specifying its scope.
+  A player CAN, without objection, ratify a specified public
+  document.
 
   Ratification Without Objection CANNOT cause the repeal, amendment,
   enactment, or mutation of any Rule, rules to the contrary
@@ -65,6 +65,11 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8270"
+- change:
+    type: amendment
+  date: 2020-08-30
+  agent:
+    proposal: "8492"
 annotations:
 - cfjs:
   - id: '1836'
