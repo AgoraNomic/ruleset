@@ -3,7 +3,7 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 30 Aug 2020
+Date of this ruleset: 9 Sep 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 142
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2633
-Highest ID'd Proposal Passed: 8492
+Highest ID'd Proposal Passed: 8493
 Highest ID'd Rule Enacted: 2633
 
 ========================================================================
@@ -54,7 +54,7 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance
    for the current gamestate.
 ------------------------------------------------------------------------
-Rule 2633/0 (Power=1.0)
+Rule 2633/0 (Power=3.0)
 Rulebending
 
       G. CAN, by announcement, make a Rulebender (defined as being an
@@ -2646,14 +2646,15 @@ Ownership
       any player without objection.
       
 ------------------------------------------------------------------------
-Rule 2577/2 (Power=3)
+Rule 2577/4 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
-      subject to modification by its backing document. An indestructible
-      asset is one defined as such by its backing document, and CANNOT
-      be destroyed except as explicitly specified by its backing
-      document; any other asset is destructible.
+      subject to modification by its backing document. Attempts to
+      destroy no assets are successful. An indestructible asset is one
+      defined as such by its backing document, and CANNOT be destroyed
+      except as explicitly specified by its backing document; any other
+      asset is destructible.
       
       For an entity to earn an asset is for that asset to be created in
       that entity's possession. To grant an entity an asset is to create
@@ -2668,9 +2669,9 @@ Asset Actions
       
       An asset generally CAN be transferred (syn. given) by announcement
       by its owner to another entity, subject to modification by its
-      backing document. A fixed asset is one defined as such by its
-      backing document, and CANNOT be transferred; any other asset is
-      liquid.
+      backing document. Attempts to transfer no assets are successful. A
+      fixed asset is one defined as such by its backing document, and
+      CANNOT be transferred; any other asset is liquid.
       
       When a rule indicates transferring an amount that is not a natural
       number, the specified amount is rounded up to the nearest natural
@@ -2690,7 +2691,7 @@ Currencies
       the official currency of Agora, if there is one.
       
 ------------------------------------------------------------------------
-Rule 2579/2 (Power=3)
+Rule 2579/3 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -2721,11 +2722,6 @@ Fee-based Actions
       
         - Otherwise, no changes are made to asset holdings and the
           action is not performed.
-      
-      If a Rule purports to provide a fee-based method to perform an
-      action with a fee of no assets, that Rule enables the performance
-      of the action by announcement. When using such a method, the actor
-      SHOULD announce that there was a 0 or empty fee.
       
 ------------------------------------------------------------------------
 ========================================================================
@@ -2854,12 +2850,14 @@ Victory Auctions
       The currency of a victory auction is coins (minimum bid 1).
       
 ------------------------------------------------------------------------
-Rule 2624/1 (Power=1.0)
+Rule 2624/2 (Power=1.0)
 Card Administration
 
       Justice Cards are associated with the Ministry of Justice.
       Legislative Cards are associated with the Ministry of Legislation.
       Voting Cards are associated with the ministry of Participation.
+      The type of card with the fewest existing instances is assocated
+      with the Ministry of Economy.
       
       The officeholder of an office CAN by announcement grant another
       player a specified type of card, specifying that office, under the
@@ -3497,16 +3495,16 @@ The Speaker
       Minister CAN once appoint a Laureled player to the office of
       Speaker by announcement.
       
-      Whenever the Prime Minister CAN appoint a Laureled
-      player to the office of Speaker, e SHALL do so in a timely manner,
-      except that the Prime Minister MAY defer appointing a new Speaker
-      while there is pending one or more open CFJs that could plausibly
-      determine or affect the question of whether a player is Laureled.
-      If the Prime Minister is emself Laureled, eir power to appoint a
-      Speaker continues for the entirety of a message in which e resigns
-      as Prime Minister, and if e is the only Laureled player, e CAN
-      void that power, and thereby discharge the obligation to use it,
-      by announcing that e declines to take the office.
+      Whenever the Prime Minister CAN appoint a Laureled player to the
+      office of Speaker, e SHALL do so in a timely manner, except that
+      the Prime Minister MAY defer appointing a new Speaker while there
+      is pending one or more open CFJs that could plausibly determine or
+      affect the question of whether a player is Laureled.  If the Prime
+      Minister is emself Laureled, eir power to appoint a Speaker
+      continues for the entirety of a message in which e resigns as
+      Prime Minister, and if e is the only Laureled player, e CAN void
+      that power, and thereby discharge the obligation to use it, by
+      announcing that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to

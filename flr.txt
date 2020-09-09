@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 30 Aug 2020
+Date of this ruleset: 9 Sep 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,8 +12,13 @@ Number of rules currently enacted: 142
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2633
-Highest ID'd Proposal Passed: 8492
+Highest ID'd Proposal Passed: 8493
 Highest ID'd Rule Enacted: 2633
+
+THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
+BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
+RECENTLY PUBLISHED FULL LOGICAL RULESET, FOLLOW THIS LINK:
+https://agoranomic.org/ruleset/flr.txt
 
 ------------------------------------------------------------------------
 
@@ -189,14 +194,14 @@ Barrels
 Power Distribution:
 
 1  with Power=0.3
-43 with Power=1.0
+42 with Power=1
 2  with Power=1.5
 6  with Power=1.7
 27 with Power=2
 2  with Power=2.1
 1  with Power=2.2
 1  with Power=2.5
-51 with Power=3
+52 with Power=3.0
 1  with Power=3.01
 2  with Power=3.1
 1  with Power=3.14
@@ -299,7 +304,7 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance
    for the current gamestate.
 ------------------------------------------------------------------------
-Rule 2633/0 (Power=1.0)
+Rule 2633/0 (Power=3.0)
 Rulebending
 
       G. CAN, by announcement, make a Rulebender (defined as being an
@@ -327,6 +332,8 @@ Rulebending
 History:
 
 Enacted by P8483 'a minor adjustment' (G.), 10 Aug 2020
+Power changed from 1.0 to 3.0 by P8493 'Minor Adjustments' (G.), 04 Sep
+   2020
 
 Annotations:
 
@@ -5798,14 +5805,15 @@ Amended(2) by P8484 'Clarify asset ownership' (Murphy, Cuddlebeam,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2577/2 (Power=3)
+Rule 2577/4 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
-      subject to modification by its backing document. An indestructible
-      asset is one defined as such by its backing document, and CANNOT
-      be destroyed except as explicitly specified by its backing
-      document; any other asset is destructible.
+      subject to modification by its backing document. Attempts to
+      destroy no assets are successful. An indestructible asset is one
+      defined as such by its backing document, and CANNOT be destroyed
+      except as explicitly specified by its backing document; any other
+      asset is destructible.
       
       For an entity to earn an asset is for that asset to be created in
       that entity's possession. To grant an entity an asset is to create
@@ -5820,9 +5828,9 @@ Asset Actions
       
       An asset generally CAN be transferred (syn. given) by announcement
       by its owner to another entity, subject to modification by its
-      backing document. A fixed asset is one defined as such by its
-      backing document, and CANNOT be transferred; any other asset is
-      liquid.
+      backing document. Attempts to transfer no assets are successful. A
+      fixed asset is one defined as such by its backing document, and
+      CANNOT be transferred; any other asset is liquid.
       
       When a rule indicates transferring an amount that is not a natural
       number, the specified amount is rounded up to the nearest natural
@@ -5834,6 +5842,10 @@ Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(2) by P8187 'Not so indestructible now, eh?' (Jason), 22 Jun
    2019
+Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd),
+   08 Sep 2020
+Amended(4) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd),
+   08 Sep 2020
 
 Annotations:
 
@@ -5858,7 +5870,7 @@ Amended(1) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2579/2 (Power=3)
+Rule 2579/3 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -5890,16 +5902,13 @@ Fee-based Actions
         - Otherwise, no changes are made to asset holdings and the
           action is not performed.
       
-      If a Rule purports to provide a fee-based method to perform an
-      action with a fee of no assets, that Rule enables the performance
-      of the action by announcement. When using such a method, the actor
-      SHOULD announce that there was a 0 or empty fee.
-      
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8462 'Fee-based methods' (Jason, Falsifian), 08 Jul 2020
 Amended(2) by P8486 'Fee-based de-escalation' (Jason, omd), 10 Aug 2020
+Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd),
+   08 Sep 2020
 
 Annotations:
 
@@ -6149,12 +6158,14 @@ Enacted by P8446 'Victory Auctions' (G., nch), 30 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2624/1 (Power=1.0)
+Rule 2624/2 (Power=1.0)
 Card Administration
 
       Justice Cards are associated with the Ministry of Justice.
       Legislative Cards are associated with the Ministry of Legislation.
       Voting Cards are associated with the ministry of Participation.
+      The type of card with the fewest existing instances is assocated
+      with the Ministry of Economy.
       
       The officeholder of an office CAN by announcement grant another
       player a specified type of card, specifying that office, under the
@@ -6175,6 +6186,7 @@ History:
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 Amended(1) by P8477 'More officer cards' (Jason), 27 Jul 2020
+Amended(2) by P8489 'Interesting economics' (Jason), 08 Sep 2020
 
 Annotations:
 
@@ -7163,16 +7175,16 @@ The Speaker
       Minister CAN once appoint a Laureled player to the office of
       Speaker by announcement.
       
-      Whenever the Prime Minister CAN appoint a Laureled
-      player to the office of Speaker, e SHALL do so in a timely manner,
-      except that the Prime Minister MAY defer appointing a new Speaker
-      while there is pending one or more open CFJs that could plausibly
-      determine or affect the question of whether a player is Laureled.
-      If the Prime Minister is emself Laureled, eir power to appoint a
-      Speaker continues for the entirety of a message in which e resigns
-      as Prime Minister, and if e is the only Laureled player, e CAN
-      void that power, and thereby discharge the obligation to use it,
-      by announcing that e declines to take the office.
+      Whenever the Prime Minister CAN appoint a Laureled player to the
+      office of Speaker, e SHALL do so in a timely manner, except that
+      the Prime Minister MAY defer appointing a new Speaker while there
+      is pending one or more open CFJs that could plausibly determine or
+      affect the question of whether a player is Laureled.  If the Prime
+      Minister is emself Laureled, eir power to appoint a Speaker
+      continues for the entirety of a message in which e resigns as
+      Prime Minister, and if e is the only Laureled player, e CAN void
+      that power, and thereby discharge the obligation to use it, by
+      announcing that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
