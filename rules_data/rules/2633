@@ -1,6 +1,6 @@
 id: 2633
 name: Rulebending
-power: 1.0
+power: 3.0
 text: |
   G. CAN, by announcement, make a Rulebender (defined as being an
   active player holding the patent title of Rulebender) into a
@@ -29,4 +29,11 @@ history:
   date: 2020-08-10
   agent:
     proposal: "8483"
+- change:
+    type: power-change
+    old-power: 1.0
+    new-power: 3.0
+  date: 2020-09-04
+  agent:
+    proposal: "8493"
 annotations: []
