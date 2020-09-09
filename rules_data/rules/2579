@@ -30,11 +30,6 @@ text: |
 
     - Otherwise, no changes are made to asset holdings and the
       action is not performed.
-
-  If a Rule purports to provide a fee-based method to perform an
-  action with a fee of no assets, that Rule enables the performance
-  of the action by announcement. When using such a method, the actor
-  SHOULD announce that there was a 0 or empty fee.
 history:
 - change:
     type: enactment
@@ -52,3 +47,8 @@ history:
   date: 2020-08-10
   agent:
     proposal: "8486"
+- change:
+    type: amendment
+  date: 2020-09-08
+  agent:
+    proposal: "8488"

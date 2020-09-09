@@ -3,10 +3,11 @@ name: Asset Actions
 power: 3
 text: |
   An asset generally CAN be destroyed by its owner by announcement,
-  subject to modification by its backing document. An indestructible
-  asset is one defined as such by its backing document, and CANNOT
-  be destroyed except as explicitly specified by its backing
-  document; any other asset is destructible.
+  subject to modification by its backing document. Attempts to
+  destroy no assets are successful. An indestructible asset is one
+  defined as such by its backing document, and CANNOT be destroyed
+  except as explicitly specified by its backing document; any other
+  asset is destructible.
 
   For an entity to earn an asset is for that asset to be created in
   that entity's possession. To grant an entity an asset is to create
@@ -21,9 +22,9 @@ text: |
   
   An asset generally CAN be transferred (syn. given) by announcement
   by its owner to another entity, subject to modification by its
-  backing document. A fixed asset is one defined as such by its
-  backing document, and CANNOT be transferred; any other asset is
-  liquid.
+  backing document. Attempts to transfer no assets are successful. A
+  fixed asset is one defined as such by its backing document, and
+  CANNOT be transferred; any other asset is liquid.
 
   When a rule indicates transferring an amount that is not a natural
   number, the specified amount is rounded up to the nearest natural
@@ -45,3 +46,13 @@ history:
   date: 2019-06-22
   agent:
     proposal: "8187"
+- change:
+    type: amendment
+  date: 2020-09-08
+  agent:
+    proposal: "8488"
+- change:
+    type: amendment
+  date: 2020-09-08
+  agent:
+    proposal: "8488"
