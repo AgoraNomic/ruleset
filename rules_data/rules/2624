@@ -5,6 +5,8 @@ text: |
   Justice Cards are associated with the Ministry of Justice.
   Legislative Cards are associated with the Ministry of Legislation.
   Voting Cards are associated with the ministry of Participation.
+  The type of card with the fewest existing instances is assocated
+  with the Ministry of Economy.
 
   The officeholder of an office CAN by announcement grant another
   player a specified type of card, specifying that office, under the
@@ -30,4 +32,9 @@ history:
   date: 2020-07-27
   agent:
     proposal: "8477"
+- change:
+    type: amendment
+  date: 2020-09-08
+  agent:
+    proposal: "8489"
 annotations: []
