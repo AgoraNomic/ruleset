@@ -167,6 +167,9 @@ def agent_string(data_path, agent):
     try: return agent["person"]
     except KeyError: pass
 
+    try: return "Rulebending Form demonstrated by " + agent["rulebending"]["magister"]
+    except KeyError: pass
+
     raise NotImplementedError()
 
 def proposal_blame(data_path, num):
