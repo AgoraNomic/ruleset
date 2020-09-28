@@ -10,13 +10,15 @@ text: |
   restricted to Agora, players, and contracts, but an asset's
   backing document may modify this.
 
-  If an asset's owner would otherwise be nonexistent, indeterminate,
-  or invalid, then it is owned by the Lost and Found Department (if
+  An asset "in abeyance" is one whose owner is nonexistent,
+  indeterminate, or invalid. If an asset would otherwise be in
+  abeyance, then it is owned by the Lost and Found Department (if
   possible) or destroyed (otherwise), subject to modification by its
-  backing document. Rules to the contrary notwithstanding, the Lost
-  and Found Department can own assets of every type. Assets owned by
-  the Lost and Found Department can be transferred or destroyed by
-  any player without objection.
+  backing document (provided that the modification either destroys
+  it or prevents it from being in abeyance). Rules to the contrary
+  notwithstanding, the Lost and Found Department can own assets of
+  every type. Assets owned by the Lost and Found Department can be
+  transferred or destroyed by any player without objection.
 history:
 - change:
     type: enactment
@@ -34,3 +36,8 @@ history:
   date: 2020-08-10
   agent:
     proposal: "8484"
+- change:
+    type: amendment
+  date: 2020-09-25
+  agent:
+    proposal: "8500"
