@@ -27,10 +27,10 @@ text: |
   specifically assign to that office's holder in particular
   (regardless of eir identity).
 
-  Reports SHALL be published in plain text. Tabular data must line
-  up properly when viewed in a monospaced font. Publishing a report
-  that deviates from these restrictions is the Class 2 Crime of
-  Making My Eyes Bleed.
+  An officer SHALL publish eir report in plain text, with tabular
+  data lining up properly when viewed in a monospaced font.
+  Publishing a report that deviates from these restrictions is the
+  Class 2 Crime of Making My Eyes Bleed.
 
   Officers SHOULD maintain a publicly visible copy of their reports
   on the World Wide Web, and they SHOULD publish the address of this
@@ -218,6 +218,11 @@ history:
   date: 2020-04-21
   agent:
     proposal: "8370"
+- change:
+    type: amendment
+  date: 2020-09-25
+  agent:
+    proposal: "8503"
 annotations:
 - cfjs:
   - id: '2392'

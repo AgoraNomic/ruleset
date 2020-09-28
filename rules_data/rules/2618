@@ -3,13 +3,13 @@ name: Promises
 power: 2.2
 text: |
   Promises are a class of assets, tracked by the Notary. Their
-  essential attributes are their text and creator. A person CAN, by
-  announcement, grant emself a promise, specifying its text and
-  becoming its creator. A promise's owner is referred to as its
-  bearer. Promises with the same text, creator, and bearer are
-  fungible. Promises with the same text and creator SHOULD be
-  referred to by the same title, but the title is not an essential
-  attribute of the promise, just a way of referring to it.
+  essential attributes are their text and creator. A consenting
+  player CAN, by announcement, grant a specified entity a promise,
+  specifying its text and becoming its creator. A promise's owner is
+  referred to as its bearer. Promises with the same text, creator,
+  and bearer are fungible. Promises with the same text and creator
+  SHOULD be referred to by the same title, but the title is not an
+  essential attribute of the promise, just a way of referring to it.
 
   A promise's bearer CAN, by announcement, cash the promise,
   provided that any conditions for cashing it specified by its text
@@ -40,4 +40,9 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8410"
+- change:
+    type: amendment
+  date: 2020-09-25
+  agent:
+    proposal: "8503"
 annotations: []
