@@ -8,14 +8,14 @@ text: |
   already that length, provided this has not already happened for
   the decision in question.
 
-  Upon such an occurrence, the vote collector for the decision SHALL
-  issue a humiliating public reminder naming the slackers who have
-  not yet cast any votes on it despite being eligible, and CAN end
-  its voting period by announcement (resolving it constitutes an
-  implicit announcement that its voting period is first ended) if
-  the result would no longer be FAILED QUORUM, or if the decision is
-  a referendum on a proposal and no voter (other than possibly the
-  proposal's author) has voted FOR.
+  Within four days of such an occurrence, the vote collector for the
+  decision SHALL issue a humiliating public reminder naming the
+  slackers who have not yet cast any votes on it despite being
+  eligible, and CAN end its voting period by announcement (resolving
+  it constitutes an implicit announcement that its voting period is
+  first ended) if the result would no longer be FAILED QUORUM, or if
+  the decision is a referendum on a proposal and no voter (other
+  than possibly the proposal's author) has voted FOR.
 history:
 - change:
     type: enactment
@@ -68,6 +68,11 @@ history:
   agent:
     refiling:
       by: Aris
+- change:
+    type: amendment
+  date: 2020-09-25
+  agent:
+    proposal: "8502"
 annotations:
 - cfjs:
   - id: 3644
