@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 30 Aug 2020
+Date of this ruleset: 28 Sep 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 142
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2633
-Highest ID'd Proposal Passed: 8492
+Highest ID'd Proposal Passed: 8503
 Highest ID'd Rule Enacted: 2633
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -194,14 +194,14 @@ Barrels
 Power Distribution:
 
 1  with Power=0.3
-43 with Power=1.0
+42 with Power=1
 2  with Power=1.5
 6  with Power=1.7
 27 with Power=2
 2  with Power=2.1
 1  with Power=2.2
 1  with Power=2.5
-51 with Power=3
+52 with Power=3.0
 1  with Power=3.01
 2  with Power=3.1
 1  with Power=3.14
@@ -304,7 +304,7 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance
    for the current gamestate.
 ------------------------------------------------------------------------
-Rule 2633/0 (Power=1.0)
+Rule 2633/0 (Power=3.0)
 Rulebending
 
       G. CAN, by announcement, make a Rulebender (defined as being an
@@ -332,6 +332,8 @@ Rulebending
 History:
 
 Enacted by P8483 'a minor adjustment' (G.), 10 Aug 2020
+Power changed from 1.0 to 3.0 by P8493 'Minor Adjustments' (G.), 04 Sep
+   2020
 
 Annotations:
 
@@ -1639,17 +1641,18 @@ CFJ 2945 (called 22 Dec 2010): An attribute of an entity is "changed"
    when it is removed/unset.
 
 ------------------------------------------------------------------------
-Rule 2612/0 (Power=3.0)
+Rule 2612/1 (Power=3.0)
 Bodies of Law
 
       A body of law is a collection of related instruments and bodies of
       law whose effects are collective and possibly interdependent, and
       which is defined as such by a body of law. The statutes of Agora
-      form a body of law with unlimited scope. All other bodies of law
-      are defined by a different body of law, in such a way as to be
-      able to trace their origins back to the statutes of Agora. Two or
-      more bodies of law may jointly define another body of law, but
-      only each of them clearly expresses the intent to participate in a
+      form a body of law with unlimited scope, where each statute is a
+      single instrument in that body of law. All other bodies of law are
+      defined by a different body of law, in such a way as to be able to
+      trace their origins back to the statutes of Agora. Two or more
+      bodies of law may jointly define another body of law, but only
+      each of them clearly expresses the intent to participate in a
       joint definition with each of the others. Otherwise, the
       definitions are separate, distinct, and unrelated.
       
@@ -1693,6 +1696,8 @@ History:
 
 Enacted by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
    Gaelan), 21 Mar 2020
+Amended(1) by P8501 'Statutes are Instruments' (Jason, Gaelan), 25 Sep
+   2020
 
 Annotations:
 
@@ -3550,7 +3555,7 @@ CFJ 2449 (called 14 Apr 2009): For an endorsement or denouncement, the
    identity of the voter in question is part of the condition.
 
 ------------------------------------------------------------------------
-Rule 2168/8 (Power=1)
+Rule 2168/9 (Power=1)
 Extending the Voting Period
 
       Whenever the voting period of an Agoran decision would end, and
@@ -3559,14 +3564,14 @@ Extending the Voting Period
       already that length, provided this has not already happened for
       the decision in question.
       
-      Upon such an occurrence, the vote collector for the decision SHALL
-      issue a humiliating public reminder naming the slackers who have
-      not yet cast any votes on it despite being eligible, and CAN end
-      its voting period by announcement (resolving it constitutes an
-      implicit announcement that its voting period is first ended) if
-      the result would no longer be FAILED QUORUM, or if the decision is
-      a referendum on a proposal and no voter (other than possibly the
-      proposal's author) has voted FOR.
+      Within four days of such an occurrence, the vote collector for the
+      decision SHALL issue a humiliating public reminder naming the
+      slackers who have not yet cast any votes on it despite being
+      eligible, and CAN end its voting period by announcement (resolving
+      it constitutes an implicit announcement that its voting period is
+      first ended) if the result would no longer be FAILED QUORUM, or if
+      the decision is a referendum on a proposal and no voter (other
+      than possibly the proposal's author) has voted FOR.
       
 History:
 
@@ -3582,6 +3587,7 @@ Amended(6) by P6504 'We don't need this exception' [disi.] (Murphy), 03
 Amended(7) by P7045 'Speed' (Walker), 16 May 2011
 Amended(8) by P8418 'Referenda' (Aris), 14 Jun 2020
 Retitled by refiling (Aris), 08 Aug 2020
+Amended(9) by P8502 'Timely reminders' (Jason, Aris), 25 Sep 2020
 
 Annotations:
 CFJ 3644 (called 18 Jun 2018): Players can't guarantee actual
@@ -4178,7 +4184,7 @@ Amended(4) by P8394 '8228 retry' (Jason), 03 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2143/32 (Power=1)
+Rule 2143/33 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -4206,10 +4212,10 @@ Official Reports and Duties
       specifically assign to that office's holder in particular
       (regardless of eir identity).
       
-      Reports SHALL be published in plain text. Tabular data must line
-      up properly when viewed in a monospaced font. Publishing a report
-      that deviates from these restrictions is the Class 2 Crime of
-      Making My Eyes Bleed.
+      An officer SHALL publish eir report in plain text, with tabular
+      data lining up properly when viewed in a monospaced font.
+      Publishing a report that deviates from these restrictions is the
+      Class 2 Crime of Making My Eyes Bleed.
       
       Officers SHOULD maintain a publicly visible copy of their reports
       on the World Wide Web, and they SHOULD publish the address of this
@@ -4265,6 +4271,8 @@ Amended(29) by P8249 'No Harm No Foul' (Jacob Arduino, twg), 18 Sep 2019
 Amended(30) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
 Amended(31) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
 Amended(32) by P8370 'Announced Petitions' (Aris), 21 Apr 2020
+Amended(33) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
+   Jason), 25 Sep 2020
 
 Annotations:
 CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
@@ -5404,18 +5412,21 @@ Amended(1) by P7892 'Truthfulness v2' (Aris), 26 Sep 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2450/9 (Power=1.7)
+Rule 2450/10 (Power=1.7)
 Pledges
 
-      If a Player makes a clear public pledge (syn. Oath) to perform (or
-      refrain from performing) certain actions, then breaking the pledge
-      within the pledge's time window is the Class N crime of
-      Oathbreaking, where N is 2 unless the pledge explicitly states
-      otherwise. It is also Oathbreaking for a player to let a pledge
-      expire without taking an action e pledged to do in that pledge.
-      The time window of a pledge is 60 days, unless the pledge
-      explicitly states otherwise. A pledge ceases to exist at the end
-      of its time window.
+      If a consenting Player makes a clear public pledge (syn. Oath) to
+      perform (or refrain from performing) certain actions, then
+      breaking the pledge is ILLEGAL; doing so is the Class N crime of
+      Oathbreaking, where N is the value explicitly stated by the
+      pledge, or 2 if the pledge does not explicitly state a value.
+      Allowing a pledge to expire without carrying out an action one
+      pledged to do in it constitutes breaking the pledge.
+      
+      The time window of a pledge is W days, where W is the value
+      explicitly stated by the pledge, or 60 if the pledge does not
+      explicitly state a value. A pledge ceases to exist at the end of
+      its time window.
       
       If breaking the pledge harms specific other parties, the Referee
       SHOULD solicit the opinion of those parties in determining an
@@ -5440,6 +5451,8 @@ Amended(7) by P8331 'Promissory cleanliness' (Warrigal), 24 Feb 2020
 Amended(8) by P8412 'Small Pledge Amendments' (R. Lee), 14 Jun 2020
 Amended(9) by P8461 'Reoding Adopted Proposals' (R. Lee, Aris), 08 Jul
    2020
+Amended(10) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
+   Jason), 25 Sep 2020
 
 Annotations:
 CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
@@ -5491,17 +5504,17 @@ Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2618/1 (Power=2.2)
+Rule 2618/2 (Power=2.2)
 Promises
 
       Promises are a class of assets, tracked by the Notary. Their
-      essential attributes are their text and creator. A person CAN, by
-      announcement, grant emself a promise, specifying its text and
-      becoming its creator. A promise's owner is referred to as its
-      bearer. Promises with the same text, creator, and bearer are
-      fungible. Promises with the same text and creator SHOULD be
-      referred to by the same title, but the title is not an essential
-      attribute of the promise, just a way of referring to it.
+      essential attributes are their text and creator. A consenting
+      player CAN, by announcement, grant a specified entity a promise,
+      specifying its text and becoming its creator. A promise's owner is
+      referred to as its bearer. Promises with the same text, creator,
+      and bearer are fungible. Promises with the same text and creator
+      SHOULD be referred to by the same title, but the title is not an
+      essential attribute of the promise, just a way of referring to it.
       
       A promise's bearer CAN, by announcement, cash the promise,
       provided that any conditions for cashing it specified by its text
@@ -5526,6 +5539,8 @@ History:
 
 Enacted by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Amended(1) by P8410 'Promise Powers Patch' (Aris), 14 Jun 2020
+Amended(2) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
+   Jason), 25 Sep 2020
 
 Annotations:
 
@@ -5774,7 +5789,7 @@ CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
    not fulfill the requirement.
 
 ------------------------------------------------------------------------
-Rule 2576/2 (Power=3)
+Rule 2576/3 (Power=3)
 Ownership
 
       Each asset has exactly one owner.
@@ -5785,13 +5800,15 @@ Ownership
       restricted to Agora, players, and contracts, but an asset's
       backing document may modify this.
       
-      If an asset's owner would otherwise be nonexistent, indeterminate,
-      or invalid, then it is owned by the Lost and Found Department (if
+      An asset "in abeyance" is one whose owner is nonexistent,
+      indeterminate, or invalid. If an asset would otherwise be in
+      abeyance, then it is owned by the Lost and Found Department (if
       possible) or destroyed (otherwise), subject to modification by its
-      backing document. Rules to the contrary notwithstanding, the Lost
-      and Found Department can own assets of every type. Assets owned by
-      the Lost and Found Department can be transferred or destroyed by
-      any player without objection.
+      backing document (provided that the modification either destroys
+      it or prevents it from being in abeyance). Rules to the contrary
+      notwithstanding, the Lost and Found Department can own assets of
+      every type. Assets owned by the Lost and Found Department can be
+      transferred or destroyed by any player without objection.
       
 History:
 
@@ -5799,18 +5816,21 @@ Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8366 'Asset Determinacy' (Aris, twg), 17 Apr 2020
 Amended(2) by P8484 'Clarify asset ownership' (Murphy, Cuddlebeam,
    Aris), 10 Aug 2020
+Amended(3) by P8500 'Clarify asset ownership some more' (Murphy, G.),
+   25 Sep 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2577/2 (Power=3)
+Rule 2577/4 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
-      subject to modification by its backing document. An indestructible
-      asset is one defined as such by its backing document, and CANNOT
-      be destroyed except as explicitly specified by its backing
-      document; any other asset is destructible.
+      subject to modification by its backing document. Attempts to
+      destroy no assets are successful. An indestructible asset is one
+      defined as such by its backing document, and CANNOT be destroyed
+      except as explicitly specified by its backing document; any other
+      asset is destructible.
       
       For an entity to earn an asset is for that asset to be created in
       that entity's possession. To grant an entity an asset is to create
@@ -5825,9 +5845,9 @@ Asset Actions
       
       An asset generally CAN be transferred (syn. given) by announcement
       by its owner to another entity, subject to modification by its
-      backing document. A fixed asset is one defined as such by its
-      backing document, and CANNOT be transferred; any other asset is
-      liquid.
+      backing document. Attempts to transfer no assets are successful. A
+      fixed asset is one defined as such by its backing document, and
+      CANNOT be transferred; any other asset is liquid.
       
       When a rule indicates transferring an amount that is not a natural
       number, the specified amount is rounded up to the nearest natural
@@ -5839,6 +5859,10 @@ Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(2) by P8187 'Not so indestructible now, eh?' (Jason), 22 Jun
    2019
+Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd),
+   08 Sep 2020
+Amended(4) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd),
+   08 Sep 2020
 
 Annotations:
 
@@ -5863,7 +5887,7 @@ Amended(1) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2579/2 (Power=3)
+Rule 2579/3 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -5895,16 +5919,13 @@ Fee-based Actions
         - Otherwise, no changes are made to asset holdings and the
           action is not performed.
       
-      If a Rule purports to provide a fee-based method to perform an
-      action with a fee of no assets, that Rule enables the performance
-      of the action by announcement. When using such a method, the actor
-      SHOULD announce that there was a 0 or empty fee.
-      
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
 Amended(1) by P8462 'Fee-based methods' (Jason, Falsifian), 08 Jul 2020
 Amended(2) by P8486 'Fee-based de-escalation' (Jason, omd), 10 Aug 2020
+Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd),
+   08 Sep 2020
 
 Annotations:
 
@@ -6154,12 +6175,14 @@ Enacted by P8446 'Victory Auctions' (G., nch), 30 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2624/1 (Power=1.0)
+Rule 2624/2 (Power=1.0)
 Card Administration
 
       Justice Cards are associated with the Ministry of Justice.
       Legislative Cards are associated with the Ministry of Legislation.
       Voting Cards are associated with the ministry of Participation.
+      The type of card with the fewest existing instances is assocated
+      with the Ministry of Economy.
       
       The officeholder of an office CAN by announcement grant another
       player a specified type of card, specifying that office, under the
@@ -6180,6 +6203,7 @@ History:
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 Amended(1) by P8477 'More officer cards' (Jason), 27 Jul 2020
+Amended(2) by P8489 'Interesting economics' (Jason), 08 Sep 2020
 
 Annotations:
 
@@ -7168,16 +7192,16 @@ The Speaker
       Minister CAN once appoint a Laureled player to the office of
       Speaker by announcement.
       
-      Whenever the Prime Minister CAN appoint a Laureled
-      player to the office of Speaker, e SHALL do so in a timely manner,
-      except that the Prime Minister MAY defer appointing a new Speaker
-      while there is pending one or more open CFJs that could plausibly
-      determine or affect the question of whether a player is Laureled.
-      If the Prime Minister is emself Laureled, eir power to appoint a
-      Speaker continues for the entirety of a message in which e resigns
-      as Prime Minister, and if e is the only Laureled player, e CAN
-      void that power, and thereby discharge the obligation to use it,
-      by announcing that e declines to take the office.
+      Whenever the Prime Minister CAN appoint a Laureled player to the
+      office of Speaker, e SHALL do so in a timely manner, except that
+      the Prime Minister MAY defer appointing a new Speaker while there
+      is pending one or more open CFJs that could plausibly determine or
+      affect the question of whether a player is Laureled.  If the Prime
+      Minister is emself Laureled, eir power to appoint a Speaker
+      continues for the entirety of a message in which e resigns as
+      Prime Minister, and if e is the only Laureled player, e CAN void
+      that power, and thereby discharge the obligation to use it, by
+      announcing that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
