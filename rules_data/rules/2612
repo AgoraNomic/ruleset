@@ -5,11 +5,12 @@ text: |
   A body of law is a collection of related instruments and bodies of
   law whose effects are collective and possibly interdependent, and
   which is defined as such by a body of law. The statutes of Agora
-  form a body of law with unlimited scope. All other bodies of law
-  are defined by a different body of law, in such a way as to be
-  able to trace their origins back to the statutes of Agora. Two or
-  more bodies of law may jointly define another body of law, but
-  only each of them clearly expresses the intent to participate in a
+  form a body of law with unlimited scope, where each statute is a
+  single instrument in that body of law. All other bodies of law are
+  defined by a different body of law, in such a way as to be able to
+  trace their origins back to the statutes of Agora. Two or more
+  bodies of law may jointly define another body of law, but only
+  each of them clearly expresses the intent to participate in a
   joint definition with each of the others. Otherwise, the
   definitions are separate, distinct, and unrelated.
 
@@ -54,4 +55,9 @@ history:
   date: 2020-03-21
   agent:
     proposal: "8354"
+- change:
+    type: amendment
+  date: 2020-09-25
+  agent:
+    proposal: "8501"
 annotations: []
