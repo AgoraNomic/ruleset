@@ -98,8 +98,8 @@ for section in yaml.load(get_contents(path.join(config_dir_path, "index")), Load
         if full:
             gen = full_rule(data_path=data_path, entity_config=entity_config, rule=ldata)
 
-            toc = toc + "   * Rule {0:>4}: {1}\n".format(
-                rule, ldata["name"]
+            toc = toc + "   * {0} {1:>4}: {2}\n".format(
+                entity_config.kind, rule, ldata["name"]
             )
             
             print("\tprocessed full rule")
