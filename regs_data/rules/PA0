@@ -1,0 +1,38 @@
+id: PA0
+name: Certification
+text: |
+  For the Promotor to cause a proposal to become pending with 2+N
+  support, where N is equal to the number of times e has done so in
+  the past 7 days, is for em to certify it.
+
+  A proposal is certifiable if:
+  1. it is reasonably narrowly tailored to fix one or more problems,
+     including a) bugs, b) errors, c) ambiguities, and d)
+     vulnerabilities*; or
+  2. unusual or exigent circumstance render it in the public
+     interest for it to become pending via this method.
+
+  * Note: Any of these problems may arise from a single source or
+    the interaction of multiple sources, which may be individually
+    unproblematic. This provision is to be interpreted broadly and
+    flexibly to effectuate its spirit.
+
+  The Promotor SHOULD NOT certify a non-certifiable proposal.
+  Players SHOULD support an intent to certify a proposal if and only
+  if it is certifiable.
+
+  The author of a proposal in the pool CAN, by announcement, request
+  certification of the proposal, provided e does so in a message
+  that has either "Promotor" or "Proposal" in the subject line; e
+  SHOULD NOT do so unless e believes eir proposal is certifiable and
+  is ENCOURAGED to explain why eir proposal is certifiable. Once
+  certification is requested, the Promotor SHALL respond publicly
+  before publishing the next report that contains the proposal,
+  unless the proposal is withdrawn or pended in the interim.
+  Petitioning the Promotor to certify a proposal is DEPRECATED.
+history:
+- change:
+    type: enactment
+  date: 2020-09-13
+  agent:
+    person: Aris

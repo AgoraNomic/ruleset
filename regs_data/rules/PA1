@@ -1,0 +1,47 @@
+id: PA1
+name: Proposal Style Guide
+text: |
+  Players SHOULD format proposals in accordance with the following
+  guidelines.  These guidelines represent the Promotor's preferred
+  formatting. Most of these guidelines are flexible recommendations,
+  but where something is marked as STRONGLY DISCOURAGED, doing it is
+  actively inconvenient for the Promotor.
+
+  I. Headers and Metadata.
+
+  1. Format headers as close as possible to the heading used for
+     distributions, which looks like this:
+
+  Title: _____
+  Adoption index: _._
+  Author: ____
+  Co-authors: ____, ____
+
+  To be clear:
+  a) write the fields in that order;
+  b) write out all the fields, even the ones that have default
+     values; and
+  c) write each field on its own line.
+
+  2. a) Give proposals titles 35 characters or less.
+     b) Giving proposals titles over 70 characters is STRONGLY
+        DISCOURAGED.  
+
+  II. Bodies.
+
+  1. Indent Proposals two spaces per indent level.
+
+  2. a) Wrap proposal lines to 80 characters or less.
+     b) Making it so the Promotor cannot wrap lines to 80 characters
+        or less is STRONGLY DISCOURAGED unless it is absolutely
+        unavoidable (e.g.  in the case of URLs).
+
+  3. Players are STRONGLY DISCOURAGED from placing markings that
+     indicate the start of the proposal's text on the same line as
+     the start of the text.
+history:
+- change:
+    type: enactment
+  date: 2020-09-13
+  agent:
+    person: Aris

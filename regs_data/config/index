@@ -15,3 +15,10 @@
     gamestate during states of extreme emergency.
   rules:
   - ER0
+- name: Administrative Regulations
+  note: |
+    This section has regulations enacted by officers, pursuant to Rule
+    2630.
+  rules:
+  - PA0
+  - PA1
