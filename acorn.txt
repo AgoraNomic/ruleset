@@ -2,21 +2,24 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 9 Sep 2020
+Date of this ACORN: 31 Sep 2020
 
 ------------------------------------------------------------------------
 
 Table of Contents:
 
 Auction Regulations
-   * Rule  AM0: Generalized Auction
-   * Rule  AM1: Forward Auctions
-   * Rule  AM2: Sealed-bid Auctions
-   * Rule  AM3: Second-price Auctions
-   * Rule  AM4: Nonwinning-price Auctions
-   * Rule  AM5: Selective-bid Auctions
+   * Regulation  AM0: Generalized Auction
+   * Regulation  AM1: Forward Auctions
+   * Regulation  AM2: Sealed-bid Auctions
+   * Regulation  AM3: Second-price Auctions
+   * Regulation  AM4: Nonwinning-price Auctions
+   * Regulation  AM5: Selective-bid Auctions
 Emergency Regulations
-   * Rule  ER0: to the moooooon
+   * Regulation  ER0: to the moooooon
+Administrative Regulations
+   * Regulation  PA0: Certification
+   * Regulation  PA1: Proposal Style Guide
 
 
 ------------------------------------------------------------------------
@@ -197,6 +200,100 @@ to the moooooon
 History:
 
 Enacted by Rulebending Form demonstrated by G., 04 Sep 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Administrative Regulations
+   This section has regulations enacted by officers, pursuant to Rule
+   2630.
+------------------------------------------------------------------------
+Regulation PA0/0
+Certification
+
+      For the Promotor to cause a proposal to become pending with 2+N
+      support, where N is equal to the number of times e has done so in
+      the past 7 days, is for em to certify it.
+      
+      A proposal is certifiable if:
+      1. it is reasonably narrowly tailored to fix one or more problems,
+         including a) bugs, b) errors, c) ambiguities, and d)
+         vulnerabilities*; or
+      2. unusual or exigent circumstance render it in the public
+         interest for it to become pending via this method.
+      
+      * Note: Any of these problems may arise from a single source or
+        the interaction of multiple sources, which may be individually
+        unproblematic. This provision is to be interpreted broadly and
+        flexibly to effectuate its spirit.
+      
+      The Promotor SHOULD NOT certify a non-certifiable proposal.
+      Players SHOULD support an intent to certify a proposal if and only
+      if it is certifiable.
+      
+      The author of a proposal in the pool CAN, by announcement, request
+      certification of the proposal, provided e does so in a message
+      that has either "Promotor" or "Proposal" in the subject line; e
+      SHOULD NOT do so unless e believes eir proposal is certifiable and
+      is ENCOURAGED to explain why eir proposal is certifiable. Once
+      certification is requested, the Promotor SHALL respond publicly
+      before publishing the next report that contains the proposal,
+      unless the proposal is withdrawn or pended in the interim.
+      Petitioning the Promotor to certify a proposal is DEPRECATED.
+      
+History:
+
+Enacted by Aris, 13 Sep 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation PA1/0
+Proposal Style Guide
+
+      Players SHOULD format proposals in accordance with the following
+      guidelines.  These guidelines represent the Promotor's preferred
+      formatting. Most of these guidelines are flexible recommendations,
+      but where something is marked as STRONGLY DISCOURAGED, doing it is
+      actively inconvenient for the Promotor.
+      
+      I. Headers and Metadata.
+      
+      1. Format headers as close as possible to the heading used for
+         distributions, which looks like this:
+      
+      Title: _____
+      Adoption index: _._
+      Author: ____
+      Co-authors: ____, ____
+      
+      To be clear:
+      a) write the fields in that order;
+      b) write out all the fields, even the ones that have default
+         values; and
+      c) write each field on its own line.
+      
+      2. a) Give proposals titles 35 characters or less.
+         b) Giving proposals titles over 70 characters is STRONGLY
+            DISCOURAGED.  
+      
+      II. Bodies.
+      
+      1. Indent Proposals two spaces per indent level.
+      
+      2. a) Wrap proposal lines to 80 characters or less.
+         b) Making it so the Promotor cannot wrap lines to 80 characters
+            or less is STRONGLY DISCOURAGED unless it is absolutely
+            unavoidable (e.g.  in the case of URLs).
+      
+      3. Players are STRONGLY DISCOURAGED from placing markings that
+         indicate the start of the proposal's text on the same line as
+         the start of the text.
+      
+History:
+
+Enacted by Aris, 13 Sep 2020
 
 Annotations:
 
