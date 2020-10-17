@@ -3,7 +3,7 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 28 Sep 2020
+Date of this ruleset: 17 Oct 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 142
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2633
-Highest ID'd Proposal Passed: 8503
+Highest ID'd Proposal Passed: 8505
 Highest ID'd Rule Enacted: 2633
 
 ========================================================================
@@ -2856,14 +2856,14 @@ Victory Auctions
       The currency of a victory auction is coins (minimum bid 1).
       
 ------------------------------------------------------------------------
-Rule 2624/2 (Power=1.0)
+Rule 2624/3 (Power=1.0)
 Card Administration
 
       Justice Cards are associated with the Ministry of Justice.
       Legislative Cards are associated with the Ministry of Legislation.
       Voting Cards are associated with the ministry of Participation.
-      The type of card with the fewest existing instances is assocated
-      with the Ministry of Economy.
+      The single type of card with the fewest existing instances (if
+      any) is assocated with the Ministry of Economy.
       
       The officeholder of an office CAN by announcement grant another
       player a specified type of card, specifying that office, under the
@@ -2872,10 +2872,11 @@ Card Administration
       * e has not done so in reference to that office in the current
         Agoran month,
       
-      * that office's interests includes the card's associated ministry,
+      * that office's interests includes a ministry associated with the
+        card.
       
-      * the player receiving the card does not hold an office with the
-        card's associated ministry in its interests, and
+      * the player receiving the card does not hold an office with a
+        ministry associated with the card in its interests, and
       
       * the player receiving the card is not a zombie.
       
@@ -3733,7 +3734,7 @@ Barrels
    A minigame in which people try to collect barrles by fulfilling
    bargains.
 ------------------------------------------------------------------------
-Rule 2627/0 (Power=1.0)
+Rule 2627/1 (Power=1.0)
 The General Store
 
       Barrels are a currency tracked by the Coopor (an office) in eir
@@ -3741,9 +3742,10 @@ The General Store
       100 barrels.  When a player corners the market, e wins the game.
       
       A bargain is a specification consisting of a title, a payout (a
-      number of barrels between 1 and 10), and a tender (a list of 6 or
-      more rules-defined card types; a type may be repeated, with each
-      repeat being a separate element on the list).
+      number of barrels between 1 and 10), and a tender (a list of 4 or
+      more rules-defined card types with at least two of the types being
+      different; a type may be repeated, with each repeat being a
+      separate element on the list).
       
       A player CAN cash out a specified bargain that's "on the barrel",
       by announcement, provided that, in the same message, e paid cards
