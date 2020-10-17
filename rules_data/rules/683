@@ -202,3 +202,9 @@ annotations:
     ambiguous, because it may refer to the other player's vote at
     the time of the message (an unconditional vote) or at the time
     of resolution (a conditional vote).
+- cfjs:
+  - id: 3860
+    called: 2020-07-02
+  text: >
+    An intentionally hidden ballot is not clearly cost and is
+    therefore invalid.
