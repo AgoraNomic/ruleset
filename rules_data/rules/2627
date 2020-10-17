@@ -7,9 +7,10 @@ text: |
   100 barrels.  When a player corners the market, e wins the game.
 
   A bargain is a specification consisting of a title, a payout (a
-  number of barrels between 1 and 10), and a tender (a list of 6 or
-  more rules-defined card types; a type may be repeated, with each
-  repeat being a separate element on the list).
+  number of barrels between 1 and 10), and a tender (a list of 4 or
+  more rules-defined card types with at least two of the types being
+  different; a type may be repeated, with each repeat being a
+  separate element on the list).
 
   A player CAN cash out a specified bargain that's "on the barrel",
   by announcement, provided that, in the same message, e paid cards
@@ -30,4 +31,9 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8442"
+- change:
+    type: amendment
+  date: 2020-10-16
+  agent:
+    proposal: "8504"
 annotations: []
