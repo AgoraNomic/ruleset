@@ -67,4 +67,11 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8445"
-annotations: []
+annotations:
+- cfjs:
+  - id: 3800-3803
+    called: 2020-01-25
+  text: >
+    For a cleaning to replace a word with another word as
+    a synonym, the two words must have exactly the same
+    meaning.

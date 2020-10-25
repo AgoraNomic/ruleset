@@ -154,3 +154,11 @@ annotations:
     case-by-case basis; just because a Rule is inapplicable in one
     situation due to conflict with a Rule of higher precedence does
     not mean that the Rule is nullified in all cases.
+- cfjs:
+  - id: 3796
+    called: 2020-01-20
+  text: >
+    If a situation can be arranged where a rule claims precedence
+    over the rule defining precedence relations (currently R1030),
+    the rules are inconsistent and the rule governing rule
+    interpretation (currently R217) resolves the conflict.
