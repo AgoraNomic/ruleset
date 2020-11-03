@@ -1,0 +1,12 @@
+id: ER1
+name: BOO! err, am I late?
+text: |
+  When this regulation is created, G.'s Ministry Focus is flipped to
+  Legacy.
+history:
+- change:
+    type: enactment
+  date: 2020-11-01
+  agent:
+    rulebending:
+      magister: G.
