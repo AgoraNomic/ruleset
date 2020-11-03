@@ -3,13 +3,19 @@ name: VP Wins
 power: 1.0
 text: |
   If a player has at least 20 more Victory Points than any other
-  player, e CAN win by announcement. When a player wins this way,
-  all Cards and all Products are destroyed. Then each non-zombie
-  player is granted 1 card of each type.
+  player, e CAN Take Over the Economy by announcement. When a player
+  does so, e wins the game, all Cards and all Products are
+  destroyed, then each non-zombie player is granted 1 card of each
+  type.
 history:
 - change:
     type: enactment
   date: 2020-06-12
   agent:
     proposal: "8408"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8511"
 annotations: []
