@@ -8,9 +8,11 @@ text: |
   declare a day to be eir Agoran Birthday. As long as the day a
   player first registered remains unknown, it is considered to be
   eir Agoran Birthday on the anniversary of the day e most recently
-  declared as eir Agoran Birthday. Every time it is a player's
-  Agoran Birthday, each of the other players CAN once grant em 3
-  coins by announcement.
+  declared as eir Agoran Birthday.
+
+  During a player's Agoran Birthday and the 7 days following, each
+  other player CAN, once, grant em X coins, where X is 3 if it is
+  actually the day of the player's birthday, and 2 otherwise.
 
   Players are ENCOURAGED to announce their Agoran Birthdays.
 history:
@@ -34,6 +36,11 @@ history:
   date: 2020-02-13
   agent:
     proposal: "8314"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8507"
 annotations:
 - cfjs:
   - id: 3873
