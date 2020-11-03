@@ -11,8 +11,8 @@ text: |
 
   In a timely fashion after the beginning of each month, the
   Registrar SHALL either initiate such an auction or, if no
-  talismans meeting these conditions existed at the beginning of the
-  month, announce that no such auction is necessary.
+  talismans meeting these conditions exist, announce that no such
+  auction is necessary.
 
   For such an auction, each lot consists of the talisman for one
   zombie, ordered at the discretion of the Registrar. The Registrar
@@ -97,4 +97,9 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8467"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8508"
 annotations: []
