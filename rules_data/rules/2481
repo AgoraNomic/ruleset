@@ -13,6 +13,8 @@ text: |
   3. Each Festive player has the maximum possible voting strength.
      All other players have the minimum possible voting strength.
 
+  4. Non-Festive players CANNOT cause proposals to become Pended.
+
   While Agora's Festivity is zero, the paragraphs above have no
   effect and are ignored.
 history:
@@ -31,4 +33,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8297"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8510"
 annotations: []
