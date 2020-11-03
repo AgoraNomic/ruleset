@@ -3,22 +3,20 @@ name: Ministries
 power: 2.0
 text: |
   A Ministry is an entity defined as such by this rule. Each
-  Ministry has a goal. The Ministries of Agora, and their goals, are
-  as follows:
+  Ministry has a goal. The Ministries of Agora, and their goals,
+  are as follows:
 
-   A. Ministry of Justice: serve justice to rulebreakers
-   B. Ministry of Efficiency: see official duties performed swiftly
-   C. Ministry of Legislation: see votes cast on proposals
-   D. Ministry of Participation: reward players for achievements
-   E. Ministry of Economy: encourage economic activity and contracts
-
-  Interest is secured office switch, tracked by the ADoP, whose
-  possible values are lists of ministries, defaulting to the empty
-  list. The ADoP CAN flip an office's interest without objection.
-
-  For each item of each office's interest, that office's holder's
-  voting strength is increased by 2 on proposals whose chamber is
-  set to that ministry.
+  A. Ministry of Compliance: Ensure players follow rules and
+  voluntary agreements and receive appropriate sanctions when they
+  do not.
+  B. Ministry of Legislation: Enable and encourage gameplay
+  related to the rules themselves.
+  C. Ministry of Economy: Enable and encourage gameplay related to
+  assets and currencies.
+  D. Ministry of Legacy: Track and reward great Agoran
+  achievements
+  E. Ministry of Participation: Track information about the
+  participation of people in Agora.
 history:
 - change:
     type: enactment
@@ -30,4 +28,9 @@ history:
   date: 2020-02-13
   agent:
     proposal: "8319"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8515"
 annotations: []

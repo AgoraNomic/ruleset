@@ -1,0 +1,21 @@
+id: 2638
+name: Player Focuses
+power: 2.0
+text: |
+  Ministry Focus (or just Focus) is a secured active player switch,
+  tracked by the Ministor in eir monthly report, with possible values
+  Unfocused (the default) and any Ministry.
+
+  An active player CAN Plan to Flip eir own Ministry Focus,
+  specifying any valid value for eir Ministry Focus, by
+  announcement. At the beginning of a month, every active player's
+  Ministry Focus is set to the value e mostly recently specified by
+  Planning to Flip. If a player did not Plan to Flip eir Ministry
+  Focus switch in the last month, it is not flipped.
+history:
+- change:
+    type: enactment
+  date: 2020-10-08
+  agent:
+    proposal: "8515"
+annotations: []

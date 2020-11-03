@@ -2,26 +2,24 @@ id: 2624
 name: Card Administration
 power: 1.0
 text: |
-  Justice Cards are associated with the Ministry of Justice.
-  Legislative Cards are associated with the Ministry of Legislation.
-  Voting Cards are associated with the ministry of Participation.
-  The single type of card with the fewest existing instances (if
-  any) is assocated with the Ministry of Economy.
+  Each of the following Ministries has a Grant, listed below.
 
-  The officeholder of an office CAN by announcement grant another
-  player a specified type of card, specifying that office, under the
-  following conditions:
+  Ministry of Compliance: 1 Justice Card
+  Ministry of Legislation: 1 Legislative Card
+  Ministry of Participation: 1 Voting Card
+  Ministry of Economy: 50 coins divided by X, rounded up; where X
+  is the number of players with their Ministry Focus set to
+  Economy. The Ministor SHALL report this value in a timely manner
+  after the beginning of the month.
 
-  * e has not done so in reference to that office in the current
-    Agoran month,
+  A player CAN once a month grant eir Ministry Focus' Grant to a
+  specified player by announcement.
 
-  * that office's interests includes a ministry associated with the
-    card.
-
-  * the player receiving the card does not hold an office with a
-    ministry associated with the card in its interests, and
-
-  * the player receiving the card is not a zombie.
+  The Ministor CAN, once a month and by announcement, and SHALL, in
+  a timely manner from the beginning of the month, grant 1 Victory
+  Card to a random player whose Ministry Focus is Legacy and 1
+  Victory Point to every other player whose Ministry Focus is
+  Legacy.
 history:
 - change:
     type: enactment
@@ -43,4 +41,9 @@ history:
   date: 2020-10-16
   agent:
     proposal: "8505"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8515"
 annotations: []

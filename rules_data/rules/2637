@@ -1,0 +1,20 @@
+id: 2637
+name: Office Interests
+power: 2.0
+text: |
+  Ministry Interest (or just Interest) is a secured office switch,
+  tracked by the Ministor in eir monthly report, whose possible
+  values are lists of ministries, defaulting to the empty list. The
+  Ministor CAN flip an office's Ministry Interests without
+  objection.
+
+  For each item of each office's Ministry Interest, that office's
+  holder's voting strength is increased by 2 on proposals whose
+  Ministry Impact is set to that Ministry.
+history:
+- change:
+    type: enactment
+  date: 2020-10-08
+  agent:
+    proposal: "8515"
+annotations: []
