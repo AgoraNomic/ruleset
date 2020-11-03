@@ -14,11 +14,16 @@ text: |
 
   Whenever a payday occurs, half of each charity's coin holdings
   (rounded down) are destroyed, and then each charity earns a number
-  of coins equal to its donation level.
+  of boatloads of coins equal to its donation level.
 history:
 - change:
     type: enactment
   date: 2020-07-19
   agent:
     proposal: "8476"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8514"
 annotations: []

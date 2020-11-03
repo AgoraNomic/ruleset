@@ -8,10 +8,10 @@ text: |
 
   Each time a player is awarded a type of Glitter, the Tailor CAN
   once by announcement, and SHALL in an officially timely fashion,
-  grant the player N+1 coins, where N is the number of players who
-  did not own the corresponding type of Ribbon at the time of the
-  award. The amount payable for each type of glitter is tracked in
-  the Tailor's weekly report.
+  grant the player N+1 boatloads of coins, where N is the number of
+  players who did not own the corresponding type of Ribbon at the
+  time of the award. The amount payable for each type of glitter is
+  tracked in the Tailor's weekly report.
 history:
 - change:
     type: enactment
@@ -43,4 +43,9 @@ history:
   date: 2020-06-18
   agent:
     proposal: "8438"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8514"
 annotations: []

@@ -11,27 +11,27 @@ text: |
   and officers.
 
   * Being the author of an adopted sponsored proposal: a number of
-    coins equal to (the total number of valid ballots cast FOR the
-    decision - the total number of valid ballots cast AGAINST)
-    (Assessor).
+    boatloads of coins equal to (the total number of valid ballots
+    cast FOR the decision - the total number of valid ballots cast
+    AGAINST) (Assessor).
 
   * Judging a CFJ that e was assigned to without violating a time
     limit to do so, unless at the time of judgement the case was
-    open due to self-filing a motion to reconsider it: 5 coins
-    (Arbitor).
+    open due to self-filing a motion to reconsider it: 5 boatloads
+    of coins (Arbitor).
 
   * Publishing an office's weekly or monthly report, provided that
     publication was the first report published for that office in
     the relevant time period (week or month respectively) to fulfill
-    an official weekly or monthly duty: 5 coins times the complexity
-    of the office (ADoP).
+    an official weekly or monthly duty: 5 boatloads of coins times
+    the complexity of the office (ADoP).
 
   * Resolving a referendum, provided that no other referendum had
-    been resolved earlier in that Agoran week: 5 coins times the
-    Assessor's complexity (ADoP).
+    been resolved earlier in that Agoran week: 5 boatloads of coins
+    times the Assessor's complexity (ADoP).
 
   * Having a Thesis pass peer-review and be granted a Degree based
-    on its merit: 20 coins (Herald)
+    on its merit: 20 boatloads of coins (Herald)
 history:
 - change:
     type: enactment
@@ -153,4 +153,9 @@ history:
   date: 2020-08-10
   agent:
     proposal: "8482"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8514"
 annotations: []

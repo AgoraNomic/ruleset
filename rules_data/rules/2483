@@ -3,7 +3,8 @@ name: Economics
 power: 2
 text: |
   Coins are the official currency of Agora and are tracked by the
-  Treasuror. They can be owned by Agora, players, and contracts.
+  Treasuror. They can be owned by players, contracts, and the Lost
+  and Found Department.
 history:
 - change:
     type: enactment
@@ -80,4 +81,9 @@ history:
   date: 2020-06-12
   agent:
     proposal: "8408"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8514"
 annotations: []

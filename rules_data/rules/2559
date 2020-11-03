@@ -2,16 +2,10 @@ id: 2559
 name: Paydays
 power: 2
 text: |
-  Whenever a Payday occurs, the following events happen in order:
+  Whenever a Payday occurs, each active player earns 10 boatloads of
+  coins.
 
-  1. Each player first earns 10 coins; then
-
-  2. For each office, if a single player held that office for 16 or
-     more days in the previous month and no unforgivable fines were
-     levied on em during that month for eir conduct in that office,
-     that player earns 5 coins.
-
-  The occurrence of Paydays is secured.  At the beginning of each
+  The occurrence of Paydays is secured. At the beginning of each
   month, a Payday occurs.
 history:
 - change:
@@ -56,4 +50,9 @@ history:
   date: 2019-11-03
   agent:
     proposal: "8253"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8514"
 annotations: []

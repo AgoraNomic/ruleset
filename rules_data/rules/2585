@@ -11,8 +11,9 @@ text: |
   declared as eir Agoran Birthday.
 
   During a player's Agoran Birthday and the 7 days following, each
-  other player CAN, once, grant em X coins, where X is 3 if it is
-  actually the day of the player's birthday, and 2 otherwise.
+  other player CAN, once, grant em X boatloads of coins, where X is
+  3 if it is actually the day of the player's birthday, and 2
+  otherwise.
 
   Players are ENCOURAGED to announce their Agoran Birthdays.
 history:
@@ -41,6 +42,11 @@ history:
   date: 2020-10-08
   agent:
     proposal: "8507"
+- change:
+    type: amendment
+  date: 2020-10-08
+  agent:
+    proposal: "8514"
 annotations:
 - cfjs:
   - id: 3873
