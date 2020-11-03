@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 25 Oct 2020
+Date of this ruleset: 3 Nov 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 142
+Number of rules currently enacted: 147
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2633
-Highest ID'd Proposal Passed: 8505
-Highest ID'd Rule Enacted: 2633
+Highest ID'd rule in this ruleset: 2638
+Highest ID'd Proposal Passed: 8515
+Highest ID'd Rule Enacted: 2638
 
 ========================================================================
 The Game of Agora
@@ -440,7 +440,7 @@ Performing a Dependent Action
       the action is to be taken with N Agoran consent.
       
 ------------------------------------------------------------------------
-Rule 2124/27 (Power=2)
+Rule 2124/27 (Power=3)
 Agoran Satisfaction
 
       A Supporter of an intent to perform an action is an eligible
@@ -813,26 +813,24 @@ Proposal Recycling
       become pended.
       
 ------------------------------------------------------------------------
-Rule 2605/1 (Power=2.0)
+Rule 2605/2 (Power=2.0)
 Ministries
 
       A Ministry is an entity defined as such by this rule. Each
-      Ministry has a goal. The Ministries of Agora, and their goals, are
-      as follows:
+      Ministry has a goal. The Ministries of Agora, and their goals,
+      are as follows:
       
-       A. Ministry of Justice: serve justice to rulebreakers
-       B. Ministry of Efficiency: see official duties performed swiftly
-       C. Ministry of Legislation: see votes cast on proposals
-       D. Ministry of Participation: reward players for achievements
-       E. Ministry of Economy: encourage economic activity and contracts
-      
-      Interest is secured office switch, tracked by the ADoP, whose
-      possible values are lists of ministries, defaulting to the empty
-      list. The ADoP CAN flip an office's interest without objection.
-      
-      For each item of each office's interest, that office's holder's
-      voting strength is increased by 2 on proposals whose chamber is
-      set to that ministry.
+      A. Ministry of Compliance: Ensure players follow rules and
+      voluntary agreements and receive appropriate sanctions when they
+      do not.
+      B. Ministry of Legislation: Enable and encourage gameplay
+      related to the rules themselves.
+      C. Ministry of Economy: Enable and encourage gameplay related to
+      assets and currencies.
+      D. Ministry of Legacy: Track and reward great Agoran
+      achievements
+      E. Ministry of Participation: Track information about the
+      participation of people in Agora.
       
 ------------------------------------------------------------------------
 Rule 2606/3 (Power=2.0)
@@ -1494,7 +1492,7 @@ Quorum
       it is set to 2 instead.
       
 ------------------------------------------------------------------------
-Rule 2422/7 (Power=3)
+Rule 2422/8 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -1514,9 +1512,12 @@ Voting Strength
       
       A player CAN Buy Strength by paying 1 Extra Vote and specifying a
       current Agoran decision on which e is a voter. For each time a
-      player has Bought Strength on a decision, eir voting strength is 1
-      greater on that decision. A player CANNOT Buy Strength for the
-      same decision more than 3 times.
+      player has Bought Strength on a decision, eir voting strength is
+      1 greater on that decision. If the decision is on a proposal, and
+      the proposal's chamber and the player's focus are the same value,
+      then eir voting strength is instead 2 greater on that decision.
+      A player CANNOT Buy Strength for the same decision more than 3
+      times.
       
 ------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
@@ -1849,6 +1850,28 @@ Complexity
       integers from 0 to 3 inclusive, where 1 is the default. It is
       tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
       consent, flip the complexity of an office.
+      
+------------------------------------------------------------------------
+Rule 2636/0 (Power=1.0)
+The Ministor
+
+      The Ministor is an office, tasked with overseeing gameplay
+      related to Ministries. The Ministor SHALL publish eir monthly
+      report in a timely manner from the beginning of the month.
+      
+------------------------------------------------------------------------
+Rule 2637/0 (Power=2.0)
+Office Interests
+
+      Ministry Interest (or just Interest) is a secured office switch,
+      tracked by the Ministor in eir monthly report, whose possible
+      values are lists of ministries, defaulting to the empty list. The
+      Ministor CAN flip an office's Ministry Interests without
+      objection.
+      
+      For each item of each office's Ministry Interest, that office's
+      holder's voting strength is increased by 2 on proposals whose
+      Ministry Impact is set to that Ministry.
       
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
@@ -2746,14 +2769,57 @@ The Treasuror
       classes of assets.
       
 ------------------------------------------------------------------------
-Rule 2483/14 (Power=2)
+Rule 2483/15 (Power=2)
 Economics
 
       Coins are the official currency of Agora and are tracked by the
-      Treasuror. They can be owned by Agora, players, and contracts.
+      Treasuror. They can be owned by players, contracts, and the Lost
+      and Found Department.
       
 ------------------------------------------------------------------------
-Rule 2496/22 (Power=1)
+Rule 2634/0 (Power=1.0)
+Buoyancy Control
+
+      The Total Buoyancy is a singleton integer switch, tracked by the
+      the Treasuror in eir monthly report.
+      
+      The Treasuror CAN, by announcement, set the Total Buoyancy to a
+      specified value approximately equal to the sum of all coin
+      balances at a specified point within the first Eastman week of the
+      current month. Whenever e does so, e SHALL endeavor to calculate
+      the correct sum for eir chosen point. E SHALL set the Total
+      Buoyancy once a month.
+      
+      The Treasuror CAN and MAY exercise reasonable judgement in
+      calculating the Total Buoyancy. The Total Buoyancy will be deemed
+      set so long as the value chosen by the Treasuror is not obviously
+      and grossly incorrect. The Treasuror CAN and MAY set the Total
+      Buoyancy more than once a month, but SHOULD NOT do so unless there
+      is reason to believe eir previous setting of the value failed.
+      
+------------------------------------------------------------------------
+Rule 2635/0 (Power=1.0)
+Floating Rate Fleet
+
+      The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
+      unrounded. A boatload of something is a quantity of that thing
+      equal in count to the Unit of Floatation. When a quantity of
+      assets is expressed in boatloads, it is rounded up to the next
+      whole asset.
+      
+      The Floating Rate Schedule is part of the Treasuror's monthly
+      report. It contains the Total Buoyancy, the Unit of Flotation, and
+      the real value of every quantity that is expressed in boatloads in
+      a rule or regulation. The Treasuror is ENCOURAGED to also consider
+      including quantities in contracts.  The Treasuror SHOULD publish
+      the Floating Rate Schedule immediately after setting the Total
+      Buoyancy.
+      
+      When taking an action, a person SHOULD expand all quantities that
+      are expressed in boatloads.
+      
+------------------------------------------------------------------------
+Rule 2496/23 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
@@ -2765,42 +2831,36 @@ Rewards
       and officers.
       
       * Being the author of an adopted sponsored proposal: a number of
-        coins equal to (the total number of valid ballots cast FOR the
-        decision - the total number of valid ballots cast AGAINST)
-        (Assessor).
+        boatloads of coins equal to (the total number of valid ballots
+        cast FOR the decision - the total number of valid ballots cast
+        AGAINST) (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
         limit to do so, unless at the time of judgement the case was
-        open due to self-filing a motion to reconsider it: 5 coins
-        (Arbitor).
+        open due to self-filing a motion to reconsider it: 5 boatloads
+        of coins (Arbitor).
       
       * Publishing an office's weekly or monthly report, provided that
         publication was the first report published for that office in
         the relevant time period (week or month respectively) to fulfill
-        an official weekly or monthly duty: 5 coins times the complexity
-        of the office (ADoP).
+        an official weekly or monthly duty: 5 boatloads of coins times
+        the complexity of the office (ADoP).
       
       * Resolving a referendum, provided that no other referendum had
-        been resolved earlier in that Agoran week: 5 coins times the
-        Assessor's complexity (ADoP).
+        been resolved earlier in that Agoran week: 5 boatloads of coins
+        times the Assessor's complexity (ADoP).
       
       * Having a Thesis pass peer-review and be granted a Degree based
-        on its merit: 20 coins (Herald)
+        on its merit: 20 boatloads of coins (Herald)
       
 ------------------------------------------------------------------------
-Rule 2559/7 (Power=2)
+Rule 2559/8 (Power=2)
 Paydays
 
-      Whenever a Payday occurs, the following events happen in order:
+      Whenever a Payday occurs, each active player earns 10 boatloads of
+      coins.
       
-      1. Each player first earns 10 coins; then
-      
-      2. For each office, if a single player held that office for 16 or
-         more days in the previous month and no unforgivable fines were
-         levied on em during that month for eir conduct in that office,
-         that player earns 5 coins.
-      
-      The occurrence of Paydays is secured.  At the beginning of each
+      The occurrence of Paydays is secured. At the beginning of each
       month, a Payday occurs.
       
 ------------------------------------------------------------------------
@@ -2830,13 +2890,14 @@ Cards & Sets
       Cards and Products are tracked by the Treasuror.
       
 ------------------------------------------------------------------------
-Rule 2621/0 (Power=1.0)
+Rule 2621/1 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Victory Points than any other
-      player, e CAN win by announcement. When a player wins this way,
-      all Cards and all Products are destroyed. Then each non-zombie
-      player is granted 1 card of each type.
+      player, e CAN Take Over the Economy by announcement. When a player
+      does so, e wins the game, all Cards and all Products are
+      destroyed, then each non-zombie player is granted 1 card of each
+      type.
       
 ------------------------------------------------------------------------
 Rule 2629/0 (Power=1.0)
@@ -2856,32 +2917,45 @@ Victory Auctions
       The currency of a victory auction is coins (minimum bid 1).
       
 ------------------------------------------------------------------------
-Rule 2624/3 (Power=1.0)
+Rule 2624/4 (Power=1.0)
 Card Administration
 
-      Justice Cards are associated with the Ministry of Justice.
-      Legislative Cards are associated with the Ministry of Legislation.
-      Voting Cards are associated with the ministry of Participation.
-      The single type of card with the fewest existing instances (if
-      any) is assocated with the Ministry of Economy.
+      Each of the following Ministries has a Grant, listed below.
       
-      The officeholder of an office CAN by announcement grant another
-      player a specified type of card, specifying that office, under the
-      following conditions:
+      Ministry of Compliance: 1 Justice Card
+      Ministry of Legislation: 1 Legislative Card
+      Ministry of Participation: 1 Voting Card
+      Ministry of Economy: 50 coins divided by X, rounded up; where X
+      is the number of players with their Ministry Focus set to
+      Economy. The Ministor SHALL report this value in a timely manner
+      after the beginning of the month.
       
-      * e has not done so in reference to that office in the current
-        Agoran month,
+      A player CAN once a month grant eir Ministry Focus' Grant to a
+      specified player by announcement.
       
-      * that office's interests includes a ministry associated with the
-        card.
-      
-      * the player receiving the card does not hold an office with a
-        ministry associated with the card in its interests, and
-      
-      * the player receiving the card is not a zombie.
+      The Ministor CAN, once a month and by announcement, and SHALL, in
+      a timely manner from the beginning of the month, grant 1 Victory
+      Card to a random player whose Ministry Focus is Legacy and 1
+      Victory Point to every other player whose Ministry Focus is
+      Legacy.
       
 ------------------------------------------------------------------------
-Rule 2499/10 (Power=1)
+Rule 2638/0 (Power=2.0)
+Player Focuses
+
+      Ministry Focus (or just Focus) is a secured active player switch,
+      tracked by the Ministor in eir monthly report, with possible values
+      Unfocused (the default) and any Ministry.
+      
+      An active player CAN Plan to Flip eir own Ministry Focus,
+      specifying any valid value for eir Ministry Focus, by
+      announcement. At the beginning of a month, every active player's
+      Ministry Focus is set to the value e mostly recently specified by
+      Planning to Flip. If a player did not Plan to Flip eir Ministry
+      Focus switch in the last month, it is not flipped.
+      
+------------------------------------------------------------------------
+Rule 2499/11 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
@@ -2889,11 +2963,11 @@ Welcome Packages
       announcement.
       
       When a player receives a Welcome Package, if e has not received
-      one in the past 30 days, then e earns 10 coins and one of each
-      type of Card defined in the rules.
+      one in the past 30 days, then e earns 10 boatloads of coins and
+      one of each type of Card defined in the rules.
       
 ------------------------------------------------------------------------
-Rule 2585/3 (Power=1)
+Rule 2585/5 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -2902,9 +2976,12 @@ Birthday Gifts
       declare a day to be eir Agoran Birthday. As long as the day a
       player first registered remains unknown, it is considered to be
       eir Agoran Birthday on the anniversary of the day e most recently
-      declared as eir Agoran Birthday. Every time it is a player's
-      Agoran Birthday, each of the other players CAN once grant em 3
-      coins by announcement.
+      declared as eir Agoran Birthday.
+      
+      During a player's Agoran Birthday and the 7 days following, each
+      other player CAN, once, grant em X boatloads of coins, where X is
+      3 if it is actually the day of the player's birthday, and 2
+      otherwise.
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
       
@@ -3017,7 +3094,7 @@ Zombie Life Cycle
       weekly report.
       
 ------------------------------------------------------------------------
-Rule 1885/12 (Power=2)
+Rule 1885/13 (Power=2)
 Zombie Auctions
 
       Whenever a zombie has Agora for a master and has a resale value
@@ -3029,8 +3106,8 @@ Zombie Auctions
       
       In a timely fashion after the beginning of each month, the
       Registrar SHALL either initiate such an auction or, if no
-      talismans meeting these conditions existed at the beginning of the
-      month, announce that no such auction is necessary.
+      talismans meeting these conditions exist, announce that no such
+      auction is necessary.
       
       For such an auction, each lot consists of the talisman for one
       zombie, ordered at the discretion of the Registrar. The Registrar
@@ -3226,7 +3303,7 @@ Ribbons
           announcement, award emself that type of Glitter.
       
 ------------------------------------------------------------------------
-Rule 2602/5 (Power=1)
+Rule 2602/6 (Power=1)
 Glitter
 
       For each type of Ribbon, there is a type of Glitter with the same
@@ -3235,10 +3312,10 @@ Glitter
       
       Each time a player is awarded a type of Glitter, the Tailor CAN
       once by announcement, and SHALL in an officially timely fashion,
-      grant the player N+1 coins, where N is the number of players who
-      did not own the corresponding type of Ribbon at the time of the
-      award. The amount payable for each type of glitter is tracker in
-      the Tailor's weekly report.
+      grant the player N+1 boatloads of coins, where N is the number of
+      players who did not own the corresponding type of Ribbon at the
+      time of the award. The amount payable for each type of glitter is
+      tracked in the Tailor's weekly report.
       
 ------------------------------------------------------------------------
 Rule 2480/4 (Power=2.1)
@@ -3266,7 +3343,7 @@ Festivals
       Festive.
       
 ------------------------------------------------------------------------
-Rule 2481/2 (Power=2.1)
+Rule 2481/3 (Power=2.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -3279,6 +3356,8 @@ Festival Restrictions
       
       3. Each Festive player has the maximum possible voting strength.
          All other players have the minimum possible voting strength.
+      
+      4. Non-Festive players CANNOT cause proposals to become Pended.
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
