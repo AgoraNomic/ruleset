@@ -1,6 +1,6 @@
 id: 2124
 name: Agoran Satisfaction
-power: 2
+power: 3
 text: |
   A Supporter of an intent to perform an action is an eligible
   entity who has publicly posted (and not withdrawn) support for an
@@ -197,6 +197,13 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8472"
+- change:
+    type: power-change
+    old-power: 2
+    new-power: 3
+  date: 2020-10-08
+  agent:
+    proposal: "8509"
 annotations:
 - cfjs:
   - id: '3567'
