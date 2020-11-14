@@ -1,0 +1,13 @@
+id: 2639
+name: Zombie Phase-Out
+power: 3.0
+text: |
+  While a zombie's talisman is owned by Agora, that zombie's resale
+  value is continuously set to 0.
+history:
+- change:
+    type: enactment
+  date: 2020-11-11
+  agent:
+    proposal: "8517"
+annotations: []
