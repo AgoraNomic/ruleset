@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 8 Nov 2020
+Date of this ruleset: 13 Nov 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 147
+Number of rules currently enacted: 154
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2638
-Highest ID'd Proposal Passed: 8515
-Highest ID'd Rule Enacted: 2638
+Highest ID'd rule in this ruleset: 2645
+Highest ID'd Proposal Passed: 8522
+Highest ID'd Rule Enacted: 2645
 
 ========================================================================
 The Game of Agora
@@ -1860,7 +1860,7 @@ The Ministor
       report in a timely manner from the beginning of the month.
       
 ------------------------------------------------------------------------
-Rule 2637/0 (Power=2.0)
+Rule 2637/1 (Power=2.0)
 Office Interests
 
       Ministry Interest (or just Interest) is a secured office switch,
@@ -1871,7 +1871,7 @@ Office Interests
       
       For each item of each office's Ministry Interest, that office's
       holder's voting strength is increased by 2 on proposals whose
-      Ministry Impact is set to that Ministry.
+      Chamber is set to that Ministry.
       
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
@@ -2177,14 +2177,12 @@ Indictment
       freed of any obligations of this rule.
       
 ------------------------------------------------------------------------
-Rule 2531/12 (Power=2)
+Rule 2531/13 (Power=2)
 Defendant's Rights
 
-      Any attempt to levy a fine is INEFFECTIVE if:
-      
-        (1) it does not include value of the fine in blots, the name of
-            the person being fined (the perp), and the specific reason
-            for the fine;
+      Any attempt to levy a fine is INEFFECTIVE if it does not include
+      value of the fine in blots, the name of the person being fined
+      (the perp), and the specific reason for the fine.
       
       Any attempt to levy a fine pursuant to the imposition of the Cold
       Hand of Justice is INEFFECTIVE if:
@@ -2210,27 +2208,27 @@ Defendant's Rights
             inaction e could not have avoided when exercising the
             highest reasonably possible standard of care;
       
-        (5) it attempts to levy a fine with a value that is blatantly
+        (6) it attempts to levy a fine with a value that is blatantly
             and obviously unsuited to the conduct which constitutes the
             reason for its levy or to the person on whom it is being
             levied;
       
-        (6) it attempts to levy a fine based upon the investigation of
+        (7) it attempts to levy a fine based upon the investigation of
             of a Finger that had been Pointed more than 14 days after
             the action constituting the reason for the fine;
       
-        (7) it attempts to levy a fine on a player for failing to take
+        (8) it attempts to levy a fine on a player for failing to take
             an action within the time period set by the Rules and that
             time period had expired more than 14 days prior to the
             Pointed Finger, if the fine is imposed based on an
             investigation of such Finger;
       
-        (8) it attempts to levy a fine on a player who has already been
+        (9) it attempts to levy a fine on a player who has already been
             fined for the conduct constituting the reason for the levy;
             or
       
-        (9) it attempts to levy a fine on a zombie for an action that
-            its master performed on its behalf.
+        (10) it attempts to levy a fine on a zombie for an action that
+             its master performed on its behalf.
       
 ------------------------------------------------------------------------
 Rule 2617/2 (Power=1.0)
@@ -2675,7 +2673,7 @@ Ownership
       transferred or destroyed by any player without objection.
       
 ------------------------------------------------------------------------
-Rule 2577/4 (Power=3)
+Rule 2577/5 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -2702,9 +2700,10 @@ Asset Actions
       fixed asset is one defined as such by its backing document, and
       CANNOT be transferred; any other asset is liquid.
       
-      When a rule indicates transferring an amount that is not a natural
-      number, the specified amount is rounded up to the nearest natural
-      number.
+      When a rule indicates creating, destroying, or transferring an
+      amount of assets that is not a natural number, the specified
+      amount is rounded up to the nearest natural number after all other
+      calculations.
       
 ------------------------------------------------------------------------
 Rule 2578/1 (Power=3)
@@ -2798,14 +2797,12 @@ Buoyancy Control
       is reason to believe eir previous setting of the value failed.
       
 ------------------------------------------------------------------------
-Rule 2635/0 (Power=1.0)
+Rule 2635/1 (Power=1.0)
 Floating Rate Fleet
 
       The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
       unrounded. A boatload of something is a quantity of that thing
-      equal in count to the Unit of Floatation. When a quantity of
-      assets is expressed in boatloads, it is rounded up to the next
-      whole asset.
+      equal in count to the Unit of Floatation.
       
       The Floating Rate Schedule is part of the Treasuror's monthly
       report. It contains the Total Buoyancy, the Unit of Flotation, and
@@ -2917,7 +2914,7 @@ Victory Auctions
       The currency of a victory auction is coins (minimum bid 1).
       
 ------------------------------------------------------------------------
-Rule 2624/4 (Power=1.0)
+Rule 2624/5 (Power=1.0)
 Card Administration
 
       Each of the following Ministries has a Grant, listed below.
@@ -2925,10 +2922,10 @@ Card Administration
       Ministry of Compliance: 1 Justice Card
       Ministry of Legislation: 1 Legislative Card
       Ministry of Participation: 1 Voting Card
-      Ministry of Economy: 50 coins divided by X, rounded up; where X
-      is the number of players with their Ministry Focus set to
-      Economy. The Ministor SHALL report this value in a timely manner
-      after the beginning of the month.
+      Ministry of Economy: 50 boatloads of coins divided by X, rounded
+      up; where X is the number of players with their Ministry Focus set
+      to Economy. The Ministor SHALL report this value in a timely
+      manner after the beginning of the month.
       
       A player CAN once a month grant eir Ministry Focus' Grant to a
       specified player by announcement.
@@ -3092,6 +3089,13 @@ Zombie Life Cycle
       POSSIBLE actions in the preceding paragraph in a timely fashion
       after first reporting their possibility via the facts in eir
       weekly report.
+      
+------------------------------------------------------------------------
+Rule 2639/0 (Power=3.0)
+Zombie Phase-Out
+
+      While a zombie's talisman is owned by Agora, that zombie's resale
+      value is continuously set to 0.
       
 ------------------------------------------------------------------------
 Rule 1885/13 (Power=2)
@@ -3299,8 +3303,8 @@ Ribbons
         - Otherwise, if e has not been awarded that type of Ribbon or
           the corresponding type of Glitter since e last earned or came
           to qualify for that type of Ribbon, and has not been so
-          awarded five or more times within the past 24 hours, e CAN, by
-          announcement, award emself that type of Glitter.
+          awarded five or more times within the past 24 hours, any
+          player CAN, by announcement, award em that type of Glitter.
       
 ------------------------------------------------------------------------
 Rule 2602/6 (Power=1)
@@ -3858,6 +3862,117 @@ Bargains on the Barrel
       The Coopor's monthly report includes a list of all bargains on the
       barrel.  E SHOULD publish such a list whenever e adds or removes a
       bargain from the barrel.
+      
+------------------------------------------------------------------------
+========================================================================
+Stones
+   A game in which people try to collect Stones with various different
+   Magical Powers OooOooh!
+------------------------------------------------------------------------
+Rule 2640/0 (Power=2)
+Stones
+
+      A stone is a unique indestructable liquid asset defined by the
+      rules. To define a stone, the definition must include:
+        (i) A name unique among stones;
+       (ii) The escape risk of the stone, which must be a percentage between
+            0% and 100% inclusive;
+      (iii) A scroll, which is a document specifying the effects of the
+            stone
+       (iv) Optionally, a frequency, which must be one of daily, weekly,
+            monthly, or quarterly.
+      
+      Ownership of stones is entirely restricted to Agora and active
+      players.  If a stone is owned by the Lost and Found Department or
+      in abeyance, it is immediately transferred to Agora.
+      
+      The Stonemason is an office, and the recordkeepor of stones.
+      
+------------------------------------------------------------------------
+Rule 2641/0 (Power=2)
+Wielding Stones
+
+      Except as otherwise specified by the rules, the owner of a stone
+      CAN wield it by announcement specifying any values needed to
+      interpret the stone's effects.
+      
+      If a stone has a frequency, then it is IMPOSSIBLE to wield that
+      stone if it has been previously wielded in the same Agoran time
+      interval as indicated by its frequency (e.g. if its frequency is
+      daily, if it has been wielded in the same Agoran day).
+      
+      When a stone is wielded, the Rule defining that stone applies the
+      effects in that stone's scroll.
+      
+------------------------------------------------------------------------
+Rule 2642/0 (Power=2)
+Distributing Stones
+
+      The Stonemason CAN initiate an auction for any set of stones
+      belonging to Agora for which an auction is not ongoing, with each
+      individual stone being an auction lot. The Stonemason is the
+      auctioneer, and the currency is coins.
+      
+      The Stonemason SHALL so initiate an auction for a set of stones
+      consisting of at least one third the stones eligible for auction
+      in a timely fashion after publishing a collection notice, provided
+      there any eligible stones.
+      
+------------------------------------------------------------------------
+Rule 2643/0 (Power=2)
+Collecting Stones
+
+      Once per month, the Stonemason CAN publish a collection notice by
+      announcement, specifying all necessary information and choices.
+      The Stonemason SHALL publish such a notice in a timely fashion
+      after the beginning of each Agoran month.
+      
+      A stone is immune if there has been no collection notice after it
+      was most recently granted immunity (if ever), as defined by other
+      rules.
+      
+      A collection notice includes, for every non-immune stone not
+      belonging to Agora, a random choice of whether that stone escapes,
+      escaping with probability equal to its escape risk. When a
+      collection notice is published, stones that escape are transferred
+      to Agora in an order specified by the collection notice.
+      
+------------------------------------------------------------------------
+Rule 2644/0 (Power=2)
+The Gauntlet
+
+      When a player makes a correct announcement that a single specified
+      player owns 5 or more stones, the specified player Wields the
+      Guantlet.
+      
+      When a player Wields the Gauntlet, e wins the game and all
+      existing stones are transferred to Agora.
+      
+------------------------------------------------------------------------
+Rule 2645/0 (Power=2)
+The Stones
+
+      The following stones are defined, one per paragraph, with the
+      following format: Stone Name (Frequency, Escape Risk): Scroll.
+      
+      - Power Stone (weekly, 40%): A specified player hereby buys
+        strength 3 times on a specified unresolved Agoran decision.
+      
+      - Wealth Stone (weekly, 50%): A specified player hereby earns 5
+        boatloads of coins.
+      
+      - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
+        to the owner of a different specified non-immune stone, then
+        that stone is transferred to the wielder.
+      
+      - Sabotage Stone (weekly, 80%): The adoption index of a specified
+        AI-majority Agoran decision is hereby increased by 1.
+      
+      - Concentration Stone (weekly, 60%): A specified player earns the
+        Grant associated with eir Focus.
+      
+      - Protection Stone (monthly, 70%): A specified stone is granted
+        immunity.
       
 ------------------------------------------------------------------------
 
