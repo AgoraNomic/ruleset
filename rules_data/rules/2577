@@ -26,9 +26,10 @@ text: |
   fixed asset is one defined as such by its backing document, and
   CANNOT be transferred; any other asset is liquid.
 
-  When a rule indicates transferring an amount that is not a natural
-  number, the specified amount is rounded up to the nearest natural
-  number.
+  When a rule indicates creating, destroying, or transferring an
+  amount of assets that is not a natural number, the specified
+  amount is rounded up to the nearest natural number after all other
+  calculations.
 history:
 - change:
     type: enactment
@@ -56,3 +57,8 @@ history:
   date: 2020-09-08
   agent:
     proposal: "8488"
+- change:
+    type: amendment
+  date: 2020-11-11
+  agent:
+    proposal: "8518"

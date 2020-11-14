@@ -4,9 +4,7 @@ power: 1.0
 text: |
   The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
   unrounded. A boatload of something is a quantity of that thing
-  equal in count to the Unit of Floatation. When a quantity of
-  assets is expressed in boatloads, it is rounded up to the next
-  whole asset.
+  equal in count to the Unit of Floatation.
 
   The Floating Rate Schedule is part of the Treasuror's monthly
   report. It contains the Total Buoyancy, the Unit of Flotation, and
@@ -24,4 +22,9 @@ history:
   date: 2020-10-08
   agent:
     proposal: "8514"
+- change:
+    type: amendment
+  date: 2020-11-11
+  agent:
+    proposal: "8518"
 annotations: []
