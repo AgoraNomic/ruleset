@@ -1,0 +1,26 @@
+id: 2640
+name: Stones
+power: 2
+text: |
+  A stone is a unique indestructable liquid asset defined by the
+  rules. To define a stone, the definition must include:
+    (i) A name unique among stones;
+   (ii) The escape risk of the stone, which must be a percentage between
+        0% and 100% inclusive;
+  (iii) A scroll, which is a document specifying the effects of the
+        stone
+   (iv) Optionally, a frequency, which must be one of daily, weekly,
+        monthly, or quarterly.
+
+  Ownership of stones is entirely restricted to Agora and active
+  players.  If a stone is owned by the Lost and Found Department or
+  in abeyance, it is immediately transferred to Agora.
+
+  The Stonemason is an office, and the recordkeepor of stones.
+history:
+- change:
+    type: enactment
+  date: 2020-11-11
+  agent:
+    proposal: "8521"
+annotations: []

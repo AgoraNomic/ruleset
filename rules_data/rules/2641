@@ -1,0 +1,22 @@
+id: 2641
+name: Wielding Stones
+power: 2
+text: |
+  Except as otherwise specified by the rules, the owner of a stone
+  CAN wield it by announcement specifying any values needed to
+  interpret the stone's effects.
+
+  If a stone has a frequency, then it is IMPOSSIBLE to wield that
+  stone if it has been previously wielded in the same Agoran time
+  interval as indicated by its frequency (e.g. if its frequency is
+  daily, if it has been wielded in the same Agoran day).
+
+  When a stone is wielded, the Rule defining that stone applies the
+  effects in that stone's scroll.
+history:
+- change:
+    type: enactment
+  date: 2020-11-11
+  agent:
+    proposal: "8521"
+annotations: []

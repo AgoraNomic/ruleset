@@ -1,0 +1,25 @@
+id: 2643
+name: Collecting Stones
+power: 2
+text: |
+  Once per month, the Stonemason CAN publish a collection notice by
+  announcement, specifying all necessary information and choices.
+  The Stonemason SHALL publish such a notice in a timely fashion
+  after the beginning of each Agoran month.
+
+  A stone is immune if there has been no collection notice after it
+  was most recently granted immunity (if ever), as defined by other
+  rules.
+
+  A collection notice includes, for every non-immune stone not
+  belonging to Agora, a random choice of whether that stone escapes,
+  escaping with probability equal to its escape risk. When a
+  collection notice is published, stones that escape are transferred
+  to Agora in an order specified by the collection notice.
+history:
+- change:
+    type: enactment
+  date: 2020-11-11
+  agent:
+    proposal: "8521"
+annotations: []
