@@ -7,10 +7,10 @@ text: |
   Ministry of Compliance: 1 Justice Card
   Ministry of Legislation: 1 Legislative Card
   Ministry of Participation: 1 Voting Card
-  Ministry of Economy: 50 coins divided by X, rounded up; where X
-  is the number of players with their Ministry Focus set to
-  Economy. The Ministor SHALL report this value in a timely manner
-  after the beginning of the month.
+  Ministry of Economy: 50 boatloads of coins divided by X, rounded
+  up; where X is the number of players with their Ministry Focus set
+  to Economy. The Ministor SHALL report this value in a timely
+  manner after the beginning of the month.
 
   A player CAN once a month grant eir Ministry Focus' Grant to a
   specified player by announcement.
@@ -46,4 +46,9 @@ history:
   date: 2020-10-08
   agent:
     proposal: "8515"
+- change:
+    type: amendment
+  date: 2020-11-11
+  agent:
+    proposal: "8516"
 annotations: []

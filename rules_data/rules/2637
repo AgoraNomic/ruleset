@@ -10,11 +10,16 @@ text: |
 
   For each item of each office's Ministry Interest, that office's
   holder's voting strength is increased by 2 on proposals whose
-  Ministry Impact is set to that Ministry.
+  Chamber is set to that Ministry.
 history:
 - change:
     type: enactment
   date: 2020-10-08
   agent:
     proposal: "8515"
+- change:
+    type: amendment
+  date: 2020-11-11
+  agent:
+    proposal: "8516"
 annotations: []
