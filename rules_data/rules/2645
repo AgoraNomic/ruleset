@@ -18,7 +18,7 @@ text: |
   - Sabotage Stone (weekly, 80%): The adoption index of a specified
     AI-majority Agoran decision is hereby increased by 1.
 
-  - Concentration Stone (weekly, 60%): A specified player earns the
+  - Concentration Stone (monthly, 60%): A specified player earns the
     Grant associated with eir Focus.
 
   - Protection Stone (monthly, 70%): A specified stone is granted
@@ -29,4 +29,9 @@ history:
   date: 2020-11-11
   agent:
     proposal: "8521"
+- change:
+    type: amendment
+  date: 2020-11-22
+  agent:
+    proposal: 8523
 annotations: []
