@@ -3,17 +3,17 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 25 Oct 2020
+Date of this ruleset: 27 Nov 2020
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 142
+Number of rules currently enacted: 154
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2633
-Highest ID'd Proposal Passed: 8505
-Highest ID'd Rule Enacted: 2633
+Highest ID'd rule in this ruleset: 2645
+Highest ID'd Proposal Passed: 8523
+Highest ID'd Rule Enacted: 2645
 
 ------------------------------------------------------------------------
 
@@ -94,6 +94,8 @@ Offices & Reporting
    * Rule 2472: Office Incompatibilities
    * Rule 2143: Official Reports and Duties
    * Rule 2632: Complexity
+   * Rule 2636: The Ministor
+   * Rule 2637: Office Interests
    * Rule 2603: Switch Responsiblity
    * Rule 2379: No News Is Some News
    * Rule 2616: The Webmastor
@@ -135,18 +137,22 @@ Assets
 Economics
    * Rule 2456: The Treasuror
    * Rule 2483: Economics
+   * Rule 2634: Buoyancy Control
+   * Rule 2635: Floating Rate Fleet
    * Rule 2496: Rewards
    * Rule 2559: Paydays
    * Rule 2620: Cards & Sets
    * Rule 2621: VP Wins
    * Rule 2629: Victory Auctions
    * Rule 2624: Card Administration
+   * Rule 2638: Player Focuses
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2545: Auctions
 The Undead
    * Rule 2532: Zombies
    * Rule 2574: Zombie Life Cycle
+   * Rule 2639: Zombie Phase-Out
    * Rule 1885: Zombie Auctions
 Victory & Karma
    * Rule 2449: Winning the Game
@@ -182,6 +188,13 @@ Agoran Culture
 Barrels
    * Rule 2627: The General Store
    * Rule 2628: Bargains on the Barrel
+Stones
+   * Rule 2640: Stones
+   * Rule 2641: Wielding Stones
+   * Rule 2642: Distributing Stones
+   * Rule 2643: Collecting Stones
+   * Rule 2644: The Gauntlet
+   * Rule 2645: The Stones
 
 
 ------------------------------------------------------------------------
@@ -189,14 +202,14 @@ Barrels
 Power Distribution:
 
 1  with Power=0.3
-42 with Power=1
+45 with Power=1
 2  with Power=1.5
 6  with Power=1.7
-27 with Power=2
+34 with Power=2
 2  with Power=2.1
 1  with Power=2.2
 1  with Power=2.5
-52 with Power=3.0
+54 with Power=3.0
 1  with Power=3.01
 2  with Power=3.1
 1  with Power=3.14
@@ -449,7 +462,7 @@ CFJ 3625 (called 12 Feb 2018): The rules don't bind recently
    deregistered players to avoid re-registering, they merely declare
    such attempts ineffective. Also, agreeing to be bound by some of the
    rules doesn't count as agreeing to be bound by all of them.
-CFJ 3877 (called 15 Aug 2020): Multiple intelligences in one organizom
+CFJ 3877 (called 15 Aug 2020): Multiple intelligences in one organism
    constitute one Agoran person.
 
 ------------------------------------------------------------------------
@@ -1318,7 +1331,7 @@ Amended(2) by P8422 'No More Numbers!' (Publius Scribonius
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2124/27 (Power=2)
+Rule 2124/27 (Power=3)
 Agoran Satisfaction
 
       A Supporter of an intent to perform an action is an eligible
@@ -1400,6 +1413,8 @@ Amended(25) by P8236 'Definition de-capitalization' (Jason, Aris), 18
 Amended(26) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
    Falsifian), 29 Jan 2020
 Amended(27) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
+Power changed from 2 to 3 by P8509 'Dependent De-escalation' (Baron von
+   Vanderham, Jason, Trigon), 08 Oct 2020
 
 Annotations:
 CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
@@ -1907,32 +1922,32 @@ Amended(1) by P8418 'Referenda' (Aris), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2605/1 (Power=2.0)
+Rule 2605/2 (Power=2.0)
 Ministries
 
       A Ministry is an entity defined as such by this rule. Each
-      Ministry has a goal. The Ministries of Agora, and their goals, are
-      as follows:
+      Ministry has a goal. The Ministries of Agora, and their goals,
+      are as follows:
       
-       A. Ministry of Justice: serve justice to rulebreakers
-       B. Ministry of Efficiency: see official duties performed swiftly
-       C. Ministry of Legislation: see votes cast on proposals
-       D. Ministry of Participation: reward players for achievements
-       E. Ministry of Economy: encourage economic activity and contracts
-      
-      Interest is secured office switch, tracked by the ADoP, whose
-      possible values are lists of ministries, defaulting to the empty
-      list. The ADoP CAN flip an office's interest without objection.
-      
-      For each item of each office's interest, that office's holder's
-      voting strength is increased by 2 on proposals whose chamber is
-      set to that ministry.
+      A. Ministry of Compliance: Ensure players follow rules and
+      voluntary agreements and receive appropriate sanctions when they
+      do not.
+      B. Ministry of Legislation: Enable and encourage gameplay
+      related to the rules themselves.
+      C. Ministry of Economy: Enable and encourage gameplay related to
+      assets and currencies.
+      D. Ministry of Legacy: Track and reward great Agoran
+      achievements
+      E. Ministry of Participation: Track information about the
+      participation of people in Agora.
       
 History:
 
 Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
+Amended(2) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct
+   2020
 
 Annotations:
 
@@ -2453,7 +2468,7 @@ CFJ 3793 (called 16 Jan 2020): The "text of the rules", for the purposes
    agumented by the  semantic context of applicable definitions.
    Substituting definitions into the text of a rule cannot eliminate
    unclarity caused by ambiguous grammar or other linguistic aspects.
-CFJ 217 (called 19 Mar 2020): In the absence of a reason to think that
+CFJ 3822 (called 19 Mar 2020): In the absence of a reason to think that
    things have changed, they can be presumed to have remained the same.
 
 ------------------------------------------------------------------------
@@ -3228,7 +3243,7 @@ CFJ 3647 (called 24 Jun 2018): To attempt to "vote in the same way as
    player's vote at the time of the message (an unconditional vote) or
    at the time of resolution (a conditional vote).
 CFJ 3860 (called 02 Jul 2020): An intentionally hidden ballot is not
-   clearly cost and is therefore invalid.
+   clearly cast and is therefore invalid.
 
 ------------------------------------------------------------------------
 Rule 208/14 (Power=3)
@@ -3488,7 +3503,7 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision
    changes as the set of eligible voters changes.
 
 ------------------------------------------------------------------------
-Rule 2422/7 (Power=3)
+Rule 2422/8 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -3508,9 +3523,12 @@ Voting Strength
       
       A player CAN Buy Strength by paying 1 Extra Vote and specifying a
       current Agoran decision on which e is a voter. For each time a
-      player has Bought Strength on a decision, eir voting strength is 1
-      greater on that decision. A player CANNOT Buy Strength for the
-      same decision more than 3 times.
+      player has Bought Strength on a decision, eir voting strength is
+      1 greater on that decision. If the decision is on a proposal, and
+      the proposal's chamber and the player's focus are the same value,
+      then eir voting strength is instead 2 greater on that decision.
+      A player CANNOT Buy Strength for the same decision more than 3
+      times.
       
 History:
 
@@ -3525,6 +3543,8 @@ Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+Amended(8) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct
+   2020
 
 Annotations:
 
@@ -4335,6 +4355,41 @@ Enacted by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug 2020
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2636/0 (Power=1.0)
+The Ministor
+
+      The Ministor is an office, tasked with overseeing gameplay
+      related to Ministries. The Ministor SHALL publish eir monthly
+      report in a timely manner from the beginning of the month.
+      
+History:
+
+Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2637/1 (Power=2.0)
+Office Interests
+
+      Ministry Interest (or just Interest) is a secured office switch,
+      tracked by the Ministor in eir monthly report, whose possible
+      values are lists of ministries, defaulting to the empty list. The
+      Ministor CAN flip an office's Ministry Interests without
+      objection.
+      
+      For each item of each office's Ministry Interest, that office's
+      holder's voting strength is increased by 2 on proposals whose
+      Chamber is set to that Ministry.
+      
+History:
+
+Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct 2020
+Amended(1) by P8516 'adJustments' (nix), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
 Switch Responsiblity
 
@@ -4367,6 +4422,8 @@ Annotations:
 Rule 2616/0 (Power=1.0)
 The Webmastor
 
+      The Webmastor is an office.
+      
       The Webmastor's monthly report includes a Directory, a Changelog,
       a Warning Log, and an Error Log. The Directory lists notable
       currently maintained public resources. The Changelog lists notable
@@ -4858,14 +4915,12 @@ Amended(3) by P8452 'Indictment Fixes' (Publius Scribonius
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2531/12 (Power=2)
+Rule 2531/13 (Power=2)
 Defendant's Rights
 
-      Any attempt to levy a fine is INEFFECTIVE if:
-      
-        (1) it does not include value of the fine in blots, the name of
-            the person being fined (the perp), and the specific reason
-            for the fine;
+      Any attempt to levy a fine is INEFFECTIVE if it does not include
+      value of the fine in blots, the name of the person being fined
+      (the perp), and the specific reason for the fine.
       
       Any attempt to levy a fine pursuant to the imposition of the Cold
       Hand of Justice is INEFFECTIVE if:
@@ -4891,27 +4946,27 @@ Defendant's Rights
             inaction e could not have avoided when exercising the
             highest reasonably possible standard of care;
       
-        (5) it attempts to levy a fine with a value that is blatantly
+        (6) it attempts to levy a fine with a value that is blatantly
             and obviously unsuited to the conduct which constitutes the
             reason for its levy or to the person on whom it is being
             levied;
       
-        (6) it attempts to levy a fine based upon the investigation of
+        (7) it attempts to levy a fine based upon the investigation of
             of a Finger that had been Pointed more than 14 days after
             the action constituting the reason for the fine;
       
-        (7) it attempts to levy a fine on a player for failing to take
+        (8) it attempts to levy a fine on a player for failing to take
             an action within the time period set by the Rules and that
             time period had expired more than 14 days prior to the
             Pointed Finger, if the fine is imposed based on an
             investigation of such Finger;
       
-        (8) it attempts to levy a fine on a player who has already been
+        (9) it attempts to levy a fine on a player who has already been
             fined for the conduct constituting the reason for the levy;
             or
       
-        (9) it attempts to levy a fine on a zombie for an action that
-            its master performed on its behalf.
+        (10) it attempts to levy a fine on a zombie for an action that
+             its master performed on its behalf.
       
 History:
 
@@ -4933,6 +4988,7 @@ Amended(9) by P8389 'Just Impeach Instead' (G.), 03 Jun 2020
 Amended(10) by P8392 'Prior Violations' (Jason), 03 Jun 2020
 Amended(11) by P8425 'Impossiblity Defense' (Aris), 14 Jun 2020
 Amended(12) by P8426 'Impracticability Defense' (Aris), 14 Jun 2020
+Amended(13) by P8522 'Theftn't' (ATMunn, Jason), 11 Nov 2020
 
 Annotations:
 CFJ 2531 (called 11 Apr 2020): A fine is "blatantly and obviously
@@ -5729,7 +5785,7 @@ Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2631/0 (Power=1.0)
+Rule 2631/1 (Power=1.0)
 Charities
 
       Donation Level is a natural switch for contracts, tracked by the
@@ -5744,12 +5800,14 @@ Charities
       
       Whenever a payday occurs, half of each charity's coin holdings
       (rounded down) are destroyed, and then each charity earns a number
-      of coins equal to its donation level.
+      of boatloads of coins equal to its donation level.
       
 History:
 
 Enacted by P8476 'Contract charities' (ATMunn, G., Falsifian, Publius
    Scribonius Scholasticus), 19 Jul 2020
+Amended(1) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+   Jason, ATMunn), 08 Oct 2020
 
 Annotations:
 
@@ -5870,7 +5928,7 @@ Amended(3) by P8500 'Clarify asset ownership some more' (Murphy, G.),
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2577/4 (Power=3)
+Rule 2577/5 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -5897,9 +5955,10 @@ Asset Actions
       fixed asset is one defined as such by its backing document, and
       CANNOT be transferred; any other asset is liquid.
       
-      When a rule indicates transferring an amount that is not a natural
-      number, the specified amount is rounded up to the nearest natural
-      number.
+      When a rule indicates creating, destroying, or transferring an
+      amount of assets that is not a natural number, the specified
+      amount is rounded up to the nearest natural number after all other
+      calculations.
       
 History:
 
@@ -5911,6 +5970,8 @@ Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd),
    08 Sep 2020
 Amended(4) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd),
    08 Sep 2020
+Amended(5) by P8518 'Asset Rounding' (Aris, Falsifian, nix), 11 Nov
+   2020
 
 Annotations:
 
@@ -6011,11 +6072,12 @@ Re-enacted(6) and amended by P8041 'Consolidated Patch' (Aris, Trigon,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2483/14 (Power=2)
+Rule 2483/15 (Power=2)
 Economics
 
       Coins are the official currency of Agora and are tracked by the
-      Treasuror. They can be owned by Agora, players, and contracts.
+      Treasuror. They can be owned by players, contracts, and the Lost
+      and Found Department.
       
 History:
 
@@ -6040,11 +6102,69 @@ Amended(12) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
 Amended(13) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 Amended(14) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+Amended(15) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+   Jason, ATMunn), 08 Oct 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2496/22 (Power=1)
+Rule 2634/0 (Power=1.0)
+Buoyancy Control
+
+      The Total Buoyancy is a singleton integer switch, tracked by the
+      the Treasuror in eir monthly report.
+      
+      The Treasuror CAN, by announcement, set the Total Buoyancy to a
+      specified value approximately equal to the sum of all coin
+      balances at a specified point within the first Eastman week of the
+      current month. Whenever e does so, e SHALL endeavor to calculate
+      the correct sum for eir chosen point. E SHALL set the Total
+      Buoyancy once a month.
+      
+      The Treasuror CAN and MAY exercise reasonable judgement in
+      calculating the Total Buoyancy. The Total Buoyancy will be deemed
+      set so long as the value chosen by the Treasuror is not obviously
+      and grossly incorrect. The Treasuror CAN and MAY set the Total
+      Buoyancy more than once a month, but SHOULD NOT do so unless there
+      is reason to believe eir previous setting of the value failed.
+      
+History:
+
+Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
+   ATMunn), 08 Oct 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2635/1 (Power=1.0)
+Floating Rate Fleet
+
+      The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
+      unrounded. A boatload of something is a quantity of that thing
+      equal in count to the Unit of Floatation.
+      
+      The Floating Rate Schedule is part of the Treasuror's monthly
+      report. It contains the Total Buoyancy, the Unit of Flotation, and
+      the real value of every quantity that is expressed in boatloads in
+      a rule or regulation. The Treasuror is ENCOURAGED to also consider
+      including quantities in contracts.  The Treasuror SHOULD publish
+      the Floating Rate Schedule immediately after setting the Total
+      Buoyancy.
+      
+      When taking an action, a person SHOULD expand all quantities that
+      are expressed in boatloads.
+      
+History:
+
+Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
+   ATMunn), 08 Oct 2020
+Amended(1) by P8518 'Asset Rounding' (Aris, Falsifian, nix), 11 Nov
+   2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2496/23 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
@@ -6056,27 +6176,27 @@ Rewards
       and officers.
       
       * Being the author of an adopted sponsored proposal: a number of
-        coins equal to (the total number of valid ballots cast FOR the
-        decision - the total number of valid ballots cast AGAINST)
-        (Assessor).
+        boatloads of coins equal to (the total number of valid ballots
+        cast FOR the decision - the total number of valid ballots cast
+        AGAINST) (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
         limit to do so, unless at the time of judgement the case was
-        open due to self-filing a motion to reconsider it: 5 coins
-        (Arbitor).
+        open due to self-filing a motion to reconsider it: 5 boatloads
+        of coins (Arbitor).
       
       * Publishing an office's weekly or monthly report, provided that
         publication was the first report published for that office in
         the relevant time period (week or month respectively) to fulfill
-        an official weekly or monthly duty: 5 coins times the complexity
-        of the office (ADoP).
+        an official weekly or monthly duty: 5 boatloads of coins times
+        the complexity of the office (ADoP).
       
       * Resolving a referendum, provided that no other referendum had
-        been resolved earlier in that Agoran week: 5 coins times the
-        Assessor's complexity (ADoP).
+        been resolved earlier in that Agoran week: 5 boatloads of coins
+        times the Assessor's complexity (ADoP).
       
       * Having a Thesis pass peer-review and be granted a Degree based
-        on its merit: 20 coins (Herald)
+        on its merit: 20 boatloads of coins (Herald)
       
 History:
 
@@ -6116,23 +6236,19 @@ Amended(21) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul
    2020
 Amended(22) by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug
    2020
+Amended(23) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+   Jason, ATMunn), 08 Oct 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2559/7 (Power=2)
+Rule 2559/8 (Power=2)
 Paydays
 
-      Whenever a Payday occurs, the following events happen in order:
+      Whenever a Payday occurs, each active player earns 10 boatloads of
+      coins.
       
-      1. Each player first earns 10 coins; then
-      
-      2. For each office, if a single player held that office for 16 or
-         more days in the previous month and no unforgivable fines were
-         levied on em during that month for eir conduct in that office,
-         that player earns 5 coins.
-      
-      The occurrence of Paydays is secured.  At the beginning of each
+      The occurrence of Paydays is secured. At the beginning of each
       month, a Payday occurs.
       
 History:
@@ -6147,6 +6263,8 @@ Amended(4) by P8066 'Separation of church and state' (twg, Trigon), 26
 Amended(5) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
 Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(7) by P8253 'Clarify salary' (Murphy, G., Jason), 03 Nov 2019
+Amended(8) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+   Jason, ATMunn), 08 Oct 2020
 
 Annotations:
 
@@ -6184,18 +6302,21 @@ Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2621/0 (Power=1.0)
+Rule 2621/1 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Victory Points than any other
-      player, e CAN win by announcement. When a player wins this way,
-      all Cards and all Products are destroyed. Then each non-zombie
-      player is granted 1 card of each type.
+      player, e CAN Take Over the Economy by announcement. When a player
+      does so, e wins the game, all Cards and all Products are
+      destroyed, then each non-zombie player is granted 1 card of each
+      type.
       
 History:
 
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+Amended(1) by P8511 'VP Win Indirection' (Baron von Vanderham, Jason,
+   Trigon), 08 Oct 2020
 
 Annotations:
 
@@ -6223,29 +6344,27 @@ Enacted by P8446 'Victory Auctions' (G., nch), 30 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2624/3 (Power=1.0)
+Rule 2624/5 (Power=1.0)
 Card Administration
 
-      Justice Cards are associated with the Ministry of Justice.
-      Legislative Cards are associated with the Ministry of Legislation.
-      Voting Cards are associated with the ministry of Participation.
-      The single type of card with the fewest existing instances (if
-      any) is assocated with the Ministry of Economy.
+      Each of the following Ministries has a Grant, listed below.
       
-      The officeholder of an office CAN by announcement grant another
-      player a specified type of card, specifying that office, under the
-      following conditions:
+      Ministry of Compliance: 1 Justice Card
+      Ministry of Legislation: 1 Legislative Card
+      Ministry of Participation: 1 Voting Card
+      Ministry of Economy: 50 boatloads of coins divided by X, rounded
+      up; where X is the number of players with their Ministry Focus set
+      to Economy. The Ministor SHALL report this value in a timely
+      manner after the beginning of the month.
       
-      * e has not done so in reference to that office in the current
-        Agoran month,
+      A player CAN once a month grant eir Ministry Focus' Grant to a
+      specified player by announcement.
       
-      * that office's interests includes a ministry associated with the
-        card.
-      
-      * the player receiving the card does not hold an office with a
-        ministry associated with the card in its interests, and
-      
-      * the player receiving the card is not a zombie.
+      The Ministor CAN, once a month and by announcement, and SHALL, in
+      a timely manner from the beginning of the month, grant 1 Victory
+      Card to a random player whose Ministry Focus is Legacy and 1
+      Victory Point to every other player whose Ministry Focus is
+      Legacy.
       
 History:
 
@@ -6254,11 +6373,35 @@ Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
 Amended(1) by P8477 'More officer cards' (Jason), 27 Jul 2020
 Amended(2) by P8489 'Interesting economics' (Jason), 08 Sep 2020
 Amended(3) by P8505 'Card clarifications' (Jason), 16 Oct 2020
+Amended(4) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct
+   2020
+Amended(5) by P8516 'adJustments' (nix), 11 Nov 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/10 (Power=1)
+Rule 2638/0 (Power=2.0)
+Player Focuses
+
+      Ministry Focus (or just Focus) is a secured active player switch,
+      tracked by the Ministor in eir monthly report, with possible values
+      Unfocused (the default) and any Ministry.
+      
+      An active player CAN Plan to Flip eir own Ministry Focus,
+      specifying any valid value for eir Ministry Focus, by
+      announcement. At the beginning of a month, every active player's
+      Ministry Focus is set to the value e mostly recently specified by
+      Planning to Flip. If a player did not Plan to Flip eir Ministry
+      Focus switch in the last month, it is not flipped.
+      
+History:
+
+Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2499/11 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
@@ -6266,8 +6409,8 @@ Welcome Packages
       announcement.
       
       When a player receives a Welcome Package, if e has not received
-      one in the past 30 days, then e earns 10 coins and one of each
-      type of Card defined in the rules.
+      one in the past 30 days, then e earns 10 boatloads of coins and
+      one of each type of Card defined in the rules.
       
 History:
 
@@ -6288,11 +6431,13 @@ Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
 Amended(8) by P8458 'Welcome Package Patch' (Aris), 30 Jun 2020
 Amended(9) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
 Amended(10) by P8480 'Generic welcome package fix' (Jason), 10 Aug 2020
+Amended(11) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+   Jason, ATMunn), 08 Oct 2020
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2585/3 (Power=1)
+Rule 2585/5 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -6301,9 +6446,12 @@ Birthday Gifts
       declare a day to be eir Agoran Birthday. As long as the day a
       player first registered remains unknown, it is considered to be
       eir Agoran Birthday on the anniversary of the day e most recently
-      declared as eir Agoran Birthday. Every time it is a player's
-      Agoran Birthday, each of the other players CAN once grant em 3
-      coins by announcement.
+      declared as eir Agoran Birthday.
+      
+      During a player's Agoran Birthday and the 7 days following, each
+      other player CAN, once, grant em X boatloads of coins, where X is
+      3 if it is actually the day of the player's birthday, and 2
+      otherwise.
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
       
@@ -6314,6 +6462,10 @@ Amended(1) by P8145 'No Rebirth' (Gaelan), 15 Jan 2019
 Amended(2) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
 Amended(3) by P8314 'Finite Gifting' (Aris), 13 Feb 2020
+Amended(4) by P8507 'Happy Belated Birthday v3' (ATMunn, G.,
+   Falsifian), 08 Oct 2020
+Amended(5) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+   Jason, ATMunn), 08 Oct 2020
 
 Annotations:
 CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
@@ -6469,7 +6621,21 @@ Amended(5) by P8478 'another talismans fix' (Jason, nix, G.), 10 Aug
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1885/12 (Power=2)
+Rule 2639/0 (Power=3.0)
+Zombie Phase-Out
+
+      While a zombie's talisman is owned by Agora, that zombie's resale
+      value is continuously set to 0.
+      
+History:
+
+Enacted by P8517 'Phasing Out Zombies' (Telnaior, Jason, Trigon), 11 Nov
+   2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 1885/13 (Power=2)
 Zombie Auctions
 
       Whenever a zombie has Agora for a master and has a resale value
@@ -6481,8 +6647,8 @@ Zombie Auctions
       
       In a timely fashion after the beginning of each month, the
       Registrar SHALL either initiate such an auction or, if no
-      talismans meeting these conditions existed at the beginning of the
-      month, announce that no such auction is necessary.
+      talismans meeting these conditions exist, announce that no such
+      auction is necessary.
       
       For such an auction, each lot consists of the talisman for one
       zombie, ordered at the discretion of the Registrar. The Registrar
@@ -6509,6 +6675,7 @@ Amended(11) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul
    2020
 Amended(12) by P8467 'Talismans auction patch' (Jason, Trigon), 08 Jul
    2020
+Amended(13) by P8508 'No Zombie Races' (Falsifian), 08 Oct 2020
 
 Annotations:
 
@@ -6737,8 +6904,8 @@ Ribbons
         - Otherwise, if e has not been awarded that type of Ribbon or
           the corresponding type of Glitter since e last earned or came
           to qualify for that type of Ribbon, and has not been so
-          awarded five or more times within the past 24 hours, e CAN, by
-          announcement, award emself that type of Glitter.
+          awarded five or more times within the past 24 hours, any
+          player CAN, by announcement, award em that type of Glitter.
       
 History:
 
@@ -6776,7 +6943,7 @@ Amended(22) by P8487 'Simpler ribbon switches' (Murphy, R. Lee), 10 Aug
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2602/5 (Power=1)
+Rule 2602/6 (Power=1)
 Glitter
 
       For each type of Ribbon, there is a type of Glitter with the same
@@ -6785,10 +6952,10 @@ Glitter
       
       Each time a player is awarded a type of Glitter, the Tailor CAN
       once by announcement, and SHALL in an officially timely fashion,
-      grant the player N+1 coins, where N is the number of players who
-      did not own the corresponding type of Ribbon at the time of the
-      award. The amount payable for each type of glitter is tracker in
-      the Tailor's weekly report.
+      grant the player N+1 boatloads of coins, where N is the number of
+      players who did not own the corresponding type of Ribbon at the
+      time of the award. The amount payable for each type of glitter is
+      tracked in the Tailor's weekly report.
       
 History:
 
@@ -6801,6 +6968,8 @@ Amended(3) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
 Amended(4) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
    2020
 Amended(5) by P8438 'Tailor Pay' (R. Lee), 18 Jun 2020
+Amended(6) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+   Jason, ATMunn), 08 Oct 2020
 
 Annotations:
 
@@ -6841,7 +7010,7 @@ Amended(4) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/2 (Power=2.1)
+Rule 2481/3 (Power=2.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -6855,6 +7024,8 @@ Festival Restrictions
       3. Each Festive player has the maximum possible voting strength.
          All other players have the minimum possible voting strength.
       
+      4. Non-Festive players CANNOT cause proposals to become Pended.
+      
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
       
@@ -6863,6 +7034,8 @@ History:
 Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
 Amended(1) by R2430, 24 May 2017
 Amended(2) by P8297 'Imminent Failure' (Aris), 29 Jan 2020
+Amended(3) by P8510 'Festival Peending' (Baron von Vanderham, Jason,
+   Trigon), 08 Oct 2020
 
 Annotations:
 
@@ -7752,6 +7925,161 @@ Bargains on the Barrel
 History:
 
 Enacted by P8442 'Barrel Barrel Badger Barrel' (G.), 30 Jun 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Stones
+   A game in which people try to collect Stones with various different
+   Magical Powers OooOooh!
+------------------------------------------------------------------------
+Rule 2640/0 (Power=2)
+Stones
+
+      A stone is a unique indestructable liquid asset defined by the
+      rules. To define a stone, the definition must include:
+        (i) A name unique among stones;
+       (ii) The escape risk of the stone, which must be a percentage between
+            0% and 100% inclusive;
+      (iii) A scroll, which is a document specifying the effects of the
+            stone
+       (iv) Optionally, a frequency, which must be one of daily, weekly,
+            monthly, or quarterly.
+      
+      Ownership of stones is entirely restricted to Agora and active
+      players.  If a stone is owned by the Lost and Found Department or
+      in abeyance, it is immediately transferred to Agora.
+      
+      The Stonemason is an office, and the recordkeepor of stones.
+      
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2641/0 (Power=2)
+Wielding Stones
+
+      Except as otherwise specified by the rules, the owner of a stone
+      CAN wield it by announcement specifying any values needed to
+      interpret the stone's effects.
+      
+      If a stone has a frequency, then it is IMPOSSIBLE to wield that
+      stone if it has been previously wielded in the same Agoran time
+      interval as indicated by its frequency (e.g. if its frequency is
+      daily, if it has been wielded in the same Agoran day).
+      
+      When a stone is wielded, the Rule defining that stone applies the
+      effects in that stone's scroll.
+      
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2642/0 (Power=2)
+Distributing Stones
+
+      The Stonemason CAN initiate an auction for any set of stones
+      belonging to Agora for which an auction is not ongoing, with each
+      individual stone being an auction lot. The Stonemason is the
+      auctioneer, and the currency is coins.
+      
+      The Stonemason SHALL so initiate an auction for a set of stones
+      consisting of at least one third the stones eligible for auction
+      in a timely fashion after publishing a collection notice, provided
+      there any eligible stones.
+      
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2643/0 (Power=2)
+Collecting Stones
+
+      Once per month, the Stonemason CAN publish a collection notice by
+      announcement, specifying all necessary information and choices.
+      The Stonemason SHALL publish such a notice in a timely fashion
+      after the beginning of each Agoran month.
+      
+      A stone is immune if there has been no collection notice after it
+      was most recently granted immunity (if ever), as defined by other
+      rules.
+      
+      A collection notice includes, for every non-immune stone not
+      belonging to Agora, a random choice of whether that stone escapes,
+      escaping with probability equal to its escape risk. When a
+      collection notice is published, stones that escape are transferred
+      to Agora in an order specified by the collection notice.
+      
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2644/0 (Power=2)
+The Gauntlet
+
+      When a player makes a correct announcement that a single specified
+      player owns 5 or more stones, the specified player Wields the
+      Guantlet.
+      
+      When a player Wields the Gauntlet, e wins the game and all
+      existing stones are transferred to Agora.
+      
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2645/1 (Power=2)
+The Stones
+
+      The following stones are defined, one per paragraph, with the
+      following format: Stone Name (Frequency, Escape Risk): Scroll.
+      
+      - Power Stone (weekly, 40%): A specified player hereby buys
+        strength 3 times on a specified unresolved Agoran decision.
+      
+      - Wealth Stone (weekly, 50%): A specified player hereby earns 5
+        boatloads of coins.
+      
+      - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
+        to the owner of a different specified non-immune stone, then
+        that stone is transferred to the wielder.
+      
+      - Sabotage Stone (weekly, 80%): The adoption index of a specified
+        AI-majority Agoran decision is hereby increased by 1.
+      
+      - Concentration Stone (monthly, 60%): A specified player earns the
+        Grant associated with eir Focus.
+      
+      - Protection Stone (monthly, 70%): A specified stone is granted
+        immunity.
+      
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+Amended(1) by P8523 'Emergency Economy Unbreaking' (Aris, nix, Jason),
+   22 Nov 2020
 
 Annotations:
 
