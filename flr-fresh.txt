@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 27 Nov 2020
+Date of this ruleset: 1 Dec 2020
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 154
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2645
-Highest ID'd Proposal Passed: 8523
+Highest ID'd Proposal Passed: 8525
 Highest ID'd Rule Enacted: 2645
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -3736,7 +3736,7 @@ Vote Protection and Cutoff for Challenges
       
       4. (if the indicated outcome was to adopt a proposal) such a
          proposal existed, was adopted, and, if it had not
-         previoiusly taken effect, took effect.
+         previously taken effect, took effect.
       
 History:
 
@@ -8010,7 +8010,7 @@ Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2643/0 (Power=2)
+Rule 2643/1 (Power=2)
 Collecting Stones
 
       Once per month, the Stonemason CAN publish a collection notice by
@@ -8018,20 +8018,21 @@ Collecting Stones
       The Stonemason SHALL publish such a notice in a timely fashion
       after the beginning of each Agoran month.
       
-      A stone is immune if there has been no collection notice after it
-      was most recently granted immunity (if ever), as defined by other
-      rules.
+      A stone is immune if it has been granted immunity, as defined by
+      other rules, since the last collection notice or if it is
+      currently owned by Agora.
       
-      A collection notice includes, for every non-immune stone not
-      belonging to Agora, a random choice of whether that stone escapes,
-      escaping with probability equal to its escape risk. When a
-      collection notice is published, stones that escape are transferred
-      to Agora in an order specified by the collection notice.
+      A collection notice includes, for every non-immune stone, a random
+      choice of whether that stone escapes, escaping with probability
+      equal to its escape risk. When a collection notice is published,
+      stones that escape are transferred to Agora in an order specified
+      by the collection notice.
       
 History:
 
 Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
+Amended(1) by P8524 'Agora's Stones Are Immune' (nix), 01 Dec 2020
 
 Annotations:
 
