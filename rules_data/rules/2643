@@ -7,19 +7,24 @@ text: |
   The Stonemason SHALL publish such a notice in a timely fashion
   after the beginning of each Agoran month.
 
-  A stone is immune if there has been no collection notice after it
-  was most recently granted immunity (if ever), as defined by other
-  rules.
+  A stone is immune if it has been granted immunity, as defined by
+  other rules, since the last collection notice or if it is
+  currently owned by Agora.
 
-  A collection notice includes, for every non-immune stone not
-  belonging to Agora, a random choice of whether that stone escapes,
-  escaping with probability equal to its escape risk. When a
-  collection notice is published, stones that escape are transferred
-  to Agora in an order specified by the collection notice.
+  A collection notice includes, for every non-immune stone, a random
+  choice of whether that stone escapes, escaping with probability
+  equal to its escape risk. When a collection notice is published,
+  stones that escape are transferred to Agora in an order specified
+  by the collection notice.
 history:
 - change:
     type: enactment
   date: 2020-11-11
   agent:
     proposal: "8521"
+- change:
+    type: amendment
+  date: 2020-12-01
+  agent:
+    proposal: "8524"
 annotations: []
