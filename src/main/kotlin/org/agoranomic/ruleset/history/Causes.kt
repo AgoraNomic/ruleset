@@ -1,6 +1,7 @@
 package org.agoranomic.ruleset.history
 
 import kotlinx.collections.immutable.ImmutableList
+import kotlinx.collections.immutable.toImmutableList
 import java.math.BigInteger
 
 interface HistoricalCause {
@@ -20,7 +21,15 @@ inline fun lazyStringCause(crossinline lazyString: () -> String) = object : Hist
 data class ProposalAuthorship(
     val author: String,
     val coauthors: ImmutableList<String>?,
-)
+) {
+    constructor(
+        author: String,
+        coauthors: List<String>?,
+    ) : this(
+        author = author,
+        coauthors = coauthors?.toImmutableList(),
+    )
+}
 
 data class ProposalData(
     val number: BigInteger,
