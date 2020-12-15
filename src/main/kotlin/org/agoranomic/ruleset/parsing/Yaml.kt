@@ -107,6 +107,9 @@ fun ParsedYamlNode.MapNode.getValue(key: String) =
 
 fun ParsedYamlNode.MapNode.getOptValue(key: String) = this[key]?.requireOptValue()
 
+fun ParsedYamlNode.MapNode.getContent(key: String) = getValue(key).content
+fun ParsedYamlNode.MapNode.getOptContent(key: String) = getOptValue(key)?.content
+
 fun ParsedYamlNode.MapNode.getMap(key: String) =
     (this[key] ?: throw IllegalArgumentException("Expected map")).requireMap()
 
