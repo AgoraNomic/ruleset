@@ -5,7 +5,6 @@ import org.agoranomic.ruleset.history.ProposalData
 import org.agoranomic.ruleset.history.proposalCause
 import org.junit.jupiter.api.Nested
 import java.math.BigInteger
-import kotlin.math.exp
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -67,7 +66,8 @@ class CauseTest {
 
         @Test
         fun `author, empty coauthors`() {
-            doTest("P1 (Alice)",
+            doTest(
+                "P1 (Alice)",
                 number = BigInteger.ONE,
                 authorship = ProposalAuthorship(
                     author = "Alice",
@@ -78,7 +78,8 @@ class CauseTest {
 
         @Test
         fun `title, author`() {
-            doTest("P1 'some proposal' (Alice)",
+            doTest(
+                "P1 'some proposal' (Alice)",
                 number = BigInteger.ONE,
                 title = "some proposal",
                 authorship = ProposalAuthorship(
@@ -90,7 +91,8 @@ class CauseTest {
 
         @Test
         fun `title, author, disi`() {
-            doTest("P1 'some proposal' [disi.] (Alice)",
+            doTest(
+                "P1 'some proposal' [disi.] (Alice)",
                 number = BigInteger.ONE,
                 title = "some proposal",
                 isDisinterested = true,
@@ -103,7 +105,8 @@ class CauseTest {
 
         @Test
         fun `title, author, empty coauthors`() {
-            doTest("P1 'some proposal' (Alice)",
+            doTest(
+                "P1 'some proposal' (Alice)",
                 number = BigInteger.ONE,
                 title = "some proposal",
                 authorship = ProposalAuthorship(
@@ -115,7 +118,8 @@ class CauseTest {
 
         @Test
         fun `title, author, coauthors`() {
-            doTest("P1 'some proposal' (Alice, Bob, Charlie)",
+            doTest(
+                "P1 'some proposal' (Alice, Bob, Charlie)",
                 number = BigInteger.ONE,
                 title = "some proposal",
                 authorship = ProposalAuthorship(
@@ -127,7 +131,8 @@ class CauseTest {
 
         @Test
         fun `title, chamber, author`() {
-            doTest("P1 'some proposal' [some chamber] (Alice)",
+            doTest(
+                "P1 'some proposal' [some chamber] (Alice)",
                 number = BigInteger.ONE,
                 title = "some proposal",
                 chamber = "some chamber",
@@ -140,7 +145,8 @@ class CauseTest {
 
         @Test
         fun `title, chamber, disi, author`() {
-            doTest("P1 'some proposal' [some chamber, disi.] (Alice)",
+            doTest(
+                "P1 'some proposal' [some chamber, disi.] (Alice)",
                 number = BigInteger.ONE,
                 title = "some proposal",
                 chamber = "some chamber",
@@ -155,7 +161,8 @@ class CauseTest {
 
         @Test
         fun `title, chamber, author, coauthors`() {
-            doTest("P1 'some proposal' [some chamber] (Alice, Bob, Charlie)",
+            doTest(
+                "P1 'some proposal' [some chamber] (Alice, Bob, Charlie)",
                 number = BigInteger.ONE,
                 title = "some proposal",
                 chamber = "some chamber",
@@ -168,7 +175,8 @@ class CauseTest {
 
         @Test
         fun `title, chamber, disi, author, coauthors`() {
-            doTest("P1 'some proposal' [some chamber, disi.] (Alice, Bob, Charlie)",
+            doTest(
+                "P1 'some proposal' [some chamber, disi.] (Alice, Bob, Charlie)",
                 number = BigInteger.ONE,
                 title = "some proposal",
                 chamber = "some chamber",
