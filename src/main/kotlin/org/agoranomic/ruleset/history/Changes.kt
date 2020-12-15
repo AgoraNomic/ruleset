@@ -37,6 +37,20 @@ fun countedOnceHistoricalChange(format: (Int) -> String): HistoricalChange {
 }
 
 fun enactmentHistoricalChange() = uncountedHistoricalChange("Enacted")
+
+enum class InitialRuleMutability {
+    MUTABLE, IMMUTABLE,
+}
+
+fun initialRuleHistoricalChange(mutability: InitialRuleMutability, initialId: BigInteger): HistoricalChange {
+    val mutabilityString = when(mutability) {
+        InitialRuleMutability.MUTABLE -> "mutable"
+        InitialRuleMutability.IMMUTABLE -> "immutable"
+    }
+
+    return uncountedHistoricalChange("initial $mutabilityString rule $initialId")
+}
+
 fun countedAmendmentHistoricalChange() = countedOnceHistoricalChange { "Amended ($it)" }
 fun uncountedAmendmentHistoricalChange() = uncountedHistoricalChange("Amended")
 
