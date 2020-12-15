@@ -4,7 +4,11 @@ import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.ImmutableMap
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.collections.immutable.toImmutableMap
+import org.yaml.snakeyaml.DumperOptions
+import org.yaml.snakeyaml.Yaml
+import org.yaml.snakeyaml.constructor.Constructor
 import org.yaml.snakeyaml.nodes.Tag
+import org.yaml.snakeyaml.representer.Representer
 import org.yaml.snakeyaml.resolver.Resolver
 
 /**
@@ -111,3 +115,14 @@ fun ParsedYamlNode.MapNode.getList(key: String) =
     (this[key] ?: throw IllegalArgumentException("Expected list")).requireList()
 
 fun ParsedYamlNode.MapNode.getOptList(key: String) = this[key]?.requireOptList()
+
+fun parseRawYaml(text: String): ParsedYamlNode {
+    return ParsedYamlNode.fromRaw(
+        Yaml(
+            Constructor(),
+            Representer(),
+            DumperOptions(),
+            StringResolver(),
+        ).load<Any>(text.trim()) // trim in order to be just a little bit helpful
+    )
+}
