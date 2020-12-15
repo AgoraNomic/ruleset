@@ -56,7 +56,7 @@ sealed class ParsedYamlNode {
         val keys get() = mapping.keys
     }
 
-    data class ListNode(private val values: ImmutableList<ParsedYamlNode>) : ParsedYamlNode() {
+    data class ListNode(val values: ImmutableList<ParsedYamlNode>) : ParsedYamlNode() {
         constructor(values: List<ParsedYamlNode>) : this(values.toImmutableList())
 
         companion object {
