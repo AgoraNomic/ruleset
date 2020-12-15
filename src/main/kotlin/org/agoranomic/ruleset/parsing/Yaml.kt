@@ -52,6 +52,7 @@ sealed class ParsedYamlNode {
         }
 
         operator fun get(key: String) = mapping.get(key)
+        fun containsKey(key: String) = mapping.containsKey(key)
         val keys get() = mapping.keys
     }
 
