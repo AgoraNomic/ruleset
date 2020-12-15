@@ -102,6 +102,8 @@ fun ParsedYamlNode.requireOptValue(): ParsedYamlNode.ValueNode? {
 
 // Opt -> Optional. If the node does not exist, or is a null node, returns null
 
+fun ParsedYamlNode.MapNode.getNode(key: String) = this[key] ?: throw IllegalArgumentException("Expected node")
+
 fun ParsedYamlNode.MapNode.getValue(key: String) =
     (this[key] ?: throw IllegalArgumentException("Expected value")).requireValue()
 
