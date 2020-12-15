@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
     implementation("org.yaml:snakeyaml:1.27")
+    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.3")
 
     testImplementation(kotlin("test-junit5"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
