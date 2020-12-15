@@ -1,4 +1,4 @@
-package org.agoranomic.ruleset
+package org.agoranomic.ruleset.history
 
 import java.math.BigDecimal
 import java.math.BigInteger
