@@ -78,6 +78,7 @@ fun renumberingHistoricalChange() = uncountedHistoricalChange("Renumbered")
 fun unchangedReenactmentHistoricalChange() = countedOnceHistoricalChange { "Re-enacted($it)" }
 fun changedReenactmentHistoricalChange() = countedOnceHistoricalChange { "Re-enacted($it) and amended" }
 fun infectionAmendmentHistoricalChange() = countedOnceHistoricalChange { "Infected and amended($it)" }
+fun infectionHistoricalChange() = uncountedHistoricalChange("Infected")
 fun retitilingHistoricalChange() = uncountedHistoricalChange("Retitled")
 fun repealHistoricalChange() = uncountedHistoricalChange("Repeal")
 
