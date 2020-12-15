@@ -57,6 +57,7 @@ fun ruleCause(ruleNumber: BigInteger) = stringCause("R$ruleNumber")
 fun convergenceCause(cause: HistoricalCause) = lazyStringCause { "a convergence caused by ${cause.causeString}" }
 fun cleaningCause(cause: String) = stringCause("cleaning ($cause)")
 fun refilingCause(cause: String) = stringCause("refiling ($cause)")
+fun ratificationCause(document: String) = stringCause("$document ratification")
 fun decreeCause(agent: String) = stringCause("Decree give by $agent")
 fun tournamentInitCause(tournament: String, initiator: String) = stringCause("initiation of $tournament by $initiator")
 fun tournamentChangeCause(tournament: String, agent: String) = stringCause("$agent as part of $tournament")
