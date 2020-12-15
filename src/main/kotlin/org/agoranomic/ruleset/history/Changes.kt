@@ -8,7 +8,7 @@ interface HistoricalChange {
     fun formatEffect(baseChangeNumber: Int): String
 }
 
-fun uncountedHistoricalChange(value: String): HistoricalChange {
+private fun uncountedHistoricalChange(value: String): HistoricalChange {
     return object : HistoricalChange {
         override val changeCount: Int
             get() = 0
@@ -19,7 +19,7 @@ fun uncountedHistoricalChange(value: String): HistoricalChange {
     }
 }
 
-fun countedManyHistoricalChange(changeCount: Int, format: (List<Int>) -> String): HistoricalChange {
+private fun countedManyHistoricalChange(changeCount: Int, format: (List<Int>) -> String): HistoricalChange {
     require(changeCount > 0)
 
     return object : HistoricalChange {
@@ -32,7 +32,7 @@ fun countedManyHistoricalChange(changeCount: Int, format: (List<Int>) -> String)
     }
 }
 
-fun countedOnceHistoricalChange(format: (Int) -> String): HistoricalChange {
+private fun countedOnceHistoricalChange(format: (Int) -> String): HistoricalChange {
     return countedManyHistoricalChange(1) { list -> format(list.single()) }
 }
 

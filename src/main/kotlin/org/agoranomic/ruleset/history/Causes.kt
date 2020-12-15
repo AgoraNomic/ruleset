@@ -8,12 +8,12 @@ interface HistoricalCause {
     val causeString: String
 }
 
-fun stringCause(value: String) = object : HistoricalCause {
+private fun stringCause(value: String) = object : HistoricalCause {
     override val causeString: String
         get() = value
 }
 
-inline fun lazyStringCause(crossinline lazyString: () -> String) = object : HistoricalCause {
+private inline fun lazyStringCause(crossinline lazyString: () -> String) = object : HistoricalCause {
     override val causeString: String
         get() = lazyString()
 }
