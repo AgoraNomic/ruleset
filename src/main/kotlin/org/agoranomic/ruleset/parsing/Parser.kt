@@ -75,31 +75,31 @@ private fun parseHistoricalCauseYaml(
     val causeContent by lazy { causeNode.requireValue().content }
 
     return when (causeKind) {
-        "proposal" -> proposalCause(
+        "proposal" -> HistoricalCauses.proposal(
             causeNode.requireValue().content.toBigInteger().let {
                 proposalDataMap.dataFor(it) ?: throw IllegalArgumentException("no data for proposal $it")
             }
         )
-        "rule" -> ruleCause(causeNode.requireValue().content.toBigInteger())
-        "convergence" -> convergenceCause(parseHistoricalCauseYaml(causeMap, proposalDataMap))
-        "cleaning" -> cleaningCause(causeMap.getContent("by"))
-        "refiling" -> refilingCause(causeMap.getContent("by"))
-        "ratification" -> ratificationCause(causeMap.getContent("document"))
-        "decree" -> decreeCause(causeNode.requireValue().content)
-        "tournament_init" -> tournamentInitCause(
+        "rule" -> HistoricalCauses.rule(causeNode.requireValue().content.toBigInteger())
+        "convergence" -> HistoricalCauses.convergence(parseHistoricalCauseYaml(causeMap, proposalDataMap))
+        "cleaning" -> HistoricalCauses.cleaning(causeMap.getContent("by"))
+        "refiling" -> HistoricalCauses.refiling(causeMap.getContent("by"))
+        "ratification" -> HistoricalCauses.ratification(causeMap.getContent("document"))
+        "decree" -> HistoricalCauses.decree(causeNode.requireValue().content)
+        "tournament_init" -> HistoricalCauses.tournamentInit(
             tournament = causeMap.getContent("name"),
             initiator = causeMap.getContent("person"),
         )
-        "tournament_change" -> tournamentChangeCause(
+        "tournament_change" -> HistoricalCauses.tournamentChange(
             tournament = causeMap.getContent("name"),
             agent = causeMap.getContent("person"),
         )
-        "tournament_end" -> tournamentEndCause(
+        "tournament_end" -> HistoricalCauses.tournamentEnd(
             tournament = causeMap.getContent("name"),
             agent = causeMap.getContent("person"),
         )
-        "person" -> personCause(causeContent)
-        "rulebending" -> rulebendingCause(magister = causeMap.getContent("magister"))
+        "person" -> HistoricalCauses.person(causeContent)
+        "rulebending" -> HistoricalCauses.rulebending(magister = causeMap.getContent("magister"))
         else -> throw IllegalArgumentException("Unknown cause $causeKind")
     }
 }
