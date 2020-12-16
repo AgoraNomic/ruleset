@@ -57,3 +57,28 @@ data class RuleState(
     val history: RuleHistory,
     val annotations: RuleAnnotations?,
 )
+
+data class RulesetState(
+    private val rulesByNumber: Map<RuleNumber, RuleState>,
+) {
+    init {
+        require(rulesByNumber.all { it.key == it.value.id })
+    }
+
+    companion object {
+        fun from(collection: Collection<RuleState>): RulesetState {
+            return RulesetState(
+                collection
+                    .groupBy { it.id }
+                    .mapValues { (_, v) -> v.distinct().also { require(it.size == 1) }.single() }
+            )
+        }
+    }
+
+    val rules get() = rulesByNumber.values
+    val ruleNumbers get() = rulesByNumber.keys
+
+    fun ruleByNumber(id: RuleNumber): RuleState {
+        return rulesByNumber.getValue(id)
+    }
+}
