@@ -1,8 +1,6 @@
 package org.agoranomic.ruleset.history
 
-import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.ImmutableSet
-import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.persistentSetOf
 import org.agoranomic.ruleset.history.HistoricalChangeEffect.*
 import java.math.BigDecimal

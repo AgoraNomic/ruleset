@@ -4,7 +4,6 @@ import org.agoranomic.ruleset.*
 import org.agoranomic.ruleset.history.*
 import java.math.BigInteger
 import java.time.LocalDate
-import kotlin.IllegalArgumentException
 
 interface ProposalDataMap {
     fun dataFor(proposalNumber: BigInteger): ProposalData?
