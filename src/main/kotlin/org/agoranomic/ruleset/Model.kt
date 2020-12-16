@@ -9,8 +9,13 @@ import java.math.BigInteger
 
 sealed class RuleAnnotation
 
+sealed class CfjAnnotationNumber {
+    data class Single(val number: BigInteger) : CfjAnnotationNumber()
+    data class Range(val first: BigInteger, val last: BigInteger) : CfjAnnotationNumber()
+}
+
 data class HistoricalCfjAnnotation(
-    val number: BigInteger,
+    val number: CfjAnnotationNumber,
     val calledDate: HistoricalDate?,
     val finding: String,
 ) : RuleAnnotation()
