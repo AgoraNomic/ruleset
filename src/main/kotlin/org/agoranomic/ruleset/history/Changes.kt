@@ -24,7 +24,7 @@ private fun countedManyHistoricalChange(changeCount: Int, format: (List<Int>) ->
 
     return object : HistoricalChange {
         override val changeCount
-            get() = 1
+            get() = changeCount
 
         override fun formatEffect(baseChangeNumber: Int): String {
             return format(List(changeCount) { baseChangeNumber + it })
