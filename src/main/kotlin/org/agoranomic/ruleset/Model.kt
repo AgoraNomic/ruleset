@@ -7,11 +7,21 @@ import org.agoranomic.ruleset.history.HistoricalEntry
 import java.math.BigDecimal
 import java.math.BigInteger
 
+inline class CfjNumber(val raw: BigInteger) : Comparable<CfjNumber> {
+    override fun compareTo(other: CfjNumber): Int {
+        return (this.raw).compareTo(other.raw)
+    }
+
+    override fun toString(): String {
+        return raw.toString()
+    }
+}
+
 sealed class RuleAnnotation
 
 sealed class CfjAnnotationNumber {
-    data class Single(val number: BigInteger) : CfjAnnotationNumber()
-    data class Range(val first: BigInteger, val last: BigInteger) : CfjAnnotationNumber()
+    data class Single(val number: CfjNumber) : CfjAnnotationNumber()
+    data class Range(val first: CfjNumber, val last: CfjNumber) : CfjAnnotationNumber()
 }
 
 data class HistoricalCfjAnnotation(

@@ -134,7 +134,7 @@ private fun parseHistoryEntryYaml(topNode: ParsedYamlNode.MapNode, proposalDataM
 }
 
 private fun parseCfjAnnotationNumber(number: String): CfjAnnotationNumber {
-    val parts = number.split("-").map { it.toBigInteger() }
+    val parts = number.split("-").map { it.toBigInteger() }.map { CfjNumber(it) }
 
     return when (parts.size) {
         1 -> CfjAnnotationNumber.Single(parts.single())
