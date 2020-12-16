@@ -79,7 +79,7 @@ private fun parseHistoricalCauseYaml(
                 proposalDataMap.dataFor(it) ?: throw IllegalArgumentException("no data for proposal $it")
             }
         )
-        "rule" -> HistoricalCauses.rule(causeNode.requireValue().content.toBigInteger())
+        "rule" -> HistoricalCauses.rule(RuleNumber(causeNode.requireValue().content.toBigInteger()))
         "convergence" -> HistoricalCauses.convergence(parseHistoricalCauseYaml(causeMap, proposalDataMap))
         "cleaning" -> HistoricalCauses.cleaning(causeMap.getContent("by"))
         "refiling" -> HistoricalCauses.refiling(causeMap.getContent("by"))
@@ -169,7 +169,7 @@ private fun parseRulesetAnnotationsYaml(topNode: ParsedYamlNode.ListNode): RuleA
 
 fun parseRuleStateYaml(yaml: String, proposalDataMap: ProposalDataMap): RuleState {
     val topNode = parseRawYaml(yaml).requireMap()
-    val id = topNode.getContent("id").toBigInteger()
+    val id = RuleNumber(topNode.getContent("id").toBigInteger())
     val title = topNode.getContent("name")
     val power = topNode.getContent("power").toBigDecimal()
     val text = topNode.getContent("text")

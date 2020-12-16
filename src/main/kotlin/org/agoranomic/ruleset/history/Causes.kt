@@ -2,6 +2,7 @@ package org.agoranomic.ruleset.history
 
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
+import org.agoranomic.ruleset.RuleNumber
 import java.math.BigInteger
 
 interface HistoricalCause {
@@ -54,7 +55,7 @@ object HistoricalCauses {
         )
     }
 
-    fun rule(ruleNumber: BigInteger) = stringCause("R$ruleNumber")
+    fun rule(ruleNumber: RuleNumber) = stringCause("R$ruleNumber")
     fun convergence(cause: HistoricalCause) = lazyStringCause { "a convergence caused by ${cause.causeString}" }
     fun cleaning(cause: String) = stringCause("cleaning ($cause)")
     fun refiling(cause: String) = stringCause("refiling ($cause)")

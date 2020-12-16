@@ -39,8 +39,18 @@ data class RuleAnnotations(val annotations: ImmutableList<RuleAnnotation>) {
     constructor(annotations: List<RuleAnnotation>) : this(annotations.toImmutableList())
 }
 
+inline class RuleNumber(val raw: BigInteger) : Comparable<RuleNumber> {
+    override fun compareTo(other: RuleNumber): Int {
+        return (this.raw).compareTo(other.raw)
+    }
+
+    override fun toString(): String {
+        return raw.toString()
+    }
+}
+
 data class RuleState(
-    val id: BigInteger,
+    val id: RuleNumber,
     val title: String,
     val power: BigDecimal,
     val text: String,
