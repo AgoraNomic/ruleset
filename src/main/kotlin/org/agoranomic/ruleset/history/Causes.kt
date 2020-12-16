@@ -46,11 +46,11 @@ object HistoricalCauses {
                     (data.title?.let { " '$it'" } ?: "") +
                     (listOfNotNull(data.chamber, "disi.".takeIf { data.isDisinterested })
                         .takeIf { it.isNotEmpty() }
-                        ?.let { it.joinToString(", ", prefix = " [", postfix = "]") } ?: "") +
+                        ?.joinToString(", ", prefix = " [", postfix = "]") ?: "") +
                     (data.authorship
                         ?.let { listOfNotNull(it.author) + (it.coauthors ?: emptyList()) }
                         ?.takeIf { it.isNotEmpty() }
-                        ?.let { it.joinToString(", ", prefix = " (", postfix = ")") } ?: "")
+                        ?.joinToString(", ", prefix = " (", postfix = ")") ?: "")
         )
     }
 
