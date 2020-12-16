@@ -1,8 +1,8 @@
 package org.agoranomic.ruleset
 
+import org.agoranomic.ruleset.history.HistoricalCauses
 import org.agoranomic.ruleset.history.ProposalAuthorship
 import org.agoranomic.ruleset.history.ProposalData
-import org.agoranomic.ruleset.history.proposalCause
 import org.junit.jupiter.api.Nested
 import java.math.BigInteger
 import kotlin.test.Test
@@ -15,7 +15,7 @@ class CauseTest {
             expected: String,
             data: ProposalData,
         ) {
-            assertEquals(expected, proposalCause(data).causeString)
+            assertEquals(expected, HistoricalCauses.proposal(data).causeString)
         }
 
         private fun doTest(

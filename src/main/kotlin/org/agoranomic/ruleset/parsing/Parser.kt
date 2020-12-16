@@ -10,56 +10,56 @@ interface ProposalDataMap {
     fun dataFor(proposalNumber: BigInteger): ProposalData?
 }
 
-private fun parseMutabilityIndexYaml(index: String): MutabilityIndex {
-    if (index == "unanimity") return MutabilityIndex.Unanimity
-    return MutabilityIndex.Numeric(index.toBigDecimal())
+private fun parseMutabilityIndexYaml(index: String): HistoricalChanges.MutabilityIndex {
+    if (index == "unanimity") return HistoricalChanges.MutabilityIndex.Unanimity
+    return HistoricalChanges.MutabilityIndex.Numeric(index.toBigDecimal())
 }
 
 private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
     when (val changeType = changeNode.getContent("type")) {
-        "enacted" -> enactmentHistoricalChange()
+        "enacted" -> HistoricalChanges.enactment()
         "initial" -> {
             val mutability = when (val mutability = changeNode.getContent("mutability")) {
-                "mutable" -> InitialRuleMutability.MUTABLE
-                "immutable" -> InitialRuleMutability.IMMUTABLE
+                "mutable" -> HistoricalChanges.InitialRuleMutability.MUTABLE
+                "immutable" -> HistoricalChanges.InitialRuleMutability.IMMUTABLE
                 else -> throw IllegalArgumentException("unknown mutability $mutability")
             }
 
             val initialId = changeNode.getContent("id").toBigInteger()
 
-            initialRuleHistoricalChange(mutability = mutability, initialId = initialId)
+            HistoricalChanges.initialRule(mutability = mutability, initialId = initialId)
         }
         "mutation" -> {
             val from = changeNode.getOptValue("old-mi")?.content?.let { parseMutabilityIndexYaml(it) }
             val to = changeNode.getOptValue("new-mi")?.content?.let { parseMutabilityIndexYaml(it) }
 
-            mutationHistoricalChange(from = from, to = to)
+            HistoricalChanges.mutation(from = from, to = to)
         }
-        "renumbering" -> renumberingHistoricalChange()
+        "renumbering" -> HistoricalChanges.renumbering()
         "re-enactment" -> {
             if (changeNode.containsKey("unchanged"))
-                unchangedReenactmentHistoricalChange()
+                HistoricalChanges.unchangedReenactment()
             else
-                changedReenactmentHistoricalChange()
+                HistoricalChanges.changedReenactment()
         }
         "amendment" -> {
             if (changeNode.getOptValue("uncounted")?.content?.toLowerCase()?.toBoolean() == true)
-                uncountedAmendmentHistoricalChange()
+                HistoricalChanges.uncountedAmendment()
             else
-                countedAmendmentHistoricalChange()
+                HistoricalChanges.countedAmendment()
         }
-        "infection-amendment" -> infectionAmendmentHistoricalChange()
-        "infection" -> infectionHistoricalChange()
-        "retitling" -> retitilingHistoricalChange()
-        "repeal" -> repealHistoricalChange()
+        "infection-amendment" -> HistoricalChanges.infectionAmendment()
+        "infection" -> HistoricalChanges.infection()
+        "retitling" -> HistoricalChanges.retitiling()
+        "repeal" -> HistoricalChanges.repeal()
         "power-change" -> {
             val from = changeNode.getOptValue("old-power")?.content?.let { it.toBigDecimal() }
             val to = changeNode.getOptValue("new-power")?.content?.let { it.toBigDecimal() }
 
-            powerChangeHistoricalChange(from = from, to = to)
+            HistoricalChanges.powerChange(from = from, to = to)
         }
-        "committee-assignment" -> committeeAssignmentHistoricalChange(changeNode.getContent("committee"))
-        "unknown" -> unknownHistoricalChange()
+        "committee-assignment" -> HistoricalChanges.committeeAssignment(changeNode.getContent("committee"))
+        "unknown" -> HistoricalChanges.unknown()
         else -> throw IllegalArgumentException("Unknown rule change type $changeType")
     }
 
