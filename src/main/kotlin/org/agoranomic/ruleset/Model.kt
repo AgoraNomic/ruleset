@@ -30,5 +30,5 @@ data class RuleState(
     val power: BigDecimal,
     val text: String,
     val history: RuleHistory,
-    val annotations: RuleAnnotations,
+    val annotations: RuleAnnotations?,
 )
