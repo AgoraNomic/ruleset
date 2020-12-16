@@ -67,11 +67,7 @@ data class RulesetState(
 
     companion object {
         fun from(collection: Collection<RuleState>): RulesetState {
-            return RulesetState(
-                collection
-                    .groupBy { it.id }
-                    .mapValues { (_, v) -> v.distinct().also { require(it.size == 1) }.single() }
-            )
+            return RulesetState(collection.groupByPrimaryKey { it.id })
         }
     }
 
