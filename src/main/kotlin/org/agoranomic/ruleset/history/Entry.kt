@@ -10,6 +10,6 @@ sealed class HistoricalDate {
 
 data class HistoricalEntry(
     val change: HistoricalChange,
-    val cause: HistoricalCause,
+    val cause: HistoricalCause?,
     val date: HistoricalDate,
 )
