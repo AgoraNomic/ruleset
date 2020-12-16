@@ -49,7 +49,7 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
         }
         "infection-amendment" -> HistoricalChanges.infectionAmendment()
         "infection" -> HistoricalChanges.infection()
-        "retitling" -> HistoricalChanges.retitiling()
+        "retitling" -> HistoricalChanges.retitling()
         "repeal" -> HistoricalChanges.repeal()
         "power-change" -> {
             val from = changeNode.getOptValue("old-power")?.content?.let { it.toBigDecimal() }

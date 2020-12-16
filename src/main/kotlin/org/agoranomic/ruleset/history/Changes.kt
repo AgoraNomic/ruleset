@@ -118,7 +118,7 @@ object HistoricalChanges {
     fun changedReenactment() = countedOnceChange(effects(ENACTMENT, TEXT_CHANGE)) { "Re-enacted($it) and amended" }
     fun infectionAmendment() = countedOnceChange(effects(METADATA_CHANGE, TEXT_CHANGE)) { "Infected and amended($it)" }
     fun infection() = uncountedChange("Infected", effects(METADATA_CHANGE))
-    fun retitiling() = uncountedChange("Retitled", effects(METADATA_CHANGE))
+    fun retitling() = uncountedChange("Retitled", effects(METADATA_CHANGE))
     fun repeal() = uncountedChange("Repeal", effects(REPEAL))
 
     fun powerChange(
