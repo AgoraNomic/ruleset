@@ -1,7 +1,9 @@
 package org.agoranomic.ruleset
 
 import kotlinx.collections.immutable.ImmutableList
+import kotlinx.collections.immutable.ImmutableMap
 import kotlinx.collections.immutable.toImmutableList
+import kotlinx.collections.immutable.toImmutableMap
 import org.agoranomic.ruleset.history.HistoricalDate
 import org.agoranomic.ruleset.history.HistoricalEntry
 import java.math.BigDecimal
@@ -58,12 +60,12 @@ data class RuleState(
     val annotations: RuleAnnotations?,
 )
 
-data class RulesetState(
-    private val rulesByNumber: Map<RuleNumber, RuleState>,
-) {
+data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, RuleState>) {
     init {
         require(rulesByNumber.all { it.key == it.value.id })
     }
+
+    constructor(rulesByNumber: Map<RuleNumber, RuleState>) : this(rulesByNumber.toImmutableMap())
 
     companion object {
         fun from(collection: Collection<RuleState>): RulesetState {
