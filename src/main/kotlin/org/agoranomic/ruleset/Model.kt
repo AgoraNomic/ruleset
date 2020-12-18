@@ -60,7 +60,7 @@ data class RuleState(
     val annotations: RuleAnnotations?,
 )
 
-data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, RuleState>) {
+data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, RuleState>) : Iterable<RuleState> {
     init {
         require(rulesByNumber.all { it.key == it.value.id })
     }
@@ -73,7 +73,10 @@ data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, Rule
         }
     }
 
-    val rules get() = rulesByNumber.values
+    override fun iterator(): Iterator<RuleState> {
+        return rulesByNumber.values.iterator()
+    }
+
     val ruleNumbers get() = rulesByNumber.keys
 
     fun ruleByNumber(id: RuleNumber): RuleState {
@@ -93,7 +96,9 @@ data class CategorySpecification(
     val readableDescription: String,
 )
 
-data class CategorySpecificationSet(private val categoriesById: ImmutableMap<CategoryId, CategorySpecification>) {
+data class CategorySpecificationSet(
+    private val categoriesById: ImmutableMap<CategoryId, CategorySpecification>,
+) : Iterable<CategorySpecification> {
     init {
         require(categoriesById.all { it.key == it.value.id })
     }
@@ -106,8 +111,11 @@ data class CategorySpecificationSet(private val categoriesById: ImmutableMap<Cat
         }
     }
 
+    override fun iterator(): Iterator<CategorySpecification> {
+        return categoriesById.values.iterator()
+    }
+
     val categoryIds get() = categoriesById.keys
-    val categories get() = categoriesById.values
 
     fun categoryById(id: CategoryId): CategorySpecification {
         return categoriesById.getValue(id)
