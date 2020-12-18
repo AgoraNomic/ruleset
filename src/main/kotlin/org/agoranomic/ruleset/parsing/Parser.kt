@@ -149,12 +149,7 @@ private fun parseCfjAnnotationNumber(number: String): CfjAnnotationNumber {
 private fun parseCfjAnnotationCaseBlock(topNode: ParsedYamlNode.MapNode): CfjAnnotationCaseBlock {
     return CfjAnnotationCaseBlock(
         number = parseCfjAnnotationNumber(topNode.getContent("id")),
-        calledDate = run { // just to get the formatter to cooperate
-            topNode
-                .getOptContent("called")
-                ?.let { it -> LocalDate.parse(it) }
-                ?.let { HistoricalDate.Known(it) }
-        },
+        calledDate = parseHistoricalDate(topNode.getOptNode("called")),
     )
 }
 
