@@ -94,6 +94,10 @@ data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, Rule
     fun ruleByNumber(id: RuleNumber): RuleState {
         return rulesByNumber.getValue(id)
     }
+
+    fun rulesByNumbers(ids: Collection<RuleNumber>): RulesetState {
+        return from(ids.map { ruleByNumber(it) })
+    }
 }
 
 inline class CategoryId(val raw: String) {
