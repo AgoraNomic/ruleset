@@ -22,8 +22,18 @@ data class ProposalAuthorship(
     )
 }
 
+sealed class ProposalNumber {
+    data class Integral(val number: BigInteger) : ProposalNumber()
+    data class HistoricalOddity(val unparsed: String) : ProposalNumber()
+}
+
+private fun ProposalNumber.readable() = when (this) {
+    is ProposalNumber.Integral -> number.toString()
+    is ProposalNumber.HistoricalOddity -> unparsed
+}
+
 data class ProposalData(
-    val number: BigInteger,
+    val number: ProposalNumber,
     val title: String?,
     val chamber: String?,
     val isDisinterested: Boolean,
@@ -43,7 +53,7 @@ object HistoricalCauses {
 
     fun proposal(data: ProposalData): HistoricalCause {
         return stringCause(
-            "P${data.number}" +
+            "P${data.number.readable()}" +
                     (data.title?.let { " '$it'" } ?: "") +
                     (listOfNotNull(data.chamber, "disi.".takeIf { data.isDisinterested })
                         .takeIf { it.isNotEmpty() }

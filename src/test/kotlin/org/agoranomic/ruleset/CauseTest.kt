@@ -3,6 +3,7 @@ package org.agoranomic.ruleset
 import org.agoranomic.ruleset.history.HistoricalCauses
 import org.agoranomic.ruleset.history.ProposalAuthorship
 import org.agoranomic.ruleset.history.ProposalData
+import org.agoranomic.ruleset.history.ProposalNumber
 import org.junit.jupiter.api.Nested
 import java.math.BigInteger
 import kotlin.test.Test
@@ -27,7 +28,7 @@ class CauseTest {
             authorship: ProposalAuthorship = ProposalAuthorship(author = null, coauthors = null),
         ) {
             return doTest(expected, ProposalData(
-                number = number,
+                number = ProposalNumber.Integral(number),
                 title = title,
                 chamber = chamber,
                 isDisinterested = isDisinterested,

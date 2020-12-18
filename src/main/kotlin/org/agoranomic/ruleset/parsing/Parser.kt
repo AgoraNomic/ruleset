@@ -2,11 +2,10 @@ package org.agoranomic.ruleset.parsing
 
 import org.agoranomic.ruleset.*
 import org.agoranomic.ruleset.history.*
-import java.math.BigInteger
 import java.time.LocalDate
 
 interface ProposalDataMap {
-    fun dataFor(proposalNumber: BigInteger): ProposalData?
+    fun dataFor(proposalNumber: ProposalNumber): ProposalData?
 }
 
 private fun parseMutabilityIndexYaml(index: String): HistoricalChanges.MutabilityIndex {
@@ -75,8 +74,11 @@ private fun parseHistoricalCauseYaml(
 
     return when (causeKind) {
         "proposal" -> HistoricalCauses.proposal(
-            causeNode.requireValue().content.toBigInteger().let {
-                proposalDataMap.dataFor(it) ?: throw IllegalArgumentException("no data for proposal $it")
+            causeNode.requireValue().content.let { numberString ->
+                proposalDataMap.dataFor(
+                    numberString.toBigIntegerOrNull()?.let { ProposalNumber.Integral(it) }
+                        ?: ProposalNumber.HistoricalOddity(numberString)
+                ) ?: throw IllegalArgumentException("No data for proposal $numberString")
             }
         )
         "rule" -> HistoricalCauses.rule(RuleNumber(causeNode.requireValue().content.toBigInteger()))
