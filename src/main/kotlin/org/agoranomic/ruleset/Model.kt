@@ -69,7 +69,7 @@ data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, Rule
 
     companion object {
         fun from(collection: Collection<RuleState>): RulesetState {
-            return RulesetState(collection.groupByPrimaryKey { it.id })
+            return RulesetState(collection.associateByPrimaryKey { it.id })
         }
     }
 
@@ -107,7 +107,7 @@ data class CategorySpecificationSet(
 
     companion object {
         fun from(collection: Collection<CategorySpecification>): CategorySpecificationSet {
-            return CategorySpecificationSet(collection.groupByPrimaryKey { it.id })
+            return CategorySpecificationSet(collection.associateByPrimaryKey { it.id })
         }
     }
 
