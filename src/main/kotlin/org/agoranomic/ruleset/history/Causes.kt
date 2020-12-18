@@ -9,6 +9,19 @@ interface HistoricalCause {
     val causeString: String
 }
 
+interface TaggedHistoricalCause : HistoricalCause {
+    val tag: String
+}
+
+const val PROPOSAL_CAUSE_TAG = "proposal"
+
+interface ProposalTaggedHistoricalCause : TaggedHistoricalCause {
+    override val tag: String
+        get() = PROPOSAL_CAUSE_TAG
+
+    val proposalData: ProposalData
+}
+
 data class ProposalAuthorship(
     val author: String?,
     val coauthors: ImmutableList<String>?,
@@ -51,29 +64,59 @@ object HistoricalCauses {
             get() = lazyString()
     }
 
-    fun proposal(data: ProposalData): HistoricalCause {
-        return stringCause(
-            "P${data.number.readable()}" +
-                    (data.title?.let { " '$it'" } ?: "") +
-                    (listOfNotNull(data.chamber, "disi.".takeIf { data.isDisinterested })
-                        .takeIf { it.isNotEmpty() }
-                        ?.joinToString(", ", prefix = " [", postfix = "]") ?: "") +
-                    (data.authorship
-                        .let { listOfNotNull(it.author) + (it.coauthors ?: emptyList()) }
-                        .takeIf { it.isNotEmpty() }
-                        ?.joinToString(", ", prefix = " (", postfix = ")") ?: "")
-        )
+    private fun HistoricalCause.tagged(tag: String): TaggedHistoricalCause {
+        val newTag = tag // to remove all ambiguity
+
+        if (this is TaggedHistoricalCause) {
+            require(this.tag == newTag)
+            return this
+        }
+
+        return object : HistoricalCause by this, TaggedHistoricalCause {
+            override val tag: String
+                get() = newTag
+        }
     }
 
-    fun rule(ruleNumber: RuleNumber) = stringCause("R$ruleNumber")
-    fun convergence(cause: HistoricalCause) = lazyStringCause { "a convergence caused by ${cause.causeString}" }
-    fun cleaning(cause: String) = stringCause("cleaning ($cause)")
-    fun refiling(cause: String) = stringCause("refiling ($cause)")
-    fun ratification(document: String) = stringCause("$document ratification")
-    fun decree(agent: String) = stringCause("Decree give by $agent")
-    fun tournamentInit(tournament: String, initiator: String) = stringCause("initiation of $tournament by $initiator")
-    fun tournamentChange(tournament: String, agent: String) = stringCause("$agent as part of $tournament")
-    fun tournamentEnd(tournament: String, agent: String) = stringCause("$agent after end of $tournament")
-    fun person(person: String) = stringCause(person)
-    fun rulebending(magister: String) = stringCause("Rulebending Form demonstrated by $magister")
+    fun proposal(data: ProposalData): ProposalTaggedHistoricalCause {
+        return object : ProposalTaggedHistoricalCause {
+            override val causeString: String
+                get() {
+                    return "P${data.number.readable()}" +
+                            (data.title?.let { " '$it'" } ?: "") +
+                            (listOfNotNull(data.chamber, "disi.".takeIf { data.isDisinterested })
+                                .takeIf { it.isNotEmpty() }
+                                ?.joinToString(", ", prefix = " [", postfix = "]") ?: "") +
+                            (data.authorship
+                                .let { listOfNotNull(it.author) + (it.coauthors ?: emptyList()) }
+                                .takeIf { it.isNotEmpty() }
+                                ?.joinToString(", ", prefix = " (", postfix = ")") ?: "")
+                }
+
+            override val proposalData: ProposalData
+                get() = data
+        }
+    }
+
+    fun rule(ruleNumber: RuleNumber) = stringCause("R$ruleNumber").tagged("rule")
+
+    fun convergence(cause: HistoricalCause) =
+        lazyStringCause { "a convergence caused by ${cause.causeString}" }.tagged("convergence")
+
+    fun cleaning(cause: String) = stringCause("cleaning ($cause)").tagged("cleaning")
+    fun refiling(cause: String) = stringCause("refiling ($cause)").tagged("refiling")
+    fun ratification(document: String) = stringCause("$document ratification").tagged("ratification")
+    fun decree(agent: String) = stringCause("Decree give by $agent").tagged("decree")
+
+    fun tournamentInit(tournament: String, initiator: String) =
+        stringCause("initiation of $tournament by $initiator").tagged("tournament_init")
+
+    fun tournamentChange(tournament: String, agent: String) =
+        stringCause("$agent as part of $tournament").tagged("tournament_change")
+
+    fun tournamentEnd(tournament: String, agent: String) =
+        stringCause("$agent after end of $tournament").tagged("tournament_end")
+
+    fun person(person: String) = stringCause(person).tagged("person")
+    fun rulebending(magister: String) = stringCause("Rulebending Form demonstrated by $magister").tagged("rulebending")
 }
