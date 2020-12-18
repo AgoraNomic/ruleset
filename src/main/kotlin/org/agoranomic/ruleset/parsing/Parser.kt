@@ -105,7 +105,7 @@ private fun parseHistoricalCauseYaml(
     }
 }
 
-private fun parseHistoricalDate(topNode: ParsedYamlNode): HistoricalDate {
+private fun parseHistoricalDate(topNode: ParsedYamlNode?): HistoricalDate? {
     return when (topNode) {
         is ParsedYamlNode.ValueNode -> {
             return HistoricalDate.Known(LocalDate.parse(topNode.content))
@@ -123,14 +123,15 @@ private fun parseHistoricalDate(topNode: ParsedYamlNode): HistoricalDate {
         }
 
         is ParsedYamlNode.ListNode -> throw IllegalArgumentException("date cannot be a list")
-        is ParsedYamlNode.NullNode -> throw IllegalArgumentException("date cannnot be null")
+        is ParsedYamlNode.NullNode -> null
+        null -> null
     }
 }
 
 private fun parseHistoryEntryYaml(topNode: ParsedYamlNode.MapNode, proposalDataMap: ProposalDataMap): HistoricalEntry {
     val change = parseHistoricalChangeYaml(topNode.getMap("change"))
     val cause = topNode.getOptMap("agent")?.let { parseHistoricalCauseYaml(it, proposalDataMap) }
-    val date = parseHistoricalDate(topNode.getNode("date"))
+    val date = parseHistoricalDate(topNode.getOptNode("date"))
 
     return HistoricalEntry(change, cause, date)
 }
