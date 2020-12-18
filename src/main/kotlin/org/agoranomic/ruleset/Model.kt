@@ -80,3 +80,36 @@ data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, Rule
         return rulesByNumber.getValue(id)
     }
 }
+
+inline class CategoryId(val raw: String) {
+    override fun toString(): String {
+        return raw
+    }
+}
+
+data class CategorySpecification(
+    val id: CategoryId,
+    val readableName: String,
+    val readableDescription: String,
+)
+
+data class CategorySpecificationSet(private val categoriesById: ImmutableMap<CategoryId, CategorySpecification>) {
+    init {
+        require(categoriesById.all { it.key == it.value.id })
+    }
+
+    constructor(categoriesById: Map<CategoryId, CategorySpecification>) : this(categoriesById.toImmutableMap())
+
+    companion object {
+        fun from(collection: Collection<CategorySpecification>): CategorySpecificationSet {
+            return CategorySpecificationSet(collection.groupByPrimaryKey { it.id })
+        }
+    }
+
+    val categoryIds get() = categoriesById.keys
+    val categories get() = categoriesById.values
+
+    fun categoryById(id: CategoryId): CategorySpecification {
+        return categoriesById.getValue(id)
+    }
+}
