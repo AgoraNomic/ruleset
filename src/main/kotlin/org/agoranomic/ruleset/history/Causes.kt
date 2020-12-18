@@ -10,11 +10,11 @@ interface HistoricalCause {
 }
 
 data class ProposalAuthorship(
-    val author: String,
+    val author: String?,
     val coauthors: ImmutableList<String>?,
 ) {
     constructor(
-        author: String,
+        author: String?,
         coauthors: List<String>?,
     ) : this(
         author = author,
@@ -27,7 +27,7 @@ data class ProposalData(
     val title: String?,
     val chamber: String?,
     val isDisinterested: Boolean,
-    val authorship: ProposalAuthorship?,
+    val authorship: ProposalAuthorship,
 )
 
 object HistoricalCauses {
@@ -49,8 +49,8 @@ object HistoricalCauses {
                         .takeIf { it.isNotEmpty() }
                         ?.joinToString(", ", prefix = " [", postfix = "]") ?: "") +
                     (data.authorship
-                        ?.let { listOfNotNull(it.author) + (it.coauthors ?: emptyList()) }
-                        ?.takeIf { it.isNotEmpty() }
+                        .let { listOfNotNull(it.author) + (it.coauthors ?: emptyList()) }
+                        .takeIf { it.isNotEmpty() }
                         ?.joinToString(", ", prefix = " (", postfix = ")") ?: "")
         )
     }

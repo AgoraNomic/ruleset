@@ -24,7 +24,7 @@ class CauseTest {
             title: String? = null,
             chamber: String? = null,
             isDisinterested: Boolean = false,
-            authorship: ProposalAuthorship? = null,
+            authorship: ProposalAuthorship = ProposalAuthorship(author = null, coauthors = null),
         ) {
             return doTest(expected, ProposalData(
                 number = number,
