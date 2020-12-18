@@ -121,3 +121,35 @@ data class CategorySpecificationSet(
         return categoriesById.getValue(id)
     }
 }
+
+data class CategorizedRulesetState(
+    val ruleset: RulesetState,
+    val categories: CategorySpecificationSet,
+    private val categoryMapping: ImmutableMap<RuleNumber, CategoryId>,
+) {
+    init {
+        require(ruleset.ruleNumbers.containsAll(categoryMapping.keys))
+        require(categories.categoryIds.containsAll(categoryMapping.values))
+    }
+
+    constructor(
+        rulesetState: RulesetState,
+        categories: CategorySpecificationSet,
+        categoryMapping: Map<RuleNumber, CategoryId>,
+    ) : this(
+        rulesetState,
+        categories,
+        categoryMapping.toImmutableMap(),
+    )
+
+    val categorizedRuleNumbers get() = categoryMapping.keys
+    val categorizedRules by lazy { categoryMapping.keys.map { ruleset.ruleByNumber(it) } }
+
+    fun categoryOf(ruleNumber: RuleNumber): CategoryId {
+        return categoryMapping.getValue(ruleNumber)
+    }
+
+    fun rulesIn(categoryId: CategoryId): Set<RuleNumber> {
+        return categoryMapping.filter { it.value == categoryId }.map { it.key }.toSet()
+    }
+}
