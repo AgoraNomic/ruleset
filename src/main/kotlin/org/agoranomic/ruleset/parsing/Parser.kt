@@ -105,7 +105,7 @@ private fun parseHistoricalCauseYaml(
     }
 }
 
-private fun parseHistoricalDate(topNode: ParsedYamlNode?): HistoricalDate? {
+private fun parseHistoricalDate(topNode: ParsedYamlNode): HistoricalDate {
     return when (topNode) {
         is ParsedYamlNode.ValueNode -> {
             return HistoricalDate.Known(LocalDate.parse(topNode.content))
@@ -123,15 +123,14 @@ private fun parseHistoricalDate(topNode: ParsedYamlNode?): HistoricalDate? {
         }
 
         is ParsedYamlNode.ListNode -> throw IllegalArgumentException("date cannot be a list")
-        is ParsedYamlNode.NullNode -> null
-        null -> null
+        is ParsedYamlNode.NullNode -> throw error("NullNode should not have been passed into parseHistoricalDate")
     }
 }
 
 private fun parseHistoryEntryYaml(topNode: ParsedYamlNode.MapNode, proposalDataMap: ProposalDataMap): HistoricalEntry {
     val change = parseHistoricalChangeYaml(topNode.getMap("change"))
     val cause = topNode.getOptMap("agent")?.let { parseHistoricalCauseYaml(it, proposalDataMap) }
-    val date = parseHistoricalDate(topNode.getOptNode("date"))
+    val date = parseHistoricalDate(topNode.getNode("date"))
 
     return HistoricalEntry(change, cause, date)
 }
@@ -149,7 +148,7 @@ private fun parseCfjAnnotationNumber(number: String): CfjAnnotationNumber {
 private fun parseCfjAnnotationCaseBlock(topNode: ParsedYamlNode.MapNode): CfjAnnotationCaseBlock {
     return CfjAnnotationCaseBlock(
         number = parseCfjAnnotationNumber(topNode.getContent("id")),
-        calledDate = parseHistoricalDate(topNode.getOptNode("called")),
+        calledDate = topNode.getOptNode("called")?.let { parseHistoricalDate(it) },
     )
 }
 
