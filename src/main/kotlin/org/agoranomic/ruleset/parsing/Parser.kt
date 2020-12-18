@@ -143,21 +143,29 @@ private fun parseCfjAnnotationNumber(number: String): CfjAnnotationNumber {
     }
 }
 
+private fun parseCfjAnnotationCaseBlock(topNode: ParsedYamlNode.MapNode): CfjAnnotationCaseBlock {
+    return CfjAnnotationCaseBlock(
+        number = parseCfjAnnotationNumber(topNode.getContent("id")),
+        calledDate = run { // just to get the formatter to cooperate
+            topNode
+                .getOptContent("called")
+                ?.let { it -> LocalDate.parse(it) }
+                ?.let { HistoricalDate.Known(it) }
+        },
+    )
+}
+
 private fun parseRulesetAnnotationsYaml(topNode: ParsedYamlNode.ListNode): RuleAnnotations {
     return RuleAnnotations(topNode.values.map { it.requireMap() }.map { mapNode ->
         when {
             mapNode.containsKey("cfjs") -> {
-                val cfjsNode = mapNode.getList("cfjs").values.single().requireMap()
+                val cfjsNode = mapNode.getList("cfjs")
+                val caseBlocks = cfjsNode.values.map { parseCfjAnnotationCaseBlock(it.requireMap()) }
+
                 val text = mapNode.getContent("text")
 
                 HistoricalCfjAnnotation(
-                    number = parseCfjAnnotationNumber(cfjsNode.getContent("id")),
-                    calledDate = run { // just to get the formatter to cooperate
-                        cfjsNode
-                            .getOptContent("called")
-                            ?.let { it -> LocalDate.parse(it) }
-                            ?.let { HistoricalDate.Known(it) }
-                    },
+                    blocks = caseBlocks,
                     finding = text,
                 )
             }

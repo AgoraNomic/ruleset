@@ -26,11 +26,23 @@ sealed class CfjAnnotationNumber {
     data class Range(val first: CfjNumber, val last: CfjNumber) : CfjAnnotationNumber()
 }
 
-data class HistoricalCfjAnnotation(
+data class CfjAnnotationCaseBlock(
     val number: CfjAnnotationNumber,
     val calledDate: HistoricalDate?,
+)
+
+data class HistoricalCfjAnnotation(
+    val blocks: ImmutableList<CfjAnnotationCaseBlock>,
     val finding: String,
-) : RuleAnnotation()
+) : RuleAnnotation() {
+    constructor(
+        blocks: List<CfjAnnotationCaseBlock>,
+        finding: String,
+    ) : this(
+        blocks.toImmutableList(),
+        finding,
+    )
+}
 
 data class RuleHistory(val entries: ImmutableList<HistoricalEntry>) {
     // TODO: enforce constraints
