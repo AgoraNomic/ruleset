@@ -16,7 +16,7 @@ private fun parseMutabilityIndexYaml(index: String): HistoricalChanges.Mutabilit
 
 private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
     when (val changeType = changeNode.getContent("type")) {
-        "enacted" -> HistoricalChanges.enactment()
+        "enactment" -> HistoricalChanges.enactment()
         "initial" -> {
             val mutability = when (val mutability = changeNode.getContent("mutability")) {
                 "mutable" -> HistoricalChanges.InitialRuleMutability.MUTABLE
@@ -35,7 +35,7 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
             HistoricalChanges.mutation(from = from, to = to)
         }
         "renumbering" -> HistoricalChanges.renumbering()
-        "re-enactment" -> {
+        "reenactment" -> {
             if (changeNode.containsKey("unchanged"))
                 HistoricalChanges.unchangedReenactment()
             else
