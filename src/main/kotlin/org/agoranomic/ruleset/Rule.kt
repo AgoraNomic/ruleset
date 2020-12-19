@@ -32,7 +32,7 @@ data class RuleState(
     val annotations: RuleAnnotations?,
 )
 
-data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, RuleState>) : Iterable<RuleState> {
+data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, RuleState>) : Collection<RuleState> {
     init {
         require(rulesByNumber.all { it.key == it.value.id })
     }
@@ -57,5 +57,20 @@ data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, Rule
 
     fun rulesByNumbers(ids: Collection<RuleNumber>): RulesetState {
         return from(ids.map { ruleByNumber(it) })
+    }
+
+    override val size: Int
+        get() = rulesByNumber.size
+
+    override fun contains(element: RuleState): Boolean {
+        return rulesByNumber.containsValue(element)
+    }
+
+    override fun containsAll(elements: Collection<RuleState>): Boolean {
+        return rulesByNumber.values.containsAll(elements)
+    }
+
+    override fun isEmpty(): Boolean {
+        return rulesByNumber.isEmpty()
     }
 }
