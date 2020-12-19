@@ -11,7 +11,7 @@ fun parseIndexYaml(yaml: String): RuleCategoryMapping {
         val category = CategorySpecification(
             id = CategoryId(name), // nothing better to use as the id in the existing YAML format
             readableName = name,
-            readableDescription = mapNode.getContent("note")
+            readableDescription = mapNode.getContent("note").trim()
         )
 
         val rules =
