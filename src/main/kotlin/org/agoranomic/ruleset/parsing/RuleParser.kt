@@ -171,7 +171,7 @@ private fun parseRulesetAnnotationsYaml(topNode: ParsedYamlNode.ListNode): RuleA
 
                 HistoricalCfjAnnotation(
                     blocks = caseBlocks,
-                    finding = text,
+                    finding = text.trim(),
                 )
             }
 
