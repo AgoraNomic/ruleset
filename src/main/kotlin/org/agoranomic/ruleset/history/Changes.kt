@@ -124,7 +124,7 @@ object HistoricalChanges {
     private object Infection : UncountedHistoricalChange("Infected", effects(METADATA_CHANGE))
     private object Retitling : UncountedHistoricalChange("Retitled", effects(METADATA_CHANGE))
     private object Repeal : UncountedHistoricalChange("Repeal", effects(REPEAL))
-    private object CountedAmendment : CountedOnceChange({ "Amended ($it)" }, effects(TEXT_CHANGE))
+    private object CountedAmendment : CountedOnceChange({ "Amended($it)" }, effects(TEXT_CHANGE))
     private object UncountedAmendment : UncountedHistoricalChange("Amended", effects(TEXT_CHANGE))
     private object Unknown : UncountedHistoricalChange("History unknown...", effects(UNKNOWN))
     private object UnchangedReenactment : CountedOnceChange({ "Re-enacted($it)" }, effects(ENACTMENT))
