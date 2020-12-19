@@ -16,8 +16,8 @@ import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 
 private object ThrowingProposalDataMap : ProposalDataMap {
-    override fun dataFor(proposalNumber: ProposalNumber): ProposalData? {
-        throw AssertionError("Unexpected proposal lookup: $proposalNumber")
+    override fun dataFor(proposalSpecification: String): ProposalData? {
+        throw AssertionError("Unexpected proposal lookup: $proposalSpecification")
     }
 }
 
@@ -133,7 +133,9 @@ class YamlTest {
             val bigNumbers = numbers.map { ProposalNumber.Integral(it.toBigInteger()) }
 
             return object : ProposalDataMap {
-                override fun dataFor(proposalNumber: ProposalNumber): ProposalData? {
+                override fun dataFor(proposalSpecification: String): ProposalData? {
+                    val proposalNumber = ProposalNumber.Integral(proposalSpecification.toBigInteger())
+
                     if (proposalNumber in bigNumbers) {
                         return ProposalData(
                             number = proposalNumber,
@@ -186,7 +188,7 @@ class YamlTest {
                         listOf(
                             HistoricalEntry(
                                 HistoricalChanges.enactment(),
-                                HistoricalCauses.proposal(dataMap.dataFor(ProposalNumber.Integral(BigInteger.ONE))!!),
+                                HistoricalCauses.proposal(dataMap.dataFor("1")!!),
                                 HistoricalDate.Known(LocalDate.of(2020, 10, 11)),
                             ),
                         )
@@ -234,7 +236,7 @@ class YamlTest {
             listOf(
                 HistoricalEntry(
                     HistoricalChanges.enactment(),
-                    HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor(ProposalNumber.Integral(BigInteger.ONE))!!),
+                    HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
                     HistoricalDate.Known(LocalDate.of(2020, 10, 11)),
                 ),
             ),
@@ -260,8 +262,7 @@ class YamlTest {
                         listOf(
                             HistoricalEntry(
                                 HistoricalChanges.enactment(),
-                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor(ProposalNumber.Integral(
-                                    BigInteger.ONE))!!),
+                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
                                 HistoricalDate.Around(LocalDate.of(2020, 10, 11)),
                             ),
                         ),
@@ -290,8 +291,7 @@ class YamlTest {
                         listOf(
                             HistoricalEntry(
                                 HistoricalChanges.enactment(),
-                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor(ProposalNumber.Integral(
-                                    BigInteger.ONE))!!),
+                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
                                 HistoricalDate.Between(
                                     LocalDate.of(2020, 10, 11),
                                     LocalDate.of(2020, 10, 20),
