@@ -54,69 +54,71 @@ data class ProposalData(
 )
 
 object HistoricalCauses {
-    private fun stringCause(value: String) = object : HistoricalCause {
+    fun proposal(data: ProposalData): ProposalTaggedHistoricalCause = Proposal(proposalData = data)
+    fun rule(ruleNumber: RuleNumber): HistoricalCause = Rule(ruleNumber = ruleNumber)
+    fun convergence(cause: HistoricalCause): HistoricalCause = Convergence(cause = cause)
+    fun cleaning(cause: String): HistoricalCause = Cleaning(cause = cause)
+    fun refiling(cause: String): HistoricalCause = Refiling(cause = cause)
+    fun ratification(document: String): HistoricalCause = Ratification(document)
+    fun decree(agent: String): HistoricalCause = Decree(agent = agent)
+    fun person(person: String): HistoricalCause = Person(person = person)
+    fun rulebending(magister: String): HistoricalCause = Rulebending(magister = magister)
+
+    fun tournamentInit(tournament: String, initiator: String): HistoricalCause =
+        TournamentInit(tournament = tournament, initiator = initiator)
+
+    fun tournamentChange(tournament: String, agent: String): HistoricalCause =
+        TournamentChange(tournament = tournament, agent = agent)
+
+    fun tournamentEnd(tournament: String, agent: String): HistoricalCause =
+        TournamentEnd(tournament = tournament, agent = agent)
+
+    private abstract class BaseCause(
+        override val tag: String,
+        override val causeString: String,
+    ) : TaggedHistoricalCause
+
+    private data class Proposal(override val proposalData: ProposalData) : BaseCause(
+        PROPOSAL_CAUSE_TAG,
+        "P${proposalData.number.readable()}" +
+                (proposalData.title?.let { " '$it'" } ?: "") +
+                (listOfNotNull(proposalData.chamber, "disi.".takeIf { proposalData.isDisinterested })
+                    .takeIf { it.isNotEmpty() }
+                    ?.joinToString(", ", prefix = " [", postfix = "]") ?: "") +
+                (proposalData.authorship
+                    .let { listOfNotNull(it.author) + (it.coauthors ?: emptyList()) }
+                    .takeIf { it.isNotEmpty() }
+                    ?.joinToString(", ", prefix = " (", postfix = ")") ?: "")
+    ), ProposalTaggedHistoricalCause {
+        // TODO fix this ugliness
+        override val tag: String
+            get() = PROPOSAL_CAUSE_TAG
+    }
+
+    private data class Convergence(val cause: HistoricalCause) : TaggedHistoricalCause {
+        override val tag: String
+            get() = "convergence"
+
         override val causeString: String
-            get() = value
+            get() = "a convergence caused by ${cause.causeString}"
     }
 
-    private inline fun lazyStringCause(crossinline lazyString: () -> String) = object : HistoricalCause {
-        override val causeString: String
-            get() = lazyString()
-    }
+    private data class Rule(val ruleNumber: RuleNumber) : BaseCause("rule", "R$ruleNumber")
+    private data class Cleaning(val cause: String) : BaseCause("cleaning", "cleaning ($cause)")
+    private data class Refiling(val cause: String) : BaseCause("refiling", "refiling ($cause)")
+    private data class Ratification(val document: String) : BaseCause("ratification", "$document ratification")
+    private data class Decree(val agent: String) : BaseCause("decree", "decree given by $agent")
+    private data class Person(val person: String) : BaseCause("person", person)
 
-    private fun HistoricalCause.tagged(tag: String): TaggedHistoricalCause {
-        val newTag = tag // to remove all ambiguity
+    private data class TournamentInit(val tournament: String, val initiator: String) :
+        BaseCause("tournament_init", "initiation of $tournament by $initiator")
 
-        if (this is TaggedHistoricalCause) {
-            require(this.tag == newTag)
-            return this
-        }
+    private data class TournamentChange(val tournament: String, val agent: String) :
+        BaseCause("tournament_change", "$agent as part of $tournament")
 
-        return object : HistoricalCause by this, TaggedHistoricalCause {
-            override val tag: String
-                get() = newTag
-        }
-    }
+    private data class TournamentEnd(val tournament: String, val agent: String) :
+        BaseCause("tournament_end", "$agent after end of $tournament")
 
-    fun proposal(data: ProposalData): ProposalTaggedHistoricalCause {
-        return object : ProposalTaggedHistoricalCause {
-            override val causeString: String
-                get() {
-                    return "P${data.number.readable()}" +
-                            (data.title?.let { " '$it'" } ?: "") +
-                            (listOfNotNull(data.chamber, "disi.".takeIf { data.isDisinterested })
-                                .takeIf { it.isNotEmpty() }
-                                ?.joinToString(", ", prefix = " [", postfix = "]") ?: "") +
-                            (data.authorship
-                                .let { listOfNotNull(it.author) + (it.coauthors ?: emptyList()) }
-                                .takeIf { it.isNotEmpty() }
-                                ?.joinToString(", ", prefix = " (", postfix = ")") ?: "")
-                }
-
-            override val proposalData: ProposalData
-                get() = data
-        }
-    }
-
-    fun rule(ruleNumber: RuleNumber) = stringCause("R$ruleNumber").tagged("rule")
-
-    fun convergence(cause: HistoricalCause) =
-        lazyStringCause { "a convergence caused by ${cause.causeString}" }.tagged("convergence")
-
-    fun cleaning(cause: String) = stringCause("cleaning ($cause)").tagged("cleaning")
-    fun refiling(cause: String) = stringCause("refiling ($cause)").tagged("refiling")
-    fun ratification(document: String) = stringCause("$document ratification").tagged("ratification")
-    fun decree(agent: String) = stringCause("Decree give by $agent").tagged("decree")
-
-    fun tournamentInit(tournament: String, initiator: String) =
-        stringCause("initiation of $tournament by $initiator").tagged("tournament_init")
-
-    fun tournamentChange(tournament: String, agent: String) =
-        stringCause("$agent as part of $tournament").tagged("tournament_change")
-
-    fun tournamentEnd(tournament: String, agent: String) =
-        stringCause("$agent after end of $tournament").tagged("tournament_end")
-
-    fun person(person: String) = stringCause(person).tagged("person")
-    fun rulebending(magister: String) = stringCause("Rulebending Form demonstrated by $magister").tagged("rulebending")
+    private data class Rulebending(val magister: String) :
+        BaseCause("rulebending", "Rulebending Form demonstrated by $magister")
 }
