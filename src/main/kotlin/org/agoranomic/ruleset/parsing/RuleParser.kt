@@ -4,7 +4,7 @@ import org.agoranomic.ruleset.*
 import org.agoranomic.ruleset.history.*
 import java.time.LocalDate
 
-interface ProposalDataMap {
+interface YamlProposalDataMap {
     fun dataFor(proposalSpecification: String): ProposalData?
 }
 
@@ -63,7 +63,7 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
 
 private fun parseHistoricalCauseYaml(
     topNode: ParsedYamlNode.MapNode,
-    proposalDataMap: ProposalDataMap,
+    proposalDataMap: YamlProposalDataMap,
 ): HistoricalCause {
     val causeKind = topNode.keys.singleOrNull() ?: throw IllegalArgumentException("multiple cause kinds specified")
     val causeNode = topNode[causeKind] ?: error("")
@@ -128,7 +128,10 @@ private fun parseHistoricalDate(topNode: ParsedYamlNode): HistoricalDate {
     }
 }
 
-private fun parseHistoryEntryYaml(topNode: ParsedYamlNode.MapNode, proposalDataMap: ProposalDataMap): HistoricalEntry {
+private fun parseHistoryEntryYaml(
+    topNode: ParsedYamlNode.MapNode,
+    proposalDataMap: YamlProposalDataMap,
+): HistoricalEntry {
     val change = parseHistoricalChangeYaml(topNode.getMap("change"))
     val cause = topNode.getOptMap("agent")?.let { parseHistoricalCauseYaml(it, proposalDataMap) }
     val date = parseHistoricalDate(topNode.getNode("date"))
@@ -177,7 +180,7 @@ private fun parseRulesetAnnotationsYaml(topNode: ParsedYamlNode.ListNode): RuleA
     })
 }
 
-fun parseRuleStateYaml(yaml: String, proposalDataMap: ProposalDataMap): RuleState {
+fun parseRuleStateYaml(yaml: String, proposalDataMap: YamlProposalDataMap): RuleState {
     val topNode = parseRawYaml(yaml).requireMap()
 
     val id = RuleNumber(

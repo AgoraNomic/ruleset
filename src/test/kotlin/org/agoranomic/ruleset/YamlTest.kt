@@ -4,7 +4,7 @@ import kotlinx.collections.immutable.persistentListOf
 import org.agoranomic.ruleset.history.*
 import org.agoranomic.ruleset.parsing.ParsedYamlNode
 import org.agoranomic.ruleset.parsing.ParsedYamlNode.*
-import org.agoranomic.ruleset.parsing.ProposalDataMap
+import org.agoranomic.ruleset.parsing.YamlProposalDataMap
 import org.agoranomic.ruleset.parsing.parseRawYaml
 import org.agoranomic.ruleset.parsing.parseRuleStateYaml
 import org.junit.jupiter.api.Nested
@@ -15,7 +15,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 
-private object ThrowingProposalDataMap : ProposalDataMap {
+private object ThrowingYamlProposalDataMap : YamlProposalDataMap {
     override fun dataFor(proposalSpecification: String): ProposalData? {
         throw AssertionError("Unexpected proposal lookup: $proposalSpecification")
     }
@@ -124,15 +124,15 @@ class YamlTest {
         private fun doTest(
             expected: RuleState,
             yaml: String,
-            proposalDataMap: ProposalDataMap = ThrowingProposalDataMap,
+            proposalDataMap: YamlProposalDataMap = ThrowingYamlProposalDataMap,
         ) {
             assertEquals(expected, parseRuleStateYaml(yaml, proposalDataMap))
         }
 
-        private fun proposaDataMapFor(vararg numbers: Int): ProposalDataMap {
+        private fun proposaDataMapFor(vararg numbers: Int): YamlProposalDataMap {
             val bigNumbers = numbers.map { ProposalNumber.Integral(it.toBigInteger()) }
 
-            return object : ProposalDataMap {
+            return object : YamlProposalDataMap {
                 override fun dataFor(proposalSpecification: String): ProposalData? {
                     val proposalNumber = ProposalNumber.Integral(proposalSpecification.toBigInteger())
 
@@ -151,7 +151,7 @@ class YamlTest {
             }
         }
 
-        private fun doTestIAE(yaml: String, proposalDataMap: ProposalDataMap = ThrowingProposalDataMap) {
+        private fun doTestIAE(yaml: String, proposalDataMap: YamlProposalDataMap = ThrowingYamlProposalDataMap) {
             assertFailsWith<IllegalArgumentException> {
                 parseRuleStateYaml(yaml, proposalDataMap)
             }
