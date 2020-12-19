@@ -116,7 +116,10 @@ private fun parseHistoricalDate(topNode: ParsedYamlNode): HistoricalDate {
                 topNode.containsKey("around") -> HistoricalDate.Around(LocalDate.parse(topNode.getContent("around")))
                 topNode.containsKey("between") -> HistoricalDate.Between(
                     LocalDate.parse(topNode.getContent("between")),
-                    LocalDate.parse(topNode.getContent("and")),
+                    LocalDate.parse(
+                        topNode.getOptContent("and")
+                            ?: throw IllegalArgumentException("Date that contains a begin node should have an and node")
+                    ),
                 )
                 else -> throw IllegalArgumentException("invalid date map: $topNode")
             }
@@ -136,7 +139,11 @@ private fun parseHistoryEntryYaml(topNode: ParsedYamlNode.MapNode, proposalDataM
 }
 
 private fun parseCfjAnnotationNumber(number: String): CfjAnnotationNumber {
-    val parts = number.split("-").map { it.toBigInteger() }.map { CfjNumber(it) }
+    val parts =
+        number
+            .split("-")
+            .map { it.toBigIntegerOrNull() ?: throw IllegalArgumentException("Illegal CFJ number part: $it") }
+            .map { CfjNumber(it) }
 
     return when (parts.size) {
         1 -> CfjAnnotationNumber.Single(parts.single())
@@ -174,9 +181,23 @@ private fun parseRulesetAnnotationsYaml(topNode: ParsedYamlNode.ListNode): RuleA
 
 fun parseRuleStateYaml(yaml: String, proposalDataMap: ProposalDataMap): RuleState {
     val topNode = parseRawYaml(yaml).requireMap()
-    val id = RuleNumber(topNode.getContent("id").toBigInteger())
+
+    val id = RuleNumber(
+        topNode
+            .getContent("id")
+            .let { it.toBigIntegerOrNull() ?: throw IllegalArgumentException("Rule id should be an integer, got $it") }
+    )
+
     val title = topNode.getContent("name")
-    val power = topNode.getContent("power").toBigDecimal()
+
+    val power =
+        topNode
+            .getContent("power")
+            .let {
+                it.toBigDecimalOrNull()
+                    ?: throw IllegalArgumentException("Rule power should be a decimal number, got $it")
+            }
+
     val text = topNode.getContent("text")
 
     val history = RuleHistory(
