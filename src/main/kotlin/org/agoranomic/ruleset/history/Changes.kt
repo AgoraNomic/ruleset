@@ -96,7 +96,7 @@ object HistoricalChanges {
             when (mutability) {
                 InitialRuleMutability.MUTABLE -> "mutable"
                 InitialRuleMutability.IMMUTABLE -> "immutable"
-            }.let { mutabilityString -> "initial $mutabilityString rule $initialId" },
+            }.let { mutabilityString -> "Initial $mutabilityString rule $initialId" },
             effects(ENACTMENT),
         )
 
