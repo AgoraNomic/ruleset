@@ -36,8 +36,17 @@ data class ProposalAuthorship(
 }
 
 sealed class ProposalNumber {
-    data class Integral(val number: BigInteger) : ProposalNumber()
-    data class HistoricalOddity(val unparsed: String) : ProposalNumber()
+    data class Integral(val number: BigInteger) : ProposalNumber() {
+        override val readable: String
+            get() = number.toString()
+    }
+
+    data class HistoricalOddity(val unparsed: String) : ProposalNumber() {
+        override val readable: String
+            get() = unparsed
+    }
+
+    abstract val readable: String
 }
 
 private fun ProposalNumber.readable() = when (this) {
