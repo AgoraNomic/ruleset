@@ -40,6 +40,25 @@ data class HistoricalCfjAnnotation(
     )
 }
 
-data class RuleAnnotations(val annotations: ImmutableList<RuleAnnotation>) {
+data class RuleAnnotations(val annotations: ImmutableList<RuleAnnotation>) : Collection<RuleAnnotation> {
     constructor(annotations: List<RuleAnnotation>) : this(annotations.toImmutableList())
+
+    override val size: Int
+        get() = annotations.size
+
+    override fun contains(element: RuleAnnotation): Boolean {
+        return annotations.contains(element)
+    }
+
+    override fun containsAll(elements: Collection<RuleAnnotation>): Boolean {
+        return annotations.containsAll(elements)
+    }
+
+    override fun isEmpty(): Boolean {
+        return annotations.isEmpty()
+    }
+
+    override fun iterator(): Iterator<RuleAnnotation> {
+        return annotations.iterator()
+    }
 }
