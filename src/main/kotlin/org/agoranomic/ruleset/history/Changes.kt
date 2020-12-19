@@ -21,74 +21,9 @@ interface HistoricalChange {
 }
 
 object HistoricalChanges {
-    private fun effects(
-        first: HistoricalChangeEffect,
-        vararg rest: HistoricalChangeEffect,
-    ): ImmutableSet<HistoricalChangeEffect> {
-        return persistentSetOf(first, *rest)
-    }
-
-    private fun uncountedChange(
-        value: String,
-        effects: ImmutableSet<HistoricalChangeEffect>,
-    ): HistoricalChange {
-        return object : HistoricalChange {
-            override val effects: ImmutableSet<HistoricalChangeEffect>
-                get() = effects
-
-            override val changeCount: Int
-                get() = 0
-
-            override fun formatEffect(baseChangeNumber: Int): String {
-                return value
-            }
-        }
-    }
-
-    private fun countedManyChange(
-        changeCount: Int,
-        effects: ImmutableSet<HistoricalChangeEffect>,
-        format: (List<Int>) -> String,
-    ): HistoricalChange {
-        require(changeCount > 0)
-
-        return object : HistoricalChange {
-            override val effects: ImmutableSet<HistoricalChangeEffect>
-                get() = effects
-
-            override val changeCount
-                get() = changeCount
-
-            override fun formatEffect(baseChangeNumber: Int): String {
-                return format(List(changeCount) { baseChangeNumber + it })
-            }
-        }
-    }
-
-    private fun countedOnceChange(
-        effects: ImmutableSet<HistoricalChangeEffect>,
-        format: (Int) -> String,
-    ): HistoricalChange {
-        return countedManyChange(1, effects) { list -> format(list.single()) }
-    }
-
-    fun enactment() = uncountedChange("Enacted", effects(ENACTMENT))
-
     enum class InitialRuleMutability {
         MUTABLE, IMMUTABLE,
     }
-
-    fun initialRule(mutability: InitialRuleMutability, initialId: BigInteger): HistoricalChange {
-        val mutabilityString = when (mutability) {
-            InitialRuleMutability.MUTABLE -> "mutable"
-            InitialRuleMutability.IMMUTABLE -> "immutable"
-        }
-
-        return uncountedChange("initial $mutabilityString rule $initialId", effects(ENACTMENT))
-    }
-
-    fun countedAmendment() = countedOnceChange(effects(TEXT_CHANGE)) { "Amended ($it)" }
-    fun uncountedAmendment() = uncountedChange("Amended", effects(TEXT_CHANGE))
 
     sealed class MutabilityIndex {
         data class Numeric(val value: BigDecimal) : MutabilityIndex() {
@@ -104,35 +39,99 @@ object HistoricalChanges {
         }
     }
 
-    fun mutation(
-        from: MutabilityIndex?,
-        to: MutabilityIndex?,
-    ) = uncountedChange(
-        "Mutated${from?.let { " from MI=$it" } ?: ""}${to?.let { " to MI=$it" } ?: ""}",
-        effects(TEXT_CHANGE),
-    )
+    fun initialRule(mutability: InitialRuleMutability, initialId: BigInteger): HistoricalChange =
+        InitialRule(mutability = mutability, initialId = initialId)
 
-    fun renumbering() = uncountedChange("Renumbered", effects(METADATA_CHANGE))
+    fun mutation(from: MutabilityIndex?, to: MutabilityIndex?): HistoricalChange = Mutation(from = from, to = to)
+    fun powerChange(from: BigDecimal?, to: BigDecimal?): HistoricalChange = PowerChange(from = from, to = to)
+    fun committeeAssignment(committee: String): HistoricalChange = CommitteeAssignment(committee = committee)
 
-    fun unchangedReenactment() = countedOnceChange(effects(ENACTMENT)) { "Re-enacted($it)" }
-    fun changedReenactment() = countedOnceChange(effects(ENACTMENT, TEXT_CHANGE)) { "Re-enacted($it) and amended" }
-    fun infectionAmendment() = countedOnceChange(effects(METADATA_CHANGE, TEXT_CHANGE)) { "Infected and amended($it)" }
-    fun infection() = uncountedChange("Infected", effects(METADATA_CHANGE))
-    fun retitling() = uncountedChange("Retitled", effects(METADATA_CHANGE))
-    fun repeal() = uncountedChange("Repeal", effects(REPEAL))
+    fun enactment(): HistoricalChange = Enactment
+    fun countedAmendment(): HistoricalChange = CountedAmendment
+    fun uncountedAmendment(): HistoricalChange = UncountedAmendment
+    fun renumbering(): HistoricalChange = Renumbering
+    fun unchangedReenactment(): HistoricalChange = UnchangedReenactment
+    fun changedReenactment(): HistoricalChange = ChangedReenactment
+    fun infectionAmendment(): HistoricalChange = InfectionAmendment
+    fun infection(): HistoricalChange = Infection
+    fun retitling(): HistoricalChange = Retitling
+    fun repeal(): HistoricalChange = Repeal
+    fun unknown(): HistoricalChange = Unknown
 
-    fun powerChange(
-        from: BigDecimal?,
-        to: BigDecimal?,
-    ) = uncountedChange(
-        "Power changed${from?.let { " from $it" } ?: ""}${to?.let { " to $it" } ?: ""}",
-        effects(METADATA_CHANGE),
-    )
+    private fun effects(
+        first: HistoricalChangeEffect,
+        vararg rest: HistoricalChangeEffect,
+    ): ImmutableSet<HistoricalChangeEffect> {
+        return persistentSetOf(first, *rest)
+    }
 
-    fun committeeAssignment(committee: String) = uncountedChange(
-        "Assigned to the $committee",
-        effects(METADATA_CHANGE),
-    )
+    abstract class CountedOnceChange(
+        private val formatter: (Int) -> String,
+        final override val effects: ImmutableSet<HistoricalChangeEffect>,
+    ) : HistoricalChange {
+        final override val changeCount: Int
+            get() = 1
 
-    fun unknown() = uncountedChange("History unknown...", effects(UNKNOWN))
+        final override fun formatEffect(baseChangeNumber: Int): String {
+            return formatter(baseChangeNumber)
+        }
+    }
+
+    private abstract class UncountedHistoricalChange(
+        private val value: String,
+        override val effects: ImmutableSet<HistoricalChangeEffect>,
+    ) : HistoricalChange {
+        override val changeCount: Int
+            get() = 0
+
+        override fun formatEffect(baseChangeNumber: Int): String {
+            return value
+        }
+    }
+
+    // The below must be types in order to ensure that equality works correctly
+
+    private data class InitialRule(val mutability: InitialRuleMutability, val initialId: BigInteger) :
+        UncountedHistoricalChange(
+            when (mutability) {
+                InitialRuleMutability.MUTABLE -> "mutable"
+                InitialRuleMutability.IMMUTABLE -> "immutable"
+            }.let { mutabilityString -> "initial $mutabilityString rule $initialId" },
+            effects(ENACTMENT),
+        )
+
+    private data class Mutation(val from: MutabilityIndex?, val to: MutabilityIndex?) :
+        UncountedHistoricalChange(
+            "Mutated${from?.let { " from MI=$it" } ?: ""}${to?.let { " to MI=$it" } ?: ""}",
+            effects(TEXT_CHANGE),
+        )
+
+
+    private data class PowerChange(val from: BigDecimal?, val to: BigDecimal?) :
+        UncountedHistoricalChange(
+            "Power changed${from?.let { " from $it" } ?: ""}${to?.let { " to $it" } ?: ""}",
+            effects(METADATA_CHANGE),
+        )
+
+    private data class CommitteeAssignment(val committee: String) :
+        UncountedHistoricalChange(
+            "Assigned to the $committee",
+            effects(METADATA_CHANGE),
+        )
+
+    private object Enactment : UncountedHistoricalChange("Enacted", effects(ENACTMENT))
+    private object Renumbering : UncountedHistoricalChange("Renumbered", effects(METADATA_CHANGE))
+    private object Infection : UncountedHistoricalChange("Infected", effects(METADATA_CHANGE))
+    private object Retitling : UncountedHistoricalChange("Retitled", effects(METADATA_CHANGE))
+    private object Repeal : UncountedHistoricalChange("Repeal", effects(REPEAL))
+    private object CountedAmendment : CountedOnceChange({ "Amended ($it)" }, effects(TEXT_CHANGE))
+    private object UncountedAmendment : UncountedHistoricalChange("Amended", effects(TEXT_CHANGE))
+    private object Unknown : UncountedHistoricalChange("History unknown...", effects(UNKNOWN))
+    private object UnchangedReenactment : CountedOnceChange({ "Re-enacted($it)" }, effects(ENACTMENT))
+
+    private object ChangedReenactment :
+        CountedOnceChange({ "Re-enacted($it) and amended" }, effects(ENACTMENT, TEXT_CHANGE))
+
+    private object InfectionAmendment :
+        CountedOnceChange({ "Infected and amended($it)" }, effects(METADATA_CHANGE, TEXT_CHANGE))
 }
