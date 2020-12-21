@@ -64,6 +64,7 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
 private fun parseHistoricalCauseYaml(
     topNode: ParsedYamlNode.MapNode,
     proposalDataMap: YamlProposalDataMap,
+    ruleNumberResolver: RuleNumberResolver,
 ): HistoricalCause {
     val causeKind = topNode.keys.singleOrNull() ?: throw IllegalArgumentException("multiple cause kinds specified")
     val causeNode = topNode[causeKind] ?: error("")
@@ -79,8 +80,10 @@ private fun parseHistoricalCauseYaml(
                     ?: throw IllegalArgumentException("No data for proposal $numberString")
             }
         )
-        "rule" -> HistoricalCauses.rule(RuleNumber(causeNode.requireValue().content.toBigInteger()))
-        "convergence" -> HistoricalCauses.convergence(parseHistoricalCauseYaml(causeMap, proposalDataMap))
+        "rule" -> HistoricalCauses.rule(ruleNumberResolver.resolve(causeContent))
+        "convergence" -> HistoricalCauses.convergence(
+            parseHistoricalCauseYaml(causeMap, proposalDataMap, ruleNumberResolver)
+        )
         "cleaning" -> HistoricalCauses.cleaning(causeMap.getContent("by"))
         "refiling" -> HistoricalCauses.refiling(causeMap.getContent("by"))
         "ratification" -> HistoricalCauses.ratification(causeMap.getContent("document"))
@@ -131,9 +134,13 @@ private fun parseHistoricalDate(topNode: ParsedYamlNode): HistoricalDate {
 private fun parseHistoryEntryYaml(
     topNode: ParsedYamlNode.MapNode,
     proposalDataMap: YamlProposalDataMap,
+    ruleNumberResolver: RuleNumberResolver,
 ): HistoricalEntry {
     val change = parseHistoricalChangeYaml(topNode.getMap("change"))
-    val cause = topNode.getOptMap("agent")?.let { parseHistoricalCauseYaml(it, proposalDataMap) }
+
+    val cause =
+        topNode.getOptMap("agent")?.let { parseHistoricalCauseYaml(it, proposalDataMap, ruleNumberResolver) }
+
     val date = parseHistoricalDate(topNode.getNode("date"))
 
     return HistoricalEntry(change, cause, date)
@@ -180,15 +187,14 @@ private fun parseRulesetAnnotationsYaml(topNode: ParsedYamlNode.ListNode): RuleA
     })
 }
 
-fun parseRuleStateYaml(yaml: String, proposalDataMap: YamlProposalDataMap): RuleState {
+fun parseRuleStateYaml(
+    yaml: String,
+    proposalDataMap: YamlProposalDataMap,
+    ruleNumberResolver: RuleNumberResolver,
+): RuleState {
     val topNode = parseRawYaml(yaml).requireMap()
 
-    val id = RuleNumber(
-        topNode
-            .getContent("id")
-            .let { it.toBigIntegerOrNull() ?: throw IllegalArgumentException("Rule id should be an integer, got $it") }
-    )
-
+    val id = ruleNumberResolver.resolve(topNode.getContent("id"))
     val title = topNode.getContent("name")
 
     val power =
@@ -202,7 +208,9 @@ fun parseRuleStateYaml(yaml: String, proposalDataMap: YamlProposalDataMap): Rule
     val text = topNode.getContent("text")
 
     val history = RuleHistory(
-        topNode.getList("history").values.map { parseHistoryEntryYaml(it.requireMap(), proposalDataMap) }
+        topNode.getList("history").values.map {
+            parseHistoryEntryYaml(it.requireMap(), proposalDataMap, ruleNumberResolver)
+        }
     )
 
     val annotations = topNode.getOptList("annotations")?.let { parseRulesetAnnotationsYaml(it) }

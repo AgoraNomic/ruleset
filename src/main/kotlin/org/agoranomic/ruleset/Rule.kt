@@ -13,13 +13,40 @@ data class RuleHistory(val entries: ImmutableList<HistoricalEntry>) {
     constructor(entries: List<HistoricalEntry>) : this(entries.toImmutableList())
 }
 
-inline class RuleNumber(val raw: BigInteger) : Comparable<RuleNumber> {
-    override fun compareTo(other: RuleNumber): Int {
-        return (this.raw).compareTo(other.raw)
+sealed class RuleNumber {
+    data class Integral(val value: BigInteger) : RuleNumber(), Comparable<RuleNumber.Integral> {
+        override fun compareTo(other: RuleNumber.Integral): Int {
+            return (this.value).compareTo(other.value)
+        }
+
+        override fun toString(): String {
+            return value.toString()
+        }
     }
 
-    override fun toString(): String {
-        return raw.toString()
+    data class Textual(val value: String) : RuleNumber() {
+        override fun toString(): String {
+            return value
+        }
+    }
+}
+
+interface RuleNumberResolver {
+    fun resolve(textualNumber: String): RuleNumber
+}
+
+object TextualRuleNumberResolver : RuleNumberResolver {
+    override fun resolve(textualNumber: String): RuleNumber {
+        return RuleNumber.Textual(textualNumber)
+    }
+}
+
+object RequireIntegralRuleNumberResolver : RuleNumberResolver {
+    override fun resolve(textualNumber: String): RuleNumber {
+        return RuleNumber.Integral(
+            textualNumber.toBigIntegerOrNull()
+                ?: throw IllegalArgumentException("Required integral rule number, but got $textualNumber")
+        )
     }
 }
 

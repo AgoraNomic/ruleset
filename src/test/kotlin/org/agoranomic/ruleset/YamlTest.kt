@@ -125,8 +125,9 @@ class YamlTest {
             expected: RuleState,
             yaml: String,
             proposalDataMap: YamlProposalDataMap = ThrowingYamlProposalDataMap,
+            ruleNumberResolver: RuleNumberResolver = RequireIntegralRuleNumberResolver,
         ) {
-            assertEquals(expected, parseRuleStateYaml(yaml, proposalDataMap))
+            assertEquals(expected, parseRuleStateYaml(yaml, proposalDataMap, ruleNumberResolver))
         }
 
         private fun proposaDataMapFor(vararg numbers: Int): YamlProposalDataMap {
@@ -153,7 +154,8 @@ class YamlTest {
 
         private fun doTestIAE(yaml: String, proposalDataMap: YamlProposalDataMap = ThrowingYamlProposalDataMap) {
             assertFailsWith<IllegalArgumentException> {
-                parseRuleStateYaml(yaml, proposalDataMap)
+                // Use TextualRuleNumberResolver to ensure no exceptions are thrown from it
+                parseRuleStateYaml(yaml, proposalDataMap, TextualRuleNumberResolver)
             }
         }
 
@@ -180,7 +182,7 @@ class YamlTest {
 
             doTest(
                 RuleState(
-                    id = RuleNumber(101.toBigInteger()),
+                    id = RuleNumber.Integral(101.toBigInteger()),
                     title = "Test Rule",
                     power = BigDecimal("1.1"),
                     text = "Some Text",
@@ -212,7 +214,7 @@ class YamlTest {
             annotations: RuleAnnotations?,
         ): RuleState {
             return RuleState(
-                id = RuleNumber(BigInteger("101")),
+                id = RuleNumber.Integral(BigInteger("101")),
                 title = "Test Rule",
                 power = BigDecimal("1.1"),
                 text = "Some Text",

@@ -4,6 +4,7 @@ import kotlinx.collections.immutable.persistentListOf
 import org.agoranomic.ruleset.*
 import org.agoranomic.ruleset.history.HistoricalDate
 import org.agoranomic.ruleset.history.ProposalNumber
+import java.math.BigInteger
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
@@ -172,6 +173,19 @@ private fun formatRuleset(
     }
 }
 
+private fun Iterable<RuleNumber>.requireIntegralMax(): BigInteger {
+    return maxOf {
+        when (it) {
+            is RuleNumber.Integral -> it
+            is RuleNumber.Textual -> {
+                throw IllegalArgumentException(
+                    "all rule numbers must be integral for statistics, but $it was not"
+                )
+            }
+        }.value
+    }
+}
+
 fun formatReadable(
     template: String,
     config: ReadableReportConfig,
@@ -183,8 +197,18 @@ fun formatReadable(
 
     return template
         .replace("{num}", renderedRules.count().toString())
-        .replace("{her}", renderedRules.ruleNumbers.maxOrNull()?.toString() ?: error("no rules"))
-        .replace("{hr}", rulesetState.ruleset.ruleNumbers.maxOrNull()?.toString() ?: error("no rules"))
+        .let { string ->
+            if (string.contains("{her}"))
+                string.replace("{her}", renderedRules.ruleNumbers.requireIntegralMax().toString())
+            else
+                string
+        }
+        .let { string ->
+            if (string.contains("{hr}"))
+                string.replace("{hr}", rulesetState.ruleset.ruleNumbers.requireIntegralMax().toString())
+            else
+                string
+        }
         .let {
             if (it.contains("{hp}"))
                 it.replace("{hp}", requireNotNull(proposalStatistics).highestProposal.readable)
