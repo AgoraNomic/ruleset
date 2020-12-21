@@ -12,12 +12,13 @@ data class ProposalStatistics(
 )
 
 data class ReadableReportConfig(
+    val entityKind: String,
     val maxLineLength: Int,
     val includeHistory: Boolean,
     val includeAnnotations: Boolean,
 )
 
-private fun formatTableOfContents(ruleset: CategorizedRulesetState): String {
+private fun formatTableOfContents(ruleset: CategorizedRulesetState, entityKind: String): String {
     return ruleset
         .categories
         .map {
@@ -25,7 +26,7 @@ private fun formatTableOfContents(ruleset: CategorizedRulesetState): String {
         }
         .joinToString("") { (category, rules) ->
             rules.joinToString("\n", prefix = "${category.readableName}\n", postfix = "\n") {
-                "   * Rule ${it.id.toString().padStart(4, ' ')}: ${it.title}"
+                "   * $entityKind ${it.id.toString().padStart(4, ' ')}: ${it.title}"
             }
         }
 }
@@ -149,7 +150,7 @@ private fun formatRuleset(
                 rulesetState.rulesIn(category.id).joinToString("") { rule ->
                     val revisionNumber = rule.history.entries.sumBy { it.change.changeCount }
 
-                    "Rule ${rule.id}/$revisionNumber (Power=${rule.power})\n" +
+                    "${config.entityKind} ${rule.id}/$revisionNumber (Power=${rule.power})\n" +
                             rule.title +
                             "\n\n" +
                             rule
@@ -191,7 +192,7 @@ fun formatReadable(
                 it
         }
         .replace("{line}", "-".repeat(config.maxLineLength))
-        .replace("{toc}", formatTableOfContents(rulesetState))
+        .replace("{toc}", formatTableOfContents(rulesetState, entityKind = config.entityKind))
         .replace("{powers}", formatPowers(renderedRules))
         .replace("{ruleset}", formatRuleset(rulesetState, config))
 }
