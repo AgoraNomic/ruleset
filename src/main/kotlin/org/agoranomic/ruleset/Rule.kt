@@ -50,6 +50,12 @@ object RequireIntegralRuleNumberResolver : RuleNumberResolver {
     }
 }
 
+object TryIntegralRuleNumberResolver : RuleNumberResolver {
+    override fun resolve(textualNumber: String): RuleNumber {
+        return textualNumber.toBigIntegerOrNull()?.let { RuleNumber.Integral(it) } ?: RuleNumber.Textual(textualNumber)
+    }
+}
+
 data class RuleState(
     val id: RuleNumber,
     val title: String,
