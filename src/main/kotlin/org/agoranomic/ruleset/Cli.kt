@@ -32,6 +32,9 @@ private class RulekeeporCommand : CliktCommand() {
         .path(mustExist = false, canBeDir = false)
         .required()
 
+    val headerPath by option("--header-file")
+        .path(mustExist = false, canBeDir = false)
+
     val proposalsDir by option("--proposals-dir", help = "proposals directory")
         .path(mustExist = true, canBeFile = false, mustBeReadable = true)
 
@@ -93,6 +96,7 @@ private class RulekeeporCommand : CliktCommand() {
 
         formatReadable(
             Files.readString(templateFile, FILE_CHARSET),
+            headerContent = headerPath?.let { Files.readString(it, FILE_CHARSET) },
             ReadableReportConfig(
                 entityKind = entityKind,
                 maxLineLength = maxLineLength,

@@ -188,6 +188,7 @@ private fun Iterable<RuleNumber>.requireIntegralMax(): BigInteger {
 
 fun formatReadable(
     template: String,
+    headerContent: String?,
     config: ReadableReportConfig,
     rulesetState: CategorizedRulesetState,
     proposalStatistics: ProposalStatistics?,
@@ -196,6 +197,15 @@ fun formatReadable(
     require(renderedRules.isNotEmpty())
 
     return template
+        .let { string ->
+            if (string.contains("{header}"))
+                string.replace(
+                    "{header}",
+                    requireNotNull(headerContent) { "Header was used but not provided" }
+                )
+            else
+                string
+        }
         .replace("{num}", renderedRules.count().toString())
         .let { string ->
             if (string.contains("{her}"))
