@@ -59,7 +59,7 @@ object TryIntegralRuleNumberResolver : RuleNumberResolver {
 data class RuleState(
     val id: RuleNumber,
     val title: String,
-    val power: BigDecimal,
+    val power: BigDecimal?,
     val text: String,
     val history: RuleHistory,
     val annotations: RuleAnnotations?,

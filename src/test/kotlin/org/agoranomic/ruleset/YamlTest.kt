@@ -164,7 +164,6 @@ class YamlTest {
             val parts = persistentListOf(
                 "id: 101",
                 "name: Test Rule",
-                "power: 1.1",
                 "text: Some Text",
                 """
                 history:
@@ -184,7 +183,7 @@ class YamlTest {
                 RuleState(
                     id = RuleNumber.Integral(101.toBigInteger()),
                     title = "Test Rule",
-                    power = BigDecimal("1.1"),
+                    power = null,
                     text = "Some Text",
                     history = RuleHistory(
                         listOf(
@@ -201,6 +200,78 @@ class YamlTest {
                 dataMap,
             )
         }
+
+        @Test
+        fun `rule with power`() {
+            doTest(
+                RuleState(
+                    id = RuleNumber.Integral(BigInteger("101")),
+                    title = "Test Rule",
+                    power = BigDecimal("1.1"),
+                    text = "Some Text",
+                    history = RuleHistory(
+                        listOf(
+                            HistoricalEntry(
+                                HistoricalChanges.enactment(),
+                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
+                                HistoricalDate.Known(LocalDate.of(2020, 10, 11)),
+                            ),
+                        ),
+                    ),
+                    annotations = null,
+                ),
+                """
+                    id: 101
+                    name: Test Rule
+                    power: 1.1
+                    text: Some Text
+                    history:
+                    - change:
+                        type: enactment
+                      date: 2020-10-11
+                      agent:
+                        proposal: "1"
+                """.trimIndent(),
+                proposaDataMapFor(1),
+                RequireIntegralRuleNumberResolver,
+            )
+        }
+
+        @Test
+        fun `rule without power`() {
+            doTest(
+                RuleState(
+                    id = RuleNumber.Integral(BigInteger("101")),
+                    title = "Test Rule",
+                    power = null,
+                    text = "Some Text",
+                    history = RuleHistory(
+                        listOf(
+                            HistoricalEntry(
+                                HistoricalChanges.enactment(),
+                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
+                                HistoricalDate.Known(LocalDate.of(2020, 10, 11)),
+                            ),
+                        ),
+                    ),
+                    annotations = null,
+                ),
+                """
+                    id: 101
+                    name: Test Rule
+                    text: Some Text
+                    history:
+                    - change:
+                        type: enactment
+                      date: 2020-10-11
+                      agent:
+                        proposal: "1"
+                """.trimIndent(),
+                proposaDataMapFor(1),
+                RequireIntegralRuleNumberResolver,
+            )
+        }
+
 
         private val STD_PREFIX = """
             id: 101

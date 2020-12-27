@@ -33,10 +33,11 @@ private fun formatTableOfContents(ruleset: CategorizedRulesetState, entityKind: 
 }
 
 private fun formatPowers(ruleset: RulesetState): String {
-    val maxScale = ruleset.map { it.power }.maxOf { it.scale() }
+    val maxScale = ruleset.mapNotNull { it.power }.maxOfOrNull { it.scale() } ?: return "No rules have power."
 
     return ruleset
-        .groupBy { it.power.setScale(maxScale).stripTrailingZeros() }
+        .filter { it.power != null }
+        .groupBy { it.power!!.setScale(maxScale).stripTrailingZeros() }
         .mapValues { (_, v) -> v.count() }
         .asIterable()
         .sortedBy { it.key }
@@ -151,7 +152,7 @@ private fun formatRuleset(
                 rulesetState.rulesIn(category.id).joinToString("") { rule ->
                     val revisionNumber = rule.history.entries.sumBy { it.change.changeCount }
 
-                    "${config.entityKind} ${rule.id}/$revisionNumber (Power=${rule.power})\n" +
+                    "${config.entityKind} ${rule.id}/$revisionNumber${rule.power?.let { " (Power=$it)" } ?: ""}\n" +
                             rule.title +
                             "\n\n" +
                             rule

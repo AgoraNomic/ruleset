@@ -199,8 +199,8 @@ fun parseRuleStateYaml(
 
     val power =
         topNode
-            .getContent("power")
-            .let {
+            .getOptContent("power")
+            ?.let {
                 it.toBigDecimalOrNull()
                     ?: throw IllegalArgumentException("Rule power should be a decimal number, got $it")
             }
