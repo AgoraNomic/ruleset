@@ -17,7 +17,7 @@ REGS_DATA_DIR="$SCRIPT_DIR/regs_data"
 mkdir -p -- "$OUT_DIR"
 
 "$RULEKEEPOR_EXEC" \
-  --template-file "$REGS_DATA_DIR/config/slr_format" \
+  --template-file "$RULES_DATA_DIR/config/slr_format" \
   --index-file "$RULES_DATA_DIR/config/index" \
   --proposals-dir "$RULES_DATA_DIR/proposals" \
   --rules-dir "$RULES_DATA_DIR/rules" \
