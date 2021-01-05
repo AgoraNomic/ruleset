@@ -14,7 +14,6 @@ import org.agoranomic.ruleset.report.ReadableReportConfig
 import org.agoranomic.ruleset.report.formatReadable
 import java.nio.file.Files
 import java.nio.file.StandardOpenOption
-import kotlin.streams.asSequence
 
 private val FILE_CHARSET = Charsets.UTF_8
 private const val STDOUT_OUT_FILE = "-"
@@ -68,31 +67,32 @@ private class RulekeeporCommand : CliktCommand() {
                     }
                 } to null)
 
-        val rulesetState =
-            Files
-                .walk(rulesDir)
-                .use { fileStream ->
-                    fileStream
-                        .asSequence()
-                        .filter { !Files.isDirectory(it) }
-                        .filter { it.fileName.toString() !in excludeRuleFiles }
-                        .onEach { echo("Processing file: $it; fileName: ${it.fileName}", err = true) }
-                        .map {
-                            parseRuleStateYaml(
-                                yaml = Files.readString(it, FILE_CHARSET),
-                                proposalDataMap = proposalDataMap,
-                                ruleNumberResolver = TryIntegralRuleNumberResolver,
-                            )
-                        }
-                        .onEach { echo("Got rule ${it.id}", err = true) }
-                        .toList()
-                }
-                .let { RulesetState.from(it) }
-
         val ruleCategoryMapping = parseIndexYaml(
             Files.readString(indexFile, FILE_CHARSET),
             ruleNumberResolver = TryIntegralRuleNumberResolver,
         )
+
+        val rulesetState =
+            ruleCategoryMapping
+                .categorizedRuleNumbers
+                .map {
+                    it to rulesDir.resolve(it.toString())
+                }
+                .onEach { (_, path) -> echo("Processing file: $path") }
+                .map { (number, path) ->
+                    parseRuleStateYaml(
+                        yaml = Files.readString(path, FILE_CHARSET),
+                        proposalDataMap = proposalDataMap,
+                        ruleNumberResolver = TryIntegralRuleNumberResolver,
+                    ).also {
+                        require(number == it.id) {
+                            "Got disagreeing rule number in rule file and index: ${it.id} vs $number"
+                        }
+
+                        echo("Got rule ${it.id}")
+                    }
+                }
+                .let { RulesetState.from(it) }
 
         formatReadable(
             Files.readString(templateFile, FILE_CHARSET),
