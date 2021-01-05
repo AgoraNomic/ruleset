@@ -24,8 +24,7 @@ mkdir -p -- "$OUT_DIR"
   --header-file "$RULES_DATA_DIR/config/header" \
   --out-file "$OUT_DIR/slr.txt" \
   --no-history \
-  --no-annotations \
-  --exclude-rule-files 2540,2541,2558
+  --no-annotations
 
 "$RULEKEEPOR_EXEC" \
   --template-file "$RULES_DATA_DIR/config/flr_format" \
@@ -35,8 +34,7 @@ mkdir -p -- "$OUT_DIR"
   --header-file "$RULES_DATA_DIR/config/header" \
   --out-file "$OUT_DIR/flr.txt" \
   --history \
-  --annotations \
-  --exclude-rule-files 2540,2541,2558
+  --annotations
 
 "$RULEKEEPOR_EXEC" \
   --template-file "$REGS_DATA_DIR/config/flr_format" \

@@ -1,7 +1,10 @@
 package org.agoranomic.ruleset
 
 import com.github.ajalt.clikt.core.CliktCommand
-import com.github.ajalt.clikt.parameters.options.*
+import com.github.ajalt.clikt.parameters.options.default
+import com.github.ajalt.clikt.parameters.options.flag
+import com.github.ajalt.clikt.parameters.options.option
+import com.github.ajalt.clikt.parameters.options.required
 import com.github.ajalt.clikt.parameters.types.int
 import com.github.ajalt.clikt.parameters.types.path
 import org.agoranomic.ruleset.history.ProposalData
@@ -51,10 +54,6 @@ private class RulekeeporCommand : CliktCommand() {
 
     val entityKind by option("--entity-kind", help = "what to call the \"rules\" in the report")
         .default("Rule")
-
-    val excludeRuleFiles by option("--exclude-rule-files", help = "file names of rules to exclude")
-        .split(",")
-        .default(emptyList())
 
     override fun run() {
         val (proposalDataMap, proposalStats) =
