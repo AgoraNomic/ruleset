@@ -198,6 +198,17 @@
   - 2499 # Welcome Packages
   - 2585 # Birthday Gifts
   - 2545 # Auctions
+- name: Stones
+  note: |
+    A game in which people try to collect Stones with various different
+    Magical Powers OooOooh!
+  rules:
+  - 2640 # Stones
+  - 2641 # Wielding Stones
+  - 2642 # Distributing Stones
+  - 2643 # Collecting Stones
+  - 2644 # The Gauntlet
+  - 2645 # The Stones
 - name: The Undead
   note: |
     A silly mechanic describing what happens after you become inactive.
@@ -254,14 +265,4 @@
   - 2495 # The Birthday Tournament
   - 1769 # Holidays
   - 2029 # Town Fountain
-- name: Stones
-  note: |
-    A game in which people try to collect Stones with various different
-    Magical Powers OooOooh!
-  rules:
-  - 2640 # Stones
-  - 2641 # Wielding Stones
-  - 2642 # Distributing Stones
-  - 2643 # Collecting Stones
-  - 2644 # The Gauntlet
-  - 2645 # The Stones
+
