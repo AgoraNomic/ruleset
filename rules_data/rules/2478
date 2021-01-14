@@ -2,10 +2,10 @@ id: 2478
 name: Vigilante Justice
 power: 1.7
 text: |
-  A player CAN by announcement, but subject to the provisions of
-  this rule, Point eir Finger at a person (the perp) who plays the
-  game; the announcement has to explicitly name the perp and cite a
-  specific rule and an alleged violation of that rule by that
+  A player CAN by announcement Point eir Finger at a player (the
+  perp); the announcement is INEFFECTIVE if it does not explicitly
+  name the perp, cite a specific rule or named crime, and specify an
+  alleged violation of that rule or commission of that crime by that
   person.
 
   When a player Points a Finger, the investigator SHALL investigate
@@ -120,4 +120,9 @@ history:
   date: 2020-08-10
   agent:
     proposal: "8479"
+- change:
+    type: amendment
+  date: 2021-01-13
+  agent:
+    proposal: "8527"
 annotations: []
