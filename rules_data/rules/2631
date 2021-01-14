@@ -13,7 +13,7 @@ text: |
   flip a contract's donation level to 0 with Agoran consent.
 
   Whenever a payday occurs, half of each charity's coin holdings
-  (rounded down) are destroyed, and then each charity earns a number
+  (rounded down) are destroyed, and then each charity gains a number
   of boatloads of coins equal to its donation level.
 history:
 - change:
@@ -26,4 +26,9 @@ history:
   date: 2020-10-08
   agent:
     proposal: "8514"
+- change:
+    type: amendment
+  date: 2021-01-13
+  agent:
+    proposal: "8528"
 annotations: []

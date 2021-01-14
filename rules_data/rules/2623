@@ -9,7 +9,7 @@ text: |
   referendum when resolving it.
 
   The author of the most popular sponsored proposal adopted in the
-  last 7 days CAN once earn one Legislative Card by announcement,
+  last 7 days CAN once gain one Legislative Card by announcement,
   provided that no referenda initiated in the same message as it
   remain unresolved. If there is a tie, all authors of the tied
   proposals can do so once each.
@@ -34,4 +34,9 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8470"
+- change:
+    type: amendment
+  date: 2021-01-13
+  agent:
+    proposal: "8528"
 annotations: []

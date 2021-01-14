@@ -8,7 +8,7 @@ text: |
   - Power Stone (weekly, 40%): A specified player hereby buys
     strength 3 times on a specified unresolved Agoran decision.
 
-  - Wealth Stone (weekly, 50%): A specified player hereby earns 5
+  - Wealth Stone (weekly, 50%): A specified player hereby gains 5
     boatloads of coins.
 
   - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
@@ -18,7 +18,7 @@ text: |
   - Sabotage Stone (weekly, 80%): The adoption index of a specified
     AI-majority Agoran decision is hereby increased by 1.
 
-  - Concentration Stone (monthly, 60%): A specified player earns the
+  - Concentration Stone (monthly, 60%): A specified player gains the
     Grant associated with eir Focus.
 
   - Protection Stone (monthly, 70%): A specified stone is granted
@@ -34,4 +34,9 @@ history:
   date: 2020-11-22
   agent:
     proposal: 8523
+- change:
+    type: amendment
+  date: 2021-01-13
+  agent:
+    proposal: "8528"
 annotations: []

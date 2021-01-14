@@ -11,7 +11,7 @@ text: |
   * Legislative Cards and Pendants
   * Voting Cards and Extra Votes
 
-  A player CAN pay a 'set' of X Cards of the same type to earn Y
+  A player CAN pay a 'set' of X Cards of the same type to gain Y
   corresponding Products. The value of X determines the value of Y
   in the following ways:
 
@@ -29,4 +29,9 @@ history:
   date: 2020-06-12
   agent:
     proposal: "8408"
+- change:
+    type: amendment
+  date: 2021-01-13
+  agent:
+    proposal: "8528"
 annotations: []

@@ -2,7 +2,7 @@ id: 2559
 name: Paydays
 power: 2
 text: |
-  Whenever a Payday occurs, each active player earns 10 boatloads of
+  Whenever a Payday occurs, each active player gains 10 boatloads of
   coins.
 
   The occurrence of Paydays is secured. At the beginning of each
@@ -55,4 +55,9 @@ history:
   date: 2020-10-08
   agent:
     proposal: "8514"
+- change:
+    type: amendment
+  date: 2021-01-13
+  agent:
+    proposal: "8528"
 annotations: []

@@ -7,7 +7,7 @@ text: |
   announcement.
 
   When a player receives a Welcome Package, if e has not received
-  one in the past 30 days, then e earns 10 boatloads of coins and
+  one in the past 30 days, then e gains 10 boatloads of coins and
   one of each type of Card defined in the rules.
 history:
 - change:
@@ -75,4 +75,9 @@ history:
   date: 2020-10-08
   agent:
     proposal: "8514"
+- change:
+    type: amendment
+  date: 2021-01-13
+  agent:
+    proposal: "8528"
 annotations: []

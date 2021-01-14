@@ -20,7 +20,7 @@ text: |
   can only match a single tender element for the single cashing out
   of a bargain.
 
-  When a player cashes out a bargain on the barrel, e earns the
+  When a player cashes out a bargain on the barrel, e gains the
   payout for that bargain.
 
   The Coopor CANNOT cash out a specific bargain in the 14 days after
@@ -41,4 +41,9 @@ history:
   date: 2020-12-31
   agent:
     proposal: "8526"
+- change:
+    type: amendment
+  date: 2021-01-13
+  agent:
+    proposal: "8528"
 annotations: []
