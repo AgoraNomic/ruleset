@@ -1,6 +1,6 @@
 id: 1367
 name: Degrees
-power: 3
+power: 2
 text: |
   Certain patent titles are known as degrees. The degrees are
 
@@ -185,6 +185,11 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8221"
+- change:
+    type: power-change
+  date: 2019-11-11
+  agent:
+    proposal: "8271"
 - change:
     type: amendment
   date: 2019-11-11
