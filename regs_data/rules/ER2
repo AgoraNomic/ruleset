@@ -1,0 +1,18 @@
+id: ER2
+name: Quick Correction
+text: |
+  When this regulation is enacted, one Victory Card is created in
+  G.'s possession.
+history:
+- change:
+    type: enactment
+  date: 2021-01-18
+  agent:
+    rulebending:
+      magister: G.
+- change:
+    type: repeal
+  date: 2021-01-18
+  agent:
+    rulebending:
+      magister: G.
