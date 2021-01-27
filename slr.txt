@@ -3,16 +3,16 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 14 Jan 2021
+Date of this ruleset: 27 Jan 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 152
+Number of rules currently enacted: 151
 
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2645
-Highest ID'd Proposal Passed: 8528
+Highest ID'd Proposal Passed: 8531
 Highest ID'd Rule Enacted: 2645
 
 ========================================================================
@@ -3254,49 +3254,6 @@ Victory by Apathy
       players. Upon doing so, the specified players win the game.
 
 ------------------------------------------------------------------------
-Rule 2510/6 (Power=1)
-Such is Karma
-
-      Karma is a person switch tracked by the Herald in eir Weekly
-      Report. Karma is an Integer switch. Agora also has an instance of
-      the Karma switch.
-      
-      A player CAN publish a Notice of Honour. For a Notice of Honour
-      to be valid, it must:
-      
-      1. Be clear that it is a Notice of Honour, and be the first valid
-         Notice of Honour that player has published in the current week;
-      
-      2. Specify any other player or Agora to gain karma, and provide a
-         reason for specifying that player; and
-      
-      3. Specify any player or Agora to lose karma, and provide a reason
-         for specifying that player.
-      
-      When a valid Notice of Honour is published, the entity specified
-      to gain karma has eir karma increased by one, and the entity
-      specified to lose karma has eir karma decreased by one. Raising
-      one entity's karma while lowering another's in this manner is
-      considered to be a "transfer" of karma.
-      
-      A player's positions in Court are defined as follows:
-      
-      - Any player with a karma of 5 or greater is a Samurai.
-      
-      - Any player with a karma of -5 or less is an Gamma.
-      
-      - The Samurai with the highest karma (if any) is the Shogun.
-      
-      - The Gamma with the lowest karma (if any) is the Honourless
-        Worm.
-      
-      Each player's positions in Court are part of of the Herald's
-      Weekly Report.
-      
-      At the beginning of each quarter, the Karma of every person is
-      halved (rounding towards 0).
-
-------------------------------------------------------------------------
 Rule 2553/2 (Power=1)
 Win by Paradox
 
@@ -3480,12 +3437,12 @@ Festival Restrictions
       effect and are ignored.
 
 ------------------------------------------------------------------------
-Rule 649/43 (Power=1.5)
+Rule 649/44 (Power=1.5)
 Patent Titles
 
-      A Patent Title is a legal title given to a person in recognition
-      of the person's distinction. The Herald is an office; its holder
-      is responsible for tracking Patent Titles in eir monthly report.
+      A Patent Title is a legal title held by an entity in recognition
+      of eir distinction. The Herald is an office; its holder is
+      responsible for tracking Patent Titles in eir monthly report.
       
       Awarding or revoking a Patent Title is secured at power 1. A
       person permitted and enabled to award (revoke) a Patent Title
@@ -3510,7 +3467,7 @@ Badges
       existing badge to persons without objection.
 
 ------------------------------------------------------------------------
-Rule 1367/25 (Power=3)
+Rule 1367/25 (Power=2)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are

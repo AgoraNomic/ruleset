@@ -3,16 +3,16 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 31 Dec 2020
+Date of this ruleset: 27 Jan 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 152
+Number of rules currently enacted: 151
 
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2645
-Highest ID'd Proposal Passed: 8526
+Highest ID'd Proposal Passed: 8531
 Highest ID'd Rule Enacted: 2645
 
 ------------------------------------------------------------------------
@@ -104,8 +104,8 @@ Documents
    * Rule 2202: Ratification Without Objection
    * Rule 2201: Self-Ratification
 Justice
-   * Rule 2556: Penalties
    * Rule 2555: Blots
+   * Rule 2556: Penalties
    * Rule 2478: Vigilante Justice
    * Rule 2479: Official Injustice
    * Rule 2557: Sentencing Guidelines
@@ -149,6 +149,13 @@ Economics
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2545: Auctions
+Stones
+   * Rule 2640: Stones
+   * Rule 2641: Wielding Stones
+   * Rule 2642: Distributing Stones
+   * Rule 2643: Collecting Stones
+   * Rule 2644: The Gauntlet
+   * Rule 2645: The Stones
 The Undead
    * Rule 2532: Zombies
    * Rule 2574: Zombie Life Cycle
@@ -157,7 +164,6 @@ The Undead
 Victory & Karma
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
-   * Rule 2510: Such is Karma
    * Rule 2553: Win by Paradox
 Awards
    * Rule 2438: Ribbons
@@ -185,13 +191,6 @@ Agoran Culture
    * Rule 2495: The Birthday Tournament
    * Rule 1769: Holidays
    * Rule 2029: Town Fountain
-Stones
-   * Rule 2640: Stones
-   * Rule 2641: Wielding Stones
-   * Rule 2642: Distributing Stones
-   * Rule 2643: Collecting Stones
-   * Rule 2644: The Gauntlet
-   * Rule 2645: The Stones
 
 
 ------------------------------------------------------------------------
@@ -199,14 +198,14 @@ Stones
 Power Distribution:
 
 1  with Power=0.3
-43 with Power=1
+42 with Power=1
 2  with Power=1.5
 6  with Power=1.7
-34 with Power=2
+35 with Power=2
 2  with Power=2.1
 1  with Power=2.2
 1  with Power=2.5
-54 with Power=3
+53 with Power=3
 1  with Power=3.01
 2  with Power=3.1
 1  with Power=3.14
@@ -804,7 +803,7 @@ Cantus Cygneus
       Registrar shall publish this document along with a Writ of
       Fugiendae Agorae Grandissima Exprobratione, commanding the Player
       to be deregistered. The Registrar shall note the method of
-      deregistration for that Player in subsequent Registrar montly
+      deregistration for that Player in subsequent Registrar monthly
       Reports.
       
       The Player is deregistered as of the posting of the Writ, and the
@@ -1026,7 +1025,7 @@ CFJ 3797 (called 22 Jan 2020): Whether coming into existence is
    regulated depends on the thing that is coming into existence. Coming
    into existence is regulated for rules-defined entities and is not
    regulated for entities of which the rules decline to take notice; for
-   entities tthat are not defined by the rules, but of which the rules
+   entities that are not defined by the rules, but of which the rules
    take notice, such as persons, coming into existence is not regulated
    but the collateral consequences (e.g. assigning switch values) are.
 
@@ -2259,7 +2258,7 @@ CFJ 3784 (called 22 Dec 2019): A proposal using the first person refers
    to the proposal itself.
 
 ------------------------------------------------------------------------
-Rule 2623/3 (Power=1.0)
+Rule 2623/4 (Power=1.0)
 Popular Proposal Proposer Privilege
 
       For a referendum, let F be the total number of valid ballots
@@ -2269,7 +2268,7 @@ Popular Proposal Proposer Privilege
       referendum when resolving it.
       
       The author of the most popular sponsored proposal adopted in the
-      last 7 days CAN once earn one Legislative Card by announcement,
+      last 7 days CAN once gain one Legislative Card by announcement,
       provided that no referenda initiated in the same message as it
       remain unresolved. If there is a tie, all authors of the tied
       proposals can do so once each.
@@ -2282,6 +2281,7 @@ Amended(1) by P8417 'Properly Prioritized Popular Proposal Proposer
    Privilege' (Aris, G.), 14 Jun 2020
 Amended(2) by P8418 'Referenda' (Aris), 14 Jun 2020
 Amended(3) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul 2020
+Amended(4) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -4628,26 +4628,6 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2556/1 (Power=3)
-Penalties
-
-      Rules to the contrary notwithstanding, an impure person CANNOT win
-      the game.
-      
-      The voting strength of a player on an Agoran decision is reduced
-      by 1 for every 3 blots in eir possession.
-      
-      A player CAN, with 7 days notice, deregister (exile) a specified
-      player (the outlaw) who has more than 40 blots.
-
-History:
-
-Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
-Amended(1) by cleaning (Alexis), 23 Jan 2020
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2555/9 (Power=2)
 Blots
 
@@ -4691,13 +4671,33 @@ Amended(9) by P8427 'Slap on the wrist' (R. Lee), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/14 (Power=1.7)
+Rule 2556/1 (Power=3)
+Penalties
+
+      Rules to the contrary notwithstanding, an impure person CANNOT win
+      the game.
+      
+      The voting strength of a player on an Agoran decision is reduced
+      by 1 for every 3 blots in eir possession.
+      
+      A player CAN, with 7 days notice, deregister (exile) a specified
+      player (the outlaw) who has more than 40 blots.
+
+History:
+
+Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
+Amended(1) by cleaning (Alexis), 23 Jan 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2478/15 (Power=1.7)
 Vigilante Justice
 
-      A player CAN by announcement, but subject to the provisions of
-      this rule, Point eir Finger at a person (the perp) who plays the
-      game; the announcement has to explicitly name the perp and cite a
-      specific rule and an alleged violation of that rule by that
+      A player CAN by announcement Point eir Finger at a player (the
+      perp); the announcement is INEFFECTIVE if it does not explicitly
+      name the perp, cite a specific rule or named crime, and specify an
+      alleged violation of that rule or commission of that crime by that
       person.
       
       When a player Points a Finger, the investigator SHALL investigate
@@ -4763,6 +4763,8 @@ Amended(13) by P8404 'High Crimes and Treason' (Publius Scribonius
    Scholasticus, G., Jason, Murphy), 03 Jun 2020
 Amended(14) by P8479 'Competitive Finger Pointing v2' (nix, Aris,
    Publius Scribonius Scholasticus, ATMunn), 10 Aug 2020
+Amended(15) by P8527 'Specified Crime not Rule' (Publius Scribonius
+   Scholasticus, nix, Aris), 13 Jan 2021
 
 Annotations:
 
@@ -5764,7 +5766,7 @@ Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2631/1 (Power=1.0)
+Rule 2631/2 (Power=1.0)
 Charities
 
       Donation Level is a natural switch for contracts, tracked by the
@@ -5778,7 +5780,7 @@ Charities
       flip a contract's donation level to 0 with Agoran consent.
       
       Whenever a payday occurs, half of each charity's coin holdings
-      (rounded down) are destroyed, and then each charity earns a number
+      (rounded down) are destroyed, and then each charity gains a number
       of boatloads of coins equal to its donation level.
 
 History:
@@ -5787,6 +5789,7 @@ Enacted by P8476 'Contract charities' (ATMunn, G., Falsifian, Publius
    Scribonius Scholasticus), 19 Jul 2020
 Amended(1) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
    ATMunn), 08 Oct 2020
+Amended(2) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -5907,7 +5910,7 @@ Amended(3) by P8500 'Clarify asset ownership some more' (Murphy, G.), 25
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2577/5 (Power=3)
+Rule 2577/6 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -5917,9 +5920,9 @@ Asset Actions
       except as explicitly specified by its backing document; any other
       asset is destructible.
       
-      For an entity to earn an asset is for that asset to be created in
-      that entity's possession. To grant an entity an asset is to create
-      it in eir possession.
+      For an entity to gain (historical syn. earn) an asset is for that
+      asset to be created in that entity's possession. To grant an
+      entity an asset is to create it in eir possession.
       
       For an entity to lose an asset is for that asset to be destroyed
       from that entity's possession. To revoke an asset from an entity
@@ -5950,6 +5953,7 @@ Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd), 08
 Amended(4) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd), 08
    Sep 2020
 Amended(5) by P8518 'Asset Rounding' (Aris, Falsifian, nix), 11 Nov 2020
+Amended(6) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -6219,10 +6223,10 @@ Amended(23) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2559/8 (Power=2)
+Rule 2559/9 (Power=2)
 Paydays
 
-      Whenever a Payday occurs, each active player earns 10 boatloads of
+      Whenever a Payday occurs, each active player gains 10 boatloads of
       coins.
       
       The occurrence of Paydays is secured. At the beginning of each
@@ -6242,11 +6246,12 @@ Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(7) by P8253 'Clarify salary' (Murphy, G., Jason), 03 Nov 2019
 Amended(8) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
    ATMunn), 08 Oct 2020
+Amended(9) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2620/0 (Power=1.0)
+Rule 2620/1 (Power=1.0)
 Cards & Sets
 
       Cards are a type of currency with a corresponding Product.
@@ -6258,7 +6263,7 @@ Cards & Sets
       * Legislative Cards and Pendants
       * Voting Cards and Extra Votes
       
-      A player CAN pay a 'set' of X Cards of the same type to earn Y
+      A player CAN pay a 'set' of X Cards of the same type to gain Y
       corresponding Products. The value of X determines the value of Y
       in the following ways:
       
@@ -6275,6 +6280,7 @@ History:
 
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+Amended(1) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -6378,7 +6384,7 @@ Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/11 (Power=1)
+Rule 2499/12 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
@@ -6386,7 +6392,7 @@ Welcome Packages
       announcement.
       
       When a player receives a Welcome Package, if e has not received
-      one in the past 30 days, then e earns 10 boatloads of coins and
+      one in the past 30 days, then e gains 10 boatloads of coins and
       one of each type of Card defined in the rules.
 
 History:
@@ -6410,6 +6416,7 @@ Amended(9) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
 Amended(10) by P8480 'Generic welcome package fix' (Jason), 10 Aug 2020
 Amended(11) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
    Jason, ATMunn), 08 Oct 2020
+Amended(12) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -6486,6 +6493,163 @@ Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01 Jul
    2018
 Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
 Amended(3) by P8407 'no stinking auction definitions' (G.), 12 Jun 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Stones
+   A game in which people try to collect Stones with various different
+   Magical Powers OooOooh!
+------------------------------------------------------------------------
+Rule 2640/0 (Power=2)
+Stones
+
+      A stone is a unique indestructable liquid asset defined by the
+      rules. To define a stone, the definition must include:
+        (i) A name unique among stones;
+       (ii) The escape risk of the stone, which must be a percentage between
+            0% and 100% inclusive;
+      (iii) A scroll, which is a document specifying the effects of the
+            stone
+       (iv) Optionally, a frequency, which must be one of daily, weekly,
+            monthly, or quarterly.
+      
+      Ownership of stones is entirely restricted to Agora and active
+      players.  If a stone is owned by the Lost and Found Department or
+      in abeyance, it is immediately transferred to Agora.
+      
+      The Stonemason is an office, and the recordkeepor of stones.
+
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2641/0 (Power=2)
+Wielding Stones
+
+      Except as otherwise specified by the rules, the owner of a stone
+      CAN wield it by announcement specifying any values needed to
+      interpret the stone's effects.
+      
+      If a stone has a frequency, then it is IMPOSSIBLE to wield that
+      stone if it has been previously wielded in the same Agoran time
+      interval as indicated by its frequency (e.g. if its frequency is
+      daily, if it has been wielded in the same Agoran day).
+      
+      When a stone is wielded, the Rule defining that stone applies the
+      effects in that stone's scroll.
+
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2642/0 (Power=2)
+Distributing Stones
+
+      The Stonemason CAN initiate an auction for any set of stones
+      belonging to Agora for which an auction is not ongoing, with each
+      individual stone being an auction lot. The Stonemason is the
+      auctioneer, and the currency is coins.
+      
+      The Stonemason SHALL so initiate an auction for a set of stones
+      consisting of at least one third the stones eligible for auction
+      in a timely fashion after publishing a collection notice, provided
+      there any eligible stones.
+
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2643/1 (Power=2)
+Collecting Stones
+
+      Once per month, the Stonemason CAN publish a collection notice by
+      announcement, specifying all necessary information and choices.
+      The Stonemason SHALL publish such a notice in a timely fashion
+      after the beginning of each Agoran month.
+      
+      A stone is immune if it has been granted immunity, as defined by
+      other rules, since the last collection notice or if it is
+      currently owned by Agora.
+      
+      A collection notice includes, for every non-immune stone, a random
+      choice of whether that stone escapes, escaping with probability
+      equal to its escape risk. When a collection notice is published,
+      stones that escape are transferred to Agora in an order specified
+      by the collection notice.
+
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+Amended(1) by P8524 'Agora's Stones Are Immune' (nix), 01 Dec 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2644/0 (Power=2)
+The Gauntlet
+
+      When a player makes a correct announcement that a single specified
+      player owns 5 or more stones, the specified player Wields the
+      Guantlet.
+      
+      When a player Wields the Gauntlet, e wins the game and all
+      existing stones are transferred to Agora.
+
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2645/2 (Power=2)
+The Stones
+
+      The following stones are defined, one per paragraph, with the
+      following format: Stone Name (Frequency, Escape Risk): Scroll.
+      
+      - Power Stone (weekly, 40%): A specified player hereby buys
+        strength 3 times on a specified unresolved Agoran decision.
+      
+      - Wealth Stone (weekly, 50%): A specified player hereby gains 5
+        boatloads of coins.
+      
+      - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
+        to the owner of a different specified non-immune stone, then
+        that stone is transferred to the wielder.
+      
+      - Sabotage Stone (weekly, 80%): The adoption index of a specified
+        AI-majority Agoran decision is hereby increased by 1.
+      
+      - Concentration Stone (monthly, 60%): A specified player gains the
+        Grant associated with eir Focus.
+      
+      - Protection Stone (monthly, 70%): A specified stone is granted
+        immunity.
+
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+Amended(1) by P8523 'Emergency Economy Unbreaking' (Aris, nix, Jason),
+   22 Nov 2020
+Amended(2) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -6690,65 +6854,10 @@ Enacted by P7811 'Winning by apathy' (ais523), 11 Sep 2016
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2510/6 (Power=1)
-Such is Karma
-
-      Karma is a person switch tracked by the Herald in eir Weekly
-      Report. Karma is an Integer switch. Agora also has an instance of
-      the Karma switch.
-      
-      A player CAN publish a Notice of Honour. For a Notice of Honour
-      to be valid, it must:
-      
-      1. Be clear that it is a Notice of Honour, and be the first valid
-         Notice of Honour that player has published in the current week;
-      
-      2. Specify any other player or Agora to gain karma, and provide a
-         reason for specifying that player; and
-      
-      3. Specify any player or Agora to lose karma, and provide a reason
-         for specifying that player.
-      
-      When a valid Notice of Honour is published, the entity specified
-      to gain karma has eir karma increased by one, and the entity
-      specified to lose karma has eir karma decreased by one. Raising
-      one entity's karma while lowering another's in this manner is
-      considered to be a "transfer" of karma.
-      
-      A player's positions in Court are defined as follows:
-      
-      - Any player with a karma of 5 or greater is a Samurai.
-      
-      - Any player with a karma of -5 or less is an Gamma.
-      
-      - The Samurai with the highest karma (if any) is the Shogun.
-      
-      - The Gamma with the lowest karma (if any) is the Honourless
-        Worm.
-      
-      Each player's positions in Court are part of of the Herald's
-      Weekly Report.
-      
-      At the beginning of each quarter, the Karma of every person is
-      halved (rounding towards 0).
-
-History:
-
-Enacted by P7904 'Such is Karma v2' (G., D.F.F.), 03 Oct 2017
-Amended(1) by P7916 'Pro Pace v2' (Aris, o, G.), 15 Oct 2017
-Amended(2) by P7960 'Community Chest Repeal II' (R. Lee), 12 Nov 2017
-Amended(3) by P8022 'Anyone can balance Karma' (G.), 06 Mar 2018
-Amended(4) by P8112 'The Middle Way' (G., ATMunn), 12 Nov 2018
-Amended(5) by P8234 'auto-balance' (G., Jason), 05 Sep 2019
-Amended(6) by P8474 'Agora the karma bank' (G., omd), 19 Jul 2020
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2553/2 (Power=1)
 Win by Paradox
 
-      If a CFJ about the effectiveness, possiblity, or legality of a
+      If a CFJ about the effectiveness, possibility, or legality of a
       change in the gamestate has been assigned a judgment of
       PARADOXICAL continuously for at least 7 days, and e has not done
       so already in respect of that CFJ, then that case's initiator,
@@ -7012,12 +7121,12 @@ Amended(3) by P8510 'Festival Peending' (Baron von Vanderham, Jason,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 649/43 (Power=1.5)
+Rule 649/44 (Power=1.5)
 Patent Titles
 
-      A Patent Title is a legal title given to a person in recognition
-      of the person's distinction. The Herald is an office; its holder
-      is responsible for tracking Patent Titles in eir monthly report.
+      A Patent Title is a legal title held by an entity in recognition
+      of eir distinction. The Herald is an office; its holder is
+      responsible for tracking Patent Titles in eir monthly report.
       
       Awarding or revoking a Patent Title is secured at power 1. A
       person permitted and enabled to award (revoke) a Patent Title
@@ -7086,6 +7195,7 @@ Amended(41) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
 Amended(42) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
 Amended(43) by P8449 'Simpler Heraldry' (Aris, Alexis, Jason, Publius
    Scribonious Scholasticus), 30 Jun 2020
+Amended(44) by P8531 'Patent Title Restoration v2' (Jason), 26 Jan 2020
 
 Annotations:
 CFJ 1525 (called 15 Nov 2004): If a patent title is defined by the
@@ -7121,7 +7231,7 @@ Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1367/25 (Power=3)
+Rule 1367/25 (Power=2)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -7209,6 +7319,7 @@ Amended(19) by P7620 'Fire the Full Committee' (omd), 24 Jan 2014
 Amended(20) by P8211 'Law School' (G.), 23 Jul 2019
 Amended(21) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
+Power changed by P8271 'Doctorate expectations' (G.), 11 Nov 2019
 Amended(22) by P8271 'Doctorate expectations' (G.), 11 Nov 2019
 Amended(23) by P8305 'Keeping Up With the Times' (Alexis), 29 Jan 2020
 Amended(24) by P8409 'College of Letters, Arts, and Sciences' (Aris), 14
@@ -7825,162 +7936,6 @@ CFJ 1881 (called 25 Jan 2008): This rule does not impose an obilgation
    undefined.
 CFJ 1736 (called 23 Aug 2007): Failing to hail Eris does not necessarily
    constitute a violation of this rule.
-
-------------------------------------------------------------------------
-========================================================================
-Stones
-   A game in which people try to collect Stones with various different
-   Magical Powers OooOooh!
-------------------------------------------------------------------------
-Rule 2640/0 (Power=2)
-Stones
-
-      A stone is a unique indestructable liquid asset defined by the
-      rules. To define a stone, the definition must include:
-        (i) A name unique among stones;
-       (ii) The escape risk of the stone, which must be a percentage between
-            0% and 100% inclusive;
-      (iii) A scroll, which is a document specifying the effects of the
-            stone
-       (iv) Optionally, a frequency, which must be one of daily, weekly,
-            monthly, or quarterly.
-      
-      Ownership of stones is entirely restricted to Agora and active
-      players.  If a stone is owned by the Lost and Found Department or
-      in abeyance, it is immediately transferred to Agora.
-      
-      The Stonemason is an office, and the recordkeepor of stones.
-
-History:
-
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2641/0 (Power=2)
-Wielding Stones
-
-      Except as otherwise specified by the rules, the owner of a stone
-      CAN wield it by announcement specifying any values needed to
-      interpret the stone's effects.
-      
-      If a stone has a frequency, then it is IMPOSSIBLE to wield that
-      stone if it has been previously wielded in the same Agoran time
-      interval as indicated by its frequency (e.g. if its frequency is
-      daily, if it has been wielded in the same Agoran day).
-      
-      When a stone is wielded, the Rule defining that stone applies the
-      effects in that stone's scroll.
-
-History:
-
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2642/0 (Power=2)
-Distributing Stones
-
-      The Stonemason CAN initiate an auction for any set of stones
-      belonging to Agora for which an auction is not ongoing, with each
-      individual stone being an auction lot. The Stonemason is the
-      auctioneer, and the currency is coins.
-      
-      The Stonemason SHALL so initiate an auction for a set of stones
-      consisting of at least one third the stones eligible for auction
-      in a timely fashion after publishing a collection notice, provided
-      there any eligible stones.
-
-History:
-
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2643/1 (Power=2)
-Collecting Stones
-
-      Once per month, the Stonemason CAN publish a collection notice by
-      announcement, specifying all necessary information and choices.
-      The Stonemason SHALL publish such a notice in a timely fashion
-      after the beginning of each Agoran month.
-      
-      A stone is immune if it has been granted immunity, as defined by
-      other rules, since the last collection notice or if it is
-      currently owned by Agora.
-      
-      A collection notice includes, for every non-immune stone, a random
-      choice of whether that stone escapes, escaping with probability
-      equal to its escape risk. When a collection notice is published,
-      stones that escape are transferred to Agora in an order specified
-      by the collection notice.
-
-History:
-
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-Amended(1) by P8524 'Agora's Stones Are Immune' (nix), 01 Dec 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2644/0 (Power=2)
-The Gauntlet
-
-      When a player makes a correct announcement that a single specified
-      player owns 5 or more stones, the specified player Wields the
-      Guantlet.
-      
-      When a player Wields the Gauntlet, e wins the game and all
-      existing stones are transferred to Agora.
-
-History:
-
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2645/1 (Power=2)
-The Stones
-
-      The following stones are defined, one per paragraph, with the
-      following format: Stone Name (Frequency, Escape Risk): Scroll.
-      
-      - Power Stone (weekly, 40%): A specified player hereby buys
-        strength 3 times on a specified unresolved Agoran decision.
-      
-      - Wealth Stone (weekly, 50%): A specified player hereby earns 5
-        boatloads of coins.
-      
-      - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
-        to the owner of a different specified non-immune stone, then
-        that stone is transferred to the wielder.
-      
-      - Sabotage Stone (weekly, 80%): The adoption index of a specified
-        AI-majority Agoran decision is hereby increased by 1.
-      
-      - Concentration Stone (monthly, 60%): A specified player earns the
-        Grant associated with eir Focus.
-      
-      - Protection Stone (monthly, 70%): A specified stone is granted
-        immunity.
-
-History:
-
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-Amended(1) by P8523 'Emergency Economy Unbreaking' (Aris, nix, Jason),
-   22 Nov 2020
-
-Annotations:
 
 ------------------------------------------------------------------------
 

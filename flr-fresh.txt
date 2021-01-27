@@ -3,16 +3,16 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 14 Jan 2021
+Date of this ruleset: 27 Jan 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 152
+Number of rules currently enacted: 151
 
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2645
-Highest ID'd Proposal Passed: 8528
+Highest ID'd Proposal Passed: 8531
 Highest ID'd Rule Enacted: 2645
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -169,7 +169,6 @@ The Undead
 Victory & Karma
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
-   * Rule 2510: Such is Karma
    * Rule 2553: Win by Paradox
 Awards
    * Rule 2438: Ribbons
@@ -204,14 +203,14 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-43 with Power=1
+42 with Power=1
 2  with Power=1.5
 6  with Power=1.7
-34 with Power=2
+35 with Power=2
 2  with Power=2.1
 1  with Power=2.2
 1  with Power=2.5
-54 with Power=3
+53 with Power=3
 1  with Power=3.01
 2  with Power=3.1
 1  with Power=3.14
@@ -6860,61 +6859,6 @@ Enacted by P7811 'Winning by apathy' (ais523), 11 Sep 2016
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2510/6 (Power=1)
-Such is Karma
-
-      Karma is a person switch tracked by the Herald in eir Weekly
-      Report. Karma is an Integer switch. Agora also has an instance of
-      the Karma switch.
-      
-      A player CAN publish a Notice of Honour. For a Notice of Honour
-      to be valid, it must:
-      
-      1. Be clear that it is a Notice of Honour, and be the first valid
-         Notice of Honour that player has published in the current week;
-      
-      2. Specify any other player or Agora to gain karma, and provide a
-         reason for specifying that player; and
-      
-      3. Specify any player or Agora to lose karma, and provide a reason
-         for specifying that player.
-      
-      When a valid Notice of Honour is published, the entity specified
-      to gain karma has eir karma increased by one, and the entity
-      specified to lose karma has eir karma decreased by one. Raising
-      one entity's karma while lowering another's in this manner is
-      considered to be a "transfer" of karma.
-      
-      A player's positions in Court are defined as follows:
-      
-      - Any player with a karma of 5 or greater is a Samurai.
-      
-      - Any player with a karma of -5 or less is an Gamma.
-      
-      - The Samurai with the highest karma (if any) is the Shogun.
-      
-      - The Gamma with the lowest karma (if any) is the Honourless
-        Worm.
-      
-      Each player's positions in Court are part of of the Herald's
-      Weekly Report.
-      
-      At the beginning of each quarter, the Karma of every person is
-      halved (rounding towards 0).
-
-History:
-
-Enacted by P7904 'Such is Karma v2' (G., D.F.F.), 03 Oct 2017
-Amended(1) by P7916 'Pro Pace v2' (Aris, o, G.), 15 Oct 2017
-Amended(2) by P7960 'Community Chest Repeal II' (R. Lee), 12 Nov 2017
-Amended(3) by P8022 'Anyone can balance Karma' (G.), 06 Mar 2018
-Amended(4) by P8112 'The Middle Way' (G., ATMunn), 12 Nov 2018
-Amended(5) by P8234 'auto-balance' (G., Jason), 05 Sep 2019
-Amended(6) by P8474 'Agora the karma bank' (G., omd), 19 Jul 2020
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2553/2 (Power=1)
 Win by Paradox
 
@@ -7182,12 +7126,12 @@ Amended(3) by P8510 'Festival Peending' (Baron von Vanderham, Jason,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 649/43 (Power=1.5)
+Rule 649/44 (Power=1.5)
 Patent Titles
 
-      A Patent Title is a legal title given to a person in recognition
-      of the person's distinction. The Herald is an office; its holder
-      is responsible for tracking Patent Titles in eir monthly report.
+      A Patent Title is a legal title held by an entity in recognition
+      of eir distinction. The Herald is an office; its holder is
+      responsible for tracking Patent Titles in eir monthly report.
       
       Awarding or revoking a Patent Title is secured at power 1. A
       person permitted and enabled to award (revoke) a Patent Title
@@ -7256,6 +7200,7 @@ Amended(41) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
 Amended(42) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
 Amended(43) by P8449 'Simpler Heraldry' (Aris, Alexis, Jason, Publius
    Scribonious Scholasticus), 30 Jun 2020
+Amended(44) by P8531 'Patent Title Restoration v2' (Jason), 26 Jan 2020
 
 Annotations:
 CFJ 1525 (called 15 Nov 2004): If a patent title is defined by the
@@ -7291,7 +7236,7 @@ Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1367/25 (Power=3)
+Rule 1367/25 (Power=2)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -7379,6 +7324,7 @@ Amended(19) by P7620 'Fire the Full Committee' (omd), 24 Jan 2014
 Amended(20) by P8211 'Law School' (G.), 23 Jul 2019
 Amended(21) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
+Power changed by P8271 'Doctorate expectations' (G.), 11 Nov 2019
 Amended(22) by P8271 'Doctorate expectations' (G.), 11 Nov 2019
 Amended(23) by P8305 'Keeping Up With the Times' (Alexis), 29 Jan 2020
 Amended(24) by P8409 'College of Letters, Arts, and Sciences' (Aris), 14
