@@ -151,9 +151,4 @@ annotations:
     A rule of the form "X SHOULD be interpreted as Y" does not allow
     players to bypass the interpretation by failing to perform the
     described action.
-- cfjs:
-  - id: 3869
-    called: 2020-07-18
-  text: >
-    A contract cannot automatically create another contract, because the
-    new contract would not have been made in a public message.
+
