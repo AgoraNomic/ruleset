@@ -9,10 +9,13 @@
   - AM3
   - AM4
   - AM5
-# - name: Emergency Regulations
-#   note: |
-#     This section has Emergency Regulations, providing a way to change the
-#     gamestate during states of extreme emergency.
+- name: Emergency Regulations
+  note: |
+    This section has Emergency Regulations, providing a way to change the
+    gamestate during states of extreme emergency.
+  rules:
+  - ER3
+  - ER4
 - name: Administrative Regulations
   note: |
     This section has regulations enacted by officers, pursuant to Rule
