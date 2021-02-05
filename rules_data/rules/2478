@@ -33,13 +33,15 @@ text: |
   Finger Pointing for which e is the perp.
 
   The Referee is by default the investigator for all Finger
-  Pointing. If the Referee is the perp, then the Arbitor CAN
-  become the investigator of that Finger Pointing by announcement.
+  Pointing. When the Referee's Finger is Pointed or the Referee is
+  the perp, the Arbitor is the investigator.
 
-  The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
-  Finger at the Referee. A high crime is any crime specified as
-  being class 4 or greater. The Referee CANNOT levy the Cold Hand of
-  Justice to punish a high crime, notwithstanding Rule 2478.
+  The Referee CANNOT Point eir Finger at the Arbitor, and the
+  Arbitor CANNOT point eir finger at the Referee.
+
+  A high crime is any crime specified as being class 4 or greater.
+  The Referee CANNOT levy the Cold Hand of Justice to punish a high
+  crime, the other provisions of this rule notwithstanding.
 
   The player who initiated the most Finger Pointings that resulted
   in a Warning, Indictment, or Cold Hand of Justice in the previous
@@ -125,4 +127,9 @@ history:
   date: 2021-01-13
   agent:
     proposal: "8527"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8536"
 annotations: []
