@@ -5,7 +5,7 @@ import org.agoranomic.ruleset.*
 fun parseIndexYaml(yaml: String, ruleNumberResolver: RuleNumberResolver): RuleCategoryMapping {
     val topNode = parseRawYaml(yaml).requireList()
 
-    return topNode.values.map { it.requireMap() }.map { mapNode ->
+    return topNode.values.map { it.requireMap() }.associate { mapNode ->
         val name = mapNode.getContent("name")
 
         val category = CategorySpecification(
@@ -21,12 +21,10 @@ fun parseIndexYaml(yaml: String, ruleNumberResolver: RuleNumberResolver): RuleCa
                 .map { ruleNumberResolver.resolve(it.requireValue().content) }
 
         category to rules
-    }.let { list ->
+    }.let { map ->
         RuleCategoryMapping(
-            CategorySpecificationSet.from(list.map { it.first }),
-            list.flatMap { categoryRulesPair ->
-                categoryRulesPair.second.map { it to categoryRulesPair.first.id }
-            }.toMap()
+            CategorySpecificationSet.from(map.keys),
+            map.mapKeys { (k, _) -> k.id },
         )
     }
 }

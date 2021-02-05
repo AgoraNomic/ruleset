@@ -43,32 +43,24 @@ data class CategorySpecificationSet(
 
 data class RuleCategoryMapping(
     val categories: CategorySpecificationSet,
-    private val categoryMapping: ImmutableMap<RuleNumber, CategoryId>,
+    private val categoryMapping: ImmutableMap<CategoryId, List<RuleNumber>>,
 ) {
     init {
-        require(categories.categoryIds.containsAll(categoryMapping.values))
+        require(categories.categoryIds.containsAll(categoryMapping.keys))
     }
 
     constructor(
         categories: CategorySpecificationSet,
-        categoryMapping: Map<RuleNumber, CategoryId>,
+        categoryMapping: Map<CategoryId, List<RuleNumber>>,
     ) : this(
         categories,
         categoryMapping.toImmutableMap(),
     )
 
-    val categorizedRuleNumbers get() = categoryMapping.keys
+    val categorizedRuleNumbers by lazy { categoryMapping.values.flatten().toSet() }
 
-    fun categoryIdOf(ruleNumber: RuleNumber): CategoryId {
-        return categoryMapping.getValue(ruleNumber)
-    }
-
-    fun categoryOf(ruleNumber: RuleNumber): CategorySpecification {
-        return categories.categoryById(categoryIdOf(ruleNumber))
-    }
-
-    fun ruleNumbersIn(categoryId: CategoryId): Set<RuleNumber> {
-        return categoryMapping.filter { it.value == categoryId }.map { it.key }.toSet()
+    fun ruleNumbersIn(categoryId: CategoryId): List<RuleNumber> {
+        return categoryMapping.getValue(categoryId)
     }
 }
 
@@ -81,18 +73,10 @@ data class CategorizedRulesetState(
     }
 
     val categorizedRuleNumbers get() = categoryMapping.categorizedRuleNumbers
-    val categorizedRules by lazy { ruleset.rulesByNumbers(categorizedRuleNumbers) }
+    val categorizedRules by lazy { ruleset.rulesByNumbers(categorizedRuleNumbers).distinct() }
     val categories get() = categoryMapping.categories
 
-    fun categoryIdOf(ruleNumber: RuleNumber): CategoryId {
-        return categoryMapping.categoryIdOf(ruleNumber)
-    }
-
-    fun categoryOf(ruleNumber: RuleNumber): CategorySpecification {
-        return categoryMapping.categoryOf(ruleNumber)
-    }
-
-    fun ruleNumbersIn(categoryId: CategoryId): Set<RuleNumber> {
+    fun ruleNumbersIn(categoryId: CategoryId): List<RuleNumber> {
         return categoryMapping.ruleNumbersIn(categoryId)
     }
 

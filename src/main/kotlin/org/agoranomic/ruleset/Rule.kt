@@ -65,18 +65,12 @@ data class RuleState(
     val annotations: RuleAnnotations?,
 )
 
-data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, RuleState>) : Collection<RuleState> {
-    init {
-        require(rulesByNumber.all { it.key == it.value.id })
-    }
+data class RulesetState(private val rules: ImmutableList<RuleState>) : Collection<RuleState> {
+    // This ensures that each number corresponds to exactly one equivalent rule
+    private val rulesByNumber: ImmutableMap<RuleNumber, RuleState> =
+        rules.associateByPrimaryKey { it.id }.toImmutableMap()
 
-    constructor(rulesByNumber: Map<RuleNumber, RuleState>) : this(rulesByNumber.toImmutableMap())
-
-    companion object {
-        fun from(collection: Collection<RuleState>): RulesetState {
-            return RulesetState(collection.associateByPrimaryKey { it.id })
-        }
-    }
+    constructor(rulesByNumber: List<RuleState>) : this(rulesByNumber.toImmutableList())
 
     override fun iterator(): Iterator<RuleState> {
         return rulesByNumber.values.iterator()
@@ -89,7 +83,7 @@ data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, Rule
     }
 
     fun rulesByNumbers(ids: Collection<RuleNumber>): RulesetState {
-        return from(ids.map { ruleByNumber(it) })
+        return RulesetState(ids.map { ruleByNumber(it) })
     }
 
     override val size: Int
@@ -106,4 +100,6 @@ data class RulesetState(private val rulesByNumber: ImmutableMap<RuleNumber, Rule
     override fun isEmpty(): Boolean {
         return rulesByNumber.isEmpty()
     }
+
+    fun distinct(): RulesetState = RulesetState(rules.distinct())
 }

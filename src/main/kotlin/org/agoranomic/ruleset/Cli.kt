@@ -91,7 +91,7 @@ private class RulekeeporCommand : CliktCommand() {
                         echo("Got rule ${it.id}")
                     }
                 }
-                .let { RulesetState.from(it) }
+                .let { RulesetState(it) }
 
         formatReadable(
             Files.readString(templateFile, FILE_CHARSET),
