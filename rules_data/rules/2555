@@ -5,21 +5,23 @@ text: |
   Blots are an indestructible fixed currency with ownership
   restricted to persons. A person with 1 or more blots is Impure, a
   person with 0 blots is Pure. An impure unregistered person is a
-  Fugitive.
+  Fugitive. The Referee is an office, and the recordkeepor for
+  blots.
 
   To levy a fine of N on a person, where N is a positive integer or
-  zero, is to grant em N blots To expunge a blot is to destroy it.
-
+  zero, is to grant em N blots. To expunge a blot is to destroy it.
   Levying fines and destroying blots are each secured with a Power
   Threshold of 1.7.
 
   A person CAN, by announcement, create a specified number of blots
   in eir possession.
 
-  The Referee is an office, and the recordkeepor for blots.
-
   Any player CAN expunge a blot from a specified person (or emself
   if no one is specified) by paying a fee of one Blot-B-Gone.
+
+  Any player CAN levy a fine of one blot on a specified person by
+  paying a fee of two Blot-B-Gones, provided the specified person
+  has not already gained two blots or more in the current week.
 
   At the beginning of each quarter, half (rounded down) of each
   fugitive's blots are destroyed.
@@ -76,4 +78,9 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8427"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8537"
 annotations: []
