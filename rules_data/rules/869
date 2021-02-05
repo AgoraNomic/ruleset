@@ -2,10 +2,14 @@ id: 869
 name: How to Join and Leave Agora
 power: 3
 text: |
-  Any entity that is or ever was an organism generally capable of
-  freely originating and communicating independent thoughts and
-  ideas is a person. Rules to the contrary notwithstanding, no other
-  entities are persons.
+  Any entity (including a group of confederated entities) that is or
+  ever was able to willingly communicate original ideas is a person.
+  Rules to the contrary notwithstanding, no other entities are
+  persons.
+
+  Questions about personhood are to be resolved equitably, with
+  regard for the good-faith of those involved and the customs of
+  honorable play.
 
   Citizenship is a secured person switch with values Unregistered
   (default) and Registered, tracked by the Registrar. A registered
@@ -15,9 +19,12 @@ text: |
   An Unregistered person CAN (unless explicitly forbidden or
   prevented by the rules) register by publishing a message that
   indicates reasonably clearly and reasonably unambiguously that e
-  intends to become a player at that time. A player, acting as
-  emself, CAN deregister (cease being a player) by announcement. If
-  e does so, e CANNOT register or be registered for 30 days.
+  intends to become a player at that time. No person can be a player
+  if e is part of another player or another player is part of em.
+
+  A player, acting as emself, CAN deregister (cease being a player)
+  by announcement. If e does so, e CANNOT register or be registered
+  for 30 days.
 
   A person, by registering, agrees to abide by the Rules. The Rules
   CANNOT otherwise bind a person to abide by any agreement without
@@ -291,6 +298,11 @@ history:
   date: 2020-08-10
   agent:
     proposal: "8485"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8535"
 annotations:
 - cfjs:
   - id: '1275'

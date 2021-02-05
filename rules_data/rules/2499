@@ -6,9 +6,10 @@ text: |
   recently registered, any player CAN cause em to receive one by
   announcement.
 
-  When a player receives a Welcome Package, if e has not received
-  one in the past 30 days, then e gains 10 boatloads of coins and
-  one of each type of Card defined in the rules.
+  When a player receives a Welcome Package, e gains 10 boatloads of
+  coins and one of each type of Card defined in the rules, unless e,
+  or any person of whom e was a part or who was a part of em has
+  received a welcome package in the last 30 days.
 history:
 - change:
     type: enactment
@@ -80,4 +81,9 @@ history:
   date: 2021-01-13
   agent:
     proposal: "8528"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8535"
 annotations: []
