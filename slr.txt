@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 27 Jan 2021
+Date of this ruleset: 5 Feb 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 151
+Number of rules currently enacted: 146
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2645
-Highest ID'd Proposal Passed: 8531
-Highest ID'd Rule Enacted: 2645
+Highest ID'd rule in this ruleset: 2646
+Highest ID'd Proposal Passed: 8537
+Highest ID'd Rule Enacted: 2646
 
 ========================================================================
 The Game of Agora
@@ -49,50 +49,22 @@ Agora Is A Nomic
 
 ------------------------------------------------------------------------
 ========================================================================
-Important Temporary Rules
-   This category is a temporary dumping ground for rules that don't
-   easily fit in any other category but that hold special relevance for
-   the current gamestate.
-------------------------------------------------------------------------
-Rule 2633/0 (Power=3.0)
-Rulebending
-
-      G. CAN, by announcement, make a Rulebender (defined as being an
-      active player holding the patent title of Rulebender) into a
-      Rulebending Magister, or make any entity cease being a rulebending
-      magister.  Changes to an entity's rulebending magister status are
-      secured.
-      
-      A rulebending magister CAN demonstrate a Rulebending Form by
-      announcement, specifying a published document as being the form.
-      When e does so, the form's power is set to the power of this rule,
-      it takes effect as an ephemeral instrument, and then its power is
-      set to 0.  However, a rulebending form CANNOT apply any of the
-      following changes:
-      
-      - rule changes;
-      - the creation, destruction, or transfer of assets;
-      - the flipping of switches;
-      - the creation, modification, or termination of any pledge,
-        promise, or contract;
-      - the changing of an entity's rulebending magister status.
-      
-      G. CAN cause this rule to repeal itself by announcement.
-
-------------------------------------------------------------------------
-========================================================================
 Players
    This small section provides some rules detailing how joining and
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/47 (Power=3)
+Rule 869/48 (Power=3)
 How to Join and Leave Agora
 
-      Any entity that is or ever was an organism generally capable of
-      freely originating and communicating independent thoughts and
-      ideas is a person. Rules to the contrary notwithstanding, no other
-      entities are persons.
+      Any entity (including a group of confederated entities) that is or
+      ever was able to willingly communicate original ideas is a person.
+      Rules to the contrary notwithstanding, no other entities are
+      persons.
+      
+      Questions about personhood are to be resolved equitably, with
+      regard for the good-faith of those involved and the customs of
+      honorable play.
       
       Citizenship is a secured person switch with values Unregistered
       (default) and Registered, tracked by the Registrar. A registered
@@ -102,9 +74,12 @@ How to Join and Leave Agora
       An Unregistered person CAN (unless explicitly forbidden or
       prevented by the rules) register by publishing a message that
       indicates reasonably clearly and reasonably unambiguously that e
-      intends to become a player at that time. A player, acting as
-      emself, CAN deregister (cease being a player) by announcement. If
-      e does so, e CANNOT register or be registered for 30 days.
+      intends to become a player at that time. No person can be a player
+      if e is part of another player or another player is part of em.
+      
+      A player, acting as emself, CAN deregister (cease being a player)
+      by announcement. If e does so, e CANNOT register or be registered
+      for 30 days.
       
       A person, by registering, agrees to abide by the Rules. The Rules
       CANNOT otherwise bind a person to abide by any agreement without
@@ -199,6 +174,28 @@ Cantus Cygneus
       notation in the Registrar's monthly report will ensure that,
       henceforth, all may know said Player deregistered in a Writ of
       FAGE.
+
+------------------------------------------------------------------------
+Rule 2646/0 (Power=1)
+Activity
+
+      Activity is a player switch tracked by the Registrar, with values
+      Active (default) and Inactive.  To flip a player's activity to
+      active (inactive) is to activate (deactivate) em.  The date on
+      which each player's activity was last changed is part of the
+      Registrar's weekly report.
+      
+      A player CAN activate or deactivate emself by announcement.
+      
+      Any player CAN, with notice, make a player who has not made a
+      public announcement in the past 30 days inactive.
+      
+      If a player has been inactive continuously for the past 60 days,
+      then any player CAN deregister em without 3 objections. The
+      Registrar SHOULD attempt to deregister players who meet this
+      condition. The publication of intent for such a deregistration
+      SHOULD be sent to the inactive player's registered email address
+      at the same time that it is published.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -954,7 +951,7 @@ Rules & Regulations
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/14 (Power=3.1)
+Rule 2141/14 (Power=3.2)
 Role and Attributes of Rules
 
       A rule is an enduring statute. Every rule has a power between 0.1
@@ -1007,7 +1004,7 @@ Interpreting the Rules
       e should be punished, is wholly void and without effect.
 
 ------------------------------------------------------------------------
-Rule 1030/13 (Power=3.2)
+Rule 1030/13 (Power=3.3)
 Precedence between Rules
 
       In a conflict between Rules, the conflict shall be resolved by
@@ -1129,7 +1126,7 @@ Regulations
       eir weekly and monthly reports in a fashion similar to rules.
 
 ------------------------------------------------------------------------
-Rule 2486/0 (Power=3.14)
+Rule 2486/1 (Power=3.14)
 The Royal Parade
 
                     _
@@ -1156,6 +1153,10 @@ The Royal Parade
                 near recently-amended rules of high Power;
           AND FURTHERMORE, additions to this Parade are most welcome
                when Events suiting the honour should occur.
+          NEXT UP in the Parade comes the Discordian Court:  G. the
+               Grand Vizier is arguing with Jason the Untitled, while
+               nix, Court Anarchist, is cramming cancelled ballots into
+               eir pockets.
 
 ------------------------------------------------------------------------
 Rule 1051/17 (Power=1)
@@ -1230,7 +1231,7 @@ Bleach
       for paragraph breaks.
 
 ------------------------------------------------------------------------
-Rule 2614/5 (Power=3.01)
+Rule 2614/6 (Power=3.1)
 Eclipse Light
 
       An emergency message is one whose subject line contains the text
@@ -1274,6 +1275,10 @@ Eclipse Light
       this rule as if e were the Prime Minister, and notwithstanding any
       rule that would prohibit a single player from holding both
       offices.
+      
+      Rules to the contrary notwithstanding, Emergency Regulations
+      CANNOT be enacted, amended, or repealed except as described in
+      this Rule.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -1295,7 +1300,7 @@ Agoran Decisions
       3. Resolution of the decision.
 
 ------------------------------------------------------------------------
-Rule 107/21 (Power=3)
+Rule 107/22 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -1318,13 +1323,14 @@ Initiating Agoran Decisions
       The publication of such a valid notice initiates the voting period
       for the decision. The voting period lasts for 7 days. The minimum
       voting period for a decision with at least two options is five
-      days. The vote collector for a decision with less than two options
+      days. The voting period for a decision cannot be set or changed to
+      a duration longer than fourteen days. Changing the length of a
+      decision's voting period is secured at power 2.
+      
+      The vote collector for a decision with less than two options
       CAN and SHALL end the voting period by announcement, if it has not
       ended already, and provided that e resolves the decision in the
       same message.
-      
-      The voting period for a decision cannot be set or changed to a
-      duration longer than fourteen days.
       
       A public notice purporting to initiate an Agoran decision is a
       self-ratifying attestation of the notice's validity.
@@ -1357,7 +1363,7 @@ Voting Methods
       4. For any other decision, the valid options.
 
 ------------------------------------------------------------------------
-Rule 683/26 (Power=3)
+Rule 683/27 (Power=3)
 Voting on Agoran Decisions
 
       An entity submits a ballot on an Agoran decision by publishing a
@@ -1379,11 +1385,12 @@ Voting on Agoran Decisions
       
       6. The voter has no other valid ballots on the same decision.
       
-      A valid ballot is a ballot, correctly submitted, that has not
-      been withdrawn. During the voting period of an Agoran decision,
-      an entity CAN by announcement withdraw (syn. retract) a ballot
-      that e submitted on that decision. To "change" one's vote is to
-      retract eir previous ballot (if any), then submit a new one.
+      A valid ballot is a ballot, correctly submitted, that has not been
+      withdrawn. During the voting period of an Agoran decision, an
+      entity CAN by announcement withdraw (syn. retract) a ballot that e
+      submitted on that decision. To "change" one's vote is to retract
+      eir previous ballot (if any), then submit a new one. Submitting
+      and withdrawing ballots is secured.
 
 ------------------------------------------------------------------------
 Rule 208/14 (Power=3)
@@ -1422,13 +1429,14 @@ Resolving Agoran Decisions
       Agoran decision take effect when the decision is resolved.
 
 ------------------------------------------------------------------------
-Rule 955/26 (Power=3)
+Rule 955/27 (Power=3)
 Determining the Will of Agora
 
       Each Agoran decision has a voting method, which determines how
       voters may vote on it and how to calculate the outcome. The
       strength of a ballot is the voting strength of the voter who cast
-      it on that Agoran decision.
+      it on that Agoran decision, as calculated at the end of that
+      decision's voting period.
       
       1. For an AI-majority decision, let F be the total strength of all
          valid ballots cast FOR a decision, A be the same for AGAINST,
@@ -1550,7 +1558,7 @@ Conditional Votes
       order they occurred in the original vote.
 
 ------------------------------------------------------------------------
-Rule 2168/9 (Power=1)
+Rule 2168/9 (Power=2)
 Extending the Voting Period
 
       Whenever the voting period of an Agoran decision would end, and
@@ -1775,7 +1783,7 @@ The Associate Director of Personnel
          interim.
 
 ------------------------------------------------------------------------
-Rule 2472/4 (Power=2)
+Rule 2472/5 (Power=2)
 Office Incompatibilities
 
       Some pairs of office are incompatible:
@@ -1792,8 +1800,6 @@ Office Incompatibilities
       incompatible with each other. Rules to the contrary
       notwithstanding, a player CANNOT be installed into an office if
       doing so would make em Overpowered.
-      
-      A zombie is Overpowered if e holds one or more offices.
       
       If a player is Overpowered, any player CAN, with Notice, Demand
       Resignation from em. When this occurs, each office that the
@@ -1911,7 +1917,7 @@ Documents
    Documents are little bits of text that can be ratified, therefore
    modifying the gamestate slightly.
 ------------------------------------------------------------------------
-Rule 1551/21 (Power=3.1)
+Rule 1551/21 (Power=3.2)
 Ratification
 
       When a document or statement (hereafter "document") is ratified,
@@ -2006,27 +2012,29 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/9 (Power=2)
+Rule 2555/10 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
       restricted to persons. A person with 1 or more blots is Impure, a
       person with 0 blots is Pure. An impure unregistered person is a
-      Fugitive.
+      Fugitive. The Referee is an office, and the recordkeepor for
+      blots.
       
       To levy a fine of N on a person, where N is a positive integer or
-      zero, is to grant em N blots To expunge a blot is to destroy it.
-      
+      zero, is to grant em N blots. To expunge a blot is to destroy it.
       Levying fines and destroying blots are each secured with a Power
       Threshold of 1.7.
       
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
       
-      The Referee is an office, and the recordkeepor for blots.
-      
       Any player CAN expunge a blot from a specified person (or emself
       if no one is specified) by paying a fee of one Blot-B-Gone.
+      
+      Any player CAN levy a fine of one blot on a specified person by
+      paying a fee of two Blot-B-Gones, provided the specified person
+      has not already gained two blots or more in the current week.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -2045,7 +2053,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/15 (Power=1.7)
+Rule 2478/16 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement Point eir Finger at a player (the
@@ -2079,32 +2087,19 @@ Vigilante Justice
       Finger Pointing for which e is the perp.
       
       The Referee is by default the investigator for all Finger
-      Pointing. If the Referee is the perp, then the Arbitor CAN
-      become the investigator of that Finger Pointing by announcement.
+      Pointing. When the Referee's Finger is Pointed or the Referee is
+      the perp, the Arbitor is the investigator.
       
-      The Referee CANNOT Point eir Finger. The Arbitor CANNOT Point eir
-      Finger at the Referee. A high crime is any crime specified as
-      being class 4 or greater. The Referee CANNOT levy the Cold Hand of
-      Justice to punish a high crime, notwithstanding Rule 2478.
+      The Referee CANNOT Point eir Finger at the Arbitor, and the
+      Arbitor CANNOT point eir finger at the Referee.
+      
+      A high crime is any crime specified as being class 4 or greater.
+      The Referee CANNOT levy the Cold Hand of Justice to punish a high
+      crime, the other provisions of this rule notwithstanding.
       
       The player who initiated the most Finger Pointings that resulted
       in a Warning, Indictment, or Cold Hand of Justice in the previous
       Agoran Week CAN once grant emself a Justice Card by announcement.
-
-------------------------------------------------------------------------
-Rule 2479/6 (Power=1.7)
-Official Injustice
-
-      Subject to the provisions of this rule, the Referee CAN, by
-      announcement, impose Summary Judgment on a player. When e does so,
-      e levies a fine of up to 2 Blots on em. If e does not specify the
-      number of Blots in the fine, the attempt to impose Summary
-      Judgment is INEFFECTIVE. Summary Judgement is imposed on the
-      Referee's own initiative, and not in response to any official
-      proceeding.
-      
-      The Referee CANNOT impose Summary Judgement more than three times
-      a week.
 
 ------------------------------------------------------------------------
 Rule 2557/5 (Power=1.7)
@@ -2179,7 +2174,7 @@ Indictment
       freed of any obligations of this rule.
 
 ------------------------------------------------------------------------
-Rule 2531/13 (Power=2)
+Rule 2531/14 (Power=2)
 Defendant's Rights
 
       Any attempt to levy a fine is INEFFECTIVE if it does not include
@@ -2228,9 +2223,6 @@ Defendant's Rights
         (9) it attempts to levy a fine on a player who has already been
             fined for the conduct constituting the reason for the levy;
             or
-      
-        (10) it attempts to levy a fine on a zombie for an action that
-             its master performed on its behalf.
 
 ------------------------------------------------------------------------
 Rule 2617/2 (Power=1.0)
@@ -2391,7 +2383,7 @@ Judicial Retraction and Excess
       regards to that case.
 
 ------------------------------------------------------------------------
-Rule 2492/4 (Power=1)
+Rule 2492/5 (Power=1)
 Recusal
 
       A judge CAN recuse emself from a CFJ e is assigned to by
@@ -2400,7 +2392,8 @@ Recusal
       The Arbitor CAN recuse a judge from a case by announcement, if
       that judge has violated a time limit for judging the case and has
       not judged it in the mean time; the Arbitor SHALL do so in a
-      timely fashion after the time limit expires, if able.
+      timely fashion after the time limit expires, if able. The Arbitor
+      CAN recuse an inactive or deregistered judge by announcement.
       
       If a judge is recused from a case 4+ days after being assigned to
       it, e SHOULD NOT be assigned as a judge until e has apologised and
@@ -2889,14 +2882,13 @@ Cards & Sets
       Cards and Products are tracked by the Treasuror.
 
 ------------------------------------------------------------------------
-Rule 2621/1 (Power=1.0)
+Rule 2621/2 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Victory Points than any other
       player, e CAN Take Over the Economy by announcement. When a player
       does so, e wins the game, all Cards and all Products are
-      destroyed, then each non-zombie player is granted 1 card of each
-      type.
+      destroyed, then each active player is granted 1 card of each type.
 
 ------------------------------------------------------------------------
 Rule 2629/0 (Power=1.0)
@@ -2954,16 +2946,17 @@ Player Focuses
       Focus switch in the last month, it is not flipped.
 
 ------------------------------------------------------------------------
-Rule 2499/12 (Power=1)
+Rule 2499/13 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most
       recently registered, any player CAN cause em to receive one by
       announcement.
       
-      When a player receives a Welcome Package, if e has not received
-      one in the past 30 days, then e gains 10 boatloads of coins and
-      one of each type of Card defined in the rules.
+      When a player receives a Welcome Package, e gains 10 boatloads of
+      coins and one of each type of Card defined in the rules, unless e,
+      or any person of whom e was a part or who was a part of em has
+      received a welcome package in the last 30 days.
 
 ------------------------------------------------------------------------
 Rule 2585/5 (Power=1)
@@ -3126,109 +3119,6 @@ The Stones
       
       - Protection Stone (monthly, 70%): A specified stone is granted
         immunity.
-
-------------------------------------------------------------------------
-========================================================================
-The Undead
-   A silly mechanic describing what happens after you become inactive.
-------------------------------------------------------------------------
-Rule 2532/9 (Power=2)
-Zombies
-
-      A talisman is an indestructible asset, tracked by the Registrar,
-      and with ownership wholly restricted to players and Agora. There
-      exists exactly one talisman for each player, and no other
-      talismans; if one does not exist for a certain player, it is
-      created in eir posession.  Talismans CAN only be transferred as
-      explicitly specified by the rules.  The creation, destruction, and
-      transfer of talismans is secured.
-      
-      Rules to the contrary notwithstanding, a player CAN, by
-      announcement, transfer the talisman for em to emself. The master
-      of a player is the entity that possesses the talisman for em. A
-      player who is eir own master is active; any other player is a
-      zombie (syn. inactive).
-      
-      The master of a zombie CAN act on behalf of em, except a master
-      CANNOT act on behalf of a zombie to:
-        - initiate, support, object to, or perform a dependent action;
-        - act on behalf of that zombie's zombies;
-        - bid in a zombie auction;
-        - enter a contract, pledge, or other type of agreement;
-        - initiate a Call for Judgement;
-        - create blots;
-        - deregister.
-      
-      If a master causes a zombie to perform an ILLEGAL action, the
-      master commits the Class 4+N Crime of Masterminding (where N is the
-      class of the illegal action).
-      
-      If an active player who was a zombie has not received a Welcome
-      Package since e most recently ceased being a zombie, and if eir
-      resale value was less than 2 at any point during eir most recent
-      time as a zombie, then any player CAN cause em to receive a
-      Welcome Package by announcement.
-
-------------------------------------------------------------------------
-Rule 2574/5 (Power=3)
-Zombie Life Cycle
-
-      Any player CAN, with notice, transfer the talisman for an active
-      player who has not made a public announcement in the past 60 days
-      to Agora.
-      
-      Resale value is a secured natural switch for zombies, tracked by
-      the Registrar, with a default value of 2. Whenever the talisman
-      for a zombie is transferred to a player, that zombie's resale value
-      is decreased by 1. At the end of a zombie auction, the resale
-      value of every zombie that is an excess lot in that auction
-      decreases by 1.
-      
-      The talisman for a zombie with zero resale value CANNOT be
-      transferred to any player other than that zombie.
-      
-      Any player CAN, with notice:
-        - If a zombie has been a zombie for the past 90 days and not had
-          Agora for a master during any of that time, transfer the
-          talisman for em to Agora;
-        - If a player possesses more than one talisman for persons other
-          than emself, specify and transfer one of those talismans to
-          Agora;
-        - Deregister a zombie whose resale value is zero and whose
-          master is Agora.
-      
-      The Registrar SHALL track the date for each zombie on which Agora
-      was most recently eir master. The Registrar SHALL perform all
-      POSSIBLE actions in the preceding paragraph in a timely fashion
-      after first reporting their possibility via the facts in eir
-      weekly report.
-
-------------------------------------------------------------------------
-Rule 2639/0 (Power=3.0)
-Zombie Phase-Out
-
-      While a zombie's talisman is owned by Agora, that zombie's resale
-      value is continuously set to 0.
-
-------------------------------------------------------------------------
-Rule 1885/13 (Power=2)
-Zombie Auctions
-
-      Whenever a zombie has Agora for a master and has a resale value
-      greater than 0, and when eir talisman is not currently a lot in an
-      auction and has not been won as an auction lot in the past 14
-      days, then the Registrar CAN put that zombie's talisman (along
-      with any other talismans that fulfill the same conditions) up for
-      auction.
-      
-      In a timely fashion after the beginning of each month, the
-      Registrar SHALL either initiate such an auction or, if no
-      talismans meeting these conditions exist, announce that no such
-      auction is necessary.
-      
-      For such an auction, each lot consists of the talisman for one
-      zombie, ordered at the discretion of the Registrar. The Registrar
-      is the auctioneer, and the minimum bid is 1.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3541,7 +3431,7 @@ Order of the Hero of Agora Nomic
       beyond the call of duty.
 
 ------------------------------------------------------------------------
-Rule 2581/3 (Power=1)
+Rule 2581/4 (Power=1)
 Official Patent Titles
 
       The following Patent Titles CAN be awarded by the indicated
@@ -3572,10 +3462,6 @@ Official Patent Titles
       
        - Bard, by Speaker the award should given be, to persons who
          publish repeated creative wit or poetry.
-      
-       - Necromancer, awardable by the Registrar to any player who makes
-         such sufficient persistent legal use of zombies that rules need
-         to be amended to prevent such practices.
       
        - Tycoon, awardable by the Treasuror to any player who executes a
          novel economic or contractual enterprise that has a significant

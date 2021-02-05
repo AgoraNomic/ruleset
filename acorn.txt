@@ -2,7 +2,7 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 27 Jan 2021
+Date of this ACORN: 5 Feb 2021
 
 ------------------------------------------------------------------------
 
@@ -15,9 +15,16 @@ Auction Regulations
    * Regulation  AM3: Second-price Auctions
    * Regulation  AM4: Nonwinning-price Auctions
    * Regulation  AM5: Selective-bid Auctions
+Emergency Regulations
+   * Regulation  ER3: The First Regulation of G.ravity
+   * Regulation  ER4: The Second Regulation of G.ravity
 Administrative Regulations
    * Regulation  PA0: Certification
    * Regulation  PA1: Proposal Style Guide
+   * Regulation  RA0: Limitations to Powers of Interim Referees
+   * Regulation  RA1: General Enforcement Policies
+   * Regulation  RA2: Guidelines to Referees for Compiling Weekly Reports
+   * Regulation  RA3: Holiday Rule Reminder Practice
 
 
 ------------------------------------------------------------------------
@@ -185,6 +192,53 @@ Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
+Emergency Regulations
+   This section has Emergency Regulations, providing a way to change the
+   gamestate during states of extreme emergency.
+------------------------------------------------------------------------
+Regulation ER3/0
+The First Regulation of G.ravity
+
+      A pausable intent is any announcement of intent for performing a
+      dependent action either without N objections, with N Agoran
+      consent, with notice, or with T notice.
+      
+      G. CAN, by announcement, cause this regulation to extend the prior
+      deadline, provided for in Rule 2595(3), for performing a dependent
+      action based on a specified pausable intent (i.e. change the time
+      between intent announcement and the enabling of the performance of
+      the specified dependent action), to 14 days.
+
+History:
+
+Enacted by Rulebending Form demonstrated by G., 02 Feb 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation ER4/0
+The Second Regulation of G.ravity
+
+      The LAWS OF G.RAVITY is a document that:
+          1. is labelled LAWS OF G.RAVITY;
+          2. has the following SHA-256 hash:
+             d47fb31e9c0c29fa1295371e0938335ae1f917306d59cd593a42f44d4ce39c5e
+      and 3. has had its SHA-256 hash calculated by G. on or before
+             02-Feb-2021.
+      
+      G. CAN, by announcement, cause this regulation to perform any
+      action that emergency regulations CAN perform as per Rule 2614,
+      except for any action explicitly described as IMPOSSIBLE by the
+      LAWS of G.RAVITY.
+
+History:
+
+Enacted by Rulebending Form demonstrated by G., 02 Feb 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
 Administrative Regulations
    This section has regulations enacted by officers, pursuant to Rule
    2630.
@@ -274,6 +328,110 @@ Proposal Style Guide
 History:
 
 Enacted by Aris, 13 Sep 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation RA0/0
+Limitations to Powers of Interim Referees
+
+      An interim holder of the office of Referee (henceforth known as an
+      ‘Interim Referee’) SHALL NOT impose summary judgement more than
+      twice a week.
+      
+      It is PROHIBITED for an Interim Referee levy a fine to a person
+      who commits the Class 2 Crime of Tardiness, if the person's
+      deadline to perform eir duty occurs during a Holiday, as defined
+      by rule 1769.
+      
+      A Referee MUST NOT enact or amend any other regulations in such a
+      manner as to cause any of them to take precedence over this
+      regulation.
+      
+      This regulation takes precedence over all other administrative
+      regulations promulgated by any Referee.
+
+History:
+
+Enacted by JTAC, 31 Jan 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation RA1/0
+General Enforcement Policies
+
+      If a Referee wishes to impose the Cold Hand of Justice on any perp
+      for the Class 2 Crime of Tardiness, e is strongly RECOMMENDED to
+      specify the violation as forgivable, unless the perp has
+      consecutively committed the violation or the evidence indicates
+      that the perp has used or has attempted to use the violation as
+      part of a plan to abuse eir official position.
+      
+      Referees are ENCOURAGED to amend this regulation to specify best
+      practices for other crimes and violations.
+
+History:
+
+Enacted by JTAC, 31 Jan 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation RA2/0
+Guidelines to Referees for Compiling Weekly Reports
+
+      Courtesy of the illustrious Publius Scribonius Scholasticus, when
+      making eir weekly report on blot holdings, a Referee is ENCOURAGED
+      to additionally include:
+      
+      1. A section tracking investigations resulting from a finger being
+      pointed of which the Referee is the investigator, which have not
+      been concluded at the time of the report’s publishing; e SHOULD
+      provide the following fields for each entry:
+      
+          a. Name of the perp
+          b. Name of the person who pointed eir finger
+          d. Summary of the available findings at the time of the report
+      
+      The Referee is strongly DISCOURAGED from reporting on
+      investigations of which e is not the investigator. At the time of
+      the promulgation of this regulation, the only rule-defined
+      circumstance in which the Referee is not the investigator is when
+      the Referee is the perp. As such, eir reports on such
+      investigations may be misleading and are at a high likelihood of
+      violating rule 2471.
+      
+      2. A section tracking historical changes to the blots possessed by
+      persons. If available, the time period tracked is RECOMMENDED to
+      begin from approximately two years prior and end at the time of
+      the report’s publishing. E SHOULD provide the following columns
+      for this section:
+      
+          a. Name of person in whose possession the number of blots has
+             changed
+          b. Change in number of blots
+          c. Date of change
+          d. Reason of change
+
+History:
+
+Enacted by JTAC, 31 Jan 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation RA3/0
+Holiday Rule Reminder Practice
+
+      In addition to the recommendations contained within rule 1769, the
+      Referee is strongly ENCOURAGED to remind the players of the end of
+      the Holiday by announcement. This SHOULD be done between 2 to 4
+      days before the end of the Holiday.
+
+History:
+
+Enacted by JTAC, 31 Jan 2021
 
 Annotations:
 
