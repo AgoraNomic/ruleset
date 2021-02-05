@@ -22,6 +22,7 @@
   - 478  # Fora
   - 2139 # The Registrar
   - 1789 # Cantus Cygneus
+  - 2646 # Activity
 - name: General Definitions
   note: |
     This section describes the terminology used by all the other rules.
@@ -209,14 +210,6 @@
   - 2643 # Collecting Stones
   - 2644 # The Gauntlet
   - 2645 # The Stones
-- name: The Undead
-  note: |
-    A silly mechanic describing what happens after you become inactive.
-  rules:
-  - 2532 # Zombies
-  - 2574 # Zombie Life Cycle
-  - 2639 # Zombie Phase-Out
-  - 1885 # Zombie Actions
 - name: Victory & Karma
   note: |
     All games have winners, and Agora is no exception. If you're

@@ -8,7 +8,8 @@ text: |
   The Arbitor CAN recuse a judge from a case by announcement, if
   that judge has violated a time limit for judging the case and has
   not judged it in the mean time; the Arbitor SHALL do so in a
-  timely fashion after the time limit expires, if able.
+  timely fashion after the time limit expires, if able. The Arbitor
+  CAN recuse an inactive or deregistered judge by announcement.
 
   If a judge is recused from a case 4+ days after being assigned to
   it, e SHOULD NOT be assigned as a judge until e has apologised and
@@ -40,4 +41,9 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8215"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8532"
 annotations: []

@@ -5,8 +5,7 @@ text: |
   If a player has at least 20 more Victory Points than any other
   player, e CAN Take Over the Economy by announcement. When a player
   does so, e wins the game, all Cards and all Products are
-  destroyed, then each non-zombie player is granted 1 card of each
-  type.
+  destroyed, then each active player is granted 1 card of each type.
 history:
 - change:
     type: enactment
@@ -18,4 +17,9 @@ history:
   date: 2020-10-08
   agent:
     proposal: "8511"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8532"
 annotations: []

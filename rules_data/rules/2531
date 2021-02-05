@@ -48,9 +48,6 @@ text: |
     (9) it attempts to levy a fine on a player who has already been
         fined for the conduct constituting the reason for the levy;
         or
-
-    (10) it attempts to levy a fine on a zombie for an action that
-         its master performed on its behalf.
 history:
 - change:
     type: enactment
@@ -135,6 +132,11 @@ history:
   date: 2020-11-11
   agent:
     proposal: "8522"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8532"
 annotations:
 - cfjs:
   - id: 2531
