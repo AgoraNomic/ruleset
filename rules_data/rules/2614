@@ -1,6 +1,6 @@
 id: 2614
 name: Eclipse Light
-power: 3.01
+power: 3.1
 text: |
   An emergency message is one whose subject line contains the text
   "[Emergency]".
@@ -83,4 +83,11 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8533"
+- change:
+    type: power-change
+    old-power:
+    new-power:
+  date: 2021-02-03
+  agent:
+    proposal: "8534"
 annotations: []

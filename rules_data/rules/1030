@@ -1,6 +1,6 @@
 id: 1030
 name: Precedence between Rules
-power: 3.2
+power: 3.3
 text: |
   In a conflict between Rules, the conflict shall be resolved by
   performing the following comparisons in the sequence written in
@@ -137,6 +137,13 @@ history:
   date: 2019-10-13
   agent:
     proposal: "8251"
+- change:
+    type: power-change
+    old-power: 3.2
+    new-power: 3.3
+  date: 2021-02-03
+  agent:
+    proposal: "8534"
 annotations:
 - cfjs:
   - id: '1104'

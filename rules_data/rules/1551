@@ -1,6 +1,6 @@
 id: 1551
 name: Ratification
-power: 3.1
+power: 3.2
 text: |
   When a document or statement (hereafter "document") is ratified,
   rules to the contrary notwithstanding, the gamestate is modified
@@ -178,6 +178,13 @@ history:
   agent:
     cleaning:
       by: Alexis
+- change:
+    type: power-change
+    old-power: 3.1
+    new-power: 3.2
+  date: 2021-02-03
+  agent:
+    proposal: "8534"
 annotations:
 - cfjs:
   - id: '2165'
