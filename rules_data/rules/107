@@ -22,14 +22,15 @@ text: |
   The publication of such a valid notice initiates the voting period
   for the decision. The voting period lasts for 7 days. The minimum
   voting period for a decision with at least two options is five
-  days. The vote collector for a decision with less than two options
+  days. The voting period for a decision cannot be set or changed to
+  a duration longer than fourteen days. Changing the length of a
+  decision's voting period is secured at power 2.
+
+  The vote collector for a decision with less than two options
   CAN and SHALL end the voting period by announcement, if it has not
   ended already, and provided that e resolves the decision in the
   same message.
-
-  The voting period for a decision cannot be set or changed to a
-  duration longer than fourteen days.
-  
+ 
   A public notice purporting to initiate an Agoran decision is a
   self-ratifying attestation of the notice's validity.
 history:
@@ -156,6 +157,11 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8270"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8533"
 annotations:
 - cfjs:
   - id: '1650'

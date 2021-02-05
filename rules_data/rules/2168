@@ -1,6 +1,6 @@
 id: 2168
 name: Extending the Voting Period
-power: 1
+power: 2
 text: |
   Whenever the voting period of an Agoran decision would end, and
   the result would be FAILED QUORUM, the length of the voting period
@@ -73,6 +73,13 @@ history:
   date: 2020-09-25
   agent:
     proposal: "8502"
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 2
+  date: 2021-02-03
+  agent:
+    proposal: "8533"
 annotations:
 - cfjs:
   - id: 3644

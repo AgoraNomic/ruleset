@@ -5,13 +5,12 @@
   rules:
   - 101  # The Game of Agora
   - 1698 # Agora Is A Nomic
-- name: Important Temporary Rules
-  note: |
-   This category is a temporary dumping ground for rules that don't
-   easily fit in any other category but that hold special relevance
-   for the current gamestate.
-  rules:
-  - 2633 # Rulebending
+# - name: Important Temporary Rules
+#   note: |
+#    This category is a temporary dumping ground for rules that don't
+#    easily fit in any other category but that hold special relevance
+#    for the current gamestate.
+#   rules:
 - name: Players
   note: |
     This small section provides some rules detailing how joining and

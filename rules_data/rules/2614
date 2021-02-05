@@ -43,6 +43,10 @@ text: |
   this rule as if e were the Prime Minister, and notwithstanding any
   rule that would prohibit a single player from holding both
   offices.
+
+  Rules to the contrary notwithstanding, Emergency Regulations
+  CANNOT be enacted, amended, or repealed except as described in
+  this Rule.
 history:
 - change:
     type: enactment
@@ -74,4 +78,9 @@ history:
   date: 2020-08-30
   agent:
     proposal: "8490"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8533"
 annotations: []

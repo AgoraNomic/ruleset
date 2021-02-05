@@ -5,7 +5,8 @@ text: |
   Each Agoran decision has a voting method, which determines how
   voters may vote on it and how to calculate the outcome. The
   strength of a ballot is the voting strength of the voter who cast
-  it on that Agoran decision.
+  it on that Agoran decision, as calculated at the end of that
+  decision's voting period.
 
   1. For an AI-majority decision, let F be the total strength of all
      valid ballots cast FOR a decision, A be the same for AGAINST,
@@ -223,6 +224,11 @@ history:
   date: 2018-10-01
   agent:
     proposal: "8083"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8533"
 annotations:
 - cfjs:
   - id: 1673-1675

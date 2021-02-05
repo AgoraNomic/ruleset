@@ -21,11 +21,12 @@ text: |
 
   6. The voter has no other valid ballots on the same decision.
 
-  A valid ballot is a ballot, correctly submitted, that has not
-  been withdrawn. During the voting period of an Agoran decision,
-  an entity CAN by announcement withdraw (syn. retract) a ballot
-  that e submitted on that decision. To "change" one's vote is to
-  retract eir previous ballot (if any), then submit a new one.
+  A valid ballot is a ballot, correctly submitted, that has not been
+  withdrawn. During the voting period of an Agoran decision, an
+  entity CAN by announcement withdraw (syn. retract) a ballot that e
+  submitted on that decision. To "change" one's vote is to retract
+  eir previous ballot (if any), then submit a new one. Submitting
+  and withdrawing ballots is secured.
 history:
 - change:
     type: initial
@@ -181,6 +182,11 @@ history:
   date: 2019-02-22
   agent:
     proposal: "8163"
+- change:
+    type: amendment
+  date: 2021-02-03
+  agent:
+    proposal: "8533"
 annotations:
 - cfjs:
   - id: '1609'
