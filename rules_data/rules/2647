@@ -1,0 +1,21 @@
+id: 2647
+name: Burn It With Fire
+power: 3.15
+text: |
+  All Emergency Regulations are hereby repealed, destroyed, and
+  incinerated.
+
+  If it has been 1 second since this rule was adopted, this
+  rule repeals itself.
+history:
+- change:
+    type: enactment
+  date: 2021-02-11
+  agent:
+    proposal: "8538"
+- change:
+    type: repeal
+  date: 2021-02-11
+  agent:
+    rule: "2647"
+annotations: []
