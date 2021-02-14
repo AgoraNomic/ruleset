@@ -2,12 +2,12 @@ id: 2141
 name: Role and Attributes of Rules
 power: 3.2
 text: |
-  A rule is an enduring statute. Every rule has a power between 0.1
-  and 4.0, inclusive. Rules to the contrary notwithstanding, it is
-  IMPOSSIBLE to enact a rule with power outside this range, or to
-  change the power of an existing rule to a nonzero value outside
-  this range. The set of all currently-existing rules is called the
-  ruleset.
+  A rule is a type of instrument that is always taking effect and
+  has the capacity to govern the game generally. A rule's content
+  takes the form of a text, and is unlimited in scope. The ruleset
+  is the set of all currently-existing rules.
+
+  Every current rule has power between 0.1 and 4.0 inclusive.
 
   Every rule shall have an ID number, distinct among current and
   former rules, to be assigned once by the Rulekeepor.
@@ -112,6 +112,11 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8534"
+- change:
+    type: amendment
+  date: 2021-02-11
+  agent:
+    proposal: "8539"
 annotations:
 - cfjs:
   - id: '1498'

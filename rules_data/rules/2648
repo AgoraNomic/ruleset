@@ -1,0 +1,29 @@
+id: 2648
+name: Statutory Instrumentation Simultaneity
+power: 3.15
+text: |
+  Rules to the contrary notwithstanding, the proposal which enacted
+  this rule CAN make multiple rule changes, which it could otherwise
+  make individually, simultaneously. When it attempts to do so, if
+  any single rule change it attempts is INEFFECTIVE, then so is the
+  entire attempt.
+
+  If the proposal which enacted this rule makes a change to the
+  definition of a rule then, except for rules which are
+  simultaneously and explicitly enacted or repealed with that
+  change, the rules after that change are exactly the entities that
+  were rules beforehand. This is a definition of the interpretation
+  of the amendment to the rules and not, in and of itself, a rule
+  change.
+history:
+- change:
+    type: enactment
+  date: 2021-02-11
+  agent:
+    proposal: "8539"
+- change:
+    type: repeal
+  date: 2021-02-11
+  agent:
+    proposal: "8539"
+annotations: []

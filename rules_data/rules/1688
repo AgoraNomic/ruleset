@@ -2,8 +2,8 @@ id: 1688
 name: Power
 power: 3
 text: |
-  The Power of an entity is a non-negative rational number. A
-  statute is a document with positive Power.
+  The Power of an entity is a non-negative rational number. An
+  instrument is an entity with positive Power.
 
   The Power of an entity cannot be set or modified except as
   stipulated by the Rules. All entities have Power zero except where
@@ -12,8 +12,8 @@ text: |
   A Rule that makes a change, action, or value secured (hereafter
   the securing Rule) thereby makes it IMPOSSIBLE to perform that
   change or action, or to set or modify that value, except as
-  allowed by a Statute with Power greater than or equal to the
-  change's Power Threshold.  This Threshold defaults to the securing
+  allowed by an instrument with Power greater than or equal to the
+  change's Power Threshold. This Threshold defaults to the securing
   Rule's Power, but CAN be lowered as allowed by that Rule
   (including by the Rule itself).
 history:
@@ -78,4 +78,9 @@ history:
   date: 2020-03-21
   agent:
     proposal: "8354"
+- change:
+    type: amendment
+  date: 2021-02-11
+  agent:
+    proposal: "8539"
 annotations: []

@@ -4,13 +4,28 @@ power: 3
 text: |
   When a referendum on a proposal is resolved, if the outcome is
   ADOPTED, then the proposal in question is adopted, its power is
-  set to the minimum of four and its adoption index, it takes effect
-  as an ephemeral instrument, and then its power is set to 0. This
-  rule defers to rules that would prevent a proposal from taking
-  effect.
+  set to the minimum of four and its adoption index, and it takes
+  effect. Proposals CANNOT otherwise be adopted or take effect,
+  rules to the contrary notwithstanding.
 
-  A proposal CAN override the effect of any rule which it is capable
-  of amending by specifying that it does so.
+  When a proposal takes effect, the proposal applies the changes
+  that it specifies, except as prohibited by other rules. Clearly
+  marked comments are ignored. If the proposal cannot make some
+  changes it specifies, that does not preclude the other changes
+  from taking place.
+
+  Except insofar as the actions performed by a proposal happen one
+  after another, rather than simultaneously, a proposal's effect is
+  instantaneous. A proposal can neither delay nor extend its own
+  effect.  Once a proposal finishes taking effect, its power is set
+  to 0.
+
+  No entity with power below the power of this rule can prevent a
+  proposal from taking effect; this does not apply to generally
+  preventing changes to specified areas of the gamestate, nor to a
+  proposal preventing itself from taking effect (its no-effect
+  clause is generally interpreted as applying only to the rest of
+  the proposal).
 history:
 - change:
     type: initial
@@ -257,6 +272,11 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
+- change:
+    type: amendment
+  date: 2021-02-11
+  agent:
+    proposal: "8539"
 annotations:
 - cfjs:
   - id: '1639'

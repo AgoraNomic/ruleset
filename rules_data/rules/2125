@@ -2,19 +2,16 @@ id: 2125
 name: Regulated Actions
 power: 3
 text: |
-  An action is regulated by a body of law if (1) its performance is
-  limited, allowed, enabled, or permitted by that body of law; (2)
-  that body of law describes the circumstances under which it would
-  succeed or fail; or (3) it would, as part of its effect, modify
-  information for which some person bound by that body of law is
-  required, by that body of law, to be a recordkeepor.
+  An action is regulated if: (1) the Rules limit, allow, enable, or
+  permit its performance; (2) the Rules describe the circumstances
+  under which the action would succeed or fail; or (3) the action
+  would, as part of its effect, modify information for which some
+  player is required to be a recordkeepor.
 
-  If a body of law regulates an action, then to the extent that
-  doing so is within its scope, that body of law prevents the action
-  from being performed except as described within it, including by
-  limiting the methods to perform that action to those specified
-  within it. A body of law does not proscribe any action which it
-  does not regulate.
+  A Regulated Action CAN only be performed as described by the
+  Rules, and only using the methods explicitly specified in the
+  Rules for performing the given action. The Rules SHALL NOT be
+  interpreted so as to proscribe unregulated actions.
 history:
 - change:
     type: enactment
@@ -82,6 +79,11 @@ history:
   agent:
     cleaning:
       by: Falsifian
+- change:
+    type: amendment
+  date: 2021-02-11
+  agent:
+    proposal: "8539"
 annotations:
 - cfjs:
   - id: '3737'
