@@ -5,8 +5,8 @@ text: |
   The following stones are defined, one per paragraph, with the
   following format: Stone Name (Frequency, Escape Risk): Scroll.
 
-  - Power Stone (weekly, 40%): A specified player hereby buys
-    strength 3 times on a specified unresolved Agoran decision.
+  - Power Stone (weekly, 40%): A specified player hereby Buys
+    Strength 3 times.
 
   - Wealth Stone (weekly, 50%): A specified player hereby gains 5
     boatloads of coins.
@@ -39,4 +39,9 @@ history:
   date: 2021-01-13
   agent:
     proposal: "8528"
+- change:
+    type: amendment
+  date: 2021-02-11
+  agent:
+    proposal: "8540"
 annotations: []

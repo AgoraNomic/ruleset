@@ -23,9 +23,6 @@ text: |
   If the office of Speaker has been held continuously by the same
   person for 90+ days, then any player CAN appoint another player to
   the office with support.
-
-  The Speaker has voting strength one greater than e would have if e
-  did not hold the office.
 history:
 - change:
     type: initial
@@ -208,4 +205,9 @@ history:
   date: 2020-02-24
   agent:
     proposal: "8340"
+- change:
+    type: amendment
+  date: 2021-02-11
+  agent:
+    proposal: "8540"
 annotations: []

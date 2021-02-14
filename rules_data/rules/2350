@@ -14,9 +14,6 @@ text: |
 
   * An adoption index.
 
-  * A chamber to which the proposal shall be assigned upon its
-    creation.
-
   Creating a proposal adds it to the Proposal Pool. Once a proposal
   is created, its text, author, and AI cannot be changed. The author
   (syn. proposer) of a proposal is the person who submitted it.
@@ -106,6 +103,11 @@ history:
   agent:
     cleaning:
       by: Jason
+- change:
+    type: amendment
+  date: 2021-02-11
+  agent:
+    proposal: "8540"
 annotations:
 - cfjs:
   - id: '1647'
