@@ -3,17 +3,17 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 5 Feb 2021
+Date of this ruleset: 14 Feb 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 146
+Number of rules currently enacted: 142
 
 Most recent change to this ruleset:
 
-Highest ID'd rule in this ruleset: 2646
-Highest ID'd Proposal Passed: 8537
-Highest ID'd Rule Enacted: 2646
+Highest ID'd rule in this ruleset: 2649
+Highest ID'd Proposal Passed: 8540
+Highest ID'd Rule Enacted: 2649
 
 ========================================================================
 The Game of Agora
@@ -275,22 +275,19 @@ Agoran Numbers
       to the contrary notwithstanding.
 
 ------------------------------------------------------------------------
-Rule 2125/12 (Power=3)
+Rule 2125/13 (Power=3)
 Regulated Actions
 
-      An action is regulated by a body of law if (1) its performance is
-      limited, allowed, enabled, or permitted by that body of law; (2)
-      that body of law describes the circumstances under which it would
-      succeed or fail; or (3) it would, as part of its effect, modify
-      information for which some person bound by that body of law is
-      required, by that body of law, to be a recordkeepor.
+      An action is regulated if: (1) the Rules limit, allow, enable, or
+      permit its performance; (2) the Rules describe the circumstances
+      under which the action would succeed or fail; or (3) the action
+      would, as part of its effect, modify information for which some
+      player is required to be a recordkeepor.
       
-      If a body of law regulates an action, then to the extent that
-      doing so is within its scope, that body of law prevents the action
-      from being performed except as described within it, including by
-      limiting the methods to perform that action to those specified
-      within it. A body of law does not proscribe any action which it
-      does not regulate.
+      A Regulated Action CAN only be performed as described by the
+      Rules, and only using the methods explicitly specified in the
+      Rules for performing the given action. The Rules SHALL NOT be
+      interpreted so as to proscribe unregulated actions.
 
 ------------------------------------------------------------------------
 Rule 1023/40 (Power=2)
@@ -594,11 +591,11 @@ Switches
       requirement without flipping the switch.
 
 ------------------------------------------------------------------------
-Rule 1688/10 (Power=3)
+Rule 1688/11 (Power=3)
 Power
 
-      The Power of an entity is a non-negative rational number. A
-      statute is a document with positive Power.
+      The Power of an entity is a non-negative rational number. An
+      instrument is an entity with positive Power.
       
       The Power of an entity cannot be set or modified except as
       stipulated by the Rules. All entities have Power zero except where
@@ -607,13 +604,13 @@ Power
       A Rule that makes a change, action, or value secured (hereafter
       the securing Rule) thereby makes it IMPOSSIBLE to perform that
       change or action, or to set or modify that value, except as
-      allowed by a Statute with Power greater than or equal to the
-      change's Power Threshold.  This Threshold defaults to the securing
+      allowed by an instrument with Power greater than or equal to the
+      change's Power Threshold. This Threshold defaults to the securing
       Rule's Power, but CAN be lowered as allowed by that Rule
       (including by the Rule itself).
 
 ------------------------------------------------------------------------
-Rule 2140/4 (Power=3)
+Rule 2140/5 (Power=3)
 Power Controls Mutability
 
       Rules to the contrary notwithstanding, no entity with power below
@@ -621,131 +618,12 @@ Power Controls Mutability
       
       1. cause an entity to have power greater than its own.
       
-      2. adjust the power of a statute with power greater than its own.
+      2. adjust the power of an instrument with power greater than its
+      own.
       
       3. set or modify any other substantive aspect of an instrument
-         with power greater than its own except as otherwise provided
-         in this rule. A "substantive" aspect of a statute is any
-         aspect that affects the statute's operation.
-      
-      An ephemeral instrument is bound by prohibitions and limitations
-      specified in rules of lower power, unless it explicitly overrides
-      those prohibition(s) as provided for in other rules.
-
-------------------------------------------------------------------------
-Rule 2612/1 (Power=3.0)
-Bodies of Law
-
-      A body of law is a collection of related instruments and bodies of
-      law whose effects are collective and possibly interdependent, and
-      which is defined as such by a body of law. The statutes of Agora
-      form a body of law with unlimited scope, where each statute is a
-      single instrument in that body of law. All other bodies of law are
-      defined by a different body of law, in such a way as to be able to
-      trace their origins back to the statutes of Agora. Two or more
-      bodies of law may jointly define another body of law, but only
-      each of them clearly expresses the intent to participate in a
-      joint definition with each of the others. Otherwise, the
-      definitions are separate, distinct, and unrelated.
-      
-      A body of law is governed by all bodies of law which, directly or
-      indirectly, participate in its definition, as well as any body of
-      law specified as governing it by any of its governing law. A body
-      of law is subordinate to the law that governs it, other than
-      itself, and a body of law is superior to the law that it governs,
-      other than itself. For greater certainty, rules to the contrary
-      notwithstanding, the statutes of Agora govern all law and are
-      governed by no law except themselves, and no body of law can be
-      both subordinate to and superior to another.
-      
-      With respect to interactions between separate bodies of law, a
-      body of law is generally to be interpreted as acting harmoniously
-      as a single whole. The precedence between, and organization of,
-      instruments in a body of law are internal matters to that body of
-      law and generally do not affect the effect of other bodies of
-      law, except to the extent that they affect the body's operation
-      as a whole.
-      
-      The definition of a body of law includes the definition if its
-      scope, being the areas of the game that it governs. By
-      definition, the scope of a body of law is no greater than the
-      union of the scopes of the bodies of law that define it, nor does
-      it include anything which would bring it into direct conflict
-      with superior law. To the extent that a body of law's scope is
-      not explicitly defined by superior law, it is as broad as
-      possible while excluding any effect on any substantive aspect of
-      any body of law, besides itself, that it does not govern.
-      
-      Every instrument is a direct member of exactly one body of law; if
-      not specified in its definition, it is a body of law in itself. A
-      given fixation of text may, however, be the text of multiple
-      instruments, each in different bodies of law. The scope of an
-      instrument is the scope of the body of law it forms a part of. To
-      the extent that the provisions of an instrument are outside its
-      scope, they are void and without effect.
-
-------------------------------------------------------------------------
-Rule 2611/0 (Power=3.0)
-Instruments
-
-      An instrument is a type of document, either ephemeral or enduring,
-      that is defined as such by a body of law. An instrument's text,
-      where otherwise permitted, can be amended from time to time.
-      
-      Rules to the contrary notwithstanding, an instrument other than a
-      statute CANNOT become binding on a person without eir willful
-      consent, however, consent can be given by implication. In
-      particular, consenting to be bound to an instrument can imply
-      consent to be bound by amendments to it and consent to be bound by
-      other instruments.
-
-------------------------------------------------------------------------
-Rule 2613/0 (Power=3.0)
-Effects of Instruments
-
-      An instrument's effect is defined by its text, as amended from
-      time to time in accordance with the law governing its operation. A
-      "substantive" aspect of an instrument is any aspect that affects
-      the instrument's operation. If an instrument's text contains
-      clearly marked comments then, they have no effect on its
-      interpretation or operation except as that instrument itself
-      specifies, although they remain part of its text. For the purposes
-      of rules concerning the methods by which actions are performed, an
-      instrument taking effect is such a method.
-      
-      An enduring instrument is one that it is always taking effect, to
-      the extent it is permitted to so by the Rules and any other
-      applicable instruments. An enduring instrument is always speaking;
-      uses of the present tense in an enduring instrument are
-      interpreted contextually according to the applicable rules of
-      interpretation.
-      
-      An ephemeral instrument is one that takes effect only briefly, to
-      effect a number of changes on the game. When it takes effect, the
-      changes specified in its text are applied, provided that the
-      instrument is not prohibited from doing so. Unless otherwise
-      specified by the instrument or by its governing law, the
-      provisions of an instrument are applied sequentially and
-      independently, in the sense that the success or failure of each
-      provision does not depend directly on the success or failure of
-      any other provision.
-      
-      An ephemeral instrument has no ongoing effect, except to the
-      extent that the changes it makes have ongoing consequences. It
-      cannot, except by way of an enduring instrument, extend or delay
-      its own effect. An ephemeral instrument CAN, where explicitly
-      permitted to do so by the law governing it, override the effect of
-      an enduring instrument within its scope by modifying, suppressing,
-      or postponing it. Such an override is INEFFECTIVE unless the
-      nature and scope of the override are clearly specified either in
-      the governing law or, where so authorized by the governing law, in
-      the instrument itself.
-      
-      An instrument or body of law is not, except where it specifies
-      otherwise, bound by or restricted in any way by any subordinate
-      law and implicitly overrides and takes precedence over all
-      provisions, including outright prohibitions or definitions, of all
-      subordinate law.
+      with power greater than its own (that is, one that affects the
+      instrument's operation).
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -754,7 +632,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/15 (Power=3)
+Rule 2350/16 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -768,9 +646,6 @@ Proposals
         author).
       
       * An adoption index.
-      
-      * A chamber to which the proposal shall be assigned upon its
-        creation.
       
       Creating a proposal adds it to the Proposal Pool. Once a proposal
       is created, its text, author, and AI cannot be changed. The author
@@ -846,28 +721,7 @@ Proposal Classes
       ended.
 
 ------------------------------------------------------------------------
-Rule 2607/5 (Power=2.0)
-Proposal Chambers
-
-      Chamber is a a secured untracked ordinary proposal switch whose
-      possible values include unset (the default) and each of the
-      ministries of Agora.
-      
-      A proposal's chamber SHOULD only be decided by which ministry's
-      goals it effects to the greatest degree.
-      
-      If the chamber of an ordinary proposal in the Proposal Pool is
-      unset, the Promotor CAN set the chamber to a specified ministry
-      by announcement. Any player CAN, with 2 Agoran consent, flip
-      the chamber of an ordinary proposal to any ministry, provided
-      that it is in the Proposal Pool or that there is an referendum on
-      it whose voting period has not yet ended.
-      
-      To refer a proposal to a ministry is to set the chamber of that
-      proposal to the specified ministry.
-
-------------------------------------------------------------------------
-Rule 1607/50 (Power=3)
+Rule 1607/51 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -877,10 +731,9 @@ Distribution
       a proposal.  For this decision, the vote collector is the
       Assessor, the adoption index is initially the adoption index of
       the proposal, or 1.0 if the proposal does not have one, and the
-      text, author, coauthors, class and (if applicable) chamber of the
-      proposal are essential parameters. Initiating a referendum is
-      known as distribution, and removes the proposal from the Proposal
-      Pool.
+      text, author, coauthors, and class of the proposal are essential
+      parameters. Initiating a referendum is known as distribution, and
+      removes the proposal from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
       Pool at any time, but SHALL NOT do so unless it is pending.
@@ -915,18 +768,33 @@ The Assessor
       collecting votes and keeping track of related properties.
 
 ------------------------------------------------------------------------
-Rule 106/43 (Power=3)
+Rule 106/44 (Power=3)
 Adopting Proposals
 
       When a referendum on a proposal is resolved, if the outcome is
       ADOPTED, then the proposal in question is adopted, its power is
-      set to the minimum of four and its adoption index, it takes effect
-      as an ephemeral instrument, and then its power is set to 0. This
-      rule defers to rules that would prevent a proposal from taking
-      effect.
+      set to the minimum of four and its adoption index, and it takes
+      effect. Proposals CANNOT otherwise be adopted or take effect,
+      rules to the contrary notwithstanding.
       
-      A proposal CAN override the effect of any rule which it is capable
-      of amending by specifying that it does so.
+      When a proposal takes effect, the proposal applies the changes
+      that it specifies, except as prohibited by other rules. Clearly
+      marked comments are ignored. If the proposal cannot make some
+      changes it specifies, that does not preclude the other changes
+      from taking place.
+      
+      Except insofar as the actions performed by a proposal happen one
+      after another, rather than simultaneously, a proposal's effect is
+      instantaneous. A proposal can neither delay nor extend its own
+      effect.  Once a proposal finishes taking effect, its power is set
+      to 0.
+      
+      No entity with power below the power of this rule can prevent a
+      proposal from taking effect; this does not apply to generally
+      preventing changes to specified areas of the gamestate, nor to a
+      proposal preventing itself from taking effect (its no-effect
+      clause is generally interpreted as applying only to the rest of
+      the proposal).
 
 ------------------------------------------------------------------------
 Rule 2623/4 (Power=1.0)
@@ -945,21 +813,31 @@ Popular Proposal Proposer Privilege
       proposals can do so once each.
 
 ------------------------------------------------------------------------
+Rule 2649/0 (Power=1)
+Vocal Voter Verification Award
+
+      The sole player, if any, who had the highest voting strength among
+      all votes cast on all decisions resolved in the last 7 days CAN
+      once grant emself 7 boatloads of coins by announcement, provided
+      that no referenda initiated in the same message as it remain
+      unresolved.
+
+------------------------------------------------------------------------
 ========================================================================
 Rules & Regulations
    Ah, yes. What would any game be without rules? And these rules
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/14 (Power=3.2)
+Rule 2141/15 (Power=3.2)
 Role and Attributes of Rules
 
-      A rule is an enduring statute. Every rule has a power between 0.1
-      and 4.0, inclusive. Rules to the contrary notwithstanding, it is
-      IMPOSSIBLE to enact a rule with power outside this range, or to
-      change the power of an existing rule to a nonzero value outside
-      this range. The set of all currently-existing rules is called the
-      ruleset.
+      A rule is a type of instrument that is always taking effect and
+      has the capacity to govern the game generally. A rule's content
+      takes the form of a text, and is unlimited in scope. The ruleset
+      is the set of all currently-existing rules.
+      
+      Every current rule has power between 0.1 and 4.0 inclusive.
       
       Every rule shall have an ID number, distinct among current and
       former rules, to be assigned once by the Rulekeepor.
@@ -1053,20 +931,20 @@ No Cretans Need Apply
       otherwise, the later clause takes precedence.
 
 ------------------------------------------------------------------------
-Rule 105/21 (Power=3)
+Rule 105/22 (Power=3)
 Rule Changes
 
-      Where permitted by other rules, a statute generally can, as
-      part of its effect,
+      When the rules provide that an instrument takes effect, it can
+      generally:
       
       1. enact a rule. The new rule has power equal to the minimum of
-         the power specified by the enacting statute, defaulting to
-         one if the enacting statute does not specify or if it
+         the power specified by the enacting instrument, defaulting to
+         one if the enacting instrument does not specify or if it
          specifies a power less than 0.1, and the maximum power
-         permitted by other rules. The enacting statute may specify a
+         permitted by other rules. The enacting instrument may specify a
          title for the new rule, which if present shall prevail. The ID
          number of the new rule cannot be specified by the enacting
-         statute; any attempt to so specify is null and void.
+         instrument; any attempt to so specify is null and void.
       
       2. repeal a rule. When a rule is repealed, it ceases to be a rule,
          its power is set to 0, and the Rulekeepor need no longer
@@ -1079,12 +957,12 @@ Rule Changes
          repealed. If the reenacting proposal provides new text for the
          rule, the rule SHOULD have materially the same purpose as did
          the repealed version. Unless specified otherwise by the
-         reenacting statute, a reenacted rule has power equal to
-         the power it had at the time of its repeal (or power 1, if
-         power was not defined at the time of that rule's repeal). If
-         the reenacting statute is incapable of setting the
-         reenacted rule's power to that value, then the reenactment is
-         null and void.
+         reenacting instrument, a reenacted rule has power equal to the
+         power it had at the time of its repeal (or power 1, if power
+         was not defined at the time of that rule's repeal). If the
+         reenacting instrument is incapable of setting the reenacted
+         rule's power to that value, then the reenactment is null and
+         void.
       
       4. amend the text of a rule.
       
@@ -1500,7 +1378,7 @@ Quorum
       it is set to 2 instead.
 
 ------------------------------------------------------------------------
-Rule 2422/8 (Power=3)
+Rule 2422/9 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -1518,14 +1396,10 @@ Voting Strength
       voting strength, it is set to the minimum value if it was less
       and the maximum value if it was more.
       
-      A player CAN Buy Strength by paying 1 Extra Vote and specifying a
-      current Agoran decision on which e is a voter. For each time a
-      player has Bought Strength on a decision, eir voting strength is
-      1 greater on that decision. If the decision is on a proposal, and
-      the proposal's chamber and the player's focus are the same value,
-      then eir voting strength is instead 2 greater on that decision.
-      A player CANNOT Buy Strength for the same decision more than 3
-      times.
+      A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
+      player's Voting Strength on an ordinary referendum is 1 greater
+      for every time e Bought Strength during that decision's voting
+      period.
 
 ------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
@@ -1864,20 +1738,6 @@ The Ministor
       The Ministor is an office, tasked with overseeing gameplay
       related to Ministries. The Ministor SHALL publish eir monthly
       report in a timely manner from the beginning of the month.
-
-------------------------------------------------------------------------
-Rule 2637/1 (Power=2.0)
-Office Interests
-
-      Ministry Interest (or just Interest) is a secured office switch,
-      tracked by the Ministor in eir monthly report, whose possible
-      values are lists of ministries, defaulting to the empty list. The
-      Ministor CAN flip an office's Ministry Interests without
-      objection.
-      
-      For each item of each office's Ministry Interest, that office's
-      holder's voting strength is increased by 2 on proposals whose
-      Chamber is set to that Ministry.
 
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
@@ -3095,14 +2955,14 @@ The Gauntlet
       existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/2 (Power=2)
+Rule 2645/3 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
       following format: Stone Name (Frequency, Escape Risk): Scroll.
       
-      - Power Stone (weekly, 40%): A specified player hereby buys
-        strength 3 times on a specified unresolved Agoran decision.
+      - Power Stone (weekly, 40%): A specified player hereby Buys
+        Strength 3 times.
       
       - Wealth Stone (weekly, 50%): A specified player hereby gains 5
         boatloads of coins.
@@ -3122,7 +2982,7 @@ The Stones
 
 ------------------------------------------------------------------------
 ========================================================================
-Victory & Karma
+Victory
    All games have winners, and Agora is no exception. If you're
    interested in getting some serious bragging points among the Agorans,
    this is the right place to look.
@@ -3163,7 +3023,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/22 (Power=3)
+Rule 2438/23 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3240,9 +3100,9 @@ Ribbons
       on eir own behalf to award a White Ribbon to another person by
       announcement.
       
-      Black (K): A statute CAN, as part of its effect, cause a person to
-      earn a Black Ribbon. When this occurs, this Rule awards that
-      person a Black Ribbon.
+      Black (K): An instrument CAN, as part of its effect, cause a
+      person to earn a Black Ribbon. When this occurs, this Rule awards
+      that person a Black Ribbon.
       
       Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
       unless e has done so earlier in the month. E is ENCOURAGED to
@@ -3531,7 +3391,7 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/28 (Power=2)
+Rule 103/29 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -3555,9 +3415,6 @@ The Speaker
       If the office of Speaker has been held continuously by the same
       person for 90+ days, then any player CAN appoint another player to
       the office with support.
-      
-      The Speaker has voting strength one greater than e would have if e
-      did not hold the office.
 
 ------------------------------------------------------------------------
 Rule 104/0 (Power=3)
