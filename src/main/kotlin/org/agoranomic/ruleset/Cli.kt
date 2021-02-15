@@ -21,6 +21,11 @@ import java.nio.file.StandardOpenOption
 private val FILE_CHARSET = Charsets.UTF_8
 private const val STDOUT_OUT_FILE = "-"
 
+class RuleParseException : Exception {
+    constructor(message: String) : super(message)
+    constructor(message: String, cause: Exception) : super(message, cause)
+}
+
 private class RulekeeporCommand : CliktCommand() {
     val templateFile by option("--template-file", help = "file with ruleset template")
         .path(mustExist = true, canBeDir = false, mustBeReadable = true)
@@ -79,11 +84,15 @@ private class RulekeeporCommand : CliktCommand() {
                 }
                 .onEach { (_, path) -> echo("Processing file: $path") }
                 .map { (number, path) ->
-                    parseRuleStateYaml(
-                        yaml = Files.readString(path, FILE_CHARSET),
-                        proposalDataMap = proposalDataMap,
-                        ruleNumberResolver = TryIntegralRuleNumberResolver,
-                    ).also {
+                    try {
+                        parseRuleStateYaml(
+                            yaml = Files.readString(path, FILE_CHARSET),
+                            proposalDataMap = proposalDataMap,
+                            ruleNumberResolver = TryIntegralRuleNumberResolver,
+                        )
+                    } catch (e: Exception) {
+                        throw RuleParseException("Error while parsing rule $number", e)
+                    }.also {
                         require(number == it.id) {
                             "Got disagreeing rule number in rule file and index: ${it.id} vs $number"
                         }

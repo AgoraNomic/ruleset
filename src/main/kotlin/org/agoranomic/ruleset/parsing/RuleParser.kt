@@ -8,6 +8,22 @@ interface YamlProposalDataMap {
     fun dataFor(proposalSpecification: String): ProposalData?
 }
 
+class ProposalDataParseException : Exception {
+    companion object {
+        private fun messageForSpecification(proposalSpecification: String) =
+            "Error while parsing proposal $proposalSpecification"
+
+        fun forProposalSpecification(specification: String) =
+            ProposalDataParseException(messageForSpecification(specification))
+
+        fun forProposalSpecification(specification: String, cause: Exception) =
+            ProposalDataParseException(messageForSpecification(specification), cause)
+    }
+
+    constructor(message: String) : super(message)
+    constructor(message: String, cause: Exception) : super(message, cause)
+}
+
 private fun parseMutabilityIndexYaml(index: String): HistoricalChanges.MutabilityIndex {
     if (index == "unanimity") return HistoricalChanges.MutabilityIndex.Unanimity
     return HistoricalChanges.MutabilityIndex.Numeric(index.toBigDecimal())

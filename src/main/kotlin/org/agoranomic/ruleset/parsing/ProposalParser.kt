@@ -21,20 +21,27 @@ data class DirectoryYamlProposalDataMap(val proposalsDir: Path) : YamlProposalDa
             "Attempt to navigate file system by proposal name"
         }
 
-        val topNode = parseRawYaml(Files.readString(proposalFile, Charsets.UTF_8)).requireMap()
+        try {
+            val topNode = parseRawYaml(Files.readString(proposalFile, Charsets.UTF_8)).requireMap()
 
-        return ProposalData(
-            number = topNode.getContent("id").let { id ->
-                id.toBigIntegerOrNull()?.let { ProposalNumber.Integral(it) } ?: ProposalNumber.HistoricalOddity(id)
-            },
-            title = topNode.getOptContent("title"),
-            authorship = ProposalAuthorship(
-                author = topNode.getOptContent("author"),
-                coauthors = topNode.getOptList("coauthors")?.values?.map { it.requireValue().content },
-            ),
-            chamber = topNode.getOptContent("chamber"),
-            isDisinterested = topNode.getOptContent("disinterested").toBoolean(),
-        )
+            return ProposalData(
+                number = topNode.getContent("id").let { id ->
+                    id.toBigIntegerOrNull()?.let { ProposalNumber.Integral(it) } ?: ProposalNumber.HistoricalOddity(id)
+                },
+                title = topNode.getOptContent("title"),
+                authorship = ProposalAuthorship(
+                    author = topNode.getOptContent("author"),
+                    coauthors = topNode.getOptList("coauthors")?.values?.map { it.requireValue().content },
+                ),
+                chamber = topNode.getOptContent("chamber"),
+                isDisinterested = topNode.getOptContent("disinterested").toBoolean(),
+            )
+        } catch (error: Exception) {
+            throw ProposalDataParseException.forProposalSpecification(
+                specification = proposalSpecification,
+                cause = error,
+            )
+        }
     }
 
     /**
