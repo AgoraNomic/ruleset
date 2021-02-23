@@ -3,7 +3,7 @@ name: Buoyancy Control
 power: 1.0
 text: |
   The Total Buoyancy is a singleton integer switch, tracked by the
-  the Treasuror in eir monthly report.
+  Treasuror in eir monthly report.
 
   The Treasuror CAN, by announcement, set the Total Buoyancy to a
   specified value approximately equal to the sum of all coin
@@ -24,4 +24,10 @@ history:
   date: 2020-10-08
   agent:
     proposal: "8514"
+- change:
+    type: amendment
+  date: 2021-02-14
+  agent:
+    cleaning:
+      by: Murphy
 annotations: []

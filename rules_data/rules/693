@@ -2,7 +2,7 @@ id: 693
 name: Agoran Decisions
 power: 3
 text: |
-  When the rules calls for an Agoran decision to be made, the
+  When the rules call for an Agoran decision to be made, the
   decision-making process takes place in the following three
   stages, each described elsewhere:
 
@@ -125,4 +125,10 @@ history:
   date: 2017-05-24
   agent:
     rule: 2430
+- change:
+    type: amendment
+  date: 2021-02-14
+  agent:
+    cleaning:
+      by: Murphy
 annotations: []
