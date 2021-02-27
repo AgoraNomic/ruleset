@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 14 Feb 2021
+Date of this ruleset: 27 Feb 2021
 
 Date of last SLR ratification: 8 May 2019
 
@@ -2844,10 +2844,10 @@ Voting
    Voting is used primarily for Proposals and Elections. This section
    describes Agoran Decisions and how to resolve them.
 ------------------------------------------------------------------------
-Rule 693/16 (Power=3)
+Rule 693/17 (Power=3)
 Agoran Decisions
 
-      When the rules calls for an Agoran decision to be made, the
+      When the rules call for an Agoran decision to be made, the
       decision-making process takes place in the following three
       stages, each described elsewhere:
       
@@ -2884,6 +2884,7 @@ Amended(14) by P6617 'Fix repetition' [green, disi.] (Alexis), 04 Feb
    2010
 Amended(15) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
 Amended(16) by R2430, 24 May 2017
+Amended(17) by cleaning (Murphy), 14 Feb 2021
 
 Annotations:
 
@@ -5912,11 +5913,11 @@ Amended(15) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2634/0 (Power=1.0)
+Rule 2634/1 (Power=1.0)
 Buoyancy Control
 
       The Total Buoyancy is a singleton integer switch, tracked by the
-      the Treasuror in eir monthly report.
+      Treasuror in eir monthly report.
       
       The Treasuror CAN, by announcement, set the Total Buoyancy to a
       specified value approximately equal to the sum of all coin
@@ -5936,6 +5937,7 @@ History:
 
 Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
    ATMunn), 08 Oct 2020
+Amended(1) by cleaning (Murphy), 14 Feb 2021
 
 Annotations:
 
