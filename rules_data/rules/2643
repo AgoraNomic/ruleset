@@ -11,11 +11,16 @@ text: |
   other rules, since the last collection notice or if it is
   currently owned by Agora.
 
-  A collection notice includes, for every non-immune stone, a random
-  choice of whether that stone escapes, escaping with probability
-  equal to its escape risk. When a collection notice is published,
+  A collection notice includes zero or more random choices of
+  whether each stone escapes. Each choice results in escape with
+  probability equal to its escape risk; a stone escapes if any
+  choice selects escape. When a collection notice is published,
   stones that escape are transferred to Agora in an order specified
   by the collection notice.
+
+  If a stone is immune, there are zero escape choices; otherwise,
+  there is one choice if the stone was used in the previous Agoran
+  month, or two if it was not.
 history:
 - change:
     type: enactment
@@ -27,4 +32,9 @@ history:
   date: 2020-12-01
   agent:
     proposal: "8524"
+- change:
+    type: amendment
+  date: 2021-03-02
+  agent:
+    proposal: "8542"
 annotations: []
