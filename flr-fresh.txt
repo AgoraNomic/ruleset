@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 27 Feb 2021
+Date of this ruleset: 5 Mar 2021
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 142
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2649
-Highest ID'd Proposal Passed: 8540
+Highest ID'd Proposal Passed: 8543
 Highest ID'd Rule Enacted: 2649
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -2137,7 +2137,7 @@ Rules & Regulations
    describe how rules work. This section also describes the governance
    of the Rulekeepor.
 ------------------------------------------------------------------------
-Rule 2141/15 (Power=3.2)
+Rule 2141/16 (Power=3.2)
 Role and Attributes of Rules
 
       A rule is a type of instrument that is always taking effect and
@@ -2148,7 +2148,8 @@ Role and Attributes of Rules
       Every current rule has power between 0.1 and 4.0 inclusive.
       
       Every rule shall have an ID number, distinct among current and
-      former rules, to be assigned once by the Rulekeepor.
+      former rules, to be assigned once by the Rulekeepor by public
+      designation.
       
       Every rule shall have a title to aid in identification. If a rule
       ever does not have a title, then the Rulekeepor CAN and SHALL
@@ -2186,6 +2187,7 @@ Amended(14) by P8416 'Identity theft protection act v1.1' (Falsifian,
    G., Publius Scribonius Scholasticus), 14 Jun 2020
 Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aris), 03 Feb 2021
 Amended(15) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(16) by P8541 'You CAN, CAN't You?' (Aris), 02 Mar 2021
 
 Annotations:
 CFJ 1498 (called 12 Apr 2004): A rule's title is not strictly a name for
@@ -5563,7 +5565,7 @@ CFJ 3869 (called 18 Jul 2020): A contract cannot automatically create
    in a public message.
 
 ------------------------------------------------------------------------
-Rule 2608/2 (Power=2.0)
+Rule 2608/3 (Power=2.0)
 The Notary
 
       The Notary is an office.
@@ -5576,8 +5578,9 @@ The Notary
          and
       3. every promise, along with its title, text, creator, and bearer.
       
-      If the Notary is required to report a title, but none has been
-      otherwise publicly provided, e CAN select one.
+      If the Notary is required to report an entity's title, but none
+      has been otherwise publicly provided, e CAN assign one by public
+      designation.
 
 History:
 
@@ -5585,6 +5588,7 @@ Enacted by P8303 'Contract Patency v3' (Aris, Gaelan, Jason, Falsifian),
    29 Jan 2020
 Amended(1) by R2608, 28 Apr 2020
 Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
+Amended(3) by P8541 'You CAN, CAN't You?' (Aris), 02 Mar 2021
 
 Annotations:
 
@@ -6109,12 +6113,15 @@ Amended(1) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2621/2 (Power=1.0)
+Rule 2621/3 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Victory Points than any other
-      player, e CAN Take Over the Economy by announcement. When a player
-      does so, e wins the game, all Cards and all Products are
+      player, e CAN Take Over the Economy by announcement, provided no
+      person has done so in the past 30 days.
+      
+      When a player takes over the economy, e wins the game. If a player
+      Took Over the Economy 4 days ago, all Cards and all Products are
       destroyed, then each active player is granted 1 card of each type.
 
 History:
@@ -6124,6 +6131,7 @@ Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
 Amended(1) by P8511 'VP Win Indirection' (Baron von Vanderham, Jason,
    Trigon), 08 Oct 2020
 Amended(2) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
+Amended(3) by P8543 'En Passant v2' (Jason, Aris, nix), 02 Mar 2021
 
 Annotations:
 
@@ -6248,7 +6256,7 @@ Amended(13) by P8535 'We the People' (Aris, Trigon, nix, G., Gaelan), 03
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2585/5 (Power=1)
+Rule 2585/6 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -6260,9 +6268,9 @@ Birthday Gifts
       declared as eir Agoran Birthday.
       
       During a player's Agoran Birthday and the 7 days following, each
-      other player CAN, once, grant em X boatloads of coins, where X is
-      3 if it is actually the day of the player's birthday, and 2
-      otherwise.
+      other player CAN once grant em X boatloads of coins by
+      announcement, where X is 3 if it is actually the day of the
+      player's birthday, and 2 otherwise.
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
 
@@ -6276,6 +6284,7 @@ Amended(4) by P8507 'Happy Belated Birthday v3' (ATMunn, G., Falsifian),
    08 Oct 2020
 Amended(5) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
    ATMunn), 08 Oct 2020
+Amended(6) by P8541 'You CAN, CAN't You?' (Aris), 02 Mar 2021
 
 Annotations:
 CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
@@ -6400,7 +6409,7 @@ Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2643/1 (Power=2)
+Rule 2643/2 (Power=2)
 Collecting Stones
 
       Once per month, the Stonemason CAN publish a collection notice by
@@ -6412,17 +6421,23 @@ Collecting Stones
       other rules, since the last collection notice or if it is
       currently owned by Agora.
       
-      A collection notice includes, for every non-immune stone, a random
-      choice of whether that stone escapes, escaping with probability
-      equal to its escape risk. When a collection notice is published,
+      A collection notice includes zero or more random choices of
+      whether each stone escapes. Each choice results in escape with
+      probability equal to its escape risk; a stone escapes if any
+      choice selects escape. When a collection notice is published,
       stones that escape are transferred to Agora in an order specified
       by the collection notice.
+      
+      If a stone is immune, there are zero escape choices; otherwise,
+      there is one choice if the stone was used in the previous Agoran
+      month, or two if it was not.
 
 History:
 
 Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 Amended(1) by P8524 'Agora's Stones Are Immune' (nix), 01 Dec 2020
+Amended(2) by P8542 'Stone Excitement Act' (Jason, Aris), 02 Mar 2021
 
 Annotations:
 
