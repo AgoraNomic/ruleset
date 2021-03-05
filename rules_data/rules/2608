@@ -12,8 +12,9 @@ text: |
      and
   3. every promise, along with its title, text, creator, and bearer.
 
-  If the Notary is required to report a title, but none has been
-  otherwise publicly provided, e CAN select one.
+  If the Notary is required to report an entity's title, but none
+  has been otherwise publicly provided, e CAN assign one by public
+  designation.
 history:
 - change:
     type: enactment
@@ -30,4 +31,9 @@ history:
   date: 2020-06-03
   agent:
     proposal: "8402"
+- change:
+    type: amendment
+  date: 2021-03-02
+  agent:
+    proposal: "8541"
 annotations: []

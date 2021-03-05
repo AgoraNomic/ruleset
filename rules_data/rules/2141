@@ -10,7 +10,8 @@ text: |
   Every current rule has power between 0.1 and 4.0 inclusive.
 
   Every rule shall have an ID number, distinct among current and
-  former rules, to be assigned once by the Rulekeepor.
+  former rules, to be assigned once by the Rulekeepor by public
+  designation.
 
   Every rule shall have a title to aid in identification. If a rule
   ever does not have a title, then the Rulekeepor CAN and SHALL
@@ -117,6 +118,11 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8539"
+- change:
+    type: amendment
+  date: 2021-03-02
+  agent:
+    proposal: "8541"
 annotations:
 - cfjs:
   - id: '1498'
