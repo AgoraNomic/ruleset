@@ -3,8 +3,11 @@ name: VP Wins
 power: 1.0
 text: |
   If a player has at least 20 more Victory Points than any other
-  player, e CAN Take Over the Economy by announcement. When a player
-  does so, e wins the game, all Cards and all Products are
+  player, e CAN Take Over the Economy by announcement, provided no
+  person has done so in the past 30 days.
+
+  When a player takes over the economy, e wins the game. If a player
+  Took Over the Economy 4 days ago, all Cards and all Products are
   destroyed, then each active player is granted 1 card of each type.
 history:
 - change:
@@ -22,4 +25,9 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8532"
+- change:
+    type: amendment
+  date: 2021-03-02
+  agent:
+    proposal: "8543"
 annotations: []
