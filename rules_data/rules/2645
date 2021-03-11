@@ -5,11 +5,11 @@ text: |
   The following stones are defined, one per paragraph, with the
   following format: Stone Name (Frequency, Escape Risk): Scroll.
 
-  - Power Stone (weekly, 40%): A specified player hereby Buys
-    Strength 3 times.
+  - Power Stone (weekly, 40%): A specified player (defaulting to the
+    wielder if not specified) hereby Buys Strength 3 times.
 
-  - Wealth Stone (weekly, 50%): A specified player hereby gains 5
-    boatloads of coins.
+  - Wealth Stone (weekly, 50%): A specified player (defaulting to
+    the wielder if not specified) hereby gains 5 boatloads of coins.
 
   - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
     to the owner of a different specified non-immune stone, then
@@ -18,8 +18,9 @@ text: |
   - Sabotage Stone (weekly, 80%): The adoption index of a specified
     AI-majority Agoran decision is hereby increased by 1.
 
-  - Concentration Stone (monthly, 60%): A specified player gains the
-    Grant associated with eir Focus.
+  - Concentration Stone (monthly, 60%): A specified player
+    (defaulting to the wielder if not specified) gains the Grant
+    associated with eir Focus.
 
   - Protection Stone (monthly, 70%): A specified stone is granted
     immunity.
@@ -44,4 +45,9 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8540"
+- change:
+    type: amendment
+  date: 2021-03-10
+  agent:
+    proposal: "8548"
 annotations: []
