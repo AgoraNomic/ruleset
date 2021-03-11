@@ -3,7 +3,7 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 5 Mar 2021
+Date of this ruleset: 11 Mar 2021
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 142
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2649
-Highest ID'd Proposal Passed: 8543
+Highest ID'd Proposal Passed: 8548
 Highest ID'd Rule Enacted: 2649
 
 ========================================================================
@@ -484,7 +484,7 @@ Determinacy
       considered to be indeterminate, otherwise it is determinate.
 
 ------------------------------------------------------------------------
-Rule 2505/0 (Power=1)
+Rule 2505/1 (Power=1)
 Random Choices
 
       When a Rule specifies that a random choice be made, then the
@@ -492,7 +492,7 @@ Random Choices
       the possible outcomes the Rule specifies, defaulting to a uniform
       probability distribution.
       
-      The choice CAN be made using any physical or computational process
+      The choice can be made using any physical or computational process
       whose probability distribution among the possible outcomes is
       reasonably close to that required by the Rules, and for which the
       final choice is not trivially predictable by the selecting person
@@ -1110,7 +1110,7 @@ Bleach
       for paragraph breaks.
 
 ------------------------------------------------------------------------
-Rule 2614/6 (Power=3.1)
+Rule 2614/8 (Power=3.1)
 Eclipse Light
 
       An emergency message is one whose subject line contains the text
@@ -1122,7 +1122,7 @@ Eclipse Light
       message. To the extent explicitly permitted by this rule,
       Emergency regulations are always taking effect.
       
-      Emergency Regulations CAN:
+      Emergency Regulations CAN, as part of their effect:
         - Extend any deadline provided for by any instrument other than
           this rule, including a deadline for an obligation to be met,
           or deadline prior to which an action must be performed in
@@ -1135,7 +1135,8 @@ Eclipse Light
           their creation, destruction, or transfer.
         - Collectively, exercise Mint Authority
         - Cause one or more players to win Agora.
-        - Appoint or remove officeholders.
+        - Appoint or remove officeholders, other than Prime Minister or
+          Speaker.
         - Modify the Festivity.
         - Award Patent Titles not mentioned in any Rule and Badges.
         - Modify the Publicity of Fora.
@@ -1179,7 +1180,7 @@ Agoran Decisions
       3. Resolution of the decision.
 
 ------------------------------------------------------------------------
-Rule 107/22 (Power=3)
+Rule 107/23 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -1206,10 +1207,10 @@ Initiating Agoran Decisions
       a duration longer than fourteen days. Changing the length of a
       decision's voting period is secured at power 2.
       
-      The vote collector for a decision with less than two options
-      CAN and SHALL end the voting period by announcement, if it has not
-      ended already, and provided that e resolves the decision in the
-      same message.
+      The vote collector for a decision with less than two options CAN
+      end the voting period by announcement, if it has not ended
+      already, and provided that e resolves the decision in the same
+      message.
       
       A public notice purporting to initiate an Agoran decision is a
       self-ratifying attestation of the notice's validity.
@@ -1598,15 +1599,15 @@ Election Procedure
       office and the election ends.
 
 ------------------------------------------------------------------------
-Rule 2573/1 (Power=2)
+Rule 2573/2 (Power=2)
 Impeachment
 
-      A player CAN be expelled (impeached) from a specified elected
-      office which e holds with 2 Agoran consent. When a person is
-      impeached from an office, an election is immediately opened for
-      that office. Players SHOULD NOT use this method of removal unless
-      the officer has abused the powers of eir office or otherwise shown
-      emself unworthy the trust of Agora.
+      Any player CAN, with 2 Agoran consent, expel (impeach) the holder
+      of a specified elected office. When a person is impeached from an
+      office, an election is immediately opened for that office. Players
+      SHOULD NOT use this method of removal unless the officer has
+      abused the powers of eir office or otherwise shown emself unworthy
+      the trust of Agora.
 
 ------------------------------------------------------------------------
 Rule 2160/22 (Power=3)
@@ -2000,7 +2001,7 @@ Sentencing Guidelines
       expression that evaluates to 0.
 
 ------------------------------------------------------------------------
-Rule 2619/3 (Power=1.0)
+Rule 2619/4 (Power=1.0)
 Indictment
 
       When the rules authorize an investigator to issue an Indictment
@@ -2008,7 +2009,7 @@ Indictment
       blots to be issued and the perpetrator and making an argument for
       the conviction of the accused.
       
-      When an investigator has issued an Indictment, the perpetrator CAN
+      When an investigator has issued an Indictment, the perpetrator may
       state a defence. Within 10 days but no less than 4 days after the
       indictment has been issued, the judge CAN and SHALL initiate two
       Agoran Decisions, one to determine whether to convict the
@@ -2139,7 +2140,7 @@ Calls for Judgement
       judicial assignments, and a list of players interested in judging.
 
 ------------------------------------------------------------------------
-Rule 591/47 (Power=1.7)
+Rule 591/48 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
@@ -2166,8 +2167,8 @@ Delivering Judgements
       * INSUFFICIENT, appropriate if the statement does not come
         with supporting arguments or evidence, and the judge feels as if
         an undue burden is being placed on em by the lack of arguments
-        and evidence. A CFJ judged as INSUFFICIENT CAN and SHOULD be
-        submitted again with sufficient arguments/evidence.
+        and evidence. A CFJ judged as INSUFFICIENT SHOULD be submitted
+        again with sufficient arguments/evidence.
       
       * DISMISS, appropriate if the statement is malformed, undecidable,
         if insufficient information exists to make a judgement with
@@ -2633,7 +2634,7 @@ Economics
       and Found Department.
 
 ------------------------------------------------------------------------
-Rule 2634/1 (Power=1.0)
+Rule 2634/2 (Power=1.0)
 Buoyancy Control
 
       The Total Buoyancy is a singleton integer switch, tracked by the
@@ -2646,12 +2647,12 @@ Buoyancy Control
       the correct sum for eir chosen point. E SHALL set the Total
       Buoyancy once a month.
       
-      The Treasuror CAN and MAY exercise reasonable judgement in
-      calculating the Total Buoyancy. The Total Buoyancy will be deemed
-      set so long as the value chosen by the Treasuror is not obviously
-      and grossly incorrect. The Treasuror CAN and MAY set the Total
-      Buoyancy more than once a month, but SHOULD NOT do so unless there
-      is reason to believe eir previous setting of the value failed.
+      The Treasuror may exercise reasonable judgement in calculating the
+      Total Buoyancy. The Total Buoyancy will be deemed set so long as
+      the value chosen by the Treasuror is not obviously and grossly
+      incorrect. The Treasuror may set the Total Buoyancy more than once
+      a month, but SHOULD NOT do so unless there is reason to believe
+      eir previous setting of the value failed.
 
 ------------------------------------------------------------------------
 Rule 2635/1 (Power=1.0)
@@ -2773,7 +2774,7 @@ Victory Auctions
       The currency of a victory auction is coins (minimum bid 1).
 
 ------------------------------------------------------------------------
-Rule 2624/5 (Power=1.0)
+Rule 2624/6 (Power=1.0)
 Card Administration
 
       Each of the following Ministries has a Grant, listed below.
@@ -2781,10 +2782,6 @@ Card Administration
       Ministry of Compliance: 1 Justice Card
       Ministry of Legislation: 1 Legislative Card
       Ministry of Participation: 1 Voting Card
-      Ministry of Economy: 50 boatloads of coins divided by X, rounded
-      up; where X is the number of players with their Ministry Focus set
-      to Economy. The Ministor SHALL report this value in a timely
-      manner after the beginning of the month.
       
       A player CAN once a month grant eir Ministry Focus' Grant to a
       specified player by announcement.
@@ -2965,17 +2962,17 @@ The Gauntlet
       existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/3 (Power=2)
+Rule 2645/4 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
       following format: Stone Name (Frequency, Escape Risk): Scroll.
       
-      - Power Stone (weekly, 40%): A specified player hereby Buys
-        Strength 3 times.
+      - Power Stone (weekly, 40%): A specified player (defaulting to the
+        wielder if not specified) hereby Buys Strength 3 times.
       
-      - Wealth Stone (weekly, 50%): A specified player hereby gains 5
-        boatloads of coins.
+      - Wealth Stone (weekly, 50%): A specified player (defaulting to
+        the wielder if not specified) hereby gains 5 boatloads of coins.
       
       - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
         to the owner of a different specified non-immune stone, then
@@ -2984,8 +2981,9 @@ The Stones
       - Sabotage Stone (weekly, 80%): The adoption index of a specified
         AI-majority Agoran decision is hereby increased by 1.
       
-      - Concentration Stone (monthly, 60%): A specified player gains the
-        Grant associated with eir Focus.
+      - Concentration Stone (monthly, 60%): A specified player
+        (defaulting to the wielder if not specified) gains the Grant
+        associated with eir Focus.
       
       - Protection Stone (monthly, 70%): A specified stone is granted
         immunity.
@@ -3279,7 +3277,7 @@ Degrees
       abstract or philosophical thinking.
 
 ------------------------------------------------------------------------
-Rule 2231/6 (Power=3)
+Rule 2231/7 (Power=3)
 Order of the Hero of Agora Nomic
 
       Heroic titles are Agora's premier patent titles of distinction,
@@ -3290,13 +3288,13 @@ Order of the Hero of Agora Nomic
       
       The Heroic titles in decreasing precedence are:
       
-      Grand Hero of Agora Nomic (GHAN) -- This title CAN be awarded to
+      Grand Hero of Agora Nomic (GHAN) -- This title may be awarded to
       any person obviously and directly responsible for the existence of
       Agora and/or Nomic in general. As this title is the highest honour
       that Agora may bestow, a Bearer of this title OUGHT to be treated
       right good forever.
       
-      Hero of Agora Nomic (HAN) -- This title CAN be awarded to any
+      Hero of Agora Nomic (HAN) -- This title may be awarded to any
       person for outstanding meritorious service to Agora above and
       beyond the call of duty.
 
@@ -3479,15 +3477,14 @@ Executive Orders
         proposal in the Proposal Pool.
 
 ------------------------------------------------------------------------
-Rule 2575/2 (Power=3)
+Rule 2575/3 (Power=3)
 The Distributor
 
       The Distributor is an imposed office whose holder is generally
       responsible for the management of the primary Agoran fora. The
       holder CANNOT be changed except without objection or by proposal.
-      Rules to the contrary notwithstanding, the talisman for the
-      Distributor is possessed by emself (and is transferred to em if it
-      ever is not), and e CANNOT deregister or be deregistered.
+      Rules to the contrary notwithstanding, the Distributor CANNOT
+      deregister or be deregistered.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3563,15 +3560,13 @@ Tournaments
       have Mint Authority.
 
 ------------------------------------------------------------------------
-Rule 2566/1 (Power=1)
+Rule 2566/2 (Power=1)
 Free Tournaments
 
       A player who is not the gamemaster of an existing tournament CAN
       initiate a sanctioned tournament with a specified set of
       regulations with 2 Agoran consent. A tournament created using this
-      method is called a Free Tournament. Rules to the contrary
-      notwithstanding, only players CAN win the game via a free
-      tournament.
+      method is called a Free Tournament.
       
       A free tournament CAN be concluded with no winner without 3
       objections. Tournaments SHOULD only be concluded in this manner if
