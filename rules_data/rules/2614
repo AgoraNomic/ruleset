@@ -24,7 +24,8 @@ text: |
       their creation, destruction, or transfer.
     - Collectively, exercise Mint Authority
     - Cause one or more players to win Agora.
-    - Appoint or remove officeholders.
+    - Appoint or remove officeholders, other than Prime Minister or
+      Speaker.
     - Modify the Festivity.
     - Award Patent Titles not mentioned in any Rule and Badges.
     - Modify the Publicity of Fora.
@@ -95,4 +96,9 @@ history:
   date: 2021-03-10
   agent:
     proposal: "8545"
+- change:
+    type: amendment
+  date: 2021-03-10
+  agent:
+    proposal: "8547"
 annotations: []
