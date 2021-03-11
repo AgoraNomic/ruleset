@@ -26,11 +26,11 @@ text: |
   a duration longer than fourteen days. Changing the length of a
   decision's voting period is secured at power 2.
 
-  The vote collector for a decision with less than two options
-  CAN and SHALL end the voting period by announcement, if it has not
-  ended already, and provided that e resolves the decision in the
-  same message.
- 
+  The vote collector for a decision with less than two options CAN
+  end the voting period by announcement, if it has not ended
+  already, and provided that e resolves the decision in the same
+  message.
+
   A public notice purporting to initiate an Agoran decision is a
   self-ratifying attestation of the notice's validity.
 history:
@@ -162,6 +162,11 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8533"
+- change:
+    type: amendment
+  date: 2021-03-10
+  agent:
+    proposal: "8545"
 annotations:
 - cfjs:
   - id: '1650'

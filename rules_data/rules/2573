@@ -2,12 +2,12 @@ id: 2573
 name: Impeachment
 power: 2
 text: |
-  A player CAN be expelled (impeached) from a specified elected
-  office which e holds with 2 Agoran consent. When a person is
-  impeached from an office, an election is immediately opened for
-  that office. Players SHOULD NOT use this method of removal unless
-  the officer has abused the powers of eir office or otherwise shown
-  emself unworthy the trust of Agora.
+  Any player CAN, with 2 Agoran consent, expel (impeach) the holder
+  of a specified elected office. When a person is impeached from an
+  office, an election is immediately opened for that office. Players
+  SHOULD NOT use this method of removal unless the officer has
+  abused the powers of eir office or otherwise shown emself unworthy
+  the trust of Agora.
 history:
 - change:
     type: enactment
@@ -20,3 +20,9 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8221"
+- change:
+    type: amendment
+  date: 2021-03-10
+  agent:
+    proposal: "8545"
+

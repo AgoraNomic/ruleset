@@ -26,8 +26,8 @@ text: |
   * INSUFFICIENT, appropriate if the statement does not come
     with supporting arguments or evidence, and the judge feels as if
     an undue burden is being placed on em by the lack of arguments
-    and evidence. A CFJ judged as INSUFFICIENT CAN and SHOULD be
-    submitted again with sufficient arguments/evidence.
+    and evidence. A CFJ judged as INSUFFICIENT SHOULD be submitted
+    again with sufficient arguments/evidence.
 
   * DISMISS, appropriate if the statement is malformed, undecidable,
     if insufficient information exists to make a judgement with
@@ -329,6 +329,11 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8450"
+- change:
+    type: amendment
+  date: 2021-03-10
+  agent:
+    proposal: "8545"
 annotations:
 - cfjs:
   - id: '1835'

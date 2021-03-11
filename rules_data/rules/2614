@@ -11,7 +11,7 @@ text: |
   message. To the extent explicitly permitted by this rule,
   Emergency regulations are always taking effect.
 
-  Emergency Regulations CAN:
+  Emergency Regulations CAN, as part of their effect:
     - Extend any deadline provided for by any instrument other than
       this rule, including a deadline for an obligation to be met,
       or deadline prior to which an action must be performed in
@@ -90,4 +90,9 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8534"
+- change:
+    type: amendment
+  date: 2021-03-10
+  agent:
+    proposal: "8545"
 annotations: []

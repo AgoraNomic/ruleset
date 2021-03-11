@@ -7,7 +7,7 @@ text: |
   blots to be issued and the perpetrator and making an argument for
   the conviction of the accused.
 
-  When an investigator has issued an Indictment, the perpetrator CAN
+  When an investigator has issued an Indictment, the perpetrator may
   state a defence. Within 10 days but no less than 4 days after the
   indictment has been issued, the judge CAN and SHALL initiate two
   Agoran Decisions, one to determine whether to convict the
@@ -53,4 +53,9 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8452"
+- change:
+    type: amendment
+  date: 2021-03-10
+  agent:
+    proposal: "8545"
 annotations: []

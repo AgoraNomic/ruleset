@@ -12,12 +12,12 @@ text: |
   the correct sum for eir chosen point. E SHALL set the Total
   Buoyancy once a month.
 
-  The Treasuror CAN and MAY exercise reasonable judgement in
-  calculating the Total Buoyancy. The Total Buoyancy will be deemed
-  set so long as the value chosen by the Treasuror is not obviously
-  and grossly incorrect. The Treasuror CAN and MAY set the Total
-  Buoyancy more than once a month, but SHOULD NOT do so unless there
-  is reason to believe eir previous setting of the value failed.
+  The Treasuror may exercise reasonable judgement in calculating the
+  Total Buoyancy. The Total Buoyancy will be deemed set so long as
+  the value chosen by the Treasuror is not obviously and grossly
+  incorrect. The Treasuror may set the Total Buoyancy more than once
+  a month, but SHOULD NOT do so unless there is reason to believe
+  eir previous setting of the value failed.
 history:
 - change:
     type: enactment
@@ -30,4 +30,9 @@ history:
   agent:
     cleaning:
       by: Murphy
+- change:
+    type: amendment
+  date: 2021-03-10
+  agent:
+    proposal: "8545"
 annotations: []
