@@ -2,7 +2,7 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 11 Mar 2021
+Date of this ACORN: 31 Mar 2021
 
 ------------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ Auction Regulations
    This section has the regulations, written by the Treasuror, governing
    how auctions proceed.
 ------------------------------------------------------------------------
-Regulation AM0/0
+Regulation AM0/1
 Generalized Auction
 
       Generalized auctions exist to give context to the form of other
@@ -72,14 +72,14 @@ Generalized Auction
             highest bid on that auction (hereafter "funded players") can
             be selected as awardees for auctions using that auction
             method.
-          * The auctioneer of an auction SHALL within, four days after
-            the ending of that auction, create a public message
-            (henceforth the "termination message") that contains a full
-            history of bids on the auction and withdrawals from the
-            auction. It should also clearly indicate each awardee and
-            the lot e recieves.
+          * The auctioneer of an auction SHALL after the ending of that
+            auction create a public message (henceforth the
+            "termination message") that contains a full history of bids
+            on the auction and withdrawals from the auction. It should
+            also clearly indicate each awardee and the lot e recieves.
       5. CLAIMING:
-          * For a period of seven days after an auction ends, each
+          * During the period from the end of the auction until 7 days
+            after the publication of the termiation message, each
             awardee of that auction CAN transfer (or create in eir own
             possession if the item is new) the set of assets associated
             with the lot e won by paying a fee corresponding to eir
@@ -88,6 +88,7 @@ Generalized Auction
 History:
 
 Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 28 Mar 2021
 
 Annotations:
 
