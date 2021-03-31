@@ -39,14 +39,14 @@ text: |
         highest bid on that auction (hereafter "funded players") can
         be selected as awardees for auctions using that auction
         method.
-      * The auctioneer of an auction SHALL within, four days after
-        the ending of that auction, create a public message
-        (henceforth the "termination message") that contains a full
-        history of bids on the auction and withdrawals from the
-        auction. It should also clearly indicate each awardee and
-        the lot e recieves.
+      * The auctioneer of an auction SHALL after the ending of that
+        auction create a public message (henceforth the
+        "termination message") that contains a full history of bids
+        on the auction and withdrawals from the auction. It should
+        also clearly indicate each awardee and the lot e recieves.
   5. CLAIMING:
-      * For a period of seven days after an auction ends, each
+      * During the period from the end of the auction until 7 days
+        after the publication of the termiation message, each
         awardee of that auction CAN transfer (or create in eir own
         possession if the item is new) the set of assets associated
         with the lot e won by paying a fee corresponding to eir
@@ -55,5 +55,10 @@ history:
 - change:
     type: enactment
   date: 2020-08-08
+  agent:
+    person: Trigon
+- change:
+    type: amendment
+  date: 2021-03-28
   agent:
     person: Trigon
