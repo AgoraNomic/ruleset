@@ -8,6 +8,8 @@ import com.github.ajalt.clikt.parameters.options.required
 import com.github.ajalt.clikt.parameters.types.int
 import com.github.ajalt.clikt.parameters.types.path
 import org.agoranomic.ruleset.history.ProposalData
+import org.agoranomic.ruleset.history.RuleHistoryValidationResult
+import org.agoranomic.ruleset.history.validateHistory
 import org.agoranomic.ruleset.parsing.DirectoryYamlProposalDataMap
 import org.agoranomic.ruleset.parsing.YamlProposalDataMap
 import org.agoranomic.ruleset.parsing.parseIndexYaml
@@ -17,6 +19,7 @@ import org.agoranomic.ruleset.report.ReadableReportConfig
 import org.agoranomic.ruleset.report.formatReadable
 import java.nio.file.Files
 import java.nio.file.StandardOpenOption
+import kotlin.system.exitProcess
 
 private val FILE_CHARSET = Charsets.UTF_8
 private const val STDOUT_OUT_FILE = "-"
@@ -60,6 +63,9 @@ private class RulekeeporCommand : CliktCommand() {
     val entityKind by option("--entity-kind", help = "what to call the \"rules\" in the report")
         .default("Rule")
 
+    val validateHistory by option("--validate-history", help = "validate history of each rule")
+        .flag("--no-validate-history", default = true)
+
     override fun run() {
         val (proposalDataMap, proposalStats) =
             proposalsDir
@@ -101,6 +107,24 @@ private class RulekeeporCommand : CliktCommand() {
                     }
                 }
                 .let { RulesetState(it) }
+
+        if (validateHistory) {
+            for (rule in rulesetState) {
+                val ensureExhaustive = when (val validationResult = validateHistory(rule.history)) {
+                    is RuleHistoryValidationResult.Valid -> {
+                    }
+
+                    is RuleHistoryValidationResult.Invalid -> {
+                        echo(
+                            "Error in history validation for rule ${rule.id}: ${validationResult.readableMessage}",
+                            err = true,
+                        )
+
+                        exitProcess(1)
+                    }
+                }
+            }
+        }
 
         formatReadable(
             Files.readString(templateFile, FILE_CHARSET),
