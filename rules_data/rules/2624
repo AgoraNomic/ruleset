@@ -7,15 +7,14 @@ text: |
   Ministry of Compliance: 1 Justice Card
   Ministry of Legislation: 1 Legislative Card
   Ministry of Participation: 1 Voting Card
+  Ministry of Legacy: 1 Victory Point
 
   A player CAN once a month grant eir Ministry Focus' Grant to a
   specified player by announcement.
 
   The Ministor CAN, once a month and by announcement, and SHALL, in
   a timely manner from the beginning of the month, grant 1 Victory
-  Card to a random player whose Ministry Focus is Legacy and 1
-  Victory Point to every other player whose Ministry Focus is
-  Legacy.
+  Card to a random player whose Ministry Focus is Legacy .
 history:
 - change:
     type: enactment
@@ -52,4 +51,9 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8540"
+- change:
+    type: amendment
+  date: 2021-04-06
+  agent:
+    proposal: "8556"
 annotations: []
