@@ -3,11 +3,18 @@ name: Victory by Apathy
 power: 0.3
 text: |
   A player CAN Declare Apathy without objection, specifying a set of
-  players. Upon doing so, the specified players win the game.
+  players. Upon doing so, the specified players win the game, except
+  for those who have won the game through this Rule in the past 14
+  days.
 history:
 - change:
     type: enactment
   date: 2016-09-11
   agent:
     proposal: "7811"
+- change:
+    type: amendment
+  date: 2021-04-09
+  agent:
+    proposal: "8553"
 annotations: []
