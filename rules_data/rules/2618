@@ -15,10 +15,12 @@ text: |
   provided that any conditions for cashing it specified by its text
   are unambiguously met. By doing so, e acts on the creator of the
   promise's behalf, causing the creator to act as if e published the
-  promise's text, and destroys the promise. The bearer SHOULD recite
-  the promise's essential attributes in the same message e cashes
-  it.
-
+  promise's text, and destroys the promise. However, to limit
+  recursion, no promise can be cashed during the execution of
+  another promise unless it existed before the execution of that
+  promise began. The bearer SHOULD recite the promise's essential
+  attributes in the same message e cashes it.
+ 
   In a promise's text, "the bearer" (or the like) refers to the
   promise's bearer, and "this promise" (or the like) refers to the
   promise. The text of the promise can refer to the context of the
@@ -45,4 +47,9 @@ history:
   date: 2020-09-25
   agent:
     proposal: "8503"
+- change:
+    type: amendment
+  date: 2021-04-09
+  agent:
+    proposal: "8549"
 annotations: []
