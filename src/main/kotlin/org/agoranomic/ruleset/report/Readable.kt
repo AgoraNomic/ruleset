@@ -123,7 +123,7 @@ private fun formatAnnotations(
                 }
             }
 
-            raw.splitWordsToMaxLineLength(maxLineLength, firstLineIndent = "", followingIndents = "   ")
+            raw.splitWordsToMaxLineLength(maxLineLength, firstLineIndent = "", followingIndents = "    ")
         }
         .flatten()
         .joinToString("\n")
