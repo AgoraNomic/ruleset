@@ -2,22 +2,22 @@ id: 2634
 name: Buoyancy Control
 power: 1.0
 text: |
-  The Total Buoyancy is a singleton integer switch, tracked by the
-  Treasuror in eir monthly report.
+  The Total Buoyancy and Buoyancy Target are singleton integer
+  switches, tracked by the Treasuror in eir weekly report.
 
-  The Treasuror CAN, by announcement, set the Total Buoyancy to a
+  The Treasuror CAN, by announcement, set the Buoyancy Target to a
   specified value approximately equal to the sum of all coin
-  balances at a specified point within the first Eastman week of the
-  current month. Whenever e does so, e SHALL endeavor to calculate
-  the correct sum for eir chosen point. E SHALL set the Total
-  Buoyancy once a month.
+  balances at a specified point within the last week, and SHALL do
+  so each time e publishes eir weekly report.
 
   The Treasuror may exercise reasonable judgement in calculating the
-  Total Buoyancy. The Total Buoyancy will be deemed set so long as
+  Buoyancy Target. The Buoyancy Target will be deemed set so long as
   the value chosen by the Treasuror is not obviously and grossly
-  incorrect. The Treasuror may set the Total Buoyancy more than once
-  a month, but SHOULD NOT do so unless there is reason to believe
-  eir previous setting of the value failed.
+  incorrect. However, the Treasuror SHALL NOT deliberately introduce
+  error into the Buoyancy Target.
+
+  At the beginning of each month, the Total Buoyancy is flipped to
+  the Buoyancy Target.
 history:
 - change:
     type: enactment
@@ -35,4 +35,9 @@ history:
   date: 2021-03-10
   agent:
     proposal: "8545"
+- change:
+    type: amendment
+  date: 2021-04-15
+  agent:
+    proposal: "8557"
 annotations: []
