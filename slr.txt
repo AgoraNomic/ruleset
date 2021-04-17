@@ -3,7 +3,7 @@ THE SHORT LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 11 Apr 2021
+Date of this ruleset: 17 Apr 2021
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 142
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2649
-Highest ID'd Proposal Passed: 8556
+Highest ID'd Proposal Passed: 8557
 Highest ID'd Rule Enacted: 2649
 
 ========================================================================
@@ -2639,44 +2639,38 @@ Economics
       and Found Department.
 
 ------------------------------------------------------------------------
-Rule 2634/2 (Power=1.0)
+Rule 2634/3 (Power=1.0)
 Buoyancy Control
 
-      The Total Buoyancy is a singleton integer switch, tracked by the
-      Treasuror in eir monthly report.
+      The Total Buoyancy and Buoyancy Target are singleton integer
+      switches, tracked by the Treasuror in eir weekly report.
       
-      The Treasuror CAN, by announcement, set the Total Buoyancy to a
+      The Treasuror CAN, by announcement, set the Buoyancy Target to a
       specified value approximately equal to the sum of all coin
-      balances at a specified point within the first Eastman week of the
-      current month. Whenever e does so, e SHALL endeavor to calculate
-      the correct sum for eir chosen point. E SHALL set the Total
-      Buoyancy once a month.
+      balances at a specified point within the last week, and SHALL do
+      so each time e publishes eir weekly report.
       
       The Treasuror may exercise reasonable judgement in calculating the
-      Total Buoyancy. The Total Buoyancy will be deemed set so long as
+      Buoyancy Target. The Buoyancy Target will be deemed set so long as
       the value chosen by the Treasuror is not obviously and grossly
-      incorrect. The Treasuror may set the Total Buoyancy more than once
-      a month, but SHOULD NOT do so unless there is reason to believe
-      eir previous setting of the value failed.
+      incorrect. However, the Treasuror SHALL NOT deliberately introduce
+      error into the Buoyancy Target.
+      
+      At the beginning of each month, the Total Buoyancy is flipped to
+      the Buoyancy Target.
 
 ------------------------------------------------------------------------
-Rule 2635/1 (Power=1.0)
+Rule 2635/2 (Power=1.0)
 Floating Rate Fleet
 
       The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
-      unrounded. A boatload of something is a quantity of that thing
-      equal in count to the Unit of Floatation.
+      rounded up, and is tracked in the Treasuror's weekly report.  A
+      boatload of something is a quantity of that thing equal in count
+      to the Unit of Floatation.
       
-      The Floating Rate Schedule is part of the Treasuror's monthly
-      report. It contains the Total Buoyancy, the Unit of Flotation, and
-      the real value of every quantity that is expressed in boatloads in
-      a rule or regulation. The Treasuror is ENCOURAGED to also consider
-      including quantities in contracts.  The Treasuror SHOULD publish
-      the Floating Rate Schedule immediately after setting the Total
-      Buoyancy.
-      
-      When taking an action, a person SHOULD expand all quantities that
-      are expressed in boatloads.
+      The Treasuror is ENCOURAGED to arrange for the new Total Buoyancy
+      and Unit of Flotation to be published as close as possible to the
+      beginning of the month.
 
 ------------------------------------------------------------------------
 Rule 2496/23 (Power=1)
@@ -2714,14 +2708,14 @@ Rewards
         on its merit: 20 boatloads of coins (Herald)
 
 ------------------------------------------------------------------------
-Rule 2559/9 (Power=2)
+Rule 2559/10 (Power=2)
 Paydays
 
       Whenever a Payday occurs, each active player gains 10 boatloads of
       coins.
       
-      The occurrence of Paydays is secured. At the beginning of each
-      month, a Payday occurs.
+      At the beginning of each month, after all other events that take
+      place at the beginning of the month, a Payday occurs.
 
 ------------------------------------------------------------------------
 Rule 2620/1 (Power=1.0)
