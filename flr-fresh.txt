@@ -3,7 +3,7 @@ THE FULL LOGICAL RULESET
 These rulesets are also online at http://agoranomic.org/ruleset/
 
 Date of last official ruleset of this type:
-Date of this ruleset: 31 Mar 2021
+Date of this ruleset: 11 Apr 2021
 
 Date of last SLR ratification: 8 May 2019
 
@@ -12,7 +12,7 @@ Number of rules currently enacted: 142
 Most recent change to this ruleset:
 
 Highest ID'd rule in this ruleset: 2649
-Highest ID'd Proposal Passed: 8548
+Highest ID'd Proposal Passed: 8556
 Highest ID'd Rule Enacted: 2649
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -1392,7 +1392,7 @@ Amended(26) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
    Falsifian), 29 Jan 2020
 Amended(27) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
 Power changed from 2 to 3 by P8509 'Dependent De-escalation' (Baron von
-   Vanderham, Jason, Trigon), 08 Oct 2020
+   Vanderham, Jason, Trigon), 28 Oct 2020
 
 Annotations:
 CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
@@ -1783,7 +1783,7 @@ History:
 Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
-Amended(2) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct
+Amended(2) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct
    2020
 
 Annotations:
@@ -3401,7 +3401,7 @@ Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
-Amended(8) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct
+Amended(8) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct
    2020
 Amended(9) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Jason),
    11 Feb 2021
@@ -3718,7 +3718,7 @@ Amended(38) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(39) by P7807 's/I(?=ADoP)//' (aranea), 10 Aug 2016
 Amended(40) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
 Amended(41) by P7958 'Succession Planning' (G.), 12 Nov 2017
-Amended(42) by P8074 'Office Patch' (Aris, G., P.S.S.), 26 Jul 2017
+Amended(42) by P8074 'Office Patch' (Aris, G., P.S.S.), 26 Jul 2018
 Amended(43) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
 Amended(44) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
@@ -4223,7 +4223,7 @@ The Ministor
 
 History:
 
-Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct 2020
+Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct 2020
 
 Annotations:
 
@@ -5420,7 +5420,7 @@ Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2618/2 (Power=2.2)
+Rule 2618/4 (Power=2.2)
 Promises
 
       Promises are a class of assets, tracked by the Notary. Their
@@ -5436,9 +5436,11 @@ Promises
       provided that any conditions for cashing it specified by its text
       are unambiguously met. By doing so, e acts on the creator of the
       promise's behalf, causing the creator to act as if e published the
-      promise's text, and destroys the promise. The bearer SHOULD recite
-      the promise's essential attributes in the same message e cashes
-      it.
+      promise's text, and destroys the promise. However, to limit
+      recursion, no promise can be cashed during the execution of
+      another promise unless it existed before the execution of that
+      promise began. The bearer SHOULD recite the promise's essential
+      attributes in the same message e cashes it.
       
       In a promise's text, "the bearer" (or the like) refers to the
       promise's bearer, and "this promise" (or the like) refers to the
@@ -5448,8 +5450,11 @@ Promises
       
       The Library is an entity and CAN own promises. Any player CAN take
       a specified promise from the Library by announcement, provided e
-      cashes the promise in the same message. Any player CAN revoke a
-      specified promise from the Library without objection.
+      cashes the promise in the same message. The creator of a promise
+      CAN take or revoke it from the Library by announcement, unless the
+      promise's text unambiguously designates it as irrevocable. Any
+      player CAN revoke a specified promise from the Library without
+      objection.
 
 History:
 
@@ -5457,6 +5462,9 @@ Enacted by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Amended(1) by P8410 'Promise Powers Patch' (Aris), 14 Jun 2020
 Amended(2) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
    Jason), 25 Sep 2020
+Amended(3) by P8549 'You Can Only Stack Turtles So High' (Aris, Gaelan,
+   G.), 09 Apr 2021
+Amended(4) by P8554 'I Want My Promise Back!' (Aris, nix), 09 Apr 2021
 
 Annotations:
 
@@ -5623,7 +5631,7 @@ History:
 Enacted by P8476 'Contract charities' (ATMunn, G., Falsifian, Publius
    Scribonius Scholasticus), 19 Jul 2020
 Amended(1) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 08 Oct 2020
+   ATMunn), 28 Oct 2020
 Amended(2) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
@@ -5920,7 +5928,7 @@ Amended(13) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 Amended(14) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 Amended(15) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
-   Jason, ATMunn), 08 Oct 2020
+   Jason, ATMunn), 28 Oct 2020
 
 Annotations:
 
@@ -5948,7 +5956,7 @@ Buoyancy Control
 History:
 
 Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 08 Oct 2020
+   ATMunn), 28 Oct 2020
 Amended(1) by cleaning (Murphy), 14 Feb 2021
 Amended(2) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 
@@ -5976,7 +5984,7 @@ Floating Rate Fleet
 History:
 
 Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 08 Oct 2020
+   ATMunn), 28 Oct 2020
 Amended(1) by P8518 'Asset Rounding' (Aris, Falsifian, nix), 11 Nov 2020
 
 Annotations:
@@ -6055,7 +6063,7 @@ Amended(21) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul
 Amended(22) by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug
    2020
 Amended(23) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
-   Jason, ATMunn), 08 Oct 2020
+   Jason, ATMunn), 28 Oct 2020
 
 Annotations:
 
@@ -6082,7 +6090,7 @@ Amended(5) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
 Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(7) by P8253 'Clarify salary' (Murphy, G., Jason), 03 Nov 2019
 Amended(8) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 08 Oct 2020
+   ATMunn), 28 Oct 2020
 Amended(9) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 
 Annotations:
@@ -6138,7 +6146,7 @@ History:
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
 Amended(1) by P8511 'VP Win Indirection' (Baron von Vanderham, Jason,
-   Trigon), 08 Oct 2020
+   Trigon), 28 Oct 2020
 Amended(2) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Amended(3) by P8543 'En Passant v2' (Jason, Aris, nix), 02 Mar 2021
 
@@ -6168,7 +6176,7 @@ Enacted by P8446 'Victory Auctions' (G., nch), 30 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2624/6 (Power=1.0)
+Rule 2624/7 (Power=1.0)
 Card Administration
 
       Each of the following Ministries has a Grant, listed below.
@@ -6176,15 +6184,14 @@ Card Administration
       Ministry of Compliance: 1 Justice Card
       Ministry of Legislation: 1 Legislative Card
       Ministry of Participation: 1 Voting Card
+      Ministry of Legacy: 1 Victory Point
       
       A player CAN once a month grant eir Ministry Focus' Grant to a
       specified player by announcement.
       
       The Ministor CAN, once a month and by announcement, and SHALL, in
       a timely manner from the beginning of the month, grant 1 Victory
-      Card to a random player whose Ministry Focus is Legacy and 1
-      Victory Point to every other player whose Ministry Focus is
-      Legacy.
+      Card to a random player whose Ministry Focus is Legacy .
 
 History:
 
@@ -6193,11 +6200,12 @@ Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
 Amended(1) by P8477 'More officer cards' (Jason), 27 Jul 2020
 Amended(2) by P8489 'Interesting economics' (Jason), 08 Sep 2020
 Amended(3) by P8505 'Card clarifications' (Jason), 16 Oct 2020
-Amended(4) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct
+Amended(4) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct
    2020
 Amended(5) by P8516 'adJustments' (nix), 11 Nov 2020
 Amended(6) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Jason),
    11 Feb 2021
+Amended(7) by P8556 'Ministry Normalization' (Jason, nix), 06 Apr 2021
 
 Annotations:
 
@@ -6218,7 +6226,7 @@ Player Focuses
 
 History:
 
-Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 08 Oct 2020
+Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct 2020
 
 Annotations:
 
@@ -6255,7 +6263,7 @@ Amended(8) by P8458 'Welcome Package Patch' (Aris), 30 Jun 2020
 Amended(9) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
 Amended(10) by P8480 'Generic welcome package fix' (Jason), 10 Aug 2020
 Amended(11) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
-   Jason, ATMunn), 08 Oct 2020
+   Jason, ATMunn), 28 Oct 2020
 Amended(12) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 Amended(13) by P8535 'We the People' (Aris, Trigon, nix, G., Gaelan), 03
    Feb 2021
@@ -6288,9 +6296,9 @@ Amended(1) by P8145 'No Rebirth' (Gaelan), 15 Jan 2019
 Amended(2) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
 Amended(3) by P8314 'Finite Gifting' (Aris), 13 Feb 2020
 Amended(4) by P8507 'Happy Belated Birthday v3' (ATMunn, G., Falsifian),
-   08 Oct 2020
+   28 Oct 2020
 Amended(5) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 08 Oct 2020
+   ATMunn), 28 Oct 2020
 Amended(6) by P8541 'You CAN, CAN't You?' (Aris), 02 Mar 2021
 
 Annotations:
@@ -6532,15 +6540,18 @@ Amended(3) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2465/0 (Power=0.3)
+Rule 2465/1 (Power=0.3)
 Victory by Apathy
 
       A player CAN Declare Apathy without objection, specifying a set of
-      players. Upon doing so, the specified players win the game.
+      players. Upon doing so, the specified players win the game, except
+      for those who have won the game through this Rule in the past 14
+      days.
 
 History:
 
 Enacted by P7811 'Winning by apathy' (ais523), 11 Sep 2016
+Amended(1) by P8553 'Slightly less apathetic' (Jason), 09 Apr 2021
 
 Annotations:
 
@@ -6742,7 +6753,7 @@ Amended(4) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
    2020
 Amended(5) by P8438 'Tailor Pay' (R. Lee), 18 Jun 2020
 Amended(6) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 08 Oct 2020
+   ATMunn), 28 Oct 2020
 
 Annotations:
 
@@ -6808,7 +6819,7 @@ Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
 Amended(1) by R2430, 24 May 2017
 Amended(2) by P8297 'Imminent Failure' (Aris), 29 Jan 2020
 Amended(3) by P8510 'Festival Peending' (Baron von Vanderham, Jason,
-   Trigon), 08 Oct 2020
+   Trigon), 28 Oct 2020
 
 Annotations:
 
@@ -6887,7 +6898,7 @@ Amended(41) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
 Amended(42) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
 Amended(43) by P8449 'Simpler Heraldry' (Aris, Alexis, Jason, Publius
    Scribonious Scholasticus), 30 Jun 2020
-Amended(44) by P8531 'Patent Title Restoration v2' (Jason), 26 Jan 2020
+Amended(44) by P8531 'Patent Title Restoration v2' (Jason), 26 Jan 2021
 
 Annotations:
 CFJ 1525 (called 15 Nov 2004): If a patent title is defined by the
