@@ -7,6 +7,7 @@ import kotlinx.collections.immutable.toImmutableMap
 import org.agoranomic.ruleset.history.HistoricalEntry
 import java.math.BigDecimal
 import java.math.BigInteger
+import java.util.*
 
 data class RuleHistory(val entries: ImmutableList<HistoricalEntry>) {
     // TODO: enforce constraints
@@ -65,16 +66,12 @@ data class RuleState(
     val annotations: RuleAnnotations?,
 )
 
-data class RulesetState(private val rules: ImmutableList<RuleState>) : Collection<RuleState> {
+data class RulesetState(private val rules: ImmutableList<RuleState>) : Collection<RuleState> by rules {
     // This ensures that each number corresponds to exactly one equivalent rule
     private val rulesByNumber: ImmutableMap<RuleNumber, RuleState> =
         rules.associateByPrimaryKey { it.id }.toImmutableMap()
 
     constructor(rulesByNumber: List<RuleState>) : this(rulesByNumber.toImmutableList())
-
-    override fun iterator(): Iterator<RuleState> {
-        return rulesByNumber.values.iterator()
-    }
 
     val ruleNumbers get() = rulesByNumber.keys
 
@@ -84,21 +81,6 @@ data class RulesetState(private val rules: ImmutableList<RuleState>) : Collectio
 
     fun rulesByNumbers(ids: Collection<RuleNumber>): RulesetState {
         return RulesetState(ids.map { ruleByNumber(it) })
-    }
-
-    override val size: Int
-        get() = rulesByNumber.size
-
-    override fun contains(element: RuleState): Boolean {
-        return rulesByNumber.containsValue(element)
-    }
-
-    override fun containsAll(elements: Collection<RuleState>): Boolean {
-        return rulesByNumber.values.containsAll(elements)
-    }
-
-    override fun isEmpty(): Boolean {
-        return rulesByNumber.isEmpty()
     }
 
     fun distinct(): RulesetState = RulesetState(rules.distinct())
