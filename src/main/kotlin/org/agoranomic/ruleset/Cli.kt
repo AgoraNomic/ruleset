@@ -106,7 +106,7 @@ private class RulekeeporCommand : CliktCommand() {
                         echo("Got rule ${it.id}")
                     }
                 }
-                .let { RulesetState(it) }
+                .let { RulesetState(it.toSet()) }
 
         if (validateHistory) {
             for (rule in rulesetState) {

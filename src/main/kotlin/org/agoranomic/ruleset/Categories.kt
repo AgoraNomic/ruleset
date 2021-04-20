@@ -75,12 +75,12 @@ data class CategorizedRulesetState(
     }
 
     val categorizedRuleNumbers get() = categoryMapping.categorizedRuleNumbers
-    val categorizedRules by lazy { ruleset.rulesByNumbers(categorizedRuleNumbers).distinct() }
+    val categorizedRules by lazy { ruleset.rulesetByNumbers(categorizedRuleNumbers) }
     val categories get() = categoryMapping.categories
 
     fun ruleNumbersIn(categoryId: CategoryId) = categoryMapping.ruleNumbersIn(categoryId)
 
-    fun rulesIn(categoryId: CategoryId): RulesetState {
+    fun rulesIn(categoryId: CategoryId): List<RuleState> {
         return ruleset.rulesByNumbers(ruleNumbersIn(categoryId))
     }
 }

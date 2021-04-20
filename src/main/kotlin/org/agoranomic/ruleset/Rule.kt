@@ -1,13 +1,9 @@
 package org.agoranomic.ruleset
 
-import kotlinx.collections.immutable.ImmutableList
-import kotlinx.collections.immutable.ImmutableMap
-import kotlinx.collections.immutable.toImmutableList
-import kotlinx.collections.immutable.toImmutableMap
+import kotlinx.collections.immutable.*
 import org.agoranomic.ruleset.history.HistoricalEntry
 import java.math.BigDecimal
 import java.math.BigInteger
-import java.util.*
 
 data class RuleHistory(val entries: ImmutableList<HistoricalEntry>) {
     // TODO: enforce constraints
@@ -66,12 +62,12 @@ data class RuleState(
     val annotations: RuleAnnotations?,
 )
 
-data class RulesetState(private val rules: ImmutableList<RuleState>) : Collection<RuleState> by rules {
+data class RulesetState(private val rules: ImmutableSet<RuleState>) : Collection<RuleState> by rules {
     // This ensures that each number corresponds to exactly one equivalent rule
     private val rulesByNumber: ImmutableMap<RuleNumber, RuleState> =
         rules.associateByPrimaryKey { it.id }.toImmutableMap()
 
-    constructor(rulesByNumber: List<RuleState>) : this(rulesByNumber.toImmutableList())
+    constructor(rulesByNumber: Set<RuleState>) : this(rulesByNumber.toImmutableSet())
 
     val ruleNumbers get() = rulesByNumber.keys
 
@@ -79,9 +75,11 @@ data class RulesetState(private val rules: ImmutableList<RuleState>) : Collectio
         return rulesByNumber.getValue(id)
     }
 
-    fun rulesByNumbers(ids: Collection<RuleNumber>): RulesetState {
-        return RulesetState(ids.map { ruleByNumber(it) })
+    fun rulesetByNumbers(ids: Collection<RuleNumber>): RulesetState {
+        return RulesetState(ids.map { ruleByNumber(it) }.toImmutableSet())
     }
 
-    fun distinct(): RulesetState = RulesetState(rules.distinct())
+    fun rulesByNumbers(ids: List<RuleNumber>): List<RuleState> {
+        return ids.map { ruleByNumber(it) }
+    }
 }
