@@ -17,6 +17,7 @@ import org.agoranomic.ruleset.parsing.parseRuleStateYaml
 import org.agoranomic.ruleset.report.ProposalStatistics
 import org.agoranomic.ruleset.report.ReadableReportConfig
 import org.agoranomic.ruleset.report.formatReadable
+import org.agoranomic.ruleset.report.formatRule
 import java.nio.file.Files
 import java.nio.file.StandardOpenOption
 import kotlin.system.exitProcess
@@ -32,7 +33,6 @@ class RuleParseException : Exception {
 private class RulekeeporCommand : CliktCommand() {
     val templateFile by option("--template-file", help = "file with ruleset template")
         .path(mustExist = true, canBeDir = false, mustBeReadable = true)
-        .required()
 
     val indexFile by option("--index-file", help = "file with rule index")
         .path(mustExist = true, canBeDir = false, mustBeReadable = true)
@@ -40,7 +40,13 @@ private class RulekeeporCommand : CliktCommand() {
 
     val outFile by option("--out-file", help = "output file")
         .path(mustExist = false, canBeDir = false)
-        .required()
+
+    val outDir by option("--out-dir", help = "output directory for individual rules")
+        .path(mustExist = false, canBeFile = false)
+
+    val outDirNameFormat by option("--out-dir-name-format",
+        help = "name format for output files, replacing {} with rule number")
+        .default("{}.txt")
 
     val headerPath by option("--header-file")
         .path(mustExist = false, canBeDir = false)
@@ -126,25 +132,63 @@ private class RulekeeporCommand : CliktCommand() {
             }
         }
 
-        formatReadable(
-            Files.readString(templateFile, FILE_CHARSET),
-            headerContent = headerPath?.let { Files.readString(it, FILE_CHARSET) },
-            ReadableReportConfig(
-                entityKind = entityKind,
-                maxLineLength = maxLineLength,
-                includeHistory = includeHistory,
-                includeAnnotations = includeAnnotations,
-            ),
-            CategorizedRulesetState(rulesetState, ruleCategoryMapping),
-            proposalStatistics = proposalStats,
-        ).let {
-            Files.writeString(
-                outFile,
-                it,
-                FILE_CHARSET,
-                StandardOpenOption.CREATE,
-                StandardOpenOption.TRUNCATE_EXISTING,
-            )
+        val reportConfig = ReadableReportConfig(
+            entityKind = entityKind,
+            maxLineLength = maxLineLength,
+            includeHistory = includeHistory,
+            includeAnnotations = includeAnnotations,
+        )
+
+        if (outFile != null) {
+            val templateFile = templateFile
+
+            if (templateFile == null) {
+                echo("--template-file must be specified if full ruleset output is requested", err = true)
+                exitProcess(1)
+            }
+
+            formatReadable(
+                Files.readString(templateFile, FILE_CHARSET),
+                headerContent = headerPath?.let { Files.readString(it, FILE_CHARSET) },
+                reportConfig,
+                CategorizedRulesetState(rulesetState, ruleCategoryMapping),
+                proposalStatistics = proposalStats,
+            ).let {
+                Files.writeString(
+                    outFile,
+                    it,
+                    FILE_CHARSET,
+                    StandardOpenOption.CREATE,
+                    StandardOpenOption.TRUNCATE_EXISTING,
+                )
+            }
+        }
+
+        val outDir = outDir
+        if (outDir != null) {
+            val outDirAbsolute = outDir.toAbsolutePath()
+            Files.createDirectories(outDirAbsolute)
+
+            for (rule in rulesetState) {
+                val ruleOutFile =
+                    outDirAbsolute.resolve(outDirNameFormat.replace("{}", rule.id.toString())).toAbsolutePath()
+
+                // Avoid directory traversal
+                require(ruleOutFile.startsWith(outDir))
+
+                formatRule(
+                    rule = rule,
+                    config = reportConfig,
+                ).let {
+                    Files.writeString(
+                        ruleOutFile,
+                        it,
+                        FILE_CHARSET,
+                        StandardOpenOption.CREATE,
+                        StandardOpenOption.TRUNCATE_EXISTING,
+                    )
+                }
+            }
         }
     }
 }

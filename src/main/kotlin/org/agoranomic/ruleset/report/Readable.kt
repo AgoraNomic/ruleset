@@ -130,6 +130,38 @@ private fun formatAnnotations(
         .let { if (it.isNotEmpty()) it + "\n" else it }
 }
 
+private fun RuleState.revisionNumber() = history.entries.sumBy { it.change.changeCount }
+
+fun formatRule(rule: RuleState, config: ReadableReportConfig): String {
+    val revisionNumber = rule.revisionNumber()
+
+    val historyText =
+        if (config.includeHistory)
+            "\nHistory:\n\n" + formatHistory(rule.history, maxLineLength = config.maxLineLength)
+        else
+            ""
+
+    val annotationsText =
+        if (config.includeAnnotations)
+            "\nAnnotations:\n" + (rule.annotations?.let {
+                formatAnnotations(it, maxLineLength = config.maxLineLength)
+            } ?: "")
+        else
+            ""
+
+    return "${config.entityKind} ${rule.id}/$revisionNumber${rule.power?.let { " (Power=$it)" } ?: ""}\n" +
+            rule.title +
+            "\n\n" +
+            rule
+                .text
+                .lines()
+                .dropLastWhile { it.isBlank() }
+                .joinToString("\n") { it.prependIndent("      ") } +
+            "\n" +
+            historyText +
+            annotationsText
+}
+
 private fun formatRuleset(
     rulesetState: CategorizedRulesetState,
     config: ReadableReportConfig,
@@ -150,26 +182,7 @@ private fun formatRuleset(
                 dashLine +
                 "\n" +
                 rulesetState.rulesIn(category.id).joinToString("") { rule ->
-                    val revisionNumber = rule.history.entries.sumBy { it.change.changeCount }
-
-                    "${config.entityKind} ${rule.id}/$revisionNumber${rule.power?.let { " (Power=$it)" } ?: ""}\n" +
-                            rule.title +
-                            "\n\n" +
-                            rule
-                                .text
-                                .lines()
-                                .dropLastWhile { it.isBlank() }
-                                .joinToString("\n") { it.prependIndent("      ") } +
-                            "\n" +
-                            (if (config.includeHistory) {
-                                "\nHistory:\n\n" + formatHistory(rule.history, maxLineLength = config.maxLineLength)
-                            } else "") +
-                            (if (config.includeAnnotations) {
-                                "\nAnnotations:\n" + (rule.annotations?.let {
-                                    formatAnnotations(it, maxLineLength = config.maxLineLength)
-                                } ?: "")
-                            } else "") +
-                            "\n$dashLine\n"
+                    formatRule(rule, config) + "\n$dashLine\n"
                 }
     }
 }

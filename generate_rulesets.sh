@@ -23,6 +23,8 @@ mkdir -p -- "$OUT_DIR"
   --rules-dir "$RULES_DATA_DIR/rules" \
   --header-file "$RULES_DATA_DIR/config/header" \
   --out-file "$OUT_DIR/slr.txt" \
+  --out-dir "$OUT_DIR/short_rules" \
+  --out-dir-name-format "R{}.txt" \
   --no-history \
   --no-annotations
 
@@ -33,6 +35,8 @@ mkdir -p -- "$OUT_DIR"
   --rules-dir "$RULES_DATA_DIR/rules" \
   --header-file "$RULES_DATA_DIR/config/header" \
   --out-file "$OUT_DIR/flr.txt" \
+  --out-dir "$OUT_DIR/full_rules" \
+  --out-dir-name-format "R{}.txt" \
   --history \
   --annotations
 
