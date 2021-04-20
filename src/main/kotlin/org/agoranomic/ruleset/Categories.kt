@@ -1,6 +1,8 @@
 package org.agoranomic.ruleset
 
+import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.ImmutableMap
+import kotlinx.collections.immutable.toImmutableList
 import kotlinx.collections.immutable.toImmutableMap
 
 inline class CategoryId(val raw: String) {
@@ -43,7 +45,7 @@ data class CategorySpecificationSet(
 
 data class RuleCategoryMapping(
     val categories: CategorySpecificationSet,
-    private val categoryMapping: ImmutableMap<CategoryId, List<RuleNumber>>,
+    private val categoryMapping: ImmutableMap<CategoryId, ImmutableList<RuleNumber>>,
 ) {
     init {
         require(categories.categoryIds.containsAll(categoryMapping.keys))
@@ -54,12 +56,12 @@ data class RuleCategoryMapping(
         categoryMapping: Map<CategoryId, List<RuleNumber>>,
     ) : this(
         categories,
-        categoryMapping.toImmutableMap(),
+        categoryMapping.mapValues { (_, v) -> v.toImmutableList() }.toImmutableMap(),
     )
 
     val categorizedRuleNumbers by lazy { categoryMapping.values.flatten().toSet() }
 
-    fun ruleNumbersIn(categoryId: CategoryId): List<RuleNumber> {
+    fun ruleNumbersIn(categoryId: CategoryId): ImmutableList<RuleNumber> {
         return categoryMapping.getValue(categoryId)
     }
 }
@@ -76,9 +78,7 @@ data class CategorizedRulesetState(
     val categorizedRules by lazy { ruleset.rulesByNumbers(categorizedRuleNumbers).distinct() }
     val categories get() = categoryMapping.categories
 
-    fun ruleNumbersIn(categoryId: CategoryId): List<RuleNumber> {
-        return categoryMapping.ruleNumbersIn(categoryId)
-    }
+    fun ruleNumbersIn(categoryId: CategoryId) = categoryMapping.ruleNumbersIn(categoryId)
 
     fun rulesIn(categoryId: CategoryId): RulesetState {
         return ruleset.rulesByNumbers(ruleNumbersIn(categoryId))
