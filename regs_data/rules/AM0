@@ -2,55 +2,68 @@ id: AM0
 name: Generalized Auction
 text: |
   Generalized auctions exist to give context to the form of other
-  types of auctions. They cannot be held directly. Other auction
+  types of auctions. They CANNOT be held directly. Other auction
   methods that use this type of auction as a starting point can
   override attributes of generalized auctions except when it is
   explicitly stated that that attribute is not able to be
   overridden.
 
-  1. INITIATION:
-      * The auctioneer CAN begin an auction that e is authorized to
-        by creating a public message (henceforth the "initiation
-        message"), specifying the type of auction method that will
-        be held, a list of lots that will be auctioned off, and the
-        currency that the auction uses. Bidding is initally open.
-      * Derivative auction methods cannot specify the exclusion of
-        any information listed above from the initiation message of
-        auctions using that method.
-  2. BIDDING:
-      * Players CAN place a bid on an open auction by creating a
-        public message (henceforth a "bid message") specifying a
-        number of the auction's currency as eir bid not equal to the
-        bid of another player.
-      * Players CAN withdraw from an open auction by announcement.
-  3. TERMINATION:
-      * Bidding is closed four days after either the beginning of
-        the auction or after the most recent bid was placed,
-        whichever is later. The auction ends at this time as well.
-  4. AWARDING:
-      * For each auction, there are a number of awardees equal to
-        the number of lots. The Nth lot of an auction goes to the
-        Nth awardee of that auction. If the identity of an awardee
-        is undecidable, then that lot cannot be given away.
-      * Auction methods specify how awardees are picked for auctions
-        using that method.
-      * Derivative auction methods should ensure that only players
-        who have at least as much of that auction's currency as eir
-        highest bid on that auction (hereafter "funded players") can
-        be selected as awardees for auctions using that auction
-        method.
-      * The auctioneer of an auction SHALL after the ending of that
-        auction create a public message (henceforth the
-        "termination message") that contains a full history of bids
-        on the auction and withdrawals from the auction. It should
-        also clearly indicate each awardee and the lot e recieves.
-  5. CLAIMING:
-      * During the period from the end of the auction until 7 days
-        after the publication of the termination message, each
-        awardee of that auction CAN transfer (or create in eir own
-        possession if the item is new) the set of assets associated
-        with the lot e won by paying a fee corresponding to eir
-        winning bid.
+  INITIATION: When a person CAN begin an auction by this or any
+  derivative method, e CAN only do so by specifying the type of
+  auction method to be held, a list of lots to be auctioned off, and
+  the currency for the auction in a public message (henceforth the
+  "initiation message"). The bidding period starts at this point.
+
+  BIDDING: Players CAN place a bid on an auction in its bidding
+  period by creating a public message (henceforth a "bid message")
+  specifying a number of the auction's currency as eir bid not equal
+  to the bid of another player. Players CAN withdraw from an open
+  auction by announcement.
+
+  TERMINATION: The bidding period ends four days after the final
+  instance of any of the following events' occurance:
+    * the auction begins
+    * a bid is placed
+    * a player withdraws from the auction
+
+  RETRIEVAL: When the bidding period ends, the retrieval period
+  begins. During the retrieval period, bidders will be allowed to
+  retrieve the assets required to pay for their bid. The retrieval
+  period lasts three days. Failing to have the requisite assets when
+  the retrieval period for an auction ends constitutes the Class 1
+  Crime of Underfundedness.
+
+  AWARDING: For each auction, there are a number of awardees equal
+  to the number of lots. The Nth lot of an auction goes to the Nth
+  awardee of that auction. If the identity of an awardee is
+  undecidable, then that lot cannot be given away. Auction methods
+  specify how awardees are picked for auctions using that method.
+
+  PAYMENT AMOUNT: The amount that an awardee in an auction is
+  required to pay for eir lot is, unless otherwise specified, the
+  amount of the auction's curency specified in eir highest bid on
+  that auction.
+
+  FUNDED PLAYERS: Derivative auction methods should ensure that only
+  players who, at the end of an auction's retrieval period, have at
+  least as much of that auction's currency as the amount that e is
+  required to pay in that auction (hereafter "funded players") can
+  be selected as awardees for auctions using that auction method.
+
+  DISTRIBUTION: The auctioneer for an auction CAN and SHALL, within
+  seven days of the ending of that auction's retrieval period,
+  create a public message (henceforth the "distribution message")
+  that contains a full history of bids on the auction and
+  withdrawals from the auction. It must also clearly indicate each
+  awardee and the lot e recieves. In this message, the auctioneer
+  CAN and SHALL destroy the amount to be paid from the inventory
+  each awardee and transfer to that player (or create in eir
+  possession if the item is new) the set of assets associated with
+  the lot e won. Failing to publish a distribution message
+  constitutes the Class 3 Crime of Auction Abandonment.
+
+  ACTIVE BIDS: The set of active bids for an auction is the set of
+  all funded, non-withdrawn players' highest bids on that auction.
 history:
 - change:
     type: enactment
@@ -60,5 +73,10 @@ history:
 - change:
     type: amendment
   date: 2021-03-28
+  agent:
+    person: Trigon
+- change:
+    type: amendment
+  date: 2021-05-05
   agent:
     person: Trigon

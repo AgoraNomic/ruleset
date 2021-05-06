@@ -6,22 +6,26 @@ text: |
   * Players can only submit bids on a sealed-bid auction if they do
     not have a bid in that auction.
   * Bids must be initially hidden so that it is impossible to tell
-    its value but that it is verifiable that the amount bid was *
+    its value but that it is verifiable that the amount bid was
     decided before the bid was placed. Anything that claims to be a
     bid and fits these conditions is considered a bid.
-  * Sealed-bid auctions do not end when bidding is closed. Instead,
-    they end four days afterward.
-  * Each player SHOULD reveal eir bid amount on a sealed-bid auction
-    while the auction is closed but has not ended. If e does not do
-    so then eir bid is nulled.
-  * The termination message also includes whether or not each bid is
-    null.
-  * The Nth awardee of a sealed-bid auction is the non-withdrawn
-    funded player whose bid is not nulled and is the Nth highest of
-    all bids placed.
+  * The retrieval period for a sealed-bid auction lasts for seven
+    days.
+  * Each player SHALL reveal eir bid amount on a sealed-bid auction
+    while the auction is in its retrieval period. Failing to do so
+    is the Class 2 Crime of Potential Faking.
+  * The termination message need not indicate any bids for which the
+    amount bid is not known.
+  * The Nth awardee of a sealed-bid auction is the player whose bid
+    is the Nth-highest active bid on that auction.
 history:
 - change:
     type: enactment
   date: 2020-08-08
+  agent:
+    person: Trigon
+- change:
+    type: amendment
+  date: 2021-05-05
   agent:
     person: Trigon

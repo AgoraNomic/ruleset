@@ -3,12 +3,18 @@ name: Second-price Auctions
 text: |
   Second-price auctions function like forward auctions except:
 
-  * When claiming lots in a second-price auction, awardees instead
-    pay a fee corresponding to the next-highest bid in the set of
-    all funded, non-withdrawn players' highest bids in that auction.
+  * The amount to be paid by the Nth awardee is the amount of the
+    auction's currency specified by the (N-1)th highest active bid
+    on that auction or the lowest active bid if such a value does
+    not exist.
 history:
 - change:
     type: enactment
   date: 2020-08-08
+  agent:
+    person: Trigon
+- change:
+    type: amendment
+  date: 2021-05-05
   agent:
     person: Trigon

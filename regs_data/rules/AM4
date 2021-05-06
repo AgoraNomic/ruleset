@@ -3,13 +3,18 @@ name: Nonwinning-price Auctions
 text: |
   Nonwinning-price auctions function like forward auctions except:
 
-  * When claiming lots in a nonwinning-price auction, awardees
-    instead pay a fee corresponding to the highest bid on that
-    auction from a funded, non-withdrawn player who is not an
-    awardee.
+  * The amount to by paid by all awardees is the amount of the
+    auction's currency specified by the highest active bid on that
+    auction not placed by an awardee or the lowest active bid if
+    such a value does not exist.
 history:
 - change:
     type: enactment
   date: 2020-08-08
+  agent:
+    person: Trigon
+- change:
+    type: amendment
+  date: 2021-05-05
   agent:
     person: Trigon
