@@ -2,7 +2,7 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 17 Apr 2021
+Date of this ACORN: 6 May 2021
 
 ------------------------------------------------------------------------
 
@@ -31,85 +31,99 @@ Auction Regulations
    This section has the regulations, written by the Treasuror, governing
    how auctions proceed.
 ------------------------------------------------------------------------
-Regulation AM0/1
+Regulation AM0/2
 Generalized Auction
 
       Generalized auctions exist to give context to the form of other
-      types of auctions. They cannot be held directly. Other auction
+      types of auctions. They CANNOT be held directly. Other auction
       methods that use this type of auction as a starting point can
       override attributes of generalized auctions except when it is
       explicitly stated that that attribute is not able to be
       overridden.
       
-      1. INITIATION:
-          * The auctioneer CAN begin an auction that e is authorized to
-            by creating a public message (henceforth the "initiation
-            message"), specifying the type of auction method that will
-            be held, a list of lots that will be auctioned off, and the
-            currency that the auction uses. Bidding is initally open.
-          * Derivative auction methods cannot specify the exclusion of
-            any information listed above from the initiation message of
-            auctions using that method.
-      2. BIDDING:
-          * Players CAN place a bid on an open auction by creating a
-            public message (henceforth a "bid message") specifying a
-            number of the auction's currency as eir bid not equal to the
-            bid of another player.
-          * Players CAN withdraw from an open auction by announcement.
-      3. TERMINATION:
-          * Bidding is closed four days after either the beginning of
-            the auction or after the most recent bid was placed,
-            whichever is later. The auction ends at this time as well.
-      4. AWARDING:
-          * For each auction, there are a number of awardees equal to
-            the number of lots. The Nth lot of an auction goes to the
-            Nth awardee of that auction. If the identity of an awardee
-            is undecidable, then that lot cannot be given away.
-          * Auction methods specify how awardees are picked for auctions
-            using that method.
-          * Derivative auction methods should ensure that only players
-            who have at least as much of that auction's currency as eir
-            highest bid on that auction (hereafter "funded players") can
-            be selected as awardees for auctions using that auction
-            method.
-          * The auctioneer of an auction SHALL after the ending of that
-            auction create a public message (henceforth the
-            "termination message") that contains a full history of bids
-            on the auction and withdrawals from the auction. It should
-            also clearly indicate each awardee and the lot e recieves.
-      5. CLAIMING:
-          * During the period from the end of the auction until 7 days
-            after the publication of the termination message, each
-            awardee of that auction CAN transfer (or create in eir own
-            possession if the item is new) the set of assets associated
-            with the lot e won by paying a fee corresponding to eir
-            winning bid.
+      INITIATION: When a person CAN begin an auction by this or any
+      derivative method, e CAN only do so by specifying the type of
+      auction method to be held, a list of lots to be auctioned off, and
+      the currency for the auction in a public message (henceforth the
+      "initiation message"). The bidding period starts at this point.
+      
+      BIDDING: Players CAN place a bid on an auction in its bidding
+      period by creating a public message (henceforth a "bid message")
+      specifying a number of the auction's currency as eir bid not equal
+      to the bid of another player. Players CAN withdraw from an open
+      auction by announcement.
+      
+      TERMINATION: The bidding period ends four days after the final
+      instance of any of the following events' occurance:
+        * the auction begins
+        * a bid is placed
+        * a player withdraws from the auction
+      
+      RETRIEVAL: When the bidding period ends, the retrieval period
+      begins. During the retrieval period, bidders will be allowed to
+      retrieve the assets required to pay for their bid. The retrieval
+      period lasts three days. Failing to have the requisite assets when
+      the retrieval period for an auction ends constitutes the Class 1
+      Crime of Underfundedness.
+      
+      AWARDING: For each auction, there are a number of awardees equal
+      to the number of lots. The Nth lot of an auction goes to the Nth
+      awardee of that auction. If the identity of an awardee is
+      undecidable, then that lot cannot be given away. Auction methods
+      specify how awardees are picked for auctions using that method.
+      
+      PAYMENT AMOUNT: The amount that an awardee in an auction is
+      required to pay for eir lot is, unless otherwise specified, the
+      amount of the auction's curency specified in eir highest bid on
+      that auction.
+      
+      FUNDED PLAYERS: Derivative auction methods should ensure that only
+      players who, at the end of an auction's retrieval period, have at
+      least as much of that auction's currency as the amount that e is
+      required to pay in that auction (hereafter "funded players") can
+      be selected as awardees for auctions using that auction method.
+      
+      DISTRIBUTION: The auctioneer for an auction CAN and SHALL, within
+      seven days of the ending of that auction's retrieval period,
+      create a public message (henceforth the "distribution message")
+      that contains a full history of bids on the auction and
+      withdrawals from the auction. It must also clearly indicate each
+      awardee and the lot e recieves. In this message, the auctioneer
+      CAN and SHALL destroy the amount to be paid from the inventory
+      each awardee and transfer to that player (or create in eir
+      possession if the item is new) the set of assets associated with
+      the lot e won. Failing to publish a distribution message
+      constitutes the Class 3 Crime of Auction Abandonment.
+      
+      ACTIVE BIDS: The set of active bids for an auction is the set of
+      all funded, non-withdrawn players' highest bids on that auction.
 
 History:
 
 Enacted by Trigon, 08 Aug 2020
 Amended(1) by Trigon, 28 Mar 2021
+Amended(2) by Trigon, 05 May 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Regulation AM1/0
+Regulation AM1/1
 Forward Auctions
 
       Forward auctions function like generalized auctions except:
       
       * The Nth awardee for a forward auction is the player who
-        submitted the Nth-highest bid in the set of all funded,
-        non-withdrawn players' highest bids on that auction.
+        submitted the Nth-highest active bid on that auction.
 
 History:
 
 Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Regulation AM2/0
+Regulation AM2/1
 Sealed-bid Auctions
 
       Sealed-bid auctions function like generalized auctions except:
@@ -117,74 +131,78 @@ Sealed-bid Auctions
       * Players can only submit bids on a sealed-bid auction if they do
         not have a bid in that auction.
       * Bids must be initially hidden so that it is impossible to tell
-        its value but that it is verifiable that the amount bid was *
+        its value but that it is verifiable that the amount bid was
         decided before the bid was placed. Anything that claims to be a
         bid and fits these conditions is considered a bid.
-      * Sealed-bid auctions do not end when bidding is closed. Instead,
-        they end four days afterward.
-      * Each player SHOULD reveal eir bid amount on a sealed-bid auction
-        while the auction is closed but has not ended. If e does not do
-        so then eir bid is nulled.
-      * The termination message also includes whether or not each bid is
-        null.
-      * The Nth awardee of a sealed-bid auction is the non-withdrawn
-        funded player whose bid is not nulled and is the Nth highest of
-        all bids placed.
+      * The retrieval period for a sealed-bid auction lasts for seven
+        days.
+      * Each player SHALL reveal eir bid amount on a sealed-bid auction
+        while the auction is in its retrieval period. Failing to do so
+        is the Class 2 Crime of Potential Faking.
+      * The termination message need not indicate any bids for which the
+        amount bid is not known.
+      * The Nth awardee of a sealed-bid auction is the player whose bid
+        is the Nth-highest active bid on that auction.
 
 History:
 
 Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Regulation AM3/0
+Regulation AM3/1
 Second-price Auctions
 
       Second-price auctions function like forward auctions except:
       
-      * When claiming lots in a second-price auction, awardees instead
-        pay a fee corresponding to the next-highest bid in the set of
-        all funded, non-withdrawn players' highest bids in that auction.
+      * The amount to be paid by the Nth awardee is the amount of the
+        auction's currency specified by the (N-1)th highest active bid
+        on that auction or the lowest active bid if such a value does
+        not exist.
 
 History:
 
 Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Regulation AM4/0
+Regulation AM4/1
 Nonwinning-price Auctions
 
       Nonwinning-price auctions function like forward auctions except:
       
-      * When claiming lots in a nonwinning-price auction, awardees
-        instead pay a fee corresponding to the highest bid on that
-        auction from a funded, non-withdrawn player who is not an
-        awardee.
+      * The amount to by paid by all awardees is the amount of the
+        auction's currency specified by the highest active bid on that
+        auction not placed by an awardee or the lowest active bid if
+        such a value does not exist.
 
 History:
 
 Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Regulation AM5/0
+Regulation AM5/1
 Selective-bid Auctions
 
       Selective-bit auctions function like generalized auctions except:
       
       * Bidding messages on a selective-bid auction must also specify a
         lot that is preferred.
-      * The Nth awardee of a selective-bid auction is the highest bid
-        from a funded, non-withdrawn player whose preferred bid is that
+      * The Nth awardee of a selective-bid auction is the player who
+        placed the highest active bid whose preferred bid is the Nth
         lot.
 
 History:
 
 Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
 
 Annotations:
 
