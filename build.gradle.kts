@@ -10,12 +10,11 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 dependencies {
     implementation("org.yaml:snakeyaml:1.27")
-    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.4")
     implementation("com.github.ajalt.clikt:clikt:3.1.0")
 
     testImplementation(kotlin("test-junit5"))
