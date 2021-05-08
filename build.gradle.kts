@@ -24,7 +24,7 @@ dependencies {
 }
 
 application {
-    mainClassName = "org.agoranomic.ruleset.CliKt"
+    mainClass.set("org.agoranomic.ruleset.CliKt")
 }
 
 tasks.test {
