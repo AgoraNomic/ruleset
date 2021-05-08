@@ -15,13 +15,6 @@ interface TaggedHistoricalCause : HistoricalCause {
 
 const val PROPOSAL_CAUSE_TAG = "proposal"
 
-interface ProposalTaggedHistoricalCause : TaggedHistoricalCause {
-    override val tag: String
-        get() = PROPOSAL_CAUSE_TAG
-
-    val proposalData: ProposalData
-}
-
 data class ProposalAuthorship(
     val author: String?,
     val coauthors: ImmutableList<String>?,
@@ -63,7 +56,7 @@ data class ProposalData(
 )
 
 object HistoricalCauses {
-    fun proposal(data: ProposalData): ProposalTaggedHistoricalCause = Proposal(proposalData = data)
+    fun proposal(data: ProposalData): HistoricalCause = Proposal(proposalData = data)
     fun rule(ruleNumber: RuleNumber): HistoricalCause = Rule(ruleNumber = ruleNumber)
     fun convergence(cause: HistoricalCause): HistoricalCause = Convergence(cause = cause)
     fun cleaning(cause: String): HistoricalCause = Cleaning(cause = cause)
@@ -87,7 +80,7 @@ object HistoricalCauses {
         override val causeString: String,
     ) : TaggedHistoricalCause
 
-    private data class Proposal(override val proposalData: ProposalData) : BaseCause(
+    private data class Proposal(val proposalData: ProposalData) : BaseCause(
         PROPOSAL_CAUSE_TAG,
         "P${proposalData.number.readable()}" +
                 (proposalData.title?.let { " '$it'" } ?: "") +
@@ -98,11 +91,7 @@ object HistoricalCauses {
                     .let { listOfNotNull(it.author) + (it.coauthors ?: emptyList()) }
                     .takeIf { it.isNotEmpty() }
                     ?.joinToString(", ", prefix = " (", postfix = ")") ?: "")
-    ), ProposalTaggedHistoricalCause {
-        // TODO fix this ugliness
-        override val tag: String
-            get() = PROPOSAL_CAUSE_TAG
-    }
+    )
 
     private data class Convergence(val cause: HistoricalCause) : TaggedHistoricalCause {
         override val tag: String
