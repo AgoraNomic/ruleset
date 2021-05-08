@@ -67,7 +67,7 @@ data class RulesetState(private val rules: ImmutableSet<RuleState>) : Collection
     private val rulesByNumber: ImmutableMap<RuleNumber, RuleState> =
         rules.associateByPrimaryKey { it.id }.toImmutableMap()
 
-    constructor(rulesByNumber: Set<RuleState>) : this(rulesByNumber.toImmutableSet())
+    constructor(rulesByNumber: Set<RuleState>) : this(rulesByNumber.toPersistentHashSet())
 
     val ruleNumbers get() = rulesByNumber.keys
 
@@ -76,7 +76,7 @@ data class RulesetState(private val rules: ImmutableSet<RuleState>) : Collection
     }
 
     fun rulesetByNumbers(ids: Collection<RuleNumber>): RulesetState {
-        return RulesetState(ids.map { ruleByNumber(it) }.toImmutableSet())
+        return RulesetState(ids.map { ruleByNumber(it) }.toPersistentHashSet())
     }
 
     fun rulesByNumbers(ids: List<RuleNumber>): List<RuleState> {
