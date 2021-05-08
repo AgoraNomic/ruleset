@@ -1,0 +1,19 @@
+Rule 2622/3 (Power=1.0)
+Pending Proposals
+
+      Pended is an untracked negative boolean proposal switch.
+      
+      Any player CAN pay 1 Pendant to flip the Pended switch of a
+      specified proposal to True. If the player did not create the
+      proposal and is not listed in the list of co-authors of the
+      proposal, e is added to the list of co-authors. When e does so,
+      the proposal becomes sponsored.
+      
+      The Promotor CAN, with 2+X support, flip the Pended switch of a
+      proposal in the Proposal Pool to true. For this, X is equal to the
+      number of times e has done so in the past 7 days.
+      
+      Any player CAN, without objection, flip the Pended switch of a
+      proposal in the Proposal Pool to true.
+      
+      A proposal with a Pended switch set to True is 'pending'.

@@ -1,0 +1,30 @@
+Rule 2634/3 (Power=1.0)
+Buoyancy Control
+
+      The Total Buoyancy and Buoyancy Target are singleton integer
+      switches, tracked by the Treasuror in eir weekly report.
+      
+      The Treasuror CAN, by announcement, set the Buoyancy Target to a
+      specified value approximately equal to the sum of all coin
+      balances at a specified point within the last week, and SHALL do
+      so each time e publishes eir weekly report.
+      
+      The Treasuror may exercise reasonable judgement in calculating the
+      Buoyancy Target. The Buoyancy Target will be deemed set so long as
+      the value chosen by the Treasuror is not obviously and grossly
+      incorrect. However, the Treasuror SHALL NOT deliberately introduce
+      error into the Buoyancy Target.
+      
+      At the beginning of each month, the Total Buoyancy is flipped to
+      the Buoyancy Target.
+
+History:
+
+Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
+   ATMunn), 28 Oct 2020
+Amended(1) by cleaning (Murphy), 14 Feb 2021
+Amended(2) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(3) by P8557 'Archimedes' Principle' (Aris, Trigon, nix), 15 Apr
+   2021
+
+Annotations:

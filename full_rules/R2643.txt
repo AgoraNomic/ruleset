@@ -1,0 +1,31 @@
+Rule 2643/2 (Power=2)
+Collecting Stones
+
+      Once per month, the Stonemason CAN publish a collection notice by
+      announcement, specifying all necessary information and choices.
+      The Stonemason SHALL publish such a notice in a timely fashion
+      after the beginning of each Agoran month.
+      
+      A stone is immune if it has been granted immunity, as defined by
+      other rules, since the last collection notice or if it is
+      currently owned by Agora.
+      
+      A collection notice includes zero or more random choices of
+      whether each stone escapes. Each choice results in escape with
+      probability equal to its escape risk; a stone escapes if any
+      choice selects escape. When a collection notice is published,
+      stones that escape are transferred to Agora in an order specified
+      by the collection notice.
+      
+      If a stone is immune, there are zero escape choices; otherwise,
+      there is one choice if the stone was used in the previous Agoran
+      month, or two if it was not.
+
+History:
+
+Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+Amended(1) by P8524 'Agora's Stones Are Immune' (nix), 01 Dec 2020
+Amended(2) by P8542 'Stone Excitement Act' (Jason, Aris), 02 Mar 2021
+
+Annotations:

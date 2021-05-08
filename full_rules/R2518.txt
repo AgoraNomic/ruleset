@@ -1,0 +1,14 @@
+Rule 2518/0 (Power=3)
+Determinacy
+
+      If a value CANNOT be reasonably determined (without circularity or
+      paradox) from information reasonably available, or if it
+      alternates indefinitely between values, then the value is
+      considered to be indeterminate, otherwise it is determinate.
+
+History:
+
+Enacted by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
+   Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+
+Annotations:

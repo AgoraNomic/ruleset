@@ -1,0 +1,26 @@
+Rule 2631/2 (Power=1.0)
+Charities
+
+      Donation Level is a natural switch for contracts, tracked by the
+      Notary, with a default of 0 and a maximum of 25. A contract with
+      nonzero donation level is called a Charity.
+      
+      The Notary CAN flip a contract's donation level to a non-default
+      value with 3 Agoran consent. This SHOULD only be done if the
+      contract's provisions ensure that its funds received from Agora
+      will be used solely for the betterment of Agora. Any player CAN
+      flip a contract's donation level to 0 with Agoran consent.
+      
+      Whenever a payday occurs, half of each charity's coin holdings
+      (rounded down) are destroyed, and then each charity gains a number
+      of boatloads of coins equal to its donation level.
+
+History:
+
+Enacted by P8476 'Contract charities' (ATMunn, G., Falsifian, Publius
+   Scribonius Scholasticus), 19 Jul 2020
+Amended(1) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
+   ATMunn), 28 Oct 2020
+Amended(2) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
+
+Annotations:

@@ -1,0 +1,34 @@
+Rule 2480/4 (Power=2.1)
+Festivals
+
+      Festivity is a secured singleton switch, whose possible values are
+      integers ranging from 0 inclusive to the number of defined types
+      of Ribbon exclusive, and defaulting to 0. While Agora's Festivity
+      is 0, Festivity is tracked in the Tailor's monthly report.
+      Otherwise, it is tracked in the Tailor's weekly report.
+      
+      If Agora's Festivity has had the same nonzero value for 14 days or
+      more, or if it has a nonzero value and fewer than 5 players are
+      Festive, then any player CAN flip it to 0 by announcement.
+      
+      A player who owns at least N types of Ribbon CAN Start a Rank N
+      Festival, where N is an integer greater than Agora's Festivity,
+      with 4 support from players who own at least N types of Ribbon.
+      Upon doing so, Agora's Festivity is flipped to N. Exception: A
+      player CANNOT do so if Agora's Festivity has had a value greater
+      than or equal to N within the past 21 days.
+      
+      A person who owns a number of types of Ribbon equal to or greater
+      than Agora's Festivity is known as Festive. Other persons are not
+      Festive.
+
+History:
+
+Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
+Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
+Amended(2) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
+Amended(3) by cleaning (Jason), 14 Sep 2019
+Amended(4) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18 Sep
+   2019
+
+Annotations:

@@ -1,0 +1,408 @@
+THE AGORA NOMIC CODE OF REGULATIONS
+
+These ACORNs are also online at http://agoranomic.org/ruleset/
+
+Date of this ACORN:
+
+------------------------------------------------------------------------
+
+Table of Contents:
+
+Auction Regulations
+   * Regulation  AM0: Generalized Auction
+   * Regulation  AM1: Forward Auctions
+   * Regulation  AM2: Sealed-bid Auctions
+   * Regulation  AM3: Second-price Auctions
+   * Regulation  AM4: Nonwinning-price Auctions
+   * Regulation  AM5: Selective-bid Auctions
+Administrative Regulations
+   * Regulation  PA0: Certification
+   * Regulation  PA1: Proposal Style Guide
+   * Regulation  RA0: Limitations to Powers of Interim Referees
+   * Regulation  RA1: General Enforcement Policies
+   * Regulation  RA2: Guidelines to Referees for Compiling Weekly Reports
+   * Regulation  RA3: Holiday Rule Reminder Practice
+
+
+------------------------------------------------------------------------
+
+========================================================================
+Auction Regulations
+   This section has the regulations, written by the Treasuror, governing
+   how auctions proceed.
+------------------------------------------------------------------------
+Regulation AM0/2
+Generalized Auction
+
+      Generalized auctions exist to give context to the form of other
+      types of auctions. They CANNOT be held directly. Other auction
+      methods that use this type of auction as a starting point can
+      override attributes of generalized auctions except when it is
+      explicitly stated that that attribute is not able to be
+      overridden.
+      
+      INITIATION: When a person CAN begin an auction by this or any
+      derivative method, e CAN only do so by specifying the type of
+      auction method to be held, a list of lots to be auctioned off, and
+      the currency for the auction in a public message (henceforth the
+      "initiation message"). The bidding period starts at this point.
+      
+      BIDDING: Players CAN place a bid on an auction in its bidding
+      period by creating a public message (henceforth a "bid message")
+      specifying a number of the auction's currency as eir bid not equal
+      to the bid of another player. Players CAN withdraw from an open
+      auction by announcement.
+      
+      TERMINATION: The bidding period ends four days after the final
+      instance of any of the following events' occurance:
+        * the auction begins
+        * a bid is placed
+        * a player withdraws from the auction
+      
+      RETRIEVAL: When the bidding period ends, the retrieval period
+      begins. During the retrieval period, bidders will be allowed to
+      retrieve the assets required to pay for their bid. The retrieval
+      period lasts three days. Failing to have the requisite assets when
+      the retrieval period for an auction ends constitutes the Class 1
+      Crime of Underfundedness.
+      
+      AWARDING: For each auction, there are a number of awardees equal
+      to the number of lots. The Nth lot of an auction goes to the Nth
+      awardee of that auction. If the identity of an awardee is
+      undecidable, then that lot cannot be given away. Auction methods
+      specify how awardees are picked for auctions using that method.
+      
+      PAYMENT AMOUNT: The amount that an awardee in an auction is
+      required to pay for eir lot is, unless otherwise specified, the
+      amount of the auction's curency specified in eir highest bid on
+      that auction.
+      
+      FUNDED PLAYERS: Derivative auction methods should ensure that only
+      players who, at the end of an auction's retrieval period, have at
+      least as much of that auction's currency as the amount that e is
+      required to pay in that auction (hereafter "funded players") can
+      be selected as awardees for auctions using that auction method.
+      
+      DISTRIBUTION: The auctioneer for an auction CAN and SHALL, within
+      seven days of the ending of that auction's retrieval period,
+      create a public message (henceforth the "distribution message")
+      that contains a full history of bids on the auction and
+      withdrawals from the auction. It must also clearly indicate each
+      awardee and the lot e recieves. In this message, the auctioneer
+      CAN and SHALL destroy the amount to be paid from the inventory
+      each awardee and transfer to that player (or create in eir
+      possession if the item is new) the set of assets associated with
+      the lot e won. Failing to publish a distribution message
+      constitutes the Class 3 Crime of Auction Abandonment.
+      
+      ACTIVE BIDS: The set of active bids for an auction is the set of
+      all funded, non-withdrawn players' highest bids on that auction.
+
+History:
+
+Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 28 Mar 2021
+Amended(2) by Trigon, 05 May 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation AM1/1
+Forward Auctions
+
+      Forward auctions function like generalized auctions except:
+      
+      * The Nth awardee for a forward auction is the player who
+        submitted the Nth-highest active bid on that auction.
+
+History:
+
+Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation AM2/1
+Sealed-bid Auctions
+
+      Sealed-bid auctions function like generalized auctions except:
+      
+      * Players can only submit bids on a sealed-bid auction if they do
+        not have a bid in that auction.
+      * Bids must be initially hidden so that it is impossible to tell
+        its value but that it is verifiable that the amount bid was
+        decided before the bid was placed. Anything that claims to be a
+        bid and fits these conditions is considered a bid.
+      * The retrieval period for a sealed-bid auction lasts for seven
+        days.
+      * Each player SHALL reveal eir bid amount on a sealed-bid auction
+        while the auction is in its retrieval period. Failing to do so
+        is the Class 2 Crime of Potential Faking.
+      * The termination message need not indicate any bids for which the
+        amount bid is not known.
+      * The Nth awardee of a sealed-bid auction is the player whose bid
+        is the Nth-highest active bid on that auction.
+
+History:
+
+Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation AM3/1
+Second-price Auctions
+
+      Second-price auctions function like forward auctions except:
+      
+      * The amount to be paid by the Nth awardee is the amount of the
+        auction's currency specified by the (N-1)th highest active bid
+        on that auction or the lowest active bid if such a value does
+        not exist.
+
+History:
+
+Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation AM4/1
+Nonwinning-price Auctions
+
+      Nonwinning-price auctions function like forward auctions except:
+      
+      * The amount to by paid by all awardees is the amount of the
+        auction's currency specified by the highest active bid on that
+        auction not placed by an awardee or the lowest active bid if
+        such a value does not exist.
+
+History:
+
+Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation AM5/1
+Selective-bid Auctions
+
+      Selective-bit auctions function like generalized auctions except:
+      
+      * Bidding messages on a selective-bid auction must also specify a
+        lot that is preferred.
+      * The Nth awardee of a selective-bid auction is the player who
+        placed the highest active bid whose preferred bid is the Nth
+        lot.
+
+History:
+
+Enacted by Trigon, 08 Aug 2020
+Amended(1) by Trigon, 05 May 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Administrative Regulations
+   This section has regulations enacted by officers, pursuant to Rule
+   2630.
+------------------------------------------------------------------------
+Regulation PA0/0
+Certification
+
+      For the Promotor to cause a proposal to become pending with 2+N
+      support, where N is equal to the number of times e has done so in
+      the past 7 days, is for em to certify it.
+      
+      A proposal is certifiable if:
+      1. it is reasonably narrowly tailored to fix one or more problems,
+         including a) bugs, b) errors, c) ambiguities, and d)
+         vulnerabilities*; or
+      2. unusual or exigent circumstance render it in the public
+         interest for it to become pending via this method.
+      
+      * Note: Any of these problems may arise from a single source or
+        the interaction of multiple sources, which may be individually
+        unproblematic. This provision is to be interpreted broadly and
+        flexibly to effectuate its spirit.
+      
+      The Promotor SHOULD NOT certify a non-certifiable proposal.
+      Players SHOULD support an intent to certify a proposal if and only
+      if it is certifiable.
+      
+      The author of a proposal in the pool CAN, by announcement, request
+      certification of the proposal, provided e does so in a message
+      that has either "Promotor" or "Proposal" in the subject line; e
+      SHOULD NOT do so unless e believes eir proposal is certifiable and
+      is ENCOURAGED to explain why eir proposal is certifiable. Once
+      certification is requested, the Promotor SHALL respond publicly
+      before publishing the next report that contains the proposal,
+      unless the proposal is withdrawn or pended in the interim.
+      Petitioning the Promotor to certify a proposal is DEPRECATED.
+
+History:
+
+Enacted by Aris, 13 Sep 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation PA1/0
+Proposal Style Guide
+
+      Players SHOULD format proposals in accordance with the following
+      guidelines.  These guidelines represent the Promotor's preferred
+      formatting. Most of these guidelines are flexible recommendations,
+      but where something is marked as STRONGLY DISCOURAGED, doing it is
+      actively inconvenient for the Promotor.
+      
+      I. Headers and Metadata.
+      
+      1. Format headers as close as possible to the heading used for
+         distributions, which looks like this:
+      
+      Title: _____
+      Adoption index: _._
+      Author: ____
+      Co-authors: ____, ____
+      
+      To be clear:
+      a) write the fields in that order;
+      b) write out all the fields, even the ones that have default
+         values; and
+      c) write each field on its own line.
+      
+      2. a) Give proposals titles 35 characters or less.
+         b) Giving proposals titles over 70 characters is STRONGLY
+            DISCOURAGED.  
+      
+      II. Bodies.
+      
+      1. Indent Proposals two spaces per indent level.
+      
+      2. a) Wrap proposal lines to 80 characters or less.
+         b) Making it so the Promotor cannot wrap lines to 80 characters
+            or less is STRONGLY DISCOURAGED unless it is absolutely
+            unavoidable (e.g.  in the case of URLs).
+      
+      3. Players are STRONGLY DISCOURAGED from placing markings that
+         indicate the start of the proposal's text on the same line as
+         the start of the text.
+
+History:
+
+Enacted by Aris, 13 Sep 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation RA0/0
+Limitations to Powers of Interim Referees
+
+      An interim holder of the office of Referee (henceforth known as an
+      ‘Interim Referee’) SHALL NOT impose summary judgement more than
+      twice a week.
+      
+      It is PROHIBITED for an Interim Referee levy a fine to a person
+      who commits the Class 2 Crime of Tardiness, if the person's
+      deadline to perform eir duty occurs during a Holiday, as defined
+      by rule 1769.
+      
+      A Referee MUST NOT enact or amend any other regulations in such a
+      manner as to cause any of them to take precedence over this
+      regulation.
+      
+      This regulation takes precedence over all other administrative
+      regulations promulgated by any Referee.
+
+History:
+
+Enacted by JTAC, 31 Jan 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation RA1/0
+General Enforcement Policies
+
+      If a Referee wishes to impose the Cold Hand of Justice on any perp
+      for the Class 2 Crime of Tardiness, e is strongly RECOMMENDED to
+      specify the violation as forgivable, unless the perp has
+      consecutively committed the violation or the evidence indicates
+      that the perp has used or has attempted to use the violation as
+      part of a plan to abuse eir official position.
+      
+      Referees are ENCOURAGED to amend this regulation to specify best
+      practices for other crimes and violations.
+
+History:
+
+Enacted by JTAC, 31 Jan 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation RA2/0
+Guidelines to Referees for Compiling Weekly Reports
+
+      Courtesy of the illustrious Publius Scribonius Scholasticus, when
+      making eir weekly report on blot holdings, a Referee is ENCOURAGED
+      to additionally include:
+      
+      1. A section tracking investigations resulting from a finger being
+      pointed of which the Referee is the investigator, which have not
+      been concluded at the time of the report’s publishing; e SHOULD
+      provide the following fields for each entry:
+      
+          a. Name of the perp
+          b. Name of the person who pointed eir finger
+          d. Summary of the available findings at the time of the report
+      
+      The Referee is strongly DISCOURAGED from reporting on
+      investigations of which e is not the investigator. At the time of
+      the promulgation of this regulation, the only rule-defined
+      circumstance in which the Referee is not the investigator is when
+      the Referee is the perp. As such, eir reports on such
+      investigations may be misleading and are at a high likelihood of
+      violating rule 2471.
+      
+      2. A section tracking historical changes to the blots possessed by
+      persons. If available, the time period tracked is RECOMMENDED to
+      begin from approximately two years prior and end at the time of
+      the report’s publishing. E SHOULD provide the following columns
+      for this section:
+      
+          a. Name of person in whose possession the number of blots has
+             changed
+          b. Change in number of blots
+          c. Date of change
+          d. Reason of change
+
+History:
+
+Enacted by JTAC, 31 Jan 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation RA3/0
+Holiday Rule Reminder Practice
+
+      In addition to the recommendations contained within rule 1769, the
+      Referee is strongly ENCOURAGED to remind the players of the end of
+      the Holiday by announcement. This SHOULD be done between 2 to 4
+      days before the end of the Holiday.
+
+History:
+
+Enacted by JTAC, 31 Jan 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+

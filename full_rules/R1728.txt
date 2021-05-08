@@ -1,0 +1,96 @@
+Rule 1728/42 (Power=3)
+Dependent Action Methods
+
+      The following methods of taking actions are known as "dependent
+      actions":
+      
+      1. without N objections, where N is a positive integer no greater
+      than 8 ("without objection" is shorthand for this method with
+      N = 1);
+      
+      2. with N support, where N is a positive integer ("with support"
+      is shorthand for this method with N = 1);
+      
+      3. with N Agoran consent, where N is an integer multiple of 0.1
+      with a minimum of 1 ("With Agoran consent" is shorthand for this
+      method with N = 1);
+      
+      4. with notice; or
+      
+      5. with T notice, where T is a time period.
+      
+      N is 1 unless otherwise specified.
+
+History:
+
+Enacted by P3521 (Chuck), 23 Jun 1997
+Infected and amended(1) by R1454, 02 Nov 1997
+Amended(2) by R1728, 16 Nov 1997
+Amended(3) by P3812 'Actions Without N Objections' (Steve), 21 Dec 1998
+Amended(4) by P3836 'Broaden Actions Without Objection' (General Chaos),
+   02 Mar 1999
+Amended(5) by P3950 'Deference Deprecation' (harvel), 08 Dec 1999
+Amended(6) by P3973 'Dependent Actions' (harvel), 14 Feb 2000
+Amended(7) by P3991 'Streamline Actions With Support' (Steve), 30 Mar
+   2000
+Amended(8) by P4011 'New Terminology' (Wes), 01 Jun 2000
+Power changed from 1 to 2 by P4121 'Patch Up Dependent Actions' (Ziggy),
+   16 Mar 2001
+Amended(9) by P4121 'Patch Up Dependent Actions' (Ziggy), 16 Mar 2001
+Amended(10) by P4279 'Fix Dependent Actions' (harvel), 03 Apr 2002
+Amended(11) by P4461 'Fix Dependent Actions' (Maud), 17 Mar 2003
+Amended(12) by P4915 '"Deem" deemed harmful, take two' (Murphy), 02 Apr
+   2007
+Amended(13) by P4981 'no free dependent actions' (Zefram), 31 May 2007
+Amended(14) by P4999 'fix dependent actions' (Zefram), 12 Jun 2007
+Amended(15) by P5007 'generalize naturalhood' (Zefram), 18 Jun 2007
+Amended(16) by P5113 'Really Generalize Dependent Actions' (Murphy,
+   Maud), 02 Aug 2007
+Amended(17) by P5370 'first-class dependent actions' (Zefram), 20 Dec
+   2007
+Amended(18) by P5445 'Satisfaction v3' (G., Murphy), 21 Feb 2008
+Amended(19) by P5543 'Faster support' (Murphy, Pavitra, root), 16 Jun
+   2008
+Amended(20) by P5775 'Clean up dependent actions' (Murphy), 17 Oct 2008
+Amended(21) by P5818 'Require Clear Announcements' (omd), 01 Nov 2008
+Power changed from 2 to 3 by P5947 'Balance of Power' (ais523), 15 Nov
+   2008
+Amended(22) by P5995 'Fix multi-method dependent actions' (Murphy), 07
+   Dec 2008
+Amended(23) by P6041 'Allow contract-defined dependent actions' (Murphy,
+   the Warrigal), 13 Jan 2009
+Amended(24) by P6204 'Depending Actions' (Murphy), 27 Apr 2009
+Amended(25) by P6437 'Objection cap' (Murphy), 18 Aug 2009
+Amended(26) by P6448 'Hand Limit Remodel v3' (BobTHJ), 27 Aug 2009
+Amended(27) by P6474 'Refactor dependent actions' (omd), 15 Sep 2009
+Amended(28) by P6512 'Fix dependent actions' [disi.] (omd), 03 Oct 2009
+Amended(29) by P6619 'Encourage dependent disclosure' [green, disi.]
+   (Murphy), 04 Feb 2010
+Amended(30) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
+Amended(31) by P6981 'Littler Dutch Boy' (Murphy, omd), 10 Apr 2011
+Amended(32) by P7045 'Speed' (Walker), 16 May 2011
+Amended(33) by P7606 'Cruise Control' (G.), 13 Dec 2013
+Amended(34) by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
+Amended(35) by P7840 'Not an Apple campsite' (G.), 01 Mar 2017
+Amended(36) by R2430, 24 May 2017
+Amended(37) by P7871 'Minor fixes (sans typos)' (R. Lee), 07 Sep 2017
+Amended(38) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
+Amended(39) by P8107 'Buried Intent Prevention Act v2' (D. Margaux,
+   Aris, G.), 27 Oct 2018
+Amended(40) by P8123 'Independence' (Gaelan), 19 Nov 2018
+Retitled by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan),
+   27 Apr 2019
+Amended(41) by P8165 'Dependent Action Cleanup Act' (D. Margaux,
+   Gaelan), 27 Apr 2019
+Amended(42) by P8236 'Definition de-capitalization' (Jason, Aris), 18
+   Sep 2019
+
+Annotations:
+CFJ 1722 (called 15 Aug 2007): The method of dependent action need not
+    be described exactly: an approximate but inexact description
+    suffices, as does the rule-defined term.
+CFJ 1802 (called 19 Nov 2007): The phrase "by Agoran Support" is not an
+    unambiguous description of a method of dependent action.
+CFJ 3567 (called 27 Sep 2017): Dependent action intents aren't "by
+    announcement" actions, so a message saying it a lot of times can be
+    read "naturally" as counting as a single intent.
