@@ -57,7 +57,7 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
                 HistoricalChanges.changedReenactment()
         }
         "amendment" -> {
-            if (changeNode.getOptValue("uncounted")?.content?.toLowerCase()?.toBoolean() == true)
+            if (changeNode.getOptValue("uncounted")?.content?.lowercase()?.toBoolean() == true)
                 HistoricalChanges.uncountedAmendment()
             else
                 HistoricalChanges.countedAmendment()

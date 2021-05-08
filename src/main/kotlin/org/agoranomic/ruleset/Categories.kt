@@ -5,7 +5,8 @@ import kotlinx.collections.immutable.ImmutableMap
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.collections.immutable.toImmutableMap
 
-inline class CategoryId(val raw: String) {
+@JvmInline
+value class CategoryId(val raw: String) {
     override fun toString(): String {
         return raw
     }

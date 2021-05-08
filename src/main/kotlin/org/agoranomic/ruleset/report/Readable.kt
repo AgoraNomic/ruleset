@@ -130,7 +130,7 @@ private fun formatAnnotations(
         .let { if (it.isNotEmpty()) it + "\n" else it }
 }
 
-private fun RuleState.revisionNumber() = history.entries.sumBy { it.change.changeCount }
+private fun RuleState.revisionNumber() = history.entries.sumOf { it.change.changeCount }
 
 fun formatRule(rule: RuleState, config: ReadableReportConfig): String {
     val revisionNumber = rule.revisionNumber()

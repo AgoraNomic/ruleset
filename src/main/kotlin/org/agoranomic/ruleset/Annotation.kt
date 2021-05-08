@@ -5,7 +5,8 @@ import kotlinx.collections.immutable.toImmutableList
 import org.agoranomic.ruleset.history.HistoricalDate
 import java.math.BigInteger
 
-inline class CfjNumber(val raw: BigInteger) : Comparable<CfjNumber> {
+@JvmInline
+value class CfjNumber(val raw: BigInteger) : Comparable<CfjNumber> {
     override fun compareTo(other: CfjNumber): Int {
         return (this.raw).compareTo(other.raw)
     }
