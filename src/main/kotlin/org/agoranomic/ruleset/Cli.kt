@@ -14,10 +14,7 @@ import org.agoranomic.ruleset.parsing.DirectoryYamlProposalDataMap
 import org.agoranomic.ruleset.parsing.YamlProposalDataMap
 import org.agoranomic.ruleset.parsing.parseIndexYaml
 import org.agoranomic.ruleset.parsing.parseRuleStateYaml
-import org.agoranomic.ruleset.report.ProposalStatistics
-import org.agoranomic.ruleset.report.ReadableReportConfig
-import org.agoranomic.ruleset.report.formatReadable
-import org.agoranomic.ruleset.report.formatRule
+import org.agoranomic.ruleset.report.*
 import java.nio.file.Files
 import java.nio.file.StandardOpenOption
 import kotlin.system.exitProcess
@@ -148,11 +145,20 @@ private class RulekeeporCommand : CliktCommand() {
                 exitProcess(1)
             }
 
+            val templateWithHeaderReplaced = run {
+                val originalTemplate = Files.readString(templateFile, FILE_CHARSET)
+                val headerContent = headerPath?.let { Files.readString(it, FILE_CHARSET) }
+
+                replaceHeaderInclusionWithOptionalHeader(
+                    template = originalTemplate,
+                    headerContent = headerContent,
+                )
+            }
+
             formatReadable(
-                Files.readString(templateFile, FILE_CHARSET),
-                headerContent = headerPath?.let { Files.readString(it, FILE_CHARSET) },
-                reportConfig,
-                CategorizedRulesetState(rulesetState, ruleCategoryMapping),
+                template = templateWithHeaderReplaced,
+                config = reportConfig,
+                rulesetState = CategorizedRulesetState(rulesetState, ruleCategoryMapping),
                 proposalStatistics = proposalStats,
             ).let {
                 Files.writeString(

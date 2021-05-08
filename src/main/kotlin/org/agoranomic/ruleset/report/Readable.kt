@@ -202,7 +202,6 @@ private fun Iterable<RuleNumber>.requireIntegralMax(): BigInteger {
 
 /**
  * Formats a full-readable ruleset, handling the following tags:
- * - `{header}`: replaced with the contents of [headerContent], failing if it is null.
  * - `{num}`: the number of enacted rules.
  * - `{her}`: the rule number of the highest categorized (enacted) rule in [rulesetState], failing if not all rules have integral numbers.
  * - `{hr}`: the rule number of the highest rule in [rulesetState], failing if not all rules have integral numbers.
@@ -212,13 +211,11 @@ private fun Iterable<RuleNumber>.requireIntegralMax(): BigInteger {
  * - `{powers}`: a list of powers of the rules.
  * - `{ruleset}`: the formatted content of the ruleset.
  *
- * `{header}` is processed first (thus allowing other substitutions to appear in the header), and
  * `{ruleset}` is processed last (thus not handling substitutions in rule text). All other substitutions are processed
- * in between (in an unspecified order).
+ * in an unspecified order.
  */
 fun formatReadable(
     template: String,
-    headerContent: String?,
     config: ReadableReportConfig,
     rulesetState: CategorizedRulesetState,
     proposalStatistics: ProposalStatistics?,
@@ -227,15 +224,6 @@ fun formatReadable(
     require(renderedRules.isNotEmpty())
 
     return template
-        .let { string ->
-            if (string.contains("{header}"))
-                string.replace(
-                    "{header}",
-                    requireNotNull(headerContent) { "Header was used but not provided" }
-                )
-            else
-                string
-        }
         .replace("{num}", renderedRules.count().toString())
         .let { string ->
             if (string.contains("{her}"))
