@@ -34,6 +34,11 @@ text: |
   violation, e CAN do so by announcement if the violation is
   described by the rules as a "Class N Crime" where N is 0 or an
   expression that evaluates to 0.
+
+  When the rules authorize an investigator to issue an Indictment
+  for a violation, e CAN do so by levying a fine on the perp, with
+  1.5 Agoran Consent, provided that levying the fine would be
+  otherwise LEGAL and EFFECTIVE.
 history:
 - change:
     type: enactment
@@ -71,4 +76,9 @@ history:
   date: 2020-08-10
   agent:
     proposal: "8479"
+- change:
+    type: amendment
+  date: 2021-06-05
+  agent:
+    proposal: "8560"
 annotations: []
