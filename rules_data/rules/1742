@@ -35,6 +35,10 @@ text: |
 
   * By announcement, transfer liquid assets from the contract to a
     specified recipient.
+
+  Any player CAN cause a contract to be terminated (syn. "shred")
+  without 2 objections. This SHOULD only be done to remove unused
+  contracts or contracts deemed detrimental to the game as a whole.
 history:
 - change:
     type: enactment
@@ -187,6 +191,11 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8303"
+- change:
+    type: amendment
+  date: 2021-05-25
+  agent:
+    proposal: "8559"
 annotations:
 - cfjs:
   - id: 3644
