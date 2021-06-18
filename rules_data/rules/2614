@@ -27,7 +27,8 @@ text: |
     - Appoint or remove officeholders, other than Prime Minister or
       Speaker.
     - Modify the Festivity.
-    - Award Patent Titles not mentioned in any Rule and Badges.
+    - Award Patent Titles that are either Badges or are not
+      mentioned in any Rule.
     - Modify the Publicity of Fora.
 
   The Prime Minister CAN, in an emergency message and with 4 Agoran
@@ -101,4 +102,9 @@ history:
   date: 2021-03-10
   agent:
     proposal: "8547"
+- change:
+    type: amendment
+  date: 2021-06-14
+  agent:
+    proposal: "8570"
 annotations: []
