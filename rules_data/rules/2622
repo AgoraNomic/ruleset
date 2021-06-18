@@ -5,10 +5,8 @@ text: |
   Pended is an untracked negative boolean proposal switch.
 
   Any player CAN pay 1 Pendant to flip the Pended switch of a
-  specified proposal to True. If the player did not create the
-  proposal and is not listed in the list of co-authors of the
-  proposal, e is added to the list of co-authors. When e does so,
-  the proposal becomes sponsored.
+  specified proposal to True. When e does so, the proposal becomes
+  sponsored.
 
   The Promotor CAN, with 2+X support, flip the Pended switch of a
   proposal in the Proposal Pool to true. For this, X is equal to the
@@ -40,4 +38,9 @@ history:
   date: 2020-07-08
   agent:
     proposal: "8470"
+- change:
+    type: amendment
+  date: 2021-06-14
+  agent:
+    proposal: "8564"
 annotations: []
