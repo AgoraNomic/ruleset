@@ -6,7 +6,10 @@ text: |
   decisions and proposals, secured at power 2.  For decisions, the
   possible values are "none" (default) or integral multiples of 0.1
   from 1.0 to 9.9. For proposals, the possible values are integral
-  multiples of 0.1 from 1.0 to 9.9 (default 1.0).
+  multiples of 0.1 from 1.0 to 9.9 (default 1.0). If a referendum
+  has an adoption index less than the adoption index of its
+  associated proposal, the referendum's adoption index is
+  immediately set to that of the associated proposal
 
   Adoption index is secured with a Power Threshold of 2.
 
@@ -220,6 +223,11 @@ history:
   agent:
     cleaning:
       by: Alexis
+- change:
+    type: amendment
+  date: 2021-06-14
+  agent:
+    proposal: "8566"
 annotations:
 - cfjs:
   - id: '1885'
