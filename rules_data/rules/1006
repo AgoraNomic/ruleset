@@ -14,11 +14,6 @@ text: |
   holder of an elected office without eir explicit or reasonably
   implied consent.
 
-  A holder of an elected office who did not become its holder by
-  winning an election, and has not won an election for that office
-  since, is an interim holder. An elected office that is either
-  vacant or has an interim holder is an interim office.
-
   The holder of an elected office CAN resign it by announcement,
   causing it to become vacant. The non-interim holder of an elected
   office CAN, with 3 support, resign the office while appointing
@@ -298,6 +293,11 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8221"
+- change:
+    type: amendment
+  date: 2021-06-14
+  agent:
+    proposal: "8561"
 annotations:
 - cfjs:
   - id: '1660'
