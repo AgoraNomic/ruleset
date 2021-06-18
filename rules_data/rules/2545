@@ -13,7 +13,12 @@ text: |
   start of the auction, and under common definitions and terms used
   in auctions, as a fair, equitable, and timely means of determining
   the auction winners from among the current players, and enabling
-  the appropriate exchange of goods.
+  the appropriate exchange of goods. Persons who voluntarily
+  participate in an auction (including the auctioneer) SHALL NOT
+  violate requirements that auction's method that are clearly
+  intended to be punishable as rules violations; doing so is the
+  Class N Crime of Auction Manipulation, where N is the class
+  specified in the auction method (or 2 otherwise).
 
   The rule that authorizes the auction further authorizes the
   auctioneer or auction winners to transfer said items as necessary
@@ -51,4 +56,9 @@ history:
   date: 2020-06-12
   agent:
     proposal: "8407"
+- change:
+    type: amendment
+  date: 2021-06-14
+  agent:
+    proposal: "8572"
 annotations: []
