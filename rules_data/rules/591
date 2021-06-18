@@ -11,17 +11,17 @@ text: |
   initiated, not taking into account any events since that time:
 
   * FALSE, appropriate if the statement was factually and
-    logically false
+    logically false.
 
   * TRUE, appropriate if the statement was factually and
-    logically true
+    logically true.
 
   * IRRELEVANT, appropriate if the veracity of the statement is
     not relevant to the game or is an overly hypothetical
     extrapolation of the game or its rules to conditions that don't
     actually exist, or if it can be trivially determined from the
     outcome of another (possibly still undecided) judicial case that
-    was not itself judged IRRELEVANT
+    was not itself judged IRRELEVANT.
 
   * INSUFFICIENT, appropriate if the statement does not come
     with supporting arguments or evidence, and the judge feels as if
@@ -334,6 +334,12 @@ history:
   date: 2021-03-10
   agent:
     proposal: "8545"
+- change:
+    type: amendment
+  date: 2021-06-17
+  agent:
+    cleaning:
+      by: G.
 annotations:
 - cfjs:
   - id: '1835'
