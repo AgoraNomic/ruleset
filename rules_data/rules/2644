@@ -2,11 +2,11 @@ id: 2644
 name: The Gauntlet
 power: 2
 text: |
-  When a player makes a correct announcement that a single specified
-  player owns 5 or more stones, the specified player Wields the
-  Guantlet.
+  A player CAN, by announcement, Notice the Gauntlet, specifying a
+  single player that owns 5 or more stones. When e does, the
+  specified player Wields the Gauntlet.
 
-  When a player Wields the Gauntlet, e wins the game and all
+  When a player Wields the Gauntlet, e wins the game, then all
   existing stones are transferred to Agora.
 history:
 - change:
@@ -14,4 +14,9 @@ history:
   date: 2020-11-11
   agent:
     proposal: "8521"
+- change:
+    type: amendment
+  date: 2021-06-14
+  agent:
+    proposal: "8571"
 annotations: []
