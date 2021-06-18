@@ -1,0 +1,24 @@
+id: 2652
+name: Popularity Contest
+power: 1.0
+text: |
+  Immediately after the adoption of this rule, Aris wins the game.
+  Then, for each person who voted unconditionally FOR the referendum
+  on the proposal that enacted this rule, this rule causes that
+  person to earn a Black Ribbon.
+
+  Aris CAN cause this rule to make a specified player earn a Black
+  Ribbon by announcement. Aris can cause this rule to award a
+  specified player a specified patent title containing the string
+  "Popular" by announcement.
+
+  If it has been at least one month since this rule was adopted, any
+  person CAN End the Contest by announcement, causing this rule to
+  repeal itself.
+history:
+- change:
+    type: enactment
+  date: 2021-06-14
+  agent:
+    proposal: "8565"
+annotations: []
