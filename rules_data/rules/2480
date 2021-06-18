@@ -1,6 +1,6 @@
 id: 2480
 name: Festivals
-power: 2.1
+power: 3.1
 text: |
   Festivity is a secured singleton switch, whose possible values are
   integers ranging from 0 inclusive to the number of defined types
@@ -49,4 +49,11 @@ history:
   date: 2019-09-18
   agent:
     proposal: "8241"
+- change:
+    type: power-change
+    old-power: 2.1
+    new-power: 3.1
+  date: 2021-06-14
+  agent:
+    proposal: "8569"
 annotations: []

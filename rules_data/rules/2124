@@ -8,11 +8,13 @@ text: |
   an action is an eligible entity who has publicly posted (and not
   withdrawn) an objection to the announcement of that intent.
 
-  The entities eligible to support or object to an intent to perform
-  an action are, by default, all players, subject to modification by
-  the document authorizing the dependent action. However, the
-  previous sentence notwithstanding, the initiator of the intent is
-  not eligible to support it.
+  A document that authorizes a dependent action, by default,
+  implicitly asserts that all players are eligible to support or
+  object to an intent to perform that action; if the document is a
+  rule, conflicts about eligibility (including conflicts with such
+  an implicit assertion) are resolved using the normal procedures.
+  However, the previous sentence notwithstanding, the initiator of
+  the intent is not eligible to support it.
 
   Agora is Satisfied with an intent to perform a specific action
   unless at least one of the following is true:
@@ -204,6 +206,11 @@ history:
   date: 2020-10-28
   agent:
     proposal: "8509"
+- change:
+    type: amendment
+  date: 2021-06-14
+  agent:
+    proposal: "8569"
 annotations:
 - cfjs:
   - id: '3567'

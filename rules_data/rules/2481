@@ -1,11 +1,11 @@
 id: 2481
 name: Festival Restrictions
-power: 2.1
+power: 3.1
 text: |
   While Agora's Festivity is nonzero, the following apply:
 
-  1. Non-Festive players are never considered Supporters of a
-     dependent action;
+  1. Rules to the contrary notwithstanding, non-Festive players are
+     not eligible to support a dependent action;
 
   2. Quorum for Agoran Decisions is equal to half the number of
      Festive players, rounded up;
@@ -38,4 +38,16 @@ history:
   date: 2020-10-28
   agent:
     proposal: "8510"
+- change:
+    type: power-change
+    old-power: 2.1
+    new-power: 3.1
+  date: 2021-06-14
+  agent:
+    proposal: "8569"
+- change:
+    type: amendment
+  date: 2021-06-14
+  agent:
+    proposal: "8569"
 annotations: []
