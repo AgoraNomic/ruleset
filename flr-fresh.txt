@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 May 2021
+Date of this ruleset: 18 Jun 2021
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 143
 
-Highest ID'd rule in this ruleset: 2650
-Highest ID'd Proposal Passed: 8558
-Highest ID'd Rule Enacted: 2650
+Highest ID'd rule in this ruleset: 2652
+Highest ID'd Proposal Passed: 8572
+Highest ID'd Rule Enacted: 2652
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -25,7 +25,7 @@ The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
-   * Rule 2650: Silver Quill 2020
+   * Rule 2652: Popularity Contest
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -87,6 +87,7 @@ Voting
 Offices & Reporting
    * Rule 1006: Offices
    * Rule 2630: The Administrative State
+   * Rule 2651: The Election Cycle
    * Rule 2154: Election Procedure
    * Rule 2573: Impeachment
    * Rule 2160: Deputisation
@@ -107,7 +108,6 @@ Justice
    * Rule 2556: Penalties
    * Rule 2478: Vigilante Justice
    * Rule 2557: Sentencing Guidelines
-   * Rule 2619: Indictment
    * Rule 2531: Defendant's Rights
    * Rule 2617: Defense Against the Dark Arts
 Calls for Judgement
@@ -195,11 +195,10 @@ Power Distribution:
 2  with Power=1.5
 5  with Power=1.7
 33 with Power=2
-2  with Power=2.1
 1  with Power=2.2
 1  with Power=2.5
 47 with Power=3
-1  with Power=3.1
+3  with Power=3.1
 1  with Power=3.14
 2  with Power=3.2
 1  with Power=3.3
@@ -302,23 +301,26 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance for
    the current gamestate.
 ------------------------------------------------------------------------
-Rule 2650/0 (Power=2.0)
-Silver Quill 2020
+Rule 2652/0 (Power=1.0)
+Popularity Contest
 
-      The Promotor CAN once, by announcement, award the patent title
-      Silver Quill 2020 to nix for eir authorship of Proposal 8408,
-      "Sets v1.4".
+      Immediately after the adoption of this rule, Aris wins the game.
+      Then, for each person who voted unconditionally FOR the referendum
+      on the proposal that enacted this rule, this rule causes that
+      person to earn a Black Ribbon.
       
-      The Promotor CAN once, by announcement, award the patent title
-      Silver Quill 2020 to Aris for eir authorship of Proposal 8514,
-      "The Buoyant Economy".
+      Aris CAN cause this rule to make a specified player earn a Black
+      Ribbon by announcement. Aris can cause this rule to award a
+      specified player a specified patent title containing the string
+      "Popular" by announcement.
       
-      The Promotor CAN cause this rule to repeal itself by announcement,
-      and SHALL do so in a timely fashion after its enactment.
+      If it has been at least one month since this rule was adopted, any
+      person CAN End the Contest by announcement, causing this rule to
+      repeal itself.
 
 History:
 
-Enacted by P8558 'Silver Quill 2020' (Aris), 17 May 2021
+Enacted by P8565 'Popularity Contest' (Aris), 14 Jun 2021
 
 Annotations:
 
@@ -1337,7 +1339,7 @@ Amended(2) by P8422 'No More Numbers!' (Publius Scribonius Scholasticus,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2124/27 (Power=3)
+Rule 2124/28 (Power=3)
 Agoran Satisfaction
 
       A Supporter of an intent to perform an action is an eligible
@@ -1346,11 +1348,13 @@ Agoran Satisfaction
       an action is an eligible entity who has publicly posted (and not
       withdrawn) an objection to the announcement of that intent.
       
-      The entities eligible to support or object to an intent to perform
-      an action are, by default, all players, subject to modification by
-      the document authorizing the dependent action. However, the
-      previous sentence notwithstanding, the initiator of the intent is
-      not eligible to support it.
+      A document that authorizes a dependent action, by default,
+      implicitly asserts that all players are eligible to support or
+      object to an intent to perform that action; if the document is a
+      rule, conflicts about eligibility (including conflicts with such
+      an implicit assertion) are resolved using the normal procedures.
+      However, the previous sentence notwithstanding, the initiator of
+      the intent is not eligible to support it.
       
       Agora is Satisfied with an intent to perform a specific action
       unless at least one of the following is true:
@@ -1421,6 +1425,8 @@ Amended(26) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
 Amended(27) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
 Power changed from 2 to 3 by P8509 'Dependent De-escalation' (Baron von
    Vanderham, Jason, Trigon), 28 Oct 2020
+Amended(28) by P8569 'Fixing Festivals' (Jason, Aris, Murphy), 14 Jun
+   2021
 
 Annotations:
 CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
@@ -1740,16 +1746,14 @@ CFJ 1717 (called 08 Aug 2007): Preceding a proposal-like text with the
     clearly indicate that it is intended to become a proposal.
 
 ------------------------------------------------------------------------
-Rule 2622/3 (Power=1.0)
+Rule 2622/4 (Power=1.0)
 Pending Proposals
 
       Pended is an untracked negative boolean proposal switch.
       
       Any player CAN pay 1 Pendant to flip the Pended switch of a
-      specified proposal to True. If the player did not create the
-      proposal and is not listed in the list of co-authors of the
-      proposal, e is added to the list of co-authors. When e does so,
-      the proposal becomes sponsored.
+      specified proposal to True. When e does so, the proposal becomes
+      sponsored.
       
       The Promotor CAN, with 2+X support, flip the Pended switch of a
       proposal in the Proposal Pool to true. For this, X is equal to the
@@ -1767,6 +1771,8 @@ Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
 Amended(1) by P8413 'Why Track Pendency?' (Aris), 14 Jun 2020
 Amended(2) by cleaning (Jason), 29 Jun 2020
 Amended(3) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul 2020
+Amended(4) by P8564 'Sponsorship is not Co-authorship' (Aris), 14 Jun
+   2021
 
 Annotations:
 
@@ -2807,7 +2813,7 @@ Amended(1) by P7709 'Nature abhors a vacuum' (Murphy), 03 Nov 2014
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2614/8 (Power=3.1)
+Rule 2614/9 (Power=3.1)
 Eclipse Light
 
       An emergency message is one whose subject line contains the text
@@ -2835,7 +2841,8 @@ Eclipse Light
         - Appoint or remove officeholders, other than Prime Minister or
           Speaker.
         - Modify the Festivity.
-        - Award Patent Titles not mentioned in any Rule and Badges.
+        - Award Patent Titles that are either Badges or are not
+          mentioned in any Rule.
         - Modify the Publicity of Fora.
       
       The Prime Minister CAN, in an emergency message and with 4 Agoran
@@ -2870,6 +2877,8 @@ Amended(6) by P8533 'de-dictatorship' (G., Jason, nix), 03 Feb 2021
 Power changed by P8534 'Power Up' (Aris), 03 Feb 2021
 Amended(7) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 Amended(8) by P8547 'ER office restriction' (Jason), 10 Mar 2021
+Amended(9) by P8570 'Emergency Regulation Clarification' (Jason), 14 Jun
+   2021
 
 Annotations:
 
@@ -3535,14 +3544,17 @@ CFJ 3644 (called 18 Jun 2018): Players can't guarantee actual
     humiliating.
 
 ------------------------------------------------------------------------
-Rule 1950/35 (Power=3)
+Rule 1950/36 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index (AI) is an untracked switch possessed by Agoran
       decisions and proposals, secured at power 2.  For decisions, the
       possible values are "none" (default) or integral multiples of 0.1
       from 1.0 to 9.9. For proposals, the possible values are integral
-      multiples of 0.1 from 1.0 to 9.9 (default 1.0).
+      multiples of 0.1 from 1.0 to 9.9 (default 1.0). If a referendum
+      has an adoption index less than the adoption index of its
+      associated proposal, the referendum's adoption index is
+      immediately set to that of the associated proposal
       
       Adoption index is secured with a Power Threshold of 2.
       
@@ -3600,6 +3612,7 @@ Amended(33) by P8200 'Sane AI Defaulting' (Aris), 10 Jul 2019
 Amended(34) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
    Sep 2019
 Amended(35) by cleaning (Alexis), 23 Jan 2020
+Amended(36) by P8566 'Anti-AI escalation' (Jason), 14 Jun 2021
 
 Annotations:
 CFJ 1885 (called 26 Jan 2008): "AGAINT" is a variant spelling of
@@ -3654,7 +3667,7 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/44 (Power=2)
+Rule 1006/45 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -3668,11 +3681,6 @@ Offices
       defining it. All others are elected. A person CANNOT be made the
       holder of an elected office without eir explicit or reasonably
       implied consent.
-      
-      A holder of an elected office who did not become its holder by
-      winning an election, and has not won an election for that office
-      since, is an interim holder. An elected office that is either
-      vacant or has an interim holder is an interim office.
       
       The holder of an elected office CAN resign it by announcement,
       causing it to become vacant. The non-interim holder of an elected
@@ -3752,6 +3760,7 @@ Amended(42) by P8074 'Office Patch' (Aris, G., P.S.S.), 26 Jul 2018
 Amended(43) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
 Amended(44) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
    2019
+Amended(45) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -3790,22 +3799,49 @@ Amended(1) by P8469 'Bureaucratic Reenginerring' (Aris, Alexis,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2154/59 (Power=2)
-Election Procedure
+Rule 2651/0 (Power=2)
+The Election Cycle
 
+      A holder of an elected office who did not become its holder by
+      winning an election, and has not won an election for that office
+      since, is an interim holder. An elected office that is either
+      vacant or has an interim holder is an interim office.
+      
+      An office is term-limited if the most recent election for that
+      office was resolved more than the length of that office's term
+      prior. The term for the office of Prime Minister is 90 days. The
+      term for all other elected offices is 180 days.
+      
       A player CAN initiate an election for a specified elected office:
       
-      a) with 2 support, if either the office is interim or the most
-         recent election for that office was resolved more than 90 days
-         prior, and provided that the initiator becomes a candidate in
-         the same message.
+      a) with 2 support, if either the office is interim or term-
+      limited, and provided that the initiator becomes a candidate in
+      the same message.
       
-      b) By announcement, if e is the ADoP and if the office is interim,
-         or if e is the holder of that office.
+      b) By announcement, if e is the ADoP (or, if the office is the
+      ADoP, if e is the Assessor) and the office is interim, or if e is
+      the holder of that office.
+      
+      Once per quarter, the ADoP CAN and SHALL publish a Notice of
+      Election specifying between 2-4 term-limited offices (if there
+      fewer than 2 term-limited offices, the ADoP MUST instead list all
+      of them).  Such a notice initiates elections for the specified
+      offices.  The ADoP SHOULD prioritize offices that have gone
+      longest since their last elections.
       
       The above notwithstanding, an election for an office CANNOT be
       initiated if one is already in progress.
-      
+
+History:
+
+Enacted by P8561 'Election Cycle' (G., nix), 14 Jun 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2154/60 (Power=2)
+Election Procedure
+
       When an election is initiated, it enters the nomination period,
       which lasts for 4 days. After an election is initiated and until
       nominations close, any player CAN become a candidate by
@@ -3820,17 +3856,18 @@ Election Procedure
       close at the end of the poll's voting period or when the election
       is ended, whichever comes first.
       
-      After the nomination period ends, the ADoP CAN and, in a timely
-      fashion, SHALL:
+      After the nomination period ends, the ADoP (or, if the office is
+      the ADoP, the Assessor) CAN and, in a timely fashion, SHALL:
       
       1) If the election is contested, initiate an Agoran decision to
          select the winner of the election (the poll). For this
-         decision, the Vote Collector is the ADoP, the valid options are
-         the candidates for that election (including those who become
-         candidates after its initiation), and the voting method is
-         instant runoff. When the poll is resolved, its outcome, if a
-         player, wins the election. If the outcome is not a player, the
-         election ends with no winner.
+         decision, the Vote Collector is the ADoP (or, if the office is
+         the ADoP, the Assessor), the valid options are the candidates
+         for that election (including those who become candidates after
+         its initiation), and the voting method is instant runoff. When
+         the poll is resolved, its outcome, if a player, wins the
+         election. If the outcome is not a player, the election ends
+         with no winner.
       
       2) If POSSIBLE per the following paragraph, end the election
          immediately.
@@ -3925,6 +3962,7 @@ Amended(58) by P8393 'Elections Aren't Over Till They End' (Aris), 03
    Jun 2020
 Amended(59) by P8439 'Termination of Candidacy' (Publius Scribonius
    Scholasticus), 18 Jun 2020
+Amended(60) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 
 Annotations:
 
@@ -4659,7 +4697,7 @@ Amended(16) by P8536 'Justice for All' (Aris, G., Jason), 03 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2557/5 (Power=1.7)
+Rule 2557/6 (Power=1.7)
 Sentencing Guidelines
 
       When the rules authorize an investigator to impose the Cold Hand
@@ -4694,6 +4732,11 @@ Sentencing Guidelines
       violation, e CAN do so by announcement if the violation is
       described by the rules as a "Class N Crime" where N is 0 or an
       expression that evaluates to 0.
+      
+      When the rules authorize an investigator to issue an Indictment
+      for a violation, e CAN do so by levying a fine on the perp, with
+      1.5 Agoran Consent, provided that levying the fine would be
+      otherwise LEGAL and EFFECTIVE.
 
 History:
 
@@ -4706,55 +4749,7 @@ Amended(4) by P8461 'Reoding Adopted Proposals' (R. Lee, Aris), 08 Jul
    2020
 Amended(5) by P8479 'Competitive Finger Pointing v2' (nix, Aris, Publius
    Scribonius Scholasticus, ATMunn), 10 Aug 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2619/4 (Power=1.0)
-Indictment
-
-      When the rules authorize an investigator to issue an Indictment
-      for a violation, e CAN do so by announcement, specifying a fine of
-      blots to be issued and the perpetrator and making an argument for
-      the conviction of the accused.
-      
-      When an investigator has issued an Indictment, the perpetrator may
-      state a defence. Within 10 days but no less than 4 days after the
-      indictment has been issued, the judge CAN and SHALL initiate two
-      Agoran Decisions, one to determine whether to convict the
-      perpetrator and one to determine whether to accept the indictment.
-      For these decision, the vote collector is the Judge and the voting
-      method is AI-majority with AI=1.5. When initiating the decisions,
-      the Judge SHALL, in the same message, publish the full texts of
-      the Indictment and the defence. If both decisions are resolved as
-      ADOPTED, the investigator CAN, by announcement, and SHALL impose
-      the fine stated in the indictment. If the decision to convict is
-      resolved as ADOPTED but the decision to accept is resolved as
-      REJECTED, the investigator CAN issue a new Indictment. If the
-      decision to convict is resolved as REJECTED, a fine SHALL NOT be
-      imposed for the crime stated in the indictment.
-      
-      The Judge of the Indictment is the first of the following players
-      who is neither the investigator nor the perp: the Arbitor, the
-      Speaker, the Prime Minister. If this still fails to specify a
-      player, then the Indictment lacks a Judge until that changes.
-      
-      If it would be ILLEGAL or INEFFECTIVE for the Investigator to levy
-      a fine for the stated crime, all decisions associated with the
-      Indictment cease to exist, and the Judge and Investigator are
-      freed of any obligations of this rule.
-
-History:
-
-Enacted by P8404 'High Crimes and Treason' (Publius Scribonius
-   Scholasticus, G., Jason, Murphy), 03 Jun 2020
-Amended(1) by P8452 'Indictment Fixes' (Publius Scribonius Scholasticus,
-   Jason, Trigon), 30 Jun 2020
-Amended(2) by P8452 'Indictment Fixes' (Publius Scribonius Scholasticus,
-   Jason, Trigon), 30 Jun 2020
-Amended(3) by P8452 'Indictment Fixes' (Publius Scribonius Scholasticus,
-   Jason, Trigon), 30 Jun 2020
-Amended(4) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(6) by P8560 'simplify indictments' (G., nix), 05 Jun 2021
 
 Annotations:
 
@@ -4963,7 +4958,7 @@ CFJ 3876 (called 30 Jul 2020): Interest in judging is not regulated, and
     can be determined in accordance with common sense.
 
 ------------------------------------------------------------------------
-Rule 591/48 (Power=1.7)
+Rule 591/49 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
@@ -4975,17 +4970,17 @@ Delivering Judgements
       initiated, not taking into account any events since that time:
       
       * FALSE, appropriate if the statement was factually and
-        logically false
+        logically false.
       
       * TRUE, appropriate if the statement was factually and
-        logically true
+        logically true.
       
       * IRRELEVANT, appropriate if the veracity of the statement is
         not relevant to the game or is an overly hypothetical
         extrapolation of the game or its rules to conditions that don't
         actually exist, or if it can be trivially determined from the
         outcome of another (possibly still undecided) judicial case that
-        was not itself judged IRRELEVANT
+        was not itself judged IRRELEVANT.
       
       * INSUFFICIENT, appropriate if the statement does not come
         with supporting arguments or evidence, and the judge feels as if
@@ -5083,6 +5078,7 @@ Amended(45) by P7976 'A Mostest Ingenious Paradox' (Alexis, ais523), 26
 Amended(46) by P8215 'recusal simplification' (G.), 05 Sep 2019
 Amended(47) by P8450 'CFJ extensions' (G.), 30 Jun 2020
 Amended(48) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(49) by cleaning (G.), 17 Jun 2021
 
 Annotations:
 CFJ 1835 (called 18 Dec 2007): A question cannot generally take the
@@ -5524,7 +5520,7 @@ Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1742/22 (Power=2.5)
+Rule 1742/23 (Power=2.5)
 Contracts
 
       Any group of one or more consenting persons (the parties) may
@@ -5560,6 +5556,10 @@ Contracts
       
       * By announcement, transfer liquid assets from the contract to a
         specified recipient.
+      
+      Any player CAN cause a contract to be terminated (syn. "shred")
+      without 2 objections. This SHOULD only be done to remove unused
+      contracts or contracts deemed detrimental to the game as a whole.
 
 History:
 
@@ -5600,6 +5600,7 @@ Amended(20) by P8139 'Access to contracts' assets v2' (twg, G.), 15 Jan
 Amended(21) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 Amended(22) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
    Falsifian), 29 Jan 2020
+Amended(23) by P8559 'Paper Shredding' (ATMunn, G., Aris), 25 May 2021
 
 Annotations:
 CFJ 3644 (called 29 Sep 2018): If a set of players consent to make an
@@ -6336,7 +6337,7 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2545/3 (Power=2)
+Rule 2545/4 (Power=2)
 Auctions
 
       An auction is a way for entities to give away specified assets
@@ -6350,7 +6351,12 @@ Auctions
       start of the auction, and under common definitions and terms used
       in auctions, as a fair, equitable, and timely means of determining
       the auction winners from among the current players, and enabling
-      the appropriate exchange of goods.
+      the appropriate exchange of goods. Persons who voluntarily
+      participate in an auction (including the auctioneer) SHALL NOT
+      violate requirements that auction's method that are clearly
+      intended to be punishable as rules violations; doing so is the
+      Class N Crime of Auction Manipulation, where N is the class
+      specified in the auction method (or 2 otherwise).
       
       The rule that authorizes the auction further authorizes the
       auctioneer or auction winners to transfer said items as necessary
@@ -6374,6 +6380,8 @@ Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01 Jul
    2018
 Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
 Amended(3) by P8407 'no stinking auction definitions' (G.), 12 Jun 2020
+Amended(4) by P8572 'Thou shalt not disobey Trigon' (Jason, Trigon), 14
+   Jun 2021
 
 Annotations:
 
@@ -6487,20 +6495,21 @@ Amended(2) by P8542 'Stone Excitement Act' (Jason, Aris), 02 Mar 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2644/0 (Power=2)
+Rule 2644/1 (Power=2)
 The Gauntlet
 
-      When a player makes a correct announcement that a single specified
-      player owns 5 or more stones, the specified player Wields the
-      Guantlet.
+      A player CAN, by announcement, Notice the Gauntlet, specifying a
+      single player that owns 5 or more stones. When e does, the
+      specified player Wields the Gauntlet.
       
-      When a player Wields the Gauntlet, e wins the game and all
+      When a player Wields the Gauntlet, e wins the game, then all
       existing stones are transferred to Agora.
 
 History:
 
 Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
+Amended(1) by P8571 'Gauntlet announcement patch' (Jason), 14 Jun 2021
 
 Annotations:
 
@@ -6788,7 +6797,7 @@ Amended(6) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2480/4 (Power=2.1)
+Rule 2480/4 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
@@ -6820,17 +6829,19 @@ Amended(2) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 Amended(3) by cleaning (Jason), 14 Sep 2019
 Amended(4) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18 Sep
    2019
+Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Jason, Aris,
+   Murphy), 14 Jun 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/3 (Power=2.1)
+Rule 2481/4 (Power=3.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
       
-      1. Non-Festive players are never considered Supporters of a
-         dependent action;
+      1. Rules to the contrary notwithstanding, non-Festive players are
+         not eligible to support a dependent action;
       
       2. Quorum for Agoran Decisions is equal to half the number of
          Festive players, rounded up;
@@ -6850,6 +6861,10 @@ Amended(1) by R2430, 24 May 2017
 Amended(2) by P8297 'Imminent Failure' (Aris), 29 Jan 2020
 Amended(3) by P8510 'Festival Peending' (Baron von Vanderham, Jason,
    Trigon), 28 Oct 2020
+Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Jason, Aris,
+   Murphy), 14 Jun 2021
+Amended(4) by P8569 'Fixing Festivals' (Jason, Aris, Murphy), 14 Jun
+   2021
 
 Annotations:
 
