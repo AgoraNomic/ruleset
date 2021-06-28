@@ -11,9 +11,10 @@ text: |
   2. One or more possible values for instances of that switch,
      exactly one of which should be designated as the default. No
      values other than those listed are possible for instances of
-     that switch, except that, if no default is specified, then
-     rules to the contrary notwithstanding, the "null" value is a
-     possible value for that switch, and is the default.
+     that switch, except that, if no default is otherwise
+     specified, then rules to the contrary notwithstanding, the
+     "null" value is a possible value for that switch, and is the
+     default.
 
   3. Optionally, exactly one office whose holder tracks instances of
      that switch. That officer's (weekly, if not specified
@@ -136,4 +137,9 @@ history:
   date: 2019-11-03
   agent:
     proposal: "8255"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8583"
 annotations: []
