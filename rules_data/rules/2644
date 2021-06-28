@@ -3,11 +3,12 @@ name: The Gauntlet
 power: 2
 text: |
   A player CAN, by announcement, Notice the Gauntlet, specifying a
-  single player that owns 5 or more stones. When e does, the
-  specified player Wields the Gauntlet.
+  single player that owns 5 or more stones, provided that no person
+  has done so in the past 30 days.
 
-  When a player Wields the Gauntlet, e wins the game, then all
-  existing stones are transferred to Agora.
+  When the Gauntlet is Noticed, the specified player wins the game.
+  If the Gauntlet was Noticed 4 days ago, then all existing stones
+  are transferred to Agora.
 history:
 - change:
     type: enactment
@@ -19,4 +20,9 @@ history:
   date: 2021-06-14
   agent:
     proposal: "8571"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8575"
 annotations: []
