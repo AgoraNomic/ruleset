@@ -32,12 +32,13 @@ text: |
   to do that thing within a public message.
 
   Where the rules define an action that a person CAN perform "by
-  announcement", that person performs that action by unambiguously
-  and clearly specifying the action and announcing that e performs
-  it. Any action performed by sending a message is performed at the
-  time date-stamped on that message. Actions in messages (including
-  sub-messages) are performed in the order they appear in the
-  message, unless otherwise specified.
+  announcement", that person performs that action by, in a single
+  public message, specifying the action and setting forth intent to
+  perform that action by sending that message, doing both clearly
+  and unambiguously.  Any action performed by sending a message is
+  performed at the time date-stamped on that message. Actions in
+  messages (including sub-messages) are performed in the order they
+  appear in the message, unless otherwise specified.
 history:
 - change:
     type: enactment
@@ -244,6 +245,11 @@ history:
   date: 2020-02-24
   agent:
     proposal: "8336"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8576"
 annotations:
 - cfjs:
   - id: 1451-1452
