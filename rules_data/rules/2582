@@ -18,8 +18,11 @@ text: |
   Patent Titles.
 
    - Silver Quill, awardable by the Promotor to the author of a
-     proposal of outstanding merit and influence on the game
-     (additional information: ID Number of the proposal).
+     proposal of outstanding merit and influence on the game, or to
+     a coauthor, although e SHOULD only do so if it is generally
+     agreed that that coauthor contributed more to that proposal
+     than the person who submitted it (additional information: ID
+     Number of the proposal).
 
    - Wooden Gavel, awardable by the Arbitor to the judge of a CFJ
      or series of CFJs with a strong and foundational impact on the
@@ -46,3 +49,8 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8221"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8574"
