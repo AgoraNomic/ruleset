@@ -4,14 +4,14 @@ power: 2
 text: |
   Certain patent titles are known as degrees. The degrees are
 
-  - Associate of Nomic Artistry        (A.N.A.)
+  - Associate of Nomic Art             (A.N.A.)
   - Associate of Nomic                 (A.N.)
   - Juris Doctorate of Nomic           (J.N.)
-  - Baccalaureate of Nomic Artistry    (B.N.A.)
+  - Baccalaureate of Nomic Art         (B.N.A.)
   - Baccalaureate of Nomic             (B.N.)
-  - Magisteriate of Nomic Artistry     (M.N.A.)
+  - Magisteriate of Nomic Art          (M.N.A.)
   - Magisteriate of Nomic              (M.N.)
-  - Doctorate of Nomic Artistry        (D.N.Art.)
+  - Doctorate of Nomic Art             (D.N.Art.)
   - Doctorate of Nomic History         (D.N.Hist.)
   - Doctorate of Nomic Law             (D.N.Law.)
   - Doctorate of Nomic Science         (D.N.Sci.)
@@ -38,12 +38,12 @@ text: |
   account the awardee's academic history and participation in Agora
   over time.
 
-  Theses for Artistry degrees SHOULD demonstrate substantial
-  creativity and need not be in written form. Theses for all other
-  degrees SHOULD demonstrate substantial research or analysis. J.N.
-  and D.N.Law are appropriate for high-quality legal analysis, of
-  the sort typical to CFJs, but exceeding an ordinary CFJ in depth.
-  The D.N.Hist. degree is appropriate for historical research,
+  Theses for Art degrees SHOULD demonstrate substantial creativity
+  and need not be in written form. Theses for all other degrees
+  SHOULD demonstrate substantial research or analysis. J.N.  and
+  D.N.Law are appropriate for high-quality legal analysis, of the
+  sort typical to CFJs, but exceeding an ordinary CFJ in depth.  The
+  D.N.Hist. degree is appropriate for historical research,
   especially when it presents a narrative that educates Agorans
   about the events of the past. The D.N.Sci. degree is appropriate
   for theses that demonstrate concrete or scientific thinking,
@@ -211,4 +211,9 @@ history:
   agent:
     cleaning:
       by: Aris
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8582"
 annotations: []
