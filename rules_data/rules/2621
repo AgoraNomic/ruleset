@@ -6,9 +6,9 @@ text: |
   player, e CAN Take Over the Economy by announcement, provided no
   person has done so in the past 30 days.
 
-  When a player takes over the economy, e wins the game. If a player
-  Took Over the Economy 4 days ago, all Cards and all Products are
-  destroyed, then each active player is granted 1 card of each type.
+  When a player takes over the economy, e wins the game. Four days
+  later, all Cards and all Products are destroyed. Then, each active
+  player gains 1 card of each type and eir grant (if any).
 history:
 - change:
     type: enactment
@@ -30,4 +30,9 @@ history:
   date: 2021-03-02
   agent:
     proposal: "8543"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8581"
 annotations: []
