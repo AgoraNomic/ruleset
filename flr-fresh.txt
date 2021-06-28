@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Jun 2021
+Date of this ruleset: 27 Jun 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 143
+Number of rules currently enacted: 144
 
-Highest ID'd rule in this ruleset: 2652
-Highest ID'd Proposal Passed: 8572
-Highest ID'd Rule Enacted: 2652
+Highest ID'd rule in this ruleset: 2653
+Highest ID'd Proposal Passed: 8590
+Highest ID'd Rule Enacted: 2653
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -80,6 +80,7 @@ Voting
    * Rule  955: Determining the Will of Agora
    * Rule  879: Quorum
    * Rule 2422: Voting Strength
+   * Rule 2653: Buying Strength
    * Rule 2127: Conditional Votes
    * Rule 2168: Extending the Voting Period
    * Rule 1950: Decisions with Adoption Indices
@@ -194,7 +195,7 @@ Power Distribution:
 43 with Power=1
 2  with Power=1.5
 5  with Power=1.7
-33 with Power=2
+34 with Power=2
 1  with Power=2.2
 1  with Power=2.5
 47 with Power=3
@@ -452,7 +453,7 @@ CFJ 3877 (called 15 Aug 2020): Multiple intelligences in one organism
     constitute one Agoran person.
 
 ------------------------------------------------------------------------
-Rule 478/38 (Power=3)
+Rule 478/39 (Power=3)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -485,12 +486,13 @@ Fora
       to do that thing within a public message.
       
       Where the rules define an action that a person CAN perform "by
-      announcement", that person performs that action by unambiguously
-      and clearly specifying the action and announcing that e performs
-      it. Any action performed by sending a message is performed at the
-      time date-stamped on that message. Actions in messages (including
-      sub-messages) are performed in the order they appear in the
-      message, unless otherwise specified.
+      announcement", that person performs that action by, in a single
+      public message, specifying the action and setting forth intent to
+      perform that action by sending that message, doing both clearly
+      and unambiguously.  Any action performed by sending a message is
+      performed at the time date-stamped on that message. Actions in
+      messages (including sub-messages) are performed in the order they
+      appear in the message, unless otherwise specified.
 
 History:
 
@@ -543,6 +545,8 @@ Amended(36) by P8248 'Publishing definition' (Jason, Aris), 18 Sep 2019
 Amended(37) by P8275 '"By announcement" clarification' (Jason), 01 Dec
    2019
 Amended(38) by P8336 'Define "publicly"' (Jason), 24 Feb 2020
+Amended(39) by P8576 '"By announcement" loosening' (Jason, Aris,
+   Murphy), 23 Jun 2021
 
 Annotations:
 CFJ 1451-1452 (called 06 Mar 2003): A message that is split into
@@ -1523,7 +1527,7 @@ Re-enacted(9) and amended by P7924 'Contracts v8' (Aris, o, G., ais523,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2162/13 (Power=3)
+Rule 2162/14 (Power=3)
 Switches
 
       A type of switch is a property that the rules define as a switch,
@@ -1535,9 +1539,10 @@ Switches
       2. One or more possible values for instances of that switch,
          exactly one of which should be designated as the default. No
          values other than those listed are possible for instances of
-         that switch, except that, if no default is specified, then
-         rules to the contrary notwithstanding, the "null" value is a
-         possible value for that switch, and is the default.
+         that switch, except that, if no default is otherwise
+         specified, then rules to the contrary notwithstanding, the
+         "null" value is a possible value for that switch, and is the
+         default.
       
       3. Optionally, exactly one office whose holder tracks instances of
          that switch. That officer's (weekly, if not specified
@@ -1604,6 +1609,7 @@ Amended(12) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
    Sep 2019
 Amended(13) by P8255 'Possibly-Inderterminate Switches' (Jason), 03 Nov
    2019
+Amended(14) by P8583 'Clarify switches' (Murphy), 23 Jun 2021
 
 Annotations:
 
@@ -2933,7 +2939,7 @@ Amended(17) by cleaning (Murphy), 14 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 107/23 (Power=3)
+Rule 107/24 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -2954,11 +2960,10 @@ Initiating Agoran Decisions
          parameters.
       
       The publication of such a valid notice initiates the voting period
-      for the decision. The voting period lasts for 7 days. The minimum
-      voting period for a decision with at least two options is five
-      days. The voting period for a decision cannot be set or changed to
-      a duration longer than fourteen days. Changing the length of a
-      decision's voting period is secured at power 2.
+      for the decision. The default length of the voting period is 7
+      days. Changing the length of a decision's voting period is secured
+      at power 2, and it CANNOT be set or changed to more than 14 days,
+      or less than 5 days for a decision with at least two options.
       
       The vote collector for a decision with less than two options CAN
       end the voting period by announcement, if it has not ended
@@ -3005,6 +3010,8 @@ Amended(20) by P7953 'Vote Specification Fix' (Alexis), 12 Nov 2017
 Amended(21) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
 Amended(22) by P8533 'de-dictatorship' (G., Jason, nix), 03 Feb 2021
 Amended(23) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(24) by P8585 'Clarify variable voting period' (Murphy), 23 Jun
+   2021
 
 Annotations:
 CFJ 1650 (called 06 May 2007): The intent to initiate the decision and
@@ -3403,7 +3410,7 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision
     changes as the set of eligible voters changes.
 
 ------------------------------------------------------------------------
-Rule 2422/9 (Power=3)
+Rule 2422/10 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -3420,11 +3427,6 @@ Voting Strength
       up, and then if it is outside the allowable range of values for
       voting strength, it is set to the minimum value if it was less
       and the maximum value if it was more.
-      
-      A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
-      player's Voting Strength on an ordinary referendum is 1 greater
-      for every time e Bought Strength during that decision's voting
-      period.
 
 History:
 
@@ -3443,6 +3445,24 @@ Amended(8) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct
    2020
 Amended(9) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Jason),
    11 Feb 2021
+Amended(10) by P8580 'Strength Buying Separation v2' (Jason, ais523,
+   Trigon), 23 Jun 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2653/0 (Power=2)
+Buying Strength
+
+      A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
+      player's Voting Strength on referendum on an ordinary proposal is
+      1 greater for every time e Bought Strength during that decision's
+      voting period.
+
+History:
+
+Enacted by P8580 'Strength Buying Separation v2' (Jason, ais523,
+   Trigon), 23 Jun 2021
 
 Annotations:
 
@@ -3544,7 +3564,7 @@ CFJ 3644 (called 18 Jun 2018): Players can't guarantee actual
     humiliating.
 
 ------------------------------------------------------------------------
-Rule 1950/36 (Power=3)
+Rule 1950/37 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index (AI) is an untracked switch possessed by Agoran
@@ -3561,8 +3581,8 @@ Decisions with Adoption Indices
       Adoption index is an essential parameter of an Agoran decision if
       that decision has an adoption index.
       
-      For any Agoran decision with an adoption index, the voting method
-      is AI-majority.
+      For any Agoran decision with a non-"none" adoption index, the
+      voting method is AI-majority.
 
 History:
 
@@ -3613,6 +3633,8 @@ Amended(34) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
    Sep 2019
 Amended(35) by cleaning (Alexis), 23 Jan 2020
 Amended(36) by P8566 'Anti-AI escalation' (Jason), 14 Jun 2021
+Amended(37) by P8579 'AI voting method clarification v2' (Jason,
+   Trigon), 23 Jun 2021
 
 Annotations:
 CFJ 1885 (called 26 Jan 2008): "AGAINT" is a variant spelling of
@@ -4754,7 +4776,7 @@ Amended(6) by P8560 'simplify indictments' (G., nix), 05 Jun 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2531/14 (Power=2)
+Rule 2531/15 (Power=2)
 Defendant's Rights
 
       Any attempt to levy a fine is INEFFECTIVE if it does not include
@@ -4791,8 +4813,8 @@ Defendant's Rights
             levied;
       
         (7) it attempts to levy a fine based upon the investigation of
-            of a Finger that had been Pointed more than 14 days after
-            the action constituting the reason for the fine;
+            a Finger that had been Pointed more than 14 days after the
+            action constituting the reason for the fine;
       
         (8) it attempts to levy a fine on a player for failing to take
             an action within the time period set by the Rules and that
@@ -4824,6 +4846,7 @@ Amended(11) by P8425 'Impossiblity Defense' (Aris), 14 Jun 2020
 Amended(12) by P8426 'Impracticability Defense' (Aris), 14 Jun 2020
 Amended(13) by P8522 'Theftn't' (ATMunn, Jason), 11 Nov 2020
 Amended(14) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
+Amended(15) by cleaning (surprise), 26 Jun 2021
 
 Annotations:
 CFJ 2531 (called 11 Apr 2020): A fine is "blatantly and obviously
@@ -5996,13 +6019,13 @@ Amended(3) by P8557 'Archimedes' Principle' (Aris, Trigon, nix), 15 Apr
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2635/2 (Power=1.0)
+Rule 2635/3 (Power=1.0)
 Floating Rate Fleet
 
       The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
       rounded up, and is tracked in the Treasuror's weekly report.  A
       boatload of something is a quantity of that thing equal in count
-      to the Unit of Floatation.
+      to the Unit of Flotation.
       
       The Treasuror is ENCOURAGED to arrange for the new Total Buoyancy
       and Unit of Flotation to be published as close as possible to the
@@ -6015,6 +6038,7 @@ Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
 Amended(1) by P8518 'Asset Rounding' (Aris, Falsifian, nix), 11 Nov 2020
 Amended(2) by P8557 'Archimedes' Principle' (Aris, Trigon, nix), 15 Apr
    2021
+Amended(3) by cleaning (Telna), 17 Jun 2021
 
 Annotations:
 
@@ -6161,16 +6185,16 @@ Amended(1) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2621/3 (Power=1.0)
+Rule 2621/4 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Victory Points than any other
       player, e CAN Take Over the Economy by announcement, provided no
       person has done so in the past 30 days.
       
-      When a player takes over the economy, e wins the game. If a player
-      Took Over the Economy 4 days ago, all Cards and all Products are
-      destroyed, then each active player is granted 1 card of each type.
+      When a player takes over the economy, e wins the game. Four days
+      later, all Cards and all Products are destroyed. Then, each active
+      player gains 1 card of each type and eir grant (if any).
 
 History:
 
@@ -6180,6 +6204,7 @@ Amended(1) by P8511 'VP Win Indirection' (Baron von Vanderham, Jason,
    Trigon), 28 Oct 2020
 Amended(2) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Amended(3) by P8543 'En Passant v2' (Jason, Aris, nix), 02 Mar 2021
+Amended(4) by P8581 'Grants on Resets' (Aris), 23 Jun 2021
 
 Annotations:
 
@@ -6337,7 +6362,7 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2545/4 (Power=2)
+Rule 2545/5 (Power=2)
 Auctions
 
       An auction is a way for entities to give away specified assets
@@ -6363,6 +6388,11 @@ Auctions
       to conduct the auction in a manner consistent with the auction
       method. If the authorization is to auction "new" items, it further
       authorizes the creation of said items as per the chosen method.
+      The rule that authorizes the auction further authorizes the
+      transfer or destruction of currency from persons who have bid
+      voluntarily, as specified by the chosen auction method. The
+      authorization to conduct the auction does not provide any further
+      authorization than that explicitly described in this rule.
       
       The Treasuror is the promulgator for regulations that define
       specific auction methods (i.e. "the default auction method") and
@@ -6382,6 +6412,7 @@ Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
 Amended(3) by P8407 'no stinking auction definitions' (G.), 12 Jun 2020
 Amended(4) by P8572 'Thou shalt not disobey Trigon' (Jason, Trigon), 14
    Jun 2021
+Amended(5) by P8578 'Auction limitation' (Jason, Trigon), 23 Jun 2021
 
 Annotations:
 
@@ -6495,21 +6526,23 @@ Amended(2) by P8542 'Stone Excitement Act' (Jason, Aris), 02 Mar 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2644/1 (Power=2)
+Rule 2644/2 (Power=2)
 The Gauntlet
 
       A player CAN, by announcement, Notice the Gauntlet, specifying a
-      single player that owns 5 or more stones. When e does, the
-      specified player Wields the Gauntlet.
+      single player that owns 5 or more stones, provided that no person
+      has done so in the past 30 days.
       
-      When a player Wields the Gauntlet, e wins the game, then all
-      existing stones are transferred to Agora.
+      When the Gauntlet is Noticed, the specified player wins the game.
+      If the Gauntlet was Noticed 4 days ago, then all existing stones
+      are transferred to Agora.
 
 History:
 
 Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 Amended(1) by P8571 'Gauntlet announcement patch' (Jason), 14 Jun 2021
+Amended(2) by P8575 'Stone Win Delay v2' (Jason, Gaelan), 23 Jun 2021
 
 Annotations:
 
@@ -6979,19 +7012,19 @@ Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1367/25 (Power=2)
+Rule 1367/26 (Power=2)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
       
-      - Associate of Nomic Artistry        (A.N.A.)
+      - Associate of Nomic Art             (A.N.A.)
       - Associate of Nomic                 (A.N.)
       - Juris Doctorate of Nomic           (J.N.)
-      - Baccalaureate of Nomic Artistry    (B.N.A.)
+      - Baccalaureate of Nomic Art         (B.N.A.)
       - Baccalaureate of Nomic             (B.N.)
-      - Magisteriate of Nomic Artistry     (M.N.A.)
+      - Magisteriate of Nomic Art          (M.N.A.)
       - Magisteriate of Nomic              (M.N.)
-      - Doctorate of Nomic Artistry        (D.N.Art.)
+      - Doctorate of Nomic Art             (D.N.Art.)
       - Doctorate of Nomic History         (D.N.Hist.)
       - Doctorate of Nomic Law             (D.N.Law.)
       - Doctorate of Nomic Science         (D.N.Sci.)
@@ -7018,12 +7051,12 @@ Degrees
       account the awardee's academic history and participation in Agora
       over time.
       
-      Theses for Artistry degrees SHOULD demonstrate substantial
-      creativity and need not be in written form. Theses for all other
-      degrees SHOULD demonstrate substantial research or analysis. J.N.
-      and D.N.Law are appropriate for high-quality legal analysis, of
-      the sort typical to CFJs, but exceeding an ordinary CFJ in depth.
-      The D.N.Hist. degree is appropriate for historical research,
+      Theses for Art degrees SHOULD demonstrate substantial creativity
+      and need not be in written form. Theses for all other degrees
+      SHOULD demonstrate substantial research or analysis. J.N.  and
+      D.N.Law are appropriate for high-quality legal analysis, of the
+      sort typical to CFJs, but exceeding an ordinary CFJ in depth.  The
+      D.N.Hist. degree is appropriate for historical research,
       especially when it presents a narrative that educates Agorans
       about the events of the past. The D.N.Sci. degree is appropriate
       for theses that demonstrate concrete or scientific thinking,
@@ -7073,6 +7106,7 @@ Amended(23) by P8305 'Keeping Up With the Times' (Alexis), 29 Jan 2020
 Amended(24) by P8409 'College of Letters, Arts, and Sciences' (Aris), 14
    Jun 2020
 Amended(25) by cleaning (Aris), 08 Aug 2020
+Amended(26) by P8582 'The Artistry Lies in the Art' (Aris), 23 Jun 2021
 
 Annotations:
 
@@ -7182,7 +7216,7 @@ Amended(4) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2582/1 (Power=1)
+Rule 2582/2 (Power=1)
 Annual Awards
 
       April is hereby designated Awards Month.
@@ -7201,8 +7235,11 @@ Annual Awards
       Patent Titles.
       
        - Silver Quill, awardable by the Promotor to the author of a
-         proposal of outstanding merit and influence on the game
-         (additional information: ID Number of the proposal).
+         proposal of outstanding merit and influence on the game, or to
+         a coauthor, although e SHOULD only do so if it is generally
+         agreed that that coauthor contributed more to that proposal
+         than the person who submitted it (additional information: ID
+         Number of the proposal).
       
        - Wooden Gavel, awardable by the Arbitor to the judge of a CFJ
          or series of CFJs with a strong and foundational impact on the
@@ -7223,6 +7260,8 @@ History:
 
 Enacted by P8109 'Patent Diversity' (G.), 27 Oct 2018
 Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
+Amended(2) by P8574 'mending the quill' (Trigon, Jason, Aris), 23 Jun
+   2021
 
 Annotations:
 

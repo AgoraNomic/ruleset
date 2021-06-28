@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Jun 2021
+Date of this ruleset: 28 Jun 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 143
+Number of rules currently enacted: 144
 
-Highest ID'd rule in this ruleset: 2652
-Highest ID'd Proposal Passed: 8572
-Highest ID'd Rule Enacted: 2652
+Highest ID'd rule in this ruleset: 2653
+Highest ID'd Proposal Passed: 8590
+Highest ID'd Rule Enacted: 2653
 
 ========================================================================
 The Game of Agora
@@ -112,7 +112,7 @@ How to Join and Leave Agora
       to the contrary notwithstanding.
 
 ------------------------------------------------------------------------
-Rule 478/38 (Power=3)
+Rule 478/39 (Power=3)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -145,12 +145,13 @@ Fora
       to do that thing within a public message.
       
       Where the rules define an action that a person CAN perform "by
-      announcement", that person performs that action by unambiguously
-      and clearly specifying the action and announcing that e performs
-      it. Any action performed by sending a message is performed at the
-      time date-stamped on that message. Actions in messages (including
-      sub-messages) are performed in the order they appear in the
-      message, unless otherwise specified.
+      announcement", that person performs that action by, in a single
+      public message, specifying the action and setting forth intent to
+      perform that action by sending that message, doing both clearly
+      and unambiguously.  Any action performed by sending a message is
+      performed at the time date-stamped on that message. Actions in
+      messages (including sub-messages) are performed in the order they
+      appear in the message, unless otherwise specified.
 
 ------------------------------------------------------------------------
 Rule 2139/17 (Power=2)
@@ -553,7 +554,7 @@ Definition and Continuity of Entities
       the new definitions.
 
 ------------------------------------------------------------------------
-Rule 2162/13 (Power=3)
+Rule 2162/14 (Power=3)
 Switches
 
       A type of switch is a property that the rules define as a switch,
@@ -565,9 +566,10 @@ Switches
       2. One or more possible values for instances of that switch,
          exactly one of which should be designated as the default. No
          values other than those listed are possible for instances of
-         that switch, except that, if no default is specified, then
-         rules to the contrary notwithstanding, the "null" value is a
-         possible value for that switch, and is the default.
+         that switch, except that, if no default is otherwise
+         specified, then rules to the contrary notwithstanding, the
+         "null" value is a possible value for that switch, and is the
+         default.
       
       3. Optionally, exactly one office whose holder tracks instances of
          that switch. That officer's (weekly, if not specified
@@ -1202,7 +1204,7 @@ Agoran Decisions
       3. Resolution of the decision.
 
 ------------------------------------------------------------------------
-Rule 107/23 (Power=3)
+Rule 107/24 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -1223,11 +1225,10 @@ Initiating Agoran Decisions
          parameters.
       
       The publication of such a valid notice initiates the voting period
-      for the decision. The voting period lasts for 7 days. The minimum
-      voting period for a decision with at least two options is five
-      days. The voting period for a decision cannot be set or changed to
-      a duration longer than fourteen days. Changing the length of a
-      decision's voting period is secured at power 2.
+      for the decision. The default length of the voting period is 7
+      days. Changing the length of a decision's voting period is secured
+      at power 2, and it CANNOT be set or changed to more than 14 days,
+      or less than 5 days for a decision with at least two options.
       
       The vote collector for a decision with less than two options CAN
       end the voting period by announcement, if it has not ended
@@ -1402,7 +1403,7 @@ Quorum
       it is set to 2 instead.
 
 ------------------------------------------------------------------------
-Rule 2422/9 (Power=3)
+Rule 2422/10 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -1419,11 +1420,15 @@ Voting Strength
       up, and then if it is outside the allowable range of values for
       voting strength, it is set to the minimum value if it was less
       and the maximum value if it was more.
-      
+
+------------------------------------------------------------------------
+Rule 2653/0 (Power=2)
+Buying Strength
+
       A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
-      player's Voting Strength on an ordinary referendum is 1 greater
-      for every time e Bought Strength during that decision's voting
-      period.
+      player's Voting Strength on referendum on an ordinary proposal is
+      1 greater for every time e Bought Strength during that decision's
+      voting period.
 
 ------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
@@ -1475,7 +1480,7 @@ Extending the Voting Period
       than possibly the proposal's author) has voted FOR.
 
 ------------------------------------------------------------------------
-Rule 1950/36 (Power=3)
+Rule 1950/37 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index (AI) is an untracked switch possessed by Agoran
@@ -1492,8 +1497,8 @@ Decisions with Adoption Indices
       Adoption index is an essential parameter of an Agoran decision if
       that decision has an adoption index.
       
-      For any Agoran decision with an adoption index, the voting method
-      is AI-majority.
+      For any Agoran decision with a non-"none" adoption index, the
+      voting method is AI-majority.
 
 ------------------------------------------------------------------------
 Rule 2034/12 (Power=3)
@@ -2048,7 +2053,7 @@ Sentencing Guidelines
       otherwise LEGAL and EFFECTIVE.
 
 ------------------------------------------------------------------------
-Rule 2531/14 (Power=2)
+Rule 2531/15 (Power=2)
 Defendant's Rights
 
       Any attempt to levy a fine is INEFFECTIVE if it does not include
@@ -2085,8 +2090,8 @@ Defendant's Rights
             levied;
       
         (7) it attempts to levy a fine based upon the investigation of
-            of a Finger that had been Pointed more than 14 days after
-            the action constituting the reason for the fine;
+            a Finger that had been Pointed more than 14 days after the
+            action constituting the reason for the fine;
       
         (8) it attempts to levy a fine on a player for failing to take
             an action within the time period set by the Rules and that
@@ -2676,13 +2681,13 @@ Buoyancy Control
       the Buoyancy Target.
 
 ------------------------------------------------------------------------
-Rule 2635/2 (Power=1.0)
+Rule 2635/3 (Power=1.0)
 Floating Rate Fleet
 
       The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
       rounded up, and is tracked in the Treasuror's weekly report.  A
       boatload of something is a quantity of that thing equal in count
-      to the Unit of Floatation.
+      to the Unit of Flotation.
       
       The Treasuror is ENCOURAGED to arrange for the new Total Buoyancy
       and Unit of Flotation to be published as close as possible to the
@@ -2760,16 +2765,16 @@ Cards & Sets
       Cards and Products are tracked by the Treasuror.
 
 ------------------------------------------------------------------------
-Rule 2621/3 (Power=1.0)
+Rule 2621/4 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Victory Points than any other
       player, e CAN Take Over the Economy by announcement, provided no
       person has done so in the past 30 days.
       
-      When a player takes over the economy, e wins the game. If a player
-      Took Over the Economy 4 days ago, all Cards and all Products are
-      destroyed, then each active player is granted 1 card of each type.
+      When a player takes over the economy, e wins the game. Four days
+      later, all Cards and all Products are destroyed. Then, each active
+      player gains 1 card of each type and eir grant (if any).
 
 ------------------------------------------------------------------------
 Rule 2629/0 (Power=1.0)
@@ -2854,7 +2859,7 @@ Birthday Gifts
       Players are ENCOURAGED to announce their Agoran Birthdays.
 
 ------------------------------------------------------------------------
-Rule 2545/4 (Power=2)
+Rule 2545/5 (Power=2)
 Auctions
 
       An auction is a way for entities to give away specified assets
@@ -2880,6 +2885,11 @@ Auctions
       to conduct the auction in a manner consistent with the auction
       method. If the authorization is to auction "new" items, it further
       authorizes the creation of said items as per the chosen method.
+      The rule that authorizes the auction further authorizes the
+      transfer or destruction of currency from persons who have bid
+      voluntarily, as specified by the chosen auction method. The
+      authorization to conduct the auction does not provide any further
+      authorization than that explicitly described in this rule.
       
       The Treasuror is the promulgator for regulations that define
       specific auction methods (i.e. "the default auction method") and
@@ -2970,15 +2980,16 @@ Collecting Stones
       month, or two if it was not.
 
 ------------------------------------------------------------------------
-Rule 2644/1 (Power=2)
+Rule 2644/2 (Power=2)
 The Gauntlet
 
       A player CAN, by announcement, Notice the Gauntlet, specifying a
-      single player that owns 5 or more stones. When e does, the
-      specified player Wields the Gauntlet.
+      single player that owns 5 or more stones, provided that no person
+      has done so in the past 30 days.
       
-      When a player Wields the Gauntlet, e wins the game, then all
-      existing stones are transferred to Agora.
+      When the Gauntlet is Noticed, the specified player wins the game.
+      If the Gauntlet was Noticed 4 days ago, then all existing stones
+      are transferred to Agora.
 
 ------------------------------------------------------------------------
 Rule 2645/4 (Power=2)
@@ -3246,19 +3257,19 @@ Badges
       existing badge to persons without objection.
 
 ------------------------------------------------------------------------
-Rule 1367/25 (Power=2)
+Rule 1367/26 (Power=2)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
       
-      - Associate of Nomic Artistry        (A.N.A.)
+      - Associate of Nomic Art             (A.N.A.)
       - Associate of Nomic                 (A.N.)
       - Juris Doctorate of Nomic           (J.N.)
-      - Baccalaureate of Nomic Artistry    (B.N.A.)
+      - Baccalaureate of Nomic Art         (B.N.A.)
       - Baccalaureate of Nomic             (B.N.)
-      - Magisteriate of Nomic Artistry     (M.N.A.)
+      - Magisteriate of Nomic Art          (M.N.A.)
       - Magisteriate of Nomic              (M.N.)
-      - Doctorate of Nomic Artistry        (D.N.Art.)
+      - Doctorate of Nomic Art             (D.N.Art.)
       - Doctorate of Nomic History         (D.N.Hist.)
       - Doctorate of Nomic Law             (D.N.Law.)
       - Doctorate of Nomic Science         (D.N.Sci.)
@@ -3285,12 +3296,12 @@ Degrees
       account the awardee's academic history and participation in Agora
       over time.
       
-      Theses for Artistry degrees SHOULD demonstrate substantial
-      creativity and need not be in written form. Theses for all other
-      degrees SHOULD demonstrate substantial research or analysis. J.N.
-      and D.N.Law are appropriate for high-quality legal analysis, of
-      the sort typical to CFJs, but exceeding an ordinary CFJ in depth.
-      The D.N.Hist. degree is appropriate for historical research,
+      Theses for Art degrees SHOULD demonstrate substantial creativity
+      and need not be in written form. Theses for all other degrees
+      SHOULD demonstrate substantial research or analysis. J.N.  and
+      D.N.Law are appropriate for high-quality legal analysis, of the
+      sort typical to CFJs, but exceeding an ordinary CFJ in depth.  The
+      D.N.Hist. degree is appropriate for historical research,
       especially when it presents a narrative that educates Agorans
       about the events of the past. The D.N.Sci. degree is appropriate
       for theses that demonstrate concrete or scientific thinking,
@@ -3377,7 +3388,7 @@ Official Patent Titles
       especially if the potential awardee is the officer emself.
 
 ------------------------------------------------------------------------
-Rule 2582/1 (Power=1)
+Rule 2582/2 (Power=1)
 Annual Awards
 
       April is hereby designated Awards Month.
@@ -3396,8 +3407,11 @@ Annual Awards
       Patent Titles.
       
        - Silver Quill, awardable by the Promotor to the author of a
-         proposal of outstanding merit and influence on the game
-         (additional information: ID Number of the proposal).
+         proposal of outstanding merit and influence on the game, or to
+         a coauthor, although e SHOULD only do so if it is generally
+         agreed that that coauthor contributed more to that proposal
+         than the person who submitted it (additional information: ID
+         Number of the proposal).
       
        - Wooden Gavel, awardable by the Arbitor to the judge of a CFJ
          or series of CFJs with a strong and foundational impact on the
