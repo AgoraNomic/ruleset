@@ -25,6 +25,11 @@ text: |
   to conduct the auction in a manner consistent with the auction
   method. If the authorization is to auction "new" items, it further
   authorizes the creation of said items as per the chosen method.
+  The rule that authorizes the auction further authorizes the
+  transfer or destruction of currency from persons who have bid
+  voluntarily, as specified by the chosen auction method. The
+  authorization to conduct the auction does not provide any further
+  authorization than that explicitly described in this rule.
 
   The Treasuror is the promulgator for regulations that define
   specific auction methods (i.e. "the default auction method") and
@@ -61,4 +66,9 @@ history:
   date: 2021-06-14
   agent:
     proposal: "8572"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8578"
 annotations: []
