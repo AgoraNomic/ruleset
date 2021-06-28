@@ -20,11 +20,10 @@ text: |
      parameters.
 
   The publication of such a valid notice initiates the voting period
-  for the decision. The voting period lasts for 7 days. The minimum
-  voting period for a decision with at least two options is five
-  days. The voting period for a decision cannot be set or changed to
-  a duration longer than fourteen days. Changing the length of a
-  decision's voting period is secured at power 2.
+  for the decision. The default length of the voting period is 7
+  days. Changing the length of a decision's voting period is secured
+  at power 2, and it CANNOT be set or changed to more than 14 days,
+  or less than 5 days for a decision with at least two options.
 
   The vote collector for a decision with less than two options CAN
   end the voting period by announcement, if it has not ended
@@ -167,6 +166,11 @@ history:
   date: 2021-03-10
   agent:
     proposal: "8545"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8585"
 annotations:
 - cfjs:
   - id: '1650'
