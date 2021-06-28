@@ -1,0 +1,15 @@
+id: 2653
+name: Buying Strength
+power: 2
+text: |
+  A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
+  player's Voting Strength on referendum on an ordinary proposal is
+  1 greater for every time e Bought Strength during that decision's
+  voting period.
+history:
+- change:
+    type: enactment
+  date: 2021-06-23
+  agent:
+    proposal: "8580"
+annotations: []

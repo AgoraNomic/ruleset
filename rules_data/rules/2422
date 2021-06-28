@@ -16,11 +16,6 @@ text: |
   up, and then if it is outside the allowable range of values for
   voting strength, it is set to the minimum value if it was less
   and the maximum value if it was more.
-
-  A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
-  player's Voting Strength on an ordinary referendum is 1 greater
-  for every time e Bought Strength during that decision's voting
-  period.
 history:
 - change:
     type: enactment
@@ -74,4 +69,9 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8540"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8580"
 annotations: []
