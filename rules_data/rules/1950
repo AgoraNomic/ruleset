@@ -16,8 +16,8 @@ text: |
   Adoption index is an essential parameter of an Agoran decision if
   that decision has an adoption index.
 
-  For any Agoran decision with an adoption index, the voting method
-  is AI-majority.
+  For any Agoran decision with a non-"none" adoption index, the
+  voting method is AI-majority.
 history:
 - change:
     type: enactment
@@ -228,6 +228,11 @@ history:
   date: 2021-06-14
   agent:
     proposal: "8566"
+- change:
+    type: amendment
+  date: 2021-06-23
+  agent:
+    proposal: "8579"
 annotations:
 - cfjs:
   - id: '1885'
