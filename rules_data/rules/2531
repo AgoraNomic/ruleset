@@ -36,8 +36,8 @@ text: |
         levied;
 
     (7) it attempts to levy a fine based upon the investigation of
-        of a Finger that had been Pointed more than 14 days after
-        the action constituting the reason for the fine;
+        a Finger that had been Pointed more than 14 days after the
+        action constituting the reason for the fine;
 
     (8) it attempts to levy a fine on a player for failing to take
         an action within the time period set by the Rules and that
@@ -137,6 +137,12 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8532"
+- change:
+    type: amendment
+  date: 2021-06-26
+  agent:
+    cleaning:
+      by: surprise
 annotations:
 - cfjs:
   - id: 2531
