@@ -10,10 +10,7 @@ import com.github.ajalt.clikt.parameters.types.path
 import org.agoranomic.ruleset.history.ProposalData
 import org.agoranomic.ruleset.history.RuleHistoryValidationResult
 import org.agoranomic.ruleset.history.validateHistory
-import org.agoranomic.ruleset.parsing.DirectoryYamlProposalDataMap
-import org.agoranomic.ruleset.parsing.YamlProposalDataMap
-import org.agoranomic.ruleset.parsing.parseIndexYaml
-import org.agoranomic.ruleset.parsing.parseRuleStateYaml
+import org.agoranomic.ruleset.parsing.*
 import org.agoranomic.ruleset.report.*
 import java.nio.file.Files
 import java.nio.file.StandardOpenOption
@@ -98,6 +95,7 @@ private class RulekeeporCommand : CliktCommand() {
                             yaml = Files.readString(path, FILE_CHARSET),
                             proposalDataMap = proposalDataMap,
                             ruleNumberResolver = TryIntegralRuleNumberResolver,
+                            nameResolver = CauseNameResolver.Identity,
                         )
                     } catch (e: Exception) {
                         throw RuleParseException("Error while parsing rule $number", e)

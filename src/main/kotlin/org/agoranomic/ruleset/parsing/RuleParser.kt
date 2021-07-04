@@ -81,6 +81,7 @@ private fun parseHistoricalCauseYaml(
     topNode: ParsedYamlNode.MapNode,
     proposalDataMap: YamlProposalDataMap,
     ruleNumberResolver: RuleNumberResolver,
+    nameResolver: CauseNameResolver,
 ): HistoricalCause {
     val causeKind = topNode.keys.singleOrNull() ?: throw IllegalArgumentException("multiple cause kinds specified")
     val causeNode = topNode[causeKind] ?: error("")
@@ -98,25 +99,30 @@ private fun parseHistoricalCauseYaml(
         )
         "rule" -> HistoricalCauses.rule(ruleNumberResolver.resolve(causeContent))
         "convergence" -> HistoricalCauses.convergence(
-            parseHistoricalCauseYaml(causeMap, proposalDataMap, ruleNumberResolver)
+            parseHistoricalCauseYaml(
+                topNode = causeMap,
+                proposalDataMap = proposalDataMap,
+                ruleNumberResolver = ruleNumberResolver,
+                nameResolver = nameResolver,
+            ),
         )
-        "cleaning" -> HistoricalCauses.cleaning(causeMap.getContent("by"))
-        "refiling" -> HistoricalCauses.refiling(causeMap.getContent("by"))
+        "cleaning" -> HistoricalCauses.cleaning(nameResolver.resolveInformalCauseName(causeMap.getContent("by")))
+        "refiling" -> HistoricalCauses.refiling(nameResolver.resolveInformalCauseName(causeMap.getContent("by")))
         "ratification" -> HistoricalCauses.ratification(causeMap.getContent("document"))
-        "decree" -> HistoricalCauses.decree(causeNode.requireValue().content)
+        "decree" -> HistoricalCauses.decree(nameResolver.resolveInformalCauseName(causeNode.requireValue().content))
         "tournament_init" -> HistoricalCauses.tournamentInit(
             tournament = causeMap.getContent("name"),
-            initiator = causeMap.getContent("person"),
+            initiator = nameResolver.resolveInformalCauseName(causeMap.getContent("person")),
         )
         "tournament_change" -> HistoricalCauses.tournamentChange(
             tournament = causeMap.getContent("name"),
-            agent = causeMap.getContent("person"),
+            agent = nameResolver.resolveInformalCauseName(causeMap.getContent("person")),
         )
         "tournament_end" -> HistoricalCauses.tournamentEnd(
             tournament = causeMap.getContent("name"),
-            agent = causeMap.getContent("person"),
+            agent = nameResolver.resolveInformalCauseName(causeMap.getContent("person")),
         )
-        "person" -> HistoricalCauses.person(causeContent)
+        "person" -> HistoricalCauses.person(nameResolver.resolveFormalCauseName(causeContent))
         "rulebending" -> HistoricalCauses.rulebending(magister = causeMap.getContent("magister"))
         else -> throw IllegalArgumentException("Unknown cause $causeKind")
     }
@@ -151,11 +157,18 @@ private fun parseHistoryEntryYaml(
     topNode: ParsedYamlNode.MapNode,
     proposalDataMap: YamlProposalDataMap,
     ruleNumberResolver: RuleNumberResolver,
+    nameResolver: CauseNameResolver,
 ): HistoricalEntry {
     val change = parseHistoricalChangeYaml(topNode.getMap("change"))
 
-    val cause =
-        topNode.getOptMap("agent")?.let { parseHistoricalCauseYaml(it, proposalDataMap, ruleNumberResolver) }
+    val cause = topNode.getOptMap("agent")?.let {
+        parseHistoricalCauseYaml(
+            topNode = it,
+            proposalDataMap = proposalDataMap,
+            ruleNumberResolver = ruleNumberResolver,
+            nameResolver = nameResolver,
+        )
+    }
 
     val date = parseHistoricalDate(topNode.getNode("date"))
 
@@ -203,10 +216,35 @@ private fun parseRulesetAnnotationsYaml(topNode: ParsedYamlNode.ListNode): RuleA
     })
 }
 
+interface CauseNameResolver {
+    /**
+     * Returns the resolved name for an informal cause (i.e. the person who did a cleaning, or the person who gave a
+     * decree).
+     */
+    fun resolveInformalCauseName(name: String): String
+
+    /**
+     * Returns the resolved name for a formal cause (i.e. when using the person: cause attribute, such as for
+     * regulations).
+     */
+    fun resolveFormalCauseName(name: String): String
+
+    object Identity : CauseNameResolver {
+        override fun resolveInformalCauseName(name: String): String {
+            return name
+        }
+
+        override fun resolveFormalCauseName(name: String): String {
+            return name
+        }
+    }
+}
+
 fun parseRuleStateYaml(
     yaml: String,
     proposalDataMap: YamlProposalDataMap,
     ruleNumberResolver: RuleNumberResolver,
+    nameResolver: CauseNameResolver,
 ): RuleState {
     val topNode = parseRawYaml(yaml).requireMap()
 
@@ -225,7 +263,12 @@ fun parseRuleStateYaml(
 
     val history = RuleHistory(
         topNode.getList("history").values.map {
-            parseHistoryEntryYaml(it.requireMap(), proposalDataMap, ruleNumberResolver)
+            parseHistoryEntryYaml(
+                topNode = it.requireMap(),
+                proposalDataMap = proposalDataMap,
+                ruleNumberResolver = ruleNumberResolver,
+                nameResolver = nameResolver,
+            )
         }
     )
 
