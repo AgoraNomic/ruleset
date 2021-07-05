@@ -7,13 +7,16 @@ import com.github.ajalt.clikt.parameters.options.option
 import com.github.ajalt.clikt.parameters.options.required
 import com.github.ajalt.clikt.parameters.types.int
 import com.github.ajalt.clikt.parameters.types.path
+import kotlinx.collections.immutable.toImmutableMap
 import org.agoranomic.ruleset.history.ProposalData
 import org.agoranomic.ruleset.history.RuleHistoryValidationResult
 import org.agoranomic.ruleset.history.validateHistory
 import org.agoranomic.ruleset.parsing.*
 import org.agoranomic.ruleset.report.*
+import org.randomcat.util.requireDistinct
 import java.nio.file.Files
 import java.nio.file.StandardOpenOption
+import kotlin.io.path.readText
 import kotlin.system.exitProcess
 
 private val FILE_CHARSET = Charsets.UTF_8
@@ -22,6 +25,24 @@ private const val STDOUT_OUT_FILE = "-"
 class RuleParseException : Exception {
     constructor(message: String) : super(message)
     constructor(message: String, cause: Exception) : super(message, cause)
+}
+
+private fun causeNameResolverForMap(nameReplacementMap: Map<String, String>): CauseNameResolver {
+    val safeMap = nameReplacementMap.toImmutableMap()
+
+    return object : CauseNameResolver {
+        private fun resolveName(name: String): String {
+            return safeMap[name] ?: name
+        }
+
+        override fun resolveInformalCauseName(name: String): String {
+            return resolveName(name)
+        }
+
+        override fun resolveFormalCauseName(name: String): String {
+            return resolveName(name)
+        }
+    }
 }
 
 private class RulekeeporCommand : CliktCommand() {
@@ -66,6 +87,10 @@ private class RulekeeporCommand : CliktCommand() {
     val validateHistory by option("--validate-history", help = "validate history of each rule")
         .flag("--no-validate-history", default = true)
 
+    val nameReplacementFile by option("--name-replacement-file",
+        help = "path to file with name replacements, one per line, of the form old:new")
+        .path(mustExist = true, canBeDir = false)
+
     override fun run() {
         val (proposalDataMap, proposalStats) =
             proposalsDir
@@ -82,6 +107,28 @@ private class RulekeeporCommand : CliktCommand() {
             ruleNumberResolver = TryIntegralRuleNumberResolver,
         )
 
+        val nameResolver = nameReplacementFile?.let { nameReplacementFile ->
+            val nameReplacementText = nameReplacementFile.readText()
+
+            val nameReplacementMappingEntries =
+                nameReplacementText
+                    .lines()
+                    .filter { it.isNotBlank() }
+                    .map { it.split(":") }
+                    .onEach {
+                        require(it.size == 2) { "Expected two colon separated parts, got $it" }
+                    }
+                    .map {
+                        it[0] to it[1]
+                    }
+
+            nameReplacementMappingEntries.map { it.first }.requireDistinct()
+
+            val nameReplacementMap = nameReplacementMappingEntries.toMap()
+
+            causeNameResolverForMap(nameReplacementMap)
+        } ?: CauseNameResolver.Identity
+
         val rulesetState =
             ruleCategoryMapping
                 .categorizedRuleNumbers
@@ -95,7 +142,7 @@ private class RulekeeporCommand : CliktCommand() {
                             yaml = Files.readString(path, FILE_CHARSET),
                             proposalDataMap = proposalDataMap,
                             ruleNumberResolver = TryIntegralRuleNumberResolver,
-                            nameResolver = CauseNameResolver.Identity,
+                            nameResolver = nameResolver,
                         )
                     } catch (e: Exception) {
                         throw RuleParseException("Error while parsing rule $number", e)
