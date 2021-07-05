@@ -16,12 +16,19 @@ REGS_DATA_DIR="$SCRIPT_DIR/regs_data"
 
 mkdir -p -- "$OUT_DIR"
 
+COMMON_OPTIONS=(--name-replacement-file "$SCRIPT_DIR/name_replacement_data")
+
+COMMON_RULESET_OPTIONS=(
+  --index-file "$RULES_DATA_DIR/config/index"
+  --proposals-dir "$RULES_DATA_DIR/proposals"
+  --rules-dir "$RULES_DATA_DIR/rules"
+  --header-file "$RULES_DATA_DIR/config/header"
+)
+
 "$RULEKEEPOR_EXEC" \
+  "${COMMON_OPTIONS[@]}" \
+  "${COMMON_RULESET_OPTIONS[@]}" \
   --template-file "$RULES_DATA_DIR/config/slr_format" \
-  --index-file "$RULES_DATA_DIR/config/index" \
-  --proposals-dir "$RULES_DATA_DIR/proposals" \
-  --rules-dir "$RULES_DATA_DIR/rules" \
-  --header-file "$RULES_DATA_DIR/config/header" \
   --out-file "$OUT_DIR/slr.txt" \
   --out-dir "$OUT_DIR/short_rules" \
   --out-dir-name-format "R{}.txt" \
@@ -29,11 +36,9 @@ mkdir -p -- "$OUT_DIR"
   --no-annotations
 
 "$RULEKEEPOR_EXEC" \
+  "${COMMON_OPTIONS[@]}" \
+  "${COMMON_RULESET_OPTIONS[@]}" \
   --template-file "$RULES_DATA_DIR/config/flr_format" \
-  --index-file "$RULES_DATA_DIR/config/index" \
-  --proposals-dir "$RULES_DATA_DIR/proposals" \
-  --rules-dir "$RULES_DATA_DIR/rules" \
-  --header-file "$RULES_DATA_DIR/config/header" \
   --out-file "$OUT_DIR/flr.txt" \
   --out-dir "$OUT_DIR/full_rules" \
   --out-dir-name-format "R{}.txt" \
@@ -41,6 +46,7 @@ mkdir -p -- "$OUT_DIR"
   --annotations
 
 "$RULEKEEPOR_EXEC" \
+  "${COMMON_OPTIONS[@]}" \
   --template-file "$REGS_DATA_DIR/config/flr_format" \
   --index-file "$REGS_DATA_DIR/config/index" \
   --rules-dir "$REGS_DATA_DIR/rules" \
