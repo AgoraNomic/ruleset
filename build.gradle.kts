@@ -16,6 +16,7 @@ dependencies {
     implementation("org.yaml:snakeyaml:1.27")
     implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.4")
     implementation("com.github.ajalt.clikt:clikt:3.1.0")
+    implementation("org.randomcat:kotlin-utils:2.0.1")
 
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
