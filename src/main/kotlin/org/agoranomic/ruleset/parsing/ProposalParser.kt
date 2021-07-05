@@ -12,7 +12,7 @@ data class DirectoryYamlProposalDataMap(val proposalsDir: Path) : YamlProposalDa
         require(Files.isDirectory(proposalsDir))
     }
 
-    override fun dataFor(proposalSpecification: String): ProposalData? {
+    override fun dataFor(proposalSpecification: String, nameResolver: CauseNameResolver): ProposalData? {
         val proposalFile = proposalsDir.resolve(proposalSpecification)
 
         if (Files.notExists(proposalFile)) return null
@@ -30,8 +30,17 @@ data class DirectoryYamlProposalDataMap(val proposalsDir: Path) : YamlProposalDa
                 },
                 title = topNode.getOptContent("title"),
                 authorship = ProposalAuthorship(
-                    author = topNode.getOptContent("author"),
-                    coauthors = topNode.getOptList("coauthors")?.values?.map { it.requireValue().content },
+                    author = topNode
+                        .getOptContent("author")
+                        ?.let {
+                            nameResolver.resolveInformalCauseName(it)
+                        },
+                    coauthors = topNode
+                        .getOptList("coauthors")
+                        ?.values
+                        ?.map {
+                            nameResolver.resolveInformalCauseName(it.requireValue().content)
+                        },
                 ),
                 chamber = topNode.getOptContent("chamber"),
                 isDisinterested = topNode.getOptContent("disinterested").toBoolean(),

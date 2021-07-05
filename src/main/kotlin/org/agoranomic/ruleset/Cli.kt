@@ -97,7 +97,10 @@ private class RulekeeporCommand : CliktCommand() {
                 ?.let { DirectoryYamlProposalDataMap(it) }
                 ?.let { proposalMap -> proposalMap to proposalMap.maxProposalNumber()?.let { ProposalStatistics(it) } }
                 ?: (object : YamlProposalDataMap {
-                    override fun dataFor(proposalSpecification: String): ProposalData? {
+                    override fun dataFor(
+                        proposalSpecification: String,
+                        nameResolver: CauseNameResolver,
+                    ): ProposalData? {
                         throw IllegalArgumentException("Cannot use proposal when no proposals dir was specified")
                     }
                 } to null)

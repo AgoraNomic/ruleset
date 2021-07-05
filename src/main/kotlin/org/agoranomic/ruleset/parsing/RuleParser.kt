@@ -5,7 +5,7 @@ import org.agoranomic.ruleset.history.*
 import java.time.LocalDate
 
 interface YamlProposalDataMap {
-    fun dataFor(proposalSpecification: String): ProposalData?
+    fun dataFor(proposalSpecification: String, nameResolver: CauseNameResolver): ProposalData?
 }
 
 class ProposalDataParseException : Exception {
@@ -93,7 +93,7 @@ private fun parseHistoricalCauseYaml(
     return when (causeKind) {
         "proposal" -> HistoricalCauses.proposal(
             causeNode.requireValue().content.let { numberString ->
-                proposalDataMap.dataFor(numberString)
+                proposalDataMap.dataFor(proposalSpecification = numberString, nameResolver = nameResolver)
                     ?: throw IllegalArgumentException("No data for proposal $numberString")
             }
         )
@@ -218,8 +218,8 @@ private fun parseRulesetAnnotationsYaml(topNode: ParsedYamlNode.ListNode): RuleA
 
 interface CauseNameResolver {
     /**
-     * Returns the resolved name for an informal cause (i.e. the person who did a cleaning, or the person who gave a
-     * decree).
+     * Returns the resolved name for an informal cause (such as the author of a proposal, or the person who did a
+     * cleaning, or the person who gave a decree).
      */
     fun resolveInformalCauseName(name: String): String
 

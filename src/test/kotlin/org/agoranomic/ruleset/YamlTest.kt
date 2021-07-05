@@ -2,11 +2,8 @@ package org.agoranomic.ruleset
 
 import kotlinx.collections.immutable.persistentListOf
 import org.agoranomic.ruleset.history.*
-import org.agoranomic.ruleset.parsing.ParsedYamlNode
+import org.agoranomic.ruleset.parsing.*
 import org.agoranomic.ruleset.parsing.ParsedYamlNode.*
-import org.agoranomic.ruleset.parsing.YamlProposalDataMap
-import org.agoranomic.ruleset.parsing.parseRawYaml
-import org.agoranomic.ruleset.parsing.parseRuleStateYaml
 import org.junit.jupiter.api.Nested
 import java.math.BigDecimal
 import java.math.BigInteger
@@ -16,7 +13,7 @@ import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 
 private object ThrowingYamlProposalDataMap : YamlProposalDataMap {
-    override fun dataFor(proposalSpecification: String): ProposalData? {
+    override fun dataFor(proposalSpecification: String, nameResolver: CauseNameResolver): ProposalData? {
         throw AssertionError("Unexpected proposal lookup: $proposalSpecification")
     }
 }
@@ -126,15 +123,19 @@ class YamlTest {
             yaml: String,
             proposalDataMap: YamlProposalDataMap = ThrowingYamlProposalDataMap,
             ruleNumberResolver: RuleNumberResolver = RequireIntegralRuleNumberResolver,
+            nameResolver: CauseNameResolver = CauseNameResolver.Identity,
         ) {
-            assertEquals(expected, parseRuleStateYaml(yaml, proposalDataMap, ruleNumberResolver))
+            assertEquals(
+                expected,
+                parseRuleStateYaml(yaml, proposalDataMap, ruleNumberResolver, nameResolver),
+            )
         }
 
         private fun proposaDataMapFor(vararg numbers: Int): YamlProposalDataMap {
             val bigNumbers = numbers.map { ProposalNumber.Integral(it.toBigInteger()) }
 
             return object : YamlProposalDataMap {
-                override fun dataFor(proposalSpecification: String): ProposalData? {
+                override fun dataFor(proposalSpecification: String, nameResolver: CauseNameResolver): ProposalData? {
                     val proposalNumber = ProposalNumber.Integral(proposalSpecification.toBigInteger())
 
                     if (proposalNumber in bigNumbers) {
@@ -155,7 +156,7 @@ class YamlTest {
         private fun doTestIAE(yaml: String, proposalDataMap: YamlProposalDataMap = ThrowingYamlProposalDataMap) {
             assertFailsWith<IllegalArgumentException> {
                 // Use TextualRuleNumberResolver to ensure no exceptions are thrown from it
-                parseRuleStateYaml(yaml, proposalDataMap, TextualRuleNumberResolver)
+                parseRuleStateYaml(yaml, proposalDataMap, TextualRuleNumberResolver, CauseNameResolver.Identity)
             }
         }
 
@@ -189,7 +190,9 @@ class YamlTest {
                         listOf(
                             HistoricalEntry(
                                 HistoricalChanges.enactment(),
-                                HistoricalCauses.proposal(dataMap.dataFor("1")!!),
+                                HistoricalCauses.proposal(
+                                    dataMap.dataFor("1", CauseNameResolver.Identity)!!,
+                                ),
                                 HistoricalDate.Known(LocalDate.of(2020, 10, 11)),
                             ),
                         )
@@ -213,7 +216,7 @@ class YamlTest {
                         listOf(
                             HistoricalEntry(
                                 HistoricalChanges.enactment(),
-                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
+                                HistoricalCauses.proposal(stdProposalDataFor("1")!!),
                                 HistoricalDate.Known(LocalDate.of(2020, 10, 11)),
                             ),
                         ),
@@ -249,7 +252,7 @@ class YamlTest {
                         listOf(
                             HistoricalEntry(
                                 HistoricalChanges.enactment(),
-                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
+                                HistoricalCauses.proposal(stdProposalDataFor("1")!!),
                                 HistoricalDate.Known(LocalDate.of(2020, 10, 11)),
                             ),
                         ),
@@ -305,11 +308,15 @@ class YamlTest {
 
         private val STD_HISTORY_PROPOSAL_MAP = proposaDataMapFor(1)
 
+        private fun stdProposalDataFor(proposalSpecification: String): ProposalData? {
+            return STD_HISTORY_PROPOSAL_MAP.dataFor(proposalSpecification, CauseNameResolver.Identity)
+        }
+
         private val STD_HISTORY = RuleHistory(
             listOf(
                 HistoricalEntry(
                     HistoricalChanges.enactment(),
-                    HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
+                    HistoricalCauses.proposal(stdProposalDataFor("1")!!),
                     HistoricalDate.Known(LocalDate.of(2020, 10, 11)),
                 ),
             ),
@@ -335,7 +342,7 @@ class YamlTest {
                         listOf(
                             HistoricalEntry(
                                 HistoricalChanges.enactment(),
-                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
+                                HistoricalCauses.proposal(stdProposalDataFor("1")!!),
                                 HistoricalDate.Around(LocalDate.of(2020, 10, 11)),
                             ),
                         ),
@@ -364,7 +371,7 @@ class YamlTest {
                         listOf(
                             HistoricalEntry(
                                 HistoricalChanges.enactment(),
-                                HistoricalCauses.proposal(STD_HISTORY_PROPOSAL_MAP.dataFor("1")!!),
+                                HistoricalCauses.proposal(stdProposalDataFor("1")!!),
                                 HistoricalDate.Between(
                                     LocalDate.of(2020, 10, 11),
                                     LocalDate.of(2020, 10, 20),
