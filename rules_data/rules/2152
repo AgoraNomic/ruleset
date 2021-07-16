@@ -19,9 +19,9 @@ text: |
   3. NEED NOT, OPTIONAL: Failing to perform the described action
      does not violate the rules.
 
-  4. SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
-     described action, the full implications of performing it should
-     be understood and carefully weighed.
+  4. "SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+     described action, the full implications of performing it ought
+     to be be understood and carefully weighed.
 
   5. CAN, POSSIBLE: Attempts to perform the described action are
      successful.
@@ -34,8 +34,7 @@ text: |
 
   8. SHOULD, ENCOURAGED, RECOMMENDED: Before failing to perform the
      described action, the full implications of failing to perform
-     it should (in the ordinary-language sense) be understood and
-     carefully weighed.
+     it ought to be understood and carefully weighed.
 history:
 - change:
     type: enactment
@@ -96,6 +95,11 @@ history:
   date: 2019-11-03
   agent:
     proposal: "8254"
+- change:
+    type: amendment
+  date: 2021-07-14
+  agent:
+    proposal: "8594"
 annotations:
 - cfjs:
   - id: '1132'
