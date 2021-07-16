@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 27 Jun 2021
+Date of this ruleset: 16 Jul 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 144
+Number of rules currently enacted: 143
 
 Highest ID'd rule in this ruleset: 2653
-Highest ID'd Proposal Passed: 8590
+Highest ID'd Proposal Passed: 8594
 Highest ID'd Rule Enacted: 2653
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -24,8 +24,6 @@ Table of Contents:
 The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
-Important Temporary Rules
-   * Rule 2652: Popularity Contest
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -192,7 +190,7 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-43 with Power=1
+42 with Power=1
 2  with Power=1.5
 5  with Power=1.7
 34 with Power=2
@@ -245,8 +243,8 @@ Amended(15) by P7596 'a new right' (omd), 14 Sep 2013
 Retitled by P7614 'Just Not Rights' (G.), 13 Jan 2014
 Amended(16) by P7614 'Just Not Rights' (G.), 13 Jan 2014
 Amended(17) by P7743 'Agora Wins Forever' (G.), 12 May 2015
-Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aris), 26 Sep
-   2017
+Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aspen), 26
+   Sep 2017
 
 Annotations:
 CFJ 24: Players must obey the Rules even in out-of-game actions.
@@ -288,40 +286,10 @@ Amended(1) by P5536 'Refactor Regulation' (Murphy), 07 Jun 2008
 Amended(2) by P7075 'Proposals are Atomic' (Alexis), 16 Jun 2011
 Amended(3) by P7088 'Refactor 2, 3, 283' (omd), 23 Jul 2011
 Amended(4) by P7628 'Secure Ending the Game' (ais523), 07 Apr 2014
-Amended(5) by P7889 'Agora Protection Act' (Aris), 26 Sep 2017
-Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aris), 26 Sep
-   2017
+Amended(5) by P7889 'Agora Protection Act' (Aspen), 26 Sep 2017
+Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aspen), 26
+   Sep 2017
 Amended(6) by cleaning (Murphy), 03 Mar 2020
-
-Annotations:
-
-------------------------------------------------------------------------
-========================================================================
-Important Temporary Rules
-   This category is a temporary dumping ground for rules that don't
-   easily fit in any other category but that hold special relevance for
-   the current gamestate.
-------------------------------------------------------------------------
-Rule 2652/0 (Power=1.0)
-Popularity Contest
-
-      Immediately after the adoption of this rule, Aris wins the game.
-      Then, for each person who voted unconditionally FOR the referendum
-      on the proposal that enacted this rule, this rule causes that
-      person to earn a Black Ribbon.
-      
-      Aris CAN cause this rule to make a specified player earn a Black
-      Ribbon by announcement. Aris can cause this rule to award a
-      specified player a specified patent title containing the string
-      "Popular" by announcement.
-      
-      If it has been at least one month since this rule was adopted, any
-      person CAN End the Contest by announcement, causing this rule to
-      repeal itself.
-
-History:
-
-Enacted by P8565 'Popularity Contest' (Aris), 14 Jun 2021
 
 Annotations:
 
@@ -422,17 +390,17 @@ Amended(38) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(39) by P7734 'Protest Noted' (G.), 02 May 2015
 Amended(40) by P7810 'Cleerer Registrar Responsibilities' (nch), 11 Sep
    2016
-Amended(41) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
+Amended(41) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(42) by P7931 'Registration fix finally' (G.), 06 Nov 2017
 Amended(43) by P7959 'Deregistration Fix' (Telnaior), 12 Nov 2017
-Amended(44) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
+Amended(44) by P8051 'Zombie Overhaul v1.0' (G., Aspen), 14 Jun 2018
 Amended(45) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 Amended(46) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
    Sep 2019
-Amended(47) by P8485 'Eternal Personhood' (Gaelan, Aris), 10 Aug 2020
-Amended(48) by P8535 'We the People' (Aris, Trigon, nix, G., Gaelan), 03
-   Feb 2021
+Amended(47) by P8485 'Eternal Personhood' (Gaelan, Aspen), 10 Aug 2020
+Amended(48) by P8535 'We the People' (Aspen, Trigon, nix, G., Gaelan),
+   03 Feb 2021
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -541,11 +509,11 @@ Amended(33) by P7810 'Cleerer Registrar Responsibilities' (nch), 11 Sep
 Amended(34) by R2430, 24 May 2017
 Amended(35) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
    Sep 2019
-Amended(36) by P8248 'Publishing definition' (Jason, Aris), 18 Sep 2019
+Amended(36) by P8248 'Publishing definition' (Jason, Aspen), 18 Sep 2019
 Amended(37) by P8275 '"By announcement" clarification' (Jason), 01 Dec
    2019
 Amended(38) by P8336 'Define "publicly"' (Jason), 24 Feb 2020
-Amended(39) by P8576 '"By announcement" loosening' (Jason, Aris,
+Amended(39) by P8576 '"By announcement" loosening' (Jason, Aspen,
    Murphy), 23 Jun 2021
 
 Annotations:
@@ -756,16 +724,16 @@ Amended(8) by P7632 'All Activity is Good Activity' (Alexis), 01 May
 Amended(9) by P7810 'Cleerer Registrar Responsibilities' (nch), 11 Sep
    2016
 Amended(10) by R2430, 24 May 2017
-Amended(11) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
+Amended(11) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(12) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
 Amended(13) by P8176 'Zombies take care of this now' (G.), 13 May 2019
 Amended(14) by P8273 'Clean up your own mess, without making a bigger
    one' (Gaelan, Jason), 11 Nov 2019
 Amended(15) by P8422 'No More Numbers!' (Publius Scribonius
-   Scholasticus, G., Trigon, Aris, nch), 14 Jun 2020
+   Scholasticus, G., Trigon, Aspen, nch), 14 Jun 2020
 Amended(16) by P8422 'No More Numbers!' (Publius Scribonius
-   Scholasticus, G., Trigon, Aris, nch), 14 Jun 2020
+   Scholasticus, G., Trigon, Aspen, nch), 14 Jun 2020
 Amended(17) by P8423 'Removing Repetition' (Publius Scribonious
    Scholasticus, G.), 14 Jun 2020
 
@@ -871,7 +839,7 @@ General Definitions
    chances are that the Agoran definition of that word is described in
    one of these rules.
 ------------------------------------------------------------------------
-Rule 2152/8 (Power=3)
+Rule 2152/9 (Power=3)
 Mother, May I?
 
       The following terms are defined. These definitions are used when a
@@ -891,9 +859,9 @@ Mother, May I?
       3. NEED NOT, OPTIONAL: Failing to perform the described action
          does not violate the rules.
       
-      4. SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
-         described action, the full implications of performing it should
-         be understood and carefully weighed.
+      4. "SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+         described action, the full implications of performing it ought
+         to be be understood and carefully weighed.
       
       5. CAN, POSSIBLE: Attempts to perform the described action are
          successful.
@@ -906,8 +874,7 @@ Mother, May I?
       
       8. SHOULD, ENCOURAGED, RECOMMENDED: Before failing to perform the
          described action, the full implications of failing to perform
-         it should (in the ordinary-language sense) be understood and
-         carefully weighed.
+         it ought to be understood and carefully weighed.
 
 History:
 
@@ -926,6 +893,7 @@ Amended(6) by P6983 'Fix MMI' (Murphy), 10 Apr 2011
 Amended(7) by P7613 'What is PERMITTED NEED NOT be POSSIBLE' (Arufonsu),
    11 Jan 2014
 Amended(8) by P8254 'Anything is POSSIBLE' (Jason), 03 Nov 2019
+Amended(9) by P8594 'Nicer Definitions' (R. Lee), 14 Jul 2021
 
 Annotations:
 CFJ 1132: A Player failing to perform a duty required by the Rules
@@ -1022,12 +990,13 @@ Amended(6) by P6269 'Good Sportspersonship' (Pavitra), 11 May 2009
 Amended(7) by P6327 'Does a public message have the <X> nature?'
    (Murphy), 29 May 2009
 Amended(8) by P7614 'Just Not Rights' (G.), 13 Jan 2014
-Amended(9) by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun 2017
+Amended(9) by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun
+   2017
 Amended(10) by P7928 'no we can't' (G.), 22 Oct 2017
-Amended(11) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+Amended(11) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aspen,
    Gaelan), 21 Mar 2020
 Amended(12) by cleaning (Falsifian), 16 Jun 2020
-Amended(13) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(13) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
 
 Annotations:
 CFJ 3737 (called 15 Jun 2019): Actions that the rules state a player
@@ -1155,11 +1124,11 @@ Amended(33) by P7641 'Relative Months' (Alexis), 12 May 2014
 Amended(34) by P7686 'Cleanup' (omd), 07 Aug 2014
 Amended(35) by P7760 'Next Win System' (G.), 19 Jul 2015
 Amended(36) by R2430, 24 May 2017
-Amended(37) by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun
+Amended(37) by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun
    2017
-Amended(38) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
+Amended(38) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
-Retitled by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
+Retitled by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan, D.F.F.,
    Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(39) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
 Amended(40) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
@@ -1251,13 +1220,13 @@ Amended(36) by R2430, 24 May 2017
 Amended(37) by P7871 'Minor fixes (sans typos)' (R. Lee), 07 Sep 2017
 Amended(38) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(39) by P8107 'Buried Intent Prevention Act v2' (D. Margaux,
-   Aris, G.), 27 Oct 2018
+   Aspen, G.), 27 Oct 2018
 Amended(40) by P8123 'Independence' (Gaelan), 19 Nov 2018
 Retitled by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan),
    27 Apr 2019
 Amended(41) by P8165 'Dependent Action Cleanup Act' (D. Margaux,
    Gaelan), 27 Apr 2019
-Amended(42) by P8236 'Definition de-capitalization' (Jason, Aris), 18
+Amended(42) by P8236 'Definition de-capitalization' (Jason, Aspen), 18
    Sep 2019
 
 Annotations:
@@ -1335,10 +1304,10 @@ History:
 
 Enacted by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan), 27
    Apr 2019
-Amended(1) by P8236 'Definition de-capitalization' (Jason, Aris), 18 Sep
-   2019
+Amended(1) by P8236 'Definition de-capitalization' (Jason, Aspen), 18
+   Sep 2019
 Amended(2) by P8422 'No More Numbers!' (Publius Scribonius Scholasticus,
-   G., Trigon, Aris, nch), 14 Jun 2020
+   G., Trigon, Aspen, nch), 14 Jun 2020
 
 Annotations:
 
@@ -1422,14 +1391,14 @@ Amended(22) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(23) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 Amended(24) by P8164 'Correction to Agoran Satisfaction, Version 2.4'
    (Falsifian, ais523, D. Margaux, G., twg), 31 Mar 2019
-Amended(25) by P8236 'Definition de-capitalization' (Jason, Aris), 18
+Amended(25) by P8236 'Definition de-capitalization' (Jason, Aspen), 18
    Sep 2019
-Amended(26) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
+Amended(26) by P8303 'Contract Patency v3' (Aspen, Gaelan, Jason,
    Falsifian), 29 Jan 2020
-Amended(27) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
+Amended(27) by P8472 'Welcoming Back Outlaws, etc.' (Aspen), 08 Jul 2020
 Power changed from 2 to 3 by P8509 'Dependent De-escalation' (Baron von
    Vanderham, Jason, Trigon), 28 Oct 2020
-Amended(28) by P8569 'Fixing Festivals' (Jason, Aris, Murphy), 14 Jun
+Amended(28) by P8569 'Fixing Festivals' (Jason, Aspen, Murphy), 14 Jun
    2021
 
 Annotations:
@@ -1447,7 +1416,7 @@ Determinacy
 
 History:
 
-Enacted by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
+Enacted by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan, D.F.F.,
    Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 
 Annotations:
@@ -1472,7 +1441,7 @@ Random Choices
 History:
 
 Enacted by P7883 'Fear v2.1' (G.), 26 Sep 2017
-Amended(1) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(1) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
 
 Annotations:
 
@@ -1520,7 +1489,7 @@ Amended(6) by cleaning (omd), 26 Jan 2009
 Amended(7) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
 Amended(8) by P6981 'Littler Dutch Boy' (Murphy, omd), 10 Apr 2011
 Repealed by P7614 'Just Not Rights' (G.), 13 Jan 2014
-Re-enacted(9) and amended by P7924 'Contracts v8' (Aris, o, G., ais523,
+Re-enacted(9) and amended by P7924 'Contracts v8' (Aspen, o, G., ais523,
    Gaelan, D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct
    2017
 
@@ -1602,8 +1571,8 @@ Amended(7) by P7828 'Boolean Switches V2' (G.), 07 Nov 2016
 Amended(8) by R2430, 24 May 2017
 Amended(9) by P7902 'Switch no-ops' (G.), 03 Oct 2017
 Amended(10) by P7903 'Numerical Switches v2' (G.), 03 Oct 2017
-Amended(11) by P8075 'Less Critical Patching' (Aris, G.), 26 Jul 2018
-Power changed from 2 to 3 by P8075 'Less Critical Patching' (Aris, G.),
+Amended(11) by P8075 'Less Critical Patching' (Aspen, G.), 26 Jul 2018
+Power changed from 2 to 3 by P8075 'Less Critical Patching' (Aspen, G.),
    26 Jul 2018
 Amended(12) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
    Sep 2019
@@ -1649,9 +1618,9 @@ Amended(7) by P7759 'minor Powers v0.2' (G.), 19 Jul 2015
 Amended(8) by P7781 'Secure, secures, securing, secured' (the Warrigal),
    14 Aug 2015
 Amended(9) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
-Amended(10) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+Amended(10) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aspen,
    Gaelan), 21 Mar 2020
-Amended(11) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(11) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
 
 Annotations:
 
@@ -1679,9 +1648,9 @@ Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
 Amended(1) by P6992 'Fix rule numbers' (Murphy, omd), 10 Apr 2011
 Amended(2) by R2430, 24 May 2017
 Amended(3) by P8184 'power-limit precedence' (G.), 09 Jul 2019
-Amended(4) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+Amended(4) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aspen,
    Gaelan), 21 Mar 2020
-Amended(5) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(5) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
 
 Annotations:
 CFJ 2981 (called 21 Mar 2011): An attribute of an instrument is not
@@ -1731,15 +1700,16 @@ Amended(7) by P7653 'Chamber Cleanup' (Alexis), 03 Jun 2014
 Amended(8) by P7728 'Even More Restricted Distribution' (Tiger), 24 Nov
    2014
 Amended(9) by P7736 'Draining the pool' (aranea), 02 May 2015
-Amended(10) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
+Amended(10) by P8104 'Pending is Pointless' (G., Aspen), 27 Oct 2018
 Amended(11) by cleaning (Trigon), 04 Nov 2018
-Amended(12) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+Amended(12) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(13) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
-   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
-Amended(14) by P8415 'Proposal Recycling Initiative' (Aris), 14 Jun 2020
+   Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
+Amended(14) by P8415 'Proposal Recycling Initiative' (Aspen), 14 Jun
+   2020
 Amended(15) by cleaning (Jason), 29 Jun 2020
-Amended(16) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris,
+Amended(16) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Jason), 11 Feb 2021
 
 Annotations:
@@ -1773,11 +1743,11 @@ Pending Proposals
 History:
 
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
-Amended(1) by P8413 'Why Track Pendency?' (Aris), 14 Jun 2020
+   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
+Amended(1) by P8413 'Why Track Pendency?' (Aspen), 14 Jun 2020
 Amended(2) by cleaning (Jason), 29 Jun 2020
 Amended(3) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul 2020
-Amended(4) by P8564 'Sponsorship is not Co-authorship' (Aris), 14 Jun
+Amended(4) by P8564 'Sponsorship is not Co-authorship' (Aspen), 14 Jun
    2021
 
 Annotations:
@@ -1793,8 +1763,8 @@ Proposal Recycling
 
 History:
 
-Enacted by P8415 'Proposal Recycling Initiative' (Aris), 14 Jun 2020
-Amended(1) by P8418 'Referenda' (Aris), 14 Jun 2020
+Enacted by P8415 'Proposal Recycling Initiative' (Aspen), 14 Jun 2020
+Amended(1) by P8418 'Referenda' (Aspen), 14 Jun 2020
 
 Annotations:
 
@@ -1820,10 +1790,10 @@ Ministries
 
 History:
 
-Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
-Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
-Amended(2) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct
+Amended(1) by P8319 'Sergeant-at-Arms' (Aspen), 13 Feb 2020
+Amended(2) by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct
    2020
 
 Annotations:
@@ -1846,11 +1816,11 @@ Proposal Classes
 
 History:
 
-Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
-Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
-Amended(2) by P8356 'Less Democracy Means More Fun' (Aris), 21 Mar 2020
-Amended(3) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(1) by P8319 'Sergeant-at-Arms' (Aspen), 13 Feb 2020
+Amended(2) by P8356 'Less Democracy Means More Fun' (Aspen), 21 Mar 2020
+Amended(3) by P8418 'Referenda' (Aspen), 14 Jun 2020
 
 Annotations:
 
@@ -1953,17 +1923,17 @@ Amended(41) by P7728 'Even More Restricted Distribution' (Tiger), 24 Nov
    2014
 Amended(42) by P7832 'Quintessential Parameters' (Alexis), 05 Dec 2016
 Amended(43) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
-Amended(44) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
+Amended(44) by P8104 'Pending is Pointless' (G., Aspen), 27 Oct 2018
 Amended(45) by P8245 'Pool drain timing' (G.), 05 Sep 2019
 Amended(46) by P8269 'Clean up distribution mechanisms' (omd), 11 Nov
    2019
-Amended(47) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+Amended(47) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(48) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
-   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
-Amended(49) by P8418 'Referenda' (Aris), 14 Jun 2020
-Amended(50) by P8428 'Pending Pends' (Aris), 14 Jun 2020
-Amended(51) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris,
+   Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
+Amended(49) by P8418 'Referenda' (Aspen), 14 Jun 2020
+Amended(50) by P8428 'Pending Pends' (Aspen), 14 Jun 2020
+Amended(51) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Jason), 11 Feb 2021
 
 Annotations:
@@ -2101,13 +2071,13 @@ Amended(37) by P7246 'Adoption reassociation' (omd), 10 Jun 2012
 Amended(38) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
 Amended(39) by P7940 'High Power Cleanup' (Alexis, G., P.S.S.), 06 Nov
    2017
-Amended(40) by P8073 'Comments' (Aris), 26 Jul 2018
-Amended(41) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+Amended(40) by P8073 'Comments' (Aspen), 26 Jul 2018
+Amended(41) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aspen,
    Gaelan), 21 Mar 2020
 Amended(42) by P8355 'Temporary Suspension of Rules' (Alexis, Murphy),
    21 Mar 2020
-Amended(43) by P8418 'Referenda' (Aris), 14 Jun 2020
-Amended(44) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(43) by P8418 'Referenda' (Aspen), 14 Jun 2020
+Amended(44) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
 
 Annotations:
 CFJ 1639 (called 29 Apr 2007): Where a proposal attempts two separate
@@ -2145,12 +2115,12 @@ Popular Proposal Proposer Privilege
 History:
 
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(1) by P8417 'Properly Prioritized Popular Proposal Proposer
-   Privilege' (Aris, G.), 14 Jun 2020
-Amended(2) by P8418 'Referenda' (Aris), 14 Jun 2020
+   Privilege' (Aspen, G.), 14 Jun 2020
+Amended(2) by P8418 'Referenda' (Aspen), 14 Jun 2020
 Amended(3) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul 2020
-Amended(4) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
+Amended(4) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -2166,8 +2136,8 @@ Vocal Voter Verification Award
 
 History:
 
-Enacted by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Jason), 11
-   Feb 2021
+Enacted by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen, Jason),
+   11 Feb 2021
 
 Annotations:
 
@@ -2222,13 +2192,13 @@ Amended(11) by P8251 'Ruleset definition' (G.), 13 Oct 2019
 Amended(12) by cleaning (Murphy), 03 Nov 2019
 Power changed from 3 to 3.1 by P8347 'R2141 power increase v2' (Jason),
    10 Mar 2020
-Amended(13) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+Amended(13) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aspen,
    Gaelan), 21 Mar 2020
 Amended(14) by P8416 'Identity theft protection act v1.1' (Falsifian,
    G., Publius Scribonius Scholasticus), 14 Jun 2020
-Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aris), 03 Feb 2021
-Amended(15) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
-Amended(16) by P8541 'You CAN, CAN't You?' (Aris), 02 Mar 2021
+Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aspen), 03 Feb 2021
+Amended(15) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
+Amended(16) by P8541 'You CAN, CAN't You?' (Aspen), 02 Mar 2021
 
 Annotations:
 CFJ 1498 (called 12 Apr 2004): A rule's title is not strictly a name for
@@ -2291,7 +2261,7 @@ Amended(9) by P7584 'The Logic That Was Retroactively Clarified' (omd),
    24 Aug 2013
 Amended(10) by P7614 'Just Not Rights' (G.), 13 Jan 2014
 Amended(11) by P7662 'two more' (omd), 03 Jun 2014
-Amended(12) by P8002 'Power Creep Reduction Act' (Aris), 31 Jan 2018
+Amended(12) by P8002 'Power Creep Reduction Act' (Aspen), 31 Jan 2018
 
 Annotations:
 CFJ 1439 (called 20 Feb 2003): A difference in language qualifies as a
@@ -2415,7 +2385,7 @@ Amended(11) by P7235 'semicolon' (omd), 10 Jun 2012
 Amended(12) by P7334 'Precedence of unnumbered rules' (woggle), 27 Mar
    2013
 Amended(13) by P8251 'Ruleset definition' (G.), 13 Oct 2019
-Power changed from 3.2 to 3.3 by P8534 'Power Up' (Aris), 03 Feb 2021
+Power changed from 3.2 to 3.3 by P8534 'Power Up' (Aspen), 03 Feb 2021
 
 Annotations:
 CFJ 1104 (called 20 Aug 1998): The presence in a Rule of deference
@@ -2535,12 +2505,12 @@ Amended(16) by P7940 'High Power Cleanup' (Alexis, G., P.S.S.), 06 Nov
    2017
 Amended(17) by P7969 'Obvious fix' (R. Lee, Alexis), 21 Nov 2017
 Amended(18) by P7986 'Quick Fix' (P.S.S.), 03 Dec 2017
-Amended(19) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
-   2018
+Amended(19) by P8030 'PAoaM Patch v4' (Aspen, Gaelan, Trigon, G.), 30
+   Mar 2018
 Amended(20) by cleaning (Jason), 26 Jul 2019
-Amended(21) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+Amended(21) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aspen,
    Gaelan), 21 Mar 2020
-Amended(22) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(22) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
 
 Annotations:
 CFJ 1499 (called 20 Apr 2004), CFJ 1623 (called 01 Apr 2007): If a
@@ -2601,17 +2571,19 @@ Regulations
 
 History:
 
-Enacted by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun 2017
+Enacted by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun 2017
 Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
-Amended(2) by P7925 'Safety Regulations v2' (Aris, Alexis), 22 Oct 2017
-Amended(3) by P8056 'Deregulation Act v2' (Aris, G.), 01 Jul 2018
-Power changed from 3.1 to 3 by P8056 'Deregulation Act v2' (Aris, G.),
+Amended(2) by P7925 'Safety Regulations v2' (Aspen, Alexis), 22 Oct 2017
+Amended(3) by P8056 'Deregulation Act v2' (Aspen, G.), 01 Jul 2018
+Power changed from 3.1 to 3 by P8056 'Deregulation Act v2' (Aspen, G.),
    01 Jul 2018
-Amended(4) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
-Amended(5) by P8108 'Uniform Regulatory Process Act' (Aris), 27 Oct 2018
-Amended(6) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
+Amended(4) by P8076 'Regulation Patches' (Aspen, G.), 26 Jul 2018
+Amended(5) by P8108 'Uniform Regulatory Process Act' (Aspen), 27 Oct
+   2018
+Amended(6) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
 Amended(7) by P8240 'Regulation clarification' (Jason), 18 Sep 2019
-Amended(8) by P8301 'Consolidated Regulatory Rulekeeping v2' (Aris,
+Amended(8) by P8301 'Consolidated Regulatory Rulekeeping v2' (Aspen,
    Jason), 29 Jan 2020
 
 Annotations:
@@ -2761,7 +2733,7 @@ Amended(18) by P6662 'Maternal courage' [green, disi.] (Murphy), 10 Mar
 Amended(19) by P7599 'Helpfulness' (Walker), 14 Sep 2013
 Amended(20) by P7604 'Come back woggle!' (G.), 13 Dec 2013
 Amended(21) by R2430, 24 May 2017
-Amended(22) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
+Amended(22) by P8296 'Divergence' (Aspen, G.), 29 Jan 2020
 Amended(23) by cleaning (Jason), 29 Jun 2020
 
 Annotations:
@@ -2795,8 +2767,8 @@ Repealed by P6961 '52-pickup v2' (G.), 03 Feb 2011
 Re-enacted(6) and amended by P8000 'Older Cleanliness' (Alexis), 31 Jan
    2018
 Amended(7) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
-Amended(8) by P8445 'Easier retitling' (Aris), 30 Jun 2020
-Retitled by P8445 'Easier retitling' (Aris), 30 Jun 2020
+Amended(8) by P8445 'Easier retitling' (Aspen), 30 Jun 2020
+Retitled by P8445 'Easier retitling' (Aspen), 30 Jun 2020
 
 Annotations:
 CFJ 3800-3803 (called 25 Jan 2020): For a cleaning to replace a word
@@ -2873,15 +2845,15 @@ Eclipse Light
 History:
 
 Enacted by P8360 'Social Distancing' (Alexis), 04 Apr 2020
-Amended(1) by P8361 'Fix Emergencies' (Aris, Alexis), 04 Apr 2020
-Amended(2) by P8362 'Recurring Emergencies' (Aris), 04 Apr 2020
-Amended(3) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
-Amended(4) by P8369 'Emergency Termination Notice' (Aris), 21 Apr 2020
+Amended(1) by P8361 'Fix Emergencies' (Aspen, Alexis), 04 Apr 2020
+Amended(2) by P8362 'Recurring Emergencies' (Aspen), 04 Apr 2020
+Amended(3) by P8364 'Mint Regulations' (Aspen), 04 Apr 2020
+Amended(4) by P8369 'Emergency Termination Notice' (Aspen), 21 Apr 2020
 Amended(5) by P8490 'Functional Emergency Regulations' (Jason), 30 Aug
    2020
 Amended(6) by P8533 'de-dictatorship' (G., Jason, nix), 03 Feb 2021
-Power changed by P8534 'Power Up' (Aris), 03 Feb 2021
-Amended(7) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Power changed by P8534 'Power Up' (Aspen), 03 Feb 2021
+Amended(7) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
 Amended(8) by P8547 'ER office restriction' (Jason), 10 Mar 2021
 Amended(9) by P8570 'Emergency Regulation Clarification' (Jason), 14 Jun
    2021
@@ -3009,7 +2981,7 @@ Amended(19) by R2430, 24 May 2017
 Amended(20) by P7953 'Vote Specification Fix' (Alexis), 12 Nov 2017
 Amended(21) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
 Amended(22) by P8533 'de-dictatorship' (G., Jason, nix), 03 Feb 2021
-Amended(23) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(23) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
 Amended(24) by P8585 'Clarify variable voting period' (Murphy), 23 Jun
    2021
 
@@ -3396,12 +3368,12 @@ Amended(32) by P7632 'All Activity is Good Activity' (Alexis), 01 May
    2014
 Amended(33) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(34) by P7853 'Close Ancient Loopholes' (ais523), 05 Jun 2017
-Amended(35) by P8095 'Quorum Reduction v2' (Aris, Murphy, D. Margaux),
+Amended(35) by P8095 'Quorum Reduction v2' (Aspen, Murphy, D. Margaux),
    28 Sep 2018
 Amended(36) by cleaning (Alexis), 23 Jan 2020
-Amended(37) by P8321 'Untying Quorum' (Aris), 13 Feb 2020
+Amended(37) by P8321 'Untying Quorum' (Aspen), 13 Feb 2020
 Amended(38) by P8338 'Clarify quorum (option 1)' (Murphy), 24 Feb 2020
-Amended(39) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(39) by P8418 'Referenda' (Aspen), 14 Jun 2020
 
 Annotations:
 CFJ 1562 (called 03 May 2005): A cancelled vote on a Proposal does not
@@ -3437,14 +3409,14 @@ Amended(2) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(3) by P8122 'Middle of the road' (Murphy), 12 Nov 2018
 Amended(4) by cleaning (Falsifian), 28 Apr 2019
 Amended(5) by cleaning (Murphy), 03 Nov 2019
-Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
-   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
-Amended(8) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct
+   Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
+Amended(8) by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct
    2020
-Amended(9) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Jason),
-   11 Feb 2021
+Amended(9) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
+   Jason), 11 Feb 2021
 Amended(10) by P8580 'Strength Buying Separation v2' (Jason, ais523,
    Trigon), 23 Jun 2021
 
@@ -3551,9 +3523,9 @@ Amended(5) by P6329 'Get on with killing it!' (Murphy), 29 May 2009
 Amended(6) by P6504 'We don't need this exception' [disi.] (Murphy), 03
    Oct 2009
 Amended(7) by P7045 'Speed' (Walker), 16 May 2011
-Amended(8) by P8418 'Referenda' (Aris), 14 Jun 2020
-Retitled by refiling (Aris), 08 Aug 2020
-Amended(9) by P8502 'Timely reminders' (Jason, Aris), 25 Sep 2020
+Amended(8) by P8418 'Referenda' (Aspen), 14 Jun 2020
+Retitled by refiling (Aspen), 08 Aug 2020
+Amended(9) by P8502 'Timely reminders' (Jason, Aspen), 25 Sep 2020
 Power changed from 1 to 2 by P8533 'de-dictatorship' (G., Jason, nix),
    03 Feb 2021
 
@@ -3628,7 +3600,7 @@ Amended(29) by P7610 'Low-hanging Fruit' (G.), 22 Dec 2013
 Amended(30) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(31) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
 Amended(32) by P7832 'Quintessential Parameters' (Alexis), 05 Dec 2016
-Amended(33) by P8200 'Sane AI Defaulting' (Aris), 10 Jul 2019
+Amended(33) by P8200 'Sane AI Defaulting' (Aspen), 10 Jul 2019
 Amended(34) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
    Sep 2019
 Amended(35) by cleaning (Alexis), 23 Jan 2020
@@ -3778,9 +3750,9 @@ Amended(38) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(39) by P7807 's/I(?=ADoP)//' (aranea), 10 Aug 2016
 Amended(40) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
 Amended(41) by P7958 'Succession Planning' (G.), 12 Nov 2017
-Amended(42) by P8074 'Office Patch' (Aris, G., P.S.S.), 26 Jul 2018
+Amended(42) by P8074 'Office Patch' (Aspen, G., P.S.S.), 26 Jul 2018
 Amended(43) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
-Amended(44) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+Amended(44) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
    2019
 Amended(45) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 
@@ -3813,9 +3785,9 @@ The Administrative State
 
 History:
 
-Enacted by P8448 'Populist Administration' (Aris, Alexis, Falsifian), 30
-   Jun 2020
-Amended(1) by P8469 'Bureaucratic Reenginerring' (Aris, Alexis,
+Enacted by P8448 'Populist Administration' (Aspen, Alexis, Falsifian),
+   30 Jun 2020
+Amended(1) by P8469 'Bureaucratic Reenginerring' (Aspen, Alexis,
    Falsifian, nch, G.), 08 Jul 2020
 
 Annotations:
@@ -3974,13 +3946,13 @@ Amended(49) by P7807 's/I(?=ADoP)//' (aranea), 10 Aug 2016
 Amended(50) by R2430, 24 May 2017
 Amended(51) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
 Amended(52) by P8013 'Must elections be political?' (G.), 24 Feb 2018
-Amended(53) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+Amended(53) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
    2019
 Amended(54) by cleaning (Falsifian), 20 Oct 2019
 Amended(55) by P8258 'Elections Fix' (Jason), 03 Nov 2019
 Amended(56) by P8276 'Various Election Fixes v2' (Jason), 01 Dec 2019
 Amended(57) by P8276 'Various Election Fixes v2' (Jason), 01 Dec 2019
-Amended(58) by P8393 'Elections Aren't Over Till They End' (Aris), 03
+Amended(58) by P8393 'Elections Aren't Over Till They End' (Aspen), 03
    Jun 2020
 Amended(59) by P8439 'Termination of Candidacy' (Publius Scribonius
    Scholasticus), 18 Jun 2020
@@ -4001,9 +3973,10 @@ Impeachment
 
 History:
 
-Enacted by P8036 'Impeachment' (Aris), 27 Apr 2018
-Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
-Amended(2) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Enacted by P8036 'Impeachment' (Aspen), 27 Apr 2018
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
+Amended(2) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
 
 Annotations:
 
@@ -4259,16 +4232,16 @@ Amended(23) by P7697 'Non-timed duty accuracy' (omd), 23 Oct 2014
 Amended(24) by P7704 'Fixes the Oxford comma issue, too' (G.), 03 Nov
    2014
 Amended(25) by R2430, 24 May 2017
-Amended(26) by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun
+Amended(26) by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun
    2017
-Amended(27) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
-   2018
+Amended(27) by P8030 'PAoaM Patch v4' (Aspen, Gaelan, Trigon, G.), 30
+   Mar 2018
 Amended(28) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
 Amended(29) by P8249 'No Harm No Foul' (Jacob Arduino, twg), 18 Sep 2019
-Amended(30) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
-Amended(31) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
-Amended(32) by P8370 'Announced Petitions' (Aris), 21 Apr 2020
-Amended(33) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
+Amended(30) by P8296 'Divergence' (Aspen, G.), 29 Jan 2020
+Amended(31) by P8302 'Generic Petitions' (Aspen), 29 Jan 2020
+Amended(32) by P8370 'Announced Petitions' (Aspen), 21 Apr 2020
+Amended(33) by P8503 'Assorted Obligatory Patches' (Aspen, G., nix,
    Jason), 25 Sep 2020
 
 Annotations:
@@ -4313,7 +4286,7 @@ The Ministor
 
 History:
 
-Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct 2020
+Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct 2020
 
 Annotations:
 
@@ -4443,7 +4416,7 @@ Amended(18) by P7664 'Fix onerous ratification requirement' (omd), 03
 Amended(19) by P8121 'Retroactive Documents' (D. Margaux), 12 Nov 2018
 Amended(20) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
 Amended(21) by cleaning (Alexis), 23 Jan 2020
-Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aris), 03 Feb 2021
+Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aspen), 03 Feb 2021
 
 Annotations:
 CFJ 2165 (called 16 Sep 2008): Ratification can create legal fictions,
@@ -4601,7 +4574,7 @@ Blots
 
 History:
 
-Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
+Enacted by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
 Amended(1) by P8066 'Separation of church and state' (twg, Trigon), 26
    Jul 2018
 Amended(2) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
@@ -4611,7 +4584,7 @@ Amended(5) by cleaning (Alexis), 23 Jan 2020
 Amended(6) by P8345 'Self-punishment' (Jason), 10 Mar 2020
 Amended(7) by P8350 'Apologies Don't Interfere' (Alexis), 21 Mar 2020
 Amended(8) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
-   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+   Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(9) by P8427 'Slap on the wrist' (R. Lee), 14 Jun 2020
 Amended(10) by P8537 'Unofficial injustice' (G.), 03 Feb 2021
 
@@ -4632,7 +4605,7 @@ Penalties
 
 History:
 
-Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
+Enacted by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
 Amended(1) by cleaning (Alexis), 23 Jan 2020
 
 Annotations:
@@ -4690,7 +4663,7 @@ History:
 
 Enacted by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(1) by R2430, 24 May 2017
-Amended(2) by P7886 'Card Reform and Expansion v4' (Aris, ais523,
+Amended(2) by P7886 'Card Reform and Expansion v4' (Aspen, ais523,
    Ørjan), 26 Sep 2017
 Amended(3) by P7964 'Referee Reform and Card Appealability' (R. Lee), 07
    Nov 2017
@@ -4699,7 +4672,7 @@ Amended(4) by P7964 'Referee Reform and Card Appealability' (R. Lee), 07
 Amended(5) by P7964 'Referee Reform and Card Appealability' (R. Lee), 07
    Nov 2017
 Amended(6) by P7982 'Referee Reform Fix' (R. Lee), 03 Dec 2017
-Amended(7) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
+Amended(7) by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
 Amended(8) by P8090 'Shenanigans For INEFFECTIVE Fines (v2)' (D.
    Margaux), 17 Sep 2018
 Amended(9) by P8181 'Referee CAN Impose Fines (v1.1)' (D. Margaux,
@@ -4710,11 +4683,11 @@ Amended(12) by P8404 'High Crimes and Treason' (Publius Scribonius
    Scholasticus, G., Jason, Murphy), 03 Jun 2020
 Amended(13) by P8404 'High Crimes and Treason' (Publius Scribonius
    Scholasticus, G., Jason, Murphy), 03 Jun 2020
-Amended(14) by P8479 'Competitive Finger Pointing v2' (nix, Aris,
+Amended(14) by P8479 'Competitive Finger Pointing v2' (nix, Aspen,
    Publius Scribonius Scholasticus, ATMunn), 10 Aug 2020
 Amended(15) by P8527 'Specified Crime not Rule' (Publius Scribonius
-   Scholasticus, nix, Aris), 13 Jan 2021
-Amended(16) by P8536 'Justice for All' (Aris, G., Jason), 03 Feb 2021
+   Scholasticus, nix, Aspen), 13 Jan 2021
+Amended(16) by P8536 'Justice for All' (Aspen, G., Jason), 03 Feb 2021
 
 Annotations:
 
@@ -4762,15 +4735,15 @@ Sentencing Guidelines
 
 History:
 
-Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
-Amended(1) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
+Enacted by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
+Amended(1) by P8040 'Blot Expansion v3' (Aspen, Ørjan), 27 Apr 2018
 Amended(2) by P8202 'Police Power' (Falsifian, Jason), 23 Jul 2019
 Retitled by P8202 'Police Power' (Falsifian, Jason), 23 Jul 2019
 Amended(3) by P8244 'Crime Cleanup' (Jason), 05 Sep 2019
-Amended(4) by P8461 'Reoding Adopted Proposals' (R. Lee, Aris), 08 Jul
+Amended(4) by P8461 'Reoding Adopted Proposals' (R. Lee, Aspen), 08 Jul
    2020
-Amended(5) by P8479 'Competitive Finger Pointing v2' (nix, Aris, Publius
-   Scribonius Scholasticus, ATMunn), 10 Aug 2020
+Amended(5) by P8479 'Competitive Finger Pointing v2' (nix, Aspen,
+   Publius Scribonius Scholasticus, ATMunn), 10 Aug 2020
 Amended(6) by P8560 'simplify indictments' (G., nix), 05 Jun 2021
 
 Annotations:
@@ -4830,9 +4803,9 @@ History:
 
 Enacted by P7964 'Referee Reform and Card Appealability' (R. Lee), 06
    Nov 2017
-Amended(1) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
-Power changed from 1 to 2 by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
-Amended(2) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
+Amended(1) by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
+Power changed from 1 to 2 by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
+Amended(2) by P8051 'Zombie Overhaul v1.0' (G., Aspen), 14 Jun 2018
 Amended(3) by P8119 'Criminal Justice Adjustments Act' (G.), 12 Nov 2018
 Amended(4) by P8030 'Law is Ambiguous Word Act' (Gaelan), 19 Nov 2018
 Amended(5) by P8203 'Fixing Summary Judgement' (Jason), 23 Jul 2019
@@ -4842,8 +4815,8 @@ Retitled by P8377 'Burden + Accurate Naming' (R. Lee), 22 May 2020
 Amended(8) by P8377 'Burden + Accurate Naming' (R. Lee), 22 May 2020
 Amended(9) by P8389 'Just Impeach Instead' (G.), 03 Jun 2020
 Amended(10) by P8392 'Prior Violations' (Jason), 03 Jun 2020
-Amended(11) by P8425 'Impossiblity Defense' (Aris), 14 Jun 2020
-Amended(12) by P8426 'Impracticability Defense' (Aris), 14 Jun 2020
+Amended(11) by P8425 'Impossiblity Defense' (Aspen), 14 Jun 2020
+Amended(12) by P8426 'Impracticability Defense' (Aspen), 14 Jun 2020
 Amended(13) by P8522 'Theftn't' (ATMunn, Jason), 11 Nov 2020
 Amended(14) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Amended(15) by cleaning (surprise), 26 Jun 2021
@@ -4866,7 +4839,7 @@ Defense Against the Dark Arts
 
 History:
 
-Enacted by P8401 'Defense Against the Dark Arts' (Aris, Publius
+Enacted by P8401 'Defense Against the Dark Arts' (Aspen, Publius
    Scribonious Scholasticus), 03 Jun 2020
 Amended(1) by P8437 'Guilderoy Lockhart' (R. Lee, G.), 18 Jun 2020
 Amended(2) by P8465 'Public defense' (Jason, Publius Scribonious
@@ -4947,20 +4920,20 @@ Amended(16) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(17) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(18) by P7777 'Simplified moot fix' (omd), 14 Aug 2015
 Amended(19) by P7803 'Self-service judiciary' (G.), 31 Jul 2016
-Amended(20) by P7867 'Economics Overhaul v2' (nch, o, grok, Aris), 30
+Amended(20) by P7867 'Economics Overhaul v2' (nch, o, grok, Aspen), 30
    Jul 2017
 Amended(21) by P7876 'Float On' (o), 26 Sep 2017
 Amended(22) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(23) by P7899 'Arbitor's Union' (G.), 03 Oct 2017
 Amended(24) by P8004 'Rusty' (G.), 30 Jan 2018
 Amended(25) by P8005 'Hopefully routine fixes' (Murphy), 06 Feb 2018
-Amended(26) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
+Amended(26) by P8014 'Putting Agora on a Map v7' (Trigon, Aspen, ATMunn,
    G., o, R. Lee), 24 Feb 2018
 Amended(27) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(28) by P8065 'No undead courts' (twg), 18 Jul 2018
 Amended(29) by cleaning (Trigon), 31 Oct 2018
 Amended(30) by P8134 'The judge switch' (G.), 02 Dec 2018
-Amended(31) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+Amended(31) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
    2019
 Amended(32) by P8454 'Judicial non-person fixes' (G., Jason, Publius
    Scribonious Scholasticus), 30 Jun 2020
@@ -5100,7 +5073,7 @@ Amended(45) by P7976 'A Mostest Ingenious Paradox' (Alexis, ais523), 26
    Nov 2017
 Amended(46) by P8215 'recusal simplification' (G.), 05 Sep 2019
 Amended(47) by P8450 'CFJ extensions' (G.), 30 Jun 2020
-Amended(48) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(48) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
 Amended(49) by cleaning (G.), 17 Jun 2021
 
 Annotations:
@@ -5246,7 +5219,7 @@ Amended(51) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(52) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(53) by P7777 'Simplified moot fix' (omd), 14 Aug 2015
 Amended(54) by P7930 'Appeals improvements' (G.), 29 Oct 2017
-Amended(55) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+Amended(55) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
    2019
 
 Annotations:
@@ -5372,7 +5345,7 @@ No Faking
 History:
 
 Enacted by P7822 'Stop That' (Alexis), 07 Nov 2016
-Amended(1) by P7892 'Truthfulness v2' (Aris), 26 Sep 2017
+Amended(1) by P7892 'Truthfulness v2' (Aspen), 26 Sep 2017
 
 Annotations:
 
@@ -5404,19 +5377,19 @@ History:
 
 Enacted by P7761 'I wonder what this does' (G.), 19 Jul 2015
 Amended(1) by P7862 'Betterer Pledges' (Quazie), 27 Jun 2017
-Amended(2) by P7866 'More Betterer Pledges' (o, Aris, Quazie, G.,
+Amended(2) by P7866 'More Betterer Pledges' (o, Aspen, Quazie, G.,
    Gaelan, D.F.F.), 16 Jul 2017
 Amended(3) by P7901 'Make Your Home Shine' (o, Cuddlebeam, Ørjan, R.
    Lee, nch), 03 Oct 2017
 Amended(4), 11 Jun 2018
 Amended(5) by P8060 'Notary-B-Gone' (R. Lee), 18 Jul 2018
-Amended(6) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
+Amended(6) by P8303 'Contract Patency v3' (Aspen, Gaelan, Jason,
    Falsifian), 29 Jan 2020
 Amended(7) by P8331 'Promissory cleanliness' (Warrigal), 24 Feb 2020
 Amended(8) by P8412 'Small Pledge Amendments' (R. Lee), 14 Jun 2020
-Amended(9) by P8461 'Reoding Adopted Proposals' (R. Lee, Aris), 08 Jul
+Amended(9) by P8461 'Reoding Adopted Proposals' (R. Lee, Aspen), 08 Jul
    2020
-Amended(10) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
+Amended(10) by P8503 'Assorted Obligatory Patches' (Aspen, G., nix,
    Jason), 25 Sep 2020
 
 Annotations:
@@ -5462,9 +5435,9 @@ Acting on Behalf
 History:
 
 Enacted by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
-Amended(1) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
-   Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
-Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
+Amended(1) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
+   D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Amended(2) by P8402 'Promises' (Aspen, Falsifian), 03 Jun 2020
 
 Annotations:
 
@@ -5507,13 +5480,13 @@ Promises
 
 History:
 
-Enacted by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
-Amended(1) by P8410 'Promise Powers Patch' (Aris), 14 Jun 2020
-Amended(2) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
+Enacted by P8402 'Promises' (Aspen, Falsifian), 03 Jun 2020
+Amended(1) by P8410 'Promise Powers Patch' (Aspen), 14 Jun 2020
+Amended(2) by P8503 'Assorted Obligatory Patches' (Aspen, G., nix,
    Jason), 25 Sep 2020
-Amended(3) by P8549 'You Can Only Stack Turtles So High' (Aris, Gaelan,
+Amended(3) by P8549 'You Can Only Stack Turtles So High' (Aspen, Gaelan,
    G.), 09 Apr 2021
-Amended(4) by P8554 'I Want My Promise Back!' (Aris, nix), 09 Apr 2021
+Amended(4) by P8554 'I Want My Promise Back!' (Aspen, nix), 09 Apr 2021
 
 Annotations:
 
@@ -5534,11 +5507,11 @@ Consent
 
 History:
 
-Enacted by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
+Enacted by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan, D.F.F.,
    Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
-Amended(1) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
+Amended(1) by P8303 'Contract Patency v3' (Aspen, Gaelan, Jason,
    Falsifian), 29 Jan 2020
-Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
+Amended(2) by P8402 'Promises' (Aspen, Falsifian), 03 Jun 2020
 
 Annotations:
 
@@ -5616,14 +5589,14 @@ Assigned to the Committee on Small Business and Entrepeneurship by P6053
    'Committees' (Murphy, woggle, ais523), 23 Jan 2009
 Amended(18) by P6197 'Refactor contracts' (Murphy), 27 Apr 2009
 Repealed by P6635 'Agree to Disagree' [red] (coppro), 20 Feb 2010
-Re-enacted(19) and amended by P8054 'Minimalist Contracts v2' (Aris, G.,
-   R. Lee), 01 Jul 2018
+Re-enacted(19) and amended by P8054 'Minimalist Contracts v2' (Aspen,
+   G., R. Lee), 01 Jul 2018
 Amended(20) by P8139 'Access to contracts' assets v2' (twg, G.), 15 Jan
    2019
 Amended(21) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
-Amended(22) by P8303 'Contract Patency v3' (Aris, Gaelan, Jason,
+Amended(22) by P8303 'Contract Patency v3' (Aspen, Gaelan, Jason,
    Falsifian), 29 Jan 2020
-Amended(23) by P8559 'Paper Shredding' (ATMunn, G., Aris), 25 May 2021
+Amended(23) by P8559 'Paper Shredding' (ATMunn, G., Aspen), 25 May 2021
 
 Annotations:
 CFJ 3644 (called 29 Sep 2018): If a set of players consent to make an
@@ -5654,11 +5627,11 @@ The Notary
 
 History:
 
-Enacted by P8303 'Contract Patency v3' (Aris, Gaelan, Jason, Falsifian),
-   29 Jan 2020
+Enacted by P8303 'Contract Patency v3' (Aspen, Gaelan, Jason,
+   Falsifian), 29 Jan 2020
 Amended(1) by R2608, 28 Apr 2020
-Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
-Amended(3) by P8541 'You CAN, CAN't You?' (Aris), 02 Mar 2021
+Amended(2) by P8402 'Promises' (Aspen, Falsifian), 03 Jun 2020
+Amended(3) by P8541 'You CAN, CAN't You?' (Aspen), 02 Mar 2021
 
 Annotations:
 
@@ -5684,9 +5657,9 @@ History:
 
 Enacted by P8476 'Contract charities' (ATMunn, G., Falsifian, Publius
    Scribonius Scholasticus), 19 Jul 2020
-Amended(1) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 28 Oct 2020
-Amended(2) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
+Amended(1) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
+   Jason, ATMunn), 28 Oct 2020
+Amended(2) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -5754,18 +5727,18 @@ Amended(20) by P7586 'Self-ratification, victory, office changes' (omd),
    24 Aug 2013
 Amended(21) by P7617 'A Complex Game 2' (G.), 16 Jan 2014
 Repealed by P7629 'Do Things' (Alexis), 07 Apr 2014
-Re-enacted(22) and amended by P7864 (Aris, G., o, nch, P.S.S.), 27 Jun
+Re-enacted(22) and amended by P7864 (Aspen, G., o, nch, P.S.S.), 27 Jun
    2017
 Amended(23) by P7868 'Minor economic fixes' (Murphy), 30 Jul 2017
-Amended(24) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
+Amended(24) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(25) by P8003 'Asset fix' (Corona), 31 Jan 2018
-Amended(26) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
-   2018
-Amended(27) by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(26) by P8030 'PAoaM Patch v4' (Aspen, Gaelan, Trigon, G.), 30
+   Mar 2018
+Amended(27) by P8055 'Distributed Assets v3' (Aspen, G.), 01 Jul 2018
 Amended(28) by P8129 'Bugfix: Treasuror doesn't self-ratify v2' (twg,
    Trigon, G.), 19 Nov 2018
-Amended(29) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
+Amended(29) by P8364 'Mint Regulations' (Aspen), 04 Apr 2020
 Amended(30) by P8405 'Generic private assets' (Jason), 12 Jun 2020
 
 Annotations:
@@ -5797,10 +5770,10 @@ Ownership
 
 History:
 
-Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
-Amended(1) by P8366 'Asset Determinacy' (Aris, twg), 17 Apr 2020
+Enacted by P8055 'Distributed Assets v3' (Aspen, G.), 01 Jul 2018
+Amended(1) by P8366 'Asset Determinacy' (Aspen, twg), 17 Apr 2020
 Amended(2) by P8484 'Clarify asset ownership' (Murphy, Cuddlebeam,
-   Aris), 10 Aug 2020
+   Aspen), 10 Aug 2020
 Amended(3) by P8500 'Clarify asset ownership some more' (Murphy, G.), 25
    Sep 2020
 
@@ -5841,7 +5814,7 @@ Asset Actions
 
 History:
 
-Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Enacted by P8055 'Distributed Assets v3' (Aspen, G.), 01 Jul 2018
 Amended(1) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(2) by P8187 'Not so indestructible now, eh?' (Jason), 22 Jun
    2019
@@ -5849,8 +5822,9 @@ Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd), 08
    Sep 2020
 Amended(4) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd), 08
    Sep 2020
-Amended(5) by P8518 'Asset Rounding' (Aris, Falsifian, nix), 11 Nov 2020
-Amended(6) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
+Amended(5) by P8518 'Asset Rounding' (Aspen, Falsifian, nix), 11 Nov
+   2020
+Amended(6) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -5869,7 +5843,7 @@ Currencies
 
 History:
 
-Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Enacted by P8055 'Distributed Assets v3' (Aspen, G.), 01 Jul 2018
 Amended(1) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 
 Annotations:
@@ -5909,7 +5883,7 @@ Fee-based Actions
 
 History:
 
-Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Enacted by P8055 'Distributed Assets v3' (Aspen, G.), 01 Jul 2018
 Amended(1) by P8462 'Fee-based methods' (Jason, Falsifian), 08 Jul 2020
 Amended(2) by P8486 'Fee-based de-escalation' (Jason, omd), 10 Aug 2020
 Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd), 08
@@ -5939,13 +5913,13 @@ Enacted by P7791 'Lockout' (ais523), 28 Oct 2015
 Amended(1) by P7793 'Organizations' (ais523, aranea, G.), 28 Oct 2015
 Amended(2) by R2430, 24 May 2017
 Amended(3) by P7876 'Float On' (o), 26 Sep 2017
-Amended(4) by P7890 'Improved Buoyancy v2' (Aris, G.), 26 Sep 2017
-Retitled by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
+Amended(4) by P7890 'Improved Buoyancy v2' (Aspen, G.), 26 Sep 2017
+Retitled by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan, D.F.F.,
    Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
-Amended(5) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
-   Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Amended(5) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
+   D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Repealed by P8004 'Rusty' (G.), 31 Jan 2018
-Re-enacted(6) and amended by P8041 'Consolidated Patch' (Aris, Trigon,
+Re-enacted(6) and amended by P8041 'Consolidated Patch' (Aspen, Trigon,
    G.), 27 Apr 2018
 
 Annotations:
@@ -5963,25 +5937,25 @@ History:
 Enacted by P7838 'Simple Economics v2' (o, nch, G., Ørjan), 05 Dec 2016
 Amended(1) by P7841 'Payday Cleanup' (o, G.), 01 Mar 2017
 Amended(2) by P7842 'Economic Flexibility v2' (nch, o), 01 Mar 2017
-Amended(3) by P7864 (Aris, G., o, nch, P.S.S.), 27 Jun 2017
+Amended(3) by P7864 (Aspen, G., o, nch, P.S.S.), 27 Jun 2017
 Amended(4) by P7898 'Community Chest' (G.), 26 Sep 2017
-Amended(5) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
-   Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Amended(5) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
+   D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(6) by P8004 'Rusty' (G.), 31 Jan 2018
-Amended(7) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
+Amended(7) by P8014 'Putting Agora on a Map v7' (Trigon, Aspen, ATMunn,
    G., o, R. Lee), 23 Feb 2018
-Amended(8) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
-Amended(9) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01 Jul
-   2018
+Amended(8) by P8040 'Blot Expansion v3' (Aspen, Ørjan), 27 Apr 2018
+Amended(9) by P8054 'Minimalist Contracts v2' (Aspen, G., R. Lee), 01
+   Jul 2018
 Amended(10) by P8066 'Separation of church and state' (twg, Trigon), 26
    Jul 2018
 Amended(11) by P8070 'Crackdown on minting (reindustrialisation
    edition)' (twg), 26 Jul 2018
-Amended(12) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
+Amended(12) by P8110 'Delenda Est' (G., Aspen, Trigon), 27 Oct 2018
 Amended(13) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
 Amended(14) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
-   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
-Amended(15) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+   Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
+Amended(15) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
    Jason, ATMunn), 28 Oct 2020
 
 Annotations:
@@ -6009,11 +5983,11 @@ Buoyancy Control
 
 History:
 
-Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
+Enacted by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G., Jason,
    ATMunn), 28 Oct 2020
 Amended(1) by cleaning (Murphy), 14 Feb 2021
-Amended(2) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
-Amended(3) by P8557 'Archimedes' Principle' (Aris, Trigon, nix), 15 Apr
+Amended(2) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
+Amended(3) by P8557 'Archimedes' Principle' (Aspen, Trigon, nix), 15 Apr
    2021
 
 Annotations:
@@ -6033,10 +6007,11 @@ Floating Rate Fleet
 
 History:
 
-Enacted by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
+Enacted by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G., Jason,
    ATMunn), 28 Oct 2020
-Amended(1) by P8518 'Asset Rounding' (Aris, Falsifian, nix), 11 Nov 2020
-Amended(2) by P8557 'Archimedes' Principle' (Aris, Trigon, nix), 15 Apr
+Amended(1) by P8518 'Asset Rounding' (Aspen, Falsifian, nix), 11 Nov
+   2020
+Amended(2) by P8557 'Archimedes' Principle' (Aspen, Trigon, nix), 15 Apr
    2021
 Amended(3) by cleaning (Telna), 17 Jun 2021
 
@@ -6079,7 +6054,7 @@ Rewards
 
 History:
 
-Enacted by P7867 'Economics Overhaul v2' (nch, o, grok, Aris), 30 Aug
+Enacted by P7867 'Economics Overhaul v2' (nch, o, grok, Aspen), 30 Aug
    2017
 Amended(1) by P7871 'Minor fixes (sans typos)' (R. Lee), 07 Sep 2017
 Amended(2) by P7876 'Float On' (o), 26 Sep 2017
@@ -6092,7 +6067,7 @@ Re-enacted(7) and amended by P8127 'Reinstituting Rewards' (Trigon), 19
    Nov 2018
 Amended(8) by P8133 'Proposals aren't worth *that* much' (Trigon), 02
    Dec 2018
-Amended(9) by P8137 'Uncorrecting Rewards' (Aris, twg, Trigon), 02 Dec
+Amended(9) by P8137 'Uncorrecting Rewards' (Aspen, twg, Trigon), 02 Dec
    2018
 Amended(10) by P8144 'Sharing the Wealth' (Trigon), 15 Jan 2019
 Amended(11) by P8141 'Miscellaneous Reward Fixes v2' (twg, G., Ørjan),
@@ -6108,14 +6083,14 @@ Amended(16) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
 Amended(17) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
    2020
 Amended(18) by P8386 'Restraining Motions' (G.), 22 May 2020
-Amended(19) by P8418 'Referenda' (Aris), 14 Jun 2020
-Amended(20) by P8431 'Proposal Reward Trimming' (Aris, ais523), 18 Jun
+Amended(19) by P8418 'Referenda' (Aspen), 14 Jun 2020
+Amended(20) by P8431 'Proposal Reward Trimming' (Aspen, ais523), 18 Jun
    2020
 Amended(21) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul
    2020
 Amended(22) by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug
    2020
-Amended(23) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+Amended(23) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
    Jason, ATMunn), 28 Oct 2020
 
 Annotations:
@@ -6132,21 +6107,21 @@ Paydays
 
 History:
 
-Enacted by a convergence caused by P8030 'PAoaM Patch v4' (Aris, Gaelan,
-   Trigon, G.), 30 Mar 2018
+Enacted by a convergence caused by P8030 'PAoaM Patch v4' (Aspen,
+   Gaelan, Trigon, G.), 30 Mar 2018
 Amended(1) by P8034 'Paydays Fix' (G.), 27 Apr 2018
-Amended(2) by P8040 'Blot Expansion v3' (Aris, Ørjan), 27 Apr 2018
-Amended(3) by P8053 'patch patch patch' (G., Aris), 01 Jul 2018
+Amended(2) by P8040 'Blot Expansion v3' (Aspen, Ørjan), 27 Apr 2018
+Amended(3) by P8053 'patch patch patch' (G., Aspen), 01 Jul 2018
 Amended(4) by P8066 'Separation of church and state' (twg, Trigon), 26
    Jul 2018
-Amended(5) by P8110 'Delenda Est' (G., Aris, Trigon), 27 Oct 2018
+Amended(5) by P8110 'Delenda Est' (G., Aspen, Trigon), 27 Oct 2018
 Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(7) by P8253 'Clarify salary' (Murphy, G., Jason), 03 Nov 2019
-Amended(8) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 28 Oct 2020
-Amended(9) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
-Amended(10) by P8557 'Archimedes' Principle' (Aris, Trigon, nix), 15 Apr
-   2021
+Amended(8) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
+   Jason, ATMunn), 28 Oct 2020
+Amended(9) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
+Amended(10) by P8557 'Archimedes' Principle' (Aspen, Trigon, nix), 15
+   Apr 2021
 
 Annotations:
 
@@ -6179,8 +6154,8 @@ Cards & Sets
 History:
 
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
-Amended(1) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
+   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
+Amended(1) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 
 Annotations:
 
@@ -6199,12 +6174,12 @@ VP Wins
 History:
 
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(1) by P8511 'VP Win Indirection' (Baron von Vanderham, Jason,
    Trigon), 28 Oct 2020
 Amended(2) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
-Amended(3) by P8543 'En Passant v2' (Jason, Aris, nix), 02 Mar 2021
-Amended(4) by P8581 'Grants on Resets' (Aris), 23 Jun 2021
+Amended(3) by P8543 'En Passant v2' (Jason, Aspen, nix), 02 Mar 2021
+Amended(4) by P8581 'Grants on Resets' (Aspen), 23 Jun 2021
 
 Annotations:
 
@@ -6252,15 +6227,15 @@ Card Administration
 History:
 
 Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
+   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(1) by P8477 'More officer cards' (Jason), 27 Jul 2020
 Amended(2) by P8489 'Interesting economics' (Jason), 08 Sep 2020
 Amended(3) by P8505 'Card clarifications' (Jason), 16 Oct 2020
-Amended(4) by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct
+Amended(4) by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct
    2020
 Amended(5) by P8516 'adJustments' (nix), 11 Nov 2020
-Amended(6) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Jason),
-   11 Feb 2021
+Amended(6) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
+   Jason), 11 Feb 2021
 Amended(7) by P8556 'Ministry Normalization' (Jason, nix), 06 Apr 2021
 
 Annotations:
@@ -6282,7 +6257,7 @@ Player Focuses
 
 History:
 
-Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aris), 28 Oct 2020
+Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct 2020
 
 Annotations:
 
@@ -6301,28 +6276,28 @@ Welcome Packages
 
 History:
 
-Enacted by P7867 'Economics Overhaul v2' (nch, o, grok, Aris), 30 Jul
+Enacted by P7867 'Economics Overhaul v2' (nch, o, grok, Aspen), 30 Jul
    2017
 Amended(1) by P7882 'Welcome Package CAN Patch' (o, K, ais523), 26 Sep
    2017
 Repealed by P8004 'Rusty' (G.), 31 Jan 2018
-Re-enacted(2) and amended by P8041 'Consolidated Patch' (Aris, Trigon,
+Re-enacted(2) and amended by P8041 'Consolidated Patch' (Aspen, Trigon,
    G.), 27 Apr 2018
-Amended(3) by P8053 'patch patch patch' (G., Aris), 01 Jul 2018
-Amended(4) by P8072 'Steel Based Manufacturing v3' (Aris, twg), 26 Jul
+Amended(3) by P8053 'patch patch patch' (G., Aspen), 01 Jul 2018
+Amended(4) by P8072 'Steel Based Manufacturing v3' (Aspen, twg), 26 Jul
    2018
 Amended(5) by P8092 'Yet Another Economics Patch' (twg), 17 Sep 2018
 Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
-   Scribonius Scholasticus, Jason, Aris, G., ais523), 12 Jun 2020
-Amended(8) by P8458 'Welcome Package Patch' (Aris), 30 Jun 2020
-Amended(9) by P8472 'Welcoming Back Outlaws, etc.' (Aris), 08 Jul 2020
+   Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
+Amended(8) by P8458 'Welcome Package Patch' (Aspen), 30 Jun 2020
+Amended(9) by P8472 'Welcoming Back Outlaws, etc.' (Aspen), 08 Jul 2020
 Amended(10) by P8480 'Generic welcome package fix' (Jason), 10 Aug 2020
-Amended(11) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G.,
+Amended(11) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
    Jason, ATMunn), 28 Oct 2020
-Amended(12) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
-Amended(13) by P8535 'We the People' (Aris, Trigon, nix, G., Gaelan), 03
-   Feb 2021
+Amended(12) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
+Amended(13) by P8535 'We the People' (Aspen, Trigon, nix, G., Gaelan),
+   03 Feb 2021
 
 Annotations:
 
@@ -6349,13 +6324,14 @@ History:
 
 Enacted by P8143 'Happy Birthday to You v3' (Trigon), 15 Jan 2018
 Amended(1) by P8145 'No Rebirth' (Gaelan), 15 Jan 2019
-Amended(2) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
-Amended(3) by P8314 'Finite Gifting' (Aris), 13 Feb 2020
+Amended(2) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
+Amended(3) by P8314 'Finite Gifting' (Aspen), 13 Feb 2020
 Amended(4) by P8507 'Happy Belated Birthday v3' (ATMunn, G., Falsifian),
    28 Oct 2020
-Amended(5) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 28 Oct 2020
-Amended(6) by P8541 'You CAN, CAN't You?' (Aris), 02 Mar 2021
+Amended(5) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
+   Jason, ATMunn), 28 Oct 2020
+Amended(6) by P8541 'You CAN, CAN't You?' (Aspen), 02 Mar 2021
 
 Annotations:
 CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
@@ -6405,9 +6381,9 @@ Auctions
 
 History:
 
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aris, nch, G.), 26 Nov 2017
-Amended(1) by P8054 'Minimalist Contracts v2' (Aris, G., R. Lee), 01 Jul
-   2018
+Enacted by P7975 'Auctions v6' (ATMunn, o, Aspen, nch, G.), 26 Nov 2017
+Amended(1) by P8054 'Minimalist Contracts v2' (Aspen, G., R. Lee), 01
+   Jul 2018
 Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
 Amended(3) by P8407 'no stinking auction definitions' (G.), 12 Jun 2020
 Amended(4) by P8572 'Thou shalt not disobey Trigon' (Jason, Trigon), 14
@@ -6443,7 +6419,7 @@ Stones
 
 History:
 
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 
 Annotations:
@@ -6466,7 +6442,7 @@ Wielding Stones
 
 History:
 
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 
 Annotations:
@@ -6487,7 +6463,7 @@ Distributing Stones
 
 History:
 
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 
 Annotations:
@@ -6518,10 +6494,10 @@ Collecting Stones
 
 History:
 
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 Amended(1) by P8524 'Agora's Stones Are Immune' (nix), 01 Dec 2020
-Amended(2) by P8542 'Stone Excitement Act' (Jason, Aris), 02 Mar 2021
+Amended(2) by P8542 'Stone Excitement Act' (Jason, Aspen), 02 Mar 2021
 
 Annotations:
 
@@ -6539,7 +6515,7 @@ The Gauntlet
 
 History:
 
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 Amended(1) by P8571 'Gauntlet announcement patch' (Jason), 14 Jun 2021
 Amended(2) by P8575 'Stone Win Delay v2' (Jason, Gaelan), 23 Jun 2021
@@ -6575,13 +6551,13 @@ The Stones
 
 History:
 
-Enacted by P8521 'Stones' (Jason, G., Aris, nix, Trigon, Gaelan,
+Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
-Amended(1) by P8523 'Emergency Economy Unbreaking' (Aris, nix, Jason),
+Amended(1) by P8523 'Emergency Economy Unbreaking' (Aspen, nix, Jason),
    22 Nov 2020
-Amended(2) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
-Amended(3) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Jason),
-   11 Feb 2021
+Amended(2) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
+Amended(3) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
+   Jason), 11 Feb 2021
 Amended(4) by P8548 'Stone defaults' (Jason), 10 Mar 2021
 
 Annotations:
@@ -6788,13 +6764,13 @@ Amended(16) by P8346 'De-secure Black Ribbons v2' (Jason, ais523), 10
    Mar 2020
 Amended(17) by P8353 'All that glisters' (Murphy), 21 Mar 2020
 Amended(18) by P8386 'Restraining Motions' (G.), 22 May 2020
-Amended(19) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(19) by P8418 'Referenda' (Aspen), 14 Jun 2020
 Amended(20) by P8460 'UV-G Sunblock' (G., ais523), 08 Jul 2020
 Amended(21) by P8463 'Future-proofing black ribbons' (Jason), 08 Jul
    2020
 Amended(22) by P8487 'Simpler ribbon switches' (Murphy, R. Lee), 10 Aug
    2020
-Amended(23) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(23) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
 
 Annotations:
 
@@ -6824,8 +6800,8 @@ Amended(3) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
 Amended(4) by P8311 'Rewards Patch & Equitable Remedy' (twg), 13 Feb
    2020
 Amended(5) by P8438 'Tailor Pay' (R. Lee), 18 Jun 2020
-Amended(6) by P8514 'The Buoyant Economy' (Aris, nix, Trigon, G., Jason,
-   ATMunn), 28 Oct 2020
+Amended(6) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
+   Jason, ATMunn), 28 Oct 2020
 
 Annotations:
 
@@ -6862,7 +6838,7 @@ Amended(2) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
 Amended(3) by cleaning (Jason), 14 Sep 2019
 Amended(4) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18 Sep
    2019
-Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Jason, Aris,
+Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Jason, Aspen,
    Murphy), 14 Jun 2021
 
 Annotations:
@@ -6891,12 +6867,12 @@ History:
 
 Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
 Amended(1) by R2430, 24 May 2017
-Amended(2) by P8297 'Imminent Failure' (Aris), 29 Jan 2020
+Amended(2) by P8297 'Imminent Failure' (Aspen), 29 Jan 2020
 Amended(3) by P8510 'Festival Peending' (Baron von Vanderham, Jason,
    Trigon), 28 Oct 2020
-Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Jason, Aris,
+Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Jason, Aspen,
    Murphy), 14 Jun 2021
-Amended(4) by P8569 'Fixing Festivals' (Jason, Aris, Murphy), 14 Jun
+Amended(4) by P8569 'Fixing Festivals' (Jason, Aspen, Murphy), 14 Jun
    2021
 
 Annotations:
@@ -6970,11 +6946,11 @@ Amended(36) by P7470 'Finish d-ASAP'ing' [disi.] (woggle), 17 Jun 2013
 Amended(37) by P7621 'Further Patent Cleanup' (G.), 23 Feb 2014
 Amended(38) by P7755 'Patenting II' (G.), 30 Jun 2015
 Amended(39) by P8011 'Patent Depowering' (G.), 24 Feb 2018
-Amended(40) by P8099 'Patent Petitions' (Aris), 01 Oct 2018
-Amended(41) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+Amended(40) by P8099 'Patent Petitions' (Aspen), 01 Oct 2018
+Amended(41) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
    2019
-Amended(42) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
-Amended(43) by P8449 'Simpler Heraldry' (Aris, Alexis, Jason, Publius
+Amended(42) by P8302 'Generic Petitions' (Aspen), 29 Jan 2020
+Amended(43) by P8449 'Simpler Heraldry' (Aspen, Alexis, Jason, Publius
    Scribonious Scholasticus), 30 Jun 2020
 Amended(44) by P8531 'Patent Title Restoration v2' (Jason), 26 Jan 2021
 
@@ -7007,7 +6983,8 @@ Badges
 History:
 
 Enacted by P7516 'Badges Badges Badges Badges' (G.), 19 Jul 2013
-Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
 
 Annotations:
 
@@ -7098,15 +7075,15 @@ Amended(17) by P7420 'We don't need to be that idiosyncratic un-derp
 Amended(18) by P7591 'Conflicts of Interest' (Alexis), 14 Sep 2013
 Amended(19) by P7620 'Fire the Full Committee' (omd), 24 Jan 2014
 Amended(20) by P8211 'Law School' (G.), 23 Jul 2019
-Amended(21) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+Amended(21) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
    2019
 Power changed by P8271 'Doctorate expectations' (G.), 11 Nov 2019
 Amended(22) by P8271 'Doctorate expectations' (G.), 11 Nov 2019
 Amended(23) by P8305 'Keeping Up With the Times' (Alexis), 29 Jan 2020
-Amended(24) by P8409 'College of Letters, Arts, and Sciences' (Aris), 14
-   Jun 2020
-Amended(25) by cleaning (Aris), 08 Aug 2020
-Amended(26) by P8582 'The Artistry Lies in the Art' (Aris), 23 Jun 2021
+Amended(24) by P8409 'College of Letters, Arts, and Sciences' (Aspen),
+   14 Jun 2020
+Amended(25) by cleaning (Aspen), 08 Aug 2020
+Amended(26) by P8582 'The Artistry Lies in the Art' (Aspen), 23 Jun 2021
 
 Annotations:
 
@@ -7144,7 +7121,7 @@ Amended(3) by P6626 'Standards of heroism' [green] (Murphy), 20 Feb 2010
 Amended(4) by P7621 'Further Patent Cleanup' (G.), 23 Feb 2014
 Amended(5) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(6) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
-Amended(7) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(7) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
 
 Annotations:
 
@@ -7209,7 +7186,8 @@ History:
 
 Enacted by P8109 'Patent Diversity' (G.), 27 Oct 2018
 Amended(1) by P8171 'The Tiger Team' (G.), 27 Apr 2019
-Amended(2) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
+Amended(2) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
 Amended(3) by P8411 'Contract Lawyers' (R. Lee), 14 Jun 2020
 Amended(4) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 
@@ -7259,8 +7237,9 @@ Annual Awards
 History:
 
 Enacted by P8109 'Patent Diversity' (G.), 27 Oct 2018
-Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
-Amended(2) by P8574 'mending the quill' (Trigon, Jason, Aris), 23 Jun
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
+Amended(2) by P8574 'mending the quill' (Trigon, Jason, Aspen), 23 Jun
    2021
 
 Annotations:
@@ -7337,13 +7316,13 @@ Amended(23) by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
 Amended(24) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
 Amended(25) by P8117 'Fix for Uncertain Laurelings' (D. Margaux, twg),
    12 Nov 2018
-Amended(26) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep
+Amended(26) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
    2019
-Amended(27) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+Amended(27) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
 Amended(28) by P8340 'The Paradox of Self-Appointment' (Alexis), 24 Feb
    2020
-Amended(29) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris,
+Amended(29) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Jason), 11 Feb 2021
 
 Annotations:
@@ -7383,7 +7362,7 @@ Amended(2) by P7817 'Prime Minister Voting Strength' (aranea), 28 Oct
    2016
 Amended(3) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(4) by cleaning (Murphy), 03 Nov 2019
-Amended(5) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+Amended(5) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
 
 Annotations:
@@ -7401,9 +7380,10 @@ Motion of No Confidence
 History:
 
 Enacted by P7800 'Motion of No Confidence' (Henri), 19 Jul 2016
-Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
-Amended(2) by P8434 'Majoritarian Confidence' (Aris), 18 Jun 2020
-Amended(3) by P8435 'No Confidence Isn't Personal' (Aris), 18 Jun 2020
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
+Amended(2) by P8434 'Majoritarian Confidence' (Aspen), 18 Jun 2020
+Amended(3) by P8435 'No Confidence Isn't Personal' (Aspen), 18 Jun 2020
 
 Annotations:
 
@@ -7445,7 +7425,7 @@ Power changed from 1.7 to 2.0 by P7964 'Referee Reform and Card
    Appealability' (R. Lee), 07 Nov 2017
 Amended(5) by P7964 'Referee Reform and Card Appealability' (R. Lee), 07
    Nov 2017
-Amended(6) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
+Amended(6) by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
 Amended(7) by P8235 'Unified fine creation syntax' (Jason), 18 Sep 2019
 Amended(8) by cleaning (Murphy), 03 Nov 2019
 
@@ -7463,8 +7443,9 @@ The Distributor
 
 History:
 
-Enacted by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
-Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
+Enacted by P8051 'Zombie Overhaul v1.0' (G., Aspen), 14 Jun 2018
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
 Amended(2) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul 2020
 Amended(3) by P8546 'Talisn't' (G.), 10 Mar 2021
 
@@ -7584,11 +7565,12 @@ Tournaments
 History:
 
 Enacted by P7809 'Quill and Tournaments' (G.), 11 Sep 2016
-Amended(1) by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun 2017
+Amended(1) by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun
+   2017
 Amended(2) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(3) by P8032 'Free Tournaments' (G.), 06 Apr 2018
-Amended(4) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
-Amended(5) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
+Amended(4) by P8076 'Regulation Patches' (Aspen, G.), 26 Jul 2018
+Amended(5) by P8364 'Mint Regulations' (Aspen), 04 Apr 2020
 
 Annotations:
 
@@ -7610,8 +7592,9 @@ Free Tournaments
 History:
 
 Enacted by P8032 'Free Tournaments' (G.), 06 Apr 2018
-Amended(1) by P8221 'Usage de-capitalization' (Jason, Aris), 05 Sep 2019
-Amended(2) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(1) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
+   2019
+Amended(2) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
 
 Annotations:
 
@@ -7641,9 +7624,9 @@ The Birthday Tournament
 
 History:
 
-Enacted by P7865 'Regulations v4' (Aris, o, nch, ais523), 27 Jun 2017
+Enacted by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun 2017
 Amended(1) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
-Amended(2) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
+Amended(2) by P8076 'Regulation Patches' (Aspen, G.), 26 Jul 2018
 
 Annotations:
 
