@@ -1,5 +1,5 @@
 id: RA1
-name: General Enforcement Policies
+name: Tardiness
 text: |
   If a Referee wishes to impose the Cold Hand of Justice on any perp
   for the Class 2 Crime of Tardiness, e is strongly RECOMMENDED to
@@ -16,3 +16,8 @@ history:
   date: 2021-01-31
   agent:
     person: JTAC
+- change:
+    type: retitling
+  date: 2021-07-17
+  agent:
+    person: R. Lee
