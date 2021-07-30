@@ -1,15 +1,9 @@
 id: RA1
 name: Tardiness
 text: |
-  If a Referee wishes to impose the Cold Hand of Justice on any perp
-  for the Class 2 Crime of Tardiness, e is strongly RECOMMENDED to
-  specify the violation as forgivable, unless the perp has
-  consecutively committed the violation or the evidence indicates
-  that the perp has used or has attempted to use the violation as
-  part of a plan to abuse eir official position.
-
-  Referees are ENCOURAGED to amend this regulation to specify best
-  practices for other crimes and violations.
+  The Referee SHALL NOT impose a fine above one blot for Tardiness
+  unless the Tardiness is for an obligation which has been missed
+  for more than 14 days, or unless the Tardiness is intentional
 history:
 - change:
     type: enactment
@@ -18,6 +12,11 @@ history:
     person: JTAC
 - change:
     type: retitling
+  date: 2021-07-17
+  agent:
+    person: R. Lee
+- change:
+    type: amendment
   date: 2021-07-17
   agent:
     person: R. Lee
