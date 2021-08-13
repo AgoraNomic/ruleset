@@ -15,10 +15,14 @@ text: |
   "initiation message"). The bidding period starts at this point.
 
   BIDDING: Players CAN place a bid on an auction in its bidding
-  period by creating a public message (henceforth a "bid message")
-  specifying a number of the auction's currency as eir bid not equal
-  to the bid of another player. Players CAN withdraw from an open
-  auction by announcement.
+  period by creating a public message (henceforth a "bid message").
+  Players CAN withdraw from an open auction by announcement.
+
+  EXCLUSIVITY: Bids in an auction are grouped into classes of that
+  auction. Unless otherwise specified, all bids in a given auction
+  are in a single class. A bid CANNOT be made if, in the class it
+  would be in, another bid already exists with the bid amount of the
+  hypothetical bid.
 
   TERMINATION: The bidding period ends four days after the final
   instance of any of the following events' occurance:
@@ -78,5 +82,10 @@ history:
 - change:
     type: amendment
   date: 2021-05-05
+  agent:
+    person: Trigon
+- change:
+    type: amendment
+  date: 2021-08-02
   agent:
     person: Trigon

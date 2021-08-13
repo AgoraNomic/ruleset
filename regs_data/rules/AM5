@@ -5,9 +5,11 @@ text: |
 
   * Bidding messages on a selective-bid auction must also specify a
     lot that is preferred.
+  * One bid class exists for each lot of a given auction, with bids
+    falling into the class for the specified lot.
   * The Nth awardee of a selective-bid auction is the player who
-    placed the highest active bid whose preferred bid is the Nth
-    lot.
+    placed the highest bid in the set of bids made by funded, non
+    withdrawn players whose preferred bid is the Nth lot.
 history:
 - change:
     type: enactment
@@ -17,5 +19,15 @@ history:
 - change:
     type: amendment
   date: 2021-05-05
+  agent:
+    person: Trigon
+- change:
+    type: amendment
+  date: 2021-08-02
+  agent:
+    person: Trigon
+- change:
+    type: amendment
+  date: 2021-08-02
   agent:
     person: Trigon
