@@ -2,7 +2,7 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 30 Jul 2021
+Date of this ACORN: 13 Aug 2021
 
 ------------------------------------------------------------------------
 
@@ -32,7 +32,7 @@ Auction Regulations
    This section has the regulations, written by the Treasuror, governing
    how auctions proceed.
 ------------------------------------------------------------------------
-Regulation AM0/2
+Regulation AM0/3
 Generalized Auction
 
       Generalized auctions exist to give context to the form of other
@@ -49,10 +49,14 @@ Generalized Auction
       "initiation message"). The bidding period starts at this point.
       
       BIDDING: Players CAN place a bid on an auction in its bidding
-      period by creating a public message (henceforth a "bid message")
-      specifying a number of the auction's currency as eir bid not equal
-      to the bid of another player. Players CAN withdraw from an open
-      auction by announcement.
+      period by creating a public message (henceforth a "bid message").
+      Players CAN withdraw from an open auction by announcement.
+      
+      EXCLUSIVITY: Bids in an auction are grouped into classes of that
+      auction. Unless otherwise specified, all bids in a given auction
+      are in a single class. A bid CANNOT be made if, in the class it
+      would be in, another bid already exists with the bid amount of the
+      hypothetical bid.
       
       TERMINATION: The bidding period ends four days after the final
       instance of any of the following events' occurance:
@@ -104,6 +108,7 @@ History:
 Enacted by Trigon, 08 Aug 2020
 Amended(1) by Trigon, 28 Mar 2021
 Amended(2) by Trigon, 05 May 2021
+Amended(3) by Trigon, 02 Aug 2021
 
 Annotations:
 
@@ -189,21 +194,25 @@ Amended(1) by Trigon, 05 May 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Regulation AM5/1
+Regulation AM5/3
 Selective-bid Auctions
 
       Selective-bit auctions function like generalized auctions except:
       
       * Bidding messages on a selective-bid auction must also specify a
         lot that is preferred.
+      * One bid class exists for each lot of a given auction, with bids
+        falling into the class for the specified lot.
       * The Nth awardee of a selective-bid auction is the player who
-        placed the highest active bid whose preferred bid is the Nth
-        lot.
+        placed the highest bid in the set of bids made by funded, non
+        withdrawn players whose preferred bid is the Nth lot.
 
 History:
 
 Enacted by Trigon, 08 Aug 2020
 Amended(1) by Trigon, 05 May 2021
+Amended(2) by Trigon, 02 Aug 2021
+Amended(3) by Trigon, 02 Aug 2021
 
 Annotations:
 
