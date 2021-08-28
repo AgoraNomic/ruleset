@@ -68,20 +68,30 @@ data class RuleCategoryMapping(
 }
 
 data class CategorizedRulesetState(
-    val ruleset: RulesetState,
+    val categorizedRules: RulesetState,
     private val categoryMapping: RuleCategoryMapping,
 ) {
-    init {
-        require(ruleset.ruleNumbers.containsAll(categoryMapping.categorizedRuleNumbers))
+    companion object {
+        fun selectCategorized(
+            fullRulesetState: RulesetState,
+            categoryMapping: RuleCategoryMapping,
+        ): CategorizedRulesetState {
+            return CategorizedRulesetState(
+                categorizedRules = fullRulesetState.rulesetByNumbers(categoryMapping.categorizedRuleNumbers),
+                categoryMapping = categoryMapping,
+            )
+        }
     }
 
-    val categorizedRuleNumbers get() = categoryMapping.categorizedRuleNumbers
-    val categorizedRules by lazy { ruleset.rulesetByNumbers(categorizedRuleNumbers) }
+    init {
+        require(categorizedRules.ruleNumbers == categoryMapping.categorizedRuleNumbers)
+    }
+
     val categories get() = categoryMapping.categories
 
     fun ruleNumbersIn(categoryId: CategoryId) = categoryMapping.ruleNumbersIn(categoryId)
 
     fun rulesIn(categoryId: CategoryId): List<RuleState> {
-        return ruleset.rulesByNumbers(ruleNumbersIn(categoryId))
+        return categorizedRules.rulesByNumbers(ruleNumbersIn(categoryId))
     }
 }

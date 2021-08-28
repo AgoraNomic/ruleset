@@ -203,8 +203,8 @@ private fun Iterable<RuleNumber>.requireIntegralMax(): BigInteger {
 /**
  * Formats a full-readable ruleset, handling the following tags:
  * - `{num}`: the number of enacted rules.
- * - `{her}`: the rule number of the highest categorized (enacted) rule in [rulesetState], failing if not all rules have integral numbers.
- * - `{hr}`: the rule number of the highest rule in [rulesetState], failing if not all rules have integral numbers.
+ * - `{her}`: the rule number of the highest categorized (enacted) rule in [fullRulesetState], failing if not all rules have integral numbers.
+ * - `{hr}`: the rule number of the highest rule in [fullRulesetState], failing if not all rules have integral numbers.
  * - `{hp}`: [proposalStatistics]'s [highestProposal][ProposalStatistics.highestProposal], failing if [proposalStatistics] is null.
  * - `{line}`: a line of hyphens with line length determined by [config].
  * - `{toc}`: a table of contents of the rules.
@@ -213,14 +213,23 @@ private fun Iterable<RuleNumber>.requireIntegralMax(): BigInteger {
  *
  * `{ruleset}` is processed last (thus not handling substitutions in rule text). All other substitutions are processed
  * in an unspecified order.
+ *
+ * @param fullRulesetState the set of all current or previous rules
+ * @param categoryMapping the mapping of categories to currently enacted rules
  */
 fun formatReadable(
     template: String,
     config: ReadableReportConfig,
-    rulesetState: CategorizedRulesetState,
+    fullRulesetState: RulesetState,
+    categoryMapping: RuleCategoryMapping,
     proposalStatistics: ProposalStatistics?,
 ): String {
-    val renderedRules = rulesetState.categorizedRules
+    val categorizedRulesetState = CategorizedRulesetState.selectCategorized(
+        fullRulesetState = fullRulesetState,
+        categoryMapping = categoryMapping,
+    )
+
+    val renderedRules = categorizedRulesetState.categorizedRules
     require(renderedRules.isNotEmpty())
 
     return template
@@ -233,7 +242,7 @@ fun formatReadable(
         }
         .let { string ->
             if (string.contains("{hr}"))
-                string.replace("{hr}", rulesetState.ruleset.ruleNumbers.requireIntegralMax().toString())
+                string.replace("{hr}", fullRulesetState.ruleNumbers.requireIntegralMax().toString())
             else
                 string
         }
@@ -244,7 +253,7 @@ fun formatReadable(
                 it
         }
         .replace("{line}", "-".repeat(config.maxLineLength))
-        .replace("{toc}", formatTableOfContents(rulesetState, entityKind = config.entityKind))
+        .replace("{toc}", formatTableOfContents(categorizedRulesetState, entityKind = config.entityKind))
         .replace("{powers}", formatPowers(renderedRules))
-        .replace("{ruleset}", formatRuleset(rulesetState, config))
+        .replace("{ruleset}", formatRuleset(categorizedRulesetState, config))
 }

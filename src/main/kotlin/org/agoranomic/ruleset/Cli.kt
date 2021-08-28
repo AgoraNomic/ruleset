@@ -206,7 +206,8 @@ private class RulekeeporCommand : CliktCommand() {
             formatReadable(
                 template = templateWithHeaderReplaced,
                 config = reportConfig,
-                rulesetState = CategorizedRulesetState(rulesetState, ruleCategoryMapping),
+                fullRulesetState = rulesetState,
+                categoryMapping = ruleCategoryMapping,
                 proposalStatistics = proposalStats,
             ).let {
                 Files.writeString(
