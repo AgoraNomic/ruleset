@@ -71,6 +71,9 @@ private class RulekeeporCommand : CliktCommand() {
         help = "name format for output files, replacing {} with rule number")
         .default("{}.txt")
 
+    val generatedIndexOutFile by option("--generated-index-out-file", help = "where to write a generated JSON index")
+        .path(mustExist = false, canBeDir = false)
+
     val headerPath by option("--header-file")
         .path(mustExist = false, canBeDir = false)
 
@@ -249,6 +252,22 @@ private class RulekeeporCommand : CliktCommand() {
                         StandardOpenOption.TRUNCATE_EXISTING,
                     )
                 }
+            }
+        }
+
+        val generatedIndexOutFile = generatedIndexOutFile
+        if (generatedIndexOutFile != null) {
+            formatJsonIndex(
+                fullRulesetState = rulesetState,
+                categoryMapping = ruleCategoryMapping
+            ).let {
+                Files.writeString(
+                    generatedIndexOutFile,
+                    it,
+                    FILE_CHARSET,
+                    StandardOpenOption.CREATE,
+                    StandardOpenOption.TRUNCATE_EXISTING,
+                )
             }
         }
     }

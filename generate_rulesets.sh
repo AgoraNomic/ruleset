@@ -42,6 +42,7 @@ COMMON_RULESET_OPTIONS=(
   --out-file "$OUT_DIR/flr.txt" \
   --out-dir "$OUT_DIR/full_rules" \
   --out-dir-name-format "R{}.txt" \
+  --generated-index-out-file "$OUT_DIR/rule_index.json" \
   --history \
   --annotations
 
