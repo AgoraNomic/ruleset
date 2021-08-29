@@ -1,6 +1,8 @@
 package org.agoranomic.ruleset
 
 import com.github.ajalt.clikt.core.CliktCommand
+import com.github.ajalt.clikt.parameters.groups.OptionGroup
+import com.github.ajalt.clikt.parameters.groups.cooccurring
 import com.github.ajalt.clikt.parameters.options.default
 import com.github.ajalt.clikt.parameters.options.flag
 import com.github.ajalt.clikt.parameters.options.option
@@ -45,16 +47,22 @@ private fun causeNameResolverForMap(nameReplacementMap: Map<String, String>): Ca
     }
 }
 
-private class RulekeeporCommand : CliktCommand() {
+private class SingleFileOutputGroup : OptionGroup() {
+    val outFile by option("--out-file", help = "output file")
+        .path(mustExist = false, canBeDir = false)
+        .required()
+
     val templateFile by option("--template-file", help = "file with ruleset template")
         .path(mustExist = true, canBeDir = false, mustBeReadable = true)
+        .required()
+}
 
+private class RulekeeporCommand : CliktCommand() {
     val indexFile by option("--index-file", help = "file with rule index")
         .path(mustExist = true, canBeDir = false, mustBeReadable = true)
         .required()
 
-    val outFile by option("--out-file", help = "output file")
-        .path(mustExist = false, canBeDir = false)
+    val outFileGroup by SingleFileOutputGroup().cooccurring()
 
     val outDir by option("--out-dir", help = "output directory for individual rules")
         .path(mustExist = false, canBeFile = false)
@@ -185,13 +193,10 @@ private class RulekeeporCommand : CliktCommand() {
             includeAnnotations = includeAnnotations,
         )
 
-        if (outFile != null) {
-            val templateFile = templateFile
+        val outFileGroup = outFileGroup
 
-            if (templateFile == null) {
-                echo("--template-file must be specified if full ruleset output is requested", err = true)
-                exitProcess(1)
-            }
+        if (outFileGroup != null) {
+            val templateFile = outFileGroup.templateFile
 
             val templateWithHeaderReplaced = run {
                 val originalTemplate = Files.readString(templateFile, FILE_CHARSET)
@@ -211,7 +216,7 @@ private class RulekeeporCommand : CliktCommand() {
                 proposalStatistics = proposalStats,
             ).let {
                 Files.writeString(
-                    outFile,
+                    outFileGroup.outFile,
                     it,
                     FILE_CHARSET,
                     StandardOpenOption.CREATE,
