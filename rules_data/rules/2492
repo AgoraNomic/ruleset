@@ -11,9 +11,10 @@ text: |
   timely fashion after the time limit expires, if able. The Arbitor
   CAN recuse an inactive or deregistered judge by announcement.
 
-  If a judge is recused from a case 4+ days after being assigned to
-  it, e SHOULD NOT be assigned as a judge until e has apologised and
-  or reasonably explained eir actions.
+  If a judge is recused from a case that was continuously open and
+  assigned to em for at least the past 4 days, e SHOULD NOT be
+  assigned as a judge until e has apologised and/or reasonably
+  explained eir actions.
 history:
 - change:
     type: enactment
@@ -46,4 +47,9 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8532"
+- change:
+    type: amendment
+  date: 2021-08-30
+  agent:
+    proposal: "8601"
 annotations: []
