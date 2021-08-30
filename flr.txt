@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 29 Jul 2021
+Date of this ruleset: 30 Aug 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 143
+Number of rules currently enacted: 145
 
-Highest ID'd rule in this ruleset: 2653
-Highest ID'd Proposal Passed: 8595
-Highest ID'd Rule Enacted: 2653
+Highest ID'd rule in this ruleset: 2655
+Highest ID'd Proposal Passed: 8601
+Highest ID'd Rule Enacted: 2655
 
 ------------------------------------------------------------------------
 
@@ -148,6 +148,9 @@ Stones
    * Rule 2643: Collecting Stones
    * Rule 2644: The Gauntlet
    * Rule 2645: The Stones
+The Device
+   * Rule 2654: The Device
+   * Rule 2655: The Mad Engineer
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -185,7 +188,7 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-42 with Power=1
+44 with Power=1
 2  with Power=1.5
 5  with Power=1.7
 34 with Power=2
@@ -383,7 +386,7 @@ Amended(36) by P7614 'Just Not Rights' (G.), 13 Jan 2014
 Amended(37) by P7619 'Rules can't violate rules!' (woggle), 24 Jan 2014
 Amended(38) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(39) by P7734 'Protest Noted' (G.), 02 May 2015
-Amended(40) by P7810 'Cleerer Registrar Responsibilities' (nch), 11 Sep
+Amended(40) by P7810 'Cleerer Registrar Responsibilities' (nix), 11 Sep
    2016
 Amended(41) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
@@ -499,7 +502,7 @@ Amended(30) by P7073 'Compression Artifact' (woggle), 16 Jun 2011
 Amended(31) by P7614 'Just Not Rights' (G.), 13 Jan 2014
 Amended(32) by P7632 'All Activity is Good Activity' (Alexis), 01 May
    2014
-Amended(33) by P7810 'Cleerer Registrar Responsibilities' (nch), 11 Sep
+Amended(33) by P7810 'Cleerer Registrar Responsibilities' (nix), 11 Sep
    2016
 Amended(34) by R2430, 24 May 2017
 Amended(35) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18
@@ -716,7 +719,7 @@ Amended(7) by P7586 'Self-ratification, victory, office changes' (omd),
    24 Aug 2013
 Amended(8) by P7632 'All Activity is Good Activity' (Alexis), 01 May
    2014
-Amended(9) by P7810 'Cleerer Registrar Responsibilities' (nch), 11 Sep
+Amended(9) by P7810 'Cleerer Registrar Responsibilities' (nix), 11 Sep
    2016
 Amended(10) by R2430, 24 May 2017
 Amended(11) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
@@ -726,9 +729,9 @@ Amended(13) by P8176 'Zombies take care of this now' (G.), 13 May 2019
 Amended(14) by P8273 'Clean up your own mess, without making a bigger
    one' (Gaelan, Jason), 11 Nov 2019
 Amended(15) by P8422 'No More Numbers!' (Publius Scribonius
-   Scholasticus, G., Trigon, Aspen, nch), 14 Jun 2020
+   Scholasticus, G., Trigon, Aspen, nix), 14 Jun 2020
 Amended(16) by P8422 'No More Numbers!' (Publius Scribonius
-   Scholasticus, G., Trigon, Aspen, nch), 14 Jun 2020
+   Scholasticus, G., Trigon, Aspen, nix), 14 Jun 2020
 Amended(17) by P8423 'Removing Repetition' (Publius Scribonious
    Scholasticus, G.), 14 Jun 2020
 
@@ -985,7 +988,7 @@ Amended(6) by P6269 'Good Sportspersonship' (Pavitra), 11 May 2009
 Amended(7) by P6327 'Does a public message have the <X> nature?'
    (Murphy), 29 May 2009
 Amended(8) by P7614 'Just Not Rights' (G.), 13 Jan 2014
-Amended(9) by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun
+Amended(9) by P7865 'Regulations v4' (Aspen, o, nix, ais523), 27 Jun
    2017
 Amended(10) by P7928 'no we can't' (G.), 22 Oct 2017
 Amended(11) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aspen,
@@ -1119,7 +1122,7 @@ Amended(33) by P7641 'Relative Months' (Alexis), 12 May 2014
 Amended(34) by P7686 'Cleanup' (omd), 07 Aug 2014
 Amended(35) by P7760 'Next Win System' (G.), 19 Jul 2015
 Amended(36) by R2430, 24 May 2017
-Amended(37) by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun
+Amended(37) by P7865 'Regulations v4' (Aspen, o, nix, ais523), 27 Jun
    2017
 Amended(38) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
@@ -1302,7 +1305,7 @@ Enacted by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan), 27
 Amended(1) by P8236 'Definition de-capitalization' (Jason, Aspen), 18
    Sep 2019
 Amended(2) by P8422 'No More Numbers!' (Publius Scribonius Scholasticus,
-   G., Trigon, Aspen, nch), 14 Jun 2020
+   G., Trigon, Aspen, nix), 14 Jun 2020
 
 Annotations:
 
@@ -1699,7 +1702,7 @@ Amended(10) by P8104 'Pending is Pointless' (G., Aspen), 27 Oct 2018
 Amended(11) by cleaning (Trigon), 04 Nov 2018
 Amended(12) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
-Amended(13) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+Amended(13) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(14) by P8415 'Proposal Recycling Initiative' (Aspen), 14 Jun
    2020
@@ -1737,11 +1740,11 @@ Pending Proposals
 
 History:
 
-Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(1) by P8413 'Why Track Pendency?' (Aspen), 14 Jun 2020
 Amended(2) by cleaning (Jason), 29 Jun 2020
-Amended(3) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul 2020
+Amended(3) by P8470 'Sponsored Proposals' (nix, G., Trigon), 08 Jul 2020
 Amended(4) by P8564 'Sponsorship is not Co-authorship' (Aspen), 14 Jun
    2021
 
@@ -1924,7 +1927,7 @@ Amended(46) by P8269 'Clean up distribution mechanisms' (omd), 11 Nov
    2019
 Amended(47) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
-Amended(48) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+Amended(48) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(49) by P8418 'Referenda' (Aspen), 14 Jun 2020
 Amended(50) by P8428 'Pending Pends' (Aspen), 14 Jun 2020
@@ -2109,12 +2112,12 @@ Popular Proposal Proposer Privilege
 
 History:
 
-Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(1) by P8417 'Properly Prioritized Popular Proposal Proposer
    Privilege' (Aspen, G.), 14 Jun 2020
 Amended(2) by P8418 'Referenda' (Aspen), 14 Jun 2020
-Amended(3) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul 2020
+Amended(3) by P8470 'Sponsored Proposals' (nix, G., Trigon), 08 Jul 2020
 Amended(4) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 
 Annotations:
@@ -2566,7 +2569,7 @@ Regulations
 
 History:
 
-Enacted by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun 2017
+Enacted by P7865 'Regulations v4' (Aspen, o, nix, ais523), 27 Jun 2017
 Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(2) by P7925 'Safety Regulations v2' (Aspen, Alexis), 22 Oct 2017
 Amended(3) by P8056 'Deregulation Act v2' (Aspen, G.), 01 Jul 2018
@@ -3181,7 +3184,7 @@ Retitled by P7753 'Title Caps Fix' (Alexis), 30 Jun 2015
 Amended(11) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
 Amended(12) by R2430, 24 May 2017
 Amended(13) by P8083 'quorum fixes' (G.), 01 Oct 2018
-Amended(14) by P8468 'Decision resolution patch' (Jason, nch, G.), 08
+Amended(14) by P8468 'Decision resolution patch' (Jason, nix, G.), 08
    Jul 2020
 
 Annotations:
@@ -3406,7 +3409,7 @@ Amended(4) by cleaning (Falsifian), 28 Apr 2019
 Amended(5) by cleaning (Murphy), 03 Nov 2019
 Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Jason, twg), 29 Jan 2020
-Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+Amended(7) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(8) by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct
    2020
@@ -3783,7 +3786,7 @@ History:
 Enacted by P8448 'Populist Administration' (Aspen, Alexis, Falsifian),
    30 Jun 2020
 Amended(1) by P8469 'Bureaucratic Reenginerring' (Aspen, Alexis,
-   Falsifian, nch, G.), 08 Jul 2020
+   Falsifian, nix, G.), 08 Jul 2020
 
 Annotations:
 
@@ -4030,7 +4033,7 @@ Amended(10) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(11) by P7651 'Sillier Scams' (Alexis), 03 Jun 2014
 Amended(12) by P7652 'Deputy Cleanup' (Alexis), 03 Jun 2014
 Amended(13) by P7713 'Speedliness' (the Warrigal), 09 Nov 2014
-Amended(14) by P7804 'Fixed Easier Deputisation' (nch), 31 Jul 2016
+Amended(14) by P7804 'Fixed Easier Deputisation' (nix), 31 Jul 2016
 Amended(15) by R2430, 24 May 2017
 Amended(16) by P7918 'Vacant Deputisation Fix' (Publius Scribonius
    Scholasticus), 15 Oct 2017
@@ -4227,7 +4230,7 @@ Amended(23) by P7697 'Non-timed duty accuracy' (omd), 23 Oct 2014
 Amended(24) by P7704 'Fixes the Oxford comma issue, too' (G.), 03 Nov
    2014
 Amended(25) by R2430, 24 May 2017
-Amended(26) by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun
+Amended(26) by P7865 'Regulations v4' (Aspen, o, nix, ais523), 27 Jun
    2017
 Amended(27) by P8030 'PAoaM Patch v4' (Aspen, Gaelan, Trigon, G.), 30
    Mar 2018
@@ -4332,7 +4335,7 @@ The Webmastor
 
 History:
 
-Enacted by P8388 'The Webmastor' (nch), 03 Jun 2020
+Enacted by P8388 'The Webmastor' (nix), 03 Jun 2020
 
 Annotations:
 
@@ -4578,7 +4581,7 @@ Amended(4) by P8235 'Unified fine creation syntax' (Jason), 18 Sep 2019
 Amended(5) by cleaning (Alexis), 23 Jan 2020
 Amended(6) by P8345 'Self-punishment' (Jason), 10 Mar 2020
 Amended(7) by P8350 'Apologies Don't Interfere' (Alexis), 21 Mar 2020
-Amended(8) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+Amended(8) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(9) by P8427 'Slap on the wrist' (R. Lee), 14 Jun 2020
 Amended(10) by P8537 'Unofficial injustice' (G.), 03 Feb 2021
@@ -4915,7 +4918,7 @@ Amended(16) by P7629 'Do Things' (Alexis), 07 Apr 2014
 Amended(17) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Amended(18) by P7777 'Simplified moot fix' (omd), 14 Aug 2015
 Amended(19) by P7803 'Self-service judiciary' (G.), 31 Jul 2016
-Amended(20) by P7867 'Economics Overhaul v2' (nch, o, grok, Aspen), 30
+Amended(20) by P7867 'Economics Overhaul v2' (nix, o, grok, Aspen), 30
    Jul 2017
 Amended(21) by P7876 'Float On' (o), 26 Sep 2017
 Amended(22) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
@@ -5257,7 +5260,7 @@ Amended(9) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2492/5 (Power=1)
+Rule 2492/6 (Power=1)
 Recusal
 
       A judge CAN recuse emself from a CFJ e is assigned to by
@@ -5269,9 +5272,10 @@ Recusal
       timely fashion after the time limit expires, if able. The Arbitor
       CAN recuse an inactive or deregistered judge by announcement.
       
-      If a judge is recused from a case 4+ days after being assigned to
-      it, e SHOULD NOT be assigned as a judge until e has apologised and
-      or reasonably explained eir actions.
+      If a judge is recused from a case that was continuously open and
+      assigned to em for at least the past 4 days, e SHOULD NOT be
+      assigned as a judge until e has apologised and/or reasonably
+      explained eir actions.
 
 History:
 
@@ -5281,6 +5285,7 @@ Amended(2) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(3) by ruleset ratification, 14 Apr 2018
 Amended(4) by P8215 'recusal simplification' (G.), 05 Sep 2019
 Amended(5) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
+Amended(6) by P8601 'Adjust late recusal' (Murphy, Telna), 30 Aug 2021
 
 Annotations:
 
@@ -5375,7 +5380,7 @@ Amended(1) by P7862 'Betterer Pledges' (Quazie), 27 Jun 2017
 Amended(2) by P7866 'More Betterer Pledges' (o, Aspen, Quazie, G.,
    Gaelan, D.F.F.), 16 Jul 2017
 Amended(3) by P7901 'Make Your Home Shine' (o, Cuddlebeam, Ørjan, R.
-   Lee, nch), 03 Oct 2017
+   Lee, nix), 03 Oct 2017
 Amended(4), 11 Jun 2018
 Amended(5) by P8060 'Notary-B-Gone' (R. Lee), 18 Jul 2018
 Amended(6) by P8303 'Contract Patency v3' (Aspen, Gaelan, Jason,
@@ -5722,7 +5727,7 @@ Amended(20) by P7586 'Self-ratification, victory, office changes' (omd),
    24 Aug 2013
 Amended(21) by P7617 'A Complex Game 2' (G.), 16 Jan 2014
 Repealed by P7629 'Do Things' (Alexis), 07 Apr 2014
-Re-enacted(22) and amended by P7864 (Aspen, G., o, nch, P.S.S.), 27 Jun
+Re-enacted(22) and amended by P7864 (Aspen, G., o, nix, P.S.S.), 27 Jun
    2017
 Amended(23) by P7868 'Minor economic fixes' (Murphy), 30 Jul 2017
 Amended(24) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
@@ -5929,10 +5934,10 @@ Economics
 
 History:
 
-Enacted by P7838 'Simple Economics v2' (o, nch, G., Ørjan), 05 Dec 2016
+Enacted by P7838 'Simple Economics v2' (o, nix, G., Ørjan), 05 Dec 2016
 Amended(1) by P7841 'Payday Cleanup' (o, G.), 01 Mar 2017
-Amended(2) by P7842 'Economic Flexibility v2' (nch, o), 01 Mar 2017
-Amended(3) by P7864 (Aspen, G., o, nch, P.S.S.), 27 Jun 2017
+Amended(2) by P7842 'Economic Flexibility v2' (nix, o), 01 Mar 2017
+Amended(3) by P7864 (Aspen, G., o, nix, P.S.S.), 27 Jun 2017
 Amended(4) by P7898 'Community Chest' (G.), 26 Sep 2017
 Amended(5) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
@@ -5948,7 +5953,7 @@ Amended(11) by P8070 'Crackdown on minting (reindustrialisation
    edition)' (twg), 26 Jul 2018
 Amended(12) by P8110 'Delenda Est' (G., Aspen, Trigon), 27 Oct 2018
 Amended(13) by P8186 'Minor currency fixes' (Jason), 22 Jun 2019
-Amended(14) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+Amended(14) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(15) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
    Jason, ATMunn), 28 Oct 2020
@@ -6049,7 +6054,7 @@ Rewards
 
 History:
 
-Enacted by P7867 'Economics Overhaul v2' (nch, o, grok, Aspen), 30 Aug
+Enacted by P7867 'Economics Overhaul v2' (nix, o, grok, Aspen), 30 Aug
    2017
 Amended(1) by P7871 'Minor fixes (sans typos)' (R. Lee), 07 Sep 2017
 Amended(2) by P7876 'Float On' (o), 26 Sep 2017
@@ -6081,7 +6086,7 @@ Amended(18) by P8386 'Restraining Motions' (G.), 22 May 2020
 Amended(19) by P8418 'Referenda' (Aspen), 14 Jun 2020
 Amended(20) by P8431 'Proposal Reward Trimming' (Aspen, ais523), 18 Jun
    2020
-Amended(21) by P8470 'Sponsored Proposals' (nch, G., Trigon), 08 Jul
+Amended(21) by P8470 'Sponsored Proposals' (nix, G., Trigon), 08 Jul
    2020
 Amended(22) by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug
    2020
@@ -6148,33 +6153,35 @@ Cards & Sets
 
 History:
 
-Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(1) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2621/4 (Power=1.0)
+Rule 2621/5 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Victory Points than any other
       player, e CAN Take Over the Economy by announcement, provided no
-      person has done so in the past 30 days.
+      person has won the game by doing so in the past 30 days.
       
       When a player takes over the economy, e wins the game. Four days
-      later, all Cards and all Products are destroyed. Then, each active
-      player gains 1 card of each type and eir grant (if any).
+      after such a win occurs, all Cards and all Products are destroyed.
+      Then, each active player gains 1 card of each type and eir grant
+      (if any).
 
 History:
 
-Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(1) by P8511 'VP Win Indirection' (Baron von Vanderham, Jason,
    Trigon), 28 Oct 2020
 Amended(2) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Amended(3) by P8543 'En Passant v2' (Jason, Aspen, nix), 02 Mar 2021
 Amended(4) by P8581 'Grants on Resets' (Aspen), 23 Jun 2021
+Amended(5) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 
 Annotations:
 
@@ -6197,7 +6204,7 @@ Victory Auctions
 
 History:
 
-Enacted by P8446 'Victory Auctions' (G., nch), 30 Jun 2020
+Enacted by P8446 'Victory Auctions' (G., nix), 30 Jun 2020
 
 Annotations:
 
@@ -6221,7 +6228,7 @@ Card Administration
 
 History:
 
-Enacted by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius Scribonius
+Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
    Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(1) by P8477 'More officer cards' (Jason), 27 Jul 2020
 Amended(2) by P8489 'Interesting economics' (Jason), 08 Sep 2020
@@ -6271,7 +6278,7 @@ Welcome Packages
 
 History:
 
-Enacted by P7867 'Economics Overhaul v2' (nch, o, grok, Aspen), 30 Jul
+Enacted by P7867 'Economics Overhaul v2' (nix, o, grok, Aspen), 30 Jul
    2017
 Amended(1) by P7882 'Welcome Package CAN Patch' (o, K, ais523), 26 Sep
    2017
@@ -6283,7 +6290,7 @@ Amended(4) by P8072 'Steel Based Manufacturing v3' (Aspen, twg), 26 Jul
    2018
 Amended(5) by P8092 'Yet Another Economics Patch' (twg), 17 Sep 2018
 Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
-Amended(7) by P8408 'Sets v1.4' (nch, Trigon, Falsifian, Publius
+Amended(7) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(8) by P8458 'Welcome Package Patch' (Aspen), 30 Jun 2020
 Amended(9) by P8472 'Welcoming Back Outlaws, etc.' (Aspen), 08 Jul 2020
@@ -6376,7 +6383,7 @@ Auctions
 
 History:
 
-Enacted by P7975 'Auctions v6' (ATMunn, o, Aspen, nch, G.), 26 Nov 2017
+Enacted by P7975 'Auctions v6' (ATMunn, o, Aspen, nix, G.), 26 Nov 2017
 Amended(1) by P8054 'Minimalist Contracts v2' (Aspen, G., R. Lee), 01
    Jul 2018
 Amended(2) by P8113 'Auction cleanup' (Trigon), 12 Nov 2018
@@ -6497,16 +6504,16 @@ Amended(2) by P8542 'Stone Excitement Act' (Jason, Aspen), 02 Mar 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2644/2 (Power=2)
+Rule 2644/3 (Power=2)
 The Gauntlet
 
       A player CAN, by announcement, Notice the Gauntlet, specifying a
       single player that owns 5 or more stones, provided that no person
-      has done so in the past 30 days.
+      has won the game by doing so in the past 30 days.
       
       When the Gauntlet is Noticed, the specified player wins the game.
-      If the Gauntlet was Noticed 4 days ago, then all existing stones
-      are transferred to Agora.
+      If a player won the game in this manner 4 days ago, then all
+      existing stones are transferred to Agora.
 
 History:
 
@@ -6514,6 +6521,7 @@ Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 Amended(1) by P8571 'Gauntlet announcement patch' (Jason), 14 Jun 2021
 Amended(2) by P8575 'Stone Win Delay v2' (Jason, Gaelan), 23 Jun 2021
+Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 
 Annotations:
 
@@ -6559,6 +6567,73 @@ Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
+The Device
+   A game in which the Mad Engineer amends the rules to randomly add
+   abilities to the Device, either when it's on or when it's off.
+------------------------------------------------------------------------
+Rule 2654/0 (Power=1)
+The Device
+
+      When the device is on:
+        * click - hummmmmmm
+      
+      When the device is off:
+        * whirrrrrr - THUNK
+
+History:
+
+Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2655/0 (Power=1)
+The Mad Engineer
+
+      The Mad Engineer is an office; its holder is responsible for
+      building and maintaining the Device.  The device is a singleton
+      switch with values off (default) and on.  The Mad Engineer CAN
+      flip the device to either on or off with Agoran Consent; any other
+      player CAN do so with 2 Agoran Consent.
+      
+      The Mad Engineer CAN act on behalf of the device to take any
+      action that the device may take, and SHALL act on behalf of the
+      device to ensure that the device fulfills all of its duties.
+      
+      The Mad Engineer's weekly duties include the performance of the
+      following tasks, in order:
+      
+      a) Randomly select exactly one rule.  If the selected rule is
+      either this rule or the rule "The Device", then 007 has been
+      spotted near the self-destruct button; skip directly to proposal
+      submission.
+      
+      b) Select one or more contiguous sentences from the selected rule.
+      
+      c) Select exactly one noun from the selected text, and replace
+      each instance of that noun with "Device" (including grammatical
+      variations, e.g. replacing "<noun>'s" with "Device's").
+      
+      d) Announce intent to, with Agoran Consent, cause this rule to
+      amend the rule "The Device" by inserting the modified text as the
+      last list item in either the "device on" or "device off" lists in
+      that rule (or, if 007 has been spotted, to repeal both that rule
+      and this one).  This intent announcement counts as the Mad
+      Engineers's weekly report.
+      
+      If the announcement of intent above is made with the procedure
+      described above, the Mad Engineer CAN, with Agoran Consent, cause
+      this rule to amend the rule "The Device" as indicated, and SHALL
+      do so if the intent receives sufficient support.
+
+History:
+
+Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
 Victory
    All games have winners, and Agora is no exception. If you're
    interested in getting some serious bragging points among the Agorans,
@@ -6599,15 +6674,15 @@ Amended(1) by P8553 'Slightly less apathetic' (Jason), 09 Apr 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2553/2 (Power=1)
+Rule 2553/3 (Power=1)
 Win by Paradox
 
       If a CFJ about the effectiveness, possibility, or legality of a
       change in the gamestate has been assigned a judgment of
-      PARADOXICAL continuously for at least 7 days, and e has not done
-      so already in respect of that CFJ, then that case's initiator,
-      CAN, by announcement, Transcend Logic. When a person transcends
-      logic, e wins the game.
+      PARADOXICAL continuously for at least 7 days, then that case's
+      initiator, CAN, by announcement, Transcend Logic, provided that e
+      has not already won the game with respect to that CFJ. When a
+      person transcends logic, e wins the game.
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
@@ -6618,6 +6693,7 @@ Enacted by P7976 'A Mostest Ingenious Paradox' (Alexis, ais523), 26 Nov
    2017
 Amended(1) by P8379 'Expand wins by paradox' (Murphy), 22 May 2020
 Amended(2) by P8453 'win indirection' (G.), 30 Jun 2020
+Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 
 Annotations:
 CFJ 3620 (called 06 Feb 2018): A CFJ assigned a judgment of PARADOXICAL
@@ -6786,7 +6862,7 @@ Glitter
 
 History:
 
-Enacted by P8266 'Glitter' (nch), 11 Nov 2019
+Enacted by P8266 'Glitter' (nix), 11 Nov 2019
 Amended(1) by P8288 'Glitteral' (omd), 29 Jan 2020
 Amended(2) by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan
    2020
@@ -7443,7 +7519,7 @@ History:
 Enacted by P8051 'Zombie Overhaul v1.0' (G., Aspen), 14 Jun 2018
 Amended(1) by P8221 'Usage de-capitalization' (Jason, Aspen), 05 Sep
    2019
-Amended(2) by P8459 'Talismans' (Jason, nch, Falsifian, G.), 08 Jul 2020
+Amended(2) by P8459 'Talismans' (Jason, nix, Falsifian, G.), 08 Jul 2020
 Amended(3) by P8546 'Talisn't' (G.), 10 Mar 2021
 
 Annotations:
@@ -7562,7 +7638,7 @@ Tournaments
 History:
 
 Enacted by P7809 'Quill and Tournaments' (G.), 11 Sep 2016
-Amended(1) by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun
+Amended(1) by P7865 'Regulations v4' (Aspen, o, nix, ais523), 27 Jun
    2017
 Amended(2) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
 Amended(3) by P8032 'Free Tournaments' (G.), 06 Apr 2018
@@ -7621,7 +7697,7 @@ The Birthday Tournament
 
 History:
 
-Enacted by P7865 'Regulations v4' (Aspen, o, nch, ais523), 27 Jun 2017
+Enacted by P7865 'Regulations v4' (Aspen, o, nix, ais523), 27 Jun 2017
 Amended(1) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
 Amended(2) by P8076 'Regulation Patches' (Aspen, G.), 26 Jul 2018
 

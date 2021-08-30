@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 13 Aug 2021
+Date of this ruleset: 30 Aug 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 143
+Number of rules currently enacted: 145
 
-Highest ID'd rule in this ruleset: 2653
-Highest ID'd Proposal Passed: 8595
-Highest ID'd Rule Enacted: 2653
+Highest ID'd rule in this ruleset: 2655
+Highest ID'd Proposal Passed: 8601
+Highest ID'd Rule Enacted: 2655
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -153,6 +153,9 @@ Stones
    * Rule 2643: Collecting Stones
    * Rule 2644: The Gauntlet
    * Rule 2645: The Stones
+The Device
+   * Rule 2654: The Device
+   * Rule 2655: The Mad Engineer
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -190,7 +193,7 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-42 with Power=1
+44 with Power=1
 2  with Power=1.5
 5  with Power=1.7
 34 with Power=2
@@ -5262,7 +5265,7 @@ Amended(9) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2492/5 (Power=1)
+Rule 2492/6 (Power=1)
 Recusal
 
       A judge CAN recuse emself from a CFJ e is assigned to by
@@ -5274,9 +5277,10 @@ Recusal
       timely fashion after the time limit expires, if able. The Arbitor
       CAN recuse an inactive or deregistered judge by announcement.
       
-      If a judge is recused from a case 4+ days after being assigned to
-      it, e SHOULD NOT be assigned as a judge until e has apologised and
-      or reasonably explained eir actions.
+      If a judge is recused from a case that was continuously open and
+      assigned to em for at least the past 4 days, e SHOULD NOT be
+      assigned as a judge until e has apologised and/or reasonably
+      explained eir actions.
 
 History:
 
@@ -5286,6 +5290,7 @@ Amended(2) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(3) by ruleset ratification, 14 Apr 2018
 Amended(4) by P8215 'recusal simplification' (G.), 05 Sep 2019
 Amended(5) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
+Amended(6) by P8601 'Adjust late recusal' (Murphy, Telna), 30 Aug 2021
 
 Annotations:
 
@@ -6160,16 +6165,17 @@ Amended(1) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2621/4 (Power=1.0)
+Rule 2621/5 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Victory Points than any other
       player, e CAN Take Over the Economy by announcement, provided no
-      person has done so in the past 30 days.
+      person has won the game by doing so in the past 30 days.
       
       When a player takes over the economy, e wins the game. Four days
-      later, all Cards and all Products are destroyed. Then, each active
-      player gains 1 card of each type and eir grant (if any).
+      after such a win occurs, all Cards and all Products are destroyed.
+      Then, each active player gains 1 card of each type and eir grant
+      (if any).
 
 History:
 
@@ -6180,6 +6186,7 @@ Amended(1) by P8511 'VP Win Indirection' (Baron von Vanderham, Jason,
 Amended(2) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Amended(3) by P8543 'En Passant v2' (Jason, Aspen, nix), 02 Mar 2021
 Amended(4) by P8581 'Grants on Resets' (Aspen), 23 Jun 2021
+Amended(5) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 
 Annotations:
 
@@ -6502,16 +6509,16 @@ Amended(2) by P8542 'Stone Excitement Act' (Jason, Aspen), 02 Mar 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2644/2 (Power=2)
+Rule 2644/3 (Power=2)
 The Gauntlet
 
       A player CAN, by announcement, Notice the Gauntlet, specifying a
       single player that owns 5 or more stones, provided that no person
-      has done so in the past 30 days.
+      has won the game by doing so in the past 30 days.
       
       When the Gauntlet is Noticed, the specified player wins the game.
-      If the Gauntlet was Noticed 4 days ago, then all existing stones
-      are transferred to Agora.
+      If a player won the game in this manner 4 days ago, then all
+      existing stones are transferred to Agora.
 
 History:
 
@@ -6519,6 +6526,7 @@ Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
 Amended(1) by P8571 'Gauntlet announcement patch' (Jason), 14 Jun 2021
 Amended(2) by P8575 'Stone Win Delay v2' (Jason, Gaelan), 23 Jun 2021
+Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 
 Annotations:
 
@@ -6564,6 +6572,73 @@ Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
+The Device
+   A game in which the Mad Engineer amends the rules to randomly add
+   abilities to the Device, either when it's on or when it's off.
+------------------------------------------------------------------------
+Rule 2654/0 (Power=1)
+The Device
+
+      When the device is on:
+        * click - hummmmmmm
+      
+      When the device is off:
+        * whirrrrrr - THUNK
+
+History:
+
+Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2655/0 (Power=1)
+The Mad Engineer
+
+      The Mad Engineer is an office; its holder is responsible for
+      building and maintaining the Device.  The device is a singleton
+      switch with values off (default) and on.  The Mad Engineer CAN
+      flip the device to either on or off with Agoran Consent; any other
+      player CAN do so with 2 Agoran Consent.
+      
+      The Mad Engineer CAN act on behalf of the device to take any
+      action that the device may take, and SHALL act on behalf of the
+      device to ensure that the device fulfills all of its duties.
+      
+      The Mad Engineer's weekly duties include the performance of the
+      following tasks, in order:
+      
+      a) Randomly select exactly one rule.  If the selected rule is
+      either this rule or the rule "The Device", then 007 has been
+      spotted near the self-destruct button; skip directly to proposal
+      submission.
+      
+      b) Select one or more contiguous sentences from the selected rule.
+      
+      c) Select exactly one noun from the selected text, and replace
+      each instance of that noun with "Device" (including grammatical
+      variations, e.g. replacing "<noun>'s" with "Device's").
+      
+      d) Announce intent to, with Agoran Consent, cause this rule to
+      amend the rule "The Device" by inserting the modified text as the
+      last list item in either the "device on" or "device off" lists in
+      that rule (or, if 007 has been spotted, to repeal both that rule
+      and this one).  This intent announcement counts as the Mad
+      Engineers's weekly report.
+      
+      If the announcement of intent above is made with the procedure
+      described above, the Mad Engineer CAN, with Agoran Consent, cause
+      this rule to amend the rule "The Device" as indicated, and SHALL
+      do so if the intent receives sufficient support.
+
+History:
+
+Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
 Victory
    All games have winners, and Agora is no exception. If you're
    interested in getting some serious bragging points among the Agorans,
@@ -6604,15 +6679,15 @@ Amended(1) by P8553 'Slightly less apathetic' (Jason), 09 Apr 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2553/2 (Power=1)
+Rule 2553/3 (Power=1)
 Win by Paradox
 
       If a CFJ about the effectiveness, possibility, or legality of a
       change in the gamestate has been assigned a judgment of
-      PARADOXICAL continuously for at least 7 days, and e has not done
-      so already in respect of that CFJ, then that case's initiator,
-      CAN, by announcement, Transcend Logic. When a person transcends
-      logic, e wins the game.
+      PARADOXICAL continuously for at least 7 days, then that case's
+      initiator, CAN, by announcement, Transcend Logic, provided that e
+      has not already won the game with respect to that CFJ. When a
+      person transcends logic, e wins the game.
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
@@ -6623,6 +6698,7 @@ Enacted by P7976 'A Mostest Ingenious Paradox' (Alexis, ais523), 26 Nov
    2017
 Amended(1) by P8379 'Expand wins by paradox' (Murphy), 22 May 2020
 Amended(2) by P8453 'win indirection' (G.), 30 Jun 2020
+Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 
 Annotations:
 CFJ 3620 (called 06 Feb 2018): A CFJ assigned a judgment of PARADOXICAL

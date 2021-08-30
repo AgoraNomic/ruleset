@@ -2,7 +2,7 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 13 Aug 2021
+Date of this ACORN: 30 Aug 2021
 
 ------------------------------------------------------------------------
 
@@ -32,7 +32,7 @@ Auction Regulations
    This section has the regulations, written by the Treasuror, governing
    how auctions proceed.
 ------------------------------------------------------------------------
-Regulation AM0/3
+Regulation AM0/4
 Generalized Auction
 
       Generalized auctions exist to give context to the form of other
@@ -49,8 +49,9 @@ Generalized Auction
       "initiation message"). The bidding period starts at this point.
       
       BIDDING: Players CAN place a bid on an auction in its bidding
-      period by creating a public message (henceforth a "bid message").
-      Players CAN withdraw from an open auction by announcement.
+      period by creating a public message (henceforth a "bid message")
+      specifying an amount of that auction's currency. Players CAN
+      withdraw from an open auction by announcement.
       
       EXCLUSIVITY: Bids in an auction are grouped into classes of that
       auction. Unless otherwise specified, all bids in a given auction
@@ -88,17 +89,23 @@ Generalized Auction
       required to pay in that auction (hereafter "funded players") can
       be selected as awardees for auctions using that auction method.
       
-      DISTRIBUTION: The auctioneer for an auction CAN and SHALL, within
-      seven days of the ending of that auction's retrieval period,
-      create a public message (henceforth the "distribution message")
-      that contains a full history of bids on the auction and
-      withdrawals from the auction. It must also clearly indicate each
-      awardee and the lot e recieves. In this message, the auctioneer
-      CAN and SHALL destroy the amount to be paid from the inventory
-      each awardee and transfer to that player (or create in eir
-      possession if the item is new) the set of assets associated with
-      the lot e won. Failing to publish a distribution message
-      constitutes the Class 3 Crime of Auction Abandonment.
+      RESOLUTION: The auctioneer for an auction SHALL, during that
+      auction's retrieval period, create a public message (henceforth
+      the "resolution message") that contains a full history of bids on
+      the auction and withdrawals from the auction. It must also clearly
+      indicate who each awardee would be if all players were funded, as
+      well as the lot each one would recieve. Failing to publish a
+      resolution message constitutes the Class 3 Crime of Auction
+      Negligence.
+      
+      DISTRIBUTION: In a timely fashion after the retrieval period for
+      an auction ends, that auction's auctioneer CAN and SHALL, for each
+      awardee in that auction, destroy the amount to be paid from the
+      inventory of that awardee and transfer to that player (or create
+      in eir possession if the item is new) the set of assets associated
+      with the lot e won. Failing to create or transfer items as
+      described in this paragraph constitutes the Class 3 Crime of
+      Auction Abandonment.
       
       ACTIVE BIDS: The set of active bids for an auction is the set of
       all funded, non-withdrawn players' highest bids on that auction.
@@ -109,6 +116,7 @@ Enacted by Trigon, 08 Aug 2020
 Amended(1) by Trigon, 28 Mar 2021
 Amended(2) by Trigon, 05 May 2021
 Amended(3) by Trigon, 02 Aug 2021
+Amended(4) by Trigon, 30 Aug 2021
 
 Annotations:
 
