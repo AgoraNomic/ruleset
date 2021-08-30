@@ -4,11 +4,12 @@ power: 1.0
 text: |
   If a player has at least 20 more Victory Points than any other
   player, e CAN Take Over the Economy by announcement, provided no
-  person has done so in the past 30 days.
+  person has won the game by doing so in the past 30 days.
 
   When a player takes over the economy, e wins the game. Four days
-  later, all Cards and all Products are destroyed. Then, each active
-  player gains 1 card of each type and eir grant (if any).
+  after such a win occurs, all Cards and all Products are destroyed.
+  Then, each active player gains 1 card of each type and eir grant
+  (if any).
 history:
 - change:
     type: enactment
@@ -35,4 +36,9 @@ history:
   date: 2021-06-23
   agent:
     proposal: "8581"
+- change:
+    type: amendment
+  date: 2021-08-30
+  agent:
+    proposal: "8600"
 annotations: []
