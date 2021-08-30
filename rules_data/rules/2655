@@ -1,0 +1,46 @@
+id: 2655
+name: The Mad Engineer
+power: 1
+text: |
+  The Mad Engineer is an office; its holder is responsible for
+  building and maintaining the Device.  The device is a singleton
+  switch with values off (default) and on.  The Mad Engineer CAN
+  flip the device to either on or off with Agoran Consent; any other
+  player CAN do so with 2 Agoran Consent.
+
+  The Mad Engineer CAN act on behalf of the device to take any
+  action that the device may take, and SHALL act on behalf of the
+  device to ensure that the device fulfills all of its duties.
+
+  The Mad Engineer's weekly duties include the performance of the
+  following tasks, in order:
+
+  a) Randomly select exactly one rule.  If the selected rule is
+  either this rule or the rule "The Device", then 007 has been
+  spotted near the self-destruct button; skip directly to proposal
+  submission.
+
+  b) Select one or more contiguous sentences from the selected rule.
+
+  c) Select exactly one noun from the selected text, and replace
+  each instance of that noun with "Device" (including grammatical
+  variations, e.g. replacing "<noun>'s" with "Device's").
+
+  d) Announce intent to, with Agoran Consent, cause this rule to
+  amend the rule "The Device" by inserting the modified text as the
+  last list item in either the "device on" or "device off" lists in
+  that rule (or, if 007 has been spotted, to repeal both that rule
+  and this one).  This intent announcement counts as the Mad
+  Engineers's weekly report.
+
+  If the announcement of intent above is made with the procedure
+  described above, the Mad Engineer CAN, with Agoran Consent, cause
+  this rule to amend the rule "The Device" as indicated, and SHALL
+  do so if the intent receives sufficient support.
+history:
+- change:
+    type: enactment
+  date: 2021-08-30
+  agent:
+    proposal: "8599"
+annotations: []

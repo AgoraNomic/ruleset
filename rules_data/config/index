@@ -205,6 +205,13 @@
   - 2643 # Collecting Stones
   - 2644 # The Gauntlet
   - 2645 # The Stones
+- name: The Device
+  note: |
+    A game in which the Mad Engineer amends the rules to randomly add
+    abilities to the Device, either when it's on or when it's off.
+  rules:
+  - 2654 # The Device
+  - 2655 # The Mad Engineer
 - name: Victory
   note: |
     All games have winners, and Agora is no exception. If you're
