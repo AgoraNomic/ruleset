@@ -4,6 +4,8 @@ power: 1
 text: |
   When the device is on:
     * click - hummmmmmm
+    * The week that contains the beginning of Agora's Device,
+      together with the following week, is a Holiday.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -13,4 +15,11 @@ history:
   date: 2021-08-30
   agent:
     proposal: "8599"
+- change:
+    type: amendment
+  date: 2021-09-04
+  agent:
+    experiment:
+      id: 1
+      engineer: G.
 annotations: []
