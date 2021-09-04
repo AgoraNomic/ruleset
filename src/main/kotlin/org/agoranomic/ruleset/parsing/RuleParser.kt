@@ -124,6 +124,10 @@ private fun parseHistoricalCauseYaml(
         )
         "person" -> HistoricalCauses.person(nameResolver.resolveFormalCauseName(causeContent))
         "rulebending" -> HistoricalCauses.rulebending(magister = causeMap.getContent("magister"))
+        "experiment" -> HistoricalCauses.deviceExperiment(
+            id = causeMap.getContent("id").toInt(),
+            madEngineer = causeMap.getContent("engineer"),
+        )
         else -> throw IllegalArgumentException("Unknown cause $causeKind")
     }
 }

@@ -75,6 +75,9 @@ object HistoricalCauses {
     fun tournamentEnd(tournament: String, agent: String): HistoricalCause =
         TournamentEnd(tournament = tournament, agent = agent)
 
+    fun deviceExperiment(id: Int, madEngineer: String): HistoricalCause =
+        DeviceExperiment(id = id, madEngineer = madEngineer)
+
     private abstract class BaseCause(
         override val tag: String,
         override val causeString: String,
@@ -119,4 +122,11 @@ object HistoricalCauses {
 
     private data class Rulebending(val magister: String) :
         BaseCause("rulebending", "Rulebending Form demonstrated by $magister")
+
+    private data class DeviceExperiment(val id: Int, val madEngineer: String) :
+        BaseCause("device_experiment", "Experiment #$id under Mad Engineer $madEngineer") {
+        init {
+            require(id >= 1)
+        }
+    }
 }
