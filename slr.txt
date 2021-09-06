@@ -2,7 +2,7 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Aug 2021
+Date of this ruleset: 6 Sep 2021
 
 Date of last SLR ratification: 8 May 2019
 
@@ -3001,11 +3001,13 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/0 (Power=1)
+Rule 2654/1 (Power=1)
 The Device
 
       When the device is on:
         * click - hummmmmmm
+        * The week that contains the beginning of Agora's Device,
+          together with the following week, is a Holiday.
       
       When the device is off:
         * whirrrrrr - THUNK
