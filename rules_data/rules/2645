@@ -24,6 +24,23 @@ text: |
 
   - Protection Stone (monthly, 70%): A specified stone is granted
     immunity.
+
+  - Recursion Stone (Monthly, 80%): The recursion stone can be
+    wielded once per month as if it had the power of any other stone
+    of your choice.
+
+  - Hot Potato Stone (Weekly, 100%):  When this stone is wielded,
+    the wielder gains 8 boatloads of coins if the wielder, in the
+    same message as the wielding, transfers this stone to a player
+    who has not owned this stone since Agora last owned it. This
+    stone cannot otherwise be transferred, other rules
+    notwithstanding. This stone is immune if 3 or more players have
+    wielded it since the most recent collection notice.
+
+  - Blank Stone (Monthly, 5%): This stone has no effect.
+
+  - Alchemy Stone (weekly, 70%): Destroy four cards you own. If four
+    cards were destroyed this way, gain 7 products of your choice.
 history:
 - change:
     type: enactment
@@ -50,4 +67,9 @@ history:
   date: 2021-03-10
   agent:
     proposal: "8548"
+- change:
+    type: amendment
+  date: 2021-09-24
+  agent:
+    proposal: "8604"
 annotations: []

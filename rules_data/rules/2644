@@ -1,14 +1,14 @@
 id: 2644
-name: The Gauntlet
+name: Zen Gardening
 power: 2
 text: |
-  A player CAN, by announcement, Notice the Gauntlet, specifying a
-  single player that owns 5 or more stones, provided that no person
-  has won the game by doing so in the past 30 days.
+  A player CAN, by announcement, Notice the Rock Garden, specifying
+  a single player that owns 8 or more stones, provided that no
+  person has won the game by doing so in the past 30 days.
 
-  When the Gauntlet is Noticed, the specified player wins the game.
-  If a player won the game in this manner 4 days ago, then all
-  existing stones are transferred to Agora.
+  When the Rock Garden is Noticed, the specified player wins the
+  game.  If a player won the game in this manner 4 days ago, then
+  all existing stones are transferred to Agora.
 history:
 - change:
     type: enactment
@@ -30,4 +30,19 @@ history:
   date: 2021-08-30
   agent:
     proposal: "8600"
+- change:
+    type: retitling
+  date: 2021-09-24
+  agent:
+    proposal: "8604"
+- change:
+    type: amendment
+  date: 2021-09-24
+  agent:
+    proposal: "8604"
+- change:
+    type: amendment
+  date: 2021-09-24
+  agent:
+    proposal: "8604"
 annotations: []

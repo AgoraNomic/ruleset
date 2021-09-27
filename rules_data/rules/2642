@@ -7,14 +7,19 @@ text: |
   individual stone being an auction lot. The Stonemason is the
   auctioneer, and the currency is coins.
 
-  The Stonemason SHALL so initiate an auction for a set of stones
-  consisting of at least one third the stones eligible for auction
-  in a timely fashion after publishing a collection notice, provided
-  there any eligible stones.
+  The Stonemason SHALL if possible initiate such an auction monthly
+  and only once a month, in a timely fashion after a collection
+  notice has been issued. The Stonemason SHALL auction exactly 2
+  stones in a month if possible
 history:
 - change:
     type: enactment
   date: 2020-11-11
   agent:
     proposal: "8521"
+- change:
+    type: amendment
+  date: 2021-09-24
+  agent:
+    proposal: "8604"
 annotations: []
