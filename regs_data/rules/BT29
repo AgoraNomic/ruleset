@@ -89,7 +89,9 @@ history:
     type: enactment
   date: 2021-07-02
   agent:
-    person: nix
+    tournament_init:
+      name: 2021 Birthday Tournament
+      person: nix
 - change:
     type: amendment
   date: 2021-09-11
