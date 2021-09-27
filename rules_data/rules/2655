@@ -17,8 +17,8 @@ text: |
 
   a) Randomly select exactly one rule.  If the selected rule is
   either this rule or the rule "The Device", then 007 has been
-  spotted near the self-destruct button; skip directly to proposal
-  submission.
+  spotted near the self-destruct button; skip directly to announcing
+  intent, below.
 
   b) Select one or more contiguous sentences from the selected rule.
 
@@ -35,12 +35,19 @@ text: |
 
   If the announcement of intent above is made with the procedure
   described above, the Mad Engineer CAN, with Agoran Consent, cause
-  this rule to amend the rule "The Device" as indicated, and SHALL
-  do so if the intent receives sufficient support.
+  this rule to amend the rule "The Device" as indicated (or, if 007
+  has been spotted, cause this rule to repeal both that rule and
+  this one), and SHALL do so if the intent receives sufficient
+  support.
 history:
 - change:
     type: enactment
   date: 2021-08-30
   agent:
     proposal: "8599"
+- change:
+    type: amendment
+  date: 2021-09-24
+  agent:
+    proposal: "8605"
 annotations: []
