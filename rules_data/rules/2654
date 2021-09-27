@@ -9,6 +9,8 @@ text: |
 
   When the device is off:
     * whirrrrrr - THUNK
+    * By default, a device CAN, with 2 Agoran consent, enact, amend,
+      or repeal a regulation for which e is the Promulgator.
 history:
 - change:
     type: enactment
@@ -21,5 +23,12 @@ history:
   agent:
     experiment:
       id: 1
+      engineer: G.
+- change:
+    type: amendment
+  date: 2021-09-19
+  agent:
+    experiment:
+      id: 2
       engineer: G.
 annotations: []
