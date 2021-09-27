@@ -11,6 +11,12 @@ text: |
     * whirrrrrr - THUNK
     * By default, a device CAN, with 2 Agoran consent, enact, amend,
       or repeal a regulation for which e is the Promulgator.
+    * Whenever a Player feels that e has been treated so egregiously
+      by the Agoran Device that e can no longer abide to be a part
+      of it, e may submit a document to the Registrar, clearly
+      labeled a Cantus Cygneus, detailing eir grievances and
+      expressing eir reproach for those who e feels have treated em
+      so badly.
 history:
 - change:
     type: enactment
@@ -31,4 +37,11 @@ history:
     experiment:
       id: 2
       engineer: G.
+- change:
+    type: amendment
+  date: 2021-09-21
+  agent:
+    experiment:
+      id: 4
+      engineer: ais523
 annotations: []
