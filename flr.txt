@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Aug 2021
+Date of this ruleset: 27 Sep 2021
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 145
 
 Highest ID'd rule in this ruleset: 2655
-Highest ID'd Proposal Passed: 8601
+Highest ID'd Proposal Passed: 8605
 Highest ID'd Rule Enacted: 2655
 
 ------------------------------------------------------------------------
@@ -146,7 +146,7 @@ Stones
    * Rule 2641: Wielding Stones
    * Rule 2642: Distributing Stones
    * Rule 2643: Collecting Stones
-   * Rule 2644: The Gauntlet
+   * Rule 2644: Zen Gardening
    * Rule 2645: The Stones
 The Device
    * Rule 2654: The Device
@@ -3421,18 +3421,20 @@ Amended(10) by P8580 'Strength Buying Separation v2' (Jason, ais523,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2653/0 (Power=2)
+Rule 2653/1 (Power=2)
 Buying Strength
 
       A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
-      player's Voting Strength on referendum on an ordinary proposal is
-      1 greater for every time e Bought Strength during that decision's
-      voting period.
+      person's Voting Strength on a referendum on an ordinary proposal
+      is 1 greater for every time e Bought Strength during that
+      decision's voting period.
 
 History:
 
 Enacted by P8580 'Strength Buying Separation v2' (Jason, ais523,
    Trigon), 23 Jun 2021
+Amended(1) by P8603 'Buying Strength Eligibility' (Jason, Bucky), 24 Sep
+   2021
 
 Annotations:
 
@@ -6450,7 +6452,7 @@ Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2642/0 (Power=2)
+Rule 2642/1 (Power=2)
 Distributing Stones
 
       The Stonemason CAN initiate an auction for any set of stones
@@ -6458,15 +6460,16 @@ Distributing Stones
       individual stone being an auction lot. The Stonemason is the
       auctioneer, and the currency is coins.
       
-      The Stonemason SHALL so initiate an auction for a set of stones
-      consisting of at least one third the stones eligible for auction
-      in a timely fashion after publishing a collection notice, provided
-      there any eligible stones.
+      The Stonemason SHALL if possible initiate such an auction monthly
+      and only once a month, in a timely fashion after a collection
+      notice has been issued. The Stonemason SHALL auction exactly 2
+      stones in a month if possible
 
 History:
 
 Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
    Falsifian), 11 Nov 2020
+Amended(1) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 
 Annotations:
 
@@ -6504,16 +6507,16 @@ Amended(2) by P8542 'Stone Excitement Act' (Jason, Aspen), 02 Mar 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2644/3 (Power=2)
-The Gauntlet
+Rule 2644/5 (Power=2)
+Zen Gardening
 
-      A player CAN, by announcement, Notice the Gauntlet, specifying a
-      single player that owns 5 or more stones, provided that no person
-      has won the game by doing so in the past 30 days.
+      A player CAN, by announcement, Notice the Rock Garden, specifying
+      a single player that owns 8 or more stones, provided that no
+      person has won the game by doing so in the past 30 days.
       
-      When the Gauntlet is Noticed, the specified player wins the game.
-      If a player won the game in this manner 4 days ago, then all
-      existing stones are transferred to Agora.
+      When the Rock Garden is Noticed, the specified player wins the
+      game.  If a player won the game in this manner 4 days ago, then
+      all existing stones are transferred to Agora.
 
 History:
 
@@ -6522,11 +6525,14 @@ Enacted by P8521 'Stones' (Jason, G., Aspen, nix, Trigon, Gaelan,
 Amended(1) by P8571 'Gauntlet announcement patch' (Jason), 14 Jun 2021
 Amended(2) by P8575 'Stone Win Delay v2' (Jason, Gaelan), 23 Jun 2021
 Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
+Retitled by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
+Amended(4) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
+Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/4 (Power=2)
+Rule 2645/5 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6551,6 +6557,23 @@ The Stones
       
       - Protection Stone (monthly, 70%): A specified stone is granted
         immunity.
+      
+      - Recursion Stone (Monthly, 80%): The recursion stone can be
+        wielded once per month as if it had the power of any other stone
+        of your choice.
+      
+      - Hot Potato Stone (Weekly, 100%):  When this stone is wielded,
+        the wielder gains 8 boatloads of coins if the wielder, in the
+        same message as the wielding, transfers this stone to a player
+        who has not owned this stone since Agora last owned it. This
+        stone cannot otherwise be transferred, other rules
+        notwithstanding. This stone is immune if 3 or more players have
+        wielded it since the most recent collection notice.
+      
+      - Blank Stone (Monthly, 5%): This stone has no effect.
+      
+      - Alchemy Stone (weekly, 70%): Destroy four cards you own. If four
+        cards were destroyed this way, gain 7 products of your choice.
 
 History:
 
@@ -6562,6 +6585,7 @@ Amended(2) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 Amended(3) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Jason), 11 Feb 2021
 Amended(4) by P8548 'Stone defaults' (Jason), 10 Mar 2021
+Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 
 Annotations:
 
@@ -6571,23 +6595,36 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/0 (Power=1)
+Rule 2654/3 (Power=1)
 The Device
 
       When the device is on:
         * click - hummmmmmm
+        * The week that contains the beginning of Agora's Device,
+          together with the following week, is a Holiday.
       
       When the device is off:
         * whirrrrrr - THUNK
+        * By default, a device CAN, with 2 Agoran consent, enact, amend,
+          or repeal a regulation for which e is the Promulgator.
+        * Whenever a Player feels that e has been treated so egregiously
+          by the Agoran Device that e can no longer abide to be a part
+          of it, e may submit a document to the Registrar, clearly
+          labeled a Cantus Cygneus, detailing eir grievances and
+          expressing eir reproach for those who e feels have treated em
+          so badly.
 
 History:
 
 Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
+Amended(1) by Experiment #1 under Mad Engineer G., 04 Sep 2021
+Amended(2) by Experiment #2 under Mad Engineer G., 19 Sep 2021
+Amended(3) by Experiment #4 under Mad Engineer ais523, 21 Sep 2021
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2655/0 (Power=1)
+Rule 2655/1 (Power=1)
 The Mad Engineer
 
       The Mad Engineer is an office; its holder is responsible for
@@ -6605,8 +6642,8 @@ The Mad Engineer
       
       a) Randomly select exactly one rule.  If the selected rule is
       either this rule or the rule "The Device", then 007 has been
-      spotted near the self-destruct button; skip directly to proposal
-      submission.
+      spotted near the self-destruct button; skip directly to announcing
+      intent, below.
       
       b) Select one or more contiguous sentences from the selected rule.
       
@@ -6623,12 +6660,15 @@ The Mad Engineer
       
       If the announcement of intent above is made with the procedure
       described above, the Mad Engineer CAN, with Agoran Consent, cause
-      this rule to amend the rule "The Device" as indicated, and SHALL
-      do so if the intent receives sufficient support.
+      this rule to amend the rule "The Device" as indicated (or, if 007
+      has been spotted, cause this rule to repeal both that rule and
+      this one), and SHALL do so if the intent receives sufficient
+      support.
 
 History:
 
 Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
+Amended(1) by P8605 'Covered under warranty' (G., Oerjan), 24 Sep 2021
 
 Annotations:
 

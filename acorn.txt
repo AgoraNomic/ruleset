@@ -2,7 +2,7 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 6 Sep 2021
+Date of this ACORN: 27 Sep 2021
 
 ------------------------------------------------------------------------
 
@@ -398,125 +398,97 @@ Birthday Tournament
    This section has regulations that govern the ongoing Birthday
    Tournament.
 ------------------------------------------------------------------------
-Regulation BT29/0
+Regulation BT29/1
 Survivor 2021
 
-      #0 Participation
+      # Participation
       
-      The Host is the Herald. Any other player of Agora CAN become a
-      Contestant by announcement any time before the game starts. If the
-      Host is a Contestant, Player, and/or Ghost, e ceases to be.
+      The Host is nix. If the Host is a Contestant, Survivor, and/or Ghost, e
+      ceases to be.
       
-      The Host CAN start the game by announcement. At the time of the
-      announcement, all Contestants become Survivors.
+      Any Contestant may quit by announcement, and cease being a Contestant,
+      Survivor, and/or Ghost. The Host CAN, by announcement, cause a specified
+      Contestant who has not posted a public message in 7 days to cease to be
+      a Survivor and become a Ghost.
       
-      Any Contestant may quit by announcement, and cease being a
-      Contestant, Survivor, and/or Ghost. The Host CAN, by announcement,
-      cause a specified Contestant who has not posted a public message
-      in 7 days to cease to be a Survivor and become a Ghost.
-      
-      #1 Winning
+      # Winning
       
       The winner is the Contestant who Outlasts all other Contestants. A
-      Contestant outlasts all other Contestants if e is the only
-      Survivor.
+      Contestant outlasts all other Contestants if e is the only Survivor.
       
-      #2 Teams
+      # Teams
       
-      When the game starts, the host SHALL announce the teams. E may
-      choose teams however e wants, as long as they are even in number
-      of contestants (plus or minus 1).
+      Some or all Contestants are assigned to teams.
       
-      #3 Rounds
+      # Pre-Finale
       
-      A Round is 7 days from a Monday through a Sunday. Monday through
-      Friday are the default Competition Period for a Round while
-      Saturday through Sunday are the default Voting Period for a Round.
-      The Host CAN, by announcement, end a Competition Period and start
-      a Voting period early.  E SHOULD only do so when the Competition
-      Period's events have clearly ended.
+      During the Pre-Finale, the Host and any Survivor CAN publish a Finale
+      Script.  Contestants CAN, by announcement, support a Finale Script. The
+      Host CAN, by announcement, veto a specified Finale Script. If a Finale
+      Script has not been veto'd, and has support of either more than half of
+      all Ghosts or more than half of all Contestants, then the Host CAN and
+      SHALL apply it, causing it to become Effective.
       
-      The first round begins the next Monday after the game starts.
-      Until the Pre-Finale, a new round starts every Monday.
+      If at least one Finale Script is Effective and has been Effective for
+      the previous 4 days, the Host CAN by announcement begin the Finale.
       
-      #3.1 Competitions
+      While Effective, a Finale Script can authorize changes to the state
+      defined under this regulation.
       
-      Each round contains a Competition defined by a Sealed Letter that
-      the Host CAN and SHALL issue, by announcement, on or before the
-      Monday of the round. The Competition begins either at the
-      beginning of Monday or when the Sealed Letter is issued, whichever
-      is later.
+      # Finale
       
-      A Sealed Letter specifies a Competition's rules and Immunity
-      Condition.  The Immunity Condition of a Sealed Letter:
+      Before or during the Finale, the Host CAN once by announcement set the
+      Tiebreaking Hash to a specified SHA-256 hash of a document. The document
+      must specify a single ranked order of all persons who were Survivors at
+      the time it was submitted. The Host SHALL do this before the Finale and
+      SHOULD NOT reveal the hashed document until it is required or a winner
+      has been determined.
       
-      * SHOULD NOT encourage players to break the rules of Agora or
-      commit an Agoran Crime,
+      During a Voting Phase, all Contestants CAN, by sending a message to the
+      Host, vote on a specified Survivor.
       
-      * SHOULD NOT require undo effort on the part of any one
-      individual, and
+      When the Finale begins, the Primary Voting Phase begins.
       
-      * SHOULD NOT intentionally favor one person or team.
+      When all Contestants have voted on a Voting Phase, or 7 days after the
+      Voting Phase began:
+      * First, the Voting Phase ends.
+      * If a single Survivor has the most votes, the Host CAN by announcement
+      and SHALL expel all other Survivors (causing them to cease to be Survivors).
+      * Otherwise, if multiple Survivors are tied for the most votes:
+        * If the completed phase is the Primary Voting Phase, the Host CAN by
+      announcement and SHALL expel all Survivors not in the tie. After this,
+      the Secondary Voting Phase begins.
+        * Otherwise, the Host SHALL reveal the document used to compute the
+      Tiebraking Hash, then the Host CAN by announcement and SHALL expel all
+      Survivors except for the first Survivor in the order listed in the
+      revealed document.
       
-      The Host CAN, by announcement, and SHALL grant immunity to all
-      teams and all Contestant that meet the Immunity Condition.
+      # One-Shot Clarification
       
-      The Host CAN issue a Clarifying Letter by announcement. Clarifying
-      Letters are binding interpretations of their corresponding Sealed
-      Letters. The Host SHOULD issue a Clarifying Letter whenever e
-      believes players/teams are confused, frustrated, or on the wrong
-      track.
+      If the Clarification, as defined under this section, has not yet
+      occurred, it immediately occurs.
       
-      #3.2 Voting
+      Upon the Clarification occurring:
+      {
       
-      During a Voting Period, each Contestant whose team is not immune
-      CAN, by sending a message to the Host, Vote to Expel any
-      non-immune member of eir team.
+      * The following are hereby made the only Contestants: Jason, R. Lee,
+      ATMunn, Aspen, Falsifian, G., Gaelan, Telna, Cuddlybanana, Cuddle Beam
+      * The following are hereby made the only Survivors: Jason, Aspen,
+      Falsifian, Telna, Cuddlybanana
+      * The following are hereby made the only Ghosts: R. Lee, ATMunn, G.,
+      Gaelan, Cuddle Beam
       
-      The Host CAN, by announcement, and SHALL, by the end of the
-      following Monday, Expel all non-immune Contestants who were
-      specified the most by eir team. When a Contestant is Expelled, e
-      ceases to be a Survivor and becomes a Ghost. E is no longer part
-      of eir team.
+      * The following are hereby made the only members of Team 1: Jason, R.
+      Lee, ATMunn, Aspen, Falsifian
+      * The following are hereby made the only members of Team 2: G., Gaelan,
+      Telna, Cuddlybanana, Cuddle Beam
       
-      #Plot Holes
-      
-      The Host CAN, with Agoran Consent, amend these rules as specified.
-      E SHOULD only attempt to do so to fix unintended behavior or bugs.
-      
-      #Pre-Finale
-      
-      When there are half as many Survivors as they were when the game
-      started, the Host CAN, by announcement, cause the game to enter
-      the Pre-Finale.
-      
-      During the Pre-Finale, the current round, if any, immediately ends
-      and no new rounds can begin.
-      
-      During the Pre-Finale, the Host and any Survivor CAN publish a
-      Finale Script, specifying a set of changes to make to the rules of
-      this game.  Contestants CAN, by announcement, support a Finale
-      Script. The Host CAN, by announcement, veto a specified Finale
-      Script. If a Finale Script has not been veto'd, and has support of
-      either more than half of all Ghosts or more than half of all
-      Contestants, then the Host CAN and SHALL apply it, causing the
-      changes it describes to happen to these rules.
-      
-      If at least one Finale Script has been applied and it has been at
-      least 7 days since the Pre-Finale began, the Host CAN by
-      announcement begin the Finale.
-      
-      #Finale
-      
-      During the Finale, all Contestants CAN, by sending a message to
-      the Host, vote on a specified Survivor. When all Contestants have
-      voted, or 7 days after the Finale began, the Host CAN announce the
-      Survivor who received the most votes, and Expel all other
-      Survivors.
+      }
 
 History:
 
-Enacted by nix, 02 Jul 2021
+Enacted by initiation of 2021 Birthday Tournament by nix, 02 Jul 2021
+Amended(1) by Jason as part of 2021 Birthday Tournament, 11 Sep 2021
 
 Annotations:
 
