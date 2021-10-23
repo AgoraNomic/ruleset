@@ -4,10 +4,11 @@ power: 1
 text: |
   If a CFJ about the effectiveness, possibility, or legality of a
   change in the gamestate has been assigned a judgment of
-  PARADOXICAL continuously for at least 7 days, then that case's
-  initiator, CAN, by announcement, Transcend Logic, provided that e
-  has not already won the game with respect to that CFJ. When a
-  person transcends logic, e wins the game.
+  PARADOXICAL continuously for between 7 and 90 days, then that
+  case's initiator, CAN, by announcement, Transcend Logic,
+  specifying that CFJ, provided that e has not already won the game
+  with respect to that CFJ. When a person transcends logic, e wins
+  the game.
 
   A player who wins in this fashion SHOULD submit a proposal to
   prevent the paradox from arising again.
@@ -33,6 +34,11 @@ history:
   date: 2021-08-30
   agent:
     proposal: "8600"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8609"
 annotations:
 - cfjs:
   - id: '3620'
