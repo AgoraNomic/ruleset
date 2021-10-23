@@ -10,6 +10,7 @@ text: |
     * Any player CAN refile a Device without objection, specifying a
       new title; the Device is retitled to the specified title by
       this Device.
+    * The Speaker qualifies for a Platinum Device.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -61,5 +62,12 @@ history:
   agent:
     experiment:
       id: 6
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-10-17
+  agent:
+    experiment:
+      id: 7
       engineer: ais523
 annotations: []
