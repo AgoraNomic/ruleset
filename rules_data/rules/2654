@@ -7,6 +7,9 @@ text: |
     * The week that contains the beginning of Agora's Device,
       together with the following week, is a Holiday.
     * A Device CAN activate or deactivate emself by announcement.
+    * Any player CAN refile a Device without objection, specifying a
+      new title; the Device is retitled to the specified title by
+      this Device.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -51,5 +54,12 @@ history:
   agent:
     experiment:
       id: 5
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-10-10
+  agent:
+    experiment:
+      id: 6
       engineer: ais523
 annotations: []
