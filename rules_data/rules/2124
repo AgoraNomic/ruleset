@@ -30,16 +30,19 @@ text: |
      times the number of Objectors to the intent.
 
   The above notwithstanding, if an action is to be performed without
-  N objections or with N Agoran consent, and an objection to an
-  intent to perform it has been withdrawn within the past 24 hours,
-  then Agora is not Satisfied with that intent.
+  N objections or with N Agoran consent, and an entity has ceased to
+  be an Objector to that intent within the past 24 hours, then Agora
+  is not Satisfied with that intent.
 
-  The above notwithstanding, Agora is not satisfied with an intent
-  if the Speaker has objected to it in the last 48 hours.
+  The above notwithstanding, Agora is not Satisfied with an intent
+  if the Speaker has become an Objector to it in the last 48 hours.
 
-  A person CANNOT support or object to an announcement of intent
-  before the intent is announced, or after e has withdrawn the same
-  type of response.
+  An entity is not considered a Supporter or Objector to an intent
+  solely due to a purported support or objection made before the
+  intent was announced. An entity is not considered a Supporter to
+  an intent if e has previously ceased to be a Supporter to it, and
+  e is not considered an Objector to an intent if e has previously
+  ceased to be an Objector to it.
 history:
 - change:
     type: enactment
@@ -211,6 +214,11 @@ history:
   date: 2021-06-14
   agent:
     proposal: "8569"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8615"
 annotations:
 - cfjs:
   - id: '3567'
