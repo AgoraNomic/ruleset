@@ -8,7 +8,8 @@ text: |
   which each player's activity was last changed is part of the
   Registrar's weekly report.
 
-  A player CAN activate or deactivate emself by announcement.
+  A player CAN, acting as emself, activate or deactivate emself by
+  announcement.
 
   Any player CAN, with notice, make a player who has not made a
   public announcement in the past 30 days inactive.
@@ -25,4 +26,9 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8532"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8618"
 annotations: []
