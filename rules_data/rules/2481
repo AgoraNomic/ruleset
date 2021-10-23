@@ -4,8 +4,8 @@ power: 3.1
 text: |
   While Agora's Festivity is nonzero, the following apply:
 
-  1. Rules to the contrary notwithstanding, non-Festive players are
-     not eligible to support a dependent action;
+  1. Rules to the contrary notwithstanding, non-Festive players
+     CANNOT support/be a supporter for tabled action intents;
 
   2. Quorum for Agoran Decisions is equal to half the number of
      Festive players, rounded up;
@@ -50,4 +50,9 @@ history:
   date: 2021-06-14
   agent:
     proposal: "8569"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8629"
 annotations: []

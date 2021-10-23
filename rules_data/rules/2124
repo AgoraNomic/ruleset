@@ -1,48 +1,35 @@
 id: 2124
-name: Agoran Satisfaction
+name: Performing Tabled Actions
 power: 3
 text: |
-  A Supporter of an intent to perform an action is an eligible
-  entity who has publicly posted (and not withdrawn) support for an
-  announcement of that intent. An Objector to an intent to perform
-  an action is an eligible entity who has publicly posted (and not
-  withdrawn) an objection to the announcement of that intent.
+  For a given tabled intent, a player CAN, unless otherwise
+  forbidden by the rules or the document enabling the action, act on
+  eir own behalf, by announcement, to:
+  * Become a supporter ("support" it), unless e tabled or previously
+    supported it;
+  * Become an objector ("object to" it), unless e previously
+    objected to it;
+  * Cease to be a supporter or objector ("withdraw" support/objection).
 
-  A document that authorizes a dependent action, by default,
-  implicitly asserts that all players are eligible to support or
-  object to an intent to perform that action; if the document is a
-  rule, conflicts about eligibility (including conflicts with such
-  an implicit assertion) are resolved using the normal procedures.
-  However, the previous sentence notwithstanding, the initiator of
-  the intent is not eligible to support it.
+  An intent is ripe if was tabled within the past 14 days, the
+  Speaker hasn't objected to it in the past 48 hours, and its
+  conditions, if any, are met.
 
-  Agora is Satisfied with an intent to perform a specific action
-  unless at least one of the following is true:
+  An intent is mature if it was tabled at least 4 days ago and
+  nobody withdrew objections from it in the past 24 hours.
 
-  1. The action is to be performed Without N objections, and there
-     are at least N Objectors to that intent.
-
-  2. The action is to be performed With N support, and there are
-     fewer than than N Supporters of that intent.
-
-  3. The action is to be performed with N Agoran consent, and the
-     number of Supporters of the intent is less than or equal to N
-     times the number of Objectors to the intent.
-
-  The above notwithstanding, if an action is to be performed without
-  N objections or with N Agoran consent, and an entity has ceased to
-  be an Objector to that intent within the past 24 hours, then Agora
-  is not Satisfied with that intent.
-
-  The above notwithstanding, Agora is not Satisfied with an intent
-  if the Speaker has become an Objector to it in the last 48 hours.
-
-  An entity is not considered a Supporter or Objector to an intent
-  solely due to a purported support or objection made before the
-  intent was announced. An entity is not considered a Supporter to
-  an intent if e has previously ceased to be a Supporter to it, and
-  e is not considered an Objector to an intent if e has previously
-  ceased to be an Objector to it.
+  A rule purporting to allow a person to perform a tabled action
+  allows em to do so by announcement, if, considering only intents
+  for that action/method combination:
+  * With N Support: e is a sponsor or supporter of a ripe intent with
+    at least N supporters.
+  * Without N Objections: e is a sponsor of a mature ripe intent with
+    less than N objectors.
+  * With N Agoran Consent: e is a sponsor or supporter of a mature
+    ripe intent with supporters greater than N times its objectors
+    (e SHOULD list supporters and objectors).
+  * With T notice: e is the sponsor of a ripe intent created at
+    least T ago.
 history:
 - change:
     type: enactment
@@ -219,6 +206,16 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8615"
+- change:
+    type: retitling
+  date: 2021-10-18
+  agent:
+    proposal: "8629"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8629"
 annotations:
 - cfjs:
   - id: '3567'
