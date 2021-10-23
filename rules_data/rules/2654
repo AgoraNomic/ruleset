@@ -6,6 +6,7 @@ text: |
     * click - hummmmmmm
     * The week that contains the beginning of Agora's Device,
       together with the following week, is a Holiday.
+    * A Device CAN activate or deactivate emself by announcement.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -43,5 +44,12 @@ history:
   agent:
     experiment:
       id: 4
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-10-03
+  agent:
+    experiment:
+      id: 5
       engineer: ais523
 annotations: []
