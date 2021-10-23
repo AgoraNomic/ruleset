@@ -27,7 +27,9 @@ text: |
   Initiating a Finger Pointing found to be Shenanigans is ILLEGAL
   and the Class 0+N Crime of Unjustified Gesticulation, where N is
   the number of times e has previously committed the crime in the
-  current Agoran Week.
+  current Agoran Week. The investigator of a finger pointing SHALL
+  NOT point eir finger for the Crime of Unjustified Gesticulation
+  with respect to that finger pointing.
 
   The above notwithstanding, the investigator CANNOT resolve a
   Finger Pointing for which e is the perp.
@@ -132,4 +134,9 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8536"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8610"
 annotations: []
