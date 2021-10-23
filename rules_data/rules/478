@@ -35,10 +35,14 @@ text: |
   announcement", that person performs that action by, in a single
   public message, specifying the action and setting forth intent to
   perform that action by sending that message, doing both clearly
-  and unambiguously.  Any action performed by sending a message is
-  performed at the time date-stamped on that message. Actions in
-  messages (including sub-messages) are performed in the order they
-  appear in the message, unless otherwise specified.
+  and unambiguously.
+
+  Any action performed by sending a message is performed at the time
+  date-stamped on that message. Actions in messages (including
+  sub-messages) are performed in the order they appear in the
+  message, unless otherwise specified. Allowing actions performed by
+  sending a message to take place simultaneously must be done
+  explicitly and is secured at power 2.
 history:
 - change:
     type: enactment
@@ -250,6 +254,11 @@ history:
   date: 2021-06-23
   agent:
     proposal: "8576"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8614"
 annotations:
 - cfjs:
   - id: 1451-1452
