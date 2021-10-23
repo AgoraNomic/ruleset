@@ -4,10 +4,12 @@ power: 1
 text: |
   A Tournament is a sub-game of Agora specifically sanctioned to be
   initiated as a tournament by the Rules. The person who initiates a
-  tournament is its Gamemaster. If a winner of a tournament is
-  determined within within 3 months of its initiation, that person
-  or persons win the game, otherwise the tournament concludes with
-  no winner.
+  tournament is its Gamemaster. Each time that one or more winners
+  of a tournament are determined before it concludes, that person or
+  those persons win the game. A tournament concludes when its
+  regulations state that it concludes. Additionally, if it has not
+  previously concluded, a tournament concludes 3 months after its
+  initiation.
 
   A Tournament is governed by set of regulations, created in
   accordance with its parent rule, which have binding control over
@@ -47,4 +49,9 @@ history:
   date: 2020-04-04
   agent:
     proposal: "8364"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8612"
 annotations: []
