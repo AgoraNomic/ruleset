@@ -8,7 +8,7 @@ text: |
 
   A victory auction includes the following lots:
 
-  * one new Victory Card.
+  * one new Win Card.
 
   * all of any single type of card or product, currently owned by
     the Lost and Found Department, if any.
@@ -20,4 +20,9 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8446"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8613"
 annotations: []
