@@ -20,7 +20,11 @@ text: |
   proposal that was in the Proposal Pool and pending at the
   beginning of that week, except for those excepted from automatic
   distribution by other rules, or those that are otherwise removed
-  from the Pool.
+  from the Pool. If there are ten or more pending undistributed
+  proposals in the proposal pool, the promotor MAY refrain from
+  distributing the most recently added 5 proposals if e distributes
+  each other pending proposal in that Agoran week.  E SHALL then
+  distribute those undistributed proposals the next Agoran week.
 
   If a proposal has been in the proposal pool for more than 7 days
   and is not pending, the Promotor CAN and SHOULD remove it from the
@@ -311,6 +315,11 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8540"
+- change:
+    type: amendment
+  date: 2021-10-18
+  agent:
+    proposal: "8621"
 annotations:
 - cfjs:
   - id: '1546'
