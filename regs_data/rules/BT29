@@ -99,3 +99,9 @@ history:
     tournament_change:
       name: 2021 Birthday Tournament
       person: Jason
+- change:
+    type: repeal
+  date: 2021-10-02
+  agent:
+    tournament_end:
+      name: 2021 Birthday Tournament
