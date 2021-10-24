@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 27 Sep 2021
+Date of this ruleset: 24 Oct 2021
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 145
+Number of rules currently enacted: 144
 
 Highest ID'd rule in this ruleset: 2655
-Highest ID'd Proposal Passed: 8605
+Highest ID'd Proposal Passed: 8629
 Highest ID'd Rule Enacted: 2655
 
 ========================================================================
@@ -88,7 +88,7 @@ How to Join and Leave Agora
       to the contrary notwithstanding.
 
 ------------------------------------------------------------------------
-Rule 478/39 (Power=3)
+Rule 478/40 (Power=3)
 Fora
 
       Freedom of speech being essential for the healthy functioning of
@@ -124,10 +124,14 @@ Fora
       announcement", that person performs that action by, in a single
       public message, specifying the action and setting forth intent to
       perform that action by sending that message, doing both clearly
-      and unambiguously.  Any action performed by sending a message is
-      performed at the time date-stamped on that message. Actions in
-      messages (including sub-messages) are performed in the order they
-      appear in the message, unless otherwise specified.
+      and unambiguously.
+      
+      Any action performed by sending a message is performed at the time
+      date-stamped on that message. Actions in messages (including
+      sub-messages) are performed in the order they appear in the
+      message, unless otherwise specified. Allowing actions performed by
+      sending a message to take place simultaneously must be done
+      explicitly and is secured at power 2.
 
 ------------------------------------------------------------------------
 Rule 2139/17 (Power=2)
@@ -174,7 +178,7 @@ Cantus Cygneus
       FAGE.
 
 ------------------------------------------------------------------------
-Rule 2646/0 (Power=1)
+Rule 2646/1 (Power=1)
 Activity
 
       Activity is a player switch tracked by the Registrar, with values
@@ -183,7 +187,8 @@ Activity
       which each player's activity was last changed is part of the
       Registrar's weekly report.
       
-      A player CAN activate or deactivate emself by announcement.
+      A player CAN, acting as emself, activate or deactivate emself by
+      announcement.
       
       Any player CAN, with notice, make a player who has not made a
       public announcement in the past 30 days inactive.
@@ -346,132 +351,64 @@ Agoran Time
              or earlier time of day.
 
 ------------------------------------------------------------------------
-Rule 1728/42 (Power=3)
-Dependent Action Methods
+Rule 1728/43 (Power=3)
+Tabled Actions
 
-      The following methods of taking actions are known as "dependent
-      actions":
+      An action is a Tabled Action if it is performed with one of the
+      following methods:
+      * With N Support, where N is a positive integer.
+      * Without N Objections, where N is a positive integer.
+      * With N Agoran Consent, where N is a positive integer multiple of
+        0.1.
+      * With T notice, where T is a time period.
       
-      1. without N objections, where N is a positive integer no greater
-      than 8 ("without objection" is shorthand for this method with
-      N = 1);
+      The parameters N and T, if omitted, default to 1 and 4 days,
+      respectively (e.g. "without objection" means N=1). If a rule
+      defines N as less than 1 or greater than 8, it is instead treated
+      as 1 or 8, respectively.
       
-      2. with N support, where N is a positive integer ("with support"
-      is shorthand for this method with N = 1);
+      A person CAN act on eir own behalf, by announcement, to table an
+      intent (syn. "intend") to perform a tabled action, conspicuously
+      and without obfuscation specifying the action, the method
+      (including non- default parameter values), and optionally,
+      conditions.
       
-      3. with N Agoran consent, where N is an integer multiple of 0.1
-      with a minimum of 1 ("With Agoran consent" is shorthand for this
-      method with N = 1);
-      
-      4. with notice; or
-      
-      5. with T notice, where T is a time period.
-      
-      N is 1 unless otherwise specified.
-
-------------------------------------------------------------------------
-Rule 2595/2 (Power=3)
-Performing a Dependent Action
-
-      A rule that purports to allow a person (the performer) to perform
-      an action by a set of one or more dependent actions thereby allows
-      em to perform the action by announcement if all of the following
-      are true:
-      
-      1. A person (the initiator) published an announcement of intent
-         that unambiguously, clearly, conspicuously, and without
-         obfuscation specified the action intended to be taken and the
-         method(s) to be used;
-      
-      2. The announcement referenced in paragraph (1) of this Rule
-         unambiguously, clearly, conspicuously, and without obfuscation
-         states:
-      
-         * the value of T, if the action is to be taken with T notice;
-           and
-      
-         * the value of N, if N is not equal to 1 and the action is to
-           be taken without N objections, with N support, or with N
-           Agoran Consent;
-      
-      3. The announcement referenced in paragraph (1) of this Rule was
-         published:
-      
-         * within the 14 days preceding the action, if the action is to
-           be performed with N support;
-      
-         * between 4 and 14 days preceding the action, if the action is
-           to be performed without N objections, with N Agoran consent,
-           or with notice; or
-      
-         * between T and 14 days preceding the action, if the action is
-           to be performed with T notice;
-      
-      4. At least one of the following is true:
-      
-           * the performer is the initiator;
-      
-           * the initiator was authorized to perform the action due to
-             holding a rule-defined position now held by the performer;
-             or
-      
-           * the initiator is authorized to perform the action, the
-             action depends on support, the performer has supported the
-             intent, and the rule authorizing the performance does not
-             explicitly prohibit supporters from performing it;
-      
-      5. Agora is Satisfied with the announced intent, as defined by
-         other Rules; and
-      
-      6. The conditions are all met, if any conditions were stated in
-         the announcement of intent referenced in paragraph (1) of this
-         Rule.
-      
-      The performer SHOULD publish a list of supporters and objectors if
-      the action is to be taken with N Agoran consent.
+      A person is the sponsor of such an intent if e tabled it, or if e
+      is authorized to perform its action due to holding a rule-defined
+      position previously held by the person who tabled it.
 
 ------------------------------------------------------------------------
-Rule 2124/28 (Power=3)
-Agoran Satisfaction
+Rule 2124/30 (Power=3)
+Performing Tabled Actions
 
-      A Supporter of an intent to perform an action is an eligible
-      entity who has publicly posted (and not withdrawn) support for an
-      announcement of that intent. An Objector to an intent to perform
-      an action is an eligible entity who has publicly posted (and not
-      withdrawn) an objection to the announcement of that intent.
+      For a given tabled intent, a player CAN, unless otherwise
+      forbidden by the rules or the document enabling the action, act on
+      eir own behalf, by announcement, to:
+      * Become a supporter ("support" it), unless e tabled or previously
+        supported it;
+      * Become an objector ("object to" it), unless e previously
+        objected to it;
+      * Cease to be a supporter or objector ("withdraw" support/objection).
       
-      A document that authorizes a dependent action, by default,
-      implicitly asserts that all players are eligible to support or
-      object to an intent to perform that action; if the document is a
-      rule, conflicts about eligibility (including conflicts with such
-      an implicit assertion) are resolved using the normal procedures.
-      However, the previous sentence notwithstanding, the initiator of
-      the intent is not eligible to support it.
+      An intent is ripe if was tabled within the past 14 days, the
+      Speaker hasn't objected to it in the past 48 hours, and its
+      conditions, if any, are met.
       
-      Agora is Satisfied with an intent to perform a specific action
-      unless at least one of the following is true:
+      An intent is mature if it was tabled at least 4 days ago and
+      nobody withdrew objections from it in the past 24 hours.
       
-      1. The action is to be performed Without N objections, and there
-         are at least N Objectors to that intent.
-      
-      2. The action is to be performed With N support, and there are
-         fewer than than N Supporters of that intent.
-      
-      3. The action is to be performed with N Agoran consent, and the
-         number of Supporters of the intent is less than or equal to N
-         times the number of Objectors to the intent.
-      
-      The above notwithstanding, if an action is to be performed without
-      N objections or with N Agoran consent, and an objection to an
-      intent to perform it has been withdrawn within the past 24 hours,
-      then Agora is not Satisfied with that intent.
-      
-      The above notwithstanding, Agora is not satisfied with an intent
-      if the Speaker has objected to it in the last 48 hours.
-      
-      A person CANNOT support or object to an announcement of intent
-      before the intent is announced, or after e has withdrawn the same
-      type of response.
+      A rule purporting to allow a person to perform a tabled action
+      allows em to do so by announcement, if, considering only intents
+      for that action/method combination:
+      * With N Support: e is a sponsor or supporter of a ripe intent with
+        at least N supporters.
+      * Without N Objections: e is a sponsor of a mature ripe intent with
+        less than N objectors.
+      * With N Agoran Consent: e is a sponsor or supporter of a mature
+        ripe intent with supporters greater than N times its objectors
+        (e SHOULD list supporters and objectors).
+      * With T notice: e is the sponsor of a ripe intent created at
+        least T ago.
 
 ------------------------------------------------------------------------
 Rule 2518/0 (Power=3)
@@ -719,7 +656,7 @@ Proposal Classes
       ended.
 
 ------------------------------------------------------------------------
-Rule 1607/51 (Power=3)
+Rule 1607/52 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -740,7 +677,11 @@ Distribution
       proposal that was in the Proposal Pool and pending at the
       beginning of that week, except for those excepted from automatic
       distribution by other rules, or those that are otherwise removed
-      from the Pool.
+      from the Pool. If there are ten or more pending undistributed
+      proposals in the proposal pool, the promotor MAY refrain from
+      distributing the most recently added 5 proposals if e distributes
+      each other pending proposal in that Agoran week.  E SHALL then
+      distribute those undistributed proposals the next Agoran week.
       
       If a proposal has been in the proposal pool for more than 7 days
       and is not pending, the Promotor CAN and SHOULD remove it from the
@@ -1397,13 +1338,13 @@ Voting Strength
       and the maximum value if it was more.
 
 ------------------------------------------------------------------------
-Rule 2653/1 (Power=2)
+Rule 2653/2 (Power=2)
 Buying Strength
 
-      A player CAN Buy Strength by paying a fee of 1 Extra Vote. A
-      person's Voting Strength on a referendum on an ordinary proposal
-      is 1 greater for every time e Bought Strength during that
-      decision's voting period.
+      A player CAN Buy Strength by paying a fee of 1 Votive. A person's
+      Voting Strength on a referendum on an ordinary proposal is 1
+      greater for every time e Bought Strength during that decision's
+      voting period.
 
 ------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
@@ -1937,7 +1878,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/16 (Power=1.7)
+Rule 2478/17 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement Point eir Finger at a player (the
@@ -1965,7 +1906,9 @@ Vigilante Justice
       Initiating a Finger Pointing found to be Shenanigans is ILLEGAL
       and the Class 0+N Crime of Unjustified Gesticulation, where N is
       the number of times e has previously committed the crime in the
-      current Agoran Week.
+      current Agoran Week. The investigator of a finger pointing SHALL
+      NOT point eir finger for the Crime of Unjustified Gesticulation
+      with respect to that finger pointing.
       
       The above notwithstanding, the investigator CANNOT resolve a
       Finger Pointing for which e is the perp.
@@ -2487,7 +2430,7 @@ Assets
    Assets are things players can own. This section describes how that
    works.
 ------------------------------------------------------------------------
-Rule 2166/30 (Power=3)
+Rule 2166/31 (Power=3)
 Assets
 
       An asset is an entity defined as such by a document that has been
@@ -2504,8 +2447,8 @@ Assets
       The recordkeepor of a class of assets is the entity (if any)
       defined as such by, and bound by, its backing document. That
       entity's report includes a list of all instances of that class and
-      their owners. This portion of that entity's report is
-      self-ratifying.
+      their owners. A public document purporting to be this portion of
+      that entity's report is self-ratifying.
       
       For a class of assets to be "tracked by" an entity is for that
       entity to be its recordkeepor.
@@ -2715,17 +2658,17 @@ Paydays
       place at the beginning of the month, a Payday occurs.
 
 ------------------------------------------------------------------------
-Rule 2620/1 (Power=1.0)
+Rule 2620/2 (Power=1.0)
 Cards & Sets
 
       Cards are a type of currency with a corresponding Product.
       Products are also currencies. The types of Cards and their
       corresponding Products are:
       
-      * Victory Cards and Victory Points.
+      * Win Cards and Winsomes.
       * Justice Cards and Blot-B-Gones
       * Legislative Cards and Pendants
-      * Voting Cards and Extra Votes
+      * Voting Cards and Votives
       
       A player CAN pay a 'set' of X Cards of the same type to gain Y
       corresponding Products. The value of X determines the value of Y
@@ -2741,20 +2684,20 @@ Cards & Sets
       Cards and Products are tracked by the Treasuror.
 
 ------------------------------------------------------------------------
-Rule 2621/5 (Power=1.0)
+Rule 2621/7 (Power=1.0)
 VP Wins
 
-      If a player has at least 20 more Victory Points than any other
-      player, e CAN Take Over the Economy by announcement, provided no
-      person has won the game by doing so in the past 30 days.
+      If a player has at least 20 more Win Points than any other player,
+      e CAN Take Over the Economy by announcement, provided no person
+      has won the game by doing so in the past 30 days.
       
       When a player takes over the economy, e wins the game. Four days
       after such a win occurs, all Cards and all Products are destroyed.
-      Then, each active player gains 1 card of each type and eir grant
-      (if any).
+      Then, the winds change, following which each active player gains 1
+      card of each type and eir grant (if any).
 
 ------------------------------------------------------------------------
-Rule 2629/0 (Power=1.0)
+Rule 2629/1 (Power=1.0)
 Victory Auctions
 
       The Treasuror CAN conduct an auction (a "victory auction") if no
@@ -2763,7 +2706,7 @@ Victory Auctions
       
       A victory auction includes the following lots:
       
-      * one new Victory Card.
+      * one new Win Card.
       
       * all of any single type of card or product, currently owned by
         the Lost and Found Department, if any.
@@ -2771,7 +2714,7 @@ Victory Auctions
       The currency of a victory auction is coins (minimum bid 1).
 
 ------------------------------------------------------------------------
-Rule 2624/7 (Power=1.0)
+Rule 2624/8 (Power=1.0)
 Card Administration
 
       Each of the following Ministries has a Grant, listed below.
@@ -2779,17 +2722,17 @@ Card Administration
       Ministry of Compliance: 1 Justice Card
       Ministry of Legislation: 1 Legislative Card
       Ministry of Participation: 1 Voting Card
-      Ministry of Legacy: 1 Victory Point
+      Ministry of Legacy: 1 Win Point
       
       A player CAN once a month grant eir Ministry Focus' Grant to a
       specified player by announcement.
       
       The Ministor CAN, once a month and by announcement, and SHALL, in
-      a timely manner from the beginning of the month, grant 1 Victory
-      Card to a random player whose Ministry Focus is Legacy .
+      a timely manner from the beginning of the month, grant 1 Win Card
+      to a random player whose Ministry Focus is Legacy .
 
 ------------------------------------------------------------------------
-Rule 2638/0 (Power=2.0)
+Rule 2638/1 (Power=2.0)
 Player Focuses
 
       Ministry Focus (or just Focus) is a secured active player switch,
@@ -2798,10 +2741,13 @@ Player Focuses
       
       An active player CAN Plan to Flip eir own Ministry Focus,
       specifying any valid value for eir Ministry Focus, by
-      announcement. At the beginning of a month, every active player's
-      Ministry Focus is set to the value e mostly recently specified by
-      Planning to Flip. If a player did not Plan to Flip eir Ministry
-      Focus switch in the last month, it is not flipped.
+      announcement. When the rules state that the winds change, every
+      active player's Ministry Focus is set to the value e mostly
+      recently specified by Planning to Flip. If a player did not Plan
+      to Flip eir Ministry Focus switch since the last time the winds
+      changed, it is not flipped.
+      
+      The winds change at the beginning of each month.
 
 ------------------------------------------------------------------------
 Rule 2499/13 (Power=1)
@@ -3018,13 +2964,18 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/3 (Power=1)
+Rule 2654/6 (Power=1)
 The Device
 
       When the device is on:
         * click - hummmmmmm
         * The week that contains the beginning of Agora's Device,
           together with the following week, is a Holiday.
+        * A Device CAN activate or deactivate emself by announcement.
+        * Any player CAN refile a Device without objection, specifying a
+          new title; the Device is retitled to the specified title by
+          this Device.
+        * The Speaker qualifies for a Platinum Device.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -3105,15 +3056,16 @@ Victory by Apathy
       days.
 
 ------------------------------------------------------------------------
-Rule 2553/3 (Power=1)
+Rule 2553/4 (Power=1)
 Win by Paradox
 
       If a CFJ about the effectiveness, possibility, or legality of a
       change in the gamestate has been assigned a judgment of
-      PARADOXICAL continuously for at least 7 days, then that case's
-      initiator, CAN, by announcement, Transcend Logic, provided that e
-      has not already won the game with respect to that CFJ. When a
-      person transcends logic, e wins the game.
+      PARADOXICAL continuously for between 7 and 90 days, then that
+      case's initiator, CAN, by announcement, Transcend Logic,
+      specifying that CFJ, provided that e has not already won the game
+      with respect to that CFJ. When a person transcends logic, e wins
+      the game.
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
@@ -3266,13 +3218,13 @@ Festivals
       Festive.
 
 ------------------------------------------------------------------------
-Rule 2481/4 (Power=3.1)
+Rule 2481/5 (Power=3.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
       
-      1. Rules to the contrary notwithstanding, non-Festive players are
-         not eligible to support a dependent action;
+      1. Rules to the contrary notwithstanding, non-Festive players
+         CANNOT support/be a supporter for tabled action intents;
       
       2. Quorum for Agoran Decisions is equal to half the number of
          Festive players, rounded up;
@@ -3635,15 +3587,17 @@ Happy Birthday
       the entire day of June 30, GMT +1200, of each year.
 
 ------------------------------------------------------------------------
-Rule 2464/5 (Power=1)
+Rule 2464/6 (Power=1)
 Tournaments
 
       A Tournament is a sub-game of Agora specifically sanctioned to be
       initiated as a tournament by the Rules. The person who initiates a
-      tournament is its Gamemaster. If a winner of a tournament is
-      determined within within 3 months of its initiation, that person
-      or persons win the game, otherwise the tournament concludes with
-      no winner.
+      tournament is its Gamemaster. Each time that one or more winners
+      of a tournament are determined before it concludes, that person or
+      those persons win the game. A tournament concludes when its
+      regulations state that it concludes. Additionally, if it has not
+      previously concluded, a tournament concludes 3 months after its
+      initiation.
       
       A Tournament is governed by set of regulations, created in
       accordance with its parent rule, which have binding control over

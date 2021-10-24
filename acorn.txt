@@ -2,7 +2,7 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 27 Sep 2021
+Date of this ACORN: 24 Oct 2021
 
 ------------------------------------------------------------------------
 
@@ -21,8 +21,6 @@ Administrative Regulations
    * Regulation  RA1: Tardiness
    * Regulation  RA2: Guidelines to Referees for Compiling Weekly Reports
    * Regulation  RA3: Holiday Rule Reminder Practice
-Birthday Tournament
-   * Regulation BT29: Survivor 2021
 
 
 ------------------------------------------------------------------------
@@ -389,106 +387,6 @@ Holiday Rule Reminder Practice
 History:
 
 Enacted by JTAC, 31 Jan 2021
-
-Annotations:
-
-------------------------------------------------------------------------
-========================================================================
-Birthday Tournament
-   This section has regulations that govern the ongoing Birthday
-   Tournament.
-------------------------------------------------------------------------
-Regulation BT29/1
-Survivor 2021
-
-      # Participation
-      
-      The Host is nix. If the Host is a Contestant, Survivor, and/or Ghost, e
-      ceases to be.
-      
-      Any Contestant may quit by announcement, and cease being a Contestant,
-      Survivor, and/or Ghost. The Host CAN, by announcement, cause a specified
-      Contestant who has not posted a public message in 7 days to cease to be
-      a Survivor and become a Ghost.
-      
-      # Winning
-      
-      The winner is the Contestant who Outlasts all other Contestants. A
-      Contestant outlasts all other Contestants if e is the only Survivor.
-      
-      # Teams
-      
-      Some or all Contestants are assigned to teams.
-      
-      # Pre-Finale
-      
-      During the Pre-Finale, the Host and any Survivor CAN publish a Finale
-      Script.  Contestants CAN, by announcement, support a Finale Script. The
-      Host CAN, by announcement, veto a specified Finale Script. If a Finale
-      Script has not been veto'd, and has support of either more than half of
-      all Ghosts or more than half of all Contestants, then the Host CAN and
-      SHALL apply it, causing it to become Effective.
-      
-      If at least one Finale Script is Effective and has been Effective for
-      the previous 4 days, the Host CAN by announcement begin the Finale.
-      
-      While Effective, a Finale Script can authorize changes to the state
-      defined under this regulation.
-      
-      # Finale
-      
-      Before or during the Finale, the Host CAN once by announcement set the
-      Tiebreaking Hash to a specified SHA-256 hash of a document. The document
-      must specify a single ranked order of all persons who were Survivors at
-      the time it was submitted. The Host SHALL do this before the Finale and
-      SHOULD NOT reveal the hashed document until it is required or a winner
-      has been determined.
-      
-      During a Voting Phase, all Contestants CAN, by sending a message to the
-      Host, vote on a specified Survivor.
-      
-      When the Finale begins, the Primary Voting Phase begins.
-      
-      When all Contestants have voted on a Voting Phase, or 7 days after the
-      Voting Phase began:
-      * First, the Voting Phase ends.
-      * If a single Survivor has the most votes, the Host CAN by announcement
-      and SHALL expel all other Survivors (causing them to cease to be Survivors).
-      * Otherwise, if multiple Survivors are tied for the most votes:
-        * If the completed phase is the Primary Voting Phase, the Host CAN by
-      announcement and SHALL expel all Survivors not in the tie. After this,
-      the Secondary Voting Phase begins.
-        * Otherwise, the Host SHALL reveal the document used to compute the
-      Tiebraking Hash, then the Host CAN by announcement and SHALL expel all
-      Survivors except for the first Survivor in the order listed in the
-      revealed document.
-      
-      # One-Shot Clarification
-      
-      If the Clarification, as defined under this section, has not yet
-      occurred, it immediately occurs.
-      
-      Upon the Clarification occurring:
-      {
-      
-      * The following are hereby made the only Contestants: Jason, R. Lee,
-      ATMunn, Aspen, Falsifian, G., Gaelan, Telna, Cuddlybanana, Cuddle Beam
-      * The following are hereby made the only Survivors: Jason, Aspen,
-      Falsifian, Telna, Cuddlybanana
-      * The following are hereby made the only Ghosts: R. Lee, ATMunn, G.,
-      Gaelan, Cuddle Beam
-      
-      * The following are hereby made the only members of Team 1: Jason, R.
-      Lee, ATMunn, Aspen, Falsifian
-      * The following are hereby made the only members of Team 2: G., Gaelan,
-      Telna, Cuddlybanana, Cuddle Beam
-      
-      }
-
-History:
-
-Enacted by initiation of 2021 Birthday Tournament by nix, 02 Jul 2021
-Amended(1) by Jason as part of 2021 Birthday Tournament, 11 Sep 2021
 
 Annotations:
 
