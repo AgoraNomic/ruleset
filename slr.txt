@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 24 Oct 2021
+Date of this ruleset: 29 Nov 2021
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 144
 
 Highest ID'd rule in this ruleset: 2655
-Highest ID'd Proposal Passed: 8629
+Highest ID'd Proposal Passed: 8633
 Highest ID'd Rule Enacted: 2655
 
 ========================================================================
@@ -656,7 +656,7 @@ Proposal Classes
       ended.
 
 ------------------------------------------------------------------------
-Rule 1607/52 (Power=3)
+Rule 1607/53 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -680,8 +680,7 @@ Distribution
       from the Pool. If there are ten or more pending undistributed
       proposals in the proposal pool, the promotor MAY refrain from
       distributing the most recently added 5 proposals if e distributes
-      each other pending proposal in that Agoran week.  E SHALL then
-      distribute those undistributed proposals the next Agoran week.
+      each other pending proposal in that Agoran week.
       
       If a proposal has been in the proposal pool for more than 7 days
       and is not pending, the Promotor CAN and SHOULD remove it from the
@@ -2687,9 +2686,9 @@ Cards & Sets
 Rule 2621/7 (Power=1.0)
 VP Wins
 
-      If a player has at least 20 more Win Points than any other player,
-      e CAN Take Over the Economy by announcement, provided no person
-      has won the game by doing so in the past 30 days.
+      If a player has at least 20 more Winsomes than any other player, e
+      CAN Take Over the Economy by announcement, provided no person has
+      won the game by doing so in the past 30 days.
       
       When a player takes over the economy, e wins the game. Four days
       after such a win occurs, all Cards and all Products are destroyed.
@@ -2722,7 +2721,7 @@ Card Administration
       Ministry of Compliance: 1 Justice Card
       Ministry of Legislation: 1 Legislative Card
       Ministry of Participation: 1 Voting Card
-      Ministry of Legacy: 1 Win Point
+      Ministry of Legacy: 1 Winsome
       
       A player CAN once a month grant eir Ministry Focus' Grant to a
       specified player by announcement.
@@ -2964,7 +2963,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/6 (Power=1)
+Rule 2654/11 (Power=1)
 The Device
 
       When the device is on:
@@ -2976,6 +2975,10 @@ The Device
           new title; the Device is retitled to the specified title by
           this Device.
         * The Speaker qualifies for a Platinum Device.
+        * The time window of a Device is W days, where W is the value
+          explicitly stated by the Device, or 60 if the Device does not
+          explicitly state a value. A Device ceases to exist at the end
+          of its time window.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -2987,16 +2990,23 @@ The Device
           labeled a Cantus Cygneus, detailing eir grievances and
           expressing eir reproach for those who e feels have treated em
           so badly.
+        * When e does so, e fulfills any obligations with regards to
+          that device.
+        * Text purportedly about previous instances of the device (e.g.
+          a report's date of last device) is excluded from the device.
+        * If a Device has no judge assigned, then any player eligible to
+          judge that Device CAN assign it to emself without 3
+          objections.
 
 ------------------------------------------------------------------------
-Rule 2655/1 (Power=1)
+Rule 2655/2 (Power=1)
 The Mad Engineer
 
       The Mad Engineer is an office; its holder is responsible for
-      building and maintaining the Device.  The device is a singleton
-      switch with values off (default) and on.  The Mad Engineer CAN
-      flip the device to either on or off with Agoran Consent; any other
-      player CAN do so with 2 Agoran Consent.
+      building, tracking, and maintaining the Device.  The device is a
+      singleton switch with values off (default) and on.  The Mad
+      Engineer CAN flip the device to either on or off with Agoran
+      Consent; any other player CAN do so with 2 Agoran Consent.
       
       The Mad Engineer CAN act on behalf of the device to take any
       action that the device may take, and SHALL act on behalf of the
@@ -3020,8 +3030,7 @@ The Mad Engineer
       amend the rule "The Device" by inserting the modified text as the
       last list item in either the "device on" or "device off" lists in
       that rule (or, if 007 has been spotted, to repeal both that rule
-      and this one).  This intent announcement counts as the Mad
-      Engineers's weekly report.
+      and this one).
       
       If the announcement of intent above is made with the procedure
       described above, the Mad Engineer CAN, with Agoran Consent, cause
