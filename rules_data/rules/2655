@@ -3,10 +3,10 @@ name: The Mad Engineer
 power: 1
 text: |
   The Mad Engineer is an office; its holder is responsible for
-  building and maintaining the Device.  The device is a singleton
-  switch with values off (default) and on.  The Mad Engineer CAN
-  flip the device to either on or off with Agoran Consent; any other
-  player CAN do so with 2 Agoran Consent.
+  building, tracking, and maintaining the Device.  The device is a
+  singleton switch with values off (default) and on.  The Mad
+  Engineer CAN flip the device to either on or off with Agoran
+  Consent; any other player CAN do so with 2 Agoran Consent.
 
   The Mad Engineer CAN act on behalf of the device to take any
   action that the device may take, and SHALL act on behalf of the
@@ -30,8 +30,7 @@ text: |
   amend the rule "The Device" by inserting the modified text as the
   last list item in either the "device on" or "device off" lists in
   that rule (or, if 007 has been spotted, to repeal both that rule
-  and this one).  This intent announcement counts as the Mad
-  Engineers's weekly report.
+  and this one).
 
   If the announcement of intent above is made with the procedure
   described above, the Mad Engineer CAN, with Agoran Consent, cause
@@ -50,4 +49,9 @@ history:
   date: 2021-09-24
   agent:
     proposal: "8605"
+- change:
+    type: amendment
+  date: 2021-11-20
+  agent:
+    proposal: "8631"
 annotations: []
