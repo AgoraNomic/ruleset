@@ -22,6 +22,8 @@ text: |
       labeled a Cantus Cygneus, detailing eir grievances and
       expressing eir reproach for those who e feels have treated em
       so badly.
+    * When e does so, e fulfills any obligations with regards to
+      that device.
 history:
 - change:
     type: enactment
@@ -69,5 +71,12 @@ history:
   agent:
     experiment:
       id: 7
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-10-24
+  agent:
+    experiment:
+      id: 8
       engineer: ais523
 annotations: []
