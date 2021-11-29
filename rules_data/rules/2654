@@ -28,6 +28,8 @@ text: |
       so badly.
     * When e does so, e fulfills any obligations with regards to
       that device.
+    * Text purportedly about previous instances of device (e.g. a
+      report's date of last device) is excluded from device.
 history:
 - change:
     type: enactment
@@ -89,5 +91,12 @@ history:
   agent:
     experiment:
       id: 10
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-11-14
+  agent:
+    experiment:
+      id: 11
       engineer: ais523
 annotations: []
