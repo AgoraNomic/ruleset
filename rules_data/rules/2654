@@ -19,6 +19,8 @@ text: |
       AI-majority, instant runoff, or first-past-the-post.
     * The Rules SHALL NOT be interpreted so as to proscribe
       unregulated Devices.
+    * The voting Device is that specified by the authorizing
+      authority, or first-past-the-post by default.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -132,5 +134,12 @@ history:
   agent:
     experiment:
       id: 15
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-12-26
+  agent:
+    experiment:
+      id: 16
       engineer: ais523
 annotations: []
