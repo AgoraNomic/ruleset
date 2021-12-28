@@ -17,6 +17,8 @@ text: |
       of its time window.
     * Each Agoran Device has a voting method, which must be
       AI-majority, instant runoff, or first-past-the-post.
+    * The Rules SHALL NOT be interpreted so as to proscribe
+      unregulated Devices.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -123,5 +125,12 @@ history:
   agent:
     experiment:
       id: 14
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-12-14
+  agent:
+    experiment:
+      id: 15
       engineer: ais523
 annotations: []
