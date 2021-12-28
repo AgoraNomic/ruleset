@@ -15,6 +15,8 @@ text: |
       explicitly stated by the Device, or 60 if the Device does not
       explicitly state a value. A Device ceases to exist at the end
       of its time window.
+    * Each Agoran Device has a voting method, which must be
+      AI-majority, instant runoff, or first-past-the-post.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -114,5 +116,12 @@ history:
   agent:
     experiment:
       id: 12
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-12-07
+  agent:
+    experiment:
+      id: 14
       engineer: ais523
 annotations: []
