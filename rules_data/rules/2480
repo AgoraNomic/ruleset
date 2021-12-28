@@ -12,16 +12,16 @@ text: |
   more, or if it has a nonzero value and fewer than 5 players are
   Festive, then any player CAN flip it to 0 by announcement.
   
-  A player who owns at least N types of Ribbon CAN Start a Rank N
-  Festival, where N is an integer greater than Agora's Festivity,
-  with 4 support from players who own at least N types of Ribbon.
-  Upon doing so, Agora's Festivity is flipped to N. Exception: A
-  player CANNOT do so if Agora's Festivity has had a value greater
-  than or equal to N within the past 21 days.
+  A person whose Laudability is greater than or equal to Agora's
+  Festivity is Festive. Any other person is not Festive.
 
-  A person who owns a number of types of Ribbon equal to or greater
-  than Agora's Festivity is known as Festive. Other persons are not
-  Festive.
+  A player who would be Festive if the Festivity was N CAN Start a
+  Rank N Festival, where N is an integer greater than Agora's
+  Festivity, with 4 support from other players who would be Festive
+  if the Festivity was N, except that a Rank N Festival CANNOT be
+  started if Agora's Festivity has had a value grater than or equal
+  to N in the past 21 days. Upon a Rank N Festival starting, Agora's
+  Festivity is flipped to N.
 history:
 - change:
     type: enactment
@@ -56,4 +56,9 @@ history:
   date: 2021-06-14
   agent:
     proposal: "8569"
+- change:
+    type: amendment
+  date: 2021-12-24
+  agent:
+    proposal: "8634"
 annotations: []

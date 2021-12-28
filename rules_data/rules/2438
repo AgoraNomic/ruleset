@@ -133,12 +133,21 @@ history:
   date: 2021-07-29
   agent:
     proposal: "8595"
+- change:
+    type: amendment
+  date: 2021-12-24
+  agent:
+    proposal: "8634"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
   For each type of Ribbon, <type> Ribbon Ownership is a secured
   negative boolean person switch, tracked by the Tailor in eir
-  monthly report.
+  monthly report. Laudability is a secured person switch with
+  non-negative integer possible values, defaulting to 0, tracked by
+  the Tailor as part of eir monthly report. When a person owns more
+  types of ribbons than eir Laudability, eir Laudability is set to
+  the number of types of ribbons e owns.
 
   To "award a person a <Ribbon type>" is to flip that person's
   <that type> Ribbon Ownership to True. A person "owns a <Ribbon
