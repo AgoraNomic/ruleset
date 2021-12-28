@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 29 Nov 2021
+Date of this ruleset: 28 Dec 2021
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 144
 
 Highest ID'd rule in this ruleset: 2655
-Highest ID'd Proposal Passed: 8633
+Highest ID'd Proposal Passed: 8634
 Highest ID'd Rule Enacted: 2655
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -6562,7 +6562,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/11 (Power=1)
+Rule 2654/14 (Power=1)
 The Device
 
       When the device is on:
@@ -6578,6 +6578,12 @@ The Device
           explicitly stated by the Device, or 60 if the Device does not
           explicitly state a value. A Device ceases to exist at the end
           of its time window.
+        * Each Agoran Device has a voting method, which must be
+          AI-majority, instant runoff, or first-past-the-post.
+        * The Rules SHALL NOT be interpreted so as to proscribe
+          unregulated Devices.
+        * The voting Device is that specified by the authorizing
+          authority, or first-past-the-post by default.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -6611,6 +6617,9 @@ Amended(8) by Experiment #10 under Mad Engineer ais523, 09 Nov 2021
 Amended(9) by Experiment #11 under Mad Engineer ais523, 14 Nov 2021
 Amended(10) by cleaning (ais523), 14 Nov 2021
 Amended(11) by Experiment #12 under Mad Engineer ais523, 21 Nov 2021
+Amended(12) by Experiment #14 under Mad Engineer ais523, 07 Dec 2021
+Amended(13) by Experiment #15 under Mad Engineer ais523, 14 Dec 2021
+Amended(14) by Experiment #16 under Mad Engineer ais523, 26 Dec 2021
 
 Annotations:
 
@@ -6739,14 +6748,18 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/24 (Power=3)
+Rule 2438/25 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
       
       For each type of Ribbon, <type> Ribbon Ownership is a secured
       negative boolean person switch, tracked by the Tailor in eir
-      monthly report.
+      monthly report. Laudability is a secured person switch with
+      non-negative integer possible values, defaulting to 0, tracked by
+      the Tailor as part of eir monthly report. When a person owns more
+      types of ribbons than eir Laudability, eir Laudability is set to
+      the number of types of ribbons e owns.
       
       To "award a person a <Ribbon type>" is to flip that person's
       <that type> Ribbon Ownership to True. A person "owns a <Ribbon
@@ -6871,6 +6884,7 @@ Amended(22) by P8487 'Simpler ribbon switches' (Murphy, R. Lee), 10 Aug
 Amended(23) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
 Amended(24) by P8595 'It's a gray, gray, world.' (R. Lee, Jason), 29 Jul
    2021
+Amended(25) by P8634 'Laudability' (Jason), 24 Dec 2021
 
 Annotations:
 
@@ -6912,7 +6926,7 @@ Amended(7) by P8595 'It's a gray, gray, world.' (R. Lee, Jason), 29 Jul
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2480/4 (Power=3.1)
+Rule 2480/5 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
@@ -6925,16 +6939,16 @@ Festivals
       more, or if it has a nonzero value and fewer than 5 players are
       Festive, then any player CAN flip it to 0 by announcement.
       
-      A player who owns at least N types of Ribbon CAN Start a Rank N
-      Festival, where N is an integer greater than Agora's Festivity,
-      with 4 support from players who own at least N types of Ribbon.
-      Upon doing so, Agora's Festivity is flipped to N. Exception: A
-      player CANNOT do so if Agora's Festivity has had a value greater
-      than or equal to N within the past 21 days.
+      A person whose Laudability is greater than or equal to Agora's
+      Festivity is Festive. Any other person is not Festive.
       
-      A person who owns a number of types of Ribbon equal to or greater
-      than Agora's Festivity is known as Festive. Other persons are not
-      Festive.
+      A player who would be Festive if the Festivity was N CAN Start a
+      Rank N Festival, where N is an integer greater than Agora's
+      Festivity, with 4 support from other players who would be Festive
+      if the Festivity was N, except that a Rank N Festival CANNOT be
+      started if Agora's Festivity has had a value grater than or equal
+      to N in the past 21 days. Upon a Rank N Festival starting, Agora's
+      Festivity is flipped to N.
 
 History:
 
@@ -6946,6 +6960,7 @@ Amended(4) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18 Sep
    2019
 Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Jason, Aspen,
    Murphy), 14 Jun 2021
+Amended(5) by P8634 'Laudability' (Jason), 24 Dec 2021
 
 Annotations:
 
