@@ -62,6 +62,8 @@ text: |
       objections.
     * The Rulekeepor SHOULD also include any other information which
       e feels may be helpful in the use of the Device in the FLR.
+    * Then, the Device change, following which each active player
+      gains 1 card of each type and eir grant (if any).
 history:
 - change:
     type: enactment
@@ -185,5 +187,12 @@ history:
   agent:
     experiment:
       id: 19
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-01-21
+  agent:
+    experiment:
+      id: 20
       engineer: ais523
 annotations: []
