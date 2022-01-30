@@ -42,6 +42,7 @@ text: |
     * The voting Device of an entity on an Agoran decision is an
       integer between 0 and 15 inclusive, defined by rules of power
       2 or greater.
+    * An Device is an entity with positive Power.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -201,4 +202,11 @@ history:
   agent:
     cleaning:
       by: ais523
+- change:
+    type: amendment
+  date: 2022-01-23
+  agent:
+    experiment:
+      id: 21
+      engineer: ais523
 annotations: []
