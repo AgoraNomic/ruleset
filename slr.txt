@@ -2,7 +2,7 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 Dec 2021
+Date of this ruleset: 30 Jan 2022
 
 Date of last SLR ratification: 8 May 2019
 
@@ -2963,7 +2963,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/14 (Power=1)
+Rule 2654/21 (Power=1)
 The Device
 
       When the device is on:
@@ -2985,6 +2985,28 @@ The Device
           unregulated Devices.
         * The voting Device is that specified by the authorizing
           authority, or first-past-the-post by default.
+        * An entity submits a ballot on an Agoran Device by publishing a
+          notice satisfying the following conditions:
+      
+          1. The ballot is submitted during the voting period for the
+             Device.
+      
+          2. The entity casting the ballot (the voter) was, at the
+             initiation of the Device, a player.
+      
+          3. The ballot clearly identifies the matter to be decided.
+      
+          4. The ballot clearly identifies a valid vote, as determined
+             by the voting method.
+      
+          5. The ballot clearly sets forth the voter's intent to place
+             the identified vote.
+      
+          6. The voter has no other valid ballots on the same Device.
+        * The voting Device of an entity on an Agoran decision is an
+          integer between 0 and 15 inclusive, defined by rules of power
+          2 or greater.
+        * A Device is an entity with positive Power.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -3003,6 +3025,10 @@ The Device
         * If a Device has no judge assigned, then any player eligible to
           judge that Device CAN assign it to emself without 3
           objections.
+        * The Rulekeepor SHOULD also include any other information which
+          e feels may be helpful in the use of the Device in the FLR.
+        * Then, the Device changes, following which each active player
+          gains 1 card of each type and eir grant (if any).
 
 ------------------------------------------------------------------------
 Rule 2655/2 (Power=1)
