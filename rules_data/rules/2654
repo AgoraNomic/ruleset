@@ -21,6 +21,24 @@ text: |
       unregulated Devices.
     * The voting Device is that specified by the authorizing
       authority, or first-past-the-post by default.
+    * An entity submits a ballot on an Agoran Device by publishing a
+      notice satisfying the following conditions:
+
+      1. The ballot is submitted during the voting period for the
+         Device.
+
+      2. The entity casting the ballot (the voter) was, at the
+         initiation of the Device, a player.
+
+      3. The ballot clearly identifies the matter to be decided.
+
+      4. The ballot clearly identifies a valid vote, as determined
+         by the voting method.
+
+      5. The ballot clearly sets forth the voter's intent to place
+         the identified vote.
+
+      6. The voter has no other valid ballots on the same Device.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -141,5 +159,12 @@ history:
   agent:
     experiment:
       id: 16
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2021-12-31
+  agent:
+    experiment:
+      id: 17
       engineer: ais523
 annotations: []
