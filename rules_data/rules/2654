@@ -39,6 +39,9 @@ text: |
          the identified vote.
 
       6. The voter has no other valid ballots on the same Device.
+    * The voting Device of an entity on an Agoran decision is an
+      integer between 0 and 15 inclusive, defined by rules of power
+      2 or greater.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -175,5 +178,12 @@ history:
   agent:
     experiment:
       id: 18
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-01-09
+  agent:
+    experiment:
+      id: 19
       engineer: ais523
 annotations: []
