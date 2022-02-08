@@ -211,6 +211,12 @@
   rules:
   - 2654 # The Device
   - 2655 # The Mad Engineer
+- name: Scoring
+  note: |
+    A game in which players attempt attempt to amass points, in order
+    to (presumably) become the Pointiest.
+  rules:
+  - 2656 # Points
 - name: Victory
   note: |
     All games have winners, and Agora is no exception. If you're

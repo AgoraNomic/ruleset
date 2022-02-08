@@ -1,0 +1,17 @@
+id: 2656
+name: Points
+power: 1.5
+text: |
+  A player's Score, indicated in Points, is an integer player switch
+  defaulting to 0, tracked by the Herald.
+
+  Upon a correct announcement from a player that one or more players
+  have a score of 100+ points, all players meeting this condition
+  win the game.  If a least one player wins the game via such an
+  announcement, all players' scores are set to their default.
+history:
+- change:
+    type: enactment
+  date: 2022-02-08
+  agent:
+    proposal: "8636"
