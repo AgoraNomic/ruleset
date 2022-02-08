@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Jan 2022
+Date of this ruleset: 8 Feb 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 144
+Number of rules currently enacted: 146
 
-Highest ID'd rule in this ruleset: 2655
-Highest ID'd Proposal Passed: 8634
-Highest ID'd Rule Enacted: 2655
+Highest ID'd rule in this ruleset: 2657
+Highest ID'd Proposal Passed: 8637
+Highest ID'd Rule Enacted: 2657
 
 ========================================================================
 The Game of Agora
@@ -3070,6 +3070,47 @@ The Mad Engineer
       has been spotted, cause this rule to repeal both that rule and
       this one), and SHALL do so if the intent receives sufficient
       support.
+
+------------------------------------------------------------------------
+========================================================================
+Scoring
+   A game in which players attempt attempt to amass points, in order to
+   (presumably) become the Pointiest.
+------------------------------------------------------------------------
+Rule 2656/0 (Power=1.5)
+Points
+
+      A player's Score, indicated in Points, is an integer player switch
+      defaulting to 0, tracked by the Herald.
+      
+      Upon a correct announcement from a player that one or more players
+      have a score of 100+ points, all players meeting this condition
+      win the game.  If a least one player wins the game via such an
+      announcement, all players' scores are set to their default.
+
+------------------------------------------------------------------------
+Rule 2657/0 (Power=1)
+Scoring
+
+      Each time a player fulfills a scoring condition, the officer
+      associated with the condition CAN once by announcement, and SHALL
+      in an officially timely fashion, add to that player's score the
+      associated amount of points.
+      
+      Below is a list of scoring conditions and their associated points
+      and officers.
+      
+        * Being the author of a sponsored proposal that takes effect:
+          1 + the power of the proposal when it takes effect (Assessor).
+      
+        * Being the coauthor of a sponsored proposal that takes effect:
+          1 (Assessor).
+      
+        * Having submitted an unconditional ballot AGAINST a referendum
+          on a sponsored proposal, provided that the ballot is valid at
+          the time the referendum is assessed, and provided that the
+          outcome of that assessment is ADOPTED:  points equal to the
+          voting player's voting strength on the referendum (Assessor).
 
 ------------------------------------------------------------------------
 ========================================================================

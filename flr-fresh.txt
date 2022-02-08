@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Jan 2022
+Date of this ruleset: 8 Feb 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 144
+Number of rules currently enacted: 146
 
-Highest ID'd rule in this ruleset: 2655
-Highest ID'd Proposal Passed: 8634
-Highest ID'd Rule Enacted: 2655
+Highest ID'd rule in this ruleset: 2657
+Highest ID'd Proposal Passed: 8637
+Highest ID'd Rule Enacted: 2657
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -155,6 +155,9 @@ Stones
 The Device
    * Rule 2654: The Device
    * Rule 2655: The Mad Engineer
+Scoring
+   * Rule 2656: Points
+   * Rule 2657: Scoring
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -192,8 +195,8 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-44 with Power=1
-2  with Power=1.5
+45 with Power=1
+3  with Power=1.5
 5  with Power=1.7
 34 with Power=2
 1  with Power=2.2
@@ -804,8 +807,6 @@ Amended(11) by P8376 'Additional fire retardant' (Falsifian), 06 May
    2020
 
 Annotations:
-CFJ 1594 (called 16 Dec 2006): Players can be deregistered due to this
-    rule even if there is no Registrar.
 CFJ 2358 (called 26 Jan 2009): A document which is labeled as a Cantus
     Cygneus but does not actually detail grievances, etc. is not a
     Cantus Cygneus.
@@ -6702,6 +6703,59 @@ History:
 Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
 Amended(1) by P8605 'Covered under warranty' (G., Oerjan), 24 Sep 2021
 Amended(2) by P8631 'another device defect' (G.), 20 Nov 2021
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Scoring
+   A game in which players attempt attempt to amass points, in order to
+   (presumably) become the Pointiest.
+------------------------------------------------------------------------
+Rule 2656/0 (Power=1.5)
+Points
+
+      A player's Score, indicated in Points, is an integer player switch
+      defaulting to 0, tracked by the Herald.
+      
+      Upon a correct announcement from a player that one or more players
+      have a score of 100+ points, all players meeting this condition
+      win the game.  If a least one player wins the game via such an
+      announcement, all players' scores are set to their default.
+
+History:
+
+Enacted by P8636 'Points' (G.), 08 Feb 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2657/0 (Power=1)
+Scoring
+
+      Each time a player fulfills a scoring condition, the officer
+      associated with the condition CAN once by announcement, and SHALL
+      in an officially timely fashion, add to that player's score the
+      associated amount of points.
+      
+      Below is a list of scoring conditions and their associated points
+      and officers.
+      
+        * Being the author of a sponsored proposal that takes effect:
+          1 + the power of the proposal when it takes effect (Assessor).
+      
+        * Being the coauthor of a sponsored proposal that takes effect:
+          1 (Assessor).
+      
+        * Having submitted an unconditional ballot AGAINST a referendum
+          on a sponsored proposal, provided that the ballot is valid at
+          the time the referendum is assessed, and provided that the
+          outcome of that assessment is ADOPTED:  points equal to the
+          voting player's voting strength on the referendum (Assessor).
+
+History:
+
+Enacted by P8637 'Basic Scoring v0.2' (G., Jason), 08 Feb 2022
 
 Annotations:
 
