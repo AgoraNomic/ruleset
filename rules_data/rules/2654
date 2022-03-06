@@ -45,6 +45,8 @@ text: |
     * A Device is an entity with positive Power.
     * The Treasuror CAN conduct an auction (a "Device auction") if
       no Device auction is ongoing.
+    * A Device change is any effect that falls into the above
+      classes.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -223,5 +225,12 @@ history:
   agent:
     experiment:
       id: 22
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-02-25
+  agent:
+    experiment:
+      id: 25
       engineer: ais523
 annotations: []
