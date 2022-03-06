@@ -29,15 +29,14 @@ text: |
   d) Announce intent to, with Agoran Consent, cause this rule to
   amend the rule "The Device" by inserting the modified text as the
   last list item in either the "device on" or "device off" lists in
-  that rule (or, if 007 has been spotted, to repeal both that rule
-  and this one).
+  that rule (or, if 007 has been spotted, to repeal that rule, then
+  this one).
 
   If the announcement of intent above is made with the procedure
   described above, the Mad Engineer CAN, with Agoran Consent, cause
   this rule to amend the rule "The Device" as indicated (or, if 007
-  has been spotted, cause this rule to repeal both that rule and
-  this one), and SHALL do so if the intent receives sufficient
-  support.
+  has been spotted, cause this rule to repeal that rule, then this
+  one), and SHALL do so if the intent receives sufficient support.
 history:
 - change:
     type: enactment
@@ -54,4 +53,9 @@ history:
   date: 2021-11-20
   agent:
     proposal: "8631"
+- change:
+    type: amendment
+  date: 2022-02-23
+  agent:
+    proposal: "8644"
 annotations: []
