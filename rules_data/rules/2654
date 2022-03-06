@@ -43,6 +43,8 @@ text: |
       integer between 0 and 15 inclusive, defined by rules of power
       2 or greater.
     * A Device is an entity with positive Power.
+    * The Treasuror CAN conduct an auction (a "Device auction") if
+      no Device auction is ongoing.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -215,4 +217,11 @@ history:
   agent:
     cleaning:
       by: ais523
+- change:
+    type: amendment
+  date: 2022-02-03
+  agent:
+    experiment:
+      id: 22
+      engineer: ais523
 annotations: []
