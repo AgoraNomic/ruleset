@@ -2,7 +2,7 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 8 Feb 2022
+Date of this ACORN: 6 Mar 2022
 
 ------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ Auction Regulations
    This section has the regulations, written by the Treasuror, governing
    how auctions proceed.
 ------------------------------------------------------------------------
-Regulation AM0/4
+Regulation AM0/5
 Generalized Auction
 
       Generalized auctions exist to give context to the form of other
@@ -63,13 +63,6 @@ Generalized Auction
         * a bid is placed
         * a player withdraws from the auction
       
-      RETRIEVAL: When the bidding period ends, the retrieval period
-      begins. During the retrieval period, bidders will be allowed to
-      retrieve the assets required to pay for their bid. The retrieval
-      period lasts three days. Failing to have the requisite assets when
-      the retrieval period for an auction ends constitutes the Class 1
-      Crime of Underfundedness.
-      
       AWARDING: For each auction, there are a number of awardees equal
       to the number of lots. The Nth lot of an auction goes to the Nth
       awardee of that auction. If the identity of an awardee is
@@ -82,28 +75,23 @@ Generalized Auction
       that auction.
       
       FUNDED PLAYERS: Derivative auction methods should ensure that only
-      players who, at the end of an auction's retrieval period, have at
+      players who, at the end of an auction's bidding period, have at
       least as much of that auction's currency as the amount that e is
       required to pay in that auction (hereafter "funded players") can
       be selected as awardees for auctions using that auction method.
       
-      RESOLUTION: The auctioneer for an auction SHALL, during that
-      auction's retrieval period, create a public message (henceforth
-      the "resolution message") that contains a full history of bids on
-      the auction and withdrawals from the auction. It must also clearly
-      indicate who each awardee would be if all players were funded, as
-      well as the lot each one would recieve. Failing to publish a
-      resolution message constitutes the Class 3 Crime of Auction
-      Negligence.
+      DISTRIBUTION: To distribute lots in an auction is to:
+        * publish a reasonably accurate full history of bids on the
+          auction and withdrawals from the auction, and
+        * for each awardee in that auction, revoke the amount to be paid
+          from that awardee and transfer to that player (or grant em if
+          the item is new) the set of assets associated with the lot e
+          won.
       
-      DISTRIBUTION: In a timely fashion after the retrieval period for
-      an auction ends, that auction's auctioneer CAN and SHALL, for each
-      awardee in that auction, destroy the amount to be paid from the
-      inventory of that awardee and transfer to that player (or create
-      in eir possession if the item is new) the set of assets associated
-      with the lot e won. Failing to create or transfer items as
-      described in this paragraph constitutes the Class 3 Crime of
-      Auction Abandonment.
+      The Auctioneer for an auction CAN, by announcement within fourteen
+      days after the bidding period for an auction ends, and SHALL, in a
+      timely fashion after that same point, distribute lots. The message
+      in which e does so is the "resolution message" for that auction.
       
       ACTIVE BIDS: The set of active bids for an auction is the set of
       all funded, non-withdrawn players' highest bids on that auction.
@@ -115,6 +103,7 @@ Amended(1) by Trigon, 28 Mar 2021
 Amended(2) by Trigon, 05 May 2021
 Amended(3) by Trigon, 02 Aug 2021
 Amended(4) by Trigon, 30 Aug 2021
+Amended(5) by Trigon, 05 Mar 2022
 
 Annotations:
 

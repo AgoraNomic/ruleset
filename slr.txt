@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 8 Feb 2022
+Date of this ruleset: 6 Mar 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 146
 
 Highest ID'd rule in this ruleset: 2657
-Highest ID'd Proposal Passed: 8637
+Highest ID'd Proposal Passed: 8644
 Highest ID'd Rule Enacted: 2657
 
 ========================================================================
@@ -1295,7 +1295,7 @@ Determining the Will of Agora
       cannot change thereafter.
 
 ------------------------------------------------------------------------
-Rule 879/39 (Power=2)
+Rule 879/40 (Power=3)
 Quorum
 
       Each Agoran decision has a quorum. This is a number set when the
@@ -1312,10 +1312,11 @@ Quorum
       that had been most recently resolved at the time of that
       decision's initiation, the whole rounded to the nearest integer.
       
-      As an exception to the previous paragraph, the quorum of an
-      Agoran decision can never be less than 2. If the rules would
-      attempt to set the quorum of an Agoran decision to less than 2,
-      it is set to 2 instead.
+      As an exception to the previous paragraph, the minimum quorum of
+      an Agoran decision is 2, or 1 if there are fewer than 2 players in
+      the game. If the rules would attempt to set the quorum of an
+      Agoran decision to less than the minimum quorum, it is set to the
+      minimum instead.
 
 ------------------------------------------------------------------------
 Rule 2422/10 (Power=3)
@@ -1877,7 +1878,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/17 (Power=1.7)
+Rule 2478/18 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement Point eir Finger at a player (the
@@ -1910,7 +1911,7 @@ Vigilante Justice
       with respect to that finger pointing.
       
       The above notwithstanding, the investigator CANNOT resolve a
-      Finger Pointing for which e is the perp.
+      Finger Pointing for which e is the perp or the finger-pointer.
       
       The Referee is by default the investigator for all Finger
       Pointing. When the Referee's Finger is Pointed or the Referee is
@@ -2914,7 +2915,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/5 (Power=2)
+Rule 2645/6 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2947,10 +2948,10 @@ The Stones
       - Hot Potato Stone (Weekly, 100%):  When this stone is wielded,
         the wielder gains 8 boatloads of coins if the wielder, in the
         same message as the wielding, transfers this stone to a player
-        who has not owned this stone since Agora last owned it. This
-        stone cannot otherwise be transferred, other rules
-        notwithstanding. This stone is immune if 3 or more players have
-        wielded it since the most recent collection notice.
+        who has not owned this stone since Agora last owned it. If this
+        stone is not owned by Agora, it cannot otherwise be transferred,
+        other rules notwithstanding. This stone is immune if 3 or more
+        players have wielded it since the most recent collection notice.
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
       
@@ -2963,7 +2964,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/21 (Power=1)
+Rule 2654/23 (Power=1)
 The Device
 
       When the device is on:
@@ -3007,6 +3008,10 @@ The Device
           integer between 0 and 15 inclusive, defined by rules of power
           2 or greater.
         * A Device is an entity with positive Power.
+        * The Treasuror CAN conduct an auction (a "Device auction") if
+          no Device auction is ongoing.
+        * A Device change is any effect that falls into the above
+          classes.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -3031,7 +3036,7 @@ The Device
           gains 1 card of each type and eir grant (if any).
 
 ------------------------------------------------------------------------
-Rule 2655/2 (Power=1)
+Rule 2655/3 (Power=1)
 The Mad Engineer
 
       The Mad Engineer is an office; its holder is responsible for
@@ -3061,15 +3066,14 @@ The Mad Engineer
       d) Announce intent to, with Agoran Consent, cause this rule to
       amend the rule "The Device" by inserting the modified text as the
       last list item in either the "device on" or "device off" lists in
-      that rule (or, if 007 has been spotted, to repeal both that rule
-      and this one).
+      that rule (or, if 007 has been spotted, to repeal that rule, then
+      this one).
       
       If the announcement of intent above is made with the procedure
       described above, the Mad Engineer CAN, with Agoran Consent, cause
       this rule to amend the rule "The Device" as indicated (or, if 007
-      has been spotted, cause this rule to repeal both that rule and
-      this one), and SHALL do so if the intent receives sufficient
-      support.
+      has been spotted, cause this rule to repeal that rule, then this
+      one), and SHALL do so if the intent receives sufficient support.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3158,7 +3162,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/25 (Power=3)
+Rule 2438/26 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3203,8 +3207,9 @@ Ribbons
       Emerald (E): When a person wins an election, e earns an Emerald
       Ribbon.
       
-      Cyan (C): When a person deputises for an office, that person earns
-      a Cyan Ribbon.
+      Cyan (C): When a person deputises for an office, and that person
+      has not held or deputized for that office within the past 7 days,
+      that person earns a Cyan Ribbon.
       
       Blue (B): When a person assigns a judgement to a CFJ, and has
       never violated a time limit to assign a judgement to that CFJ,

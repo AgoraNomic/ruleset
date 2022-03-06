@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Jan 2022
+Date of this ruleset: 6 Mar 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 144
+Number of rules currently enacted: 146
 
-Highest ID'd rule in this ruleset: 2655
-Highest ID'd Proposal Passed: 8634
-Highest ID'd Rule Enacted: 2655
+Highest ID'd rule in this ruleset: 2657
+Highest ID'd Proposal Passed: 8644
+Highest ID'd Rule Enacted: 2657
 
 ------------------------------------------------------------------------
 
@@ -150,6 +150,9 @@ Stones
 The Device
    * Rule 2654: The Device
    * Rule 2655: The Mad Engineer
+Scoring
+   * Rule 2656: Points
+   * Rule 2657: Scoring
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -187,13 +190,13 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-44 with Power=1
-2  with Power=1.5
+45 with Power=1
+3  with Power=1.5
 5  with Power=1.7
-34 with Power=2
+33 with Power=2
 1  with Power=2.2
 1  with Power=2.5
-46 with Power=3
+47 with Power=3
 3  with Power=3.1
 1  with Power=3.14
 2  with Power=3.2
@@ -799,8 +802,6 @@ Amended(11) by P8376 'Additional fire retardant' (Falsifian), 06 May
    2020
 
 Annotations:
-CFJ 1594 (called 16 Dec 2006): Players can be deregistered due to this
-    rule even if there is no Registrar.
 CFJ 2358 (called 26 Jan 2009): A document which is labeled as a Cantus
     Cygneus but does not actually detail grievances, etc. is not a
     Cantus Cygneus.
@@ -3238,7 +3239,7 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision is
     described in Rule 955.
 
 ------------------------------------------------------------------------
-Rule 879/39 (Power=2)
+Rule 879/40 (Power=3)
 Quorum
 
       Each Agoran decision has a quorum. This is a number set when the
@@ -3255,10 +3256,11 @@ Quorum
       that had been most recently resolved at the time of that
       decision's initiation, the whole rounded to the nearest integer.
       
-      As an exception to the previous paragraph, the quorum of an
-      Agoran decision can never be less than 2. If the rules would
-      attempt to set the quorum of an Agoran decision to less than 2,
-      it is set to 2 instead.
+      As an exception to the previous paragraph, the minimum quorum of
+      an Agoran decision is 2, or 1 if there are fewer than 2 players in
+      the game. If the rules would attempt to set the quorum of an
+      Agoran decision to less than the minimum quorum, it is set to the
+      minimum instead.
 
 History:
 
@@ -3314,6 +3316,8 @@ Amended(36) by cleaning (Alexis), 23 Jan 2020
 Amended(37) by P8321 'Untying Quorum' (Aspen), 13 Feb 2020
 Amended(38) by P8338 'Clarify quorum (option 1)' (Murphy), 24 Feb 2020
 Amended(39) by P8418 'Referenda' (Aspen), 14 Jun 2020
+Power changed from 2 to 3 by P8639 'sole quorum' (G.), 23 Feb 2022
+Amended(40) by P8639 'sole quorum' (G.), 23 Feb 2022
 
 Annotations:
 CFJ 1562 (called 03 May 2005): A cancelled vote on a Proposal does not
@@ -4555,7 +4559,7 @@ Amended(1) by cleaning (Alexis), 23 Jan 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/17 (Power=1.7)
+Rule 2478/18 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement Point eir Finger at a player (the
@@ -4588,7 +4592,7 @@ Vigilante Justice
       with respect to that finger pointing.
       
       The above notwithstanding, the investigator CANNOT resolve a
-      Finger Pointing for which e is the perp.
+      Finger Pointing for which e is the perp or the finger-pointer.
       
       The Referee is by default the investigator for all Finger
       Pointing. When the Referee's Finger is Pointed or the Referee is
@@ -4635,6 +4639,7 @@ Amended(15) by P8527 'Specified Crime not Rule' (Publius Scribonius
    Scholasticus, nix, Aspen), 13 Jan 2021
 Amended(16) by P8536 'Justice for All' (Aspen, G., Jason), 03 Feb 2021
 Amended(17) by P8610 'No Immediate Shenanigans' (Jason), 18 Oct 2021
+Amended(18) by P8643 'Firing Judge Dredd' (G.), 23 Feb 2022
 
 Annotations:
 
@@ -6494,7 +6499,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/5 (Power=2)
+Rule 2645/6 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6527,10 +6532,10 @@ The Stones
       - Hot Potato Stone (Weekly, 100%):  When this stone is wielded,
         the wielder gains 8 boatloads of coins if the wielder, in the
         same message as the wielding, transfers this stone to a player
-        who has not owned this stone since Agora last owned it. This
-        stone cannot otherwise be transferred, other rules
-        notwithstanding. This stone is immune if 3 or more players have
-        wielded it since the most recent collection notice.
+        who has not owned this stone since Agora last owned it. If this
+        stone is not owned by Agora, it cannot otherwise be transferred,
+        other rules notwithstanding. This stone is immune if 3 or more
+        players have wielded it since the most recent collection notice.
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
       
@@ -6548,6 +6553,7 @@ Amended(3) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Jason), 11 Feb 2021
 Amended(4) by P8548 'Stone defaults' (Jason), 10 Mar 2021
 Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
+Amended(6) by P8642 'Hot Potato patch v2' (Jason, Oerjan), 23 Feb 2022
 
 Annotations:
 
@@ -6557,7 +6563,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/21 (Power=1)
+Rule 2654/23 (Power=1)
 The Device
 
       When the device is on:
@@ -6601,6 +6607,10 @@ The Device
           integer between 0 and 15 inclusive, defined by rules of power
           2 or greater.
         * A Device is an entity with positive Power.
+        * The Treasuror CAN conduct an auction (a "Device auction") if
+          no Device auction is ongoing.
+        * A Device change is any effect that falls into the above
+          classes.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -6648,11 +6658,13 @@ Amended(18) by Experiment #20 under Mad Engineer ais523, 21 Jan 2022
 Amended(19) by cleaning (ais523), 21 Jan 2022
 Amended(20) by Experiment #21 under Mad Engineer ais523, 23 Jan 2022
 Amended(21) by cleaning (ais523), 23 Jan 2022
+Amended(22) by Experiment #22 under Mad Engineer ais523, 03 Feb 2022
+Amended(23) by Experiment #25 under Mad Engineer ais523, 25 Feb 2022
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2655/2 (Power=1)
+Rule 2655/3 (Power=1)
 The Mad Engineer
 
       The Mad Engineer is an office; its holder is responsible for
@@ -6682,21 +6694,74 @@ The Mad Engineer
       d) Announce intent to, with Agoran Consent, cause this rule to
       amend the rule "The Device" by inserting the modified text as the
       last list item in either the "device on" or "device off" lists in
-      that rule (or, if 007 has been spotted, to repeal both that rule
-      and this one).
+      that rule (or, if 007 has been spotted, to repeal that rule, then
+      this one).
       
       If the announcement of intent above is made with the procedure
       described above, the Mad Engineer CAN, with Agoran Consent, cause
       this rule to amend the rule "The Device" as indicated (or, if 007
-      has been spotted, cause this rule to repeal both that rule and
-      this one), and SHALL do so if the intent receives sufficient
-      support.
+      has been spotted, cause this rule to repeal that rule, then this
+      one), and SHALL do so if the intent receives sufficient support.
 
 History:
 
 Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
 Amended(1) by P8605 'Covered under warranty' (G., Oerjan), 24 Sep 2021
 Amended(2) by P8631 'another device defect' (G.), 20 Nov 2021
+Amended(3) by P8644 'Device repeal patch' (Jason, ais523), 23 Feb 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Scoring
+   A game in which players attempt attempt to amass points, in order to
+   (presumably) become the Pointiest.
+------------------------------------------------------------------------
+Rule 2656/0 (Power=1.5)
+Points
+
+      A player's Score, indicated in Points, is an integer player switch
+      defaulting to 0, tracked by the Herald.
+      
+      Upon a correct announcement from a player that one or more players
+      have a score of 100+ points, all players meeting this condition
+      win the game.  If a least one player wins the game via such an
+      announcement, all players' scores are set to their default.
+
+History:
+
+Enacted by P8636 'Points' (G.), 08 Feb 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2657/0 (Power=1)
+Scoring
+
+      Each time a player fulfills a scoring condition, the officer
+      associated with the condition CAN once by announcement, and SHALL
+      in an officially timely fashion, add to that player's score the
+      associated amount of points.
+      
+      Below is a list of scoring conditions and their associated points
+      and officers.
+      
+        * Being the author of a sponsored proposal that takes effect:
+          1 + the power of the proposal when it takes effect (Assessor).
+      
+        * Being the coauthor of a sponsored proposal that takes effect:
+          1 (Assessor).
+      
+        * Having submitted an unconditional ballot AGAINST a referendum
+          on a sponsored proposal, provided that the ballot is valid at
+          the time the referendum is assessed, and provided that the
+          outcome of that assessment is ADOPTED:  points equal to the
+          voting player's voting strength on the referendum (Assessor).
+
+History:
+
+Enacted by P8637 'Basic Scoring v0.2' (G., Jason), 08 Feb 2022
 
 Annotations:
 
@@ -6776,7 +6841,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/25 (Power=3)
+Rule 2438/26 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6821,8 +6886,9 @@ Ribbons
       Emerald (E): When a person wins an election, e earns an Emerald
       Ribbon.
       
-      Cyan (C): When a person deputises for an office, that person earns
-      a Cyan Ribbon.
+      Cyan (C): When a person deputises for an office, and that person
+      has not held or deputized for that office within the past 7 days,
+      that person earns a Cyan Ribbon.
       
       Blue (B): When a person assigns a judgement to a CFJ, and has
       never violated a time limit to assign a judgement to that CFJ,
@@ -6913,6 +6979,7 @@ Amended(23) by P8539 'The Great Rollback' (Aspen, G.), 11 Feb 2021
 Amended(24) by P8595 'It's a gray, gray, world.' (R. Lee, Jason), 29 Jul
    2021
 Amended(25) by P8634 'Laudability' (Jason), 24 Dec 2021
+Amended(26) by P8638 'Cyan Ribbon Patch' (Secretsnail9), 23 Feb 2022
 
 Annotations:
 
