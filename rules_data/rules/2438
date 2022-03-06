@@ -138,6 +138,11 @@ history:
   date: 2021-12-24
   agent:
     proposal: "8634"
+- change:
+    type: amendment
+  date: 2022-02-23
+  agent:
+    proposal: "8638"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -181,8 +186,9 @@ text: |
   Emerald (E): When a person wins an election, e earns an Emerald
   Ribbon.
 
-  Cyan (C): When a person deputises for an office, that person earns
-  a Cyan Ribbon.
+  Cyan (C): When a person deputises for an office, and that person
+  has not held or deputized for that office within the past 7 days,
+  that person earns a Cyan Ribbon.
 
   Blue (B): When a person assigns a judgement to a CFJ, and has
   never violated a time limit to assign a judgement to that CFJ,
