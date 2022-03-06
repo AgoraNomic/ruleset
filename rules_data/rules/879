@@ -1,6 +1,6 @@
 id: 879
 name: Quorum
-power: 2
+power: 3
 text: |
   Each Agoran decision has a quorum. This is a number set when the
   decision is created, and thereafter cannot be changed. When a
@@ -16,10 +16,11 @@ text: |
   that had been most recently resolved at the time of that
   decision's initiation, the whole rounded to the nearest integer.
 
-  As an exception to the previous paragraph, the quorum of an
-  Agoran decision can never be less than 2. If the rules would
-  attempt to set the quorum of an Agoran decision to less than 2,
-  it is set to 2 instead.
+  As an exception to the previous paragraph, the minimum quorum of
+  an Agoran decision is 2, or 1 if there are fewer than 2 players in
+  the game. If the rules would attempt to set the quorum of an
+  Agoran decision to less than the minimum quorum, it is set to the
+  minimum instead.
 history:
 - change:
     type: initial
@@ -236,6 +237,18 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
+- change:
+    type: power-change
+    old-power: 2
+    new-power: 3
+  date: 2022-02-23
+  agent:
+    proposal: "8639"
+- change:
+    type: amendment
+  date: 2022-02-23
+  agent:
+    proposal: "8639"
 annotations:
 - cfjs:
   - id: '1562'
