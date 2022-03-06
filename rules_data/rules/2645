@@ -32,10 +32,10 @@ text: |
   - Hot Potato Stone (Weekly, 100%):  When this stone is wielded,
     the wielder gains 8 boatloads of coins if the wielder, in the
     same message as the wielding, transfers this stone to a player
-    who has not owned this stone since Agora last owned it. This
-    stone cannot otherwise be transferred, other rules
-    notwithstanding. This stone is immune if 3 or more players have
-    wielded it since the most recent collection notice.
+    who has not owned this stone since Agora last owned it. If this
+    stone is not owned by Agora, it cannot otherwise be transferred,
+    other rules notwithstanding. This stone is immune if 3 or more
+    players have wielded it since the most recent collection notice.
 
   - Blank Stone (Monthly, 5%): This stone has no effect.
 
@@ -72,4 +72,9 @@ history:
   date: 2021-09-24
   agent:
     proposal: "8604"
+- change:
+    type: amendment
+  date: 2022-02-23
+  agent:
+    proposal: "8642"
 annotations: []
