@@ -8,22 +8,26 @@ text: |
 
   1. the rules require the holder of that office, by virtue of
      holding that office, to perform the action (this requirement is
-     fulfilled by the deputy performing the action);
+     fulfilled by the deputy performing the action); and, it would
+     be POSSIBLE for the deputy to perform the action, other than by
+     deputisation, if e held the office; and, the deputy, when
+     performing the action, announces that e is doing so by
+     deputisation or by temporary deputisation; and, the deputy has
+     not held the office in the past 7 days; and,
 
-  2. it would be POSSIBLE for the deputy to perform the action,
-     other than by deputisation, if e held the office;
+  2. any of the following are true:
+     (A) the office is vacant;
+     (B) a time limit by which the rules require the action to be
+         performed has expired, the office's holder has not changed
+         in the past 7 days, and any of the following are true:
 
-  3. either (i) a time limit by which the rules require the action
-     to be performed has expired or (ii) the office is vacant;
-
-  4. either (i) the office is vacant, (ii) the aforementioned time
-     limit expired more than fourteen days ago, or (iii) the deputy
-     announced between two and fourteen days earlier that e intended
-     to deputise for that office for the purposes of the particular
-     action; and
-
-  5. the deputy, when performing the action, announces that e is
-     doing so by deputisation or by temporary deputisation
+           (i) the deputy announced between two and fourteen days
+               earlier that e intended to deputise for that office
+               for the purposes of the particular action;
+          (ii) the time limit expired between 14 days ago and 28
+               days ago;
+         (iii) the time limit expired more than 28 days ago and the
+               deputisation is temporary;
 
   When a player deputises for an elected office, e becomes the
   holder of that office, unless the action being performed would
@@ -160,6 +164,11 @@ history:
   agent:
     cleaning:
       by: twg
+- change:
+    type: amendment
+  date: 2022-03-15
+  agent:
+    proposal: "8646"
 annotations:
 - cfjs:
   - id: '1776'
