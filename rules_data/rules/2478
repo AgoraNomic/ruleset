@@ -45,9 +45,10 @@ text: |
   The Referee CANNOT levy the Cold Hand of Justice to punish a high
   crime, the other provisions of this rule notwithstanding.
 
-  The player who initiated the most Finger Pointings that resulted
-  in a Warning, Indictment, or Cold Hand of Justice in the previous
-  Agoran Week CAN once grant emself a Justice Card by announcement.
+  The player who initiated the most Finger Pointings at other
+  players that, in the previous Agoran Week, resulted in a Warning,
+  Indictment, or Cold Hand of Justice, CAN once grant emself a
+  Justice Card by announcement.
 history:
 - change:
     type: enactment
@@ -144,4 +145,9 @@ history:
   date: 2022-02-23
   agent:
     proposal: "8643"
+- change:
+    type: amendment
+  date: 2022-03-15
+  agent:
+    proposal: "8654"
 annotations: []
