@@ -2,23 +2,41 @@ id: 1551
 name: Ratification
 power: 3.2
 text: |
-  When a document or statement (hereafter "document") is ratified,
-  rules to the contrary notwithstanding, the gamestate is modified
-  to what it would be if, at the time the ratified document was
-  published, the gamestate had been minimally modified to make the
-  ratified document as true and accurate as possible; however, if
-  the document explicitly specifies a different past time as being
-  the time the document was true, the specified time is used to
-  determine the minimal modifications. Such a modification cannot
-  add inconsistencies between the gamestate and the rules, and it
-  cannot include rule changes unless the ratified document
-  explicitly and unambiguously recites either the changes or the
-  resulting properties of the rule(s). If no such modification is
-  possible, or multiple substantially distinct possible
-  modifications would be equally appropriate, the ratification
-  fails.
+  A retroactive change is one that changes the game's record of past
+  events. Retroactive changes are secured with power threshold 3.
 
-  An internally inconsistent document generally cannot be ratified;
+  When a document or statement (hereafter "document") is to be
+  ratified, the following definitions apply:
+  * The publication time is the instant at which the document to be
+    ratified was published.
+  * The truth time is the instant at which the document specifies
+    that it was true, or the publication time if such an instant is
+    not specified.
+  * The application time is the instant at which the document to be
+    ratified is ratified.
+
+  Ratification CANNOT occur if the truth time would be after the
+  application time, or if the publication time would be after the
+  application time.
+
+  Rules to the contrary notwithstanding, when a document is
+  ratified, the gamestate is modified to what it would be if, at the
+  truth time, the gamestate had been minimally modified to make the
+  ratified document as true and accurate as possible.
+
+  Ratification CANNOT occur if it would add inconsistencies between
+  the gamestate and the rules.
+
+  Ratification CANNOT occur if the required modification to the
+  gamestate is not possible or if multiple substantially distinct
+  possible modifications would be equally appropriate.
+
+  If the minimal modification would include past or present rule
+  changes, they are instead excluded unless the ratified document
+  explicitly and unambiguously recites either the changes or the
+  resulting properties of the rule(s).
+
+  An internally inconsistent document generally CANNOT be ratified;
   however, if such a document can be divided into a summary section
   and a main section, where the only purpose of the summary section
   is to summarize information in the main section, and the main
@@ -29,9 +47,9 @@ text: |
   report's date of last ratification) is excluded from ratification.
   The rules may define additional information that is considered to
   be part of the document for the purposes of ratification; such
-  definitions are secured at a Power Threshold of 3.
+  definitions are secured with power threshold 3.
 
-  Ratification is secured with Power Threshold 3.
+  Ratification is secured with power threshold 3.
 history:
 - change:
     type: enactment
@@ -185,6 +203,11 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8534"
+- change:
+    type: amendment
+  date: 2022-03-15
+  agent:
+    proposal: "8651"
 annotations:
 - cfjs:
   - id: '2165'
