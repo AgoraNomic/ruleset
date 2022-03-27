@@ -69,6 +69,8 @@ text: |
       e feels may be helpful in the use of the Device in the FLR.
     * Then, the Device changes, following which each active player
       gains 1 card of each type and eir grant (if any).
+    * A player CAN once a month grant eir Ministry Focus' Device to
+      a specified player by announcement.
 history:
 - change:
     type: enactment
@@ -232,5 +234,12 @@ history:
   agent:
     experiment:
       id: 25
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-03-11
+  agent:
+    experiment:
+      id: 27
       engineer: ais523
 annotations: []
