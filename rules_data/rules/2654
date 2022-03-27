@@ -65,10 +65,10 @@ text: |
     * If a Device has no judge assigned, then any player eligible to
       judge that Device CAN assign it to emself without 3
       objections.
-    * The Rulekeepor SHOULD also include any other information which
-      e feels may be helpful in the use of the Device in the FLR.
     * Then, the Device changes, following which each active player
       gains 1 card of each type and eir grant (if any).
+    * The Rulekeepor SHOULD also include any other information which
+      e feels may be helpful in the use of the Device in the FLR.
     * A player CAN once a month grant eir Ministry Focus' Device to
       a specified player by announcement.
 history:
@@ -242,4 +242,9 @@ history:
     experiment:
       id: 27
       engineer: ais523
+- change:
+    type: amendment
+  date: 2022-03-15
+  agent:
+    proposal: "8653"
 annotations: []
