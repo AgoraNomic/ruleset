@@ -5,8 +5,8 @@ text: |
   "Each type of Ribbon has a corresponding type of Glitter with the
   same name. A player qualifies for a type of Glitter when e
   qualifies for the same type of Ribbon while already owning such a
-  Ribbon. If a player has not been awarded that type of Ribbon or e
-  corresponding type of Glitter since e last earned or came to
+  Ribbon. If a player has not been awarded that type of Ribbon or
+  the corresponding type of Glitter since e last earned or came to
   qualify for that type of Ribbon, and has not been so awarded five
   or more times within the past 24 hours, any player CAN award em
   that type of Glitter by announcement. When a player gains a type
@@ -57,4 +57,9 @@ history:
   date: 2021-07-29
   agent:
     proposal: "8595"
+- change:
+    type: amendment
+  date: 2022-03-15
+  agent:
+    proposal: "8645"
 annotations: []

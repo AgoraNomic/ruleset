@@ -4,13 +4,13 @@ power: 1
 text: |
   A person SHALL NOT make a public statement that is a lie. A
   statment is a lie if its publisher either knew or believed it to
-  be not to be true at the time e published it (or, in the case of
-  an action, not to be effective), and it was made with the intent
-  to mislead. Merely quoting a statement does not constitute making
-  it for the purposes of this rule. Any disclaimer, conditional
-  clause, or other qualifier attached to a statement constitutes
-  part of the statement for the purposes of this rule; the truth or
-  falsity of the whole is what is significant.
+  be not true at the time e published it (or, in the case of an
+  action, not to be effective), and it was made with the intent to
+  mislead. Merely quoting a statement does not constitute making it
+  for the purposes of this rule. Any disclaimer, conditional clause,
+  or other qualifier attached to a statement constitutes part of the
+  statement for the purposes of this rule; the truth or falsity of
+  the whole is what is significant.
 
   The previous provisions of this rule notwithstanding, a formal
   announcement of intent is never a lie.
@@ -25,4 +25,9 @@ history:
   date: 2017-09-26
   agent:
     proposal: "7892"
+- change:
+    type: amendment
+  date: 2022-03-15
+  agent:
+    proposal: "8645"
 annotations: []

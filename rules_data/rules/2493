@@ -2,8 +2,8 @@ id: 2493
 name: Regulations
 power: 3
 text: |
-  A regulation is an textual entity defined as such by this rule,
-  and under the authority of an person, known as its Promulgator. A
+  A regulation is a textual entity defined as such by this rule, and
+  under the authority of a person, known as its Promulgator. A
   regulation must be authorized by a rule (its parent rule) in order
   to exist. It has only the effect that rule explicitly gives it.
 
@@ -65,4 +65,9 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8301"
+- change:
+    type: amendment
+  date: 2022-03-15
+  agent:
+    proposal: "8645"
 annotations: []
