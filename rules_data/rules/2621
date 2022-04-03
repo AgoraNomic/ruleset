@@ -8,8 +8,7 @@ text: |
 
   When a player takes over the economy, e wins the game. Four days
   after such a win occurs, all Cards and all Products are destroyed.
-  Then, the winds change, following which each active player gains 1
-  card of each type and eir grant (if any).
+  Then, the winds die down.
 history:
 - change:
     type: enactment
@@ -51,4 +50,9 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8628"
+- change:
+    type: amendment
+  date: 2022-04-03
+  agent:
+    proposal: "8660"
 annotations: []

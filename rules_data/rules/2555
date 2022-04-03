@@ -16,12 +16,17 @@ text: |
   A person CAN, by announcement, create a specified number of blots
   in eir possession.
 
-  Any player CAN expunge a blot from a specified person (or emself
-  if no one is specified) by paying a fee of one Blot-B-Gone.
+  ~>Any player CAN expunge a blot from a specified person (or emself
+  if no one is specified) by paying a fee of one Blot-B-Gone.<~
 
-  Any player CAN levy a fine of one blot on a specified person by
+  ~>Any player CAN levy a fine of one blot on a specified person by
   paying a fee of two Blot-B-Gones, provided the specified person
-  has not already gained two blots or more in the current week.
+  has not already gained two blots or more in the current week.<~
+
+  Any player who has not expunged a blot by this method this week
+  CAN expunge 1 blot from a specified player who has not gained a
+  blot this week, by announcement ~>unless either of them is a
+  player<~.
 
   At the beginning of each quarter, half (rounded down) of each
   fugitive's blots are destroyed.
@@ -83,4 +88,9 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8537"
+- change:
+    type: amendment
+  date: 2022-04-03
+  agent:
+    proposal: "8660"
 annotations: []

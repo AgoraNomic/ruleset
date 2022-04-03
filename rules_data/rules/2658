@@ -1,0 +1,23 @@
+id: 2658
+name: The Winds Die Down
+power: 3
+text: |
+  When the wind dies down, the following happen in order:
+
+  * The following rules are repealed in order: R2620 "Cards & Sets",
+    R2623 "Popular Proposal Proposer Privilege", R2629 "Victory
+    Auctions", R2624 "Card Administration", R2622 "Pending
+    Proposals", R2651 "Proposal Recycling", and R2653 "Buying
+    Strength".
+
+  * All rules including the text "~>" and "<~" are amended in
+    ascending numerical order by removing all text between and
+    including each "~>" and the first following "<~".
+
+  * This rule is repealed.
+history:
+- change:
+    type: enactment
+  date: 2022-04-03
+  agent:
+    proposal: "8660"
