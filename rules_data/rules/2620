@@ -11,9 +11,9 @@ text: |
   * Legislative Cards and Pendants
   * Voting Cards and Votives
 
-  A player CAN pay a 'set' of X Cards of the same type to gain Y
-  corresponding Products. The value of X determines the value of Y
-  in the following ways:
+  A player CAN pay a 'set' of (syn: "cash in") X Cards of the same
+  type to gain Y corresponding Products. The value of X determines
+  the value of Y in the following ways:
 
   * 1 Card = 1 Product
   * 2 Cards = 3 Products
@@ -39,4 +39,9 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8613"
+- change:
+    type: amendment
+  date: 2022-04-03
+  agent:
+    proposal: "8659"
 annotations: []

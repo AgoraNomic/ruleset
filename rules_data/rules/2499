@@ -2,14 +2,14 @@ id: 2499
 name: Welcome Packages
 power: 1
 text: |
-  If a player has not received a Welcome Package since e most
-  recently registered, any player CAN cause em to receive one by
-  announcement.
+  A Welcome Package is a set of assets containing:
 
-  When a player receives a Welcome Package, e gains 10 boatloads of
-  coins and one of each type of Card defined in the rules, unless e,
-  or any person of whom e was a part or who was a part of em has
-  received a welcome package in the last 30 days.
+     * 10 boatloads of coins, AND
+     * 1 of each type of card defined in the rules.
+
+  Any player CAN grant a Welcome Package to any player if the
+  grantee has neither received one since e last registered nor in
+  the last 30 days.
 history:
 - change:
     type: enactment
@@ -86,4 +86,9 @@ history:
   date: 2021-02-03
   agent:
     proposal: "8535"
+- change:
+    type: amendment
+  date: 2022-04-03
+  agent:
+    proposal: "8659"
 annotations: []

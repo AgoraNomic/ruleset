@@ -11,7 +11,9 @@ text: |
 
   For an entity to gain (historical syn. earn) an asset is for that
   asset to be created in that entity's possession. To grant an
-  entity an asset is to create it in eir possession.
+  entity an asset is to create it in eir possession. To grant an
+  entity a set of assets is to create each asset in the set in eir
+  possession.
 
   For an entity to lose an asset is for that asset to be destroyed
   from that entity's possession. To revoke an asset from an entity
@@ -67,3 +69,8 @@ history:
   date: 2021-01-13
   agent:
     proposal: "8528"
+- change:
+    type: amendment
+  date: 2022-04-03
+  agent:
+    proposal: "8659"
