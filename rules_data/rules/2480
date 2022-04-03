@@ -4,9 +4,10 @@ power: 3.1
 text: |
   Festivity is a secured singleton switch, whose possible values are
   integers ranging from 0 inclusive to the number of defined types
-  of Ribbon exclusive, and defaulting to 0. While Agora's Festivity
-  is 0, Festivity is tracked in the Tailor's monthly report.
-  Otherwise, it is tracked in the Tailor's weekly report.
+  of Ribbon exclusive, and defaulting to 0. Festivity is tracked in
+  the Tailor's monthly report. In addition, while Festivity is
+  non-zero, the Tailor SHALL announce its value each week; a public
+  document purporting to be such an announcement is self-ratifying.
 
   If Agora's Festivity has had the same nonzero value for 14 days or
   more, or if it has a nonzero value and fewer than 5 players are
@@ -61,4 +62,9 @@ history:
   date: 2021-12-24
   agent:
     proposal: "8634"
+- change:
+    type: amendment
+  date: 2022-04-03
+  agent:
+    proposal: "8657"
 annotations: []
