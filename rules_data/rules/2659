@@ -1,0 +1,28 @@
+id: 2659
+name: Stamps
+power: 1
+text: |
+  Stamps are a category of asset ownable by players and Agora. The
+  Collector is an office. The Collector tracks Stamps in eir weekly
+  report.
+
+  For each person there is a corresponding type of stamp.
+
+  Any player CAN pay 3 boatloads of coins to grant emself 1 Stamp of
+  eir own type.
+
+  Any player CAN pay 1 Stamp of eir own type to grant emself 1
+  boatload of coins.
+
+  Any player CAN pay 1 Stamp of another person's type to grant
+  emself 2 boatloads of coins.
+
+  Any player CAN win by paying N Stamps, where N is the current
+  number of active players and each specified Stamp is of a
+  different type.
+history:
+- change:
+    type: enactment
+  date: 2022-04-03
+  agent:
+    proposal: "8661"
