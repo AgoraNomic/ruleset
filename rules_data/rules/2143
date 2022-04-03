@@ -36,9 +36,9 @@ text: |
   on the World Wide Web, and they SHOULD publish the address of this
   copy along with their published reports.
 
-  A player CAN, by announcement, petition a specified officer to
-  take a specified action; the officer SHALL publicly respond to
-  the petition in a timely fashion.
+  A player CAN, by announcement, petition a specified non-vacant
+  office to take a specific action. The holder of that office SHALL
+  publicly respond to that petition in a timely fashion.
 history:
 - change:
     type: enactment
@@ -223,6 +223,11 @@ history:
   date: 2020-09-25
   agent:
     proposal: "8503"
+- change:
+    type: amendment
+  date: 2022-04-03
+  agent:
+    proposal: "8655"
 annotations:
 - cfjs:
   - id: '2392'
