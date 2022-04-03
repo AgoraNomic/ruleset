@@ -5,7 +5,7 @@ text: |
   Each time a player fulfills a scoring condition, the officer
   associated with the condition CAN once by announcement, and SHALL
   in an officially timely fashion, add to that player's score the
-  floor of the associated amount of points.
+  associated amount of points, rounded down.
 
   Below is a list of scoring conditions and their associated points
   and officers.
@@ -31,3 +31,8 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8664"
+- change:
+    type: amendment
+  date: 2022-04-03
+  agent:
+    proposal: "8656"
