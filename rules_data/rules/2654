@@ -71,6 +71,8 @@ text: |
       e feels may be helpful in the use of the Device in the FLR.
     * A player CAN once a month grant eir Ministry Focus' Device to
       a specified player by announcement.
+    * At any given time, each instance of a Device has exactly one
+      possible value for that type of Device.
 history:
 - change:
     type: enactment
@@ -247,4 +249,11 @@ history:
   date: 2022-03-15
   agent:
     proposal: "8653"
+- change:
+    type: amendment
+  date: 2022-04-01
+  agent:
+    experiment:
+      id: 30
+      engineer: ais523
 annotations: []
