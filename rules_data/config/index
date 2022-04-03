@@ -220,6 +220,17 @@
   rules:
   - 2656 # Points
   - 2657 # Scoring
+- name: Birds
+  note: |
+    A game in which players make a futile attempt to wrangle birds, who
+    do not care what we puny humans have to say about them.
+  rules:
+  - 2660
+  - 2661
+  - 2662
+  - 2663
+  - 2664
+  - 2665
 - name: Victory
   note: |
     All games have winners, and Agora is no exception. If you're

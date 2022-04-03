@@ -1,0 +1,17 @@
+id: 2664
+name: One with Nature
+power: 1
+text: |
+  A player CAN, by announcement, Free the Birds, specifying a single
+  player that owns 10 or more birds, provided that no person has won
+  the game by doing so in the past 30 days.
+
+  When the Birds are Freed, the specified player wins the game.  If
+  a player won the game in this manner 4 days ago, then all existing
+  birds are transferred to Agora and permits expire.
+history:
+- change:
+    type: enactment
+  date: 2022-04-03
+  agent:
+    proposal: "8662"

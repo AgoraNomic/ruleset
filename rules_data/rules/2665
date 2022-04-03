@@ -1,0 +1,46 @@
+id: 2665
+name: The Birds
+power: 1
+text: |
+  'The playmate' is the player who played with the bird to make its
+  scroll activate. Players are ENCOURAGED to propose an addition to
+  this rule if it has not been changed within the last 30 days.
+
+  The following birds are defined, one per paragraph, with the
+  following format: Bird Name: Scroll.
+
+  - Seagull: A specified player (defaulting to the playmate if not
+    specified) buys bird food 3 times.
+
+  - Goldfinch: A specified player (defaulting to the playmate if
+    not specified) gains N boatloads of coins, where N is the number
+    of times e has bought bird food this month.
+
+  - Raven: A specified bird is transferred to Agora.
+
+  - Emu: A specified player gains 1 blot.
+
+  - Owl: A specified player (defaulting to the playmate if not
+    specified) gains the Grant associated with a specified Ministry.
+
+  - Magpie: A specified bird that is owned by a player is
+    transferred to the playmate.
+
+  - Pigeon: The playmate gains 2 blots and 1 Blot-B-Gone.
+
+  - Penguin: If the playmate is Beast Permitted, e gains
+    1 Winsome, 1 Blot-B-Gone, 1 Pendant, and 1 Votive. Otherwise,
+    the playmate gains 1 blot, 1 Pendant, and 1 Votive.
+
+  - Cockatiel: A specified player that is not the playmate gains a
+    specified Product.
+
+  - Jay: The Pended switch of a specified proposal is set to True,
+    and that proposal becomes sponsored. The playmate then gains 1
+    Votive.
+history:
+- change:
+    type: enactment
+  date: 2022-04-03
+  agent:
+    proposal: "8662"

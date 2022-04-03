@@ -1,0 +1,30 @@
+id: 2661
+name: Permits
+power: 1
+text: |
+  Beast Permitted is a secured negative boolean person switch,
+  tracked by the Avicultor in eir weekly report. A player with a
+  Beast Permitted switch set to True is 'Beast Permitted'.
+
+  A player CAN buy a beast permit by paying a fee of 50 boatloads of
+  coins. When a player buys a beast permit, eir Beast Permitted
+  switch is set to True.
+
+  A player CAN relinquish eir beast permit by announcement. When a
+  player relinquishes eir beast permit, eir Beast Permitted switch
+  is set to False.
+
+  A player CAN renew eir beast permit by paying a fee of 25
+  boatloads of coins.
+
+  When permits expire, the Avicultor CAN and SHALL review each Beast
+  Permitted player, with notice, in a timely fashion. When a Beast
+  Permitted player is reviewed, if e has niether bought a beast
+  permit nor renewed eir beast permit in the past 30 days, eir Beast
+  Permitted switch is set to False.
+history:
+- change:
+    type: enactment
+  date: 2022-04-03
+  agent:
+    proposal: "8662"

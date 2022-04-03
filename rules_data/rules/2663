@@ -1,0 +1,42 @@
+id: 2663
+name: Bird Migration
+power: 1
+text: |
+  A player CAN buy bird food by paying a fee of 5 boatloads of
+  coins.
+
+  A player CAN release a specified bird e owns, by announcement.
+  When a bird is released, it is transferred to Agora.
+
+  Once per month, a Beast Permitted Player CAN transfer a specified
+  bird owned by Agora to emself by announcement.
+
+  Once per month, the Avicultor CAN publish a migration notice by
+  announcement, specifying all necessary information and choices;
+  this constitutes eir monthly report. The Avicultor SHALL publish
+  such a notice in a timely fashion after the beginning of each
+  Agoran month.
+
+  The number of times each player bought bird food in the previous
+  month is included in the migration notice.
+
+  A bird not owned by the player(s) who bought bird food the most
+  times during the previous month is a Hungry Bird.
+
+  For each Hungry Bird, a random choice among all players who bought
+  bird food during the previous month is included alongside that
+  bird in the migration notice.
+
+  When a migration notice is published, Hungry Birds are transferred
+  to their corresponding randomly chosen players in an order
+  specified by the migration notice.
+
+  If a bird being transferred to a player would cause that player to
+  have more birds than the number of times e bought bird food during
+  the previous month, that bird is instead transferred to Agora.
+history:
+- change:
+    type: enactment
+  date: 2022-04-03
+  agent:
+    proposal: "8662"
