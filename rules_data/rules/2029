@@ -42,3 +42,9 @@ annotations:
   text: >
     Failing to hail Eris does not necessarily constitute a violation
     of this rule.
+- cfjs:
+  - id: '3902'
+    called: 2021-03-19
+  text: >
+    Ratifying an SLR increments the version number if it ratifies an
+    error.
