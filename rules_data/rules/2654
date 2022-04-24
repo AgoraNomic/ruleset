@@ -47,6 +47,8 @@ text: |
       no Device auction is ongoing.
     * A Device change is any effect that falls into the above
       classes.
+    * When a Device wins an election, e is installed into the
+      associated office and the election ends.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -255,5 +257,12 @@ history:
   agent:
     experiment:
       id: 30
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-04-17
+  agent:
+    experiment:
+      id: 31
       engineer: ais523
 annotations: []
