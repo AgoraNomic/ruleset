@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 27 Mar 2022
+Date of this ruleset: 24 Apr 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 145
+Number of rules currently enacted: 153
 
-Highest ID'd rule in this ruleset: 2657
-Highest ID'd Proposal Passed: 8654
-Highest ID'd Rule Enacted: 2657
+Highest ID'd rule in this ruleset: 2665
+Highest ID'd Proposal Passed: 8664
+Highest ID'd Rule Enacted: 2665
 
 ------------------------------------------------------------------------
 
@@ -128,10 +128,12 @@ Assets
 Economics
    * Rule 2456: The Treasuror
    * Rule 2483: Economics
+   * Rule 2659: Stamps
    * Rule 2634: Buoyancy Control
    * Rule 2635: Floating Rate Fleet
    * Rule 2496: Rewards
    * Rule 2559: Paydays
+   * Rule 2658: The Winds Die Down
    * Rule 2620: Cards & Sets
    * Rule 2621: VP Wins
    * Rule 2629: Victory Auctions
@@ -153,6 +155,13 @@ The Device
 Scoring
    * Rule 2656: Points
    * Rule 2657: Scoring
+Birds
+   * Rule 2660: Birds
+   * Rule 2661: Permits
+   * Rule 2662: Playing with Birds
+   * Rule 2663: Bird Migration
+   * Rule 2664: One with Nature
+   * Rule 2665: The Birds
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -189,13 +198,13 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-44 with Power=1
+51 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 33 with Power=2
 1  with Power=2.2
 1  with Power=2.5
-47 with Power=3
+48 with Power=3
 3  with Power=3.1
 1  with Power=3.14
 2  with Power=3.2
@@ -1760,7 +1769,7 @@ Amended(3) by P8418 'Referenda' (Aspen), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1607/53 (Power=3)
+Rule 1607/54 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -1775,20 +1784,20 @@ Distribution
       removes the proposal from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time, but SHALL NOT do so unless it is pending.
+      Pool at any time~>, but SHALL NOT do so unless it is pending<~.
       
       In a given Agoran week, the Promotor SHALL distribute each
-      proposal that was in the Proposal Pool and pending at the
+      proposal that was in the Proposal Pool ~>and pending<~ at the
       beginning of that week, except for those excepted from automatic
       distribution by other rules, or those that are otherwise removed
-      from the Pool. If there are ten or more pending undistributed
+      from the Pool. If there are ten or more ~>pending<~ undistributed
       proposals in the proposal pool, the promotor MAY refrain from
       distributing the most recently added 5 proposals if e distributes
-      each other pending proposal in that Agoran week.
+      each other ~>pending<~ proposal in that Agoran week.
       
-      If a proposal has been in the proposal pool for more than 7 days
+      ~>If a proposal has been in the proposal pool for more than 7 days
       and is not pending, the Promotor CAN and SHOULD remove it from the
-      Pool by announcement.
+      Pool by announcement.<~
       
       Distributed proposals have ID numbers, to be assigned by the
       Promotor.
@@ -1875,6 +1884,8 @@ Amended(51) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Jason), 11 Feb 2021
 Amended(52) by P8621 'Proposal spreading' (R. Lee), 18 Oct 2021
 Amended(53) by P8633 'Disbanded distribution' (Falsifian), 29 Nov 2021
+Amended(54) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
+   03 Apr 2022
 
 Annotations:
 CFJ 1546 (called 14 Apr 2005), CFJ 1669 (called 16 May 2007): If a
@@ -2929,24 +2940,6 @@ Amended(24) by P8585 'Clarify variable voting period' (Murphy), 23 Jun
 Annotations:
 CFJ 1650 (called 06 May 2007): The intent to initiate the decision and
     the information required in the notice need not be explicit.
-CFJ 1743 (called 18 Sep 2007): If the notice does not mention voter
-    eligibility but the type of Agoran decision is clear and the rule
-    defining the relevant type of Agoran decision fully determines the
-    class of eligible voters, then the notice thereby implicitly
-    describes the class of eligible voters.
-CFJ 1722 (called 15 Aug 2007): Information that is explicitly presented
-    in the notice takes precedence over any information that would be
-    implicit, even where the explicit information is inaccurate and the
-    implicit information would have been accurate.
-CFJ 1651 (called 06 May 2007): If a R107 notice initiating an Agoran
-    decision does not contain an explicit list of the eligible voters,
-    and there is later a dispute (evidenced by submission of a CFJ) over
-    which voters were eligible at that time, then the notice's
-    description of the class of eligible voters was necessarily
-    insufficient to enable public agreement on which persons are
-    eligible.
-CFJ 1652 (called 06 May 2007): The set of eligible voters on an Agoran
-    decision can change during its voting period.
 
 ------------------------------------------------------------------------
 Rule 2528/0 (Power=3)
@@ -4108,7 +4101,7 @@ Amended(5) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2143/33 (Power=1)
+Rule 2143/34 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -4145,9 +4138,9 @@ Official Reports and Duties
       on the World Wide Web, and they SHOULD publish the address of this
       copy along with their published reports.
       
-      A player CAN, by announcement, petition a specified officer to
-      take a specified action; the officer SHALL publicly respond to
-      the petition in a timely fashion.
+      A player CAN, by announcement, petition a specified non-vacant
+      office to take a specific action. The holder of that office SHALL
+      publicly respond to that petition in a timely fashion.
 
 History:
 
@@ -4197,6 +4190,7 @@ Amended(31) by P8302 'Generic Petitions' (Aspen), 29 Jan 2020
 Amended(32) by P8370 'Announced Petitions' (Aspen), 21 Apr 2020
 Amended(33) by P8503 'Assorted Obligatory Patches' (Aspen, G., nix,
    Jason), 25 Sep 2020
+Amended(34) by P8655 'Restricted Petitions' (Jason, nix), 03 Apr 2022
 
 Annotations:
 CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
@@ -4519,7 +4513,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/10 (Power=2)
+Rule 2555/11 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -4536,12 +4530,17 @@ Blots
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
       
-      Any player CAN expunge a blot from a specified person (or emself
-      if no one is specified) by paying a fee of one Blot-B-Gone.
+      ~>Any player CAN expunge a blot from a specified person (or emself
+      if no one is specified) by paying a fee of one Blot-B-Gone.<~
       
-      Any player CAN levy a fine of one blot on a specified person by
+      ~>Any player CAN levy a fine of one blot on a specified person by
       paying a fee of two Blot-B-Gones, provided the specified person
-      has not already gained two blots or more in the current week.
+      has not already gained two blots or more in the current week.<~
+      
+      Any player who has not expunged a blot by this method this week
+      CAN expunge 1 blot from a specified player who has not gained a
+      blot this week, by announcement ~>unless either of them is a
+      player<~.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -4561,6 +4560,8 @@ Amended(8) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(9) by P8427 'Slap on the wrist' (R. Lee), 14 Jun 2020
 Amended(10) by P8537 'Unofficial injustice' (G.), 03 Feb 2021
+Amended(11) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
+   03 Apr 2022
 
 Annotations:
 
@@ -4585,7 +4586,7 @@ Amended(1) by cleaning (Alexis), 23 Jan 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/19 (Power=1.7)
+Rule 2478/20 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement Point eir Finger at a player (the
@@ -4631,10 +4632,10 @@ Vigilante Justice
       The Referee CANNOT levy the Cold Hand of Justice to punish a high
       crime, the other provisions of this rule notwithstanding.
       
-      The player who initiated the most Finger Pointings at other
-      players that, in the previous Agoran Week, resulted in a Warning,
-      Indictment, or Cold Hand of Justice, CAN once grant emself a
-      Justice Card by announcement.
+      ~>The player who initiated the most Finger Pointings that resulted
+      in a Warning, Indictment, or Cold Hand of Justice in the previous
+      Agoran Week CAN once grant emself a Justice Card by
+      announcement.<~
 
 History:
 
@@ -4668,6 +4669,8 @@ Amended(16) by P8536 'Justice for All' (Aspen, G., Jason), 03 Feb 2021
 Amended(17) by P8610 'No Immediate Shenanigans' (Jason), 18 Oct 2021
 Amended(18) by P8643 'Firing Judge Dredd' (G.), 23 Feb 2022
 Amended(19) by P8654 'Cheaters shouldn't prosper' (G.), 15 Mar 2022
+Amended(20) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
+   03 Apr 2022
 
 Annotations:
 
@@ -5765,7 +5768,7 @@ Amended(3) by P8500 'Clarify asset ownership some more' (Murphy, G.), 25
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2577/6 (Power=3)
+Rule 2577/7 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -5777,7 +5780,9 @@ Asset Actions
       
       For an entity to gain (historical syn. earn) an asset is for that
       asset to be created in that entity's possession. To grant an
-      entity an asset is to create it in eir possession.
+      entity an asset is to create it in eir possession. To grant an
+      entity a set of assets is to create each asset in the set in eir
+      possession.
       
       For an entity to lose an asset is for that asset to be destroyed
       from that entity's possession. To revoke an asset from an entity
@@ -5810,6 +5815,8 @@ Amended(4) by P8488 'Empty the escalator v1' (Falsifian, Jason, omd), 08
 Amended(5) by P8518 'Asset Rounding' (Aspen, Falsifian, nix), 11 Nov
    2020
 Amended(6) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
+Amended(7) by P8659 'Speak Like People' (nix, G., Secretsnail9), 03 Apr
+   2022
 
 Annotations:
 
@@ -5942,6 +5949,35 @@ Amended(14) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
 Amended(15) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
    Jason, ATMunn), 28 Oct 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2659/0 (Power=1)
+Stamps
+
+      Stamps are a category of asset ownable by players and Agora. The
+      Collector is an office. The Collector tracks Stamps in eir weekly
+      report.
+      
+      For each person there is a corresponding type of stamp.
+      
+      Any player CAN pay 3 boatloads of coins to grant emself 1 Stamp of
+      eir own type.
+      
+      Any player CAN pay 1 Stamp of eir own type to grant emself 1
+      boatload of coins.
+      
+      Any player CAN pay 1 Stamp of another person's type to grant
+      emself 2 boatloads of coins.
+      
+      Any player CAN win by paying N Stamps, where N is the current
+      number of active players and each specified Stamp is of a
+      different type.
+
+History:
+
+Enacted by P8661 'Stamps v1.2' (nix, G., Jason, Trigon), 03 Apr 2022
 
 Annotations:
 
@@ -6111,7 +6147,32 @@ Amended(10) by P8557 'Archimedes' Principle' (Aspen, Trigon, nix), 15
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2620/2 (Power=1.0)
+Rule 2658/0 (Power=3)
+The Winds Die Down
+
+      When the wind dies down, the following happen in order:
+      
+      * The following rules are repealed in order: R2620 "Cards & Sets",
+        R2623 "Popular Proposal Proposer Privilege", R2629 "Victory
+        Auctions", R2624 "Card Administration", R2622 "Pending
+        Proposals", R2651 "Proposal Recycling", and R2653 "Buying
+        Strength".
+      
+      * All rules including the text "~>" and "<~" are amended in
+        ascending numerical order by removing all text between and
+        including each "~>" and the first following "<~".
+      
+      * This rule is repealed.
+
+History:
+
+Enacted by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
+   Apr 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2620/3 (Power=1.0)
 Cards & Sets
 
       Cards are a type of currency with a corresponding Product.
@@ -6123,9 +6184,9 @@ Cards & Sets
       * Legislative Cards and Pendants
       * Voting Cards and Votives
       
-      A player CAN pay a 'set' of X Cards of the same type to gain Y
-      corresponding Products. The value of X determines the value of Y
-      in the following ways:
+      A player CAN pay a 'set' of (syn: "cash in") X Cards of the same
+      type to gain Y corresponding Products. The value of X determines
+      the value of Y in the following ways:
       
       * 1 Card = 1 Product
       * 2 Cards = 3 Products
@@ -6143,11 +6204,13 @@ Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
 Amended(1) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 Amended(2) by P8613 'The Name of the Win Cards v2' (Jason, Trigon), 18
    Oct 2021
+Amended(3) by P8659 'Speak Like People' (nix, G., Secretsnail9), 03 Apr
+   2022
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2621/7 (Power=1.0)
+Rule 2621/8 (Power=1.0)
 VP Wins
 
       If a player has at least 20 more Winsomes than any other player, e
@@ -6156,8 +6219,7 @@ VP Wins
       
       When a player takes over the economy, e wins the game. Four days
       after such a win occurs, all Cards and all Products are destroyed.
-      Then, the winds change, following which each active player gains 1
-      card of each type and eir grant (if any).
+      Then, the winds die down.
 
 History:
 
@@ -6172,6 +6234,8 @@ Amended(5) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 Amended(6) by P8613 'The Name of the Win Cards v2' (Jason, Trigon), 18
    Oct 2021
 Amended(7) by P8628 'tacking into the win' (G.), 18 Oct 2021
+Amended(8) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
+   Apr 2022
 
 Annotations:
 
@@ -6262,17 +6326,17 @@ Amended(1) by P8628 'tacking into the win' (G.), 18 Oct 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/13 (Power=1)
+Rule 2499/15 (Power=1)
 Welcome Packages
 
-      If a player has not received a Welcome Package since e most
-      recently registered, any player CAN cause em to receive one by
-      announcement.
+      A Welcome Package is a set of assets containing:
       
-      When a player receives a Welcome Package, e gains 10 boatloads of
-      coins and one of each type of Card defined in the rules, unless e,
-      or any person of whom e was a part or who was a part of em has
-      received a welcome package in the last 30 days.
+        * 10 boatloads of coins~>, AND<~
+      ~>* 1 of each type of card defined in the rules.<~
+      
+      Any player CAN grant a Welcome Package to any player if the
+      grantee has neither received one since e last registered nor in
+      the last 30 days.
 
 History:
 
@@ -6298,6 +6362,10 @@ Amended(11) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
 Amended(12) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 Amended(13) by P8535 'We the People' (Aspen, Trigon, nix, G., Gaelan),
    03 Feb 2021
+Amended(14) by P8659 'Speak Like People' (nix, G., Secretsnail9), 03 Apr
+   2022
+Amended(15) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
+   03 Apr 2022
 
 Annotations:
 
@@ -6528,7 +6596,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/6 (Power=2)
+Rule 2645/7 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6568,8 +6636,10 @@ The Stones
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
       
-      - Alchemy Stone (weekly, 70%): Destroy four cards you own. If four
-        cards were destroyed this way, gain 7 products of your choice.
+      
+      ~>- Alchemy Stone (weekly, 70%): Destroy four cards you own. If
+        four cards were destroyed this way, gain 7 products of your
+        choice.<~
 
 History:
 
@@ -6583,6 +6653,8 @@ Amended(3) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
 Amended(4) by P8548 'Stone defaults' (Jason), 10 Mar 2021
 Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Amended(6) by P8642 'Hot Potato patch v2' (Jason, Oerjan), 23 Feb 2022
+Amended(7) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
+   Apr 2022
 
 Annotations:
 
@@ -6592,7 +6664,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/25 (Power=1)
+Rule 2654/28 (Power=1)
 The Device
 
       When the device is on:
@@ -6640,6 +6712,8 @@ The Device
           no Device auction is ongoing.
         * A Device change is any effect that falls into the above
           classes.
+        * When a Device wins an election, e is installed into the
+          associated office and the election ends.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -6664,6 +6738,11 @@ The Device
           e feels may be helpful in the use of the Device in the FLR.
         * A player CAN once a month grant eir Ministry Focus' Device to
           a specified player by announcement.
+        * At any given time, each instance of a Device has exactly one
+          possible value for that type of Device.
+        * Any player CAN grant a Welcome Device to any player if the
+          grantee has neither received one since e last registered nor
+          in the last 30 days.
 
 History:
 
@@ -6693,6 +6772,9 @@ Amended(22) by Experiment #22 under Mad Engineer ais523, 03 Feb 2022
 Amended(23) by Experiment #25 under Mad Engineer ais523, 25 Feb 2022
 Amended(24) by Experiment #27 under Mad Engineer ais523, 11 Mar 2022
 Amended(25) by P8653 'Device Reconstruction' (ais523), 15 Mar 2022
+Amended(26) by Experiment #30 under Mad Engineer ais523, 01 Apr 2022
+Amended(27) by Experiment #31 under Mad Engineer ais523, 17 Apr 2022
+Amended(28) by Experiment #32 under Mad Engineer ais523, 22 Apr 2022
 
 Annotations:
 
@@ -6769,13 +6851,13 @@ Enacted by P8636 'Points' (G.), 08 Feb 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2657/1 (Power=1)
+Rule 2657/3 (Power=1)
 Scoring
 
       Each time a player fulfills a scoring condition, the officer
       associated with the condition CAN once by announcement, and SHALL
       in an officially timely fashion, add to that player's score the
-      floor of the associated amount of points.
+      associated amount of points, rounded down.
       
       Below is a list of scoring conditions and their associated points
       and officers.
@@ -6785,17 +6867,202 @@ Scoring
       
         * Being the coauthor of a sponsored proposal that takes effect:
           1 (Assessor).
-      
-        * Having submitted an unconditional ballot AGAINST a referendum
-          on a sponsored proposal, provided that the ballot is valid at
-          the time the referendum is assessed, and provided that the
-          outcome of that assessment is ADOPTED:  points equal to the
-          voting player's voting strength on the referendum (Assessor).
 
 History:
 
 Enacted by P8637 'Basic Scoring v0.2' (G., Jason), 08 Feb 2022
 Amended(1) by P8648 'Scoring Integer Points' (Secretsnail9), 15 Mar 2022
+Amended(2) by P8664 'Away with the massive points' (Secretsnail9), 03
+   Apr 2022
+Amended(3) by P8656 'Mathematical de-notation' (Jason), 03 Apr 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Birds
+   A game in which players make a futile attempt to wrangle birds, who
+   do not care what we puny humans have to say about them.
+------------------------------------------------------------------------
+Rule 2660/0 (Power=1)
+Birds
+
+      A bird is a unique indestructible liquid asset defined by the
+      rules. To define a bird, the definition must include:
+        (i) A name unique among birds;
+       (ii) A scroll, which is a document specifying the effects of the
+            bird.
+      
+      Ownership of birds is entirely restricted to Agora and active
+      players. If a bird is owned by the Lost and Found Department or in
+      abeyance, it is immediately transferred to Agora.
+      
+      The Avicultor is an office, and the recordkeepor of birds.
+      
+      A player that is not Beast Permitted SHALL NOT transfer a bird e
+      owns to another player; doing so is the Class 3 Crime of
+      Unpermitted Beast Transit.
+
+History:
+
+Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2661/0 (Power=1)
+Permits
+
+      Beast Permitted is a secured negative boolean person switch,
+      tracked by the Avicultor in eir weekly report. A player with a
+      Beast Permitted switch set to True is 'Beast Permitted'.
+      
+      A player CAN buy a beast permit by paying a fee of 50 boatloads of
+      coins. When a player buys a beast permit, eir Beast Permitted
+      switch is set to True.
+      
+      A player CAN relinquish eir beast permit by announcement. When a
+      player relinquishes eir beast permit, eir Beast Permitted switch
+      is set to False.
+      
+      A player CAN renew eir beast permit by paying a fee of 25
+      boatloads of coins.
+      
+      When permits expire, the Avicultor CAN and SHALL review each Beast
+      Permitted player, with notice, in a timely fashion. When a Beast
+      Permitted player is reviewed, if e has niether bought a beast
+      permit nor renewed eir beast permit in the past 30 days, eir Beast
+      Permitted switch is set to False.
+
+History:
+
+Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2662/0 (Power=1)
+Playing with Birds
+
+      Except as otherwise specified by the rules, the owner of a bird
+      CAN play with it by announcement, specifying any values needed to
+      interpret the bird's effects.
+      
+      When a bird is played with, the Rule defining that bird applies
+      the effects in that bird's scroll, and then that bird is
+      transferred to Agora.
+
+History:
+
+Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2663/0 (Power=1)
+Bird Migration
+
+      A player CAN buy bird food by paying a fee of 5 boatloads of
+      coins.
+      
+      A player CAN release a specified bird e owns, by announcement.
+      When a bird is released, it is transferred to Agora.
+      
+      Once per month, a Beast Permitted Player CAN transfer a specified
+      bird owned by Agora to emself by announcement.
+      
+      Once per month, the Avicultor CAN publish a migration notice by
+      announcement, specifying all necessary information and choices;
+      this constitutes eir monthly report. The Avicultor SHALL publish
+      such a notice in a timely fashion after the beginning of each
+      Agoran month.
+      
+      The number of times each player bought bird food in the previous
+      month is included in the migration notice.
+      
+      A bird not owned by the player(s) who bought bird food the most
+      times during the previous month is a Hungry Bird.
+      
+      For each Hungry Bird, a random choice among all players who bought
+      bird food during the previous month is included alongside that
+      bird in the migration notice.
+      
+      When a migration notice is published, Hungry Birds are transferred
+      to their corresponding randomly chosen players in an order
+      specified by the migration notice.
+      
+      If a bird being transferred to a player would cause that player to
+      have more birds than the number of times e bought bird food during
+      the previous month, that bird is instead transferred to Agora.
+
+History:
+
+Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2664/0 (Power=1)
+One with Nature
+
+      A player CAN, by announcement, Free the Birds, specifying a single
+      player that owns 10 or more birds, provided that no person has won
+      the game by doing so in the past 30 days.
+      
+      When the Birds are Freed, the specified player wins the game.  If
+      a player won the game in this manner 4 days ago, then all existing
+      birds are transferred to Agora and permits expire.
+
+History:
+
+Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2665/0 (Power=1)
+The Birds
+
+      'The playmate' is the player who played with the bird to make its
+      scroll activate. Players are ENCOURAGED to propose an addition to
+      this rule if it has not been changed within the last 30 days.
+      
+      The following birds are defined, one per paragraph, with the
+      following format: Bird Name: Scroll.
+      
+      - Seagull: A specified player (defaulting to the playmate if not
+        specified) buys bird food 3 times.
+      
+      - Goldfinch: A specified player (defaulting to the playmate if
+        not specified) gains N boatloads of coins, where N is the number
+        of times e has bought bird food this month.
+      
+      - Raven: A specified bird is transferred to Agora.
+      
+      - Emu: A specified player gains 1 blot.
+      
+      - Owl: A specified player (defaulting to the playmate if not
+        specified) gains the Grant associated with a specified Ministry.
+      
+      - Magpie: A specified bird that is owned by a player is
+        transferred to the playmate.
+      
+      - Pigeon: The playmate gains 2 blots and 1 Blot-B-Gone.
+      
+      - Penguin: If the playmate is Beast Permitted, e gains
+        1 Winsome, 1 Blot-B-Gone, 1 Pendant, and 1 Votive. Otherwise,
+        the playmate gains 1 blot, 1 Pendant, and 1 Votive.
+      
+      - Cockatiel: A specified player that is not the playmate gains a
+        specified Product.
+      
+      - Jay: The Pended switch of a specified proposal is set to True,
+        and that proposal becomes sponsored. The playmate then gains 1
+        Votive.
+
+History:
+
+Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
 
 Annotations:
 
@@ -7018,14 +7285,15 @@ Amended(26) by P8638 'Cyan Ribbon Patch' (Secretsnail9), 23 Feb 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2480/5 (Power=3.1)
+Rule 2480/6 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
       integers ranging from 0 inclusive to the number of defined types
-      of Ribbon exclusive, and defaulting to 0. While Agora's Festivity
-      is 0, Festivity is tracked in the Tailor's monthly report.
-      Otherwise, it is tracked in the Tailor's weekly report.
+      of Ribbon exclusive, and defaulting to 0. Festivity is tracked in
+      the Tailor's monthly report. In addition, while Festivity is
+      non-zero, the Tailor SHALL announce its value each week; a public
+      document purporting to be such an announcement is self-ratifying.
       
       If Agora's Festivity has had the same nonzero value for 14 days or
       more, or if it has a nonzero value and fewer than 5 players are
@@ -7053,11 +7321,12 @@ Amended(4) by P8241 'Secured switches (v2.0)' (Jason, Falsifian), 18 Sep
 Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Jason, Aspen,
    Murphy), 14 Jun 2021
 Amended(5) by P8634 'Laudability' (Jason), 24 Dec 2021
+Amended(6) by P8657 'Shrodinger's report' (Murphy), 03 Apr 2022
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/5 (Power=3.1)
+Rule 2481/6 (Power=3.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -7071,7 +7340,8 @@ Festival Restrictions
       3. Each Festive player has the maximum possible voting strength.
          All other players have the minimum possible voting strength.
       
-      4. Non-Festive players CANNOT cause proposals to become Pended.
+      ~>4. Non-Festive players CANNOT cause proposals to become
+           Pended.<~
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
@@ -7089,6 +7359,8 @@ Amended(4) by P8569 'Fixing Festivals' (Jason, Aspen, Murphy), 14 Jun
    2021
 Amended(5) by P8629 'Independence Day' (G., Gaelan, Telna, nix, Cuddle
    Beam, cuddlybanana, Jason), 18 Oct 2021
+Amended(6) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
+   Apr 2022
 
 Annotations:
 
@@ -7924,6 +8196,8 @@ CFJ 1881 (called 25 Jan 2008): This rule does not impose an obilgation
     undefined.
 CFJ 1736 (called 23 Aug 2007): Failing to hail Eris does not necessarily
     constitute a violation of this rule.
+CFJ 3902 (called 19 Mar 2021): Ratifying an SLR increments the version
+    number if it ratifies an error.
 
 ------------------------------------------------------------------------
 

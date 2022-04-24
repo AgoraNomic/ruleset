@@ -2,7 +2,7 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 11 Apr 2022
+Date of this ruleset: 24 Apr 2022
 
 Date of last SLR ratification: 8 May 2019
 
@@ -3036,7 +3036,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/26 (Power=1)
+Rule 2654/28 (Power=1)
 The Device
 
       When the device is on:
@@ -3084,6 +3084,8 @@ The Device
           no Device auction is ongoing.
         * A Device change is any effect that falls into the above
           classes.
+        * When a Device wins an election, e is installed into the
+          associated office and the election ends.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -3110,6 +3112,9 @@ The Device
           a specified player by announcement.
         * At any given time, each instance of a Device has exactly one
           possible value for that type of Device.
+        * Any player CAN grant a Welcome Device to any player if the
+          grantee has neither received one since e last registered nor
+          in the last 30 days.
 
 ------------------------------------------------------------------------
 Rule 2655/3 (Power=1)
