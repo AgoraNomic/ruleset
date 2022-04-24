@@ -75,6 +75,9 @@ text: |
       a specified player by announcement.
     * At any given time, each instance of a Device has exactly one
       possible value for that type of Device.
+    * Any player CAN grant a Welcome Device to any player if the
+      grantee has neither received one since e last registered nor
+      in the last 30 days.
 history:
 - change:
     type: enactment
@@ -264,5 +267,12 @@ history:
   agent:
     experiment:
       id: 31
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-04-22
+  agent:
+    experiment:
+      id: 32
       engineer: ais523
 annotations: []
