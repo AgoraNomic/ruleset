@@ -29,11 +29,14 @@ text: |
 
   The Library is an entity and CAN own promises. Any player CAN take
   a specified promise from the Library by announcement, provided e
-  cashes the promise in the same message. The creator of a promise
-  CAN take or revoke it from the Library by announcement, unless the
-  promise's text unambiguously designates it as irrevocable. Any
-  player CAN revoke a specified promise from the Library without
-  objection.
+  cashes the promise in the same message.
+
+  The creator of a promise CAN take or revoke it from the Library by
+  announcement, unless the promise's text unambiguously designates
+  it as irrevocable. Any player CAN revoke a specified promise from
+  the Library without objection. If a promise specifies expiration
+  conditions then any player CAN by announcement destroy it while
+  the expiration conditions are unambiguously met.
 history:
 - change:
     type: enactment
@@ -60,4 +63,9 @@ history:
   date: 2021-04-09
   agent:
     proposal: "8554"
+- change:
+    type: amendment
+  date: 2022-04-29
+  agent:
+    proposal: "8665"
 annotations: []
