@@ -7,9 +7,9 @@ text: |
     * 10 boatloads of coins~>, AND<~
   ~>* 1 of each type of card defined in the rules.<~
 
-  Any player CAN grant a Welcome Package to any player if the
-  grantee has neither received one since e last registered nor in
-  the last 30 days.
+  Any player CAN, by announcement, grant a Welcome Package to any
+  player if the grantee has neither received one since e last
+  registered nor in the last 30 days.
 history:
 - change:
     type: enactment
@@ -96,4 +96,9 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8660"
+- change:
+    type: amendment
+  date: 2022-04-29
+  agent:
+    proposal: "8667"
 annotations: []
