@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 24 Apr 2022
+Date of this ruleset: 1 May 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 153
+Number of rules currently enacted: 152
 
 Highest ID'd rule in this ruleset: 2665
-Highest ID'd Proposal Passed: 8664
+Highest ID'd Proposal Passed: 8668
 Highest ID'd Rule Enacted: 2665
 
 ========================================================================
@@ -2050,16 +2050,6 @@ Defendant's Rights
             or
 
 ------------------------------------------------------------------------
-Rule 2617/2 (Power=1.0)
-Defense Against the Dark Arts
-
-      An action is forbidden if it would, upon its successful
-      occurrence, cause Agora to be ossified or to cease to exist.
-      
-      Publicly attempting a forbidden action is PROHIBITED, and is the
-      Class-4 Crime of Engaging in Forbidden Arts.
-
-------------------------------------------------------------------------
 ========================================================================
 Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
@@ -2323,7 +2313,7 @@ Acting on Behalf
       behalf of another person.
 
 ------------------------------------------------------------------------
-Rule 2618/4 (Power=2.2)
+Rule 2618/5 (Power=2.2)
 Promises
 
       Promises are a class of assets, tracked by the Notary. Their
@@ -2353,11 +2343,14 @@ Promises
       
       The Library is an entity and CAN own promises. Any player CAN take
       a specified promise from the Library by announcement, provided e
-      cashes the promise in the same message. The creator of a promise
-      CAN take or revoke it from the Library by announcement, unless the
-      promise's text unambiguously designates it as irrevocable. Any
-      player CAN revoke a specified promise from the Library without
-      objection.
+      cashes the promise in the same message.
+      
+      The creator of a promise CAN take or revoke it from the Library by
+      announcement, unless the promise's text unambiguously designates
+      it as irrevocable. Any player CAN revoke a specified promise from
+      the Library without objection. If a promise specifies expiration
+      conditions then any player CAN by announcement destroy it while
+      the expiration conditions are unambiguously met.
 
 ------------------------------------------------------------------------
 Rule 2519/2 (Power=3)
@@ -2820,7 +2813,7 @@ Player Focuses
       The winds change at the beginning of each month.
 
 ------------------------------------------------------------------------
-Rule 2499/15 (Power=1)
+Rule 2499/16 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
@@ -2828,9 +2821,9 @@ Welcome Packages
         * 10 boatloads of coins~>, AND<~
       ~>* 1 of each type of card defined in the rules.<~
       
-      Any player CAN grant a Welcome Package to any player if the
-      grantee has neither received one since e last registered nor in
-      the last 30 days.
+      Any player CAN, by announcement, grant a Welcome Package to any
+      player if the grantee has neither received one since e last
+      registered nor in the last 30 days.
 
 ------------------------------------------------------------------------
 Rule 2585/6 (Power=1)
