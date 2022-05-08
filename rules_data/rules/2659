@@ -8,8 +8,8 @@ text: |
 
   For each person there is a corresponding type of stamp.
 
-  Any player CAN pay 3 boatloads of coins to grant emself 1 Stamp of
-  eir own type.
+  Any player CAN pay 3 boatloads of coins to grant a specified
+  player 1 Stamp of the granter's own type.
 
   Any player CAN pay 1 Stamp of eir own type to grant emself 1
   boatload of coins.
@@ -26,3 +26,8 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8661"
+- change:
+    type: amendment
+  date: 2022-05-08
+  agent:
+    proposal: "8669"
