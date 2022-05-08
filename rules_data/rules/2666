@@ -1,0 +1,25 @@
+id: 2666
+name: L&FD Auctions
+power: 1
+text: |
+  The Treasuror CAN conduct a L&FD Auction if no L&FD Auction is
+  ongoing. The Treasuror MUST do so at least once a month, if there
+  is at least one asset in the Lost and Found Department of an
+  auction-ready type.
+
+  Coins, promises, and all private assets are excluded from L&FD
+  Auctions. The non-excluded type(s) of asset(s) that the Lost and
+  Found Department owns more of than any other type of non-excluded
+  asset are auction-ready.
+
+  When conducting a L&FD Auction, the Treasuror specifies an
+  auction-ready asset type. Each asset of that type that the L&FD
+  owns is a lot.
+
+  The currency of a L&FD Auction is coins (minimum bid 1).
+history:
+- change:
+    type: enactment
+  date: 2022-05-08
+  agent:
+    proposal: "8670"
