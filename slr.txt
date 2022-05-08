@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 1 May 2022
+Date of this ruleset: 8 May 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 152
+Number of rules currently enacted: 153
 
-Highest ID'd rule in this ruleset: 2665
-Highest ID'd Proposal Passed: 8668
-Highest ID'd Rule Enacted: 2665
+Highest ID'd rule in this ruleset: 2666
+Highest ID'd Proposal Passed: 8671
+Highest ID'd Rule Enacted: 2666
 
 ========================================================================
 The Game of Agora
@@ -1905,14 +1905,14 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/20 (Power=1.7)
+Rule 2478/21 (Power=1.7)
 Vigilante Justice
 
-      A player CAN by announcement Point eir Finger at a player (the
-      perp); the announcement is INEFFECTIVE if it does not explicitly
-      name the perp, cite a specific rule or named crime, and specify an
-      alleged violation of that rule or commission of that crime by that
-      person.
+      A player, acting as emself, CAN by announcement Point eir Finger
+      at a player (the perp); the announcement is INEFFECTIVE if it does
+      not explicitly name the perp, cite a specific rule or named crime,
+      and specify an alleged violation of that rule or commission of
+      that crime by that person.
       
       When a player Points a Finger, the investigator SHALL investigate
       the allegation and CAN, and in a timely fashion SHALL, conclude
@@ -2602,7 +2602,7 @@ Economics
       and Found Department.
 
 ------------------------------------------------------------------------
-Rule 2659/0 (Power=1)
+Rule 2659/1 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players and Agora. The
@@ -2611,8 +2611,8 @@ Stamps
       
       For each person there is a corresponding type of stamp.
       
-      Any player CAN pay 3 boatloads of coins to grant emself 1 Stamp of
-      eir own type.
+      Any player CAN pay 3 boatloads of coins to grant a specified
+      player 1 Stamp of the granter's own type.
       
       Any player CAN pay 1 Stamp of eir own type to grant emself 1
       boatload of coins.
@@ -2760,21 +2760,38 @@ VP Wins
       Then, the winds die down.
 
 ------------------------------------------------------------------------
-Rule 2629/1 (Power=1.0)
+Rule 2629/2 (Power=1.0)
 Victory Auctions
 
-      The Treasuror CAN conduct an auction (a "victory auction") if no
-      victory auction is ongoing.  The Treasuror MUST do so at least
-      once a month, and SHOULD do so at least twice each month.
+      The Treasuror CAN conduct a Victory Auction if no Victory Auction
+      is ongoing. The Treasuror MUST do so at least once a month, and
+      SHOULD do so at least twice each month.
       
-      A victory auction includes the following lots:
+      A Victory Auction includes the following lots:
       
       * one new Win Card.
       
-      * all of any single type of card or product, currently owned by
-        the Lost and Found Department, if any.
+      The currency of a Victory Auction is coins (minimum bid 1).
+
+------------------------------------------------------------------------
+Rule 2666/0 (Power=1)
+L&FD Auctions
+
+      The Treasuror CAN conduct a L&FD Auction if no L&FD Auction is
+      ongoing. The Treasuror MUST do so at least once a month, if there
+      is at least one asset in the Lost and Found Department of an
+      auction-ready type.
       
-      The currency of a victory auction is coins (minimum bid 1).
+      Coins, promises, and all private assets are excluded from L&FD
+      Auctions. The non-excluded type(s) of asset(s) that the Lost and
+      Found Department owns more of than any other type of non-excluded
+      asset are auction-ready.
+      
+      When conducting a L&FD Auction, the Treasuror specifies an
+      auction-ready asset type. Each asset of that type that the L&FD
+      owns is a lot.
+      
+      The currency of a L&FD Auction is coins (minimum bid 1).
 
 ------------------------------------------------------------------------
 Rule 2624/8 (Power=1.0)
