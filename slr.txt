@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 8 May 2022
+Date of this ruleset: 15 May 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 153
 
 Highest ID'd rule in this ruleset: 2666
-Highest ID'd Proposal Passed: 8671
+Highest ID'd Proposal Passed: 8674
 Highest ID'd Rule Enacted: 2666
 
 ========================================================================
@@ -2830,13 +2830,14 @@ Player Focuses
       The winds change at the beginning of each month.
 
 ------------------------------------------------------------------------
-Rule 2499/16 (Power=1)
+Rule 2499/17 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
       
-        * 10 boatloads of coins~>, AND<~
-      ~>* 1 of each type of card defined in the rules.<~
+      ~>* 1 of each type of card defined in the rules,<~
+        * 10 boatloads of coins, AND
+        * 1 Stamp of eir own type
       
       Any player CAN, by announcement, grant a Welcome Package to any
       player if the grantee has neither received one since e last
@@ -3046,7 +3047,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/28 (Power=1)
+Rule 2654/30 (Power=1)
 The Device
 
       When the device is on:
@@ -3096,6 +3097,8 @@ The Device
           classes.
         * When a Device wins an election, e is installed into the
           associated office and the election ends.
+        * As this Device is the highest honour that Agora may bestow, a
+          Bearer of this Device OUGHT to be treated right good forever.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -3125,6 +3128,15 @@ The Device
         * Any player CAN grant a Welcome Device to any player if the
           grantee has neither received one since e last registered nor
           in the last 30 days.
+        * When the rules call for an Agoran Device to be made, the
+          Device-making process takes place in the following three
+          stages, each described elsewhere:
+      
+          1. Initiation of the Device.
+      
+          2. Voting of the people.
+      
+          3. Resolution of the Device.
 
 ------------------------------------------------------------------------
 Rule 2655/3 (Power=1)
@@ -3313,7 +3325,7 @@ One with Nature
       birds are transferred to Agora and permits expire.
 
 ------------------------------------------------------------------------
-Rule 2665/0 (Power=1)
+Rule 2665/1 (Power=1)
 The Birds
 
       'The playmate' is the player who played with the bird to make its
@@ -3352,6 +3364,9 @@ The Birds
       - Jay: The Pended switch of a specified proposal is set to True,
         and that proposal becomes sponsored. The playmate then gains 1
         Votive.
+      
+      - Bowerbird: A specified stone that is owned by a player is
+        transferred to the playmate.
 
 ------------------------------------------------------------------------
 ========================================================================
