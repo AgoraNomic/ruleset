@@ -49,6 +49,8 @@ text: |
       classes.
     * When a Device wins an election, e is installed into the
       associated office and the election ends.
+    * As this Device is the highest honour that Agora may bestow, a
+      Bearer of this Device OUGHT to be treated right good forever.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -290,5 +292,12 @@ history:
   agent:
     experiment:
       id: 34
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-05-15
+  agent:
+    experiment:
+      id: 35
       engineer: ais523
 annotations: []
