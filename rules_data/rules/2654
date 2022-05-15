@@ -78,6 +78,15 @@ text: |
     * Any player CAN grant a Welcome Device to any player if the
       grantee has neither received one since e last registered nor
       in the last 30 days.
+    * When the rules call for an Agoran Device to be made, the
+      Device-making process takes place in the following three
+      stages, each described elsewhere:
+       
+      1. Initiation of the Device.
+       
+      2. Voting of the people.
+       
+      3. Resolution of the Device.
 history:
 - change:
     type: enactment
@@ -274,5 +283,12 @@ history:
   agent:
     experiment:
       id: 32
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-05-08
+  agent:
+    experiment:
+      id: 34
       engineer: ais523
 annotations: []
