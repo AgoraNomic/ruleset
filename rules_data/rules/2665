@@ -38,9 +38,17 @@ text: |
   - Jay: The Pended switch of a specified proposal is set to True,
     and that proposal becomes sponsored. The playmate then gains 1
     Votive.
+
+  - Bowerbird: A specified stone that is owned by a player is
+    transferred to the playmate.
 history:
 - change:
     type: enactment
   date: 2022-04-03
   agent:
     proposal: "8662"
+- change:
+    type: amendment
+  date: 2022-05-15
+  agent:
+    proposal: "8673"
