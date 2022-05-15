@@ -4,8 +4,9 @@ power: 1
 text: |
   A Welcome Package is a set of assets containing:
 
-    * 10 boatloads of coins~>, AND<~
-  ~>* 1 of each type of card defined in the rules.<~
+  ~>* 1 of each type of card defined in the rules,<~
+    * 10 boatloads of coins, AND
+    * 1 Stamp of eir own type
 
   Any player CAN, by announcement, grant a Welcome Package to any
   player if the grantee has neither received one since e last
@@ -101,4 +102,9 @@ history:
   date: 2022-04-29
   agent:
     proposal: "8667"
+- change:
+    type: amendment
+  date: 2022-05-18
+  agent:
+    proposal: "8674"
 annotations: []
