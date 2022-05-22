@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 15 May 2022
+Date of this ruleset: 22 May 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 153
 
 Highest ID'd rule in this ruleset: 2666
-Highest ID'd Proposal Passed: 8674
+Highest ID'd Proposal Passed: 8676
 Highest ID'd Rule Enacted: 2666
 
 ========================================================================
@@ -2748,12 +2748,12 @@ Cards & Sets
       Cards and Products are tracked by the Treasuror.
 
 ------------------------------------------------------------------------
-Rule 2621/8 (Power=1.0)
+Rule 2621/9 (Power=1.0)
 VP Wins
 
-      If a player has at least 20 more Winsomes than any other player, e
-      CAN Take Over the Economy by announcement, provided no person has
-      won the game by doing so in the past 30 days.
+      If a player has at least 20 more Winsomes than each other player,
+      e CAN Take Over the Economy by announcement, provided no person
+      has won the game by doing so in the past 30 days.
       
       When a player takes over the economy, e wins the game. Four days
       after such a win occurs, all Cards and all Products are destroyed.
@@ -3047,7 +3047,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/30 (Power=1)
+Rule 2654/31 (Power=1)
 The Device
 
       When the device is on:
@@ -3137,6 +3137,10 @@ The Device
           2. Voting of the people.
       
           3. Resolution of the Device.
+        * When a Rule specifies that a random Device be made, then the
+          Device shall be made using whatever probability distribution
+          among the possible outcomes the Rule specifies, defaulting to
+          a uniform probability distribution.
 
 ------------------------------------------------------------------------
 Rule 2655/3 (Power=1)
