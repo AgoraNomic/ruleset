@@ -2,9 +2,9 @@ id: 2642
 name: Distributing Stones
 power: 2
 text: |
-  The Stonemason CAN initiate an auction for any set of stones
-  belonging to Agora for which an auction is not ongoing, with each
-  individual stone being an auction lot. The Stonemason is the
+  The Stonemason CAN conduct an auction for any set of stones
+  belonging to Agora for which no other auction is ongoing, with
+  each individual stone being an auction lot. The Stonemason is the
   auctioneer, and the currency is coins.
 
   The Stonemason SHALL if possible initiate such an auction monthly
@@ -22,4 +22,9 @@ history:
   date: 2021-09-24
   agent:
     proposal: "8604"
+- change:
+    type: amendment
+  date: 2022-05-28
+  agent:
+    proposal: "8680"
 annotations: []

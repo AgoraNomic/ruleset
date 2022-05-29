@@ -2,7 +2,7 @@ id: 2666
 name: L&FD Auctions
 power: 1
 text: |
-  The Treasuror CAN conduct a L&FD Auction if no L&FD Auction is
+  The Treasuror CAN conduct a L&FD Auction if no other L&FD Auction
   ongoing. The Treasuror MUST do so at least once a month, if there
   is at least one asset in the Lost and Found Department of an
   auction-ready type.
@@ -23,3 +23,8 @@ history:
   date: 2022-05-08
   agent:
     proposal: "8670"
+- change:
+    type: amendment
+  date: 2022-05-28
+  agent:
+    proposal: "8680"

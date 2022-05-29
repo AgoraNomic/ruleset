@@ -2,9 +2,9 @@ id: 2629
 name: Victory Auctions
 power: 1.0
 text: |
-  The Treasuror CAN conduct a Victory Auction if no Victory Auction
-  is ongoing. The Treasuror MUST do so at least once a month, and
-  SHOULD do so at least twice each month.
+  The Treasuror CAN conduct a Victory Auction if no other Victory
+  Auction is ongoing. The Treasuror MUST do so at least once a
+  month, and SHOULD do so at least twice each month.
 
   A Victory Auction includes the following lots:
 
@@ -27,4 +27,9 @@ history:
   date: 2022-05-08
   agent:
     proposal: "8670"
+- change:
+    type: amendment
+  date: 2022-05-28
+  agent:
+    proposal: "8680"
 annotations: []

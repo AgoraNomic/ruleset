@@ -20,6 +20,13 @@ text: |
   Class N Crime of Auction Manipulation, where N is the class
   specified in the auction method (or 2 otherwise).
 
+  While an auction is ongoing, if the rules provide for that class
+  of auction, or a substantially similar class, the auctioneer
+  generally CAN conduct that ongoing auction, unless the rules
+  specify otherwise. Any auction that CANNOT be conducted and COULD
+  NOT have been conducted in the previous week immediately
+  terminates with no winner.
+
   The rule that authorizes the auction further authorizes the
   auctioneer or auction winners to transfer said items as necessary
   to conduct the auction in a manner consistent with the auction
@@ -71,4 +78,9 @@ history:
   date: 2021-06-23
   agent:
     proposal: "8578"
+- change:
+    type: amendment
+  date: 2022-05-28
+  agent:
+    proposal: "8680"
 annotations: []
