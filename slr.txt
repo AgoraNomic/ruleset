@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 22 May 2022
+Date of this ruleset: 29 May 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 153
 
 Highest ID'd rule in this ruleset: 2666
-Highest ID'd Proposal Passed: 8676
+Highest ID'd Proposal Passed: 8681
 Highest ID'd Rule Enacted: 2666
 
 ========================================================================
@@ -1609,7 +1609,7 @@ Deputisation
       deputisation is temporary.
 
 ------------------------------------------------------------------------
-Rule 2138/24 (Power=1)
+Rule 2138/25 (Power=1)
 The Associate Director of Personnel
 
       The Associate Director of Personnel (ADoP) is an office; its
@@ -1624,6 +1624,17 @@ The Associate Director of Personnel
          which the last election ended
       3. For filled elected offices, whether or not the holder is
          interim.
+      4. For filled offices with a weekly report, the number of weeks in
+         scope, and the number and percent of those weeks during which
+         the officeholder published its weekly report.
+      5. For filled offices with a monthly report, the number of months
+         in scope, and the number and percent of those months during
+         which the officeholder published its monthly report.
+      
+      For this purpose, the 13 most recent complete weeks and 3 most
+      recent complete months are in scope, but only those for which the
+      officeholder held that office continuously since it started; and
+      percentages of 0/0 are to be reported as n/a.
 
 ------------------------------------------------------------------------
 Rule 2472/5 (Power=2)
@@ -1649,7 +1660,7 @@ Office Incompatibilities
       Overpowered player holds becomes vacant.
 
 ------------------------------------------------------------------------
-Rule 2143/34 (Power=1)
+Rule 2143/35 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -1670,8 +1681,14 @@ Official Reports and Duties
       
       Any information defined by the rules as part of a person's report,
       without specifying which one, is part of eir weekly report.
-      Failure of a person to perform any duty required of em within the
-      allotted time is the Class 2 Crime of Tardiness.
+      Failure of a person to perform any weekly duty required of em
+      within the allotted time is the Class 1+N Crime of Weekly
+      Tardiness, where N is the number of times e has previously
+      committed the crime in the last month.
+      
+      Failure of a person to perform any monthly duty required of em
+      within the allotted time is the Class 3 Crime of Monthly
+      Tardiness.
       
       An official duty for an office is any duty that the Rules
       specifically assign to that office's holder in particular
@@ -1957,7 +1974,7 @@ Vigilante Justice
       announcement.<~
 
 ------------------------------------------------------------------------
-Rule 2557/6 (Power=1.7)
+Rule 2557/7 (Power=1.7)
 Sentencing Guidelines
 
       When the rules authorize an investigator to impose the Cold Hand
@@ -1988,10 +2005,13 @@ Sentencing Guidelines
       specified words, explaining eir error, shame, remorse, and ardent
       desire for self-improvement.
       
+      
       When the rules authorize an investigator to issue a Warning for a
-      violation, e CAN do so by announcement if the violation is
-      described by the rules as a "Class N Crime" where N is 0 or an
-      expression that evaluates to 0.
+      violation, e CAN do so by announcement if:
+      
+      * the violation is a crime of class 0, OR
+      * the violation is a crime of class 1 and e has not done so for
+        the same player for the same crime this month.
       
       When the rules authorize an investigator to issue an Indictment
       for a violation, e CAN do so by levying a fine on the perp, with
@@ -2760,12 +2780,12 @@ VP Wins
       Then, the winds die down.
 
 ------------------------------------------------------------------------
-Rule 2629/2 (Power=1.0)
+Rule 2629/3 (Power=1.0)
 Victory Auctions
 
-      The Treasuror CAN conduct a Victory Auction if no Victory Auction
-      is ongoing. The Treasuror MUST do so at least once a month, and
-      SHOULD do so at least twice each month.
+      The Treasuror CAN conduct a Victory Auction if no other Victory
+      Auction is ongoing. The Treasuror MUST do so at least once a
+      month, and SHOULD do so at least twice each month.
       
       A Victory Auction includes the following lots:
       
@@ -2774,10 +2794,10 @@ Victory Auctions
       The currency of a Victory Auction is coins (minimum bid 1).
 
 ------------------------------------------------------------------------
-Rule 2666/0 (Power=1)
+Rule 2666/1 (Power=1)
 L&FD Auctions
 
-      The Treasuror CAN conduct a L&FD Auction if no L&FD Auction is
+      The Treasuror CAN conduct a L&FD Auction if no other L&FD Auction
       ongoing. The Treasuror MUST do so at least once a month, if there
       is at least one asset in the Lost and Found Department of an
       auction-ready type.
@@ -2863,7 +2883,7 @@ Birthday Gifts
       Players are ENCOURAGED to announce their Agoran Birthdays.
 
 ------------------------------------------------------------------------
-Rule 2545/5 (Power=2)
+Rule 2545/6 (Power=2)
 Auctions
 
       An auction is a way for entities to give away specified assets
@@ -2883,6 +2903,13 @@ Auctions
       intended to be punishable as rules violations; doing so is the
       Class N Crime of Auction Manipulation, where N is the class
       specified in the auction method (or 2 otherwise).
+      
+      While an auction is ongoing, if the rules provide for that class
+      of auction, or a substantially similar class, the auctioneer
+      generally CAN conduct that ongoing auction, unless the rules
+      specify otherwise. Any auction that CANNOT be conducted and COULD
+      NOT have been conducted in the previous week immediately
+      terminates with no winner.
       
       The rule that authorizes the auction further authorizes the
       auctioneer or auction winners to transfer said items as necessary
@@ -2946,12 +2973,12 @@ Wielding Stones
       effects in that stone's scroll.
 
 ------------------------------------------------------------------------
-Rule 2642/1 (Power=2)
+Rule 2642/2 (Power=2)
 Distributing Stones
 
-      The Stonemason CAN initiate an auction for any set of stones
-      belonging to Agora for which an auction is not ongoing, with each
-      individual stone being an auction lot. The Stonemason is the
+      The Stonemason CAN conduct an auction for any set of stones
+      belonging to Agora for which no other auction is ongoing, with
+      each individual stone being an auction lot. The Stonemason is the
       auctioneer, and the currency is coins.
       
       The Stonemason SHALL if possible initiate such an auction monthly
@@ -3047,7 +3074,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/31 (Power=1)
+Rule 2654/32 (Power=1)
 The Device
 
       When the device is on:
@@ -3099,6 +3126,9 @@ The Device
           associated office and the election ends.
         * As this Device is the highest honour that Agora may bestow, a
           Bearer of this Device OUGHT to be treated right good forever.
+        * Proposals created since the enactment of this rule have a
+          secured untracked Device switch with possible values ordinary
+          (the default) and democratic.
       
       When the device is off:
         * whirrrrrr - THUNK
