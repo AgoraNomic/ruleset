@@ -30,10 +30,13 @@ text: |
   specified words, explaining eir error, shame, remorse, and ardent
   desire for self-improvement.
 
+
   When the rules authorize an investigator to issue a Warning for a
-  violation, e CAN do so by announcement if the violation is
-  described by the rules as a "Class N Crime" where N is 0 or an
-  expression that evaluates to 0.
+  violation, e CAN do so by announcement if:
+
+  * the violation is a crime of class 0, OR
+  * the violation is a crime of class 1 and e has not done so for
+    the same player for the same crime this month.
 
   When the rules authorize an investigator to issue an Indictment
   for a violation, e CAN do so by levying a fine on the perp, with
@@ -81,4 +84,9 @@ history:
   date: 2021-06-05
   agent:
     proposal: "8560"
+- change:
+    type: amendment
+  date: 2022-05-28
+  agent:
+    proposal: "8679"
 annotations: []

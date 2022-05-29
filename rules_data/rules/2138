@@ -14,6 +14,17 @@ text: |
      which the last election ended
   3. For filled elected offices, whether or not the holder is
      interim.
+  4. For filled offices with a weekly report, the number of weeks in
+     scope, and the number and percent of those weeks during which
+     the officeholder published its weekly report.
+  5. For filled offices with a monthly report, the number of months
+     in scope, and the number and percent of those months during
+     which the officeholder published its monthly report.
+
+  For this purpose, the 13 most recent complete weeks and 3 most
+  recent complete months are in scope, but only those for which the
+  officeholder held that office continuously since it started; and
+  percentages of 0/0 are to be reported as n/a.
 history:
 - change:
     type: enactment
@@ -171,6 +182,11 @@ history:
   date: 2017-10-15
   agent:
     proposal: "7912"
+- change:
+    type: amendment
+  date: 2022-05-28
+  agent:
+    proposal: "8679"
 annotations:
 - cfjs:
   - id: '1672'
