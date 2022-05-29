@@ -51,6 +51,9 @@ text: |
       associated office and the election ends.
     * As this Device is the highest honour that Agora may bestow, a
       Bearer of this Device OUGHT to be treated right good forever.
+    * Proposals created since the enactment of this rule have a
+      secured untracked Device switch with possible values ordinary
+      (the default) and democratic.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -310,5 +313,12 @@ history:
   agent:
     experiment:
       id: 36
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-05-29
+  agent:
+    experiment:
+      id: 37
       engineer: ais523
 annotations: []
