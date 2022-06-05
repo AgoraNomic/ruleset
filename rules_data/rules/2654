@@ -54,6 +54,8 @@ text: |
     * Proposals created since the enactment of this rule have a
       secured untracked Device switch with possible values ordinary
       (the default) and democratic.
+    * While Agora's Device is zero, the paragraphs above have no
+      effect and are ignored.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -320,5 +322,12 @@ history:
   agent:
     experiment:
       id: 37
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-06-05
+  agent:
+    experiment:
+      id: 38
       engineer: ais523
 annotations: []
