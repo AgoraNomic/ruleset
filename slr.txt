@@ -2,11 +2,11 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 5 Jun 2022
+Date of this ruleset: 12 Jun 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 153
+Number of rules currently enacted: 147
 
 Highest ID'd rule in this ruleset: 2666
 Highest ID'd Proposal Passed: 8681
@@ -592,25 +592,6 @@ Proposals
       retract, withdraw) it from the Pool by announcement.
 
 ------------------------------------------------------------------------
-Rule 2622/4 (Power=1.0)
-Pending Proposals
-
-      Pended is an untracked negative boolean proposal switch.
-      
-      Any player CAN pay 1 Pendant to flip the Pended switch of a
-      specified proposal to True. When e does so, the proposal becomes
-      sponsored.
-      
-      The Promotor CAN, with 2+X support, flip the Pended switch of a
-      proposal in the Proposal Pool to true. For this, X is equal to the
-      number of times e has done so in the past 7 days.
-      
-      Any player CAN, without objection, flip the Pended switch of a
-      proposal in the Proposal Pool to true.
-      
-      A proposal with a Pended switch set to True is 'pending'.
-
-------------------------------------------------------------------------
 Rule 2625/1 (Power=1.0)
 Proposal Recycling
 
@@ -656,7 +637,7 @@ Proposal Classes
       ended.
 
 ------------------------------------------------------------------------
-Rule 1607/54 (Power=3)
+Rule 1607/55 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -671,20 +652,16 @@ Distribution
       removes the proposal from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time~>, but SHALL NOT do so unless it is pending<~.
+      Pool at any time.
       
       In a given Agoran week, the Promotor SHALL distribute each
-      proposal that was in the Proposal Pool ~>and pending<~ at the
-      beginning of that week, except for those excepted from automatic
-      distribution by other rules, or those that are otherwise removed
-      from the Pool. If there are ten or more ~>pending<~ undistributed
-      proposals in the proposal pool, the promotor MAY refrain from
-      distributing the most recently added 5 proposals if e distributes
-      each other ~>pending<~ proposal in that Agoran week.
-      
-      ~>If a proposal has been in the proposal pool for more than 7 days
-      and is not pending, the Promotor CAN and SHOULD remove it from the
-      Pool by announcement.<~
+      proposal that was in the Proposal Pool at the beginning of that
+      week, except for those excepted from automatic distribution by
+      other rules, or those that are otherwise removed from the Pool. If
+      there are ten or more undistributed proposals in the proposal
+      pool, the promotor MAY refrain from distributing the most recently
+      added 5 proposals if e distributes each other proposal in that
+      Agoran week.
       
       Distributed proposals have ID numbers, to be assigned by the
       Promotor.
@@ -733,22 +710,6 @@ Adopting Proposals
       proposal preventing itself from taking effect (its no-effect
       clause is generally interpreted as applying only to the rest of
       the proposal).
-
-------------------------------------------------------------------------
-Rule 2623/4 (Power=1.0)
-Popular Proposal Proposer Privilege
-
-      For a referendum, let F be the total number of valid ballots
-      resolving to FOR, A be the same for AGAINST, and T be the total
-      number of valid ballots.  The referendum's popularity is equal to
-      (F - A)/T. The Assessor SHOULD publish the popularity of each
-      referendum when resolving it.
-      
-      The author of the most popular sponsored proposal adopted in the
-      last 7 days CAN once gain one Legislative Card by announcement,
-      provided that no referenda initiated in the same message as it
-      remain unresolved. If there is a tie, all authors of the tied
-      proposals can do so once each.
 
 ------------------------------------------------------------------------
 Rule 2649/0 (Power=1)
@@ -1338,15 +1299,6 @@ Voting Strength
       and the maximum value if it was more.
 
 ------------------------------------------------------------------------
-Rule 2653/2 (Power=2)
-Buying Strength
-
-      A player CAN Buy Strength by paying a fee of 1 Votive. A person's
-      Voting Strength on a referendum on an ordinary proposal is 1
-      greater for every time e Bought Strength during that decision's
-      voting period.
-
-------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
 Conditional Votes
 
@@ -1876,7 +1828,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/11 (Power=2)
+Rule 2555/12 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1893,17 +1845,9 @@ Blots
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
       
-      ~>Any player CAN expunge a blot from a specified person (or emself
-      if no one is specified) by paying a fee of one Blot-B-Gone.<~
-      
-      ~>Any player CAN levy a fine of one blot on a specified person by
-      paying a fee of two Blot-B-Gones, provided the specified person
-      has not already gained two blots or more in the current week.<~
-      
       Any player who has not expunged a blot by this method this week
       CAN expunge 1 blot from a specified player who has not gained a
-      blot this week, by announcement ~>unless either of them is a
-      player<~.
+      blot this week, by announcement.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -1922,7 +1866,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/21 (Power=1.7)
+Rule 2478/22 (Power=1.7)
 Vigilante Justice
 
       A player, acting as emself, CAN by announcement Point eir Finger
@@ -1967,11 +1911,6 @@ Vigilante Justice
       A high crime is any crime specified as being class 4 or greater.
       The Referee CANNOT levy the Cold Hand of Justice to punish a high
       crime, the other provisions of this rule notwithstanding.
-      
-      ~>The player who initiated the most Finger Pointings that resulted
-      in a Warning, Indictment, or Cold Hand of Justice in the previous
-      Agoran Week CAN once grant emself a Justice Card by
-      announcement.<~
 
 ------------------------------------------------------------------------
 Rule 2557/7 (Power=1.7)
@@ -2724,7 +2663,7 @@ Paydays
       place at the beginning of the month, a Payday occurs.
 
 ------------------------------------------------------------------------
-Rule 2658/0 (Power=3)
+Rule 2658/1 (Power=3)
 The Winds Die Down
 
       When the wind dies down, the following happen in order:
@@ -2735,37 +2674,11 @@ The Winds Die Down
         Proposals", R2651 "Proposal Recycling", and R2653 "Buying
         Strength".
       
-      * All rules including the text "~>" and "<~" are amended in
-        ascending numerical order by removing all text between and
-        including each "~>" and the first following "<~".
+      * All rules including the text "" are amended in ascending
+        numerical order by removing all text between and including each
+        "".
       
       * This rule is repealed.
-
-------------------------------------------------------------------------
-Rule 2620/3 (Power=1.0)
-Cards & Sets
-
-      Cards are a type of currency with a corresponding Product.
-      Products are also currencies. The types of Cards and their
-      corresponding Products are:
-      
-      * Win Cards and Winsomes.
-      * Justice Cards and Blot-B-Gones
-      * Legislative Cards and Pendants
-      * Voting Cards and Votives
-      
-      A player CAN pay a 'set' of (syn: "cash in") X Cards of the same
-      type to gain Y corresponding Products. The value of X determines
-      the value of Y in the following ways:
-      
-      * 1 Card = 1 Product
-      * 2 Cards = 3 Products
-      * 3 Cards = 6 Products
-      * 4 Cards = 10 Products
-      
-      A player CANNOT pay more than 4 Cards as one 'set'.
-      
-      Cards and Products are tracked by the Treasuror.
 
 ------------------------------------------------------------------------
 Rule 2621/9 (Power=1.0)
@@ -2778,20 +2691,6 @@ VP Wins
       When a player takes over the economy, e wins the game. Four days
       after such a win occurs, all Cards and all Products are destroyed.
       Then, the winds die down.
-
-------------------------------------------------------------------------
-Rule 2629/3 (Power=1.0)
-Victory Auctions
-
-      The Treasuror CAN conduct a Victory Auction if no other Victory
-      Auction is ongoing. The Treasuror MUST do so at least once a
-      month, and SHOULD do so at least twice each month.
-      
-      A Victory Auction includes the following lots:
-      
-      * one new Win Card.
-      
-      The currency of a Victory Auction is coins (minimum bid 1).
 
 ------------------------------------------------------------------------
 Rule 2666/1 (Power=1)
@@ -2812,24 +2711,6 @@ L&FD Auctions
       owns is a lot.
       
       The currency of a L&FD Auction is coins (minimum bid 1).
-
-------------------------------------------------------------------------
-Rule 2624/8 (Power=1.0)
-Card Administration
-
-      Each of the following Ministries has a Grant, listed below.
-      
-      Ministry of Compliance: 1 Justice Card
-      Ministry of Legislation: 1 Legislative Card
-      Ministry of Participation: 1 Voting Card
-      Ministry of Legacy: 1 Winsome
-      
-      A player CAN once a month grant eir Ministry Focus' Grant to a
-      specified player by announcement.
-      
-      The Ministor CAN, once a month and by announcement, and SHALL, in
-      a timely manner from the beginning of the month, grant 1 Win Card
-      to a random player whose Ministry Focus is Legacy .
 
 ------------------------------------------------------------------------
 Rule 2638/1 (Power=2.0)
