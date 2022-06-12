@@ -10,9 +10,9 @@ text: |
     Proposals", R2651 "Proposal Recycling", and R2653 "Buying
     Strength".
 
-  * All rules including the text "~>" and "<~" are amended in
-    ascending numerical order by removing all text between and
-    including each "~>" and the first following "<~".
+  * All rules including the text "" are amended in ascending
+    numerical order by removing all text between and including each
+    "".
 
   * This rule is repealed.
 history:
@@ -21,3 +21,8 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8660"
+- change:
+    type: amendment
+  date: 2022-06-09
+  agent:
+    rule: "2658"

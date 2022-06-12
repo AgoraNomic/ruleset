@@ -44,11 +44,6 @@ text: |
   A high crime is any crime specified as being class 4 or greater.
   The Referee CANNOT levy the Cold Hand of Justice to punish a high
   crime, the other provisions of this rule notwithstanding.
-
-  ~>The player who initiated the most Finger Pointings that resulted
-  in a Warning, Indictment, or Cold Hand of Justice in the previous
-  Agoran Week CAN once grant emself a Justice Card by
-  announcement.<~
 history:
 - change:
     type: enactment
@@ -160,4 +155,9 @@ history:
   date: 2022-05-08
   agent:
     proposal: "8671"
+- change:
+    type: amendment
+  date: 2022-06-09
+  agent:
+    rule: "2658"
 annotations: []
