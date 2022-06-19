@@ -56,6 +56,10 @@ text: |
       (the default) and democratic.
     * While Agora's Device is zero, the paragraphs above have no
       effect and are ignored.
+    * Whenever a payday occurs, half of each charity's Device
+      holdings (rounded down) are destroyed, and then each charity
+      gains a number of boatloads of Devices equal to its donation
+      level.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -329,5 +333,12 @@ history:
   agent:
     experiment:
       id: 38
+      engineer: ais523
+- change:
+    type: amendment
+  date: 2022-06-12
+  agent:
+    experiment:
+      id: 40
       engineer: ais523
 annotations: []
