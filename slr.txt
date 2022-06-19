@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 12 Jun 2022
+Date of this ruleset: 19 Jun 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 147
 
-Highest ID'd rule in this ruleset: 2666
-Highest ID'd Proposal Passed: 8681
-Highest ID'd Rule Enacted: 2666
+Highest ID'd rule in this ruleset: 2667
+Highest ID'd Proposal Passed: 8682
+Highest ID'd Rule Enacted: 2667
 
 ========================================================================
 The Game of Agora
@@ -1660,6 +1660,15 @@ Official Reports and Duties
       publicly respond to that petition in a timely fashion.
 
 ------------------------------------------------------------------------
+Rule 2667/0 (Power=1)
+Succumbing to Time
+
+      Once per month, a player CAN Succumb by announcement. When a
+      player Succumbs, each of eir deadlines to perform an Officer's
+      duty or judge a Call for Judgement is extended by 1 day if it
+      would otherwise expire within the next week.
+
+------------------------------------------------------------------------
 Rule 2632/0 (Power=1.0)
 Complexity
 
@@ -2663,24 +2672,6 @@ Paydays
       place at the beginning of the month, a Payday occurs.
 
 ------------------------------------------------------------------------
-Rule 2658/1 (Power=3)
-The Winds Die Down
-
-      When the wind dies down, the following happen in order:
-      
-      * The following rules are repealed in order: R2620 "Cards & Sets",
-        R2623 "Popular Proposal Proposer Privilege", R2629 "Victory
-        Auctions", R2624 "Card Administration", R2622 "Pending
-        Proposals", R2651 "Proposal Recycling", and R2653 "Buying
-        Strength".
-      
-      * All rules including the text "" are amended in ascending
-        numerical order by removing all text between and including each
-        "".
-      
-      * This rule is repealed.
-
-------------------------------------------------------------------------
 Rule 2621/9 (Power=1.0)
 VP Wins
 
@@ -2731,12 +2722,11 @@ Player Focuses
       The winds change at the beginning of each month.
 
 ------------------------------------------------------------------------
-Rule 2499/17 (Power=1)
+Rule 2499/18 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
       
-      ~>* 1 of each type of card defined in the rules,<~
         * 10 boatloads of coins, AND
         * 1 Stamp of eir own type
       
@@ -2904,7 +2894,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/7 (Power=2)
+Rule 2645/8 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2943,11 +2933,6 @@ The Stones
         players have wielded it since the most recent collection notice.
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
-      
-      
-      ~>- Alchemy Stone (weekly, 70%): Destroy four cards you own. If
-        four cards were destroyed this way, gain 7 products of your
-        choice.<~
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2955,7 +2940,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/33 (Power=1)
+Rule 2654/34 (Power=1)
 The Device
 
       When the device is on:
@@ -3012,6 +2997,10 @@ The Device
           (the default) and democratic.
         * While Agora's Device is zero, the paragraphs above have no
           effect and are ignored.
+        * Whenever a payday occurs, half of each charity's Device
+          holdings (rounded down) are destroyed, and then each charity
+          gains a number of boatloads of Devices equal to its donation
+          level.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -3460,7 +3449,7 @@ Festivals
       Festivity is flipped to N.
 
 ------------------------------------------------------------------------
-Rule 2481/6 (Power=3.1)
+Rule 2481/7 (Power=3.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -3473,9 +3462,6 @@ Festival Restrictions
       
       3. Each Festive player has the maximum possible voting strength.
          All other players have the minimum possible voting strength.
-      
-      ~>4. Non-Festive players CANNOT cause proposals to become
-           Pended.<~
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.

@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 12 Jun 2022
+Date of this ruleset: 19 Jun 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 147
 
-Highest ID'd rule in this ruleset: 2666
-Highest ID'd Proposal Passed: 8681
-Highest ID'd Rule Enacted: 2666
+Highest ID'd rule in this ruleset: 2667
+Highest ID'd Proposal Passed: 8682
+Highest ID'd Rule Enacted: 2667
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -89,6 +89,7 @@ Offices & Reporting
    * Rule 2138: The Associate Director of Personnel
    * Rule 2472: Office Incompatibilities
    * Rule 2143: Official Reports and Duties
+   * Rule 2667: Succumbing to Time
    * Rule 2632: Complexity
    * Rule 2636: The Ministor
    * Rule 2603: Switch Responsiblity
@@ -134,7 +135,6 @@ Economics
    * Rule 2635: Floating Rate Fleet
    * Rule 2496: Rewards
    * Rule 2559: Paydays
-   * Rule 2658: The Winds Die Down
    * Rule 2621: VP Wins
    * Rule 2666: L&FD Auctions
    * Rule 2638: Player Focuses
@@ -197,13 +197,13 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-46 with Power=1
+47 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 32 with Power=2
 1  with Power=2.2
 1  with Power=2.5
-48 with Power=3
+47 with Power=3
 3  with Power=3.1
 1  with Power=3.14
 2  with Power=3.2
@@ -4147,6 +4147,21 @@ CFJ 3798 (called 24 Jan 2020): While the requirements for publishing
     exact requirements are comprehensively explained in the judgment.
 
 ------------------------------------------------------------------------
+Rule 2667/0 (Power=1)
+Succumbing to Time
+
+      Once per month, a player CAN Succumb by announcement. When a
+      player Succumbs, each of eir deadlines to perform an Officer's
+      duty or judge a Call for Judgement is extended by 1 day if it
+      would otherwise expire within the next week.
+
+History:
+
+Enacted by P8682 'Temptation' (Secretsnail9), 18 Jun 2022
+
+Annotations:
+
+------------------------------------------------------------------------
 Rule 2632/0 (Power=1.0)
 Complexity
 
@@ -6066,32 +6081,6 @@ Amended(10) by P8557 'Archimedes' Principle' (Aspen, Trigon, nix), 15
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2658/1 (Power=3)
-The Winds Die Down
-
-      When the wind dies down, the following happen in order:
-      
-      * The following rules are repealed in order: R2620 "Cards & Sets",
-        R2623 "Popular Proposal Proposer Privilege", R2629 "Victory
-        Auctions", R2624 "Card Administration", R2622 "Pending
-        Proposals", R2651 "Proposal Recycling", and R2653 "Buying
-        Strength".
-      
-      * All rules including the text "" are amended in ascending
-        numerical order by removing all text between and including each
-        "".
-      
-      * This rule is repealed.
-
-History:
-
-Enacted by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
-   Apr 2022
-Amended(1) by R2658, 09 Jun 2022
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2621/9 (Power=1.0)
 VP Wins
 
@@ -6177,12 +6166,11 @@ Amended(1) by P8628 'tacking into the win' (G.), 18 Oct 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/17 (Power=1)
+Rule 2499/18 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
       
-      ~>* 1 of each type of card defined in the rules,<~
         * 10 boatloads of coins, AND
         * 1 Stamp of eir own type
       
@@ -6220,6 +6208,7 @@ Amended(15) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
    03 Apr 2022
 Amended(16) by P8667 'welcome fix' (G.), 29 Apr 2022
 Amended(17) by P8674 'Proper Postage v2' (nix), 18 May 2022
+Amended(18) by R2658, 09 Jun 2022
 
 Annotations:
 
@@ -6459,7 +6448,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/7 (Power=2)
+Rule 2645/8 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6498,11 +6487,6 @@ The Stones
         players have wielded it since the most recent collection notice.
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
-      
-      
-      ~>- Alchemy Stone (weekly, 70%): Destroy four cards you own. If
-        four cards were destroyed this way, gain 7 products of your
-        choice.<~
 
 History:
 
@@ -6518,6 +6502,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Amended(6) by P8642 'Hot Potato patch v2' (Jason, Oerjan), 23 Feb 2022
 Amended(7) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
    Apr 2022
+Amended(8) by R2658, 09 Jun 2022
 
 Annotations:
 
@@ -6527,7 +6512,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/33 (Power=1)
+Rule 2654/34 (Power=1)
 The Device
 
       When the device is on:
@@ -6584,6 +6569,10 @@ The Device
           (the default) and democratic.
         * While Agora's Device is zero, the paragraphs above have no
           effect and are ignored.
+        * Whenever a payday occurs, half of each charity's Device
+          holdings (rounded down) are destroyed, and then each charity
+          gains a number of boatloads of Devices equal to its donation
+          level.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -6663,6 +6652,7 @@ Amended(30) by Experiment #35 under Mad Engineer ais523, 15 May 2022
 Amended(31) by Experiment #36 under Mad Engineer ais523, 21 May 2022
 Amended(32) by Experiment #37 under Mad Engineer ais523, 29 May 2022
 Amended(33) by Experiment #38 under Mad Engineer ais523, 05 Jun 2022
+Amended(34) by Experiment #40 under Mad Engineer ais523, 12 Jun 2022
 
 Annotations:
 
@@ -7218,7 +7208,7 @@ Amended(6) by P8657 'Shrodinger's report' (Murphy), 03 Apr 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/6 (Power=3.1)
+Rule 2481/7 (Power=3.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -7231,9 +7221,6 @@ Festival Restrictions
       
       3. Each Festive player has the maximum possible voting strength.
          All other players have the minimum possible voting strength.
-      
-      ~>4. Non-Festive players CANNOT cause proposals to become
-           Pended.<~
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
@@ -7253,6 +7240,7 @@ Amended(5) by P8629 'Independence Day' (G., Gaelan, Telna, nix, Cuddle
    Beam, cuddlybanana, Jason), 18 Oct 2021
 Amended(6) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
    Apr 2022
+Amended(7) by R2658, 09 Jun 2022
 
 Annotations:
 
