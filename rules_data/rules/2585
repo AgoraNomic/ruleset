@@ -11,9 +11,10 @@ text: |
   declared as eir Agoran Birthday.
 
   During a player's Agoran Birthday and the 7 days following, each
-  other player CAN once grant em X boatloads of coins by
-  announcement, where X is 3 if it is actually the day of the
-  player's birthday, and 2 otherwise.
+  other player CAN once acknowledge that person's birthday by
+  announcement.  Doing so grants the birthday player 3 boatloads of
+  coins if it is actually the day of the player's birthday, and 2
+  otherwise.
 
   Players are ENCOURAGED to announce their Agoran Birthdays.
 history:
@@ -52,6 +53,11 @@ history:
   date: 2021-03-02
   agent:
     proposal: "8541"
+- change:
+    type: amendment
+  date: 2022-06-25
+  agent:
+    proposal: "8685"
 annotations:
 - cfjs:
   - id: 3873
