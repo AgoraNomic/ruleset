@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 19 Jun 2022
+Date of this ruleset: 26 Jun 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 147
 
 Highest ID'd rule in this ruleset: 2667
-Highest ID'd Proposal Passed: 8682
+Highest ID'd Proposal Passed: 8692
 Highest ID'd Rule Enacted: 2667
 
 ========================================================================
@@ -2735,7 +2735,7 @@ Welcome Packages
       registered nor in the last 30 days.
 
 ------------------------------------------------------------------------
-Rule 2585/6 (Power=1)
+Rule 2585/7 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -2747,9 +2747,10 @@ Birthday Gifts
       declared as eir Agoran Birthday.
       
       During a player's Agoran Birthday and the 7 days following, each
-      other player CAN once grant em X boatloads of coins by
-      announcement, where X is 3 if it is actually the day of the
-      player's birthday, and 2 otherwise.
+      other player CAN once acknowledge that person's birthday by
+      announcement.  Doing so grants the birthday player 3 boatloads of
+      coins if it is actually the day of the player's birthday, and 2
+      otherwise.
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
 
@@ -3090,7 +3091,7 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/0 (Power=1.5)
+Rule 2656/1 (Power=1.5)
 Points
 
       A player's Score, indicated in Points, is an integer player switch
@@ -3100,9 +3101,19 @@ Points
       have a score of 100+ points, all players meeting this condition
       win the game.  If a least one player wins the game via such an
       announcement, all players' scores are set to their default.
+      
+      
+      The Herald CAN once each, by announcement, grant 15, 10, and 5
+      boatloads of coins to the players who had the most, second most,
+      and third most points (respectively) at the end of the previous
+      quarter. E SHALL do so in a timely manner after the beginning of
+      the quarter.
+      
+      At the start of every quarter, all Scores are set to half their
+      current value rounded down.
 
 ------------------------------------------------------------------------
-Rule 2657/3 (Power=1)
+Rule 2657/4 (Power=1)
 Scoring
 
       Each time a player fulfills a scoring condition, the officer
@@ -3113,11 +3124,21 @@ Scoring
       Below is a list of scoring conditions and their associated points
       and officers.
       
-        * Being the author of a sponsored proposal that takes effect:
-          1 + the power of the proposal when it takes effect (Assessor).
+        * Being the author of a proposal that takes effect: 5
+          (Assessor).
       
-        * Being the coauthor of a sponsored proposal that takes effect:
-          1 (Assessor).
+        * Being a coauthor of a proposal that takes effect: 1
+          (Assessor).
+      
+        * Casting an unconditional AGAINST vote on a resolved proposal
+          that takes effect, or casting an unconditional FOR vote on a
+          resolved proposal that does not take effect: 1 (Assessor)
+      
+        * Having an Agoran Birthday: 15 (Herald).
+      
+        * Receiving any patent title: 10 (Herald).
+      
+        * Receiving a ribbon: 5 (Tailor).
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3219,19 +3240,19 @@ Bird Migration
       the previous month, that bird is instead transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2664/0 (Power=1)
+Rule 2664/1 (Power=1)
 One with Nature
 
       A player CAN, by announcement, Free the Birds, specifying a single
-      player that owns 10 or more birds, provided that no person has won
-      the game by doing so in the past 30 days.
+      player that owns at least 90% of all birds, provided that no
+      person has won the game by doing so in the past 30 days.
       
       When the Birds are Freed, the specified player wins the game.  If
       a player won the game in this manner 4 days ago, then all existing
       birds are transferred to Agora and permits expire.
 
 ------------------------------------------------------------------------
-Rule 2665/1 (Power=1)
+Rule 2665/2 (Power=1)
 The Birds
 
       'The playmate' is the player who played with the bird to make its
@@ -3273,6 +3294,11 @@ The Birds
       
       - Bowerbird: A specified stone that is owned by a player is
         transferred to the playmate.
+      
+      - Canary: The score of a specified player is decreased by 2.
+      
+      - Crow: The score of a specified player (defaulting to the
+        playmate if not specified) is increased by 2.
 
 ------------------------------------------------------------------------
 ========================================================================

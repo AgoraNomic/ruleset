@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 29 May 2022
+Date of this ruleset: 26 Jun 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 153
+Number of rules currently enacted: 147
 
-Highest ID'd rule in this ruleset: 2666
-Highest ID'd Proposal Passed: 8681
-Highest ID'd Rule Enacted: 2666
+Highest ID'd rule in this ruleset: 2667
+Highest ID'd Proposal Passed: 8692
+Highest ID'd Rule Enacted: 2667
 
 ------------------------------------------------------------------------
 
@@ -41,14 +41,12 @@ Entities
    * Rule 2140: Power Controls Mutability
 Proposals
    * Rule 2350: Proposals
-   * Rule 2622: Pending Proposals
    * Rule 2625: Proposal Recycling
    * Rule 2605: Ministries
    * Rule 2606: Proposal Classes
    * Rule 1607: Distribution
    * Rule 2137: The Assessor
    * Rule  106: Adopting Proposals
-   * Rule 2623: Popular Proposal Proposer Privilege
    * Rule 2649: Vocal Voter Verification Award
 Rules & Regulations
    * Rule 2141: Role and Attributes of Rules
@@ -72,7 +70,6 @@ Voting
    * Rule  955: Determining the Will of Agora
    * Rule  879: Quorum
    * Rule 2422: Voting Strength
-   * Rule 2653: Buying Strength
    * Rule 2127: Conditional Votes
    * Rule 2168: Extending the Voting Period
    * Rule 1950: Decisions with Adoption Indices
@@ -87,6 +84,7 @@ Offices & Reporting
    * Rule 2138: The Associate Director of Personnel
    * Rule 2472: Office Incompatibilities
    * Rule 2143: Official Reports and Duties
+   * Rule 2667: Succumbing to Time
    * Rule 2632: Complexity
    * Rule 2636: The Ministor
    * Rule 2603: Switch Responsiblity
@@ -132,12 +130,8 @@ Economics
    * Rule 2635: Floating Rate Fleet
    * Rule 2496: Rewards
    * Rule 2559: Paydays
-   * Rule 2658: The Winds Die Down
-   * Rule 2620: Cards & Sets
    * Rule 2621: VP Wins
-   * Rule 2629: Victory Auctions
    * Rule 2666: L&FD Auctions
-   * Rule 2624: Card Administration
    * Rule 2638: Player Focuses
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
@@ -198,13 +192,13 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-51 with Power=1
+47 with Power=1
 3  with Power=1.5
 5  with Power=1.7
-33 with Power=2
+32 with Power=2
 1  with Power=2.2
 1  with Power=2.5
-48 with Power=3
+47 with Power=3
 3  with Power=3.1
 1  with Power=3.14
 2  with Power=3.2
@@ -1666,37 +1660,6 @@ CFJ 1717 (called 08 Aug 2007): Preceding a proposal-like text with the
     clearly indicate that it is intended to become a proposal.
 
 ------------------------------------------------------------------------
-Rule 2622/4 (Power=1.0)
-Pending Proposals
-
-      Pended is an untracked negative boolean proposal switch.
-      
-      Any player CAN pay 1 Pendant to flip the Pended switch of a
-      specified proposal to True. When e does so, the proposal becomes
-      sponsored.
-      
-      The Promotor CAN, with 2+X support, flip the Pended switch of a
-      proposal in the Proposal Pool to true. For this, X is equal to the
-      number of times e has done so in the past 7 days.
-      
-      Any player CAN, without objection, flip the Pended switch of a
-      proposal in the Proposal Pool to true.
-      
-      A proposal with a Pended switch set to True is 'pending'.
-
-History:
-
-Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
-Amended(1) by P8413 'Why Track Pendency?' (Aspen), 14 Jun 2020
-Amended(2) by cleaning (Jason), 29 Jun 2020
-Amended(3) by P8470 'Sponsored Proposals' (nix, G., Trigon), 08 Jul 2020
-Amended(4) by P8564 'Sponsorship is not Co-authorship' (Aspen), 14 Jun
-   2021
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2625/1 (Power=1.0)
 Proposal Recycling
 
@@ -1769,7 +1732,7 @@ Amended(3) by P8418 'Referenda' (Aspen), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1607/54 (Power=3)
+Rule 1607/55 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -1784,20 +1747,16 @@ Distribution
       removes the proposal from the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time~>, but SHALL NOT do so unless it is pending<~.
+      Pool at any time.
       
       In a given Agoran week, the Promotor SHALL distribute each
-      proposal that was in the Proposal Pool ~>and pending<~ at the
-      beginning of that week, except for those excepted from automatic
-      distribution by other rules, or those that are otherwise removed
-      from the Pool. If there are ten or more ~>pending<~ undistributed
-      proposals in the proposal pool, the promotor MAY refrain from
-      distributing the most recently added 5 proposals if e distributes
-      each other ~>pending<~ proposal in that Agoran week.
-      
-      ~>If a proposal has been in the proposal pool for more than 7 days
-      and is not pending, the Promotor CAN and SHOULD remove it from the
-      Pool by announcement.<~
+      proposal that was in the Proposal Pool at the beginning of that
+      week, except for those excepted from automatic distribution by
+      other rules, or those that are otherwise removed from the Pool. If
+      there are ten or more undistributed proposals in the proposal
+      pool, the promotor MAY refrain from distributing the most recently
+      added 5 proposals if e distributes each other proposal in that
+      Agoran week.
       
       Distributed proposals have ID numbers, to be assigned by the
       Promotor.
@@ -1886,6 +1845,7 @@ Amended(52) by P8621 'Proposal spreading' (R. Lee), 18 Oct 2021
 Amended(53) by P8633 'Disbanded distribution' (Falsifian), 29 Nov 2021
 Amended(54) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
    03 Apr 2022
+Amended(55) by R2658, 09 Jun 2022
 
 Annotations:
 CFJ 1546 (called 14 Apr 2005), CFJ 1669 (called 16 May 2007): If a
@@ -2046,34 +2006,6 @@ CFJ 2259 (called 06 Nov 2008): The possibility of the instantaneous
     effects of a proposal are governed by the rules.
 CFJ 3784 (called 22 Dec 2019): A proposal using the first person refers
     to the proposal itself.
-
-------------------------------------------------------------------------
-Rule 2623/4 (Power=1.0)
-Popular Proposal Proposer Privilege
-
-      For a referendum, let F be the total number of valid ballots
-      resolving to FOR, A be the same for AGAINST, and T be the total
-      number of valid ballots.  The referendum's popularity is equal to
-      (F - A)/T. The Assessor SHOULD publish the popularity of each
-      referendum when resolving it.
-      
-      The author of the most popular sponsored proposal adopted in the
-      last 7 days CAN once gain one Legislative Card by announcement,
-      provided that no referenda initiated in the same message as it
-      remain unresolved. If there is a tie, all authors of the tied
-      proposals can do so once each.
-
-History:
-
-Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
-Amended(1) by P8417 'Properly Prioritized Popular Proposal Proposer
-   Privilege' (Aspen, G.), 14 Jun 2020
-Amended(2) by P8418 'Referenda' (Aspen), 14 Jun 2020
-Amended(3) by P8470 'Sponsored Proposals' (nix, G., Trigon), 08 Jul 2020
-Amended(4) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
-
-Annotations:
 
 ------------------------------------------------------------------------
 Rule 2649/0 (Power=1)
@@ -3360,26 +3292,6 @@ Amended(10) by P8580 'Strength Buying Separation v2' (Jason, ais523,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2653/2 (Power=2)
-Buying Strength
-
-      A player CAN Buy Strength by paying a fee of 1 Votive. A person's
-      Voting Strength on a referendum on an ordinary proposal is 1
-      greater for every time e Bought Strength during that decision's
-      voting period.
-
-History:
-
-Enacted by P8580 'Strength Buying Separation v2' (Jason, ais523,
-   Trigon), 23 Jun 2021
-Amended(1) by P8603 'Buying Strength Eligibility' (Jason, Bucky), 24 Sep
-   2021
-Amended(2) by P8613 'The Name of the Win Cards v2' (Jason, Trigon), 18
-   Oct 2021
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
 Conditional Votes
 
@@ -4230,6 +4142,21 @@ CFJ 3798 (called 24 Jan 2020): While the requirements for publishing
     exact requirements are comprehensively explained in the judgment.
 
 ------------------------------------------------------------------------
+Rule 2667/0 (Power=1)
+Succumbing to Time
+
+      Once per month, a player CAN Succumb by announcement. When a
+      player Succumbs, each of eir deadlines to perform an Officer's
+      duty or judge a Call for Judgement is extended by 1 day if it
+      would otherwise expire within the next week.
+
+History:
+
+Enacted by P8682 'Temptation' (Secretsnail9), 18 Jun 2022
+
+Annotations:
+
+------------------------------------------------------------------------
 Rule 2632/0 (Power=1.0)
 Complexity
 
@@ -4534,7 +4461,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/11 (Power=2)
+Rule 2555/12 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -4551,17 +4478,9 @@ Blots
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
       
-      ~>Any player CAN expunge a blot from a specified person (or emself
-      if no one is specified) by paying a fee of one Blot-B-Gone.<~
-      
-      ~>Any player CAN levy a fine of one blot on a specified person by
-      paying a fee of two Blot-B-Gones, provided the specified person
-      has not already gained two blots or more in the current week.<~
-      
       Any player who has not expunged a blot by this method this week
       CAN expunge 1 blot from a specified player who has not gained a
-      blot this week, by announcement ~>unless either of them is a
-      player<~.
+      blot this week, by announcement.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -4583,6 +4502,7 @@ Amended(9) by P8427 'Slap on the wrist' (R. Lee), 14 Jun 2020
 Amended(10) by P8537 'Unofficial injustice' (G.), 03 Feb 2021
 Amended(11) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
    03 Apr 2022
+Amended(12) by R2658, 09 Jun 2022
 
 Annotations:
 
@@ -4607,7 +4527,7 @@ Amended(1) by cleaning (Alexis), 23 Jan 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/21 (Power=1.7)
+Rule 2478/22 (Power=1.7)
 Vigilante Justice
 
       A player, acting as emself, CAN by announcement Point eir Finger
@@ -4652,11 +4572,6 @@ Vigilante Justice
       A high crime is any crime specified as being class 4 or greater.
       The Referee CANNOT levy the Cold Hand of Justice to punish a high
       crime, the other provisions of this rule notwithstanding.
-      
-      ~>The player who initiated the most Finger Pointings that resulted
-      in a Warning, Indictment, or Cold Hand of Justice in the previous
-      Agoran Week CAN once grant emself a Justice Card by
-      announcement.<~
 
 History:
 
@@ -4693,6 +4608,7 @@ Amended(19) by P8654 'Cheaters shouldn't prosper' (G.), 15 Mar 2022
 Amended(20) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
    03 Apr 2022
 Amended(21) by P8671 'No finger pointing on behalf' (Jason), 08 May 2022
+Amended(22) by R2658, 09 Jun 2022
 
 Annotations:
 
@@ -6160,69 +6076,6 @@ Amended(10) by P8557 'Archimedes' Principle' (Aspen, Trigon, nix), 15
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2658/0 (Power=3)
-The Winds Die Down
-
-      When the wind dies down, the following happen in order:
-      
-      * The following rules are repealed in order: R2620 "Cards & Sets",
-        R2623 "Popular Proposal Proposer Privilege", R2629 "Victory
-        Auctions", R2624 "Card Administration", R2622 "Pending
-        Proposals", R2651 "Proposal Recycling", and R2653 "Buying
-        Strength".
-      
-      * All rules including the text "~>" and "<~" are amended in
-        ascending numerical order by removing all text between and
-        including each "~>" and the first following "<~".
-      
-      * This rule is repealed.
-
-History:
-
-Enacted by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
-   Apr 2022
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2620/3 (Power=1.0)
-Cards & Sets
-
-      Cards are a type of currency with a corresponding Product.
-      Products are also currencies. The types of Cards and their
-      corresponding Products are:
-      
-      * Win Cards and Winsomes.
-      * Justice Cards and Blot-B-Gones
-      * Legislative Cards and Pendants
-      * Voting Cards and Votives
-      
-      A player CAN pay a 'set' of (syn: "cash in") X Cards of the same
-      type to gain Y corresponding Products. The value of X determines
-      the value of Y in the following ways:
-      
-      * 1 Card = 1 Product
-      * 2 Cards = 3 Products
-      * 3 Cards = 6 Products
-      * 4 Cards = 10 Products
-      
-      A player CANNOT pay more than 4 Cards as one 'set'.
-      
-      Cards and Products are tracked by the Treasuror.
-
-History:
-
-Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
-Amended(1) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
-Amended(2) by P8613 'The Name of the Win Cards v2' (Jason, Trigon), 18
-   Oct 2021
-Amended(3) by P8659 'Speak Like People' (nix, G., Secretsnail9), 03 Apr
-   2022
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2621/9 (Power=1.0)
 VP Wins
 
@@ -6255,31 +6108,6 @@ Amended(9) by P8676 'Let's make it entirely clear' (Secretsnail9), 22
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2629/3 (Power=1.0)
-Victory Auctions
-
-      The Treasuror CAN conduct a Victory Auction if no other Victory
-      Auction is ongoing. The Treasuror MUST do so at least once a
-      month, and SHOULD do so at least twice each month.
-      
-      A Victory Auction includes the following lots:
-      
-      * one new Win Card.
-      
-      The currency of a Victory Auction is coins (minimum bid 1).
-
-History:
-
-Enacted by P8446 'Victory Auctions' (G., nix), 30 Jun 2020
-Amended(1) by P8613 'The Name of the Win Cards v2' (Jason, Trigon), 18
-   Oct 2021
-Amended(2) by P8670 'Monthly Auctions Revisited' (nix, Secretsnail9), 08
-   May 2022
-Amended(3) by P8680 'Auction conduction fix v2' (Jason, G.), 28 May 2022
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2666/1 (Power=1)
 L&FD Auctions
 
@@ -6304,42 +6132,6 @@ History:
 Enacted by P8670 'Monthly Auctions Revisited' (nix, Secretsnail9), 08
    May 2022
 Amended(1) by P8680 'Auction conduction fix v2' (Jason, G.), 28 May 2022
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2624/8 (Power=1.0)
-Card Administration
-
-      Each of the following Ministries has a Grant, listed below.
-      
-      Ministry of Compliance: 1 Justice Card
-      Ministry of Legislation: 1 Legislative Card
-      Ministry of Participation: 1 Voting Card
-      Ministry of Legacy: 1 Winsome
-      
-      A player CAN once a month grant eir Ministry Focus' Grant to a
-      specified player by announcement.
-      
-      The Ministor CAN, once a month and by announcement, and SHALL, in
-      a timely manner from the beginning of the month, grant 1 Win Card
-      to a random player whose Ministry Focus is Legacy .
-
-History:
-
-Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
-Amended(1) by P8477 'More officer cards' (Jason), 27 Jul 2020
-Amended(2) by P8489 'Interesting economics' (Jason), 08 Sep 2020
-Amended(3) by P8505 'Card clarifications' (Jason), 16 Oct 2020
-Amended(4) by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct
-   2020
-Amended(5) by P8516 'adJustments' (nix), 11 Nov 2020
-Amended(6) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
-   Jason), 11 Feb 2021
-Amended(7) by P8556 'Ministry Normalization' (Jason, nix), 06 Apr 2021
-Amended(8) by P8613 'The Name of the Win Cards v2' (Jason, Trigon), 18
-   Oct 2021
 
 Annotations:
 
@@ -6369,12 +6161,11 @@ Amended(1) by P8628 'tacking into the win' (G.), 18 Oct 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/17 (Power=1)
+Rule 2499/18 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
       
-      ~>* 1 of each type of card defined in the rules,<~
         * 10 boatloads of coins, AND
         * 1 Stamp of eir own type
       
@@ -6412,11 +6203,12 @@ Amended(15) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9),
    03 Apr 2022
 Amended(16) by P8667 'welcome fix' (G.), 29 Apr 2022
 Amended(17) by P8674 'Proper Postage v2' (nix), 18 May 2022
+Amended(18) by R2658, 09 Jun 2022
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2585/6 (Power=1)
+Rule 2585/7 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -6428,9 +6220,10 @@ Birthday Gifts
       declared as eir Agoran Birthday.
       
       During a player's Agoran Birthday and the 7 days following, each
-      other player CAN once grant em X boatloads of coins by
-      announcement, where X is 3 if it is actually the day of the
-      player's birthday, and 2 otherwise.
+      other player CAN once acknowledge that person's birthday by
+      announcement.  Doing so grants the birthday player 3 boatloads of
+      coins if it is actually the day of the player's birthday, and 2
+      otherwise.
       
       Players are ENCOURAGED to announce their Agoran Birthdays.
 
@@ -6446,6 +6239,7 @@ Amended(4) by P8507 'Happy Belated Birthday v3' (ATMunn, G., Falsifian),
 Amended(5) by P8514 'The Buoyant Economy' (Aspen, nix, Trigon, G.,
    Jason, ATMunn), 28 Oct 2020
 Amended(6) by P8541 'You CAN, CAN't You?' (Aspen), 02 Mar 2021
+Amended(7) by P8685 'auto-birthday' (G.), 25 Jun 2022
 
 Annotations:
 CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
@@ -6651,7 +6445,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/7 (Power=2)
+Rule 2645/8 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6690,11 +6484,6 @@ The Stones
         players have wielded it since the most recent collection notice.
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
-      
-      
-      ~>- Alchemy Stone (weekly, 70%): Destroy four cards you own. If
-        four cards were destroyed this way, gain 7 products of your
-        choice.<~
 
 History:
 
@@ -6710,6 +6499,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Amended(6) by P8642 'Hot Potato patch v2' (Jason, Oerjan), 23 Feb 2022
 Amended(7) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
    Apr 2022
+Amended(8) by R2658, 09 Jun 2022
 
 Annotations:
 
@@ -6719,7 +6509,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/32 (Power=1)
+Rule 2654/34 (Power=1)
 The Device
 
       When the device is on:
@@ -6774,6 +6564,12 @@ The Device
         * Proposals created since the enactment of this rule have a
           secured untracked Device switch with possible values ordinary
           (the default) and democratic.
+        * While Agora's Device is zero, the paragraphs above have no
+          effect and are ignored.
+        * Whenever a payday occurs, half of each charity's Device
+          holdings (rounded down) are destroyed, and then each charity
+          gains a number of boatloads of Devices equal to its donation
+          level.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -6852,6 +6648,8 @@ Amended(29) by Experiment #34 under Mad Engineer ais523, 08 May 2022
 Amended(30) by Experiment #35 under Mad Engineer ais523, 15 May 2022
 Amended(31) by Experiment #36 under Mad Engineer ais523, 21 May 2022
 Amended(32) by Experiment #37 under Mad Engineer ais523, 29 May 2022
+Amended(33) by Experiment #38 under Mad Engineer ais523, 05 Jun 2022
+Amended(34) by Experiment #40 under Mad Engineer ais523, 12 Jun 2022
 
 Annotations:
 
@@ -6910,7 +6708,7 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/0 (Power=1.5)
+Rule 2656/1 (Power=1.5)
 Points
 
       A player's Score, indicated in Points, is an integer player switch
@@ -6920,15 +6718,26 @@ Points
       have a score of 100+ points, all players meeting this condition
       win the game.  If a least one player wins the game via such an
       announcement, all players' scores are set to their default.
+      
+      
+      The Herald CAN once each, by announcement, grant 15, 10, and 5
+      boatloads of coins to the players who had the most, second most,
+      and third most points (respectively) at the end of the previous
+      quarter. E SHALL do so in a timely manner after the beginning of
+      the quarter.
+      
+      At the start of every quarter, all Scores are set to half their
+      current value rounded down.
 
 History:
 
 Enacted by P8636 'Points' (G.), 08 Feb 2022
+Amended(1) by P8684 'Score Gameplay Expansion' (nix), 25 Jun 2022
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2657/3 (Power=1)
+Rule 2657/4 (Power=1)
 Scoring
 
       Each time a player fulfills a scoring condition, the officer
@@ -6939,11 +6748,21 @@ Scoring
       Below is a list of scoring conditions and their associated points
       and officers.
       
-        * Being the author of a sponsored proposal that takes effect:
-          1 + the power of the proposal when it takes effect (Assessor).
+        * Being the author of a proposal that takes effect: 5
+          (Assessor).
       
-        * Being the coauthor of a sponsored proposal that takes effect:
-          1 (Assessor).
+        * Being a coauthor of a proposal that takes effect: 1
+          (Assessor).
+      
+        * Casting an unconditional AGAINST vote on a resolved proposal
+          that takes effect, or casting an unconditional FOR vote on a
+          resolved proposal that does not take effect: 1 (Assessor)
+      
+        * Having an Agoran Birthday: 15 (Herald).
+      
+        * Receiving any patent title: 10 (Herald).
+      
+        * Receiving a ribbon: 5 (Tailor).
 
 History:
 
@@ -6952,6 +6771,7 @@ Amended(1) by P8648 'Scoring Integer Points' (Secretsnail9), 15 Mar 2022
 Amended(2) by P8664 'Away with the massive points' (Secretsnail9), 03
    Apr 2022
 Amended(3) by P8656 'Mathematical de-notation' (Jason), 03 Apr 2022
+Amended(4) by P8684 'Score Gameplay Expansion' (nix), 25 Jun 2022
 
 Annotations:
 
@@ -7079,12 +6899,12 @@ Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2664/0 (Power=1)
+Rule 2664/1 (Power=1)
 One with Nature
 
       A player CAN, by announcement, Free the Birds, specifying a single
-      player that owns 10 or more birds, provided that no person has won
-      the game by doing so in the past 30 days.
+      player that owns at least 90% of all birds, provided that no
+      person has won the game by doing so in the past 30 days.
       
       When the Birds are Freed, the specified player wins the game.  If
       a player won the game in this manner 4 days ago, then all existing
@@ -7093,11 +6913,12 @@ One with Nature
 History:
 
 Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
+Amended(1) by P8690 'Actual Bird Fix' (Secretsnail9), 25 Jun 2022
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2665/1 (Power=1)
+Rule 2665/2 (Power=1)
 The Birds
 
       'The playmate' is the player who played with the bird to make its
@@ -7139,11 +6960,17 @@ The Birds
       
       - Bowerbird: A specified stone that is owned by a player is
         transferred to the playmate.
+      
+      - Canary: The score of a specified player is decreased by 2.
+      
+      - Crow: The score of a specified player (defaulting to the
+        playmate if not specified) is increased by 2.
 
 History:
 
 Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
 Amended(1) by P8673 'Mine!' (Murphy), 15 May 2022
+Amended(2) by P8692 'Canary and Crow' (Secretsnail9), 25 Jun 2022
 
 Annotations:
 
@@ -7407,7 +7234,7 @@ Amended(6) by P8657 'Shrodinger's report' (Murphy), 03 Apr 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/6 (Power=3.1)
+Rule 2481/7 (Power=3.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -7420,9 +7247,6 @@ Festival Restrictions
       
       3. Each Festive player has the maximum possible voting strength.
          All other players have the minimum possible voting strength.
-      
-      ~>4. Non-Festive players CANNOT cause proposals to become
-           Pended.<~
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
@@ -7442,6 +7266,7 @@ Amended(5) by P8629 'Independence Day' (G., Gaelan, Telna, nix, Cuddle
    Beam, cuddlybanana, Jason), 18 Oct 2021
 Amended(6) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
    Apr 2022
+Amended(7) by R2658, 09 Jun 2022
 
 Annotations:
 
