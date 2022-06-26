@@ -9,9 +9,24 @@ text: |
   have a score of 100+ points, all players meeting this condition
   win the game.  If a least one player wins the game via such an
   announcement, all players' scores are set to their default.
+
+
+  The Herald CAN once each, by announcement, grant 15, 10, and 5
+  boatloads of coins to the players who had the most, second most,
+  and third most points (respectively) at the end of the previous
+  quarter. E SHALL do so in a timely manner after the beginning of
+  the quarter.
+
+  At the start of every quarter, all Scores are set to half their
+  current value rounded down.
 history:
 - change:
     type: enactment
   date: 2022-02-08
   agent:
     proposal: "8636"
+- change:
+    type: amendment
+  date: 2022-06-25
+  agent:
+    proposal: "8684"

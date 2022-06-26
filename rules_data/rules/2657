@@ -10,11 +10,21 @@ text: |
   Below is a list of scoring conditions and their associated points
   and officers.
 
-    * Being the author of a sponsored proposal that takes effect:
-      1 + the power of the proposal when it takes effect (Assessor).
+    * Being the author of a proposal that takes effect: 5
+      (Assessor).
 
-    * Being the coauthor of a sponsored proposal that takes effect:
-      1 (Assessor).
+    * Being a coauthor of a proposal that takes effect: 1
+      (Assessor).
+
+    * Casting an unconditional AGAINST vote on a resolved proposal
+      that takes effect, or casting an unconditional FOR vote on a
+      resolved proposal that does not take effect: 1 (Assessor)
+
+    * Having an Agoran Birthday: 15 (Herald).
+
+    * Receiving any patent title: 10 (Herald).
+
+    * Receiving a ribbon: 5 (Tailor).
 history:
 - change:
     type: enactment
@@ -36,3 +46,8 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8656"
+- change:
+    type: amendment
+  date: 2022-06-25
+  agent:
+    proposal: "8684"
