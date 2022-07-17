@@ -21,8 +21,8 @@ text: |
   announcing that e declines to take the office.
 
   If the office of Speaker has been held continuously by the same
-  person for 90+ days, then any player CAN appoint another player to
-  the office with support.
+  person for the past 90+ days, then any player CAN appoint another
+  player to the office with support.
 history:
 - change:
     type: initial
@@ -210,4 +210,9 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8540"
+- change:
+    type: amendment
+  date: 2022-07-17
+  agent:
+    proposal: "8708"
 annotations: []
