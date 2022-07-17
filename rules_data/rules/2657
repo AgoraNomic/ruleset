@@ -16,9 +16,9 @@ text: |
     * Being a coauthor of a proposal that takes effect: 1
       (Assessor).
 
-    * Casting an unconditional AGAINST vote on a resolved proposal
-      that takes effect, or casting an unconditional FOR vote on a
-      resolved proposal that does not take effect: 1 (Assessor)
+    * Having a valid unconditional AGAINST vote on a referendum when
+      it is resolved to be ADOPTED, or, similarly, FOR when
+      REJECTED: 1 (Assessor).
 
     * Having an Agoran Birthday: 15 (Herald).
 
@@ -51,3 +51,8 @@ history:
   date: 2022-06-25
   agent:
     proposal: "8684"
+- change:
+    type: amendment
+  date: 2022-07-17
+  agent:
+    proposal: "8714"
