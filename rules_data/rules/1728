@@ -2,8 +2,8 @@ id: 1728
 name: Tabled Actions
 power: 3
 text: |
-  An action is a Tabled Action if it is performed with one of the
-  following methods:
+  An action is a Tabled Action if the Rules purport to authorize its
+  performance via one of the following methods:
   * With N Support, where N is a positive integer.
   * Without N Objections, where N is a positive integer.
   * With N Agoran Consent, where N is a positive integer multiple of
@@ -272,6 +272,11 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8629"
+- change:
+    type: amendment
+  date: 2022-07-17
+  agent:
+    proposal: "8710"
 annotations:
 - cfjs:
   - id: '1722'
