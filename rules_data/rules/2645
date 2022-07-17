@@ -39,6 +39,8 @@ text: |
 
   - Blank Stone (Monthly, 5%): This stone has no effect.
 
+  - Tasty Stone (Monthly, 70%): A specified bird that is owned by a
+    player is transferred to the wielder.
 history:
 - change:
     type: enactment
@@ -85,4 +87,9 @@ history:
   date: 2022-06-09
   agent:
     rule: "2658"
+- change:
+    type: amendment
+  date: 2022-07-17
+  agent:
+    proposal: "8704"
 annotations: []
