@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 10 Jul 2022
+Date of this ruleset: 17 Jul 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 147
 
 Highest ID'd rule in this ruleset: 2667
-Highest ID'd Proposal Passed: 8692
+Highest ID'd Proposal Passed: 8714
 Highest ID'd Rule Enacted: 2667
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -1154,11 +1154,11 @@ CFJ 3873 (called 08 Aug 2020): Depending on context, it can be the
     anniversary of an event on the day that event first happens.
 
 ------------------------------------------------------------------------
-Rule 1728/43 (Power=3)
+Rule 1728/44 (Power=3)
 Tabled Actions
 
-      An action is a Tabled Action if it is performed with one of the
-      following methods:
+      An action is a Tabled Action if the Rules purport to authorize its
+      performance via one of the following methods:
       * With N Support, where N is a positive integer.
       * Without N Objections, where N is a positive integer.
       * With N Agoran Consent, where N is a positive integer multiple of
@@ -1247,6 +1247,8 @@ Retitled by P8629 'Independence Day' (G., Gaelan, Telna, nix, Cuddle
    Beam, cuddlybanana, Jason), 18 Oct 2021
 Amended(43) by P8629 'Independence Day' (G., Gaelan, Telna, nix, Cuddle
    Beam, cuddlybanana, Jason), 18 Oct 2021
+Amended(44) by P8710 'Tabled action clarification' (Jason,
+   Secretsnail9), 17 Jul 2022
 
 Annotations:
 CFJ 1722 (called 15 Aug 2007): The method of dependent action need not
@@ -6450,7 +6452,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/8 (Power=2)
+Rule 2645/9 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6489,6 +6491,9 @@ The Stones
         players have wielded it since the most recent collection notice.
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
+      
+      - Tasty Stone (Monthly, 70%): A specified bird that is owned by a
+        player is transferred to the wielder.
 
 History:
 
@@ -6505,6 +6510,7 @@ Amended(6) by P8642 'Hot Potato patch v2' (Jason, Oerjan), 23 Feb 2022
 Amended(7) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
    Apr 2022
 Amended(8) by R2658, 09 Jun 2022
+Amended(9) by P8704 'Tasty Stone' (4st), 17 Jul 2022
 
 Annotations:
 
@@ -6713,7 +6719,7 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/1 (Power=1.5)
+Rule 2656/2 (Power=1.5)
 Points
 
       A player's Score, indicated in Points, is an integer player switch
@@ -6722,8 +6728,9 @@ Points
       Upon a correct announcement from a player that one or more players
       have a score of 100+ points, all players meeting this condition
       win the game.  If a least one player wins the game via such an
-      announcement, all players' scores are set to their default.
-      
+      announcement, the scores of the winning players are set to their
+      default, and then all other players' scores are set to half their
+      current value rounded down.
       
       The Herald CAN once each, by announcement, grant 15, 10, and 5
       boatloads of coins to the players who had the most, second most,
@@ -6738,11 +6745,12 @@ History:
 
 Enacted by P8636 'Points' (G.), 08 Feb 2022
 Amended(1) by P8684 'Score Gameplay Expansion' (nix), 25 Jun 2022
+Amended(2) by P8706 'Let them have points' (Secretsnail9), 17 Jul 2022
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2657/4 (Power=1)
+Rule 2657/5 (Power=1)
 Scoring
 
       Each time a player fulfills a scoring condition, the officer
@@ -6759,9 +6767,9 @@ Scoring
         * Being a coauthor of a proposal that takes effect: 1
           (Assessor).
       
-        * Casting an unconditional AGAINST vote on a resolved proposal
-          that takes effect, or casting an unconditional FOR vote on a
-          resolved proposal that does not take effect: 1 (Assessor)
+        * Having a valid unconditional AGAINST vote on a referendum when
+          it is resolved to be ADOPTED, or, similarly, FOR when
+          REJECTED: 1 (Assessor).
       
         * Having an Agoran Birthday: 15 (Herald).
       
@@ -6777,6 +6785,7 @@ Amended(2) by P8664 'Away with the massive points' (Secretsnail9), 03
    Apr 2022
 Amended(3) by P8656 'Mathematical de-notation' (Jason), 03 Apr 2022
 Amended(4) by P8684 'Score Gameplay Expansion' (nix), 25 Jun 2022
+Amended(5) by P8714 'Vote scoring clarification' (Jason), 17 Jul 2022
 
 Annotations:
 
@@ -7055,7 +7064,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/26 (Power=3)
+Rule 2438/27 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -7131,11 +7140,11 @@ Ribbons
       
       White (W): A player qualifies for a White Ribbon if e has never
       previously owned a White Ribbon (including under previous
-      rulesets). A player who has been registered for at least 30 days
-      and has never acted on eir own behalf to cause another person to
-      gain a White Ribbon (including under a previous ruleset) CAN act
-      on eir own behalf to award a White Ribbon to another person by
-      announcement.
+      rulesets). A player who has been registered for the past 30+ days
+      or 180+ cumulative days and has never acted on eir own behalf to
+      cause another person to gain a White Ribbon (including under a
+      previous ruleset) CAN act on eir own behalf to award a White
+      Ribbon to another person by announcement.
       
       Black (K): An instrument CAN, as part of its effect, cause a
       person to earn a Black Ribbon. When this occurs, this Rule awards
@@ -7194,6 +7203,8 @@ Amended(24) by P8595 'It's a gray, gray, world.' (R. Lee, Jason), 29 Jul
    2021
 Amended(25) by P8634 'Laudability' (Jason), 24 Dec 2021
 Amended(26) by P8638 'Cyan Ribbon Patch' (Secretsnail9), 23 Feb 2022
+Amended(27) by P8708 'Has Beens' (nix, Secretsnail9, G., Madrid, 4st,
+   Jason), 17 Jul 2022
 
 Annotations:
 
@@ -7648,7 +7659,7 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/29 (Power=2)
+Rule 103/30 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -7670,8 +7681,8 @@ The Speaker
       announcing that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
-      person for 90+ days, then any player CAN appoint another player to
-      the office with support.
+      person for the past 90+ days, then any player CAN appoint another
+      player to the office with support.
 
 History:
 
@@ -7722,6 +7733,8 @@ Amended(28) by P8340 'The Paradox of Self-Appointment' (Alexis), 24 Feb
    2020
 Amended(29) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Jason), 11 Feb 2021
+Amended(30) by P8708 'Has Beens' (nix, Secretsnail9, G., Madrid, 4st,
+   Jason), 17 Jul 2022
 
 Annotations:
 

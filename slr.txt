@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 10 Jul 2022
+Date of this ruleset: 17 Jul 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 147
 
 Highest ID'd rule in this ruleset: 2667
-Highest ID'd Proposal Passed: 8692
+Highest ID'd Proposal Passed: 8714
 Highest ID'd Rule Enacted: 2667
 
 ========================================================================
@@ -351,11 +351,11 @@ Agoran Time
              or earlier time of day.
 
 ------------------------------------------------------------------------
-Rule 1728/43 (Power=3)
+Rule 1728/44 (Power=3)
 Tabled Actions
 
-      An action is a Tabled Action if it is performed with one of the
-      following methods:
+      An action is a Tabled Action if the Rules purport to authorize its
+      performance via one of the following methods:
       * With N Support, where N is a positive integer.
       * Without N Objections, where N is a positive integer.
       * With N Agoran Consent, where N is a positive integer multiple of
@@ -2895,7 +2895,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/8 (Power=2)
+Rule 2645/9 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2934,6 +2934,9 @@ The Stones
         players have wielded it since the most recent collection notice.
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
+      
+      - Tasty Stone (Monthly, 70%): A specified bird that is owned by a
+        player is transferred to the wielder.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3091,7 +3094,7 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/1 (Power=1.5)
+Rule 2656/2 (Power=1.5)
 Points
 
       A player's Score, indicated in Points, is an integer player switch
@@ -3100,8 +3103,9 @@ Points
       Upon a correct announcement from a player that one or more players
       have a score of 100+ points, all players meeting this condition
       win the game.  If a least one player wins the game via such an
-      announcement, all players' scores are set to their default.
-      
+      announcement, the scores of the winning players are set to their
+      default, and then all other players' scores are set to half their
+      current value rounded down.
       
       The Herald CAN once each, by announcement, grant 15, 10, and 5
       boatloads of coins to the players who had the most, second most,
@@ -3113,7 +3117,7 @@ Points
       current value rounded down.
 
 ------------------------------------------------------------------------
-Rule 2657/4 (Power=1)
+Rule 2657/5 (Power=1)
 Scoring
 
       Each time a player fulfills a scoring condition, the officer
@@ -3130,9 +3134,9 @@ Scoring
         * Being a coauthor of a proposal that takes effect: 1
           (Assessor).
       
-        * Casting an unconditional AGAINST vote on a resolved proposal
-          that takes effect, or casting an unconditional FOR vote on a
-          resolved proposal that does not take effect: 1 (Assessor)
+        * Having a valid unconditional AGAINST vote on a referendum when
+          it is resolved to be ADOPTED, or, similarly, FOR when
+          REJECTED: 1 (Assessor).
       
         * Having an Agoran Birthday: 15 (Herald).
       
@@ -3346,7 +3350,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/26 (Power=3)
+Rule 2438/27 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3422,11 +3426,11 @@ Ribbons
       
       White (W): A player qualifies for a White Ribbon if e has never
       previously owned a White Ribbon (including under previous
-      rulesets). A player who has been registered for at least 30 days
-      and has never acted on eir own behalf to cause another person to
-      gain a White Ribbon (including under a previous ruleset) CAN act
-      on eir own behalf to award a White Ribbon to another person by
-      announcement.
+      rulesets). A player who has been registered for the past 30+ days
+      or 180+ cumulative days and has never acted on eir own behalf to
+      cause another person to gain a White Ribbon (including under a
+      previous ruleset) CAN act on eir own behalf to award a White
+      Ribbon to another person by announcement.
       
       Black (K): An instrument CAN, as part of its effect, cause a
       person to earn a Black Ribbon. When this occurs, this Rule awards
@@ -3700,7 +3704,7 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/29 (Power=2)
+Rule 103/30 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -3722,8 +3726,8 @@ The Speaker
       announcing that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
-      person for 90+ days, then any player CAN appoint another player to
-      the office with support.
+      person for the past 90+ days, then any player CAN appoint another
+      player to the office with support.
 
 ------------------------------------------------------------------------
 Rule 104/0 (Power=3)
