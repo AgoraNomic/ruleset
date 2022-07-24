@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 17 Jul 2022
+Date of this ruleset: 24 Jul 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 147
+Number of rules currently enacted: 145
 
 Highest ID'd rule in this ruleset: 2667
-Highest ID'd Proposal Passed: 8714
+Highest ID'd Proposal Passed: 8811
 Highest ID'd Rule Enacted: 2667
 
 ========================================================================
@@ -351,7 +351,7 @@ Agoran Time
              or earlier time of day.
 
 ------------------------------------------------------------------------
-Rule 1728/44 (Power=3)
+Rule 1728/45 (Power=3)
 Tabled Actions
 
       An action is a Tabled Action if the Rules purport to authorize its
@@ -367,11 +367,11 @@ Tabled Actions
       defines N as less than 1 or greater than 8, it is instead treated
       as 1 or 8, respectively.
       
-      A person CAN act on eir own behalf, by announcement, to table an
-      intent (syn. "intend") to perform a tabled action, conspicuously
-      and without obfuscation specifying the action, the method
-      (including non- default parameter values), and optionally,
-      conditions.
+      A person, acting as emself, CAN by announcement table an intent
+      (syn.  "intend") to perform a tabled action, clearly,
+      conspicuously, explicitly, and without obfuscation specifying the
+      action, the method (including non-default parameter values), and,
+      optionally, conditions.
       
       A person is the sponsor of such an intent if e tabled it, or if e
       is authorized to perform its action due to holding a rule-defined
@@ -683,7 +683,7 @@ The Assessor
       collecting votes and keeping track of related properties.
 
 ------------------------------------------------------------------------
-Rule 106/44 (Power=3)
+Rule 106/45 (Power=3)
 Adopting Proposals
 
       When a referendum on a proposal is resolved, if the outcome is
@@ -693,10 +693,12 @@ Adopting Proposals
       rules to the contrary notwithstanding.
       
       When a proposal takes effect, the proposal applies the changes
-      that it specifies, except as prohibited by other rules. Clearly
-      marked comments are ignored. If the proposal cannot make some
-      changes it specifies, that does not preclude the other changes
-      from taking place.
+      that it specifies in its text, except as prohibited by other
+      rules. Unless otherwise specified by the text, the effects are
+      applied in the order they appear in the text. Clearly marked
+      comments are ignored. If the proposal cannot make some changes it
+      specifies, that does not preclude the other changes from taking
+      place.
       
       Except insofar as the actions performed by a proposal happen one
       after another, rather than simultaneously, a proposal's effect is
@@ -1612,7 +1614,7 @@ Office Incompatibilities
       Overpowered player holds becomes vacant.
 
 ------------------------------------------------------------------------
-Rule 2143/35 (Power=1)
+Rule 2143/36 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -1634,12 +1636,12 @@ Official Reports and Duties
       Any information defined by the rules as part of a person's report,
       without specifying which one, is part of eir weekly report.
       Failure of a person to perform any weekly duty required of em
-      within the allotted time is the Class 1+N Crime of Weekly
+      within the allotted time is the Class 1+N infraction of Weekly
       Tardiness, where N is the number of times e has previously
-      committed the crime in the last month.
+      committed the infraction in the last month.
       
       Failure of a person to perform any monthly duty required of em
-      within the allotted time is the Class 3 Crime of Monthly
+      within the allotted time is the Class 3 infraction of Monthly
       Tardiness.
       
       An official duty for an office is any duty that the Rules
@@ -1649,7 +1651,7 @@ Official Reports and Duties
       An officer SHALL publish eir report in plain text, with tabular
       data lining up properly when viewed in a monospaced font.
       Publishing a report that deviates from these restrictions is the
-      Class 2 Crime of Making My Eyes Bleed.
+      Class 2 infraction of Making My Eyes Bleed.
       
       Officers SHOULD maintain a publicly visible copy of their reports
       on the World Wide Web, and they SHOULD publish the address of this
@@ -1777,7 +1779,7 @@ Ratification
       Ratification is secured with power threshold 3.
 
 ------------------------------------------------------------------------
-Rule 2202/9 (Power=3)
+Rule 2202/10 (Power=3)
 Ratification Without Objection
 
       A public document is part (possibly all) of a public message.
@@ -1796,7 +1798,7 @@ Ratification Without Objection
       unless the general nature of the document's error and reason for
       ratifying it is clearly and plainly described in the announcement
       of intent. Such ratification or announcement of intent to ratify
-      is the Class 8 Crime of Endorsing Forgery.
+      is the Class 8 infraction of Endorsing Forgery.
 
 ------------------------------------------------------------------------
 Rule 2201/10 (Power=3)
@@ -1837,7 +1839,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/12 (Power=2)
+Rule 2555/13 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1846,17 +1848,15 @@ Blots
       Fugitive. The Referee is an office, and the recordkeepor for
       blots.
       
-      To levy a fine of N on a person, where N is a positive integer or
-      zero, is to grant em N blots. To expunge a blot is to destroy it.
-      Levying fines and destroying blots are each secured with a Power
-      Threshold of 1.7.
+      To expunge a blot is to destroy it. Destroying blots is secured
+      with a Power Threshold of 1.7.
       
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
       
       Any player who has not expunged a blot by this method this week
       CAN expunge 1 blot from a specified player who has not gained a
-      blot this week, by announcement.
+      blot this or the previous week, by announcement.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -1875,147 +1875,51 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/22 (Power=1.7)
+Rule 2478/23 (Power=1.7)
 Vigilante Justice
 
-      A player, acting as emself, CAN by announcement Point eir Finger
-      at a player (the perp); the announcement is INEFFECTIVE if it does
-      not explicitly name the perp, cite a specific rule or named crime,
-      and specify an alleged violation of that rule or commission of
-      that crime by that person.
+      An Infraction is a violation of a SHALL or SHALL NOT in a rule.
+      The infracter for an infraction is the person who committed the
+      infraction.
       
-      When a player Points a Finger, the investigator SHALL investigate
-      the allegation and CAN, and in a timely fashion SHALL, conclude
-      the investigation by:
+      The Investigator for an infraction is the Referee unless e is the
+      infracter. Otherwise, it is the Arbitor.
       
-      - Issuing a Warning to the perp, as described elsewhere;
+      The Class of an infraction is 2 unless a rule specifies a
+      different Class for it.
       
-      - Imposing the Cold Hand of Justice on the perp for the cited rule
-        violation, as described elsewhere;
+      When a player commits an infraction, N blots are created in eir
+      possession, where N is the class of the infraction.
       
-      - Issuing an Indictment against the perp for the cited rule
-        violation, as described elsewhere; or
+      A player CAN, by announcement, "note" an infraction committed by
+      any other player in the last 7 days by specifying the incident and
+      the rule that contains the SHALL or SHALL NOT (or name of the
+      Infraction if it has one). The Investigator of an infraction CAN
+      and SHALL once by announcement grant 1 boatload of coins to the
+      player that noted the infraction in a timely manner after e does
+      so.
       
-      - if e believes that no rules violation occurred or that it would
-        be ILLEGAL or INEFFECTIVE to levy a fine for it, announcing the
-        Finger Pointing to be Shenanigans.
+      The Referee's weekly report contains a list of Infractions
+      committed in the previous week.
       
-      Initiating a Finger Pointing found to be Shenanigans is ILLEGAL
-      and the Class 0+N Crime of Unjustified Gesticulation, where N is
-      the number of times e has previously committed the crime in the
-      current Agoran Week. The investigator of a finger pointing SHALL
-      NOT point eir finger for the Crime of Unjustified Gesticulation
-      with respect to that finger pointing.
+      The Investigator of an infraction CAN, by announcement, "reduce"
+      the infraction by specifying a reason and a number between 1 and
+      half of N (inclusive and rounded up), where N is the class of the
+      infraction. When e does so, N (or all if N is greater than all)
+      blots in possession of the infracter are expunged. E SHOULD do so
+      if e believes the infraction was inconsequential or unavoidable,
+      or if e believes the infracter has fixed it or shown remorse.
       
-      The above notwithstanding, the investigator CANNOT resolve a
-      Finger Pointing for which e is the perp or the finger-pointer.
+      The Investigator of an infraction CAN, by announcement, "increase"
+      the infraction by specifying a reason and a number between 1 and
+      half of N (inclusive and rounded down), where N is the class of
+      the infraction. When e does so, N blots are created in the
+      infracter's possession. E SHOULD do so if e believes the
+      infraction was harmful, belligerent, or intentional.
       
-      The Referee is by default the investigator for all Finger
-      Pointing. When the Referee's Finger is Pointed or the Referee is
-      the perp, the Arbitor is the investigator.
-      
-      The Referee CANNOT Point eir Finger at the Arbitor, and the
-      Arbitor CANNOT point eir finger at the Referee.
-      
-      A high crime is any crime specified as being class 4 or greater.
-      The Referee CANNOT levy the Cold Hand of Justice to punish a high
-      crime, the other provisions of this rule notwithstanding.
-
-------------------------------------------------------------------------
-Rule 2557/7 (Power=1.7)
-Sentencing Guidelines
-
-      When the rules authorize an investigator to impose the Cold Hand
-      of Justice for a violation, e CAN do so by levying a fine of B on
-      the perp by announcement, within the following guidelines:
-      
-      - B is at least 1 and at most twice the base value of the
-        violation.
-      
-      - If the violation is described by the rules as a "Class N Crime"
-        (where N is a positive integer, or an expression that evaluates
-        to a positive integer), then N is the base value; otherwise the
-        base value is 2.
-      
-      - The fine SHOULD be reduced to the degree that the violation is a
-        minor, accidental, and/or inconsequential infraction.
-      
-      - The fine SHOULD be increased to the degree that the violation is
-        willful, profitable, egregious, or an abuse of an official
-        position.
-      
-      Optionally, in the same message in which e imposes justice, the
-      investigator CAN specify that the violation is forgivable,
-      specifying up to 10 words to be included in an apology.  If the
-      investigator does so, the perp CAN, in a timely fashion, expunge P
-      blots from emself, where P is the value of the fine, by publishing
-      a formal apology of at least 200 words and including all the
-      specified words, explaining eir error, shame, remorse, and ardent
-      desire for self-improvement.
-      
-      
-      When the rules authorize an investigator to issue a Warning for a
-      violation, e CAN do so by announcement if:
-      
-      * the violation is a crime of class 0, OR
-      * the violation is a crime of class 1 and e has not done so for
-        the same player for the same crime this month.
-      
-      When the rules authorize an investigator to issue an Indictment
-      for a violation, e CAN do so by levying a fine on the perp, with
-      1.5 Agoran Consent, provided that levying the fine would be
-      otherwise LEGAL and EFFECTIVE.
-
-------------------------------------------------------------------------
-Rule 2531/15 (Power=2)
-Defendant's Rights
-
-      Any attempt to levy a fine is INEFFECTIVE if it does not include
-      value of the fine in blots, the name of the person being fined
-      (the perp), and the specific reason for the fine.
-      
-      Any attempt to levy a fine pursuant to the imposition of the Cold
-      Hand of Justice is INEFFECTIVE if:
-      
-        (1) it attempts to levy a fine on a person when that person
-            can't be established by a preponderance of the evidence to
-            have committed the action or inaction for which the fine was
-            levied;
-      
-        (2) it attempts to levy a fine for an action or inaction which,
-            at the time the inaction or action occurred, was not
-            prohibited by the rules;
-      
-        (3) it attempts to levy a fine on a person for failure to take
-            an action that e, through no fault of eir own, COULD NOT
-            have performed;
-      
-        (4) it attempts to levy a fine on a person for conduct that e,
-            through no fault of eir own, was obliged to undertake by a
-            rule of equal or greater power to the one e violated;
-      
-        (5) it attempts to levy a fine on a person taking an action or
-            inaction e could not have avoided when exercising the
-            highest reasonably possible standard of care;
-      
-        (6) it attempts to levy a fine with a value that is blatantly
-            and obviously unsuited to the conduct which constitutes the
-            reason for its levy or to the person on whom it is being
-            levied;
-      
-        (7) it attempts to levy a fine based upon the investigation of
-            a Finger that had been Pointed more than 14 days after the
-            action constituting the reason for the fine;
-      
-        (8) it attempts to levy a fine on a player for failing to take
-            an action within the time period set by the Rules and that
-            time period had expired more than 14 days prior to the
-            Pointed Finger, if the fine is imposed based on an
-            investigation of such Finger;
-      
-        (9) it attempts to levy a fine on a player who has already been
-            fined for the conduct constituting the reason for the levy;
-            or
+      The above notwithstanding, an infraction CANNOT be increased or
+      reduced if it happened more than 14 days ago or it has already
+      been increased or reduced.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2222,13 +2126,13 @@ No Faking
       announcement of intent is never a lie.
 
 ------------------------------------------------------------------------
-Rule 2450/10 (Power=1.7)
+Rule 2450/11 (Power=1.7)
 Pledges
 
       If a consenting Player makes a clear public pledge (syn. Oath) to
       perform (or refrain from performing) certain actions, then
-      breaking the pledge is ILLEGAL; doing so is the Class N crime of
-      Oathbreaking, where N is the value explicitly stated by the
+      breaking the pledge is ILLEGAL; doing so is the Class N infraction
+      of Oathbreaking, where N is the value explicitly stated by the
       pledge, or 2 if the pledge does not explicitly state a value.
       Allowing a pledge to expire without carrying out an action one
       pledged to do in it constitutes breaking the pledge.
@@ -2627,7 +2531,7 @@ Floating Rate Fleet
       beginning of the month.
 
 ------------------------------------------------------------------------
-Rule 2496/23 (Power=1)
+Rule 2496/24 (Power=1)
 Rewards
 
       Each time a player fulfills a reward condition, the officer
@@ -2638,10 +2542,10 @@ Rewards
       Below is a list of reward conditions and their associated assets
       and officers.
       
-      * Being the author of an adopted sponsored proposal: a number of
-        boatloads of coins equal to (the total number of valid ballots
-        cast FOR the decision - the total number of valid ballots cast
-        AGAINST) (Assessor).
+      * Being the author of an adopted proposal: a number of boatloads
+        of coins equal to (the total number of valid ballots cast FOR
+        the decision - the total number of valid ballots cast AGAINST)
+        (Assessor).
       
       * Judging a CFJ that e was assigned to without violating a time
         limit to do so, unless at the time of judgement the case was
@@ -2755,7 +2659,7 @@ Birthday Gifts
       Players are ENCOURAGED to announce their Agoran Birthdays.
 
 ------------------------------------------------------------------------
-Rule 2545/6 (Power=2)
+Rule 2545/7 (Power=2)
 Auctions
 
       An auction is a way for entities to give away specified assets
@@ -2773,7 +2677,7 @@ Auctions
       participate in an auction (including the auctioneer) SHALL NOT
       violate requirements that auction's method that are clearly
       intended to be punishable as rules violations; doing so is the
-      Class N Crime of Auction Manipulation, where N is the class
+      Class N infraction of Auction Manipulation, where N is the class
       specified in the auction method (or 2 otherwise).
       
       While an auction is ongoing, if the rules provide for that class
@@ -2944,7 +2848,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/34 (Power=1)
+Rule 2654/35 (Power=1)
 The Device
 
       When the device is on:
@@ -3047,6 +2951,9 @@ The Device
           Device shall be made using whatever probability distribution
           among the possible outcomes the Rule specifies, defaulting to
           a uniform probability distribution.
+        * If a device has a judgement assigned, a player CAN enter that
+          judgement into Moot with N+2 support, where N is the number of
+          weeks since that judgement has been assigned, rounded down.
 
 ------------------------------------------------------------------------
 Rule 2655/3 (Power=1)
@@ -3150,7 +3057,7 @@ Birds
    A game in which players make a futile attempt to wrangle birds, who
    do not care what we puny humans have to say about them.
 ------------------------------------------------------------------------
-Rule 2660/0 (Power=1)
+Rule 2660/1 (Power=1)
 Birds
 
       A bird is a unique indestructible liquid asset defined by the
@@ -3166,7 +3073,7 @@ Birds
       The Avicultor is an office, and the recordkeepor of birds.
       
       A player that is not Beast Permitted SHALL NOT transfer a bird e
-      owns to another player; doing so is the Class 3 Crime of
+      owns to another player; doing so is the Class 3 infraction of
       Unpermitted Beast Transit.
 
 ------------------------------------------------------------------------
