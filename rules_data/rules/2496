@@ -10,10 +10,10 @@ text: |
   Below is a list of reward conditions and their associated assets
   and officers.
 
-  * Being the author of an adopted sponsored proposal: a number of
-    boatloads of coins equal to (the total number of valid ballots
-    cast FOR the decision - the total number of valid ballots cast
-    AGAINST) (Assessor).
+  * Being the author of an adopted proposal: a number of boatloads
+    of coins equal to (the total number of valid ballots cast FOR
+    the decision - the total number of valid ballots cast AGAINST)
+    (Assessor).
 
   * Judging a CFJ that e was assigned to without violating a time
     limit to do so, unless at the time of judgement the case was
@@ -158,4 +158,9 @@ history:
   date: 2020-10-28
   agent:
     proposal: "8514"
+- change:
+    type: amendment
+  date: 2022-07-24
+  agent:
+    proposal: "8720"
 annotations: []
