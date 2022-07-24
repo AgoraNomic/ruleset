@@ -15,11 +15,11 @@ text: |
   defines N as less than 1 or greater than 8, it is instead treated
   as 1 or 8, respectively.
 
-  A person CAN act on eir own behalf, by announcement, to table an
-  intent (syn. "intend") to perform a tabled action, conspicuously
-  and without obfuscation specifying the action, the method
-  (including non- default parameter values), and optionally,
-  conditions.
+  A person, acting as emself, CAN by announcement table an intent
+  (syn.  "intend") to perform a tabled action, clearly,
+  conspicuously, explicitly, and without obfuscation specifying the
+  action, the method (including non-default parameter values), and,
+  optionally, conditions.
 
   A person is the sponsor of such an intent if e tabled it, or if e
   is authorized to perform its action due to holding a rule-defined
@@ -277,6 +277,11 @@ history:
   date: 2022-07-17
   agent:
     proposal: "8710"
+- change:
+    type: amendment
+  date: 2022-07-24
+  agent:
+    proposal: "8718"
 annotations:
 - cfjs:
   - id: '1722'
