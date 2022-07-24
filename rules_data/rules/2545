@@ -17,7 +17,7 @@ text: |
   participate in an auction (including the auctioneer) SHALL NOT
   violate requirements that auction's method that are clearly
   intended to be punishable as rules violations; doing so is the
-  Class N Crime of Auction Manipulation, where N is the class
+  Class N infraction of Auction Manipulation, where N is the class
   specified in the auction method (or 2 otherwise).
 
   While an auction is ongoing, if the rules provide for that class
@@ -83,4 +83,9 @@ history:
   date: 2022-05-28
   agent:
     proposal: "8680"
+- change:
+    type: amendment
+  date: 2022-07-24
+  agent:
+    proposal: "8811"
 annotations: []

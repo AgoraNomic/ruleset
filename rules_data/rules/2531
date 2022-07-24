@@ -143,6 +143,11 @@ history:
   agent:
     cleaning:
       by: surprise
+- change:
+    type: repeal
+  date: 2022-07-24
+  agent:
+    proposal: "8811"
 annotations:
 - cfjs:
   - id: 2531

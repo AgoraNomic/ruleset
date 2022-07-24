@@ -21,12 +21,12 @@ text: |
   Any information defined by the rules as part of a person's report,
   without specifying which one, is part of eir weekly report.
   Failure of a person to perform any weekly duty required of em
-  within the allotted time is the Class 1+N Crime of Weekly
+  within the allotted time is the Class 1+N infraction of Weekly
   Tardiness, where N is the number of times e has previously
-  committed the crime in the last month.
+  committed the infraction in the last month.
 
   Failure of a person to perform any monthly duty required of em
-  within the allotted time is the Class 3 Crime of Monthly
+  within the allotted time is the Class 3 infraction of Monthly
   Tardiness.
 
   An official duty for an office is any duty that the Rules
@@ -36,7 +36,7 @@ text: |
   An officer SHALL publish eir report in plain text, with tabular
   data lining up properly when viewed in a monospaced font.
   Publishing a report that deviates from these restrictions is the
-  Class 2 Crime of Making My Eyes Bleed.
+  Class 2 infraction of Making My Eyes Bleed.
 
   Officers SHOULD maintain a publicly visible copy of their reports
   on the World Wide Web, and they SHOULD publish the address of this
@@ -239,6 +239,11 @@ history:
   date: 2022-05-28
   agent:
     proposal: "8679"
+- change:
+    type: amendment
+  date: 2022-07-24
+  agent:
+    proposal: "8811"
 annotations:
 - cfjs:
   - id: '2392'

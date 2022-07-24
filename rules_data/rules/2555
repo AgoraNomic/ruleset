@@ -8,17 +8,15 @@ text: |
   Fugitive. The Referee is an office, and the recordkeepor for
   blots.
 
-  To levy a fine of N on a person, where N is a positive integer or
-  zero, is to grant em N blots. To expunge a blot is to destroy it.
-  Levying fines and destroying blots are each secured with a Power
-  Threshold of 1.7.
+  To expunge a blot is to destroy it. Destroying blots is secured
+  with a Power Threshold of 1.7.
 
   A person CAN, by announcement, create a specified number of blots
   in eir possession.
 
   Any player who has not expunged a blot by this method this week
   CAN expunge 1 blot from a specified player who has not gained a
-  blot this week, by announcement.
+  blot this or the previous week, by announcement.
 
   At the beginning of each quarter, half (rounded down) of each
   fugitive's blots are destroyed.
@@ -90,4 +88,9 @@ history:
   date: 2022-06-09
   agent:
     rule: "2658"
+- change:
+    type: amendment
+  date: 2022-07-24
+  agent:
+    proposal: "8811"
 annotations: []
