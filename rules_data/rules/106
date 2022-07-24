@@ -9,10 +9,12 @@ text: |
   rules to the contrary notwithstanding.
 
   When a proposal takes effect, the proposal applies the changes
-  that it specifies, except as prohibited by other rules. Clearly
-  marked comments are ignored. If the proposal cannot make some
-  changes it specifies, that does not preclude the other changes
-  from taking place.
+  that it specifies in its text, except as prohibited by other
+  rules. Unless otherwise specified by the text, the effects are
+  applied in the order they appear in the text. Clearly marked
+  comments are ignored. If the proposal cannot make some changes it
+  specifies, that does not preclude the other changes from taking
+  place.
 
   Except insofar as the actions performed by a proposal happen one
   after another, rather than simultaneously, a proposal's effect is
@@ -277,6 +279,11 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8539"
+- change:
+    type: amendment
+  date: 2022-07-24
+  agent:
+    proposal: "8719"
 annotations:
 - cfjs:
   - id: '1639'
