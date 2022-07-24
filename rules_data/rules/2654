@@ -102,6 +102,9 @@ text: |
       Device shall be made using whatever probability distribution
       among the possible outcomes the Rule specifies, defaulting to
       a uniform probability distribution.
+    * If a device has a judgement assigned, a player CAN enter that
+      judgement into Moot with N+2 support, where N is the number of
+      weeks since that judgement has been assigned, rounded down.
 history:
 - change:
     type: enactment
@@ -341,4 +344,11 @@ history:
     experiment:
       id: 40
       engineer: ais523
+- change:
+    type: amendment
+  date: 2022-07-24
+  agent:
+    experiment:
+      id: 43
+      engineer: Jason
 annotations: []
