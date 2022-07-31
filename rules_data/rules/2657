@@ -16,10 +16,6 @@ text: |
     * Being a coauthor of a proposal that takes effect: 1
       (Assessor).
 
-    * Having a valid unconditional AGAINST vote on a referendum when
-      it is resolved to be ADOPTED, or, similarly, FOR when
-      REJECTED: 1 (Assessor).
-
     * Having an Agoran Birthday: 15 (Herald).
 
     * Receiving any patent title: 10 (Herald).
@@ -56,3 +52,8 @@ history:
   date: 2022-07-17
   agent:
     proposal: "8714"
+- change:
+    type: amendment
+  date: 2022-07-30
+  agent:
+    proposal: "8805"
