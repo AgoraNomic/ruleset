@@ -1,6 +1,6 @@
 id: 2646
 name: Activity
-power: 1
+power: 3
 text: |
   Activity is a player switch tracked by the Registrar, with values
   Active (default) and Inactive.  To flip a player's activity to
@@ -31,4 +31,11 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8618"
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 3
+  date: 2022-07-30
+  agent:
+    proposal: "8814"
 annotations: []
