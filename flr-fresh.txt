@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 24 Jul 2022
+Date of this ruleset: 31 Jul 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 145
 
 Highest ID'd rule in this ruleset: 2667
-Highest ID'd Proposal Passed: 8811
+Highest ID'd Proposal Passed: 8814
 Highest ID'd Rule Enacted: 2667
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -195,13 +195,13 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-47 with Power=1
+46 with Power=1
 3  with Power=1.5
 4  with Power=1.7
 31 with Power=2
 1  with Power=2.2
 1  with Power=2.5
-47 with Power=3
+48 with Power=3
 3  with Power=3.1
 1  with Power=3.14
 2  with Power=3.2
@@ -812,7 +812,7 @@ CFJ 2358 (called 26 Jan 2009): A document which is labeled as a Cantus
     Cantus Cygneus.
 
 ------------------------------------------------------------------------
-Rule 2646/1 (Power=1)
+Rule 2646/1 (Power=3)
 Activity
 
       Activity is a player switch tracked by the Registrar, with values
@@ -838,6 +838,8 @@ History:
 
 Enacted by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Amended(1) by P8618 'Solo Acitivity' (nix, Jason), 18 Oct 2021
+Power changed from 1 to 3 by P8814 'Effective Activity' (Jason), 30 Jul
+   2022
 
 Annotations:
 
@@ -6621,7 +6623,7 @@ Amended(2) by P8706 'Let them have points' (Secretsnail9), 17 Jul 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2657/5 (Power=1)
+Rule 2657/6 (Power=1)
 Scoring
 
       Each time a player fulfills a scoring condition, the officer
@@ -6638,10 +6640,6 @@ Scoring
         * Being a coauthor of a proposal that takes effect: 1
           (Assessor).
       
-        * Having a valid unconditional AGAINST vote on a referendum when
-          it is resolved to be ADOPTED, or, similarly, FOR when
-          REJECTED: 1 (Assessor).
-      
         * Having an Agoran Birthday: 15 (Herald).
       
         * Receiving any patent title: 10 (Herald).
@@ -6657,6 +6655,7 @@ Amended(2) by P8664 'Away with the massive points' (Secretsnail9), 03
 Amended(3) by P8656 'Mathematical de-notation' (Jason), 03 Apr 2022
 Amended(4) by P8684 'Score Gameplay Expansion' (nix), 25 Jun 2022
 Amended(5) by P8714 'Vote scoring clarification' (Jason), 17 Jul 2022
+Amended(6) by P8805 'Removal of vote points v2' (Jason), 30 Jul 2022
 
 Annotations:
 
