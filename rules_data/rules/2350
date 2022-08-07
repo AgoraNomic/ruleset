@@ -3,9 +3,9 @@ name: Proposals
 power: 3
 text: |
   A proposal is a type of entity consisting of a body of text and
-  other attributes. A player CAN create a proposal by announcement,
-  specifying its text and optionally specifying any of the following
-  attributes:
+  other attributes. A player CAN create (syn. submit) a proposal by
+  announcement, specifying its text and optionally specifying any of
+  the following attributes:
 
   * An associated title.
 
@@ -16,7 +16,7 @@ text: |
 
   Creating a proposal adds it to the Proposal Pool. Once a proposal
   is created, its text, author, and AI cannot be changed. The author
-  (syn. proposer) of a proposal is the person who submitted it.
+  (syn. proposer) of a proposal is the person who created it.
 
   The author of a proposal in the Proposal Pool CAN remove (syn.
   retract, withdraw) it from the Pool by announcement.
@@ -108,6 +108,16 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8540"
+- change:
+    type: amendment
+  date: 2022-08-06
+  agent:
+    proposal: "8815"
+- change:
+    type: amendment
+  date: 2022-08-06
+  agent:
+    proposal: "8815"
 annotations:
 - cfjs:
   - id: '1647'
