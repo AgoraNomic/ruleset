@@ -13,7 +13,7 @@ text: |
 
   An intent is ripe if was tabled within the past 14 days, the
   Speaker hasn't objected to it in the past 48 hours, and its
-  conditions, if any, are met.
+  conditions, if any, are each clearly and unambiguously met.
 
   An intent is mature if it was tabled at least 4 days ago and
   nobody withdrew objections from it in the past 24 hours.
@@ -216,6 +216,11 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8629"
+- change:
+    type: amendment
+  date: 2022-08-06
+  agent:
+    proposal: "8818"
 annotations:
 - cfjs:
   - id: '3567'
