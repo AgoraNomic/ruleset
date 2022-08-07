@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 31 Jul 2022
+Date of this ruleset: 7 Aug 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 145
 
 Highest ID'd rule in this ruleset: 2667
-Highest ID'd Proposal Passed: 8814
+Highest ID'd Proposal Passed: 8818
 Highest ID'd Rule Enacted: 2667
 
 ========================================================================
@@ -378,7 +378,7 @@ Tabled Actions
       position previously held by the person who tabled it.
 
 ------------------------------------------------------------------------
-Rule 2124/30 (Power=3)
+Rule 2124/31 (Power=3)
 Performing Tabled Actions
 
       For a given tabled intent, a player CAN, unless otherwise
@@ -392,7 +392,7 @@ Performing Tabled Actions
       
       An intent is ripe if was tabled within the past 14 days, the
       Speaker hasn't objected to it in the past 48 hours, and its
-      conditions, if any, are met.
+      conditions, if any, are each clearly and unambiguously met.
       
       An intent is mature if it was tabled at least 4 days ago and
       nobody withdrew objections from it in the past 24 hours.
@@ -569,13 +569,13 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/16 (Power=3)
+Rule 2350/18 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
-      other attributes. A player CAN create a proposal by announcement,
-      specifying its text and optionally specifying any of the following
-      attributes:
+      other attributes. A player CAN create (syn. submit) a proposal by
+      announcement, specifying its text and optionally specifying any of
+      the following attributes:
       
       * An associated title.
       
@@ -586,7 +586,7 @@ Proposals
       
       Creating a proposal adds it to the Proposal Pool. Once a proposal
       is created, its text, author, and AI cannot be changed. The author
-      (syn. proposer) of a proposal is the person who submitted it.
+      (syn. proposer) of a proposal is the person who created it.
       
       The author of a proposal in the Proposal Pool CAN remove (syn.
       retract, withdraw) it from the Pool by announcement.

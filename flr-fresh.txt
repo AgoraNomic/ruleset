@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 31 Jul 2022
+Date of this ruleset: 7 Aug 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 145
 
 Highest ID'd rule in this ruleset: 2667
-Highest ID'd Proposal Passed: 8814
+Highest ID'd Proposal Passed: 8818
 Highest ID'd Rule Enacted: 2667
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -1263,7 +1263,7 @@ CFJ 3567 (called 27 Sep 2017): Dependent action intents aren't "by
     read "naturally" as counting as a single intent.
 
 ------------------------------------------------------------------------
-Rule 2124/30 (Power=3)
+Rule 2124/31 (Power=3)
 Performing Tabled Actions
 
       For a given tabled intent, a player CAN, unless otherwise
@@ -1277,7 +1277,7 @@ Performing Tabled Actions
       
       An intent is ripe if was tabled within the past 14 days, the
       Speaker hasn't objected to it in the past 48 hours, and its
-      conditions, if any, are met.
+      conditions, if any, are each clearly and unambiguously met.
       
       An intent is mature if it was tabled at least 4 days ago and
       nobody withdrew objections from it in the past 24 hours.
@@ -1347,6 +1347,8 @@ Retitled by P8629 'Independence Day' (G., Gaelan, Telna, nix, Cuddle
    Beam, cuddlybanana, Jason), 18 Oct 2021
 Amended(30) by P8629 'Independence Day' (G., Gaelan, Telna, nix, Cuddle
    Beam, cuddlybanana, Jason), 18 Oct 2021
+Amended(31) by P8818 'Tabled action condition ambiguity v2' (Jason), 06
+   Aug 2022
 
 Annotations:
 CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
@@ -1612,13 +1614,13 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/16 (Power=3)
+Rule 2350/18 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
-      other attributes. A player CAN create a proposal by announcement,
-      specifying its text and optionally specifying any of the following
-      attributes:
+      other attributes. A player CAN create (syn. submit) a proposal by
+      announcement, specifying its text and optionally specifying any of
+      the following attributes:
       
       * An associated title.
       
@@ -1629,7 +1631,7 @@ Proposals
       
       Creating a proposal adds it to the Proposal Pool. Once a proposal
       is created, its text, author, and AI cannot be changed. The author
-      (syn. proposer) of a proposal is the person who submitted it.
+      (syn. proposer) of a proposal is the person who created it.
       
       The author of a proposal in the Proposal Pool CAN remove (syn.
       retract, withdraw) it from the Pool by announcement.
@@ -1658,6 +1660,8 @@ Amended(14) by P8415 'Proposal Recycling Initiative' (Aspen), 14 Jun
 Amended(15) by cleaning (Jason), 29 Jun 2020
 Amended(16) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Jason), 11 Feb 2021
+Amended(17) by P8815 'Proposal terminology fix' (ais523), 06 Aug 2022
+Amended(18) by P8815 'Proposal terminology fix' (ais523), 06 Aug 2022
 
 Annotations:
 CFJ 1647 (called 30 Apr 2007): Preceding a proposal-like text with the
