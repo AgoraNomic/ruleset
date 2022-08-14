@@ -20,24 +20,23 @@ text: |
 
   - Emu: A specified player gains 1 blot.
 
-  - Owl: A specified player (defaulting to the playmate if not
-    specified) gains the Grant associated with a specified Ministry.
+  - Owl: A specified bird cannot be played with until next month,
+    rules to the contrary notwithstanding.
 
   - Magpie: A specified bird that is owned by a player is
     transferred to the playmate.
 
-  - Pigeon: The playmate gains 2 blots and 1 Blot-B-Gone.
+  - Pigeon: The playmate gains 2 blots.
 
-  - Penguin: If the playmate is Beast Permitted, e gains
-    1 Winsome, 1 Blot-B-Gone, 1 Pendant, and 1 Votive. Otherwise,
-    the playmate gains 1 blot, 1 Pendant, and 1 Votive.
+  - Penguin: If the playmate is Beast Permitted, e gains 6 boatloads
+    of coins. Otherwise, the playmate gains 1 blot and 3 boatloads
+    of coins.
 
-  - Cockatiel: A specified player that is not the playmate gains a
-    specified Product.
+  - Cockatiel: A specified player that is not the playmate buys bird
+    food 2 times.
 
-  - Jay: The Pended switch of a specified proposal is set to True,
-    and that proposal becomes sponsored. The playmate then gains 1
-    Votive.
+  - Jay: The voting strength of the playmate on a specified
+    referendum is increased by 3.
 
   - Bowerbird: A specified stone that is owned by a player is
     transferred to the playmate.
@@ -62,3 +61,8 @@ history:
   date: 2022-06-25
   agent:
     proposal: "8692"
+- change:
+    type: amendment
+  date: 2022-08-14
+  agent:
+    proposal: "8823"
