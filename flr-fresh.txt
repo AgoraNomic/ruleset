@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 7 Aug 2022
+Date of this ruleset: 14 Aug 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 145
+Number of rules currently enacted: 151
 
-Highest ID'd rule in this ruleset: 2667
-Highest ID'd Proposal Passed: 8818
-Highest ID'd Rule Enacted: 2667
+Highest ID'd rule in this ruleset: 2675
+Highest ID'd Proposal Passed: 8826
+Highest ID'd Rule Enacted: 2675
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -91,7 +91,6 @@ Offices & Reporting
    * Rule 2143: Official Reports and Duties
    * Rule 2667: Succumbing to Time
    * Rule 2632: Complexity
-   * Rule 2636: The Ministor
    * Rule 2603: Switch Responsiblity
    * Rule 2379: No News Is Some News
    * Rule 2616: The Webmastor
@@ -133,12 +132,12 @@ Economics
    * Rule 2635: Floating Rate Fleet
    * Rule 2496: Rewards
    * Rule 2559: Paydays
-   * Rule 2621: VP Wins
    * Rule 2666: L&FD Auctions
    * Rule 2638: Player Focuses
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2545: Auctions
+   * Rule 2675: Dream of Wandering
 Stones
    * Rule 2640: Stones
    * Rule 2641: Wielding Stones
@@ -159,6 +158,14 @@ Birds
    * Rule 2663: Bird Migration
    * Rule 2664: One with Nature
    * Rule 2665: The Birds
+Horses
+   * Rule 2668: Horses
+   * Rule 2669: The Horses Run
+   * Rule 2670: Horse Victory
+   * Rule 2671: Horse Multiplier
+   * Rule 2672: Weekly Race Action
+   * Rule 2673: Motivating Horses
+   * Rule 2674: Horse Powers
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -195,7 +202,7 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-46 with Power=1
+52 with Power=1
 3  with Power=1.5
 4  with Power=1.7
 31 with Power=2
@@ -4190,20 +4197,6 @@ Enacted by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2636/0 (Power=1.0)
-The Ministor
-
-      The Ministor is an office, tasked with overseeing gameplay
-      related to Ministries. The Ministor SHALL publish eir monthly
-      report in a timely manner from the beginning of the month.
-
-History:
-
-Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct 2020
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
 Switch Responsiblity
 
@@ -5955,38 +5948,6 @@ Amended(10) by P8557 'Archimedes' Principle' (Aspen, Trigon, nix), 15
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2621/9 (Power=1.0)
-VP Wins
-
-      If a player has at least 20 more Winsomes than each other player,
-      e CAN Take Over the Economy by announcement, provided no person
-      has won the game by doing so in the past 30 days.
-      
-      When a player takes over the economy, e wins the game. Four days
-      after such a win occurs, all Cards and all Products are destroyed.
-      Then, the winds die down.
-
-History:
-
-Enacted by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius Scribonius
-   Scholasticus, Jason, Aspen, G., ais523), 12 Jun 2020
-Amended(1) by P8511 'VP Win Indirection' (Baron von Vanderham, Jason,
-   Trigon), 28 Oct 2020
-Amended(2) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
-Amended(3) by P8543 'En Passant v2' (Jason, Aspen, nix), 02 Mar 2021
-Amended(4) by P8581 'Grants on Resets' (Aspen), 23 Jun 2021
-Amended(5) by P8600 'fix win lockouts' (G.), 30 Aug 2021
-Amended(6) by P8613 'The Name of the Win Cards v2' (Jason, Trigon), 18
-   Oct 2021
-Amended(7) by P8628 'tacking into the win' (G.), 18 Oct 2021
-Amended(8) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
-   Apr 2022
-Amended(9) by P8676 'Let's make it entirely clear' (Secretsnail9), 22
-   May 2022
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2666/1 (Power=1)
 L&FD Auctions
 
@@ -6185,6 +6146,76 @@ Amended(4) by P8572 'Thou shalt not disobey Trigon' (Jason, Trigon), 14
 Amended(5) by P8578 'Auction limitation' (Jason, Trigon), 23 Jun 2021
 Amended(6) by P8680 'Auction conduction fix v2' (Jason, G.), 28 May 2022
 Amended(7) by P8811 'Infractions' (nix), 24 Jul 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2675/0 (Power=1)
+Dream of Wandering
+
+      The Dreamor is an office; its holder is responsible for keeping
+      track of the dreams of all active players.
+      
+      Mindset is a secured active player switch, tracked by the Dreamor
+      in eir monthly report, with possible values Dream of Wandering
+      (the default) and any Dream.
+      
+      An active player CAN Plan to Flip eir own Mindset, specifying any
+      valid value for eir Mindset, by announcement.  When the rules
+      state that the wandering occurs, every active player's Mindset is
+      set to the value e most recently specified by Planning to Flip. If
+      a player did not Plan to Flip eir Mindset switch since the last
+      wandering, it not Flipped.
+      
+      The wandering occurs at the beginning of each month.
+      
+      At any time, each active player is either a Sleeping Dreamer
+      (Default), a New Dreamer, or a Recurring Dreamer. The state of
+      each player is included in the Dreamor's monthly report, which
+      SHALL be published in a timely fashion from the beginning of the
+      month.
+      
+      If an active player's Mindset is flipped when the wandering
+      occurs, e becomes a New Dreamer; otherwise, e becomes a Recurring
+      dreamer.
+      
+      The following rules apply to each active player based on that
+      player's Mindset:
+      - Dream of Victory: Upon a correct announcement of being the only
+        player with eir Mindset Flipped to Dream of Victories, e wins
+        the game. Upon winning the game, e has eir Mindset immediately
+        Flipped to the Dream of Wandering and becomes a Sleeping
+        Dreamer. While e is a New Dreamer, e CAN, once by announcement,
+        gain 10 points, then become a Sleeping Dreamer.
+      - Dream of Wealth: While e is a New or Recurring Dreamer, e CAN,
+        once by announcement, grant 5 stamps of eir own type to emself,
+        then become a Sleeping Dreamer.
+      - Dream of Justice: While e is a New or Recurring Dreamer, e CAN,
+        once by announcement, expunge up to 4 blots from emself, then
+        become a Sleeping Dreamer.
+      - Dream of Wandering: While e is a Recurring Dreamer, e CAN, once
+        by announcement, set eir mindset to a specified Dream, and
+        become a New Dreamer.
+      - Dream of Machines: E CAN Flip the Device to either on or off
+        with Agoran Consent.  E CAN act on behalf of the device to take
+        any action the device CAN take by announcement with 1 support.
+      - Dream of Beasts: E CAN buy bird food by paying a fee of 3
+        boatloads of coins. E CAN buy a Beast Permit by paying a fee of
+        40 boatloads of coins.  E CAN renew a Beast Permit by paying a
+        fee of 20 boatloads of coins.
+      - Dream of Gardens: While E is a New or Recurring Dreamer, E CAN
+        once pay a fee of N stamps, specifying one stone e owns, and
+        that stone has its escape chance reduced by N*5%, to a minimum
+        of 0%, where N is a positive integer, then become a Sleeping
+        Dreamer.  This reduction can only apply to one stone e owns.
+        This reduction is removed after the Stonemason publishes a
+        collection notice.
+      - Dream of Power: Eir Voting Strength is 2 greater.
+
+History:
+
+Enacted by P8826 'Dream of Wandering' (Secretsnail9, 4st, nix, Madrid,
+   Jason), 14 Aug 2022
 
 Annotations:
 
@@ -6807,7 +6838,7 @@ Amended(1) by P8690 'Actual Bird Fix' (Secretsnail9), 25 Jun 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2665/2 (Power=1)
+Rule 2665/3 (Power=1)
 The Birds
 
       'The playmate' is the player who played with the bird to make its
@@ -6828,24 +6859,23 @@ The Birds
       
       - Emu: A specified player gains 1 blot.
       
-      - Owl: A specified player (defaulting to the playmate if not
-        specified) gains the Grant associated with a specified Ministry.
+      - Owl: A specified bird cannot be played with until next month,
+        rules to the contrary notwithstanding.
       
       - Magpie: A specified bird that is owned by a player is
         transferred to the playmate.
       
-      - Pigeon: The playmate gains 2 blots and 1 Blot-B-Gone.
+      - Pigeon: The playmate gains 2 blots.
       
-      - Penguin: If the playmate is Beast Permitted, e gains
-        1 Winsome, 1 Blot-B-Gone, 1 Pendant, and 1 Votive. Otherwise,
-        the playmate gains 1 blot, 1 Pendant, and 1 Votive.
+      - Penguin: If the playmate is Beast Permitted, e gains 6 boatloads
+        of coins. Otherwise, the playmate gains 1 blot and 3 boatloads
+        of coins.
       
-      - Cockatiel: A specified player that is not the playmate gains a
-        specified Product.
+      - Cockatiel: A specified player that is not the playmate buys bird
+        food 2 times.
       
-      - Jay: The Pended switch of a specified proposal is set to True,
-        and that proposal becomes sponsored. The playmate then gains 1
-        Votive.
+      - Jay: The voting strength of the playmate on a specified
+        referendum is increased by 3.
       
       - Bowerbird: A specified stone that is owned by a player is
         transferred to the playmate.
@@ -6860,6 +6890,279 @@ History:
 Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
 Amended(1) by P8673 'Mine!' (Murphy), 15 May 2022
 Amended(2) by P8692 'Canary and Crow' (Secretsnail9), 25 Jun 2022
+Amended(3) by P8823 'Bird Overhaul' (Secretsnail9), 14 Aug 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Horses
+   A game in which horses race for glory. Importantly, this does not
+   bring glory to players, only horses.
+------------------------------------------------------------------------
+Rule 2668/0 (Power=1)
+Horses
+
+      Horses are indestructible assets, ownable only by players and
+      Agora. Any horses owned by the lost and found department are
+      immediately transferred to Agora.
+      
+      Alexia, Baxter, Cannon, Destructor, Fargo, Nacho, Rubert, and
+      Sugar are each a horse. These are their names.
+      
+      Dollaries (singular: dollary) are a fixed currency. Hooves
+      (singular: hoof) are a fixed currency.
+      
+      The Horsened is an office and the recordkeepor of dollaries,
+      hooves, and horses.
+      
+      Race Position is a Horse switch with possible values of the
+      integers from 0 (default) to 16, tracked by the Horsened.
+      
+      Race Place is a Horse switch with possible values of first,
+      second, third, and none (default), tracked by the Horsened.
+      
+      A horse is Running if it has a Race Place of none.
+      
+      When the race starts anew, each horse's Race Position is set to 0,
+      each horse's Race Place is set to none, all horses are transfered
+      to Agora, all dollaries and hooves are destroyed, and each player
+      receives 10 dollaries.
+
+History:
+
+Enacted by P8822 'Horse Racing' (Secretsnail9, Murphy), 14 Aug 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2669/0 (Power=1)
+The Horses Run
+
+      The horses Run at the start of each week, unless the horses were
+      not motivated within the last week.
+      
+      When the horses run, each player gains 1 hoof, movement resolves,
+      and then if any horses have a Race Position of 16 and a Race Place
+      of none, those horses cross the finish line in alphabetical order
+      of their names.
+      
+      When a horse crosses the finish line:
+      
+      * If no horse has a Race Place of first, the horse's Race Place is
+        set to first.
+      
+      * Otherwise, if no horse has a Race Place of second, the horse's
+        Race Place is set to second.
+      
+      * Otherwise, the horse's Race Place is set to third and the race
+        ends, and no horse can cross the finish line until the horses
+        are next motivated.
+
+History:
+
+Enacted by P8822 'Horse Racing' (Secretsnail9, Murphy), 14 Aug 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2670/0 (Power=1)
+Horse Victory
+
+      When the race ends, the following happen, in order:
+      
+      * the player that owns the horse with a Race Place of first gains
+        50 dollaries.
+      
+      * the player that owns the horse with a Race Place of second gains
+        30 dollaries.
+      
+      * the player that owns the horse with a Race Place of third gains
+        15 dollaries.
+      
+      * For each horse, each player that got both a jersey and a helmet
+        for that horse since the last time the race started anew gains 5
+        dollaries.
+      
+      * For each horse, each player gains a number of dollaries equal to
+        that horse's current multiplier * the number of dollaries e bet
+        on that horse since the last time the race started anew.
+      
+      * The score of the player that has the most dollaries is increased
+        by 15.  In the event of a tie, instead, no score change occurs.
+      
+      * The race starts anew.
+
+History:
+
+Enacted by P8822 'Horse Racing' (Secretsnail9, Murphy), 14 Aug 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2671/0 (Power=1)
+Horse Multiplier
+
+      A horse's current multiplier is based on the following chart:
+      
+      1, 2, 3: The horse's Race Place is first, second, or third,
+      respectively.
+      O: The horse's Race Place is none and Race Position is 12 or more.
+      X: The horse's Race Place is none and Race Position is less than
+      12.
+      
+      
+      HORSE           1 2 3 O X
+      --------------------
+      Alexia          5 4 3 1 0
+      Baxter          5 4 3 1 0
+      Cannon          6 5 4 1 0
+      Destructor      6 5 4 1 0
+      Fargo           7 6 5 1 0
+      Nacho           7 6 5 1 0
+      Rubert          9 8 7 1 0
+      Sugar           9 8 7 1 0
+
+History:
+
+Enacted by P8822 'Horse Racing' (Secretsnail9, Murphy), 14 Aug 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2672/0 (Power=1)
+Weekly Race Action
+
+      Each player CAN take one of the following actions (weekly race
+      actions) if they have not already taken one this week:
+      
+      * bet 1, 2, or 3 dollaries on a specified horse by paying a fee of
+        1, 2, or 3 dollaries respectively.
+      
+      * get a jersey for a specified horse, also specifying a horse to
+        be added to that horse's pull, by paying 1 hoof.
+      
+      * get a helmet for a specified horse by paying 1 hoof.
+      
+      * transfer a specified horse owned by Agora to emself by paying a
+        fee equal to the horse's cost.
+      
+      * increase or decrease a specified Running horse's Race Position
+        by 1, twice, by paying 3 hooves.
+      
+      * take an action defined as a weekly power of a horse e owns by
+        the rules.
+      
+      * gain 4 dollaries by announcement.
+      
+      A player CANNOT bet on a horse with a Race Position of 12 or
+      higher unless e got a helmet for that horse since the race last
+      started anew.
+      
+      A player CANNOT get a jersey for a horse e has already gotten a
+      jersey for since the race last started anew.
+      
+      A player CANNOT get a helmet for a horse e has already gotten a
+      helmet for since the race last started anew.
+      
+      The Horsened's weekly report includes, since the race last started
+      anew, which horses each player has gotten helmets and jerseys for.
+
+History:
+
+Enacted by P8822 'Horse Racing' (Secretsnail9, Murphy), 14 Aug 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2673/0 (Power=1)
+Motivating Horses
+
+      Any player CAN, by announcement if no player has done so yet this
+      week, motivate the horses, specifying a random horse (the
+      galloper) and a random number choice of 1, 2, or 3. When movement
+      resolves, the galloper's Race Position is increased by 1 a number
+      of times equal to the random number choice, and then each of the
+      galloper's pulls have their Race Position increased by 1 in
+      alphabetical order of their names.
+      
+      The horsened SHALL NOT let a week go by without the horses having
+      been motivated.
+      
+      Each horse has an associated non-repeating set of horses, their
+      "pulls", tracked by the Horsened.
+      
+      When the race begins anew, the horse's pulls are set to the
+      following:
+      
+      HORSE           PULLS
+      ------------------------
+      Alexia          Nacho
+      Baxter          Fargo
+      Cannon          Alexia
+      Destructor      Baxter
+      Fargo           Alexia, Destructor
+      Nacho           Baxter, Cannon
+      Rubert          Alexia, Cannon
+      Sugar           Baxter, Destructor
+
+History:
+
+Enacted by P8822 'Horse Racing' (Secretsnail9, Murphy), 14 Aug 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2674/0 (Power=1)
+Horse Powers
+
+      Each horse has a power which applies only to the player that owns
+      it (the owner), and a cost (in dollaries). They are listed below.
+      
+      HORSE           COST (dollaries)
+      --------------------
+      Alexia          10
+      Baxter          10
+      Cannon          8
+      Destructor      8
+      Fargo           6
+      Nacho           6
+      Rubert          4
+      Sugar           4
+      
+      Alexia's power: Once per month, the owner CAN take a weekly race
+      action, so long as e specifies it's via this power in the same
+      message.
+      
+      Baxter's power: Whenever Baxter moves forward because of being
+      chosen as the galloper, the owner gains 2 dollaries.
+      
+      Cannon's power: Once per month, the owner CAN increase Cannon's
+      Race Position by 1 by announcement, if Cannon is Running.
+      
+      Destructor's power: Once per month, the owner CAN decrease a
+      specified Running horse's Race Position by 1, twice, by
+      announcement.
+      
+      Fargo's power: (WEEKLY POWER)  * get a helmet for and bet 2
+      dollaries on a specified horse, by paying 1 hoof.
+      
+      Nacho's power: (WEEKLY POWER)  * get a jersey for a specified
+      horse, also specifying a horse to be added to another specified
+      horse's pull, by paying 1 hoof.
+      
+      Rubert's power: (WEEKLY POWER)  * bet 1, 2, or 3 dollaries on a
+      specified horse, and if the horse has the lowest race position or
+      is tied for the lowest race position, increase its race position
+      by 1, 3 times, by paying a fee of 1, 2, or 3 dollaries
+      respectively.
+      
+      Sugar's power: (WEEKLY POWER)  * get a helmet for and increase the
+      Race Position of a specified horse by 1, by paying 1 hoof.
+
+History:
+
+Enacted by P8822 'Horse Racing' (Secretsnail9, Murphy), 14 Aug 2022
 
 Annotations:
 
