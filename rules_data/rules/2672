@@ -1,0 +1,44 @@
+id: 2672
+name: Weekly Race Action
+power: 1
+text: |
+  Each player CAN take one of the following actions (weekly race
+  actions) if they have not already taken one this week:
+
+  * bet 1, 2, or 3 dollaries on a specified horse by paying a fee of
+    1, 2, or 3 dollaries respectively.
+
+  * get a jersey for a specified horse, also specifying a horse to
+    be added to that horse's pull, by paying 1 hoof.
+
+  * get a helmet for a specified horse by paying 1 hoof.
+
+  * transfer a specified horse owned by Agora to emself by paying a
+    fee equal to the horse's cost.
+
+  * increase or decrease a specified Running horse's Race Position
+    by 1, twice, by paying 3 hooves.
+
+  * take an action defined as a weekly power of a horse e owns by
+    the rules.
+
+  * gain 4 dollaries by announcement.
+
+  A player CANNOT bet on a horse with a Race Position of 12 or
+  higher unless e got a helmet for that horse since the race last
+  started anew.
+
+  A player CANNOT get a jersey for a horse e has already gotten a
+  jersey for since the race last started anew.
+
+  A player CANNOT get a helmet for a horse e has already gotten a
+  helmet for since the race last started anew.
+
+  The Horsened's weekly report includes, since the race last started
+  anew, which horses each player has gotten helmets and jerseys for.
+history:
+- change:
+    type: enactment
+  date: 2022-08-14
+  agent:
+    proposal: "8822"

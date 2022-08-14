@@ -1,0 +1,29 @@
+id: 2669
+name: The Horses Run
+power: 1
+text: |
+  The horses Run at the start of each week, unless the horses were
+  not motivated within the last week.
+
+  When the horses run, each player gains 1 hoof, movement resolves,
+  and then if any horses have a Race Position of 16 and a Race Place
+  of none, those horses cross the finish line in alphabetical order
+  of their names.
+
+  When a horse crosses the finish line:
+
+  * If no horse has a Race Place of first, the horse's Race Place is
+    set to first.
+
+  * Otherwise, if no horse has a Race Place of second, the horse's
+    Race Place is set to second.
+
+  * Otherwise, the horse's Race Place is set to third and the race
+    ends, and no horse can cross the finish line until the horses
+    are next motivated.
+history:
+- change:
+    type: enactment
+  date: 2022-08-14
+  agent:
+    proposal: "8822"

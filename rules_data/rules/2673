@@ -1,0 +1,37 @@
+id: 2673
+name: Motivating Horses
+power: 1
+text: |
+  Any player CAN, by announcement if no player has done so yet this
+  week, motivate the horses, specifying a random horse (the
+  galloper) and a random number choice of 1, 2, or 3. When movement
+  resolves, the galloper's Race Position is increased by 1 a number
+  of times equal to the random number choice, and then each of the
+  galloper's pulls have their Race Position increased by 1 in
+  alphabetical order of their names.
+
+  The horsened SHALL NOT let a week go by without the horses having
+  been motivated.
+
+  Each horse has an associated non-repeating set of horses, their
+  "pulls", tracked by the Horsened.
+
+  When the race begins anew, the horse's pulls are set to the
+  following:
+
+  HORSE           PULLS
+  ------------------------
+  Alexia          Nacho
+  Baxter          Fargo
+  Cannon          Alexia
+  Destructor      Baxter
+  Fargo           Alexia, Destructor
+  Nacho           Baxter, Cannon
+  Rubert          Alexia, Cannon
+  Sugar           Baxter, Destructor
+history:
+- change:
+    type: enactment
+  date: 2022-08-14
+  agent:
+    proposal: "8822"

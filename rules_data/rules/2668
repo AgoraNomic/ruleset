@@ -1,0 +1,35 @@
+id: 2668
+name: Horses
+power: 1
+text: |
+  Horses are indestructible assets, ownable only by players and
+  Agora. Any horses owned by the lost and found department are
+  immediately transferred to Agora.
+
+  Alexia, Baxter, Cannon, Destructor, Fargo, Nacho, Rubert, and
+  Sugar are each a horse. These are their names.
+
+  Dollaries (singular: dollary) are a fixed currency. Hooves
+  (singular: hoof) are a fixed currency.
+
+  The Horsened is an office and the recordkeepor of dollaries,
+  hooves, and horses.
+
+  Race Position is a Horse switch with possible values of the
+  integers from 0 (default) to 16, tracked by the Horsened.
+
+  Race Place is a Horse switch with possible values of first,
+  second, third, and none (default), tracked by the Horsened.
+
+  A horse is Running if it has a Race Place of none.
+
+  When the race starts anew, each horse's Race Position is set to 0,
+  each horse's Race Place is set to none, all horses are transfered
+  to Agora, all dollaries and hooves are destroyed, and each player
+  receives 10 dollaries.
+history:
+- change:
+    type: enactment
+  date: 2022-08-14
+  agent:
+    proposal: "8822"

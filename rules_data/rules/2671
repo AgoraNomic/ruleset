@@ -1,0 +1,29 @@
+id: 2671
+name: Horse Multiplier
+power: 1
+text: |
+  A horse's current multiplier is based on the following chart:
+
+  1, 2, 3: The horse's Race Place is first, second, or third,
+  respectively.
+  O: The horse's Race Place is none and Race Position is 12 or more.
+  X: The horse's Race Place is none and Race Position is less than
+  12.
+
+
+  HORSE           1 2 3 O X
+  --------------------
+  Alexia          5 4 3 1 0
+  Baxter          5 4 3 1 0
+  Cannon          6 5 4 1 0
+  Destructor      6 5 4 1 0
+  Fargo           7 6 5 1 0
+  Nacho           7 6 5 1 0
+  Rubert          9 8 7 1 0
+  Sugar           9 8 7 1 0
+history:
+- change:
+    type: enactment
+  date: 2022-08-14
+  agent:
+    proposal: "8822"

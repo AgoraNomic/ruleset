@@ -1,0 +1,53 @@
+id: 2674
+name: Horse Powers
+power: 1
+text: |
+  Each horse has a power which applies only to the player that owns
+  it (the owner), and a cost (in dollaries). They are listed below.
+
+  HORSE           COST (dollaries)
+  --------------------
+  Alexia          10
+  Baxter          10
+  Cannon          8
+  Destructor      8
+  Fargo           6
+  Nacho           6
+  Rubert          4
+  Sugar           4
+
+  Alexia's power: Once per month, the owner CAN take a weekly race
+  action, so long as e specifies it's via this power in the same
+  message.
+
+  Baxter's power: Whenever Baxter moves forward because of being
+  chosen as the galloper, the owner gains 2 dollaries.
+
+  Cannon's power: Once per month, the owner CAN increase Cannon's
+  Race Position by 1 by announcement, if Cannon is Running.
+
+  Destructor's power: Once per month, the owner CAN decrease a
+  specified Running horse's Race Position by 1, twice, by
+  announcement.
+
+  Fargo's power: (WEEKLY POWER)  * get a helmet for and bet 2
+  dollaries on a specified horse, by paying 1 hoof.
+
+  Nacho's power: (WEEKLY POWER)  * get a jersey for a specified
+  horse, also specifying a horse to be added to another specified
+  horse's pull, by paying 1 hoof.
+
+  Rubert's power: (WEEKLY POWER)  * bet 1, 2, or 3 dollaries on a
+  specified horse, and if the horse has the lowest race position or
+  is tied for the lowest race position, increase its race position
+  by 1, 3 times, by paying a fee of 1, 2, or 3 dollaries
+  respectively.
+
+  Sugar's power: (WEEKLY POWER)  * get a helmet for and increase the
+  Race Position of a specified horse by 1, by paying 1 hoof.
+history:
+- change:
+    type: enactment
+  date: 2022-08-14
+  agent:
+    proposal: "8822"

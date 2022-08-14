@@ -1,0 +1,33 @@
+id: 2670
+name: Horse Victory
+power: 1
+text: |
+  When the race ends, the following happen, in order:
+
+  * the player that owns the horse with a Race Place of first gains
+    50 dollaries.
+
+  * the player that owns the horse with a Race Place of second gains
+    30 dollaries.
+
+  * the player that owns the horse with a Race Place of third gains
+    15 dollaries.
+
+  * For each horse, each player that got both a jersey and a helmet
+    for that horse since the last time the race started anew gains 5
+    dollaries.
+
+  * For each horse, each player gains a number of dollaries equal to
+    that horse's current multiplier * the number of dollaries e bet
+    on that horse since the last time the race started anew.
+
+  * The score of the player that has the most dollaries is increased
+    by 15.  In the event of a tie, instead, no score change occurs.
+
+  * The race starts anew.
+history:
+- change:
+    type: enactment
+  date: 2022-08-14
+  agent:
+    proposal: "8822"
