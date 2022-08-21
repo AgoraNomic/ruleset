@@ -38,10 +38,6 @@ text: |
   Publishing a report that deviates from these restrictions is the
   Class 2 infraction of Making My Eyes Bleed.
 
-  Officers SHOULD maintain a publicly visible copy of their reports
-  on the World Wide Web, and they SHOULD publish the address of this
-  copy along with their published reports.
-
   A player CAN, by announcement, petition a specified non-vacant
   office to take a specific action. The holder of that office SHALL
   publicly respond to that petition in a timely fashion.
@@ -244,6 +240,11 @@ history:
   date: 2022-07-24
   agent:
     proposal: "8811"
+- change:
+    type: amendment
+  date: 2022-08-20
+  agent:
+    proposal: "8833"
 annotations:
 - cfjs:
   - id: '2392'
