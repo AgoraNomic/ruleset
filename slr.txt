@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 14 Aug 2022
+Date of this ruleset: 21 Aug 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 151
+Number of rules currently enacted: 155
 
-Highest ID'd rule in this ruleset: 2675
-Highest ID'd Proposal Passed: 8826
-Highest ID'd Rule Enacted: 2675
+Highest ID'd rule in this ruleset: 2677
+Highest ID'd Proposal Passed: 8836
+Highest ID'd Rule Enacted: 2677
 
 ========================================================================
 The Game of Agora
@@ -1614,7 +1614,7 @@ Office Incompatibilities
       Overpowered player holds becomes vacant.
 
 ------------------------------------------------------------------------
-Rule 2143/36 (Power=1)
+Rule 2143/37 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -1653,13 +1653,34 @@ Official Reports and Duties
       Publishing a report that deviates from these restrictions is the
       Class 2 infraction of Making My Eyes Bleed.
       
-      Officers SHOULD maintain a publicly visible copy of their reports
-      on the World Wide Web, and they SHOULD publish the address of this
-      copy along with their published reports.
-      
       A player CAN, by announcement, petition a specified non-vacant
       office to take a specific action. The holder of that office SHALL
       publicly respond to that petition in a timely fashion.
+
+------------------------------------------------------------------------
+Rule 2677/0 (Power=0.5)
+Etiquette
+
+      Officers SHOULD:
+      
+       - publish dates in YYYY-MM-DD or DD Mon YY format in reports,
+         whichever is more fitting to the situation;
+      
+       - communicate a schedule of when regularly timed duties will
+         usually be done;
+      
+       - maintain an online version of eir report(s) in a browser-native
+         format (such as html); AND
+      
+       - maintain a repository of eir report(s) in a public place.
+      
+      Players SHOULD:
+      
+       - signal the official name of the primary action and/or the
+         relevant officer that tracks said actions in the title of a
+         public message; AND
+      
+       - be kind.
 
 ------------------------------------------------------------------------
 Rule 2667/0 (Power=1)
@@ -1867,12 +1888,11 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/23 (Power=1.7)
-Vigilante Justice
+Rule 2478/24 (Power=1.7)
+Justice
 
-      An Infraction is a violation of a SHALL or SHALL NOT in a rule.
-      The infracter for an infraction is the person who committed the
-      infraction.
+      An Infraction is a violation of a rule. The person who committed
+      an infraction is its infracter.
       
       The Investigator for an infraction is the Referee unless e is the
       infracter. Otherwise, it is the Arbitor.
@@ -1880,38 +1900,70 @@ Vigilante Justice
       The Class of an infraction is 2 unless a rule specifies a
       different Class for it.
       
-      When a player commits an infraction, N blots are created in eir
-      possession, where N is the class of the infraction.
+      The Base of an infraction is N, where N is the number of
+      previously-investigated, unforgiven infractions that have been
+      committed by the same person in the last 30 days. The previous
+      notwithstanding, if the base of an infraction would be greater
+      than its class, the infraction's base is equal to its class.
       
-      A player CAN, by announcement, "note" an infraction committed by
-      any other player in the last 7 days by specifying the incident and
-      the rule that contains the SHALL or SHALL NOT (or name of the
-      Infraction if it has one). The Investigator of an infraction CAN
-      and SHALL once by announcement grant 1 boatload of coins to the
-      player that noted the infraction in a timely manner after e does
-      so.
+      Within 14 days of an infraction being committed, the Investigator
+      CAN investigate the infraction by announcement, specifying a
+      number of blots between the Base and the Class of the infraction,
+      inclusive. When e does so, that many blots are created in the
+      possession of the infracter.
       
-      The Referee's weekly report contains a list of Infractions
-      committed in the previous week.
+      The previous notwithstanding, an Investigator CANNOT investigate
+      an infraction that has already been investigated or forgiven. The
+      Investigator of a noted, unforgiven infraction SHALL investigate
+      the infraction in a timely manner after it has been noted;
+      failure to do so is the Class N crime of Favoritism, where N is
+      equal to the Class of the noted infraction.
       
-      The Investigator of an infraction CAN, by announcement, "reduce"
-      the infraction by specifying a reason and a number between 1 and
-      half of N (inclusive and rounded up), where N is the class of the
-      infraction. When e does so, N (or all if N is greater than all)
-      blots in possession of the infracter are expunged. E SHOULD do so
-      if e believes the infraction was inconsequential or unavoidable,
-      or if e believes the infracter has fixed it or shown remorse.
+      A player CAN, by announcement, "note" an unforgiven infraction
+      committed by any other player in the last 7 days, specifying the
+      incident and the rule it violates (or name of the Infraction if
+      it has one).
       
-      The Investigator of an infraction CAN, by announcement, "increase"
-      the infraction by specifying a reason and a number between 1 and
-      half of N (inclusive and rounded down), where N is the class of
-      the infraction. When e does so, N blots are created in the
-      infracter's possession. E SHOULD do so if e believes the
-      infraction was harmful, belligerent, or intentional.
+      The Referee's weekly report contains a list of noted and
+      investigated Infractions committed in the previous week.
+
+------------------------------------------------------------------------
+Rule 2676/0 (Power=1.7)
+Forgiveness
+
+      All infractions that have not been forgiven are unforgiven.
       
-      The above notwithstanding, an infraction CANNOT be increased or
-      reduced if it happened more than 14 days ago or it has already
-      been increased or reduced.
+      Any player CAN, with Agoran Consent, "forgive" an unforgiven
+      infraction that occured in the last 30 days. When an infraction
+      is forgiven, if the infraction was investigated, a number of
+      blots in the possession of the infracter equal to the number of
+      blots specified by the investigation are destroyed or, if e has
+      less blots than specified, all eir blots are destroyed. The
+      previous notwithstanding, a player cannot forgive or support an
+      intent to forgive eir own infraction.
+
+------------------------------------------------------------------------
+Rule 2531/16 (Power=2)
+Defendant's Rights
+
+      An infraction is automatically forgiven if:
+      
+      (1) the alleged infracter can't be established by a preponderance
+          of the evidence to have committed the infraction
+      
+      (2) at the time the alleged infraction occured, it was not an
+          infraction;
+      
+      (3) the infraction was for failure to take an action that the
+          infracter, through no fault of eir own, COULD NOT have
+          performed;
+      
+      (4) the infraction is for conduct that the infracter, through no
+          fault of eir own, was obliged to undertake by a rule of equal
+          or greater power to the one e violated; or
+      
+      (5) the infracter could not have avoided the infraction when
+          exercising the highest reasonably possible standard of care;
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2458,12 +2510,19 @@ The Treasuror
       classes of assets.
 
 ------------------------------------------------------------------------
-Rule 2483/15 (Power=2)
+Rule 2483/16 (Power=2)
 Economics
 
       Coins are the official currency of Agora and are tracked by the
       Treasuror. They can be owned by players, contracts, and the Lost
       and Found Department.
+      
+      Any player CAN, with Agoran Consent, "distribute" coins in the
+      Lost and Found Department. When e does so, X/N coins, rounded
+      down, are transferred from the Lost & Found Department to each
+      active player, where X is the number of coins in the Lost & Found
+      Department and N is the number of active players. E SHOULD
+      announce how many coins each player receives when e does so.
 
 ------------------------------------------------------------------------
 Rule 2659/1 (Power=1)
@@ -3872,6 +3931,39 @@ Annual Awards
          who put the most persistent hard labor into keeping the game
          going through the performance of Officers' duties (additional
          information: offices held by the awardee during that year).
+
+------------------------------------------------------------------------
+Rule 2510/7 (Power=1)
+Such is Karma
+
+      Karma is an Agora and player integer switch tracked by the Herald
+      in eir Weekly Report.
+      
+      A player CAN publish a Notice of Honour. For a Notice of Honour to
+      be valid, it must:
+      
+      1. Be clear that it is a Notice of Honour, and be the first valid
+         Notice of Honour that player has published in the current week;
+      
+      2. Specify any other active player or Agora to gain karma, and
+        provide a reason for specifying that player; and
+      
+      3. Specify any active player or Agora to lose karma, and provide a
+         reason for specifying that player.
+      
+      4. Not result in Agora's karma moving farther away from 0.
+      
+      When a valid Notice of Honour is published, the entity specified
+      to gain karma has eir karma increased by one, and the entity
+      specified to lose karma has eir karma decreased by one.
+      
+      - The player with the highest karma (if any) is the Paragon.
+      
+      - The player with the lowest karma (if any) is the Renegade.
+      
+      At the beginning of each quarter, every player's Karma is set to
+      half of its current value, rounded towards 0. Agora's Karma is
+      then set to zero minus the sum of all player karma values.
 
 ------------------------------------------------------------------------
 ========================================================================
