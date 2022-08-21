@@ -1,0 +1,20 @@
+id: 2676
+name: Forgiveness
+power: 1.7
+text: |
+   All infractions that have not been forgiven are unforgiven.
+
+   Any player CAN, with Agoran Consent, "forgive" an unforgiven
+   infraction that occured in the last 30 days. When an infraction
+   is forgiven, if the infraction was investigated, a number of
+   blots in the possession of the infracter equal to the number of
+   blots specified by the investigation are destroyed or, if e has
+   less blots than specified, all eir blots are destroyed. The
+   previous notwithstanding, a player cannot forgive or support an
+   intent to forgive eir own infraction.
+history:
+- change:
+    type: enactment
+  date: 2022-08-20
+  agent:
+    proposal: "8830"

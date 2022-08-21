@@ -2,52 +2,24 @@ id: 2531
 name: Defendant's Rights
 power: 2
 text: |
-  Any attempt to levy a fine is INEFFECTIVE if it does not include
-  value of the fine in blots, the name of the person being fined
-  (the perp), and the specific reason for the fine.
+   An infraction is automatically forgiven if:
 
-  Any attempt to levy a fine pursuant to the imposition of the Cold
-  Hand of Justice is INEFFECTIVE if:
+   (1) the alleged infracter can't be established by a preponderance
+       of the evidence to have committed the infraction
 
-    (1) it attempts to levy a fine on a person when that person
-        can't be established by a preponderance of the evidence to
-        have committed the action or inaction for which the fine was
-        levied;
+   (2) at the time the alleged infraction occured, it was not an
+       infraction;
 
-    (2) it attempts to levy a fine for an action or inaction which,
-        at the time the inaction or action occurred, was not
-        prohibited by the rules;
+   (3) the infraction was for failure to take an action that the
+       infracter, through no fault of eir own, COULD NOT have
+       performed;
 
-    (3) it attempts to levy a fine on a person for failure to take
-        an action that e, through no fault of eir own, COULD NOT
-        have performed;
+   (4) the infraction is for conduct that the infracter, through no
+       fault of eir own, was obliged to undertake by a rule of equal
+       or greater power to the one e violated; or
 
-    (4) it attempts to levy a fine on a person for conduct that e,
-        through no fault of eir own, was obliged to undertake by a
-        rule of equal or greater power to the one e violated;
-
-    (5) it attempts to levy a fine on a person taking an action or
-        inaction e could not have avoided when exercising the
-        highest reasonably possible standard of care;
-
-    (6) it attempts to levy a fine with a value that is blatantly
-        and obviously unsuited to the conduct which constitutes the
-        reason for its levy or to the person on whom it is being
-        levied;
-
-    (7) it attempts to levy a fine based upon the investigation of
-        a Finger that had been Pointed more than 14 days after the
-        action constituting the reason for the fine;
-
-    (8) it attempts to levy a fine on a player for failing to take
-        an action within the time period set by the Rules and that
-        time period had expired more than 14 days prior to the
-        Pointed Finger, if the fine is imposed based on an
-        investigation of such Finger;
-
-    (9) it attempts to levy a fine on a player who has already been
-        fined for the conduct constituting the reason for the levy;
-        or
+   (5) the infracter could not have avoided the infraction when
+       exercising the highest reasonably possible standard of care;
 history:
 - change:
     type: enactment
@@ -148,6 +120,11 @@ history:
   date: 2022-07-24
   agent:
     proposal: "8811"
+- change:
+    type: reenactment
+  date: 2022-08-20
+  agent:
+    proposal: "8830"
 annotations:
 - cfjs:
   - id: 2531

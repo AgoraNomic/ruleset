@@ -1,49 +1,42 @@
 id: 2478
-name: Vigilante Justice
+name: Justice
 power: 1.7
 text: |
-  An Infraction is a violation of a SHALL or SHALL NOT in a rule.
-  The infracter for an infraction is the person who committed the
-  infraction.
+   An Infraction is a violation of a rule. The person who committed
+   an infraction is its infracter.
 
-  The Investigator for an infraction is the Referee unless e is the
-  infracter. Otherwise, it is the Arbitor.
+   The Investigator for an infraction is the Referee unless e is the
+   infracter. Otherwise, it is the Arbitor.
 
-  The Class of an infraction is 2 unless a rule specifies a
-  different Class for it.
+   The Class of an infraction is 2 unless a rule specifies a
+   different Class for it.
 
-  When a player commits an infraction, N blots are created in eir
-  possession, where N is the class of the infraction.
+   The Base of an infraction is N, where N is the number of
+   previously-investigated, unforgiven infractions that have been
+   committed by the same person in the last 30 days. The previous
+   notwithstanding, if the base of an infraction would be greater
+   than its class, the infraction's base is equal to its class.
 
-  A player CAN, by announcement, "note" an infraction committed by
-  any other player in the last 7 days by specifying the incident and
-  the rule that contains the SHALL or SHALL NOT (or name of the
-  Infraction if it has one). The Investigator of an infraction CAN
-  and SHALL once by announcement grant 1 boatload of coins to the
-  player that noted the infraction in a timely manner after e does
-  so.
+   Within 14 days of an infraction being committed, the Investigator
+   CAN investigate the infraction by announcement, specifying a
+   number of blots between the Base and the Class of the infraction,
+   inclusive. When e does so, that many blots are created in the
+   possession of the infracter.
 
-  The Referee's weekly report contains a list of Infractions
-  committed in the previous week.
+   The previous notwithstanding, an Investigator CANNOT investigate
+   an infraction that has already been investigated or forgiven. The
+   Investigator of a noted, unforgiven infraction SHALL investigate
+   the infraction in a timely manner after it has been noted;
+   failure to do so is the Class N crime of Favoritism, where N is
+   equal to the Class of the noted infraction.
 
-  The Investigator of an infraction CAN, by announcement, "reduce"
-  the infraction by specifying a reason and a number between 1 and
-  half of N (inclusive and rounded up), where N is the class of the
-  infraction. When e does so, N (or all if N is greater than all)
-  blots in possession of the infracter are expunged. E SHOULD do so
-  if e believes the infraction was inconsequential or unavoidable,
-  or if e believes the infracter has fixed it or shown remorse.
+   A player CAN, by announcement, "note" an unforgiven infraction
+   committed by any other player in the last 7 days, specifying the
+   incident and the rule it violates (or name of the Infraction if
+   it has one).
 
-  The Investigator of an infraction CAN, by announcement, "increase"
-  the infraction by specifying a reason and a number between 1 and
-  half of N (inclusive and rounded down), where N is the class of
-  the infraction. When e does so, N blots are created in the
-  infracter's possession. E SHOULD do so if e believes the
-  infraction was harmful, belligerent, or intentional.
-
-  The above notwithstanding, an infraction CANNOT be increased or
-  reduced if it happened more than 14 days ago or it has already
-  been increased or reduced.
+   The Referee's weekly report contains a list of noted and
+   investigated Infractions committed in the previous week.
 history:
 - change:
     type: enactment
@@ -165,4 +158,14 @@ history:
   date: 2022-07-24
   agent:
     proposal: "8811"
+- change:
+    type: retitling
+  date: 2022-08-20
+  agent:
+    proposal: "8830"
+- change:
+    type: amendment
+  date: 2022-08-20
+  agent:
+    proposal: "8830"
 annotations: []
