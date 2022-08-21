@@ -5,6 +5,13 @@ text: |
   Coins are the official currency of Agora and are tracked by the
   Treasuror. They can be owned by players, contracts, and the Lost
   and Found Department.
+
+  Any player CAN, with Agoran Consent, "distribute" coins in the
+  Lost and Found Department. When e does so, X/N coins, rounded
+  down, are transferred from the Lost & Found Department to each
+  active player, where X is the number of coins in the Lost & Found
+  Department and N is the number of active players. E SHOULD
+  announce how many coins each player receives when e does so.
 history:
 - change:
     type: enactment
@@ -86,4 +93,9 @@ history:
   date: 2020-10-28
   agent:
     proposal: "8514"
+- change:
+    type: amendment
+  date: 2022-08-20
+  agent:
+    proposal: "8832"
 annotations: []
