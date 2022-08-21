@@ -2,44 +2,34 @@ id: 2510
 name: Such is Karma
 power: 1
 text: |
-  Karma is a person switch tracked by the Herald in eir Weekly
-  Report. Karma is an Integer switch. Agora also has an instance of
-  the Karma switch.
+  Karma is an Agora and player integer switch tracked by the Herald
+  in eir Weekly Report.
 
-  A player CAN publish a Notice of Honour. For a Notice of Honour
-  to be valid, it must:
+  A player CAN publish a Notice of Honour. For a Notice of Honour to
+  be valid, it must:
 
   1. Be clear that it is a Notice of Honour, and be the first valid
      Notice of Honour that player has published in the current week;
 
-  2. Specify any other player or Agora to gain karma, and provide a
-     reason for specifying that player; and
+  2. Specify any other active player or Agora to gain karma, and
+    provide a reason for specifying that player; and
 
-  3. Specify any player or Agora to lose karma, and provide a reason
-     for specifying that player.
+  3. Specify any active player or Agora to lose karma, and provide a
+     reason for specifying that player.
+
+  4. Not result in Agora's karma moving farther away from 0.
 
   When a valid Notice of Honour is published, the entity specified
   to gain karma has eir karma increased by one, and the entity
-  specified to lose karma has eir karma decreased by one. Raising
-  one entity's karma while lowering another's in this manner is
-  considered to be a "transfer" of karma.
+  specified to lose karma has eir karma decreased by one.
 
-  A player's positions in Court are defined as follows:
+  - The player with the highest karma (if any) is the Paragon.
 
-  - Any player with a karma of 5 or greater is a Samurai.
+  - The player with the lowest karma (if any) is the Renegade.
 
-  - Any player with a karma of -5 or less is an Gamma.
-
-  - The Samurai with the highest karma (if any) is the Shogun.
-
-  - The Gamma with the lowest karma (if any) is the Honourless
-    Worm.
-
-  Each player's positions in Court are part of of the Herald's
-  Weekly Report.
-
-  At the beginning of each quarter, the Karma of every person is
-  halved (rounding towards 0).
+  At the beginning of each quarter, every player's Karma is set to
+  half of its current value, rounded towards 0. Agora's Karma is
+  then set to zero minus the sum of all player karma values.
 history:
 - change:
     type: enactment
@@ -81,4 +71,9 @@ history:
   date: 2021-01-26
   agent:
     proposal: "8530"
+- change:
+    type: reenactment
+  date: 2022-08-20
+  agent:
+    proposal: "8834"
 annotations: []
