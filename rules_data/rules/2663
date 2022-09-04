@@ -2,7 +2,7 @@ id: 2663
 name: Bird Migration
 power: 1
 text: |
-  A player CAN buy bird food by paying a fee of 5 boatloads of
+  A player CAN buy bird food by paying a fee of 3 boatloads of
   coins.
 
   A player CAN release a specified bird e owns, by announcement.
@@ -40,3 +40,8 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8662"
+- change:
+    type: amendment
+  date: 2022-08-30
+  agent:
+    proposal: "8846"

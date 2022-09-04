@@ -6,7 +6,7 @@ text: |
   tracked by the Avicultor in eir weekly report. A player with a
   Beast Permitted switch set to True is 'Beast Permitted'.
 
-  A player CAN buy a beast permit by paying a fee of 50 boatloads of
+  A player CAN buy a beast permit by paying a fee of 30 boatloads of
   coins. When a player buys a beast permit, eir Beast Permitted
   switch is set to True.
 
@@ -14,7 +14,7 @@ text: |
   player relinquishes eir beast permit, eir Beast Permitted switch
   is set to False.
 
-  A player CAN renew eir beast permit by paying a fee of 25
+  A player CAN renew eir beast permit by paying a fee of 15
   boatloads of coins.
 
   When permits expire, the Avicultor CAN and SHALL review each Beast
@@ -28,3 +28,8 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8662"
+- change:
+    type: amendment
+  date: 2022-08-30
+  agent:
+    proposal: "8846"
