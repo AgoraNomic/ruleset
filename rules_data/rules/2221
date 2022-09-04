@@ -10,6 +10,8 @@ text: |
 
   Any player CAN refile a rule without objection, specifying a new
   title; the rule is retitled to the specified title by this rule.
+
+  Cleaning rules is secured. Refiling rules is secured.
 history:
 - change:
     type: enactment
@@ -67,6 +69,11 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8445"
+- change:
+    type: amendment
+  date: 2022-08-30
+  agent:
+    proposal: "8840"
 annotations:
 - cfjs:
   - id: 3800-3803
