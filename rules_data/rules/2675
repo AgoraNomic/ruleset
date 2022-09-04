@@ -1,6 +1,6 @@
 id: 2675
 name: Dream of Wandering
-power: 1
+power: 2
 text: |
   The Dreamor is an office; its holder is responsible for keeping
   track of the dreams of all active players.
@@ -66,3 +66,10 @@ history:
   date: 2022-08-14
   agent:
     proposal: "8826"
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 2
+  date: 2022-08-30
+  agent:
+    proposal: "8844"
