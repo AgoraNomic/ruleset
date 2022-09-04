@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 Aug 2022
+Date of this ruleset: 4 Sep 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 155
+Number of rules currently enacted: 153
 
 Highest ID'd rule in this ruleset: 2677
-Highest ID'd Proposal Passed: 8836
+Highest ID'd Proposal Passed: 8846
 Highest ID'd Rule Enacted: 2677
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -47,7 +47,6 @@ Entities
 Proposals
    * Rule 2350: Proposals
    * Rule 2625: Proposal Recycling
-   * Rule 2605: Ministries
    * Rule 2606: Proposal Classes
    * Rule 1607: Distribution
    * Rule 2137: The Assessor
@@ -136,7 +135,6 @@ Economics
    * Rule 2496: Rewards
    * Rule 2559: Paydays
    * Rule 2666: L&FD Auctions
-   * Rule 2638: Player Focuses
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2545: Auctions
@@ -207,10 +205,10 @@ Power Distribution:
 
 1  with Power=0.3
 1  with Power=0.5
-53 with Power=1
+52 with Power=1
 3  with Power=1.5
 5  with Power=1.7
-32 with Power=2
+31 with Power=2
 1  with Power=2.2
 1  with Power=2.5
 48 with Power=3
@@ -279,13 +277,13 @@ CFJ 3839 (called 03 Jun 2020): The game of Agora cannot end now; whether
     it will ever do so cannot be ascertained.
 
 ------------------------------------------------------------------------
-Rule 1698/6 (Power=4)
+Rule 1698/7 (Power=4)
 Agora Is A Nomic
 
       Agora is ossified if it is IMPOSSIBLE for any reasonable
       combination of actions by players to cause arbitrary rule changes
       to be made and/or arbitrary proposals to be adopted within a
-      four-week period.
+      real-world (UTC) four-week period.
       
       If, but for this rule, the net effect of a proposal would cause
       Agora to become ossified, or would cause Agora to cease to exist,
@@ -307,6 +305,7 @@ Amended(5) by P7889 'Agora Protection Act' (Aspen), 26 Sep 2017
 Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aspen), 26
    Sep 2017
 Amended(6) by cleaning (Murphy), 03 Mar 2020
+Amended(7) by P8843 'Time B Safe' (G., Jason, Murphy), 30 Aug 2022
 
 Annotations:
 
@@ -1701,36 +1700,6 @@ Amended(1) by P8418 'Referenda' (Aspen), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2605/2 (Power=2.0)
-Ministries
-
-      A Ministry is an entity defined as such by this rule. Each
-      Ministry has a goal. The Ministries of Agora, and their goals,
-      are as follows:
-      
-      A. Ministry of Compliance: Ensure players follow rules and
-      voluntary agreements and receive appropriate sanctions when they
-      do not.
-      B. Ministry of Legislation: Enable and encourage gameplay
-      related to the rules themselves.
-      C. Ministry of Economy: Enable and encourage gameplay related to
-      assets and currencies.
-      D. Ministry of Legacy: Track and reward great Agoran
-      achievements
-      E. Ministry of Participation: Track information about the
-      participation of people in Agora.
-
-History:
-
-Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
-   Gaelan, G., Jason, twg), 29 Jan 2020
-Amended(1) by P8319 'Sergeant-at-Arms' (Aspen), 13 Feb 2020
-Amended(2) by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct
-   2020
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2606/3 (Power=2.0)
 Proposal Classes
 
@@ -2651,7 +2620,7 @@ Amended(23) by cleaning (Jason), 29 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2221/8 (Power=3)
+Rule 2221/9 (Power=3)
 Cleanliness and Tidy Filing
 
       Any player CAN clean a rule without objection by specifying one or
@@ -2662,6 +2631,8 @@ Cleanliness and Tidy Filing
       
       Any player CAN refile a rule without objection, specifying a new
       title; the rule is retitled to the specified title by this rule.
+      
+      Cleaning rules is secured. Refiling rules is secured.
 
 History:
 
@@ -2681,6 +2652,7 @@ Re-enacted(6) and amended by P8000 'Older Cleanliness' (Alexis), 31 Jan
 Amended(7) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(8) by P8445 'Easier retitling' (Aspen), 30 Jun 2020
 Retitled by P8445 'Easier retitling' (Aspen), 30 Jun 2020
+Amended(9) by P8840 'Cleanliness security' (Jason), 30 Aug 2022
 
 Annotations:
 CFJ 3800-3803 (called 25 Jan 2020): For a cleaning to replace a word
@@ -6091,31 +6063,6 @@ Amended(1) by P8680 'Auction conduction fix v2' (Jason, G.), 28 May 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2638/1 (Power=2.0)
-Player Focuses
-
-      Ministry Focus (or just Focus) is a secured active player switch,
-      tracked by the Ministor in eir monthly report, with possible values
-      Unfocused (the default) and any Ministry.
-      
-      An active player CAN Plan to Flip eir own Ministry Focus,
-      specifying any valid value for eir Ministry Focus, by
-      announcement. When the rules state that the winds change, every
-      active player's Ministry Focus is set to the value e mostly
-      recently specified by Planning to Flip. If a player did not Plan
-      to Flip eir Ministry Focus switch since the last time the winds
-      changed, it is not flipped.
-      
-      The winds change at the beginning of each month.
-
-History:
-
-Enacted by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct 2020
-Amended(1) by P8628 'tacking into the win' (G.), 18 Oct 2021
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2499/18 (Power=1)
 Welcome Packages
 
@@ -6265,7 +6212,7 @@ Amended(7) by P8811 'Infractions' (nix), 24 Jul 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2675/0 (Power=1)
+Rule 2675/0 (Power=2)
 Dream of Wandering
 
       The Dreamor is an office; its holder is responsible for keeping
@@ -6331,6 +6278,8 @@ History:
 
 Enacted by P8826 'Dream of Wandering' (Secretsnail9, 4st, nix, Madrid,
    Jason), 14 Aug 2022
+Power changed from 1 to 2 by P8844 'Fix Dreams' (4st, Jason), 30 Aug
+   2022
 
 Annotations:
 
@@ -6471,7 +6420,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/9 (Power=2)
+Rule 2645/10 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6490,9 +6439,8 @@ The Stones
       - Sabotage Stone (weekly, 80%): The adoption index of a specified
         AI-majority Agoran decision is hereby increased by 1.
       
-      - Concentration Stone (monthly, 60%): A specified player
-        (defaulting to the wielder if not specified) gains the Grant
-        associated with eir Focus.
+      Jockey Stone (monthly, 60%): A specified Running horse's Race
+      Position is increased by 1.
       
       - Protection Stone (monthly, 70%): A specified stone is granted
         immunity.
@@ -6530,6 +6478,8 @@ Amended(7) by P8660 'The End of Sets' (nix, G., Jason, Secretsnail9), 03
    Apr 2022
 Amended(8) by R2658, 09 Jun 2022
 Amended(9) by P8704 'Tasty Stone' (4st), 17 Jul 2022
+Amended(10) by P8842 'Losing Focus' (Pilgore, nix, Jason, Madrid), 30
+   Aug 2022
 
 Annotations:
 
@@ -6842,14 +6792,14 @@ Amended(1) by P8811 'Infractions' (nix), 24 Jul 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2661/0 (Power=1)
+Rule 2661/1 (Power=1)
 Permits
 
       Beast Permitted is a secured negative boolean person switch,
       tracked by the Avicultor in eir weekly report. A player with a
       Beast Permitted switch set to True is 'Beast Permitted'.
       
-      A player CAN buy a beast permit by paying a fee of 50 boatloads of
+      A player CAN buy a beast permit by paying a fee of 30 boatloads of
       coins. When a player buys a beast permit, eir Beast Permitted
       switch is set to True.
       
@@ -6857,7 +6807,7 @@ Permits
       player relinquishes eir beast permit, eir Beast Permitted switch
       is set to False.
       
-      A player CAN renew eir beast permit by paying a fee of 25
+      A player CAN renew eir beast permit by paying a fee of 15
       boatloads of coins.
       
       When permits expire, the Avicultor CAN and SHALL review each Beast
@@ -6869,6 +6819,7 @@ Permits
 History:
 
 Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
+Amended(1) by P8846 'The Cheepening' (Secretsnail9), 30 Aug 2022
 
 Annotations:
 
@@ -6891,10 +6842,10 @@ Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2663/0 (Power=1)
+Rule 2663/1 (Power=1)
 Bird Migration
 
-      A player CAN buy bird food by paying a fee of 5 boatloads of
+      A player CAN buy bird food by paying a fee of 3 boatloads of
       coins.
       
       A player CAN release a specified bird e owns, by announcement.
@@ -6930,6 +6881,7 @@ Bird Migration
 History:
 
 Enacted by P8662 'Birds! v2' (Secretsnail9, Jason, Telna), 03 Apr 2022
+Amended(1) by P8846 'The Cheepening' (Secretsnail9), 30 Aug 2022
 
 Annotations:
 

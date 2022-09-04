@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 Aug 2022
+Date of this ruleset: 4 Sep 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 155
+Number of rules currently enacted: 153
 
 Highest ID'd rule in this ruleset: 2677
-Highest ID'd Proposal Passed: 8836
+Highest ID'd Proposal Passed: 8846
 Highest ID'd Rule Enacted: 2677
 
 ========================================================================
@@ -28,13 +28,13 @@ The Game of Agora
       Please treat Agora Right Good Forever.
 
 ------------------------------------------------------------------------
-Rule 1698/6 (Power=4)
+Rule 1698/7 (Power=4)
 Agora Is A Nomic
 
       Agora is ossified if it is IMPOSSIBLE for any reasonable
       combination of actions by players to cause arbitrary rule changes
       to be made and/or arbitrary proposals to be adopted within a
-      four-week period.
+      real-world (UTC) four-week period.
       
       If, but for this rule, the net effect of a proposal would cause
       Agora to become ossified, or would cause Agora to cease to exist,
@@ -601,26 +601,6 @@ Proposal Recycling
       become pended.
 
 ------------------------------------------------------------------------
-Rule 2605/2 (Power=2.0)
-Ministries
-
-      A Ministry is an entity defined as such by this rule. Each
-      Ministry has a goal. The Ministries of Agora, and their goals,
-      are as follows:
-      
-      A. Ministry of Compliance: Ensure players follow rules and
-      voluntary agreements and receive appropriate sanctions when they
-      do not.
-      B. Ministry of Legislation: Enable and encourage gameplay
-      related to the rules themselves.
-      C. Ministry of Economy: Enable and encourage gameplay related to
-      assets and currencies.
-      D. Ministry of Legacy: Track and reward great Agoran
-      achievements
-      E. Ministry of Participation: Track information about the
-      participation of people in Agora.
-
-------------------------------------------------------------------------
 Rule 2606/3 (Power=2.0)
 Proposal Classes
 
@@ -990,7 +970,7 @@ The Logical Rulesets
          ID number, author, and coauthor(s) (if any).
 
 ------------------------------------------------------------------------
-Rule 2221/8 (Power=3)
+Rule 2221/9 (Power=3)
 Cleanliness and Tidy Filing
 
       Any player CAN clean a rule without objection by specifying one or
@@ -1001,6 +981,8 @@ Cleanliness and Tidy Filing
       
       Any player CAN refile a rule without objection, specifying a new
       title; the rule is retitled to the specified title by this rule.
+      
+      Cleaning rules is secured. Refiling rules is secured.
 
 ------------------------------------------------------------------------
 Rule 2429/1 (Power=1)
@@ -2647,24 +2629,6 @@ L&FD Auctions
       The currency of a L&FD Auction is coins (minimum bid 1).
 
 ------------------------------------------------------------------------
-Rule 2638/1 (Power=2.0)
-Player Focuses
-
-      Ministry Focus (or just Focus) is a secured active player switch,
-      tracked by the Ministor in eir monthly report, with possible values
-      Unfocused (the default) and any Ministry.
-      
-      An active player CAN Plan to Flip eir own Ministry Focus,
-      specifying any valid value for eir Ministry Focus, by
-      announcement. When the rules state that the winds change, every
-      active player's Ministry Focus is set to the value e mostly
-      recently specified by Planning to Flip. If a player did not Plan
-      to Flip eir Ministry Focus switch since the last time the winds
-      changed, it is not flipped.
-      
-      The winds change at the beginning of each month.
-
-------------------------------------------------------------------------
 Rule 2499/18 (Power=1)
 Welcome Packages
 
@@ -2747,7 +2711,7 @@ Auctions
       reasonably inferred.
 
 ------------------------------------------------------------------------
-Rule 2675/0 (Power=1)
+Rule 2675/0 (Power=2)
 Dream of Wandering
 
       The Dreamor is an office; its holder is responsible for keeping
@@ -2901,7 +2865,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/9 (Power=2)
+Rule 2645/10 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2920,9 +2884,8 @@ The Stones
       - Sabotage Stone (weekly, 80%): The adoption index of a specified
         AI-majority Agoran decision is hereby increased by 1.
       
-      - Concentration Stone (monthly, 60%): A specified player
-        (defaulting to the wielder if not specified) gains the Grant
-        associated with eir Focus.
+      Jockey Stone (monthly, 60%): A specified Running horse's Race
+      Position is increased by 1.
       
       - Protection Stone (monthly, 70%): A specified stone is granted
         immunity.
@@ -3175,14 +3138,14 @@ Birds
       Unpermitted Beast Transit.
 
 ------------------------------------------------------------------------
-Rule 2661/0 (Power=1)
+Rule 2661/1 (Power=1)
 Permits
 
       Beast Permitted is a secured negative boolean person switch,
       tracked by the Avicultor in eir weekly report. A player with a
       Beast Permitted switch set to True is 'Beast Permitted'.
       
-      A player CAN buy a beast permit by paying a fee of 50 boatloads of
+      A player CAN buy a beast permit by paying a fee of 30 boatloads of
       coins. When a player buys a beast permit, eir Beast Permitted
       switch is set to True.
       
@@ -3190,7 +3153,7 @@ Permits
       player relinquishes eir beast permit, eir Beast Permitted switch
       is set to False.
       
-      A player CAN renew eir beast permit by paying a fee of 25
+      A player CAN renew eir beast permit by paying a fee of 15
       boatloads of coins.
       
       When permits expire, the Avicultor CAN and SHALL review each Beast
@@ -3212,10 +3175,10 @@ Playing with Birds
       transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2663/0 (Power=1)
+Rule 2663/1 (Power=1)
 Bird Migration
 
-      A player CAN buy bird food by paying a fee of 5 boatloads of
+      A player CAN buy bird food by paying a fee of 3 boatloads of
       coins.
       
       A player CAN release a specified bird e owns, by announcement.
