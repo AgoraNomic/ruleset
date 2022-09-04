@@ -18,9 +18,8 @@ text: |
   - Sabotage Stone (weekly, 80%): The adoption index of a specified
     AI-majority Agoran decision is hereby increased by 1.
 
-  - Concentration Stone (monthly, 60%): A specified player
-    (defaulting to the wielder if not specified) gains the Grant
-    associated with eir Focus.
+  Jockey Stone (monthly, 60%): A specified Running horse's Race
+  Position is increased by 1.
 
   - Protection Stone (monthly, 70%): A specified stone is granted
     immunity.
@@ -92,4 +91,9 @@ history:
   date: 2022-07-17
   agent:
     proposal: "8704"
+- change:
+    type: amendment
+  date: 2022-08-30
+  agent:
+    proposal: "8842"
 annotations: []
