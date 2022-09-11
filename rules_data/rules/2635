@@ -3,9 +3,9 @@ name: Floating Rate Fleet
 power: 1.0
 text: |
   The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
-  rounded up, and is tracked in the Treasuror's weekly report.  A
-  boatload of something is a quantity of that thing equal in count
-  to the Unit of Flotation.
+  rounded up, with a minimum of 1, and is tracked in the Treasuror's
+  weekly report. A boatload of something is a quantity of that thing
+  equal in count to the Unit of Flotation.
 
   The Treasuror is ENCOURAGED to arrange for the new Total Buoyancy
   and Unit of Flotation to be published as close as possible to the
@@ -32,4 +32,9 @@ history:
   agent:
     cleaning:
       by: Telna
+- change:
+    type: amendment
+  date: 2022-09-11
+  agent:
+    proposal: "8849"
 annotations: []
