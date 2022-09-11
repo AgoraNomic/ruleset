@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 4 Sep 2022
+Date of this ruleset: 11 Sep 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 153
+Number of rules currently enacted: 147
 
 Highest ID'd rule in this ruleset: 2677
-Highest ID'd Proposal Passed: 8846
+Highest ID'd Proposal Passed: 8855
 Highest ID'd Rule Enacted: 2677
 
 ========================================================================
@@ -51,7 +51,7 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/48 (Power=3)
+Rule 869/49 (Power=3)
 How to Join and Leave Agora
 
       Any entity (including a group of confederated entities) that is or
@@ -86,6 +86,21 @@ How to Join and Leave Agora
       or reasonably implied consent. The rules CANNOT compel players to
       unduly harass non-players. A non-person CANNOT be a player, rules
       to the contrary notwithstanding.
+      
+      Banned is a secured negative boolean person switch tracked by the
+      Registrar. A person is unwelcome if e is Banned or if at least one
+      part of em is unwelcome. Rules to the contrary notwithstanding, an
+      unwelcome person CANNOT register or be registered, and e is
+      immediately deregistered if e is ever a player. Designations of
+      unwelcomeness are secured.
+      
+      Unwelcomeness is to be used only to make a social statement that
+      the Agoran community no longer wishes to interact with certain
+      persons; in particular, it is not to be used to acquire gameplay
+      advantage. As such, an unwelcome person SHOULD NOT, under any
+      circumstances, attempt to bypass unwelcomeness, and e SHOULD
+      carefully consider the circumstances of eir becoming unwelcome
+      before participating in public or discussion fora.
 
 ------------------------------------------------------------------------
 Rule 478/40 (Power=3)
@@ -1834,7 +1849,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/13 (Power=2)
+Rule 2555/14 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -1843,8 +1858,8 @@ Blots
       Fugitive. The Referee is an office, and the recordkeepor for
       blots.
       
-      To expunge a blot is to destroy it. Destroying blots is secured
-      with a Power Threshold of 1.7.
+      To expunge a blot is to destroy it. Creating and destroying blots
+      is secured with a Power Threshold of 1.7
       
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
@@ -2551,13 +2566,13 @@ Buoyancy Control
       the Buoyancy Target.
 
 ------------------------------------------------------------------------
-Rule 2635/3 (Power=1.0)
+Rule 2635/4 (Power=1.0)
 Floating Rate Fleet
 
       The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
-      rounded up, and is tracked in the Treasuror's weekly report.  A
-      boatload of something is a quantity of that thing equal in count
-      to the Unit of Flotation.
+      rounded up, with a minimum of 1, and is tracked in the Treasuror's
+      weekly report. A boatload of something is a quantity of that thing
+      equal in count to the Unit of Flotation.
       
       The Treasuror is ENCOURAGED to arrange for the new Total Buoyancy
       and Unit of Flotation to be published as close as possible to the
@@ -3111,165 +3126,6 @@ Scoring
         * Receiving any patent title: 10 (Herald).
       
         * Receiving a ribbon: 5 (Tailor).
-
-------------------------------------------------------------------------
-========================================================================
-Birds
-   A game in which players make a futile attempt to wrangle birds, who
-   do not care what we puny humans have to say about them.
-------------------------------------------------------------------------
-Rule 2660/1 (Power=1)
-Birds
-
-      A bird is a unique indestructible liquid asset defined by the
-      rules. To define a bird, the definition must include:
-        (i) A name unique among birds;
-       (ii) A scroll, which is a document specifying the effects of the
-            bird.
-      
-      Ownership of birds is entirely restricted to Agora and active
-      players. If a bird is owned by the Lost and Found Department or in
-      abeyance, it is immediately transferred to Agora.
-      
-      The Avicultor is an office, and the recordkeepor of birds.
-      
-      A player that is not Beast Permitted SHALL NOT transfer a bird e
-      owns to another player; doing so is the Class 3 infraction of
-      Unpermitted Beast Transit.
-
-------------------------------------------------------------------------
-Rule 2661/1 (Power=1)
-Permits
-
-      Beast Permitted is a secured negative boolean person switch,
-      tracked by the Avicultor in eir weekly report. A player with a
-      Beast Permitted switch set to True is 'Beast Permitted'.
-      
-      A player CAN buy a beast permit by paying a fee of 30 boatloads of
-      coins. When a player buys a beast permit, eir Beast Permitted
-      switch is set to True.
-      
-      A player CAN relinquish eir beast permit by announcement. When a
-      player relinquishes eir beast permit, eir Beast Permitted switch
-      is set to False.
-      
-      A player CAN renew eir beast permit by paying a fee of 15
-      boatloads of coins.
-      
-      When permits expire, the Avicultor CAN and SHALL review each Beast
-      Permitted player, with notice, in a timely fashion. When a Beast
-      Permitted player is reviewed, if e has niether bought a beast
-      permit nor renewed eir beast permit in the past 30 days, eir Beast
-      Permitted switch is set to False.
-
-------------------------------------------------------------------------
-Rule 2662/0 (Power=1)
-Playing with Birds
-
-      Except as otherwise specified by the rules, the owner of a bird
-      CAN play with it by announcement, specifying any values needed to
-      interpret the bird's effects.
-      
-      When a bird is played with, the Rule defining that bird applies
-      the effects in that bird's scroll, and then that bird is
-      transferred to Agora.
-
-------------------------------------------------------------------------
-Rule 2663/1 (Power=1)
-Bird Migration
-
-      A player CAN buy bird food by paying a fee of 3 boatloads of
-      coins.
-      
-      A player CAN release a specified bird e owns, by announcement.
-      When a bird is released, it is transferred to Agora.
-      
-      Once per month, a Beast Permitted Player CAN transfer a specified
-      bird owned by Agora to emself by announcement.
-      
-      Once per month, the Avicultor CAN publish a migration notice by
-      announcement, specifying all necessary information and choices;
-      this constitutes eir monthly report. The Avicultor SHALL publish
-      such a notice in a timely fashion after the beginning of each
-      Agoran month.
-      
-      The number of times each player bought bird food in the previous
-      month is included in the migration notice.
-      
-      A bird not owned by the player(s) who bought bird food the most
-      times during the previous month is a Hungry Bird.
-      
-      For each Hungry Bird, a random choice among all players who bought
-      bird food during the previous month is included alongside that
-      bird in the migration notice.
-      
-      When a migration notice is published, Hungry Birds are transferred
-      to their corresponding randomly chosen players in an order
-      specified by the migration notice.
-      
-      If a bird being transferred to a player would cause that player to
-      have more birds than the number of times e bought bird food during
-      the previous month, that bird is instead transferred to Agora.
-
-------------------------------------------------------------------------
-Rule 2664/1 (Power=1)
-One with Nature
-
-      A player CAN, by announcement, Free the Birds, specifying a single
-      player that owns at least 90% of all birds, provided that no
-      person has won the game by doing so in the past 30 days.
-      
-      When the Birds are Freed, the specified player wins the game.  If
-      a player won the game in this manner 4 days ago, then all existing
-      birds are transferred to Agora and permits expire.
-
-------------------------------------------------------------------------
-Rule 2665/3 (Power=1)
-The Birds
-
-      'The playmate' is the player who played with the bird to make its
-      scroll activate. Players are ENCOURAGED to propose an addition to
-      this rule if it has not been changed within the last 30 days.
-      
-      The following birds are defined, one per paragraph, with the
-      following format: Bird Name: Scroll.
-      
-      - Seagull: A specified player (defaulting to the playmate if not
-        specified) buys bird food 3 times.
-      
-      - Goldfinch: A specified player (defaulting to the playmate if
-        not specified) gains N boatloads of coins, where N is the number
-        of times e has bought bird food this month.
-      
-      - Raven: A specified bird is transferred to Agora.
-      
-      - Emu: A specified player gains 1 blot.
-      
-      - Owl: A specified bird cannot be played with until next month,
-        rules to the contrary notwithstanding.
-      
-      - Magpie: A specified bird that is owned by a player is
-        transferred to the playmate.
-      
-      - Pigeon: The playmate gains 2 blots.
-      
-      - Penguin: If the playmate is Beast Permitted, e gains 6 boatloads
-        of coins. Otherwise, the playmate gains 1 blot and 3 boatloads
-        of coins.
-      
-      - Cockatiel: A specified player that is not the playmate buys bird
-        food 2 times.
-      
-      - Jay: The voting strength of the playmate on a specified
-        referendum is increased by 3.
-      
-      - Bowerbird: A specified stone that is owned by a player is
-        transferred to the playmate.
-      
-      - Canary: The score of a specified player is decreased by 2.
-      
-      - Crow: The score of a specified player (defaulting to the
-        playmate if not specified) is increased by 2.
 
 ------------------------------------------------------------------------
 ========================================================================
