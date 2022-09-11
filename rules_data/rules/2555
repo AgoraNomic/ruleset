@@ -8,8 +8,8 @@ text: |
   Fugitive. The Referee is an office, and the recordkeepor for
   blots.
 
-  To expunge a blot is to destroy it. Destroying blots is secured
-  with a Power Threshold of 1.7.
+  To expunge a blot is to destroy it. Creating and destroying blots
+  is secured with a Power Threshold of 1.7
 
   A person CAN, by announcement, create a specified number of blots
   in eir possession.
@@ -93,4 +93,9 @@ history:
   date: 2022-07-24
   agent:
     proposal: "8811"
+- change:
+    type: amendment
+  date: 2022-09-11
+  agent:
+    proposal: "8852"
 annotations: []
