@@ -15,7 +15,7 @@ text: |
   the auction winners from among the current players, and enabling
   the appropriate exchange of goods. Persons who voluntarily
   participate in an auction (including the auctioneer) SHALL NOT
-  violate requirements that auction's method that are clearly
+  violate requirements of that auction's method that are clearly
   intended to be punishable as rules violations; doing so is the
   Class N infraction of Auction Manipulation, where N is the class
   specified in the auction method (or 2 otherwise).
@@ -88,4 +88,9 @@ history:
   date: 2022-07-24
   agent:
     proposal: "8811"
+- change:
+    type: amendment
+  date: 2022-10-01
+  agent:
+    proposal: "8858"
 annotations: []
