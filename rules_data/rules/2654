@@ -105,6 +105,11 @@ text: |
     * If a device has a judgement assigned, a player CAN enter that
       judgement into Moot with N+2 support, where N is the number of
       weeks since that judgement has been assigned, rounded down.
+    * The device can be made using any physical or computational
+      process whose probability distribution among the possible
+      outcomes is reasonably close to that required by the Rules,
+      and for which the final device is not trivially predictable by
+      the selecting person in advance.
 history:
 - change:
     type: enactment
@@ -350,5 +355,12 @@ history:
   agent:
     experiment:
       id: 43
+      engineer: Jason
+- change:
+    type: amendment
+  date: 2022-10-30
+  agent:
+    experiment:
+      id: 57
       engineer: Jason
 annotations: []
