@@ -2,7 +2,7 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 23 Oct 2022
+Date of this ruleset: 30 Oct 2022
 
 Date of last SLR ratification: 8 May 2019
 
@@ -6500,7 +6500,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/35 (Power=1)
+Rule 2654/36 (Power=1)
 The Device
 
       When the device is on:
@@ -6606,6 +6606,11 @@ The Device
         * If a device has a judgement assigned, a player CAN enter that
           judgement into Moot with N+2 support, where N is the number of
           weeks since that judgement has been assigned, rounded down.
+        * The device can be made using any physical or computational
+          process whose probability distribution among the possible
+          outcomes is reasonably close to that required by the Rules,
+          and for which the final device is not trivially predictable by
+          the selecting person in advance.
 
 History:
 
@@ -6645,6 +6650,7 @@ Amended(32) by Experiment #37 under Mad Engineer ais523, 29 May 2022
 Amended(33) by Experiment #38 under Mad Engineer ais523, 05 Jun 2022
 Amended(34) by Experiment #40 under Mad Engineer ais523, 17 Jun 2022
 Amended(35) by Experiment #43 under Mad Engineer Jason, 24 Jul 2022
+Amended(36) by Experiment #57 under Mad Engineer Jason, 30 Oct 2022
 
 Annotations:
 
