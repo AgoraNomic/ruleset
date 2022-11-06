@@ -12,8 +12,7 @@ text: |
 
   The parameters N and T, if omitted, default to 1 and 4 days,
   respectively (e.g. "without objection" means N=1). If a rule
-  defines N as less than 1 or greater than 8, it is instead treated
-  as 1 or 8, respectively.
+  defines N as less than 1, it is instead treated as 1.
 
   A person, acting as emself, CAN by announcement table an intent
   (syn.  "intend") to perform a tabled action, clearly,
@@ -282,6 +281,11 @@ history:
   date: 2022-07-24
   agent:
     proposal: "8718"
+- change:
+    type: amendment
+  date: 2022-11-06
+  agent:
+    proposal: "8861"
 annotations:
 - cfjs:
   - id: '1722'
