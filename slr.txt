@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Oct 2022
+Date of this ruleset: 6 Nov 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 147
 
 Highest ID'd rule in this ruleset: 2677
-Highest ID'd Proposal Passed: 8858
+Highest ID'd Proposal Passed: 8861
 Highest ID'd Rule Enacted: 2677
 
 ========================================================================
@@ -366,7 +366,7 @@ Agoran Time
              or earlier time of day.
 
 ------------------------------------------------------------------------
-Rule 1728/45 (Power=3)
+Rule 1728/46 (Power=3)
 Tabled Actions
 
       An action is a Tabled Action if the Rules purport to authorize its
@@ -379,8 +379,7 @@ Tabled Actions
       
       The parameters N and T, if omitted, default to 1 and 4 days,
       respectively (e.g. "without objection" means N=1). If a rule
-      defines N as less than 1 or greater than 8, it is instead treated
-      as 1 or 8, respectively.
+      defines N as less than 1, it is instead treated as 1.
       
       A person, acting as emself, CAN by announcement table an intent
       (syn.  "intend") to perform a tabled action, clearly,
