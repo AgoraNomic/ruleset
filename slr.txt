@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 6 Nov 2022
+Date of this ruleset: 13 Nov 2022
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 147
 
 Highest ID'd rule in this ruleset: 2677
-Highest ID'd Proposal Passed: 8861
+Highest ID'd Proposal Passed: 8865
 Highest ID'd Rule Enacted: 2677
 
 ========================================================================
@@ -2726,7 +2726,7 @@ Auctions
       reasonably inferred.
 
 ------------------------------------------------------------------------
-Rule 2675/0 (Power=2)
+Rule 2675/1 (Power=2)
 Dream of Wandering
 
       The Dreamor is an office; its holder is responsible for keeping
@@ -2786,7 +2786,8 @@ Dream of Wandering
         Dreamer.  This reduction can only apply to one stone e owns.
         This reduction is removed after the Stonemason publishes a
         collection notice.
-      - Dream of Power: Eir Voting Strength is 2 greater.
+      - Dream of Power: Eir voting strength is increased by 2 for
+        referenda on ordinary proposals.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2880,17 +2881,17 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/10 (Power=2)
+Rule 2645/11 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
       following format: Stone Name (Frequency, Escape Risk): Scroll.
       
       - Power Stone (weekly, 40%): A specified player (defaulting to the
-        wielder if not specified) hereby Buys Strength 3 times.
-      
-      - Wealth Stone (weekly, 50%): A specified player (defaulting to
-        the wielder if not specified) hereby gains 5 boatloads of coins.
+        wielder if not specified) is Power Stoned; Power Stoning is
+        secured. A player's voting strength on a referendum on an
+        ordinary proposal is increased by 3 for each time that e was
+        Power Stoned during the referendum's voting period.
       
       - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
         to the owner of a different specified non-immune stone, then
@@ -2919,8 +2920,8 @@ The Stones
       
       - Blank Stone (Monthly, 5%): This stone has no effect.
       
-      - Tasty Stone (Monthly, 70%): A specified bird that is owned by a
-        player is transferred to the wielder.
+      - Score Stone (Weekly, 3): A specified player's (defaulting to the
+        wielder if not specified) Score is increased by 3.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3244,11 +3245,11 @@ Horse Multiplier
       Sugar           9 8 7 1 0
 
 ------------------------------------------------------------------------
-Rule 2672/0 (Power=1)
+Rule 2672/1 (Power=1)
 Weekly Race Action
 
       Each player CAN take one of the following actions (weekly race
-      actions) if they have not already taken one this week:
+      actions) if e has not already taken one this week
       
       * bet 1, 2, or 3 dollaries on a specified horse by paying a fee of
         1, 2, or 3 dollaries respectively.
