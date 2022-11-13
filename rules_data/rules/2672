@@ -3,7 +3,7 @@ name: Weekly Race Action
 power: 1
 text: |
   Each player CAN take one of the following actions (weekly race
-  actions) if they have not already taken one this week:
+  actions) if e has not already taken one this week
 
   * bet 1, 2, or 3 dollaries on a specified horse by paying a fee of
     1, 2, or 3 dollaries respectively.
@@ -42,3 +42,8 @@ history:
   date: 2022-08-14
   agent:
     proposal: "8822"
+- change:
+    type: amendment
+  date: 2022-11-13
+  agent:
+    proposal: "8864"
