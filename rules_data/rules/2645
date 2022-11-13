@@ -6,10 +6,10 @@ text: |
   following format: Stone Name (Frequency, Escape Risk): Scroll.
 
   - Power Stone (weekly, 40%): A specified player (defaulting to the
-    wielder if not specified) hereby Buys Strength 3 times.
-
-  - Wealth Stone (weekly, 50%): A specified player (defaulting to
-    the wielder if not specified) hereby gains 5 boatloads of coins.
+    wielder if not specified) is Power Stoned; Power Stoning is
+    secured. A player's voting strength on a referendum on an
+    ordinary proposal is increased by 3 for each time that e was
+    Power Stoned during the referendum's voting period.
 
   - Soul Stone (weekly, 50%): The Soul Stone is hereby transferred
     to the owner of a different specified non-immune stone, then
@@ -38,8 +38,8 @@ text: |
 
   - Blank Stone (Monthly, 5%): This stone has no effect.
 
-  - Tasty Stone (Monthly, 70%): A specified bird that is owned by a
-    player is transferred to the wielder.
+  - Score Stone (Weekly, 3): A specified player's (defaulting to the
+    wielder if not specified) Score is increased by 3.
 history:
 - change:
     type: enactment
@@ -96,4 +96,9 @@ history:
   date: 2022-08-30
   agent:
     proposal: "8842"
+- change:
+    type: amendment
+  date: 2022-11-13
+  agent:
+    proposal: "8865"
 annotations: []
