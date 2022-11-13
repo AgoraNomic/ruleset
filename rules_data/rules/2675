@@ -59,7 +59,8 @@ text: |
     Dreamer.  This reduction can only apply to one stone e owns.
     This reduction is removed after the Stonemason publishes a
     collection notice.
-  - Dream of Power: Eir Voting Strength is 2 greater.
+  - Dream of Power: Eir voting strength is increased by 2 for
+    referenda on ordinary proposals.
 history:
 - change:
     type: enactment
@@ -73,3 +74,8 @@ history:
   date: 2022-08-30
   agent:
     proposal: "8844"
+- change:
+    type: amendment
+  date: 2022-11-13
+  agent:
+    proposal: "8863"
