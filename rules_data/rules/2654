@@ -62,6 +62,7 @@ text: |
       level.
     * The ADoP CAN, with 2 Agoran consent, flip the complexity of an
       device.
+    * Agoran device begin at midnight UTC.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -371,5 +372,12 @@ history:
   agent:
     experiment:
       id: 59
+      engineer: Jason
+- change:
+    type: amendment
+  date: 2022-11-20
+  agent:
+    experiment:
+      id: 60
       engineer: Jason
 annotations: []
