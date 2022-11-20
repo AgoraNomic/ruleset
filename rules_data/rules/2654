@@ -60,6 +60,8 @@ text: |
       holdings (rounded down) are destroyed, and then each charity
       gains a number of boatloads of Devices equal to its donation
       level.
+    * The ADoP CAN, with 2 Agoran consent, flip the complexity of an
+      device.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -362,5 +364,12 @@ history:
   agent:
     experiment:
       id: 57
+      engineer: Jason
+- change:
+    type: amendment
+  date: 2022-11-17
+  agent:
+    experiment:
+      id: 59
       engineer: Jason
 annotations: []
