@@ -2,7 +2,7 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 13 Nov 2022
+Date of this ruleset: 20 Nov 2022
 
 Date of last SLR ratification: 8 May 2019
 
@@ -2929,7 +2929,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/36 (Power=1)
+Rule 2654/38 (Power=1)
 The Device
 
       When the device is on:
@@ -2990,6 +2990,9 @@ The Device
           holdings (rounded down) are destroyed, and then each charity
           gains a number of boatloads of Devices equal to its donation
           level.
+        * The ADoP CAN, with 2 Agoran consent, flip the complexity of an
+          device.
+        * Agoran device begin at midnight UTC.
       
       When the device is off:
         * whirrrrrr - THUNK
