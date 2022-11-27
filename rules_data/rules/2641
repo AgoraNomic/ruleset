@@ -6,10 +6,13 @@ text: |
   CAN wield it by announcement specifying any values needed to
   interpret the stone's effects.
 
-  If a stone has a frequency, then it is IMPOSSIBLE to wield that
-  stone if it has been previously wielded in the same Agoran time
-  interval as indicated by its frequency (e.g. if its frequency is
-  daily, if it has been wielded in the same Agoran day).
+  A stone with a frequency that has been wielded in the corresponding
+  Agoran time interval is Hot for the remainder of the time period
+  (e.g. if the frequency is daily, it is hot for the remainder of the
+  Agoran day it was wielded during).
+
+  While a stone is hot, it is IMPOSSIBLE to wield it or to transfer
+  it by announcement
 
   When a stone is wielded, the Rule defining that stone applies the
   effects in that stone's scroll.
@@ -19,4 +22,9 @@ history:
   date: 2020-11-11
   agent:
     proposal: "8521"
+- change:
+    type: amendment
+  date: 2022-11-27
+  agent:
+    proposal: "8868"
 annotations: []
