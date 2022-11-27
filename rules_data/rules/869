@@ -2,8 +2,9 @@ id: 869
 name: How to Join and Leave Agora
 power: 3
 text: |
-  Any entity (including a group of confederated entities) that is or
-  ever was able to willingly communicate original ideas is a person.
+  Any entity (including a group of entities confederated with the
+  intent of forming a single person under this Rule) that is or ever
+  was able to willingly communicate original ideas is a person.
   Rules to the contrary notwithstanding, no other entities are
   persons.
 
@@ -323,6 +324,11 @@ history:
   date: 2022-09-11
   agent:
     proposal: "8853"
+- change:
+    type: amendment
+  date: 2022-11-26
+  agent:
+    proposal: "8866"
 annotations:
 - cfjs:
   - id: '1275'
