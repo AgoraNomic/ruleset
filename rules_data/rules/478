@@ -2,12 +2,6 @@ id: 478
 name: Fora
 power: 3
 text: |
-  Freedom of speech being essential for the healthy functioning of
-  any non-Imperial nomic, it is hereby resolved that no Player shall
-  be prohibited from participating in the Fora, nor shall any person
-  create physical or technological obstacles that unduly favor some
-  players' fora access over others.
-
   Publicity is a secured forum switch with values Public,
   Discussion, and Foreign (default), tracked by the Registrar.
 
@@ -259,6 +253,11 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8614"
+- change:
+    type: amendment
+  date: 2022-11-26
+  agent:
+    proposal: "8867"
 annotations:
 - cfjs:
   - id: 1451-1452

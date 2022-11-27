@@ -35,21 +35,6 @@ text: |
   or reasonably implied consent. The rules CANNOT compel players to
   unduly harass non-players. A non-person CANNOT be a player, rules
   to the contrary notwithstanding.
-
-  Banned is a secured negative boolean person switch tracked by the
-  Registrar. A person is unwelcome if e is Banned or if at least one
-  part of em is unwelcome. Rules to the contrary notwithstanding, an
-  unwelcome person CANNOT register or be registered, and e is
-  immediately deregistered if e is ever a player. Designations of
-  unwelcomeness are secured.
-
-  Unwelcomeness is to be used only to make a social statement that
-  the Agoran community no longer wishes to interact with certain
-  persons; in particular, it is not to be used to acquire gameplay
-  advantage. As such, an unwelcome person SHOULD NOT, under any
-  circumstances, attempt to bypass unwelcomeness, and e SHOULD
-  carefully consider the circumstances of eir becoming unwelcome
-  before participating in public or discussion fora.
 history:
 - change:
     type: enactment
@@ -329,6 +314,11 @@ history:
   date: 2022-11-26
   agent:
     proposal: "8866"
+- change:
+    type: amendment
+  date: 2022-11-26
+  agent:
+    proposal: "8867"
 annotations:
 - cfjs:
   - id: '1275'
