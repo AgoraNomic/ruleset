@@ -6,7 +6,7 @@ layout: default
 # The Agoran Rulesets
 
 Welcome. If you are trying to access the ruleset of Agora Nomic, you've
-come to the right place. This website is maintained by Jason, the
+come to the right place. This website is maintained by Janet, the
 current Rulekeepor of Agora Nomic.
 
 ## Textual Rulesets
