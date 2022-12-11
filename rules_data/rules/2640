@@ -6,8 +6,7 @@ text: |
   rules. To define a stone, the definition must include:
     (i) A name unique among stones;
    (ii) The smoothness of the stone, which is a non-negative integer;
-  (iii) A scroll, which is a document specifying the effects of the
-        stone
+  (iii) A description of the stone's properties
    (iv) Optionally, a frequency, which must be one of daily, weekly,
         monthly, or quarterly.
 
@@ -36,4 +35,9 @@ history:
   date: 2022-11-26
   agent:
     proposal: "8868"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8870"
 annotations: []

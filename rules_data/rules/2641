@@ -14,8 +14,10 @@ text: |
   While a stone is hot, it is IMPOSSIBLE to wield it or to transfer
   it by announcement
 
-  When a stone is wielded, the Rule defining that stone applies the
-  effects in that stone's scroll.
+  When a stone is wielded, the Rule defining that stone applies any
+  effects that it defines as occurring when the stone is wielded.
+
+  The wielding of stones is secured.
 history:
 - change:
     type: enactment
@@ -27,4 +29,9 @@ history:
   date: 2022-11-27
   agent:
     proposal: "8868"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8870"
 annotations: []

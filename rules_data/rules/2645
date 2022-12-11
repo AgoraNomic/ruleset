@@ -3,39 +3,40 @@ name: The Stones
 power: 2
 text: |
   The following stones are defined, one per paragraph, with the
-  following format: Stone Name (Frequency, Smoothness): Scroll.
+  following format: Stone Name (Frequency, Smoothness): Description.
 
-  - Power Stone (weekly, 2): A specified player (defaulting to the
-    wielder if not specified) is Power Stoned; Power Stoning is
-    secured. A player's voting strength on a referendum on an
-    ordinary proposal is increased by 3 for each time that e was
-    Power Stoned during the referendum's voting period.
+  - Power Stone (weekly, 2): When this stone is wielded, a specified
+    player (defaulting to the wielder if not specified) is Power
+    Stoned; Power Stoning is secured. A player's voting strength on
+    a referendum on an ordinary proposal is increased by 3 for each
+    time that e was Power Stoned during the referendum's voting
+    period.
 
-  - Soul Stone (weekly, 3): The Soul Stone is hereby transferred
-    to the owner of a different specified non-immune stone, then
-    that stone is transferred to the wielder.
+  - Soul Stone (weekly, 3): When wielded, the Soul Stone is
+    transferred to the owner of a different specified non-immune
+    stone, then that stone is transferred to the wielder.
 
-  - Sabotage Stone (weekly, 4): The adoption index of a specified
-    AI-majority Agoran decision is hereby increased by 1.
+  - Sabotage Stone (weekly, 4): When wielded, the adoption index of
+    a specified AI-majority Agoran decision is increased by 1.
 
-  - Jockey Stone (monthly, 3): A specified Running horse's Race
-    Position is increased by 1.
+  - Jockey Stone (monthly, 3): When wielded, a specified Running
+    horse's Race Position is increased by 1.
 
-  - Protection Stone (monthly, 4): A specified stone is granted
-    immunity.
+  - Protection Stone (monthly, 4): When wielded, a specified stone
+    is granted immunity.
 
-  - Recursion Stone (Monthly, 4): The recursion stone can be
-    wielded once per month as if it had the power of any other stone
-    of your choice.
+  - Recursion Stone (Monthly, 4): The Recursion Stone can be wielded
+    once per month as if it had the power of any other stone of your
+    choice.
 
   - Hot Potato Stone (Weekly, 5):  When this stone is wielded, the
     wielder specifies an eligible player and gains 8 points. The
     stone is transferred to the eligible player. An eligible player
     is one who has not owned this stone since the last time Agora
     owned it. If this  stone is not owned by Agora, it cannot
-    otherwise be transferred, other rules notwithstanding. This stone
-    is immune if 3 or more players have wielded it since the most
-    recent collection notice.
+    otherwise be transferred, other rules notwithstanding. This
+    stone is immune if 3 or more players have wielded it since the
+    most recent collection notice.
 
   - Blank Stone (Monthly, 0): This stone has no effect.
 
@@ -44,12 +45,13 @@ text: |
     Mason's Stone is owned by Agora, it is transferred to the
     Stonemason.
 
-  - Anti-Equatorial Stone (Monthly, 5): The mossiest stone is
-    transferred to the wielder. When this happens, the
+  - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
+    stone is transferred to the wielder. When this happens, the
     Anti-Equatorial Stone's mossiness is incremented by 1.
 
-  - Score Stone (Weekly, 3): A specified player's (defaulting to the
-    wielder if not specified) Score is increased by 3.
+  - Score Stone (Weekly, 3): When wielded, a specified player's
+    (defaulting to the wielder if not specified) Score is increased
+    by 3.
 history:
 - change:
     type: enactment
@@ -116,4 +118,9 @@ history:
   date: 2022-11-27
   agent:
     proposal: "8868"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8870"
 annotations: []

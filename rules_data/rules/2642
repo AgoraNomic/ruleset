@@ -1,16 +1,11 @@
 id: 2642
-name: Distributing Stones
+name: Gathering Stones
 power: 2
 text: |
-  The Stonemason CAN conduct an auction for any set of stones
-  belonging to Agora for which no other auction is ongoing, with
-  each individual stone being an auction lot. The Stonemason is the
-  auctioneer, and the currency is coins.
-
-  The Stonemason SHALL if possible initiate such an auction monthly
-  and only once a month, in a timely fashion after a collection
-  notice has been issued. The Stonemason SHALL auction exactly 2
-  stones in a month if possible
+  A player who has not possessed a stone in the last 30 days CAN, by
+  announcement, transfer the mossiest stone (if there is a tie, then
+  a specified stone tied for mossiest) Agora owns to emself. E
+  SHOULD specify the stone when doing so.
 history:
 - change:
     type: enactment
@@ -27,4 +22,14 @@ history:
   date: 2022-05-28
   agent:
     proposal: "8680"
+- change:
+    type: retitling
+  date: 2022-12-11
+  agent:
+    proposal: "8870"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8870"
 annotations: []
