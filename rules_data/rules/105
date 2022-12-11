@@ -34,7 +34,7 @@ text: |
 
   4. amend the text of a rule.
 
-  5. retitle a rule.
+  5. retitle (syn. amend the title of) a rule.
 
   6. change the power of a rule.
 
@@ -200,6 +200,11 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8539"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8871"
 annotations:
 - cfjs:
   - id: '1499'
