@@ -16,11 +16,13 @@ REGS_DATA_DIR="$SCRIPT_DIR/regs_data"
 
 mkdir -p -- "$OUT_DIR"
 
-COMMON_OPTIONS=(--name-replacement-file "$SCRIPT_DIR/name_replacement_data")
+COMMON_OPTIONS=(
+  --name-replacement-file "$SCRIPT_DIR/name_replacement_data"
+  --proposals-dir "$RULES_DATA_DIR/proposals"
+)
 
 COMMON_RULESET_OPTIONS=(
   --index-file "$RULES_DATA_DIR/config/index"
-  --proposals-dir "$RULES_DATA_DIR/proposals"
   --rules-dir "$RULES_DATA_DIR/rules"
   --header-file "$RULES_DATA_DIR/config/header"
 )
