@@ -56,6 +56,7 @@ object HistoricalChanges {
     fun infection(): HistoricalChange = Infection
     fun retitling(): HistoricalChange = Retitling
     fun repeal(): HistoricalChange = Repeal
+    fun authorityVanished(): HistoricalChange = AuthorityVanished
     fun unknown(): HistoricalChange = Unknown
 
     private fun effects(
@@ -134,4 +135,6 @@ object HistoricalChanges {
 
     private object InfectionAmendment :
         CountedOnceChange({ "Infected and amended($it)" }, effects(METADATA_CHANGE, TEXT_CHANGE))
+
+    private object AuthorityVanished : UncountedHistoricalChange("Disappeared as authority removed", effects(REPEAL))
 }

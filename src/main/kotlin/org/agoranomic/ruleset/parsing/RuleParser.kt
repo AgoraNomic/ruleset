@@ -73,6 +73,7 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
             HistoricalChanges.powerChange(from = from, to = to)
         }
         "committee-assignment" -> HistoricalChanges.committeeAssignment(changeNode.getContent("committee"))
+        "authority-vanished" -> HistoricalChanges.authorityVanished()
         "unknown" -> HistoricalChanges.unknown()
         else -> throw IllegalArgumentException("Unknown rule change type $changeType")
     }
