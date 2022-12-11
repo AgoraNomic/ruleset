@@ -16,11 +16,13 @@ text: |
     * Being a coauthor of a proposal that takes effect: 1
       (Assessor).
 
-    * Having an Agoran Birthday: 15 (Herald).
+    * Having an Agoran Birthday: X, where X is the number of active
+      players during eir birthday (Herald).
 
-    * Receiving any patent title: 10 (Herald).
-
-    * Receiving a ribbon: 5 (Tailor).
+    * Judging a CFJ that e was assigned to without violating a time
+      limit to do so, unless at the time of judgement the case was
+      open due to self-filing a motion to reconsider it: 2
+      (Arbitor).
 history:
 - change:
     type: enactment
@@ -57,3 +59,8 @@ history:
   date: 2022-07-30
   agent:
     proposal: "8805"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8872"

@@ -5,18 +5,10 @@ text: |
   A player's Score, indicated in Points, is an integer player switch
   defaulting to 0, tracked by the Herald.
 
-  Upon a correct announcement from a player that one or more players
-  have a score of 100+ points, all players meeting this condition
-  win the game.  If a least one player wins the game via such an
-  announcement, the scores of the winning players are set to their
-  default, and then all other players' scores are set to half their
-  current value rounded down.
-
-  The Herald CAN once each, by announcement, grant 15, 10, and 5
-  boatloads of coins to the players who had the most, second most,
-  and third most points (respectively) at the end of the previous
-  quarter. E SHALL do so in a timely manner after the beginning of
-  the quarter.
+  Upon a correct announcement from a player that e has a score of
+  100 or more points, e wins the game. Then, eir score is set to 0,
+  and all other players' scores are set to half their current value
+  rounded down.
 
   At the start of every quarter, all Scores are set to half their
   current value rounded down.
@@ -36,3 +28,8 @@ history:
   date: 2022-07-17
   agent:
     proposal: "8706"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8872"

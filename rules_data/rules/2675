@@ -2,65 +2,72 @@ id: 2675
 name: Dream of Wandering
 power: 2
 text: |
-  The Dreamor is an office; its holder is responsible for keeping
-  track of the dreams of all active players.
+  The Dream Keeper is an office; its holder is responsible for
+  keeping track of the dreams of all active players.
 
-  Mindset is a secured active player switch, tracked by the Dreamor
-  in eir monthly report, with possible values Dream of Wandering
-  (the default) and any Dream.
+  Dream is a secured active player switch, tracked by the Dream
+  Keeper in eir weekly report, with possible values any Dream,
+  defaulting to Wandering.
 
-  An active player CAN Plan to Flip eir own Mindset, specifying any
-  valid value for eir Mindset, by announcement.  When the rules
-  state that the wandering occurs, every active player's Mindset is
-  set to the value e most recently specified by Planning to Flip. If
-  a player did not Plan to Flip eir Mindset switch since the last
-  wandering, it not Flipped.
+  An active player CAN "envision" eir own Dream, specifying any
+  valid value for eir Dream, by announcement. When the rules state
+  that the wandering occurs, every active player's Dream is set to
+  the value e most recently envisioned. If a player did not envision
+  a dream since the last wandering, it is not flipped.
 
-  The wandering occurs at the beginning of each month.
+  A wandering occurs at the beginning of each week.
 
-  At any time, each active player is either a Sleeping Dreamer
-  (Default), a New Dreamer, or a Recurring Dreamer. The state of
-  each player is included in the Dreamor's monthly report, which
-  SHALL be published in a timely fashion from the beginning of the
-  month.
+  The following is an exhaustive list of all Dreams and the rules
+  relevant to each dream:
 
-  If an active player's Mindset is flipped when the wandering
-  occurs, e becomes a New Dreamer; otherwise, e becomes a Recurring
-  dreamer.
+  - Wandering: This dream has no effect.
 
-  The following rules apply to each active player based on that
-  player's Mindset:
-  - Dream of Victory: Upon a correct announcement of being the only
-    player with eir Mindset Flipped to Dream of Victories, e wins
-    the game. Upon winning the game, e has eir Mindset immediately
-    Flipped to the Dream of Wandering and becomes a Sleeping
-    Dreamer. While e is a New Dreamer, e CAN, once by announcement,
-    gain 10 points, then become a Sleeping Dreamer.
-  - Dream of Wealth: While e is a New or Recurring Dreamer, e CAN,
-    once by announcement, grant 5 stamps of eir own type to emself,
-    then become a Sleeping Dreamer.
-  - Dream of Justice: While e is a New or Recurring Dreamer, e CAN,
-    once by announcement, expunge up to 4 blots from emself, then
-    become a Sleeping Dreamer.
-  - Dream of Wandering: While e is a Recurring Dreamer, e CAN, once
-    by announcement, set eir mindset to a specified Dream, and
-    become a New Dreamer.
-  - Dream of Machines: E CAN Flip the Device to either on or off
-    with Agoran Consent.  E CAN act on behalf of the device to take
-    any action the device CAN take by announcement with 1 support.
-  - Dream of Beasts: E CAN buy bird food by paying a fee of 3
-    boatloads of coins. E CAN buy a Beast Permit by paying a fee of
-    40 boatloads of coins.  E CAN renew a Beast Permit by paying a
-    fee of 20 boatloads of coins.
-  - Dream of Gardens: While E is a New or Recurring Dreamer, E CAN
-    once pay a fee of N stamps, specifying one stone e owns, and
-    that stone has its escape chance reduced by N*5%, to a minimum
-    of 0%, where N is a positive integer, then become a Sleeping
-    Dreamer.  This reduction can only apply to one stone e owns.
-    This reduction is removed after the Stonemason publishes a
-    collection notice.
-  - Dream of Power: Eir voting strength is increased by 2 for
-    referenda on ordinary proposals.
+  - Charity: The Charity Item is the item type that the L&FD owns
+    the most of (if there is a tie, the first the L&FD owned, and if
+    still tied, the first alphabetically). Immediately after a
+    wandering, for each player with the Charity Dream, in reverse
+    order of when eir Dream was last flipped (and in reverse order
+    of registration if tied), one item of the Charity type is
+    transferred from the L&FD to em.
+
+  - Justice: Immediately after a wandering, 1 blot is expunged from
+    each player with the Justice Dream. If a player with the Justice
+    Dream had no blots immediately after a wandering, e CAN once
+    expunge one blot, by announcement, from a specified player
+    before the next wandering.
+
+  - Sharing: Immediately after a wandering, each player with the
+    Sharing Dream has eir points increased by X / Y, rounded down,
+    where X is half the number of active players, rounded up, and Y
+    is the number of players with the Sharing Dream.
+
+  - Wealth: Immediately after a wandering, X stamps of eir own type
+    are granted to each player with the Wealth Dream. When less than
+    8 Stamps of eir type exist, X is 2. When 8 to 15 Stamps of eir
+    type exist, X is 1. When 16 ore more Stamps of eir type exist, X
+    is 0.
+
+  - Machinery: A player with the Machinery Dream CAN Flip the Device
+    with Agoran Consent. A player with the Machinery Dream CAN take
+    a specified action on behalf of the the device with 1 support.
+
+  - Gardens: Once per week, a player with the Gardens Dream CAN, by
+    announcement, transfer the mossiest stone (if there is a tie,
+    then a specified stone tied for mossiest) Agora owns to emself.
+    E SHOULD specify the stone when doing so.
+
+  - Power: The voting strength of a player with the Power Dream has
+    eir voting strength increased by 2 for referenda on ordinary
+    proposals.
+
+  - Revolution: A revolution is happening if the majority of Dreams
+    are set to Revolution. Immediately after a wandering, if a
+    revolution is not happening, then all players with the
+    Revolution Dream have eir score decreased by 1 to a minimum of
+    0. Immediately after a wandering, if a revolution is happening,
+    then all players have eir score set to 100-X, where X was eir
+    score when the wandering occured, and all player's Dreams are
+    set to Wandering.
 history:
 - change:
     type: enactment
@@ -79,3 +86,8 @@ history:
   date: 2022-11-13
   agent:
     proposal: "8863"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8872"

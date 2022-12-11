@@ -7,10 +7,19 @@ text: |
   integers from 0 to 3 inclusive, where 1 is the default. It is
   tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
   consent, flip the complexity of an office.
+
+  For each office a player holds, eir voting strength is increase
+  by the complexity of the office for referenda on ordinary
+  proposals, up to a maximum increase of 3 by this method.
 history:
 - change:
     type: enactment
   date: 2020-08-10
   agent:
     proposal: "8482"
+- change:
+    type: amendment
+  date: 2022-12-11
+  agent:
+    proposal: "8872"
 annotations: []
