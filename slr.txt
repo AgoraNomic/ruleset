@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 4 Dec 2022
+Date of this ruleset: 11 Dec 2022
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 149
+Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8868
+Highest ID'd Proposal Passed: 8872
 Highest ID'd Rule Enacted: 2679
 
 ========================================================================
@@ -762,16 +762,6 @@ Adopting Proposals
       the proposal).
 
 ------------------------------------------------------------------------
-Rule 2649/0 (Power=1)
-Vocal Voter Verification Award
-
-      The sole player, if any, who had the highest voting strength among
-      all votes cast on all decisions resolved in the last 7 days CAN
-      once grant emself 7 boatloads of coins by announcement, provided
-      that no referenda initiated in the same message as it remain
-      unresolved.
-
-------------------------------------------------------------------------
 ========================================================================
 Rules & Regulations
    Ah, yes. What would any game be without rules? And these rules
@@ -881,7 +871,7 @@ No Cretans Need Apply
       otherwise, the later clause takes precedence.
 
 ------------------------------------------------------------------------
-Rule 105/22 (Power=3)
+Rule 105/23 (Power=3)
 Rule Changes
 
       When the rules provide that an instrument takes effect, it can
@@ -916,7 +906,7 @@ Rule Changes
       
       4. amend the text of a rule.
       
-      5. retitle a rule.
+      5. retitle (syn. amend the title of) a rule.
       
       6. change the power of a rule.
       
@@ -1743,7 +1733,7 @@ Succumbing to Time
       would otherwise expire within the next week.
 
 ------------------------------------------------------------------------
-Rule 2632/0 (Power=1.0)
+Rule 2632/1 (Power=1.0)
 Complexity
 
       Complexity is an office switch reflecting how complex it is to
@@ -1751,6 +1741,10 @@ Complexity
       integers from 0 to 3 inclusive, where 1 is the default. It is
       tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
       consent, flip the complexity of an office.
+      
+      For each office a player holds, eir voting strength is increase
+      by the complexity of the office for referenda on ordinary
+      proposals, up to a maximum increase of 3 by this method.
 
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
@@ -2395,24 +2389,6 @@ The Notary
       designation.
 
 ------------------------------------------------------------------------
-Rule 2631/2 (Power=1.0)
-Charities
-
-      Donation Level is a natural switch for contracts, tracked by the
-      Notary, with a default of 0 and a maximum of 25. A contract with
-      nonzero donation level is called a Charity.
-      
-      The Notary CAN flip a contract's donation level to a non-default
-      value with 3 Agoran consent. This SHOULD only be done if the
-      contract's provisions ensure that its funds received from Agora
-      will be used solely for the betterment of Agora. Any player CAN
-      flip a contract's donation level to 0 with Agoran consent.
-      
-      Whenever a payday occurs, half of each charity's coin holdings
-      (rounded down) are destroyed, and then each charity gains a number
-      of boatloads of coins equal to its donation level.
-
-------------------------------------------------------------------------
 ========================================================================
 Assets
    Assets are things players can own. This section describes how that
@@ -2552,158 +2528,32 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2456/6 (Power=1)
-The Treasuror
-
-      The Treasuror is an office.
-      
-      The Treasuror's weekly report includes the list of all public
-      classes of assets.
-
-------------------------------------------------------------------------
-Rule 2483/16 (Power=2)
-Economics
-
-      Coins are the official currency of Agora and are tracked by the
-      Treasuror. They can be owned by players, contracts, and the Lost
-      and Found Department.
-      
-      Any player CAN, with Agoran Consent, "distribute" coins in the
-      Lost and Found Department. When e does so, X/N coins, rounded
-      down, are transferred from the Lost & Found Department to each
-      active player, where X is the number of coins in the Lost & Found
-      Department and N is the number of active players. E SHOULD
-      announce how many coins each player receives when e does so.
-
-------------------------------------------------------------------------
-Rule 2659/1 (Power=1)
+Rule 2659/2 (Power=1)
 Stamps
 
-      Stamps are a category of asset ownable by players and Agora. The
+      Stamps are a category of asset ownable by players . The
       Collector is an office. The Collector tracks Stamps in eir weekly
       report.
       
       For each person there is a corresponding type of stamp.
       
-      Any player CAN pay 3 boatloads of coins to grant a specified
-      player 1 Stamp of the granter's own type.
+      Any player CAN, once per week, pay X Stamps, where each specified
+      Stamp is a different type, to increase eir own score by (X^2)-X
+      points.
       
-      Any player CAN pay 1 Stamp of eir own type to grant emself 1
-      boatload of coins.
-      
-      Any player CAN pay 1 Stamp of another person's type to grant
-      emself 2 boatloads of coins.
+      Any player CAN, once per week, pay X Stamps, where each Stamp is
+      the same type, to increase eir own score by (X-1)*2 points.
       
       Any player CAN win by paying N Stamps, where N is the current
       number of active players and each specified Stamp is of a
       different type.
 
 ------------------------------------------------------------------------
-Rule 2634/3 (Power=1.0)
-Buoyancy Control
-
-      The Total Buoyancy and Buoyancy Target are singleton integer
-      switches, tracked by the Treasuror in eir weekly report.
-      
-      The Treasuror CAN, by announcement, set the Buoyancy Target to a
-      specified value approximately equal to the sum of all coin
-      balances at a specified point within the last week, and SHALL do
-      so each time e publishes eir weekly report.
-      
-      The Treasuror may exercise reasonable judgement in calculating the
-      Buoyancy Target. The Buoyancy Target will be deemed set so long as
-      the value chosen by the Treasuror is not obviously and grossly
-      incorrect. However, the Treasuror SHALL NOT deliberately introduce
-      error into the Buoyancy Target.
-      
-      At the beginning of each month, the Total Buoyancy is flipped to
-      the Buoyancy Target.
-
-------------------------------------------------------------------------
-Rule 2635/4 (Power=1.0)
-Floating Rate Fleet
-
-      The Unit of Flotation is equal to 1/2500 times the Total Buoyancy,
-      rounded up, with a minimum of 1, and is tracked in the Treasuror's
-      weekly report. A boatload of something is a quantity of that thing
-      equal in count to the Unit of Flotation.
-      
-      The Treasuror is ENCOURAGED to arrange for the new Total Buoyancy
-      and Unit of Flotation to be published as close as possible to the
-      beginning of the month.
-
-------------------------------------------------------------------------
-Rule 2496/24 (Power=1)
-Rewards
-
-      Each time a player fulfills a reward condition, the officer
-      associated with the condition CAN once by announcement, and SHALL
-      in an officially timely fashion, grant the associated set of
-      assets to the player.
-      
-      Below is a list of reward conditions and their associated assets
-      and officers.
-      
-      * Being the author of an adopted proposal: a number of boatloads
-        of coins equal to (the total number of valid ballots cast FOR
-        the decision - the total number of valid ballots cast AGAINST)
-        (Assessor).
-      
-      * Judging a CFJ that e was assigned to without violating a time
-        limit to do so, unless at the time of judgement the case was
-        open due to self-filing a motion to reconsider it: 5 boatloads
-        of coins (Arbitor).
-      
-      * Publishing an office's weekly or monthly report, provided that
-        publication was the first report published for that office in
-        the relevant time period (week or month respectively) to fulfill
-        an official weekly or monthly duty: 5 boatloads of coins times
-        the complexity of the office (ADoP).
-      
-      * Resolving a referendum, provided that no other referendum had
-        been resolved earlier in that Agoran week: 5 boatloads of coins
-        times the Assessor's complexity (ADoP).
-      
-      * Having a Thesis pass peer-review and be granted a Degree based
-        on its merit: 20 boatloads of coins (Herald)
-
-------------------------------------------------------------------------
-Rule 2559/10 (Power=2)
-Paydays
-
-      Whenever a Payday occurs, each active player gains 10 boatloads of
-      coins.
-      
-      At the beginning of each month, after all other events that take
-      place at the beginning of the month, a Payday occurs.
-
-------------------------------------------------------------------------
-Rule 2666/1 (Power=1)
-L&FD Auctions
-
-      The Treasuror CAN conduct a L&FD Auction if no other L&FD Auction
-      ongoing. The Treasuror MUST do so at least once a month, if there
-      is at least one asset in the Lost and Found Department of an
-      auction-ready type.
-      
-      Coins, promises, and all private assets are excluded from L&FD
-      Auctions. The non-excluded type(s) of asset(s) that the Lost and
-      Found Department owns more of than any other type of non-excluded
-      asset are auction-ready.
-      
-      When conducting a L&FD Auction, the Treasuror specifies an
-      auction-ready asset type. Each asset of that type that the L&FD
-      owns is a lot.
-      
-      The currency of a L&FD Auction is coins (minimum bid 1).
-
-------------------------------------------------------------------------
-Rule 2499/18 (Power=1)
+Rule 2499/19 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
       
-        * 10 boatloads of coins, AND
         * 1 Stamp of eir own type
       
       Any player CAN, by announcement, grant a Welcome Package to any
@@ -2711,7 +2561,7 @@ Welcome Packages
       registered nor in the last 30 days.
 
 ------------------------------------------------------------------------
-Rule 2585/7 (Power=1)
+Rule 2585/8 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -2722,126 +2572,79 @@ Birthday Gifts
       eir Agoran Birthday on the anniversary of the day e most recently
       declared as eir Agoran Birthday.
       
-      During a player's Agoran Birthday and the 7 days following, each
-      other player CAN once acknowledge that person's birthday by
-      announcement.  Doing so grants the birthday player 3 boatloads of
-      coins if it is actually the day of the player's birthday, and 2
-      otherwise.
-      
-      Players are ENCOURAGED to announce their Agoran Birthdays.
+      In a timely manner after the start of a player's Agoran Birthday,
+      the Herald SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2545/8 (Power=2)
-Auctions
-
-      An auction is a way for entities to give away specified assets
-      (items), grouped into lots, in exchange for a currency. A lot is a
-      non-empty list of items to be transferred to a single recipient
-      (an auction winner).
-      
-      When the rules authorize a person (the auctioneer) to conduct an
-      auction, e CAN do so by any wholly public method that would be
-      generally recognizable, as specified by the auctioneer at the
-      start of the auction, and under common definitions and terms used
-      in auctions, as a fair, equitable, and timely means of determining
-      the auction winners from among the current players, and enabling
-      the appropriate exchange of goods. Persons who voluntarily
-      participate in an auction (including the auctioneer) SHALL NOT
-      violate requirements of that auction's method that are clearly
-      intended to be punishable as rules violations; doing so is the
-      Class N infraction of Auction Manipulation, where N is the class
-      specified in the auction method (or 2 otherwise).
-      
-      While an auction is ongoing, if the rules provide for that class
-      of auction, or a substantially similar class, the auctioneer
-      generally CAN conduct that ongoing auction, unless the rules
-      specify otherwise. Any auction that CANNOT be conducted and COULD
-      NOT have been conducted in the previous week immediately
-      terminates with no winner.
-      
-      The rule that authorizes the auction further authorizes the
-      auctioneer or auction winners to transfer said items as necessary
-      to conduct the auction in a manner consistent with the auction
-      method. If the authorization is to auction "new" items, it further
-      authorizes the creation of said items as per the chosen method.
-      The rule that authorizes the auction further authorizes the
-      transfer or destruction of currency from persons who have bid
-      voluntarily, as specified by the chosen auction method. The
-      authorization to conduct the auction does not provide any further
-      authorization than that explicitly described in this rule.
-      
-      The Treasuror is the promulgator for regulations that define
-      specific auction methods (i.e. "the default auction method") and
-      SHOULD do in order to aid trade and commerce.  For the purposes of
-      interpreting auction definitions, such methods are treated as if
-      they are defined in this rule. To further aid trade and commerce,
-      auction methods should be interpreted in the name of fairness with
-      deference to the method's clear intent, if intent can be
-      reasonably inferred.
-
-------------------------------------------------------------------------
-Rule 2675/1 (Power=2)
+Rule 2675/2 (Power=2)
 Dream of Wandering
 
-      The Dreamor is an office; its holder is responsible for keeping
-      track of the dreams of all active players.
+      The Dream Keeper is an office; its holder is responsible for
+      keeping track of the dreams of all active players.
       
-      Mindset is a secured active player switch, tracked by the Dreamor
-      in eir monthly report, with possible values Dream of Wandering
-      (the default) and any Dream.
+      Dream is a secured active player switch, tracked by the Dream
+      Keeper in eir weekly report, with possible values any Dream,
+      defaulting to Wandering.
       
-      An active player CAN Plan to Flip eir own Mindset, specifying any
-      valid value for eir Mindset, by announcement.  When the rules
-      state that the wandering occurs, every active player's Mindset is
-      set to the value e most recently specified by Planning to Flip. If
-      a player did not Plan to Flip eir Mindset switch since the last
-      wandering, it not Flipped.
+      An active player CAN "envision" eir own Dream, specifying any
+      valid value for eir Dream, by announcement. When the rules state
+      that the wandering occurs, every active player's Dream is set to
+      the value e most recently envisioned. If a player did not envision
+      a dream since the last wandering, it is not flipped.
       
-      The wandering occurs at the beginning of each month.
+      A wandering occurs at the beginning of each week.
       
-      At any time, each active player is either a Sleeping Dreamer
-      (Default), a New Dreamer, or a Recurring Dreamer. The state of
-      each player is included in the Dreamor's monthly report, which
-      SHALL be published in a timely fashion from the beginning of the
-      month.
+      The following is an exhaustive list of all Dreams and the rules
+      relevant to each dream:
       
-      If an active player's Mindset is flipped when the wandering
-      occurs, e becomes a New Dreamer; otherwise, e becomes a Recurring
-      dreamer.
+      - Wandering: This dream has no effect.
       
-      The following rules apply to each active player based on that
-      player's Mindset:
-      - Dream of Victory: Upon a correct announcement of being the only
-        player with eir Mindset Flipped to Dream of Victories, e wins
-        the game. Upon winning the game, e has eir Mindset immediately
-        Flipped to the Dream of Wandering and becomes a Sleeping
-        Dreamer. While e is a New Dreamer, e CAN, once by announcement,
-        gain 10 points, then become a Sleeping Dreamer.
-      - Dream of Wealth: While e is a New or Recurring Dreamer, e CAN,
-        once by announcement, grant 5 stamps of eir own type to emself,
-        then become a Sleeping Dreamer.
-      - Dream of Justice: While e is a New or Recurring Dreamer, e CAN,
-        once by announcement, expunge up to 4 blots from emself, then
-        become a Sleeping Dreamer.
-      - Dream of Wandering: While e is a Recurring Dreamer, e CAN, once
-        by announcement, set eir mindset to a specified Dream, and
-        become a New Dreamer.
-      - Dream of Machines: E CAN Flip the Device to either on or off
-        with Agoran Consent.  E CAN act on behalf of the device to take
-        any action the device CAN take by announcement with 1 support.
-      - Dream of Beasts: E CAN buy bird food by paying a fee of 3
-        boatloads of coins. E CAN buy a Beast Permit by paying a fee of
-        40 boatloads of coins.  E CAN renew a Beast Permit by paying a
-        fee of 20 boatloads of coins.
-      - Dream of Gardens: While E is a New or Recurring Dreamer, E CAN
-        once pay a fee of N stamps, specifying one stone e owns, and
-        that stone has its escape chance reduced by N*5%, to a minimum
-        of 0%, where N is a positive integer, then become a Sleeping
-        Dreamer.  This reduction can only apply to one stone e owns.
-        This reduction is removed after the Stonemason publishes a
-        collection notice.
-      - Dream of Power: Eir voting strength is increased by 2 for
-        referenda on ordinary proposals.
+      - Charity: The Charity Item is the item type that the L&FD owns
+        the most of (if there is a tie, the first the L&FD owned, and if
+        still tied, the first alphabetically). Immediately after a
+        wandering, for each player with the Charity Dream, in reverse
+        order of when eir Dream was last flipped (and in reverse order
+        of registration if tied), one item of the Charity type is
+        transferred from the L&FD to em.
+      
+      - Justice: Immediately after a wandering, 1 blot is expunged from
+        each player with the Justice Dream. If a player with the Justice
+        Dream had no blots immediately after a wandering, e CAN once
+        expunge one blot, by announcement, from a specified player
+        before the next wandering.
+      
+      - Sharing: Immediately after a wandering, each player with the
+        Sharing Dream has eir points increased by X / Y, rounded down,
+        where X is half the number of active players, rounded up, and Y
+        is the number of players with the Sharing Dream.
+      
+      - Wealth: Immediately after a wandering, X stamps of eir own type
+        are granted to each player with the Wealth Dream. When less than
+        8 Stamps of eir type exist, X is 2. When 8 to 15 Stamps of eir
+        type exist, X is 1. When 16 ore more Stamps of eir type exist, X
+        is 0.
+      
+      - Machinery: A player with the Machinery Dream CAN Flip the Device
+        with Agoran Consent. A player with the Machinery Dream CAN take
+        a specified action on behalf of the the device with 1 support.
+      
+      - Gardens: Once per week, a player with the Gardens Dream CAN, by
+        announcement, transfer the mossiest stone (if there is a tie,
+        then a specified stone tied for mossiest) Agora owns to emself.
+        E SHOULD specify the stone when doing so.
+      
+      - Power: The voting strength of a player with the Power Dream has
+        eir voting strength increased by 2 for referenda on ordinary
+        proposals.
+      
+      - Revolution: A revolution is happening if the majority of Dreams
+        are set to Revolution. Immediately after a wandering, if a
+        revolution is not happening, then all players with the
+        Revolution Dream have eir score decreased by 1 to a minimum of
+        0. Immediately after a wandering, if a revolution is happening,
+        then all players have eir score set to 100-X, where X was eir
+        score when the wandering occured, and all player's Dreams are
+        set to Wandering.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2849,15 +2652,14 @@ Stones
    A game in which people try to collect Stones with various different
    Magical Powers OooOooh!
 ------------------------------------------------------------------------
-Rule 2640/1 (Power=2)
+Rule 2640/2 (Power=2)
 Stones
 
       A stone is a unique indestructable liquid asset defined by the
       rules. To define a stone, the definition must include:
         (i) A name unique among stones;
        (ii) The smoothness of the stone, which is a non-negative integer;
-      (iii) A scroll, which is a document specifying the effects of the
-            stone
+      (iii) A description of the stone's properties
        (iv) Optionally, a frequency, which must be one of daily, weekly,
             monthly, or quarterly.
       
@@ -2877,7 +2679,7 @@ Stones
       mossiness.
 
 ------------------------------------------------------------------------
-Rule 2641/1 (Power=2)
+Rule 2641/2 (Power=2)
 Wielding Stones
 
       Except as otherwise specified by the rules, the owner of a stone
@@ -2892,22 +2694,19 @@ Wielding Stones
       While a stone is hot, it is IMPOSSIBLE to wield it or to transfer
       it by announcement
       
-      When a stone is wielded, the Rule defining that stone applies the
-      effects in that stone's scroll.
+      When a stone is wielded, the Rule defining that stone applies any
+      effects that it defines as occurring when the stone is wielded.
+      
+      The wielding of stones is secured.
 
 ------------------------------------------------------------------------
-Rule 2642/2 (Power=2)
-Distributing Stones
+Rule 2642/3 (Power=2)
+Gathering Stones
 
-      The Stonemason CAN conduct an auction for any set of stones
-      belonging to Agora for which no other auction is ongoing, with
-      each individual stone being an auction lot. The Stonemason is the
-      auctioneer, and the currency is coins.
-      
-      The Stonemason SHALL if possible initiate such an auction monthly
-      and only once a month, in a timely fashion after a collection
-      notice has been issued. The Stonemason SHALL auction exactly 2
-      stones in a month if possible
+      A player who has not possessed a stone in the last 30 days CAN, by
+      announcement, transfer the mossiest stone (if there is a tie, then
+      a specified stone tied for mossiest) Agora owns to emself. E
+      SHOULD specify the stone when doing so.
 
 ------------------------------------------------------------------------
 Rule 2643/3 (Power=2)
@@ -2941,43 +2740,44 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/12 (Power=2)
+Rule 2645/13 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
-      following format: Stone Name (Frequency, Smoothness): Scroll.
+      following format: Stone Name (Frequency, Smoothness): Description.
       
-      - Power Stone (weekly, 2): A specified player (defaulting to the
-        wielder if not specified) is Power Stoned; Power Stoning is
-        secured. A player's voting strength on a referendum on an
-        ordinary proposal is increased by 3 for each time that e was
-        Power Stoned during the referendum's voting period.
+      - Power Stone (weekly, 2): When this stone is wielded, a specified
+        player (defaulting to the wielder if not specified) is Power
+        Stoned; Power Stoning is secured. A player's voting strength on
+        a referendum on an ordinary proposal is increased by 3 for each
+        time that e was Power Stoned during the referendum's voting
+        period.
       
-      - Soul Stone (weekly, 3): The Soul Stone is hereby transferred
-        to the owner of a different specified non-immune stone, then
-        that stone is transferred to the wielder.
+      - Soul Stone (weekly, 3): When wielded, the Soul Stone is
+        transferred to the owner of a different specified non-immune
+        stone, then that stone is transferred to the wielder.
       
-      - Sabotage Stone (weekly, 4): The adoption index of a specified
-        AI-majority Agoran decision is hereby increased by 1.
+      - Sabotage Stone (weekly, 4): When wielded, the adoption index of
+        a specified AI-majority Agoran decision is increased by 1.
       
-      - Jockey Stone (monthly, 3): A specified Running horse's Race
-        Position is increased by 1.
+      - Jockey Stone (monthly, 3): When wielded, a specified Running
+        horse's Race Position is increased by 1.
       
-      - Protection Stone (monthly, 4): A specified stone is granted
-        immunity.
+      - Protection Stone (monthly, 4): When wielded, a specified stone
+        is granted immunity.
       
-      - Recursion Stone (Monthly, 4): The recursion stone can be
-        wielded once per month as if it had the power of any other stone
-        of your choice.
+      - Recursion Stone (Monthly, 4): The Recursion Stone can be wielded
+        once per month as if it had the power of any other stone of your
+        choice.
       
       - Hot Potato Stone (Weekly, 5):  When this stone is wielded, the
         wielder specifies an eligible player and gains 8 points. The
         stone is transferred to the eligible player. An eligible player
         is one who has not owned this stone since the last time Agora
         owned it. If this  stone is not owned by Agora, it cannot
-        otherwise be transferred, other rules notwithstanding. This stone
-        is immune if 3 or more players have wielded it since the most
-        recent collection notice.
+        otherwise be transferred, other rules notwithstanding. This
+        stone is immune if 3 or more players have wielded it since the
+        most recent collection notice.
       
       - Blank Stone (Monthly, 0): This stone has no effect.
       
@@ -2986,12 +2786,13 @@ The Stones
         Mason's Stone is owned by Agora, it is transferred to the
         Stonemason.
       
-      - Anti-Equatorial Stone (Monthly, 5): The mossiest stone is
-        transferred to the wielder. When this happens, the
+      - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
+        stone is transferred to the wielder. When this happens, the
         Anti-Equatorial Stone's mossiness is incremented by 1.
       
-      - Score Stone (Weekly, 3): A specified player's (defaulting to the
-        wielder if not specified) Score is increased by 3.
+      - Score Stone (Weekly, 3): When wielded, a specified player's
+        (defaulting to the wielder if not specified) Score is increased
+        by 3.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3160,30 +2961,22 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/2 (Power=1.5)
+Rule 2656/3 (Power=1.5)
 Points
 
       A player's Score, indicated in Points, is an integer player switch
       defaulting to 0, tracked by the Herald.
       
-      Upon a correct announcement from a player that one or more players
-      have a score of 100+ points, all players meeting this condition
-      win the game.  If a least one player wins the game via such an
-      announcement, the scores of the winning players are set to their
-      default, and then all other players' scores are set to half their
-      current value rounded down.
-      
-      The Herald CAN once each, by announcement, grant 15, 10, and 5
-      boatloads of coins to the players who had the most, second most,
-      and third most points (respectively) at the end of the previous
-      quarter. E SHALL do so in a timely manner after the beginning of
-      the quarter.
+      Upon a correct announcement from a player that e has a score of
+      100 or more points, e wins the game. Then, eir score is set to 0,
+      and all other players' scores are set to half their current value
+      rounded down.
       
       At the start of every quarter, all Scores are set to half their
       current value rounded down.
 
 ------------------------------------------------------------------------
-Rule 2657/6 (Power=1)
+Rule 2657/7 (Power=1)
 Scoring
 
       Each time a player fulfills a scoring condition, the officer
@@ -3200,11 +2993,13 @@ Scoring
         * Being a coauthor of a proposal that takes effect: 1
           (Assessor).
       
-        * Having an Agoran Birthday: 15 (Herald).
+        * Having an Agoran Birthday: X, where X is the number of active
+          players during eir birthday (Herald).
       
-        * Receiving any patent title: 10 (Herald).
-      
-        * Receiving a ribbon: 5 (Tailor).
+        * Judging a CFJ that e was assigned to without violating a time
+          limit to do so, unless at the time of judgement the case was
+          open due to self-filing a motion to reconsider it: 2
+          (Arbitor).
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3733,7 +3528,7 @@ Order of the Hero of Agora Nomic
       beyond the call of duty.
 
 ------------------------------------------------------------------------
-Rule 2581/4 (Power=1)
+Rule 2581/5 (Power=1)
 Official Patent Titles
 
       The following Patent Titles CAN be awarded by the indicated
@@ -3764,12 +3559,6 @@ Official Patent Titles
       
        - Bard, by Speaker the award should given be, to persons who
          publish repeated creative wit or poetry.
-      
-       - Tycoon, awardable by the Treasuror to any player who executes a
-         novel economic or contractual enterprise that has a significant
-         impact on the game, especially if it involves leveraging
-         synergies for win-win outcomes for the benefit of multiple
-         players.
       
        - Helping Hand, awardable by any Officer to any person not
          holding that office who puts substantial labor into aiding in
