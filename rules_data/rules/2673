@@ -13,8 +13,8 @@ text: |
   The horsened SHALL NOT let a week go by without the horses having
   been motivated.
 
-  Each horse has an associated non-repeating set of horses, their
-  "pulls", tracked by the Horsened.
+  Pulls (syn. pull) is a Horse switch, tracked by the Horsened. It
+  has possible values of any set of horses.
 
   When the race begins anew, the horse's pulls are set to the
   following:
@@ -35,3 +35,8 @@ history:
   date: 2022-08-14
   agent:
     proposal: "8822"
+- change:
+    type: amendment
+  date: 2023-01-01
+  agent:
+    proposal: "8874"

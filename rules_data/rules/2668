@@ -10,7 +10,8 @@ text: |
   Sugar are each a horse. These are their names.
 
   Dollaries (singular: dollary) are a fixed currency. Hooves
-  (singular: hoof) are a fixed currency.
+  (singular: hoof) are a fixed currency. Any Dollaries or Hooves in
+  abeyance or not owned by a player are immediately destroyed."
 
   The Horsened is an office and the recordkeepor of dollaries,
   hooves, and horses.
@@ -33,3 +34,8 @@ history:
   date: 2022-08-14
   agent:
     proposal: "8822"
+- change:
+    type: amendment
+  date: 2023-01-01
+  agent:
+    proposal: "8874"

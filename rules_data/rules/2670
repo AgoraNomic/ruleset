@@ -5,10 +5,10 @@ text: |
   When the race ends, the following happen, in order:
 
   * the player that owns the horse with a Race Place of first gains
-    50 dollaries.
+    30 dollaries.
 
   * the player that owns the horse with a Race Place of second gains
-    30 dollaries.
+    20 dollaries.
 
   * the player that owns the horse with a Race Place of third gains
     15 dollaries.
@@ -31,3 +31,8 @@ history:
   date: 2022-08-14
   agent:
     proposal: "8822"
+- change:
+    type: amendment
+  date: 2023-01-01
+  agent:
+    proposal: "8874"

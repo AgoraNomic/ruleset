@@ -30,7 +30,7 @@ text: |
   specified Running horse's Race Position by 1, twice, by
   announcement.
 
-  Fargo's power: (WEEKLY POWER)  * get a helmet for and bet 2
+  Fargo's power: (WEEKLY POWER)  * get a helmet for and then bet 2
   dollaries on a specified horse, by paying 1 hoof.
 
   Nacho's power: (WEEKLY POWER)  * get a jersey for a specified
@@ -43,11 +43,17 @@ text: |
   by 1, 3 times, by paying a fee of 1, 2, or 3 dollaries
   respectively.
 
-  Sugar's power: (WEEKLY POWER)  * get a helmet for and increase the
-  Race Position of a specified horse by 1, by paying 1 hoof.
+  Sugar's power: (WEEKLY POWER)  * get a helmet for and then
+  increase the Race Position of a specified horse by 1, by paying 1
+  hoof.
 history:
 - change:
     type: enactment
   date: 2022-08-14
   agent:
     proposal: "8822"
+- change:
+    type: amendment
+  date: 2023-01-01
+  agent:
+    proposal: "8874"

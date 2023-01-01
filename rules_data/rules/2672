@@ -5,8 +5,8 @@ text: |
   Each player CAN take one of the following actions (weekly race
   actions) if e has not already taken one this week
 
-  * bet 1, 2, or 3 dollaries on a specified horse by paying a fee of
-    1, 2, or 3 dollaries respectively.
+  * bet 1, 2, or 3 dollaries on a specified Running horse by paying
+    a fee of 1, 2, or 3 dollaries respectively.
 
   * get a jersey for a specified horse, also specifying a horse to
     be added to that horse's pull, by paying 1 hoof.
@@ -22,7 +22,9 @@ text: |
   * take an action defined as a weekly power of a horse e owns by
     the rules.
 
-  * gain 4 dollaries by announcement.
+  * gain 5 dollaries by paying 3 hooves.
+
+  * gain 1 hoof by announcement.
 
   A player CANNOT bet on a horse with a Race Position of 12 or
   higher unless e got a helmet for that horse since the race last
@@ -47,3 +49,13 @@ history:
   date: 2022-11-13
   agent:
     proposal: "8864"
+- change:
+    type: amendment
+  date: 2023-01-01
+  agent:
+    proposal: "8874"
+- change:
+    type: amendment
+  date: 2023-01-01
+  agent:
+    proposal: "8874"
