@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 25 Dec 2022
+Date of this ruleset: 1 Jan 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8872
+Highest ID'd Proposal Passed: 8877
 Highest ID'd Rule Enacted: 2679
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -5251,27 +5251,43 @@ Obligations & Contracts
    contains rules which can bind players to obligations, in the form of
    Pledges and Contracts.
 ------------------------------------------------------------------------
-Rule 2471/2 (Power=1)
+Rule 2471/3 (Power=1)
 No Faking
 
-      A person SHALL NOT make a public statement that is a lie. A
-      statment is a lie if its publisher either knew or believed it to
-      be not true at the time e published it (or, in the case of an
-      action, not to be effective), and it was made with the intent to
-      mislead. Merely quoting a statement does not constitute making it
-      for the purposes of this rule. Any disclaimer, conditional clause,
-      or other qualifier attached to a statement constitutes part of the
-      statement for the purposes of this rule; the truth or falsity of
-      the whole is what is significant.
+      A person SHALL NOT make a public statement that is a lie.
       
-      The previous provisions of this rule notwithstanding, a formal
-      announcement of intent is never a lie.
+      A public statement is falsy if any of the following was true at
+      the time of publication:
+      * The statement was not true and the author knew or should have
+        known that it was not true.
+      * The author believed the statement to be not true.
+      
+      A public statement is a lie if it is falsy and any of the
+      following is true:
+      * The author made the statement with intent to mislead.
+      * The author, in the same message, declared the statement to be
+        made "under penalty of No Faking" (or similar).
+      
+      For the purposes of this rule, an attempt to perform an action by
+      publishing certain text constitutes an implicit statement that the
+      action was EFFECTIVE.
+      
+      Merely quoting a statement or attempt does not constitute making
+      it for the purposes of this rule. Any disclaimer, conditional
+      clause, or other qualifier attached to a statement or attempt
+      constitutes part of the statement or attempt for the purposes of
+      this rule; the truth or falsity of the whole is what is
+      significant.
+      
+      The above notwithstanding, a formal announcement of intent is
+      never a lie.
 
 History:
 
 Enacted by P7822 'Stop That' (Alexis), 07 Nov 2016
 Amended(1) by P7892 'Truthfulness v2' (Aspen), 26 Sep 2017
 Amended(2) by P8645 'Some RTRW Clean-Ups' (ATMunn, nix), 15 Mar 2022
+Amended(3) by P8877 'Fake fixes' (Janet, Murphy), 01 Jan 2023
 
 Annotations:
 
@@ -5838,12 +5854,13 @@ Amended(2) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/19 (Power=1)
+Rule 2499/20 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
       
-        * 1 Stamp of eir own type
+      * 1 Stamp of eir own type
+      * the number of hooves the player(s) with the most hooves has
       
       Any player CAN, by announcement, grant a Welcome Package to any
       player if the grantee has neither received one since e last
@@ -5881,6 +5898,7 @@ Amended(17) by P8674 'Proper Postage v2' (nix), 18 May 2022
 Amended(18) by R2658, 09 Jun 2022
 Amended(19) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
+Amended(20) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 
 Annotations:
 
@@ -6521,7 +6539,7 @@ Horses
    A game in which horses race for glory. Importantly, this does not
    bring glory to players, only horses.
 ------------------------------------------------------------------------
-Rule 2668/0 (Power=1)
+Rule 2668/1 (Power=1)
 Horses
 
       Horses are indestructible assets, ownable only by players and
@@ -6532,7 +6550,8 @@ Horses
       Sugar are each a horse. These are their names.
       
       Dollaries (singular: dollary) are a fixed currency. Hooves
-      (singular: hoof) are a fixed currency.
+      (singular: hoof) are a fixed currency. Any Dollaries or Hooves in
+      abeyance or not owned by a player are immediately destroyed."
       
       The Horsened is an office and the recordkeepor of dollaries,
       hooves, and horses.
@@ -6553,6 +6572,7 @@ Horses
 History:
 
 Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
+Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 
 Annotations:
 
@@ -6587,16 +6607,16 @@ Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2670/0 (Power=1)
+Rule 2670/1 (Power=1)
 Horse Victory
 
       When the race ends, the following happen, in order:
       
       * the player that owns the horse with a Race Place of first gains
-        50 dollaries.
+        30 dollaries.
       
       * the player that owns the horse with a Race Place of second gains
-        30 dollaries.
+        20 dollaries.
       
       * the player that owns the horse with a Race Place of third gains
         15 dollaries.
@@ -6617,6 +6637,7 @@ Horse Victory
 History:
 
 Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
+Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 
 Annotations:
 
@@ -6651,14 +6672,14 @@ Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2672/1 (Power=1)
+Rule 2672/3 (Power=1)
 Weekly Race Action
 
       Each player CAN take one of the following actions (weekly race
       actions) if e has not already taken one this week
       
-      * bet 1, 2, or 3 dollaries on a specified horse by paying a fee of
-        1, 2, or 3 dollaries respectively.
+      * bet 1, 2, or 3 dollaries on a specified Running horse by paying
+        a fee of 1, 2, or 3 dollaries respectively.
       
       * get a jersey for a specified horse, also specifying a horse to
         be added to that horse's pull, by paying 1 hoof.
@@ -6674,7 +6695,9 @@ Weekly Race Action
       * take an action defined as a weekly power of a horse e owns by
         the rules.
       
-      * gain 4 dollaries by announcement.
+      * gain 5 dollaries by paying 3 hooves.
+      
+      * gain 1 hoof by announcement.
       
       A player CANNOT bet on a horse with a Race Position of 12 or
       higher unless e got a helmet for that horse since the race last
@@ -6693,11 +6716,13 @@ History:
 
 Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Amended(1) by P8864 'Pronoun Correction' (ziproot), 13 Nov 2022
+Amended(2) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
+Amended(3) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2673/0 (Power=1)
+Rule 2673/1 (Power=1)
 Motivating Horses
 
       Any player CAN, by announcement if no player has done so yet this
@@ -6711,8 +6736,8 @@ Motivating Horses
       The horsened SHALL NOT let a week go by without the horses having
       been motivated.
       
-      Each horse has an associated non-repeating set of horses, their
-      "pulls", tracked by the Horsened.
+      Pulls (syn. pull) is a Horse switch, tracked by the Horsened. It
+      has possible values of any set of horses.
       
       When the race begins anew, the horse's pulls are set to the
       following:
@@ -6731,11 +6756,12 @@ Motivating Horses
 History:
 
 Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
+Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2674/0 (Power=1)
+Rule 2674/1 (Power=1)
 Horse Powers
 
       Each horse has a power which applies only to the player that owns
@@ -6766,7 +6792,7 @@ Horse Powers
       specified Running horse's Race Position by 1, twice, by
       announcement.
       
-      Fargo's power: (WEEKLY POWER)  * get a helmet for and bet 2
+      Fargo's power: (WEEKLY POWER)  * get a helmet for and then bet 2
       dollaries on a specified horse, by paying 1 hoof.
       
       Nacho's power: (WEEKLY POWER)  * get a jersey for a specified
@@ -6779,12 +6805,14 @@ Horse Powers
       by 1, 3 times, by paying a fee of 1, 2, or 3 dollaries
       respectively.
       
-      Sugar's power: (WEEKLY POWER)  * get a helmet for and increase the
-      Race Position of a specified horse by 1, by paying 1 hoof.
+      Sugar's power: (WEEKLY POWER)  * get a helmet for and then
+      increase the Race Position of a specified horse by 1, by paying 1
+      hoof.
 
 History:
 
 Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
+Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 
 Annotations:
 

@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 25 Dec 2022
+Date of this ruleset: 1 Jan 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8872
+Highest ID'd Proposal Passed: 8877
 Highest ID'd Rule Enacted: 2679
 
 ========================================================================
@@ -2198,21 +2198,36 @@ Obligations & Contracts
    contains rules which can bind players to obligations, in the form of
    Pledges and Contracts.
 ------------------------------------------------------------------------
-Rule 2471/2 (Power=1)
+Rule 2471/3 (Power=1)
 No Faking
 
-      A person SHALL NOT make a public statement that is a lie. A
-      statment is a lie if its publisher either knew or believed it to
-      be not true at the time e published it (or, in the case of an
-      action, not to be effective), and it was made with the intent to
-      mislead. Merely quoting a statement does not constitute making it
-      for the purposes of this rule. Any disclaimer, conditional clause,
-      or other qualifier attached to a statement constitutes part of the
-      statement for the purposes of this rule; the truth or falsity of
-      the whole is what is significant.
+      A person SHALL NOT make a public statement that is a lie.
       
-      The previous provisions of this rule notwithstanding, a formal
-      announcement of intent is never a lie.
+      A public statement is falsy if any of the following was true at
+      the time of publication:
+      * The statement was not true and the author knew or should have
+        known that it was not true.
+      * The author believed the statement to be not true.
+      
+      A public statement is a lie if it is falsy and any of the
+      following is true:
+      * The author made the statement with intent to mislead.
+      * The author, in the same message, declared the statement to be
+        made "under penalty of No Faking" (or similar).
+      
+      For the purposes of this rule, an attempt to perform an action by
+      publishing certain text constitutes an implicit statement that the
+      action was EFFECTIVE.
+      
+      Merely quoting a statement or attempt does not constitute making
+      it for the purposes of this rule. Any disclaimer, conditional
+      clause, or other qualifier attached to a statement or attempt
+      constitutes part of the statement or attempt for the purposes of
+      this rule; the truth or falsity of the whole is what is
+      significant.
+      
+      The above notwithstanding, a formal announcement of intent is
+      never a lie.
 
 ------------------------------------------------------------------------
 Rule 2450/11 (Power=1.7)
@@ -2549,12 +2564,13 @@ Stamps
       different type.
 
 ------------------------------------------------------------------------
-Rule 2499/19 (Power=1)
+Rule 2499/20 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
       
-        * 1 Stamp of eir own type
+      * 1 Stamp of eir own type
+      * the number of hooves the player(s) with the most hooves has
       
       Any player CAN, by announcement, grant a Welcome Package to any
       player if the grantee has neither received one since e last
@@ -3007,7 +3023,7 @@ Horses
    A game in which horses race for glory. Importantly, this does not
    bring glory to players, only horses.
 ------------------------------------------------------------------------
-Rule 2668/0 (Power=1)
+Rule 2668/1 (Power=1)
 Horses
 
       Horses are indestructible assets, ownable only by players and
@@ -3018,7 +3034,8 @@ Horses
       Sugar are each a horse. These are their names.
       
       Dollaries (singular: dollary) are a fixed currency. Hooves
-      (singular: hoof) are a fixed currency.
+      (singular: hoof) are a fixed currency. Any Dollaries or Hooves in
+      abeyance or not owned by a player are immediately destroyed."
       
       The Horsened is an office and the recordkeepor of dollaries,
       hooves, and horses.
@@ -3061,16 +3078,16 @@ The Horses Run
         are next motivated.
 
 ------------------------------------------------------------------------
-Rule 2670/0 (Power=1)
+Rule 2670/1 (Power=1)
 Horse Victory
 
       When the race ends, the following happen, in order:
       
       * the player that owns the horse with a Race Place of first gains
-        50 dollaries.
+        30 dollaries.
       
       * the player that owns the horse with a Race Place of second gains
-        30 dollaries.
+        20 dollaries.
       
       * the player that owns the horse with a Race Place of third gains
         15 dollaries.
@@ -3113,14 +3130,14 @@ Horse Multiplier
       Sugar           9 8 7 1 0
 
 ------------------------------------------------------------------------
-Rule 2672/1 (Power=1)
+Rule 2672/3 (Power=1)
 Weekly Race Action
 
       Each player CAN take one of the following actions (weekly race
       actions) if e has not already taken one this week
       
-      * bet 1, 2, or 3 dollaries on a specified horse by paying a fee of
-        1, 2, or 3 dollaries respectively.
+      * bet 1, 2, or 3 dollaries on a specified Running horse by paying
+        a fee of 1, 2, or 3 dollaries respectively.
       
       * get a jersey for a specified horse, also specifying a horse to
         be added to that horse's pull, by paying 1 hoof.
@@ -3136,7 +3153,9 @@ Weekly Race Action
       * take an action defined as a weekly power of a horse e owns by
         the rules.
       
-      * gain 4 dollaries by announcement.
+      * gain 5 dollaries by paying 3 hooves.
+      
+      * gain 1 hoof by announcement.
       
       A player CANNOT bet on a horse with a Race Position of 12 or
       higher unless e got a helmet for that horse since the race last
@@ -3152,7 +3171,7 @@ Weekly Race Action
       anew, which horses each player has gotten helmets and jerseys for.
 
 ------------------------------------------------------------------------
-Rule 2673/0 (Power=1)
+Rule 2673/1 (Power=1)
 Motivating Horses
 
       Any player CAN, by announcement if no player has done so yet this
@@ -3166,8 +3185,8 @@ Motivating Horses
       The horsened SHALL NOT let a week go by without the horses having
       been motivated.
       
-      Each horse has an associated non-repeating set of horses, their
-      "pulls", tracked by the Horsened.
+      Pulls (syn. pull) is a Horse switch, tracked by the Horsened. It
+      has possible values of any set of horses.
       
       When the race begins anew, the horse's pulls are set to the
       following:
@@ -3184,7 +3203,7 @@ Motivating Horses
       Sugar           Baxter, Destructor
 
 ------------------------------------------------------------------------
-Rule 2674/0 (Power=1)
+Rule 2674/1 (Power=1)
 Horse Powers
 
       Each horse has a power which applies only to the player that owns
@@ -3215,7 +3234,7 @@ Horse Powers
       specified Running horse's Race Position by 1, twice, by
       announcement.
       
-      Fargo's power: (WEEKLY POWER)  * get a helmet for and bet 2
+      Fargo's power: (WEEKLY POWER)  * get a helmet for and then bet 2
       dollaries on a specified horse, by paying 1 hoof.
       
       Nacho's power: (WEEKLY POWER)  * get a jersey for a specified
@@ -3228,8 +3247,9 @@ Horse Powers
       by 1, 3 times, by paying a fee of 1, 2, or 3 dollaries
       respectively.
       
-      Sugar's power: (WEEKLY POWER)  * get a helmet for and increase the
-      Race Position of a specified horse by 1, by paying 1 hoof.
+      Sugar's power: (WEEKLY POWER)  * get a helmet for and then
+      increase the Race Position of a specified horse by 1, by paying 1
+      hoof.
 
 ------------------------------------------------------------------------
 ========================================================================
