@@ -2,18 +2,33 @@ id: 2471
 name: No Faking
 power: 1
 text: |
-  A person SHALL NOT make a public statement that is a lie. A
-  statment is a lie if its publisher either knew or believed it to
-  be not true at the time e published it (or, in the case of an
-  action, not to be effective), and it was made with the intent to
-  mislead. Merely quoting a statement does not constitute making it
-  for the purposes of this rule. Any disclaimer, conditional clause,
-  or other qualifier attached to a statement constitutes part of the
-  statement for the purposes of this rule; the truth or falsity of
-  the whole is what is significant.
+  A person SHALL NOT make a public statement that is a lie.
 
-  The previous provisions of this rule notwithstanding, a formal
-  announcement of intent is never a lie.
+  A public statement is falsy if any of the following was true at
+  the time of publication:
+  * The statement was not true and the author knew or should have
+    known that it was not true.
+  * The author believed the statement to be not true.
+
+  A public statement is a lie if it is falsy and any of the
+  following is true:
+  * The author made the statement with intent to mislead.
+  * The author, in the same message, declared the statement to be
+    made "under penalty of No Faking" (or similar).
+
+  For the purposes of this rule, an attempt to perform an action by
+  publishing certain text constitutes an implicit statement that the
+  action was EFFECTIVE.
+
+  Merely quoting a statement or attempt does not constitute making
+  it for the purposes of this rule. Any disclaimer, conditional
+  clause, or other qualifier attached to a statement or attempt
+  constitutes part of the statement or attempt for the purposes of
+  this rule; the truth or falsity of the whole is what is
+  significant.
+
+  The above notwithstanding, a formal announcement of intent is
+  never a lie.
 history:
 - change:
     type: enactment
@@ -30,4 +45,9 @@ history:
   date: 2022-03-15
   agent:
     proposal: "8645"
+- change:
+    type: amendment
+  date: 2023-01-01
+  agent:
+    proposal: "8877"
 annotations: []
