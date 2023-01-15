@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 8 Jan 2023
+Date of this ruleset: 15 Jan 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8877
+Highest ID'd Proposal Passed: 8884
 Highest ID'd Rule Enacted: 2679
 
 ========================================================================
@@ -1733,14 +1733,15 @@ Succumbing to Time
       would otherwise expire within the next week.
 
 ------------------------------------------------------------------------
-Rule 2632/1 (Power=1.0)
+Rule 2632/3 (Power=2.0)
 Complexity
 
       Complexity is an office switch reflecting how complex it is to
       fulfill the duties of its office. Its possible values are all
       integers from 0 to 3 inclusive, where 1 is the default. It is
       tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
-      consent, flip the complexity of an office.
+      consent, flip the complexity of an office to a specified possible
+      value.
       
       For each office a player holds, eir voting strength is increase
       by the complexity of the office for referenda on ordinary
@@ -2177,7 +2178,7 @@ Recusal
       explained eir actions.
 
 ------------------------------------------------------------------------
-Rule 2246/6 (Power=2)
+Rule 2246/7 (Power=2)
 Submitting a CFJ to the Referee
 
       When a person initiates a Call for Judgement, e CAN, optionally,
@@ -2186,10 +2187,11 @@ Submitting a CFJ to the Referee
       good reason not to let it be processed by the Arbitor as usual.
       
       When a CFJ is submitted to the Referee, the Referee receives all
-      obligations and powers for the specific case that the Arbitor
-      would otherwise receive due to being Arbitor.  This takes
-      precedence over Rules that would otherwise assign duties and
-      powers regarding a judicial case to the Arbitor.
+      obligations and powers, other than obligations to report, for that
+      case that the Arbitor would otherwise receive due to being
+      Arbitor. This rule takes precedence over Rules that would
+      otherwise assign duties and powers regarding to a judicial case to
+      the Arbitor.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2592,7 +2594,7 @@ Birthday Gifts
       the Herald SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2675/2 (Power=2)
+Rule 2675/3 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -2600,7 +2602,8 @@ Dream of Wandering
       
       Dream is a secured active player switch, tracked by the Dream
       Keeper in eir weekly report, with possible values any Dream,
-      defaulting to Wandering.
+      defaulting to Wandering. An "X Dreamer" is a player with eir Dream
+      switch set to X.
       
       An active player CAN "envision" eir own Dream, specifying any
       valid value for eir Dream, by announcement. When the rules state
@@ -2618,49 +2621,46 @@ Dream of Wandering
       - Charity: The Charity Item is the item type that the L&FD owns
         the most of (if there is a tie, the first the L&FD owned, and if
         still tied, the first alphabetically). Immediately after a
-        wandering, for each player with the Charity Dream, in reverse
-        order of when eir Dream was last flipped (and in reverse order
-        of registration if tied), one item of the Charity type is
-        transferred from the L&FD to em.
+        wandering, for each Charity Dreamer, in reverse order of when
+        eir Dream was last flipped (and in reverse order of registration
+        if tied), one item of the Charity type is transferred from the
+        L&FD to em.
       
       - Justice: Immediately after a wandering, 1 blot is expunged from
-        each player with the Justice Dream. If a player with the Justice
-        Dream had no blots immediately after a wandering, e CAN once
-        expunge one blot, by announcement, from a specified player
-        before the next wandering.
+        each Justice Dreamer. If a Justice Dreamer had no blots
+        immediately after a wandering, e CAN onceexpunge one blot, by
+        announcement, from a specified player before the next wandering.
       
-      - Sharing: Immediately after a wandering, each player with the
-        Sharing Dream has eir points increased by X / Y, rounded down,
-        where X is half the number of active players, rounded up, and Y
-        is the number of players with the Sharing Dream.
+      - Sharing: Immediately after a wandering, each Sharing Dreamer has
+        eir points increased by X / Y, rounded down, where X is half the
+        number of active players, rounded up, and Y is the number of
+        Sharing Dreamers.
       
       - Wealth: Immediately after a wandering, X stamps of eir own type
-        are granted to each player with the Wealth Dream. When less than
-        8 Stamps of eir type exist, X is 2. When 8 to 15 Stamps of eir
-        type exist, X is 1. When 16 ore more Stamps of eir type exist, X
-        is 0.
+        are granted to each Wealth Dreamer. When less than 8 Stamps of
+        eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
+        is 1. When 16 ore more Stamps of eir type exist, X is 0.
       
-      - Machinery: A player with the Machinery Dream CAN Flip the Device
-        with Agoran Consent. A player with the Machinery Dream CAN take
-        a specified action on behalf of the the device with 1 support.
+      - Machinery: A Machinery Dreamer CAN Flip the Device with Agoran
+        Consent. A Machinery Dreamer CAN take a specified action on
+        behalf of the the device with 1 support.
       
-      - Gardens: Once per week, a player with the Gardens Dream CAN, by
-        announcement, transfer the mossiest stone (if there is a tie,
-        then a specified stone tied for mossiest) Agora owns to emself.
-        E SHOULD specify the stone when doing so.
+      - Gardens: Once per week, a Gardens Dreamer CAN, by announcement,
+        transfer the mossiest stone (if there is a tie, then a specified
+        stone tied for mossiest) Agora owns to emself. E SHOULD specify
+        the stone when doing so.
       
-      - Power: The voting strength of a player with the Power Dream has
-        eir voting strength increased by 2 for referenda on ordinary
-        proposals.
+      - Power: Each Power Dreamer has eir voting strength increased by 2
+        for referenda on ordinary proposals.
       
-      - Revolution: A revolution is happening if the majority of Dreams
-        are set to Revolution. Immediately after a wandering, if a
-        revolution is not happening, then all players with the
-        Revolution Dream have eir score decreased by 1 to a minimum of
-        0. Immediately after a wandering, if a revolution is happening,
-        then all players have eir score set to 100-X, where X was eir
-        score when the wandering occured, and all player's Dreams are
-        set to Wandering.
+      - Revolution: A revolution is happening if the majority of active
+        players are Revolution Dreamers. Immediately after a wandering,
+        if a revolution is not happening, then all Revolution Dreamers
+        have eir score decreased by 1 to a minimum of 0. Immediately
+        after a wandering, if a revolution is happening, then all
+        players have eir score set to 100-X, where X was eir score when
+        the wandering occured, and all player's Dreams are set to
+        Wandering.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2668,7 +2668,7 @@ Stones
    A game in which people try to collect Stones with various different
    Magical Powers OooOooh!
 ------------------------------------------------------------------------
-Rule 2640/2 (Power=2)
+Rule 2640/3 (Power=2)
 Stones
 
       A stone is a unique indestructable liquid asset defined by the
@@ -2687,9 +2687,9 @@ Stones
       
       Mossiness is a Stone switch with values of non-negative integers
       and a default of 0 tracked by the Stonemason. When a stone is
-      transfered, its Mossiness is set to 0. The mossiest stone(s) in a
-      set of stone is (are) the stone(s) with the highest Mossiness
-      value.
+      transferred from Agora to a player or from a player to Agora, its
+      Mossiness is set to 0. The mossiest stone(s) in a set of stone is
+      (are) the stone(s) with the highest Mossiness value.
       
       The Slipperiness of a stone is that stone's smoothness plus its
       mossiness.
@@ -3078,7 +3078,7 @@ The Horses Run
         are next motivated.
 
 ------------------------------------------------------------------------
-Rule 2670/1 (Power=1)
+Rule 2670/2 (Power=1)
 Horse Victory
 
       When the race ends, the following happen, in order:
@@ -3101,7 +3101,8 @@ Horse Victory
         on that horse since the last time the race started anew.
       
       * The score of the player that has the most dollaries is increased
-        by 15.  In the event of a tie, instead, no score change occurs.
+        by 30.  In the event of an N-way tie, instead, each tied
+        player's score is increased by 30/N points, rounded down.
       
       * The race starts anew.
 
