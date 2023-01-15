@@ -8,10 +8,11 @@ text: |
   good reason not to let it be processed by the Arbitor as usual.
 
   When a CFJ is submitted to the Referee, the Referee receives all
-  obligations and powers for the specific case that the Arbitor
-  would otherwise receive due to being Arbitor.  This takes
-  precedence over Rules that would otherwise assign duties and
-  powers regarding a judicial case to the Arbitor.
+  obligations and powers, other than obligations to report, for that
+  case that the Arbitor would otherwise receive due to being
+  Arbitor. This rule takes precedence over Rules that would
+  otherwise assign duties and powers regarding to a judicial case to
+  the Arbitor.
 history:
 - change:
     type: enactment
@@ -53,3 +54,8 @@ history:
   date: 2019-02-22
   agent:
     proposal: "8152"
+- change:
+    type: amendment
+  date: 2023-01-15
+  agent:
+    proposal: "8882"
