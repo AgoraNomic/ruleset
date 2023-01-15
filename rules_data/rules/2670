@@ -22,7 +22,8 @@ text: |
     on that horse since the last time the race started anew.
 
   * The score of the player that has the most dollaries is increased
-    by 15.  In the event of a tie, instead, no score change occurs.
+    by 30.  In the event of an N-way tie, instead, each tied
+    player's score is increased by 30/N points, rounded down.
 
   * The race starts anew.
 history:
@@ -36,3 +37,8 @@ history:
   date: 2023-01-01
   agent:
     proposal: "8874"
+- change:
+    type: amendment
+  date: 2023-01-15
+  agent:
+    proposal: "8884"
