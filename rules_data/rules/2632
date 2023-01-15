@@ -1,6 +1,6 @@
 id: 2632
 name: Complexity
-power: 1.0
+power: 2.0
 text: |
   Complexity is an office switch reflecting how complex it is to
   fulfill the duties of its office. Its possible values are all
@@ -28,4 +28,16 @@ history:
   date: 2023-01-15
   agent:
     proposal: "8880"
+- change:
+    type: power-change
+    from: 1.0
+    to: 2.0
+  date: 2023-01-15
+  agent:
+    proposal: "8881"
+- change:
+    type: amendment
+  date: 2023-01-15
+  agent:
+    proposal: "8881"
 annotations: []
