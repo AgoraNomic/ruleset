@@ -6,7 +6,8 @@ text: |
   fulfill the duties of its office. Its possible values are all
   integers from 0 to 3 inclusive, where 1 is the default. It is
   tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
-  consent, flip the complexity of an office.
+  consent, flip the complexity of an office to a specified possible
+  value.
 
   For each office a player holds, eir voting strength is increase
   by the complexity of the office for referenda on ordinary
@@ -22,4 +23,9 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8872"
+- change:
+    type: amendment
+  date: 2023-01-15
+  agent:
+    proposal: "8880"
 annotations: []
