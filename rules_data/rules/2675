@@ -7,7 +7,8 @@ text: |
 
   Dream is a secured active player switch, tracked by the Dream
   Keeper in eir weekly report, with possible values any Dream,
-  defaulting to Wandering.
+  defaulting to Wandering. An "X Dreamer" is a player with eir Dream
+  switch set to X.
 
   An active player CAN "envision" eir own Dream, specifying any
   valid value for eir Dream, by announcement. When the rules state
@@ -25,49 +26,46 @@ text: |
   - Charity: The Charity Item is the item type that the L&FD owns
     the most of (if there is a tie, the first the L&FD owned, and if
     still tied, the first alphabetically). Immediately after a
-    wandering, for each player with the Charity Dream, in reverse
-    order of when eir Dream was last flipped (and in reverse order
-    of registration if tied), one item of the Charity type is
-    transferred from the L&FD to em.
+    wandering, for each Charity Dreamer, in reverse order of when
+    eir Dream was last flipped (and in reverse order of registration
+    if tied), one item of the Charity type is transferred from the
+    L&FD to em.
 
   - Justice: Immediately after a wandering, 1 blot is expunged from
-    each player with the Justice Dream. If a player with the Justice
-    Dream had no blots immediately after a wandering, e CAN once
-    expunge one blot, by announcement, from a specified player
-    before the next wandering.
+    each Justice Dreamer. If a Justice Dreamer had no blots
+    immediately after a wandering, e CAN onceexpunge one blot, by
+    announcement, from a specified player before the next wandering.
 
-  - Sharing: Immediately after a wandering, each player with the
-    Sharing Dream has eir points increased by X / Y, rounded down,
-    where X is half the number of active players, rounded up, and Y
-    is the number of players with the Sharing Dream.
+  - Sharing: Immediately after a wandering, each Sharing Dreamer has
+    eir points increased by X / Y, rounded down, where X is half the
+    number of active players, rounded up, and Y is the number of
+    Sharing Dreamers.
 
   - Wealth: Immediately after a wandering, X stamps of eir own type
-    are granted to each player with the Wealth Dream. When less than
-    8 Stamps of eir type exist, X is 2. When 8 to 15 Stamps of eir
-    type exist, X is 1. When 16 ore more Stamps of eir type exist, X
-    is 0.
+    are granted to each Wealth Dreamer. When less than 8 Stamps of
+    eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
+    is 1. When 16 ore more Stamps of eir type exist, X is 0.
 
-  - Machinery: A player with the Machinery Dream CAN Flip the Device
-    with Agoran Consent. A player with the Machinery Dream CAN take
-    a specified action on behalf of the the device with 1 support.
+  - Machinery: A Machinery Dreamer CAN Flip the Device with Agoran
+    Consent. A Machinery Dreamer CAN take a specified action on
+    behalf of the the device with 1 support.
 
-  - Gardens: Once per week, a player with the Gardens Dream CAN, by
-    announcement, transfer the mossiest stone (if there is a tie,
-    then a specified stone tied for mossiest) Agora owns to emself.
-    E SHOULD specify the stone when doing so.
+  - Gardens: Once per week, a Gardens Dreamer CAN, by announcement,
+    transfer the mossiest stone (if there is a tie, then a specified
+    stone tied for mossiest) Agora owns to emself. E SHOULD specify
+    the stone when doing so.
 
-  - Power: The voting strength of a player with the Power Dream has
-    eir voting strength increased by 2 for referenda on ordinary
-    proposals.
+  - Power: Each Power Dreamer has eir voting strength increased by 2
+    for referenda on ordinary proposals.
 
-  - Revolution: A revolution is happening if the majority of Dreams
-    are set to Revolution. Immediately after a wandering, if a
-    revolution is not happening, then all players with the
-    Revolution Dream have eir score decreased by 1 to a minimum of
-    0. Immediately after a wandering, if a revolution is happening,
-    then all players have eir score set to 100-X, where X was eir
-    score when the wandering occured, and all player's Dreams are
-    set to Wandering.
+  - Revolution: A revolution is happening if the majority of active
+    players are Revolution Dreamers. Immediately after a wandering,
+    if a revolution is not happening, then all Revolution Dreamers
+    have eir score decreased by 1 to a minimum of 0. Immediately
+    after a wandering, if a revolution is happening, then all
+    players have eir score set to 100-X, where X was eir score when
+    the wandering occured, and all player's Dreams are set to
+    Wandering.
 history:
 - change:
     type: enactment
@@ -91,3 +89,8 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8872"
+- change:
+    type: amendment
+  date: 2023-01-15
+  agent:
+    proposal: "8878"
