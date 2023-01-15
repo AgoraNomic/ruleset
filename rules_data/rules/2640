@@ -18,9 +18,9 @@ text: |
 
   Mossiness is a Stone switch with values of non-negative integers
   and a default of 0 tracked by the Stonemason. When a stone is
-  transfered, its Mossiness is set to 0. The mossiest stone(s) in a
-  set of stone is (are) the stone(s) with the highest Mossiness
-  value.
+  transferred from Agora to a player or from a player to Agora, its
+  Mossiness is set to 0. The mossiest stone(s) in a set of stone is
+  (are) the stone(s) with the highest Mossiness value.
 
   The Slipperiness of a stone is that stone's smoothness plus its
   mossiness.
@@ -40,4 +40,9 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8870"
+- change:
+    type: amendment
+  date: 2023-01-15
+  agent:
+    proposal: "8883"
 annotations: []
