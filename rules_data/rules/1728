@@ -307,3 +307,18 @@ annotations:
     Dependent action intents aren't "by announcement" actions, so a
     message saying it a lot of times can be read "naturally" as
     counting as a single intent.
+- cfjs:
+  - id: "3747"
+    called: 2019-06-25
+  text: >
+    An intent is "conspicuous" if "a reasonable player would be able
+    to tell after glancing at a message that it contains the
+    dependent action".
+- cfjs:
+  - id: "3747"
+    called: 2019-06-25
+  text: >
+    An intent is "without obfuscation" if (1) "a reasonable Agoran
+    reading the message must, at a glance, be able to understand the
+    gist of the dependent action being announced" and (2) the
+    details of the action to be performed are "easy to understand".
