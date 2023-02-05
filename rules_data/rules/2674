@@ -34,8 +34,8 @@ text: |
   dollaries on a specified horse, by paying 1 hoof.
 
   Nacho's power: (WEEKLY POWER)  * get a jersey for a specified
-  horse, also specifying a horse to be added to another specified
-  horse's pull, by paying 1 hoof.
+  horse, also specifying a horse which is thereby added to another
+  specified horse's pull, by paying 1 hoof.
 
   Rubert's power: (WEEKLY POWER)  * bet 1, 2, or 3 dollaries on a
   specified horse, and if the horse has the lowest race position or
@@ -57,3 +57,8 @@ history:
   date: 2023-01-01
   agent:
     proposal: "8874"
+- change:
+    type: amendment
+  date: 2023-02-04
+  agent:
+    proposal: "8887"
