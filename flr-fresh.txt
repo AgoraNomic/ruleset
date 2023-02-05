@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 22 Jan 2023
+Date of this ruleset: 5 Feb 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8884
+Highest ID'd Proposal Passed: 8887
 Highest ID'd Rule Enacted: 2679
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -1348,6 +1348,14 @@ CFJ 1802 (called 19 Nov 2007): The phrase "by Agoran Support" is not an
 CFJ 3567 (called 27 Sep 2017): Dependent action intents aren't "by
     announcement" actions, so a message saying it a lot of times can be
     read "naturally" as counting as a single intent.
+CFJ 3747 (called 25 Jun 2019): An intent is "conspicuous" if "a
+    reasonable player would be able to tell after glancing at a message
+    that it contains the dependent action".
+CFJ 3747 (called 25 Jun 2019): An intent is "without obfuscation" if (1)
+    "a reasonable Agoran reading the message must, at a glance, be able
+    to understand the gist of the dependent action being announced" and
+    (2) the details of the action to be performed are "easy to
+    understand".
 
 ------------------------------------------------------------------------
 Rule 2124/31 (Power=3)
@@ -6175,7 +6183,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/13 (Power=2)
+Rule 2645/14 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6216,11 +6224,6 @@ The Stones
       
       - Blank Stone (Monthly, 0): This stone has no effect.
       
-      - Mason's Stone (None, 0): If the Mason's Stone is owned by the
-        Stonemason, its Mossiness is continuously set to 0. If the
-        Mason's Stone is owned by Agora, it is transferred to the
-        Stonemason.
-      
       - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
         stone is transferred to the wielder. When this happens, the
         Anti-Equatorial Stone's mossiness is incremented by 1.
@@ -6252,6 +6255,7 @@ Amended(11) by P8865 'Stone Fixes' (nix, G., ais523, Janet, ziproot), 13
 Amended(12) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
    ziproot), 27 Nov 2022
 Amended(13) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
+Amended(14) by P8886 'Mason's Stone repeal' (Janet), 04 Feb 2023
 
 Annotations:
 
@@ -6680,7 +6684,7 @@ Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2672/3 (Power=1)
+Rule 2672/4 (Power=1)
 Weekly Race Action
 
       Each player CAN take one of the following actions (weekly race
@@ -6689,8 +6693,9 @@ Weekly Race Action
       * bet 1, 2, or 3 dollaries on a specified Running horse by paying
         a fee of 1, 2, or 3 dollaries respectively.
       
-      * get a jersey for a specified horse, also specifying a horse to
-        be added to that horse's pull, by paying 1 hoof.
+      * get a jersey for a specified horse by paying 1 hoof, also
+        specifying a horse which is thereby added to that horse's pull,
+        by paying 1 hoof.
       
       * get a helmet for a specified horse by paying 1 hoof.
       
@@ -6726,6 +6731,7 @@ Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Amended(1) by P8864 'Pronoun Correction' (ziproot), 13 Nov 2022
 Amended(2) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 Amended(3) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
+Amended(4) by P8887 'Schrodinger's Horse' (Murphy, ais523), 04 Feb 2023
 
 Annotations:
 
@@ -6769,7 +6775,7 @@ Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2674/1 (Power=1)
+Rule 2674/2 (Power=1)
 Horse Powers
 
       Each horse has a power which applies only to the player that owns
@@ -6804,8 +6810,8 @@ Horse Powers
       dollaries on a specified horse, by paying 1 hoof.
       
       Nacho's power: (WEEKLY POWER)  * get a jersey for a specified
-      horse, also specifying a horse to be added to another specified
-      horse's pull, by paying 1 hoof.
+      horse, also specifying a horse which is thereby added to another
+      specified horse's pull, by paying 1 hoof.
       
       Rubert's power: (WEEKLY POWER)  * bet 1, 2, or 3 dollaries on a
       specified horse, and if the horse has the lowest race position or
@@ -6821,6 +6827,7 @@ History:
 
 Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
+Amended(2) by P8887 'Schrodinger's Horse' (Murphy, ais523), 04 Feb 2023
 
 Annotations:
 
