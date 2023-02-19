@@ -27,8 +27,7 @@ text: |
   Race Position by 1 by announcement, if Cannon is Running.
 
   Destructor's power: Once per month, the owner CAN decrease a
-  specified Running horse's Race Position by 1, twice, by
-  announcement.
+  specified Running horse's Race Position by 2 by announcement.
 
   Fargo's power: (WEEKLY POWER)  * get a helmet for and then bet 2
   dollaries on a specified horse, by paying 1 hoof.
@@ -40,8 +39,7 @@ text: |
   Rubert's power: (WEEKLY POWER)  * bet 1, 2, or 3 dollaries on a
   specified horse, and if the horse has the lowest race position or
   is tied for the lowest race position, increase its race position
-  by 1, 3 times, by paying a fee of 1, 2, or 3 dollaries
-  respectively.
+  by 3 by paying a fee of 1, 2, or 3 dollaries respectively.
 
   Sugar's power: (WEEKLY POWER)  * get a helmet for and then
   increase the Race Position of a specified horse by 1, by paying 1
@@ -62,3 +60,8 @@ history:
   date: 2023-02-04
   agent:
     proposal: "8887"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8899"

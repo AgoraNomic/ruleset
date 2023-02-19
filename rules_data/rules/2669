@@ -6,9 +6,9 @@ text: |
   not motivated within the last week.
 
   When the horses run, each player gains 1 hoof, movement resolves,
-  and then if any horses have a Race Position of 16 and a Race Place
-  of none, those horses cross the finish line in alphabetical order
-  of their names.
+  and then if any horses have a Race Position of 16 or more and a
+  Race Place of none, those horses cross the finish line in
+  alphabetical order of their names.
 
   When a horse crosses the finish line:
 
@@ -27,3 +27,8 @@ history:
   date: 2022-08-14
   agent:
     proposal: "8822"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8899"

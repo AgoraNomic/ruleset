@@ -16,8 +16,8 @@ text: |
   The Horsened is an office and the recordkeepor of dollaries,
   hooves, and horses.
 
-  Race Position is a Horse switch with possible values of the
-  integers from 0 (default) to 16, tracked by the Horsened.
+  Race Position is a Horse switch with non-negative integer possible
+  values, defaulting to 0, tracked by the Horsened.
 
   Race Place is a Horse switch with possible values of first,
   second, third, and none (default), tracked by the Horsened.
@@ -39,3 +39,8 @@ history:
   date: 2023-01-01
   agent:
     proposal: "8874"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8899"

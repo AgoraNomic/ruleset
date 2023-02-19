@@ -18,7 +18,7 @@ text: |
     fee equal to the horse's cost.
 
   * increase or decrease a specified Running horse's Race Position
-    by 1, twice, by paying 3 hooves.
+    by 2, by paying 3 hooves.
 
   * take an action defined as a weekly power of a horse e owns by
     the rules.
@@ -65,3 +65,8 @@ history:
   date: 2023-02-04
   agent:
     proposal: "8887"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8899"

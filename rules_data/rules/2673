@@ -5,10 +5,9 @@ text: |
   Any player CAN, by announcement if no player has done so yet this
   week, motivate the horses, specifying a random horse (the
   galloper) and a random number choice of 1, 2, or 3. When movement
-  resolves, the galloper's Race Position is increased by 1 a number
-  of times equal to the random number choice, and then each of the
-  galloper's pulls have their Race Position increased by 1 in
-  alphabetical order of their names.
+  resolves, the galloper's Race Position is increased by the random
+  number choice, and then each of the galloper's pulls have their
+  Race Position increased by 1 in alphabetical order of their names.
 
   The horsened SHALL NOT let a week go by without the horses having
   been motivated.
@@ -40,3 +39,8 @@ history:
   date: 2023-01-01
   agent:
     proposal: "8874"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8899"
