@@ -63,6 +63,9 @@ text: |
     * The ADoP CAN, with 2 Agoran consent, flip the complexity of an
       device.
     * Agoran device begin at midnight UTC.
+    * An device is ripe if was tabled within the past 14 days, the
+      Speaker hasn't objected to it in the past 48 hours, and its
+      conditions, if any, are each clearly and unambiguously met.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -380,4 +383,11 @@ history:
     experiment:
       id: 60
       engineer: Jason
+- change:
+    type: amendment
+  date: 2023-02-14
+  agent:
+    experiment:
+      id: 72
+      engineer: Janet
 annotations: []
