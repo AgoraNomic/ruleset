@@ -15,7 +15,7 @@ text: |
   the Escape Minimum is transferred to Agora. If there is a tie, the
   Stone Mason randomly selects which one escapes. If e has no such
   stones, none of eir stones are transferred to Agora. The mossiness
-  of all stones that are not transferred is incremented by 1.
+  of all stones not owned by Agora incremented by 1.
 history:
 - change:
     type: enactment
@@ -42,4 +42,9 @@ history:
   date: 2023-02-17
   agent:
     proposal: "8893"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8898"
 annotations: []

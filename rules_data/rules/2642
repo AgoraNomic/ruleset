@@ -2,10 +2,19 @@ id: 2642
 name: Gathering Stones
 power: 2
 text: |
-  A player who has not possessed a stone in the last 30 days CAN, by
-  announcement, transfer the mossiest stone (if there is a tie, then
-  a specified stone tied for mossiest) Agora owns to emself. E
-  SHOULD specify the stone when doing so.
+  Base Rockiness is a player switch, with values of integers and
+  default of 0, tracked by the Stone Collector. A player's Modified
+  Rockiness is eir Base Rockiness minus the number of stones e owns.
+
+  Once a week each player CAN "reach" for a specified stone owned by
+  Agora by announcement.
+
+  At the beginning of each week, the stone specified by the player
+  with the highest Modified Rockiness that reached for a stone in
+  the previous week is transferred to em. In a tie, the stone
+  specified by the tied player who reached first is transferred to
+  em. When a player receives a stone in this way, eir Base Rockiness
+  is set to 0.
 history:
 - change:
     type: enactment
@@ -32,4 +41,9 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8870"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8898"
 annotations: []
