@@ -3,13 +3,13 @@
 #     This section has Emergency Regulations, providing a way to change the
 #     gamestate during states of extreme emergency.
 #   rules:
-- name: Administrative Regulations
-  note: |
-    This section has regulations enacted by officers, pursuant to Rule
-    2630.
-  rules:
-  - PA0
-  - PA1
-  - RA1
-  - RA2
-  - RA3
+# - name: Administrative Regulations
+#   note: |
+#     This section has regulations enacted by officers, pursuant to Rule
+#     2630.
+#   rules:
+#   - PA0
+#   - PA1
+#   - RA1
+#   - RA2
+#   - RA3
