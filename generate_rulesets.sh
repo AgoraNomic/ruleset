@@ -54,6 +54,7 @@ COMMON_RULESET_OPTIONS=(
   --index-file "$REGS_DATA_DIR/config/index" \
   --rules-dir "$REGS_DATA_DIR/rules" \
   --header-file "$REGS_DATA_DIR/config/header" \
+  --empty-ruleset-file "$REGS_DATA_DIR/config/empty_ruleset" \
   --out-file "$OUT_DIR/acorn.txt" \
   --history \
   --annotations \
