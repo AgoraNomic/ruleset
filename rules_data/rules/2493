@@ -11,7 +11,7 @@ text: |
   its parent rule. By default, a person CAN, with 2 Agoran consent,
   enact, amend, or repeal a regulation for which e is the
   Promulgator. Regulations are tracked by the Rulekeepor as part of
-  eir weekly and monthly reports in a fashion similar to rules.
+  eir monthly report in a fashion similar to rules.
 history:
 - change:
     type: enactment
@@ -70,4 +70,9 @@ history:
   date: 2022-03-15
   agent:
     proposal: "8645"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8894"
 annotations: []
