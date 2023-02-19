@@ -13,9 +13,9 @@ text: |
   When a Collection Notice is published, for each player eir
   non-immune stone with the highest slipperiness equal to or above
   the Escape Minimum is transferred to Agora. If there is a tie, the
-  Stone Mason selects which one escapes. If e has no such stones,
-  none of eir stones are transferred to Agora. The mossiness of all
-  stones that are not transferred is incremented by 1.
+  Stone Mason randomly selects which one escapes. If e has no such
+  stones, none of eir stones are transferred to Agora. The mossiness
+  of all stones that are not transferred is incremented by 1.
 history:
 - change:
     type: enactment
@@ -37,4 +37,9 @@ history:
   date: 2022-11-26
   agent:
     proposal: "8868"
+- change:
+    type: amendment
+  date: 2023-02-17
+  agent:
+    proposal: "8893"
 annotations: []
