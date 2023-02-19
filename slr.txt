@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 5 Feb 2023
+Date of this ruleset: 19 Feb 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 139
+Number of rules currently enacted: 138
 
 Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8887
+Highest ID'd Proposal Passed: 8899
 Highest ID'd Rule Enacted: 2679
 
 ========================================================================
@@ -929,7 +929,7 @@ Rule Changes
       a rule or cease to be a rule.
 
 ------------------------------------------------------------------------
-Rule 2493/9 (Power=3)
+Rule 2493/10 (Power=3)
 Regulations
 
       A regulation is a textual entity defined as such by this rule, and
@@ -941,7 +941,7 @@ Regulations
       its parent rule. By default, a person CAN, with 2 Agoran consent,
       enact, amend, or repeal a regulation for which e is the
       Promulgator. Regulations are tracked by the Rulekeepor as part of
-      eir weekly and monthly reports in a fashion similar to rules.
+      eir monthly report in a fashion similar to rules.
 
 ------------------------------------------------------------------------
 Rule 2486/1 (Power=3.14)
@@ -1480,7 +1480,7 @@ The Administrative State
          regulations in matters relating to eir area of responsibility.
 
 ------------------------------------------------------------------------
-Rule 2651/0 (Power=2)
+Rule 2651/1 (Power=2)
 The Election Cycle
 
       A holder of an elected office who did not become its holder by
@@ -1495,9 +1495,10 @@ The Election Cycle
       
       A player CAN initiate an election for a specified elected office:
       
-      a) with 2 support, if either the office is interim or term-
-      limited, and provided that the initiator becomes a candidate in
-      the same message.
+      
+      a) With 2 support (if the office is either interim or term-
+      limited) or 4 support (otherwise), and provided that the initiator
+      becomes a candidate in the same message.
       
       b) By announcement, if e is the ADoP (or, if the office is the
       ADoP, if e is the Assessor) and the office is interim, or if e is
@@ -2388,12 +2389,12 @@ Contracts
       contracts or contracts deemed detrimental to the game as a whole.
 
 ------------------------------------------------------------------------
-Rule 2608/3 (Power=2.0)
+Rule 2608/4 (Power=2.0)
 The Notary
 
       The Notary is an office.
       
-      The Notary's weekly report contains:
+      The Notary's monthly report contains:
       
       1. every pledge, along with its title, creator, time window, time
          of creation, and time of expiry;
@@ -2716,16 +2717,25 @@ Wielding Stones
       The wielding of stones is secured.
 
 ------------------------------------------------------------------------
-Rule 2642/3 (Power=2)
+Rule 2642/4 (Power=2)
 Gathering Stones
 
-      A player who has not possessed a stone in the last 30 days CAN, by
-      announcement, transfer the mossiest stone (if there is a tie, then
-      a specified stone tied for mossiest) Agora owns to emself. E
-      SHOULD specify the stone when doing so.
+      Base Rockiness is a player switch, with values of integers and
+      default of 0, tracked by the Stone Collector. A player's Modified
+      Rockiness is eir Base Rockiness minus the number of stones e owns.
+      
+      Once a week each player CAN "reach" for a specified stone owned by
+      Agora by announcement.
+      
+      At the beginning of each week, the stone specified by the player
+      with the highest Modified Rockiness that reached for a stone in
+      the previous week is transferred to em. In a tie, the stone
+      specified by the tied player who reached first is transferred to
+      em. When a player receives a stone in this way, eir Base Rockiness
+      is set to 0.
 
 ------------------------------------------------------------------------
-Rule 2643/3 (Power=2)
+Rule 2643/5 (Power=2)
 Collecting Stones
 
       Once per month, the Stonemason CAN publish a Collection Notice by
@@ -2739,9 +2749,9 @@ Collecting Stones
       When a Collection Notice is published, for each player eir
       non-immune stone with the highest slipperiness equal to or above
       the Escape Minimum is transferred to Agora. If there is a tie, the
-      Stone Mason selects which one escapes. If e has no such stones,
-      none of eir stones are transferred to Agora. The mossiness of all
-      stones that are not transferred is incremented by 1.
+      Stone Mason randomly selects which one escapes. If e has no such
+      stones, none of eir stones are transferred to Agora. The mossiness
+      of all stones not owned by Agora incremented by 1.
 
 ------------------------------------------------------------------------
 Rule 2644/5 (Power=2)
@@ -2811,7 +2821,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/38 (Power=1)
+Rule 2654/39 (Power=1)
 The Device
 
       When the device is on:
@@ -2875,6 +2885,9 @@ The Device
         * The ADoP CAN, with 2 Agoran consent, flip the complexity of an
           device.
         * Agoran device begin at midnight UTC.
+        * An device is ripe if was tabled within the past 14 days, the
+          Speaker hasn't objected to it in the past 48 hours, and its
+          conditions, if any, are each clearly and unambiguously met.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -3018,7 +3031,7 @@ Horses
    A game in which horses race for glory. Importantly, this does not
    bring glory to players, only horses.
 ------------------------------------------------------------------------
-Rule 2668/1 (Power=1)
+Rule 2668/2 (Power=1)
 Horses
 
       Horses are indestructible assets, ownable only by players and
@@ -3035,8 +3048,8 @@ Horses
       The Horsened is an office and the recordkeepor of dollaries,
       hooves, and horses.
       
-      Race Position is a Horse switch with possible values of the
-      integers from 0 (default) to 16, tracked by the Horsened.
+      Race Position is a Horse switch with non-negative integer possible
+      values, defaulting to 0, tracked by the Horsened.
       
       Race Place is a Horse switch with possible values of first,
       second, third, and none (default), tracked by the Horsened.
@@ -3049,16 +3062,16 @@ Horses
       receives 10 dollaries.
 
 ------------------------------------------------------------------------
-Rule 2669/0 (Power=1)
+Rule 2669/1 (Power=1)
 The Horses Run
 
       The horses Run at the start of each week, unless the horses were
       not motivated within the last week.
       
       When the horses run, each player gains 1 hoof, movement resolves,
-      and then if any horses have a Race Position of 16 and a Race Place
-      of none, those horses cross the finish line in alphabetical order
-      of their names.
+      and then if any horses have a Race Position of 16 or more and a
+      Race Place of none, those horses cross the finish line in
+      alphabetical order of their names.
       
       When a horse crosses the finish line:
       
@@ -3126,7 +3139,7 @@ Horse Multiplier
       Sugar           9 8 7 1 0
 
 ------------------------------------------------------------------------
-Rule 2672/4 (Power=1)
+Rule 2672/5 (Power=1)
 Weekly Race Action
 
       Each player CAN take one of the following actions (weekly race
@@ -3145,7 +3158,7 @@ Weekly Race Action
         fee equal to the horse's cost.
       
       * increase or decrease a specified Running horse's Race Position
-        by 1, twice, by paying 3 hooves.
+        by 2, by paying 3 hooves.
       
       * take an action defined as a weekly power of a horse e owns by
         the rules.
@@ -3168,16 +3181,15 @@ Weekly Race Action
       anew, which horses each player has gotten helmets and jerseys for.
 
 ------------------------------------------------------------------------
-Rule 2673/1 (Power=1)
+Rule 2673/2 (Power=1)
 Motivating Horses
 
       Any player CAN, by announcement if no player has done so yet this
       week, motivate the horses, specifying a random horse (the
       galloper) and a random number choice of 1, 2, or 3. When movement
-      resolves, the galloper's Race Position is increased by 1 a number
-      of times equal to the random number choice, and then each of the
-      galloper's pulls have their Race Position increased by 1 in
-      alphabetical order of their names.
+      resolves, the galloper's Race Position is increased by the random
+      number choice, and then each of the galloper's pulls have their
+      Race Position increased by 1 in alphabetical order of their names.
       
       The horsened SHALL NOT let a week go by without the horses having
       been motivated.
@@ -3200,7 +3212,7 @@ Motivating Horses
       Sugar           Baxter, Destructor
 
 ------------------------------------------------------------------------
-Rule 2674/2 (Power=1)
+Rule 2674/3 (Power=1)
 Horse Powers
 
       Each horse has a power which applies only to the player that owns
@@ -3228,8 +3240,7 @@ Horse Powers
       Race Position by 1 by announcement, if Cannon is Running.
       
       Destructor's power: Once per month, the owner CAN decrease a
-      specified Running horse's Race Position by 1, twice, by
-      announcement.
+      specified Running horse's Race Position by 2 by announcement.
       
       Fargo's power: (WEEKLY POWER)  * get a helmet for and then bet 2
       dollaries on a specified horse, by paying 1 hoof.
@@ -3241,8 +3252,7 @@ Horse Powers
       Rubert's power: (WEEKLY POWER)  * bet 1, 2, or 3 dollaries on a
       specified horse, and if the horse has the lowest race position or
       is tied for the lowest race position, increase its race position
-      by 1, 3 times, by paying a fee of 1, 2, or 3 dollaries
-      respectively.
+      by 3 by paying a fee of 1, 2, or 3 dollaries respectively.
       
       Sugar's power: (WEEKLY POWER)  * get a helmet for and then
       increase the Race Position of a specified horse by 1, by paying 1
@@ -3635,39 +3645,6 @@ Annual Awards
          who put the most persistent hard labor into keeping the game
          going through the performance of Officers' duties (additional
          information: offices held by the awardee during that year).
-
-------------------------------------------------------------------------
-Rule 2510/7 (Power=1)
-Such is Karma
-
-      Karma is an Agora and player integer switch tracked by the Herald
-      in eir Weekly Report.
-      
-      A player CAN publish a Notice of Honour. For a Notice of Honour to
-      be valid, it must:
-      
-      1. Be clear that it is a Notice of Honour, and be the first valid
-         Notice of Honour that player has published in the current week;
-      
-      2. Specify any other active player or Agora to gain karma, and
-        provide a reason for specifying that player; and
-      
-      3. Specify any active player or Agora to lose karma, and provide a
-         reason for specifying that player.
-      
-      4. Not result in Agora's karma moving farther away from 0.
-      
-      When a valid Notice of Honour is published, the entity specified
-      to gain karma has eir karma increased by one, and the entity
-      specified to lose karma has eir karma decreased by one.
-      
-      - The player with the highest karma (if any) is the Paragon.
-      
-      - The player with the lowest karma (if any) is the Renegade.
-      
-      At the beginning of each quarter, every player's Karma is set to
-      half of its current value, rounded towards 0. Agora's Karma is
-      then set to zero minus the sum of all player karma values.
 
 ------------------------------------------------------------------------
 ========================================================================
