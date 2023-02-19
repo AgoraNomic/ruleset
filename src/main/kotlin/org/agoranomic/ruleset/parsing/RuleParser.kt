@@ -124,10 +124,12 @@ private fun parseHistoricalCauseYaml(
             agent = nameResolver.resolveInformalCauseName(causeMap.getContent("person")),
         )
         "person" -> HistoricalCauses.person(nameResolver.resolveFormalCauseName(causeContent))
-        "rulebending" -> HistoricalCauses.rulebending(magister = causeMap.getContent("magister"))
+        "rulebending" -> HistoricalCauses.rulebending(
+            magister = nameResolver.resolveInformalCauseName(causeMap.getContent("magister")),
+        )
         "experiment" -> HistoricalCauses.deviceExperiment(
             id = causeMap.getContent("id").toInt(),
-            madEngineer = causeMap.getContent("engineer"),
+            madEngineer = nameResolver.resolveInformalCauseName(causeMap.getContent("engineer")),
         )
         else -> throw IllegalArgumentException("Unknown cause $causeKind")
     }
@@ -288,4 +290,3 @@ fun parseRuleStateYaml(
         annotations = annotations,
     )
 }
-
