@@ -3,7 +3,11 @@ package org.agoranomic.ruleset.parsing
 import org.agoranomic.ruleset.*
 
 fun parseIndexYaml(yaml: String, ruleNumberResolver: RuleNumberResolver): RuleCategoryMapping {
-    val topNode = parseRawYaml(yaml).requireList()
+    val topNode = parseRawYaml(yaml).also {
+        if (it is ParsedYamlNode.NullNode) {
+            return RuleCategoryMapping.empty()
+        }
+    }.requireList()
 
     return topNode.values.map { it.requireMap() }.associate { mapNode ->
         val name = mapNode.getContent("name")

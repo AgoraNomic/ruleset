@@ -48,6 +48,13 @@ data class RuleCategoryMapping(
     val categories: CategorySpecificationSet,
     private val categoryMapping: ImmutableMap<CategoryId, ImmutableList<RuleNumber>>,
 ) {
+    companion object {
+        fun empty() = RuleCategoryMapping(
+            categories = CategorySpecificationSet(emptyMap()),
+            categoryMapping = emptyMap(),
+        )
+    }
+
     init {
         require(categories.categoryIds.containsAll(categoryMapping.keys))
     }

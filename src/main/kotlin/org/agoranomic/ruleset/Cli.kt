@@ -55,6 +55,9 @@ private class SingleFileOutputGroup : OptionGroup() {
     val templateFile by option("--template-file", help = "file with ruleset template")
         .path(mustExist = true, canBeDir = false, mustBeReadable = true)
         .required()
+
+    val emptyRulesetPath by option("--empty-ruleset-file", help = "path to file containing content of report when no rules exist")
+        .path(mustExist = false, canBeDir = false)
 }
 
 private class RulekeeporCommand : CliktCommand() {
@@ -201,31 +204,41 @@ private class RulekeeporCommand : CliktCommand() {
         if (outFileGroup != null) {
             val templateFile = outFileGroup.templateFile
 
-            val templateWithHeaderReplaced = run {
-                val originalTemplate = Files.readString(templateFile, FILE_CHARSET)
-                val headerContent = headerPath?.let { Files.readString(it, FILE_CHARSET) }
+            val rulesetText = if (ruleCategoryMapping == RuleCategoryMapping.empty()) {
+                val emptyRulesetPath = outFileGroup.emptyRulesetPath
 
-                replaceHeaderInclusionWithOptionalHeader(
-                    template = originalTemplate,
-                    headerContent = headerContent,
+                require(emptyRulesetPath != null) {
+                    "If no rules exist, an empty ruleset file must be provided"
+                }
+
+                Files.readString(emptyRulesetPath, FILE_CHARSET)
+            } else {
+                val templateWithHeaderReplaced = run {
+                    val originalTemplate = Files.readString(templateFile, FILE_CHARSET)
+                    val headerContent = headerPath?.let { Files.readString(it, FILE_CHARSET) }
+
+                    replaceHeaderInclusionWithOptionalHeader(
+                        template = originalTemplate,
+                        headerContent = headerContent,
+                    )
+                }
+
+                formatReadable(
+                    template = templateWithHeaderReplaced,
+                    config = reportConfig,
+                    fullRulesetState = rulesetState,
+                    categoryMapping = ruleCategoryMapping,
+                    proposalStatistics = proposalStats,
                 )
             }
 
-            formatReadable(
-                template = templateWithHeaderReplaced,
-                config = reportConfig,
-                fullRulesetState = rulesetState,
-                categoryMapping = ruleCategoryMapping,
-                proposalStatistics = proposalStats,
-            ).let {
-                Files.writeString(
-                    outFileGroup.outFile,
-                    it,
-                    FILE_CHARSET,
-                    StandardOpenOption.CREATE,
-                    StandardOpenOption.TRUNCATE_EXISTING,
-                )
-            }
+            Files.writeString(
+                outFileGroup.outFile,
+                rulesetText,
+                FILE_CHARSET,
+                StandardOpenOption.CREATE,
+                StandardOpenOption.TRUNCATE_EXISTING,
+            )
         }
 
         val outDir = outDir
