@@ -116,6 +116,10 @@ text: |
       outcomes is reasonably close to that required by the Rules,
       and for which the final device is not trivially predictable by
       the selecting person in advance.
+    * Any action performed by sending a device is performed at the
+      time date-stamped on that device. Actions in devices
+      (including sub-devices) are performed in the order they appear
+      in the device, unless otherwise specified.
 history:
 - change:
     type: enactment
@@ -389,5 +393,12 @@ history:
   agent:
     experiment:
       id: 72
+      engineer: Janet
+- change:
+    type: amendment
+  date: 2023-02-26
+  agent:
+    experiment:
+      id: 73
       engineer: Janet
 annotations: []
