@@ -4,35 +4,43 @@ power: 3
 text: |
   A player acting as emself (the deputy) CAN perform an action
   ordinarily reserved for an office-holder as if e held the office
-  if
+  if all of the following are true:
 
-  1. the rules require the holder of that office, by virtue of
-     holding that office, to perform the action (this requirement is
-     fulfilled by the deputy performing the action); and, it would
-     be POSSIBLE for the deputy to perform the action, other than by
-     deputisation, if e held the office; and, the deputy, when
-     performing the action, announces that e is doing so by
-     deputisation or by temporary deputisation; and, the deputy has
-     not held the office in the past 7 days; and,
+   1) The rules require the holder of that office, by virtue of
+      holding that office, to perform the action. (This requirement
+      is fulfilled by the deputy performing the action.)
 
-  2. any of the following are true:
-     (A) the office is vacant;
-     (B) a time limit by which the rules require the action to be
-         performed has expired, the office's holder has not changed
-         in the past 7 days, and any of the following are true:
+   2) It would be POSSIBLE for the deputy to perform the action,
+      other than by deputisation, if e held the office.
 
-           (i) the deputy announced between two and fourteen days
-               earlier that e intended to deputise for that office
-               for the purposes of the particular action;
-          (ii) the time limit expired between 14 days ago and 28
-               days ago;
-         (iii) the time limit expired more than 28 days ago and the
-               deputisation is temporary;
+   3) The deputy, when performing the action, announces that e is
+      doing so by deputisation or by temporary deputisation.
+
+   4) The deputy has not held the office in the past 7 days.
+
+  (If the office is vacant, then the remaining items in this list
+  need not be true.)
+
+   5) A time limit by which the rules require the action to be
+      performed has expired.
+
+   6) The office's holder has not changed in the past 7 days.
+
+   7) Any of the following are true:
+
+      a) The deputy announced between 2 and 14 days earlier that
+         e intended to deputise for that office for the purposes of
+         the particular action.
+
+      b) The time limit expired between 14 and 28 days ago.
+
+      c) The time limit expired more than 28 days ago, and the
+         deputisation is temporary.
 
   When a player deputises for an elected office, e becomes the
-  holder of that office, unless the action being performed would
-  already install someone into that office, and/or unless the
-  deputisation is temporary.
+  holder of that office, unless the deputisation is temporary,
+  and/or the action being performed would already install someone
+  into that office.
 history:
 - change:
     type: enactment
@@ -169,6 +177,11 @@ history:
   date: 2022-03-15
   agent:
     proposal: "8646"
+- change:
+    type: amendment
+  date: 2023-02-26
+  agent:
+    proposal: "8901"
 annotations:
 - cfjs:
   - id: '1776'
