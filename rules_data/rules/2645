@@ -34,10 +34,10 @@ text: |
     wielder specifies an eligible player and gains 8 points. The
     stone is transferred to the eligible player. An eligible player
     is one who has not owned this stone since the last time Agora
-    owned it. If this  stone is not owned by Agora, it cannot
-    otherwise be transferred, other rules notwithstanding. This
-    stone is immune if 3 or more players have wielded it since the
-    most recent collection notice.
+    owned it. If this stone is not owned by Agora, a player CANNOT
+    otherwise transfer it, rules to the contrary notwithstanding.
+    This stone is immune if 3 or more players have wielded it since
+    the most recent collection notice.
 
   - Blank Stone (Monthly, 0): This stone has no effect.
 
@@ -136,4 +136,9 @@ history:
   date: 2023-02-26
   agent:
     proposal: "8906"
+- change:
+    type: amendment
+  date: 2023-02-26
+  agent:
+    proposal: "8907"
 annotations: []
