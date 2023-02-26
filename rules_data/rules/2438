@@ -148,6 +148,11 @@ history:
   date: 2022-07-17
   agent:
     proposal: "8708"
+- change:
+    type: amendment
+  date: 2023-02-26
+  agent:
+    proposal: "8902"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -247,6 +252,8 @@ text: |
     - If e has not owned that type of Ribbon within the preceding 7
       days, any player CAN, by announcement, award em that type of
       Ribbon.
+
+  Qualifying for ribbons is secured. Earning ribbons is secured.
 id: 2438
 power: 3
 annotations: []
