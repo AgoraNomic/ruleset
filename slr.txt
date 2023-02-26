@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 19 Feb 2023
+Date of this ruleset: 26 Feb 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 138
 
 Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8899
+Highest ID'd Proposal Passed: 8910
 Highest ID'd Rule Enacted: 2679
 
 ========================================================================
@@ -227,7 +227,7 @@ Expectations of Participation
       replace it with an appropriate forum as soon as possible.
 
 ------------------------------------------------------------------------
-Rule 2679/0 (Power=3)
+Rule 2679/1 (Power=3)
 Restrictions on Participation
 
       Banned is a secured negative boolean person switch tracked by the
@@ -258,7 +258,7 @@ Restrictions on Participation
       of any member of the Agoran community, or provocative/bad-faith
       comments.
       
-      Once a quarter, any unwelcome player may submit a Request for
+      Once a quarter, any unwelcome person may submit a Request for
       Forgiveness to the Registrar. Such a document SHOULD contain
       sincere self-reflection including any appropriate apologies and an
       indication on how e intends to avoid or prevent similar incidents
@@ -1569,43 +1569,51 @@ Impeachment
       the trust of Agora.
 
 ------------------------------------------------------------------------
-Rule 2160/23 (Power=3)
+Rule 2160/24 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
       ordinarily reserved for an office-holder as if e held the office
-      if
+      if all of the following are true:
       
-      1. the rules require the holder of that office, by virtue of
-         holding that office, to perform the action (this requirement is
-         fulfilled by the deputy performing the action); and, it would
-         be POSSIBLE for the deputy to perform the action, other than by
-         deputisation, if e held the office; and, the deputy, when
-         performing the action, announces that e is doing so by
-         deputisation or by temporary deputisation; and, the deputy has
-         not held the office in the past 7 days; and,
+       1) The rules require the holder of that office, by virtue of
+          holding that office, to perform the action. (This requirement
+          is fulfilled by the deputy performing the action.)
       
-      2. any of the following are true:
-         (A) the office is vacant;
-         (B) a time limit by which the rules require the action to be
-             performed has expired, the office's holder has not changed
-             in the past 7 days, and any of the following are true:
+       2) It would be POSSIBLE for the deputy to perform the action,
+          other than by deputisation, if e held the office.
       
-               (i) the deputy announced between two and fourteen days
-                   earlier that e intended to deputise for that office
-                   for the purposes of the particular action;
-              (ii) the time limit expired between 14 days ago and 28
-                   days ago;
-             (iii) the time limit expired more than 28 days ago and the
-                   deputisation is temporary;
+       3) The deputy, when performing the action, announces that e is
+          doing so by deputisation or by temporary deputisation.
+      
+       4) The deputy has not held the office in the past 7 days.
+      
+      (If the office is vacant, then the remaining items in this list
+      need not be true.)
+      
+       5) A time limit by which the rules require the action to be
+          performed has expired.
+      
+       6) The office's holder has not changed in the past 7 days.
+      
+       7) Any of the following are true:
+      
+          a) The deputy announced between 2 and 14 days earlier that
+             e intended to deputise for that office for the purposes of
+             the particular action.
+      
+          b) The time limit expired between 14 and 28 days ago.
+      
+          c) The time limit expired more than 28 days ago, and the
+             deputisation is temporary.
       
       When a player deputises for an elected office, e becomes the
-      holder of that office, unless the action being performed would
-      already install someone into that office, and/or unless the
-      deputisation is temporary.
+      holder of that office, unless the deputisation is temporary,
+      and/or the action being performed would already install someone
+      into that office.
 
 ------------------------------------------------------------------------
-Rule 2138/25 (Power=1)
+Rule 2138/26 (Power=1)
 The Associate Director of Personnel
 
       The Associate Director of Personnel (ADoP) is an office; its
@@ -1620,17 +1628,8 @@ The Associate Director of Personnel
          which the last election ended
       3. For filled elected offices, whether or not the holder is
          interim.
-      4. For filled offices with a weekly report, the number of weeks in
-         scope, and the number and percent of those weeks during which
-         the officeholder published its weekly report.
-      5. For filled offices with a monthly report, the number of months
-         in scope, and the number and percent of those months during
-         which the officeholder published its monthly report.
-      
-      For this purpose, the 13 most recent complete weeks and 3 most
-      recent complete months are in scope, but only those for which the
-      officeholder held that office continuously since it started; and
-      percentages of 0/0 are to be reported as n/a.
+      4. For offices with a weekly and/or monthly report, the date (if
+         any) that each was most recently published.
 
 ------------------------------------------------------------------------
 Rule 2472/5 (Power=2)
@@ -2595,7 +2594,7 @@ Birthday Gifts
       the Herald SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2675/3 (Power=2)
+Rule 2675/4 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -2619,13 +2618,16 @@ Dream of Wandering
       
       - Wandering: This dream has no effect.
       
-      - Charity: The Charity Item is the item type that the L&FD owns
-        the most of (if there is a tie, the first the L&FD owned, and if
-        still tied, the first alphabetically). Immediately after a
-        wandering, for each Charity Dreamer, in reverse order of when
+      
+      - Charity: A Charity Stamp is a stamp of the type that the L&FD
+        owns the most of (if there is a tie, the first the L&FD owned,
+        and if still tied, the first alphabetically). Immediately after
+        a wandering, for each Charity Dreamer, in reverse order of when
         eir Dream was last flipped (and in reverse order of registration
-        if tied), one item of the Charity type is transferred from the
-        L&FD to em.
+        if tied), one Charity Stamp is transferred from the L&FD to em.
+        If the number of Stamps the L&FD owned during the last wandering
+        is greater than 10, this process happens a second time. If it is
+        more than 20, this process happens a third time.
       
       - Justice: Immediately after a wandering, 1 blot is expunged from
         each Justice Dreamer. If a Justice Dreamer had no blots
@@ -2735,7 +2737,7 @@ Gathering Stones
       is set to 0.
 
 ------------------------------------------------------------------------
-Rule 2643/5 (Power=2)
+Rule 2643/6 (Power=2)
 Collecting Stones
 
       Once per month, the Stonemason CAN publish a Collection Notice by
@@ -2746,12 +2748,13 @@ Collecting Stones
       A Collection Notice includes a random numbers between 1 and 6; this
       is the Escape Minimum.
       
-      When a Collection Notice is published, for each player eir
-      non-immune stone with the highest slipperiness equal to or above
-      the Escape Minimum is transferred to Agora. If there is a tie, the
-      Stone Mason randomly selects which one escapes. If e has no such
-      stones, none of eir stones are transferred to Agora. The mossiness
-      of all stones not owned by Agora incremented by 1.
+      When a Collection Notice is published, for each player, half
+      (rounded up) of eir non-immune stones with slipperiness not less
+      than the Escape Minimum are transferred to Agora. A Collection
+      Notice includes selections of which eligible stones escape (which
+      shall prevail in determining which stones are transferred). the
+      mossiness of each stone that is not transferred is incremented by
+      1.
 
 ------------------------------------------------------------------------
 Rule 2644/5 (Power=2)
@@ -2766,7 +2769,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/14 (Power=2)
+Rule 2645/17 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2781,7 +2784,8 @@ The Stones
       
       - Soul Stone (weekly, 3): When wielded, the Soul Stone is
         transferred to the owner of a different specified non-immune
-        stone, then that stone is transferred to the wielder.
+        stone not owned by Agora, then that stone is transferred to the
+        wielder.
       
       - Sabotage Stone (weekly, 4): When wielded, the adoption index of
         a specified AI-majority Agoran decision is increased by 1.
@@ -2800,16 +2804,18 @@ The Stones
         wielder specifies an eligible player and gains 8 points. The
         stone is transferred to the eligible player. An eligible player
         is one who has not owned this stone since the last time Agora
-        owned it. If this  stone is not owned by Agora, it cannot
-        otherwise be transferred, other rules notwithstanding. This
-        stone is immune if 3 or more players have wielded it since the
-        most recent collection notice.
+        owned it. If this stone is not owned by Agora, a player CANNOT
+        otherwise transfer it, rules to the contrary notwithstanding.
+        This stone is immune if 3 or more players have wielded it since
+        the most recent collection notice.
       
       - Blank Stone (Monthly, 0): This stone has no effect.
       
       - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
-        stone is transferred to the wielder. When this happens, the
-        Anti-Equatorial Stone's mossiness is incremented by 1.
+        non-immune stone is transferred to the wielder. If more than one
+        such stone is tied for mossiest, a specified one is transferred.
+        When this happens, the Anti-Equatorial Stone's mossiness is
+        incremented by 1.
       
       - Score Stone (Weekly, 3): When wielded, a specified player's
         (defaulting to the wielder if not specified) Score is increased
@@ -2821,7 +2827,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/39 (Power=1)
+Rule 2654/40 (Power=1)
 The Device
 
       When the device is on:
@@ -2938,6 +2944,10 @@ The Device
           outcomes is reasonably close to that required by the Rules,
           and for which the final device is not trivially predictable by
           the selecting person in advance.
+        * Any action performed by sending a device is performed at the
+          time date-stamped on that device. Actions in devices
+          (including sub-devices) are performed in the order they appear
+          in the device, unless otherwise specified.
 
 ------------------------------------------------------------------------
 Rule 2655/3 (Power=1)
@@ -3304,7 +3314,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/27 (Power=3)
+Rule 2438/28 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3405,6 +3415,8 @@ Ribbons
         - If e has not owned that type of Ribbon within the preceding 7
           days, any player CAN, by announcement, award em that type of
           Ribbon.
+      
+      Qualifying for ribbons is secured. Earning ribbons is secured.
 
 ------------------------------------------------------------------------
 Rule 2480/6 (Power=3.1)
