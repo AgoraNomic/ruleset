@@ -14,7 +14,8 @@ text: |
 
   - Soul Stone (weekly, 3): When wielded, the Soul Stone is
     transferred to the owner of a different specified non-immune
-    stone, then that stone is transferred to the wielder.
+    stone not owned by Agora, then that stone is transferred to the
+    wielder.
 
   - Sabotage Stone (weekly, 4): When wielded, the adoption index of
     a specified AI-majority Agoran decision is increased by 1.
@@ -41,8 +42,10 @@ text: |
   - Blank Stone (Monthly, 0): This stone has no effect.
 
   - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
-    stone is transferred to the wielder. When this happens, the
-    Anti-Equatorial Stone's mossiness is incremented by 1.
+    non-immune stone is transferred to the wielder. If more than one
+    such stone is tied for mossiest, a specified one is transferred.
+    When this happens, the Anti-Equatorial Stone's mossiness is
+    incremented by 1.
 
   - Score Stone (Weekly, 3): When wielded, a specified player's
     (defaulting to the wielder if not specified) Score is increased
@@ -123,4 +126,14 @@ history:
   date: 2023-02-04
   agent:
     proposal: "8886"
+- change:
+    type: amendment
+  date: 2023-02-26
+  agent:
+    proposal: "8906"
+- change:
+    type: amendment
+  date: 2023-02-26
+  agent:
+    proposal: "8906"
 annotations: []
