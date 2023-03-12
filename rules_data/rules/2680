@@ -1,0 +1,37 @@
+id: 2680
+name: Ritual Paper Dance V2
+power: 1
+text: |
+  Firstly: Each of these is a ritual act:
+  - Performing a cabinet order
+  - Assigning a judgement
+  - Awarding ribbons
+  - Once per week per report type, publishing a report
+  - Once per week per player, nominating for office
+  - Once per week per player, voting
+
+  Secondly: Once for each ritual act, any player, including the
+  player who performed the ritual act, CAN, by announcement, declare
+  the ritual number. A ritual number is a number that starts at 0,
+  and can be at most 1 greater than any other declared ritual
+  number. Declared ritual numbers are self-ratifying.
+
+  Thirdly: Once, each time a unique positive multiple of 41 is
+  declared, in the same message the declarer CAN, by announcement,
+  have qualifying players lift The First Speaker in a powerful dance
+  around the fountain, while also announcing that those players'
+  gain 1 radiance, in such a way that is unambiguous and clear, so
+  that in fact, those players' do gain 1 radiance. This does not
+  increase their radiance by 2, nor does it increase it by 3 or 4. 5
+  is right out.
+
+  Fourthly: Players are qualifying under this rule if:
+  - they are active
+  - do not have the highest radiance
+  - are not tied for the highest radiance
+history:
+- change:
+    type: enactment
+  date: 2023-03-12
+  agent:
+    proposal: "8918"
