@@ -52,10 +52,8 @@ text: |
     Consent. A Machinery Dreamer CAN take a specified action on
     behalf of the the device with 1 support.
 
-  - Gardens: Once per week, a Gardens Dreamer CAN, by announcement,
-    transfer the mossiest stone (if there is a tie, then a specified
-    stone tied for mossiest) Agora owns to emself. E SHOULD specify
-    the stone when doing so.
+  - Gardens: Immediately after a wandering, the Base Rockiness of
+    each Gardens Dreamer is increased by 1.
 
   - Power: Each Power Dreamer has eir voting strength increased by 2
     for referenda on ordinary proposals.
@@ -106,3 +104,8 @@ history:
   date: 2023-03-12
   agent:
     proposal: "8919"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8921"
