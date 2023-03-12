@@ -23,7 +23,6 @@ text: |
 
   - Wandering: This dream has no effect.
 
-
   - Charity: A Charity Stamp is a stamp of the type that the L&FD
     owns the most of (if there is a tie, the first the L&FD owned,
     and if still tied, the first alphabetically). Immediately after
@@ -64,10 +63,10 @@ text: |
   - Revolution: A revolution is happening if the majority of active
     players are Revolution Dreamers. Immediately after a wandering,
     if a revolution is not happening, then all Revolution Dreamers
-    have eir score decreased by 1 to a minimum of 0. Immediately
+    have eir radiance decreased by 1 to a minimum of 0. Immediately
     after a wandering, if a revolution is happening, then all
-    players have eir score set to 100-X, where X was eir score when
-    the wandering occured, and all player's Dreams are set to
+    players have eir radiance set to 100-X, where X was eir radiance
+    when the wandering occured, and all player's Dreams are set to
     Wandering.
 history:
 - change:
@@ -102,3 +101,8 @@ history:
   date: 2023-02-26
   agent:
     proposal: "8910"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8919"

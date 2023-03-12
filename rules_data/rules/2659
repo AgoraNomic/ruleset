@@ -9,11 +9,10 @@ text: |
   For each person there is a corresponding type of stamp.
 
   Any player CAN, once per week, pay X Stamps, where each specified
-  Stamp is a different type, to increase eir own score by (X^2)-X
-  points.
+  Stamp is a different type, to gain (X^2)-X radiance.
 
   Any player CAN, once per week, pay X Stamps, where each Stamp is
-  the same type, to increase eir own score by (X-1)*2 points.
+  the same type, to gain (X-1)*2 radiance.
 
   Any player CAN win by paying N Stamps, where N is the current
   number of active players and each specified Stamp is of a
@@ -34,3 +33,8 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8872"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8919"

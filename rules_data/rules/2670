@@ -21,9 +21,9 @@ text: |
     that horse's current multiplier * the number of dollaries e bet
     on that horse since the last time the race started anew.
 
-  * The score of the player that has the most dollaries is increased
-    by 30.  In the event of an N-way tie, instead, each tied
-    player's score is increased by 30/N points, rounded down.
+  * The player that has the most dollaries gains 30 radiance. In the
+    event of an N-way tie, instead, each tied player gains 30/N
+    radiance, rounded down.
 
   * The race starts anew.
 history:
@@ -42,3 +42,8 @@ history:
   date: 2023-01-15
   agent:
     proposal: "8884"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8919"

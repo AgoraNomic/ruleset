@@ -30,8 +30,8 @@ text: |
     once per month as if it had the power of any other stone of your
     choice.
 
-  - Hot Potato Stone (Weekly, 5):  When this stone is wielded, the
-    wielder specifies an eligible player and gains 8 points. The
+  - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
+    wielder specifies an eligible player and gains 8 radiance. The
     stone is transferred to the eligible player. An eligible player
     is one who has not owned this stone since the last time Agora
     owned it. If this stone is not owned by Agora, a player CANNOT
@@ -47,9 +47,8 @@ text: |
     When this happens, the Anti-Equatorial Stone's mossiness is
     incremented by 1.
 
-  - Score Stone (Weekly, 3): When wielded, a specified player's
-    (defaulting to the wielder if not specified) Score is increased
-    by 3.
+  - Radiance Stone (Weekly, 3): When wielded, a specified player
+    (defaulting to the wielder if not specified) gains 3 radiance.
 history:
 - change:
     type: enactment
@@ -141,4 +140,9 @@ history:
   date: 2023-02-26
   agent:
     proposal: "8907"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8919"
 annotations: []

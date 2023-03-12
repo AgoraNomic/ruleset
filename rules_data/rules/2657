@@ -2,27 +2,25 @@ id: 2657
 name: Scoring
 power: 1
 text: |
-  Each time a player fulfills a scoring condition, the officer
-  associated with the condition CAN once by announcement, and SHALL
-  in an officially timely fashion, add to that player's score the
-  associated amount of points, rounded down.
+  Each time a player fulfills a radiance condition, e CAN once by
+  announcement (specifying any indicated info) gain the associated
+  radiance.
 
-  Below is a list of scoring conditions and their associated points
-  and officers.
+  Below is a list of radiance conditions:
 
-    * Being the author of a proposal that takes effect: 5
-      (Assessor).
+   * Being the author of a proposal that takes effect: 5 (must
+     specify proposal number)
 
-    * Being a coauthor of a proposal that takes effect: 1
-      (Assessor).
+   * Being a coauthor of a proposal that takes effect: 1 (must
+     specify proposal number)
 
-    * Having an Agoran Birthday: X, where X is the number of active
-      players during eir birthday (Herald).
+   * Having an Agoran Birthday: X, where X is the number of active
+     players during eir birthday.
 
-    * Judging a CFJ that e was assigned to without violating a time
-      limit to do so, unless at the time of judgement the case was
-      open due to self-filing a motion to reconsider it: 2
-      (Arbitor).
+   * Judging a CFJ that e was assigned to without violating a time
+     limit to do so, unless at the time of judgement the case was
+     open due to self-filing a motion to reconsider it: 2 (must
+     specify CFJ number)
 history:
 - change:
     type: enactment
@@ -64,3 +62,13 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8872"
+- change:
+    type: retitling
+  date: 2023-03-12
+  agent:
+    proposal: "8919"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8919"
