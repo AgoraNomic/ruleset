@@ -2,9 +2,9 @@ id: 2646
 name: Activity
 power: 3
 text: |
-  Activity is a player switch tracked by the Registrar, with values
-  Active (default) and Inactive.  To flip a player's activity to
-  active (inactive) is to activate (deactivate) em.  The date on
+  Activity is a secured player switch tracked by the Registrar, with
+  values Active (default) and Inactive.  To flip a player's activity
+  to active (inactive) is to activate (deactivate) em.  The date on
   which each player's activity was last changed is part of the
   Registrar's weekly report.
 
@@ -38,4 +38,9 @@ history:
   date: 2022-07-30
   agent:
     proposal: "8814"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8917"
 annotations: []
