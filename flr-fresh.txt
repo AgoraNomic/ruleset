@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 26 Feb 2023
+Date of this ruleset: 12 Mar 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 138
+Number of rules currently enacted: 139
 
-Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8910
-Highest ID'd Rule Enacted: 2679
+Highest ID'd rule in this ruleset: 2680
+Highest ID'd Proposal Passed: 8921
+Highest ID'd Rule Enacted: 2680
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -142,8 +142,9 @@ The Device
    * Rule 2654: The Device
    * Rule 2655: The Mad Engineer
 Scoring
-   * Rule 2656: Points
+   * Rule 2656: Radiance
    * Rule 2657: Scoring
+   * Rule 2680: Ritual Paper Dance V2
 Horses
    * Rule 2668: Horses
    * Rule 2669: The Horses Run
@@ -189,7 +190,7 @@ Power Distribution:
 
 1  with Power=0.3
 1  with Power=0.5
-37 with Power=1
+38 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -809,12 +810,12 @@ CFJ 2358 (called 26 Jan 2009): A document which is labeled as a Cantus
     Cantus Cygneus.
 
 ------------------------------------------------------------------------
-Rule 2646/1 (Power=3)
+Rule 2646/2 (Power=3)
 Activity
 
-      Activity is a player switch tracked by the Registrar, with values
-      Active (default) and Inactive.  To flip a player's activity to
-      active (inactive) is to activate (deactivate) em.  The date on
+      Activity is a secured player switch tracked by the Registrar, with
+      values Active (default) and Inactive.  To flip a player's activity
+      to active (inactive) is to activate (deactivate) em.  The date on
       which each player's activity was last changed is part of the
       Registrar's weekly report.
       
@@ -837,6 +838,7 @@ Enacted by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Amended(1) by P8618 'Solo Acitivity' (nix, Janet), 18 Oct 2021
 Power changed from 1 to 3 by P8814 'Effective Activity' (Janet), 30 Jul
    2022
+Amended(2) by P8917 'No' (Janet), 12 Mar 2023
 
 Annotations:
 
@@ -2539,7 +2541,7 @@ Amended(10) by P8894 'Load Lightening' (nix), 17 Feb 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2486/1 (Power=3.14)
+Rule 2486/2 (Power=3.14)
 The Royal Parade
 
                     _
@@ -2567,7 +2569,7 @@ The Royal Parade
           AND FURTHERMORE, additions to this Parade are most welcome
                when Events suiting the honour should occur.
           NEXT UP in the Parade comes the Discordian Court:  G. the
-               Grand Vizier is arguing with Jason the Untitled, while
+               Grand Vizier is arguing with Janet the Untitled, while
                nix, Court Anarchist, is cramming cancelled ballots into
                eir pockets.
 
@@ -2575,6 +2577,7 @@ History:
 
 Enacted by P7839 'Alexis' Decree' (o, Alexis), 17 Jan 2017
 Amended(1) by P8533 'de-dictatorship' (G., Janet, nix), 03 Feb 2021
+Amended(2) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
 
 Annotations:
 
@@ -5360,7 +5363,7 @@ CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
     INEFFECTIVE.
 
 ------------------------------------------------------------------------
-Rule 2466/2 (Power=3)
+Rule 2466/3 (Power=3)
 Acting on Behalf
 
       When a rule allows one person (the agent) to act on behalf of
@@ -5393,6 +5396,11 @@ Acting on Behalf
       prohibit a person from taking an action, except that it defers to
       any rule that imposes limitations specifically on actions taken on
       behalf of another person.
+      
+      An agent CANNOT act on behalf of a principal to perform an action
+      via a specific method if the rules state that the actor acts "as
+      emself" or "on eir own behalf" to perform the action via that
+      method.
 
 History:
 
@@ -5400,6 +5408,7 @@ Enacted by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
 Amended(1) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(2) by P8402 'Promises' (Aspen, Falsifian), 03 Jun 2020
+Amended(3) by P8913 'emself v2' (G., Murphy), 12 Mar 2023
 
 Annotations:
 
@@ -5844,7 +5853,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/2 (Power=1)
+Rule 2659/3 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players . The
@@ -5854,11 +5863,10 @@ Stamps
       For each person there is a corresponding type of stamp.
       
       Any player CAN, once per week, pay X Stamps, where each specified
-      Stamp is a different type, to increase eir own score by (X^2)-X
-      points.
+      Stamp is a different type, to gain (X^2)-X radiance.
       
       Any player CAN, once per week, pay X Stamps, where each Stamp is
-      the same type, to increase eir own score by (X-1)*2 points.
+      the same type, to gain (X-1)*2 radiance.
       
       Any player CAN win by paying N Stamps, where N is the current
       number of active players and each specified Stamp is of a
@@ -5870,6 +5878,7 @@ Enacted by P8661 'Stamps v1.2' (nix, G., Janet, Trigon), 03 Apr 2022
 Amended(1) by P8669 'Quick Stamp Fix' (nix), 08 May 2022
 Amended(2) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
+Amended(3) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 
 Annotations:
 
@@ -5958,7 +5967,7 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2675/4 (Power=2)
+Rule 2675/6 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -5981,7 +5990,6 @@ Dream of Wandering
       relevant to each dream:
       
       - Wandering: This dream has no effect.
-      
       
       - Charity: A Charity Stamp is a stamp of the type that the L&FD
         owns the most of (if there is a tie, the first the L&FD owned,
@@ -6012,10 +6020,8 @@ Dream of Wandering
         Consent. A Machinery Dreamer CAN take a specified action on
         behalf of the the device with 1 support.
       
-      - Gardens: Once per week, a Gardens Dreamer CAN, by announcement,
-        transfer the mossiest stone (if there is a tie, then a specified
-        stone tied for mossiest) Agora owns to emself. E SHOULD specify
-        the stone when doing so.
+      - Gardens: Immediately after a wandering, the Base Rockiness of
+        each Gardens Dreamer is increased by 1.
       
       - Power: Each Power Dreamer has eir voting strength increased by 2
         for referenda on ordinary proposals.
@@ -6023,10 +6029,10 @@ Dream of Wandering
       - Revolution: A revolution is happening if the majority of active
         players are Revolution Dreamers. Immediately after a wandering,
         if a revolution is not happening, then all Revolution Dreamers
-        have eir score decreased by 1 to a minimum of 0. Immediately
+        have eir radiance decreased by 1 to a minimum of 0. Immediately
         after a wandering, if a revolution is happening, then all
-        players have eir score set to 100-X, where X was eir score when
-        the wandering occured, and all player's Dreams are set to
+        players have eir radiance set to 100-X, where X was eir radiance
+        when the wandering occured, and all player's Dreams are set to
         Wandering.
 
 History:
@@ -6040,6 +6046,8 @@ Amended(2) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
 Amended(3) by P8878 'Clearer Dream Text' (nix), 15 Jan 2023
 Amended(4) by P8910 'Better Charity' (snail, nix), 26 Feb 2023
+Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(6) by P8921 'ReGardening' (nix), 12 Mar 2023
 
 Annotations:
 
@@ -6148,9 +6156,16 @@ Amended(4) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2643/6 (Power=2)
+Rule 2643/8 (Power=2)
 Collecting Stones
 
+      A stone is immune if and only if it is defined as such by the
+      rules of power not less than 2.
+      
+      A stone is immune if it is owned by Agora. A stone is immune if it
+      has been granted immunity since the last collection notice. The
+      granting of immunity is secured.
+      
       Once per month, the Stonemason CAN publish a Collection Notice by
       announcement, specifying all necessary information and choices. The
       Stonemason SHALL publish such a notice in a timely fashion after
@@ -6161,11 +6176,11 @@ Collecting Stones
       
       When a Collection Notice is published, for each player, half
       (rounded up) of eir non-immune stones with slipperiness not less
-      than the Escape Minimum are transferred to Agora. A Collection
-      Notice includes selections of which eligible stones escape (which
-      shall prevail in determining which stones are transferred). the
-      mossiness of each stone that is not transferred is incremented by
-      1.
+      than the Escape Minimum are transferred to Agora, rules to the
+      contrary notwithstanding.  A Collection Notice includes selections
+      of which eligible stones escape (which shall prevail in
+      determining which stones are transferred). The mossiness of each
+      stone that is not transferred is incremented by 1.
 
 History:
 
@@ -6179,6 +6194,8 @@ Amended(4) by P8893 'Stonemason Fairness' (4st, snail, Janet), 17 Feb
    2023
 Amended(5) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
 Amended(6) by P8900 'Increased collection' (Janet), 26 Feb 2023
+Amended(7) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
+Amended(8) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
 
 Annotations:
 
@@ -6208,7 +6225,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/17 (Power=2)
+Rule 2645/18 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6239,8 +6256,8 @@ The Stones
         once per month as if it had the power of any other stone of your
         choice.
       
-      - Hot Potato Stone (Weekly, 5):  When this stone is wielded, the
-        wielder specifies an eligible player and gains 8 points. The
+      - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
+        wielder specifies an eligible player and gains 8 radiance. The
         stone is transferred to the eligible player. An eligible player
         is one who has not owned this stone since the last time Agora
         owned it. If this stone is not owned by Agora, a player CANNOT
@@ -6256,9 +6273,8 @@ The Stones
         When this happens, the Anti-Equatorial Stone's mossiness is
         incremented by 1.
       
-      - Score Stone (Weekly, 3): When wielded, a specified player's
-        (defaulting to the wielder if not specified) Score is increased
-        by 3.
+      - Radiance Stone (Weekly, 3): When wielded, a specified player
+        (defaulting to the wielder if not specified) gains 3 radiance.
 
 History:
 
@@ -6289,6 +6305,7 @@ Amended(15) by P8906 'Stone Immunity Correction (Keeping Our Stones)
 Amended(16) by P8906 'Stone Immunity Correction (Keeping Our Stones)
    Act' (Janet), 26 Feb 2023
 Amended(17) by P8907 'Maybe a little less hot?' (Janet), 26 Feb 2023
+Amended(18) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 
 Annotations:
 
@@ -6298,7 +6315,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/40 (Power=1)
+Rule 2654/42 (Power=1)
 The Device
 
       When the device is on:
@@ -6365,6 +6382,14 @@ The Device
         * An device is ripe if was tabled within the past 14 days, the
           Speaker hasn't objected to it in the past 48 hours, and its
           conditions, if any, are each clearly and unambiguously met.
+        * If at any point an uncontested device has a single candidate,
+          then any player CAN by announcement declare em the winner of
+          the device, thereby causing em to win the device. If at any
+          point an uncontested device has no candidates, then any player
+          CAN declare the device ended with no winner by announcement.
+        * The first Agoran week each year which falls entirely in
+          February is Read the device Week. Agorans are encouraged to
+          read the device during Read the device Week.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -6463,6 +6488,8 @@ Amended(37) by Experiment #59 under Mad Engineer Janet, 17 Nov 2022
 Amended(38) by Experiment #60 under Mad Engineer Janet, 20 Nov 2022
 Amended(39) by Experiment #72 under Mad Engineer Janet, 14 Feb 2023
 Amended(40) by Experiment #73 under Mad Engineer Janet, 26 Feb 2023
+Amended(41) by Experiment #73 under Mad Engineer Janet, 12 Mar 2023
+Amended(42) by Experiment #74 under Mad Engineer Janet, 12 Mar 2023
 
 Annotations:
 
@@ -6521,19 +6548,21 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/3 (Power=1.5)
-Points
+Rule 2656/5 (Power=1.5)
+Radiance
 
-      A player's Score, indicated in Points, is an integer player switch
-      defaulting to 0, tracked by the Herald.
+      A player's Radiance is an integer player switch defaulting to 0,
+      tracked by the Herald. When a player is "granted" or "gains" a
+      specified amount of radiance, eir radiance is increased by that
+      amount.
       
-      Upon a correct announcement from a player that e has a score of
-      100 or more points, e wins the game. Then, eir score is set to 0,
-      and all other players' scores are set to half their current value
-      rounded down.
+      Upon a correct announcement from a player that eir radiance is 100
+      or more (correctly specifying the amount), e wins the game. Then,
+      eir radiance is set to 0, and all other players' radiance are set
+      to half their current value rounded down.
       
-      At the start of every quarter, all Scores are set to half their
-      current value rounded down.
+      At the start of every quarter, all radiance switches are set to
+      half their current value rounded down.
 
 History:
 
@@ -6542,34 +6571,36 @@ Amended(1) by P8684 'Score Gameplay Expansion' (nix), 25 Jun 2022
 Amended(2) by P8706 'Let them have points' (snail), 17 Jul 2022
 Amended(3) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
+Amended(4) by P8914 'Can't Trust Em To Do Eir Own Work' (nix), 12 Mar
+   2023
+Retitled by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2657/7 (Power=1)
+Rule 2657/8 (Power=1)
 Scoring
 
-      Each time a player fulfills a scoring condition, the officer
-      associated with the condition CAN once by announcement, and SHALL
-      in an officially timely fashion, add to that player's score the
-      associated amount of points, rounded down.
+      Each time a player fulfills a radiance condition, e CAN once by
+      announcement (specifying any indicated info) gain the associated
+      radiance.
       
-      Below is a list of scoring conditions and their associated points
-      and officers.
+      Below is a list of radiance conditions:
       
-        * Being the author of a proposal that takes effect: 5
-          (Assessor).
+       * Being the author of a proposal that takes effect: 5 (must
+         specify proposal number)
       
-        * Being a coauthor of a proposal that takes effect: 1
-          (Assessor).
+       * Being a coauthor of a proposal that takes effect: 1 (must
+         specify proposal number)
       
-        * Having an Agoran Birthday: X, where X is the number of active
-          players during eir birthday (Herald).
+       * Having an Agoran Birthday: X, where X is the number of active
+         players during eir birthday.
       
-        * Judging a CFJ that e was assigned to without violating a time
-          limit to do so, unless at the time of judgement the case was
-          open due to self-filing a motion to reconsider it: 2
-          (Arbitor).
+       * Judging a CFJ that e was assigned to without violating a time
+         limit to do so, unless at the time of judgement the case was
+         open due to self-filing a motion to reconsider it: 2 (must
+         specify CFJ number)
 
 History:
 
@@ -6582,6 +6613,47 @@ Amended(5) by P8714 'Vote scoring clarification' (Janet), 17 Jul 2022
 Amended(6) by P8805 'Removal of vote points v2' (Janet), 30 Jul 2022
 Amended(7) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
+Retitled by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(8) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2680/0 (Power=1)
+Ritual Paper Dance V2
+
+      Firstly: Each of these is a ritual act:
+      - Performing a cabinet order
+      - Assigning a judgement
+      - Awarding ribbons
+      - Once per week per report type, publishing a report
+      - Once per week per player, nominating for office
+      - Once per week per player, voting
+      
+      Secondly: Once for each ritual act, any player, including the
+      player who performed the ritual act, CAN, by announcement, declare
+      the ritual number. A ritual number is a number that starts at 0,
+      and can be at most 1 greater than any other declared ritual
+      number. Declared ritual numbers are self-ratifying.
+      
+      Thirdly: Once, each time a unique positive multiple of 41 is
+      declared, in the same message the declarer CAN, by announcement,
+      have qualifying players lift The First Speaker in a powerful dance
+      around the fountain, while also announcing that those players'
+      gain 1 radiance, in such a way that is unambiguous and clear, so
+      that in fact, those players' do gain 1 radiance. This does not
+      increase their radiance by 2, nor does it increase it by 3 or 4. 5
+      is right out.
+      
+      Fourthly: Players are qualifying under this rule if:
+      - they are active
+      - do not have the highest radiance
+      - are not tied for the highest radiance
+
+History:
+
+Enacted by P8918 'Ritual Paper Dance V2' (4st, nix, G., Murphy), 12 Mar
+   2023
 
 Annotations:
 
@@ -6663,7 +6735,7 @@ Amended(1) by P8899 '3rd Time's not the charm' (snail, Janet), 17 Feb
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2670/2 (Power=1)
+Rule 2670/3 (Power=1)
 Horse Victory
 
       When the race ends, the following happen, in order:
@@ -6685,9 +6757,9 @@ Horse Victory
         that horse's current multiplier * the number of dollaries e bet
         on that horse since the last time the race started anew.
       
-      * The score of the player that has the most dollaries is increased
-        by 30.  In the event of an N-way tie, instead, each tied
-        player's score is increased by 30/N points, rounded down.
+      * The player that has the most dollaries gains 30 radiance. In the
+        event of an N-way tie, instead, each tied player gains 30/N
+        radiance, rounded down.
       
       * The race starts anew.
 
@@ -6696,6 +6768,7 @@ History:
 Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 Amended(2) by P8884 'A Bit Warmed Up' (snail), 15 Jan 2023
+Amended(3) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 
 Annotations:
 
@@ -6730,7 +6803,7 @@ Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2672/5 (Power=1)
+Rule 2672/6 (Power=1)
 Weekly Race Action
 
       Each player CAN take one of the following actions (weekly race
@@ -6739,9 +6812,8 @@ Weekly Race Action
       * bet 1, 2, or 3 dollaries on a specified Running horse by paying
         a fee of 1, 2, or 3 dollaries respectively.
       
-      * get a jersey for a specified horse by paying 1 hoof, also
-        specifying a horse which is thereby added to that horse's pull,
-        by paying 1 hoof.
+      * get a jersey for a specified horse, also specifying a horse
+        which is thereby added to that horse's pull, by paying 1 hoof.
       
       * get a helmet for a specified horse by paying 1 hoof.
       
@@ -6780,6 +6852,7 @@ Amended(3) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 Amended(4) by P8887 'Schrodinger's Horse' (Murphy, ais523), 04 Feb 2023
 Amended(5) by P8899 '3rd Time's not the charm' (snail, Janet), 17 Feb
    2023
+Amended(6) by P8912 'How'd that get there?' (snail), 12 Mar 2023
 
 Annotations:
 

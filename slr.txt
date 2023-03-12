@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 5 Mar 2023
+Date of this ruleset: 12 Mar 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 138
+Number of rules currently enacted: 139
 
-Highest ID'd rule in this ruleset: 2679
-Highest ID'd Proposal Passed: 8910
-Highest ID'd Rule Enacted: 2679
+Highest ID'd rule in this ruleset: 2680
+Highest ID'd Proposal Passed: 8921
+Highest ID'd Rule Enacted: 2680
 
 ========================================================================
 The Game of Agora
@@ -173,12 +173,12 @@ Cantus Cygneus
       FAGE.
 
 ------------------------------------------------------------------------
-Rule 2646/1 (Power=3)
+Rule 2646/2 (Power=3)
 Activity
 
-      Activity is a player switch tracked by the Registrar, with values
-      Active (default) and Inactive.  To flip a player's activity to
-      active (inactive) is to activate (deactivate) em.  The date on
+      Activity is a secured player switch tracked by the Registrar, with
+      values Active (default) and Inactive.  To flip a player's activity
+      to active (inactive) is to activate (deactivate) em.  The date on
       which each player's activity was last changed is part of the
       Registrar's weekly report.
       
@@ -944,7 +944,7 @@ Regulations
       eir monthly report in a fashion similar to rules.
 
 ------------------------------------------------------------------------
-Rule 2486/1 (Power=3.14)
+Rule 2486/2 (Power=3.14)
 The Royal Parade
 
                     _
@@ -972,7 +972,7 @@ The Royal Parade
           AND FURTHERMORE, additions to this Parade are most welcome
                when Events suiting the honour should occur.
           NEXT UP in the Parade comes the Discordian Court:  G. the
-               Grand Vizier is arguing with Jason the Untitled, while
+               Grand Vizier is arguing with Janet the Untitled, while
                nix, Court Anarchist, is cramming cancelled ballots into
                eir pockets.
 
@@ -2256,7 +2256,7 @@ Pledges
       do so unless the pledge no longer serves any significant purpose.
 
 ------------------------------------------------------------------------
-Rule 2466/2 (Power=3)
+Rule 2466/3 (Power=3)
 Acting on Behalf
 
       When a rule allows one person (the agent) to act on behalf of
@@ -2289,6 +2289,11 @@ Acting on Behalf
       prohibit a person from taking an action, except that it defers to
       any rule that imposes limitations specifically on actions taken on
       behalf of another person.
+      
+      An agent CANNOT act on behalf of a principal to perform an action
+      via a specific method if the rules state that the actor acts "as
+      emself" or "on eir own behalf" to perform the action via that
+      method.
 
 ------------------------------------------------------------------------
 Rule 2618/5 (Power=2.2)
@@ -2545,7 +2550,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/2 (Power=1)
+Rule 2659/3 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players . The
@@ -2555,11 +2560,10 @@ Stamps
       For each person there is a corresponding type of stamp.
       
       Any player CAN, once per week, pay X Stamps, where each specified
-      Stamp is a different type, to increase eir own score by (X^2)-X
-      points.
+      Stamp is a different type, to gain (X^2)-X radiance.
       
       Any player CAN, once per week, pay X Stamps, where each Stamp is
-      the same type, to increase eir own score by (X-1)*2 points.
+      the same type, to gain (X-1)*2 radiance.
       
       Any player CAN win by paying N Stamps, where N is the current
       number of active players and each specified Stamp is of a
@@ -2594,7 +2598,7 @@ Birthday Gifts
       the Herald SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2675/4 (Power=2)
+Rule 2675/6 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -2617,7 +2621,6 @@ Dream of Wandering
       relevant to each dream:
       
       - Wandering: This dream has no effect.
-      
       
       - Charity: A Charity Stamp is a stamp of the type that the L&FD
         owns the most of (if there is a tie, the first the L&FD owned,
@@ -2648,10 +2651,8 @@ Dream of Wandering
         Consent. A Machinery Dreamer CAN take a specified action on
         behalf of the the device with 1 support.
       
-      - Gardens: Once per week, a Gardens Dreamer CAN, by announcement,
-        transfer the mossiest stone (if there is a tie, then a specified
-        stone tied for mossiest) Agora owns to emself. E SHOULD specify
-        the stone when doing so.
+      - Gardens: Immediately after a wandering, the Base Rockiness of
+        each Gardens Dreamer is increased by 1.
       
       - Power: Each Power Dreamer has eir voting strength increased by 2
         for referenda on ordinary proposals.
@@ -2659,10 +2660,10 @@ Dream of Wandering
       - Revolution: A revolution is happening if the majority of active
         players are Revolution Dreamers. Immediately after a wandering,
         if a revolution is not happening, then all Revolution Dreamers
-        have eir score decreased by 1 to a minimum of 0. Immediately
+        have eir radiance decreased by 1 to a minimum of 0. Immediately
         after a wandering, if a revolution is happening, then all
-        players have eir score set to 100-X, where X was eir score when
-        the wandering occured, and all player's Dreams are set to
+        players have eir radiance set to 100-X, where X was eir radiance
+        when the wandering occured, and all player's Dreams are set to
         Wandering.
 
 ------------------------------------------------------------------------
@@ -2737,9 +2738,16 @@ Gathering Stones
       is set to 0.
 
 ------------------------------------------------------------------------
-Rule 2643/6 (Power=2)
+Rule 2643/8 (Power=2)
 Collecting Stones
 
+      A stone is immune if and only if it is defined as such by the
+      rules of power not less than 2.
+      
+      A stone is immune if it is owned by Agora. A stone is immune if it
+      has been granted immunity since the last collection notice. The
+      granting of immunity is secured.
+      
       Once per month, the Stonemason CAN publish a Collection Notice by
       announcement, specifying all necessary information and choices. The
       Stonemason SHALL publish such a notice in a timely fashion after
@@ -2750,11 +2758,11 @@ Collecting Stones
       
       When a Collection Notice is published, for each player, half
       (rounded up) of eir non-immune stones with slipperiness not less
-      than the Escape Minimum are transferred to Agora. A Collection
-      Notice includes selections of which eligible stones escape (which
-      shall prevail in determining which stones are transferred). the
-      mossiness of each stone that is not transferred is incremented by
-      1.
+      than the Escape Minimum are transferred to Agora, rules to the
+      contrary notwithstanding.  A Collection Notice includes selections
+      of which eligible stones escape (which shall prevail in
+      determining which stones are transferred). The mossiness of each
+      stone that is not transferred is incremented by 1.
 
 ------------------------------------------------------------------------
 Rule 2644/5 (Power=2)
@@ -2769,7 +2777,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/17 (Power=2)
+Rule 2645/18 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2800,8 +2808,8 @@ The Stones
         once per month as if it had the power of any other stone of your
         choice.
       
-      - Hot Potato Stone (Weekly, 5):  When this stone is wielded, the
-        wielder specifies an eligible player and gains 8 points. The
+      - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
+        wielder specifies an eligible player and gains 8 radiance. The
         stone is transferred to the eligible player. An eligible player
         is one who has not owned this stone since the last time Agora
         owned it. If this stone is not owned by Agora, a player CANNOT
@@ -2817,9 +2825,8 @@ The Stones
         When this happens, the Anti-Equatorial Stone's mossiness is
         incremented by 1.
       
-      - Score Stone (Weekly, 3): When wielded, a specified player's
-        (defaulting to the wielder if not specified) Score is increased
-        by 3.
+      - Radiance Stone (Weekly, 3): When wielded, a specified player
+        (defaulting to the wielder if not specified) gains 3 radiance.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2827,7 +2834,7 @@ The Device
    A game in which the Mad Engineer amends the rules to randomly add
    abilities to the Device, either when it's on or when it's off.
 ------------------------------------------------------------------------
-Rule 2654/40 (Power=1)
+Rule 2654/42 (Power=1)
 The Device
 
       When the device is on:
@@ -2894,6 +2901,14 @@ The Device
         * An device is ripe if was tabled within the past 14 days, the
           Speaker hasn't objected to it in the past 48 hours, and its
           conditions, if any, are each clearly and unambiguously met.
+        * If at any point an uncontested device has a single candidate,
+          then any player CAN by announcement declare em the winner of
+          the device, thereby causing em to win the device. If at any
+          point an uncontested device has no candidates, then any player
+          CAN declare the device ended with no winner by announcement.
+        * The first Agoran week each year which falls entirely in
+          February is Read the device Week. Agorans are encouraged to
+          read the device during Read the device Week.
       
       When the device is off:
         * whirrrrrr - THUNK
@@ -2995,45 +3010,77 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/3 (Power=1.5)
-Points
+Rule 2656/5 (Power=1.5)
+Radiance
 
-      A player's Score, indicated in Points, is an integer player switch
-      defaulting to 0, tracked by the Herald.
+      A player's Radiance is an integer player switch defaulting to 0,
+      tracked by the Herald. When a player is "granted" or "gains" a
+      specified amount of radiance, eir radiance is increased by that
+      amount.
       
-      Upon a correct announcement from a player that e has a score of
-      100 or more points, e wins the game. Then, eir score is set to 0,
-      and all other players' scores are set to half their current value
-      rounded down.
+      Upon a correct announcement from a player that eir radiance is 100
+      or more (correctly specifying the amount), e wins the game. Then,
+      eir radiance is set to 0, and all other players' radiance are set
+      to half their current value rounded down.
       
-      At the start of every quarter, all Scores are set to half their
-      current value rounded down.
+      At the start of every quarter, all radiance switches are set to
+      half their current value rounded down.
 
 ------------------------------------------------------------------------
-Rule 2657/7 (Power=1)
+Rule 2657/8 (Power=1)
 Scoring
 
-      Each time a player fulfills a scoring condition, the officer
-      associated with the condition CAN once by announcement, and SHALL
-      in an officially timely fashion, add to that player's score the
-      associated amount of points, rounded down.
+      Each time a player fulfills a radiance condition, e CAN once by
+      announcement (specifying any indicated info) gain the associated
+      radiance.
       
-      Below is a list of scoring conditions and their associated points
-      and officers.
+      Below is a list of radiance conditions:
       
-        * Being the author of a proposal that takes effect: 5
-          (Assessor).
+       * Being the author of a proposal that takes effect: 5 (must
+         specify proposal number)
       
-        * Being a coauthor of a proposal that takes effect: 1
-          (Assessor).
+       * Being a coauthor of a proposal that takes effect: 1 (must
+         specify proposal number)
       
-        * Having an Agoran Birthday: X, where X is the number of active
-          players during eir birthday (Herald).
+       * Having an Agoran Birthday: X, where X is the number of active
+         players during eir birthday.
       
-        * Judging a CFJ that e was assigned to without violating a time
-          limit to do so, unless at the time of judgement the case was
-          open due to self-filing a motion to reconsider it: 2
-          (Arbitor).
+       * Judging a CFJ that e was assigned to without violating a time
+         limit to do so, unless at the time of judgement the case was
+         open due to self-filing a motion to reconsider it: 2 (must
+         specify CFJ number)
+
+------------------------------------------------------------------------
+Rule 2680/0 (Power=1)
+Ritual Paper Dance V2
+
+      Firstly: Each of these is a ritual act:
+      - Performing a cabinet order
+      - Assigning a judgement
+      - Awarding ribbons
+      - Once per week per report type, publishing a report
+      - Once per week per player, nominating for office
+      - Once per week per player, voting
+      
+      Secondly: Once for each ritual act, any player, including the
+      player who performed the ritual act, CAN, by announcement, declare
+      the ritual number. A ritual number is a number that starts at 0,
+      and can be at most 1 greater than any other declared ritual
+      number. Declared ritual numbers are self-ratifying.
+      
+      Thirdly: Once, each time a unique positive multiple of 41 is
+      declared, in the same message the declarer CAN, by announcement,
+      have qualifying players lift The First Speaker in a powerful dance
+      around the fountain, while also announcing that those players'
+      gain 1 radiance, in such a way that is unambiguous and clear, so
+      that in fact, those players' do gain 1 radiance. This does not
+      increase their radiance by 2, nor does it increase it by 3 or 4. 5
+      is right out.
+      
+      Fourthly: Players are qualifying under this rule if:
+      - they are active
+      - do not have the highest radiance
+      - are not tied for the highest radiance
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3096,7 +3143,7 @@ The Horses Run
         are next motivated.
 
 ------------------------------------------------------------------------
-Rule 2670/2 (Power=1)
+Rule 2670/3 (Power=1)
 Horse Victory
 
       When the race ends, the following happen, in order:
@@ -3118,9 +3165,9 @@ Horse Victory
         that horse's current multiplier * the number of dollaries e bet
         on that horse since the last time the race started anew.
       
-      * The score of the player that has the most dollaries is increased
-        by 30.  In the event of an N-way tie, instead, each tied
-        player's score is increased by 30/N points, rounded down.
+      * The player that has the most dollaries gains 30 radiance. In the
+        event of an N-way tie, instead, each tied player gains 30/N
+        radiance, rounded down.
       
       * The race starts anew.
 
@@ -3149,7 +3196,7 @@ Horse Multiplier
       Sugar           9 8 7 1 0
 
 ------------------------------------------------------------------------
-Rule 2672/5 (Power=1)
+Rule 2672/6 (Power=1)
 Weekly Race Action
 
       Each player CAN take one of the following actions (weekly race
@@ -3158,9 +3205,8 @@ Weekly Race Action
       * bet 1, 2, or 3 dollaries on a specified Running horse by paying
         a fee of 1, 2, or 3 dollaries respectively.
       
-      * get a jersey for a specified horse by paying 1 hoof, also
-        specifying a horse which is thereby added to that horse's pull,
-        by paying 1 hoof.
+      * get a jersey for a specified horse, also specifying a horse
+        which is thereby added to that horse's pull, by paying 1 hoof.
       
       * get a helmet for a specified horse by paying 1 hoof.
       
