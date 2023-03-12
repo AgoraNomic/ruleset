@@ -32,6 +32,11 @@ text: |
   prohibit a person from taking an action, except that it defers to
   any rule that imposes limitations specifically on actions taken on
   behalf of another person.
+
+  An agent CANNOT act on behalf of a principal to perform an action
+  via a specific method if the rules state that the actor acts "as
+  emself" or "on eir own behalf" to perform the action via that
+  method.
 history:
 - change:
     type: enactment
@@ -48,4 +53,9 @@ history:
   date: 2020-06-03
   agent:
     proposal: "8402"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8913"
 annotations: []
