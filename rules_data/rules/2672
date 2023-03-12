@@ -8,9 +8,8 @@ text: |
   * bet 1, 2, or 3 dollaries on a specified Running horse by paying
     a fee of 1, 2, or 3 dollaries respectively.
 
-  * get a jersey for a specified horse by paying 1 hoof, also
-    specifying a horse which is thereby added to that horse's pull,
-    by paying 1 hoof.
+  * get a jersey for a specified horse, also specifying a horse
+    which is thereby added to that horse's pull, by paying 1 hoof.
 
   * get a helmet for a specified horse by paying 1 hoof.
 
@@ -70,3 +69,8 @@ history:
   date: 2023-02-17
   agent:
     proposal: "8899"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8912"
