@@ -66,6 +66,11 @@ text: |
     * An device is ripe if was tabled within the past 14 days, the
       Speaker hasn't objected to it in the past 48 hours, and its
       conditions, if any, are each clearly and unambiguously met.
+    * If at any point an uncontested device has a single candidate,
+      then any player CAN by announcement declare em the winner of
+      the device, thereby causing em to win the device. If at any
+      point an uncontested device has no candidates, then any player
+      CAN declare the device ended with no winner by announcement.
 
   When the device is off:
     * whirrrrrr - THUNK
@@ -397,6 +402,13 @@ history:
 - change:
     type: amendment
   date: 2023-02-26
+  agent:
+    experiment:
+      id: 73
+      engineer: Janet
+- change:
+    type: amendment
+  date: 2023-03-12
   agent:
     experiment:
       id: 73
