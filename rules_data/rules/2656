@@ -5,10 +5,12 @@ text: |
   A player's Score, indicated in Points, is an integer player switch
   defaulting to 0, tracked by the Herald.
 
-  Upon a correct announcement from a player that e has a score of
-  100 or more points, e wins the game. Then, eir score is set to 0,
-  and all other players' scores are set to half their current value
-  rounded down.
+  A player with 100 or more points CAN declare a High Score by
+  announcement and specifying exactly how many points e has. If a
+  player incorrectly does so, e loses 5 points. Upon a correct
+  declaration of High Score, that player wins the game. Then, eir
+  score is set to 0, and all other players' scores are set to half
+  their current value rounded down.
 
   At the start of every quarter, all Scores are set to half their
   current value rounded down.
@@ -33,3 +35,8 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8872"
+- change:
+    type: amendment
+  date: 2023-03-12
+  agent:
+    proposal: "8914"
