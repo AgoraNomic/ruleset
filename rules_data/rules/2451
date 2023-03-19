@@ -24,6 +24,12 @@ text: |
 
   - Manifesto (Promotor): The Prime Minister distributes a specified
     proposal in the Proposal Pool.
+
+  - Research Funding (Mad Engineer): The Prime Minister specifies an
+    existing Rule. Rules to the contrary notwithstanding, the Mad
+    Engineer CAN and SHALL use that rule instead of making a random
+    rule selection as part of eir weekly duties for the following
+    week.
 history:
 - change:
     type: enactment
@@ -78,4 +84,9 @@ history:
   agent:
     cleaning:
       by: Murphy
+- change:
+    type: amendment
+  date: 2023-03-19
+  agent:
+    proposal: "8923"
 annotations: []
