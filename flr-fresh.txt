@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 12 Mar 2023
+Date of this ruleset: 19 Mar 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2680
-Highest ID'd Proposal Passed: 8921
+Highest ID'd Proposal Passed: 8925
 Highest ID'd Rule Enacted: 2680
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -1452,18 +1452,28 @@ CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
     group of intents (e.g. "I object to all intents to do X.").
 
 ------------------------------------------------------------------------
-Rule 2518/0 (Power=3)
+Rule 2518/1 (Power=3)
 Determinacy
 
       If a value CANNOT be reasonably determined (without circularity or
       paradox) from information reasonably available, or if it
       alternates indefinitely between values, then the value is
       considered to be indeterminate, otherwise it is determinate.
+      
+      A communication purporting to express conditional intent to
+      perform an action is considered unclear and ambiguous unless, at a
+      minimum, the conditional is determinate, true, and reasonably
+      straightforward to evaluate with publicly-available information at
+      the time of communication. The communicator SHOULD explain
+      specific reasons for being uncertain of the outcome when e makes
+      the communication.
 
 History:
 
 Enacted by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan, D.F.F.,
    Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Amended(1) by P8925 'Codify Conditionality' (G., Janet, Murphy), 19 Mar
+   2023
 
 Annotations:
 
@@ -2732,17 +2742,19 @@ CFJ 3800-3803 (called 25 Jan 2020): For a cleaning to replace a word
     same meaning.
 
 ------------------------------------------------------------------------
-Rule 2429/1 (Power=1)
+Rule 2429/2 (Power=1)
 Bleach
 
       Replacing a non-zero amount of whitespace with a different
       non-zero amount of whitespace is generally insignificant, except
-      for paragraph breaks.
+      if doing so substantially changes the semantic, logical, or
+      artistic structure of the text.
 
 History:
 
 Enacted by P7665 'Freedom to Amend' (Alexis), 03 Jun 2014
 Amended(1) by P7709 'Nature abhors a vacuum' (Murphy), 03 Nov 2014
+Amended(2) by P8922 'What's a paragraph anyway?' (G.), 19 Mar 2023
 
 Annotations:
 
@@ -7763,7 +7775,7 @@ Amended(3) by P8435 'No Confidence Isn't Personal' (Aspen), 18 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2451/8 (Power=2)
+Rule 2451/9 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -7788,6 +7800,12 @@ Executive Orders
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.
+      
+      - Research Funding (Mad Engineer): The Prime Minister specifies an
+        existing Rule. Rules to the contrary notwithstanding, the Mad
+        Engineer CAN and SHALL use that rule instead of making a random
+        rule selection as part of eir weekly duties for the following
+        week.
 
 History:
 
@@ -7803,6 +7821,7 @@ Amended(5) by P7964 'Referee Reform and Card Appealability' (R. Lee), 07
 Amended(6) by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
 Amended(7) by P8235 'Unified fine creation syntax' (Janet), 18 Sep 2019
 Amended(8) by cleaning (Murphy), 03 Nov 2019
+Amended(9) by P8923 'Department of Defense' (G.), 19 Mar 2023
 
 Annotations:
 

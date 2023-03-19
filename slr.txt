@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 12 Mar 2023
+Date of this ruleset: 19 Mar 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2680
-Highest ID'd Proposal Passed: 8921
+Highest ID'd Proposal Passed: 8925
 Highest ID'd Rule Enacted: 2680
 
 ========================================================================
@@ -479,13 +479,21 @@ Performing Tabled Actions
         least T ago.
 
 ------------------------------------------------------------------------
-Rule 2518/0 (Power=3)
+Rule 2518/1 (Power=3)
 Determinacy
 
       If a value CANNOT be reasonably determined (without circularity or
       paradox) from information reasonably available, or if it
       alternates indefinitely between values, then the value is
       considered to be indeterminate, otherwise it is determinate.
+      
+      A communication purporting to express conditional intent to
+      perform an action is considered unclear and ambiguous unless, at a
+      minimum, the conditional is determinate, true, and reasonably
+      straightforward to evaluate with publicly-available information at
+      the time of communication. The communicator SHOULD explain
+      specific reasons for being uncertain of the outcome when e makes
+      the communication.
 
 ------------------------------------------------------------------------
 Rule 2505/1 (Power=1)
@@ -1043,12 +1051,13 @@ Cleanliness and Tidy Filing
       Cleaning rules is secured. Refiling rules is secured.
 
 ------------------------------------------------------------------------
-Rule 2429/1 (Power=1)
+Rule 2429/2 (Power=1)
 Bleach
 
       Replacing a non-zero amount of whitespace with a different
       non-zero amount of whitespace is generally insignificant, except
-      for paragraph breaks.
+      if doing so substantially changes the semantic, logical, or
+      artistic structure of the text.
 
 ------------------------------------------------------------------------
 Rule 2614/9 (Power=3.1)
@@ -3761,7 +3770,7 @@ Motion of No Confidence
       rather than as a personal judgement of the Prime Minister.
 
 ------------------------------------------------------------------------
-Rule 2451/8 (Power=2)
+Rule 2451/9 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -3786,6 +3795,12 @@ Executive Orders
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.
+      
+      - Research Funding (Mad Engineer): The Prime Minister specifies an
+        existing Rule. Rules to the contrary notwithstanding, the Mad
+        Engineer CAN and SHALL use that rule instead of making a random
+        rule selection as part of eir weekly duties for the following
+        week.
 
 ------------------------------------------------------------------------
 Rule 2575/3 (Power=3)
