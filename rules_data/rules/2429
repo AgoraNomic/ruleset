@@ -4,7 +4,8 @@ power: 1
 text: |
   Replacing a non-zero amount of whitespace with a different
   non-zero amount of whitespace is generally insignificant, except
-  for paragraph breaks.
+  if doing so substantially changes the semantic, logical, or
+  artistic structure of the text.
 history:
 - change:
     type: enactment
@@ -16,4 +17,9 @@ history:
   date: 2014-11-03
   agent:
     proposal: "7709"
+- change:
+    type: amendment
+  date: 2023-03-19
+  agent:
+    proposal: "8922"
 annotations: []
