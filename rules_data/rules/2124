@@ -9,7 +9,13 @@ text: |
     supported it;
   * Become an objector ("object to" it), unless e previously
     objected to it;
-  * Cease to be a supporter or objector ("withdraw" support/objection).
+
+  A supporter/objector to an intent, acting as emself, CAN by
+  announcement cease to be a supporter/objector ("withdraw"
+  support/objection) of that intent.
+
+  Limiting the ability to support or object to an intent is secured
+  at the power of the rule enabling that action to be performed.
 
   An intent is ripe if was tabled within the past 14 days, the
   Speaker hasn't objected to it in the past 48 hours, and its
@@ -221,6 +227,11 @@ history:
   date: 2022-08-06
   agent:
     proposal: "8818"
+- change:
+    type: amendment
+  date: 2023-03-26
+  agent:
+    proposal: "8929"
 annotations:
 - cfjs:
   - id: '3567'
