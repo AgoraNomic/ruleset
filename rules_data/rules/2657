@@ -2,9 +2,9 @@ id: 2657
 name: Scoring
 power: 1
 text: |
-  Each time a player fulfills a radiance condition, e CAN once by
-  announcement (specifying any indicated info) gain the associated
-  radiance.
+  Each time a player fulfills a radiance condition, e CAN once,
+  within 14 days, by announcement (specifying any indicated info)
+  gain the associated radiance.
 
   Below is a list of radiance conditions:
 
@@ -77,3 +77,8 @@ history:
   date: 2023-03-26
   agent:
     proposal: "8930"
+- change:
+    type: amendment
+  date: 2023-03-26
+  agent:
+    proposal: "8932"
