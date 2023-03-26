@@ -14,7 +14,9 @@ text: |
   player who performed the ritual act, CAN, by announcement, declare
   the ritual number. A ritual number is a number that starts at 0,
   and can be at most 1 greater than any other declared ritual
-  number. Declared ritual numbers are self-ratifying.
+  number. A purported attempt to declare the ritual number is a
+  self-ratifying attestation that such attempt was successful and
+  that the ritual number was declared.
 
   Thirdly: Once, each time a unique positive multiple of 41 is
   declared, in the same message the declarer CAN, by announcement,
@@ -35,3 +37,8 @@ history:
   date: 2023-03-12
   agent:
     proposal: "8918"
+- change:
+    type: amendment
+  date: 2023-03-26
+  agent:
+    proposal: "8933"
