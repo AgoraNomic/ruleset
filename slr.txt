@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 19 Mar 2023
+Date of this ruleset: 26 Mar 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 139
+Number of rules currently enacted: 140
 
-Highest ID'd rule in this ruleset: 2680
-Highest ID'd Proposal Passed: 8925
-Highest ID'd Rule Enacted: 2680
+Highest ID'd rule in this ruleset: 2681
+Highest ID'd Proposal Passed: 8933
+Highest ID'd Rule Enacted: 2681
 
 ========================================================================
 The Game of Agora
@@ -446,7 +446,7 @@ Tabled Actions
       position previously held by the person who tabled it.
 
 ------------------------------------------------------------------------
-Rule 2124/31 (Power=3)
+Rule 2124/32 (Power=3)
 Performing Tabled Actions
 
       For a given tabled intent, a player CAN, unless otherwise
@@ -456,7 +456,13 @@ Performing Tabled Actions
         supported it;
       * Become an objector ("object to" it), unless e previously
         objected to it;
-      * Cease to be a supporter or objector ("withdraw" support/objection).
+      
+      A supporter/objector to an intent, acting as emself, CAN by
+      announcement cease to be a supporter/objector ("withdraw"
+      support/objection) of that intent.
+      
+      Limiting the ability to support or object to an intent is secured
+      at the power of the rule enabling that action to be performed.
       
       An intent is ripe if was tabled within the past 14 days, the
       Speaker hasn't objected to it in the past 48 hours, and its
@@ -511,6 +517,22 @@ Random Choices
       in advance. The selecting person SHOULD make the selection method
       public, and SHOULD use a method for which the final probability
       distribution can be readily confirmed.
+
+------------------------------------------------------------------------
+Rule 2681/0 (Power=1)
+Acting on Commitment
+
+      A Fingerprint for a document (the Plaintext) is a document that
+      could not have been reasonably created without knowledge of the
+      Plaintext, and which is related to the Plaintext in such a way
+      that one could not reasonably produce another document related to
+      that Fingerprint in the same way.
+      
+      Where the rules define an action that a person CAN perform "by
+      commitment" to a particular kind of document, that person performs
+      that action by performing it by announcement while, in the same
+      message, also publishing a what is purportedly a Fingerprint for a
+      document of that kind.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3036,16 +3058,16 @@ Radiance
       half their current value rounded down.
 
 ------------------------------------------------------------------------
-Rule 2657/8 (Power=1)
+Rule 2657/10 (Power=1)
 Scoring
 
-      Each time a player fulfills a radiance condition, e CAN once by
-      announcement (specifying any indicated info) gain the associated
-      radiance.
+      Each time a player fulfills a radiance condition, e CAN once,
+      within 14 days, by announcement (specifying any indicated info)
+      gain the associated radiance.
       
       Below is a list of radiance conditions:
       
-       * Being the author of a proposal that takes effect: 5 (must
+       * Being the author of a proposal that takes effect: 4 (must
          specify proposal number)
       
        * Being a coauthor of a proposal that takes effect: 1 (must
@@ -3056,11 +3078,11 @@ Scoring
       
        * Judging a CFJ that e was assigned to without violating a time
          limit to do so, unless at the time of judgement the case was
-         open due to self-filing a motion to reconsider it: 2 (must
+         open due to self-filing a motion to reconsider it: 3 (must
          specify CFJ number)
 
 ------------------------------------------------------------------------
-Rule 2680/0 (Power=1)
+Rule 2680/1 (Power=1)
 Ritual Paper Dance V2
 
       Firstly: Each of these is a ritual act:
@@ -3075,7 +3097,9 @@ Ritual Paper Dance V2
       player who performed the ritual act, CAN, by announcement, declare
       the ritual number. A ritual number is a number that starts at 0,
       and can be at most 1 greater than any other declared ritual
-      number. Declared ritual numbers are self-ratifying.
+      number. A purported attempt to declare the ritual number is a
+      self-ratifying attestation that such attempt was successful and
+      that the ritual number was declared.
       
       Thirdly: Once, each time a unique positive multiple of 41 is
       declared, in the same message the declarer CAN, by announcement,
