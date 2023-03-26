@@ -8,7 +8,7 @@ text: |
 
   Below is a list of radiance conditions:
 
-   * Being the author of a proposal that takes effect: 5 (must
+   * Being the author of a proposal that takes effect: 4 (must
      specify proposal number)
 
    * Being a coauthor of a proposal that takes effect: 1 (must
@@ -19,7 +19,7 @@ text: |
 
    * Judging a CFJ that e was assigned to without violating a time
      limit to do so, unless at the time of judgement the case was
-     open due to self-filing a motion to reconsider it: 2 (must
+     open due to self-filing a motion to reconsider it: 3 (must
      specify CFJ number)
 history:
 - change:
@@ -72,3 +72,8 @@ history:
   date: 2023-03-12
   agent:
     proposal: "8919"
+- change:
+    type: amendment
+  date: 2023-03-26
+  agent:
+    proposal: "8930"
