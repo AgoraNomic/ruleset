@@ -23,15 +23,13 @@ text: |
 
   - Wandering: This dream has no effect.
 
-  - Charity: A Charity Stamp is a stamp of the type that the L&FD
-    owns the most of (if there is a tie, the first the L&FD owned,
-    and if still tied, the first alphabetically). Immediately after
-    a wandering, for each Charity Dreamer, in reverse order of when
-    eir Dream was last flipped (and in reverse order of registration
-    if tied), one Charity Stamp is transferred from the L&FD to em.
-    If the number of Stamps the L&FD owned during the last wandering
-    is greater than 10, this process happens a second time. If it is
-    more than 20, this process happens a third time.
+  - Charity: Immediately after a wandering, one stamp (chosen by
+    most-to-least owned by the L&FD at time of transfer, tie-broken
+    alphabetically) is transferred to each Charity Dreamer (in order
+    from least-to-most stamps owned, tie-broken alphabetically) from
+    the L&FD. If the number of Stamps the L&FD owned during the last
+    wandering is greater than 10, this process happens a second
+    time. If it is more than 20, this process happens a third time.
 
   - Justice: Immediately after a wandering, 1 blot is expunged from
     each Justice Dreamer. If a Justice Dreamer had no blots
