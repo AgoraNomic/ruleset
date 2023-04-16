@@ -7,7 +7,7 @@ text: |
   office, an election is immediately opened for that office. Players
   SHOULD NOT use this method of removal unless the officer has
   abused the powers of eir office or otherwise shown emself unworthy
-  the trust of Agora.
+  of the trust of Agora.
 history:
 - change:
     type: enactment
@@ -25,4 +25,8 @@ history:
   date: 2021-03-10
   agent:
     proposal: "8545"
-
+- change:
+    type: amendment
+  date: 2023-04-16
+  agent:
+    proposal: "8942"

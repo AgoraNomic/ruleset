@@ -19,7 +19,7 @@ text: |
   3. NEED NOT, OPTIONAL: Failing to perform the described action
      does not violate the rules.
 
-  4. "SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+  4. SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
      described action, the full implications of performing it ought
      to be be understood and carefully weighed.
 
@@ -100,6 +100,11 @@ history:
   date: 2021-07-14
   agent:
     proposal: "8594"
+- change:
+    type: amendment
+  date: 2023-04-16
+  agent:
+    proposal: "8942"
 annotations:
 - cfjs:
   - id: '1132'
