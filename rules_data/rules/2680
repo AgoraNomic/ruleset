@@ -2,35 +2,32 @@ id: 2680
 name: Ritual Paper Dance
 power: 1
 text: |
-  Firstly: Each of these is a ritual act:
-  - Performing a cabinet order
-  - Assigning a judgement
-  - Awarding ribbons
-  - Once per week per report type, publishing a report
-  - Once per week per player, nominating for office
-  - Once per week per player, voting
+  Each of the following is a ritual act:
+  - Issuing a Cabinet Order.
+  - Assigning a judgement to a CFJ.
+  - Publishing the first report of a given Rules-defined type in an
+    Agoran week, provided such publishing fulfilled a Rules-defined
+    duty to publish.
+  - For each person, eir becoming a candidate in an election for the
+    first time in an Agoran week.
+  - For each person, eir submitting a ballot on an Agoran decision
+    for the first time in an Agoran week.
 
-  Secondly: Once for each ritual act, any player, including the
-  player who performed the ritual act, CAN, by announcement, declare
-  the ritual number. A ritual number is a number that starts at 0,
-  and can be at most 1 greater than any other declared ritual
-  number. A purported attempt to declare the ritual number is a
-  self-ratifying attestation that such attempt was successful and
-  that the ritual number was declared.
+  When a ritual act is performed, any player CAN, within 7 days, by
+  announcement anoint a ritual number, specifying the ritual act and
+  the new ritual number. The anointed ritual number must be 0 or not
+  more than 1 greater than the greatest previously anointed ritual
+  number.
 
-  Thirdly: Once, each time a unique positive multiple of 41 is
-  declared, in the same message the declarer CAN, by announcement,
-  have qualifying players lift The First Speaker in a powerful dance
-  around the fountain, while also announcing that those players'
-  gain 1 radiance, in such a way that is unambiguous and clear, so
-  that in fact, those players' do gain 1 radiance. This does not
-  increase their radiance by 2, nor does it increase it by 3 or 4. 5
-  is right out.
+  When a positive integral multiple of 41 is anointed as a ritual
+  number for the first time, the person who does so CAN, by
+  announcement, Raise the First Speaker in a powerful dance around
+  the Town Fountain. Doing so causes each player qualifying under
+  this Rule to gain 1 radiance.
 
-  Fourthly: Players are qualifying under this rule if:
-  - they are active
-  - do not have the highest radiance
-  - are not tied for the highest radiance
+  A player is qualifying under this Rule if and only if e is active,
+  does not have the highest radiance of any player, and is not tied
+  for the highest radiance among players.
 history:
 - change:
     type: enactment
@@ -42,3 +39,8 @@ history:
   date: 2023-03-26
   agent:
     proposal: "8933"
+- change:
+    type: amendment
+  date: 2023-04-16
+  agent:
+    proposal: "8943"
