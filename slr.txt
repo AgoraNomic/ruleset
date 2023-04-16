@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 9 Apr 2023
+Date of this ruleset: 16 Apr 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 140
 
 Highest ID'd rule in this ruleset: 2681
-Highest ID'd Proposal Passed: 8939
+Highest ID'd Proposal Passed: 8944
 Highest ID'd Rule Enacted: 2681
 
 ========================================================================
@@ -277,7 +277,7 @@ General Definitions
    chances are that the Agoran definition of that word is described in
    one of these rules.
 ------------------------------------------------------------------------
-Rule 2152/9 (Power=3)
+Rule 2152/10 (Power=3)
 Mother, May I?
 
       The following terms are defined. These definitions are used when a
@@ -297,7 +297,7 @@ Mother, May I?
       3. NEED NOT, OPTIONAL: Failing to perform the described action
          does not violate the rules.
       
-      4. "SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+      4. SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
          described action, the full implications of performing it ought
          to be be understood and carefully weighed.
       
@@ -1465,7 +1465,7 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/45 (Power=2)
+Rule 1006/46 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -1487,9 +1487,10 @@ Offices
       other player is one of the Supporters. Any player CAN cause an
       office to become vacant without 2 objections.
       
-      When a proposal takes effect and creates a new office, if the
-      proposal does not specify otherwise, the author of that proposal
-      becomes the holder of the office.
+      Immediately after a proposal finishes taking effect, if one or
+      more offices exist that did not exist prior to the proposal taking
+      effect, each such office, if it is vacant, becomes held by the
+      author of the proposal.
 
 ------------------------------------------------------------------------
 Rule 2630/2 (Power=2.0)
@@ -1589,7 +1590,7 @@ Election Procedure
       office and the election ends.
 
 ------------------------------------------------------------------------
-Rule 2573/2 (Power=2)
+Rule 2573/3 (Power=2)
 Impeachment
 
       Any player CAN, with 2 Agoran consent, expel (impeach) the holder
@@ -1597,7 +1598,7 @@ Impeachment
       office, an election is immediately opened for that office. Players
       SHOULD NOT use this method of removal unless the officer has
       abused the powers of eir office or otherwise shown emself unworthy
-      the trust of Agora.
+      of the trust of Agora.
 
 ------------------------------------------------------------------------
 Rule 2160/24 (Power=3)
@@ -3057,7 +3058,7 @@ Radiance
       half their current value rounded down.
 
 ------------------------------------------------------------------------
-Rule 2657/10 (Power=1)
+Rule 2657/11 (Power=1)
 Gaining Radiance
 
       Each time a player fulfills a radiance condition, e CAN once,
@@ -3066,14 +3067,17 @@ Gaining Radiance
       
       Below is a list of radiance conditions:
       
-       * Being the author of a proposal that takes effect: 4 (must
-         specify proposal number)
+       * Being the author of a proposal that takes effect, at the
+         instant it finishes taking effect: 4 (must specify proposal
+         number)
       
-       * Being a coauthor of a proposal that takes effect: 1 (must
-         specify proposal number)
+       * Being a coauthor of a proposal that takes effect, at the
+         instant it finishes taking effect: 1 (must specify proposal
+         number)
       
-       * Having an Agoran Birthday: X, where X is the number of active
-         players during eir birthday.
+       * Having an Agoran Birthday, at the instant it begins: X, where X
+         is the number of active players at the instant the condition
+         was fulfilled..
       
        * Judging a CFJ that e was assigned to without violating a time
          limit to do so, unless at the time of judgement the case was
@@ -3081,38 +3085,35 @@ Gaining Radiance
          specify CFJ number)
 
 ------------------------------------------------------------------------
-Rule 2680/1 (Power=1)
+Rule 2680/2 (Power=1)
 Ritual Paper Dance
 
-      Firstly: Each of these is a ritual act:
-      - Performing a cabinet order
-      - Assigning a judgement
-      - Awarding ribbons
-      - Once per week per report type, publishing a report
-      - Once per week per player, nominating for office
-      - Once per week per player, voting
+      Each of the following is a ritual act:
+      - Issuing a Cabinet Order.
+      - Assigning a judgement to a CFJ.
+      - Publishing the first report of a given Rules-defined type in an
+        Agoran week, provided such publishing fulfilled a Rules-defined
+        duty to publish.
+      - For each person, eir becoming a candidate in an election for the
+        first time in an Agoran week.
+      - For each person, eir submitting a ballot on an Agoran decision
+        for the first time in an Agoran week.
       
-      Secondly: Once for each ritual act, any player, including the
-      player who performed the ritual act, CAN, by announcement, declare
-      the ritual number. A ritual number is a number that starts at 0,
-      and can be at most 1 greater than any other declared ritual
-      number. A purported attempt to declare the ritual number is a
-      self-ratifying attestation that such attempt was successful and
-      that the ritual number was declared.
+      When a ritual act is performed, any player CAN, within 7 days, by
+      announcement anoint a ritual number, specifying the ritual act and
+      the new ritual number. The anointed ritual number must be 0 or not
+      more than 1 greater than the greatest previously anointed ritual
+      number.
       
-      Thirdly: Once, each time a unique positive multiple of 41 is
-      declared, in the same message the declarer CAN, by announcement,
-      have qualifying players lift The First Speaker in a powerful dance
-      around the fountain, while also announcing that those players'
-      gain 1 radiance, in such a way that is unambiguous and clear, so
-      that in fact, those players' do gain 1 radiance. This does not
-      increase their radiance by 2, nor does it increase it by 3 or 4. 5
-      is right out.
+      When a positive integral multiple of 41 is anointed as a ritual
+      number for the first time, the person who does so CAN, by
+      announcement, Raise the First Speaker in a powerful dance around
+      the Town Fountain. Doing so causes each player qualifying under
+      this Rule to gain 1 radiance.
       
-      Fourthly: Players are qualifying under this rule if:
-      - they are active
-      - do not have the highest radiance
-      - are not tied for the highest radiance
+      A player is qualifying under this Rule if and only if e is active,
+      does not have the highest radiance of any player, and is not tied
+      for the highest radiance among players.
 
 ------------------------------------------------------------------------
 ========================================================================
