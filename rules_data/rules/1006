@@ -21,9 +21,10 @@ text: |
   other player is one of the Supporters. Any player CAN cause an
   office to become vacant without 2 objections.
 
-  When a proposal takes effect and creates a new office, if the
-  proposal does not specify otherwise, the author of that proposal
-  becomes the holder of the office.
+  Immediately after a proposal finishes taking effect, if one or
+  more offices exist that did not exist prior to the proposal taking
+  effect, each such office, if it is vacant, becomes held by the
+  author of the proposal.
 history:
 - change:
     type: enactment
@@ -298,6 +299,11 @@ history:
   date: 2021-06-14
   agent:
     proposal: "8561"
+- change:
+    type: amendment
+  date: 2023-04-16
+  agent:
+    proposal: "8944"
 annotations:
 - cfjs:
   - id: '1660'

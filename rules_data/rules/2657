@@ -8,14 +8,17 @@ text: |
 
   Below is a list of radiance conditions:
 
-   * Being the author of a proposal that takes effect: 4 (must
-     specify proposal number)
+   * Being the author of a proposal that takes effect, at the
+     instant it finishes taking effect: 4 (must specify proposal
+     number)
 
-   * Being a coauthor of a proposal that takes effect: 1 (must
-     specify proposal number)
+   * Being a coauthor of a proposal that takes effect, at the
+     instant it finishes taking effect: 1 (must specify proposal
+     number)
 
-   * Having an Agoran Birthday: X, where X is the number of active
-     players during eir birthday.
+   * Having an Agoran Birthday, at the instant it begins: X, where X
+     is the number of active players at the instant the condition
+     was fulfilled..
 
    * Judging a CFJ that e was assigned to without violating a time
      limit to do so, unless at the time of judgement the case was
@@ -82,3 +85,8 @@ history:
   date: 2023-03-26
   agent:
     proposal: "8932"
+- change:
+    type: amendment
+  date: 2023-04-16
+  agent:
+    proposal: "8944"
