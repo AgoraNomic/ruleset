@@ -25,7 +25,12 @@ text: |
     event of an N-way tie, instead, each tied player gains 30/N
     radiance, rounded down.
 
-  * The race starts anew.
+
+  * The following rules are repealed in ascending numerical order by
+    ID: Rule 2668, Rule 2669, Rule 2671, Rule 2672, Rule 2673, and
+    Rule 2674.
+
+  * This rule repeals itself.
 history:
 - change:
     type: enactment
@@ -47,3 +52,8 @@ history:
   date: 2023-03-12
   agent:
     proposal: "8919"
+- change:
+    type: amendment
+  date: 2023-04-23
+  agent:
+    proposal: "8954"
