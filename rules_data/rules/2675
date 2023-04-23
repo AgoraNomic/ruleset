@@ -46,10 +46,6 @@ text: |
     eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
     is 1. When 16 ore more Stamps of eir type exist, X is 0.
 
-  - Machinery: A Machinery Dreamer CAN Flip the Device with Agoran
-    Consent. A Machinery Dreamer CAN take a specified action on
-    behalf of the the device with 1 support.
-
   - Gardens: Immediately after a wandering, the Base Rockiness of
     each Gardens Dreamer is increased by 1.
 
@@ -107,3 +103,8 @@ history:
   date: 2023-03-12
   agent:
     proposal: "8921"
+- change:
+    type: amendment
+  date: 2023-04-23
+  agent:
+    proposal: "8955"
