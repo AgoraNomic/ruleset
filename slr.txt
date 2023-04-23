@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 16 Apr 2023
+Date of this ruleset: 23 Apr 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 140
+Number of rules currently enacted: 138
 
 Highest ID'd rule in this ruleset: 2681
-Highest ID'd Proposal Passed: 8944
+Highest ID'd Proposal Passed: 8955
 Highest ID'd Rule Enacted: 2681
 
 ========================================================================
@@ -89,13 +89,13 @@ How to Join and Leave Agora
       to the contrary notwithstanding.
 
 ------------------------------------------------------------------------
-Rule 478/41 (Power=3)
+Rule 478/42 (Power=3)
 Fora
 
       Publicity is a secured forum switch with values Public,
       Discussion, and Foreign (default), tracked by the Registrar.
       
-      The Registrar may change the publicity of a forum without
+      The Registrar CAN change the publicity of a forum without
       objection as long as:
       
       1. e sends eir announcement of intent to that forum; and
@@ -2495,7 +2495,7 @@ Ownership
       transferred or destroyed by any player without objection.
 
 ------------------------------------------------------------------------
-Rule 2577/7 (Power=3)
+Rule 2577/8 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -2522,7 +2522,8 @@ Asset Actions
       by its owner to another entity, subject to modification by its
       backing document. Attempts to transfer no assets are successful. A
       fixed asset is one defined as such by its backing document, and
-      CANNOT be transferred; any other asset is liquid.
+      CANNOT be transferred except as explicitly specified by its
+      backing document; any other asset is liquid.
       
       When a rule indicates creating, destroying, or transferring an
       amount of assets that is not a natural number, the specified
@@ -2631,7 +2632,7 @@ Birthday Gifts
       the Herald SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2675/6 (Power=2)
+Rule 2675/7 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -2677,10 +2678,6 @@ Dream of Wandering
         are granted to each Wealth Dreamer. When less than 8 Stamps of
         eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
         is 1. When 16 ore more Stamps of eir type exist, X is 0.
-      
-      - Machinery: A Machinery Dreamer CAN Flip the Device with Agoran
-        Consent. A Machinery Dreamer CAN take a specified action on
-        behalf of the the device with 1 support.
       
       - Gardens: Immediately after a wandering, the Base Rockiness of
         each Gardens Dreamer is increased by 1.
@@ -2861,182 +2858,6 @@ The Stones
 
 ------------------------------------------------------------------------
 ========================================================================
-The Device
-   A game in which the Mad Engineer amends the rules to randomly add
-   abilities to the Device, either when it's on or when it's off.
-------------------------------------------------------------------------
-Rule 2654/42 (Power=1)
-The Device
-
-      When the device is on:
-        * click - hummmmmmm
-        * The week that contains the beginning of Agora's Device,
-          together with the following week, is a Holiday.
-        * A Device CAN activate or deactivate emself by announcement.
-        * Any player CAN refile a Device without objection, specifying a
-          new title; the Device is retitled to the specified title by
-          this Device.
-        * The Speaker qualifies for a Platinum Device.
-        * The time window of a Device is W days, where W is the value
-          explicitly stated by the Device, or 60 if the Device does not
-          explicitly state a value. A Device ceases to exist at the end
-          of its time window.
-        * Each Agoran Device has a voting method, which must be
-          AI-majority, instant runoff, or first-past-the-post.
-        * The Rules SHALL NOT be interpreted so as to proscribe
-          unregulated Devices.
-        * The voting Device is that specified by the authorizing
-          authority, or first-past-the-post by default.
-        * An entity submits a ballot on an Agoran Device by publishing a
-          notice satisfying the following conditions:
-      
-          1. The ballot is submitted during the voting period for the
-             Device.
-      
-          2. The entity casting the ballot (the voter) was, at the
-             initiation of the Device, a player.
-      
-          3. The ballot clearly identifies the matter to be decided.
-      
-          4. The ballot clearly identifies a valid vote, as determined
-             by the voting method.
-      
-          5. The ballot clearly sets forth the voter's intent to place
-             the identified vote.
-      
-          6. The voter has no other valid ballots on the same Device.
-        * The voting Device of an entity on an Agoran decision is an
-          integer between 0 and 15 inclusive, defined by rules of power
-          2 or greater.
-        * A Device is an entity with positive Power.
-        * The Treasuror CAN conduct an auction (a "Device auction") if
-          no Device auction is ongoing.
-        * A Device change is any effect that falls into the above
-          classes.
-        * When a Device wins an election, e is installed into the
-          associated office and the election ends.
-        * As this Device is the highest honour that Agora may bestow, a
-          Bearer of this Device OUGHT to be treated right good forever.
-        * Proposals created since the enactment of this rule have a
-          secured untracked Device switch with possible values ordinary
-          (the default) and democratic.
-        * While Agora's Device is zero, the paragraphs above have no
-          effect and are ignored.
-        * Whenever a payday occurs, half of each charity's Device
-          holdings (rounded down) are destroyed, and then each charity
-          gains a number of boatloads of Devices equal to its donation
-          level.
-        * The ADoP CAN, with 2 Agoran consent, flip the complexity of an
-          device.
-        * Agoran device begin at midnight UTC.
-        * An device is ripe if was tabled within the past 14 days, the
-          Speaker hasn't objected to it in the past 48 hours, and its
-          conditions, if any, are each clearly and unambiguously met.
-        * If at any point an uncontested device has a single candidate,
-          then any player CAN by announcement declare em the winner of
-          the device, thereby causing em to win the device. If at any
-          point an uncontested device has no candidates, then any player
-          CAN declare the device ended with no winner by announcement.
-        * The first Agoran week each year which falls entirely in
-          February is Read the device Week. Agorans are encouraged to
-          read the device during Read the device Week.
-      
-      When the device is off:
-        * whirrrrrr - THUNK
-        * By default, a device CAN, with 2 Agoran consent, enact, amend,
-          or repeal a regulation for which e is the Promulgator.
-        * Whenever a Player feels that e has been treated so egregiously
-          by the Agoran Device that e can no longer abide to be a part
-          of it, e may submit a document to the Registrar, clearly
-          labeled a Cantus Cygneus, detailing eir grievances and
-          expressing eir reproach for those who e feels have treated em
-          so badly.
-        * When e does so, e fulfills any obligations with regards to
-          that device.
-        * Text purportedly about previous instances of the device (e.g.
-          a report's date of last device) is excluded from the device.
-        * If a Device has no judge assigned, then any player eligible to
-          judge that Device CAN assign it to emself without 3
-          objections.
-        * Then, the Device changes, following which each active player
-          gains 1 card of each type and eir grant (if any).
-        * The Rulekeepor SHOULD also include any other information which
-          e feels may be helpful in the use of the Device in the FLR.
-        * A player CAN once a month grant eir Ministry Focus' Device to
-          a specified player by announcement.
-        * At any given time, each instance of a Device has exactly one
-          possible value for that type of Device.
-        * Any player CAN grant a Welcome Device to any player if the
-          grantee has neither received one since e last registered nor
-          in the last 30 days.
-        * When the rules call for an Agoran Device to be made, the
-          Device-making process takes place in the following three
-          stages, each described elsewhere:
-      
-          1. Initiation of the Device.
-      
-          2. Voting of the people.
-      
-          3. Resolution of the Device.
-        * When a Rule specifies that a random Device be made, then the
-          Device shall be made using whatever probability distribution
-          among the possible outcomes the Rule specifies, defaulting to
-          a uniform probability distribution.
-        * If a device has a judgement assigned, a player CAN enter that
-          judgement into Moot with N+2 support, where N is the number of
-          weeks since that judgement has been assigned, rounded down.
-        * The device can be made using any physical or computational
-          process whose probability distribution among the possible
-          outcomes is reasonably close to that required by the Rules,
-          and for which the final device is not trivially predictable by
-          the selecting person in advance.
-        * Any action performed by sending a device is performed at the
-          time date-stamped on that device. Actions in devices
-          (including sub-devices) are performed in the order they appear
-          in the device, unless otherwise specified.
-
-------------------------------------------------------------------------
-Rule 2655/3 (Power=1)
-The Mad Engineer
-
-      The Mad Engineer is an office; its holder is responsible for
-      building, tracking, and maintaining the Device.  The device is a
-      singleton switch with values off (default) and on.  The Mad
-      Engineer CAN flip the device to either on or off with Agoran
-      Consent; any other player CAN do so with 2 Agoran Consent.
-      
-      The Mad Engineer CAN act on behalf of the device to take any
-      action that the device may take, and SHALL act on behalf of the
-      device to ensure that the device fulfills all of its duties.
-      
-      The Mad Engineer's weekly duties include the performance of the
-      following tasks, in order:
-      
-      a) Randomly select exactly one rule.  If the selected rule is
-      either this rule or the rule "The Device", then 007 has been
-      spotted near the self-destruct button; skip directly to announcing
-      intent, below.
-      
-      b) Select one or more contiguous sentences from the selected rule.
-      
-      c) Select exactly one noun from the selected text, and replace
-      each instance of that noun with "Device" (including grammatical
-      variations, e.g. replacing "<noun>'s" with "Device's").
-      
-      d) Announce intent to, with Agoran Consent, cause this rule to
-      amend the rule "The Device" by inserting the modified text as the
-      last list item in either the "device on" or "device off" lists in
-      that rule (or, if 007 has been spotted, to repeal that rule, then
-      this one).
-      
-      If the announcement of intent above is made with the procedure
-      described above, the Mad Engineer CAN, with Agoran Consent, cause
-      this rule to amend the rule "The Device" as indicated (or, if 007
-      has been spotted, cause this rule to repeal that rule, then this
-      one), and SHALL do so if the intent receives sufficient support.
-
-------------------------------------------------------------------------
-========================================================================
 Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
@@ -3176,7 +2997,7 @@ The Horses Run
         are next motivated.
 
 ------------------------------------------------------------------------
-Rule 2670/3 (Power=1)
+Rule 2670/4 (Power=1)
 Horse Victory
 
       When the race ends, the following happen, in order:
@@ -3202,7 +3023,12 @@ Horse Victory
         event of an N-way tie, instead, each tied player gains 30/N
         radiance, rounded down.
       
-      * The race starts anew.
+      
+      * The following rules are repealed in ascending numerical order by
+        ID: Rule 2668, Rule 2669, Rule 2671, Rule 2672, Rule 2673, and
+        Rule 2674.
+      
+      * This rule repeals itself.
 
 ------------------------------------------------------------------------
 Rule 2671/0 (Power=1)
@@ -3794,7 +3620,7 @@ Motion of No Confidence
       rather than as a personal judgement of the Prime Minister.
 
 ------------------------------------------------------------------------
-Rule 2451/9 (Power=2)
+Rule 2451/10 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -3819,12 +3645,6 @@ Executive Orders
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.
-      
-      - Research Funding (Mad Engineer): The Prime Minister specifies an
-        existing Rule. Rules to the contrary notwithstanding, the Mad
-        Engineer CAN and SHALL use that rule instead of making a random
-        rule selection as part of eir weekly duties for the following
-        week.
 
 ------------------------------------------------------------------------
 Rule 2575/3 (Power=3)
