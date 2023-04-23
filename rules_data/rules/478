@@ -5,7 +5,7 @@ text: |
   Publicity is a secured forum switch with values Public,
   Discussion, and Foreign (default), tracked by the Registrar.
 
-  The Registrar may change the publicity of a forum without
+  The Registrar CAN change the publicity of a forum without
   objection as long as:
 
   1. e sends eir announcement of intent to that forum; and
@@ -258,6 +258,11 @@ history:
   date: 2022-11-26
   agent:
     proposal: "8867"
+- change:
+    type: amendment
+  date: 2023-04-23
+  agent:
+    proposal: "8952"
 annotations:
 - cfjs:
   - id: 1451-1452
