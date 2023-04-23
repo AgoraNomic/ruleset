@@ -26,7 +26,8 @@ text: |
   by its owner to another entity, subject to modification by its
   backing document. Attempts to transfer no assets are successful. A
   fixed asset is one defined as such by its backing document, and
-  CANNOT be transferred; any other asset is liquid.
+  CANNOT be transferred except as explicitly specified by its
+  backing document; any other asset is liquid.
 
   When a rule indicates creating, destroying, or transferring an
   amount of assets that is not a natural number, the specified
@@ -74,3 +75,8 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8659"
+- change:
+    type: amendment
+  date: 2023-04-23
+  agent:
+    proposal: "8953"
