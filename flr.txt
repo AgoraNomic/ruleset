@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 27 Mar 2023
+Date of this ruleset: 30 Apr 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 140
+Number of rules currently enacted: 138
 
 Highest ID'd rule in this ruleset: 2681
-Highest ID'd Proposal Passed: 8933
+Highest ID'd Proposal Passed: 8955
 Highest ID'd Rule Enacted: 2681
 
 ------------------------------------------------------------------------
@@ -134,12 +134,9 @@ Stones
    * Rule 2643: Collecting Stones
    * Rule 2644: Zen Gardening
    * Rule 2645: The Stones
-The Device
-   * Rule 2654: The Device
-   * Rule 2655: The Mad Engineer
 Scoring
    * Rule 2656: Radiance
-   * Rule 2657: Scoring
+   * Rule 2657: Gaining Radiance
    * Rule 2680: Ritual Paper Dance
 Horses
    * Rule 2668: Horses
@@ -186,7 +183,7 @@ Power Distribution:
 
 1  with Power=0.3
 1  with Power=0.5
-39 with Power=1
+37 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -424,13 +421,13 @@ CFJ 3877 (called 15 Aug 2020): Multiple intelligences in one organism
     constitute one Agoran person.
 
 ------------------------------------------------------------------------
-Rule 478/41 (Power=3)
+Rule 478/42 (Power=3)
 Fora
 
       Publicity is a secured forum switch with values Public,
       Discussion, and Foreign (default), tracked by the Registrar.
       
-      The Registrar may change the publicity of a forum without
+      The Registrar CAN change the publicity of a forum without
       objection as long as:
       
       1. e sends eir announcement of intent to that forum; and
@@ -519,6 +516,7 @@ Amended(39) by P8576 '"By announcement" loosening' (Janet, Aspen,
 Amended(40) by P8614 'Simultaneity Security' (Janet), 18 Oct 2021
 Amended(41) by P8867 'Expectations, Values, Bans, and Forgiveness' (nix,
    Janet, R. Lee, Murphy, G.), 26 Nov 2022
+Amended(42) by P8952 'Fix Fora' (juan), 23 Apr 2023
 
 Annotations:
 CFJ 1451-1452 (called 06 Mar 2003): A message that is split into
@@ -935,7 +933,7 @@ General Definitions
    chances are that the Agoran definition of that word is described in
    one of these rules.
 ------------------------------------------------------------------------
-Rule 2152/9 (Power=3)
+Rule 2152/10 (Power=3)
 Mother, May I?
 
       The following terms are defined. These definitions are used when a
@@ -955,7 +953,7 @@ Mother, May I?
       3. NEED NOT, OPTIONAL: Failing to perform the described action
          does not violate the rules.
       
-      4. "SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+      4. SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
          described action, the full implications of performing it ought
          to be be understood and carefully weighed.
       
@@ -990,6 +988,7 @@ Amended(7) by P7613 'What is PERMITTED NEED NOT be POSSIBLE' (Arufonsu),
    11 Jan 2014
 Amended(8) by P8254 'Anything is POSSIBLE' (Janet), 03 Nov 2019
 Amended(9) by P8594 'Nicer Definitions' (R. Lee), 14 Jul 2021
+Amended(10) by P8942 'Cleaning' (4st), 16 Apr 2023
 
 Annotations:
 CFJ 1132: A Player failing to perform a duty required by the Rules
@@ -3624,7 +3623,7 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/45 (Power=2)
+Rule 1006/46 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -3646,9 +3645,10 @@ Offices
       other player is one of the Supporters. Any player CAN cause an
       office to become vacant without 2 objections.
       
-      When a proposal takes effect and creates a new office, if the
-      proposal does not specify otherwise, the author of that proposal
-      becomes the holder of the office.
+      Immediately after a proposal finishes taking effect, if one or
+      more offices exist that did not exist prior to the proposal taking
+      effect, each such office, if it is vacant, becomes held by the
+      author of the proposal.
 
 History:
 
@@ -3718,6 +3718,7 @@ Amended(43) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
 Amended(44) by P8221 'Usage de-capitalization' (Janet, Aspen), 05 Sep
    2019
 Amended(45) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
+Amended(46) by P8944 'Effecting change' (Janet, ais523), 16 Apr 2023
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -3929,7 +3930,7 @@ Amended(60) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2573/2 (Power=2)
+Rule 2573/3 (Power=2)
 Impeachment
 
       Any player CAN, with 2 Agoran consent, expel (impeach) the holder
@@ -3937,7 +3938,7 @@ Impeachment
       office, an election is immediately opened for that office. Players
       SHOULD NOT use this method of removal unless the officer has
       abused the powers of eir office or otherwise shown emself unworthy
-      the trust of Agora.
+      of the trust of Agora.
 
 History:
 
@@ -3945,6 +3946,7 @@ Enacted by P8036 'Impeachment' (Aspen), 27 Apr 2018
 Amended(1) by P8221 'Usage de-capitalization' (Janet, Aspen), 05 Sep
    2019
 Amended(2) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
+Amended(3) by P8942 'Cleaning' (4st), 16 Apr 2023
 
 Annotations:
 
@@ -4603,7 +4605,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/14 (Power=2)
+Rule 2555/15 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -4619,8 +4621,9 @@ Blots
       in eir possession.
       
       Any player who has not expunged a blot by this method this week
-      CAN expunge 1 blot from a specified player who has not gained a
-      blot this or the previous week, by announcement.
+      CAN expunge 1 blot from a specified player by announcement. E
+      CANNOT specify emself for this if e has gained any blots this or
+      the previous week.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -4645,6 +4648,8 @@ Amended(11) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
 Amended(12) by R2658, 09 Jun 2022
 Amended(13) by P8811 'Infractions' (nix), 24 Jul 2022
 Amended(14) by P8852 'Fix Infractions' (4st, Janet), 11 Sep 2022
+Amended(15) by P8935 'Quicker Peer Expungement' (nix, Aspen, G.), 02 Apr
+   2023
 
 Annotations:
 
@@ -5769,7 +5774,7 @@ Amended(3) by P8500 'Clarify asset ownership some more' (Murphy, G.), 25
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2577/7 (Power=3)
+Rule 2577/8 (Power=3)
 Asset Actions
 
       An asset generally CAN be destroyed by its owner by announcement,
@@ -5796,7 +5801,8 @@ Asset Actions
       by its owner to another entity, subject to modification by its
       backing document. Attempts to transfer no assets are successful. A
       fixed asset is one defined as such by its backing document, and
-      CANNOT be transferred; any other asset is liquid.
+      CANNOT be transferred except as explicitly specified by its
+      backing document; any other asset is liquid.
       
       When a rule indicates creating, destroying, or transferring an
       amount of assets that is not a natural number, the specified
@@ -5817,6 +5823,7 @@ Amended(5) by P8518 'Asset Rounding' (Aspen, Falsifian, nix), 11 Nov
    2020
 Amended(6) by P8528 'Gaining Assets' (Aspen, Gaelan), 13 Jan 2021
 Amended(7) by P8659 'Speak Like People' (nix, G., snail), 03 Apr 2022
+Amended(8) by P8953 'Fluidity' (Janet), 23 Apr 2023
 
 Annotations:
 
@@ -6005,7 +6012,7 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2675/6 (Power=2)
+Rule 2675/8 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -6029,19 +6036,17 @@ Dream of Wandering
       
       - Wandering: This dream has no effect.
       
-      - Charity: A Charity Stamp is a stamp of the type that the L&FD
-        owns the most of (if there is a tie, the first the L&FD owned,
-        and if still tied, the first alphabetically). Immediately after
-        a wandering, for each Charity Dreamer, in reverse order of when
-        eir Dream was last flipped (and in reverse order of registration
-        if tied), one Charity Stamp is transferred from the L&FD to em.
-        If the number of Stamps the L&FD owned during the last wandering
-        is greater than 10, this process happens a second time. If it is
-        more than 20, this process happens a third time.
+      - Charity: Immediately after a wandering, one stamp (chosen by
+        most-to-least owned by the L&FD at time of transfer, tie-broken
+        alphabetically) is transferred to each Charity Dreamer (in order
+        from least-to-most stamps owned, tie-broken alphabetically) from
+        the L&FD. If the number of Stamps the L&FD owned during the last
+        wandering is greater than 10, this process happens a second
+        time. If it is more than 20, this process happens a third time.
       
       - Justice: Immediately after a wandering, 1 blot is expunged from
         each Justice Dreamer. If a Justice Dreamer had no blots
-        immediately after a wandering, e CAN onceexpunge one blot, by
+        immediately after a wandering, e CAN once expunge one blot, by
         announcement, from a specified player before the next wandering.
       
       - Sharing: Immediately after a wandering, each Sharing Dreamer has
@@ -6053,10 +6058,6 @@ Dream of Wandering
         are granted to each Wealth Dreamer. When less than 8 Stamps of
         eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
         is 1. When 16 ore more Stamps of eir type exist, X is 0.
-      
-      - Machinery: A Machinery Dreamer CAN Flip the Device with Agoran
-        Consent. A Machinery Dreamer CAN take a specified action on
-        behalf of the the device with 1 support.
       
       - Gardens: Immediately after a wandering, the Base Rockiness of
         each Gardens Dreamer is increased by 1.
@@ -6086,6 +6087,8 @@ Amended(3) by P8878 'Clearer Dream Text' (nix), 15 Jan 2023
 Amended(4) by P8910 'Better Charity' (snail, nix), 26 Feb 2023
 Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(6) by P8921 'ReGardening' (nix), 12 Mar 2023
+Amended(7) by P8955 'Disassembling the Device' (snail), 23 Apr 2023
+Amended(8) by cleaning (4st), 25 Apr 2023
 
 Annotations:
 
@@ -6095,10 +6098,10 @@ Stones
    A game in which people try to collect Stones with various different
    Magical Powers OooOooh!
 ------------------------------------------------------------------------
-Rule 2640/3 (Power=2)
+Rule 2640/4 (Power=2)
 Stones
 
-      A stone is a unique indestructable liquid asset defined by the
+      A stone is a unique indestructible liquid asset defined by the
       rules. To define a stone, the definition must include:
         (i) A name unique among stones;
        (ii) The smoothness of the stone, which is a non-negative integer;
@@ -6129,6 +6132,7 @@ Amended(1) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
    ziproot), 26 Nov 2022
 Amended(2) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Amended(3) by P8883 'Increased weathering v2' (Janet), 15 Jan 2023
+Amended(4) by cleaning (4st), 25 Apr 2023
 
 Annotations:
 
@@ -6192,6 +6196,9 @@ Amended(3) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Amended(4) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
 
 Annotations:
+CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
+    can take away from the plain and obvious common-sense intended
+    meaning in that paragraph.
 
 ------------------------------------------------------------------------
 Rule 2643/8 (Power=2)
@@ -6349,239 +6356,6 @@ Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
-The Device
-   A game in which the Mad Engineer amends the rules to randomly add
-   abilities to the Device, either when it's on or when it's off.
-------------------------------------------------------------------------
-Rule 2654/42 (Power=1)
-The Device
-
-      When the device is on:
-        * click - hummmmmmm
-        * The week that contains the beginning of Agora's Device,
-          together with the following week, is a Holiday.
-        * A Device CAN activate or deactivate emself by announcement.
-        * Any player CAN refile a Device without objection, specifying a
-          new title; the Device is retitled to the specified title by
-          this Device.
-        * The Speaker qualifies for a Platinum Device.
-        * The time window of a Device is W days, where W is the value
-          explicitly stated by the Device, or 60 if the Device does not
-          explicitly state a value. A Device ceases to exist at the end
-          of its time window.
-        * Each Agoran Device has a voting method, which must be
-          AI-majority, instant runoff, or first-past-the-post.
-        * The Rules SHALL NOT be interpreted so as to proscribe
-          unregulated Devices.
-        * The voting Device is that specified by the authorizing
-          authority, or first-past-the-post by default.
-        * An entity submits a ballot on an Agoran Device by publishing a
-          notice satisfying the following conditions:
-      
-          1. The ballot is submitted during the voting period for the
-             Device.
-      
-          2. The entity casting the ballot (the voter) was, at the
-             initiation of the Device, a player.
-      
-          3. The ballot clearly identifies the matter to be decided.
-      
-          4. The ballot clearly identifies a valid vote, as determined
-             by the voting method.
-      
-          5. The ballot clearly sets forth the voter's intent to place
-             the identified vote.
-      
-          6. The voter has no other valid ballots on the same Device.
-        * The voting Device of an entity on an Agoran decision is an
-          integer between 0 and 15 inclusive, defined by rules of power
-          2 or greater.
-        * A Device is an entity with positive Power.
-        * The Treasuror CAN conduct an auction (a "Device auction") if
-          no Device auction is ongoing.
-        * A Device change is any effect that falls into the above
-          classes.
-        * When a Device wins an election, e is installed into the
-          associated office and the election ends.
-        * As this Device is the highest honour that Agora may bestow, a
-          Bearer of this Device OUGHT to be treated right good forever.
-        * Proposals created since the enactment of this rule have a
-          secured untracked Device switch with possible values ordinary
-          (the default) and democratic.
-        * While Agora's Device is zero, the paragraphs above have no
-          effect and are ignored.
-        * Whenever a payday occurs, half of each charity's Device
-          holdings (rounded down) are destroyed, and then each charity
-          gains a number of boatloads of Devices equal to its donation
-          level.
-        * The ADoP CAN, with 2 Agoran consent, flip the complexity of an
-          device.
-        * Agoran device begin at midnight UTC.
-        * An device is ripe if was tabled within the past 14 days, the
-          Speaker hasn't objected to it in the past 48 hours, and its
-          conditions, if any, are each clearly and unambiguously met.
-        * If at any point an uncontested device has a single candidate,
-          then any player CAN by announcement declare em the winner of
-          the device, thereby causing em to win the device. If at any
-          point an uncontested device has no candidates, then any player
-          CAN declare the device ended with no winner by announcement.
-        * The first Agoran week each year which falls entirely in
-          February is Read the device Week. Agorans are encouraged to
-          read the device during Read the device Week.
-      
-      When the device is off:
-        * whirrrrrr - THUNK
-        * By default, a device CAN, with 2 Agoran consent, enact, amend,
-          or repeal a regulation for which e is the Promulgator.
-        * Whenever a Player feels that e has been treated so egregiously
-          by the Agoran Device that e can no longer abide to be a part
-          of it, e may submit a document to the Registrar, clearly
-          labeled a Cantus Cygneus, detailing eir grievances and
-          expressing eir reproach for those who e feels have treated em
-          so badly.
-        * When e does so, e fulfills any obligations with regards to
-          that device.
-        * Text purportedly about previous instances of the device (e.g.
-          a report's date of last device) is excluded from the device.
-        * If a Device has no judge assigned, then any player eligible to
-          judge that Device CAN assign it to emself without 3
-          objections.
-        * Then, the Device changes, following which each active player
-          gains 1 card of each type and eir grant (if any).
-        * The Rulekeepor SHOULD also include any other information which
-          e feels may be helpful in the use of the Device in the FLR.
-        * A player CAN once a month grant eir Ministry Focus' Device to
-          a specified player by announcement.
-        * At any given time, each instance of a Device has exactly one
-          possible value for that type of Device.
-        * Any player CAN grant a Welcome Device to any player if the
-          grantee has neither received one since e last registered nor
-          in the last 30 days.
-        * When the rules call for an Agoran Device to be made, the
-          Device-making process takes place in the following three
-          stages, each described elsewhere:
-      
-          1. Initiation of the Device.
-      
-          2. Voting of the people.
-      
-          3. Resolution of the Device.
-        * When a Rule specifies that a random Device be made, then the
-          Device shall be made using whatever probability distribution
-          among the possible outcomes the Rule specifies, defaulting to
-          a uniform probability distribution.
-        * If a device has a judgement assigned, a player CAN enter that
-          judgement into Moot with N+2 support, where N is the number of
-          weeks since that judgement has been assigned, rounded down.
-        * The device can be made using any physical or computational
-          process whose probability distribution among the possible
-          outcomes is reasonably close to that required by the Rules,
-          and for which the final device is not trivially predictable by
-          the selecting person in advance.
-        * Any action performed by sending a device is performed at the
-          time date-stamped on that device. Actions in devices
-          (including sub-devices) are performed in the order they appear
-          in the device, unless otherwise specified.
-
-History:
-
-Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
-Amended(1) by Experiment #1 under Mad Engineer G., 04 Sep 2021
-Amended(2) by Experiment #2 under Mad Engineer G., 19 Sep 2021
-Amended(3) by Experiment #4 under Mad Engineer ais523, 26 Sep 2021
-Amended(4) by Experiment #5 under Mad Engineer ais523, 03 Oct 2021
-Amended(5) by Experiment #6 under Mad Engineer ais523, 10 Oct 2021
-Amended(6) by Experiment #7 under Mad Engineer ais523, 17 Oct 2021
-Amended(7) by Experiment #8 under Mad Engineer ais523, 24 Oct 2021
-Amended(8) by Experiment #10 under Mad Engineer ais523, 09 Nov 2021
-Amended(9) by Experiment #11 under Mad Engineer ais523, 14 Nov 2021
-Amended(10) by cleaning (ais523), 14 Nov 2021
-Amended(11) by Experiment #12 under Mad Engineer ais523, 21 Nov 2021
-Amended(12) by Experiment #14 under Mad Engineer ais523, 07 Dec 2021
-Amended(13) by Experiment #15 under Mad Engineer ais523, 14 Dec 2021
-Amended(14) by Experiment #16 under Mad Engineer ais523, 26 Dec 2021
-Amended(15) by Experiment #17 under Mad Engineer ais523, 31 Dec 2021
-Amended(16) by Experiment #18 under Mad Engineer ais523, 06 Jan 2022
-Amended(17) by Experiment #19 under Mad Engineer ais523, 09 Jan 2022
-Amended(18) by Experiment #20 under Mad Engineer ais523, 21 Jan 2022
-Amended(19) by cleaning (ais523), 21 Jan 2022
-Amended(20) by Experiment #21 under Mad Engineer ais523, 23 Jan 2022
-Amended(21) by cleaning (ais523), 23 Jan 2022
-Amended(22) by Experiment #22 under Mad Engineer ais523, 03 Feb 2022
-Amended(23) by Experiment #25 under Mad Engineer ais523, 25 Feb 2022
-Amended(24) by Experiment #27 under Mad Engineer ais523, 11 Mar 2022
-Amended(25) by P8653 'Device Reconstruction' (ais523), 15 Mar 2022
-Amended(26) by Experiment #30 under Mad Engineer ais523, 01 Apr 2022
-Amended(27) by Experiment #31 under Mad Engineer ais523, 17 Apr 2022
-Amended(28) by Experiment #32 under Mad Engineer ais523, 22 Apr 2022
-Amended(29) by Experiment #34 under Mad Engineer ais523, 08 May 2022
-Amended(30) by Experiment #35 under Mad Engineer ais523, 15 May 2022
-Amended(31) by Experiment #36 under Mad Engineer ais523, 21 May 2022
-Amended(32) by Experiment #37 under Mad Engineer ais523, 29 May 2022
-Amended(33) by Experiment #38 under Mad Engineer ais523, 05 Jun 2022
-Amended(34) by Experiment #40 under Mad Engineer ais523, 17 Jun 2022
-Amended(35) by Experiment #43 under Mad Engineer Janet, 24 Jul 2022
-Amended(36) by Experiment #57 under Mad Engineer Janet, 30 Oct 2022
-Amended(37) by Experiment #59 under Mad Engineer Janet, 17 Nov 2022
-Amended(38) by Experiment #60 under Mad Engineer Janet, 20 Nov 2022
-Amended(39) by Experiment #72 under Mad Engineer Janet, 14 Feb 2023
-Amended(40) by Experiment #73 under Mad Engineer Janet, 26 Feb 2023
-Amended(41) by Experiment #73 under Mad Engineer Janet, 12 Mar 2023
-Amended(42) by Experiment #74 under Mad Engineer Janet, 12 Mar 2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2655/3 (Power=1)
-The Mad Engineer
-
-      The Mad Engineer is an office; its holder is responsible for
-      building, tracking, and maintaining the Device.  The device is a
-      singleton switch with values off (default) and on.  The Mad
-      Engineer CAN flip the device to either on or off with Agoran
-      Consent; any other player CAN do so with 2 Agoran Consent.
-      
-      The Mad Engineer CAN act on behalf of the device to take any
-      action that the device may take, and SHALL act on behalf of the
-      device to ensure that the device fulfills all of its duties.
-      
-      The Mad Engineer's weekly duties include the performance of the
-      following tasks, in order:
-      
-      a) Randomly select exactly one rule.  If the selected rule is
-      either this rule or the rule "The Device", then 007 has been
-      spotted near the self-destruct button; skip directly to announcing
-      intent, below.
-      
-      b) Select one or more contiguous sentences from the selected rule.
-      
-      c) Select exactly one noun from the selected text, and replace
-      each instance of that noun with "Device" (including grammatical
-      variations, e.g. replacing "<noun>'s" with "Device's").
-      
-      d) Announce intent to, with Agoran Consent, cause this rule to
-      amend the rule "The Device" by inserting the modified text as the
-      last list item in either the "device on" or "device off" lists in
-      that rule (or, if 007 has been spotted, to repeal that rule, then
-      this one).
-      
-      If the announcement of intent above is made with the procedure
-      described above, the Mad Engineer CAN, with Agoran Consent, cause
-      this rule to amend the rule "The Device" as indicated (or, if 007
-      has been spotted, cause this rule to repeal that rule, then this
-      one), and SHALL do so if the intent receives sufficient support.
-
-History:
-
-Enacted by P8599 'The Device (mark 2)' (G., Murphy), 30 Aug 2021
-Amended(1) by P8605 'Covered under warranty' (G., Oerjan), 24 Sep 2021
-Amended(2) by P8631 'another device defect' (G.), 20 Nov 2021
-Amended(3) by P8644 'Device repeal patch' (Janet, ais523), 23 Feb 2022
-
-Annotations:
-
-------------------------------------------------------------------------
-========================================================================
 Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
@@ -6617,8 +6391,8 @@ Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2657/10 (Power=1)
-Scoring
+Rule 2657/11 (Power=1)
+Gaining Radiance
 
       Each time a player fulfills a radiance condition, e CAN once,
       within 14 days, by announcement (specifying any indicated info)
@@ -6626,14 +6400,17 @@ Scoring
       
       Below is a list of radiance conditions:
       
-       * Being the author of a proposal that takes effect: 4 (must
-         specify proposal number)
+       * Being the author of a proposal that takes effect, at the
+         instant it finishes taking effect: 4 (must specify proposal
+         number)
       
-       * Being a coauthor of a proposal that takes effect: 1 (must
-         specify proposal number)
+       * Being a coauthor of a proposal that takes effect, at the
+         instant it finishes taking effect: 1 (must specify proposal
+         number)
       
-       * Having an Agoran Birthday: X, where X is the number of active
-         players during eir birthday.
+       * Having an Agoran Birthday, at the instant it begins: X, where X
+         is the number of active players at the instant the condition
+         was fulfilled..
       
        * Judging a CFJ that e was assigned to without violating a time
          limit to do so, unless at the time of judgement the case was
@@ -6655,48 +6432,47 @@ Retitled by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(8) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(9) by P8930 'Rebalancing' (nix, Murphy, snail), 26 Mar 2023
 Amended(10) by P8932 'Only so bright' (Janet), 26 Mar 2023
+Amended(11) by P8944 'Effecting change' (Janet, ais523), 16 Apr 2023
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2680/1 (Power=1)
+Rule 2680/2 (Power=1)
 Ritual Paper Dance
 
-      Firstly: Each of these is a ritual act:
-      - Performing a cabinet order
-      - Assigning a judgement
-      - Awarding ribbons
-      - Once per week per report type, publishing a report
-      - Once per week per player, nominating for office
-      - Once per week per player, voting
+      Each of the following is a ritual act:
+      - Issuing a Cabinet Order.
+      - Assigning a judgement to a CFJ.
+      - Publishing the first report of a given Rules-defined type in an
+        Agoran week, provided such publishing fulfilled a Rules-defined
+        duty to publish.
+      - For each person, eir becoming a candidate in an election for the
+        first time in an Agoran week.
+      - For each person, eir submitting a ballot on an Agoran decision
+        for the first time in an Agoran week.
       
-      Secondly: Once for each ritual act, any player, including the
-      player who performed the ritual act, CAN, by announcement, declare
-      the ritual number. A ritual number is a number that starts at 0,
-      and can be at most 1 greater than any other declared ritual
-      number. A purported attempt to declare the ritual number is a
-      self-ratifying attestation that such attempt was successful and
-      that the ritual number was declared.
+      When a ritual act is performed, any player CAN, within 7 days, by
+      announcement anoint a ritual number, specifying the ritual act and
+      the new ritual number. The anointed ritual number must be 0 or not
+      more than 1 greater than the greatest previously anointed ritual
+      number.
       
-      Thirdly: Once, each time a unique positive multiple of 41 is
-      declared, in the same message the declarer CAN, by announcement,
-      have qualifying players lift The First Speaker in a powerful dance
-      around the fountain, while also announcing that those players'
-      gain 1 radiance, in such a way that is unambiguous and clear, so
-      that in fact, those players' do gain 1 radiance. This does not
-      increase their radiance by 2, nor does it increase it by 3 or 4. 5
-      is right out.
+      When a positive integral multiple of 41 is anointed as a ritual
+      number for the first time, the person who does so CAN, by
+      announcement, Raise the First Speaker in a powerful dance around
+      the Town Fountain. Doing so causes each player qualifying under
+      this Rule to gain 1 radiance.
       
-      Fourthly: Players are qualifying under this rule if:
-      - they are active
-      - do not have the highest radiance
-      - are not tied for the highest radiance
+      A player is qualifying under this Rule if and only if e is active,
+      does not have the highest radiance of any player, and is not tied
+      for the highest radiance among players.
 
 History:
 
 Enacted by P8918 'Ritual Paper Dance V2' (4st, nix, G., Murphy), 12 Mar
    2023
 Amended(1) by P8933 'Ritual Ratification' (Janet), 26 Mar 2023
+Amended(2) by P8943 'Ritual rewrite' (Janet, G.), 16 Apr 2023
 
 Annotations:
 
@@ -6778,7 +6554,7 @@ Amended(1) by P8899 '3rd Time's not the charm' (snail, Janet), 17 Feb
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2670/3 (Power=1)
+Rule 2670/4 (Power=1)
 Horse Victory
 
       When the race ends, the following happen, in order:
@@ -6804,7 +6580,12 @@ Horse Victory
         event of an N-way tie, instead, each tied player gains 30/N
         radiance, rounded down.
       
-      * The race starts anew.
+      
+      * The following rules are repealed in ascending numerical order by
+        ID: Rule 2668, Rule 2669, Rule 2671, Rule 2672, Rule 2673, and
+        Rule 2674.
+      
+      * This rule repeals itself.
 
 History:
 
@@ -6812,6 +6593,7 @@ Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
 Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 Amended(2) by P8884 'A Bit Warmed Up' (snail), 15 Jan 2023
 Amended(3) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(4) by P8954 'Closing the barn doors' (Janet), 23 Apr 2023
 
 Annotations:
 
@@ -7038,11 +6820,11 @@ Amended(1) by P8553 'Slightly less apathetic' (Janet), 09 Apr 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2553/4 (Power=1)
+Rule 2553/5 (Power=1)
 Win by Paradox
 
       If a CFJ about the effectiveness, possibility, or legality of a
-      change in the gamestate has been assigned a judgment of
+      change in the gamestate has been assigned a judgement of
       PARADOXICAL continuously for between 7 and 90 days, then that
       case's initiator, CAN, by announcement, Transcend Logic,
       specifying that CFJ, provided that e has not already won the game
@@ -7060,6 +6842,7 @@ Amended(1) by P8379 'Expand wins by paradox' (Murphy), 22 May 2020
 Amended(2) by P8453 'win indirection' (G.), 30 Jun 2020
 Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 Amended(4) by P8609 'Axiom of Limitations' (Janet), 18 Oct 2021
+Amended(5) by cleaning (4st), 25 Apr 2023
 
 Annotations:
 CFJ 3620 (called 06 Feb 2018): A CFJ assigned a judgment of PARADOXICAL
@@ -7072,7 +6855,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/28 (Power=3)
+Rule 2438/29 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -7118,7 +6901,7 @@ Ribbons
       Ribbon.
       
       Cyan (C): When a person deputises for an office, and that person
-      has not held or deputized for that office within the past 7 days,
+      has not held or deputised for that office within the past 7 days,
       that person earns a Cyan Ribbon.
       
       Blue (B): When a person assigns a judgement to a CFJ, and has
@@ -7216,6 +6999,7 @@ Amended(26) by P8638 'Cyan Ribbon Patch' (snail), 23 Feb 2022
 Amended(27) by P8708 'Has Beens' (nix, snail, G., Madrid, 4st, Janet),
    17 Jul 2022
 Amended(28) by P8902 'More ribbon security' (Janet), 26 Feb 2023
+Amended(29) by cleaning (4st), 25 Apr 2023
 
 Annotations:
 
@@ -7763,13 +7547,13 @@ CFJ 2154 (called 08 Sep 2008): The Speaker for the first game shall be
     Michael Norrish.
 
 ------------------------------------------------------------------------
-Rule 2423/5 (Power=2)
+Rule 2423/6 (Power=2)
 First Among Equals
 
       The Prime Minister is an office. The Prime Minister is elected by
       the players of Agora primarily on account of not being the other
-      guy. The Prime Minister SHOULD ensure that Agoran affairs proceed
-      smoothly.
+      person. The Prime Minister SHOULD ensure that Agoran affairs
+      proceed smoothly.
 
 History:
 
@@ -7782,6 +7566,7 @@ Amended(3) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(4) by cleaning (Murphy), 03 Nov 2019
 Amended(5) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Janet, twg), 29 Jan 2020
+Amended(6) by P8936 'Oh come on guys folks' (4st), 02 Apr 2023
 
 Annotations:
 
@@ -7806,7 +7591,7 @@ Amended(3) by P8435 'No Confidence Isn't Personal' (Aspen), 18 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2451/9 (Power=2)
+Rule 2451/10 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -7831,12 +7616,6 @@ Executive Orders
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.
-      
-      - Research Funding (Mad Engineer): The Prime Minister specifies an
-        existing Rule. Rules to the contrary notwithstanding, the Mad
-        Engineer CAN and SHALL use that rule instead of making a random
-        rule selection as part of eir weekly duties for the following
-        week.
 
 History:
 
@@ -7853,6 +7632,7 @@ Amended(6) by P8029 'Blots v1.0' (G., Aspen), 30 Mar 2018
 Amended(7) by P8235 'Unified fine creation syntax' (Janet), 18 Sep 2019
 Amended(8) by cleaning (Murphy), 03 Nov 2019
 Amended(9) by P8923 'Department of Defense' (G.), 19 Mar 2023
+Amended(10) by P8955 'Disassembling the Device' (snail), 23 Apr 2023
 
 Annotations:
 

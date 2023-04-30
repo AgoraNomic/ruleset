@@ -2,6 +2,207 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 16 Apr 2023
+Date of this ACORN: 30 Apr 2023
 
-No regulations exist.
+------------------------------------------------------------------------
+
+Table of Contents:
+
+Free Tournaments
+   * Regulation  FT0: Commune 2023
+
+
+------------------------------------------------------------------------
+
+========================================================================
+Free Tournaments
+   This section has regulations enacted as part of Free Tournaments,
+   pursuant to Rule 2566.
+------------------------------------------------------------------------
+Regulation FT0/0
+Commune 2023
+
+      Name: Commune v1.3
+      
+      Description
+      ===========
+      
+      This tournament is a self-contained game inspired by Acquire where
+      players build communities on a board, invest in those communities,
+      and gain rewards when communities they invested in are absorbed by
+      other communities.
+      
+      Playing
+      =======
+      
+      Any player CAN become a participant of this Tournament at any time
+      during its play by announcement.
+      
+      Any participant CAN cease to be so by announcement. A participant
+      of this tournament ceases to be so when e becomes inactive in
+      Agora. When a person ceases to be a participant, all assets e owns
+      defined by this Tournament are destroyed.
+      
+      The Game Master for this tournament is also known as the Surveyor.
+      
+      Gaining Tokens
+      ==============
+      
+      A Token is an asset ownable by participants only. Tokens CANNOT be
+      transferred or destroyed except as otherwise allowed by this
+      Tournament.  Each Token has a corresponding Symbol which can be
+      any English letter A-J or any integer 0-9. Tokens owned by the
+      same player with the same Symbol are fungible.
+      
+      Each participant has a Left, Middle, and a Right Token
+      Constructor. By default, Token Constructors are set to construct
+      nothing.
+      
+      For each of eir Token Constructors, players CAN once a week do one
+      of the following by announcement:
+      - Begin Constructing a Token with a specified Symbol.
+      - Grant emself the Token that the Token Constructor is already
+        constructing (if not set to nothing).
+      
+      The playboard
+      =============
+      
+      The playboard is a grid of size 10 x 10. The x coordinates of the
+      playboard are identified by English letters A-J, and the Y
+      coordinates of the playboard are identified by integers [0-9].
+      
+      Adjacency is defined by being at the same cordinate on one axis,
+      and exactly one coordinate away on the other axis.
+      
+      An example visualization of the initial playboard is below:
+      
+         A B C D E F G H I J
+        +-------------------+
+      0|x x x x x x x x x x|0
+      1|x x x x x x x x x x|1
+      2|x x x x x x x x x x|2
+      3|x x x x x x x x x x|3
+      4|x x x x x x x x x x|4
+      5|x x x x x x x x x x|5
+      6|x x x x x x x x x x|6
+      7|x x x x x x x x x x|7
+      8|x x x x x x x x x x|7
+      9|x x x x x x x x x x|9
+        +-------------------+
+         A B C D E F G H I J
+      
+      Placing Tiles and Founding Communities
+      ======================================
+      
+      If a tile has not been placed on a location on the board, it is
+      empty.
+      
+      Participants CAN place a tile on an empty location by paying one
+      letter token and one number token that correspond to that
+      location's coordinates.
+      
+      If a tile is placed that is not adjacent to any tiles belonging to
+      any communities, the player that placed it founds a new community,
+      e is granted 1 investment for that community, and e becomes its
+      founder. E CAN and SHOULD name the community after any color that
+      starts with a different first letter than any existing community
+      by announcement. If a community has not been named, the Surveyor
+      CAN and SHALL do so by announcement.
+      
+      A player who is the founder of an existing community CANNOT place
+      a tile that would found a new community.
+      
+      If a tile is placed adjacent to one or more tiles belonging to a
+      single community, that tile belongs to that community.
+      
+      If a tile is placed adjacent to two or more tiles belongining to
+      different communities, a merger happens.
+      
+      When a merger happens, if a single community involved in the
+      merger has more tiles than each other community, that community is
+      the acquiring community. If there is a tie, the tied community
+      that gained a tile least recently is the acquiring community. The
+      other communities are the acquired communities. All tiles
+      belonging to the acquired communities cease to belong to them and
+      begin to belong to the acquiring community.  Each player gains X
+      (rounded down) Accolades for each acquired community e had an
+      investment in, where X is the total tiles that belonged to that
+      community immediately before the merger divided by the total
+      number of investments that exist for that community and times the
+      number of investments for that community that player owns. The
+      acquired communities and all investments in all acquired
+      communities are destroyed.
+      
+      Investments
+      ===========
+      
+      An Investment is an asset. Investments CANNOT be transferred or
+      destroyed except as otherwise allowed by this tournament. Each
+      Investment corresponds with a Community. The investment limit is
+      the current number of communities.
+      
+      Once per week a participant with less investments than the
+      investment limit CAN grant emself an investment in any specified
+      community by announcement.
+      
+      Participants CANNOT gain an investment when they are at the
+      investment limit.
+      
+      Trading
+      =======
+      
+      A participant can make a Trade Offer by announcement, specifying a
+      token e owns, a set of symbols e wants, and, optionally, a set of
+      participants allowed to accept the offer (defaulting to all
+      participants if not specified).
+      
+      If a participant ceases to have any tokens matching a Trade Offer
+      e made, the trade offer is withdrawn. Any participant can withdraw
+      any trade offer e has made at any time by announcement.
+      
+      If a participant is in the set of participants allowed by a
+      non-withdrawn trade offer and has a token matching the wanted set,
+      e CAN accept that offer by announcement and specifying the
+      corresponding token. When e does so, the token specified in the
+      Offer is transferred to em, and the token e specified is
+      transferred to the participant that made the trade offer.
+      
+      Tracking
+      ========
+      
+      The Surveyor SHALL once a week publish an updated playboard, a
+      list of all participants and all eir assets defined by this
+      tournament, and a list of all communities and their number of
+      tiles. E SHOULD include a history of moves made by players as
+      well.
+      
+      Ending and Winning
+      ==================
+      
+      Accolades are a currency. Accolades CANNOT be transferred or
+      destroyed except as otherwise allowed by this tournament.
+      
+      When more than half of the tiles belong to a single community, the
+      tournament ends.
+      
+      If it has been 3 months since the tournament started, the
+      tournament ends.
+      
+      Immediately before the tournament ends, the participant with the
+      greatest number of accolades wins.
+      
+      Clean-Up
+      ========
+      
+      If any asset defined by this tournament would ever belong to
+      Agora, a deregistered person, a deactivated player, the L&FD, or
+      be in abeyance, it is instead destroyed.
+
+History:
+
+Enacted by initiation of Commune 2023 by nix, 19 Apr 2023
+
+Annotations:
+
+------------------------------------------------------------------------
+
