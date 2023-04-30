@@ -33,7 +33,7 @@ text: |
 
   - Justice: Immediately after a wandering, 1 blot is expunged from
     each Justice Dreamer. If a Justice Dreamer had no blots
-    immediately after a wandering, e CAN onceexpunge one blot, by
+    immediately after a wandering, e CAN once expunge one blot, by
     announcement, from a specified player before the next wandering.
 
   - Sharing: Immediately after a wandering, each Sharing Dreamer has
@@ -108,3 +108,9 @@ history:
   date: 2023-04-23
   agent:
     proposal: "8955"
+- change:
+    type: amendment
+  date: 2023-04-25
+  agent:
+    cleaning:
+      by: 4st

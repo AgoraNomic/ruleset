@@ -153,6 +153,12 @@ history:
   date: 2023-02-26
   agent:
     proposal: "8902"
+- change:
+    type: amendment
+  date: 2023-04-25
+  agent:
+    cleaning:
+      by: 4st
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -197,7 +203,7 @@ text: |
   Ribbon.
 
   Cyan (C): When a person deputises for an office, and that person
-  has not held or deputized for that office within the past 7 days,
+  has not held or deputised for that office within the past 7 days,
   that person earns a Cyan Ribbon.
 
   Blue (B): When a person assigns a judgement to a CFJ, and has

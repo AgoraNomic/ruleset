@@ -3,7 +3,7 @@ name: Win by Paradox
 power: 1
 text: |
   If a CFJ about the effectiveness, possibility, or legality of a
-  change in the gamestate has been assigned a judgment of
+  change in the gamestate has been assigned a judgement of
   PARADOXICAL continuously for between 7 and 90 days, then that
   case's initiator, CAN, by announcement, Transcend Logic,
   specifying that CFJ, provided that e has not already won the game
@@ -39,6 +39,12 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8609"
+- change:
+    type: amendment
+  date: 2023-04-25
+  agent:
+    cleaning:
+      by: 4st
 annotations:
 - cfjs:
   - id: '3620'

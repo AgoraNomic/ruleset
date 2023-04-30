@@ -2,7 +2,7 @@ id: 2640
 name: Stones
 power: 2
 text: |
-  A stone is a unique indestructable liquid asset defined by the
+  A stone is a unique indestructible liquid asset defined by the
   rules. To define a stone, the definition must include:
     (i) A name unique among stones;
    (ii) The smoothness of the stone, which is a non-negative integer;
@@ -45,4 +45,10 @@ history:
   date: 2023-01-15
   agent:
     proposal: "8883"
+- change:
+    type: amendment
+  date: 2023-04-25
+  agent:
+    cleaning:
+      by: 4st
 annotations: []
