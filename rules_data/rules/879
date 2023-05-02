@@ -237,13 +237,13 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
-- change:
-    type: power-change
-    old-power: 2
-    new-power: 3
-  date: 2022-02-23
-  agent:
-    proposal: "8639"
+# - change:
+#     type: power-change
+#     old-power: 2
+#     new-power: 3
+#   date: 2022-02-23
+#   agent:
+#     proposal: "8639"
 - change:
     type: amendment
   date: 2022-02-23
