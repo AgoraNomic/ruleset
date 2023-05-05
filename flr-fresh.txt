@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Apr 2023
+Date of this ruleset: 5 May 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 138
+Number of rules currently enacted: 130
 
 Highest ID'd rule in this ruleset: 2681
-Highest ID'd Proposal Passed: 8955
+Highest ID'd Proposal Passed: 8958
 Highest ID'd Rule Enacted: 2681
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -141,16 +141,7 @@ Stones
    * Rule 2645: The Stones
 Scoring
    * Rule 2656: Radiance
-   * Rule 2657: Gaining Radiance
    * Rule 2680: Ritual Paper Dance
-Horses
-   * Rule 2668: Horses
-   * Rule 2669: The Horses Run
-   * Rule 2670: Horse Victory
-   * Rule 2671: Horse Multiplier
-   * Rule 2672: Weekly Race Action
-   * Rule 2673: Motivating Horses
-   * Rule 2674: Horse Powers
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -188,7 +179,7 @@ Power Distribution:
 
 1  with Power=0.3
 1  with Power=0.5
-37 with Power=1
+29 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -3355,7 +3346,6 @@ Amended(36) by cleaning (Alexis), 23 Jan 2020
 Amended(37) by P8321 'Untying Quorum' (Aspen), 13 Feb 2020
 Amended(38) by P8338 'Clarify quorum (option 1)' (Murphy), 24 Feb 2020
 Amended(39) by P8418 'Referenda' (Aspen), 14 Jun 2020
-Power changed from 2 to 3 by P8639 'sole quorum' (G.), 23 Feb 2022
 Amended(40) by P8639 'sole quorum' (G.), 23 Feb 2022
 
 Annotations:
@@ -6173,11 +6163,11 @@ Amended(2) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2642/4 (Power=2)
+Rule 2642/5 (Power=2)
 Gathering Stones
 
       Base Rockiness is a player switch, with values of integers and
-      default of 0, tracked by the Stone Collector. A player's Modified
+      default of 0, tracked by the Stonemason. A player's Modified
       Rockiness is eir Base Rockiness minus the number of stones e owns.
       
       Once a week each player CAN "reach" for a specified stone owned by
@@ -6199,6 +6189,7 @@ Amended(2) by P8680 'Auction conduction fix v2' (Janet, G.), 28 May 2022
 Retitled by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Amended(3) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Amended(4) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
+Amended(5) by P8958 'Taken for Granite' (Murphy, nix), 05 May 2023
 
 Annotations:
 CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
@@ -6396,52 +6387,6 @@ Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2657/11 (Power=1)
-Gaining Radiance
-
-      Each time a player fulfills a radiance condition, e CAN once,
-      within 14 days, by announcement (specifying any indicated info)
-      gain the associated radiance.
-      
-      Below is a list of radiance conditions:
-      
-       * Being the author of a proposal that takes effect, at the
-         instant it finishes taking effect: 4 (must specify proposal
-         number)
-      
-       * Being a coauthor of a proposal that takes effect, at the
-         instant it finishes taking effect: 1 (must specify proposal
-         number)
-      
-       * Having an Agoran Birthday, at the instant it begins: X, where X
-         is the number of active players at the instant the condition
-         was fulfilled..
-      
-       * Judging a CFJ that e was assigned to without violating a time
-         limit to do so, unless at the time of judgement the case was
-         open due to self-filing a motion to reconsider it: 3 (must
-         specify CFJ number)
-
-History:
-
-Enacted by P8637 'Basic Scoring v0.2' (G., Janet), 08 Feb 2022
-Amended(1) by P8648 'Scoring Integer Points' (snail), 15 Mar 2022
-Amended(2) by P8664 'Away with the massive points' (snail), 03 Apr 2022
-Amended(3) by P8656 'Mathematical de-notation' (Janet), 03 Apr 2022
-Amended(4) by P8684 'Score Gameplay Expansion' (nix), 25 Jun 2022
-Amended(5) by P8714 'Vote scoring clarification' (Janet), 17 Jul 2022
-Amended(6) by P8805 'Removal of vote points v2' (Janet), 30 Jul 2022
-Amended(7) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
-   G., Janet, Shy Owl), 11 Dec 2022
-Retitled by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
-Amended(8) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
-Amended(9) by P8930 'Rebalancing' (nix, Murphy, snail), 26 Mar 2023
-Amended(10) by P8932 'Only so bright' (Janet), 26 Mar 2023
-Amended(11) by P8944 'Effecting change' (Janet, ais523), 16 Apr 2023
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2680/2 (Power=1)
 Ritual Paper Dance
 
@@ -6478,308 +6423,6 @@ Enacted by P8918 'Ritual Paper Dance V2' (4st, nix, G., Murphy), 12 Mar
    2023
 Amended(1) by P8933 'Ritual Ratification' (Janet), 26 Mar 2023
 Amended(2) by P8943 'Ritual rewrite' (Janet, G.), 16 Apr 2023
-
-Annotations:
-
-------------------------------------------------------------------------
-========================================================================
-Horses
-   A game in which horses race for glory. Importantly, this does not
-   bring glory to players, only horses.
-------------------------------------------------------------------------
-Rule 2668/2 (Power=1)
-Horses
-
-      Horses are indestructible assets, ownable only by players and
-      Agora. Any horses owned by the lost and found department are
-      immediately transferred to Agora.
-      
-      Alexia, Baxter, Cannon, Destructor, Fargo, Nacho, Rubert, and
-      Sugar are each a horse. These are their names.
-      
-      Dollaries (singular: dollary) are a fixed currency. Hooves
-      (singular: hoof) are a fixed currency. Any Dollaries or Hooves in
-      abeyance or not owned by a player are immediately destroyed."
-      
-      The Horsened is an office and the recordkeepor of dollaries,
-      hooves, and horses.
-      
-      Race Position is a Horse switch with non-negative integer possible
-      values, defaulting to 0, tracked by the Horsened.
-      
-      Race Place is a Horse switch with possible values of first,
-      second, third, and none (default), tracked by the Horsened.
-      
-      A horse is Running if it has a Race Place of none.
-      
-      When the race starts anew, each horse's Race Position is set to 0,
-      each horse's Race Place is set to none, all horses are transfered
-      to Agora, all dollaries and hooves are destroyed, and each player
-      receives 10 dollaries.
-
-History:
-
-Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
-Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
-Amended(2) by P8899 '3rd Time's not the charm' (snail, Janet), 17 Feb
-   2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2669/1 (Power=1)
-The Horses Run
-
-      The horses Run at the start of each week, unless the horses were
-      not motivated within the last week.
-      
-      When the horses run, each player gains 1 hoof, movement resolves,
-      and then if any horses have a Race Position of 16 or more and a
-      Race Place of none, those horses cross the finish line in
-      alphabetical order of their names.
-      
-      When a horse crosses the finish line:
-      
-      * If no horse has a Race Place of first, the horse's Race Place is
-        set to first.
-      
-      * Otherwise, if no horse has a Race Place of second, the horse's
-        Race Place is set to second.
-      
-      * Otherwise, the horse's Race Place is set to third and the race
-        ends, and no horse can cross the finish line until the horses
-        are next motivated.
-
-History:
-
-Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
-Amended(1) by P8899 '3rd Time's not the charm' (snail, Janet), 17 Feb
-   2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2670/4 (Power=1)
-Horse Victory
-
-      When the race ends, the following happen, in order:
-      
-      * the player that owns the horse with a Race Place of first gains
-        30 dollaries.
-      
-      * the player that owns the horse with a Race Place of second gains
-        20 dollaries.
-      
-      * the player that owns the horse with a Race Place of third gains
-        15 dollaries.
-      
-      * For each horse, each player that got both a jersey and a helmet
-        for that horse since the last time the race started anew gains 5
-        dollaries.
-      
-      * For each horse, each player gains a number of dollaries equal to
-        that horse's current multiplier * the number of dollaries e bet
-        on that horse since the last time the race started anew.
-      
-      * The player that has the most dollaries gains 30 radiance. In the
-        event of an N-way tie, instead, each tied player gains 30/N
-        radiance, rounded down.
-      
-      
-      * The following rules are repealed in ascending numerical order by
-        ID: Rule 2668, Rule 2669, Rule 2671, Rule 2672, Rule 2673, and
-        Rule 2674.
-      
-      * This rule repeals itself.
-
-History:
-
-Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
-Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
-Amended(2) by P8884 'A Bit Warmed Up' (snail), 15 Jan 2023
-Amended(3) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
-Amended(4) by P8954 'Closing the barn doors' (Janet), 23 Apr 2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2671/0 (Power=1)
-Horse Multiplier
-
-      A horse's current multiplier is based on the following chart:
-      
-      1, 2, 3: The horse's Race Place is first, second, or third,
-      respectively.
-      O: The horse's Race Place is none and Race Position is 12 or more.
-      X: The horse's Race Place is none and Race Position is less than
-      12.
-      
-      
-      HORSE           1 2 3 O X
-      --------------------
-      Alexia          5 4 3 1 0
-      Baxter          5 4 3 1 0
-      Cannon          6 5 4 1 0
-      Destructor      6 5 4 1 0
-      Fargo           7 6 5 1 0
-      Nacho           7 6 5 1 0
-      Rubert          9 8 7 1 0
-      Sugar           9 8 7 1 0
-
-History:
-
-Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2672/6 (Power=1)
-Weekly Race Action
-
-      Each player CAN take one of the following actions (weekly race
-      actions) if e has not already taken one this week
-      
-      * bet 1, 2, or 3 dollaries on a specified Running horse by paying
-        a fee of 1, 2, or 3 dollaries respectively.
-      
-      * get a jersey for a specified horse, also specifying a horse
-        which is thereby added to that horse's pull, by paying 1 hoof.
-      
-      * get a helmet for a specified horse by paying 1 hoof.
-      
-      * transfer a specified horse owned by Agora to emself by paying a
-        fee equal to the horse's cost.
-      
-      * increase or decrease a specified Running horse's Race Position
-        by 2, by paying 3 hooves.
-      
-      * take an action defined as a weekly power of a horse e owns by
-        the rules.
-      
-      * gain 5 dollaries by paying 3 hooves.
-      
-      * gain 1 hoof by announcement.
-      
-      A player CANNOT bet on a horse with a Race Position of 12 or
-      higher unless e got a helmet for that horse since the race last
-      started anew.
-      
-      A player CANNOT get a jersey for a horse e has already gotten a
-      jersey for since the race last started anew.
-      
-      A player CANNOT get a helmet for a horse e has already gotten a
-      helmet for since the race last started anew.
-      
-      The Horsened's weekly report includes, since the race last started
-      anew, which horses each player has gotten helmets and jerseys for.
-
-History:
-
-Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
-Amended(1) by P8864 'Pronoun Correction' (ziproot), 13 Nov 2022
-Amended(2) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
-Amended(3) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
-Amended(4) by P8887 'Schrodinger's Horse' (Murphy, ais523), 04 Feb 2023
-Amended(5) by P8899 '3rd Time's not the charm' (snail, Janet), 17 Feb
-   2023
-Amended(6) by P8912 'How'd that get there?' (snail), 12 Mar 2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2673/2 (Power=1)
-Motivating Horses
-
-      Any player CAN, by announcement if no player has done so yet this
-      week, motivate the horses, specifying a random horse (the
-      galloper) and a random number choice of 1, 2, or 3. When movement
-      resolves, the galloper's Race Position is increased by the random
-      number choice, and then each of the galloper's pulls have their
-      Race Position increased by 1 in alphabetical order of their names.
-      
-      The horsened SHALL NOT let a week go by without the horses having
-      been motivated.
-      
-      Pulls (syn. pull) is a Horse switch, tracked by the Horsened. It
-      has possible values of any set of horses.
-      
-      When the race begins anew, the horse's pulls are set to the
-      following:
-      
-      HORSE           PULLS
-      ------------------------
-      Alexia          Nacho
-      Baxter          Fargo
-      Cannon          Alexia
-      Destructor      Baxter
-      Fargo           Alexia, Destructor
-      Nacho           Baxter, Cannon
-      Rubert          Alexia, Cannon
-      Sugar           Baxter, Destructor
-
-History:
-
-Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
-Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
-Amended(2) by P8899 '3rd Time's not the charm' (snail, Janet), 17 Feb
-   2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2674/3 (Power=1)
-Horse Powers
-
-      Each horse has a power which applies only to the player that owns
-      it (the owner), and a cost (in dollaries). They are listed below.
-      
-      HORSE           COST (dollaries)
-      --------------------
-      Alexia          10
-      Baxter          10
-      Cannon          8
-      Destructor      8
-      Fargo           6
-      Nacho           6
-      Rubert          4
-      Sugar           4
-      
-      Alexia's power: Once per month, the owner CAN take a weekly race
-      action, so long as e specifies it's via this power in the same
-      message.
-      
-      Baxter's power: Whenever Baxter moves forward because of being
-      chosen as the galloper, the owner gains 2 dollaries.
-      
-      Cannon's power: Once per month, the owner CAN increase Cannon's
-      Race Position by 1 by announcement, if Cannon is Running.
-      
-      Destructor's power: Once per month, the owner CAN decrease a
-      specified Running horse's Race Position by 2 by announcement.
-      
-      Fargo's power: (WEEKLY POWER)  * get a helmet for and then bet 2
-      dollaries on a specified horse, by paying 1 hoof.
-      
-      Nacho's power: (WEEKLY POWER)  * get a jersey for a specified
-      horse, also specifying a horse which is thereby added to another
-      specified horse's pull, by paying 1 hoof.
-      
-      Rubert's power: (WEEKLY POWER)  * bet 1, 2, or 3 dollaries on a
-      specified horse, and if the horse has the lowest race position or
-      is tied for the lowest race position, increase its race position
-      by 3 by paying a fee of 1, 2, or 3 dollaries respectively.
-      
-      Sugar's power: (WEEKLY POWER)  * get a helmet for and then
-      increase the Race Position of a specified horse by 1, by paying 1
-      hoof.
-
-History:
-
-Enacted by P8822 'Horse Racing' (snail, Murphy), 14 Aug 2022
-Amended(1) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
-Amended(2) by P8887 'Schrodinger's Horse' (Murphy, ais523), 04 Feb 2023
-Amended(3) by P8899 '3rd Time's not the charm' (snail, Janet), 17 Feb
-   2023
 
 Annotations:
 
