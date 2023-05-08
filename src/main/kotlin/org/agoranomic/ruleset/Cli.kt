@@ -47,6 +47,26 @@ private fun causeNameResolverForMap(nameReplacementMap: Map<String, String>): Ca
     }
 }
 
+private fun makeNameResolverFromFile(replacementsFile: Path): CauseNameResolver {
+    val nameReplacementText = replacementsFile.readText()
+
+    val nameReplacementMappingEntries =
+        nameReplacementText
+            .lines()
+            .filter { it.isNotBlank() }
+            .map { it.split(":") }
+            .onEach {
+                require(it.size == 2) { "Expected two colon separated parts, got $it" }
+            }
+            .map {
+                it[0] to it[1]
+            }
+
+    nameReplacementMappingEntries.map { it.first }.requireDistinct()
+
+    return causeNameResolverForMap(nameReplacementMappingEntries.toMap())
+}
+
 private class SingleFileOutputGroup : OptionGroup() {
     val outFile by option("--out-file", help = "output file")
         .path(mustExist = false, canBeDir = false)
@@ -131,27 +151,7 @@ private class RulekeeporCommand : CliktCommand() {
             ruleNumberResolver = TryIntegralRuleNumberResolver,
         )
 
-        val nameResolver = nameReplacementFile?.let { nameReplacementFile ->
-            val nameReplacementText = nameReplacementFile.readText()
-
-            val nameReplacementMappingEntries =
-                nameReplacementText
-                    .lines()
-                    .filter { it.isNotBlank() }
-                    .map { it.split(":") }
-                    .onEach {
-                        require(it.size == 2) { "Expected two colon separated parts, got $it" }
-                    }
-                    .map {
-                        it[0] to it[1]
-                    }
-
-            nameReplacementMappingEntries.map { it.first }.requireDistinct()
-
-            val nameReplacementMap = nameReplacementMappingEntries.toMap()
-
-            causeNameResolverForMap(nameReplacementMap)
-        } ?: CauseNameResolver.Identity
+        val nameResolver = nameReplacementFile?.let(::makeNameResolverFromFile) ?: CauseNameResolver.Identity
 
         val rulesetState =
             ruleCategoryMapping
