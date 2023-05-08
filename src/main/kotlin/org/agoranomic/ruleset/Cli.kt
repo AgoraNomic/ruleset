@@ -10,13 +10,13 @@ import com.github.ajalt.clikt.parameters.options.required
 import com.github.ajalt.clikt.parameters.types.int
 import com.github.ajalt.clikt.parameters.types.path
 import kotlinx.collections.immutable.toImmutableMap
-import org.agoranomic.ruleset.history.ProposalData
 import org.agoranomic.ruleset.history.RuleHistoryValidationResult
 import org.agoranomic.ruleset.history.validateHistory
 import org.agoranomic.ruleset.parsing.*
 import org.agoranomic.ruleset.report.*
 import org.randomcat.util.requireDistinct
 import java.nio.file.Files
+import java.nio.file.Path
 import java.nio.file.StandardOpenOption
 import kotlin.io.path.readText
 import kotlin.system.exitProcess
@@ -58,6 +58,24 @@ private class SingleFileOutputGroup : OptionGroup() {
 
     val emptyRulesetPath by option("--empty-ruleset-file", help = "path to file containing content of report when no rules exist")
         .path(mustExist = false, canBeDir = false)
+}
+
+private data class ProposalSetup(
+    val dataMap: YamlProposalDataMap,
+    val statistics: ProposalStatistics?,
+)
+
+private fun makeProposalSetup(proposalsDir: Path): ProposalSetup {
+    val dataMap = DirectoryYamlProposalDataMap(proposalsDir)
+
+    return ProposalSetup(
+        dataMap = dataMap,
+        statistics = dataMap.maxProposalNumber()?.let {
+            ProposalStatistics(
+                highestProposal = it,
+            )
+        },
+    )
 }
 
 private class RulekeeporCommand : CliktCommand() {
@@ -106,18 +124,7 @@ private class RulekeeporCommand : CliktCommand() {
         .path(mustExist = true, canBeDir = false)
 
     override fun run() {
-        val (proposalDataMap, proposalStats) =
-            proposalsDir
-                ?.let { DirectoryYamlProposalDataMap(it) }
-                ?.let { proposalMap -> proposalMap to proposalMap.maxProposalNumber()?.let { ProposalStatistics(it) } }
-                ?: (object : YamlProposalDataMap {
-                    override fun dataFor(
-                        proposalSpecification: String,
-                        nameResolver: CauseNameResolver,
-                    ): ProposalData? {
-                        throw IllegalArgumentException("Cannot use proposal when no proposals dir was specified")
-                    }
-                } to null)
+        val proposalSetup = proposalsDir?.let(::makeProposalSetup)
 
         val ruleCategoryMapping = parseIndexYaml(
             Files.readString(indexFile, FILE_CHARSET),
@@ -157,7 +164,7 @@ private class RulekeeporCommand : CliktCommand() {
                     try {
                         parseRuleStateYaml(
                             yaml = Files.readString(path, FILE_CHARSET),
-                            proposalDataMap = proposalDataMap,
+                            proposalDataMap = proposalSetup?.dataMap,
                             ruleNumberResolver = TryIntegralRuleNumberResolver,
                             nameResolver = nameResolver,
                         )
@@ -228,7 +235,7 @@ private class RulekeeporCommand : CliktCommand() {
                     config = reportConfig,
                     fullRulesetState = rulesetState,
                     categoryMapping = ruleCategoryMapping,
-                    proposalStatistics = proposalStats,
+                    proposalStatistics = proposalSetup?.statistics,
                 )
             }
 

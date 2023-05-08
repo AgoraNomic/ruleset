@@ -80,7 +80,7 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
 
 private fun parseHistoricalCauseYaml(
     topNode: ParsedYamlNode.MapNode,
-    proposalDataMap: YamlProposalDataMap,
+    proposalDataMap: YamlProposalDataMap?,
     ruleNumberResolver: RuleNumberResolver,
     nameResolver: CauseNameResolver,
 ): HistoricalCause {
@@ -92,12 +92,19 @@ private fun parseHistoricalCauseYaml(
     val causeContent by lazy { causeNode.requireValue().content }
 
     return when (causeKind) {
-        "proposal" -> HistoricalCauses.proposal(
-            causeNode.requireValue().content.let { numberString ->
-                proposalDataMap.dataFor(proposalSpecification = numberString, nameResolver = nameResolver)
-                    ?: throw IllegalArgumentException("No data for proposal $numberString")
+        "proposal" -> {
+            if (proposalDataMap == null) {
+                error("Attempt to use proposal cause where no proposal data is available")
             }
-        )
+
+            HistoricalCauses.proposal(
+                causeNode.requireValue().content.let { numberString ->
+                    proposalDataMap.dataFor(proposalSpecification = numberString, nameResolver = nameResolver)
+                        ?: throw IllegalArgumentException("No data for proposal $numberString")
+                }
+            )
+        }
+
         "rule" -> HistoricalCauses.rule(ruleNumberResolver.resolve(causeContent))
         "convergence" -> HistoricalCauses.convergence(
             parseHistoricalCauseYaml(
@@ -162,7 +169,7 @@ private fun parseHistoricalDate(topNode: ParsedYamlNode): HistoricalDate {
 
 private fun parseHistoryEntryYaml(
     topNode: ParsedYamlNode.MapNode,
-    proposalDataMap: YamlProposalDataMap,
+    proposalDataMap: YamlProposalDataMap?,
     ruleNumberResolver: RuleNumberResolver,
     nameResolver: CauseNameResolver,
 ): HistoricalEntry {
@@ -249,7 +256,7 @@ interface CauseNameResolver {
 
 fun parseRuleStateYaml(
     yaml: String,
-    proposalDataMap: YamlProposalDataMap,
+    proposalDataMap: YamlProposalDataMap?,
     ruleNumberResolver: RuleNumberResolver,
     nameResolver: CauseNameResolver,
 ): RuleState {
