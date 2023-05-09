@@ -16,6 +16,12 @@ text: |
   up, and then if it is outside the allowable range of values for
   voting strength, it is set to the minimum value if it was less
   and the maximum value if it was more.
+
+  A player CAN Buy Strength by paying 1 Extra Vote and specifying a
+  current Agoran decision on which e is a voter. For each time a
+  player has Bought Strength on a decision, eir voting strength is 1
+  greater on that decision. A player CANNOT Buy Strength for the
+  same decision more than 3 times.
 history:
 - change:
     type: enactment
@@ -59,19 +65,19 @@ history:
   date: 2020-06-12
   agent:
     proposal: "8408"
-- change:
-    type: amendment
-  date: 2020-10-28
-  agent:
-    proposal: "8515"
-- change:
-    type: amendment
-  date: 2021-02-11
-  agent:
-    proposal: "8540"
-- change:
-    type: amendment
-  date: 2021-06-23
-  agent:
-    proposal: "8580"
+# - change:
+#     type: amendment
+#   date: 2020-10-28
+#   agent:
+#     proposal: "8515"
+# - change:
+#     type: amendment
+#   date: 2021-02-11
+#   agent:
+#     proposal: "8540"
+# - change:
+#     type: amendment
+#   date: 2021-06-23
+#   agent:
+#     proposal: "8580"
 annotations: []
