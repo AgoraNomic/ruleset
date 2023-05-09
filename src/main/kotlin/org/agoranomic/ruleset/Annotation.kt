@@ -11,9 +11,8 @@ value class CfjNumber(val raw: BigInteger) : Comparable<CfjNumber> {
         return (this.raw).compareTo(other.raw)
     }
 
-    override fun toString(): String {
-        return raw.toString()
-    }
+    val readable
+        get() = raw.toString()
 }
 
 sealed class RuleAnnotation

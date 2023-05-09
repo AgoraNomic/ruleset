@@ -157,7 +157,7 @@ private class RulekeeporCommand : CliktCommand() {
             ruleCategoryMapping
                 .categorizedRuleNumbers
                 .map {
-                    it to rulesDir.resolve(it.toString())
+                    it to rulesDir.resolve(it.readable)
                 }
                 .onEach { (_, path) -> echo("Processing file: $path") }
                 .map { (number, path) ->
@@ -175,7 +175,7 @@ private class RulekeeporCommand : CliktCommand() {
                             "Got disagreeing rule number in rule file and index: ${it.id} vs $number"
                         }
 
-                        echo("Got rule ${it.id}")
+                        echo("Got rule ${it.id.readable}")
                     }
                 }
                 .let { RulesetState(it.toSet()) }
@@ -255,7 +255,7 @@ private class RulekeeporCommand : CliktCommand() {
 
             for (rule in rulesetState) {
                 val ruleOutFile =
-                    outDirAbsolute.resolve(outDirNameFormat.replace("{}", rule.id.toString())).toAbsolutePath()
+                    outDirAbsolute.resolve(outDirNameFormat.replace("{}", rule.id.readable)).toAbsolutePath()
 
                 // Avoid directory traversal
                 require(ruleOutFile.startsWith(outDir))

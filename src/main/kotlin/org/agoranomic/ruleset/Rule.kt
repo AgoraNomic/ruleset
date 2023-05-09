@@ -11,20 +11,20 @@ data class RuleHistory(val entries: ImmutableList<HistoricalEntry>) {
 }
 
 sealed class RuleNumber {
+    abstract val readable: String
+
     data class Integral(val value: BigInteger) : RuleNumber(), Comparable<RuleNumber.Integral> {
         override fun compareTo(other: RuleNumber.Integral): Int {
             return (this.value).compareTo(other.value)
         }
 
-        override fun toString(): String {
-            return value.toString()
-        }
+        override val readable: String
+            get() = value.toString()
     }
 
     data class Textual(val value: String) : RuleNumber() {
-        override fun toString(): String {
-            return value
-        }
+        override val readable: String
+            get() = value
     }
 }
 

@@ -42,11 +42,6 @@ sealed class ProposalNumber {
     abstract val readable: String
 }
 
-private fun ProposalNumber.readable() = when (this) {
-    is ProposalNumber.Integral -> number.toString()
-    is ProposalNumber.HistoricalOddity -> unparsed
-}
-
 data class ProposalData(
     val number: ProposalNumber,
     val title: String?,
@@ -85,7 +80,7 @@ object HistoricalCauses {
 
     private data class Proposal(val proposalData: ProposalData) : BaseCause(
         PROPOSAL_CAUSE_TAG,
-        "P${proposalData.number.readable()}" +
+        "P${proposalData.number.readable}" +
                 (proposalData.title?.let { " '$it'" } ?: "") +
                 (listOfNotNull(proposalData.chamber, "disi.".takeIf { proposalData.isDisinterested })
                     .takeIf { it.isNotEmpty() }
@@ -104,7 +99,7 @@ object HistoricalCauses {
             get() = "a convergence caused by ${cause.causeString}"
     }
 
-    private data class Rule(val ruleNumber: RuleNumber) : BaseCause("rule", "R$ruleNumber")
+    private data class Rule(val ruleNumber: RuleNumber) : BaseCause("rule", "R${ruleNumber.readable}")
     private data class Cleaning(val cause: String) : BaseCause("cleaning", "cleaning ($cause)")
     private data class Refiling(val cause: String) : BaseCause("refiling", "refiling ($cause)")
     private data class Ratification(val document: String) : BaseCause("ratification", "$document ratification")

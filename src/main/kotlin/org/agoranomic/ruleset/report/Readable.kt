@@ -27,7 +27,7 @@ private fun formatTableOfContents(ruleset: CategorizedRulesetState, entityKind: 
         }
         .joinToString("") { (category, rules) ->
             rules.joinToString("\n", prefix = "${category.readableName}\n", postfix = "\n") {
-                "   * $entityKind ${it.id.toString().padStart(4, ' ')}: ${it.title}"
+                "   * $entityKind ${it.id.readable.padStart(4, ' ')}: ${it.title}"
             }
         }
 }
@@ -116,8 +116,8 @@ private fun formatAnnotations(
                 is HistoricalCfjAnnotation -> {
                     annotation.blocks.joinToString(", ") { block ->
                         "CFJ " + when (val number = block.number) {
-                            is CfjAnnotationNumber.Single -> number.number.toString()
-                            is CfjAnnotationNumber.Range -> "${number.first}-${number.last}"
+                            is CfjAnnotationNumber.Single -> number.number.readable
+                            is CfjAnnotationNumber.Range -> "${number.first.readable}-${number.last.readable}"
                         } + (block.calledDate?.let { " (called ${formatDate(it)})" } ?: "")
                     } + ": " + annotation.finding
                 }
@@ -149,7 +149,7 @@ fun formatRule(rule: RuleState, config: ReadableReportConfig): String {
         else
             ""
 
-    return "${config.entityKind} ${rule.id}/$revisionNumber${rule.power?.let { " (Power=$it)" } ?: ""}\n" +
+    return "${config.entityKind} ${rule.id.readable}/$revisionNumber${rule.power?.let { " (Power=$it)" } ?: ""}\n" +
             rule.title +
             "\n\n" +
             rule
