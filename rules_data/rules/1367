@@ -187,6 +187,8 @@ history:
     proposal: "8221"
 - change:
     type: power-change
+    old-power: 3
+    new-power: 2
   date: 2019-11-11
   agent:
     proposal: "8271"
