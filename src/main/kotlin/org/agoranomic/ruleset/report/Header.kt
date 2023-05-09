@@ -6,7 +6,7 @@ private fun doReplaceHeader(
     template: String,
     headerContent: String,
 ): String {
-    return template.replace(HEADER_INCLUSION, headerContent)
+    return template.replace(HEADER_INCLUSION, headerContent.trim())
 }
 
 /**

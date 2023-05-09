@@ -48,4 +48,15 @@ class HeaderTest {
             )
         )
     }
+
+    @Test
+    fun `header inclusion, header with whitespace`() {
+        assertEquals(
+            "blah some header blep",
+            replaceHeaderInclusionWithOptionalHeader(
+                template = "blah {header} blep",
+                headerContent = "   some header \n",
+            )
+        )
+    }
 }
