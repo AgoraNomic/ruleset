@@ -20,6 +20,8 @@ data class ReadableReportConfig(
 )
 
 private fun formatTableOfContents(ruleset: CategorizedRulesetState, entityKind: String): String {
+    val maxIdLength = ruleset.categorizedRules.maxOf { it.id.readable.length }
+
     return ruleset
         .categories
         .map {
@@ -27,7 +29,7 @@ private fun formatTableOfContents(ruleset: CategorizedRulesetState, entityKind: 
         }
         .joinToString("") { (category, rules) ->
             rules.joinToString("\n", prefix = "${category.readableName}\n", postfix = "\n") {
-                "   * $entityKind ${it.id.readable.padStart(4, ' ')}: ${it.title}"
+                "   * $entityKind ${it.id.readable.padStart(maxIdLength, ' ')}: ${it.title}"
             }
         }
 }
