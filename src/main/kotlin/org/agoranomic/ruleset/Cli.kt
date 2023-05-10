@@ -17,12 +17,9 @@ import org.agoranomic.ruleset.report.*
 import org.randomcat.util.requireDistinct
 import java.nio.file.Files
 import java.nio.file.Path
-import java.nio.file.StandardOpenOption
 import kotlin.io.path.readText
+import kotlin.io.path.writeText
 import kotlin.system.exitProcess
-
-private val FILE_CHARSET = Charsets.UTF_8
-private const val STDOUT_OUT_FILE = "-"
 
 class RuleParseException : Exception {
     constructor(message: String) : super(message)
@@ -147,7 +144,7 @@ private class RulekeeporCommand : CliktCommand() {
         val proposalSetup = proposalsDir?.let(::makeProposalSetup)
 
         val ruleCategoryMapping = parseIndexYaml(
-            Files.readString(indexFile, FILE_CHARSET),
+            indexFile.readText(),
             ruleNumberResolver = TryIntegralRuleNumberResolver,
         )
 
@@ -163,7 +160,7 @@ private class RulekeeporCommand : CliktCommand() {
                 .map { (number, path) ->
                     try {
                         parseRuleStateYaml(
-                            yaml = Files.readString(path, FILE_CHARSET),
+                            yaml = path.readText(),
                             proposalDataMap = proposalSetup?.dataMap,
                             ruleNumberResolver = TryIntegralRuleNumberResolver,
                             nameResolver = nameResolver,
@@ -218,11 +215,11 @@ private class RulekeeporCommand : CliktCommand() {
                     "If no rules exist, an empty ruleset file must be provided"
                 }
 
-                Files.readString(emptyRulesetPath, FILE_CHARSET)
+                emptyRulesetPath.readText()
             } else {
                 val templateWithHeaderReplaced = run {
-                    val originalTemplate = Files.readString(templateFile, FILE_CHARSET)
-                    val headerContent = headerPath?.let { Files.readString(it, FILE_CHARSET) }
+                    val originalTemplate = templateFile.readText()
+                    val headerContent = headerPath?.readText()
 
                     replaceHeaderInclusionWithOptionalHeader(
                         template = originalTemplate,
@@ -239,13 +236,7 @@ private class RulekeeporCommand : CliktCommand() {
                 )
             }
 
-            Files.writeString(
-                outFileGroup.outFile,
-                rulesetText,
-                FILE_CHARSET,
-                StandardOpenOption.CREATE,
-                StandardOpenOption.TRUNCATE_EXISTING,
-            )
+            outFileGroup.outFile.writeText(rulesetText)
         }
 
         val outDir = outDir
@@ -260,36 +251,21 @@ private class RulekeeporCommand : CliktCommand() {
                 // Avoid directory traversal
                 require(ruleOutFile.startsWith(outDir))
 
-                formatRule(
-                    rule = rule,
-                    config = reportConfig,
-                ).let {
-                    Files.writeString(
-                        ruleOutFile,
-                        it,
-                        FILE_CHARSET,
-                        StandardOpenOption.CREATE,
-                        StandardOpenOption.TRUNCATE_EXISTING,
-                    )
-                }
-            }
-        }
-
-        val generatedIndexOutFile = generatedIndexOutFile
-        if (generatedIndexOutFile != null) {
-            formatJsonIndex(
-                fullRulesetState = rulesetState,
-                categoryMapping = ruleCategoryMapping
-            ).let {
-                Files.writeString(
-                    generatedIndexOutFile,
-                    it,
-                    FILE_CHARSET,
-                    StandardOpenOption.CREATE,
-                    StandardOpenOption.TRUNCATE_EXISTING,
+                ruleOutFile.writeText(
+                    formatRule(
+                        rule = rule,
+                        config = reportConfig,
+                    ),
                 )
             }
         }
+
+        generatedIndexOutFile?.writeText(
+            formatJsonIndex(
+                fullRulesetState = rulesetState,
+                categoryMapping = ruleCategoryMapping
+            ),
+        )
     }
 }
 
