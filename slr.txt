@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 5 May 2023
+Date of this ruleset: 14 May 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 130
+Number of rules currently enacted: 131
 
 Highest ID'd rule in this ruleset: 2681
-Highest ID'd Proposal Passed: 8958
+Highest ID'd Proposal Passed: 8964
 Highest ID'd Rule Enacted: 2681
 
 ========================================================================
@@ -43,6 +43,18 @@ Agora Is A Nomic
       gamestate would cause Agora to become ossified, or would cause
       Agora to cease to exist, it is cancelled and does not occur, rules
       to the contrary notwithstanding.
+
+------------------------------------------------------------------------
+========================================================================
+Important Temporary Rules
+   This category is a temporary dumping ground for rules that don't
+   easily fit in any other category but that hold special relevance for
+   the current gamestate.
+------------------------------------------------------------------------
+Rule 2056/1 (Power=1)
+Invisibilitating
+
+      Invisibilitating is a Class 1 infraction.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -129,7 +141,7 @@ Fora
       explicitly and is secured at power 2.
 
 ------------------------------------------------------------------------
-Rule 2139/17 (Power=2)
+Rule 2139/16 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -149,6 +161,12 @@ The Registrar
       
       1. For each former player for which the information is reasonably
          available, the dates on which e registered and deregistered.
+      
+      The Registrar's duties and abilities also include:
+      
+      * Changing the publicity of a forum.
+      
+      * Publishing Cantus Cygnei and Writs of FAGE.
 
 ------------------------------------------------------------------------
 Rule 1789/11 (Power=3)
@@ -1353,7 +1371,7 @@ Quorum
       minimum instead.
 
 ------------------------------------------------------------------------
-Rule 2422/10 (Power=3)
+Rule 2422/7 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -1370,6 +1388,12 @@ Voting Strength
       up, and then if it is outside the allowable range of values for
       voting strength, it is set to the minimum value if it was less
       and the maximum value if it was more.
+      
+      A player CAN Buy Strength by paying 1 Extra Vote and specifying a
+      current Agoran decision on which e is a voter. For each time a
+      player has Bought Strength on a decision, eir voting strength is 1
+      greater on that decision. A player CANNOT Buy Strength for the
+      same decision more than 3 times.
 
 ------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
@@ -1870,7 +1894,7 @@ Ratification
       Ratification is secured with power threshold 3.
 
 ------------------------------------------------------------------------
-Rule 2202/10 (Power=3)
+Rule 2202/9 (Power=3)
 Ratification Without Objection
 
       A public document is part (possibly all) of a public message.
@@ -1889,7 +1913,7 @@ Ratification Without Objection
       unless the general nature of the document's error and reason for
       ratifying it is clearly and plainly described in the announcement
       of intent. Such ratification or announcement of intent to ratify
-      is the Class 8 infraction of Endorsing Forgery.
+      is the Class 8 Crime of Endorsing Forgery.
 
 ------------------------------------------------------------------------
 Rule 2201/10 (Power=3)
@@ -1930,7 +1954,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/15 (Power=2)
+Rule 2555/12 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -2805,7 +2829,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/18 (Power=2)
+Rule 2645/19 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2826,8 +2850,8 @@ The Stones
       - Sabotage Stone (weekly, 4): When wielded, the adoption index of
         a specified AI-majority Agoran decision is increased by 1.
       
-      - Jockey Stone (monthly, 3): When wielded, a specified Running
-        horse's Race Position is increased by 1.
+      - Minty Stone (weekly, 4): When wielded, a specified Player gains
+        a stamp of eir own type.
       
       - Protection Stone (monthly, 4): When wielded, a specified stone
         is granted immunity.
@@ -2879,7 +2903,7 @@ Radiance
       half their current value rounded down.
 
 ------------------------------------------------------------------------
-Rule 2680/2 (Power=1)
+Rule 2680/3 (Power=1)
 Ritual Paper Dance
 
       Each of the following is a ritual act:
@@ -2899,11 +2923,11 @@ Ritual Paper Dance
       more than 1 greater than the greatest previously anointed ritual
       number.
       
-      When a positive integral multiple of 41 is anointed as a ritual
-      number for the first time, the person who does so CAN, by
-      announcement, Raise the First Speaker in a powerful dance around
-      the Town Fountain. Doing so causes each player qualifying under
-      this Rule to gain 1 radiance.
+      For each positive integral multiple of 41, when that number is
+      anointed as a ritual number for the first time, the person who
+      does so CAN, by announcement, Raise the First Speaker in a
+      powerful dance around the Town Fountain. Doing so causes each
+      player qualifying under this Rule to gain 1 radiance.
       
       A player is qualifying under this Rule if and only if e is active,
       does not have the highest radiance of any player, and is not tied
@@ -3305,26 +3329,21 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/30 (Power=2)
+Rule 103/29 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
-      Agora. The player or players who have most recently won the game
-      are called Laureled. If at any time the office of Speaker is
-      vacant, or when one or more players win Agora, then the Prime
-      Minister CAN once appoint a Laureled player to the office of
-      Speaker by announcement.
+      Agora.
       
-      Whenever the Prime Minister CAN appoint a Laureled player to the
-      office of Speaker, e SHALL do so in a timely manner, except that
-      the Prime Minister MAY defer appointing a new Speaker while there
-      is pending one or more open CFJs that could plausibly determine or
-      affect the question of whether a player is Laureled.  If the Prime
-      Minister is emself Laureled, eir power to appoint a Speaker
-      continues for the entirety of a message in which e resigns as
-      Prime Minister, and if e is the only Laureled player, e CAN void
-      that power, and thereby discharge the obligation to use it, by
-      announcing that e declines to take the office.
+      The player or players who have most recently won the game are
+      called Laureled. If at any time the office of Speaker is vacant,
+      or when one or more players win Agora, then the Prime Minister CAN
+      once appoint a Laureled player to the office of Speaker by
+      announcement.  Whenever the Prime Minister CAN appoint a Laureled
+      player to the office of Speaker, e SHALL do so in a timely manner,
+      except that the Prime Minister MAY defer appointing a new Speaker
+      while there is pending one or more open CFJs that could plausibly
+      determine or affect the question of whether a player is Laureled.
       
       If the office of Speaker has been held continuously by the same
       person for the past 90+ days, then any player CAN appoint another

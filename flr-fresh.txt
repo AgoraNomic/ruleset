@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 5 May 2023
+Date of this ruleset: 14 May 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 130
+Number of rules currently enacted: 131
 
 Highest ID'd rule in this ruleset: 2681
-Highest ID'd Proposal Passed: 8958
+Highest ID'd Proposal Passed: 8964
 Highest ID'd Rule Enacted: 2681
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -24,6 +24,8 @@ Table of Contents:
 The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
+Important Temporary Rules
+   * Rule 2056: Invisibilitating
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -179,7 +181,7 @@ Power Distribution:
 
 1  with Power=0.3
 1  with Power=0.5
-29 with Power=1
+30 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -280,6 +282,27 @@ Power changed from 3 to 4 by P7889 'Agora Protection Act' (Aspen), 26
    Sep 2017
 Amended(6) by cleaning (Murphy), 03 Mar 2020
 Amended(7) by P8843 'Time B Safe' (G., Janet, Murphy), 30 Aug 2022
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Important Temporary Rules
+   This category is a temporary dumping ground for rules that don't
+   easily fit in any other category but that hold special relevance for
+   the current gamestate.
+------------------------------------------------------------------------
+Rule 2056/1 (Power=1)
+Invisibilitating
+
+      Invisibilitating is a Class 1 infraction.
+
+History:
+
+Enacted by P4513 'Invisibilitating' (Steve), 10 Jul 2003
+Repealed by P4759 'Olive Repeals' (Manu, Sherlock), 15 May 2005
+Re-enacted(1) and amended by P8961 'now you don't see it' (G.), 12 May
+   2023
 
 Annotations:
 
@@ -681,7 +704,7 @@ CFJ 3855 (called 22 Jun 2020): Emails from two or more persons never
     constitute one Agoran message.
 
 ------------------------------------------------------------------------
-Rule 2139/17 (Power=2)
+Rule 2139/16 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -701,6 +724,12 @@ The Registrar
       
       1. For each former player for which the information is reasonably
          available, the dates on which e registered and deregistered.
+      
+      The Registrar's duties and abilities also include:
+      
+      * Changing the publicity of a forum.
+      
+      * Publishing Cantus Cygnei and Writs of FAGE.
 
 History:
 
@@ -726,13 +755,11 @@ Amended(11) by P7924 'Contracts v8' (Aspen, o, G., ais523, Gaelan,
    D.F.F., Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(12) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
 Amended(13) by P8176 'Zombies take care of this now' (G.), 13 May 2019
-Amended(14) by P8273 'Clean up your own mess, without making a bigger
-   one' (Gaelan, Janet), 11 Nov 2019
+Amended(14) by P8422 'No More Numbers!' (Publius Scribonius
+   Scholasticus, G., Trigon, Aspen, nix), 14 Jun 2020
 Amended(15) by P8422 'No More Numbers!' (Publius Scribonius
    Scholasticus, G., Trigon, Aspen, nix), 14 Jun 2020
-Amended(16) by P8422 'No More Numbers!' (Publius Scribonius
-   Scholasticus, G., Trigon, Aspen, nix), 14 Jun 2020
-Amended(17) by P8423 'Removing Repetition' (Publius Scribonious
+Amended(16) by P8423 'Removing Repetition' (Publius Scribonious
    Scholasticus, G.), 14 Jun 2020
 
 Annotations:
@@ -2841,7 +2868,7 @@ Amended(4) by P8369 'Emergency Termination Notice' (Aspen), 21 Apr 2020
 Amended(5) by P8490 'Functional Emergency Regulations' (Janet), 30 Aug
    2020
 Amended(6) by P8533 'de-dictatorship' (G., Janet, nix), 03 Feb 2021
-Power changed by P8534 'Power Up' (Aspen), 03 Feb 2021
+Power changed from 3.01 to 3.1 by P8534 'Power Up' (Aspen), 03 Feb 2021
 Amended(7) by P8545 'Uncanny Fixes' (Aspen, Murphy), 10 Mar 2021
 Amended(8) by P8547 'ER office restriction' (Janet), 10 Mar 2021
 Amended(9) by P8570 'Emergency Regulation Clarification' (Janet), 14 Jun
@@ -3355,7 +3382,7 @@ CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision
     changes as the set of eligible voters changes.
 
 ------------------------------------------------------------------------
-Rule 2422/10 (Power=3)
+Rule 2422/7 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
@@ -3372,6 +3399,12 @@ Voting Strength
       up, and then if it is outside the allowable range of values for
       voting strength, it is set to the minimum value if it was less
       and the maximum value if it was more.
+      
+      A player CAN Buy Strength by paying 1 Extra Vote and specifying a
+      current Agoran decision on which e is a voter. For each time a
+      player has Bought Strength on a decision, eir voting strength is 1
+      greater on that decision. A player CANNOT Buy Strength for the
+      same decision more than 3 times.
 
 History:
 
@@ -3386,12 +3419,6 @@ Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Janet, twg), 29 Jan 2020
 Amended(7) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Janet, Aspen, G., ais523), 12 Jun 2020
-Amended(8) by P8515 'adMinistration v1.1' (nix, Trigon, Aspen), 28 Oct
-   2020
-Amended(9) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
-   Janet), 11 Feb 2021
-Amended(10) by P8580 'Strength Buying Separation v2' (Janet, ais523,
-   Trigon), 23 Jun 2021
 
 Annotations:
 
@@ -4319,7 +4346,8 @@ Enacted by P8482 'Offices are complex v2' (Trigon, ATMunn), 10 Aug 2020
 Amended(1) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
 Amended(2) by P8880 'Complex, but clear' (Janet), 15 Jan 2023
-Power changed by P8881 'Effective complexity' (Janet), 15 Jan 2023
+Power changed from 1.0 to 2.0 by P8881 'Effective complexity' (Janet),
+   15 Jan 2023
 Amended(3) by P8881 'Effective complexity' (Janet), 15 Jan 2023
 
 Annotations:
@@ -4489,7 +4517,7 @@ CFJ 3799 (called 24 Jan 2020): If a document that includes both a
     ratification.
 
 ------------------------------------------------------------------------
-Rule 2202/10 (Power=3)
+Rule 2202/9 (Power=3)
 Ratification Without Objection
 
       A public document is part (possibly all) of a public message.
@@ -4508,7 +4536,7 @@ Ratification Without Objection
       unless the general nature of the document's error and reason for
       ratifying it is clearly and plainly described in the announcement
       of intent. Such ratification or announcement of intent to ratify
-      is the Class 8 infraction of Endorsing Forgery.
+      is the Class 8 Crime of Endorsing Forgery.
 
 History:
 
@@ -4524,7 +4552,6 @@ Amended(6) by P7680 'History Schmistory version 2' (Alexis), 12 Jul 2014
 Amended(7) by P8244 'Crime Cleanup' (Janet), 05 Sep 2019
 Amended(8) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
 Amended(9) by P8492 'Unscoped RWO' (Janet), 30 Aug 2020
-Amended(10) by P8811 'Infractions' (nix), 24 Jul 2022
 
 Annotations:
 CFJ 1836 (called 18 Dec 2007): Ratification of an official document
@@ -4600,7 +4627,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/15 (Power=2)
+Rule 2555/12 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -4637,13 +4664,9 @@ Amended(7) by P8350 'Apologies Don't Interfere' (Alexis), 21 Mar 2020
 Amended(8) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Janet, Aspen, G., ais523), 12 Jun 2020
 Amended(9) by P8427 'Slap on the wrist' (R. Lee), 14 Jun 2020
-Amended(10) by P8537 'Unofficial injustice' (G.), 03 Feb 2021
-Amended(11) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
-   2022
-Amended(12) by R2658, 09 Jun 2022
-Amended(13) by P8811 'Infractions' (nix), 24 Jul 2022
-Amended(14) by P8852 'Fix Infractions' (4st, Janet), 11 Sep 2022
-Amended(15) by P8935 'Quicker Peer Expungement' (nix, Aspen, G.), 02 Apr
+Amended(10) by P8811 'Infractions' (nix), 24 Jul 2022
+Amended(11) by P8852 'Fix Infractions' (4st, Janet), 11 Sep 2022
+Amended(12) by P8935 'Quicker Peer Expungement' (nix, Aspen, G.), 02 Apr
    2023
 
 Annotations:
@@ -6266,7 +6289,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/18 (Power=2)
+Rule 2645/19 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6287,8 +6310,8 @@ The Stones
       - Sabotage Stone (weekly, 4): When wielded, the adoption index of
         a specified AI-majority Agoran decision is increased by 1.
       
-      - Jockey Stone (monthly, 3): When wielded, a specified Running
-        horse's Race Position is increased by 1.
+      - Minty Stone (weekly, 4): When wielded, a specified Player gains
+        a stamp of eir own type.
       
       - Protection Stone (monthly, 4): When wielded, a specified stone
         is granted immunity.
@@ -6347,6 +6370,7 @@ Amended(16) by P8906 'Stone Immunity Correction (Keeping Our Stones)
    Act' (Janet), 26 Feb 2023
 Amended(17) by P8907 'Maybe a little less hot?' (Janet), 26 Feb 2023
 Amended(18) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(19) by P8964 'Minty Stone' (snail), 12 May 2023
 
 Annotations:
 
@@ -6387,7 +6411,7 @@ Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2680/2 (Power=1)
+Rule 2680/3 (Power=1)
 Ritual Paper Dance
 
       Each of the following is a ritual act:
@@ -6407,11 +6431,11 @@ Ritual Paper Dance
       more than 1 greater than the greatest previously anointed ritual
       number.
       
-      When a positive integral multiple of 41 is anointed as a ritual
-      number for the first time, the person who does so CAN, by
-      announcement, Raise the First Speaker in a powerful dance around
-      the Town Fountain. Doing so causes each player qualifying under
-      this Rule to gain 1 radiance.
+      For each positive integral multiple of 41, when that number is
+      anointed as a ritual number for the first time, the person who
+      does so CAN, by announcement, Raise the First Speaker in a
+      powerful dance around the Town Fountain. Doing so causes each
+      player qualifying under this Rule to gain 1 radiance.
       
       A player is qualifying under this Rule if and only if e is active,
       does not have the highest radiance of any player, and is not tied
@@ -6423,6 +6447,7 @@ Enacted by P8918 'Ritual Paper Dance V2' (4st, nix, G., Murphy), 12 Mar
    2023
 Amended(1) by P8933 'Ritual Ratification' (Janet), 26 Mar 2023
 Amended(2) by P8943 'Ritual rewrite' (Janet, G.), 16 Apr 2023
+Amended(3) by P8960 'Ritual disambiguation' (ais523), 12 May 2023
 
 Annotations:
 
@@ -6929,7 +6954,8 @@ Amended(19) by P7620 'Fire the Full Committee' (omd), 24 Jan 2014
 Amended(20) by P8211 'Law School' (G.), 23 Jul 2019
 Amended(21) by P8221 'Usage de-capitalization' (Janet, Aspen), 05 Sep
    2019
-Power changed by P8271 'Doctorate expectations' (G.), 11 Nov 2019
+Power changed from 3 to 2 by P8271 'Doctorate expectations' (G.), 11 Nov
+   2019
 Amended(22) by P8271 'Doctorate expectations' (G.), 11 Nov 2019
 Amended(23) by P8305 'Keeping Up With the Times' (Alexis), 29 Jan 2020
 Amended(24) by P8409 'College of Letters, Arts, and Sciences' (Aspen),
@@ -7098,26 +7124,21 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/30 (Power=2)
+Rule 103/29 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
-      Agora. The player or players who have most recently won the game
-      are called Laureled. If at any time the office of Speaker is
-      vacant, or when one or more players win Agora, then the Prime
-      Minister CAN once appoint a Laureled player to the office of
-      Speaker by announcement.
+      Agora.
       
-      Whenever the Prime Minister CAN appoint a Laureled player to the
-      office of Speaker, e SHALL do so in a timely manner, except that
-      the Prime Minister MAY defer appointing a new Speaker while there
-      is pending one or more open CFJs that could plausibly determine or
-      affect the question of whether a player is Laureled.  If the Prime
-      Minister is emself Laureled, eir power to appoint a Speaker
-      continues for the entirety of a message in which e resigns as
-      Prime Minister, and if e is the only Laureled player, e CAN void
-      that power, and thereby discharge the obligation to use it, by
-      announcing that e declines to take the office.
+      The player or players who have most recently won the game are
+      called Laureled. If at any time the office of Speaker is vacant,
+      or when one or more players win Agora, then the Prime Minister CAN
+      once appoint a Laureled player to the office of Speaker by
+      announcement.  Whenever the Prime Minister CAN appoint a Laureled
+      player to the office of Speaker, e SHALL do so in a timely manner,
+      except that the Prime Minister MAY defer appointing a new Speaker
+      while there is pending one or more open CFJs that could plausibly
+      determine or affect the question of whether a player is Laureled.
       
       If the office of Speaker has been held continuously by the same
       person for the past 90+ days, then any player CAN appoint another
@@ -7168,11 +7189,9 @@ Amended(26) by P8221 'Usage de-capitalization' (Janet, Aspen), 05 Sep
    2019
 Amended(27) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aspen,
    Gaelan, G., Janet, twg), 29 Jan 2020
-Amended(28) by P8340 'The Paradox of Self-Appointment' (Alexis), 24 Feb
-   2020
-Amended(29) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
+Amended(28) by P8540 'Strengthening Extra Votes v2.1' (nix, Aspen,
    Janet), 11 Feb 2021
-Amended(30) by P8708 'Has Beens' (nix, snail, G., Madrid, 4st, Janet),
+Amended(29) by P8708 'Has Beens' (nix, snail, G., Madrid, 4st, Janet),
    17 Jul 2022
 
 Annotations:
