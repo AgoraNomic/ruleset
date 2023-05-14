@@ -3,6 +3,7 @@ package org.agoranomic.ruleset.parsing
 import org.agoranomic.ruleset.history.ProposalAuthorship
 import org.agoranomic.ruleset.history.ProposalData
 import org.agoranomic.ruleset.history.ProposalNumber
+import org.agoranomic.ruleset.history.ProposalPower
 import java.nio.file.Files
 import java.nio.file.Path
 import kotlin.streams.asSequence
@@ -44,6 +45,21 @@ data class DirectoryYamlProposalDataMap(val proposalsDir: Path) : YamlProposalDa
                 ),
                 chamber = topNode.getOptContent("chamber"),
                 isDisinterested = topNode.getOptContent("disinterested").toBoolean(),
+                power = run {
+                    val rawPower = topNode.getOptContent("power")
+                    val omnipotent = topNode.getOptContent("omnipotent")
+
+                    when {
+                        (rawPower != null) && (omnipotent != null) -> ProposalPower(
+                            rawPower = rawPower.toBigDecimal(),
+                            omnipotent = omnipotent.toBoolean(),
+                        )
+
+                        (rawPower == null) && (omnipotent == null) -> null
+
+                        else -> throw IllegalArgumentException("Expected both power and omnipotent or neither")
+                    }
+                },
             )
         } catch (error: Exception) {
             throw ProposalDataParseException.forProposalSpecification(

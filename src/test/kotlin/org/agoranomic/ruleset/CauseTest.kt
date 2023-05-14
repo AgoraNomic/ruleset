@@ -33,6 +33,7 @@ class CauseTest {
                 chamber = chamber,
                 isDisinterested = isDisinterested,
                 authorship = authorship,
+                power = null,
             ))
         }
 

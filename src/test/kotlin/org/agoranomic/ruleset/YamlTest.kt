@@ -145,6 +145,7 @@ class YamlTest {
                             chamber = null,
                             isDisinterested = false,
                             authorship = ProposalAuthorship(null, null),
+                            power = null,
                         )
                     }
 

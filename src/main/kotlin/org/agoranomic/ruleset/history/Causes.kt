@@ -3,6 +3,7 @@ package org.agoranomic.ruleset.history
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import org.agoranomic.ruleset.RuleNumber
+import java.math.BigDecimal
 import java.math.BigInteger
 
 interface HistoricalCause {
@@ -42,12 +43,18 @@ sealed class ProposalNumber {
     abstract val readable: String
 }
 
+data class ProposalPower(
+    val rawPower: BigDecimal,
+    val omnipotent: Boolean,
+)
+
 data class ProposalData(
     val number: ProposalNumber,
     val title: String?,
     val chamber: String?,
     val isDisinterested: Boolean,
     val authorship: ProposalAuthorship,
+    val power: ProposalPower?,
 )
 
 object HistoricalCauses {
