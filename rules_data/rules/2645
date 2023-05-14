@@ -20,8 +20,8 @@ text: |
   - Sabotage Stone (weekly, 4): When wielded, the adoption index of
     a specified AI-majority Agoran decision is increased by 1.
 
-  - Jockey Stone (monthly, 3): When wielded, a specified Running
-    horse's Race Position is increased by 1.
+  - Minty Stone (weekly, 4): When wielded, a specified Player gains
+    a stamp of eir own type.
 
   - Protection Stone (monthly, 4): When wielded, a specified stone
     is granted immunity.
@@ -145,4 +145,9 @@ history:
   date: 2023-03-12
   agent:
     proposal: "8919"
+- change:
+    type: amendment
+  date: 2023-05-12
+  agent:
+    proposal: "8964"
 annotations: []
