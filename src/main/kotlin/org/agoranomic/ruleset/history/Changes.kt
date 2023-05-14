@@ -78,7 +78,7 @@ object HistoricalChanges {
         }
     }
 
-    private abstract class UncountedHistoricalChange(
+    abstract class UncountedHistoricalChange(
         private val value: String,
         override val effects: ImmutableSet<HistoricalChangeEffect>,
     ) : HistoricalChange {
@@ -101,14 +101,14 @@ object HistoricalChanges {
             effects(ENACTMENT),
         )
 
-    private data class Mutation(val from: MutabilityIndex?, val to: MutabilityIndex?) :
+    data class Mutation(val from: MutabilityIndex?, val to: MutabilityIndex?) :
         UncountedHistoricalChange(
             "Mutated${from?.let { " from MI=$it" } ?: ""}${to?.let { " to MI=$it" } ?: ""}",
             effects(TEXT_CHANGE),
         )
 
 
-    private data class PowerChange(val from: BigDecimal?, val to: BigDecimal?) :
+    data class PowerChange(val from: BigDecimal?, val to: BigDecimal?) :
         UncountedHistoricalChange(
             "Power changed${from?.let { " from $it" } ?: ""}${to?.let { " to $it" } ?: ""}",
             effects(METADATA_CHANGE),

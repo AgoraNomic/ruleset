@@ -1,6 +1,8 @@
 package org.agoranomic.ruleset.history
 
+import kotlinx.collections.immutable.ImmutableList
 import org.agoranomic.ruleset.RuleHistory
+import java.math.BigDecimal
 import java.time.LocalDate
 
 sealed class RuleHistoryValidationResult {
@@ -15,10 +17,35 @@ sealed class RuleHistoryValidationResult {
         data class DescendingDate(val first: LocalDate, val second: LocalDate) : Invalid(
             "date $second is before date $first",
         )
+
+        data class UnknownRulePower(val proposalNumber: ProposalNumber) : Invalid(
+            "proposal ${proposalNumber.readable} applied to rule of unknown power"
+        )
+
+        data class InsufficientPower(
+            val proposalNumber: ProposalNumber,
+            val proposalPower: BigDecimal,
+            val rulePower: BigDecimal
+        ) : Invalid(
+            "proposal ${proposalNumber.readable} of power $proposalPower applied to rule of greater power $rulePower"
+        )
+
+        object UnknownTargetPower : Invalid("rule changed to have unknown power")
+
+        data class InsufficientMutationPower(
+            val proposalNumber: ProposalNumber,
+            val proposalPower: BigDecimal,
+            val newRulePower: BigDecimal
+        ) : Invalid(
+            "proposal ${proposalNumber.readable} of power $proposalPower cannot set power of rule to $newRulePower"
+        )
     }
 }
 
-fun validateHistory(history: RuleHistory): RuleHistoryValidationResult {
+fun validateHistory(
+    history: RuleHistory,
+    finalPower: BigDecimal?,
+): RuleHistoryValidationResult {
     val entries = history.entries
 
     if (entries.isEmpty()) {
@@ -66,5 +93,115 @@ fun validateHistory(history: RuleHistory): RuleHistoryValidationResult {
             }
         }
 
+    val powerResult = validateRuleHistoryPower(
+        initialPower = ruleInitialPower(entries, finalPower),
+        history = history,
+    )
+
+    if (powerResult != null) return powerResult
+
     return RuleHistoryValidationResult.Valid
+}
+
+private fun validateRuleHistoryPower(
+    initialPower: BigDecimal?,
+    history: RuleHistory,
+): RuleHistoryValidationResult.Invalid? {
+    var currentRulePower: BigDecimal? = initialPower
+
+    for (entry in history.entries) {
+        val newPower = powerAfter(
+            previousPower = currentRulePower,
+            change = entry.change,
+        )
+
+        if (entry.cause is HistoricalCauses.Proposal) {
+            val entryResult = validateRuleChangePower(
+                currentRulePower = currentRulePower,
+                cause = entry.cause,
+                change = entry.change,
+            )
+
+            if (entryResult != null) return entryResult
+        }
+
+        currentRulePower = newPower
+    }
+
+    return null
+}
+
+private fun validateRuleChangePower(
+    currentRulePower: BigDecimal?,
+    cause: HistoricalCauses.Proposal,
+    change: HistoricalChange,
+): RuleHistoryValidationResult.Invalid? {
+    if (cause.proposalData.power == null) return null
+
+    if (currentRulePower == null) {
+        return RuleHistoryValidationResult.Invalid.UnknownRulePower(cause.proposalData.number)
+    }
+
+    if (cause.proposalData.power.omnipotent) return null
+
+    val proposalPower = cause.proposalData.power.rawPower
+
+    if (proposalPower < currentRulePower) {
+        return RuleHistoryValidationResult.Invalid.InsufficientPower(
+            proposalNumber = cause.proposalData.number,
+            proposalPower = proposalPower,
+            rulePower = currentRulePower,
+        )
+    }
+
+    val newPower = powerAfter(previousPower = currentRulePower, change)
+        ?: return RuleHistoryValidationResult.Invalid.UnknownTargetPower
+
+    if (proposalPower < newPower) {
+        return RuleHistoryValidationResult.Invalid.InsufficientMutationPower(
+            proposalNumber = cause.proposalData.number,
+            proposalPower = proposalPower,
+            newRulePower = newPower,
+        )
+    }
+
+    return null
+}
+
+private fun powerAfter(previousPower: BigDecimal?, change: HistoricalChange): BigDecimal? {
+    if (change is HistoricalChanges.Mutation) {
+        return (change.to as? HistoricalChanges.MutabilityIndex.Numeric)?.value
+    }
+
+    if (change is HistoricalChanges.PowerChange) {
+        return change.to
+    }
+
+    return previousPower
+}
+
+private fun ruleInitialPower(
+    entries: ImmutableList<HistoricalEntry>,
+    finalPower: BigDecimal?
+): BigDecimal? {
+    val powerChanges =
+        entries.filter { it.change is HistoricalChanges.Mutation || it.change is HistoricalChanges.PowerChange }
+
+    if (powerChanges.isEmpty()) {
+        return finalPower
+    }
+
+    return when (val first = powerChanges.first().change) {
+        is HistoricalChanges.Mutation -> {
+            (first.from as? HistoricalChanges.MutabilityIndex.Numeric)?.value
+        }
+
+        is HistoricalChanges.PowerChange -> {
+            first.from
+        }
+
+        else -> {
+            error("unexpected type")
+        }
+    }
 }

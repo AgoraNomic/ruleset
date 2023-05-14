@@ -6,11 +6,11 @@ import org.agoranomic.ruleset.RuleNumber
 import java.math.BigDecimal
 import java.math.BigInteger
 
-interface HistoricalCause {
+sealed interface HistoricalCause {
     val causeString: String
 }
 
-interface TaggedHistoricalCause : HistoricalCause {
+sealed interface TaggedHistoricalCause : HistoricalCause {
     val tag: String
 }
 
@@ -80,12 +80,12 @@ object HistoricalCauses {
     fun deviceExperiment(id: Int, madEngineer: String): HistoricalCause =
         DeviceExperiment(id = id, madEngineer = madEngineer)
 
-    private abstract class BaseCause(
+    abstract class BaseCause(
         override val tag: String,
         override val causeString: String,
     ) : TaggedHistoricalCause
 
-    private data class Proposal(val proposalData: ProposalData) : BaseCause(
+    data class Proposal(val proposalData: ProposalData) : BaseCause(
         PROPOSAL_CAUSE_TAG,
         "P${proposalData.number.readable}" +
                 (proposalData.title?.let { " '$it'" } ?: "") +

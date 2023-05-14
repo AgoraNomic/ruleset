@@ -179,8 +179,13 @@ private class RulekeeporCommand : CliktCommand() {
 
         if (validateHistory) {
             for (rule in rulesetState) {
+                val validationResult = validateHistory(
+                    history = rule.history,
+                    finalPower = rule.power,
+                )
+
                 @Suppress("UNUSED_VARIABLE")
-                val ensureExhaustive = when (val validationResult = validateHistory(rule.history)) {
+                val ensureExhaustive = when (validationResult) {
                     is RuleHistoryValidationResult.Valid -> {
                     }
 
