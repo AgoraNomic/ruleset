@@ -19,11 +19,11 @@ text: |
   more than 1 greater than the greatest previously anointed ritual
   number.
 
-  When a positive integral multiple of 41 is anointed as a ritual
-  number for the first time, the person who does so CAN, by
-  announcement, Raise the First Speaker in a powerful dance around
-  the Town Fountain. Doing so causes each player qualifying under
-  this Rule to gain 1 radiance.
+  For each positive integral multiple of 41, when that number is
+  anointed as a ritual number for the first time, the person who
+  does so CAN, by announcement, Raise the First Speaker in a
+  powerful dance around the Town Fountain. Doing so causes each
+  player qualifying under this Rule to gain 1 radiance.
 
   A player is qualifying under this Rule if and only if e is active,
   does not have the highest radiance of any player, and is not tied
@@ -44,3 +44,8 @@ history:
   date: 2023-04-16
   agent:
     proposal: "8943"
+- change:
+    type: amendment
+  date: 2023-05-12
+  agent:
+    proposal: "8960"
