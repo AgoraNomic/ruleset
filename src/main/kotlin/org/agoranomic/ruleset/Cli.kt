@@ -191,7 +191,7 @@ private class RulekeeporCommand : CliktCommand() {
 
                     is RuleHistoryValidationResult.Invalid -> {
                         echo(
-                            "Error in history validation for rule ${rule.id}: ${validationResult.readableMessage}",
+                            "Error in history validation for rule ${rule.id.readable}: ${validationResult.readableMessage}",
                             err = true,
                         )
 
