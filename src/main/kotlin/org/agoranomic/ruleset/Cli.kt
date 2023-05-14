@@ -178,6 +178,8 @@ private class RulekeeporCommand : CliktCommand() {
                 .let { RulesetState(it.toSet()) }
 
         if (validateHistory) {
+            var errors = false
+
             for (rule in rulesetState) {
                 val validationResult = validateHistory(
                     history = rule.history,
@@ -195,9 +197,13 @@ private class RulekeeporCommand : CliktCommand() {
                             err = true,
                         )
 
-                        exitProcess(1)
+                        errors = true
                     }
                 }
+            }
+
+            if (errors) {
+                exitProcess(1)
             }
         }
 
