@@ -11,6 +11,11 @@ text: |
   cease to be a candidate by announcement if there is at least one
   other candidate.
 
+  Each candidate in an election is ENCOURAGED to campaign by
+  indicating why e would be the best choice, and (if applicable) how
+  e would run the office differently than the previous holder.  The
+  ADoP SHOULD remind candidates to campaign.
+
   An election whose nomination period is complete is contested if it
   has two or more candidates, and uncontested otherwise. Nominations
   close at the end of the poll's voting period or when the election
@@ -356,4 +361,9 @@ history:
   date: 2021-06-14
   agent:
     proposal: "8561"
+- change:
+    type: amendment
+  date: 2023-05-19
+  agent:
+    proposal: "8967"
 annotations: []
