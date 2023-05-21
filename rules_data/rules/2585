@@ -11,7 +11,7 @@ text: |
   declared as eir Agoran Birthday.
 
   In a timely manner after the start of a player's Agoran Birthday,
-  the Herald SHALL announce it.
+  the Registrar SHALL announce it.
 history:
 - change:
     type: enactment
@@ -58,6 +58,11 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8872"
+- change:
+    type: amendment
+  date: 2023-05-19
+  agent:
+    proposal: "8965"
 annotations:
 - cfjs:
   - id: 3873
