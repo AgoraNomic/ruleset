@@ -1,0 +1,39 @@
+id: 2682
+name: The Rice Game
+power: 1
+text: |
+  The Ricemastor is an office, in charge of tracking Rice, Rice
+  Plans and Signatures. Rice is a fixed asset, ownable only by
+  players. Any active player can create a Rice Plan by announcement,
+  if e hasn't done so yet in the current week. Rice Plans can have
+  Signatures, and each Signature must be of an active player. A Rice
+  Plan has an active player's Signature as long as that player is
+  consenting to it. An active player can destroy a Rice Plan that e
+  has created by announcement.
+
+  A Harvest occurs at the beginning of each week. When this occurs:
+  - If there is only one Rice Plan with the most Signatures, that
+    Rice Plan is Harvested.
+  - If there is more than one Rice Plan with the most Signatures,
+    the one that was created earliest is Harvested.
+  - In all other cases, nothing happens.
+  And then all Rice Plans are destroyed and the Harvest ends.
+
+  Rice Plans consist of two lists of players, with each list having
+  no repeated players, and the lists can be empty. One of these
+  lists is its Rice Up list, and the other is its Rice Down list.
+  When a Rice Plan is Harvested, for each player listed in its Rice
+  Up list, if that player is active, e gains 1 Rice; and for each
+  player listed in its Rice Down list, if e has at least 1 Rice then
+  e lose 1 Rice.
+
+  If after a Harvest there is a single active player with at least 2
+  Rice and more Rice than any other player, then that player wins
+  the game, and all Rice is destroyed. When the game has been won in
+  this manner three times, this rule repeals itself.
+history:
+- change:
+    type: enactment
+  date: 2023-05-19
+  agent:
+    proposal: "8969"
