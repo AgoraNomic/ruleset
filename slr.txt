@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 14 May 2023
+Date of this ruleset: 21 May 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 131
+Number of rules currently enacted: 132
 
-Highest ID'd rule in this ruleset: 2681
-Highest ID'd Proposal Passed: 8964
-Highest ID'd Rule Enacted: 2681
+Highest ID'd rule in this ruleset: 2682
+Highest ID'd Proposal Passed: 8971
+Highest ID'd Rule Enacted: 2682
 
 ========================================================================
 The Game of Agora
@@ -1571,7 +1571,7 @@ The Election Cycle
       initiated if one is already in progress.
 
 ------------------------------------------------------------------------
-Rule 2154/60 (Power=2)
+Rule 2154/61 (Power=2)
 Election Procedure
 
       When an election is initiated, it enters the nomination period,
@@ -1582,6 +1582,11 @@ Election Procedure
       make em Overpowered. During the nomination period, a candidate CAN
       cease to be a candidate by announcement if there is at least one
       other candidate.
+      
+      Each candidate in an election is ENCOURAGED to campaign by
+      indicating why e would be the best choice, and (if applicable) how
+      e would run the office differently than the previous holder.  The
+      ADoP SHOULD remind candidates to campaign.
       
       An election whose nomination period is complete is contested if it
       has two or more candidates, and uncontested otherwise. Nominations
@@ -2641,7 +2646,7 @@ Welcome Packages
       registered nor in the last 30 days.
 
 ------------------------------------------------------------------------
-Rule 2585/8 (Power=1)
+Rule 2585/9 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -2653,7 +2658,7 @@ Birthday Gifts
       declared as eir Agoran Birthday.
       
       In a timely manner after the start of a player's Agoran Birthday,
-      the Herald SHALL announce it.
+      the Registrar SHALL announce it.
 
 ------------------------------------------------------------------------
 Rule 2675/8 (Power=2)
@@ -2974,6 +2979,40 @@ Win by Paradox
       prevent the paradox from arising again.
 
 ------------------------------------------------------------------------
+Rule 2682/0 (Power=1)
+The Rice Game
+
+      The Ricemastor is an office, in charge of tracking Rice, Rice
+      Plans and Signatures. Rice is a fixed asset, ownable only by
+      players. Any active player can create a Rice Plan by announcement,
+      if e hasn't done so yet in the current week. Rice Plans can have
+      Signatures, and each Signature must be of an active player. A Rice
+      Plan has an active player's Signature as long as that player is
+      consenting to it. An active player can destroy a Rice Plan that e
+      has created by announcement.
+      
+      A Harvest occurs at the beginning of each week. When this occurs:
+      - If there is only one Rice Plan with the most Signatures, that
+        Rice Plan is Harvested.
+      - If there is more than one Rice Plan with the most Signatures,
+        the one that was created earliest is Harvested.
+      - In all other cases, nothing happens.
+      And then all Rice Plans are destroyed and the Harvest ends.
+      
+      Rice Plans consist of two lists of players, with each list having
+      no repeated players, and the lists can be empty. One of these
+      lists is its Rice Up list, and the other is its Rice Down list.
+      When a Rice Plan is Harvested, for each player listed in its Rice
+      Up list, if that player is active, e gains 1 Rice; and for each
+      player listed in its Rice Down list, if e has at least 1 Rice then
+      e lose 1 Rice.
+      
+      If after a Harvest there is a single active player with at least 2
+      Rice and more Rice than any other player, then that player wins
+      the game, and all Rice is destroyed. When the game has been won in
+      this manner three times, this rule repeals itself.
+
+------------------------------------------------------------------------
 ========================================================================
 Awards
    Even if it's not a win, there are still a good few opportunities to
@@ -3283,17 +3322,23 @@ Official Patent Titles
       especially if the potential awardee is the officer emself.
 
 ------------------------------------------------------------------------
-Rule 2582/2 (Power=1)
+Rule 2582/3 (Power=1)
 Annual Awards
 
       April is hereby designated Awards Month.
       
+      
       The following Patent Titles CAN be awarded by the indicated
-      Officers with 2 Agoran consent, provided the intent to make
-      the awards is announced during awards month, and the award is
-      made to commemorate acts performed in the previous Agoran year.
-      The full name of each awarded Patent Title is [Title Below] NNNN,
-      where NNNN is the year each act was performed.
+      Officers with 2 Agoran consent. The Patent Titles SHOULD be
+      awarded during Awards Month, and the award SHOULD be made to
+      commemorate acts performed in the previous Agoran year. The full
+      name of each awarded Patent Title is [Title Below] NNNN, where
+      NNNN is the year each act was performed.
+      
+      The Herald SHALL announce it is Awards Month in an officially
+      timely fashion after it begins. E SHOULD petition officers to
+      award their awards if they have not done so by the end of Awards
+      Month.
       
       Each indicated Officer SHOULD award these titles to 1-2 persons
       each year, and SHOULD solicit an open call for nominations and
