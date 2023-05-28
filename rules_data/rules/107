@@ -31,7 +31,9 @@ text: |
   message.
 
   A public notice purporting to initiate an Agoran decision is a
-  self-ratifying attestation of the notice's validity.
+  self-ratifying attestation that the notice was valid, that the
+  person (if any) publishing the notice was authorized to initiate
+  the decision, and that such a decision was initiated.
 history:
 - change:
     type: initial
@@ -171,6 +173,11 @@ history:
   date: 2021-06-23
   agent:
     proposal: "8585"
+- change:
+    type: amendment
+  date: 2023-05-25
+  agent:
+    proposal: "8978"
 annotations:
 - cfjs:
   - id: '1650'
