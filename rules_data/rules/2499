@@ -5,7 +5,6 @@ text: |
   A Welcome Package is a set of assets containing:
 
   * 1 Stamp of eir own type
-  * the number of hooves the player(s) with the most hooves has
 
   Any player CAN, by announcement, grant a Welcome Package to any
   player if the grantee has neither received one since e last
@@ -121,4 +120,9 @@ history:
   date: 2023-01-01
   agent:
     proposal: "8874"
+- change:
+    type: amendment
+  date: 2023-05-25
+  agent:
+    proposal: "8973"
 annotations: []
