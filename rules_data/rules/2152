@@ -23,11 +23,11 @@ text: |
      described action, the full implications of performing it ought
      to be be understood and carefully weighed.
 
-  5. CAN, POSSIBLE: Attempts to perform the described action are
-     successful.
+  5. CAN, POSSIBLE, EFFECTIVE, VALID: Attempts to perform the
+     described action are successful.
 
-  6. MAY: Performing the described action does not violate the
-     rules.
+  6. MAY, LEGAL, PERMISSIBLE: Performing the described action does
+     not violate the rules.
 
   7. MUST, SHALL, REQUIRED, MANDATORY: Failing to perform the
      described action violates the rule in question.
@@ -105,6 +105,11 @@ history:
   date: 2023-04-16
   agent:
     proposal: "8942"
+- change:
+    type: amendment
+  date: 2023-05-25
+  agent:
+    proposal: "8972"
 annotations:
 - cfjs:
   - id: '1132'
