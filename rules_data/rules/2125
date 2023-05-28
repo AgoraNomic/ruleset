@@ -10,8 +10,13 @@ text: |
 
   A Regulated Action CAN only be performed as described by the
   Rules, and only using the methods explicitly specified in the
-  Rules for performing the given action. The Rules SHALL NOT be
+  Rules for performing the given action. The Rules are not to be
   interpreted so as to proscribe unregulated actions.
+
+  The above notwithstanding, sending a message (in general or with
+  specific attributes) is never a regulated action; however, the
+  rules may be interpreted so as to proscribe sending public
+  messages (in general or with specific attributes).
 history:
 - change:
     type: enactment
@@ -84,6 +89,16 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8539"
+- change:
+    type: amendment
+  date: 2023-05-25
+  agent:
+    proposal: "8975"
+- change:
+    type: amendment
+  date: 2023-05-25
+  agent:
+    proposal: "8975"
 annotations:
 - cfjs:
   - id: '3737'
