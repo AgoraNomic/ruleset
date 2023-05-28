@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 21 May 2023
+Date of this ruleset: 28 May 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 132
 
 Highest ID'd rule in this ruleset: 2682
-Highest ID'd Proposal Passed: 8971
+Highest ID'd Proposal Passed: 8978
 Highest ID'd Rule Enacted: 2682
 
 ========================================================================
@@ -141,7 +141,7 @@ Fora
       explicitly and is secured at power 2.
 
 ------------------------------------------------------------------------
-Rule 2139/16 (Power=2)
+Rule 2139/17 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -161,12 +161,6 @@ The Registrar
       
       1. For each former player for which the information is reasonably
          available, the dates on which e registered and deregistered.
-      
-      The Registrar's duties and abilities also include:
-      
-      * Changing the publicity of a forum.
-      
-      * Publishing Cantus Cygnei and Writs of FAGE.
 
 ------------------------------------------------------------------------
 Rule 1789/11 (Power=3)
@@ -295,7 +289,7 @@ General Definitions
    chances are that the Agoran definition of that word is described in
    one of these rules.
 ------------------------------------------------------------------------
-Rule 2152/10 (Power=3)
+Rule 2152/11 (Power=3)
 Mother, May I?
 
       The following terms are defined. These definitions are used when a
@@ -319,11 +313,11 @@ Mother, May I?
          described action, the full implications of performing it ought
          to be be understood and carefully weighed.
       
-      5. CAN, POSSIBLE: Attempts to perform the described action are
-         successful.
+      5. CAN, POSSIBLE, EFFECTIVE, VALID: Attempts to perform the
+         described action are successful.
       
-      6. MAY: Performing the described action does not violate the
-         rules.
+      6. MAY, LEGAL, PERMISSIBLE: Performing the described action does
+         not violate the rules.
       
       7. MUST, SHALL, REQUIRED, MANDATORY: Failing to perform the
          described action violates the rule in question.
@@ -364,7 +358,7 @@ Agoran Numbers
       to the contrary notwithstanding.
 
 ------------------------------------------------------------------------
-Rule 2125/13 (Power=3)
+Rule 2125/15 (Power=3)
 Regulated Actions
 
       An action is regulated if: (1) the Rules limit, allow, enable, or
@@ -375,8 +369,13 @@ Regulated Actions
       
       A Regulated Action CAN only be performed as described by the
       Rules, and only using the methods explicitly specified in the
-      Rules for performing the given action. The Rules SHALL NOT be
+      Rules for performing the given action. The Rules are not to be
       interpreted so as to proscribe unregulated actions.
+      
+      The above notwithstanding, sending a message (in general or with
+      specific attributes) is never a regulated action; however, the
+      rules may be interpreted so as to proscribe sending public
+      messages (in general or with specific attributes).
 
 ------------------------------------------------------------------------
 Rule 1023/40 (Power=2)
@@ -1171,7 +1170,7 @@ Agoran Decisions
       3. Resolution of the decision.
 
 ------------------------------------------------------------------------
-Rule 107/24 (Power=3)
+Rule 107/25 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -1203,7 +1202,9 @@ Initiating Agoran Decisions
       message.
       
       A public notice purporting to initiate an Agoran decision is a
-      self-ratifying attestation of the notice's validity.
+      self-ratifying attestation that the notice was valid, that the
+      person (if any) publishing the notice was authorized to initiate
+      the decision, and that such a decision was initiated.
 
 ------------------------------------------------------------------------
 Rule 2528/0 (Power=3)
@@ -1371,29 +1372,23 @@ Quorum
       minimum instead.
 
 ------------------------------------------------------------------------
-Rule 2422/7 (Power=3)
+Rule 2422/8 (Power=3)
 Voting Strength
 
       The voting strength of an entity on an Agoran decision is an
-      integer between 0 and 15 inclusive, defined by rules of power 2
-      or greater. If not otherwise specified, the voting strength of
-      an entity on an Agoran decision is 3.
+      integer between 0 and 15 inclusive, defined by rules of power 2 or
+      greater. If not otherwise specified, the voting strength of an
+      entity on an Agoran decision is 3.
       
       When multiple rules set or modify an entity's voting strength on
       an Agoran decision, it shall be determined by first applying the
       rule(s) which set it to a specific value, using the ordinary
-      precedence of rules, and then applying the rules, other than
-      this one, which modify it, in numerical order by ID. Finally, if
-      the result of the calculation is not an integer, it is rounded
-      up, and then if it is outside the allowable range of values for
-      voting strength, it is set to the minimum value if it was less
-      and the maximum value if it was more.
-      
-      A player CAN Buy Strength by paying 1 Extra Vote and specifying a
-      current Agoran decision on which e is a voter. For each time a
-      player has Bought Strength on a decision, eir voting strength is 1
-      greater on that decision. A player CANNOT Buy Strength for the
-      same decision more than 3 times.
+      precedence of rules, and then applying the rules, other than this
+      one, which modify it, in numerical order by ID. Finally, if the
+      result of the calculation is not an integer, it is rounded up, and
+      then if it is outside the allowable range of values for voting
+      strength, it is set to the minimum value if it was less and the
+      maximum value if it was more.
 
 ------------------------------------------------------------------------
 Rule 2127/11 (Power=3)
@@ -1899,7 +1894,7 @@ Ratification
       Ratification is secured with power threshold 3.
 
 ------------------------------------------------------------------------
-Rule 2202/9 (Power=3)
+Rule 2202/10 (Power=3)
 Ratification Without Objection
 
       A public document is part (possibly all) of a public message.
@@ -1918,7 +1913,7 @@ Ratification Without Objection
       unless the general nature of the document's error and reason for
       ratifying it is clearly and plainly described in the announcement
       of intent. Such ratification or announcement of intent to ratify
-      is the Class 8 Crime of Endorsing Forgery.
+      is the Class 8 Infraction of Endorsing Forgery.
 
 ------------------------------------------------------------------------
 Rule 2201/10 (Power=3)
@@ -2633,13 +2628,12 @@ Stamps
       different type.
 
 ------------------------------------------------------------------------
-Rule 2499/20 (Power=1)
+Rule 2499/21 (Power=1)
 Welcome Packages
 
       A Welcome Package is a set of assets containing:
       
       * 1 Stamp of eir own type
-      * the number of hooves the player(s) with the most hooves has
       
       Any player CAN, by announcement, grant a Welcome Package to any
       player if the grantee has neither received one since e last
@@ -3374,21 +3368,26 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/29 (Power=2)
+Rule 103/30 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
-      Agora.
+      Agora. The player or players who have most recently won the game
+      are called Laureled. If at any time the office of Speaker is
+      vacant, or when one or more players win Agora, then the Prime
+      Minister CAN once appoint a Laureled player to the office of
+      Speaker by announcement.
       
-      The player or players who have most recently won the game are
-      called Laureled. If at any time the office of Speaker is vacant,
-      or when one or more players win Agora, then the Prime Minister CAN
-      once appoint a Laureled player to the office of Speaker by
-      announcement.  Whenever the Prime Minister CAN appoint a Laureled
-      player to the office of Speaker, e SHALL do so in a timely manner,
-      except that the Prime Minister MAY defer appointing a new Speaker
-      while there is pending one or more open CFJs that could plausibly
-      determine or affect the question of whether a player is Laureled.
+      Whenever the Prime Minister CAN appoint a Laureled player to the
+      office of Speaker, e SHALL do so in a timely manner, except that
+      the Prime Minister MAY defer appointing a new Speaker while there
+      is pending one or more open CFJs that could plausibly determine or
+      affect the question of whether a player is Laureled.  If the Prime
+      Minister is emself Laureled, eir power to appoint a Speaker
+      continues for the entirety of a message in which e resigns as
+      Prime Minister, and if e is the only Laureled player, e CAN void
+      that power, and thereby discharge the obligation to use it, by
+      announcing that e declines to take the office.
       
       If the office of Speaker has been held continuously by the same
       person for the past 90+ days, then any player CAN appoint another
