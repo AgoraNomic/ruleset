@@ -19,9 +19,10 @@ text: |
 
   An Unregistered person CAN (unless explicitly forbidden or
   prevented by the rules) register by publishing a message that
-  indicates reasonably clearly and reasonably unambiguously that e
-  intends to become a player at that time. No person can be a player
-  if e is part of another player or another player is part of em.
+  indicates reasonably clearly and reasonably unambiguously eir
+  desire to become a player at that time (for example, by saying "I
+  register"). No person can be a player if e is part of another
+  player or another player is part of em.
 
   A player, acting as emself, CAN deregister (cease being a player)
   by announcement. If e does so, e CANNOT register or be registered
@@ -319,6 +320,11 @@ history:
   date: 2022-11-26
   agent:
     proposal: "8867"
+- change:
+    type: amendment
+  date: 2023-05-31
+  agent:
+    proposal: "8984"
 annotations:
 - cfjs:
   - id: '1275'
