@@ -36,7 +36,7 @@ text: |
     appropriate if PARADOXICAL is appropriate.
 
   * PARADOXICAL, appropriate if the statement is logically
-    undecidable as a result of a paradox or or other irresovable
+    undecidable as a result of a paradox or or other irresolvable
     logical situation. PARADOXICAL is not appropriate if IRRELEVANT
     is appropriate, nor is it appropriate if the undecidability
     arises from the case itself or in reference to it.
@@ -340,6 +340,12 @@ history:
   agent:
     cleaning:
       by: G.
+- change:
+    type: amendment
+  date: 2023-06-04
+  agent:
+    cleaning:
+      by: 4st
 annotations:
 - cfjs:
   - id: '1835'
