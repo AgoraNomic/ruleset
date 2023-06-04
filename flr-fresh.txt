@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 May 2023
+Date of this ruleset: 4 Jun 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 132
+Number of rules currently enacted: 131
 
 Highest ID'd rule in this ruleset: 2682
-Highest ID'd Proposal Passed: 8978
+Highest ID'd Proposal Passed: 8984
 Highest ID'd Rule Enacted: 2682
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -143,7 +143,6 @@ Stones
    * Rule 2645: The Stones
 Scoring
    * Rule 2656: Radiance
-   * Rule 2680: Ritual Paper Dance
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -182,7 +181,7 @@ Power Distribution:
 
 1  with Power=0.3
 1  with Power=0.5
-31 with Power=1
+30 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -314,7 +313,7 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/51 (Power=3)
+Rule 869/52 (Power=3)
 How to Join and Leave Agora
 
       Any entity (including a group of entities confederated with the
@@ -334,9 +333,10 @@ How to Join and Leave Agora
       
       An Unregistered person CAN (unless explicitly forbidden or
       prevented by the rules) register by publishing a message that
-      indicates reasonably clearly and reasonably unambiguously that e
-      intends to become a player at that time. No person can be a player
-      if e is part of another player or another player is part of em.
+      indicates reasonably clearly and reasonably unambiguously eir
+      desire to become a player at that time (for example, by saying "I
+      register"). No person can be a player if e is part of another
+      player or another player is part of em.
       
       A player, acting as emself, CAN deregister (cease being a player)
       by announcement. If e does so, e CANNOT register or be registered
@@ -421,6 +421,7 @@ Amended(50) by P8866 'Restricted confederation' (Janet, Aris), 26 Nov
    2022
 Amended(51) by P8867 'Expectations, Values, Bans, and Forgiveness' (nix,
    Janet, R. Lee, Murphy, G.), 26 Nov 2022
+Amended(52) by P8984 'Clarifying Intentions' (nix, ais523), 31 May 2023
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -4962,7 +4963,7 @@ CFJ 3876 (called 30 Jul 2020): Interest in judging is not regulated, and
     can be determined in accordance with common sense.
 
 ------------------------------------------------------------------------
-Rule 591/49 (Power=1.7)
+Rule 591/50 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
@@ -4999,7 +5000,7 @@ Delivering Judgements
         appropriate if PARADOXICAL is appropriate.
       
       * PARADOXICAL, appropriate if the statement is logically
-        undecidable as a result of a paradox or or other irresovable
+        undecidable as a result of a paradox or or other irresolvable
         logical situation. PARADOXICAL is not appropriate if IRRELEVANT
         is appropriate, nor is it appropriate if the undecidability
         arises from the case itself or in reference to it.
@@ -5083,6 +5084,7 @@ Amended(46) by P8215 'recusal simplification' (G.), 05 Sep 2019
 Amended(47) by P8450 'CFJ extensions' (G.), 30 Jun 2020
 Amended(48) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 Amended(49) by cleaning (G.), 17 Jun 2021
+Amended(50) by cleaning (4st), 04 Jun 2023
 
 Annotations:
 CFJ 1835 (called 18 Dec 2007): A question cannot generally take the
@@ -6410,47 +6412,6 @@ Amended(4) by P8914 'Can't Trust Em To Do Eir Own Work' (nix), 12 Mar
    2023
 Retitled by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2680/3 (Power=1)
-Ritual Paper Dance
-
-      Each of the following is a ritual act:
-      - Issuing a Cabinet Order.
-      - Assigning a judgement to a CFJ.
-      - Publishing the first report of a given Rules-defined type in an
-        Agoran week, provided such publishing fulfilled a Rules-defined
-        duty to publish.
-      - For each person, eir becoming a candidate in an election for the
-        first time in an Agoran week.
-      - For each person, eir submitting a ballot on an Agoran decision
-        for the first time in an Agoran week.
-      
-      When a ritual act is performed, any player CAN, within 7 days, by
-      announcement anoint a ritual number, specifying the ritual act and
-      the new ritual number. The anointed ritual number must be 0 or not
-      more than 1 greater than the greatest previously anointed ritual
-      number.
-      
-      For each positive integral multiple of 41, when that number is
-      anointed as a ritual number for the first time, the person who
-      does so CAN, by announcement, Raise the First Speaker in a
-      powerful dance around the Town Fountain. Doing so causes each
-      player qualifying under this Rule to gain 1 radiance.
-      
-      A player is qualifying under this Rule if and only if e is active,
-      does not have the highest radiance of any player, and is not tied
-      for the highest radiance among players.
-
-History:
-
-Enacted by P8918 'Ritual Paper Dance V2' (4st, nix, G., Murphy), 12 Mar
-   2023
-Amended(1) by P8933 'Ritual Ratification' (Janet), 26 Mar 2023
-Amended(2) by P8943 'Ritual rewrite' (Janet, G.), 16 Apr 2023
-Amended(3) by P8960 'Ritual disambiguation' (ais523), 12 May 2023
 
 Annotations:
 
