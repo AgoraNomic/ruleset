@@ -11,6 +11,9 @@ text: |
   SHOULD be referred to by the same title, but the title is not an
   essential attribute of the promise, just a way of referring to it.
 
+  The creation of promises is secured. The text of a promise CANNOT
+  be altered after it is created.
+
   A promise's bearer CAN, by announcement, cash the promise,
   provided that any conditions for cashing it specified by its text
   are unambiguously met. By doing so, e acts on the creator of the
@@ -68,4 +71,9 @@ history:
   date: 2022-04-29
   agent:
     proposal: "8665"
+- change:
+    type: amendment
+  date: 2023-06-04
+  agent:
+    proposal: "8987"
 annotations: []
