@@ -32,7 +32,7 @@ text: |
   * All rice plans are destroyed.
 
   Immediately after a harvest, if a single active player has at
-  least 2 rice and more rice than any other player, e wins the game,
+  least 5 rice and more rice than any other player, e wins the game,
   then all rice and rice plans are destroyed. If the game has been
   won in this manner three times, this rule immediately repeals
   itself.
@@ -47,3 +47,8 @@ history:
   date: 2023-06-04
   agent:
     proposal: "8988"
+- change:
+    type: amendment
+  date: 2023-06-04
+  agent:
+    proposal: "8989"
