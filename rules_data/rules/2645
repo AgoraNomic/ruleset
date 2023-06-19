@@ -12,10 +12,9 @@ text: |
     time that e was Power Stoned during the referendum's voting
     period.
 
-  - Soul Stone (weekly, 3): When wielded, the Soul Stone is
-    transferred to the owner of a different specified non-immune
-    stone not owned by Agora, then that stone is transferred to the
-    wielder.
+  - Soul Stone (weekly, 3): When wielded, this stone is transferred
+    to the owner of a different specified non-immune stone not owned
+    by Agora, then that stone is transferred to the wielder.
 
   - Sabotage Stone (weekly, 4): When wielded, the adoption index of
     a specified AI-majority Agoran decision is increased by 1.
@@ -26,9 +25,8 @@ text: |
   - Protection Stone (monthly, 4): When wielded, a specified stone
     is granted immunity.
 
-  - Recursion Stone (Monthly, 4): The Recursion Stone can be wielded
-    once per month as if it had the power of any other stone of your
-    choice.
+  - Recursion Stone (Monthly, 4): This stone can be wielded once per
+    month as if it had the power of any other stone of your choice.
 
   - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
     wielder specifies an eligible player and gains 8 radiance. The
@@ -44,8 +42,8 @@ text: |
   - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
     non-immune stone is transferred to the wielder. If more than one
     such stone is tied for mossiest, a specified one is transferred.
-    When this happens, the Anti-Equatorial Stone's mossiness is
-    incremented by 1.
+    When this happens, the wielded stone's mossiness is incremented
+    by 1.
 
   - Radiance Stone (Weekly, 3): When wielded, a specified player
     (defaulting to the wielder if not specified) gains 3 radiance.
@@ -150,4 +148,9 @@ history:
   date: 2023-05-12
   agent:
     proposal: "8964"
+- change:
+    type: amendment
+  date: 2023-06-19
+  agent:
+    proposal: "8990"
 annotations: []
