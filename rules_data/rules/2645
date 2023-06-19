@@ -25,8 +25,11 @@ text: |
   - Protection Stone (monthly, 4): When wielded, a specified stone
     is granted immunity.
 
-  - Recursion Stone (Monthly, 4): This stone can be wielded once per
-    month as if it had the power of any other stone of your choice.
+  - Recursion Stone (Monthly, 4): The Recursion Stone can be wielded
+    once per month as if it had the power of any other stone of your
+    choice (the Blueprint Stone), with any references to the
+    Blueprint Stone itself changed to the Recursion Stone unless
+    they specify otherwise.
 
   - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
     wielder specifies an eligible player and gains 8 radiance. The
@@ -153,4 +156,9 @@ history:
   date: 2023-06-19
   agent:
     proposal: "8990"
+- change:
+    type: amendment
+  date: 2023-06-19
+  agent:
+    proposal: "8995"
 annotations: []
