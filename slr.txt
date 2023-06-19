@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 11 Jun 2023
+Date of this ruleset: 19 Jun 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 131
+Number of rules currently enacted: 132
 
-Highest ID'd rule in this ruleset: 2682
-Highest ID'd Proposal Passed: 8989
-Highest ID'd Rule Enacted: 2682
+Highest ID'd rule in this ruleset: 2684
+Highest ID'd Proposal Passed: 8997
+Highest ID'd Rule Enacted: 2684
 
 ========================================================================
 The Game of Agora
@@ -55,6 +55,60 @@ Rule 2056/1 (Power=1)
 Invisibilitating
 
       Invisibilitating is a Class 1 infraction.
+
+------------------------------------------------------------------------
+Rule 2683/0 (Power=0.5)
+The Boulder
+
+      The Absurdor is an office.
+      
+      The Boulder's Height is a singleton integer switch defaulting to
+      0, tracked by the Absurdor.
+      
+      Each player CAN, once a week, by announcement, push the boulder.
+      When a player pushes the Boulder, its Height is increased by 1.
+      Players are ENCOURAGED to do so. The Boulder MUST be pushed at
+      least once a week.
+      
+      If at any point the height of the Boulder is 100 or more, it is
+      set to 0.
+
+------------------------------------------------------------------------
+Rule 2684/0 (Power=1.0)
+The Button
+
+      The Buttonmastor is an office.
+      
+      The Button is a singleton switch tracked by the Buttonmastor with
+      instants in time as possible values, defaulting to the instant
+      this rule was created.
+      
+      Buttonclass is a player switch tracked by the Buttonmastor with
+      possible values Red, Orange, Yellow, Green, Blue, Indigo, Violet
+      or None, defaulting to None.
+      
+      A player CAN, once a week, by announcement, press the button.
+      
+      When a player presses the button, two things happen:
+      
+      1. The Button is flipped to the instant e did it.
+      
+      2. That player's Buttonclass is flipped to a value depending on
+         the amount of hours passed between the previous value of The
+         Button and the current one, as specified below:
+      
+         * Less than 24: Red;
+         * 24 or more, but less than 48: Orange;
+         * 48 or more, but less than 72: Yellow;
+         * 72 or more, but less than 96: Green;
+         * 96 or more, but less than 120: Blue;
+         * 120 or more, but less than 144: Indigo;
+         * 144 or more: Violet.
+      
+      If value of The Button is more than 168 hours in the past, this
+      rule repeals itself.
+      
+      Players are ENCOURAGED to brag on their Buttonclass.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2612,14 +2666,15 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/3 (Power=1)
+Rule 2659/4 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players . The
       Collector is an office. The Collector tracks Stamps in eir weekly
       report.
       
-      For each person there is a corresponding type of stamp.
+      For each person there is a corresponding type of stamp. Stamps of
+      any given type are a currency.
       
       Any player CAN, once per week, pay X Stamps, where each specified
       Stamp is a different type, to gain (X^2)-X radiance.
@@ -2832,7 +2887,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/19 (Power=2)
+Rule 2645/21 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2845,10 +2900,9 @@ The Stones
         time that e was Power Stoned during the referendum's voting
         period.
       
-      - Soul Stone (weekly, 3): When wielded, the Soul Stone is
-        transferred to the owner of a different specified non-immune
-        stone not owned by Agora, then that stone is transferred to the
-        wielder.
+      - Soul Stone (weekly, 3): When wielded, this stone is transferred
+        to the owner of a different specified non-immune stone not owned
+        by Agora, then that stone is transferred to the wielder.
       
       - Sabotage Stone (weekly, 4): When wielded, the adoption index of
         a specified AI-majority Agoran decision is increased by 1.
@@ -2861,7 +2915,9 @@ The Stones
       
       - Recursion Stone (Monthly, 4): The Recursion Stone can be wielded
         once per month as if it had the power of any other stone of your
-        choice.
+        choice (the Blueprint Stone), with any references to the
+        Blueprint Stone itself changed to the Recursion Stone unless
+        they specify otherwise.
       
       - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
         wielder specifies an eligible player and gains 8 radiance. The
@@ -2877,8 +2933,8 @@ The Stones
       - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
         non-immune stone is transferred to the wielder. If more than one
         such stone is tied for mossiest, a specified one is transferred.
-        When this happens, the Anti-Equatorial Stone's mossiness is
-        incremented by 1.
+        When this happens, the wielded stone's mossiness is incremented
+        by 1.
       
       - Radiance Stone (Weekly, 3): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
@@ -2944,45 +3000,6 @@ Win by Paradox
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
-
-------------------------------------------------------------------------
-Rule 2682/2 (Power=1)
-The Rice Game
-
-      The Ricemastor is an office.
-      
-      Rice is a fixed asset tracked by the Ricemastor, with ownership
-      wholly restricted to players. If a rice would otherwise be in
-      abeyance or is owned by the Lost and Found Department, it is
-      destroyed.
-      
-      An active player CAN create a rice plan by announcement once per
-      week, specifying two sets of players (the rice up set and the rice
-      down set).  When a rice plan is harvested, each active player in
-      the rice up set gains one rice, then one rice is revoked from each
-      player in the rice down set (if e has any). The Ricemastor's
-      weekly report includes a list of rice plans. The creator of a rice
-      plan CAN by announcement destroy it, thereby causing it to cease
-      to be a rice plan.
-      
-      An active player CAN by announcement sign a specified rice plan.
-      An active player's signature is on a rice plan if e has signed it
-      or if a contract e is party to clearly and unambiguously states
-      that eir signature is on it. The Ricemastor's weekly report
-      includes, for each rice plan, a list of players with signatures on
-      it.
-      
-      A harvest occurs at the beginning of each week. When a harvest
-      occurs, the following happen in order:
-      * The rice plan with the most signatures (breaking ties in favor
-        of the earliest created), if any, is harvested.
-      * All rice plans are destroyed.
-      
-      Immediately after a harvest, if a single active player has at
-      least 5 rice and more rice than any other player, e wins the game,
-      then all rice and rice plans are destroyed. If the game has been
-      won in this manner three times, this rule immediately repeals
-      itself.
 
 ------------------------------------------------------------------------
 ========================================================================
