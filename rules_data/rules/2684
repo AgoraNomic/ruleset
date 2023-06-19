@@ -1,0 +1,42 @@
+id: 2684
+name: The Button
+power: 1.0
+text: |
+  The Buttonmastor is an office.
+
+  The Button is a singleton switch tracked by the Buttonmastor with
+  instants in time as possible values, defaulting to the instant
+  this rule was created.
+
+  Buttonclass is a player switch tracked by the Buttonmastor with
+  possible values Red, Orange, Yellow, Green, Blue, Indigo, Violet
+  or None, defaulting to None.
+
+  A player CAN, once a week, by announcement, press the button.
+
+  When a player presses the button, two things happen:
+
+  1. The Button is flipped to the instant e did it.
+
+  2. That player's Buttonclass is flipped to a value depending on
+     the amount of hours passed between the previous value of The
+     Button and the current one, as specified below:
+
+     * Less than 24: Red;
+     * 24 or more, but less than 48: Orange;
+     * 48 or more, but less than 72: Yellow;
+     * 72 or more, but less than 96: Green;
+     * 96 or more, but less than 120: Blue;
+     * 120 or more, but less than 144: Indigo;
+     * 144 or more: Violet.
+
+  If value of The Button is more than 168 hours in the past, this
+  rule repeals itself.
+
+  Players are ENCOURAGED to brag on their Buttonclass.
+history:
+- change:
+    type: enactment
+  date: 2023-06-19
+  agent:
+    proposal: "8994"
