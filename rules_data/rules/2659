@@ -6,7 +6,8 @@ text: |
   Collector is an office. The Collector tracks Stamps in eir weekly
   report.
 
-  For each person there is a corresponding type of stamp.
+  For each person there is a corresponding type of stamp. Stamps of
+  any given type are a currency.
 
   Any player CAN, once per week, pay X Stamps, where each specified
   Stamp is a different type, to gain (X^2)-X radiance.
@@ -38,3 +39,8 @@ history:
   date: 2023-03-12
   agent:
     proposal: "8919"
+- change:
+    type: amendment
+  date: 2023-06-19
+  agent:
+    proposal: "8997"
