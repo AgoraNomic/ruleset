@@ -1,0 +1,22 @@
+id: 2683
+name: The Boulder
+power: 0.5
+text: |
+  The Absurdor is an office.
+
+  The Boulder's Height is a singleton integer switch defaulting to
+  0, tracked by the Absurdor.
+
+  Each player CAN, once a week, by announcement, push the boulder.
+  When a player pushes the Boulder, its Height is increased by 1.
+  Players are ENCOURAGED to do so. The Boulder MUST be pushed at
+  least once a week.
+
+  If at any point the height of the Boulder is 100 or more, it is
+  set to 0.
+history:
+- change:
+    type: enactment
+  date: 2023-06-19
+  agent:
+    proposal: "8992"
