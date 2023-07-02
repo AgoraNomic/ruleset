@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 2 Jul 2023
+Date of this ruleset: 9 Jul 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 132
 
 Highest ID'd rule in this ruleset: 2684
-Highest ID'd Proposal Passed: 8997
+Highest ID'd Proposal Passed: 9002
 Highest ID'd Rule Enacted: 2684
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -252,6 +252,8 @@ CFJ 1911-1914 (called 18 Mar 2008): Physical realities supersede the
     Rules by default.
 CFJ 3839 (called 03 Jun 2020): The game of Agora cannot end now; whether
     it will ever do so cannot be ascertained.
+CFJ 2515 (called 08 May 2009): Failure to 'Please treat Agora Right Good
+    Forever' can be a rules violation in extreme circumstances.
 
 ------------------------------------------------------------------------
 Rule 1698/7 (Power=4)
@@ -285,6 +287,9 @@ Amended(6) by cleaning (Murphy), 03 Mar 2020
 Amended(7) by P8843 'Time B Safe' (G., Janet, Murphy), 30 Aug 2022
 
 Annotations:
+CFJ 3765 (called 31 Jul 2019): A reasonable combination of actions for
+    allowing arbitrary rule changes could include repealing this rule
+    first.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -505,8 +510,8 @@ CFJ 3625 (called 12 Feb 2018): The rules don't bind recently
     deregistered players to avoid re-registering, they merely declare
     such attempts ineffective. Also, agreeing to be bound by some of the
     rules doesn't count as agreeing to be bound by all of them.
-CFJ 3877 (called 15 Aug 2020): Multiple intelligences in one organism
-    constitute one Agoran person.
+CFJ 3455 (called 03 Aug 2016): Ratifying an unregistered person as a
+    player fails without that person's willful consent.
 
 ------------------------------------------------------------------------
 Rule 478/42 (Power=3)
@@ -611,9 +616,6 @@ CFJ 1451-1452 (called 06 Mar 2003): A message that is split into
     multiple email messages can qualify as a single message for game
     purposes, if it is obvious how to combine the parts to reconstruct
     the single message.
-CFJ 752 (called 13 Mar 1995): Something sent to a Player who is
-    obligated to send it to all Players is sufficient for sending
-    something to the PF.
 CFJ 813 (called 22 Oct 1995): A Player need not prove that e can receive
     the PF.
 CFJ 831 (called 10 Nov 1995): 'The Date: header of a message is not
@@ -661,10 +663,6 @@ CFJ 1761 (called 30 Sep 2007): Publishing part of a message is a
 CFJ 1646 (called 30 Apr 2007): The act of "publishing" or "announcing"
     is accomplished when the message has left the sender's technical
     domain of control, indicated by one of the "Received:" headers0.
-CFJ 1695 (called 23 Jun 2007): A partnership, which by its nature can't
-    directly send email, can participate in the fora by means of its
-    members sending messages on its behalf, if its governing agreement
-    says so.
 CFJ 1768 (called 22 Oct 2007): The right of participation in the fora is
     the right to participate in them for their intended purposes, and is
     not necessarily infringed by regulations regarding the manner and
@@ -675,16 +673,6 @@ CFJ 1738 (called 29 Aug 2007): An obligation on a player to not publish
 CFJ 1719 (called 12 Aug 2007): A player can, if e intends, have public
     messages sent on eir behalf, including via a web form that allows
     all-comers to send messages on eir behalf without specific approval.
-CFJ 1833-1834 (called 18 Dec 2007): A player can, by contractual
-    arrangement, grant another player the capacity to act by
-    announcement on eir behalf.
-CFJ 1893 (called 03 Feb 2008): A non-consensual non-contractual
-    arrangement cannot grant a player the capacity to act by
-    announcement on behalf of another.
-CFJ 2397 (called 03 Mar 2009): A player can grant or revoke permission
-    at will for another player to act by announcement on eir behalf.
-CFJ 2322 (called 24 Dec 2008): The ability to act on behalf can be
-    created by any willful agreement.
 CFJ 1336 (called 13 Dec 2001): A public statement that one wishes to
     perform an action that one can perform by announcement can
     constitute an announcement that performs that action.
@@ -740,9 +728,6 @@ CFJ 2363 (called 01 Feb 2009): "X can do Y by doing Z" does not imply
 CFJ 2441 (called 06 Apr 2009): Due to a limitation of the mailing list
     archives, attaching a message with a particular text does not count
     as publishing that text.
-CFJ 3025 (called 15 May 2011): If it is clear what he did, then it must
-    be clear what he did; if it is not clear what he did, then it is not
-    clear what he did.
 CFJ 3106 (called 19 Oct 2011): When a person announces that "e performs"
     an action, the referent of "e" (i.e. eir identity) must be clear.
 CFJ 3002 (called 19 Apr 2011): A message of the form "This statement
@@ -767,10 +752,22 @@ CFJ 3642 (called 15 Jun 2018): Regardless of CFJ 1314, a message has not
     chose to take or not to take.
 CFJ 3790 (called 01 Jan 2020): The sender of a message is the last
     exerciser of free will that exercised free will on its path.
-CFJ 3887 (called 06 Sep 2020): A forum is an open medium for
+CFJ 3884 (called 06 Sep 2020): A forum is an open medium for
     communication.
 CFJ 3855 (called 22 Jun 2020): Emails from two or more persons never
     constitute one Agoran message.
+CFJ 3948 (called 05 Mar 2022): Sending a message "to" a player via a
+    nonpublic forum requires, at minimum, explicit signaling of the
+    intended recipient in a forum-dependent manner.
+CFJ 3663 (called 24 Sep 2018): Player-introduced (non-rules) jargon may
+    count as "clear" communication, but must pass various tests of
+    clarity and usage to be acceptable as a general shorthand.
+CFJ 4001 (called 07 Nov 2022): For an announcement to be clear and
+    unambiguous, any conditionals it contains must be determinate at the
+    time it is made.  Conditionals that depend on future state do not
+    meet this standard.
+CFJ 3885 (called 04 Oct 2020): Message metadata (such as subject) is not
+    considered to be part of a public message.
 
 ------------------------------------------------------------------------
 Rule 2139/17 (Power=2)
@@ -840,6 +837,9 @@ CFJ 1420 (called 17 Dec 2002): The list of watchers, customarily
     published with the registrar's report, is part of the game state,
     even though it is not mentioned in the rules and no one is obliged
     to track or publish it.
+CFJ 3467 (called 10 Nov 2016): Community standards such as text
+    character set may limit a person's ability to freely choose eir own
+    nickname.
 
 ------------------------------------------------------------------------
 Rule 1789/11 (Power=3)
@@ -889,6 +889,8 @@ Annotations:
 CFJ 2358 (called 26 Jan 2009): A document which is labeled as a Cantus
     Cygneus but does not actually detail grievances, etc. is not a
     Cantus Cygneus.
+CFJ 2953 (called 29 Dec 2010): A Cantus Cygneus CAN be submitted "to the
+    Registrar" even if the office is vacant.
 
 ------------------------------------------------------------------------
 Rule 2646/2 (Power=3)
@@ -1079,10 +1081,6 @@ Amended(10) by P8942 'Cleaning' (4st), 16 Apr 2023
 Amended(11) by P8972 'Yes we are EFFECTIVE!' (Janet), 25 May 2023
 
 Annotations:
-CFJ 1132: A Player failing to perform a duty required by the Rules
-    within a reasonable time may be in violation of the Rules, even if
-    the Rules do not provide a time limit for the performance of that
-    duty.
 CFJ 1488 (called 11 Feb 2004): Engineering a situation in which other
     players are unable to follow a particular rule is not in itself a
     violation of that rule.
@@ -1091,10 +1089,6 @@ CFJ 2395 (called 01 Mar 2009): Even without this being explicitly
     rule by missing a deadline.
 CFJ 1990 (called 07 Jun 2008): "Allowed" may refer to either possibility
     or permissibility depending on context.
-CFJ 2120-2121 (called 04 Aug 2008): A requirement of the form 'within
-    <time limit>, a player SHALL <action> by announcement' means that
-    the player CAN perform the action, and SHALL do so within the time
-    limit.
 CFJ 2230 (called 16 Oct 2008): In a statement of the form "an action
     that X may take", 'may' generally means 'might', i.e. CAN.
 CFJ 2282 (called 19 Nov 2008): To state that an entity "MUST" have
@@ -1142,6 +1136,7 @@ Amended(2) by P8021 'Limit Numerical silliness' (G.), 06 Mar 2018
 Retitled by P8021 'Limit Numerical silliness' (G.), 06 Mar 2018
 
 Annotations:
+CFJ 2509 (called 25 Jan 2021): Zero is a natural number.
 
 ------------------------------------------------------------------------
 Rule 2125/15 (Power=3)
@@ -1197,7 +1192,7 @@ CFJ 3793 (called 16 Jan 2020): Rule 2125 is an interpretive principle
     there is a method. Circular reasoning cannot be used to permit an
     action or to provide a method.
 CFJ 3869 (called 18 Jul 2020): Sending messages to fora is not
-    regulated, only the potential actions container therein.
+    regulated, only the potential actions contained therein.
 CFJ 3797 (called 22 Jan 2020): Whether coming into existence is
     regulated depends on the thing that is coming into existence. Coming
     into existence is regulated for rules-defined entities and is not
@@ -1431,11 +1426,6 @@ Amended(46) by P8861 'Finally Removing Arbitrary Limits' (nix), 06 Nov
    2022
 
 Annotations:
-CFJ 1722 (called 15 Aug 2007): The method of dependent action need not
-    be described exactly: an approximate but inexact description
-    suffices, as does the rule-defined term.
-CFJ 1802 (called 19 Nov 2007): The phrase "by Agoran Support" is not an
-    unambiguous description of a method of dependent action.
 CFJ 3567 (called 27 Sep 2017): Dependent action intents aren't "by
     announcement" actions, so a message saying it a lot of times can be
     read "naturally" as counting as a single intent.
@@ -1597,6 +1587,12 @@ Enacted by P7883 'Fear v2.1' (G.), 26 Sep 2017
 Amended(1) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 
 Annotations:
+CFJ 3925 (called 31 Aug 2021): If a random choice is required within a
+    given week, it can't be chosen before that week begins.
+CFJ 4007 (called 13 Feb 2023): The "final probability distribution" of a
+    random selection is the result of a multistep process that is only
+    considered "final" when the selection is used for the associated
+    action.
 
 ------------------------------------------------------------------------
 Rule 2681/0 (Power=1)
@@ -1832,6 +1828,10 @@ CFJ 2981 (called 21 Mar 2011): An attribute of an instrument is not
     "modified" when an initial value is set for it.
 CFJ 2945 (called 22 Dec 2010): An attribute of an entity is "changed"
     when it is removed/unset.
+CFJ 2855 (called 08 Sep 2010): Absent security or similar explicit
+    prohibitions, a low-power proposal generally CAN change game
+    quantities defined in higher-power rules without interfering with
+    the "substantive aspects" of the higher-powered rules.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -1896,6 +1896,9 @@ CFJ 1647 (called 30 Apr 2007): Preceding a proposal-like text with the
 CFJ 1717 (called 08 Aug 2007): Preceding a proposal-like text with the
     question "What is the title of this proposal?" can be sufficient to
     clearly indicate that it is intended to become a proposal.
+CFJ 3744-3745 (called 23 Jun 2019): When creating a proposal by
+    announcement, specifying an impossible value for an optional
+    attribute makes the creation fail.
 
 ------------------------------------------------------------------------
 Rule 2625/1 (Power=1.0)
@@ -2066,20 +2069,6 @@ CFJ 1655 (called 09 May 2007): Distributing a purported proposal whose
     matter from the message that submitted them both, if both submitted
     proposals have non-null effects, does not constitute a legal
     distribution of either of the submitted proposals.
-CFJ 1656 (called 09 May 2007): If the Promotor purports to distribute a
-    proposal, but the distributed text does not match any proposal in
-    the proposal pool, this constitutes the effective (albeit
-    prohibited) distribution of a new proposal.
-CFJ 1780 (called 04 Nov 2007): If the Promotor creates a new proposal by
-    distribution, by accidentally mangling the text of a proposal in the
-    pool, and the new proposal is very similar in meaning to the one on
-    which it is based (with only inconsequential differences), then the
-    author of the new proposal is the author of the proposal on which it
-    is based.
-CFJ 1780 (called 04 Nov 2007): If the Promotor accidentally creates a
-    new proposal by distribution, and the new proposal is seriously
-    different from any proposal in the pool, then the new proposal has
-    no author.
 CFJ 2733 (called 14 Nov 2009): This rule defines a separate method of
     distribution from the one defined in Rule 107.
 
@@ -2287,6 +2276,9 @@ CFJ 2013 (called 17 Jun 2009): Rule 2141 does not imply that the power
 CFJ 2213 (called 07 Oct 2008): The powers granted to rules by the first
     paragraph of Rule 2141 are general, and only apply as otherwise
     stated by the Rules.
+CFJ 2367 (called 05 Feb 2009): A rule need not "govern" anything in the
+    game to be a rule, e.g. a rule consisting entirely of nonfunctional
+    ASCII art is still a rule.
 
 ------------------------------------------------------------------------
 Rule 217/12 (Power=3)
@@ -2371,8 +2363,6 @@ CFJ 1741 (called 11 Sep 2007): HTML encoding (including numerical
 CFJ 1741 (called 11 Sep 2007): An email message does not need the
     RFC-required "MIME-Version:" header in order for it to be
     interpreted in the MIME way.
-CFJ 1536 (called 13 Mar 2005): The phrase "AOL!" is not a sufficiently
-    clear synonym for "Me too!".
 CFJ 1770 (called 23 Oct 2007): A contract can redefine a rule-defined
     term in its own way, and the contract's definition will then apply
     in situations governed by the contract.
@@ -2816,6 +2806,8 @@ Amended(22) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
 Amended(23) by cleaning (Janet), 29 Jun 2020
 
 Annotations:
+CFJ 3904 (called 18 Apr 2021): A rule amendment that results in no net
+    change in rule text need not be recorded.
 
 ------------------------------------------------------------------------
 Rule 2221/9 (Power=3)
@@ -2856,6 +2848,9 @@ Annotations:
 CFJ 3800-3803 (called 25 Jan 2020): For a cleaning to replace a word
     with another word as a synonym, the two words must have exactly the
     same meaning.
+CFJ 3900 (called 23 Feb 2021): Changing an undefined term to a defined
+    term is not a rule change allowed via cleaning, even if the
+    undefined term is due to a typo/error.
 
 ------------------------------------------------------------------------
 Rule 2429/2 (Power=1)
@@ -3108,6 +3103,8 @@ History:
 Enacted by P7922 'Clarity Act' (Alexis), 23 Oct 2017
 
 Annotations:
+CFJ 3749 (called 01 Jul 2019): An instant runoff election ballot may be
+    valid even if its list does not contain any valid options.
 
 ------------------------------------------------------------------------
 Rule 683/27 (Power=3)
@@ -3269,6 +3266,11 @@ CFJ 1810 (called 28 Nov 2007): If a purported resolution notice refers
     revised totals, this does qualify as including a vote tally.
 CFJ 1822 (called 04 Dec 2007): If a purported resolution notice includes
     invalid votes in its tally of votes, this makes the notice invalid.
+CFJ 3833 (called 04 Sep 2020): If a decision's initiation was never
+    required (e.g. it was initiated via Manifesto while unpended) the
+    vote collector is not required to resolve it.
+CFJ 3963 (called 16 May 2022): A "tally" of ballots is an account of the
+    ballots cast which need not explicitly include a sum.
 
 ------------------------------------------------------------------------
 Rule 955/27 (Power=3)
@@ -3362,9 +3364,6 @@ Amended(26) by P8083 'quorum fixes' (G.), 01 Oct 2018
 Amended(27) by P8533 'de-dictatorship' (G., Janet, nix), 03 Feb 2021
 
 Annotations:
-CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision is
-    determined at the time the vote collector makes the calculations
-    described in Rule 955.
 
 ------------------------------------------------------------------------
 Rule 879/40 (Power=3)
@@ -4586,6 +4585,8 @@ CFJ 3799 (called 24 Jan 2020): If a document that includes both a
     publication date and an as-of date is ratified, the as-of date
     constitutes the time the document was true for the purpose of
     ratification.
+CFJ 3769 (called 04 Aug 2019): When ratification makes a change, R1551
+    is the causal agent of that change.
 
 ------------------------------------------------------------------------
 Rule 2202/10 (Power=3)
@@ -4692,6 +4693,8 @@ CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
     a set, and explicitly contest the accuracy of some aspect of it.
 CFJ 1790-1791 (called 11 Nov 2007): A challenge to any part of a
     self-ratifying document prevents ratification of all parts of it.
+CFJ 3658 (called 27 Aug 2018): The scope of a claim of error is the
+    self-ratifying section of the report that contains the error.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -5028,6 +5031,10 @@ CFJ 3623 (called 09 Feb 2018): CFJing on a future hypothetical without
 CFJ 3805 (called 31 Jan 2020): Maintaining CFJ archives is hard.
 CFJ 3876 (called 30 Jul 2020): Interest in judging is not regulated, and
     can be determined in accordance with common sense.
+CFJ 3488 (called 16 May 2017): A non-player can be a judge and deliver
+    judgements, and may in some circumstances be REQUIRED to do so.
+CFJ 3822 (called 19 Mar 2020): Judges of ancient cases are still judges,
+    unless they were explicitly recused.
 
 ------------------------------------------------------------------------
 Rule 591/50 (Power=1.7)
@@ -6264,11 +6271,11 @@ Amended(2) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2642/5 (Power=2)
+Rule 2642/6 (Power=2)
 Gathering Stones
 
-      Base Rockiness is a player switch, with values of integers and
-      default of 0, tracked by the Stonemason. A player's Modified
+      Base Rockiness is an active player switch, with values of integers
+      and default of 0, tracked by the Stonemason. A player's Modified
       Rockiness is eir Base Rockiness minus the number of stones e owns.
       
       Once a week each player CAN "reach" for a specified stone owned by
@@ -6291,6 +6298,7 @@ Retitled by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Amended(3) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Amended(4) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
 Amended(5) by P8958 'Taken for Granite' (Murphy, nix), 05 May 2023
+Amended(6) by P9002 'Active rocks' (Janet), 09 Jul 2023
 
 Annotations:
 CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
@@ -6516,6 +6524,9 @@ Amended(2) by P7812 'Persons Can Win' (G.), 11 Sep 2016
 Amended(3) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 
 Annotations:
+CFJ 3887 (called 21 Oct 2020): An instrument that is empowered to make
+    general changes in the game (e.g. a proposal taking effect) CAN
+    cause persons to win the game.
 
 ------------------------------------------------------------------------
 Rule 2465/1 (Power=0.3)
@@ -7600,6 +7611,8 @@ CFJ 1434 (called 24 Jan 2003): The expiration of a rule-defined period
 CFJ 1480 (called 05 Jan 2004): An automatic event specified to occur at
     regular calendar intervals, for example quarterly, happens at its
     specified time even if that is during a holiday.
+CFJ 3930 (called 12 Sep 2021): As long as the effects of a holiday are
+    unregulated, making a day into a holiday is unregulated.
 
 ------------------------------------------------------------------------
 Rule 2029/1 (Power=4)

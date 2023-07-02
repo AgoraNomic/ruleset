@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 2 Jul 2023
+Date of this ruleset: 9 Jul 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 132
 
 Highest ID'd rule in this ruleset: 2684
-Highest ID'd Proposal Passed: 8997
+Highest ID'd Proposal Passed: 9002
 Highest ID'd Rule Enacted: 2684
 
 ========================================================================
@@ -2830,11 +2830,11 @@ Wielding Stones
       The wielding of stones is secured.
 
 ------------------------------------------------------------------------
-Rule 2642/5 (Power=2)
+Rule 2642/6 (Power=2)
 Gathering Stones
 
-      Base Rockiness is a player switch, with values of integers and
-      default of 0, tracked by the Stonemason. A player's Modified
+      Base Rockiness is an active player switch, with values of integers
+      and default of 0, tracked by the Stonemason. A player's Modified
       Rockiness is eir Base Rockiness minus the number of stones e owns.
       
       Once a week each player CAN "reach" for a specified stone owned by
