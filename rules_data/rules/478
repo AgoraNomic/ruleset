@@ -596,3 +596,18 @@ annotations:
     Sending a message "to" a player via a nonpublic forum requires,
     at minimum, explicit signaling of the intended recipient in a
     forum-dependent manner.
+- cfjs:
+  - id: 3663
+    called: 2018-09-24
+  text: >
+    Player-introduced (non-rules) jargon may count as "clear"
+    communication, but must pass various tests of clarity and usage
+    to be acceptable as a general shorthand.
+- cfjs:
+  - id: 4001
+    called: 2022-11-07
+  text: >
+    For an announcement to be clear and unambiguous, any
+    conditionals it contains must be determinate at the time it is
+    made.  Conditionals that depend on future state do not meet this
+    standard.

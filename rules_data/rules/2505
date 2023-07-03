@@ -25,4 +25,17 @@ history:
   date: 2021-03-10
   agent:
     proposal: "8545"
-annotations: []
+annotations:
+- cfjs:
+  - id: '3925'
+    called: 2021-08-31
+  text: >
+    If a random choice is required within a given week, it can't be
+    chosen before that week begins.
+- cfjs:
+  - id: '4007'
+    called: 2023-02-13
+  text: >
+    The "final probability distribution" of a random selection is
+    the result of a multistep process that is only considered
+    "final" when the selection is used for the associated action.
