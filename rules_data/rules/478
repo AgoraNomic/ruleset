@@ -385,13 +385,6 @@ annotations:
     message has left the sender's technical domain of control,
     indicated by one of the "Received:" headers0.
 - cfjs:
-  - id: '1695'
-    called: 2007-06-23
-  text: >
-    A partnership, which by its nature can't directly send email,
-    can participate in the fora by means of its members sending
-    messages on its behalf, if its governing agreement says so.
-- cfjs:
   - id: '1768'
     called: 2007-10-22
   text: >
@@ -413,30 +406,6 @@ annotations:
     A player can, if e intends, have public messages sent on eir
     behalf, including via a web form that allows all-comers to send
     messages on eir behalf without specific approval.
-- cfjs:
-  - id: 1833-1834
-    called: 2007-12-18
-  text: >
-    A player can, by contractual arrangement, grant another player
-    the capacity to act by announcement on eir behalf.
-- cfjs:
-  - id: '1893'
-    called: 2008-02-03
-  text: >
-    A non-consensual non-contractual arrangement cannot grant a
-    player the capacity to act by announcement on behalf of another.
-- cfjs:
-  - id: '2397'
-    called: 2009-03-03
-  text: >
-    A player can grant or revoke permission at will for another
-    player to act by announcement on eir behalf.
-- cfjs:
-  - id: '2322'
-    called: 2008-12-24
-  text: >
-    The ability to act on behalf can be created by any willful
-    agreement.
 - cfjs:
   - id: '1336'
     called: 2001-12-13
@@ -610,7 +579,7 @@ annotations:
     The sender of a message is the last exerciser of free will
     that exercised free will on its path.
 - cfjs:
-  - id: 3887
+  - id: 3884
     called: 2020-09-06
   text: >
     A forum is an open medium for communication.
@@ -620,3 +589,10 @@ annotations:
   text: >
     Emails from two or more persons never constitute one Agoran
     message.
+- cfjs:
+  - id: 3948
+    called: 2022-03-05
+  text: >
+    Sending a message "to" a player via a nonpublic forum requires,
+    at minimum, explicit signaling of the intended recipient in a
+    forum-dependent manner.
