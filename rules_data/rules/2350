@@ -134,3 +134,10 @@ annotations:
     Preceding a proposal-like text with the question "What is the
     title of this proposal?" can be sufficient to clearly indicate
     that it is intended to become a proposal.
+- cfjs:
+  - id: '3744-3745'
+    called: 2019-06-23
+  text: >
+    When creating a proposal by announcement, specifying an
+    impossible value for an optional attribute makes the creation
+    fail.

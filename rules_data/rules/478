@@ -611,3 +611,9 @@ annotations:
     conditionals it contains must be determinate at the time it is
     made.  Conditionals that depend on future state do not meet this
     standard.
+- cfjs:
+  - id: 3885
+    called: 2020-10-04
+  text: >
+    Message metadata (such as subject) is not considered to be part
+    of a public message.

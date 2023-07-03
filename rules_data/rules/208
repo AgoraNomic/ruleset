@@ -156,3 +156,16 @@ annotations:
   text: >
     If a purported resolution notice includes invalid votes in its
     tally of votes, this makes the notice invalid.
+- cfjs:
+  - id: '3833'
+    called: 2020-09-04
+  text: >
+    If a decision's initiation was never required (e.g. it was
+    initiated via Manifesto while unpended) the vote collector is
+    not required to resolve it.
+- cfjs:
+  - id: '3963'
+    called: 2022-05-16
+  text: >
+    A "tally" of ballots is an account of the ballots cast which
+    need not explicitly include a sum.

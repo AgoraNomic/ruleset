@@ -82,3 +82,10 @@ annotations:
     For a cleaning to replace a word with another word as
     a synonym, the two words must have exactly the same
     meaning.
+- cfjs:
+  - id: '3900'
+    called: 2021-02-23
+  text: >
+    Changing an undefined term to a defined term is not a rule
+    change allowed via cleaning, even if the undefined term is due
+    to a typo/error.
