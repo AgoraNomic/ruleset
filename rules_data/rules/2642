@@ -2,8 +2,8 @@ id: 2642
 name: Gathering Stones
 power: 2
 text: |
-  Base Rockiness is a player switch, with values of integers and
-  default of 0, tracked by the Stonemason. A player's Modified
+  Base Rockiness is an active player switch, with values of integers
+  and default of 0, tracked by the Stonemason. A player's Modified
   Rockiness is eir Base Rockiness minus the number of stones e owns.
 
   Once a week each player CAN "reach" for a specified stone owned by
@@ -51,6 +51,11 @@ history:
   date: 2023-05-05
   agent:
     proposal: "8958"
+- change:
+    type: amendment
+  date: 2023-07-09
+  agent:
+    proposal: "9002"
 annotations:
 - cfjs:
   - id: '4021'
