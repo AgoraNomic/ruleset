@@ -22,7 +22,8 @@ text: |
   Agora. When a person ceases to be a participant, all assets e owns
   defined by this Tournament are destroyed.
 
-  The Game Master for this tournament is also known as the Surveyor.
+  The Surveyor is initially the Gamemaster for this tournament. Any
+  player CAN become the Surveyor by announcement.
 
   Gaining Tokens
   ==============
@@ -83,10 +84,11 @@ text: |
   If a tile is placed that is not adjacent to any tiles belonging to
   any communities, the player that placed it founds a new community,
   e is granted 1 investment for that community, and e becomes its
-  founder. E CAN and SHOULD name the community after any color that
-  starts with a different first letter than any existing community
-  by announcement. If a community has not been named, the Surveyor
-  CAN and SHALL do so by announcement.
+  founder. The placed tile then begins belonging to the newly
+  founded community. E CAN and SHOULD name the community after any
+  color that starts with a different first letter than any existing
+  community by announcement. If a community has not been named, the
+  Surveyor CAN and SHALL do so by announcement.
 
   A player who is the founder of an existing community CANNOT place
   a tile that would found a new community.
@@ -94,7 +96,7 @@ text: |
   If a tile is placed adjacent to one or more tiles belonging to a
   single community, that tile belongs to that community.
 
-  If a tile is placed adjacent to two or more tiles belongining to
+  If a tile is placed adjacent to two or more tiles belonging to
   different communities, a merger happens.
 
   When a merger happens, if a single community involved in the
@@ -103,9 +105,10 @@ text: |
   that gained a tile least recently is the acquiring community. The
   other communities are the acquired communities. All tiles
   belonging to the acquired communities cease to belong to them and
-  begin to belong to the acquiring community.  Each player gains X
-  (rounded down) Accolades for each acquired community e had an
-  investment in, where X is the total tiles that belonged to that
+  begin to belong to the acquiring community, and then the placed
+  tile begins to belong to the acquiring community.  Each player
+  gains X (rounded down) Accolades for each acquired community e had
+  an investment in, where X is the total tiles that belonged to that
   community immediately before the merger divided by the total
   number of investments that exist for that community and times the
   number of investments for that community that player owns. The
@@ -161,7 +164,7 @@ text: |
   Accolades are a currency. Accolades CANNOT be transferred or
   destroyed except as otherwise allowed by this tournament.
 
-  When more than half of the tiles belong to a single community, the
+  When more than 50 of the tiles belong to a single community, the
   tournament ends.
 
   If it has been 3 months since the tournament started, the
@@ -184,3 +187,15 @@ history:
     tournament_init:
       name: Commune 2023
       person: nix
+# - change:
+#     type: amendment
+#   date: 2023-04-23
+#   agent:
+#     rwo:
+#       person: Janet
+# - change:
+#     type: amendment
+#   date: 2023-06-29
+#   agent:
+#     rwo:
+#       person: snail
