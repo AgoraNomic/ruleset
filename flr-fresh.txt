@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 16 Jul 2023
+Date of this ruleset: 23 Jul 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 132
 
 Highest ID'd rule in this ruleset: 2684
-Highest ID'd Proposal Passed: 9002
+Highest ID'd Proposal Passed: 9003
 Highest ID'd Rule Enacted: 2684
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -1840,7 +1840,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/18 (Power=3)
+Rule 2350/19 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -1861,6 +1861,10 @@ Proposals
       
       The author of a proposal in the Proposal Pool CAN remove (syn.
       retract, withdraw) it from the Pool by announcement.
+      
+      The destruction of a proposal and the causing of a proposal to
+      cease being a proposal are secured. The removal of a proposal from
+      the Proposal Pool, other than by distribution, is secured.
 
 History:
 
@@ -1887,6 +1891,7 @@ Amended(16) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris,
    Janet), 11 Feb 2021
 Amended(17) by P8815 'Proposal terminology fix' (ais523), 06 Aug 2022
 Amended(18) by P8815 'Proposal terminology fix' (ais523), 06 Aug 2022
+Amended(19) by P9003 'Process Protection' (Janet, G.), 23 Jul 2023
 
 Annotations:
 CFJ 1647 (called 30 Apr 2007): Preceding a proposal-like text with the
@@ -1943,7 +1948,7 @@ Amended(3) by P8418 'Referenda' (Aris), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1607/55 (Power=3)
+Rule 1607/56 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -1980,6 +1985,9 @@ Distribution
       Proposal Pool, along with their text and attributes. This portion
       of a public document purporting to be a Promotor's report is
       self-ratifying.
+      
+      The destruction of a referendum is secured. Causing a referendum
+      to cease being a referendum is secured.
 
 History:
 
@@ -2057,6 +2065,7 @@ Amended(53) by P8633 'Disbanded distribution' (Falsifian), 29 Nov 2021
 Amended(54) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
    2022
 Amended(55) by R2658, 09 Jun 2022
+Amended(56) by P9003 'Process Protection' (Janet, G.), 23 Jul 2023
 
 Annotations:
 CFJ 1546 (called 14 Apr 2005), CFJ 1669 (called 16 May 2007): If a
@@ -2990,7 +2999,7 @@ Amended(17) by cleaning (Murphy), 14 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 107/25 (Power=3)
+Rule 107/26 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -3025,6 +3034,10 @@ Initiating Agoran Decisions
       self-ratifying attestation that the notice was valid, that the
       person (if any) publishing the notice was authorized to initiate
       the decision, and that such a decision was initiated.
+      
+      The destruction of an Agoran decision and the causing of an Agoran
+      decision to cease being an Agoran decision are secured at the
+      power of the Rule authorizing the initiation of such a decision.
 
 History:
 
@@ -3066,6 +3079,7 @@ Amended(23) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 Amended(24) by P8585 'Clarify variable voting period' (Murphy), 23 Jun
    2021
 Amended(25) by P8978 'Authorized initiation' (Janet), 25 May 2023
+Amended(26) by P9003 'Process Protection' (Janet, G.), 23 Jul 2023
 
 Annotations:
 CFJ 1650 (called 06 May 2007): The intent to initiate the decision and
