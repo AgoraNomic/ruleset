@@ -36,6 +36,9 @@ text: |
   Proposal Pool, along with their text and attributes. This portion
   of a public document purporting to be a Promotor's report is
   self-ratifying.
+
+  The destruction of a referendum is secured. Causing a referendum
+  to cease being a referendum is secured.
 history:
 - change:
     type: enactment
@@ -330,6 +333,11 @@ history:
   date: 2022-06-09
   agent:
     rule: "2658"
+- change:
+    type: amendment
+  date: 2023-07-23
+  agent:
+    proposal: "9003"
 annotations:
 - cfjs:
   - id: '1546'

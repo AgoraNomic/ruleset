@@ -34,6 +34,10 @@ text: |
   self-ratifying attestation that the notice was valid, that the
   person (if any) publishing the notice was authorized to initiate
   the decision, and that such a decision was initiated.
+
+  The destruction of an Agoran decision and the causing of an Agoran
+  decision to cease being an Agoran decision are secured at the
+  power of the Rule authorizing the initiation of such a decision.
 history:
 - change:
     type: initial
@@ -178,6 +182,11 @@ history:
   date: 2023-05-25
   agent:
     proposal: "8978"
+- change:
+    type: amendment
+  date: 2023-07-23
+  agent:
+    proposal: "9003"
 annotations:
 - cfjs:
   - id: '1650'
