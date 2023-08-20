@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 6 Aug 2023
+Date of this ruleset: 20 Aug 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 132
+Number of rules currently enacted: 131
 
-Highest ID'd rule in this ruleset: 2684
+Highest ID'd rule in this ruleset: 2683
 Highest ID'd Proposal Passed: 9003
-Highest ID'd Rule Enacted: 2684
+Highest ID'd Rule Enacted: 2683
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -27,7 +27,6 @@ The Game of Agora
 Important Temporary Rules
    * Rule 2056: Invisibilitating
    * Rule 2683: The Boulder
-   * Rule 2684: The Button
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -182,7 +181,7 @@ Power Distribution:
 
 1  with Power=0.3
 2  with Power=0.5
-30 with Power=1
+29 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -332,49 +331,6 @@ The Boulder
 History:
 
 Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2684/0 (Power=1.0)
-The Button
-
-      The Buttonmastor is an office.
-      
-      The Button is a singleton switch tracked by the Buttonmastor with
-      instants in time as possible values, defaulting to the instant
-      this rule was created.
-      
-      Buttonclass is a player switch tracked by the Buttonmastor with
-      possible values Red, Orange, Yellow, Green, Blue, Indigo, Violet
-      or None, defaulting to None.
-      
-      A player CAN, once a week, by announcement, press the button.
-      
-      When a player presses the button, two things happen:
-      
-      1. The Button is flipped to the instant e did it.
-      
-      2. That player's Buttonclass is flipped to a value depending on
-         the amount of hours passed between the previous value of The
-         Button and the current one, as specified below:
-      
-         * Less than 24: Red;
-         * 24 or more, but less than 48: Orange;
-         * 48 or more, but less than 72: Yellow;
-         * 72 or more, but less than 96: Green;
-         * 96 or more, but less than 120: Blue;
-         * 120 or more, but less than 144: Indigo;
-         * 144 or more: Violet.
-      
-      If value of The Button is more than 168 hours in the past, this
-      rule repeals itself.
-      
-      Players are ENCOURAGED to brag on their Buttonclass.
-
-History:
-
-Enacted by P8994 'Not Game Theory' (juan), 19 Jun 2023
 
 Annotations:
 
