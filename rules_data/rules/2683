@@ -9,14 +9,18 @@ text: |
 
   Each player CAN, once a week, by announcement, push the boulder.
   When a player pushes the Boulder, its Height is increased by 1.
-  Players are ENCOURAGED to do so. The Boulder MUST be pushed at
-  least once a week.
-
-  If at any point the height of the Boulder is 100 or more, it is
-  set to 0.
+  At the beginning of each week, if the boulder was not pushed in
+  the previous week, the Boulder's Height is set to 0. The Absurdor
+  SHOULD list the largest Height of the Boulder ever reached in eir
+  report.
 history:
 - change:
     type: enactment
   date: 2023-06-19
   agent:
     proposal: "8992"
+- change:
+    type: amendment
+  date: 2023-08-27
+  agent:
+    proposal: "9008"
