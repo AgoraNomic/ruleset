@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 20 Aug 2023
+Date of this ruleset: 27 Aug 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 131
+Number of rules currently enacted: 130
 
 Highest ID'd rule in this ruleset: 2683
-Highest ID'd Proposal Passed: 9003
+Highest ID'd Proposal Passed: 9008
 Highest ID'd Rule Enacted: 2683
 
 ========================================================================
@@ -51,13 +51,7 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance for
    the current gamestate.
 ------------------------------------------------------------------------
-Rule 2056/1 (Power=1)
-Invisibilitating
-
-      Invisibilitating is a Class 1 infraction.
-
-------------------------------------------------------------------------
-Rule 2683/0 (Power=0.5)
+Rule 2683/1 (Power=0.5)
 The Boulder
 
       The Absurdor is an office.
@@ -67,11 +61,10 @@ The Boulder
       
       Each player CAN, once a week, by announcement, push the boulder.
       When a player pushes the Boulder, its Height is increased by 1.
-      Players are ENCOURAGED to do so. The Boulder MUST be pushed at
-      least once a week.
-      
-      If at any point the height of the Boulder is 100 or more, it is
-      set to 0.
+      At the beginning of each week, if the boulder was not pushed in
+      the previous week, the Boulder's Height is set to 0. The Absurdor
+      SHOULD list the largest Height of the Boulder ever reached in eir
+      report.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2822,7 +2815,7 @@ Gathering Stones
       is set to 0.
 
 ------------------------------------------------------------------------
-Rule 2643/8 (Power=2)
+Rule 2643/9 (Power=2)
 Collecting Stones
 
       A stone is immune if and only if it is defined as such by the
@@ -2837,8 +2830,8 @@ Collecting Stones
       Stonemason SHALL publish such a notice in a timely fashion after
       the beginning of each Agoran month.
       
-      A Collection Notice includes a random numbers between 1 and 6; this
-      is the Escape Minimum.
+      A Collection Notice includes a random integer from 1 to 6; this is
+      the Escape Minimum.
       
       When a Collection Notice is published, for each player, half
       (rounded up) of eir non-immune stones with slipperiness not less

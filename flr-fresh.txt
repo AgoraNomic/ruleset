@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 20 Aug 2023
+Date of this ruleset: 27 Aug 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 131
+Number of rules currently enacted: 130
 
 Highest ID'd rule in this ruleset: 2683
-Highest ID'd Proposal Passed: 9003
+Highest ID'd Proposal Passed: 9008
 Highest ID'd Rule Enacted: 2683
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
@@ -25,7 +25,6 @@ The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
-   * Rule 2056: Invisibilitating
    * Rule 2683: The Boulder
 Players
    * Rule  869: How to Join and Leave Agora
@@ -181,7 +180,7 @@ Power Distribution:
 
 1  with Power=0.3
 2  with Power=0.5
-29 with Power=1
+28 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -297,22 +296,7 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance for
    the current gamestate.
 ------------------------------------------------------------------------
-Rule 2056/1 (Power=1)
-Invisibilitating
-
-      Invisibilitating is a Class 1 infraction.
-
-History:
-
-Enacted by P4513 'Invisibilitating' (Steve), 10 Jul 2003
-Repealed by P4759 'Olive Repeals' (Manu, Sherlock), 15 May 2005
-Re-enacted(1) and amended by P8961 'now you don't see it' (G.), 12 May
-   2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2683/0 (Power=0.5)
+Rule 2683/1 (Power=0.5)
 The Boulder
 
       The Absurdor is an office.
@@ -322,15 +306,15 @@ The Boulder
       
       Each player CAN, once a week, by announcement, push the boulder.
       When a player pushes the Boulder, its Height is increased by 1.
-      Players are ENCOURAGED to do so. The Boulder MUST be pushed at
-      least once a week.
-      
-      If at any point the height of the Boulder is 100 or more, it is
-      set to 0.
+      At the beginning of each week, if the boulder was not pushed in
+      the previous week, the Boulder's Height is set to 0. The Absurdor
+      SHOULD list the largest Height of the Boulder ever reached in eir
+      report.
 
 History:
 
 Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
+Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
 
 Annotations:
 
@@ -438,7 +422,7 @@ Amended(41) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
 Amended(42) by P7931 'Registration fix finally' (G.), 06 Nov 2017
 Amended(43) by P7959 'Deregistration Fix' (Telnaior), 12 Nov 2017
 Amended(44) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
-Amended(45) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
+Amended(45) by P8163 'Holey Loops, Batman!' (Kate), 22 Feb 2019
 Amended(46) by P8241 'Secured switches (v2.0)' (Janet, Falsifian), 18
    Sep 2019
 Amended(47) by P8485 'Eternal Personhood' (Gaelan, Aris), 10 Aug 2020
@@ -1271,7 +1255,7 @@ Amended(38) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
 Retitled by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
    Cuddlebeam, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(39) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
-Amended(40) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, twg,
+Amended(40) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, Kate,
    Janet), 29 Jan 2020
 
 Annotations:
@@ -1467,9 +1451,9 @@ Amended(19) by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
 Amended(20) by R2430, 24 May 2017
 Amended(21) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(22) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
-Amended(23) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
+Amended(23) by P8163 'Holey Loops, Batman!' (Kate), 22 Feb 2019
 Amended(24) by P8164 'Correction to Agoran Satisfaction, Version 2.4'
-   (Falsifian, ais523, D. Margaux, G., twg), 31 Mar 2019
+   (Falsifian, ais523, D. Margaux, G., Kate), 31 Mar 2019
 Amended(25) by P8236 'Definition de-capitalization' (Janet, Aris), 18
    Sep 2019
 Amended(26) by P8303 'Contract Patency v3' (Aris, Gaelan, Janet,
@@ -1838,7 +1822,7 @@ Amended(9) by P7736 'Draining the pool' (aranea), 02 May 2015
 Amended(10) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
 Amended(11) by cleaning (Trigon), 04 Nov 2018
 Amended(12) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
-   Gaelan, G., Janet, twg), 29 Jan 2020
+   Gaelan, G., Janet, Kate), 29 Jan 2020
 Amended(13) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Janet, Aris, G., ais523), 12 Jun 2020
 Amended(14) by P8415 'Proposal Recycling Initiative' (Aris), 14 Jun 2020
@@ -1896,7 +1880,7 @@ Proposal Classes
 History:
 
 Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
-   Gaelan, G., Janet, twg), 29 Jan 2020
+   Gaelan, G., Janet, Kate), 29 Jan 2020
 Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
 Amended(2) by P8356 'Less Democracy Means More Fun' (Aris), 21 Mar 2020
 Amended(3) by P8418 'Referenda' (Aris), 14 Jun 2020
@@ -2009,7 +1993,7 @@ Amended(45) by P8245 'Pool drain timing' (G.), 05 Sep 2019
 Amended(46) by P8269 'Clean up distribution mechanisms' (omd), 11 Nov
    2019
 Amended(47) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
-   Gaelan, G., Janet, twg), 29 Jan 2020
+   Gaelan, G., Janet, Kate), 29 Jan 2020
 Amended(48) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Janet, Aris, G., ais523), 12 Jun 2020
 Amended(49) by P8418 'Referenda' (Aris), 14 Jun 2020
@@ -3142,7 +3126,7 @@ Amended(22) by P7814 'FOR Require Intent on Ballots' (o), 28 Oct 2016
 Amended(23) by decree given by Alexis, 10 Nov 2016
 Amended(24) by R2430, 24 May 2017
 Amended(25) by P7854 'Close Recent Loopholes v2' (ais523), 05 Jun 2017
-Amended(26) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
+Amended(26) by P8163 'Holey Loops, Batman!' (Kate), 22 Feb 2019
 Amended(27) by P8533 'de-dictatorship' (G., Janet, nix), 03 Feb 2021
 
 Annotations:
@@ -3450,7 +3434,7 @@ Amended(3) by P8122 'Middle of the road' (Murphy), 12 Nov 2018
 Amended(4) by cleaning (Falsifian), 28 Apr 2019
 Amended(5) by cleaning (Murphy), 03 Nov 2019
 Amended(6) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
-   Gaelan, G., Janet, twg), 29 Jan 2020
+   Gaelan, G., Janet, Kate), 29 Jan 2020
 Amended(7) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Janet, Aris, G., ais523), 12 Jun 2020
 Amended(8) by P8976 'Ruleset convergance' (Janet), 25 May 2023
@@ -4088,7 +4072,7 @@ Amended(18) by cleaning (D. Margaux), 30 Sep 2018
 Amended(19) by P8159 'Temporary Deputies' (G.), 22 Feb 2019
 Amended(20) by P8228 'Active Officers' (G., Janet), 05 Sep 2019
 Amended(21) by P8268 'Deputisation fix' (Janet), 11 Nov 2019
-Amended(22) by cleaning (twg), 23 Jan 2020
+Amended(22) by cleaning (Kate), 23 Jan 2020
 Amended(23) by P8646 'Deputisation rewrite' (Janet, G., ais523), 15 Mar
    2022
 Amended(24) by P8901 'Clarify deputisation' (Murphy), 26 Feb 2023
@@ -4291,7 +4275,8 @@ Amended(26) by P7865 'Regulations v4' (Aris, o, nix, ais523), 27 Jun
 Amended(27) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
    2018
 Amended(28) by P8244 'Crime Cleanup' (Janet), 05 Sep 2019
-Amended(29) by P8249 'No Harm No Foul' (Jacob Arduino, twg), 18 Sep 2019
+Amended(29) by P8249 'No Harm No Foul' (Jacob Arduino, Kate), 18 Sep
+   2019
 Amended(30) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
 Amended(31) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
 Amended(32) by P8370 'Announced Petitions' (Aris), 21 Apr 2020
@@ -4654,7 +4639,7 @@ Amended(7) by R2430, 24 May 2017
 Amended(8) by P8188 'Blanket Denial' (G.), 23 Jul 2019
 Amended(9) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
 Amended(10) by P8292 'Self-Ratification Simplification Act' (Bernie,
-   twg), 29 Jan 2020
+   Kate), 29 Jan 2020
 
 Annotations:
 CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
@@ -4698,7 +4683,7 @@ Blots
 History:
 
 Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
-Amended(1) by P8066 'Separation of church and state' (twg, Trigon), 26
+Amended(1) by P8066 'Separation of church and state' (Kate, Trigon), 26
    Jul 2018
 Amended(2) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(3) by P8217 'penance as a service' (G.), 05 Sep 2019
@@ -4793,8 +4778,8 @@ Amended(7) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(8) by P8090 'Shenanigans For INEFFECTIVE Fines (v2)' (D.
    Margaux), 17 Sep 2018
 Amended(9) by P8181 'Referee CAN Impose Fines (v1.1)' (D. Margaux,
-   Falsifian, twg), 22 Jun 2019
-Amended(10) by P8250 'Finger bending' (Murphy, twg), 04 Oct 2019
+   Falsifian, Kate), 22 Jun 2019
+Amended(10) by P8250 'Finger bending' (Murphy, Kate), 04 Oct 2019
 Amended(11) by P8368 'Explicit Accusations' (G.), 21 Apr 2020
 Amended(12) by P8404 'High Crimes and Treason' (Publius Scribonius
    Scholasticus, G., Janet, Murphy), 03 Jun 2020
@@ -4979,7 +4964,7 @@ Amended(25) by P8005 'Hopefully routine fixes' (Murphy), 06 Feb 2018
 Amended(26) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
    G., o, R. Lee), 24 Feb 2018
 Amended(27) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
-Amended(28) by P8065 'No undead courts' (twg), 18 Jul 2018
+Amended(28) by P8065 'No undead courts' (Kate), 18 Jul 2018
 Amended(29) by cleaning (Trigon), 31 Oct 2018
 Amended(30) by P8134 'The judge switch' (G.), 02 Dec 2018
 Amended(31) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep
@@ -5682,9 +5667,9 @@ Amended(18) by P6197 'Refactor contracts' (Murphy), 27 Apr 2009
 Repealed by P6635 'Agree to Disagree' [red] (coppro), 20 Feb 2010
 Re-enacted(19) and amended by P8054 'Minimalist Contracts v2' (Aris, G.,
    R. Lee), 01 Jul 2018
-Amended(20) by P8139 'Access to contracts' assets v2' (twg, G.), 15 Jan
+Amended(20) by P8139 'Access to contracts' assets v2' (Kate, G.), 15 Jan
    2019
-Amended(21) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
+Amended(21) by P8163 'Holey Loops, Batman!' (Kate), 22 Feb 2019
 Amended(22) by P8303 'Contract Patency v3' (Aris, Gaelan, Janet,
    Falsifian), 29 Jan 2020
 Amended(23) by P8559 'Paper Shredding' (ATMunn, G., Aris), 25 May 2021
@@ -5800,7 +5785,7 @@ Amended(25) by P8003 'Asset fix' (Corona), 31 Jan 2018
 Amended(26) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
    2018
 Amended(27) by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
-Amended(28) by P8129 'Bugfix: Treasuror doesn't self-ratify v2' (twg,
+Amended(28) by P8129 'Bugfix: Treasuror doesn't self-ratify v2' (Kate,
    Trigon, G.), 19 Nov 2018
 Amended(29) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
 Amended(30) by P8405 'Generic private assets' (Janet), 12 Jun 2020
@@ -5837,7 +5822,7 @@ Ownership
 History:
 
 Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
-Amended(1) by P8366 'Asset Determinacy' (Aris, twg), 17 Apr 2020
+Amended(1) by P8366 'Asset Determinacy' (Aris, Kate), 17 Apr 2020
 Amended(2) by P8484 'Clarify asset ownership' (Murphy, Cuddlebeam,
    Aris), 10 Aug 2020
 Amended(3) by P8500 'Clarify asset ownership some more' (Murphy, G.), 25
@@ -6022,9 +6007,9 @@ Repealed by P8004 'Rusty' (G.), 31 Jan 2018
 Re-enacted(2) and amended by P8041 'Consolidated Patch' (Aris, Trigon,
    G.), 27 Apr 2018
 Amended(3) by P8053 'patch patch patch' (G., Aris), 01 Jul 2018
-Amended(4) by P8072 'Steel Based Manufacturing v3' (Aris, twg), 26 Jul
+Amended(4) by P8072 'Steel Based Manufacturing v3' (Aris, Kate), 26 Jul
    2018
-Amended(5) by P8092 'Yet Another Economics Patch' (twg), 17 Sep 2018
+Amended(5) by P8092 'Yet Another Economics Patch' (Kate), 17 Sep 2018
 Amended(6) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
 Amended(7) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
    Scribonius Scholasticus, Janet, Aris, G., ais523), 12 Jun 2020
@@ -6276,7 +6261,7 @@ CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
     meaning in that paragraph.
 
 ------------------------------------------------------------------------
-Rule 2643/8 (Power=2)
+Rule 2643/9 (Power=2)
 Collecting Stones
 
       A stone is immune if and only if it is defined as such by the
@@ -6291,8 +6276,8 @@ Collecting Stones
       Stonemason SHALL publish such a notice in a timely fashion after
       the beginning of each Agoran month.
       
-      A Collection Notice includes a random numbers between 1 and 6; this
-      is the Escape Minimum.
+      A Collection Notice includes a random integer from 1 to 6; this is
+      the Escape Minimum.
       
       When a Collection Notice is published, for each player, half
       (rounded up) of eir non-immune stones with slipperiness not less
@@ -6316,6 +6301,7 @@ Amended(5) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
 Amended(6) by P8900 'Increased collection' (Janet), 26 Feb 2023
 Amended(7) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
 Amended(8) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
+Amended(9) by P9005 'Unreality stone' (Janet), 27 Aug 2023
 
 Annotations:
 
@@ -6668,11 +6654,11 @@ Amended(6) by P7922 'Clarity Act' (Alexis), 23 Oct 2017
 Amended(7) by P7933 'Ribbon Preservation Act' (Alexis), 06 Nov 2017
 Amended(8) by P7965 'One pronoun fix' (Trigon), 21 Nov 2017
 Amended(9) by P7992 'More CAN Fixes' (Alexis), 13 Jan 2018
-Amended(10) by P8232 'Increased transparency v1.1' (Murphy, Janet, twg),
-   05 Sep 2019
+Amended(10) by P8232 'Increased transparency v1.1' (Murphy, Janet,
+   Kate), 05 Sep 2019
 Amended(11) by P8267 'Emerald Ribbons' (Janet), 11 Nov 2019
 Amended(12) by P8283 'Ex Post Ribbon' (Alexis), 20 Jan 2020
-Amended(13) by P8295 'Rewards Reform Act' (Bernie, twg, Alexis), 29 Jan
+Amended(13) by P8295 'Rewards Reform Act' (Bernie, Kate, Alexis), 29 Jan
    2020
 Amended(14) by P8323 'Secure Ribbons' (Janet), 24 Feb 2020
 Amended(15) by P8330 'No looting white ribbons' (G.), 24 Feb 2020
@@ -6728,7 +6714,7 @@ History:
 
 Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
 Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
-Amended(2) by P8163 'Holey Loops, Batman!' (twg), 22 Feb 2019
+Amended(2) by P8163 'Holey Loops, Batman!' (Kate), 22 Feb 2019
 Amended(3) by cleaning (Janet), 14 Sep 2019
 Amended(4) by P8241 'Secured switches (v2.0)' (Janet, Falsifian), 18 Sep
    2019
@@ -7215,12 +7201,12 @@ Amended(22) by P7739 'Succession' (G.), 02 May 2015
 Amended(23) by P7824 'Office Incompatibilities' (aranea, ais523), 07 Nov
    2016
 Amended(24) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
-Amended(25) by P8117 'Fix for Uncertain Laurelings' (D. Margaux, twg),
+Amended(25) by P8117 'Fix for Uncertain Laurelings' (D. Margaux, Kate),
    12 Nov 2018
 Amended(26) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep
    2019
 Amended(27) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
-   Gaelan, G., Janet, twg), 29 Jan 2020
+   Gaelan, G., Janet, Kate), 29 Jan 2020
 Amended(28) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris,
    Janet), 11 Feb 2021
 Amended(29) by P8708 'Has Beens' (nix, snail, G., Madrid, 4st, Janet),
@@ -7265,7 +7251,7 @@ Amended(2) by P7817 'Prime Minister Voting Strength' (aranea), 28 Oct
 Amended(3) by P7831 'Vigilante Justice' (Alexis), 05 Dec 2016
 Amended(4) by cleaning (Murphy), 03 Nov 2019
 Amended(5) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
-   Gaelan, G., Janet, twg), 29 Jan 2020
+   Gaelan, G., Janet, Kate), 29 Jan 2020
 Amended(6) by P8936 'Oh come on guys folks' (4st), 02 Apr 2023
 
 Annotations:
