@@ -7,7 +7,7 @@ text: |
    (1) the alleged infracter can't be established by a preponderance
        of the evidence to have committed the infraction
 
-   (2) at the time the alleged infraction occured, it was not an
+   (2) at the time the alleged infraction occurred, it was not an
        infraction;
 
    (3) the infraction was for failure to take an action that the
@@ -125,6 +125,12 @@ history:
   date: 2022-08-20
   agent:
     proposal: "8830"
+- change:
+    type: amendment
+  date: 2023-09-18
+  agent:
+    cleaning:
+      by: "Kate"
 annotations:
 - cfjs:
   - id: 2531

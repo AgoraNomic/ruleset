@@ -58,7 +58,7 @@ text: |
     have eir radiance decreased by 1 to a minimum of 0. Immediately
     after a wandering, if a revolution is happening, then all
     players have eir radiance set to 100-X, where X was eir radiance
-    when the wandering occured, and all player's Dreams are set to
+    when the wandering occurred, and all player's Dreams are set to
     Wandering.
 history:
 - change:
@@ -114,3 +114,9 @@ history:
   agent:
     cleaning:
       by: 4st
+- change:
+    type: amendment
+  date: 2023-09-18
+  agent:
+    cleaning:
+      by: "Kate"

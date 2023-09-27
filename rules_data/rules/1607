@@ -21,7 +21,7 @@ text: |
   week, except for those excepted from automatic distribution by
   other rules, or those that are otherwise removed from the Pool. If
   there are ten or more undistributed proposals in the proposal
-  pool, the promotor MAY refrain from distributing the most recently
+  pool, the Promotor MAY refrain from distributing the most recently
   added 5 proposals if e distributes each other proposal in that
   Agoran week.
 
@@ -338,6 +338,12 @@ history:
   date: 2023-07-23
   agent:
     proposal: "9003"
+- change:
+    type: amendment
+  date: 2023-09-18
+  agent:
+    cleaning:
+      by: "Kate"
 annotations:
 - cfjs:
   - id: '1546'

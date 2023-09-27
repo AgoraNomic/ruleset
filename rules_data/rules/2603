@@ -1,5 +1,5 @@
 id: 2603
-name: Switch Responsiblity
+name: Switch Responsibility
 power: 1
 text: |
   For each type of switch which would otherwise lack an officer to
@@ -12,4 +12,10 @@ history:
   date: 2019-11-11
   agent:
     proposal: "8273"
+- change:
+    type: retitling
+  date: 2023-09-18
+  agent:
+    refiling:
+      by: "Kate"
 annotations: []
