@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 17 Sep 2023
+Date of this ruleset: 27 Sep 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 130
 
 Highest ID'd rule in this ruleset: 2683
-Highest ID'd Proposal Passed: 9008
+Highest ID'd Proposal Passed: 9009
 Highest ID'd Rule Enacted: 2683
 
 ========================================================================
@@ -219,11 +219,11 @@ Activity
       at the same time that it is published.
 
 ------------------------------------------------------------------------
-Rule 2678/0 (Power=3)
+Rule 2678/1 (Power=3)
 Expectations of Participation
 
       An "Agoran forum" is a forum with publicity of discussion or
-      public. Players of Agora have the following expectations of agoran
+      public. Players of Agora have the following expectations of Agoran
       fora:
       
       * Agoran fora allow equal participation for all players, subject
@@ -747,7 +747,7 @@ Proposal Classes
       ended.
 
 ------------------------------------------------------------------------
-Rule 1607/56 (Power=3)
+Rule 1607/57 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -769,7 +769,7 @@ Distribution
       week, except for those excepted from automatic distribution by
       other rules, or those that are otherwise removed from the Pool. If
       there are ten or more undistributed proposals in the proposal
-      pool, the promotor MAY refrain from distributing the most recently
+      pool, the Promotor MAY refrain from distributing the most recently
       added 5 proposals if e distributes each other proposal in that
       Agoran week.
       
@@ -1093,14 +1093,18 @@ The Logical Rulesets
          ID number, author, and coauthor(s) (if any).
 
 ------------------------------------------------------------------------
-Rule 2221/9 (Power=3)
+Rule 2221/10 (Power=3)
 Cleanliness and Tidy Filing
 
       Any player CAN clean a rule without objection by specifying one or
       more corrections to spelling, grammar, capitalization, formatting,
       and/or dialect, or to whether a synonym or abbreviation is used in
-      place of a word or phrase, in the rule's text and/or title; the
-      rule is amended by this rule as specified by that person.
+      place of a word or phrase, in the rule's text and/or title; when e
+      does so, if any text changes were specified, that rule is amended
+      by this rule by applying the changes as a single amendment
+      (failing as a whole if any fail); then, if any title changes were
+      specified, that rule is retitled by this rule by applying the
+      changes as a single retitling (failing as a whole if any fail)..
       
       Any player CAN refile a rule without objection, specifying a new
       title; the rule is retitled to the specified title by this rule.
@@ -1777,7 +1781,7 @@ Official Reports and Duties
       publicly respond to that petition in a timely fashion.
 
 ------------------------------------------------------------------------
-Rule 2677/0 (Power=0.5)
+Rule 2677/1 (Power=0.5)
 Etiquette
 
       Officers SHOULD:
@@ -1789,7 +1793,7 @@ Etiquette
          usually be done;
       
        - maintain an online version of eir report(s) in a browser-native
-         format (such as html); AND
+         format (such as HTML); AND
       
        - maintain a repository of eir report(s) in a public place.
       
@@ -1827,7 +1831,7 @@ Complexity
 
 ------------------------------------------------------------------------
 Rule 2603/0 (Power=1)
-Switch Responsiblity
+Switch Responsibility
 
       For each type of switch which would otherwise lack an officer to
       track it, and is not defined as untracked, there exists an imposed
@@ -2053,13 +2057,13 @@ Justice
       investigated Infractions committed in the previous week.
 
 ------------------------------------------------------------------------
-Rule 2676/0 (Power=1.7)
+Rule 2676/1 (Power=1.7)
 Forgiveness
 
       All infractions that have not been forgiven are unforgiven.
       
       Any player CAN, with Agoran Consent, "forgive" an unforgiven
-      infraction that occured in the last 30 days. When an infraction
+      infraction that ocurred in the last 30 days. When an infraction
       is forgiven, if the infraction was investigated, a number of
       blots in the possession of the infracter equal to the number of
       blots specified by the investigation are destroyed or, if e has
@@ -2068,7 +2072,7 @@ Forgiveness
       intent to forgive eir own infraction.
 
 ------------------------------------------------------------------------
-Rule 2531/16 (Power=2)
+Rule 2531/17 (Power=2)
 Defendant's Rights
 
       An infraction is automatically forgiven if:
@@ -2076,7 +2080,7 @@ Defendant's Rights
       (1) the alleged infracter can't be established by a preponderance
           of the evidence to have committed the infraction
       
-      (2) at the time the alleged infraction occured, it was not an
+      (2) at the time the alleged infraction occurred, it was not an
           infraction;
       
       (3) the infraction was for failure to take an action that the
@@ -2681,7 +2685,7 @@ Birthday Gifts
       the Registrar SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2675/8 (Power=2)
+Rule 2675/9 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -2740,7 +2744,7 @@ Dream of Wandering
         have eir radiance decreased by 1 to a minimum of 0. Immediately
         after a wandering, if a revolution is happening, then all
         players have eir radiance set to 100-X, where X was eir radiance
-        when the wandering occured, and all player's Dreams are set to
+        when the wandering occurred, and all player's Dreams are set to
         Wandering.
 
 ------------------------------------------------------------------------
@@ -3227,7 +3231,7 @@ Order of the Hero of Agora Nomic
       beyond the call of duty.
 
 ------------------------------------------------------------------------
-Rule 2581/5 (Power=1)
+Rule 2581/6 (Power=1)
 Official Patent Titles
 
       The following Patent Titles CAN be awarded by the indicated
@@ -3246,7 +3250,7 @@ Official Patent Titles
          scams without breaking any Rules.
       
        - Hard Labor, awardable by the ADoP to any player who holds 2+
-         offices for 3+ continous months while performing eir official
+         offices for 3+ continuous months while performing eir official
          duties in a timely and conscientious manner that promotes the
          gameplay of the office.
       
