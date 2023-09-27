@@ -5,8 +5,12 @@ text: |
   Any player CAN clean a rule without objection by specifying one or
   more corrections to spelling, grammar, capitalization, formatting,
   and/or dialect, or to whether a synonym or abbreviation is used in
-  place of a word or phrase, in the rule's text and/or title; the
-  rule is amended by this rule as specified by that person.
+  place of a word or phrase, in the rule's text and/or title; when e
+  does so, if any text changes were specified, that rule is amended
+  by this rule by applying the changes as a single amendment
+  (failing as a whole if any fail); then, if any title changes were
+  specified, that rule is retitled by this rule by applying the
+  changes as a single retitling (failing as a whole if any fail)..
 
   Any player CAN refile a rule without objection, specifying a new
   title; the rule is retitled to the specified title by this rule.
@@ -74,6 +78,11 @@ history:
   date: 2022-08-30
   agent:
     proposal: "8840"
+- change:
+    type: amendment
+  date: 2023-09-27
+  agent:
+    proposal: "9009"
 annotations:
 - cfjs:
   - id: 3800-3803
