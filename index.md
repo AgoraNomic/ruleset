@@ -2,7 +2,7 @@
 title: rules
 layout: default
 ---
-
+<div width="72px">
 # The Agoran Rulesets
 
 Welcome. If you are trying to access the ruleset of Agora Nomic, you've
@@ -44,3 +44,4 @@ off-site.**
   generated from current ruleset data like the textual rulesets linked
   above. This project is open-source. Its source code can be found
   [here](https://github.com/AgoraNomic/ruleset-viewer).
+</div>
