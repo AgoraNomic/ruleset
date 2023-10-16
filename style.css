@@ -64,10 +64,6 @@ body {
 }
 
 .rule101 {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-top: 1%;
-  padding-bottom: 1%;
   font-size: 16px;
   color: #B31837;
 }
@@ -106,7 +102,8 @@ embed {
 }
 
 .content {
-  margin-right: 14em;
+  margin: auto;
+  max-width: 72ch;
 }
 
 .chats {

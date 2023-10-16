@@ -1,6 +1,6 @@
 ---
 title: rules
-layout: rulesindex
+layout: default
 ---
 # The Agoran Rulesets
 
