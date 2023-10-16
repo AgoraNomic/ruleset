@@ -1,6 +1,6 @@
 ---
 title: rules
-layout: default
+layout: puremd
 ---
 # The Agoran Rulesets
 
