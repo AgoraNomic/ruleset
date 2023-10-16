@@ -1,0 +1,192 @@
+body {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #FBE1E6;
+}
+
+.mobile, .dropdown-content {
+  display: none;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  margin: 0;
+  background-color: inherit;
+}
+
+.nvbr {
+    width: 100%;
+    position: fixed;
+    background-color: #333;
+    overflow: hidden;
+    z-index:998;
+}
+
+.nvpad {
+    padding: 3.5em;
+}
+
+/* Style the links inside the navigation bar */
+.nvbr a, .nvbar option {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.nvbr a:hover {
+  background-color: #E52B50;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.home .home, .glossary .glossary, .play .play, .calendar .calendar, .rules .rules, .judgments .judgments, .archives .archives, .join .join {
+  background-color: #E52B50;
+  color: white;
+}
+
+.coat-of-arms {
+  height:128px;
+  width:128px;
+  z-index:9999;
+  position:fixed;
+  right:0%;
+}
+
+.rule101 {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 16px;
+  color: #B31837;
+}
+
+h1 {
+    color: #E52B50;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 1em;
+}
+
+h2 {
+    color: #E52B50;
+    text-align: center;
+}
+
+h3 {
+    color: #E52B50;
+    text-align: center;
+}
+
+h4 {
+    color: #E52B50;
+    text-align: center;
+}
+
+embed {
+    width: 35em;
+    height: 73vh;
+    align-content: center;
+}
+
+.container {
+  position:relative;
+  width: 100%;
+}
+
+.content {
+  margin-right: 14em;
+}
+
+.chats {
+  width: 10em;
+  height: 100%;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #FDEDF0;
+}
+
+/* Buttons for discord and matrix and irc */
+
+.button {
+  border-color: #E52B50;
+  border-radius: 10px;
+  background-color: #E52B50;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Adjust elements to small screens */
+@media screen and (max-width:73em) {
+  .chats {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .button {
+    width: 45%;
+    font-size: 20px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .content {
+    width: 100%;
+  }
+  .mobile {
+    display: inline-block;
+  }
+  .desktop {
+    display: none;
+  }
+  .nvbr a, .nvbar option {
+    float: center;
+    width: 100%;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 0px;
+  }
+  .nvpad {
+    padding-top: 6vh;
+  }
+  .rule101 {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 0.8em;
+    overflow: scroll;
+  }
+  .coat-of-arms {
+    height:64px;
+    width:64px;
+  }
+}
+
+.button:hover {
+  background-color: #E52B50;
+  color: white;
+}
+  

@@ -1,8 +1,7 @@
 ---
-title: Home
-layout: default
+title: rules
+layout: rulesindex
 ---
-
 # The Agoran Rulesets
 
 Welcome. If you are trying to access the ruleset of Agora Nomic, you've
