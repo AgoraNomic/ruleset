@@ -1,5 +1,5 @@
 ---
-title: Home
+title: rules
 layout: default
 ---
 
