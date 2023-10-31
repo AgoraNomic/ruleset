@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 27 Sep 2023
+Date of this ruleset: 31 Oct 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 130
 
 Highest ID'd rule in this ruleset: 2683
-Highest ID'd Proposal Passed: 9009
+Highest ID'd Proposal Passed: 9019
 Highest ID'd Rule Enacted: 2683
 
 ------------------------------------------------------------------------
@@ -3666,15 +3666,17 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/46 (Power=2)
+Rule 1006/47 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
       Officeholder is an office switch tracked by the ADoP, with
-      possible values of any person or "vacant" (default). An officer is
-      the holder of an office, who may be referred to by the name of
-      that office. If the holder of an office is ever not a player, it
-      becomes vacant.
+      possible values of any person or "vacant" (default). Each instance
+      of the Officeholder switch is secured at the power of the Rule
+      defining the associated office (or the power of this Rule, if the
+      defining Rule's power is higher). An officer is the holder of an
+      office, who may be referred to by the name of that office. If the
+      holder of an office is ever not a player, it becomes vacant.
       
       An imposed office is an office described as such by the rule
       defining it. All others are elected. A person CANNOT be made the
@@ -3762,6 +3764,7 @@ Amended(44) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep
    2019
 Amended(45) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 Amended(46) by P8944 'Effecting change' (Janet, ais523), 16 Apr 2023
+Amended(47) by P9012 'Official security' (Janet), 31 Oct 2023
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -4354,11 +4357,11 @@ Enacted by P8682 'Temptation' (snail), 18 Jun 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2632/3 (Power=2.0)
+Rule 2632/4 (Power=2.0)
 Complexity
 
-      Complexity is an office switch reflecting how complex it is to
-      fulfill the duties of its office. Its possible values are all
+      Complexity is a secured office switch reflecting how complex it is
+      to fulfill the duties of its office. Its possible values are all
       integers from 0 to 3 inclusive, where 1 is the default. It is
       tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
       consent, flip the complexity of an office to a specified possible
@@ -4377,6 +4380,7 @@ Amended(2) by P8880 'Complex, but clear' (Janet), 15 Jan 2023
 Power changed from 1.0 to 2.0 by P8881 'Effective complexity' (Janet),
    15 Jan 2023
 Amended(3) by P8881 'Effective complexity' (Janet), 15 Jan 2023
+Amended(4) by P9012 'Official security' (Janet), 31 Oct 2023
 
 Annotations:
 
