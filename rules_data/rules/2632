@@ -2,8 +2,8 @@ id: 2632
 name: Complexity
 power: 2.0
 text: |
-  Complexity is an office switch reflecting how complex it is to
-  fulfill the duties of its office. Its possible values are all
+  Complexity is a secured office switch reflecting how complex it is
+  to fulfill the duties of its office. Its possible values are all
   integers from 0 to 3 inclusive, where 1 is the default. It is
   tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
   consent, flip the complexity of an office to a specified possible
@@ -40,4 +40,9 @@ history:
   date: 2023-01-15
   agent:
     proposal: "8881"
+- change:
+    type: amendment
+  date: 2023-10-31
+  agent:
+    proposal: "9012"
 annotations: []

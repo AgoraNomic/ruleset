@@ -4,10 +4,12 @@ power: 2
 text: |
   An Office is a position described as an Office by the Rules.
   Officeholder is an office switch tracked by the ADoP, with
-  possible values of any person or "vacant" (default). An officer is
-  the holder of an office, who may be referred to by the name of
-  that office. If the holder of an office is ever not a player, it
-  becomes vacant.
+  possible values of any person or "vacant" (default). Each instance
+  of the Officeholder switch is secured at the power of the Rule
+  defining the associated office (or the power of this Rule, if the
+  defining Rule's power is higher). An officer is the holder of an
+  office, who may be referred to by the name of that office. If the
+  holder of an office is ever not a player, it becomes vacant.
 
   An imposed office is an office described as such by the rule
   defining it. All others are elected. A person CANNOT be made the
@@ -304,6 +306,11 @@ history:
   date: 2023-04-16
   agent:
     proposal: "8944"
+- change:
+    type: amendment
+  date: 2023-10-31
+  agent:
+    proposal: "9012"
 annotations:
 - cfjs:
   - id: '1660'
