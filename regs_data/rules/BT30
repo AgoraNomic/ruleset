@@ -135,3 +135,10 @@ history:
     tournament_init:
       name: 2023 Birthday Tournament
       person: 4st
+- change:
+    type: repeal
+  date: 2023-11-19
+  agent:
+    tournament_end:
+      name: "2023 Birthday Tournament"
+      person: "Janet"
