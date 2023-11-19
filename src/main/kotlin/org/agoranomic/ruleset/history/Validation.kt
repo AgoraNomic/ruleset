@@ -11,6 +11,7 @@ sealed class RuleHistoryValidationResult {
     sealed class Invalid(val readableMessage: String) : RuleHistoryValidationResult() {
         object EmptyHistory : Invalid("empty history")
         object InitialNotEnactment : Invalid("initial change is not an enactment")
+        object Repealed : Invalid("rule was repealed and not re-enacted")
         object DoubleEnactment : Invalid("two enactments in a row")
         object NoReenactmentAfterRepeal : Invalid("rule was not re-enacted after a repeal")
 
@@ -54,6 +55,10 @@ fun validateHistory(
 
     if (!entries.first().change.effects.contains(HistoricalChangeEffect.ENACTMENT)) {
         return RuleHistoryValidationResult.Invalid.InitialNotEnactment
+    }
+
+    if (entries.last().change.effects.contains(HistoricalChangeEffect.REPEAL)) {
+        return RuleHistoryValidationResult.Invalid.Repealed
     }
 
     for ((first, second) in entries.map { it.date }.zipWithNext()) {
