@@ -37,8 +37,8 @@ text: |
     announcement, from a specified player before the next wandering.
 
   - Sharing: Immediately after a wandering, each Sharing Dreamer has
-    eir points increased by X / Y, rounded down, where X is half the
-    number of active players, rounded up, and Y is the number of
+    eir Radiance increased by X / Y, rounded down, where X is half
+    the number of active players, rounded up, and Y is the number of
     Sharing Dreamers.
 
   - Wealth: Immediately after a wandering, X stamps of eir own type
@@ -120,3 +120,8 @@ history:
   agent:
     cleaning:
       by: "Kate"
+- change:
+    type: amendment
+  date: 2023-11-26
+  agent:
+    proposal: "9029"
