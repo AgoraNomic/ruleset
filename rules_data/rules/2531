@@ -5,7 +5,7 @@ text: |
    An infraction is automatically forgiven if:
 
    (1) the alleged infracter can't be established by a preponderance
-       of the evidence to have committed the infraction
+       of the evidence to have committed the infraction;
 
    (2) at the time the alleged infraction occurred, it was not an
        infraction;
@@ -16,10 +16,25 @@ text: |
 
    (4) the infraction is for conduct that the infracter, through no
        fault of eir own, was obliged to undertake by a rule of equal
-       or greater power to the one e violated; or
+       or greater power to the one e violated;
 
    (5) the infracter could not have avoided the infraction when
        exercising the highest reasonably possible standard of care;
+       or
+
+   (6) any available non-null punishment would be blatantly and
+       obviously unsuited to the conduct which constitutes the
+       infraction or to the person who committed the infraction.
+
+   Rules to the contrary notwithstanding, any attempt to investigate
+   an infraction which would result in the creation of blots is
+   INEFFECTIVE if:
+
+   (1) it does not include the specific reason for the fine; or
+
+   (2) it would result in a punishment that is blatantly and
+       obviously unsuited to the conduct which constitutes the
+       infraction or to the person who committed the infraction.
 history:
 - change:
     type: enactment
@@ -131,6 +146,11 @@ history:
   agent:
     cleaning:
       by: "Kate"
+- change:
+    type: amendment
+  date: 2023-11-26
+  agent:
+    proposal: "9028"
 annotations:
 - cfjs:
   - id: 2531

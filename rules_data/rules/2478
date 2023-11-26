@@ -17,7 +17,8 @@ text: |
    notwithstanding, if the base of an infraction would be greater
    than its class, the infraction's base is equal to its class.
 
-   Within 14 days of an infraction being committed, the Investigator
+   Within 14 days of an infraction being committed, or if the
+   infraction has been noted in the past 60 days, the Investigator
    CAN investigate the infraction by announcement, specifying a
    number of blots between the Base and the Class of the infraction,
    inclusive. When e does so, that many blots are created in the
@@ -31,7 +32,7 @@ text: |
    equal to the Class of the noted infraction.
 
    A player CAN, by announcement, "note" an unforgiven infraction
-   committed by any other player in the last 7 days, specifying the
+   committed by any other player in the last 14 days, specifying the
    incident and the rule it violates (or name of the Infraction if
    it has one).
 
@@ -168,4 +169,9 @@ history:
   date: 2022-08-20
   agent:
     proposal: "8830"
+- change:
+    type: amendment
+  date: 2023-11-26
+  agent:
+    proposal: "9028"
 annotations: []
