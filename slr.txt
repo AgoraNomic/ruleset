@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 19 Nov 2023
+Date of this ruleset: 26 Nov 2023
 
 Date of last SLR ratification: 8 May 2019
 
 Number of rules currently enacted: 130
 
 Highest ID'd rule in this ruleset: 2683
-Highest ID'd Proposal Passed: 9026
+Highest ID'd Proposal Passed: 9029
 Highest ID'd Rule Enacted: 2683
 
 ========================================================================
@@ -73,7 +73,7 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/52 (Power=3)
+Rule 869/53 (Power=3)
 How to Join and Leave Agora
 
       Any entity (including a group of entities confederated with the
@@ -92,11 +92,11 @@ How to Join and Leave Agora
       Citizenship switch from Unregistered to Registered.
       
       An Unregistered person CAN (unless explicitly forbidden or
-      prevented by the rules) register by publishing a message that
-      indicates reasonably clearly and reasonably unambiguously eir
-      desire to become a player at that time (for example, by saying "I
-      register"). No person can be a player if e is part of another
-      player or another player is part of em.
+      prevented by Rules of power 3 or greater) register by publishing a
+      message that indicates reasonably clearly and reasonably
+      unambiguously eir desire to become a player at that time (for
+      example, by saying "I register"). No person can be a player if e
+      is part of another player or another player is part of em.
       
       A player, acting as emself, CAN deregister (cease being a player)
       by announcement. If e does so, e CANNOT register or be registered
@@ -2019,7 +2019,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/24 (Power=1.7)
+Rule 2478/25 (Power=1.7)
 Justice
 
       An Infraction is a violation of a rule. The person who committed
@@ -2037,7 +2037,8 @@ Justice
       notwithstanding, if the base of an infraction would be greater
       than its class, the infraction's base is equal to its class.
       
-      Within 14 days of an infraction being committed, the Investigator
+      Within 14 days of an infraction being committed, or if the
+      infraction has been noted in the past 60 days, the Investigator
       CAN investigate the infraction by announcement, specifying a
       number of blots between the Base and the Class of the infraction,
       inclusive. When e does so, that many blots are created in the
@@ -2051,7 +2052,7 @@ Justice
       equal to the Class of the noted infraction.
       
       A player CAN, by announcement, "note" an unforgiven infraction
-      committed by any other player in the last 7 days, specifying the
+      committed by any other player in the last 14 days, specifying the
       incident and the rule it violates (or name of the Infraction if
       it has one).
       
@@ -2074,13 +2075,13 @@ Forgiveness
       intent to forgive eir own infraction.
 
 ------------------------------------------------------------------------
-Rule 2531/17 (Power=2)
+Rule 2531/18 (Power=2)
 Defendant's Rights
 
       An infraction is automatically forgiven if:
       
       (1) the alleged infracter can't be established by a preponderance
-          of the evidence to have committed the infraction
+          of the evidence to have committed the infraction;
       
       (2) at the time the alleged infraction occurred, it was not an
           infraction;
@@ -2091,10 +2092,25 @@ Defendant's Rights
       
       (4) the infraction is for conduct that the infracter, through no
           fault of eir own, was obliged to undertake by a rule of equal
-          or greater power to the one e violated; or
+          or greater power to the one e violated;
       
       (5) the infracter could not have avoided the infraction when
           exercising the highest reasonably possible standard of care;
+          or
+      
+      (6) any available non-null punishment would be blatantly and
+          obviously unsuited to the conduct which constitutes the
+          infraction or to the person who committed the infraction.
+      
+      Rules to the contrary notwithstanding, any attempt to investigate
+      an infraction which would result in the creation of blots is
+      INEFFECTIVE if:
+      
+      (1) it does not include the specific reason for the fine; or
+      
+      (2) it would result in a punishment that is blatantly and
+          obviously unsuited to the conduct which constitutes the
+          infraction or to the person who committed the infraction.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2687,7 +2703,7 @@ Birthday Gifts
       the Registrar SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2675/9 (Power=2)
+Rule 2675/10 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -2725,8 +2741,8 @@ Dream of Wandering
         announcement, from a specified player before the next wandering.
       
       - Sharing: Immediately after a wandering, each Sharing Dreamer has
-        eir points increased by X / Y, rounded down, where X is half the
-        number of active players, rounded up, and Y is the number of
+        eir Radiance increased by X / Y, rounded down, where X is half
+        the number of active players, rounded up, and Y is the number of
         Sharing Dreamers.
       
       - Wealth: Immediately after a wandering, X stamps of eir own type
