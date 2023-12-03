@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 26 Nov 2023
+Date of this ruleset: 3 Dec 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 130
+Number of rules currently enacted: 131
 
-Highest ID'd rule in this ruleset: 2683
-Highest ID'd Proposal Passed: 9029
-Highest ID'd Rule Enacted: 2683
+Highest ID'd rule in this ruleset: 2685
+Highest ID'd Proposal Passed: 9034
+Highest ID'd Rule Enacted: 2685
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -134,6 +134,7 @@ Economics
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2675: Dream of Wandering
+   * Rule 2685: Crystals
 Stones
    * Rule 2640: Stones
    * Rule 2641: Wielding Stones
@@ -180,7 +181,7 @@ Power Distribution:
 
 1  with Power=0.3
 2  with Power=0.5
-28 with Power=1
+29 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -5988,7 +5989,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/4 (Power=1)
+Rule 2659/5 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players . The
@@ -6004,8 +6005,8 @@ Stamps
       Any player CAN, once per week, pay X Stamps, where each Stamp is
       the same type, to gain (X-1)*2 radiance.
       
-      Any player CAN win by paying N Stamps, where N is the current
-      number of active players and each specified Stamp is of a
+      Any active player CAN win by paying N Stamps, where N is the
+      current number of active players and each specified Stamp is of a
       different type.
 
 History:
@@ -6016,6 +6017,7 @@ Amended(2) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
 Amended(3) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(4) by P8997 'Stamp fungibility' (Janet, Murphy), 19 Jun 2023
+Amended(5) by P9034 'A simple fix' (snail, nix), 03 Dec 2023
 
 Annotations:
 
@@ -6104,7 +6106,7 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2675/10 (Power=2)
+Rule 2675/11 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -6149,7 +6151,7 @@ Dream of Wandering
       - Wealth: Immediately after a wandering, X stamps of eir own type
         are granted to each Wealth Dreamer. When less than 8 Stamps of
         eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
-        is 1. When 16 ore more Stamps of eir type exist, X is 0.
+        is 1. When 16 or more Stamps of eir type exist, X is 0.
       
       - Gardens: Immediately after a wandering, the Base Rockiness of
         each Gardens Dreamer is increased by 1.
@@ -6183,6 +6185,55 @@ Amended(7) by P8955 'Disassembling the Device' (snail), 23 Apr 2023
 Amended(8) by cleaning (4st), 25 Apr 2023
 Amended(9) by cleaning (Kate), 18 Sep 2023
 Amended(10) by P9029 'Sharing takes Care' (snail, Zipzap), 26 Nov 2023
+Amended(11) by cleaning (kiako), 27 Nov 2023
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2685/0 (Power=1.0)
+Crystals
+
+      The Geologist is an office that tracks crystals.
+      
+      A crystal is an asset with secured integer switches identity, size
+      (default 0), and instability (default 0).
+      
+      Each quarter, each crystal whose identity is not equal to the ID
+      of any rule in the current ruleset has its size increased by 3.
+      
+      If a proposal amends or repeals a rule, if a crystal exists whose
+      identity equals that rule's id, that crystal absorbs that
+      proposal. Otherwise, grant to the author of the proposal a crystal
+      with identity equal to the ID of that rule, then that crystal
+      absorbs that proposal. Each crystal can only absorb a given
+      proposal once by this method.
+      
+      When a crystal absorbs a proposal, the following occur in sequence:
+      - The size of that crystal is increased by the power of that
+        proposal (rounded down).
+      
+      - If that crystal's owner is not the author of that proposal, the
+        instability of that crystal is increased by 3.
+      
+      - If the instability of that crystal is greater than its size, it
+        is transferred to the author of the proposal, then its
+        instability becomes equal to its size.
+      
+      A player is crystallized if the total size of crystals e owns is
+      at least the number of rules in the current ruleset.
+      
+      Any player CAN, by announcement, Shatter the System, specifying
+      each crystallized player, and provided that no player has done so
+      in the past 30 days. When a player does so, each crystallized
+      player wins the game.
+      
+      If at least 4 days have passed since any player won the game in
+      this manner, any player CAN repeal this rule by announcement.
+
+History:
+
+Enacted by P9032 'Rules as Items v6' (4st, Janet, kiako, snail), 03 Dec
+   2023
 
 Annotations:
 
@@ -6724,7 +6775,7 @@ Amended(29) by cleaning (4st), 25 Apr 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2480/6 (Power=3.1)
+Rule 2480/7 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
@@ -6745,7 +6796,7 @@ Festivals
       Rank N Festival, where N is an integer greater than Agora's
       Festivity, with 4 support from other players who would be Festive
       if the Festivity was N, except that a Rank N Festival CANNOT be
-      started if Agora's Festivity has had a value grater than or equal
+      started if Agora's Festivity has had a value greater than or equal
       to N in the past 21 days. Upon a Rank N Festival starting, Agora's
       Festivity is flipped to N.
 
@@ -6761,6 +6812,7 @@ Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Janet, Aris,
    Murphy), 14 Jun 2021
 Amended(5) by P8634 'Laudability' (Janet), 24 Dec 2021
 Amended(6) by P8657 'Shrodinger's report' (Murphy), 03 Apr 2022
+Amended(7) by cleaning (4st), 22 Nov 2023
 
 Annotations:
 

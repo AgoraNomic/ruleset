@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 26 Nov 2023
+Date of this ruleset: 3 Dec 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 130
+Number of rules currently enacted: 131
 
-Highest ID'd rule in this ruleset: 2683
-Highest ID'd Proposal Passed: 9029
-Highest ID'd Rule Enacted: 2683
+Highest ID'd rule in this ruleset: 2685
+Highest ID'd Proposal Passed: 9034
+Highest ID'd Rule Enacted: 2685
 
 ========================================================================
 The Game of Agora
@@ -2655,7 +2655,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/4 (Power=1)
+Rule 2659/5 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players . The
@@ -2671,8 +2671,8 @@ Stamps
       Any player CAN, once per week, pay X Stamps, where each Stamp is
       the same type, to gain (X-1)*2 radiance.
       
-      Any player CAN win by paying N Stamps, where N is the current
-      number of active players and each specified Stamp is of a
+      Any active player CAN win by paying N Stamps, where N is the
+      current number of active players and each specified Stamp is of a
       different type.
 
 ------------------------------------------------------------------------
@@ -2703,7 +2703,7 @@ Birthday Gifts
       the Registrar SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2675/10 (Power=2)
+Rule 2675/11 (Power=2)
 Dream of Wandering
 
       The Dream Keeper is an office; its holder is responsible for
@@ -2748,7 +2748,7 @@ Dream of Wandering
       - Wealth: Immediately after a wandering, X stamps of eir own type
         are granted to each Wealth Dreamer. When less than 8 Stamps of
         eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
-        is 1. When 16 ore more Stamps of eir type exist, X is 0.
+        is 1. When 16 or more Stamps of eir type exist, X is 0.
       
       - Gardens: Immediately after a wandering, the Base Rockiness of
         each Gardens Dreamer is increased by 1.
@@ -2764,6 +2764,47 @@ Dream of Wandering
         players have eir radiance set to 100-X, where X was eir radiance
         when the wandering occurred, and all player's Dreams are set to
         Wandering.
+
+------------------------------------------------------------------------
+Rule 2685/0 (Power=1.0)
+Crystals
+
+      The Geologist is an office that tracks crystals.
+      
+      A crystal is an asset with secured integer switches identity, size
+      (default 0), and instability (default 0).
+      
+      Each quarter, each crystal whose identity is not equal to the ID
+      of any rule in the current ruleset has its size increased by 3.
+      
+      If a proposal amends or repeals a rule, if a crystal exists whose
+      identity equals that rule's id, that crystal absorbs that
+      proposal. Otherwise, grant to the author of the proposal a crystal
+      with identity equal to the ID of that rule, then that crystal
+      absorbs that proposal. Each crystal can only absorb a given
+      proposal once by this method.
+      
+      When a crystal absorbs a proposal, the following occur in sequence:
+      - The size of that crystal is increased by the power of that
+        proposal (rounded down).
+      
+      - If that crystal's owner is not the author of that proposal, the
+        instability of that crystal is increased by 3.
+      
+      - If the instability of that crystal is greater than its size, it
+        is transferred to the author of the proposal, then its
+        instability becomes equal to its size.
+      
+      A player is crystallized if the total size of crystals e owns is
+      at least the number of rules in the current ruleset.
+      
+      Any player CAN, by announcement, Shatter the System, specifying
+      each crystallized player, and provided that no player has done so
+      in the past 30 days. When a player does so, each crystallized
+      player wins the game.
+      
+      If at least 4 days have passed since any player won the game in
+      this manner, any player CAN repeal this rule by announcement.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3103,7 +3144,7 @@ Ribbons
       Qualifying for ribbons is secured. Earning ribbons is secured.
 
 ------------------------------------------------------------------------
-Rule 2480/6 (Power=3.1)
+Rule 2480/7 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
@@ -3124,7 +3165,7 @@ Festivals
       Rank N Festival, where N is an integer greater than Agora's
       Festivity, with 4 support from other players who would be Festive
       if the Festivity was N, except that a Rank N Festival CANNOT be
-      started if Agora's Festivity has had a value grater than or equal
+      started if Agora's Festivity has had a value greater than or equal
       to N in the past 21 days. Upon a Rank N Festival starting, Agora's
       Festivity is flipped to N.
 
