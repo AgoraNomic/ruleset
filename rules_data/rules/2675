@@ -44,7 +44,7 @@ text: |
   - Wealth: Immediately after a wandering, X stamps of eir own type
     are granted to each Wealth Dreamer. When less than 8 Stamps of
     eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
-    is 1. When 16 ore more Stamps of eir type exist, X is 0.
+    is 1. When 16 or more Stamps of eir type exist, X is 0.
 
   - Gardens: Immediately after a wandering, the Base Rockiness of
     each Gardens Dreamer is increased by 1.
@@ -125,3 +125,9 @@ history:
   date: 2023-11-26
   agent:
     proposal: "9029"
+- change:
+    type: amendment
+  date: 2023-11-27
+  agent:
+    cleaning:
+      by: "kiako"
