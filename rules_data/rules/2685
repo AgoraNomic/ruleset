@@ -1,0 +1,46 @@
+id: 2685
+name: Crystals
+power: 1.0
+text: |
+  The Geologist is an office that tracks crystals.
+
+  A crystal is an asset with secured integer switches identity, size
+  (default 0), and instability (default 0).
+
+  Each quarter, each crystal whose identity is not equal to the ID
+  of any rule in the current ruleset has its size increased by 3.
+
+  If a proposal amends or repeals a rule, if a crystal exists whose
+  identity equals that rule's id, that crystal absorbs that
+  proposal. Otherwise, grant to the author of the proposal a crystal
+  with identity equal to the ID of that rule, then that crystal
+  absorbs that proposal. Each crystal can only absorb a given
+  proposal once by this method.
+
+  When a crystal absorbs a proposal, the following occur in sequence:
+  - The size of that crystal is increased by the power of that
+    proposal (rounded down).
+
+  - If that crystal's owner is not the author of that proposal, the
+    instability of that crystal is increased by 3.
+
+  - If the instability of that crystal is greater than its size, it
+    is transferred to the author of the proposal, then its
+    instability becomes equal to its size.
+
+  A player is crystallized if the total size of crystals e owns is
+  at least the number of rules in the current ruleset.
+
+  Any player CAN, by announcement, Shatter the System, specifying
+  each crystallized player, and provided that no player has done so
+  in the past 30 days. When a player does so, each crystallized
+  player wins the game.
+
+  If at least 4 days have passed since any player won the game in
+  this manner, any player CAN repeal this rule by announcement.
+history:
+- change:
+    type: enactment
+  date: 2023-12-03
+  agent:
+    proposal: "9032"
