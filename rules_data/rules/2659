@@ -15,8 +15,8 @@ text: |
   Any player CAN, once per week, pay X Stamps, where each Stamp is
   the same type, to gain (X-1)*2 radiance.
 
-  Any player CAN win by paying N Stamps, where N is the current
-  number of active players and each specified Stamp is of a
+  Any active player CAN win by paying N Stamps, where N is the
+  current number of active players and each specified Stamp is of a
   different type.
 history:
 - change:
@@ -44,3 +44,8 @@ history:
   date: 2023-06-19
   agent:
     proposal: "8997"
+- change:
+    type: amendment
+  date: 2023-12-03
+  agent:
+    proposal: "9034"
