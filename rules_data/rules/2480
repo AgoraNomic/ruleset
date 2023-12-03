@@ -20,7 +20,7 @@ text: |
   Rank N Festival, where N is an integer greater than Agora's
   Festivity, with 4 support from other players who would be Festive
   if the Festivity was N, except that a Rank N Festival CANNOT be
-  started if Agora's Festivity has had a value grater than or equal
+  started if Agora's Festivity has had a value greater than or equal
   to N in the past 21 days. Upon a Rank N Festival starting, Agora's
   Festivity is flipped to N.
 history:
@@ -67,4 +67,10 @@ history:
   date: 2022-04-03
   agent:
     proposal: "8657"
+- change:
+    type: amendment
+  date: 2023-11-22
+  agent:
+    cleaning:
+      by: "4st"
 annotations: []
