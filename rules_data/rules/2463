@@ -1,6 +1,6 @@
 id: 2463
 name: Motion of No Confidence
-power: 1
+power: 2
 text: |
   Any player can cause the office of Prime Minister to become vacant
   with Agoran consent by publishing a message with the character
@@ -28,4 +28,11 @@ history:
   date: 2020-06-18
   agent:
     proposal: "8435"
+- change:
+    type: power-change
+    old-power: 1
+    new-power: 2
+  date: 2023-12-10
+  agent:
+    proposal: "9035"
 annotations: []
