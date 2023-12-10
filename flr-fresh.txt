@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 3 Dec 2023
+Date of this ruleset: 10 Dec 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 131
+Number of rules currently enacted: 132
 
-Highest ID'd rule in this ruleset: 2685
-Highest ID'd Proposal Passed: 9034
-Highest ID'd Rule Enacted: 2685
+Highest ID'd rule in this ruleset: 2686
+Highest ID'd Proposal Passed: 9038
+Highest ID'd Rule Enacted: 2686
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -167,6 +167,7 @@ Leaders
    * Rule 2575: The Distributor
 Agoran Culture
    * Rule 2327: Read the Ruleset Week
+   * Rule 2686: Ratify the Ruleset Week
    * Rule 1727: Happy Birthday
    * Rule 2464: Tournaments
    * Rule 2566: Free Tournaments
@@ -184,7 +185,7 @@ Power Distribution:
 29 with Power=1
 3  with Power=1.5
 5  with Power=1.7
-29 with Power=2
+30 with Power=2
 1  with Power=2.2
 1  with Power=2.5
 50 with Power=3
@@ -1891,19 +1892,20 @@ Amended(3) by P8418 'Referenda' (Aris), 14 Jun 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1607/57 (Power=3)
+Rule 1607/58 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
       and distributing proposals.
       
       A referendum is the Agoran decision to determine whether to adopt
-      a proposal.  For this decision, the vote collector is the
-      Assessor, the adoption index is initially the adoption index of
-      the proposal, or 1.0 if the proposal does not have one, and the
-      text, author, coauthors, and class of the proposal are essential
-      parameters. Initiating a referendum is known as distribution, and
-      removes the proposal from the Proposal Pool.
+      a proposal (its associated proposal).  For this decision, the vote
+      collector is the Assessor, the adoption index is initially the
+      adoption index of the proposal, or 1.0 if the proposal does not
+      have one, and the text, author, coauthors, and class of the
+      proposal are essential parameters. Initiating a referendum is
+      known as distribution, and removes the proposal from the Proposal
+      Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
       Pool at any time.
@@ -2010,6 +2012,8 @@ Amended(54) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
 Amended(55) by R2658, 09 Jun 2022
 Amended(56) by P9003 'Process Protection' (Janet, G.), 23 Jul 2023
 Amended(57) by cleaning (Kate), 18 Sep 2023
+Amended(58) by P9036 'AI security revisited' (Janet, ais523), 10 Dec
+   2023
 
 Annotations:
 CFJ 1546 (called 14 Apr 2005), CFJ 1669 (called 16 May 2007): If a
@@ -3548,17 +3552,20 @@ CFJ 3644 (called 18 Jun 2018): Players can't guarantee actual
     humiliating.
 
 ------------------------------------------------------------------------
-Rule 1950/37 (Power=3)
+Rule 1950/38 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index (AI) is an untracked switch possessed by Agoran
       decisions and proposals, secured at power 2.  For decisions, the
       possible values are "none" (default) or integral multiples of 0.1
       from 1.0 to 9.9. For proposals, the possible values are integral
-      multiples of 0.1 from 1.0 to 9.9 (default 1.0). If a referendum
-      has an adoption index less than the adoption index of its
-      associated proposal, the referendum's adoption index is
-      immediately set to that of the associated proposal
+      multiples of 0.1 from 1.0 to 9.9 (default 1.0). 
+      
+      The adoption index of a referendum CANNOT be set or changed to
+      "none" or to a value less than that of its associated proposal. If
+      a referendum ever has an adoption index of "none" or an adoption
+      index less than that of its associated proposal, it is immediately
+      set to the adoption index of the associated proposal.
       
       Adoption index is secured with a Power Threshold of 2.
       
@@ -3619,6 +3626,8 @@ Amended(35) by cleaning (Alexis), 23 Jan 2020
 Amended(36) by P8566 'Anti-AI escalation' (Janet), 14 Jun 2021
 Amended(37) by P8579 'AI voting method clarification v2' (Janet,
    Trigon), 23 Jun 2021
+Amended(38) by P9036 'AI security revisited' (Janet, ais523), 10 Dec
+   2023
 
 Annotations:
 CFJ 1885 (called 26 Jan 2008): "AGAINT" is a variant spelling of
@@ -6313,7 +6322,7 @@ Amended(2) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2642/6 (Power=2)
+Rule 2642/7 (Power=2)
 Gathering Stones
 
       Base Rockiness is an active player switch, with values of integers
@@ -6323,12 +6332,12 @@ Gathering Stones
       Once a week each player CAN "reach" for a specified stone owned by
       Agora by announcement.
       
-      At the beginning of each week, the stone specified by the player
-      with the highest Modified Rockiness that reached for a stone in
-      the previous week is transferred to em. In a tie, the stone
-      specified by the tied player who reached first is transferred to
-      em. When a player receives a stone in this way, eir Base Rockiness
-      is set to 0.
+      At the beginning of each week, each stone owned by Agora is
+      transferred to the player (if any) with the highest Modified
+      Rockiness that reached for that stone in the previous week, with
+      ties broken in favor of the tied player who reached for that stone
+      first. When a player receives a stone in this way, eir Base
+      Rockiness is set to 0.
 
 History:
 
@@ -6341,6 +6350,7 @@ Amended(3) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
 Amended(4) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
 Amended(5) by P8958 'Taken for Granite' (Murphy, nix), 05 May 2023
 Amended(6) by P9002 'Active rocks' (Janet), 09 Jul 2023
+Amended(7) by P9037 'Uncrossed arms' (Murphy), 10 Dec 2023
 
 Annotations:
 CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
@@ -7349,7 +7359,7 @@ Amended(6) by P8936 'Oh come on guys folks' (4st), 02 Apr 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2463/3 (Power=1)
+Rule 2463/3 (Power=2)
 Motion of No Confidence
 
       Any player can cause the office of Prime Minister to become vacant
@@ -7364,6 +7374,8 @@ Enacted by P7800 'Motion of No Confidence' (Henri), 19 Jul 2016
 Amended(1) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep 2019
 Amended(2) by P8434 'Majoritarian Confidence' (Aris), 18 Jun 2020
 Amended(3) by P8435 'No Confidence Isn't Personal' (Aris), 18 Jun 2020
+Power changed from 1 to 2 by P9035 'Unbreaking Motions' (snail, 4st), 10
+   Dec 2023
 
 Annotations:
 
@@ -7451,6 +7463,21 @@ Enacted by P6973 'I miss RtRW' (Murphy), 30 Mar 2011
 Amended(1) by P6995 'Ugliest rule text ever' (omd, harvel), 10 Apr 2011
 Amended(2) by P8329 'RtRW Reschedule' (Alexis), 24 Feb 2020
 Amended(3) by P8357 'Homework extension fail' (G.), 04 Apr 2020
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2686/0 (Power=1.0)
+Ratify the Ruleset Week
+
+      The Agoran week each year containing the Ides of March is Ratify
+      the Ruleset Week. During Ratify the Ruleset Week, the Rulekeepor
+      SHALL submit a proposal to ratify a purported ruleset published
+      since the last time the ruleset was ratified.
+
+History:
+
+Enacted by P9038 'Ratify the Ruleset Week' (Murphy), 10 Dec 2023
 
 Annotations:
 

@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 3 Dec 2023
+Date of this ruleset: 10 Dec 2023
 
 Date of last SLR ratification: 8 May 2019
 
-Number of rules currently enacted: 131
+Number of rules currently enacted: 132
 
-Highest ID'd rule in this ruleset: 2685
-Highest ID'd Proposal Passed: 9034
-Highest ID'd Rule Enacted: 2685
+Highest ID'd rule in this ruleset: 2686
+Highest ID'd Proposal Passed: 9038
+Highest ID'd Rule Enacted: 2686
 
 ========================================================================
 The Game of Agora
@@ -747,19 +747,20 @@ Proposal Classes
       ended.
 
 ------------------------------------------------------------------------
-Rule 1607/57 (Power=3)
+Rule 1607/58 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
       and distributing proposals.
       
       A referendum is the Agoran decision to determine whether to adopt
-      a proposal.  For this decision, the vote collector is the
-      Assessor, the adoption index is initially the adoption index of
-      the proposal, or 1.0 if the proposal does not have one, and the
-      text, author, coauthors, and class of the proposal are essential
-      parameters. Initiating a referendum is known as distribution, and
-      removes the proposal from the Proposal Pool.
+      a proposal (its associated proposal).  For this decision, the vote
+      collector is the Assessor, the adoption index is initially the
+      adoption index of the proposal, or 1.0 if the proposal does not
+      have one, and the text, author, coauthors, and class of the
+      proposal are essential parameters. Initiating a referendum is
+      known as distribution, and removes the proposal from the Proposal
+      Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
       Pool at any time.
@@ -1466,17 +1467,20 @@ Extending the Voting Period
       than possibly the proposal's author) has voted FOR.
 
 ------------------------------------------------------------------------
-Rule 1950/37 (Power=3)
+Rule 1950/38 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index (AI) is an untracked switch possessed by Agoran
       decisions and proposals, secured at power 2.  For decisions, the
       possible values are "none" (default) or integral multiples of 0.1
       from 1.0 to 9.9. For proposals, the possible values are integral
-      multiples of 0.1 from 1.0 to 9.9 (default 1.0). If a referendum
-      has an adoption index less than the adoption index of its
-      associated proposal, the referendum's adoption index is
-      immediately set to that of the associated proposal
+      multiples of 0.1 from 1.0 to 9.9 (default 1.0). 
+      
+      The adoption index of a referendum CANNOT be set or changed to
+      "none" or to a value less than that of its associated proposal. If
+      a referendum ever has an adoption index of "none" or an adoption
+      index less than that of its associated proposal, it is immediately
+      set to the adoption index of the associated proposal.
       
       Adoption index is secured with a Power Threshold of 2.
       
@@ -2860,7 +2864,7 @@ Wielding Stones
       The wielding of stones is secured.
 
 ------------------------------------------------------------------------
-Rule 2642/6 (Power=2)
+Rule 2642/7 (Power=2)
 Gathering Stones
 
       Base Rockiness is an active player switch, with values of integers
@@ -2870,12 +2874,12 @@ Gathering Stones
       Once a week each player CAN "reach" for a specified stone owned by
       Agora by announcement.
       
-      At the beginning of each week, the stone specified by the player
-      with the highest Modified Rockiness that reached for a stone in
-      the previous week is transferred to em. In a tie, the stone
-      specified by the tied player who reached first is transferred to
-      em. When a player receives a stone in this way, eir Base Rockiness
-      is set to 0.
+      At the beginning of each week, each stone owned by Agora is
+      transferred to the player (if any) with the highest Modified
+      Rockiness that reached for that stone in the previous week, with
+      ties broken in favor of the tied player who reached for that stone
+      first. When a player receives a stone in this way, eir Base
+      Rockiness is set to 0.
 
 ------------------------------------------------------------------------
 Rule 2643/9 (Power=2)
@@ -3436,7 +3440,7 @@ First Among Equals
       proceed smoothly.
 
 ------------------------------------------------------------------------
-Rule 2463/3 (Power=1)
+Rule 2463/3 (Power=2)
 Motion of No Confidence
 
       Any player can cause the office of Prime Minister to become vacant
@@ -3494,6 +3498,15 @@ Read the Ruleset Week
       The first Agoran week each year which falls entirely in February
       is Read the Ruleset Week. Agorans are encouraged to read the
       ruleset during Read the Ruleset Week.
+
+------------------------------------------------------------------------
+Rule 2686/0 (Power=1.0)
+Ratify the Ruleset Week
+
+      The Agoran week each year containing the Ides of March is Ratify
+      the Ruleset Week. During Ratify the Ruleset Week, the Rulekeepor
+      SHALL submit a proposal to ratify a purported ruleset published
+      since the last time the ruleset was ratified.
 
 ------------------------------------------------------------------------
 Rule 1727/21 (Power=1)
