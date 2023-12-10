@@ -9,12 +9,12 @@ text: |
   Once a week each player CAN "reach" for a specified stone owned by
   Agora by announcement.
 
-  At the beginning of each week, the stone specified by the player
-  with the highest Modified Rockiness that reached for a stone in
-  the previous week is transferred to em. In a tie, the stone
-  specified by the tied player who reached first is transferred to
-  em. When a player receives a stone in this way, eir Base Rockiness
-  is set to 0.
+  At the beginning of each week, each stone owned by Agora is
+  transferred to the player (if any) with the highest Modified
+  Rockiness that reached for that stone in the previous week, with
+  ties broken in favor of the tied player who reached for that stone
+  first. When a player receives a stone in this way, eir Base
+  Rockiness is set to 0.
 history:
 - change:
     type: enactment
@@ -56,6 +56,11 @@ history:
   date: 2023-07-09
   agent:
     proposal: "9002"
+- change:
+    type: amendment
+  date: 2023-12-10
+  agent:
+    proposal: "9037"
 annotations:
 - cfjs:
   - id: '4021'
