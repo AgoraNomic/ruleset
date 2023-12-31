@@ -8,11 +8,10 @@ text: |
   A referendum is the Agoran decision to determine whether to adopt
   a proposal (its associated proposal).  For this decision, the vote
   collector is the Assessor, the adoption index is initially the
-  adoption index of the proposal, or 1.0 if the proposal does not
-  have one, and the text, author, coauthors, and class of the
-  proposal are essential parameters. Initiating a referendum is
-  known as distribution, and removes the proposal from the Proposal
-  Pool.
+  adoption index of the proposal, and the text, author, coauthors,
+  and class of the proposal are essential parameters. Initiating a
+  referendum is known as distribution, and removes the proposal from
+  the Proposal Pool.
 
   The Promotor CAN distribute a proposal which is in the Proposal
   Pool at any time.
@@ -350,6 +349,11 @@ history:
   date: 2023-12-10
   agent:
     proposal: "9036"
+- change:
+    type: amendment
+  date: 2023-12-31
+  agent:
+    proposal: "9047"
 annotations:
 - cfjs:
   - id: '1546'

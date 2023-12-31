@@ -4,9 +4,10 @@ power: 3
 text: |
   When a referendum on a proposal is resolved, if the outcome is
   ADOPTED, then the proposal in question is adopted, its power is
-  set to the minimum of four and its adoption index, and it takes
-  effect. Proposals CANNOT otherwise be adopted or take effect,
-  rules to the contrary notwithstanding.
+  set to the minimum of four, the adoption index of the proposal,
+  and the adoption index of the referendum, and it takes effect.
+  Proposals CANNOT otherwise be adopted or take effect, rules to the
+  contrary notwithstanding.
 
   When a proposal takes effect, the proposal applies the changes
   that it specifies in its text, except as prohibited by other
@@ -284,6 +285,11 @@ history:
   date: 2022-07-24
   agent:
     proposal: "8719"
+- change:
+    type: amendment
+  date: 2023-12-31
+  agent:
+    proposal: "9047"
 annotations:
 - cfjs:
   - id: '1639'
