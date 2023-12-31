@@ -7,8 +7,9 @@ text: |
   A crystal is an asset with secured integer switches identity, size
   (default 0), and instability (default 0).
 
-  Each quarter, each crystal whose identity is not equal to the ID
-  of any rule in the current ruleset has its size increased by 3.
+  At the beginning of each quarter, each crystal whose identity is
+  not equal to the ID of any rule in the current ruleset has its
+  size increased by 3.
 
   If a proposal amends or repeals a rule, if a crystal exists whose
   identity equals that rule's id, that crystal absorbs that
@@ -19,7 +20,8 @@ text: |
 
   When a crystal absorbs a proposal, the following occur in sequence:
   - The size of that crystal is increased by the power of that
-    proposal (rounded down).
+    proposal when that proposal's power was greater than 0 (rounded
+    down).
 
   - If that crystal's owner is not the author of that proposal, the
     instability of that crystal is increased by 3.
@@ -44,3 +46,13 @@ history:
   date: 2023-12-03
   agent:
     proposal: "9032"
+- change:
+    type: amendment
+  date: 2023-12-31
+  agent:
+    proposal: "9046"
+- change:
+    type: amendment
+  date: 2023-12-31
+  agent:
+    proposal: "9046"
