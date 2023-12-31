@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 17 Dec 2023
+Date of this ruleset: 31 Dec 2023
 
-Date of last SLR ratification: 8 May 2019
+Date of last SLR ratification: 19 June 2023
 
 Number of rules currently enacted: 132
 
 Highest ID'd rule in this ruleset: 2686
-Highest ID'd Proposal Passed: 9038
+Highest ID'd Proposal Passed: 9048
 Highest ID'd Rule Enacted: 2686
 
 ========================================================================
@@ -747,7 +747,7 @@ Proposal Classes
       ended.
 
 ------------------------------------------------------------------------
-Rule 1607/58 (Power=3)
+Rule 1607/59 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -756,11 +756,10 @@ Distribution
       A referendum is the Agoran decision to determine whether to adopt
       a proposal (its associated proposal).  For this decision, the vote
       collector is the Assessor, the adoption index is initially the
-      adoption index of the proposal, or 1.0 if the proposal does not
-      have one, and the text, author, coauthors, and class of the
-      proposal are essential parameters. Initiating a referendum is
-      known as distribution, and removes the proposal from the Proposal
-      Pool.
+      adoption index of the proposal, and the text, author, coauthors,
+      and class of the proposal are essential parameters. Initiating a
+      referendum is known as distribution, and removes the proposal from
+      the Proposal Pool.
       
       The Promotor CAN distribute a proposal which is in the Proposal
       Pool at any time.
@@ -797,14 +796,15 @@ The Assessor
       collecting votes and keeping track of related properties.
 
 ------------------------------------------------------------------------
-Rule 106/45 (Power=3)
+Rule 106/46 (Power=3)
 Adopting Proposals
 
       When a referendum on a proposal is resolved, if the outcome is
       ADOPTED, then the proposal in question is adopted, its power is
-      set to the minimum of four and its adoption index, and it takes
-      effect. Proposals CANNOT otherwise be adopted or take effect,
-      rules to the contrary notwithstanding.
+      set to the minimum of four, the adoption index of the proposal,
+      and the adoption index of the referendum, and it takes effect.
+      Proposals CANNOT otherwise be adopted or take effect, rules to the
+      contrary notwithstanding.
       
       When a proposal takes effect, the proposal applies the changes
       that it specifies in its text, except as prohibited by other
@@ -2770,7 +2770,7 @@ Dream of Wandering
         Wandering.
 
 ------------------------------------------------------------------------
-Rule 2685/0 (Power=1.0)
+Rule 2685/2 (Power=1.0)
 Crystals
 
       The Geologist is an office that tracks crystals.
@@ -2778,8 +2778,9 @@ Crystals
       A crystal is an asset with secured integer switches identity, size
       (default 0), and instability (default 0).
       
-      Each quarter, each crystal whose identity is not equal to the ID
-      of any rule in the current ruleset has its size increased by 3.
+      At the beginning of each quarter, each crystal whose identity is
+      not equal to the ID of any rule in the current ruleset has its
+      size increased by 3.
       
       If a proposal amends or repeals a rule, if a crystal exists whose
       identity equals that rule's id, that crystal absorbs that
@@ -2790,7 +2791,8 @@ Crystals
       
       When a crystal absorbs a proposal, the following occur in sequence:
       - The size of that crystal is increased by the power of that
-        proposal (rounded down).
+        proposal when that proposal's power was greater than 0 (rounded
+        down).
       
       - If that crystal's owner is not the author of that proposal, the
         instability of that crystal is increased by 3.
