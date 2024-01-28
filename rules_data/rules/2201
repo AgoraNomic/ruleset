@@ -2,8 +2,8 @@ id: 2201
 name: Self-Ratification
 power: 3
 text: |
-  When a public document is continuously undoubted for one week
-  after publication:
+  When a public document published less than 180 days ago is first
+  continuously undoubted for one week after publication:
 
   - If the rules define it as self-ratifying, it is ratified.
 
@@ -15,8 +15,13 @@ text: |
     contents of the message.
 
   Any person CAN by announcement issue a doubt (syn. claim of
-  error), identifying a document and explaining the scope and nature
-  of a perceived error in it (or in a statement it attests to).
+  error), identifying a public document published less than 180 days
+  ago and explaining the scope and nature of a perceived error in it
+  (or in a statement it attests to).
+
+  The definition of documents as self-ratifying and the definition
+  of documents as self-ratifying attestations are secured at power
+  3.
 
   When this happens, the publisher of the original document SHALL
   (if e was required to publish that document) or SHOULD (otherwise)
@@ -30,6 +35,10 @@ text: |
      3. Initiate an inquiry case regarding the truth of the claim
         (if the subject is actually a matter of law), or cite a
         relevant existing inquiry case.
+
+  The issuance of a doubt on a documents, the denial of a claim of
+  error, and the ceasing of a doubt on a document to be a doubt are
+  secured at power 3.
 history:
 - change:
     type: enactment
@@ -86,6 +95,16 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8292"
+- change:
+    type: amendment
+  date: 2024-01-28
+  agent:
+    proposal: "9050"
+- change:
+    type: amendment
+  date: 2024-01-28
+  agent:
+    proposal: "9050"
 annotations:
 - cfjs:
   - id: '1690'
