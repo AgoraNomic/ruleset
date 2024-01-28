@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 31 Dec 2023
+Date of this ruleset: 28 Jan 2024
 
 Date of last SLR ratification: 19 June 2023
 
 Number of rules currently enacted: 132
 
 Highest ID'd rule in this ruleset: 2686
-Highest ID'd Proposal Passed: 9048
+Highest ID'd Proposal Passed: 9051
 Highest ID'd Rule Enacted: 2686
 
 ------------------------------------------------------------------------
@@ -322,7 +322,7 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/53 (Power=3)
+Rule 869/54 (Power=3)
 How to Join and Leave Agora
 
       Any entity (including a group of entities confederated with the
@@ -344,8 +344,14 @@ How to Join and Leave Agora
       prevented by Rules of power 3 or greater) register by publishing a
       message that indicates reasonably clearly and reasonably
       unambiguously eir desire to become a player at that time (for
-      example, by saying "I register"). No person can be a player if e
-      is part of another player or another player is part of em.
+      example, by saying "I register"). Rules to the contrary
+      notwithstanding, two or more persons CANNOT become Registered
+      simultaneously.
+      
+      The basis of a person is the set of all persons that are
+      (recursively) part of em, in addition to emself. Rules to the
+      contrary notwithstanding, a person CANNOT become Registered if eir
+      basis overlaps with that of any current player.
       
       A player, acting as emself, CAN deregister (cease being a player)
       by announcement. If e does so, e CANNOT register or be registered
@@ -432,6 +438,8 @@ Amended(51) by P8867 'Expectations, Values, Bans, and Forgiveness' (nix,
    Janet, R. Lee, Murphy, G.), 26 Nov 2022
 Amended(52) by P8984 'Clarifying Intentions' (nix, ais523), 31 May 2023
 Amended(53) by P9027 'De-Escalating the Hole' (Kate, snail), 26 Nov 2023
+Amended(54) by P9049 'Registration restrictions' (Janet, Aris, ais523),
+   28 Jan 2024
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -4616,11 +4624,11 @@ CFJ 2289 (called 25 Nov 2008): Ratification Without Objection of a value
     it is not directly part of the report being ratified.
 
 ------------------------------------------------------------------------
-Rule 2201/10 (Power=3)
+Rule 2201/12 (Power=3)
 Self-Ratification
 
-      When a public document is continuously undoubted for one week
-      after publication:
+      When a public document published less than 180 days ago is first
+      continuously undoubted for one week after publication:
       
       - If the rules define it as self-ratifying, it is ratified.
       
@@ -4632,8 +4640,13 @@ Self-Ratification
         contents of the message.
       
       Any person CAN by announcement issue a doubt (syn. claim of
-      error), identifying a document and explaining the scope and nature
-      of a perceived error in it (or in a statement it attests to).
+      error), identifying a public document published less than 180 days
+      ago and explaining the scope and nature of a perceived error in it
+      (or in a statement it attests to).
+      
+      The definition of documents as self-ratifying and the definition
+      of documents as self-ratifying attestations are secured at power
+      3.
       
       When this happens, the publisher of the original document SHALL
       (if e was required to publish that document) or SHOULD (otherwise)
@@ -4647,6 +4660,10 @@ Self-Ratification
          3. Initiate an inquiry case regarding the truth of the claim
             (if the subject is actually a matter of law), or cite a
             relevant existing inquiry case.
+      
+      The issuance of a doubt on a documents, the denial of a claim of
+      error, and the ceasing of a doubt on a document to be a doubt are
+      secured at power 3.
 
 History:
 
@@ -4663,6 +4680,10 @@ Amended(8) by P8188 'Blanket Denial' (G.), 23 Jul 2019
 Amended(9) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
 Amended(10) by P8292 'Self-Ratification Simplification Act' (Bernie,
    Kate), 29 Jan 2020
+Amended(11) by P9050 'Self-ratification limitations' (Janet), 28 Jan
+   2024
+Amended(12) by P9050 'Self-ratification limitations' (Janet), 28 Jan
+   2024
 
 Annotations:
 CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
@@ -7383,7 +7404,7 @@ Power changed from 1 to 2 by P9035 'Unbreaking Motions' (snail, 4st), 10
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2451/10 (Power=2)
+Rule 2451/11 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -7408,6 +7429,9 @@ Executive Orders
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.
+      
+      - Growth (Stonemason): The Prime Minister increases the mossiness
+        of a specified stone by 2.
 
 History:
 
@@ -7425,6 +7449,7 @@ Amended(7) by P8235 'Unified fine creation syntax' (Janet), 18 Sep 2019
 Amended(8) by cleaning (Murphy), 03 Nov 2019
 Amended(9) by P8923 'Department of Defense' (G.), 19 Mar 2023
 Amended(10) by P8955 'Disassembling the Device' (snail), 23 Apr 2023
+Amended(11) by P9051 'A Mossy Cabinet' (snail), 28 Jan 2024
 
 Annotations:
 

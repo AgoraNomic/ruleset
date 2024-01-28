@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 14 Jan 2024
+Date of this ruleset: 28 Jan 2024
 
 Date of last SLR ratification: 19 June 2023
 
 Number of rules currently enacted: 132
 
 Highest ID'd rule in this ruleset: 2686
-Highest ID'd Proposal Passed: 9048
+Highest ID'd Proposal Passed: 9051
 Highest ID'd Rule Enacted: 2686
 
 ========================================================================
@@ -73,7 +73,7 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/53 (Power=3)
+Rule 869/54 (Power=3)
 How to Join and Leave Agora
 
       Any entity (including a group of entities confederated with the
@@ -95,8 +95,14 @@ How to Join and Leave Agora
       prevented by Rules of power 3 or greater) register by publishing a
       message that indicates reasonably clearly and reasonably
       unambiguously eir desire to become a player at that time (for
-      example, by saying "I register"). No person can be a player if e
-      is part of another player or another player is part of em.
+      example, by saying "I register"). Rules to the contrary
+      notwithstanding, two or more persons CANNOT become Registered
+      simultaneously.
+      
+      The basis of a person is the set of all persons that are
+      (recursively) part of em, in addition to emself. Rules to the
+      contrary notwithstanding, a person CANNOT become Registered if eir
+      basis overlaps with that of any current player.
       
       A player, acting as emself, CAN deregister (cease being a player)
       by announcement. If e does so, e CANNOT register or be registered
@@ -1948,11 +1954,11 @@ Ratification Without Objection
       is the Class 8 Infraction of Endorsing Forgery.
 
 ------------------------------------------------------------------------
-Rule 2201/10 (Power=3)
+Rule 2201/12 (Power=3)
 Self-Ratification
 
-      When a public document is continuously undoubted for one week
-      after publication:
+      When a public document published less than 180 days ago is first
+      continuously undoubted for one week after publication:
       
       - If the rules define it as self-ratifying, it is ratified.
       
@@ -1964,8 +1970,13 @@ Self-Ratification
         contents of the message.
       
       Any person CAN by announcement issue a doubt (syn. claim of
-      error), identifying a document and explaining the scope and nature
-      of a perceived error in it (or in a statement it attests to).
+      error), identifying a public document published less than 180 days
+      ago and explaining the scope and nature of a perceived error in it
+      (or in a statement it attests to).
+      
+      The definition of documents as self-ratifying and the definition
+      of documents as self-ratifying attestations are secured at power
+      3.
       
       When this happens, the publisher of the original document SHALL
       (if e was required to publish that document) or SHOULD (otherwise)
@@ -1979,6 +1990,10 @@ Self-Ratification
          3. Initiate an inquiry case regarding the truth of the claim
             (if the subject is actually a matter of law), or cite a
             relevant existing inquiry case.
+      
+      The issuance of a doubt on a documents, the denial of a claim of
+      error, and the ceasing of a doubt on a document to be a doubt are
+      secured at power 3.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3452,7 +3467,7 @@ Motion of No Confidence
       rather than as a personal judgement of the Prime Minister.
 
 ------------------------------------------------------------------------
-Rule 2451/10 (Power=2)
+Rule 2451/11 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -3477,6 +3492,9 @@ Executive Orders
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.
+      
+      - Growth (Stonemason): The Prime Minister increases the mossiness
+        of a specified stone by 2.
 
 ------------------------------------------------------------------------
 Rule 2575/3 (Power=3)
