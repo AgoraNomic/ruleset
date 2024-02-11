@@ -1,0 +1,23 @@
+id: 2687
+name: The Stamp Raffle
+power: 1.0
+text: |
+  Once per week, each player CAN enter the raffle by paying a fee of
+  1 stamp of eir own type to Agora.
+
+  Once each week, the Collector CAN and SHALL publish a Raffle
+  Result by announcement, containing a list of players that entered
+  the raffle in the previous week (the participants of the raffle)
+  and the selection of a random player from that list (the winner of
+  the raffle) if it is not empty.
+
+  When a Raffle Result is published, each stamp that was owned by
+  Agora at the start of the current week is transferred to the
+  winner of the raffle (if there is one), and each participant of
+  the raffle gains 1 radiance.
+history:
+- change:
+    type: enactment
+  date: 2024-02-11
+  agent:
+    proposal: "9052"
