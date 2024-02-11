@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 Jan 2024
+Date of this ruleset: 11 Feb 2024
 
 Date of last SLR ratification: 19 June 2023
 
-Number of rules currently enacted: 132
+Number of rules currently enacted: 133
 
-Highest ID'd rule in this ruleset: 2686
-Highest ID'd Proposal Passed: 9051
-Highest ID'd Rule Enacted: 2686
+Highest ID'd rule in this ruleset: 2687
+Highest ID'd Proposal Passed: 9055
+Highest ID'd Rule Enacted: 2687
 
 THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
 BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
@@ -131,6 +131,7 @@ Assets
    * Rule 2579: Fee-based Actions
 Economics
    * Rule 2659: Stamps
+   * Rule 2687: The Stamp Raffle
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2675: Dream of Wandering
@@ -182,7 +183,7 @@ Power Distribution:
 
 1  with Power=0.3
 2  with Power=0.5
-29 with Power=1
+30 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 30 with Power=2
@@ -6052,6 +6053,30 @@ Amended(2) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
 Amended(3) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(4) by P8997 'Stamp fungibility' (Janet, Murphy), 19 Jun 2023
 Amended(5) by P9034 'A simple fix' (snail, nix), 03 Dec 2023
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2687/0 (Power=1.0)
+The Stamp Raffle
+
+      Once per week, each player CAN enter the raffle by paying a fee of
+      1 stamp of eir own type to Agora.
+      
+      Once each week, the Collector CAN and SHALL publish a Raffle
+      Result by announcement, containing a list of players that entered
+      the raffle in the previous week (the participants of the raffle)
+      and the selection of a random player from that list (the winner of
+      the raffle) if it is not empty.
+      
+      When a Raffle Result is published, each stamp that was owned by
+      Agora at the start of the current week is transferred to the
+      winner of the raffle (if there is one), and each participant of
+      the raffle gains 1 radiance.
+
+History:
+
+Enacted by P9052 'The Stamp Raffle' (snail), 11 Feb 2024
 
 Annotations:
 

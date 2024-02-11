@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 Jan 2024
+Date of this ruleset: 11 Feb 2024
 
 Date of last SLR ratification: 19 June 2023
 
-Number of rules currently enacted: 132
+Number of rules currently enacted: 133
 
-Highest ID'd rule in this ruleset: 2686
-Highest ID'd Proposal Passed: 9051
-Highest ID'd Rule Enacted: 2686
+Highest ID'd rule in this ruleset: 2687
+Highest ID'd Proposal Passed: 9055
+Highest ID'd Rule Enacted: 2687
 
 ========================================================================
 The Game of Agora
@@ -2693,6 +2693,24 @@ Stamps
       Any active player CAN win by paying N Stamps, where N is the
       current number of active players and each specified Stamp is of a
       different type.
+
+------------------------------------------------------------------------
+Rule 2687/0 (Power=1.0)
+The Stamp Raffle
+
+      Once per week, each player CAN enter the raffle by paying a fee of
+      1 stamp of eir own type to Agora.
+      
+      Once each week, the Collector CAN and SHALL publish a Raffle
+      Result by announcement, containing a list of players that entered
+      the raffle in the previous week (the participants of the raffle)
+      and the selection of a random player from that list (the winner of
+      the raffle) if it is not empty.
+      
+      When a Raffle Result is published, each stamp that was owned by
+      Agora at the start of the current week is transferred to the
+      winner of the raffle (if there is one), and each participant of
+      the raffle gains 1 radiance.
 
 ------------------------------------------------------------------------
 Rule 2499/21 (Power=1)
