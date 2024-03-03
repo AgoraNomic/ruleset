@@ -5,8 +5,8 @@ text: |
   The Rulekeepor is an office; its holder is responsible for
   maintaining the text of the rules of Agora.
 
-  The Rulekeepor's Weekly report includes the Short Logical Ruleset.
-  The Rulekeepor's Monthly report includes the Full Logical Ruleset.
+  The Rulekeepor's weekly report includes the Short Logical Ruleset.
+  The Rulekeepor's monthly report includes the Full Logical Ruleset.
 history:
 - change:
     type: enactment
@@ -112,4 +112,10 @@ history:
   date: 2007-10-03
   agent:
     proposal: "5237"
+- change:
+    type: amendment
+  date: 2024-03-02
+  agent:
+    cleaning:
+      by: kiako
 annotations: []

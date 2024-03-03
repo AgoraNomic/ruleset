@@ -25,13 +25,13 @@ text: |
   - Protection Stone (monthly, 4): When wielded, a specified stone
     is granted immunity.
 
-  - Recursion Stone (Monthly, 4): The Recursion Stone can be wielded
+  - Recursion Stone (monthly, 4): The Recursion Stone can be wielded
     once per month as if it had the power of any other stone of your
     choice (the Blueprint Stone), with any references to the
     Blueprint Stone itself changed to the Recursion Stone unless
     they specify otherwise.
 
-  - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
+  - Hot Potato Stone (weekly, 5): When this stone is wielded, the
     wielder specifies an eligible player and gains 8 radiance. The
     stone is transferred to the eligible player. An eligible player
     is one who has not owned this stone since the last time Agora
@@ -40,15 +40,15 @@ text: |
     This stone is immune if 3 or more players have wielded it since
     the most recent collection notice.
 
-  - Blank Stone (Monthly, 0): This stone has no effect.
+  - Blank Stone (monthly, 0): This stone has no effect.
 
-  - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
+  - Anti-Equatorial Stone (monthly, 5): When wielded, the mossiest
     non-immune stone is transferred to the wielder. If more than one
     such stone is tied for mossiest, a specified one is transferred.
     When this happens, the wielded stone's mossiness is incremented
     by 1.
 
-  - Radiance Stone (Weekly, 3): When wielded, a specified player
+  - Radiance Stone (weekly, 3): When wielded, a specified player
     (defaulting to the wielder if not specified) gains 3 radiance.
 history:
 - change:
@@ -161,4 +161,10 @@ history:
   date: 2023-06-19
   agent:
     proposal: "8995"
+- change:
+    type: amendment
+  date: 2024-03-02
+  agent:
+    cleaning:
+      by: kiako
 annotations: []
