@@ -2,15 +2,20 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 Jan 2024
+Date of this ruleset: 3 Mar 2024
 
 Date of last SLR ratification: 19 June 2023
 
-Number of rules currently enacted: 132
+Number of rules currently enacted: 133
 
-Highest ID'd rule in this ruleset: 2686
-Highest ID'd Proposal Passed: 9051
-Highest ID'd Rule Enacted: 2686
+Highest ID'd rule in this ruleset: 2687
+Highest ID'd Proposal Passed: 9058
+Highest ID'd Rule Enacted: 2687
+
+The header of each rule is formatted as Rule NNNN/R (Power=P), where
+NNNN is the ID number of the rule, R is the revision of the rule, and P
+is the power of the rule. This header is then followed by the title of
+the rule.
 
 ------------------------------------------------------------------------
 
@@ -126,6 +131,7 @@ Assets
    * Rule 2579: Fee-based Actions
 Economics
    * Rule 2659: Stamps
+   * Rule 2687: The Stamp Raffle
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2675: Dream of Wandering
@@ -177,7 +183,7 @@ Power Distribution:
 
 1  with Power=0.3
 2  with Power=0.5
-29 with Power=1
+30 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 30 with Power=2
@@ -2450,7 +2456,7 @@ Amended(1) by P6429 'Also, Crete must be destroyed' (Murphy), 18 Aug
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 105/23 (Power=3)
+Rule 105/24 (Power=3)
 Rule Changes
 
       When the rules provide that an instrument takes effect, it can
@@ -2485,17 +2491,26 @@ Rule Changes
       
       4. amend the text of a rule.
       
-      5. retitle (syn. amend the title of) a rule.
+      5. retitle a rule.
       
       6. change the power of a rule.
       
       A rule change is any effect that falls into the above classes.
-      Rule changes always occur sequentially, never simultaneously.
+      Rule changes always occur sequentially, never simultaneously. If a
+      specification would ever be interpreted as causing multiple
+      changes to happen at once, it is instead interpreted as attempting
+      to cause them to occur separately, in the order they are listed in
+      the specification.
       
       Any ambiguity in the specification of a rule change causes that
       change to be void and without effect. An inconsequential variation
       in the quotation of an existing rule does not constitute ambiguity
-      for the purposes of this rule, but any other variation does.
+      for the purposes of this rule. Furthermore, if the change being
+      specified would be clear to any reasonable player, the
+      specification is not ambiguous, even if it is incorrect or unclear
+      on its face. This provision does not prevent the specification of
+      undesirable changes; for instance, an amendment which adds a typo
+      is not corrected to remove the typo.
       
       A rule change is wholly prevented from taking effect unless its
       full text was published, along with an unambiguous and clear
@@ -2543,6 +2558,8 @@ Amended(21) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
    Gaelan), 21 Mar 2020
 Amended(22) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
 Amended(23) by P8871 'Unintuitive Rule Changes Fix' (nix), 11 Dec 2022
+Amended(24) by P9058 'Things Mean What They're Meant to Mean' (Aris,
+   G.), 03 Mar 2024
 
 Annotations:
 CFJ 1499 (called 20 Apr 2004), CFJ 1623 (called 01 Apr 2007): If a
@@ -2662,14 +2679,14 @@ Amended(2) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1051/17 (Power=1)
+Rule 1051/18 (Power=1)
 The Rulekeepor
 
       The Rulekeepor is an office; its holder is responsible for
       maintaining the text of the rules of Agora.
       
-      The Rulekeepor's Weekly report includes the Short Logical Ruleset.
-      The Rulekeepor's Monthly report includes the Full Logical Ruleset.
+      The Rulekeepor's weekly report includes the Short Logical Ruleset.
+      The Rulekeepor's monthly report includes the Full Logical Ruleset.
 
 History:
 
@@ -2694,6 +2711,7 @@ Amended(15) by P4002 'Officer Reform' (harvel), 08 May 2000
 Amended(16) by P4250 'Omnibus Office Reform' (harvel), 19 Feb 2002
 Amended(17) by P5237 'Comprehensive objective reporting' [disi.] (AFO),
    03 Oct 2007
+Amended(18) by cleaning (kiako), 02 Mar 2024
 
 Annotations:
 
@@ -4380,7 +4398,7 @@ Enacted by P8682 'Temptation' (snail), 18 Jun 2022
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2632/4 (Power=2.0)
+Rule 2632/5 (Power=2.0)
 Complexity
 
       Complexity is a secured office switch reflecting how complex it is
@@ -4390,7 +4408,7 @@ Complexity
       consent, flip the complexity of an office to a specified possible
       value.
       
-      For each office a player holds, eir voting strength is increase
+      For each office a player holds, eir voting strength is increased
       by the complexity of the office for referenda on ordinary
       proposals, up to a maximum increase of 3 by this method.
 
@@ -4404,6 +4422,7 @@ Power changed from 1.0 to 2.0 by P8881 'Effective complexity' (Janet),
    15 Jan 2023
 Amended(3) by P8881 'Effective complexity' (Janet), 15 Jan 2023
 Amended(4) by P9012 'Official security' (Janet), 31 Oct 2023
+Amended(5) by cleaning (Murphy), 25 Feb 2024
 
 Annotations:
 
@@ -6051,6 +6070,30 @@ Amended(5) by P9034 'A simple fix' (snail, nix), 03 Dec 2023
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2687/0 (Power=1.0)
+The Stamp Raffle
+
+      Once per week, each player CAN enter the raffle by paying a fee of
+      1 stamp of eir own type to Agora.
+      
+      Once each week, the Collector CAN and SHALL publish a Raffle
+      Result by announcement, containing a list of players that entered
+      the raffle in the previous week (the participants of the raffle)
+      and the selection of a random player from that list (the winner of
+      the raffle) if it is not empty.
+      
+      When a Raffle Result is published, each stamp that was owned by
+      Agora at the start of the current week is transferred to the
+      winner of the raffle (if there is one), and each participant of
+      the raffle gains 1 radiance.
+
+History:
+
+Enacted by P9052 'The Stamp Raffle' (snail), 11 Feb 2024
+
+Annotations:
+
+------------------------------------------------------------------------
 Rule 2499/21 (Power=1)
 Welcome Packages
 
@@ -6315,7 +6358,7 @@ Amended(4) by cleaning (4st), 25 Apr 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2641/2 (Power=2)
+Rule 2641/3 (Power=2)
 Wielding Stones
 
       Except as otherwise specified by the rules, the owner of a stone
@@ -6328,7 +6371,7 @@ Wielding Stones
       Agoran day it was wielded during).
       
       While a stone is hot, it is IMPOSSIBLE to wield it or to transfer
-      it by announcement
+      it by announcement.
       
       When a stone is wielded, the Rule defining that stone applies any
       effects that it defines as occurring when the stone is wielded.
@@ -6342,6 +6385,7 @@ Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
 Amended(1) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
    ziproot), 27 Nov 2022
 Amended(2) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
+Amended(3) by cleaning (kiako), 02 Mar 2024
 
 Annotations:
 
@@ -6452,7 +6496,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/21 (Power=2)
+Rule 2645/22 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6478,13 +6522,13 @@ The Stones
       - Protection Stone (monthly, 4): When wielded, a specified stone
         is granted immunity.
       
-      - Recursion Stone (Monthly, 4): The Recursion Stone can be wielded
+      - Recursion Stone (monthly, 4): The Recursion Stone can be wielded
         once per month as if it had the power of any other stone of your
         choice (the Blueprint Stone), with any references to the
         Blueprint Stone itself changed to the Recursion Stone unless
         they specify otherwise.
       
-      - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
+      - Hot Potato Stone (weekly, 5): When this stone is wielded, the
         wielder specifies an eligible player and gains 8 radiance. The
         stone is transferred to the eligible player. An eligible player
         is one who has not owned this stone since the last time Agora
@@ -6493,15 +6537,15 @@ The Stones
         This stone is immune if 3 or more players have wielded it since
         the most recent collection notice.
       
-      - Blank Stone (Monthly, 0): This stone has no effect.
+      - Blank Stone (monthly, 0): This stone has no effect.
       
-      - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
+      - Anti-Equatorial Stone (monthly, 5): When wielded, the mossiest
         non-immune stone is transferred to the wielder. If more than one
         such stone is tied for mossiest, a specified one is transferred.
         When this happens, the wielded stone's mossiness is incremented
         by 1.
       
-      - Radiance Stone (Weekly, 3): When wielded, a specified player
+      - Radiance Stone (weekly, 3): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
 
 History:
@@ -6538,6 +6582,7 @@ Amended(19) by P8964 'Minty Stone' (snail), 12 May 2023
 Amended(20) by P8990 'Self-referential stone fixes' (Janet, nix), 19 Jun
    2023
 Amended(21) by P8995 'Broad Recursion' (Murphy, snail), 19 Jun 2023
+Amended(22) by cleaning (kiako), 02 Mar 2024
 
 Annotations:
 
@@ -7200,7 +7245,7 @@ Amended(6) by cleaning (Kate), 18 Sep 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2582/3 (Power=1)
+Rule 2582/4 (Power=1)
 Annual Awards
 
       April is hereby designated Awards Month.
@@ -7229,12 +7274,12 @@ Annual Awards
          a coauthor, although e SHOULD only do so if it is generally
          agreed that that coauthor contributed more to that proposal
          than the person who submitted it (additional information: ID
-         Number of the proposal).
+         number of the proposal).
       
        - Wooden Gavel, awardable by the Arbitor to the judge of a CFJ
          or series of CFJs with a strong and foundational impact on the
          judicial precedents of Agora (additional information: ID
-         Numbers of the judgements).
+         numbers of the judgements).
       
        - Golden Glove, awardable by the Tailor to the player who made
          the most interesting, successful, and/or competitive series of
@@ -7254,6 +7299,7 @@ Amended(2) by P8574 'mending the quill' (Trigon, Janet, Aris), 23 Jun
    2021
 Amended(3) by P8968 'April Awards Extension' (snail, nix, Aris, G.), 19
    May 2023
+Amended(4) by cleaning (kiako), 02 Mar 2024
 
 Annotations:
 

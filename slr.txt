@@ -2,15 +2,20 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Feb 2024
+Date of this ruleset: 3 Mar 2024
 
 Date of last SLR ratification: 19 June 2023
 
 Number of rules currently enacted: 133
 
 Highest ID'd rule in this ruleset: 2687
-Highest ID'd Proposal Passed: 9055
+Highest ID'd Proposal Passed: 9058
 Highest ID'd Rule Enacted: 2687
+
+The header of each rule is formatted as Rule NNNN/R (Power=P), where
+NNNN is the ID number of the rule, R is the revision of the rule, and P
+is the power of the rule. This header is then followed by the title of
+the rule.
 
 ========================================================================
 The Game of Agora
@@ -943,7 +948,7 @@ No Cretans Need Apply
       otherwise, the later clause takes precedence.
 
 ------------------------------------------------------------------------
-Rule 105/23 (Power=3)
+Rule 105/24 (Power=3)
 Rule Changes
 
       When the rules provide that an instrument takes effect, it can
@@ -978,17 +983,26 @@ Rule Changes
       
       4. amend the text of a rule.
       
-      5. retitle (syn. amend the title of) a rule.
+      5. retitle a rule.
       
       6. change the power of a rule.
       
       A rule change is any effect that falls into the above classes.
-      Rule changes always occur sequentially, never simultaneously.
+      Rule changes always occur sequentially, never simultaneously. If a
+      specification would ever be interpreted as causing multiple
+      changes to happen at once, it is instead interpreted as attempting
+      to cause them to occur separately, in the order they are listed in
+      the specification.
       
       Any ambiguity in the specification of a rule change causes that
       change to be void and without effect. An inconsequential variation
       in the quotation of an existing rule does not constitute ambiguity
-      for the purposes of this rule, but any other variation does.
+      for the purposes of this rule. Furthermore, if the change being
+      specified would be clear to any reasonable player, the
+      specification is not ambiguous, even if it is incorrect or unclear
+      on its face. This provision does not prevent the specification of
+      undesirable changes; for instance, an amendment which adds a typo
+      is not corrected to remove the typo.
       
       A rule change is wholly prevented from taking effect unless its
       full text was published, along with an unambiguous and clear
@@ -1049,14 +1063,14 @@ The Royal Parade
                eir pockets.
 
 ------------------------------------------------------------------------
-Rule 1051/17 (Power=1)
+Rule 1051/18 (Power=1)
 The Rulekeepor
 
       The Rulekeepor is an office; its holder is responsible for
       maintaining the text of the rules of Agora.
       
-      The Rulekeepor's Weekly report includes the Short Logical Ruleset.
-      The Rulekeepor's Monthly report includes the Full Logical Ruleset.
+      The Rulekeepor's weekly report includes the Short Logical Ruleset.
+      The Rulekeepor's monthly report includes the Full Logical Ruleset.
 
 ------------------------------------------------------------------------
 Rule 1681/23 (Power=1)
@@ -1827,7 +1841,7 @@ Succumbing to Time
       would otherwise expire within the next week.
 
 ------------------------------------------------------------------------
-Rule 2632/4 (Power=2.0)
+Rule 2632/5 (Power=2.0)
 Complexity
 
       Complexity is a secured office switch reflecting how complex it is
@@ -1837,7 +1851,7 @@ Complexity
       consent, flip the complexity of an office to a specified possible
       value.
       
-      For each office a player holds, eir voting strength is increase
+      For each office a player holds, eir voting strength is increased
       by the complexity of the office for referenda on ordinary
       proposals, up to a maximum increase of 3 by this method.
 
@@ -2878,7 +2892,7 @@ Stones
       mossiness.
 
 ------------------------------------------------------------------------
-Rule 2641/2 (Power=2)
+Rule 2641/3 (Power=2)
 Wielding Stones
 
       Except as otherwise specified by the rules, the owner of a stone
@@ -2891,7 +2905,7 @@ Wielding Stones
       Agoran day it was wielded during).
       
       While a stone is hot, it is IMPOSSIBLE to wield it or to transfer
-      it by announcement
+      it by announcement.
       
       When a stone is wielded, the Rule defining that stone applies any
       effects that it defines as occurring when the stone is wielded.
@@ -2956,7 +2970,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/21 (Power=2)
+Rule 2645/22 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -2982,13 +2996,13 @@ The Stones
       - Protection Stone (monthly, 4): When wielded, a specified stone
         is granted immunity.
       
-      - Recursion Stone (Monthly, 4): The Recursion Stone can be wielded
+      - Recursion Stone (monthly, 4): The Recursion Stone can be wielded
         once per month as if it had the power of any other stone of your
         choice (the Blueprint Stone), with any references to the
         Blueprint Stone itself changed to the Recursion Stone unless
         they specify otherwise.
       
-      - Hot Potato Stone (Weekly, 5): When this stone is wielded, the
+      - Hot Potato Stone (weekly, 5): When this stone is wielded, the
         wielder specifies an eligible player and gains 8 radiance. The
         stone is transferred to the eligible player. An eligible player
         is one who has not owned this stone since the last time Agora
@@ -2997,15 +3011,15 @@ The Stones
         This stone is immune if 3 or more players have wielded it since
         the most recent collection notice.
       
-      - Blank Stone (Monthly, 0): This stone has no effect.
+      - Blank Stone (monthly, 0): This stone has no effect.
       
-      - Anti-Equatorial Stone (Monthly, 5): When wielded, the mossiest
+      - Anti-Equatorial Stone (monthly, 5): When wielded, the mossiest
         non-immune stone is transferred to the wielder. If more than one
         such stone is tied for mossiest, a specified one is transferred.
         When this happens, the wielded stone's mossiness is incremented
         by 1.
       
-      - Radiance Stone (Weekly, 3): When wielded, a specified player
+      - Radiance Stone (weekly, 3): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
 
 ------------------------------------------------------------------------
@@ -3382,7 +3396,7 @@ Official Patent Titles
       especially if the potential awardee is the officer emself.
 
 ------------------------------------------------------------------------
-Rule 2582/3 (Power=1)
+Rule 2582/4 (Power=1)
 Annual Awards
 
       April is hereby designated Awards Month.
@@ -3411,12 +3425,12 @@ Annual Awards
          a coauthor, although e SHOULD only do so if it is generally
          agreed that that coauthor contributed more to that proposal
          than the person who submitted it (additional information: ID
-         Number of the proposal).
+         number of the proposal).
       
        - Wooden Gavel, awardable by the Arbitor to the judge of a CFJ
          or series of CFJs with a strong and foundational impact on the
          judicial precedents of Agora (additional information: ID
-         Numbers of the judgements).
+         numbers of the judgements).
       
        - Golden Glove, awardable by the Tailor to the player who made
          the most interesting, successful, and/or competitive series of
