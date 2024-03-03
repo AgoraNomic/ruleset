@@ -9,7 +9,7 @@ text: |
   consent, flip the complexity of an office to a specified possible
   value.
 
-  For each office a player holds, eir voting strength is increase
+  For each office a player holds, eir voting strength is increased
   by the complexity of the office for referenda on ordinary
   proposals, up to a maximum increase of 3 by this method.
 history:
@@ -45,4 +45,10 @@ history:
   date: 2023-10-31
   agent:
     proposal: "9012"
+- change:
+    type: amendment
+  date: 2024-02-25
+  agent:
+    cleaning:
+      by: Murphy
 annotations: []
