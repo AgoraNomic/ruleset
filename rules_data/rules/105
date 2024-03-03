@@ -34,17 +34,26 @@ text: |
 
   4. amend the text of a rule.
 
-  5. retitle (syn. amend the title of) a rule.
+  5. retitle a rule.
 
   6. change the power of a rule.
 
   A rule change is any effect that falls into the above classes.
-  Rule changes always occur sequentially, never simultaneously.
+  Rule changes always occur sequentially, never simultaneously. If a
+  specification would ever be interpreted as causing multiple
+  changes to happen at once, it is instead interpreted as attempting
+  to cause them to occur separately, in the order they are listed in
+  the specification.
 
   Any ambiguity in the specification of a rule change causes that
   change to be void and without effect. An inconsequential variation
   in the quotation of an existing rule does not constitute ambiguity
-  for the purposes of this rule, but any other variation does.
+  for the purposes of this rule. Furthermore, if the change being
+  specified would be clear to any reasonable player, the
+  specification is not ambiguous, even if it is incorrect or unclear
+  on its face. This provision does not prevent the specification of
+  undesirable changes; for instance, an amendment which adds a typo
+  is not corrected to remove the typo.
 
   A rule change is wholly prevented from taking effect unless its
   full text was published, along with an unambiguous and clear
@@ -205,6 +214,11 @@ history:
   date: 2022-12-11
   agent:
     proposal: "8871"
+- change:
+    type: amendment
+  date: 2024-03-03
+  agent:
+    proposal: "9058"
 annotations:
 - cfjs:
   - id: '1499'
