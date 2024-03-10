@@ -10,9 +10,9 @@ text: |
    (iv) Optionally, a frequency, which must be one of daily, weekly,
         monthly, or quarterly.
 
-  Ownership of stones is entirely restricted to Agora and active
-  players.  If a stone is owned by the Lost and Found Department or
-  in abeyance, it is immediately transferred to Agora.
+  Ownership of stones is entirely restricted to Agora and players.
+  If a stone is owned by the Lost and Found Department or in
+  abeyance, it is immediately transferred to Agora.
 
   The Stonemason is an office, and the recordkeepor of stones.
 
@@ -51,4 +51,9 @@ history:
   agent:
     cleaning:
       by: 4st
+- change:
+    type: amendment
+  date: 2024-03-10
+  agent:
+    proposal: "9062"
 annotations: []
