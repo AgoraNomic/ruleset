@@ -6396,15 +6396,15 @@ Amended(3) by cleaning (kiako), 02 Mar 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2642/7 (Power=2)
+Rule 2642/8 (Power=2)
 Gathering Stones
 
-      Base Rockiness is an active player switch, with values of integers
-      and default of 0, tracked by the Stonemason. A player's Modified
+      Base Rockiness is a player switch, with values of integers and
+      default of 0, tracked by the Stonemason. A player's Modified
       Rockiness is eir Base Rockiness minus the number of stones e owns.
       
-      Once a week each player CAN "reach" for a specified stone owned by
-      Agora by announcement.
+      Once a week each active player CAN "reach" for a specified stone
+      owned by Agora by announcement.
       
       At the beginning of each week, each stone owned by Agora is
       transferred to the player (if any) with the highest Modified
@@ -6425,6 +6425,7 @@ Amended(4) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
 Amended(5) by P8958 'Taken for Granite' (Murphy, nix), 05 May 2023
 Amended(6) by P9002 'Active rocks' (Janet), 09 Jul 2023
 Amended(7) by P9037 'Uncrossed arms' (Murphy), 10 Dec 2023
+Amended(8) by P9062 'Insurance Policy' (kiako, ais523), 10 Mar 2024
 
 Annotations:
 CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
