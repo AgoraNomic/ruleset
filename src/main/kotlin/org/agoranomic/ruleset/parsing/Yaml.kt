@@ -5,8 +5,9 @@ import kotlinx.collections.immutable.ImmutableMap
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.collections.immutable.toImmutableMap
 import org.yaml.snakeyaml.DumperOptions
+import org.yaml.snakeyaml.LoaderOptions
 import org.yaml.snakeyaml.Yaml
-import org.yaml.snakeyaml.constructor.Constructor
+import org.yaml.snakeyaml.constructor.SafeConstructor
 import org.yaml.snakeyaml.nodes.Tag
 import org.yaml.snakeyaml.representer.Representer
 import org.yaml.snakeyaml.resolver.Resolver
@@ -126,11 +127,13 @@ fun ParsedYamlNode.MapNode.getList(key: String) =
 fun ParsedYamlNode.MapNode.getOptList(key: String) = this[key]?.requireOptList()
 
 fun parseRawYaml(text: String): ParsedYamlNode {
+    val options = DumperOptions()
+
     return ParsedYamlNode.fromRaw(
         Yaml(
-            Constructor(),
-            Representer(),
-            DumperOptions(),
+            SafeConstructor(LoaderOptions()),
+            Representer(options),
+            options,
             StringResolver(),
         ).load<Any>(text.trim()) // trim in order to be just a little bit helpful
     )
