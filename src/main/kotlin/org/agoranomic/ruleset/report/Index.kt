@@ -14,7 +14,7 @@ fun formatJsonIndex(
             for (rule in fullRulesetState) {
                 addJsonObject {
                     put("title", rule.title)
-                    put("id", rule.id.toString())
+                    put("id", rule.id.readable)
                     put("text", rule.text)
                     put("power", rule.power)
                 }
@@ -23,7 +23,7 @@ fun formatJsonIndex(
 
         putJsonArray("enacted_rules") {
             for (ruleNumber in categoryMapping.categorizedRuleNumbers) {
-                add(ruleNumber.toString())
+                add(ruleNumber.readable)
             }
         }
 
@@ -42,7 +42,7 @@ fun formatJsonIndex(
             for (categoryId in categoryMapping.categories.categoryIds) {
                 putJsonArray(categoryId.raw) {
                     for (ruleNumber in categoryMapping.ruleNumbersIn(categoryId)) {
-                        add(ruleNumber.toString())
+                        add(ruleNumber.readable)
                     }
                 }
             }
