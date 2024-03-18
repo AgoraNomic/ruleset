@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 17 Mar 2024
+Date of this ruleset: 18 Mar 2024
 
 Date of last SLR ratification: 19 June 2023
 
-Number of rules currently enacted: 133
+Number of rules currently enacted: 134
 
-Highest ID'd rule in this ruleset: 2687
-Highest ID'd Proposal Passed: 9062
-Highest ID'd Rule Enacted: 2687
+Highest ID'd rule in this ruleset: 2688
+Highest ID'd Proposal Passed: 9069
+Highest ID'd Rule Enacted: 2688
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -31,6 +31,7 @@ The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
    * Rule 2683: The Boulder
+   * Rule 2688: Agora of Empires
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -188,7 +189,7 @@ Power Distribution:
 
 1  with Power=0.3
 2  with Power=0.5
-30 with Power=1
+31 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 30 with Power=2
@@ -323,6 +324,38 @@ History:
 
 Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
 Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2688/0 (Power=1.0)
+Agora of Empires
+
+      There exists a document known as the Empireworld, which should
+      describe in some way a fictional world. Each player that has
+      amended this document is said to have their own Empire in the
+      Empireworld, and such players are Imperials.
+      
+      A player CAN amend the Empireworld once per week by announcement
+      to narratively progress the Empireworld in some reasonable
+      fashion. The message with this kind of announcement MUST include
+      the latest form of the Empireworld post-amendment. These
+      amendments MUST follow relevant guidance given in CfJs. Imperials
+      are ENCOURAGED to shape this subgame through CfJs.
+      
+      Any person can amend the Empireworld without 2 objections and
+      Imperials are ENCOURAGED to attempt this action when ey believe it
+      to be appropriate.
+      
+      An Imperial can, by announcement, win the game without 2
+      objections if the Empireworld shows that ey have accomplished at
+      least 3 extraordinary feats in the fictional world that the
+      Empireworld describes since ey last won the game in this way. This
+      rule does not describe what qualifies as an extraordinary feat.
+
+History:
+
+Enacted by P9068 'Agora of Empires' (Yachay Wayllukuq), 18 Mar 2024
 
 Annotations:
 
@@ -6266,7 +6299,7 @@ Amended(11) by cleaning (kiako), 27 Nov 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2685/2 (Power=1.0)
+Rule 2685/3 (Power=1.0)
 Crystals
 
       The Geologist is an office that tracks crystals.
@@ -6291,7 +6324,10 @@ Crystals
         down).
       
       - If that crystal's owner is not the author of that proposal, the
-        instability of that crystal is increased by 3.
+        instability of that crystal is increased by 1.
+      
+      - If that crystal's owner is not the author or coauthor of that
+        proposal, the instability of that crystal is increased by 2.
       
       - If the instability of that crystal is greater than its size, it
         is transferred to the author of the proposal, then its
@@ -6314,6 +6350,7 @@ Enacted by P9032 'Rules as Items v6' (4st, Janet, kiako, snail), 03 Dec
    2023
 Amended(1) by P9046 'Crystal fix 1' (4st, ais523, Gaelan), 31 Dec 2023
 Amended(2) by P9046 'Crystal fix 1' (4st, ais523, Gaelan), 31 Dec 2023
+Amended(3) by P9069 'Coauthored Crystals' (snail), 18 Mar 2024
 
 Annotations:
 
