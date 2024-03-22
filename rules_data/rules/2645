@@ -50,6 +50,12 @@ text: |
 
   - Radiance Stone (weekly, 3): When wielded, a specified player
     (defaulting to the wielder if not specified) gains 3 radiance.
+
+  - Loud Stone (monthly, 4): When wielded, a specified player's
+    Dream is set to a specified Dream, and then e is Beguiled;
+    Beguiling is secured. A player's Dream CANNOT be flipped if e
+    was Beguiled in the last 7 days, rules to the contrary
+    notwithstanding.
 history:
 - change:
     type: enactment
@@ -167,4 +173,9 @@ history:
   agent:
     cleaning:
       by: kiako
+- change:
+    type: amendment
+  date: 2024-03-22
+  agent:
+    proposal: "9071"
 annotations: []
