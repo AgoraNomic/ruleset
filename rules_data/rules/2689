@@ -1,0 +1,43 @@
+id: 2689
+name: Offices
+power: 3.0
+text: |
+  Delegate is an Office switch with possible values of "None" and
+  any active player, and default value of "None". Delegates are
+  tracked by the ADoP in eir weekly report.
+
+  A player CAN flip the Delegate switch of a specified office to
+  emself with Agoran Consent. If the Delegate switch of an office is
+  set to "None", the holder of that office CAN flip the Delegate
+  switch of that office to a specified player with support from that
+  specified player.
+
+  An officer CAN and SHOULD take a Vacation from a specified office
+  e has continuously held for over 6 months with 7 day notice, if e
+  has not done so in the last year. When an officer qualifies for a
+  Vacation, the ADoP SHOULD encourage em to take one, at least once
+  a quarter.
+
+  An officer is On Vacation from a specified office if e has taken a
+  Vacation from that office in the last 30 days. The list of
+  officers currently on vacation is part of the ADoP's report.
+
+  While the holder of an office is On Vacation, the Delegate of that
+  office CAN perform an action ordinarily reserved for the
+  office-holder as if e held the office, if it would be POSSIBLE for
+  the Delegate to perform the action, other than by this method, if
+  e held the office.
+
+  Rules to the contrary notwithstanding, while an officer is On
+  Vacation that officer NEED NOT comply with any duties of that
+  office, and the Delegate, if any, SHALL comply with all duties of
+  the office as if e held the office.
+
+  The Delegate of an office CANNOT resign it. E CAN, by
+  announcement, flip the Delegate switch of that office to "None".
+history:
+- change:
+    type: enactment
+  date: 2024-03-18
+  agent:
+    proposal: "9072"

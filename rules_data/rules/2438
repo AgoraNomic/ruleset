@@ -159,6 +159,11 @@ history:
   agent:
     cleaning:
       by: 4st
+- change:
+    type: amendment
+  date: 2024-03-22
+  agent:
+    proposal: "9072"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -202,7 +207,8 @@ text: |
   Emerald (E): When a person wins an election, e earns an Emerald
   Ribbon.
 
-  Cyan (C): When a person deputises for an office, and that person
+  Cyan (C): When a person deputises for an office or is the delegate
+  for an office while its holder is on vacation., and that person
   has not held or deputised for that office within the past 7 days,
   that person earns a Cyan Ribbon.
 
