@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Mar 2024
+Date of this ruleset: 22 Mar 2024
 
 Date of last SLR ratification: 19 June 2023
 
-Number of rules currently enacted: 134
+Number of rules currently enacted: 135
 
-Highest ID'd rule in this ruleset: 2688
-Highest ID'd Proposal Passed: 9069
-Highest ID'd Rule Enacted: 2688
+Highest ID'd rule in this ruleset: 2689
+Highest ID'd Proposal Passed: 9072
+Highest ID'd Rule Enacted: 2689
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -1747,6 +1747,44 @@ Deputisation
       into that office.
 
 ------------------------------------------------------------------------
+Rule 2689/0 (Power=3.0)
+Offices
+
+      Delegate is an Office switch with possible values of "None" and
+      any active player, and default value of "None". Delegates are
+      tracked by the ADoP in eir weekly report.
+      
+      A player CAN flip the Delegate switch of a specified office to
+      emself with Agoran Consent. If the Delegate switch of an office is
+      set to "None", the holder of that office CAN flip the Delegate
+      switch of that office to a specified player with support from that
+      specified player.
+      
+      An officer CAN and SHOULD take a Vacation from a specified office
+      e has continuously held for over 6 months with 7 day notice, if e
+      has not done so in the last year. When an officer qualifies for a
+      Vacation, the ADoP SHOULD encourage em to take one, at least once
+      a quarter.
+      
+      An officer is On Vacation from a specified office if e has taken a
+      Vacation from that office in the last 30 days. The list of
+      officers currently on vacation is part of the ADoP's report.
+      
+      While the holder of an office is On Vacation, the Delegate of that
+      office CAN perform an action ordinarily reserved for the
+      office-holder as if e held the office, if it would be POSSIBLE for
+      the Delegate to perform the action, other than by this method, if
+      e held the office.
+      
+      Rules to the contrary notwithstanding, while an officer is On
+      Vacation that officer NEED NOT comply with any duties of that
+      office, and the Delegate, if any, SHALL comply with all duties of
+      the office as if e held the office.
+      
+      The Delegate of an office CANNOT resign it. E CAN, by
+      announcement, flip the Delegate switch of that office to "None".
+
+------------------------------------------------------------------------
 Rule 2138/26 (Power=1)
 The Associate Director of Personnel
 
@@ -2999,7 +3037,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/22 (Power=2)
+Rule 2645/23 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -3050,6 +3088,12 @@ The Stones
       
       - Radiance Stone (weekly, 3): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
+      
+      - Loud Stone (monthly, 4): When wielded, a specified player's
+        Dream is set to a specified Dream, and then e is Beguiled;
+        Beguiling is secured. A player's Dream CANNOT be flipped if e
+        was Beguiled in the last 7 days, rules to the contrary
+        notwithstanding.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3121,7 +3165,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/29 (Power=3)
+Rule 2438/30 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3166,7 +3210,8 @@ Ribbons
       Emerald (E): When a person wins an election, e earns an Emerald
       Ribbon.
       
-      Cyan (C): When a person deputises for an office, and that person
+      Cyan (C): When a person deputises for an office or is the delegate
+      for an office while its holder is on vacation., and that person
       has not held or deputised for that office within the past 7 days,
       that person earns a Cyan Ribbon.
       

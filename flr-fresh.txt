@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Mar 2024
+Date of this ruleset: 22 Mar 2024
 
 Date of last SLR ratification: 19 June 2023
 
-Number of rules currently enacted: 134
+Number of rules currently enacted: 135
 
-Highest ID'd rule in this ruleset: 2688
-Highest ID'd Proposal Passed: 9069
-Highest ID'd Rule Enacted: 2688
+Highest ID'd rule in this ruleset: 2689
+Highest ID'd Proposal Passed: 9072
+Highest ID'd Rule Enacted: 2689
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -95,6 +95,7 @@ Offices & Reporting
    * Rule 2154: Election Procedure
    * Rule 2573: Impeachment
    * Rule 2160: Deputisation
+   * Rule 2689: Offices
    * Rule 2138: The Associate Director of Personnel
    * Rule 2472: Office Incompatibilities
    * Rule 2143: Official Reports and Duties
@@ -195,7 +196,7 @@ Power Distribution:
 30 with Power=2
 1  with Power=2.2
 1  with Power=2.5
-50 with Power=3
+51 with Power=3
 3  with Power=3.1
 1  with Power=3.14
 2  with Power=3.2
@@ -2172,8 +2173,7 @@ Amended(27) by P6625 'Proposals must obey security' [green] (Murphy), 20
 Amended(28) by P6656 'Proposal Power Pilfering Program' [purple]
    (Alexis), 01 Mar 2010
 Amended(29) by P6721 'Titularity' [purple, disi.] (Alexis), 21 May 2010
-Amended(30) by P6732 'Clarify inconsequentiality' [purple] (omd), 13 Jun
-   2010
+Amended(30) by P6734 'Effect Cleanup' [purple] (omd), 13 Jun 2010
 Amended(31) by P6823 'Mother says not to run on the concrete' [green]
    (Murphy, omd), 10 Sep 2010
 Amended(32) by P6968 'Clarify Rule 106' (Murphy, Alexis, Wooble), 20 Mar
@@ -2570,7 +2570,8 @@ Amended(2) by P4940 'instrument mechanics' (Zefram), 29 Apr 2007
 Amended(3) by P5110 'Regulate ID numbers' (Murphy), 02 Aug 2007
 Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
    woggle, ais523), 23 Jan 2009
-Amended(4) by P6734 'Effect Cleanup' [purple] (omd), 06 Jun 2010
+Amended(4) by P6732 'Clarify inconsequentiality' [purple] (omd), 06 Jun
+   2010
 Amended(5) by P6741 'Clarify inconsequentiality mk. 2' [purple, disi.]
    (omd), 01 Jul 2010
 Amended(6) by P7433 'Rule Changes Fix' (Walker), 27 May 2013
@@ -4170,6 +4171,51 @@ CFJ 2400 (called 06 Mar 2009): Deputisation is generally treated as if
     it immediately after.
 CFJ 3739 (called 16 Jun 2019): To perform an action by temporary
     deputisation is to deputise.
+
+------------------------------------------------------------------------
+Rule 2689/0 (Power=3.0)
+Offices
+
+      Delegate is an Office switch with possible values of "None" and
+      any active player, and default value of "None". Delegates are
+      tracked by the ADoP in eir weekly report.
+      
+      A player CAN flip the Delegate switch of a specified office to
+      emself with Agoran Consent. If the Delegate switch of an office is
+      set to "None", the holder of that office CAN flip the Delegate
+      switch of that office to a specified player with support from that
+      specified player.
+      
+      An officer CAN and SHOULD take a Vacation from a specified office
+      e has continuously held for over 6 months with 7 day notice, if e
+      has not done so in the last year. When an officer qualifies for a
+      Vacation, the ADoP SHOULD encourage em to take one, at least once
+      a quarter.
+      
+      An officer is On Vacation from a specified office if e has taken a
+      Vacation from that office in the last 30 days. The list of
+      officers currently on vacation is part of the ADoP's report.
+      
+      While the holder of an office is On Vacation, the Delegate of that
+      office CAN perform an action ordinarily reserved for the
+      office-holder as if e held the office, if it would be POSSIBLE for
+      the Delegate to perform the action, other than by this method, if
+      e held the office.
+      
+      Rules to the contrary notwithstanding, while an officer is On
+      Vacation that officer NEED NOT comply with any duties of that
+      office, and the Delegate, if any, SHALL comply with all duties of
+      the office as if e held the office.
+      
+      The Delegate of an office CANNOT resign it. E CAN, by
+      announcement, flip the Delegate switch of that office to "None".
+
+History:
+
+Enacted by P9072 'Vacations v4' (snail, nix, Janet, 4st, Yachay
+   Wayllukuq, G., juan, Murphy, ais523), 18 Mar 2024
+
+Annotations:
 
 ------------------------------------------------------------------------
 Rule 2138/26 (Power=1)
@@ -6539,7 +6585,7 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/22 (Power=2)
+Rule 2645/23 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -6590,6 +6636,12 @@ The Stones
       
       - Radiance Stone (weekly, 3): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
+      
+      - Loud Stone (monthly, 4): When wielded, a specified player's
+        Dream is set to a specified Dream, and then e is Beguiled;
+        Beguiling is secured. A player's Dream CANNOT be flipped if e
+        was Beguiled in the last 7 days, rules to the contrary
+        notwithstanding.
 
 History:
 
@@ -6626,6 +6678,7 @@ Amended(20) by P8990 'Self-referential stone fixes' (Janet, nix), 19 Jun
    2023
 Amended(21) by P8995 'Broad Recursion' (Murphy, snail), 19 Jun 2023
 Amended(22) by cleaning (kiako), 02 Mar 2024
+Amended(23) by P9071 'Loud Stone' (snail), 22 Mar 2024
 
 Annotations:
 
@@ -6748,7 +6801,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/29 (Power=3)
+Rule 2438/30 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6793,7 +6846,8 @@ Ribbons
       Emerald (E): When a person wins an election, e earns an Emerald
       Ribbon.
       
-      Cyan (C): When a person deputises for an office, and that person
+      Cyan (C): When a person deputises for an office or is the delegate
+      for an office while its holder is on vacation., and that person
       has not held or deputised for that office within the past 7 days,
       that person earns a Cyan Ribbon.
       
@@ -6893,6 +6947,8 @@ Amended(27) by P8708 'Has Beens' (nix, snail, G., Madrid, 4st, Janet),
    17 Jul 2022
 Amended(28) by P8902 'More ribbon security' (Janet), 26 Feb 2023
 Amended(29) by cleaning (4st), 25 Apr 2023
+Amended(30) by P9072 'Vacations v4' (snail, nix, Janet, 4st, Yachay
+   Wayllukuq, G., juan, Murphy, ais523), 22 Mar 2024
 
 Annotations:
 
