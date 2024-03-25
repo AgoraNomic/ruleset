@@ -1,0 +1,20 @@
+Rule 2576/3 (Power=3)
+Ownership
+
+      Each asset has exactly one owner.
+      
+      If ownership of an asset is restricted to a class of entities,
+      then that asset CANNOT be gained by or transferred to an entity
+      outside that class. By default, ownership of an asset is
+      restricted to Agora, players, and contracts, but an asset's
+      backing document may modify this.
+      
+      An asset "in abeyance" is one whose owner is nonexistent,
+      indeterminate, or invalid. If an asset would otherwise be in
+      abeyance, then it is owned by the Lost and Found Department (if
+      possible) or destroyed (otherwise), subject to modification by its
+      backing document (provided that the modification either destroys
+      it or prevents it from being in abeyance). Rules to the contrary
+      notwithstanding, the Lost and Found Department can own assets of
+      every type. Assets owned by the Lost and Found Department can be
+      transferred or destroyed by any player without objection.

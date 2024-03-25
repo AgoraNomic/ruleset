@@ -1,0 +1,11 @@
+Rule 2578/1 (Power=3)
+Currencies
+
+      A currency is a class of asset defined as such by its backing
+      document. Instances of a currency with the same owner are
+      fungible.
+      
+      The "x balance of an entity", where x is a currency, is the number
+      of x that entity possesses. Where it resolves ambiguity, the asset
+      or currency being referred to is the currency designated as
+      the official currency of Agora, if there is one.

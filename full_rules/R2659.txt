@@ -1,0 +1,31 @@
+Rule 2659/5 (Power=1)
+Stamps
+
+      Stamps are a category of asset ownable by players . The
+      Collector is an office. The Collector tracks Stamps in eir weekly
+      report.
+      
+      For each person there is a corresponding type of stamp. Stamps of
+      any given type are a currency.
+      
+      Any player CAN, once per week, pay X Stamps, where each specified
+      Stamp is a different type, to gain (X^2)-X radiance.
+      
+      Any player CAN, once per week, pay X Stamps, where each Stamp is
+      the same type, to gain (X-1)*2 radiance.
+      
+      Any active player CAN win by paying N Stamps, where N is the
+      current number of active players and each specified Stamp is of a
+      different type.
+
+History:
+
+Enacted by P8661 'Stamps v1.2' (nix, G., Janet, Trigon), 03 Apr 2022
+Amended(1) by P8669 'Quick Stamp Fix' (nix), 08 May 2022
+Amended(2) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
+   G., Janet, Shy Owl), 11 Dec 2022
+Amended(3) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(4) by P8997 'Stamp fungibility' (Janet, Murphy), 19 Jun 2023
+Amended(5) by P9034 'A simple fix' (snail, nix), 03 Dec 2023
+
+Annotations:

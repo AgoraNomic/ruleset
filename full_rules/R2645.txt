@@ -1,0 +1,96 @@
+Rule 2645/23 (Power=2)
+The Stones
+
+      The following stones are defined, one per paragraph, with the
+      following format: Stone Name (Frequency, Smoothness): Description.
+      
+      - Power Stone (weekly, 2): When this stone is wielded, a specified
+        player (defaulting to the wielder if not specified) is Power
+        Stoned; Power Stoning is secured. A player's voting strength on
+        a referendum on an ordinary proposal is increased by 3 for each
+        time that e was Power Stoned during the referendum's voting
+        period.
+      
+      - Soul Stone (weekly, 3): When wielded, this stone is transferred
+        to the owner of a different specified non-immune stone not owned
+        by Agora, then that stone is transferred to the wielder.
+      
+      - Sabotage Stone (weekly, 4): When wielded, the adoption index of
+        a specified AI-majority Agoran decision is increased by 1.
+      
+      - Minty Stone (weekly, 4): When wielded, a specified Player gains
+        a stamp of eir own type.
+      
+      - Protection Stone (monthly, 4): When wielded, a specified stone
+        is granted immunity.
+      
+      - Recursion Stone (monthly, 4): The Recursion Stone can be wielded
+        once per month as if it had the power of any other stone of your
+        choice (the Blueprint Stone), with any references to the
+        Blueprint Stone itself changed to the Recursion Stone unless
+        they specify otherwise.
+      
+      - Hot Potato Stone (weekly, 5): When this stone is wielded, the
+        wielder specifies an eligible player and gains 8 radiance. The
+        stone is transferred to the eligible player. An eligible player
+        is one who has not owned this stone since the last time Agora
+        owned it. If this stone is not owned by Agora, a player CANNOT
+        otherwise transfer it, rules to the contrary notwithstanding.
+        This stone is immune if 3 or more players have wielded it since
+        the most recent collection notice.
+      
+      - Blank Stone (monthly, 0): This stone has no effect.
+      
+      - Anti-Equatorial Stone (monthly, 5): When wielded, the mossiest
+        non-immune stone is transferred to the wielder. If more than one
+        such stone is tied for mossiest, a specified one is transferred.
+        When this happens, the wielded stone's mossiness is incremented
+        by 1.
+      
+      - Radiance Stone (weekly, 3): When wielded, a specified player
+        (defaulting to the wielder if not specified) gains 3 radiance.
+      
+      - Loud Stone (monthly, 4): When wielded, a specified player's
+        Dream is set to a specified Dream, and then e is Beguiled;
+        Beguiling is secured. A player's Dream CANNOT be flipped if e
+        was Beguiled in the last 7 days, rules to the contrary
+        notwithstanding.
+
+History:
+
+Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+Amended(1) by P8523 'Emergency Economy Unbreaking' (Aris, nix, Janet),
+   22 Nov 2020
+Amended(2) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
+Amended(3) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Janet),
+   11 Feb 2021
+Amended(4) by P8548 'Stone defaults' (Janet), 10 Mar 2021
+Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
+Amended(6) by P8642 'Hot Potato patch v2' (Janet, Oerjan), 23 Feb 2022
+Amended(7) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
+   2022
+Amended(8) by R2658, 09 Jun 2022
+Amended(9) by P8704 'Tasty Stone' (4st), 17 Jul 2022
+Amended(10) by P8842 'Losing Focus' (Pilgore, nix, Janet, Madrid), 30
+   Aug 2022
+Amended(11) by P8865 'Stone Fixes' (nix, G., ais523, Janet, ziproot), 13
+   Nov 2022
+Amended(12) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
+   ziproot), 27 Nov 2022
+Amended(13) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
+Amended(14) by P8886 'Mason's Stone repeal' (Janet), 04 Feb 2023
+Amended(15) by P8906 'Stone Immunity Correction (Keeping Our Stones)
+   Act' (Janet), 26 Feb 2023
+Amended(16) by P8906 'Stone Immunity Correction (Keeping Our Stones)
+   Act' (Janet), 26 Feb 2023
+Amended(17) by P8907 'Maybe a little less hot?' (Janet), 26 Feb 2023
+Amended(18) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(19) by P8964 'Minty Stone' (snail), 12 May 2023
+Amended(20) by P8990 'Self-referential stone fixes' (Janet, nix), 19 Jun
+   2023
+Amended(21) by P8995 'Broad Recursion' (Murphy, snail), 19 Jun 2023
+Amended(22) by cleaning (kiako), 02 Mar 2024
+Amended(23) by P9071 'Loud Stone' (snail), 22 Mar 2024
+
+Annotations:

@@ -1,0 +1,25 @@
+Rule 2640/5 (Power=2)
+Stones
+
+      A stone is a unique indestructible liquid asset defined by the
+      rules. To define a stone, the definition must include:
+        (i) A name unique among stones;
+       (ii) The smoothness of the stone, which is a non-negative integer;
+      (iii) A description of the stone's properties
+       (iv) Optionally, a frequency, which must be one of daily, weekly,
+            monthly, or quarterly.
+      
+      Ownership of stones is entirely restricted to Agora and players.
+      If a stone is owned by the Lost and Found Department or in
+      abeyance, it is immediately transferred to Agora.
+      
+      The Stonemason is an office, and the recordkeepor of stones.
+      
+      Mossiness is a Stone switch with values of non-negative integers
+      and a default of 0 tracked by the Stonemason. When a stone is
+      transferred from Agora to a player or from a player to Agora, its
+      Mossiness is set to 0. The mossiest stone(s) in a set of stone is
+      (are) the stone(s) with the highest Mossiness value.
+      
+      The Slipperiness of a stone is that stone's smoothness plus its
+      mossiness.

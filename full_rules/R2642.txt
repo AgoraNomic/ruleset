@@ -1,0 +1,35 @@
+Rule 2642/8 (Power=2)
+Gathering Stones
+
+      Base Rockiness is a player switch, with values of integers and
+      default of 0, tracked by the Stonemason. A player's Modified
+      Rockiness is eir Base Rockiness minus the number of stones e owns.
+      
+      Once a week each active player CAN "reach" for a specified stone
+      owned by Agora by announcement.
+      
+      At the beginning of each week, each stone owned by Agora is
+      transferred to the player (if any) with the highest Modified
+      Rockiness that reached for that stone in the previous week, with
+      ties broken in favor of the tied player who reached for that stone
+      first. When a player receives a stone in this way, eir Base
+      Rockiness is set to 0.
+
+History:
+
+Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+Amended(1) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
+Amended(2) by P8680 'Auction conduction fix v2' (Janet, G.), 28 May 2022
+Retitled by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
+Amended(3) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
+Amended(4) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
+Amended(5) by P8958 'Taken for Granite' (Murphy, nix), 05 May 2023
+Amended(6) by P9002 'Active rocks' (Janet), 09 Jul 2023
+Amended(7) by P9037 'Uncrossed arms' (Murphy), 10 Dec 2023
+Amended(8) by P9062 'Insurance Policy' (kiako, ais523), 10 Mar 2024
+
+Annotations:
+CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
+    can take away from the plain and obvious common-sense intended
+    meaning in that paragraph.

@@ -1,0 +1,43 @@
+Rule 2643/9 (Power=2)
+Collecting Stones
+
+      A stone is immune if and only if it is defined as such by the
+      rules of power not less than 2.
+      
+      A stone is immune if it is owned by Agora. A stone is immune if it
+      has been granted immunity since the last collection notice. The
+      granting of immunity is secured.
+      
+      Once per month, the Stonemason CAN publish a Collection Notice by
+      announcement, specifying all necessary information and choices. The
+      Stonemason SHALL publish such a notice in a timely fashion after
+      the beginning of each Agoran month.
+      
+      A Collection Notice includes a random integer from 1 to 6; this is
+      the Escape Minimum.
+      
+      When a Collection Notice is published, for each player, half
+      (rounded up) of eir non-immune stones with slipperiness not less
+      than the Escape Minimum are transferred to Agora, rules to the
+      contrary notwithstanding.  A Collection Notice includes selections
+      of which eligible stones escape (which shall prevail in
+      determining which stones are transferred). The mossiness of each
+      stone that is not transferred is incremented by 1.
+
+History:
+
+Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
+   Falsifian), 11 Nov 2020
+Amended(1) by P8524 'Agora's Stones Are Immune' (nix), 01 Dec 2020
+Amended(2) by P8542 'Stone Excitement Act' (Janet, Aris), 02 Mar 2021
+Amended(3) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
+   ziproot), 26 Nov 2022
+Amended(4) by P8893 'Stonemason Fairness' (4st, snail, Janet), 17 Feb
+   2023
+Amended(5) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
+Amended(6) by P8900 'Increased collection' (Janet), 26 Feb 2023
+Amended(7) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
+Amended(8) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
+Amended(9) by P9005 'Unreality stone' (Janet), 27 Aug 2023
+
+Annotations:

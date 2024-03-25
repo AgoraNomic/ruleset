@@ -1,0 +1,61 @@
+Rule 2675/11 (Power=2)
+Dream of Wandering
+
+      The Dream Keeper is an office; its holder is responsible for
+      keeping track of the dreams of all active players.
+      
+      Dream is a secured active player switch, tracked by the Dream
+      Keeper in eir weekly report, with possible values any Dream,
+      defaulting to Wandering. An "X Dreamer" is a player with eir Dream
+      switch set to X.
+      
+      An active player CAN "envision" eir own Dream, specifying any
+      valid value for eir Dream, by announcement. When the rules state
+      that the wandering occurs, every active player's Dream is set to
+      the value e most recently envisioned. If a player did not envision
+      a dream since the last wandering, it is not flipped.
+      
+      A wandering occurs at the beginning of each week.
+      
+      The following is an exhaustive list of all Dreams and the rules
+      relevant to each dream:
+      
+      - Wandering: This dream has no effect.
+      
+      - Charity: Immediately after a wandering, one stamp (chosen by
+        most-to-least owned by the L&FD at time of transfer, tie-broken
+        alphabetically) is transferred to each Charity Dreamer (in order
+        from least-to-most stamps owned, tie-broken alphabetically) from
+        the L&FD. If the number of Stamps the L&FD owned during the last
+        wandering is greater than 10, this process happens a second
+        time. If it is more than 20, this process happens a third time.
+      
+      - Justice: Immediately after a wandering, 1 blot is expunged from
+        each Justice Dreamer. If a Justice Dreamer had no blots
+        immediately after a wandering, e CAN once expunge one blot, by
+        announcement, from a specified player before the next wandering.
+      
+      - Sharing: Immediately after a wandering, each Sharing Dreamer has
+        eir Radiance increased by X / Y, rounded down, where X is half
+        the number of active players, rounded up, and Y is the number of
+        Sharing Dreamers.
+      
+      - Wealth: Immediately after a wandering, X stamps of eir own type
+        are granted to each Wealth Dreamer. When less than 8 Stamps of
+        eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
+        is 1. When 16 or more Stamps of eir type exist, X is 0.
+      
+      - Gardens: Immediately after a wandering, the Base Rockiness of
+        each Gardens Dreamer is increased by 1.
+      
+      - Power: Each Power Dreamer has eir voting strength increased by 2
+        for referenda on ordinary proposals.
+      
+      - Revolution: A revolution is happening if the majority of active
+        players are Revolution Dreamers. Immediately after a wandering,
+        if a revolution is not happening, then all Revolution Dreamers
+        have eir radiance decreased by 1 to a minimum of 0. Immediately
+        after a wandering, if a revolution is happening, then all
+        players have eir radiance set to 100-X, where X was eir radiance
+        when the wandering occurred, and all player's Dreams are set to
+        Wandering.
