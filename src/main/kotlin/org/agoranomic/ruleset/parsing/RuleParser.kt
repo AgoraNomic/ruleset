@@ -62,6 +62,7 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
             else
                 HistoricalChanges.countedAmendment()
         }
+        "null-amendment" -> HistoricalChanges.nullAmendment()
         "infection-amendment" -> HistoricalChanges.infectionAmendment()
         "infection" -> HistoricalChanges.infection()
         "retitling" -> HistoricalChanges.retitling(

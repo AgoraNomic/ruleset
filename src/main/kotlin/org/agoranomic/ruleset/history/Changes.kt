@@ -49,6 +49,7 @@ object HistoricalChanges {
     fun enactment(): HistoricalChange = Enactment
     fun countedAmendment(): HistoricalChange = CountedAmendment
     fun uncountedAmendment(): HistoricalChange = UncountedAmendment
+    fun nullAmendment(): HistoricalChange = NullAmendment
     fun renumbering(): HistoricalChange = Renumbering
     fun unchangedReenactment(): HistoricalChange = UnchangedReenactment
     fun changedReenactment(): HistoricalChange = ChangedReenactment
@@ -135,6 +136,7 @@ object HistoricalChanges {
     private data object Repeal : UncountedHistoricalChange("Repealed", effects(REPEAL))
     private data object CountedAmendment : CountedOnceChange({ "Amended($it)" }, effects(TEXT_CHANGE))
     private data object UncountedAmendment : UncountedHistoricalChange("Amended", effects(TEXT_CHANGE))
+    private data object NullAmendment : CountedOnceChange({ "Null-amended($it)" }, effects(TEXT_CHANGE))
     private data object Unknown : UncountedHistoricalChange("History unknown...", effects(UNKNOWN))
     private data object UnchangedReenactment : CountedOnceChange({ "Re-enacted($it)" }, effects(ENACTMENT))
 
