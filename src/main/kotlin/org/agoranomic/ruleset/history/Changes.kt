@@ -54,7 +54,10 @@ object HistoricalChanges {
     fun changedReenactment(): HistoricalChange = ChangedReenactment
     fun infectionAmendment(): HistoricalChange = InfectionAmendment
     fun infection(): HistoricalChange = Infection
-    fun retitling(): HistoricalChange = Retitling
+
+    fun retitling(oldTitle: String?, newTitle: String?): HistoricalChange =
+        Retitling(oldTitle = oldTitle, newTitle = newTitle)
+
     fun repeal(): HistoricalChange = Repeal
     fun authorityVanished(): HistoricalChange = AuthorityVanished
     fun unknown(): HistoricalChange = Unknown
@@ -114,6 +117,12 @@ object HistoricalChanges {
             effects(METADATA_CHANGE),
         )
 
+    data class Retitling(val oldTitle: String?, val newTitle: String?) :
+        UncountedHistoricalChange(
+            "Retitled${oldTitle?.let { " from \'$it\'" } ?: ""}${newTitle?.let { " to \'$it\'" } ?: ""}",
+            effects(METADATA_CHANGE),
+        )
+
     private data class CommitteeAssignment(val committee: String) :
         UncountedHistoricalChange(
             "Assigned to the $committee",
@@ -123,7 +132,6 @@ object HistoricalChanges {
     private object Enactment : UncountedHistoricalChange("Enacted", effects(ENACTMENT))
     private object Renumbering : UncountedHistoricalChange("Renumbered", effects(METADATA_CHANGE))
     private object Infection : UncountedHistoricalChange("Infected", effects(METADATA_CHANGE))
-    private object Retitling : UncountedHistoricalChange("Retitled", effects(METADATA_CHANGE))
     private object Repeal : UncountedHistoricalChange("Repealed", effects(REPEAL))
     private object CountedAmendment : CountedOnceChange({ "Amended($it)" }, effects(TEXT_CHANGE))
     private object UncountedAmendment : UncountedHistoricalChange("Amended", effects(TEXT_CHANGE))
