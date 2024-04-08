@@ -115,7 +115,7 @@ fun validateHistory(
         history = history,
     )
 
-    if (powerResult != null) return powerResult
+    if (powerResult is RuleHistoryValidationResult.Invalid) return powerResult
 
     return RuleHistoryValidationResult.Valid
 }
@@ -129,7 +129,7 @@ private sealed class PowerState {
 private fun validateRuleHistoryPower(
     initialPower: PowerState,
     history: RuleHistory,
-): RuleHistoryValidationResult.Invalid? {
+): RuleHistoryValidationResult {
     var currentRulePower: PowerState = initialPower
 
     for (entry in history.entries) {
@@ -157,7 +157,7 @@ private fun validateRuleHistoryPower(
         currentRulePower = newPower
     }
 
-    return null
+    return RuleHistoryValidationResult.Valid
 }
 
 private fun validatePower(previousPower: PowerState, change: HistoricalChange): RuleHistoryValidationResult {
