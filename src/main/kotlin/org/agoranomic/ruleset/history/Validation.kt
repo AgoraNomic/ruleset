@@ -43,6 +43,10 @@ sealed class RuleHistoryValidationResult {
     }
 }
 
+private fun Collection<HistoricalChangeEffect>.containsOrUnknown(effect: HistoricalChangeEffect): Boolean {
+    return contains(effect) || contains(HistoricalChangeEffect.UNKNOWN)
+}
+
 fun validateHistory(
     history: RuleHistory,
     finalPower: BigDecimal?,
@@ -53,7 +57,7 @@ fun validateHistory(
         return RuleHistoryValidationResult.Invalid.EmptyHistory
     }
 
-    if (!entries.first().change.effects.contains(HistoricalChangeEffect.ENACTMENT)) {
+    if (!entries.first().change.effects.containsOrUnknown(HistoricalChangeEffect.ENACTMENT)) {
         return RuleHistoryValidationResult.Invalid.InitialNotEnactment
     }
 
