@@ -11,8 +11,7 @@ text: |
   (e.g. if the frequency is daily, it is hot for the remainder of the
   Agoran day it was wielded during).
 
-  While a stone is hot, it is IMPOSSIBLE to wield it or to transfer
-  it by announcement.
+  While a stone is hot, it is IMPOSSIBLE to wield it.
 
   When a stone is wielded, the Rule defining that stone applies any
   effects that it defines as occurring when the stone is wielded.
@@ -40,4 +39,9 @@ history:
   agent:
     cleaning:
       by: kiako
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9079"
 annotations: []

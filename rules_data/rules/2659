@@ -18,6 +18,15 @@ text: |
   Any active player CAN win by paying N Stamps, where N is the
   current number of active players and each specified Stamp is of a
   different type.
+
+  Any player CAN pay a fee of 5 Spendies to grant emself X stamps of
+  eir own type. When less than 8 Stamps of eir type exist, X is 2.
+  When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
+  stamps of eir type exist, X is 0.
+
+  Any player CAN pay a fee of 5 + (X) Spendies to transfer a
+  specified stamp from the L&FD to emself. X is equal to the number
+  of times e has already done so in the current month.
 history:
 - change:
     type: enactment
@@ -59,3 +68,8 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9076"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9079"

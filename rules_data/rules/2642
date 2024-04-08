@@ -1,20 +1,17 @@
 id: 2642
-name: Gathering Stones
+name: Stone Cost
 power: 2
 text: |
-  Base Rockiness is a player switch, with values of integers and
-  default of 0, tracked by the Stonemason. A player's Modified
-  Rockiness is eir Base Rockiness minus the number of stones e owns.
+  Stone Cost is a Stone switch with values of non-negative integers
+  and a default of 10. Stone Cost is tracked by the Stonemason.
 
-  Once a week each active player CAN "reach" for a specified stone
-  owned by Agora by announcement.
+  Any player CAN pay a fee of X Spendies to transfer a specified
+  stone to emself, where X is the current Stone Cost of the
+  specified stone.
 
-  At the beginning of each week, each stone owned by Agora is
-  transferred to the player (if any) with the highest Modified
-  Rockiness that reached for that stone in the previous week, with
-  ties broken in favor of the tied player who reached for that stone
-  first. When a player receives a stone in this way, eir Base
-  Rockiness is set to 0.
+  When a stone is transferred, its Stone Cost is set to the default.
+  At the beginning of every week, the Stone Cost for each stone is
+  reduced by 1, to a minimum of 0.
 history:
 - change:
     type: enactment
@@ -66,6 +63,18 @@ history:
   date: 2024-03-10
   agent:
     proposal: "9062"
+- change:
+    type: retitling
+    old-title: "Gathering Stones"
+    new-title: "Stone Cost"
+  date: 2024-04-07
+  agent:
+    proposal: "9079"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9079"
 annotations:
 - cfjs:
   - id: '4021'

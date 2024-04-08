@@ -16,6 +16,9 @@ text: |
 
   At the start of every quarter, all radiance switches are set to
   half their current value rounded down.
+
+  Any player CAN increase eir radiance by 1 by paying a fee of 2
+  Spendies.
 history:
 - change:
     type: enactment
@@ -57,3 +60,8 @@ history:
   date: 2023-11-19
   agent:
     proposal: "9026"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9079"

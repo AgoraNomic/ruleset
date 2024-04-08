@@ -1,0 +1,21 @@
+id: 2690
+name: Spendies
+power: 1.0
+text: |
+  Spendies are a fungible liquid asset ownable by players and
+  contracts. Spendies are tracked by the Spendor in eir weekly
+  report.
+
+  At the end of each month, all Spendies are destroyed. At the
+  beginning of each month, every player is granted 20 Spendies.
+history:
+- change:
+    type: enactment
+  date: 2024-04-07
+  agent:
+    proposal: "9079"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9079"

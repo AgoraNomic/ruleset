@@ -2,7 +2,7 @@ id: 2640
 name: Stones
 power: 2
 text: |
-  A stone is a unique indestructible liquid asset defined by the
+  A stone is a unique indestructible fixed asset defined by the
   rules. To define a stone, the definition must include:
     (i) A name unique among stones;
    (ii) The smoothness of the stone, which is a non-negative integer;
@@ -15,15 +15,6 @@ text: |
   abeyance, it is immediately transferred to Agora.
 
   The Stonemason is an office, and the recordkeepor of stones.
-
-  Mossiness is a Stone switch with values of non-negative integers
-  and a default of 0 tracked by the Stonemason. When a stone is
-  transferred from Agora to a player or from a player to Agora, its
-  Mossiness is set to 0. The mossiest stone(s) in a set of stone is
-  (are) the stone(s) with the highest Mossiness value.
-
-  The Slipperiness of a stone is that stone's smoothness plus its
-  mossiness.
 history:
 - change:
     type: enactment
@@ -56,4 +47,9 @@ history:
   date: 2024-03-10
   agent:
     proposal: "9062"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9079"
 annotations: []
