@@ -2,7 +2,7 @@ id: 2555
 name: Blots
 power: 2
 text: |
-  Blots are an indestructible fixed currency with ownership
+  Blots are an indestructible fixed fungible asset with ownership
   restricted to persons. A person with 1 or more blots is Impure, a
   person with 0 blots is Pure. An impure unregistered person is a
   Fugitive. The Referee is an office, and the recordkeepor for
@@ -104,4 +104,9 @@ history:
   date: 2023-04-02
   agent:
     proposal: "8935"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9076"
 annotations: []

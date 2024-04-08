@@ -7,7 +7,7 @@ text: |
   report.
 
   For each person there is a corresponding type of stamp. Stamps of
-  any given type are a currency.
+  any given type are fungible.
 
   Any player CAN, once per week, pay X Stamps, where each specified
   Stamp is a different type, to gain (X^2)-X radiance.
@@ -54,3 +54,8 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9075"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9076"
