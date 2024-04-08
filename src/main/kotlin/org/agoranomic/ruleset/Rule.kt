@@ -32,13 +32,13 @@ interface RuleNumberResolver {
     fun resolve(textualNumber: String): RuleNumber
 }
 
-object TextualRuleNumberResolver : RuleNumberResolver {
+data object TextualRuleNumberResolver : RuleNumberResolver {
     override fun resolve(textualNumber: String): RuleNumber {
         return RuleNumber.Textual(textualNumber)
     }
 }
 
-object RequireIntegralRuleNumberResolver : RuleNumberResolver {
+data object RequireIntegralRuleNumberResolver : RuleNumberResolver {
     override fun resolve(textualNumber: String): RuleNumber {
         return RuleNumber.Integral(
             textualNumber.toBigIntegerOrNull()
@@ -47,7 +47,7 @@ object RequireIntegralRuleNumberResolver : RuleNumberResolver {
     }
 }
 
-object TryIntegralRuleNumberResolver : RuleNumberResolver {
+data object TryIntegralRuleNumberResolver : RuleNumberResolver {
     override fun resolve(textualNumber: String): RuleNumber {
         return textualNumber.toBigIntegerOrNull()?.let { RuleNumber.Integral(it) } ?: RuleNumber.Textual(textualNumber)
     }

@@ -12,7 +12,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 
-private object ThrowingYamlProposalDataMap : YamlProposalDataMap {
+private data object ThrowingYamlProposalDataMap : YamlProposalDataMap {
     override fun dataFor(proposalSpecification: String, nameResolver: CauseNameResolver): ProposalData? {
         throw AssertionError("Unexpected proposal lookup: $proposalSpecification")
     }

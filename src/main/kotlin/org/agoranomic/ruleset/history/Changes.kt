@@ -32,7 +32,7 @@ object HistoricalChanges {
             }
         }
 
-        object Unanimity : MutabilityIndex() {
+        data object Unanimity : MutabilityIndex() {
             override fun toString(): String {
                 return "unanimity"
             }
@@ -129,20 +129,20 @@ object HistoricalChanges {
             effects(METADATA_CHANGE),
         )
 
-    private object Enactment : UncountedHistoricalChange("Enacted", effects(ENACTMENT))
-    private object Renumbering : UncountedHistoricalChange("Renumbered", effects(METADATA_CHANGE))
-    private object Infection : UncountedHistoricalChange("Infected", effects(METADATA_CHANGE))
-    private object Repeal : UncountedHistoricalChange("Repealed", effects(REPEAL))
-    private object CountedAmendment : CountedOnceChange({ "Amended($it)" }, effects(TEXT_CHANGE))
-    private object UncountedAmendment : UncountedHistoricalChange("Amended", effects(TEXT_CHANGE))
-    private object Unknown : UncountedHistoricalChange("History unknown...", effects(UNKNOWN))
-    private object UnchangedReenactment : CountedOnceChange({ "Re-enacted($it)" }, effects(ENACTMENT))
+    private data object Enactment : UncountedHistoricalChange("Enacted", effects(ENACTMENT))
+    private data object Renumbering : UncountedHistoricalChange("Renumbered", effects(METADATA_CHANGE))
+    private data object Infection : UncountedHistoricalChange("Infected", effects(METADATA_CHANGE))
+    private data object Repeal : UncountedHistoricalChange("Repealed", effects(REPEAL))
+    private data object CountedAmendment : CountedOnceChange({ "Amended($it)" }, effects(TEXT_CHANGE))
+    private data object UncountedAmendment : UncountedHistoricalChange("Amended", effects(TEXT_CHANGE))
+    private data object Unknown : UncountedHistoricalChange("History unknown...", effects(UNKNOWN))
+    private data object UnchangedReenactment : CountedOnceChange({ "Re-enacted($it)" }, effects(ENACTMENT))
 
-    private object ChangedReenactment :
+    private data object ChangedReenactment :
         CountedOnceChange({ "Re-enacted($it) and amended" }, effects(ENACTMENT, TEXT_CHANGE))
 
-    private object InfectionAmendment :
+    private data object InfectionAmendment :
         CountedOnceChange({ "Infected and amended($it)" }, effects(METADATA_CHANGE, TEXT_CHANGE))
 
-    private object AuthorityVanished : UncountedHistoricalChange("Disappeared as authority removed", effects(REPEAL))
+    private data object AuthorityVanished : UncountedHistoricalChange("Disappeared as authority removed", effects(REPEAL))
 }

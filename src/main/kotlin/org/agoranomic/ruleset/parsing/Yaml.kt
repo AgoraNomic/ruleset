@@ -36,7 +36,7 @@ sealed class ParsedYamlNode {
         }
     }
 
-    object NullNode : ParsedYamlNode()
+    data object NullNode : ParsedYamlNode()
 
     data class ValueNode(val content: String) : ParsedYamlNode()
 

@@ -246,7 +246,7 @@ interface CauseNameResolver {
      */
     fun resolveFormalCauseName(name: String): String
 
-    object Identity : CauseNameResolver {
+    data object Identity : CauseNameResolver {
         override fun resolveInformalCauseName(name: String): String {
             return name
         }

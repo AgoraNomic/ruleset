@@ -6,14 +6,14 @@ import java.math.BigDecimal
 import java.time.LocalDate
 
 sealed class RuleHistoryValidationResult {
-    object Valid : RuleHistoryValidationResult()
+    data object Valid : RuleHistoryValidationResult()
 
     sealed class Invalid(val readableMessage: String) : RuleHistoryValidationResult() {
-        object EmptyHistory : Invalid("empty history")
-        object InitialNotEnactment : Invalid("initial change is not an enactment")
-        object Repealed : Invalid("rule was repealed and not re-enacted")
-        object DoubleEnactment : Invalid("two enactments in a row")
-        object NoReenactmentAfterRepeal : Invalid("rule was not re-enacted after a repeal")
+        data object EmptyHistory : Invalid("empty history")
+        data object InitialNotEnactment : Invalid("initial change is not an enactment")
+        data object Repealed : Invalid("rule was repealed and not re-enacted")
+        data object DoubleEnactment : Invalid("two enactments in a row")
+        data object NoReenactmentAfterRepeal : Invalid("rule was not re-enacted after a repeal")
 
         data class DescendingDate(val first: LocalDate, val second: LocalDate) : Invalid(
             "date $second is before date $first",
@@ -31,7 +31,7 @@ sealed class RuleHistoryValidationResult {
             "proposal ${proposalNumber.readable} of power $proposalPower applied to rule of greater power $rulePower"
         )
 
-        object UnknownTargetPower : Invalid("rule changed to have unknown power")
+        data object UnknownTargetPower : Invalid("rule changed to have unknown power")
 
         data class InsufficientMutationPower(
             val proposalNumber: ProposalNumber,
