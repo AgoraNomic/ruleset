@@ -51,10 +51,13 @@ private fun parseHistoricalChangeYaml(changeNode: ParsedYamlNode.MapNode) =
         }
         "renumbering" -> HistoricalChanges.renumbering()
         "reenactment" -> {
+            val power = changeNode.getOptValue("power")?.content?.toBigDecimal()
+
             if (changeNode.containsKey("unchanged"))
-                HistoricalChanges.unchangedReenactment()
-            else
-                HistoricalChanges.changedReenactment()
+                HistoricalChanges.unchangedReenactment(power = power)
+            else {
+                HistoricalChanges.changedReenactment(power = power)
+            }
         }
         "amendment" -> {
             if (changeNode.getOptValue("uncounted")?.content?.lowercase()?.toBoolean() == true)

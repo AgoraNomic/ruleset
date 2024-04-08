@@ -51,8 +51,8 @@ object HistoricalChanges {
     fun uncountedAmendment(): HistoricalChange = UncountedAmendment
     fun nullAmendment(): HistoricalChange = NullAmendment
     fun renumbering(): HistoricalChange = Renumbering
-    fun unchangedReenactment(): HistoricalChange = UnchangedReenactment
-    fun changedReenactment(): HistoricalChange = ChangedReenactment
+    fun unchangedReenactment(power: BigDecimal?): HistoricalChange = UnchangedReenactment(power = power)
+    fun changedReenactment(power: BigDecimal?): HistoricalChange = ChangedReenactment(power = power)
     fun infectionAmendment(): HistoricalChange = InfectionAmendment
     fun infection(): HistoricalChange = Infection
 
@@ -130,6 +130,25 @@ object HistoricalChanges {
             effects(METADATA_CHANGE),
         )
 
+    sealed class Reenactment(
+        formatter: (Int) -> String,
+        effects: ImmutableSet<HistoricalChangeEffect>,
+    ) : CountedOnceChange(formatter = formatter, effects = effects) {
+        abstract val power: BigDecimal?
+    }
+
+    private data class UnchangedReenactment(override val power: BigDecimal?) :
+        Reenactment(
+            { "Re-enacted($it)${power?.let { " at Power=$power" } ?: ""}" },
+            if (power != null) effects(ENACTMENT, METADATA_CHANGE) else effects(ENACTMENT),
+        )
+
+    private data class ChangedReenactment(override val power: BigDecimal?) :
+        Reenactment(
+            { "Re-enacted($it)${power?.let { " at Power=$power" } ?: ""} and amended" },
+            if (power != null) effects(ENACTMENT, TEXT_CHANGE, METADATA_CHANGE) else effects(ENACTMENT, TEXT_CHANGE),
+        )
+
     private data object Enactment : UncountedHistoricalChange("Enacted", effects(ENACTMENT))
     private data object Renumbering : UncountedHistoricalChange("Renumbered", effects(METADATA_CHANGE))
     private data object Infection : UncountedHistoricalChange("Infected", effects(METADATA_CHANGE))
@@ -138,10 +157,6 @@ object HistoricalChanges {
     private data object UncountedAmendment : UncountedHistoricalChange("Amended", effects(TEXT_CHANGE))
     private data object NullAmendment : CountedOnceChange({ "Null-amended($it)" }, effects(TEXT_CHANGE))
     private data object Unknown : UncountedHistoricalChange("History unknown...", effects(UNKNOWN))
-    private data object UnchangedReenactment : CountedOnceChange({ "Re-enacted($it)" }, effects(ENACTMENT))
-
-    private data object ChangedReenactment :
-        CountedOnceChange({ "Re-enacted($it) and amended" }, effects(ENACTMENT, TEXT_CHANGE))
 
     private data object InfectionAmendment :
         CountedOnceChange({ "Infected and amended($it)" }, effects(METADATA_CHANGE, TEXT_CHANGE))

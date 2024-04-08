@@ -182,6 +182,14 @@ private fun powerAfter(previousPower: BigDecimal?, change: HistoricalChange): Bi
         return change.to
     }
 
+    if (change is HistoricalChanges.Reenactment) {
+        val power = change.power
+
+        if (power != null) {
+            return power
+        }
+    }
+
     return previousPower
 }
 
