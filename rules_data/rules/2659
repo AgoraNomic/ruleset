@@ -2,7 +2,7 @@ id: 2659
 name: Stamps
 power: 1
 text: |
-  Stamps are a category of asset ownable by players . The
+  Stamps are a category of asset ownable by players and Agora. The
   Collector is an office. The Collector tracks Stamps in eir weekly
   report.
 
@@ -49,3 +49,8 @@ history:
   date: 2023-12-03
   agent:
     proposal: "9034"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9075"

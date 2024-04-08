@@ -4,11 +4,10 @@ power: 3
 text: |
   Each asset has exactly one owner.
 
-  If ownership of an asset is restricted to a class of entities,
-  then that asset CANNOT be gained by or transferred to an entity
-  outside that class. By default, ownership of an asset is
-  restricted to Agora, players, and contracts, but an asset's
-  backing document may modify this.
+  An asset CANNOT be gained by or transferred to an entity unless
+  its backing document specifies that entity can own it. If an
+  asset's backing document is otherwise silent on which entities can
+  own it, then it can be owned by Agora, players, and contracts.
 
   An asset "in abeyance" is one whose owner is nonexistent,
   indeterminate, or invalid. If an asset would otherwise be in
@@ -41,3 +40,8 @@ history:
   date: 2020-09-25
   agent:
     proposal: "8500"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9075"
