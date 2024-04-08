@@ -138,6 +138,12 @@ private fun validateRuleHistoryPower(
             change = entry.change,
         )
 
+        val consistencyResult = validatePower(currentRulePower, entry.change)
+
+        if (consistencyResult is RuleHistoryValidationResult.Invalid) {
+            return consistencyResult
+        }
+
         if (entry.cause is HistoricalCauses.Proposal) {
             val entryResult = validateRuleChangePower(
                 currentRulePower = currentRulePower,
@@ -167,16 +173,14 @@ private fun validatePower(previousPower: PowerState, change: HistoricalChange): 
         }
 
         is PowerState.Known -> {
-            if (change is HistoricalChanges.PowerChange) {
-                val from = change.from
+            val changeOldPower = powerBefore(change)
 
-                if (from != null && from.compareTo(previousPower.power) != 0) {
-                    return RuleHistoryValidationResult.Invalid.InconsistentPower(
-                        expectedPowerBefore = from,
-                        actualPowerBefore = previousPower.power,
-                        change = change,
-                    )
-                }
+            if (changeOldPower is PowerState.Known && previousPower.power.compareTo(changeOldPower.power) != 0) {
+                return RuleHistoryValidationResult.Invalid.InconsistentPower(
+                    expectedPowerBefore = changeOldPower.power,
+                    actualPowerBefore = previousPower.power,
+                    change = change,
+                )
             }
 
             return RuleHistoryValidationResult.Valid
@@ -196,12 +200,6 @@ private fun validateRuleChangePower(
     }
 
     if (cause.proposalData.power.omnipotent) return null
-
-    val consistencyResult = validatePower(currentRulePower, change)
-
-    if (consistencyResult is RuleHistoryValidationResult.Invalid) {
-        return consistencyResult
-    }
 
     val proposalPower = cause.proposalData.power.rawPower
 
@@ -254,6 +252,18 @@ private fun powerAfter(previousPower: PowerState, change: HistoricalChange): Pow
     return previousPower
 }
 
+private fun powerBefore(change: HistoricalChange): PowerState {
+    if (change is HistoricalChanges.Mutation) {
+        return (change.from as? HistoricalChanges.MutabilityIndex.Numeric)?.value?.let(PowerState::Known) ?: PowerState.Unknown
+    }
+
+    if (change is HistoricalChanges.PowerChange) {
+        return change.from?.let(PowerState::Known) ?: PowerState.Unknown
+    }
+
+    return PowerState.Unknown
+}
+
 private fun ruleInitialPower(
     entries: ImmutableList<HistoricalEntry>,
     finalPower: BigDecimal?
@@ -261,13 +271,8 @@ private fun ruleInitialPower(
     for (entry in entries) {
         val change = entry.change
 
-        if (change is HistoricalChanges.Mutation) {
-            return (change.from as? HistoricalChanges.MutabilityIndex.Numeric)?.value?.let(PowerState::Known) ?: PowerState.Unknown
-        }
-
-        if (change is HistoricalChanges.PowerChange) {
-            return change.from?.let(PowerState::Known) ?: PowerState.Unknown
-        }
+        val oldPower = powerBefore(change)
+        if (oldPower is PowerState.Known) return oldPower
 
         val newPower = powerAfter(PowerState.Unknown, change)
 
