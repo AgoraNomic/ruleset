@@ -9,7 +9,7 @@ text: |
   that judge has violated a time limit for judging the case and has
   not judged it in the mean time; the Arbitor SHALL do so in a
   timely fashion after the time limit expires, if able. The Arbitor
-  CAN recuse an inactive or deregistered judge by announcement.
+  CAN recuse an inactive or unregistered judge by announcement.
 
   If a judge is recused from a case that was continuously open and
   assigned to em for at least the past 4 days, e SHOULD NOT be
@@ -52,4 +52,9 @@ history:
   date: 2021-08-30
   agent:
     proposal: "8601"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9073"
 annotations: []
