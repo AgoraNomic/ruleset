@@ -48,6 +48,13 @@ sealed class RuleHistoryValidationResult {
         ) : Invalid(
             "change $change expected power to be $expectedPowerBefore but was $actualPowerBefore before application"
         )
+
+        data class InconsistentFinalPower(
+            val computedFinalPower: BigDecimal,
+            val actualFinalPower: BigDecimal,
+        ) : Invalid(
+            "expected final rule power to be $actualFinalPower but computed $computedFinalPower from history"
+        )
     }
 }
 
@@ -115,7 +122,30 @@ fun validateHistory(
         history = history,
     )
 
-    if (powerResult is RuleHistoryValidationResult.Invalid) return powerResult
+    when (powerResult) {
+        is RulePowerHistoryResult.Error -> return powerResult.result
+
+        is RulePowerHistoryResult.Success -> {
+            when (powerResult.computedPower) {
+                is PowerState.Repealed -> {
+                    error("rule being repealed already checked")
+                }
+
+                is PowerState.Unknown -> {
+                    // History contains unknown data, just let it be.
+                }
+
+                is PowerState.Known -> {
+                    if (finalPower != null && powerResult.computedPower.power.compareTo(finalPower) != 0) {
+                        return RuleHistoryValidationResult.Invalid.InconsistentFinalPower(
+                            computedFinalPower = powerResult.computedPower.power,
+                            actualFinalPower = finalPower,
+                        )
+                    }
+                }
+            }
+        }
+    }
 
     return RuleHistoryValidationResult.Valid
 }
@@ -126,10 +156,15 @@ private sealed class PowerState {
     data class Known(val power: BigDecimal) : PowerState()
 }
 
+private sealed class RulePowerHistoryResult {
+    data class Success(val computedPower: PowerState) : RulePowerHistoryResult()
+    data class Error(val result: RuleHistoryValidationResult.Invalid) : RulePowerHistoryResult()
+}
+
 private fun validateRuleHistoryPower(
     initialPower: PowerState,
     history: RuleHistory,
-): RuleHistoryValidationResult {
+): RulePowerHistoryResult {
     var currentRulePower: PowerState = initialPower
 
     for (entry in history.entries) {
@@ -141,7 +176,7 @@ private fun validateRuleHistoryPower(
         val consistencyResult = validatePower(currentRulePower, entry.change)
 
         if (consistencyResult is RuleHistoryValidationResult.Invalid) {
-            return consistencyResult
+            return RulePowerHistoryResult.Error(consistencyResult)
         }
 
         if (entry.cause is HistoricalCauses.Proposal) {
@@ -151,13 +186,13 @@ private fun validateRuleHistoryPower(
                 change = entry.change,
             )
 
-            if (entryResult != null) return entryResult
+            if (entryResult != null) return RulePowerHistoryResult.Error(entryResult)
         }
 
         currentRulePower = newPower
     }
 
-    return RuleHistoryValidationResult.Valid
+    return RulePowerHistoryResult.Success(computedPower = currentRulePower)
 }
 
 private fun validatePower(previousPower: PowerState, change: HistoricalChange): RuleHistoryValidationResult {
