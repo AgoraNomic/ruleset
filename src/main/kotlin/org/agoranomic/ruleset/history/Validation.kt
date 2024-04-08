@@ -12,7 +12,7 @@ sealed class RuleHistoryValidationResult {
         data object EmptyHistory : Invalid("empty history")
         data object InitialNotEnactment : Invalid("initial change is not an enactment")
         data object Repealed : Invalid("rule was repealed and not re-enacted")
-        data object DoubleEnactment : Invalid("two enactments in a row")
+        data object DoubleEnactment : Invalid("non-initial enactment not immediately preceded by repeal")
         data object NoReenactmentAfterRepeal : Invalid("rule was not re-enacted after a repeal")
 
         data class DescendingDate(val first: LocalDate, val second: LocalDate) : Invalid(
@@ -97,7 +97,7 @@ fun validateHistory(
                 return@forEach
             }
 
-            if (firstEffects.contains(HistoricalChangeEffect.ENACTMENT)) {
+            if (!firstEffects.containsOrUnknown(HistoricalChangeEffect.REPEAL)) {
                 if (secondEffects.contains(HistoricalChangeEffect.ENACTMENT)) {
                     return RuleHistoryValidationResult.Invalid.DoubleEnactment
                 }
