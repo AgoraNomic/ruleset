@@ -148,7 +148,10 @@ private fun parseHistoricalCauseYaml(
 private fun parseHistoricalDate(topNode: ParsedYamlNode): HistoricalDate {
     return when (topNode) {
         is ParsedYamlNode.ValueNode -> {
-            return HistoricalDate.Known(LocalDate.parse(topNode.content))
+            return if (topNode.content == "unknown")
+                HistoricalDate.Unknown
+            else
+                HistoricalDate.Known(LocalDate.parse(topNode.content))
         }
 
         is ParsedYamlNode.MapNode -> {

@@ -83,8 +83,9 @@ private fun formatLocalDate(date: LocalDate): String {
     return if (date == AGORA_BIRTHDAY) "Agora's birth" else date.format(DateTimeFormatter.ofPattern("dd MMM uuuu"))
 }
 
-private fun formatDate(date: HistoricalDate): String {
+private fun formatDate(date: HistoricalDate): String? {
     return when (date) {
+        is HistoricalDate.Unknown -> null
         is HistoricalDate.Known -> formatLocalDate(date.date)
         is HistoricalDate.Around -> "around " + formatLocalDate(date.date)
         is HistoricalDate.Between -> "between ${formatLocalDate(date.start)} and ${formatLocalDate(date.end)}"
@@ -98,9 +99,11 @@ private fun formatHistory(history: RuleHistory, maxLineLength: Int): String {
 
     return changeNumbers
         .zip(history.entries) { baseChangeNumber, entry ->
+            val dateString = formatDate(entry.date)
+
             val raw = entry.change.formatEffect(baseChangeNumber) +
                     (entry.cause?.causeString?.let { " by $it" } ?: "") +
-                    ", ${formatDate(entry.date)}"
+                    (dateString?.let{ ", $it" } ?: "")
 
             raw.splitWordsToMaxLineLength(maxLineLength, firstLineIndent = "", followingIndents = "   ")
         }
@@ -120,7 +123,7 @@ private fun formatAnnotations(
                         "CFJ " + when (val number = block.number) {
                             is CfjAnnotationNumber.Single -> number.number.readable
                             is CfjAnnotationNumber.Range -> "${number.first.readable}-${number.last.readable}"
-                        } + (block.calledDate?.let { " (called ${formatDate(it)})" } ?: "")
+                        } + (block.calledDate?.let(::formatDate)?.let { " (called $it)" } ?: "")
                     } + ": " + annotation.finding
                 }
             }
