@@ -11,7 +11,12 @@ text: |
   removed, as the Rulekeepor sees fit.
 
   The listing of each rule in the SLR must include the rule's ID
-  number, revision number, power, title, and text.
+  numberpower, title, and text.
+
+  The listing of each rule in the SLR must additionally include a
+  reasonably accurate approximation of the number of changes made to
+  the rule (the rule's revision number). The Rulekeepor may exercise
+  reasonable discretion in calculating revision numbers.
 
   The Rulekeepor is strongly DISCOURAGED from including any
   additional information in the SLR, except that which increases the
@@ -162,6 +167,11 @@ history:
   agent:
     cleaning:
       by: Jason
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9074"
 annotations:
 - cfjs:
   - id: 3904

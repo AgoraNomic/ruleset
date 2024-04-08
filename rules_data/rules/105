@@ -19,18 +19,17 @@ text: |
      maintain a record of it.
 
   3. reenact a rule. A repealed rule identified by its most recent
-     rule number MUST be reenacted with the same ID number and the
-     next change identifier. If no text is specified, the rule is
-     reenacted with the same text it had when it was most recently
-     repealed. If the reenacting proposal provides new text for the
-     rule, the rule SHOULD have materially the same purpose as did
-     the repealed version. Unless specified otherwise by the
-     reenacting instrument, a reenacted rule has power equal to the
-     power it had at the time of its repeal (or power 1, if power
-     was not defined at the time of that rule's repeal). If the
-     reenacting instrument is incapable of setting the reenacted
-     rule's power to that value, then the reenactment is null and
-     void.
+     rule number MUST be reenacted with the same ID number. If no
+     text is specified, the rule is reenacted with the same text it
+     had when it was most recently repealed. If the reenacting
+     proposal provides new text for the rule, the rule SHOULD have
+     materially the same purpose as did the repealed version. Unless
+     specified otherwise by the reenacting instrument, a reenacted
+     rule has power equal to the power it had at the time of its
+     repeal (or power 1, if power was not defined at the time of
+     that rule's repeal). If the reenacting instrument is incapable
+     of setting the reenacted rule's power to that value, then the
+     reenactment is null and void.
 
   4. amend the text of a rule.
 
@@ -219,6 +218,11 @@ history:
   date: 2024-03-03
   agent:
     proposal: "9058"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9074"
 annotations:
 - cfjs:
   - id: '1499'
