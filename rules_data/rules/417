@@ -1,0 +1,90 @@
+id: 417
+name: The Archivist
+power: 1
+text: |
+  The Archivist is an office; its holder is responsible for ensuring
+  the continued availability of documents of historical interest.
+
+  The archivist’s monthly report contains:
+    * Instructions for accessing collections of:
+      * Texts of each historic rule revision.
+      * Texts of each proposal.
+      * Judicial cases.
+      * Public messages.
+      * Messages to discussion fora.
+      * Theses for which a person was awarded a degree.
+      * Optionally, any other documents the Archivist deems worthy
+        of archival.
+    * A description of the completeness of each of the above
+      collections.
+  The referenced collections NEED NOT be perfectly complete or
+  accurate, but the Archivist SHOULD work towards improving their
+  completeness and accuracy.
+history:
+- change:
+    type: enactment
+  date: "unknown"
+  agent:
+    proposal: "417"
+- change:
+    type: amendment
+  date: 1994-11-04
+  agent:
+    proposal: "1302"
+- change:
+    type: amendment
+  date: 1995-09-01
+  agent:
+    proposal: "1700"
+- change:
+    type: amendment
+  date: 1995-10-15
+  agent:
+    proposal: "1735"
+- change:
+    type: amendment
+  date: 1995-10-15
+  agent:
+    proposal: "1741"
+- change:
+    type: amendment
+  date: 1995-11-28
+  agent:
+    proposal: "2029"
+- change:
+    type: infection-amendment
+  date: 1996-01-23
+  agent:
+    rule: "1454"
+- change:
+    type: amendment
+  date: 1996-09-12
+  agent:
+    proposal: "2662"
+- change:
+    type: amendment
+  date: 1996-10-10
+  agent:
+    proposal: "2696"
+- change:
+    type: "null-amendment"
+  date: 1996-10-12
+  agent:
+    proposal: "2710"
+- change:
+    type: repeal
+  date: 1998-09-08
+  agent:
+    proposal: "3787"
+- change:
+    type: reenactment
+    power: 1
+  date: 2024-04-07
+  agent:
+    proposal: "9080"
+- change:
+    type: retitling
+    new-title: "The Archivist"
+  date: 2024-04-07
+  agent:
+    proposal: "9080"
