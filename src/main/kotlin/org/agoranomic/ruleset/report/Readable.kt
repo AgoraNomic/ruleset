@@ -92,13 +92,24 @@ private fun formatDate(date: HistoricalDate): String? {
     }
 }
 
-private fun formatHistory(history: RuleHistory, maxLineLength: Int): String {
-    val changeNumbers = history.entries
-        .runningFold(1) { acc, next -> acc + next.change.changeCount }
-        .dropLast(1)
+private fun RuleHistory.revisionBases(): Sequence<Int> {
+    return sequence {
+        var currentRevision = 0
 
-    return changeNumbers
-        .zip(history.entries) { baseChangeNumber, entry ->
+        for (entry in entries) {
+            // "forceRevision", if it exists, is the first revision to use for this change. So, effectively,
+            // the previous revision is forceRevision - 1 (so the base for this change will be forceRevision - 1 + 1 ==
+            // forceRevision), if it exists.
+            val effectivePrevRevision = entry.forceRevision?.let { it - 1 } ?: currentRevision
+            yield(effectivePrevRevision + 1)
+            currentRevision = effectivePrevRevision + entry.change.changeCount
+        }
+    }
+}
+
+private fun formatHistory(history: RuleHistory, maxLineLength: Int): String {
+    return history.revisionBases()
+        .zip(history.entries.asSequence()) { baseChangeNumber, entry ->
             val dateString = formatDate(entry.date)
 
             val raw = entry.change.formatEffect(baseChangeNumber) +
@@ -135,7 +146,9 @@ private fun formatAnnotations(
         .let { if (it.isNotEmpty()) it + "\n" else it }
 }
 
-private fun RuleState.revisionNumber() = history.entries.sumOf { it.change.changeCount }
+private fun RuleState.revisionNumber(): Int {
+    return history.revisionBases().last() + (history.entries.last().change.changeCount - 1)
+}
 
 fun formatRule(rule: RuleState, config: ReadableReportConfig): String {
     val revisionNumber = rule.revisionNumber()

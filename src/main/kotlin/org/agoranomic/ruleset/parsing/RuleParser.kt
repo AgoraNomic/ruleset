@@ -196,7 +196,14 @@ private fun parseHistoryEntryYaml(
 
     val date = parseHistoricalDate(topNode.getNode("date"))
 
-    return HistoricalEntry(change, cause, date)
+    val forceRevision = topNode.getOptValue("revision")?.content?.toInt()
+
+    return HistoricalEntry(
+        change = change,
+        cause = cause,
+        date = date,
+        forceRevision = forceRevision,
+    )
 }
 
 private fun parseCfjAnnotationNumber(number: String): CfjAnnotationNumber {
