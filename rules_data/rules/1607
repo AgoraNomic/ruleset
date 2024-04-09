@@ -219,6 +219,13 @@ history:
   agent:
     proposal: "7083"
 - change:
+    type: power-change
+    old-power: 2
+    new-power: 3
+  date: 2011-07-04
+  agent:
+    proposal: "7083"
+- change:
     type: amendment
   date: 2012-06-10
   agent:
