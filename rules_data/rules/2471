@@ -8,7 +8,7 @@ text: |
   the time of publication:
   * The statement was not true and the author knew or should have
     known that it was not true.
-  * The author believed the statement to be not true.
+  * The author did not believe the statement to be true.
 
   A public statement is a lie if it is falsy and any of the
   following is true:
@@ -50,4 +50,9 @@ history:
   date: 2023-01-01
   agent:
     proposal: "8877"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9085"
 annotations: []
