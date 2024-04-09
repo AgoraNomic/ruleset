@@ -34,7 +34,8 @@ text: |
    A player CAN, by announcement, "note" an unforgiven infraction
    committed by any other player in the last 14 days, specifying the
    incident and the rule it violates (or name of the Infraction if
-   it has one).
+   it has one); but a player CANNOT note an infraction that has
+   already been investigated.
 
    The Referee's weekly report contains a list of noted and
    investigated Infractions committed in the previous week.
@@ -174,4 +175,9 @@ history:
   date: 2023-11-26
   agent:
     proposal: "9028"
+- change:
+    type: amendment
+  date: 2024-04-07
+  agent:
+    proposal: "9082"
 annotations: []
