@@ -287,7 +287,16 @@ private fun powerAfter(previousPower: PowerState, change: HistoricalChange): Pow
     return previousPower
 }
 
-private fun powerBefore(change: HistoricalChange): PowerState {
+/**
+ * Returns null if no power change is suspected as part of the change. Otherwise, returns the power before this
+ * change. Note that null and Unknown are different, with null meaning "no change" and Unknown meaning "actively
+ * unknown".
+ */
+private fun powerBefore(change: HistoricalChange): PowerState? {
+    if (change.effects.contains(HistoricalChangeEffect.UNKNOWN)) {
+        return PowerState.Unknown
+    }
+
     if (change is HistoricalChanges.Mutation) {
         return (change.from as? HistoricalChanges.MutabilityIndex.Numeric)?.value?.let(PowerState::Known) ?: PowerState.Unknown
     }
@@ -296,7 +305,7 @@ private fun powerBefore(change: HistoricalChange): PowerState {
         return change.from?.let(PowerState::Known) ?: PowerState.Unknown
     }
 
-    return PowerState.Unknown
+    return null
 }
 
 private fun ruleInitialPower(
@@ -306,8 +315,12 @@ private fun ruleInitialPower(
     for (entry in entries) {
         val change = entry.change
 
-        val oldPower = powerBefore(change)
-        if (oldPower is PowerState.Known) return oldPower
+        when (val oldPower = powerBefore(change)) {
+            null -> { /* no change, just proceed */ }
+            is PowerState.Unknown -> return PowerState.Unknown
+            is PowerState.Repealed -> error("should not have encountered reenactment")
+            is PowerState.Known -> return oldPower
+        }
 
         val newPower = powerAfter(PowerState.Unknown, change)
 
