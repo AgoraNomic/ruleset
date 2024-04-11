@@ -249,6 +249,14 @@ history:
   date: 2022-02-23
   agent:
     proposal: "8639"
+- change:
+    type: power-change
+    old-power: 2
+    new-power: 3
+  date: 2023-12-31
+  agent:
+    ratification:
+      document: SLR 2023-06-19
 annotations:
 - cfjs:
   - id: '1562'
