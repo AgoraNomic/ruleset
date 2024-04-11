@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 31 Mar 2024
+Date of this ruleset: 11 Apr 2024
 
-Date of last SLR ratification: 19 June 2023
+Date of last SLR ratification: 31 Dec 2023
 
-Number of rules currently enacted: 135
+Number of rules currently enacted: 136
 
-Highest ID'd rule in this ruleset: 2689
-Highest ID'd Proposal Passed: 9072
-Highest ID'd Rule Enacted: 2689
+Highest ID'd rule in this ruleset: 2690
+Highest ID'd Proposal Passed: 9085
+Highest ID'd Rule Enacted: 2690
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -72,30 +72,35 @@ The Boulder
       report.
 
 ------------------------------------------------------------------------
-Rule 2688/0 (Power=1.0)
+Rule 2688/1 (Power=1.0)
 Agora of Empires
 
-      There exists a document known as the Empireworld, which should
-      describe in some way a fictional world. Each player that has
-      amended this document is said to have their own Empire in the
-      Empireworld, and such players are Imperials.
+      There exists a document, initially empty, known as the
+      Empireworld, which should describe in some way a fictional world.
+      Each player that has amended this document is said to have their
+      own Empire in the Empireworld, and such players are Imperials.
       
       A player CAN amend the Empireworld once per week by announcement
       to narratively progress the Empireworld in some reasonable
       fashion. The message with this kind of announcement MUST include
       the latest form of the Empireworld post-amendment. These
-      amendments MUST follow relevant guidance given in CfJs. Imperials
-      are ENCOURAGED to shape this subgame through CfJs.
+      amendments MUST follow relevant guidance given in CFJs. Imperials
+      are ENCOURAGED to shape this subgame through CFJs.
       
       Any person can amend the Empireworld without 2 objections and
-      Imperials are ENCOURAGED to attempt this action when ey believe it
-      to be appropriate.
+      Imperials are ENCOURAGED to attempt this action when they believe
+      it to be appropriate.
       
-      An Imperial can, by announcement, win the game without 2
-      objections if the Empireworld shows that ey have accomplished at
-      least 3 extraordinary feats in the fictional world that the
-      Empireworld describes since ey last won the game in this way. This
-      rule does not describe what qualifies as an extraordinary feat.
+      An Imperial CAN, without 2 objections, Dominate the World provided
+      that (1) the Empireworld shows that e has accomplished at least 3
+      extraordinary feats in the fictional world that the Empireworld
+      describes since e last won the game as a result of this Rule and
+      that (2) no person has won the game as a result of this Rule in
+      the past 30 days. When a player Dominates the World, e wins the
+      game.
+      
+      This Rule does not describe what qualifies as an extraordinary
+      feat.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -974,7 +979,7 @@ No Cretans Need Apply
       otherwise, the later clause takes precedence.
 
 ------------------------------------------------------------------------
-Rule 105/24 (Power=3)
+Rule 105/25 (Power=3)
 Rule Changes
 
       When the rules provide that an instrument takes effect, it can
@@ -994,18 +999,17 @@ Rule Changes
          maintain a record of it.
       
       3. reenact a rule. A repealed rule identified by its most recent
-         rule number MUST be reenacted with the same ID number and the
-         next change identifier. If no text is specified, the rule is
-         reenacted with the same text it had when it was most recently
-         repealed. If the reenacting proposal provides new text for the
-         rule, the rule SHOULD have materially the same purpose as did
-         the repealed version. Unless specified otherwise by the
-         reenacting instrument, a reenacted rule has power equal to the
-         power it had at the time of its repeal (or power 1, if power
-         was not defined at the time of that rule's repeal). If the
-         reenacting instrument is incapable of setting the reenacted
-         rule's power to that value, then the reenactment is null and
-         void.
+         rule number MUST be reenacted with the same ID number. If no
+         text is specified, the rule is reenacted with the same text it
+         had when it was most recently repealed. If the reenacting
+         proposal provides new text for the rule, the rule SHOULD have
+         materially the same purpose as did the repealed version. Unless
+         specified otherwise by the reenacting instrument, a reenacted
+         rule has power equal to the power it had at the time of its
+         repeal (or power 1, if power was not defined at the time of
+         that rule's repeal). If the reenacting instrument is incapable
+         of setting the reenacted rule's power to that value, then the
+         reenactment is null and void.
       
       4. amend the text of a rule.
       
@@ -1099,7 +1103,7 @@ The Rulekeepor
       The Rulekeepor's monthly report includes the Full Logical Ruleset.
 
 ------------------------------------------------------------------------
-Rule 1681/23 (Power=1)
+Rule 1681/24 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -1111,7 +1115,12 @@ The Logical Rulesets
       removed, as the Rulekeepor sees fit.
       
       The listing of each rule in the SLR must include the rule's ID
-      number, revision number, power, title, and text.
+      numberpower, title, and text.
+      
+      The listing of each rule in the SLR must additionally include a
+      reasonably accurate approximation of the number of changes made to
+      the rule (the rule's revision number). The Rulekeepor may exercise
+      reasonable discretion in calculating revision numbers.
       
       The Rulekeepor is strongly DISCOURAGED from including any
       additional information in the SLR, except that which increases the
@@ -1494,7 +1503,7 @@ Conditional Votes
       order they occurred in the original vote.
 
 ------------------------------------------------------------------------
-Rule 2168/9 (Power=2)
+Rule 2168/10 (Power=2)
 Extending the Voting Period
 
       Whenever the voting period of an Agoran decision would end, and
@@ -1506,11 +1515,11 @@ Extending the Voting Period
       Within four days of such an occurrence, the vote collector for the
       decision SHALL issue a humiliating public reminder naming the
       slackers who have not yet cast any votes on it despite being
-      eligible, and CAN end its voting period by announcement (resolving
-      it constitutes an implicit announcement that its voting period is
-      first ended) if the result would no longer be FAILED QUORUM, or if
-      the decision is a referendum on a proposal and no voter (other
-      than possibly the proposal's author) has voted FOR.
+      eligible players, and CAN end its voting period by announcement
+      (resolving it constitutes an implicit announcement that its voting
+      period is first ended) if the result would no longer be FAILED
+      QUORUM, or if the decision is a referendum on a proposal and no
+      voter (other than possibly the proposal's author) has voted FOR.
 
 ------------------------------------------------------------------------
 Rule 1950/38 (Power=3)
@@ -1952,6 +1961,29 @@ The Webmastor
       its meaning is up to the Webmastor's discretion.
 
 ------------------------------------------------------------------------
+Rule 417/10 (Power=1)
+The Archivist
+
+      The Archivist is an office; its holder is responsible for ensuring
+      the continued availability of documents of historical interest.
+      
+      The archivist’s monthly report contains:
+        * Instructions for accessing collections of:
+          * Texts of each historic rule revision.
+          * Texts of each proposal.
+          * Judicial cases.
+          * Public messages.
+          * Messages to discussion fora.
+          * Theses for which a person was awarded a degree.
+          * Optionally, any other documents the Archivist deems worthy
+            of archival.
+        * A description of the completeness of each of the above
+          collections.
+      The referenced collections NEED NOT be perfectly complete or
+      accurate, but the Archivist SHOULD work towards improving their
+      completeness and accuracy.
+
+------------------------------------------------------------------------
 ========================================================================
 Documents
    Documents are little bits of text that can be ratified, therefore
@@ -2079,10 +2111,10 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/12 (Power=2)
+Rule 2555/13 (Power=2)
 Blots
 
-      Blots are an indestructible fixed currency with ownership
+      Blots are an indestructible fixed fungible asset with ownership
       restricted to persons. A person with 1 or more blots is Impure, a
       person with 0 blots is Pure. An impure unregistered person is a
       Fugitive. The Referee is an office, and the recordkeepor for
@@ -2116,7 +2148,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/25 (Power=1.7)
+Rule 2478/26 (Power=1.7)
 Justice
 
       An Infraction is a violation of a rule. The person who committed
@@ -2151,7 +2183,8 @@ Justice
       A player CAN, by announcement, "note" an unforgiven infraction
       committed by any other player in the last 14 days, specifying the
       incident and the rule it violates (or name of the Infraction if
-      it has one).
+      it has one); but a player CANNOT note an infraction that has
+      already been investigated.
       
       The Referee's weekly report contains a list of noted and
       investigated Infractions committed in the previous week.
@@ -2358,7 +2391,7 @@ Judicial Retraction and Excess
       regards to that case.
 
 ------------------------------------------------------------------------
-Rule 2492/6 (Power=1)
+Rule 2492/7 (Power=1)
 Recusal
 
       A judge CAN recuse emself from a CFJ e is assigned to by
@@ -2368,7 +2401,7 @@ Recusal
       that judge has violated a time limit for judging the case and has
       not judged it in the mean time; the Arbitor SHALL do so in a
       timely fashion after the time limit expires, if able. The Arbitor
-      CAN recuse an inactive or deregistered judge by announcement.
+      CAN recuse an inactive or unregistered judge by announcement.
       
       If a judge is recused from a case that was continuously open and
       assigned to em for at least the past 4 days, e SHOULD NOT be
@@ -2398,7 +2431,7 @@ Obligations & Contracts
    contains rules which can bind players to obligations, in the form of
    Pledges and Contracts.
 ------------------------------------------------------------------------
-Rule 2471/3 (Power=1)
+Rule 2471/4 (Power=1)
 No Faking
 
       A person SHALL NOT make a public statement that is a lie.
@@ -2407,7 +2440,7 @@ No Faking
       the time of publication:
       * The statement was not true and the author knew or should have
         known that it was not true.
-      * The author believed the statement to be not true.
+      * The author did not believe the statement to be true.
       
       A public statement is a lie if it is falsy and any of the
       following is true:
@@ -2641,16 +2674,15 @@ Assets
       entity to be its recordkeepor.
 
 ------------------------------------------------------------------------
-Rule 2576/3 (Power=3)
+Rule 2576/4 (Power=3)
 Ownership
 
       Each asset has exactly one owner.
       
-      If ownership of an asset is restricted to a class of entities,
-      then that asset CANNOT be gained by or transferred to an entity
-      outside that class. By default, ownership of an asset is
-      restricted to Agora, players, and contracts, but an asset's
-      backing document may modify this.
+      An asset CANNOT be gained by or transferred to an entity unless
+      its backing document specifies that entity can own it. If an
+      asset's backing document is otherwise silent on which entities can
+      own it, then it can be owned by Agora, players, and contracts.
       
       An asset "in abeyance" is one whose owner is nonexistent,
       indeterminate, or invalid. If an asset would otherwise be in
@@ -2699,17 +2731,14 @@ Asset Actions
       calculations.
 
 ------------------------------------------------------------------------
-Rule 2578/1 (Power=3)
-Currencies
+Rule 2578/2 (Power=3)
+Fungibility
 
-      A currency is a class of asset defined as such by its backing
-      document. Instances of a currency with the same owner are
-      fungible.
-      
-      The "x balance of an entity", where x is a currency, is the number
-      of x that entity possesses. Where it resolves ambiguity, the asset
-      or currency being referred to is the currency designated as
-      the official currency of Agora, if there is one.
+      A fungible asset is one where two instances of it are considered
+      equivalent if they have the same owner, for the purposes of
+      specification, granting, and transferring. The total amount of a
+      fungible asset that an entity owns is also know as that entities
+      "balance" of that asset.
 
 ------------------------------------------------------------------------
 Rule 2579/3 (Power=3)
@@ -2752,15 +2781,15 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/5 (Power=1)
+Rule 2659/8 (Power=1)
 Stamps
 
-      Stamps are a category of asset ownable by players . The
+      Stamps are a category of asset ownable by players and Agora. The
       Collector is an office. The Collector tracks Stamps in eir weekly
       report.
       
       For each person there is a corresponding type of stamp. Stamps of
-      any given type are a currency.
+      any given type are fungible.
       
       Any player CAN, once per week, pay X Stamps, where each specified
       Stamp is a different type, to gain (X^2)-X radiance.
@@ -2771,6 +2800,15 @@ Stamps
       Any active player CAN win by paying N Stamps, where N is the
       current number of active players and each specified Stamp is of a
       different type.
+      
+      Any player CAN pay a fee of 5 Spendies to grant emself X stamps of
+      eir own type. When less than 8 Stamps of eir type exist, X is 2.
+      When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
+      stamps of eir type exist, X is 0.
+      
+      Any player CAN pay a fee of 5 + (X) Spendies to transfer a
+      specified stamp from the L&FD to emself. X is equal to the number
+      of times e has already done so in the current month.
 
 ------------------------------------------------------------------------
 Rule 2687/0 (Power=1.0)
@@ -2818,76 +2856,13 @@ Birthday Gifts
       the Registrar SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2675/11 (Power=2)
-Dream of Wandering
-
-      The Dream Keeper is an office; its holder is responsible for
-      keeping track of the dreams of all active players.
-      
-      Dream is a secured active player switch, tracked by the Dream
-      Keeper in eir weekly report, with possible values any Dream,
-      defaulting to Wandering. An "X Dreamer" is a player with eir Dream
-      switch set to X.
-      
-      An active player CAN "envision" eir own Dream, specifying any
-      valid value for eir Dream, by announcement. When the rules state
-      that the wandering occurs, every active player's Dream is set to
-      the value e most recently envisioned. If a player did not envision
-      a dream since the last wandering, it is not flipped.
-      
-      A wandering occurs at the beginning of each week.
-      
-      The following is an exhaustive list of all Dreams and the rules
-      relevant to each dream:
-      
-      - Wandering: This dream has no effect.
-      
-      - Charity: Immediately after a wandering, one stamp (chosen by
-        most-to-least owned by the L&FD at time of transfer, tie-broken
-        alphabetically) is transferred to each Charity Dreamer (in order
-        from least-to-most stamps owned, tie-broken alphabetically) from
-        the L&FD. If the number of Stamps the L&FD owned during the last
-        wandering is greater than 10, this process happens a second
-        time. If it is more than 20, this process happens a third time.
-      
-      - Justice: Immediately after a wandering, 1 blot is expunged from
-        each Justice Dreamer. If a Justice Dreamer had no blots
-        immediately after a wandering, e CAN once expunge one blot, by
-        announcement, from a specified player before the next wandering.
-      
-      - Sharing: Immediately after a wandering, each Sharing Dreamer has
-        eir Radiance increased by X / Y, rounded down, where X is half
-        the number of active players, rounded up, and Y is the number of
-        Sharing Dreamers.
-      
-      - Wealth: Immediately after a wandering, X stamps of eir own type
-        are granted to each Wealth Dreamer. When less than 8 Stamps of
-        eir type exist, X is 2. When 8 to 15 Stamps of eir type exist, X
-        is 1. When 16 or more Stamps of eir type exist, X is 0.
-      
-      - Gardens: Immediately after a wandering, the Base Rockiness of
-        each Gardens Dreamer is increased by 1.
-      
-      - Power: Each Power Dreamer has eir voting strength increased by 2
-        for referenda on ordinary proposals.
-      
-      - Revolution: A revolution is happening if the majority of active
-        players are Revolution Dreamers. Immediately after a wandering,
-        if a revolution is not happening, then all Revolution Dreamers
-        have eir radiance decreased by 1 to a minimum of 0. Immediately
-        after a wandering, if a revolution is happening, then all
-        players have eir radiance set to 100-X, where X was eir radiance
-        when the wandering occurred, and all player's Dreams are set to
-        Wandering.
-
-------------------------------------------------------------------------
-Rule 2685/3 (Power=1.0)
+Rule 2685/4 (Power=1.0)
 Crystals
 
       The Geologist is an office that tracks crystals.
       
-      A crystal is an asset with secured integer switches identity, size
-      (default 0), and instability (default 0).
+      A crystal is an indestructible asset with secured integer switches
+      identity, size (default 0), and instability (default 0).
       
       At the beginning of each quarter, each crystal whose identity is
       not equal to the ID of any rule in the current ruleset has its
@@ -2918,13 +2893,24 @@ Crystals
       A player is crystallized if the total size of crystals e owns is
       at least the number of rules in the current ruleset.
       
-      Any player CAN, by announcement, Shatter the System, specifying
-      each crystallized player, and provided that no player has done so
-      in the past 30 days. When a player does so, each crystallized
+      Any player CAN, by announcement, Shatter the System, specifying at
+      least 1 crystallized player, and provided that no person has done
+      so in the past 30 days. When a player does so, each crystallized
       player wins the game.
       
-      If at least 4 days have passed since any player won the game in
-      this manner, any player CAN repeal this rule by announcement.
+      If a player won the game in this manner 4 days ago, then all
+      existing crystals are destroyed.
+
+------------------------------------------------------------------------
+Rule 2690/1 (Power=1.0)
+Spendies
+
+      Spendies are a fungible liquid asset ownable by players and
+      contracts. Spendies are tracked by the Spendor in eir weekly
+      report.
+      
+      At the end of each month, all Spendies are destroyed. At the
+      beginning of each month, every player is granted 20 Spendies.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2932,10 +2918,10 @@ Stones
    A game in which people try to collect Stones with various different
    Magical Powers OooOooh!
 ------------------------------------------------------------------------
-Rule 2640/5 (Power=2)
+Rule 2640/6 (Power=2)
 Stones
 
-      A stone is a unique indestructible liquid asset defined by the
+      A stone is a unique indestructible fixed asset defined by the
       rules. To define a stone, the definition must include:
         (i) A name unique among stones;
        (ii) The smoothness of the stone, which is a non-negative integer;
@@ -2948,18 +2934,9 @@ Stones
       abeyance, it is immediately transferred to Agora.
       
       The Stonemason is an office, and the recordkeepor of stones.
-      
-      Mossiness is a Stone switch with values of non-negative integers
-      and a default of 0 tracked by the Stonemason. When a stone is
-      transferred from Agora to a player or from a player to Agora, its
-      Mossiness is set to 0. The mossiest stone(s) in a set of stone is
-      (are) the stone(s) with the highest Mossiness value.
-      
-      The Slipperiness of a stone is that stone's smoothness plus its
-      mossiness.
 
 ------------------------------------------------------------------------
-Rule 2641/3 (Power=2)
+Rule 2641/4 (Power=2)
 Wielding Stones
 
       Except as otherwise specified by the rules, the owner of a stone
@@ -2971,8 +2948,7 @@ Wielding Stones
       (e.g. if the frequency is daily, it is hot for the remainder of the
       Agoran day it was wielded during).
       
-      While a stone is hot, it is IMPOSSIBLE to wield it or to transfer
-      it by announcement.
+      While a stone is hot, it is IMPOSSIBLE to wield it.
       
       When a stone is wielded, the Rule defining that stone applies any
       effects that it defines as occurring when the stone is wielded.
@@ -2980,22 +2956,19 @@ Wielding Stones
       The wielding of stones is secured.
 
 ------------------------------------------------------------------------
-Rule 2642/8 (Power=2)
-Gathering Stones
+Rule 2642/9 (Power=2)
+Stone Cost
 
-      Base Rockiness is a player switch, with values of integers and
-      default of 0, tracked by the Stonemason. A player's Modified
-      Rockiness is eir Base Rockiness minus the number of stones e owns.
+      Stone Cost is a Stone switch with values of non-negative integers
+      and a default of 10. Stone Cost is tracked by the Stonemason.
       
-      Once a week each active player CAN "reach" for a specified stone
-      owned by Agora by announcement.
+      Any player CAN pay a fee of X Spendies to transfer a specified
+      stone to emself, where X is the current Stone Cost of the
+      specified stone.
       
-      At the beginning of each week, each stone owned by Agora is
-      transferred to the player (if any) with the highest Modified
-      Rockiness that reached for that stone in the previous week, with
-      ties broken in favor of the tied player who reached for that stone
-      first. When a player receives a stone in this way, eir Base
-      Rockiness is set to 0.
+      When a stone is transferred, its Stone Cost is set to the default.
+      At the beginning of every week, the Stone Cost for each stone is
+      reduced by 1, to a minimum of 0.
 
 ------------------------------------------------------------------------
 Rule 2643/9 (Power=2)
@@ -3101,7 +3074,7 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/6 (Power=1.5)
+Rule 2656/7 (Power=1.5)
 Radiance
 
       The Illuminator is an office, responsible for tracking radiance.
@@ -3118,6 +3091,9 @@ Radiance
       
       At the start of every quarter, all radiance switches are set to
       half their current value rounded down.
+      
+      Any player CAN increase eir radiance by 1 by paying a fee of 2
+      Spendies.
 
 ------------------------------------------------------------------------
 ========================================================================
