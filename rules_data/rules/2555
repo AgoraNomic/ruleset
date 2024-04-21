@@ -14,10 +14,9 @@ text: |
   A person CAN, by announcement, create a specified number of blots
   in eir possession.
 
-  Any player who has not expunged a blot by this method this week
-  CAN expunge 1 blot from a specified player by announcement. E
-  CANNOT specify emself for this if e has gained any blots this or
-  the previous week.
+
+  Any player CAN pay a fee of 7 Spendies to revoke a blot from a
+  specified person.
 
   At the beginning of each quarter, half (rounded down) of each
   fugitive's blots are destroyed.
@@ -109,4 +108,14 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9076"
+- change:
+    type: amendment
+  date: 2024-04-21
+  agent:
+    proposal: "9092"
+- change:
+    type: amendment
+  date: 2024-04-21
+  agent:
+    proposal: "9092"
 annotations: []
