@@ -24,7 +24,7 @@ text: |
     down).
 
   - If that crystal's owner is not the author of that proposal, the
-    instability of that crystal is increased by 1.
+    instability of that crystal is increased by 2.
 
   - If that crystal's owner is not the author or coauthor of that
     proposal, the instability of that crystal is increased by 2.
@@ -69,3 +69,8 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9077"
+- change:
+    type: amendment
+  date: 2024-04-21
+  agent:
+    proposal: "9094"
