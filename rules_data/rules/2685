@@ -33,8 +33,12 @@ text: |
     is transferred to the author of the proposal, then its
     instability becomes equal to its size.
 
+
   A player is crystallized if the total size of crystals e owns is
   at least the number of rules in the current ruleset.
+
+  A player CAN increase the size of a specified crystal by 1 by
+  paying a fee of 11 spendies.
 
   Any player CAN, by announcement, Shatter the System, specifying at
   least 1 crystallized player, and provided that no person has done
@@ -74,3 +78,8 @@ history:
   date: 2024-04-21
   agent:
     proposal: "9094"
+- change:
+    type: amendment
+  date: 2024-04-21
+  agent:
+    proposal: "9095"
