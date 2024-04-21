@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 11 Apr 2024
+Date of this ruleset: 21 Apr 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
-Number of rules currently enacted: 136
+Number of rules currently enacted: 134
 
 Highest ID'd rule in this ruleset: 2690
-Highest ID'd Proposal Passed: 9085
+Highest ID'd Proposal Passed: 9095
 Highest ID'd Rule Enacted: 2690
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -70,37 +70,6 @@ The Boulder
       the previous week, the Boulder's Height is set to 0. The Absurdor
       SHOULD list the largest Height of the Boulder ever reached in eir
       report.
-
-------------------------------------------------------------------------
-Rule 2688/1 (Power=1.0)
-Agora of Empires
-
-      There exists a document, initially empty, known as the
-      Empireworld, which should describe in some way a fictional world.
-      Each player that has amended this document is said to have their
-      own Empire in the Empireworld, and such players are Imperials.
-      
-      A player CAN amend the Empireworld once per week by announcement
-      to narratively progress the Empireworld in some reasonable
-      fashion. The message with this kind of announcement MUST include
-      the latest form of the Empireworld post-amendment. These
-      amendments MUST follow relevant guidance given in CFJs. Imperials
-      are ENCOURAGED to shape this subgame through CFJs.
-      
-      Any person can amend the Empireworld without 2 objections and
-      Imperials are ENCOURAGED to attempt this action when they believe
-      it to be appropriate.
-      
-      An Imperial CAN, without 2 objections, Dominate the World provided
-      that (1) the Empireworld shows that e has accomplished at least 3
-      extraordinary feats in the fictional world that the Empireworld
-      describes since e last won the game as a result of this Rule and
-      that (2) no person has won the game as a result of this Rule in
-      the past 30 days. When a player Dominates the World, e wins the
-      game.
-      
-      This Rule does not describe what qualifies as an extraordinary
-      feat.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2111,7 +2080,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/13 (Power=2)
+Rule 2555/15 (Power=2)
 Blots
 
       Blots are an indestructible fixed fungible asset with ownership
@@ -2126,10 +2095,9 @@ Blots
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
       
-      Any player who has not expunged a blot by this method this week
-      CAN expunge 1 blot from a specified player by announcement. E
-      CANNOT specify emself for this if e has gained any blots this or
-      the previous week.
+      
+      Any player CAN pay a fee of 7 Spendies to revoke a blot from a
+      specified person.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -2829,16 +2797,18 @@ The Stamp Raffle
       the raffle gains 1 radiance.
 
 ------------------------------------------------------------------------
-Rule 2499/21 (Power=1)
+Rule 2499/22 (Power=1)
 Welcome Packages
 
-      A Welcome Package is a set of assets containing:
+      When a player receives a welcome package, if e has not received a
+      welcome package, including under any previous definition, since e
+      last registered nor in the last 30 days, e gains the following
+      assets:
       
-      * 1 Stamp of eir own type
+      * One stamp of eir own type.
       
-      Any player CAN, by announcement, grant a Welcome Package to any
-      player if the grantee has neither received one since e last
-      registered nor in the last 30 days.
+      A player CAN, by announcement, cause a specified player to receive
+      a welcome package (syn. "grant" em a welcome package).
 
 ------------------------------------------------------------------------
 Rule 2585/9 (Power=1)
@@ -2856,7 +2826,7 @@ Birthday Gifts
       the Registrar SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2685/4 (Power=1.0)
+Rule 2685/6 (Power=1.0)
 Crystals
 
       The Geologist is an office that tracks crystals.
@@ -2881,7 +2851,7 @@ Crystals
         down).
       
       - If that crystal's owner is not the author of that proposal, the
-        instability of that crystal is increased by 1.
+        instability of that crystal is increased by 2.
       
       - If that crystal's owner is not the author or coauthor of that
         proposal, the instability of that crystal is increased by 2.
@@ -2890,8 +2860,12 @@ Crystals
         is transferred to the author of the proposal, then its
         instability becomes equal to its size.
       
+      
       A player is crystallized if the total size of crystals e owns is
       at least the number of rules in the current ruleset.
+      
+      A player CAN increase the size of a specified crystal by 1 by
+      paying a fee of 11 spendies.
       
       Any player CAN, by announcement, Shatter the System, specifying at
       least 1 crystallized player, and provided that no person has done
@@ -2902,9 +2876,11 @@ Crystals
       existing crystals are destroyed.
 
 ------------------------------------------------------------------------
-Rule 2690/1 (Power=1.0)
+Rule 2690/2 (Power=1.0)
 Spendies
 
+      The Spendor is an office.
+      
       Spendies are a fungible liquid asset ownable by players and
       contracts. Spendies are tracked by the Spendor in eir weekly
       report.
@@ -2969,33 +2945,6 @@ Stone Cost
       When a stone is transferred, its Stone Cost is set to the default.
       At the beginning of every week, the Stone Cost for each stone is
       reduced by 1, to a minimum of 0.
-
-------------------------------------------------------------------------
-Rule 2643/9 (Power=2)
-Collecting Stones
-
-      A stone is immune if and only if it is defined as such by the
-      rules of power not less than 2.
-      
-      A stone is immune if it is owned by Agora. A stone is immune if it
-      has been granted immunity since the last collection notice. The
-      granting of immunity is secured.
-      
-      Once per month, the Stonemason CAN publish a Collection Notice by
-      announcement, specifying all necessary information and choices. The
-      Stonemason SHALL publish such a notice in a timely fashion after
-      the beginning of each Agoran month.
-      
-      A Collection Notice includes a random integer from 1 to 6; this is
-      the Escape Minimum.
-      
-      When a Collection Notice is published, for each player, half
-      (rounded up) of eir non-immune stones with slipperiness not less
-      than the Escape Minimum are transferred to Agora, rules to the
-      contrary notwithstanding.  A Collection Notice includes selections
-      of which eligible stones escape (which shall prevail in
-      determining which stones are transferred). The mossiness of each
-      stone that is not transferred is incremented by 1.
 
 ------------------------------------------------------------------------
 Rule 2644/5 (Power=2)
