@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 11 Apr 2024
+Date of this ruleset: 2 May 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
-Number of rules currently enacted: 136
+Number of rules currently enacted: 134
 
 Highest ID'd rule in this ruleset: 2690
-Highest ID'd Proposal Passed: 9085
+Highest ID'd Proposal Passed: 9098
 Highest ID'd Rule Enacted: 2690
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -26,7 +26,6 @@ The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
    * Rule 2683: The Boulder
-   * Rule 2688: Agora of Empires
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -143,7 +142,6 @@ Stones
    * Rule 2640: Stones
    * Rule 2641: Wielding Stones
    * Rule 2642: Stone Cost
-   * Rule 2643: Collecting Stones
    * Rule 2644: Zen Gardening
    * Rule 2645: The Stones
 Scoring
@@ -186,10 +184,10 @@ Power Distribution:
 
 1  with Power=0.3
 2  with Power=0.5
-33 with Power=1
+32 with Power=1
 3  with Power=1.5
 5  with Power=1.7
-29 with Power=2
+28 with Power=2
 1  with Power=2.2
 1  with Power=2.5
 51 with Power=3
@@ -322,44 +320,6 @@ History:
 
 Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
 Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2688/1 (Power=1.0)
-Agora of Empires
-
-      There exists a document, initially empty, known as the
-      Empireworld, which should describe in some way a fictional world.
-      Each player that has amended this document is said to have their
-      own Empire in the Empireworld, and such players are Imperials.
-      
-      A player CAN amend the Empireworld once per week by announcement
-      to narratively progress the Empireworld in some reasonable
-      fashion. The message with this kind of announcement MUST include
-      the latest form of the Empireworld post-amendment. These
-      amendments MUST follow relevant guidance given in CFJs. Imperials
-      are ENCOURAGED to shape this subgame through CFJs.
-      
-      Any person can amend the Empireworld without 2 objections and
-      Imperials are ENCOURAGED to attempt this action when they believe
-      it to be appropriate.
-      
-      An Imperial CAN, without 2 objections, Dominate the World provided
-      that (1) the Empireworld shows that e has accomplished at least 3
-      extraordinary feats in the fictional world that the Empireworld
-      describes since e last won the game as a result of this Rule and
-      that (2) no person has won the game as a result of this Rule in
-      the past 30 days. When a player Dominates the World, e wins the
-      game.
-      
-      This Rule does not describe what qualifies as an extraordinary
-      feat.
-
-History:
-
-Enacted by P9068 'Agora of Empires' (Yachay Wayllukuq), 18 Mar 2024
-Amended(1) by P9078 'Empire fixes' (Janet), 07 Apr 2024
 
 Annotations:
 
@@ -4863,7 +4823,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/13 (Power=2)
+Rule 2555/15 (Power=2)
 Blots
 
       Blots are an indestructible fixed fungible asset with ownership
@@ -4878,10 +4838,9 @@ Blots
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
       
-      Any player who has not expunged a blot by this method this week
-      CAN expunge 1 blot from a specified player by announcement. E
-      CANNOT specify emself for this if e has gained any blots this or
-      the previous week.
+      
+      Any player CAN pay a fee of 7 Spendies to revoke a blot from a
+      specified person.
       
       At the beginning of each quarter, half (rounded down) of each
       fugitive's blots are destroyed.
@@ -4905,6 +4864,8 @@ Amended(11) by P8852 'Fix Infractions' (4st, Janet), 11 Sep 2022
 Amended(12) by P8935 'Quicker Peer Expungement' (nix, Aris, G.), 02 Apr
    2023
 Amended(13) by P9076 'FUNgibility' (nix), 07 Apr 2024
+Amended(14) by P9092 'Paying your time' (ais523), 21 Apr 2024
+Amended(15) by P9092 'Paying your time' (ais523), 21 Apr 2024
 
 Annotations:
 
@@ -6260,16 +6221,20 @@ Enacted by P9052 'The Stamp Raffle' (snail), 11 Feb 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/21 (Power=1)
+Rule 2499/23 (Power=1)
 Welcome Packages
 
-      A Welcome Package is a set of assets containing:
+      When a player receives a welcome package, if e has not received a
+      welcome package, including under any previous definition, since e
+      last registered nor in the last 30 days, e gains the following
+      assets:
       
-      * 1 Stamp of eir own type
+      * One stamp of eir own type.
+      * 10 spendies, if e has not been granted any spendies since e last
+        registered.
       
-      Any player CAN, by announcement, grant a Welcome Package to any
-      player if the grantee has neither received one since e last
-      registered nor in the last 30 days.
+      A player CAN, by announcement, cause a specified player to receive
+      a welcome package (syn. "grant" em a welcome package).
 
 History:
 
@@ -6305,6 +6270,9 @@ Amended(19) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
 Amended(20) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 Amended(21) by P8973 'Not so welcome anymore' (Janet), 25 May 2023
+Amended(22) by P9091 'Welcome package fix, again, again' (Janet, Aris),
+   21 Apr 2024
+Amended(23) by P9098 'Welcome Spendies' (snail), 02 May 2024
 
 Annotations:
 
@@ -6344,7 +6312,7 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2685/4 (Power=1.0)
+Rule 2685/6 (Power=1.0)
 Crystals
 
       The Geologist is an office that tracks crystals.
@@ -6369,7 +6337,7 @@ Crystals
         down).
       
       - If that crystal's owner is not the author of that proposal, the
-        instability of that crystal is increased by 1.
+        instability of that crystal is increased by 2.
       
       - If that crystal's owner is not the author or coauthor of that
         proposal, the instability of that crystal is increased by 2.
@@ -6378,8 +6346,12 @@ Crystals
         is transferred to the author of the proposal, then its
         instability becomes equal to its size.
       
+      
       A player is crystallized if the total size of crystals e owns is
       at least the number of rules in the current ruleset.
+      
+      A player CAN increase the size of a specified crystal by 1 by
+      paying a fee of 11 spendies.
       
       Any player CAN, by announcement, Shatter the System, specifying at
       least 1 crystallized player, and provided that no person has done
@@ -6397,13 +6369,18 @@ Amended(1) by P9046 'Crystal fix 1' (4st, ais523, Gaelan), 31 Dec 2023
 Amended(2) by P9046 'Crystal fix 1' (4st, ais523, Gaelan), 31 Dec 2023
 Amended(3) by P9069 'Coauthored Crystals' (snail), 18 Mar 2024
 Amended(4) by P9077 'Less Fragile Crystals' (snail), 07 Apr 2024
+Amended(5) by P9094 'More instability with a hyphen' (snail, R. Lee), 21
+   Apr 2024
+Amended(6) by P9095 'Spendy Sizing' (snail), 21 Apr 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2690/1 (Power=1.0)
+Rule 2690/2 (Power=1.0)
 Spendies
 
+      The Spendor is an office.
+      
       Spendies are a fungible liquid asset ownable by players and
       contracts. Spendies are tracked by the Spendor in eir weekly
       report.
@@ -6415,6 +6392,7 @@ History:
 
 Enacted by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(1) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
+Amended(2) by P9089 'Who are you, again, again?' (Janet), 21 Apr 2024
 
 Annotations:
 
@@ -6523,51 +6501,6 @@ Annotations:
 CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
     can take away from the plain and obvious common-sense intended
     meaning in that paragraph.
-
-------------------------------------------------------------------------
-Rule 2643/9 (Power=2)
-Collecting Stones
-
-      A stone is immune if and only if it is defined as such by the
-      rules of power not less than 2.
-      
-      A stone is immune if it is owned by Agora. A stone is immune if it
-      has been granted immunity since the last collection notice. The
-      granting of immunity is secured.
-      
-      Once per month, the Stonemason CAN publish a Collection Notice by
-      announcement, specifying all necessary information and choices. The
-      Stonemason SHALL publish such a notice in a timely fashion after
-      the beginning of each Agoran month.
-      
-      A Collection Notice includes a random integer from 1 to 6; this is
-      the Escape Minimum.
-      
-      When a Collection Notice is published, for each player, half
-      (rounded up) of eir non-immune stones with slipperiness not less
-      than the Escape Minimum are transferred to Agora, rules to the
-      contrary notwithstanding.  A Collection Notice includes selections
-      of which eligible stones escape (which shall prevail in
-      determining which stones are transferred). The mossiness of each
-      stone that is not transferred is incremented by 1.
-
-History:
-
-Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-Amended(1) by P8524 'Agora's Stones Are Immune' (nix), 01 Dec 2020
-Amended(2) by P8542 'Stone Excitement Act' (Janet, Aris), 02 Mar 2021
-Amended(3) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
-   ziproot), 26 Nov 2022
-Amended(4) by P8893 'Stonemason Fairness' (4st, snail, Janet), 17 Feb
-   2023
-Amended(5) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
-Amended(6) by P8900 'Increased collection' (Janet), 26 Feb 2023
-Amended(7) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
-Amended(8) by P8920 'Adopted change re-application' (Janet), 12 Mar 2023
-Amended(9) by P9005 'Unreality stone' (Janet), 27 Aug 2023
-
-Annotations:
 
 ------------------------------------------------------------------------
 Rule 2644/5 (Power=2)
@@ -7009,7 +6942,7 @@ Amended(7) by cleaning (4st), 22 Nov 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/7 (Power=3.1)
+Rule 2481/8 (Power=3.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -7021,7 +6954,11 @@ Festival Restrictions
          Festive players, rounded up;
       
       3. Each Festive player has the maximum possible voting strength.
-         All other players have the minimum possible voting strength.
+         Each person who is not a Festive player has the minimum
+         possible voting strength. Rules to the contrary
+         notwithstanding, no modifications to voting strength (other
+         than defining the maximum and minimum) are applied by any other
+         Rule.
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
@@ -7042,6 +6979,8 @@ Amended(5) by P8629 'Independence Day' (G., Gaelan, Telna, nix, Madrid,
 Amended(6) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
    2022
 Amended(7) by R2658, 09 Jun 2022
+Amended(8) by P9097 'Festival strength restrictions' (Janet), 02 May
+   2024
 
 Annotations:
 

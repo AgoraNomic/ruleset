@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 21 Apr 2024
+Date of this ruleset: 2 May 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 134
 
 Highest ID'd rule in this ruleset: 2690
-Highest ID'd Proposal Passed: 9095
+Highest ID'd Proposal Passed: 9098
 Highest ID'd Rule Enacted: 2690
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -6226,7 +6226,7 @@ Enacted by P9052 'The Stamp Raffle' (snail), 11 Feb 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/22 (Power=1)
+Rule 2499/23 (Power=1)
 Welcome Packages
 
       When a player receives a welcome package, if e has not received a
@@ -6235,6 +6235,8 @@ Welcome Packages
       assets:
       
       * One stamp of eir own type.
+      * 10 spendies, if e has not been granted any spendies since e last
+        registered.
       
       A player CAN, by announcement, cause a specified player to receive
       a welcome package (syn. "grant" em a welcome package).
@@ -6275,6 +6277,7 @@ Amended(20) by P8874 'The Big Horse Fix' (snail), 01 Jan 2023
 Amended(21) by P8973 'Not so welcome anymore' (Janet), 25 May 2023
 Amended(22) by P9091 'Welcome package fix, again, again' (Janet, Aris),
    21 Apr 2024
+Amended(23) by P9098 'Welcome Spendies' (snail), 02 May 2024
 
 Annotations:
 
@@ -6944,7 +6947,7 @@ Amended(7) by cleaning (4st), 22 Nov 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/7 (Power=3.1)
+Rule 2481/8 (Power=3.1)
 Festival Restrictions
 
       While Agora's Festivity is nonzero, the following apply:
@@ -6956,7 +6959,11 @@ Festival Restrictions
          Festive players, rounded up;
       
       3. Each Festive player has the maximum possible voting strength.
-         All other players have the minimum possible voting strength.
+         Each person who is not a Festive player has the minimum
+         possible voting strength. Rules to the contrary
+         notwithstanding, no modifications to voting strength (other
+         than defining the maximum and minimum) are applied by any other
+         Rule.
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
@@ -6977,6 +6984,8 @@ Amended(5) by P8629 'Independence Day' (G., Gaelan, Telna, nix, Madrid,
 Amended(6) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
    2022
 Amended(7) by R2658, 09 Jun 2022
+Amended(8) by P9097 'Festival strength restrictions' (Janet), 02 May
+   2024
 
 Annotations:
 
