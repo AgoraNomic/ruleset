@@ -6,54 +6,32 @@ This is some very simple code to generate textual rulesets. Currently,
 it is implemented in Python, but previous Rulekeepors have written very
 similar code in Haskell and Ruby.
 
-Setup
+Setup & run
 =====
 
-1. If desired, create a Python virtual environment. `This page 
-   <https://docs.python-guide.org/dev/virtualenvs/>`_ does a very good
-   job explaining how to do so.
-2. Once you are inside your virtual environment, run
-   ``pip install -r requirements.txt`` to get all dependencies (currently
-   only PyYaml).
-   
-That's all there is to it.
+1. Install jdk 17.
+2. run generate_rulesets.sh
+That's all there is to it, since Gradle will handle most of it.
 
-The Folders
-===========
+Updating the Rules
+==================
 
-Here is a quick summary of what each of the folders in this repository do:
+The rules are in the rules_data/rules folder by ID. To update a rule, update the text.
+Also, add the appropriate similar looking syntax for amendments/repeals/reenacts.
 
-* ``config``: There are several files here that control how the rule text is
-  generated.
-* ``proposals``: Every proposal that is relevant to the current ruleset is
-  stored here in order to generate rule change annotations.
-* ``rulekeep``: This houses code that I didn't want to include in gen.py
-  because it would make it very long.
-* ``ruleset``: Scores of rules that have been or are in the ruleset, along
-  with their text and a changelist.
+To make a new rule, add a new file, same format as the other ones.
+Make sure the rule references valid rules and proposals.
+To add a rule, ensure it is added to the rules_data/config/index.
+To repeal a rule, ensure it is removed from that index.
 
-How This Thing Works
-====================
+To make a new proposal, add a new file, same format as the others. 
+"omnipotent" means that it can make changes above its power.
 
-``gen.py`` generates rulesets. If you just run ``python gen.py``, however,
-you will recieve an error. That's because there are a few arguments you
-need to know.
+the script will make sure that repealed rules are removed from the index (will give errors)
+and that amendments to rules are enacts with enough power (or are omnipotent)
 
-The first argument is the path of the directory containing the data (i.e.
-the ``config``, ``proposals``, and ``rules`` directories).
+[There's probably a lot more to say.]
 
-The next argument is the mode to be used when generating the output.
-It can have one or more of the following letters in it:
-
-* ``s``: generate a Short Logical Ruleset
-* ``f``: generate a Full Logical Ruleset
-
-You'll notice a folder called "meta" is created on the first run. Data is
-stored here to make generating a ruleset take less time and be less
-processor-intensive. It does this by storing each rule's generated text
-in a file. On successive runs, it will check to see if the file's contents
-are the same as before, and it will only generate new rule text if they
-are not.
-
-If you want to regenerate the ruleset from scratch, however, run gen.py
-with the ``r`` mode.
+Commit Format
+=============
+Commits are by proposal number, and list a source, which is the related assessor report in the archive.
