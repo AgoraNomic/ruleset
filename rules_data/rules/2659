@@ -3,8 +3,8 @@ name: Stamps
 power: 1
 text: |
   Stamps are a category of asset ownable by players and Agora. The
-  Collector is an office. The Collector tracks Stamps in eir weekly
-  report.
+  Collector is a sortitioned office. The Collector tracks Stamps in 
+  eir weekly report.
 
   For each person there is a corresponding type of stamp. Stamps of
   any given type are fungible.
@@ -73,3 +73,8 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9079"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9109"

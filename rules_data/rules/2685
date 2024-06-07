@@ -2,7 +2,7 @@ id: 2685
 name: Crystals
 power: 1.0
 text: |
-  The Geologist is an office that tracks crystals.
+  The Geologist is a sortitioned office that tracks crystals.
 
   A crystal is an indestructible asset with secured integer switches
   identity, size (default 0), and instability (default 0).
@@ -83,3 +83,8 @@ history:
   date: 2024-04-21
   agent:
     proposal: "9095"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9109"

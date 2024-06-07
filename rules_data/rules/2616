@@ -2,7 +2,7 @@ id: 2616
 name: The Webmastor
 power: 1.0
 text: |
-  The Webmastor is an office.
+  The Webmastor is a sortitioned office.
 
   The Webmastor's monthly report includes a Directory, a Changelog,
   a Warning Log, and an Error Log. The Directory lists notable
@@ -19,4 +19,9 @@ history:
   date: 2020-06-03
   agent:
     proposal: "8388"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9109"
 annotations: []

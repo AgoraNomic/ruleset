@@ -7,16 +7,16 @@ text: |
     (i) A name unique among stones;
    (ii) A description of the stone's properties
   (iii) Optionally, a frequency, which must be one of daily, weekly,
-        monthly, or quarterly. 
+        monthly, or quarterly.
 
   Ownership of stones is entirely restricted to Agora and players.
   If a stone is owned by the Lost and Found Department or in
   abeyance, it is immediately transferred to Agora.
 
-  The Stonemason is an office, and the recordkeepor of stones.
+  The Stonemason is a sortitioned office, and the recordkeepor of stones.
   
-  A stone is immune if and only if a rule of power 2 or more says it
-  is immune; otherwise it is non-immune.
+   A stone is immune if and only if a rule of power 2 or more says it
+   is immune; otherwise it is non-immune.
 history:
 - change:
     type: enactment
@@ -59,4 +59,9 @@ history:
   date: 2024-05-12
   agent:
     proposal: "9108"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9109"
 annotations: []

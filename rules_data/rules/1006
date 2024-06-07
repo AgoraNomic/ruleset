@@ -11,10 +11,10 @@ text: |
   office, who may be referred to by the name of that office. If the
   holder of an office is ever not a player, it becomes vacant.
 
-  An imposed office is an office described as such by the rule
-  defining it. All others are elected. A person CANNOT be made the
-  holder of an elected office without eir explicit or reasonably
-  implied consent.
+  Imposed offices and sortitioned are offices described as such by the
+  rules that define them. All other offices are elected A person CANNOT 
+  be made the holder of an elected office without eir explicit or 
+  reasonably implied consent.
 
   The holder of an elected office CAN resign it by announcement,
   causing it to become vacant. The non-interim holder of an elected
@@ -311,6 +311,11 @@ history:
   date: 2023-10-31
   agent:
     proposal: "9012"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9109"
 annotations:
 - cfjs:
   - id: '1660'
