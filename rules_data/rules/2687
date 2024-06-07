@@ -15,9 +15,20 @@ text: |
   Agora at the start of the current week is transferred to the
   winner of the raffle (if there is one), and each participant of
   the raffle gains 1 radiance.
+  
+  At the end of each week in which a Raffle Result was not published, each
+  stamp owned by Agora at the beginning of the week is transferred to the
+  player it has as a type, or to the Lost and Found Department if no such
+  player exists. Then, each player that received a stamp this way gains 1
+  radiance.
 history:
 - change:
     type: enactment
   date: 2024-02-11
   agent:
     proposal: "9052"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9104"
