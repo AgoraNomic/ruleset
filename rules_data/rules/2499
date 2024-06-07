@@ -8,6 +8,8 @@ text: |
   assets:
 
   * One stamp of eir own type.
+  * 10 spendies, if e has not been granted any spendies since e 
+    last registered.
 
   A player CAN, by announcement, cause a specified player to receive
   a welcome package (syn. "grant" em a welcome package).
@@ -133,4 +135,9 @@ history:
   date: 2024-04-21
   agent:
     proposal: "9091"
+- change:
+    type: amendment
+  date: 2024-05-01
+  agent:
+    proposal: "9098"
 annotations: []
