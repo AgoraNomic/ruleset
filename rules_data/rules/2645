@@ -5,53 +5,52 @@ text: |
   The following stones are defined, one per paragraph, with the
   following format: Stone Name (Frequency, Smoothness): Description.
 
-  - Power Stone (weekly, 2): When this stone is wielded, a specified
+  - Power Stone (weekly): When this stone is wielded, a specified
     player (defaulting to the wielder if not specified) is Power
     Stoned; Power Stoning is secured. A player's voting strength on
     a referendum on an ordinary proposal is increased by 3 for each
     time that e was Power Stoned during the referendum's voting
     period.
 
-  - Soul Stone (weekly, 3): When wielded, this stone is transferred
+  - Soul Stone (weekly): When wielded, this stone is transferred
     to the owner of a different specified non-immune stone not owned
     by Agora, then that stone is transferred to the wielder.
 
-  - Sabotage Stone (weekly, 4): When wielded, the adoption index of
+  - Sabotage Stone (weekly): When wielded, the adoption index of
     a specified AI-majority Agoran decision is increased by 1.
 
-  - Minty Stone (weekly, 4): When wielded, a specified Player gains
+  - Minty Stone (weekly): When wielded, a specified Player gains
     a stamp of eir own type.
 
-  - Protection Stone (monthly, 4): When wielded, a specified stone
-    is granted immunity.
+  - Protection Stone (monthly): When wielded, specify a stone. The
+    stone most recently specified when wielding the Protection Stone
+    is immune.
 
-  - Recursion Stone (monthly, 4): The Recursion Stone can be wielded
+  - Recursion Stone (monthly): The Recursion Stone can be wielded
     once per month as if it had the power of any other stone of your
     choice (the Blueprint Stone), with any references to the
     Blueprint Stone itself changed to the Recursion Stone unless
     they specify otherwise.
 
-  - Hot Potato Stone (weekly, 5): When this stone is wielded, the
-    wielder specifies an eligible player and gains 8 radiance. The
-    stone is transferred to the eligible player. An eligible player
-    is one who has not owned this stone since the last time Agora
-    owned it. If this stone is not owned by Agora, a player CANNOT
-    otherwise transfer it, rules to the contrary notwithstanding.
-    This stone is immune if 3 or more players have wielded it since
-    the most recent collection notice.
+  - Hot Potato Stone (weekly): When this stone is wielded, the wielder
+    specifies an eligible player and gains 8 radiance. The stone is
+    transferred to the eligible player. An eligible player is one who
+    has not owned this stone since the last time it was transferred
+    without being wielded. If this stone has been wielded at least
+    once in the last 15 days, it is immune.
 
-  - Blank Stone (monthly, 0): This stone has no effect.
+  - Blank Stone (monthly): This stone has no effect.
 
-  - Anti-Equatorial Stone (monthly, 5): When wielded, the mossiest
+  - Anti-Equatorial Stone (monthly): When wielded, the mossiest
     non-immune stone is transferred to the wielder. If more than one
     such stone is tied for mossiest, a specified one is transferred.
     When this happens, the wielded stone's mossiness is incremented
     by 1.
 
-  - Radiance Stone (weekly, 3): When wielded, a specified player
+  - Radiance Stone (weekly): When wielded, a specified player
     (defaulting to the wielder if not specified) gains 3 radiance.
 
-  - Loud Stone (monthly, 4): When wielded, a specified player's
+  - Loud Stone (monthly): When wielded, a specified player's
     Dream is set to a specified Dream, and then e is Beguiled;
     Beguiling is secured. A player's Dream CANNOT be flipped if e
     was Beguiled in the last 7 days, rules to the contrary
@@ -178,4 +177,9 @@ history:
   date: 2024-03-22
   agent:
     proposal: "9071"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9108"
 annotations: []

@@ -5,16 +5,18 @@ text: |
   A stone is a unique indestructible fixed asset defined by the
   rules. To define a stone, the definition must include:
     (i) A name unique among stones;
-   (ii) The smoothness of the stone, which is a non-negative integer;
-  (iii) A description of the stone's properties
-   (iv) Optionally, a frequency, which must be one of daily, weekly,
-        monthly, or quarterly.
+   (ii) A description of the stone's properties
+  (iii) Optionally, a frequency, which must be one of daily, weekly,
+        monthly, or quarterly. 
 
   Ownership of stones is entirely restricted to Agora and players.
   If a stone is owned by the Lost and Found Department or in
   abeyance, it is immediately transferred to Agora.
 
   The Stonemason is an office, and the recordkeepor of stones.
+  
+  A stone is immune if and only if a rule of power 2 or more says it
+  is immune; otherwise it is non-immune.
 history:
 - change:
     type: enactment
@@ -52,4 +54,9 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9079"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9108"
 annotations: []
