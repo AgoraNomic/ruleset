@@ -28,7 +28,7 @@ text: |
    an infraction that has already been investigated or forgiven. The
    Investigator of a noted, unforgiven infraction SHALL investigate
    the infraction in a timely manner after it has been noted;
-   failure to do so is the Class N crime of Favoritism, where N is
+   failure to do so is the Class N infraction of Favoritism, where N is
    equal to the Class of the noted infraction.
 
    A player CAN, by announcement, "note" an unforgiven infraction
@@ -180,4 +180,9 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9082"
+- change:
+    type: amendment
+  date: 2024-05-26
+  agent:
+    proposal: "9112"
 annotations: []
