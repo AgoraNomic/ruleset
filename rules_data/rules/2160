@@ -37,10 +37,10 @@ text: |
       c) The time limit expired more than 28 days ago, and the
          deputisation is temporary.
 
-  When a player deputises for an elected office, e becomes the
-  holder of that office, unless the deputisation is temporary,
-  and/or the action being performed would already install someone
-  into that office.
+  When a player deputises for an elected office, e becomes the holder
+  of that office, unless the deputisation is temporary, doing so would make
+  em Overpowered, and/or the action being performed would already install
+  someone into that office.
 history:
 - change:
     type: enactment
@@ -182,6 +182,11 @@ history:
   date: 2023-02-26
   agent:
     proposal: "8901"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9106"
 annotations:
 - cfjs:
   - id: '1776'
