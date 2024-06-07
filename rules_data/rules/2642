@@ -9,9 +9,10 @@ text: |
   stone to emself, where X is the current Stone Cost of the
   specified stone.
 
-  When a stone is transferred, its Stone Cost is set to the default.
-  At the beginning of every week, the Stone Cost for each stone is
-  reduced by 1, to a minimum of 0.
+  At the beginning of each week, for each stone that was not
+  transferred during the previous week, its Stone Cost is reduced by 1, to a
+  minimum of 1. Then, for each stone that was transferred more than once
+  during the previous week, its Stone Cost is increased by 1.
 history:
 - change:
     type: enactment
@@ -75,6 +76,11 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9079"
+- change:
+    type: amendment
+  date: 2024-05-12
+  agent:
+    proposal: "9107"
 annotations:
 - cfjs:
   - id: '4021'
