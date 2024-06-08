@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 2 May 2024
+Date of this ruleset: 7 Jun 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 134
 
-Highest ID'd rule in this ruleset: 2690
-Highest ID'd Proposal Passed: 9098
-Highest ID'd Rule Enacted: 2690
+Highest ID'd rule in this ruleset: 2691
+Highest ID'd Proposal Passed: 9112
+Highest ID'd Rule Enacted: 2691
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -56,10 +56,10 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance for
    the current gamestate.
 ------------------------------------------------------------------------
-Rule 2683/1 (Power=0.5)
+Rule 2683/2 (Power=0.5)
 The Boulder
 
-      The Absurdor is an office.
+      The Absurdor is a sortitioned office.
       
       The Boulder's Height is a singleton integer switch defaulting to
       0, tracked by the Absurdor.
@@ -1538,7 +1538,7 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/47 (Power=2)
+Rule 1006/48 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -1550,10 +1550,10 @@ Offices
       office, who may be referred to by the name of that office. If the
       holder of an office is ever not a player, it becomes vacant.
       
-      An imposed office is an office described as such by the rule
-      defining it. All others are elected. A person CANNOT be made the
-      holder of an elected office without eir explicit or reasonably
-      implied consent.
+      Imposed offices and sortitioned are offices described as such by the
+      rules that define them. All other offices are elected A person CANNOT 
+      be made the holder of an elected office without eir explicit or 
+      reasonably implied consent.
       
       The holder of an elected office CAN resign it by announcement,
       causing it to become vacant. The non-interim holder of an elected
@@ -1681,7 +1681,7 @@ Impeachment
       of the trust of Agora.
 
 ------------------------------------------------------------------------
-Rule 2160/24 (Power=3)
+Rule 2160/25 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
@@ -1719,13 +1719,13 @@ Deputisation
           c) The time limit expired more than 28 days ago, and the
              deputisation is temporary.
       
-      When a player deputises for an elected office, e becomes the
-      holder of that office, unless the deputisation is temporary,
-      and/or the action being performed would already install someone
-      into that office.
+      When a player deputises for an elected office, e becomes the holder
+      of that office, unless the deputisation is temporary, doing so would make
+      em Overpowered, and/or the action being performed would already install
+      someone into that office.
 
 ------------------------------------------------------------------------
-Rule 2689/0 (Power=3.0)
+Rule 2689/1 (Power=3.0)
 Vacations & Delegation
 
       Delegate is an Office switch with possible values of "None" and
@@ -1759,8 +1759,28 @@ Vacations & Delegation
       office, and the Delegate, if any, SHALL comply with all duties of
       the office as if e held the office.
       
-      The Delegate of an office CANNOT resign it. E CAN, by
-      announcement, flip the Delegate switch of that office to "None".
+      The Delegate of an office CANNOT resign it. The Delegate of an office, 
+      if any, and the holder of that office, if any, CAN by announcement flip 
+      the Delegate of that office to "None". 
+
+------------------------------------------------------------------------
+Rule 2691/0 (Power=2.0)
+Sortition Procedure
+
+      At the beginning of each quarter, the ADoP CAN by announcement, and
+      SHALL in a timely manner, initiate a sorition for each sortitioned
+      office if e has not already done so for that office.
+      
+      When a sortition is initiated, it enters the lots period. Any player
+      CAN become an option for that office during this period. If a person
+      ceases to be a player during this period, e also ceases to be an
+      option for each current sortition.
+      
+      Seven days after a sortition is initiated, its lots period ends. The
+      ADoP CAN by announcement, and SHALL in a timely manner after a
+      lots period ends, randomly select one of the options for that
+      office. When e does so, that player becomes the officeholder for
+      that office.
 
 ------------------------------------------------------------------------
 Rule 2138/26 (Power=1)
@@ -1914,10 +1934,10 @@ No News Is Some News
       list is empty, that report includes the fact that it is empty.
 
 ------------------------------------------------------------------------
-Rule 2616/0 (Power=1.0)
+Rule 2616/1 (Power=1.0)
 The Webmastor
 
-      The Webmastor is an office.
+      The Webmastor is a sortitioned office.
       
       The Webmastor's monthly report includes a Directory, a Changelog,
       a Warning Log, and an Error Log. The Directory lists notable
@@ -2116,7 +2136,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/26 (Power=1.7)
+Rule 2478/27 (Power=1.7)
 Justice
 
       An Infraction is a violation of a rule. The person who committed
@@ -2145,7 +2165,7 @@ Justice
       an infraction that has already been investigated or forgiven. The
       Investigator of a noted, unforgiven infraction SHALL investigate
       the infraction in a timely manner after it has been noted;
-      failure to do so is the Class N crime of Favoritism, where N is
+      failure to do so is the Class N infraction of Favoritism, where N is
       equal to the Class of the noted infraction.
       
       A player CAN, by announcement, "note" an unforgiven infraction
@@ -2495,7 +2515,7 @@ Acting on Behalf
       method.
 
 ------------------------------------------------------------------------
-Rule 2618/6 (Power=2.2)
+Rule 2618/7 (Power=2.2)
 Promises
 
       Promises are a class of assets, tracked by the Notary. Their
@@ -2510,25 +2530,25 @@ Promises
       The creation of promises is secured. The text of a promise CANNOT
       be altered after it is created.
       
-      A promise's bearer CAN, by announcement, cash the promise,
-      provided that any conditions for cashing it specified by its text
-      are unambiguously met. By doing so, e acts on the creator of the
-      promise's behalf, causing the creator to act as if e published the
-      promise's text, and destroys the promise. However, to limit
-      recursion, no promise can be cashed during the execution of
-      another promise unless it existed before the execution of that
-      promise began. The bearer SHOULD recite the promise's essential
-      attributes in the same message e cashes it.
+      A player (the casher) CAN, by announcement, cash a promise,
+      provided that both a) any conditions for cashing it specified by
+      its text are unambiguously met, and b) either the casher is the
+      promise's bearer, or the promise is owned by the Library. By doing so, 
+      e acts on the creator of the promise's behalf, causing the creator to 
+      act as if e published the promise's text, and destroys the promise. 
+      However, to limit recursion, no promise can be cashed during the 
+      execution of another promise unless it existed before the execution 
+      of that promise began. The bearer SHOULD recite the promise's 
+      essential attributes in the same message e cashes it.
       
-      In a promise's text, "the bearer" (or the like) refers to the
-      promise's bearer, and "this promise" (or the like) refers to the
-      promise. The text of the promise can refer to the context of the
-      message in which it is cashed, but the context of the message does
-      not otherwise change the meaning of the promise.
+      In a promise's text, "the bearer" and "the casher" (or the like)
+      both refer to the player who cashed the promise, and "this
+      promise" (or the like) refers to the promise. The text of the promise 
+      can refer to the context of the message in which it is cashed, but 
+      the context of the message does not otherwise change the meaning of 
+      the promise.
       
-      The Library is an entity and CAN own promises. Any player CAN take
-      a specified promise from the Library by announcement, provided e
-      cashes the promise in the same message.
+      The Library is an entity and CAN own promises.
       
       The creator of a promise CAN take or revoke it from the Library by
       announcement, unless the promise's text unambiguously designates
@@ -2749,12 +2769,12 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/8 (Power=1)
+Rule 2659/9 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players and Agora. The
-      Collector is an office. The Collector tracks Stamps in eir weekly
-      report.
+      Collector is a sortitioned office. The Collector tracks Stamps in 
+      eir weekly report.
       
       For each person there is a corresponding type of stamp. Stamps of
       any given type are fungible.
@@ -2779,24 +2799,6 @@ Stamps
       of times e has already done so in the current month.
 
 ------------------------------------------------------------------------
-Rule 2687/0 (Power=1.0)
-The Stamp Raffle
-
-      Once per week, each player CAN enter the raffle by paying a fee of
-      1 stamp of eir own type to Agora.
-      
-      Once each week, the Collector CAN and SHALL publish a Raffle
-      Result by announcement, containing a list of players that entered
-      the raffle in the previous week (the participants of the raffle)
-      and the selection of a random player from that list (the winner of
-      the raffle) if it is not empty.
-      
-      When a Raffle Result is published, each stamp that was owned by
-      Agora at the start of the current week is transferred to the
-      winner of the raffle (if there is one), and each participant of
-      the raffle gains 1 radiance.
-
-------------------------------------------------------------------------
 Rule 2499/23 (Power=1)
 Welcome Packages
 
@@ -2806,8 +2808,8 @@ Welcome Packages
       assets:
       
       * One stamp of eir own type.
-      * 10 spendies, if e has not been granted any spendies since e last
-        registered.
+      * 10 spendies, if e has not been granted any spendies since e 
+        last registered.
       
       A player CAN, by announcement, cause a specified player to receive
       a welcome package (syn. "grant" em a welcome package).
@@ -2828,10 +2830,10 @@ Birthday Gifts
       the Registrar SHALL announce it.
 
 ------------------------------------------------------------------------
-Rule 2685/6 (Power=1.0)
+Rule 2685/7 (Power=1.0)
 Crystals
 
-      The Geologist is an office that tracks crystals.
+      The Geologist is a sortitioned office that tracks crystals.
       
       A crystal is an indestructible asset with secured integer switches
       identity, size (default 0), and instability (default 0).
@@ -2878,10 +2880,10 @@ Crystals
       existing crystals are destroyed.
 
 ------------------------------------------------------------------------
-Rule 2690/2 (Power=1.0)
+Rule 2690/3 (Power=1.0)
 Spendies
 
-      The Spendor is an office.
+      The Spendor is a sortitioned office.
       
       Spendies are a fungible liquid asset ownable by players and
       contracts. Spendies are tracked by the Spendor in eir weekly
@@ -2896,22 +2898,24 @@ Stones
    A game in which people try to collect Stones with various different
    Magical Powers OooOooh!
 ------------------------------------------------------------------------
-Rule 2640/6 (Power=2)
+Rule 2640/8 (Power=2)
 Stones
 
       A stone is a unique indestructible fixed asset defined by the
       rules. To define a stone, the definition must include:
         (i) A name unique among stones;
-       (ii) The smoothness of the stone, which is a non-negative integer;
-      (iii) A description of the stone's properties
-       (iv) Optionally, a frequency, which must be one of daily, weekly,
+       (ii) A description of the stone's properties
+      (iii) Optionally, a frequency, which must be one of daily, weekly,
             monthly, or quarterly.
       
       Ownership of stones is entirely restricted to Agora and players.
       If a stone is owned by the Lost and Found Department or in
       abeyance, it is immediately transferred to Agora.
       
-      The Stonemason is an office, and the recordkeepor of stones.
+      The Stonemason is a sortitioned office, and the recordkeepor of stones.
+      
+       A stone is immune if and only if a rule of power 2 or more says it
+       is immune; otherwise it is non-immune.
 
 ------------------------------------------------------------------------
 Rule 2641/4 (Power=2)
@@ -2934,19 +2938,20 @@ Wielding Stones
       The wielding of stones is secured.
 
 ------------------------------------------------------------------------
-Rule 2642/9 (Power=2)
+Rule 2642/11 (Power=2)
 Stone Cost
 
       Stone Cost is a Stone switch with values of non-negative integers
       and a default of 10. Stone Cost is tracked by the Stonemason.
       
       Any player CAN pay a fee of X Spendies to transfer a specified
-      stone to emself, where X is the current Stone Cost of the
+      non-immune stone to emself, where X is the current Stone Cost of the
       specified stone.
       
-      When a stone is transferred, its Stone Cost is set to the default.
-      At the beginning of every week, the Stone Cost for each stone is
-      reduced by 1, to a minimum of 0.
+      At the beginning of each week, for each stone that was not
+      transferred during the previous week, its Stone Cost is reduced by 1, 
+      to a minimum of 1. Then, for each stone that was transferred more than 
+      once during the previous week, its Stone Cost is increased by 1.
 
 ------------------------------------------------------------------------
 Rule 2644/5 (Power=2)
@@ -2961,59 +2966,58 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/23 (Power=2)
+Rule 2645/24 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
       following format: Stone Name (Frequency, Smoothness): Description.
       
-      - Power Stone (weekly, 2): When this stone is wielded, a specified
+      - Power Stone (weekly): When this stone is wielded, a specified
         player (defaulting to the wielder if not specified) is Power
         Stoned; Power Stoning is secured. A player's voting strength on
         a referendum on an ordinary proposal is increased by 3 for each
         time that e was Power Stoned during the referendum's voting
         period.
       
-      - Soul Stone (weekly, 3): When wielded, this stone is transferred
+      - Soul Stone (weekly): When wielded, this stone is transferred
         to the owner of a different specified non-immune stone not owned
         by Agora, then that stone is transferred to the wielder.
       
-      - Sabotage Stone (weekly, 4): When wielded, the adoption index of
+      - Sabotage Stone (weekly): When wielded, the adoption index of
         a specified AI-majority Agoran decision is increased by 1.
       
-      - Minty Stone (weekly, 4): When wielded, a specified Player gains
+      - Minty Stone (weekly): When wielded, a specified Player gains
         a stamp of eir own type.
       
-      - Protection Stone (monthly, 4): When wielded, a specified stone
-        is granted immunity.
+      - Protection Stone (monthly): When wielded, specify a stone. The
+        stone most recently specified when wielding the Protection Stone
+        is immune.
       
-      - Recursion Stone (monthly, 4): The Recursion Stone can be wielded
+      - Recursion Stone (monthly): The Recursion Stone can be wielded
         once per month as if it had the power of any other stone of your
         choice (the Blueprint Stone), with any references to the
         Blueprint Stone itself changed to the Recursion Stone unless
         they specify otherwise.
       
-      - Hot Potato Stone (weekly, 5): When this stone is wielded, the
-        wielder specifies an eligible player and gains 8 radiance. The
-        stone is transferred to the eligible player. An eligible player
-        is one who has not owned this stone since the last time Agora
-        owned it. If this stone is not owned by Agora, a player CANNOT
-        otherwise transfer it, rules to the contrary notwithstanding.
-        This stone is immune if 3 or more players have wielded it since
-        the most recent collection notice.
+      - Hot Potato Stone (weekly): When this stone is wielded, the wielder
+        specifies an eligible player and gains 8 radiance. The stone is
+        transferred to the eligible player. An eligible player is one who
+        has not owned this stone since the last time it was transferred
+        without being wielded. If this stone has been wielded at least
+        once in the last 15 days, it is immune.
       
-      - Blank Stone (monthly, 0): This stone has no effect.
+      - Blank Stone (monthly): This stone has no effect.
       
-      - Anti-Equatorial Stone (monthly, 5): When wielded, the mossiest
+      - Anti-Equatorial Stone (monthly): When wielded, the mossiest
         non-immune stone is transferred to the wielder. If more than one
         such stone is tied for mossiest, a specified one is transferred.
         When this happens, the wielded stone's mossiness is incremented
         by 1.
       
-      - Radiance Stone (weekly, 3): When wielded, a specified player
+      - Radiance Stone (weekly): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
       
-      - Loud Stone (monthly, 4): When wielded, a specified player's
+      - Loud Stone (monthly): When wielded, a specified player's
         Dream is set to a specified Dream, and then e is Beguiled;
         Beguiling is secured. A player's Dream CANNOT be flipped if e
         was Beguiled in the last 7 days, rules to the contrary
@@ -3025,10 +3029,10 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/7 (Power=1.5)
+Rule 2656/8 (Power=1.5)
 Radiance
 
-      The Illuminator is an office, responsible for tracking radiance.
+      The Illuminator is a sortitioned office, responsible for tracking radiance.
       
       A player's Radiance is an integer player switch defaulting to 0,
       tracked by the Illuminator. When a player is "granted" or "gains"
@@ -3235,12 +3239,11 @@ Festival Restrictions
       2. Quorum for Agoran Decisions is equal to half the number of
          Festive players, rounded up;
       
-      3. Each Festive player has the maximum possible voting strength.
-         Each person who is not a Festive player has the minimum
-         possible voting strength. Rules to the contrary
-         notwithstanding, no modifications to voting strength (other
-         than defining the maximum and minimum) are applied by any other
-         Rule.
+      3. Each Festive player has the maximum possible voting strength. 
+         Each person who is not a Festive player has the minimum possible
+         voting strength. Rules to the contrary notwithstanding, no modifications 
+         to voting strength (other than defining the maximum and minimum) 
+         are applied by any other Rule.
       
       While Agora's Festivity is zero, the paragraphs above have no
       effect and are ignored.
