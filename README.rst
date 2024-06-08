@@ -27,8 +27,10 @@ To repeal a rule, ensure it is removed from that index.
 To make a new proposal, add a new file, same format as the others. 
 "omnipotent" means that it can make changes above its power.
 
-the script will make sure that repealed rules are removed from the index (will give errors)
+The script will make sure that repealed rules are removed from the index (will give errors)
 and that amendments to rules are enacts with enough power (or are omnipotent)
+
+To update the flr/slr/acorn in the website, update the flr.txt/slr.txt/acorn.txt in the gh-pages branch.
 
 [There's probably a lot more to say.]
 
