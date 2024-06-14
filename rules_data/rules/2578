@@ -5,7 +5,7 @@ text: |
   A fungible asset is one where two instances of it are considered
   equivalent if they have the same owner, for the purposes of
   specification, granting, and transferring. The total amount of a
-  fungible asset that an entity owns is also know as that entities
+  fungible asset that an entity owns is also know as that entity's
   "balance" of that asset.
 history:
 - change:
@@ -31,3 +31,9 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9076"
+- change:
+    type: amendment
+  date: 2024-05-19
+  agent:
+    cleaning:
+      by: Mischief
