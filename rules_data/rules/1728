@@ -288,13 +288,6 @@ history:
     proposal: "8861"
 annotations:
 - cfjs:
-  - id: '3567'
-    called: 2017-09-27
-  text: >
-    Dependent action intents aren't "by announcement" actions, so a
-    message saying it a lot of times can be read "naturally" as
-    counting as a single intent.
-- cfjs:
   - id: "3747"
     called: 2019-06-25
   text: >
