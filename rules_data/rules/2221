@@ -10,7 +10,7 @@ text: |
   by this rule by applying the changes as a single amendment
   (failing as a whole if any fail); then, if any title changes were
   specified, that rule is retitled by this rule by applying the
-  changes as a single retitling (failing as a whole if any fail)..
+  changes as a single retitling (failing as a whole if any fail).
 
   Any player CAN refile a rule without objection, specifying a new
   title; the rule is retitled to the specified title by this rule.
@@ -84,6 +84,12 @@ history:
   date: 2023-09-27
   agent:
     proposal: "9009"
+- change:
+    type: amendment
+  date: 2024-05-19
+  agent:
+    cleaning:
+      by: Mischief
 annotations:
 - cfjs:
   - id: 3800-3803
