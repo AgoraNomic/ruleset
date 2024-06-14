@@ -17,20 +17,21 @@ text: |
   A player (the casher) CAN, by announcement, cash a promise,
   provided that both a) any conditions for cashing it specified by
   its text are unambiguously met, and b) either the casher is the
-  promise's bearer, or the promise is owned by the Library. By doing so, 
-  e acts on the creator of the promise's behalf, causing the creator to 
-  act as if e published the promise's text, and destroys the promise. 
-  However, to limit recursion, no promise can be cashed during the 
-  execution of another promise unless it existed before the execution 
-  of that promise began. The bearer SHOULD recite the promise's 
-  essential attributes in the same message e cashes it.
+  promise's bearer, or the promise is owned by the Library. By doing
+  so, e acts on the creator of the promise's behalf, causing the
+  creator to act as if e published the promise's text, and destroys
+  the promise.  However, to limit recursion, no promise can be
+  cashed during the execution of another promise unless it existed
+  before the execution of that promise began. The bearer SHOULD
+  recite the promise's essential attributes in the same message e
+  cashes it.
  
   In a promise's text, "the bearer" and "the casher" (or the like)
   both refer to the player who cashed the promise, and "this
-  promise" (or the like) refers to the promise. The text of the promise 
-  can refer to the context of the message in which it is cashed, but 
-  the context of the message does not otherwise change the meaning of 
-  the promise.
+  promise" (or the like) refers to the promise. The text of the
+  promise can refer to the context of the message in which it is
+  cashed, but the context of the message does not otherwise change
+  the meaning of the promise.
 
   The Library is an entity and CAN own promises.
 

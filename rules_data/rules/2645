@@ -12,15 +12,15 @@ text: |
     time that e was Power Stoned during the referendum's voting
     period.
 
-  - Soul Stone (weekly): When wielded, this stone is transferred
-    to the owner of a different specified non-immune stone not owned
-    by Agora, then that stone is transferred to the wielder.
+  - Soul Stone (weekly): When wielded, this stone is transferred to
+    the owner of a different specified non-immune stone not owned by
+    Agora, then that stone is transferred to the wielder.
 
-  - Sabotage Stone (weekly): When wielded, the adoption index of
-    a specified AI-majority Agoran decision is increased by 1.
+  - Sabotage Stone (weekly): When wielded, the adoption index of a
+    specified AI-majority Agoran decision is increased by 1.
 
-  - Minty Stone (weekly): When wielded, a specified Player gains
-    a stamp of eir own type.
+  - Minty Stone (weekly): When wielded, a specified Player gains a
+    stamp of eir own type.
 
   - Protection Stone (monthly): When wielded, specify a stone. The
     stone most recently specified when wielding the Protection Stone
@@ -32,12 +32,12 @@ text: |
     Blueprint Stone itself changed to the Recursion Stone unless
     they specify otherwise.
 
-  - Hot Potato Stone (weekly): When this stone is wielded, the wielder
-    specifies an eligible player and gains 8 radiance. The stone is
-    transferred to the eligible player. An eligible player is one who
-    has not owned this stone since the last time it was transferred
-    without being wielded. If this stone has been wielded at least
-    once in the last 15 days, it is immune.
+  - Hot Potato Stone (weekly): When this stone is wielded, the
+    wielder specifies an eligible player and gains 8 radiance. The
+    stone is transferred to the eligible player. An eligible player
+    is one who has not owned this stone since the last time it was
+    transferred without being wielded. If this stone has been
+    wielded at least once in the last 15 days, it is immune.
 
   - Blank Stone (monthly): This stone has no effect.
 
@@ -50,11 +50,10 @@ text: |
   - Radiance Stone (weekly): When wielded, a specified player
     (defaulting to the wielder if not specified) gains 3 radiance.
 
-  - Loud Stone (monthly): When wielded, a specified player's
-    Dream is set to a specified Dream, and then e is Beguiled;
-    Beguiling is secured. A player's Dream CANNOT be flipped if e
-    was Beguiled in the last 7 days, rules to the contrary
-    notwithstanding.
+  - Loud Stone (monthly): When wielded, a specified player's Dream
+    is set to a specified Dream, and then e is Beguiled; Beguiling
+    is secured. A player's Dream CANNOT be flipped if e was Beguiled
+    in the last 7 days, rules to the contrary notwithstanding.
 history:
 - change:
     type: enactment
