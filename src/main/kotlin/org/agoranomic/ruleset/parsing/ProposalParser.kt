@@ -27,7 +27,14 @@ data class DirectoryYamlProposalDataMap(val proposalsDir: Path) : YamlProposalDa
 
             return ProposalData(
                 number = topNode.getContent("id").let { id ->
-                    id.toBigIntegerOrNull()?.let { ProposalNumber.Integral(it) } ?: ProposalNumber.HistoricalOddity(id)
+                    val fileId = id.toBigIntegerOrNull()
+                    val specId = proposalSpecification.toBigIntegerOrNull()
+
+                    if (fileId != null && specId != null && fileId != specId) {
+                        throw IllegalArgumentException("Proposal ID in file does not match name. File name: ${specId}. ID in file: $fileId")
+                    }
+
+                    fileId?.let { ProposalNumber.Integral(it) } ?: ProposalNumber.HistoricalOddity(id)
                 },
                 title = topNode.getOptContent("title"),
                 authorship = ProposalAuthorship(
