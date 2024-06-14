@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 2 May 2024
+Date of this ruleset: 14 Jun 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 134
 
-Highest ID'd rule in this ruleset: 2690
-Highest ID'd Proposal Passed: 9098
-Highest ID'd Rule Enacted: 2690
+Highest ID'd rule in this ruleset: 2691
+Highest ID'd Proposal Passed: 9112
+Highest ID'd Rule Enacted: 2691
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -95,6 +95,7 @@ Offices & Reporting
    * Rule 2573: Impeachment
    * Rule 2160: Deputisation
    * Rule 2689: Vacations & Delegation
+   * Rule 2691: Sortition Procedure
    * Rule 2138: The Associate Director of Personnel
    * Rule 2472: Office Incompatibilities
    * Rule 2143: Official Reports and Duties
@@ -138,7 +139,6 @@ Assets
    * Rule 2579: Fee-based Actions
 Economics
    * Rule 2659: Stamps
-   * Rule 2687: The Stamp Raffle
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2685: Crystals
@@ -189,10 +189,10 @@ Power Distribution:
 
 1  with Power=0.3
 2  with Power=0.5
-32 with Power=1
+31 with Power=1
 3  with Power=1.5
 5  with Power=1.7
-28 with Power=2
+29 with Power=2
 1  with Power=2.2
 1  with Power=2.5
 51 with Power=3
@@ -306,10 +306,10 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance for
    the current gamestate.
 ------------------------------------------------------------------------
-Rule 2683/1 (Power=0.5)
+Rule 2683/2 (Power=0.5)
 The Boulder
 
-      The Absurdor is an office.
+      The Absurdor is a sortitioned office.
       
       The Boulder's Height is a singleton integer switch defaulting to
       0, tracked by the Absurdor.
@@ -325,6 +325,7 @@ History:
 
 Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
 Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
+Amended(2) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 
@@ -832,7 +833,7 @@ Power changed from 1 to 2 by P5780 'Fix Rule 1789' (omd, ehird), 22 Oct
    2008
 Amended(4) by P5815 'The Registrar is an office again now.' (Pavitra,
    Murphy), 01 Nov 2008
-Amended(5) by P5991 'Cantus Cygneus Only If You Mean It v2' (Elysion),
+Amended(5) by P5991 'Cantus Cygneus Only If You Mean It v2' (Mischief),
    07 Dec 2008
 Amended(6) by P6099 'Fix the deregistration mess' (Pavitra), 22 Feb 2009
 Amended(7) by P6338 'FAGE across the ages' (Murphy), 29 May 2009
@@ -1387,9 +1388,6 @@ Amended(46) by P8861 'Finally Removing Arbitrary Limits' (nix), 06 Nov
    2022
 
 Annotations:
-CFJ 3567 (called 27 Sep 2017): Dependent action intents aren't "by
-    announcement" actions, so a message saying it a lot of times can be
-    read "naturally" as counting as a single intent.
 CFJ 3747 (called 25 Jun 2019): An intent is "conspicuous" if "a
     reasonable player would be able to tell after glancing at a message
     that it contains the dependent action".
@@ -1458,7 +1456,7 @@ Amended(7) by P5504 'Liberalize objection' (Murphy), 10 May 2008
 Amended(8) by P5767 'Be careful what you start' (Murphy), 17 Oct 2008
 Amended(9) by P5995 'Fix multi-method dependent actions' (Murphy), 07
    Dec 2008
-Amended(10) by P6027 (Elysion), 08 Jan 2009
+Amended(10) by P6027 (Mischief), 08 Jan 2009
 Amended(11) by P6306 'Patch objections' (Murphy), 26 May 2009
 Amended(12) by P6410 [disi.] (Alexis), 30 Jul 2009
 Amended(13) by P6448 'Hand Limit Remodel v3' (BobTHJ), 27 Aug 2009
@@ -2807,7 +2805,7 @@ CFJ 3904 (called 18 Apr 2021): A rule amendment that results in no net
     change in rule text need not be recorded.
 
 ------------------------------------------------------------------------
-Rule 2221/10 (Power=3)
+Rule 2221/11 (Power=3)
 Cleanliness and Tidy Filing
 
       Any player CAN clean a rule without objection by specifying one or
@@ -2818,7 +2816,7 @@ Cleanliness and Tidy Filing
       by this rule by applying the changes as a single amendment
       (failing as a whole if any fail); then, if any title changes were
       specified, that rule is retitled by this rule by applying the
-      changes as a single retitling (failing as a whole if any fail)..
+      changes as a single retitling (failing as a whole if any fail).
       
       Any player CAN refile a rule without objection, specifying a new
       title; the rule is retitled to the specified title by this rule.
@@ -2845,6 +2843,7 @@ Amended(8) by P8445 'Easier retitling' (Aris), 30 Jun 2020
 Retitled by P8445 'Easier retitling' (Aris), 30 Jun 2020
 Amended(9) by P8840 'Cleanliness security' (Janet), 30 Aug 2022
 Amended(10) by P9009 'Ordered cleanliness' (Janet), 27 Sep 2023
+Amended(11) by cleaning (Mischief), 19 May 2024
 
 Annotations:
 CFJ 3800-3803 (called 25 Jan 2020): For a cleaning to replace a word
@@ -3727,7 +3726,7 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/47 (Power=2)
+Rule 1006/48 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -3739,10 +3738,10 @@ Offices
       office, who may be referred to by the name of that office. If the
       holder of an office is ever not a player, it becomes vacant.
       
-      An imposed office is an office described as such by the rule
-      defining it. All others are elected. A person CANNOT be made the
-      holder of an elected office without eir explicit or reasonably
-      implied consent.
+      Imposed offices and sortitioned are offices described as such by
+      the rules that define them. All other offices are elected A person
+      CANNOT be made the holder of an elected office without eir
+      explicit or reasonably implied consent.
       
       The holder of an elected office CAN resign it by announcement,
       causing it to become vacant. The non-interim holder of an elected
@@ -3826,6 +3825,7 @@ Amended(44) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep
 Amended(45) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 Amended(46) by P8944 'Effecting change' (Janet, ais523), 16 Apr 2023
 Amended(47) by P9012 'Official security' (Janet), 31 Oct 2023
+Amended(48) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -4063,7 +4063,7 @@ Amended(3) by P8942 'Cleaning' (4st), 16 Apr 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2160/24 (Power=3)
+Rule 2160/25 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
@@ -4102,9 +4102,9 @@ Deputisation
              deputisation is temporary.
       
       When a player deputises for an elected office, e becomes the
-      holder of that office, unless the deputisation is temporary,
-      and/or the action being performed would already install someone
-      into that office.
+      holder of that office, unless the deputisation is temporary, doing
+      so would make em Overpowered, and/or the action being performed
+      would already install someone into that office.
 
 History:
 
@@ -4142,6 +4142,8 @@ Amended(22) by cleaning (Kate), 23 Jan 2020
 Amended(23) by P8646 'Deputisation rewrite' (Janet, G., ais523), 15 Mar
    2022
 Amended(24) by P8901 'Clarify deputisation' (Murphy), 26 Feb 2023
+Amended(25) by P9106 'No Overpowered Deputizations' (snail, Janet,
+   Murphy, Juniper), 12 May 2024
 
 Annotations:
 CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
@@ -4155,7 +4157,7 @@ CFJ 3739 (called 16 Jun 2019): To perform an action by temporary
     deputisation is to deputise.
 
 ------------------------------------------------------------------------
-Rule 2689/0 (Power=3.0)
+Rule 2689/1 (Power=3.0)
 Vacations & Delegation
 
       Delegate is an Office switch with possible values of "None" and
@@ -4189,13 +4191,40 @@ Vacations & Delegation
       office, and the Delegate, if any, SHALL comply with all duties of
       the office as if e held the office.
       
-      The Delegate of an office CANNOT resign it. E CAN, by
-      announcement, flip the Delegate switch of that office to "None".
+      The Delegate of an office CANNOT resign it. The Delegate of an
+      office, if any, and the holder of that office, if any, CAN by
+      announcement flip the Delegate of that office to "None".
 
 History:
 
 Enacted by P9072 'Vacations v4' (snail, nix, Janet, 4st, Yachay
    Wayllukuq, G., juan, Murphy, ais523), 18 Mar 2024
+Amended(1) by P9110 'Delegate removal' (Janet), 12 May 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2691/0 (Power=2.0)
+Sortition Procedure
+
+      At the beginning of each quarter, the ADoP CAN by announcement,
+      and SHALL in a timely manner, initiate a sorition for each
+      sortitioned office if e has not already done so for that office.
+      
+      When a sortition is initiated, it enters the lots period. Any
+      player CAN become an option for that office during this period. If
+      a person ceases to be a player during this period, e also ceases
+      to be an option for each current sortition.
+      
+      Seven days after a sortition is initiated, its lots period ends.
+      The ADoP CAN by announcement, and SHALL in a timely manner after a
+      lots period ends, randomly select one of the options for that
+      office. When e does so, that player becomes the officeholder for
+      that office.
+
+History:
+
+Enacted by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 
@@ -4522,10 +4551,10 @@ Enacted by P7286 'No News Is Some News' (FKA441344), 09 Sep 2012
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2616/0 (Power=1.0)
+Rule 2616/1 (Power=1.0)
 The Webmastor
 
-      The Webmastor is an office.
+      The Webmastor is a sortitioned office.
       
       The Webmastor's monthly report includes a Directory, a Changelog,
       a Warning Log, and an Error Log. The Directory lists notable
@@ -4540,6 +4569,7 @@ The Webmastor
 History:
 
 Enacted by P8388 'The Webmastor' (nix), 03 Jun 2020
+Amended(1) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 
@@ -4895,7 +4925,7 @@ Amended(1) by cleaning (Alexis), 23 Jan 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/26 (Power=1.7)
+Rule 2478/27 (Power=1.7)
 Justice
 
       An Infraction is a violation of a rule. The person who committed
@@ -4924,8 +4954,8 @@ Justice
       an infraction that has already been investigated or forgiven. The
       Investigator of a noted, unforgiven infraction SHALL investigate
       the infraction in a timely manner after it has been noted;
-      failure to do so is the Class N crime of Favoritism, where N is
-      equal to the Class of the noted infraction.
+      failure to do so is the Class N infraction of Favoritism, where N
+      is equal to the Class of the noted infraction.
       
       A player CAN, by announcement, "note" an unforgiven infraction
       committed by any other player in the last 14 days, specifying the
@@ -4979,6 +5009,7 @@ Amended(24) by P8830 'Justice & Forgiveness 2.1' (nix, Janet, G.,
    Murphy, snail), 20 Aug 2022
 Amended(25) by P9028 'Fairness in Crime Act' (Janet), 26 Nov 2023
 Amended(26) by P9082 'yes, yes, I got the memo' (Gaelan), 07 Apr 2024
+Amended(27) by P9112 'What's a crime?' (Murphy), 26 May 2024
 
 Annotations:
 
@@ -5051,7 +5082,7 @@ Amended(1) by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Power changed from 1 to 2 by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(2) by P8051 'Zombie Overhaul v1.0' (G., Aris), 14 Jun 2018
 Amended(3) by P8119 'Criminal Justice Adjustments Act' (G.), 12 Nov 2018
-Amended(4) by P8030 'Law is Ambiguous Word Act' (Gaelan), 19 Nov 2018
+Amended(4) by P8130 'Law is Ambiguous Word Act' (Gaelan), 19 Nov 2018
 Amended(5) by P8203 'Fixing Summary Judgement' (Janet), 23 Jul 2019
 Amended(6) by P8222 'Fixing Summary Judgement (v2)' (Janet), 05 Sep 2019
 Amended(7) by cleaning (Janet), 17 Oct 2019
@@ -5130,7 +5161,7 @@ Infected and amended(3) by R1454, 23 Oct 1995
 Amended(4) by P2042, 11 Dec 1995
 Amended(5) by P2457, 16 Feb 1996
 Mutated from MI=1 to MI=2 by P2669, 19 Sep 1996
-Amended(6) by P4170 'Justiciar Opinon' (Elysion), 26 Jun 2001
+Amended(6) by P4170 'Justiciar Opinon' (Mischief), 26 Jun 2001
 Amended(7) by P4298 'Massive Judicial Reform' (Murphy), 17 May 2002
 Amended(8) by P4867 'Judicial Reform 2.0' (G.), 27 Aug 2006
 Amended(9) by P5015 'CFJ by announcement' (Zefram), 24 Jun 2007
@@ -5710,7 +5741,7 @@ Amended(3) by P8913 'emself v2' (G., Murphy), 12 Mar 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2618/6 (Power=2.2)
+Rule 2618/7 (Power=2.2)
 Promises
 
       Promises are a class of assets, tracked by the Notary. Their
@@ -5725,25 +5756,26 @@ Promises
       The creation of promises is secured. The text of a promise CANNOT
       be altered after it is created.
       
-      A promise's bearer CAN, by announcement, cash the promise,
-      provided that any conditions for cashing it specified by its text
-      are unambiguously met. By doing so, e acts on the creator of the
-      promise's behalf, causing the creator to act as if e published the
-      promise's text, and destroys the promise. However, to limit
-      recursion, no promise can be cashed during the execution of
-      another promise unless it existed before the execution of that
-      promise began. The bearer SHOULD recite the promise's essential
-      attributes in the same message e cashes it.
+      A player (the casher) CAN, by announcement, cash a promise,
+      provided that both a) any conditions for cashing it specified by
+      its text are unambiguously met, and b) either the casher is the
+      promise's bearer, or the promise is owned by the Library. By doing
+      so, e acts on the creator of the promise's behalf, causing the
+      creator to act as if e published the promise's text, and destroys
+      the promise.  However, to limit recursion, no promise can be
+      cashed during the execution of another promise unless it existed
+      before the execution of that promise began. The bearer SHOULD
+      recite the promise's essential attributes in the same message e
+      cashes it.
       
-      In a promise's text, "the bearer" (or the like) refers to the
-      promise's bearer, and "this promise" (or the like) refers to the
-      promise. The text of the promise can refer to the context of the
-      message in which it is cashed, but the context of the message does
-      not otherwise change the meaning of the promise.
+      In a promise's text, "the bearer" and "the casher" (or the like)
+      both refer to the player who cashed the promise, and "this
+      promise" (or the like) refers to the promise. The text of the
+      promise can refer to the context of the message in which it is
+      cashed, but the context of the message does not otherwise change
+      the meaning of the promise.
       
-      The Library is an entity and CAN own promises. Any player CAN take
-      a specified promise from the Library by announcement, provided e
-      cashes the promise in the same message.
+      The Library is an entity and CAN own promises.
       
       The creator of a promise CAN take or revoke it from the Library by
       announcement, unless the promise's text unambiguously designates
@@ -5764,6 +5796,7 @@ Amended(4) by P8554 'I Want My Promise Back!' (Aris, nix), 09 Apr 2021
 Amended(5) by P8665 'Promise Expirations 1.1' (nix, Janet, ais523), 29
    Apr 2022
 Amended(6) by P8987 'I meant what I said' (Janet), 04 Jun 2023
+Amended(7) by P9111 'Resolve The Paradox' (ais523), 26 May 2024
 
 Annotations:
 
@@ -6086,13 +6119,13 @@ Amended(8) by P8953 'Fluidity' (Janet), 23 Apr 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2578/2 (Power=3)
+Rule 2578/3 (Power=3)
 Fungibility
 
       A fungible asset is one where two instances of it are considered
       equivalent if they have the same owner, for the purposes of
       specification, granting, and transferring. The total amount of a
-      fungible asset that an entity owns is also know as that entities
+      fungible asset that an entity owns is also know as that entity's
       "balance" of that asset.
 
 History:
@@ -6102,6 +6135,7 @@ Amended(1) by P8186 'Minor currency fixes' (Janet), 22 Jun 2019
 Retitled from 'Currencies' to 'Fungibility' by P9076 'FUNgibility'
    (nix), 07 Apr 2024
 Amended(2) by P9076 'FUNgibility' (nix), 07 Apr 2024
+Amended(3) by cleaning (Mischief), 19 May 2024
 
 Annotations:
 
@@ -6156,12 +6190,12 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/8 (Power=1)
+Rule 2659/9 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players and Agora. The
-      Collector is an office. The Collector tracks Stamps in eir weekly
-      report.
+      Collector is a sortitioned office. The Collector tracks Stamps in
+      eir weekly report.
       
       For each person there is a corresponding type of stamp. Stamps of
       any given type are fungible.
@@ -6198,30 +6232,7 @@ Amended(6) by P9075 'No Hidden Ownership Restrictions' (nix, Janet,
    kiako), 07 Apr 2024
 Amended(7) by P9076 'FUNgibility' (nix), 07 Apr 2024
 Amended(8) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2687/0 (Power=1.0)
-The Stamp Raffle
-
-      Once per week, each player CAN enter the raffle by paying a fee of
-      1 stamp of eir own type to Agora.
-      
-      Once each week, the Collector CAN and SHALL publish a Raffle
-      Result by announcement, containing a list of players that entered
-      the raffle in the previous week (the participants of the raffle)
-      and the selection of a random player from that list (the winner of
-      the raffle) if it is not empty.
-      
-      When a Raffle Result is published, each stamp that was owned by
-      Agora at the start of the current week is transferred to the
-      winner of the raffle (if there is one), and each participant of
-      the raffle gains 1 radiance.
-
-History:
-
-Enacted by P9052 'The Stamp Raffle' (snail), 11 Feb 2024
+Amended(9) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 
@@ -6317,10 +6328,10 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2685/6 (Power=1.0)
+Rule 2685/7 (Power=1.0)
 Crystals
 
-      The Geologist is an office that tracks crystals.
+      The Geologist is a sortitioned office that tracks crystals.
       
       A crystal is an indestructible asset with secured integer switches
       identity, size (default 0), and instability (default 0).
@@ -6377,14 +6388,15 @@ Amended(4) by P9077 'Less Fragile Crystals' (snail), 07 Apr 2024
 Amended(5) by P9094 'More instability with a hyphen' (snail, R. Lee), 21
    Apr 2024
 Amended(6) by P9095 'Spendy Sizing' (snail), 21 Apr 2024
+Amended(7) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2690/2 (Power=1.0)
+Rule 2690/3 (Power=1.0)
 Spendies
 
-      The Spendor is an office.
+      The Spendor is a sortitioned office.
       
       Spendies are a fungible liquid asset ownable by players and
       contracts. Spendies are tracked by the Spendor in eir weekly
@@ -6398,6 +6410,7 @@ History:
 Enacted by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(1) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(2) by P9089 'Who are you, again, again?' (Janet), 21 Apr 2024
+Amended(3) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 
@@ -6407,22 +6420,25 @@ Stones
    A game in which people try to collect Stones with various different
    Magical Powers OooOooh!
 ------------------------------------------------------------------------
-Rule 2640/6 (Power=2)
+Rule 2640/8 (Power=2)
 Stones
 
       A stone is a unique indestructible fixed asset defined by the
       rules. To define a stone, the definition must include:
         (i) A name unique among stones;
-       (ii) The smoothness of the stone, which is a non-negative integer;
-      (iii) A description of the stone's properties
-       (iv) Optionally, a frequency, which must be one of daily, weekly,
+       (ii) A description of the stone's properties
+      (iii) Optionally, a frequency, which must be one of daily, weekly,
             monthly, or quarterly.
       
       Ownership of stones is entirely restricted to Agora and players.
       If a stone is owned by the Lost and Found Department or in
       abeyance, it is immediately transferred to Agora.
       
-      The Stonemason is an office, and the recordkeepor of stones.
+      The Stonemason is a sortitioned office, and the recordkeepor of
+      stones.
+      
+      A stone is immune if and only if a rule of power 2 or more says it
+      is immune; otherwise it is non-immune.
 
 History:
 
@@ -6435,6 +6451,8 @@ Amended(3) by P8883 'Increased weathering v2' (Janet), 15 Jan 2023
 Amended(4) by cleaning (4st), 25 Apr 2023
 Amended(5) by P9062 'Insurance Policy' (kiako, ais523), 10 Mar 2024
 Amended(6) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
+Amended(7) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May 2024
+Amended(8) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 
@@ -6471,19 +6489,21 @@ Amended(4) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2642/9 (Power=2)
+Rule 2642/11 (Power=2)
 Stone Cost
 
       Stone Cost is a Stone switch with values of non-negative integers
       and a default of 10. Stone Cost is tracked by the Stonemason.
       
       Any player CAN pay a fee of X Spendies to transfer a specified
-      stone to emself, where X is the current Stone Cost of the
-      specified stone.
+      non-immune stone to emself, where X is the current Stone Cost of
+      the specified stone.
       
-      When a stone is transferred, its Stone Cost is set to the default.
-      At the beginning of every week, the Stone Cost for each stone is
-      reduced by 1, to a minimum of 0.
+      At the beginning of each week, for each stone that was not
+      transferred during the previous week, its Stone Cost is reduced by
+      1, to a minimum of 1. Then, for each stone that was transferred
+      more than once during the previous week, its Stone Cost is
+      increased by 1.
 
 History:
 
@@ -6501,6 +6521,9 @@ Amended(8) by P9062 'Insurance Policy' (kiako, ais523), 10 Mar 2024
 Retitled from 'Gathering Stones' to 'Stone Cost' by P9079 'Spendies
    v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(9) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
+Amended(10) by P9107 'Market Stone Pricing' (Jaff), 12 May 2024
+Amended(11) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
+   2024
 
 Annotations:
 CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
@@ -6533,63 +6556,61 @@ Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/23 (Power=2)
+Rule 2645/27 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
       following format: Stone Name (Frequency, Smoothness): Description.
       
-      - Power Stone (weekly, 2): When this stone is wielded, a specified
+      - Power Stone (weekly): When this stone is wielded, a specified
         player (defaulting to the wielder if not specified) is Power
         Stoned; Power Stoning is secured. A player's voting strength on
         a referendum on an ordinary proposal is increased by 3 for each
         time that e was Power Stoned during the referendum's voting
         period.
       
-      - Soul Stone (weekly, 3): When wielded, this stone is transferred
-        to the owner of a different specified non-immune stone not owned
-        by Agora, then that stone is transferred to the wielder.
+      - Soul Stone (weekly): When wielded, this stone is transferred to
+        the owner of a different specified non-immune stone not owned by
+        Agora, then that stone is transferred to the wielder.
       
-      - Sabotage Stone (weekly, 4): When wielded, the adoption index of
-        a specified AI-majority Agoran decision is increased by 1.
+      - Sabotage Stone (weekly): When wielded, the adoption index of a
+        specified AI-majority Agoran decision is increased by 1.
       
-      - Minty Stone (weekly, 4): When wielded, a specified Player gains
-        a stamp of eir own type.
+      - Minty Stone (weekly): When wielded, a specified Player gains a
+        stamp of eir own type.
       
-      - Protection Stone (monthly, 4): When wielded, a specified stone
-        is granted immunity.
+      - Protection Stone (monthly): When wielded, specify a stone. The
+        stone most recently specified when wielding the Protection Stone
+        is immune.
       
-      - Recursion Stone (monthly, 4): The Recursion Stone can be wielded
+      - Recursion Stone (monthly): The Recursion Stone can be wielded
         once per month as if it had the power of any other stone of your
         choice (the Blueprint Stone), with any references to the
         Blueprint Stone itself changed to the Recursion Stone unless
         they specify otherwise.
       
-      - Hot Potato Stone (weekly, 5): When this stone is wielded, the
+      - Hot Potato Stone (weekly): When this stone is wielded, the
         wielder specifies an eligible player and gains 8 radiance. The
         stone is transferred to the eligible player. An eligible player
-        is one who has not owned this stone since the last time Agora
-        owned it. If this stone is not owned by Agora, a player CANNOT
-        otherwise transfer it, rules to the contrary notwithstanding.
-        This stone is immune if 3 or more players have wielded it since
-        the most recent collection notice.
+        is one who has not owned this stone since the last time it was
+        transferred without being wielded. If this stone has been
+        wielded at least once in the last 15 days, it is immune.
       
-      - Blank Stone (monthly, 0): This stone has no effect.
+      - Blank Stone (monthly): This stone has no effect.
       
-      - Anti-Equatorial Stone (monthly, 5): When wielded, the mossiest
+      - Anti-Equatorial Stone (monthly): When wielded, the mossiest
         non-immune stone is transferred to the wielder. If more than one
         such stone is tied for mossiest, a specified one is transferred.
         When this happens, the wielded stone's mossiness is incremented
         by 1.
       
-      - Radiance Stone (weekly, 3): When wielded, a specified player
+      - Radiance Stone (weekly): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
       
-      - Loud Stone (monthly, 4): When wielded, a specified player's
-        Dream is set to a specified Dream, and then e is Beguiled;
-        Beguiling is secured. A player's Dream CANNOT be flipped if e
-        was Beguiled in the last 7 days, rules to the contrary
-        notwithstanding.
+      - Loud Stone (monthly): When wielded, a specified player's Dream
+        is set to a specified Dream, and then e is Beguiled; Beguiling
+        is secured. A player's Dream CANNOT be flipped if e was Beguiled
+        in the last 7 days, rules to the contrary notwithstanding.
 
 History:
 
@@ -6627,6 +6648,14 @@ Amended(20) by P8990 'Self-referential stone fixes' (Janet, nix), 19 Jun
 Amended(21) by P8995 'Broad Recursion' (Murphy, snail), 19 Jun 2023
 Amended(22) by cleaning (kiako), 02 Mar 2024
 Amended(23) by P9071 'Loud Stone' (snail), 22 Mar 2024
+Amended(24) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
+   2024
+Amended(25) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
+   2024
+Amended(26) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
+   2024
+Amended(27) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
+   2024
 
 Annotations:
 
@@ -6636,10 +6665,11 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/7 (Power=1.5)
+Rule 2656/8 (Power=1.5)
 Radiance
 
-      The Illuminator is an office, responsible for tracking radiance.
+      The Illuminator is a sortitioned office, responsible for tracking
+      radiance.
       
       A player's Radiance is an integer player switch defaulting to 0,
       tracked by the Illuminator. When a player is "granted" or "gains"
@@ -6670,6 +6700,7 @@ Retitled by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(6) by P9026 'It's a bit dark in here' (Janet, Kate), 19 Nov 2023
 Amended(7) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
+Amended(8) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
 
@@ -6753,7 +6784,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/30 (Power=3)
+Rule 2438/31 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6799,9 +6830,9 @@ Ribbons
       Ribbon.
       
       Cyan (C): When a person deputises for an office or is the delegate
-      for an office while its holder is on vacation., and that person
-      has not held or deputised for that office within the past 7 days,
-      that person earns a Cyan Ribbon.
+      for an office while its holder is on vacation, and that person has
+      not held or deputised for that office within the past 7 days, that
+      person earns a Cyan Ribbon.
       
       Blue (B): When a person assigns a judgement to a CFJ, and has
       never violated a time limit to assign a judgement to that CFJ,
@@ -6901,6 +6932,7 @@ Amended(28) by P8902 'More ribbon security' (Janet), 26 Feb 2023
 Amended(29) by cleaning (4st), 25 Apr 2023
 Amended(30) by P9072 'Vacations v4' (snail, nix, Janet, 4st, Yachay
    Wayllukuq, G., juan, Murphy, ais523), 22 Mar 2024
+Amended(31) by cleaning (Mischief), 19 May 2024
 
 Annotations:
 
@@ -7020,7 +7052,7 @@ Amended(6) by P3445 (General Chaos), 26 Mar 1997
 Amended(7) by P3488 (Zefram), 19 May 1997
 Amended(8) by P3849 'Raus mit der Zeitgeist u. a.' (Vlad), 06 Apr 1999
 Amended(9) by P3860 'Amend rule 649' (Peekee), 12 May 1999
-Amended(10) by P3914 'The Registrar's Crayons' (Elysion), 19 Sep 1999
+Amended(10) by P3914 'The Registrar's Crayons' (Mischief), 19 Sep 1999
 Amended(11) by P3916 'Revised Patent Titles' (harvel), 27 Sep 1999
 Amended(12) by P3968 'Cleanup with Quantifier Changes' (harvel), 04 Feb
    2000
@@ -7171,7 +7203,7 @@ Amended(10) by P5276 'Generalize security' (Murphy, Pavitra, Zefram), 07
 Amended(11) by P5437 'Patent Standards' (G.), 13 Feb 2008
 Power changed from 1.5 to 1 by P5947 'Balance of Power' (ais523), 15 Nov
    2008
-Amended(12) by P5955 'Fix Balance of Power' [disi.] (ais523, Elysion,
+Amended(12) by P5955 'Fix Balance of Power' [disi.] (ais523, Mischief,
    Murphy), 18 Nov 2008
 Amended(13) by P6257 'Thesis votes' (Alexis), 11 May 2009
 Amended(14) by P6624 'fix hypothetical situations' [green] (Murphy), 20
@@ -7843,7 +7875,7 @@ Enacted by P4329 'Remantling' (Goethe), 09 Jun 2002
 Amended(1) by SLR ratification, 11 Mar 2019
 
 Annotations:
-CFJ 1881 (called 25 Jan 2008): This rule does not impose an obilgation
+CFJ 1881 (called 25 Jan 2008): This rule does not impose an obligation
     to always Dance a Powerful Dance, because "Marvy" is currently
     undefined.
 CFJ 1736 (called 23 Aug 2007): Failing to hail Eris does not necessarily
