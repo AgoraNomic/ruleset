@@ -1,0 +1,21 @@
+id: 2693
+name: The Simplifior
+power: 1.0
+text: |
+  The Simplifior is an office; its holder is responsible for
+  increasing the readability of the Short Logical Ruleset by making
+  a more readable version.
+
+  The Simplifior SHOULD maintain the Readable Logical Ruleset when
+  any rules are amended, enacted, or removed.
+
+  The Simplifior's monthly report includes the Readable Logical
+  Ruleset.  The Simplifior's report SHOULD prominently and clearly
+  include a reminder that the RLR is a summary and only the rules'
+  full text actually governs.
+history:
+- change:
+    type: enactment
+  date: 2024-06-23
+  agent:
+    proposal: "9121"
