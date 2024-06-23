@@ -41,11 +41,9 @@ text: |
 
   - Blank Stone (monthly): This stone has no effect.
 
-  - Anti-Equatorial Stone (monthly): When wielded, the mossiest
-    non-immune stone is transferred to the wielder. If more than one
-    such stone is tied for mossiest, a specified one is transferred.
-    When this happens, the wielded stone's mossiness is incremented
-    by 1.
+  - Grind Stone (quarterly): When wielded, if this is the 5th time
+    the wielder has wielded the Grind Stone (not the recursion
+    stone) since any other player wielded it, e wins the game.
 
   - Radiance Stone (weekly): When wielded, a specified player
     (defaulting to the wielder if not specified) gains 3 radiance.
@@ -196,4 +194,9 @@ history:
   date: 2024-05-12
   agent:
     proposal: "9108"
+- change:
+    type: amendment
+  date: 2024-06-21
+  agent:
+    proposal: "9114"
 annotations: []
