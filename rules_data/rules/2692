@@ -20,9 +20,9 @@ text: |
   Vitalities. Such a report SHOULD be made and Ratified Without
   Objection as needed.
 
-  Each Alive player CAN eliminate another specified Alive player by
-  paying a fee of 1 bang. Eliminating a player makes em Unalive, and
-  then grants em 1 bang.
+  Each Alive player CAN eliminate a specified Alive player by paying
+  a fee of 1 bang. Eliminating a player makes em Unalive, and then
+  grants em 1 bang.
 
   Any Alive player CAN Stand Alone by announcement, if there are no
   other players that are Alive, and no person has won the game by
@@ -45,3 +45,8 @@ history:
   date: 2024-06-21
   agent:
     proposal: "9116"
+- change:
+    type: amendment
+  date: 2024-06-21
+  agent:
+    proposal: "9117"
