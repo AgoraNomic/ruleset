@@ -1,0 +1,47 @@
+id: 2692
+name: "Bang!"
+power: 1.0
+text: |
+  Bangs are a fungible asset.
+
+  Vitality is an untracked player Switch with possible values of
+  Invulnerable, Alive, Unalive, or Ghostly (default). A player with
+  a Vitality that is not Ghostly is called “corporeal”, else e is
+  called "ghostly".
+
+  To "incarnate" is to flip one's Vitality to Invulnerable. A
+  ghostly player CAN incarnate by announcement, provided there are
+  only Invulnerable or Ghostly players.
+
+  Each corporeal player SHOULD list eir Vitality and Bang Balance in
+  all eir messages.
+
+  Any player CAN publish a report of all Bang Balances and
+  Vitalities. Such a report SHOULD be made and Ratified Without
+  Objection as needed.
+
+  Each Alive player CAN eliminate another specified Alive player by
+  paying a fee of 1 bang. Eliminating a player makes em Unalive, and
+  then grants em 1 bang.
+
+  Any Alive player CAN Stand Alone by announcement, if there are no
+  other players that are Alive, and no person has won the game by
+  doing so in the past 7 days. When a player Stands Alone, e wins
+  the game. If a player won the game in this manner 4 days ago, then
+  the match is reset.
+
+  When the match is reset, each player is set to Ghostly, all bangs
+  are destroyed, and then each player gains 1 bang.
+
+  When 7 days have passed since the match is reset, all Invulnerable
+  players have eir Vitality set to Alive.
+
+  When 14 days have passed since a player was last eliminated, the
+  match resets, and then each player that was alive immediately
+  before the match reset gains 1 bang.
+history:
+- change:
+    type: enactment
+  date: 2024-06-21
+  agent:
+    proposal: "9116"
