@@ -14,8 +14,6 @@ text: |
   index less than that of its associated proposal, it is immediately
   set to the adoption index of the associated proposal.
 
-  Adoption index is secured with a Power Threshold of 2.
-
   Adoption index is an essential parameter of an Agoran decision if
   that decision has an adoption index.
 
@@ -241,6 +239,11 @@ history:
   date: 2023-12-10
   agent:
     proposal: "9036"
+- change:
+    type: amendment
+  date: 2024-06-21
+  agent:
+    proposal: "9119"
 annotations:
 - cfjs:
   - id: '1885'
