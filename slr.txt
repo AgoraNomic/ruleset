@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 14 Jun 2024
+Date of this ruleset: 30 Jun 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
-Number of rules currently enacted: 134
+Number of rules currently enacted: 137
 
-Highest ID'd rule in this ruleset: 2691
-Highest ID'd Proposal Passed: 9112
-Highest ID'd Rule Enacted: 2691
+Highest ID'd rule in this ruleset: 2694
+Highest ID'd Proposal Passed: 9123
+Highest ID'd Rule Enacted: 2694
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -400,7 +400,7 @@ Regulated Actions
       messages (in general or with specific attributes).
 
 ------------------------------------------------------------------------
-Rule 1023/40 (Power=2)
+Rule 1023/41 (Power=2)
 Agoran Time
 
       The following terms are defined:
@@ -457,6 +457,11 @@ Agoran Time
           3. they occur in two consecutive Agoran months on the same day
              of the month, and the later of the two occurs at the same
              or earlier time of day.
+      
+      5. Any anniversary, monthly anniversary, or quarterly anniversary
+         that would otherwise occur on a day of the month that does not
+         exist (after considering any leap day) instead occurs on the
+         following day.
 
 ------------------------------------------------------------------------
 Rule 1728/46 (Power=3)
@@ -1072,7 +1077,7 @@ The Rulekeepor
       The Rulekeepor's monthly report includes the Full Logical Ruleset.
 
 ------------------------------------------------------------------------
-Rule 1681/24 (Power=1)
+Rule 1681/25 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -1116,6 +1121,37 @@ The Logical Rulesets
       
       4. If the rule was changed due to a proposal, then that proposal's
          ID number, author, and coauthor(s) (if any).
+      
+      The Readable Logical Ruleset (RLR) is a format of the ruleset. In
+      this format, rules do not have to be individually listed; if
+      multiple rules have similar concepts as The Simplifior sees fit,
+      then they may be listed in one paragraph as a Combined Rule.
+      
+      Rules in the RLR are permitted to be restated approximately,
+      provided that they mean the same things.
+      
+      When writing a Combined Rule, The Simplifior must record all rules
+      referenced in the paragraph immediately after the rule has been
+      referenced.
+      
+      The Simplifior need not use the exact wording of the rule
+      referenced when writing a Combined Rule.
+
+------------------------------------------------------------------------
+Rule 2693/0 (Power=1.0)
+The Simplifior
+
+      The Simplifior is an office; its holder is responsible for
+      increasing the readability of the Short Logical Ruleset by making
+      a more readable version.
+      
+      The Simplifior SHOULD maintain the Readable Logical Ruleset when
+      any rules are amended, enacted, or removed.
+      
+      The Simplifior's monthly report includes the Readable Logical
+      Ruleset.  The Simplifior's report SHOULD prominently and clearly
+      include a reminder that the RLR is a summary and only the rules'
+      full text actually governs.
 
 ------------------------------------------------------------------------
 Rule 2221/11 (Power=3)
@@ -1491,7 +1527,7 @@ Extending the Voting Period
       voter (other than possibly the proposal's author) has voted FOR.
 
 ------------------------------------------------------------------------
-Rule 1950/38 (Power=3)
+Rule 1950/39 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index (AI) is an untracked switch possessed by Agoran
@@ -1505,8 +1541,6 @@ Decisions with Adoption Indices
       a referendum ever has an adoption index of "none" or an adoption
       index less than that of its associated proposal, it is immediately
       set to the adoption index of the associated proposal.
-      
-      Adoption index is secured with a Power Threshold of 2.
       
       Adoption index is an essential parameter of an Agoran decision if
       that decision has an adoption index.
@@ -2894,6 +2928,48 @@ Spendies
       beginning of each month, every player is granted 20 Spendies.
 
 ------------------------------------------------------------------------
+Rule 2692/1 (Power=1.0)
+Bang!
+
+      Bangs are a fungible asset.
+      
+      Vitality is an untracked player Switch with possible values of
+      Invulnerable, Alive, Unalive, or Ghostly (default). A player with
+      a Vitality that is not Ghostly is called “corporeal”, else e is
+      called "ghostly".
+      
+      To "incarnate" is to flip one's Vitality to Invulnerable. A
+      ghostly player CAN incarnate by announcement, provided there are
+      only Invulnerable or Ghostly players.
+      
+      Each corporeal player SHOULD list eir Vitality and Bang Balance in
+      all eir messages.
+      
+      Any player CAN publish a report of all Bang Balances and
+      Vitalities. Such a report SHOULD be made and Ratified Without
+      Objection as needed.
+      
+      Each Alive player CAN eliminate a specified Alive player by paying
+      a fee of 1 bang. Eliminating a player makes em Unalive, and then
+      grants em 1 bang.
+      
+      Any Alive player CAN Stand Alone by announcement, if there are no
+      other players that are Alive, and no person has won the game by
+      doing so in the past 7 days. When a player Stands Alone, e wins
+      the game. If a player won the game in this manner 4 days ago, then
+      the match is reset.
+      
+      When the match is reset, each player is set to Ghostly, all bangs
+      are destroyed, and then each player gains 1 bang.
+      
+      When 7 days have passed since the match is reset, all Invulnerable
+      players have eir Vitality set to Alive.
+      
+      When 14 days have passed since a player was last eliminated, the
+      match resets, and then each player that was alive immediately
+      before the match reset gains 1 bang.
+
+------------------------------------------------------------------------
 ========================================================================
 Stones
    A game in which people try to collect Stones with various different
@@ -2927,10 +3003,10 @@ Wielding Stones
       CAN wield it by announcement specifying any values needed to
       interpret the stone's effects.
       
-      A stone with a frequency that has been wielded in the corresponding
-      Agoran time interval is Hot for the remainder of the time period
-      (e.g. if the frequency is daily, it is hot for the remainder of the
-      Agoran day it was wielded during).
+      A stone with a frequency that has been wielded in the
+      corresponding Agoran time interval is Hot for the remainder of the
+      time period (e.g. if the frequency is daily, it is hot for the
+      remainder of the Agoran day it was wielded during).
       
       While a stone is hot, it is IMPOSSIBLE to wield it.
       
@@ -2969,7 +3045,7 @@ Zen Gardening
       all existing stones are transferred to Agora.
 
 ------------------------------------------------------------------------
-Rule 2645/27 (Power=2)
+Rule 2645/28 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -3011,11 +3087,9 @@ The Stones
       
       - Blank Stone (monthly): This stone has no effect.
       
-      - Anti-Equatorial Stone (monthly): When wielded, the mossiest
-        non-immune stone is transferred to the wielder. If more than one
-        such stone is tied for mossiest, a specified one is transferred.
-        When this happens, the wielded stone's mossiness is incremented
-        by 1.
+      - Grind Stone (quarterly): When wielded, if this is the 5th time
+        the wielder has wielded the Grind Stone (not the recursion
+        stone) since any other player wielded it, e wins the game.
       
       - Radiance Stone (weekly): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
@@ -3703,6 +3777,53 @@ Town Fountain
            and OscarMeyr, Scamsters. Look
            on our works, ye Marvy, but do
       always Dance a Powerful Dance.  Hail Eris!
+
+------------------------------------------------------------------------
+Rule 2694/0 (Power=1.0)
+Hats
+
+      Hats are a secured player switch defaulting to "none" with the
+      following possible values and associated meanings for the player's
+      current focus:
+      
+        none: no particular focus
+      
+        armored helm: competing for wins and in sub-games
+      
+        dunce cap: expressing regret or acknowledging a mistake
+      
+        floral wreath: resolving conflict
+      
+        green eyeshade: maintaining accurate records
+      
+        hard hat: repairing problems in the rules
+      
+        jaunty beret: exploring creative expression
+      
+        jester's cap: bringing levity and humor
+      
+        judicial wig: ruling on CFJs and interpreting the rules
+      
+        knitted cap: finding loopholes and exploits
+      
+        plain hat: simplifying the rules
+      
+        rugged fedora: researching Agoran and Nomic history
+      
+        sleeping cap: reducing eir participation in Agora
+      
+        steampunk hat: creating new game mechanics
+      
+        traditional mortarboard: conducting research and writing theses
+      
+      A player CAN change eir hat at any time by notifying the
+      recordkeepor for eir hat (publicly or privately). Unless otherwise
+      specified by the rules: 1) the recordkeepor for a player's hat is
+      the player emself, and 2) reporting on hats is OPTIONAL.
+      
+      Hats do not otherwise limit or restrict a player's actions in any
+      way, and every player is ENCOURAGED to participate in all aspects
+      of the game regardless of eir current hat.
 
 ------------------------------------------------------------------------
 
