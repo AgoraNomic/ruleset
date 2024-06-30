@@ -1,0 +1,63 @@
+Rule 2685/7 (Power=1.0)
+Crystals
+
+      The Geologist is a sortitioned office that tracks crystals.
+      
+      A crystal is an indestructible asset with secured integer switches
+      identity, size (default 0), and instability (default 0).
+      
+      At the beginning of each quarter, each crystal whose identity is
+      not equal to the ID of any rule in the current ruleset has its
+      size increased by 3.
+      
+      If a proposal amends or repeals a rule, if a crystal exists whose
+      identity equals that rule's id, that crystal absorbs that
+      proposal. Otherwise, grant to the author of the proposal a crystal
+      with identity equal to the ID of that rule, then that crystal
+      absorbs that proposal. Each crystal can only absorb a given
+      proposal once by this method.
+      
+      When a crystal absorbs a proposal, the following occur in sequence:
+      - The size of that crystal is increased by the power of that
+        proposal when that proposal's power was greater than 0 (rounded
+        down).
+      
+      - If that crystal's owner is not the author of that proposal, the
+        instability of that crystal is increased by 2.
+      
+      - If that crystal's owner is not the author or coauthor of that
+        proposal, the instability of that crystal is increased by 2.
+      
+      - If the instability of that crystal is greater than its size, it
+        is transferred to the author of the proposal, then its
+        instability becomes equal to its size.
+      
+      
+      A player is crystallized if the total size of crystals e owns is
+      at least the number of rules in the current ruleset.
+      
+      A player CAN increase the size of a specified crystal by 1 by
+      paying a fee of 11 spendies.
+      
+      Any player CAN, by announcement, Shatter the System, specifying at
+      least 1 crystallized player, and provided that no person has done
+      so in the past 30 days. When a player does so, each crystallized
+      player wins the game.
+      
+      If a player won the game in this manner 4 days ago, then all
+      existing crystals are destroyed.
+
+History:
+
+Enacted by P9032 'Rules as Items v6' (4st, Janet, kiako, snail), 03 Dec
+   2023
+Amended(1) by P9046 'Crystal fix 1' (4st, ais523, Gaelan), 31 Dec 2023
+Amended(2) by P9046 'Crystal fix 1' (4st, ais523, Gaelan), 31 Dec 2023
+Amended(3) by P9069 'Coauthored Crystals' (snail), 18 Mar 2024
+Amended(4) by P9077 'Less Fragile Crystals' (snail), 07 Apr 2024
+Amended(5) by P9094 'More instability with a hyphen' (snail, R. Lee), 21
+   Apr 2024
+Amended(6) by P9095 'Spendy Sizing' (snail), 21 Apr 2024
+Amended(7) by P9109 'Sortition' (nix, Janet), 12 May 2024
+
+Annotations:
