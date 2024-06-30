@@ -56,6 +56,11 @@ text: |
       3. they occur in two consecutive Agoran months on the same day
          of the month, and the later of the two occurs at the same
          or earlier time of day.
+
+  5. Any anniversary, monthly anniversary, or quarterly anniversary
+     that would otherwise occur on a day of the month that does not
+     exist (after considering any leap day) instead occurs on the
+     following day.
 history:
 - change:
     type: enactment
@@ -299,6 +304,11 @@ history:
   date: 2020-01-29
   agent:
     proposal: "8304"
+- change:
+    type: amendment
+  date: 2024-06-23
+  agent:
+    proposal: "9123"
 annotations:
 - cfjs:
   - id: '3624'
