@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Jun 2024
+Date of this ruleset: 6 Jul 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 137
 
 Highest ID'd rule in this ruleset: 2694
-Highest ID'd Proposal Passed: 9123
+Highest ID'd Proposal Passed: 9133
 Highest ID'd Rule Enacted: 2694
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -261,7 +261,7 @@ Expectations of Participation
       replace it with an appropriate forum as soon as possible.
 
 ------------------------------------------------------------------------
-Rule 2679/1 (Power=3)
+Rule 2679/2 (Power=3)
 Restrictions on Participation
 
       Banned is a secured negative boolean person switch tracked by the
@@ -299,9 +299,9 @@ Restrictions on Participation
       in the future.
       
       The Registrar SHALL publish any Request for Forgiveness e receives
-      in a timely manner. If the community deems the Request sincere and
-      appropriately reconciliatory, steps should be undertaken to flip
-      the submitter's Banned switch to False.
+      in a timely fashion. If the community deems the Request sincere
+      and appropriately reconciliatory, steps should be undertaken to
+      flip the submitter's Banned switch to False.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -738,11 +738,11 @@ Proposals
       the Proposal Pool, other than by distribution, is secured.
 
 ------------------------------------------------------------------------
-Rule 2625/1 (Power=1.0)
+Rule 2625/2 (Power=1.0)
 Proposal Recycling
 
       If a referendum on a proposal was resolved as FAILED QUORUM in the
-      last seven days, the Promotor CAN once recycle the proposal by
+      past seven days, the Promotor CAN once recycle the proposal by
       announcement, adding it to the Proposal Pool and causing it to
       become pended.
 
@@ -1077,7 +1077,7 @@ The Rulekeepor
       The Rulekeepor's monthly report includes the Full Logical Ruleset.
 
 ------------------------------------------------------------------------
-Rule 1681/25 (Power=1)
+Rule 1681/27 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -1089,11 +1089,13 @@ The Logical Rulesets
       removed, as the Rulekeepor sees fit.
       
       The listing of each rule in the SLR must include the rule's ID
-      numberpower, title, and text.
+      number, power, title, and text.
       
       The listing of each rule in the SLR must additionally include a
-      reasonably accurate approximation of the number of changes made to
-      the rule (the rule's revision number). The Rulekeepor may exercise
+      revision number selected by the Rulekeepor. The Rulekeepor SHOULD
+      select revision numbers such that they can be used retrospectively
+      to determine that the text of a rule has changed while it
+      maintained the same ID number. The Rulekeepor may exercise
       reasonable discretion in calculating revision numbers.
       
       The Rulekeepor is strongly DISCOURAGED from including any
@@ -1602,12 +1604,12 @@ Offices
       author of the proposal.
 
 ------------------------------------------------------------------------
-Rule 2630/2 (Power=2.0)
+Rule 2630/3 (Power=2.0)
 The Administrative State
 
       Each officer CAN, with 1.5 Agoran consent, enact, amend, or repeal
       eir own office's Administrative Regulations. If e has won an
-      election for the office in the last 7 days, e CAN repeal them by
+      election for the office in the past 7 days, e CAN repeal them by
       announcement.  Administrative Regulations have the following
       properties:
       
@@ -1759,7 +1761,7 @@ Deputisation
       would already install someone into that office.
 
 ------------------------------------------------------------------------
-Rule 2689/1 (Power=3.0)
+Rule 2689/2 (Power=3.0)
 Vacations & Delegation
 
       Delegate is an Office switch with possible values of "None" and
@@ -1774,12 +1776,12 @@ Vacations & Delegation
       
       An officer CAN and SHOULD take a Vacation from a specified office
       e has continuously held for over 6 months with 7 day notice, if e
-      has not done so in the last year. When an officer qualifies for a
+      has not done so in the past year. When an officer qualifies for a
       Vacation, the ADoP SHOULD encourage em to take one, at least once
       a quarter.
       
       An officer is On Vacation from a specified office if e has taken a
-      Vacation from that office in the last 30 days. The list of
+      Vacation from that office in the past 30 days. The list of
       officers currently on vacation is part of the ADoP's report.
       
       While the holder of an office is On Vacation, the Delegate of that
@@ -1798,11 +1800,11 @@ Vacations & Delegation
       announcement flip the Delegate of that office to "None".
 
 ------------------------------------------------------------------------
-Rule 2691/0 (Power=2.0)
+Rule 2691/1 (Power=2.0)
 Sortition Procedure
 
       At the beginning of each quarter, the ADoP CAN by announcement,
-      and SHALL in a timely manner, initiate a sorition for each
+      and SHALL in a timely fashion, initiate a sorition for each
       sortitioned office if e has not already done so for that office.
       
       When a sortition is initiated, it enters the lots period. Any
@@ -1811,8 +1813,8 @@ Sortition Procedure
       to be an option for each current sortition.
       
       Seven days after a sortition is initiated, its lots period ends.
-      The ADoP CAN by announcement, and SHALL in a timely manner after a
-      lots period ends, randomly select one of the options for that
+      The ADoP CAN by announcement, and SHALL in a timely fashion after
+      a lots period ends, randomly select one of the options for that
       office. When e does so, that player becomes the officeholder for
       that office.
 
@@ -1859,7 +1861,7 @@ Office Incompatibilities
       Overpowered player holds becomes vacant.
 
 ------------------------------------------------------------------------
-Rule 2143/37 (Power=1)
+Rule 2143/38 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -1883,7 +1885,7 @@ Official Reports and Duties
       Failure of a person to perform any weekly duty required of em
       within the allotted time is the Class 1+N infraction of Weekly
       Tardiness, where N is the number of times e has previously
-      committed the infraction in the last month.
+      committed the infraction in the past month.
       
       Failure of a person to perform any monthly duty required of em
       within the allotted time is the Class 3 infraction of Monthly
@@ -2170,7 +2172,7 @@ Penalties
       player (the outlaw) who has more than 40 blots.
 
 ------------------------------------------------------------------------
-Rule 2478/27 (Power=1.7)
+Rule 2478/29 (Power=1.7)
 Justice
 
       An Infraction is a violation of a rule. The person who committed
@@ -2184,7 +2186,7 @@ Justice
       
       The Base of an infraction is N, where N is the number of
       previously-investigated, unforgiven infractions that have been
-      committed by the same person in the last 30 days. The previous
+      committed by the same person in the past 30 days. The previous
       notwithstanding, if the base of an infraction would be greater
       than its class, the infraction's base is equal to its class.
       
@@ -2198,12 +2200,12 @@ Justice
       The previous notwithstanding, an Investigator CANNOT investigate
       an infraction that has already been investigated or forgiven. The
       Investigator of a noted, unforgiven infraction SHALL investigate
-      the infraction in a timely manner after it has been noted;
+      the infraction in a timely fashion after it has been noted;
       failure to do so is the Class N infraction of Favoritism, where N
       is equal to the Class of the noted infraction.
       
       A player CAN, by announcement, "note" an unforgiven infraction
-      committed by any other player in the last 14 days, specifying the
+      committed by any other player in the past 14 days, specifying the
       incident and the rule it violates (or name of the Infraction if
       it has one); but a player CANNOT note an infraction that has
       already been investigated.
@@ -2212,13 +2214,13 @@ Justice
       investigated Infractions committed in the previous week.
 
 ------------------------------------------------------------------------
-Rule 2676/1 (Power=1.7)
+Rule 2676/2 (Power=1.7)
 Forgiveness
 
       All infractions that have not been forgiven are unforgiven.
       
       Any player CAN, with Agoran Consent, "forgive" an unforgiven
-      infraction that ocurred in the last 30 days. When an infraction
+      infraction that ocurred in the past 30 days. When an infraction
       is forgiven, if the infraction was investigated, a number of
       blots in the possession of the infracter equal to the number of
       blots specified by the investigation are destroyed or, if e has
@@ -2834,12 +2836,12 @@ Stamps
       of times e has already done so in the current month.
 
 ------------------------------------------------------------------------
-Rule 2499/23 (Power=1)
+Rule 2499/24 (Power=1)
 Welcome Packages
 
       When a player receives a welcome package, if e has not received a
       welcome package, including under any previous definition, since e
-      last registered nor in the last 30 days, e gains the following
+      last registered nor in the past 30 days, e gains the following
       assets:
       
       * One stamp of eir own type.
@@ -2850,7 +2852,7 @@ Welcome Packages
       a welcome package (syn. "grant" em a welcome package).
 
 ------------------------------------------------------------------------
-Rule 2585/9 (Power=1)
+Rule 2585/10 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -2861,7 +2863,7 @@ Birthday Gifts
       eir Agoran Birthday on the anniversary of the day e most recently
       declared as eir Agoran Birthday.
       
-      In a timely manner after the start of a player's Agoran Birthday,
+      In a timely fashion after the start of a player's Agoran Birthday,
       the Registrar SHALL announce it.
 
 ------------------------------------------------------------------------
@@ -3033,7 +3035,7 @@ Stone Cost
       increased by 1.
 
 ------------------------------------------------------------------------
-Rule 2644/5 (Power=2)
+Rule 2644/6 (Power=2)
 Zen Gardening
 
       A player CAN, by announcement, Notice the Rock Garden, specifying
@@ -3042,14 +3044,15 @@ Zen Gardening
       
       When the Rock Garden is Noticed, the specified player wins the
       game.  If a player won the game in this manner 4 days ago, then
-      all existing stones are transferred to Agora.
+      all existing stones are transferred to Agora, after which the
+      Stone Cost of each stone is set to its default value.
 
 ------------------------------------------------------------------------
-Rule 2645/28 (Power=2)
+Rule 2645/30 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
-      following format: Stone Name (Frequency, Smoothness): Description.
+      following format: Stone Name (Frequency): Description.
       
       - Power Stone (weekly): When this stone is wielded, a specified
         player (defaulting to the wielder if not specified) is Power
@@ -3083,7 +3086,7 @@ The Stones
         stone is transferred to the eligible player. An eligible player
         is one who has not owned this stone since the last time it was
         transferred without being wielded. If this stone has been
-        wielded at least once in the last 15 days, it is immune.
+        wielded at least once in the past 15 days, it is immune.
       
       - Blank Stone (monthly): This stone has no effect.
       
@@ -3093,11 +3096,6 @@ The Stones
       
       - Radiance Stone (weekly): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
-      
-      - Loud Stone (monthly): When wielded, a specified player's Dream
-        is set to a specified Dream, and then e is Beguiled; Beguiling
-        is secured. A player's Dream CANNOT be flipped if e was Beguiled
-        in the last 7 days, rules to the contrary notwithstanding.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3534,7 +3532,7 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/30 (Power=2)
+Rule 103/31 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -3545,7 +3543,7 @@ The Speaker
       Speaker by announcement.
       
       Whenever the Prime Minister CAN appoint a Laureled player to the
-      office of Speaker, e SHALL do so in a timely manner, except that
+      office of Speaker, e SHALL do so in a timely fashion, except that
       the Prime Minister MAY defer appointing a new Speaker while there
       is pending one or more open CFJs that could plausibly determine or
       affect the question of whether a player is Laureled.  If the Prime

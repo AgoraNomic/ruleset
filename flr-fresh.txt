@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Jun 2024
+Date of this ruleset: 6 Jul 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 137
 
 Highest ID'd rule in this ruleset: 2694
-Highest ID'd Proposal Passed: 9123
+Highest ID'd Proposal Passed: 9133
 Highest ID'd Rule Enacted: 2694
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -928,7 +928,7 @@ Amended(1) by cleaning (Kate), 18 Sep 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2679/1 (Power=3)
+Rule 2679/2 (Power=3)
 Restrictions on Participation
 
       Banned is a secured negative boolean person switch tracked by the
@@ -966,15 +966,16 @@ Restrictions on Participation
       in the future.
       
       The Registrar SHALL publish any Request for Forgiveness e receives
-      in a timely manner. If the community deems the Request sincere and
-      appropriately reconciliatory, steps should be undertaken to flip
-      the submitter's Banned switch to False.
+      in a timely fashion. If the community deems the Request sincere
+      and appropriately reconciliatory, steps should be undertaken to
+      flip the submitter's Banned switch to False.
 
 History:
 
 Enacted by P8867 'Expectations, Values, Bans, and Forgiveness' (nix,
    Janet, R. Lee, Murphy, G.), 26 Nov 2022
 Amended(1) by P8903 'Effective forgiveness' (Janet), 26 Feb 2023
+Amended(2) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul 2024
 
 Annotations:
 
@@ -1873,11 +1874,11 @@ CFJ 3744-3745 (called 23 Jun 2019): When creating a proposal by
     attribute makes the creation fail.
 
 ------------------------------------------------------------------------
-Rule 2625/1 (Power=1.0)
+Rule 2625/2 (Power=1.0)
 Proposal Recycling
 
       If a referendum on a proposal was resolved as FAILED QUORUM in the
-      last seven days, the Promotor CAN once recycle the proposal by
+      past seven days, the Promotor CAN once recycle the proposal by
       announcement, adding it to the Proposal Pool and causing it to
       become pended.
 
@@ -1885,6 +1886,7 @@ History:
 
 Enacted by P8415 'Proposal Recycling Initiative' (Aris), 14 Jun 2020
 Amended(1) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
 
 Annotations:
 
@@ -2732,7 +2734,7 @@ Amended(18) by cleaning (kiako), 02 Mar 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1681/25 (Power=1)
+Rule 1681/27 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -2744,11 +2746,13 @@ The Logical Rulesets
       removed, as the Rulekeepor sees fit.
       
       The listing of each rule in the SLR must include the rule's ID
-      numberpower, title, and text.
+      number, power, title, and text.
       
       The listing of each rule in the SLR must additionally include a
-      reasonably accurate approximation of the number of changes made to
-      the rule (the rule's revision number). The Rulekeepor may exercise
+      revision number selected by the Rulekeepor. The Rulekeepor SHOULD
+      select revision numbers such that they can be used retrospectively
+      to determine that the text of a rule has changed while it
+      maintained the same ID number. The Rulekeepor may exercise
       reasonable discretion in calculating revision numbers.
       
       The Rulekeepor is strongly DISCOURAGED from including any
@@ -2825,6 +2829,9 @@ Amended(23) by cleaning (Janet), 29 Jun 2020
 Amended(24) by P9074 'Close enough' (Janet), 07 Apr 2024
 Amended(25) by P9121 'More Rules, Less Complex' (juniper, mqyhlkahu), 21
    Jun 2024
+Amended(26) by P9129 'Amendments are hard, okay?' (Janet), 06 Jul 2024
+Amended(27) by P9130 'Revision numbers, revised' (Janet, Gaelan), 06 Jul
+   2024
 
 Annotations:
 CFJ 3904 (called 18 Apr 2021): A rule amendment that results in no net
@@ -3885,12 +3892,12 @@ CFJ 1702 (called 12 Jul 2007): A requirement to submit something to an
     at the time.
 
 ------------------------------------------------------------------------
-Rule 2630/2 (Power=2.0)
+Rule 2630/3 (Power=2.0)
 The Administrative State
 
       Each officer CAN, with 1.5 Agoran consent, enact, amend, or repeal
       eir own office's Administrative Regulations. If e has won an
-      election for the office in the last 7 days, e CAN repeal them by
+      election for the office in the past 7 days, e CAN repeal them by
       announcement.  Administrative Regulations have the following
       properties:
       
@@ -3910,6 +3917,7 @@ Enacted by P8448 'Populist Administration' (Aris, Alexis, Falsifian), 30
 Amended(1) by P8469 'Bureaucratic Reenginerring' (Aris, Alexis,
    Falsifian, nix, G.), 08 Jul 2020
 Amended(2) by P8858 'Regulation Regulation' (snail), 01 Oct 2022
+Amended(3) by P9133 'Last from the Past' (snail), 06 Jul 2024
 
 Annotations:
 
@@ -4205,7 +4213,7 @@ CFJ 3739 (called 16 Jun 2019): To perform an action by temporary
     deputisation is to deputise.
 
 ------------------------------------------------------------------------
-Rule 2689/1 (Power=3.0)
+Rule 2689/2 (Power=3.0)
 Vacations & Delegation
 
       Delegate is an Office switch with possible values of "None" and
@@ -4220,12 +4228,12 @@ Vacations & Delegation
       
       An officer CAN and SHOULD take a Vacation from a specified office
       e has continuously held for over 6 months with 7 day notice, if e
-      has not done so in the last year. When an officer qualifies for a
+      has not done so in the past year. When an officer qualifies for a
       Vacation, the ADoP SHOULD encourage em to take one, at least once
       a quarter.
       
       An officer is On Vacation from a specified office if e has taken a
-      Vacation from that office in the last 30 days. The list of
+      Vacation from that office in the past 30 days. The list of
       officers currently on vacation is part of the ADoP's report.
       
       While the holder of an office is On Vacation, the Delegate of that
@@ -4248,15 +4256,16 @@ History:
 Enacted by P9072 'Vacations v4' (snail, nix, Janet, 4st, Yachay
    Wayllukuq, G., juan, Murphy, ais523), 18 Mar 2024
 Amended(1) by P9110 'Delegate removal' (Janet), 12 May 2024
+Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2691/0 (Power=2.0)
+Rule 2691/1 (Power=2.0)
 Sortition Procedure
 
       At the beginning of each quarter, the ADoP CAN by announcement,
-      and SHALL in a timely manner, initiate a sorition for each
+      and SHALL in a timely fashion, initiate a sorition for each
       sortitioned office if e has not already done so for that office.
       
       When a sortition is initiated, it enters the lots period. Any
@@ -4265,14 +4274,15 @@ Sortition Procedure
       to be an option for each current sortition.
       
       Seven days after a sortition is initiated, its lots period ends.
-      The ADoP CAN by announcement, and SHALL in a timely manner after a
-      lots period ends, randomly select one of the options for that
+      The ADoP CAN by announcement, and SHALL in a timely fashion after
+      a lots period ends, randomly select one of the options for that
       office. When e does so, that player becomes the officeholder for
       that office.
 
 History:
 
 Enacted by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(1) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul 2024
 
 Annotations:
 
@@ -4378,7 +4388,7 @@ Amended(5) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2143/37 (Power=1)
+Rule 2143/38 (Power=1)
 Official Reports and Duties
 
       For each person:
@@ -4402,7 +4412,7 @@ Official Reports and Duties
       Failure of a person to perform any weekly duty required of em
       within the allotted time is the Class 1+N infraction of Weekly
       Tardiness, where N is the number of times e has previously
-      committed the infraction in the last month.
+      committed the infraction in the past month.
       
       Failure of a person to perform any monthly duty required of em
       within the allotted time is the Class 3 infraction of Monthly
@@ -4475,6 +4485,7 @@ Amended(35) by P8679 'Properly Decriminalizing Lateness' (nix, G.,
    Janet, snail, Murphy), 28 May 2022
 Amended(36) by P8811 'Infractions' (nix), 24 Jul 2022
 Amended(37) by P8833 'Etiquette' (nix), 20 Aug 2022
+Amended(38) by P9133 'Last from the Past' (snail), 06 Jul 2024
 
 Annotations:
 CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
@@ -4973,7 +4984,7 @@ Amended(1) by cleaning (Alexis), 23 Jan 2020
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/27 (Power=1.7)
+Rule 2478/29 (Power=1.7)
 Justice
 
       An Infraction is a violation of a rule. The person who committed
@@ -4987,7 +4998,7 @@ Justice
       
       The Base of an infraction is N, where N is the number of
       previously-investigated, unforgiven infractions that have been
-      committed by the same person in the last 30 days. The previous
+      committed by the same person in the past 30 days. The previous
       notwithstanding, if the base of an infraction would be greater
       than its class, the infraction's base is equal to its class.
       
@@ -5001,12 +5012,12 @@ Justice
       The previous notwithstanding, an Investigator CANNOT investigate
       an infraction that has already been investigated or forgiven. The
       Investigator of a noted, unforgiven infraction SHALL investigate
-      the infraction in a timely manner after it has been noted;
+      the infraction in a timely fashion after it has been noted;
       failure to do so is the Class N infraction of Favoritism, where N
       is equal to the Class of the noted infraction.
       
       A player CAN, by announcement, "note" an unforgiven infraction
-      committed by any other player in the last 14 days, specifying the
+      committed by any other player in the past 14 days, specifying the
       incident and the rule it violates (or name of the Infraction if
       it has one); but a player CANNOT note an infraction that has
       already been investigated.
@@ -5058,17 +5069,20 @@ Amended(24) by P8830 'Justice & Forgiveness 2.1' (nix, Janet, G.,
 Amended(25) by P9028 'Fairness in Crime Act' (Janet), 26 Nov 2023
 Amended(26) by P9082 'yes, yes, I got the memo' (Gaelan), 07 Apr 2024
 Amended(27) by P9112 'What's a crime?' (Murphy), 26 May 2024
+Amended(28) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul
+   2024
+Amended(29) by P9133 'Last from the Past' (snail), 06 Jul 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2676/1 (Power=1.7)
+Rule 2676/2 (Power=1.7)
 Forgiveness
 
       All infractions that have not been forgiven are unforgiven.
       
       Any player CAN, with Agoran Consent, "forgive" an unforgiven
-      infraction that ocurred in the last 30 days. When an infraction
+      infraction that ocurred in the past 30 days. When an infraction
       is forgiven, if the infraction was investigated, a number of
       blots in the possession of the infracter equal to the number of
       blots specified by the investigation are destroyed or, if e has
@@ -5081,6 +5095,7 @@ History:
 Enacted by P8830 'Justice & Forgiveness 2.1' (nix, Janet, G., Murphy,
    snail), 20 Aug 2022
 Amended(1) by cleaning (Kate), 18 Sep 2023
+Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
 
 Annotations:
 
@@ -6285,12 +6300,12 @@ Amended(9) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/23 (Power=1)
+Rule 2499/24 (Power=1)
 Welcome Packages
 
       When a player receives a welcome package, if e has not received a
       welcome package, including under any previous definition, since e
-      last registered nor in the last 30 days, e gains the following
+      last registered nor in the past 30 days, e gains the following
       assets:
       
       * One stamp of eir own type.
@@ -6337,11 +6352,12 @@ Amended(21) by P8973 'Not so welcome anymore' (Janet), 25 May 2023
 Amended(22) by P9091 'Welcome package fix, again, again' (Janet, Aris),
    21 Apr 2024
 Amended(23) by P9098 'Welcome Spendies' (snail), 02 May 2024
+Amended(24) by P9133 'Last from the Past' (snail), 06 Jul 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2585/9 (Power=1)
+Rule 2585/10 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -6352,7 +6368,7 @@ Birthday Gifts
       eir Agoran Birthday on the anniversary of the day e most recently
       declared as eir Agoran Birthday.
       
-      In a timely manner after the start of a player's Agoran Birthday,
+      In a timely fashion after the start of a player's Agoran Birthday,
       the Registrar SHALL announce it.
 
 History:
@@ -6370,6 +6386,8 @@ Amended(7) by P8685 'auto-birthday' (G.), 25 Jun 2022
 Amended(8) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
    G., Janet, Shy Owl), 11 Dec 2022
 Amended(9) by P8965 'Registrar Tracks Birthdays' (nix), 19 May 2023
+Amended(10) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul
+   2024
 
 Annotations:
 CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
@@ -6629,7 +6647,7 @@ CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
     meaning in that paragraph.
 
 ------------------------------------------------------------------------
-Rule 2644/5 (Power=2)
+Rule 2644/6 (Power=2)
 Zen Gardening
 
       A player CAN, by announcement, Notice the Rock Garden, specifying
@@ -6638,7 +6656,8 @@ Zen Gardening
       
       When the Rock Garden is Noticed, the specified player wins the
       game.  If a player won the game in this manner 4 days ago, then
-      all existing stones are transferred to Agora.
+      all existing stones are transferred to Agora, after which the
+      Stone Cost of each stone is set to its default value.
 
 History:
 
@@ -6650,15 +6669,16 @@ Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 Retitled by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Amended(4) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
 Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
+Amended(6) by P9128 'Stone cost reset v2' (Janet), 06 Jul 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2645/28 (Power=2)
+Rule 2645/30 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
-      following format: Stone Name (Frequency, Smoothness): Description.
+      following format: Stone Name (Frequency): Description.
       
       - Power Stone (weekly): When this stone is wielded, a specified
         player (defaulting to the wielder if not specified) is Power
@@ -6692,7 +6712,7 @@ The Stones
         stone is transferred to the eligible player. An eligible player
         is one who has not owned this stone since the last time it was
         transferred without being wielded. If this stone has been
-        wielded at least once in the last 15 days, it is immune.
+        wielded at least once in the past 15 days, it is immune.
       
       - Blank Stone (monthly): This stone has no effect.
       
@@ -6702,11 +6722,6 @@ The Stones
       
       - Radiance Stone (weekly): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
-      
-      - Loud Stone (monthly): When wielded, a specified player's Dream
-        is set to a specified Dream, and then e is Beguiled; Beguiling
-        is secured. A player's Dream CANNOT be flipped if e was Beguiled
-        in the last 7 days, rules to the contrary notwithstanding.
 
 History:
 
@@ -6753,6 +6768,8 @@ Amended(26) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
 Amended(27) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
    2024
 Amended(28) by P9114 'Grind Stone' (snail), 21 Jun 2024
+Amended(29) by P9126 'More Stone Cleanup' (Mischief), 06 Jul 2024
+Amended(30) by P9133 'Last from the Past' (snail), 06 Jul 2024
 
 Annotations:
 
@@ -7495,7 +7512,7 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/30 (Power=2)
+Rule 103/31 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
@@ -7506,7 +7523,7 @@ The Speaker
       Speaker by announcement.
       
       Whenever the Prime Minister CAN appoint a Laureled player to the
-      office of Speaker, e SHALL do so in a timely manner, except that
+      office of Speaker, e SHALL do so in a timely fashion, except that
       the Prime Minister MAY defer appointing a new Speaker while there
       is pending one or more open CFJs that could plausibly determine or
       affect the question of whether a player is Laureled.  If the Prime
@@ -7570,6 +7587,8 @@ Amended(28) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris,
 Amended(29) by P8708 'Has Beens' (nix, snail, G., Madrid, 4st, Janet),
    17 Jul 2022
 Amended(30) by P8976 'Ruleset convergance' (Janet), 25 May 2023
+Amended(31) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul
+   2024
 
 Annotations:
 
