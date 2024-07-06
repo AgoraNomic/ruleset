@@ -14,12 +14,12 @@ text: |
 
   An officer CAN and SHOULD take a Vacation from a specified office
   e has continuously held for over 6 months with 7 day notice, if e
-  has not done so in the last year. When an officer qualifies for a
+  has not done so in the past year. When an officer qualifies for a
   Vacation, the ADoP SHOULD encourage em to take one, at least once
   a quarter.
 
   An officer is On Vacation from a specified office if e has taken a
-  Vacation from that office in the last 30 days. The list of
+  Vacation from that office in the past 30 days. The list of
   officers currently on vacation is part of the ADoP's report.
 
   While the holder of an office is On Vacation, the Delegate of that
@@ -47,3 +47,8 @@ history:
   date: 2024-05-12
   agent:
     proposal: "9110"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9133"

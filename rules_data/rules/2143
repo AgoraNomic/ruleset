@@ -23,7 +23,7 @@ text: |
   Failure of a person to perform any weekly duty required of em
   within the allotted time is the Class 1+N infraction of Weekly
   Tardiness, where N is the number of times e has previously
-  committed the infraction in the last month.
+  committed the infraction in the past month.
 
   Failure of a person to perform any monthly duty required of em
   within the allotted time is the Class 3 infraction of Monthly
@@ -245,6 +245,11 @@ history:
   date: 2022-08-20
   agent:
     proposal: "8833"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9133"
 annotations:
 - cfjs:
   - id: '2392'

@@ -13,7 +13,7 @@ text: |
 
    The Base of an infraction is N, where N is the number of
    previously-investigated, unforgiven infractions that have been
-   committed by the same person in the last 30 days. The previous
+   committed by the same person in the past 30 days. The previous
    notwithstanding, if the base of an infraction would be greater
    than its class, the infraction's base is equal to its class.
 
@@ -32,7 +32,7 @@ text: |
    is equal to the Class of the noted infraction.
 
    A player CAN, by announcement, "note" an unforgiven infraction
-   committed by any other player in the last 14 days, specifying the
+   committed by any other player in the past 14 days, specifying the
    incident and the rule it violates (or name of the Infraction if
    it has one); but a player CANNOT note an infraction that has
    already been investigated.
@@ -190,4 +190,9 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9132"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9133"
 annotations: []

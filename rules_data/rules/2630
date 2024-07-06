@@ -4,7 +4,7 @@ power: 2.0
 text: |
   Each officer CAN, with 1.5 Agoran consent, enact, amend, or repeal
   eir own office's Administrative Regulations. If e has won an
-  election for the office in the last 7 days, e CAN repeal them by
+  election for the office in the past 7 days, e CAN repeal them by
   announcement.  Administrative Regulations have the following
   properties:
 
@@ -32,4 +32,9 @@ history:
   date: 2022-10-01
   agent:
     proposal: "8858"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9133"
 annotations: []

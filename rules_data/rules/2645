@@ -37,7 +37,7 @@ text: |
     stone is transferred to the eligible player. An eligible player
     is one who has not owned this stone since the last time it was
     transferred without being wielded. If this stone has been
-    wielded at least once in the last 15 days, it is immune.
+    wielded at least once in the past 15 days, it is immune.
 
   - Blank Stone (monthly): This stone has no effect.
 
@@ -199,4 +199,9 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9126"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9133"
 annotations: []

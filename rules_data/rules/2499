@@ -4,7 +4,7 @@ power: 1
 text: |
   When a player receives a welcome package, if e has not received a
   welcome package, including under any previous definition, since e
-  last registered nor in the last 30 days, e gains the following
+  last registered nor in the past 30 days, e gains the following
   assets:
 
   * One stamp of eir own type.
@@ -140,4 +140,9 @@ history:
   date: 2024-05-02
   agent:
     proposal: "9098"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9133"
 annotations: []

@@ -3,7 +3,7 @@ name: Proposal Recycling
 power: 1.0
 text: |
   If a referendum on a proposal was resolved as FAILED QUORUM in the
-  last seven days, the Promotor CAN once recycle the proposal by
+  past seven days, the Promotor CAN once recycle the proposal by
   announcement, adding it to the Proposal Pool and causing it to
   become pended.
 history:
@@ -17,4 +17,9 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9133"
 annotations: []
