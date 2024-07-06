@@ -8,7 +8,8 @@ text: |
 
   When the Rock Garden is Noticed, the specified player wins the
   game.  If a player won the game in this manner 4 days ago, then
-  all existing stones are transferred to Agora.
+  all existing stones are transferred to Agora, after which the
+  Stone Cost of each stone is set to its default value.
 history:
 - change:
     type: enactment
@@ -45,4 +46,9 @@ history:
   date: 2021-09-24
   agent:
     proposal: "8604"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9128"
 annotations: []
