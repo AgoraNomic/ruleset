@@ -3,7 +3,7 @@ name: The Stones
 power: 2
 text: |
   The following stones are defined, one per paragraph, with the
-  following format: Stone Name (Frequency, Smoothness): Description.
+  following format: Stone Name (Frequency): Description.
 
   - Power Stone (weekly): When this stone is wielded, a specified
     player (defaulting to the wielder if not specified) is Power
@@ -47,11 +47,6 @@ text: |
 
   - Radiance Stone (weekly): When wielded, a specified player
     (defaulting to the wielder if not specified) gains 3 radiance.
-
-  - Loud Stone (monthly): When wielded, a specified player's Dream
-    is set to a specified Dream, and then e is Beguiled; Beguiling
-    is secured. A player's Dream CANNOT be flipped if e was Beguiled
-    in the last 7 days, rules to the contrary notwithstanding.
 history:
 - change:
     type: enactment
@@ -199,4 +194,9 @@ history:
   date: 2024-06-21
   agent:
     proposal: "9114"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9126"
 annotations: []
