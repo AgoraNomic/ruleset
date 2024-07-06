@@ -11,7 +11,7 @@ text: |
   removed, as the Rulekeepor sees fit.
 
   The listing of each rule in the SLR must include the rule's ID
-  numberpower, title, and text.
+  number, power, title, and text.
 
   The listing of each rule in the SLR must additionally include a
   reasonably accurate approximation of the number of changes made to
@@ -192,6 +192,11 @@ history:
   date: 2024-06-21
   agent:
     proposal: "9121"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9129"
 annotations:
 - cfjs:
   - id: 3904
