@@ -14,8 +14,10 @@ text: |
   number, power, title, and text.
 
   The listing of each rule in the SLR must additionally include a
-  reasonably accurate approximation of the number of changes made to
-  the rule (the rule's revision number). The Rulekeepor may exercise
+  revision number selected by the Rulekeepor. The Rulekeepor SHOULD
+  select revision numbers such that they can be used retrospectively
+  to determine that the text of a rule has changed while it
+  maintained the same ID number. The Rulekeepor may exercise
   reasonable discretion in calculating revision numbers.
 
   The Rulekeepor is strongly DISCOURAGED from including any
@@ -197,6 +199,11 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9129"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9130"
 annotations:
 - cfjs:
   - id: 3904
