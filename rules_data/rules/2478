@@ -27,7 +27,7 @@ text: |
    The previous notwithstanding, an Investigator CANNOT investigate
    an infraction that has already been investigated or forgiven. The
    Investigator of a noted, unforgiven infraction SHALL investigate
-   the infraction in a timely manner after it has been noted;
+   the infraction in a timely fashion after it has been noted;
    failure to do so is the Class N infraction of Favoritism, where N
    is equal to the Class of the noted infraction.
 
@@ -185,4 +185,9 @@ history:
   date: 2024-05-26
   agent:
     proposal: "9112"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9132"
 annotations: []

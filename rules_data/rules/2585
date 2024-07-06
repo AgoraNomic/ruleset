@@ -10,7 +10,7 @@ text: |
   eir Agoran Birthday on the anniversary of the day e most recently
   declared as eir Agoran Birthday.
 
-  In a timely manner after the start of a player's Agoran Birthday,
+  In a timely fashion after the start of a player's Agoran Birthday,
   the Registrar SHALL announce it.
 history:
 - change:
@@ -63,6 +63,11 @@ history:
   date: 2023-05-19
   agent:
     proposal: "8965"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9132"
 annotations:
 - cfjs:
   - id: 3873

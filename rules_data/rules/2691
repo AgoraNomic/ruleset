@@ -3,7 +3,7 @@ name: Sortition Procedure
 power: 2.0
 text: |
   At the beginning of each quarter, the ADoP CAN by announcement,
-  and SHALL in a timely manner, initiate a sorition for each
+  and SHALL in a timely fashion, initiate a sorition for each
   sortitioned office if e has not already done so for that office.
 
   When a sortition is initiated, it enters the lots period. Any
@@ -12,8 +12,8 @@ text: |
   to be an option for each current sortition.
 
   Seven days after a sortition is initiated, its lots period ends.
-  The ADoP CAN by announcement, and SHALL in a timely manner after a
-  lots period ends, randomly select one of the options for that
+  The ADoP CAN by announcement, and SHALL in a timely fashion after
+  a lots period ends, randomly select one of the options for that
   office. When e does so, that player becomes the officeholder for
   that office.
 history:
@@ -22,3 +22,8 @@ history:
   date: 2024-05-12
   agent:
     proposal: "9109"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9132"

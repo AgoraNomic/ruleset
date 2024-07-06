@@ -37,9 +37,9 @@ text: |
   in the future.
 
   The Registrar SHALL publish any Request for Forgiveness e receives
-  in a timely manner. If the community deems the Request sincere and
-  appropriately reconciliatory, steps should be undertaken to flip
-  the submitter's Banned switch to False.
+  in a timely fashion. If the community deems the Request sincere
+  and appropriately reconciliatory, steps should be undertaken to
+  flip the submitter's Banned switch to False.
 history:
 - change:
     type: enactment
@@ -51,3 +51,8 @@ history:
   date: 2023-02-26
   agent:
     proposal: "8903"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9132"

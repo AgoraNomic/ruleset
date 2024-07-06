@@ -10,7 +10,7 @@ text: |
   Speaker by announcement.
 
   Whenever the Prime Minister CAN appoint a Laureled player to the
-  office of Speaker, e SHALL do so in a timely manner, except that
+  office of Speaker, e SHALL do so in a timely fashion, except that
   the Prime Minister MAY defer appointing a new Speaker while there
   is pending one or more open CFJs that could plausibly determine or
   affect the question of whether a player is Laureled.  If the Prime
@@ -220,4 +220,9 @@ history:
   date: 2023-05-25
   agent:
     proposal: "8976"
+- change:
+    type: amendment
+  date: 2024-07-06
+  agent:
+    proposal: "9132"
 annotations: []
