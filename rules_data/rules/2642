@@ -7,13 +7,12 @@ text: |
 
   Any player CAN pay a fee of X Spendies to transfer a specified
   non-immune stone to emself, where X is the current Stone Cost of
-  the specified stone.
+  the specified stone. When this occurs, the stone cost of that
+  stone is set to its default value.
 
-  At the beginning of each week, for each stone that was not
-  transferred during the previous week, its Stone Cost is reduced by
-  1, to a minimum of 1. Then, for each stone that was transferred
-  more than once during the previous week, its Stone Cost is
-  increased by 1.
+  At the beginning of each Agoran week, the Stone Cost of each stone
+  is decreased by 1 (to a minimum of 1). When a stone is transferred
+  to Agora, its Stone Cost is reset to its default value.
 history:
 - change:
     type: enactment
@@ -87,6 +86,11 @@ history:
   date: 2024-05-12
   agent:
     proposal: "9108"
+- change:
+    type: amendment
+  date: 2024-07-13
+  agent:
+    proposal: "9138"
 annotations:
 - cfjs:
   - id: '4021'
