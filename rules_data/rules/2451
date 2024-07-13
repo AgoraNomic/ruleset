@@ -24,9 +24,6 @@ text: |
 
   - Manifesto (Promotor): The Prime Minister distributes a specified
     proposal in the Proposal Pool.
-
-  - Growth (Stonemason): The Prime Minister increases the mossiness
-    of a specified stone by 2.
 history:
 - change:
     type: enactment
@@ -96,4 +93,9 @@ history:
   date: 2024-01-28
   agent:
     proposal: "9051"
+- change:
+    type: amendment
+  date: 2024-07-13
+  agent:
+    proposal: "9140"
 annotations: []
