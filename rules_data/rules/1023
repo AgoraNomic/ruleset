@@ -10,53 +10,38 @@ text: |
      an exact instant (e.g. "when X, Y SHALL Z"), but not "in the
      same message", is instead interpreted as a requirement to
      perform that action in a timely fashion after that instant.
-
   2. The phrase "in an officially timely fashion" means "before the
      end of the next Agoran week". This time period is set when the
      requirement is created (i.e. between 7 and 14 days before the
      period ends).
-
   3. Agoran epochs:
-
-       1. Agoran days begin at midnight UTC.
-
-       2. Agoran weeks begin at midnight UTC on Monday. Eastman
-          weeks begin at midnight UTC on the 1st, 8th, 15th, 22nd,
-          and 29th of each Gregorian month; the fifth one of the
-          month (if any) lasts till the end of the month.
-
-       3. Agoran months begin at midnight UTC on the first day of
-          each Gregorian month.
-
-       4. Agoran quarters begin when the Agoran months of January,
-          April, July, and October begin.
-
-       5. Agoran years begin when the Agoran month of January
-          begins.
-
-       6. A pivot is either the instant at which Agora Nomic began
-          (June 30, 1993, 00:04:30 GMT +1200) or an instant at which
-          at least one person won the game. When used as a period of
-          time, a "Round" (historical syn: "game") is the period of
-          time between a pivot and the next pivot.
-
+     a. Agoran days begin at midnight UTC.
+     b. Agoran weeks begin at midnight UTC on Monday. Eastman weeks
+        begin at midnight UTC on the 1st, 8th, 15th, 22nd, and 29th
+        of each Gregorian month; the fifth one of the month (if any)
+        lasts till the end of the month.
+     c. Agoran months begin at midnight UTC on the first day of each
+        Gregorian month.
+     d. Agoran quarters begin when the Agoran months of January,
+        April, July, and October begin.
+     e. Agoran years begin when the Agoran month of January begins.
+     f. A pivot is either the instant at which Agora Nomic began
+        (June 30, 1993, 00:04:30 GMT +1200) or an instant at which
+        at least one person won the game. When used as a period of
+        time, a "Round" (historical syn: "game") is the period of
+        time between a pivot and the next pivot.
      The "Agoran" qualifier is assumed unless a different definition
      is indicated (e.g. Eastman weeks). These definitions do not
      apply to relative durations (e.g. "within <number> days after
      <event>").
-
   4. Two points in time are within a month of each other if:
-
-      1. they occur in the same Agoran month;
-
-      2. they occur in two consecutive Agoran months, and the later
-         of the two occurs in an earlier day in the month than the
-         earlier one;
-
-      3. they occur in two consecutive Agoran months on the same day
-         of the month, and the later of the two occurs at the same
-         or earlier time of day.
-
+     a. they occur in the same Agoran month;
+     b. they occur in two consecutive Agoran months, and the later
+        of the two occurs in an earlier day in the month than the
+        earlier one;
+     c. they occur in two consecutive Agoran months on the same day
+        of the month, and the later of the two occurs at the same or
+        earlier time of day.
   5. Any anniversary, monthly anniversary, or quarterly anniversary
      that would otherwise occur on a day of the month that does not
      exist (after considering any leap day) instead occurs on the
@@ -309,6 +294,11 @@ history:
   date: 2024-06-23
   agent:
     proposal: "9123"
+- change:
+    type: amendment
+  date: 2024-07-13
+  agent:
+    proposal: "9141"
 annotations:
 - cfjs:
   - id: '3624'
