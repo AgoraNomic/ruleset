@@ -21,7 +21,7 @@ text: |
   Objection as needed.
 
   Each Alive player CAN eliminate a specified Alive player by paying
-  a fee of 1 bang. Eliminating a player makes em Unalive, and then
+  a fee of 2 bangs. Eliminating a player makes em Unalive, and then
   grants em 1 bang.
 
   Any Alive player CAN Stand Alone by announcement, if there are no
@@ -50,3 +50,8 @@ history:
   date: 2024-06-21
   agent:
     proposal: "9117"
+- change:
+    type: amendment
+  date: 2024-07-13
+  agent:
+    proposal: "9134"
