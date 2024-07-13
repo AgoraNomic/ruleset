@@ -8,7 +8,9 @@ text: |
   of Oathbreaking, where N is the value explicitly stated by the
   pledge, or 2 if the pledge does not explicitly state a value.
   Allowing a pledge to expire without carrying out an action one
-  pledged to do in it constitutes breaking the pledge.
+  pledged to do in it constitutes breaking the pledge. If it would
+  otherwise be indeterminate whether a player has violated a pledge,
+  then e shall be deemed to have violated that pledge.
 
   The time window of a pledge is W days, where W is the value
   explicitly stated by the pledge, or 60 if the pledge does not
@@ -80,6 +82,11 @@ history:
   date: 2022-07-24
   agent:
     proposal: "8811"
+- change:
+    type: amendment
+  date: 2024-07-13
+  agent:
+    proposal: "9137"
 annotations:
 - cfjs:
   - id: 3683-3684
