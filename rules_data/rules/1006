@@ -11,17 +11,26 @@ text: |
   office, who may be referred to by the name of that office. If the
   holder of an office is ever not a player, it becomes vacant.
 
-  Imposed offices and sortitioned are offices described as such by
-  the rules that define them. All other offices are elected A person
-  CANNOT be made the holder of an elected office without eir
-  explicit or reasonably implied consent.
+  Imposed offices and sortitioned offices are offices described as
+  such by the rules that define them. All other offices are elected.
+  An office is voluntary if and only if it is elected or
+  sortitioned. The selection method for a sortitioned office is a
+  sortition for that office. The selection method for an elected
+  office is an election for that office.
 
-  The holder of an elected office CAN resign it by announcement,
-  causing it to become vacant. The non-interim holder of an elected
-  office CAN, with 3 support, resign the office while appointing
-  another player to become the holder of the office, provided that
-  other player is one of the Supporters. Any player CAN cause an
+  A person CANNOT be made the holder of a voluntary office without
+  eir consent. A person voluntarily entering emself into the
+  selection method of that office always satisfies this requirement,
+  regardless of whether it meets the normal definition of consent.
+
+  The holder of a voluntary office CAN resign it by announcement,
+  causing it to become vacant. Any player CAN cause a voluntary
   office to become vacant without 2 objections.
+
+  The non-interim holder of an elected office CAN, with 3 support,
+  resign the office while appointing another player to become the
+  holder of the office, provided that other player is one of the
+  supporters.
 
   Immediately after a proposal finishes taking effect, if one or
   more offices exist that did not exist prior to the proposal taking
@@ -316,6 +325,11 @@ history:
   date: 2024-05-12
   agent:
     proposal: "9109"
+- change:
+    type: amendment
+  date: 2024-07-13
+  agent:
+    proposal: "9136"
 annotations:
 - cfjs:
   - id: '1660'
