@@ -1,0 +1,46 @@
+id: 2696
+name: Bang actions
+power: 1.0
+text: |
+  While the match state is ongoing, a player CAN by announcement
+  load a round, specifying a document (the sealed orders), provided
+  that e has not done so in the current Agoran week.
+
+  While the match state is ongoing, a player CAN by announcement
+  fire a round, specifying a document (the revealed orders),
+  provided that all of the following are true:
+  * E was an alive player at the beginning of the current Agoran
+    week.
+  * E has not done so in the current Agoran week.
+  * In the previous Agoran week, e loaded a round with sealed orders
+    that are a fingerprint for the revealed orders.
+  * The order list explicitly and unconditionally specifies a single
+    clear, unambiguous, and unconditional list of persons to target
+    (the target list).
+
+  When a player (the shooter) fires a round, sequentially for each
+  person (the target) in the target list, if the shooter is alive
+  and has two bangs, and the target is an alive player, then two of
+  the shooter's bangs are destroyed, after which the target is
+  eliminated.
+
+  When a player is eliminated, if eir vitality is alive, then the
+  following happen in order:
+  * Eir vitality is flipped to unalive.
+  * E gains one bang.
+
+  A player who loaded a round in one Agoran week SHALL, within the
+  first four days of the next Agoran week, fire a round, provided
+  the match state has not changed during either period; failure to
+  do so is the class 1 infraction of wasting ammunition.
+
+  If the match state is ongoing and has not changed in the past 7
+  days, and if no player has loaded a round or fired a round in this
+  Agoran week or the previous two Agoran weeks, then the match state
+  becomes none.
+history:
+- change:
+    type: enactment
+  date: 2024-07-19
+  agent:
+    proposal: "9143"
