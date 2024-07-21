@@ -1,0 +1,29 @@
+id: 2695
+name: The Veblen
+power: 0.5
+text: |
+  The Veblen is a unique indestructible fixed asset.
+
+  Ownership of the Veblen is entirely restricted to Agora and
+  players. If the Veblen is owned by the Lost and Found Department
+  or in abeyance, it is immediately transferred to Agora.
+
+  The Veblen Cost is a secured singleton switch with values of
+  positive integers and a default of 1.
+
+  Any player CAN pay a fee of X Spendies to transfer the Veblen to
+  to emself, where X is a value greater than or equal to the current
+  Veblen Cost. Upon doing so, e gains ownership of the Veblen, and
+  the Veblen Cost is set to X+1.
+
+  The Veblen Cost and the ownership of the Veblen are tracked by the
+  Absurdor.
+
+  The owner of the Veblen SHOULD conspicuously show off eir
+  ownership of it from time to time.
+history:
+- change:
+    type: enactment
+  date: 2024-07-19
+  agent:
+    proposal: "9142"
