@@ -2,6 +2,68 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 21 Jul 2024
+Date of this ACORN: 28 Jul 2024
 
-No regulations exist.
+------------------------------------------------------------------------
+
+Table of Contents:
+
+Birthday Tournament
+   * Regulation BT31: HIGHEST NUMBER GAME
+
+
+------------------------------------------------------------------------
+
+========================================================================
+Birthday Tournament
+   This section has regulations governing the 2024 Birthday tournament.
+------------------------------------------------------------------------
+Regulation BT31/0
+HIGHEST NUMBER GAME
+
+      Any player CAN become a party to this tournament by announcement.
+      
+      7 days after this regulation is promulgated, Game Night starts.
+      
+      Tokens are a fungible fixed asset. The pot is an entity that can
+      own tokens.
+      
+      When Game Night starts, each party is granted 12 tokens.
+      
+      Immediately after the start of each week, if bidding did not begin
+      the previous week, bidding begins. Otherwise, revealing begins.
+      
+      During a week in which bidding began:
+      
+      * Each party CAN, by announcement, transfer tokens they own to the
+        pot.
+      
+      * Each party CAN once per week, by commitment, declare a secret
+        number (a text document containing a clear description of a
+        natural number).
+      
+      During a week in which revealing began:
+      
+      * Each party CAN, by announcement, reveal a secret number e
+        declared during the previous week, specifying its plaintext.
+        Parties CANNOT reveal a secret number that is higher than the
+        number of tokens transferred to the pot during the previous
+        week.
+      
+      * The leader is the party that has revealed the highest secret
+        number that is not equal to any other revealed secret number.
+        Immediately before the end of the week, transfer all tokens in
+        the pot to the leader.
+      
+      At the end of the third week in which revealing began, the party
+      or parties with the most tokens win this tournament, and this
+      tournament ends.
+
+History:
+
+Enacted by initiation of 2024 Birthday Tournament by 4st, 24 Jul 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+
