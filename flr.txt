@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 6 Jul 2024
+Date of this ruleset: 5 Aug 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
-Number of rules currently enacted: 137
+Number of rules currently enacted: 139
 
-Highest ID'd rule in this ruleset: 2694
-Highest ID'd Proposal Passed: 9133
-Highest ID'd Rule Enacted: 2694
+Highest ID'd rule in this ruleset: 2696
+Highest ID'd Proposal Passed: 9147
+Highest ID'd Rule Enacted: 2696
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -24,8 +24,6 @@ Table of Contents:
 The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
-Important Temporary Rules
-   * Rule 2683: The Boulder
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -140,6 +138,7 @@ Economics
    * Rule 2685: Crystals
    * Rule 2690: Spendies
    * Rule 2692: Bang!
+   * Rule 2696: Bang actions
 Stones
    * Rule 2640: Stones
    * Rule 2641: Wielding Stones
@@ -179,6 +178,8 @@ Agoran Culture
    * Rule 1769: Holidays
    * Rule 2029: Town Fountain
    * Rule 2694: Hats
+   * Rule 2683: The Boulder
+   * Rule 2695: The Veblen
 
 
 ------------------------------------------------------------------------
@@ -186,8 +187,8 @@ Agoran Culture
 Power Distribution:
 
 1  with Power=0.3
-2  with Power=0.5
-34 with Power=1
+3  with Power=0.5
+35 with Power=1
 3  with Power=1.5
 5  with Power=1.7
 29 with Power=2
@@ -296,36 +297,6 @@ Annotations:
 CFJ 3765 (called 31 Jul 2019): A reasonable combination of actions for
     allowing arbitrary rule changes could include repealing this rule
     first.
-
-------------------------------------------------------------------------
-========================================================================
-Important Temporary Rules
-   This category is a temporary dumping ground for rules that don't
-   easily fit in any other category but that hold special relevance for
-   the current gamestate.
-------------------------------------------------------------------------
-Rule 2683/2 (Power=0.5)
-The Boulder
-
-      The Absurdor is a sortitioned office.
-      
-      The Boulder's Height is a singleton integer switch defaulting to
-      0, tracked by the Absurdor.
-      
-      Each player CAN, once a week, by announcement, push the boulder.
-      When a player pushes the Boulder, its Height is increased by 1.
-      At the beginning of each week, if the boulder was not pushed in
-      the previous week, the Boulder's Height is set to 0. The Absurdor
-      SHOULD list the largest Height of the Boulder ever reached in eir
-      report.
-
-History:
-
-Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
-Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
-Amended(2) by P9109 'Sortition' (nix, Janet), 12 May 2024
-
-Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -1164,7 +1135,7 @@ CFJ 3797 (called 22 Jan 2020): Whether coming into existence is
     values) are.
 
 ------------------------------------------------------------------------
-Rule 1023/41 (Power=2)
+Rule 1023/42 (Power=2)
 Agoran Time
 
       The following terms are defined:
@@ -1175,53 +1146,38 @@ Agoran Time
          an exact instant (e.g. "when X, Y SHALL Z"), but not "in the
          same message", is instead interpreted as a requirement to
          perform that action in a timely fashion after that instant.
-      
       2. The phrase "in an officially timely fashion" means "before the
          end of the next Agoran week". This time period is set when the
          requirement is created (i.e. between 7 and 14 days before the
          period ends).
-      
       3. Agoran epochs:
-      
-           1. Agoran days begin at midnight UTC.
-      
-           2. Agoran weeks begin at midnight UTC on Monday. Eastman
-              weeks begin at midnight UTC on the 1st, 8th, 15th, 22nd,
-              and 29th of each Gregorian month; the fifth one of the
-              month (if any) lasts till the end of the month.
-      
-           3. Agoran months begin at midnight UTC on the first day of
-              each Gregorian month.
-      
-           4. Agoran quarters begin when the Agoran months of January,
-              April, July, and October begin.
-      
-           5. Agoran years begin when the Agoran month of January
-              begins.
-      
-           6. A pivot is either the instant at which Agora Nomic began
-              (June 30, 1993, 00:04:30 GMT +1200) or an instant at which
-              at least one person won the game. When used as a period of
-              time, a "Round" (historical syn: "game") is the period of
-              time between a pivot and the next pivot.
-      
+         a. Agoran days begin at midnight UTC.
+         b. Agoran weeks begin at midnight UTC on Monday. Eastman weeks
+            begin at midnight UTC on the 1st, 8th, 15th, 22nd, and 29th
+            of each Gregorian month; the fifth one of the month (if any)
+            lasts till the end of the month.
+         c. Agoran months begin at midnight UTC on the first day of each
+            Gregorian month.
+         d. Agoran quarters begin when the Agoran months of January,
+            April, July, and October begin.
+         e. Agoran years begin when the Agoran month of January begins.
+         f. A pivot is either the instant at which Agora Nomic began
+            (June 30, 1993, 00:04:30 GMT +1200) or an instant at which
+            at least one person won the game. When used as a period of
+            time, a "Round" (historical syn: "game") is the period of
+            time between a pivot and the next pivot.
          The "Agoran" qualifier is assumed unless a different definition
          is indicated (e.g. Eastman weeks). These definitions do not
          apply to relative durations (e.g. "within <number> days after
          <event>").
-      
       4. Two points in time are within a month of each other if:
-      
-          1. they occur in the same Agoran month;
-      
-          2. they occur in two consecutive Agoran months, and the later
-             of the two occurs in an earlier day in the month than the
-             earlier one;
-      
-          3. they occur in two consecutive Agoran months on the same day
-             of the month, and the later of the two occurs at the same
-             or earlier time of day.
-      
+         a. they occur in the same Agoran month;
+         b. they occur in two consecutive Agoran months, and the later
+            of the two occurs in an earlier day in the month than the
+            earlier one;
+         c. they occur in two consecutive Agoran months on the same day
+            of the month, and the later of the two occurs at the same or
+            earlier time of day.
       5. Any anniversary, monthly anniversary, or quarterly anniversary
          that would otherwise occur on a day of the month that does not
          exist (after considering any leap day) instead occurs on the
@@ -1284,6 +1240,7 @@ Amended(39) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
 Amended(40) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, Kate,
    Janet), 29 Jan 2020
 Amended(41) by P9123 'Anniversaries' (Mischief), 23 Jun 2024
+Amended(42) by P9141 'Time for some clarifications' (Janet), 13 Jul 2024
 
 Annotations:
 CFJ 3624 (called 09 Feb 2018): A condition of "continuously X for one
@@ -3776,7 +3733,7 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/48 (Power=2)
+Rule 1006/49 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -3788,17 +3745,26 @@ Offices
       office, who may be referred to by the name of that office. If the
       holder of an office is ever not a player, it becomes vacant.
       
-      Imposed offices and sortitioned are offices described as such by
-      the rules that define them. All other offices are elected A person
-      CANNOT be made the holder of an elected office without eir
-      explicit or reasonably implied consent.
+      Imposed offices and sortitioned offices are offices described as
+      such by the rules that define them. All other offices are elected.
+      An office is voluntary if and only if it is elected or
+      sortitioned. The selection method for a sortitioned office is a
+      sortition for that office. The selection method for an elected
+      office is an election for that office.
       
-      The holder of an elected office CAN resign it by announcement,
-      causing it to become vacant. The non-interim holder of an elected
-      office CAN, with 3 support, resign the office while appointing
-      another player to become the holder of the office, provided that
-      other player is one of the Supporters. Any player CAN cause an
+      A person CANNOT be made the holder of a voluntary office without
+      eir consent. A person voluntarily entering emself into the
+      selection method of that office always satisfies this requirement,
+      regardless of whether it meets the normal definition of consent.
+      
+      The holder of a voluntary office CAN resign it by announcement,
+      causing it to become vacant. Any player CAN cause a voluntary
       office to become vacant without 2 objections.
+      
+      The non-interim holder of an elected office CAN, with 3 support,
+      resign the office while appointing another player to become the
+      holder of the office, provided that other player is one of the
+      supporters.
       
       Immediately after a proposal finishes taking effect, if one or
       more offices exist that did not exist prior to the proposal taking
@@ -3876,6 +3842,8 @@ Amended(45) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 Amended(46) by P8944 'Effecting change' (Janet, ais523), 16 Apr 2023
 Amended(47) by P9012 'Official security' (Janet), 31 Oct 2023
 Amended(48) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(49) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
+   Jul 2024
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -3931,7 +3899,6 @@ The Election Cycle
       term for all other elected offices is 180 days.
       
       A player CAN initiate an election for a specified elected office:
-      
       
       a) With 2 support (if the office is either interim or term-
       limited) or 4 support (otherwise), and provided that the initiator
@@ -4094,15 +4061,15 @@ Amended(61) by P8967 'Campaign Please' (nix), 19 May 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2573/3 (Power=2)
+Rule 2573/4 (Power=2)
 Impeachment
 
       Any player CAN, with 2 Agoran consent, expel (impeach) the holder
-      of a specified elected office. When a person is impeached from an
-      office, an election is immediately opened for that office. Players
-      SHOULD NOT use this method of removal unless the officer has
-      abused the powers of eir office or otherwise shown emself unworthy
-      of the trust of Agora.
+      of a specified voluntary office. When a person is impeached from
+      an office, the selection method for that office is immediately
+      initiated (if possible). Players SHOULD NOT use this method of
+      removal unless the officer has abused the powers of eir office or
+      otherwise shown emself unworthy of the trust of Agora.
 
 History:
 
@@ -4110,11 +4077,13 @@ Enacted by P8036 'Impeachment' (Aris), 27 Apr 2018
 Amended(1) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep 2019
 Amended(2) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 Amended(3) by P8942 'Cleaning' (4st), 16 Apr 2023
+Amended(4) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
+   Jul 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2160/25 (Power=3)
+Rule 2160/26 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
@@ -4152,7 +4121,7 @@ Deputisation
           c) The time limit expired more than 28 days ago, and the
              deputisation is temporary.
       
-      When a player deputises for an elected office, e becomes the
+      When a player deputises for an voluntary office, e becomes the
       holder of that office, unless the deputisation is temporary, doing
       so would make em Overpowered, and/or the action being performed
       would already install someone into that office.
@@ -4195,6 +4164,8 @@ Amended(23) by P8646 'Deputisation rewrite' (Janet, G., ais523), 15 Mar
 Amended(24) by P8901 'Clarify deputisation' (Murphy), 26 Feb 2023
 Amended(25) by P9106 'No Overpowered Deputizations' (snail, Janet,
    Murphy, Juniper), 12 May 2024
+Amended(26) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
+   Jul 2024
 
 Annotations:
 CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
@@ -4256,12 +4227,17 @@ Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2691/1 (Power=2.0)
+Rule 2691/2 (Power=2.0)
 Sortition Procedure
 
-      At the beginning of each quarter, the ADoP CAN by announcement,
-      and SHALL in a timely fashion, initiate a sorition for each
-      sortitioned office if e has not already done so for that office.
+      A player CAN by announcement initiate a sortition for a vacant
+      sortitioned office for which a sortition is not ongoing. At the
+      beginning of each quarter, for each sortitioned office for which a
+      sortition is not ongoing, the ADoP CAN once by announcement, and
+      SHALL in a timely fashion, initiate a sortition.
+      
+      Rules to the contrary notwithstanding, a sortition CANNOT be
+      initiated for an office for which a sortition is ongoing.
       
       When a sortition is initiated, it enters the lots period. Any
       player CAN become an option for that office during this period. If
@@ -4273,11 +4249,16 @@ Sortition Procedure
       a lots period ends, randomly select one of the options for that
       office. When e does so, that player becomes the officeholder for
       that office.
+      
+      If a sortition is ever ongoing for a non-sortitioned office (or
+      for an office that no longer exists), that sortition immediately
+      ends.
 
 History:
 
 Enacted by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(1) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul 2024
+Amended(2) by P9144 'Sortition, again' (Janet), 05 Aug 2024
 
 Annotations:
 
@@ -5171,7 +5152,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/33 (Power=2)
+Rule 991/34 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -5207,6 +5188,13 @@ Calls for Judgement
       The Arbitor's weekly report includes a summary of recent judicial
       case activity, including open and recently-judged cases, recent
       judicial assignments, and a list of players interested in judging.
+      
+      If two CFJs become assigned to the same judge in the same message,
+      those CFJs are "linked" to each other, unless that message
+      specifies that the CFJs should not be linked. The Arbitor SHOULD
+      consider linking two CFJs if they inquire about the same or
+      substantially similar events and are called at approximately the
+      same time.
 
 History:
 
@@ -5258,6 +5246,7 @@ Amended(32) by P8454 'Judicial non-person fixes' (G., Janet, Publius
    Scribonious Scholasticus), 30 Jun 2020
 Amended(33) by P8455 'old judgements are good judgements' (G., Janet,
    Publius Scribonius Scholasticus), 30 Jun 2020
+Amended(34) by P9147 'Paradox cleanup fix' (ais523), 05 Aug 2024
 
 Annotations:
 CFJ 1692-1693 (called 20 Jun 2007): A CFJ can be unambiguously
@@ -5700,7 +5689,7 @@ Amended(4) by P9085 'Fix truthfulness loophole' (ais523), 07 Apr 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2450/11 (Power=1.7)
+Rule 2450/12 (Power=1.7)
 Pledges
 
       If a consenting Player makes a clear public pledge (syn. Oath) to
@@ -5709,7 +5698,9 @@ Pledges
       of Oathbreaking, where N is the value explicitly stated by the
       pledge, or 2 if the pledge does not explicitly state a value.
       Allowing a pledge to expire without carrying out an action one
-      pledged to do in it constitutes breaking the pledge.
+      pledged to do in it constitutes breaking the pledge. If it would
+      otherwise be indeterminate whether a player has violated a pledge,
+      then e shall be deemed to have violated that pledge.
       
       The time window of a pledge is W days, where W is the value
       explicitly stated by the pledge, or 60 if the pledge does not
@@ -5742,6 +5733,8 @@ Amended(9) by P8461 'Redoing Adopted Proposals' (R. Lee, Aris), 08 Jul
 Amended(10) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
    Janet), 25 Sep 2020
 Amended(11) by P8811 'Infractions' (nix), 24 Jul 2022
+Amended(12) by P9137 'A possible patch for a peculiar persisting pledge
+   paradox' (Quadrantal, Aris), 13 Jul 2024
 
 Annotations:
 CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
@@ -6476,52 +6469,96 @@ Amended(3) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2692/1 (Power=1.0)
+Rule 2692/3 (Power=1.0)
 Bang!
 
-      Bangs are a fungible asset.
+      Vitality is an untracked player switch with possible values of
+      alive, unalive, and ghostly (default). Bangs are a fungible asset.
       
-      Vitality is an untracked player Switch with possible values of
-      Invulnerable, Alive, Unalive, or Ghostly (default). A player with
-      a Vitality that is not Ghostly is called “corporeal”, else e is
-      called "ghostly".
+      Match state is an untracked singleton switch with possible values
+      none (default), initializing, and ongoing. If the match state is
+      none and has not changed in the past 7 days, a player CAN by
+      announcement flip it to initializing. When the match state is
+      flipped to none or to initializing, each player becomes ghostly
+      (if e is not already), then all bangs are destroyed.
       
-      To "incarnate" is to flip one's Vitality to Invulnerable. A
-      ghostly player CAN incarnate by announcement, provided there are
-      only Invulnerable or Ghostly players.
+      While the match state is initializing:
+      * A player CAN by announcement incarnate, thereby flipping eir
+        vitality to alive.
+      * A player CAN by announcement trigger the match, provided the
+        match state has not changed in the past 7 days.
+      * At the beginning of each Agoran week, if any player triggered
+        the match in the previous Agoran week, and if there at least
+        three alive players, the match state is flipped to ongoing,
+        after which each alive player gains a bang.
       
-      Each corporeal player SHOULD list eir Vitality and Bang Balance in
-      all eir messages.
+      If the match state is ongoing, no player has won the game as a
+      result of this Rule in the past 28 days, and a single player is
+      alive, that player CAN stand alone by announcement. When a player
+      stands alone, e wins the game. If a player won the game in this
+      manner 4 days ago, then the match state is flipped to none (if it
+      is not already).
       
-      Any player CAN publish a report of all Bang Balances and
-      Vitalities. Such a report SHOULD be made and Ratified Without
-      Objection as needed.
-      
-      Each Alive player CAN eliminate a specified Alive player by paying
-      a fee of 1 bang. Eliminating a player makes em Unalive, and then
-      grants em 1 bang.
-      
-      Any Alive player CAN Stand Alone by announcement, if there are no
-      other players that are Alive, and no person has won the game by
-      doing so in the past 7 days. When a player Stands Alone, e wins
-      the game. If a player won the game in this manner 4 days ago, then
-      the match is reset.
-      
-      When the match is reset, each player is set to Ghostly, all bangs
-      are destroyed, and then each player gains 1 bang.
-      
-      When 7 days have passed since the match is reset, all Invulnerable
-      players have eir Vitality set to Alive.
-      
-      When 14 days have passed since a player was last eliminated, the
-      match resets, and then each player that was alive immediately
-      before the match reset gains 1 bang.
+      When a player takes an action that causes one or more vitalities
+      or bang balances to change, e SHOULD recite all such changes in
+      the same message as which e takes that action. A document reciting
+      all bang balances and vitalities SHOULD be published and ratified
+      as needed.
 
 History:
 
 Enacted by P9116 'A friendly game v2' (snail, juan, Janet, ais523,
    Yachay Wayllukuq), 21 Jun 2024
 Amended(1) by P9117 'Self-Elimination' (Mischief), 21 Jun 2024
+Amended(2) by P9134 'It takes two' (snail, ais523), 13 Jul 2024
+Amended(3) by P9143 'A new duel' (Janet, Mischief), 19 Jul 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2696/0 (Power=1.0)
+Bang actions
+
+      While the match state is ongoing, a player CAN by announcement
+      load a round, specifying a document (the sealed orders), provided
+      that e has not done so in the current Agoran week.
+      
+      While the match state is ongoing, a player CAN by announcement
+      fire a round, specifying a document (the revealed orders),
+      provided that all of the following are true:
+      * E was an alive player at the beginning of the current Agoran
+        week.
+      * E has not done so in the current Agoran week.
+      * In the previous Agoran week, e loaded a round with sealed orders
+        that are a fingerprint for the revealed orders.
+      * The order list explicitly and unconditionally specifies a single
+        clear, unambiguous, and unconditional list of persons to target
+        (the target list).
+      
+      When a player (the shooter) fires a round, sequentially for each
+      person (the target) in the target list, if the shooter is alive
+      and has two bangs, and the target is an alive player, then two of
+      the shooter's bangs are destroyed, after which the target is
+      eliminated.
+      
+      When a player is eliminated, if eir vitality is alive, then the
+      following happen in order:
+      * Eir vitality is flipped to unalive.
+      * E gains one bang.
+      
+      A player who loaded a round in one Agoran week SHALL, within the
+      first four days of the next Agoran week, fire a round, provided
+      the match state has not changed during either period; failure to
+      do so is the class 1 infraction of wasting ammunition.
+      
+      If the match state is ongoing and has not changed in the past 7
+      days, and if no player has loaded a round or fired a round in this
+      Agoran week or the previous two Agoran weeks, then the match state
+      becomes none.
+
+History:
+
+Enacted by P9143 'A new duel' (Janet, Mischief), 19 Jul 2024
 
 Annotations:
 
@@ -6531,7 +6568,7 @@ Stones
    A game in which people try to collect Stones with various different
    Magical Powers OooOooh!
 ------------------------------------------------------------------------
-Rule 2640/8 (Power=2)
+Rule 2640/9 (Power=2)
 Stones
 
       A stone is a unique indestructible fixed asset defined by the
@@ -6549,7 +6586,8 @@ Stones
       stones.
       
       A stone is immune if and only if a rule of power 2 or more says it
-      is immune; otherwise it is non-immune.
+      is immune and it is not owned by Agora; otherwise it is
+      non-immune.
 
 History:
 
@@ -6564,6 +6602,8 @@ Amended(5) by P9062 'Insurance Policy' (kiako, ais523), 10 Mar 2024
 Amended(6) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(7) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May 2024
 Amended(8) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(9) by P9139 'Protection Stone Fix' (Mischief, Janet), 13 Jul
+   2024
 
 Annotations:
 
@@ -6600,7 +6640,7 @@ Amended(4) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2642/11 (Power=2)
+Rule 2642/12 (Power=2)
 Stone Cost
 
       Stone Cost is a Stone switch with values of non-negative integers
@@ -6608,13 +6648,12 @@ Stone Cost
       
       Any player CAN pay a fee of X Spendies to transfer a specified
       non-immune stone to emself, where X is the current Stone Cost of
-      the specified stone.
+      the specified stone. When this occurs, the stone cost of that
+      stone is set to its default value.
       
-      At the beginning of each week, for each stone that was not
-      transferred during the previous week, its Stone Cost is reduced by
-      1, to a minimum of 1. Then, for each stone that was transferred
-      more than once during the previous week, its Stone Cost is
-      increased by 1.
+      At the beginning of each Agoran week, the Stone Cost of each stone
+      is decreased by 1 (to a minimum of 1). When a stone is transferred
+      to Agora, its Stone Cost is reset to its default value.
 
 History:
 
@@ -6635,6 +6674,7 @@ Amended(9) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(10) by P9107 'Market Stone Pricing' (Jaff), 12 May 2024
 Amended(11) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
    2024
+Amended(12) by P9138 'Stone cost adjustments' (Janet), 13 Jul 2024
 
 Annotations:
 CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
@@ -6858,7 +6898,7 @@ Amended(1) by P8553 'Slightly less apathetic' (Janet), 09 Apr 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2553/5 (Power=1)
+Rule 2553/6 (Power=1)
 Win by Paradox
 
       If a CFJ about the effectiveness, possibility, or legality of a
@@ -6866,8 +6906,8 @@ Win by Paradox
       PARADOXICAL continuously for between 7 and 90 days, then that
       case's initiator, CAN, by announcement, Transcend Logic,
       specifying that CFJ, provided that e has not already won the game
-      with respect to that CFJ. When a person transcends logic, e wins
-      the game.
+      with respect to that CFJ or to a CFJ linked to it. When a person
+      transcends logic, e wins the game.
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
@@ -6881,6 +6921,7 @@ Amended(2) by P8453 'win indirection' (G.), 30 Jun 2020
 Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
 Amended(4) by P8609 'Axiom of Limitations' (Janet), 18 Oct 2021
 Amended(5) by cleaning (4st), 25 Apr 2023
+Amended(6) by P9147 'Paradox cleanup fix' (ais523), 05 Aug 2024
 
 Annotations:
 CFJ 3620 (called 06 Feb 2018): A CFJ assigned a judgment of PARADOXICAL
@@ -6893,7 +6934,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/31 (Power=3)
+Rule 2438/32 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6930,7 +6971,7 @@ Ribbons
       no valid ballots were AGAINST (after evaluating conditionals), its
       proposer earns an Orange Ribbon.
       
-      Green (G): While a person holds an elected office, has done so
+      Green (G): While a person holds an voluntary office, has done so
       continuously for the past 30 days, and has not failed to perform
       any duties of that office within the appropriate time limits
       during those 30 days, that person qualifies for a Green Ribbon.
@@ -7042,6 +7083,8 @@ Amended(29) by cleaning (4st), 25 Apr 2023
 Amended(30) by P9072 'Vacations v4' (snail, nix, Janet, 4st, Yachay
    Wayllukuq, G., juan, Murphy, ais523), 22 Mar 2024
 Amended(31) by cleaning (Mischief), 19 May 2024
+Amended(32) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
+   Jul 2024
 
 Annotations:
 
@@ -7650,7 +7693,7 @@ Power changed from 1 to 2 by P9035 'Unbreaking Motions' (snail, 4st), 10
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2451/11 (Power=2)
+Rule 2451/12 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -7675,9 +7718,6 @@ Executive Orders
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.
-      
-      - Growth (Stonemason): The Prime Minister increases the mossiness
-        of a specified stone by 2.
 
 History:
 
@@ -7696,6 +7736,8 @@ Amended(8) by cleaning (Murphy), 03 Nov 2019
 Amended(9) by P8923 'Department of Defense' (G.), 19 Mar 2023
 Amended(10) by P8955 'Disassembling the Device' (snail), 23 Apr 2023
 Amended(11) by P9051 'A Mossy Cabinet' (snail), 28 Jan 2024
+Amended(12) by P9140 'Whoops, missed one' (Quadrantal, Janet), 13 Jul
+   2024
 
 Annotations:
 
@@ -8044,6 +8086,61 @@ Hats
 History:
 
 Enacted by P9122 'Hats' (Mischief), 23 Jun 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2683/2 (Power=0.5)
+The Boulder
+
+      The Absurdor is a sortitioned office.
+      
+      The Boulder's Height is a singleton integer switch defaulting to
+      0, tracked by the Absurdor.
+      
+      Each player CAN, once a week, by announcement, push the boulder.
+      When a player pushes the Boulder, its Height is increased by 1.
+      At the beginning of each week, if the boulder was not pushed in
+      the previous week, the Boulder's Height is set to 0. The Absurdor
+      SHOULD list the largest Height of the Boulder ever reached in eir
+      report.
+
+History:
+
+Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
+Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
+Amended(2) by P9109 'Sortition' (nix, Janet), 12 May 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2695/0 (Power=0.5)
+The Veblen
+
+      The Veblen is a unique indestructible fixed asset.
+      
+      Ownership of the Veblen is entirely restricted to Agora and
+      players. If the Veblen is owned by the Lost and Found Department
+      or in abeyance, it is immediately transferred to Agora.
+      
+      The Veblen Cost is a secured singleton switch with values of
+      positive integers and a default of 1.
+      
+      Any player CAN pay a fee of X Spendies to transfer the Veblen to
+      to emself, where X is a value greater than or equal to the current
+      Veblen Cost. Upon doing so, e gains ownership of the Veblen, and
+      the Veblen Cost is set to X+1.
+      
+      The Veblen Cost and the ownership of the Veblen are tracked by the
+      Absurdor.
+      
+      The owner of the Veblen SHOULD conspicuously show off eir
+      ownership of it from time to time.
+
+History:
+
+Enacted by P9142 'Potential Further Absurdity' (Mischief, Janet), 19 Jul
+   2024
 
 Annotations:
 

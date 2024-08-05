@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 Jul 2024
+Date of this ruleset: 5 Aug 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2696
-Highest ID'd Proposal Passed: 9143
+Highest ID'd Proposal Passed: 9147
 Highest ID'd Rule Enacted: 2696
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -1610,7 +1610,6 @@ The Election Cycle
       
       A player CAN initiate an election for a specified elected office:
       
-      
       a) With 2 support (if the office is either interim or term-
       limited) or 4 support (otherwise), and provided that the initiator
       becomes a candidate in the same message.
@@ -1772,12 +1771,17 @@ Vacations & Delegation
       announcement flip the Delegate of that office to "None".
 
 ------------------------------------------------------------------------
-Rule 2691/1 (Power=2.0)
+Rule 2691/2 (Power=2.0)
 Sortition Procedure
 
-      At the beginning of each quarter, the ADoP CAN by announcement,
-      and SHALL in a timely fashion, initiate a sorition for each
-      sortitioned office if e has not already done so for that office.
+      A player CAN by announcement initiate a sortition for a vacant
+      sortitioned office for which a sortition is not ongoing. At the
+      beginning of each quarter, for each sortitioned office for which a
+      sortition is not ongoing, the ADoP CAN once by announcement, and
+      SHALL in a timely fashion, initiate a sortition.
+      
+      Rules to the contrary notwithstanding, a sortition CANNOT be
+      initiated for an office for which a sortition is ongoing.
       
       When a sortition is initiated, it enters the lots period. Any
       player CAN become an option for that office during this period. If
@@ -1789,6 +1793,10 @@ Sortition Procedure
       a lots period ends, randomly select one of the options for that
       office. When e does so, that player becomes the officeholder for
       that office.
+      
+      If a sortition is ever ongoing for a non-sortitioned office (or
+      for an office that no longer exists), that sortition immediately
+      ends.
 
 ------------------------------------------------------------------------
 Rule 2138/26 (Power=1)
@@ -2244,7 +2252,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/33 (Power=2)
+Rule 991/34 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -2280,6 +2288,13 @@ Calls for Judgement
       The Arbitor's weekly report includes a summary of recent judicial
       case activity, including open and recently-judged cases, recent
       judicial assignments, and a list of players interested in judging.
+      
+      If two CFJs become assigned to the same judge in the same message,
+      those CFJs are "linked" to each other, unless that message
+      specifies that the CFJs should not be linked. The Arbitor SHOULD
+      consider linking two CFJs if they inquire about the same or
+      substantially similar events and are called at approximately the
+      same time.
 
 ------------------------------------------------------------------------
 Rule 591/50 (Power=1.7)
@@ -3161,7 +3176,7 @@ Victory by Apathy
       days.
 
 ------------------------------------------------------------------------
-Rule 2553/5 (Power=1)
+Rule 2553/6 (Power=1)
 Win by Paradox
 
       If a CFJ about the effectiveness, possibility, or legality of a
@@ -3169,8 +3184,8 @@ Win by Paradox
       PARADOXICAL continuously for between 7 and 90 days, then that
       case's initiator, CAN, by announcement, Transcend Logic,
       specifying that CFJ, provided that e has not already won the game
-      with respect to that CFJ. When a person transcends logic, e wins
-      the game.
+      with respect to that CFJ or to a CFJ linked to it. When a person
+      transcends logic, e wins the game.
       
       A player who wins in this fashion SHOULD submit a proposal to
       prevent the paradox from arising again.
