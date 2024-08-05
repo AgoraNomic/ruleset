@@ -1,0 +1,14 @@
+Rule 2642/12 (Power=2)
+Stone Cost
+
+      Stone Cost is a Stone switch with values of non-negative integers
+      and a default of 10. Stone Cost is tracked by the Stonemason.
+      
+      Any player CAN pay a fee of X Spendies to transfer a specified
+      non-immune stone to emself, where X is the current Stone Cost of
+      the specified stone. When this occurs, the stone cost of that
+      stone is set to its default value.
+      
+      At the beginning of each Agoran week, the Stone Cost of each stone
+      is decreased by 1 (to a minimum of 1). When a stone is transferred
+      to Agora, its Stone Cost is reset to its default value.
