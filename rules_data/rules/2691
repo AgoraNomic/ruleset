@@ -2,9 +2,14 @@ id: 2691
 name: Sortition Procedure
 power: 2.0
 text: |
-  At the beginning of each quarter, the ADoP CAN by announcement,
-  and SHALL in a timely fashion, initiate a sorition for each
-  sortitioned office if e has not already done so for that office.
+  A player CAN by announcement initiate a sortition for a vacant
+  sortitioned office for which a sortition is not ongoing. At the
+  beginning of each quarter, for each sortitioned office for which a
+  sortition is not ongoing, the ADoP CAN once by announcement, and
+  SHALL in a timely fashion, initiate a sortition.
+
+  Rules to the contrary notwithstanding, a sortition CANNOT be
+  initiated for an office for which a sortition is ongoing.
 
   When a sortition is initiated, it enters the lots period. Any
   player CAN become an option for that office during this period. If
@@ -16,6 +21,10 @@ text: |
   a lots period ends, randomly select one of the options for that
   office. When e does so, that player becomes the officeholder for
   that office.
+
+  If a sortition is ever ongoing for a non-sortitioned office (or
+  for an office that no longer exists), that sortition immediately
+  ends.
 history:
 - change:
     type: enactment
@@ -27,3 +36,8 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9132"
+- change:
+    type: amendment
+  date: 2024-08-05
+  agent:
+    proposal: "9144"
