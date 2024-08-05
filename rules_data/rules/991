@@ -35,6 +35,13 @@ text: |
   The Arbitor's weekly report includes a summary of recent judicial
   case activity, including open and recently-judged cases, recent
   judicial assignments, and a list of players interested in judging.
+
+  If two CFJs become assigned to the same judge in the same message,
+  those CFJs are "linked" to each other, unless that message
+  specifies that the CFJs should not be linked. The Arbitor SHOULD
+  consider linking two CFJs if they inquire about the same or
+  substantially similar events and are called at approximately the
+  same time.
 history:
 - change:
     type: initial
@@ -239,6 +246,11 @@ history:
   date: 2020-06-30
   agent:
     proposal: "8455"
+- change:
+    type: amendment
+  date: 2024-08-05
+  agent:
+    proposal: "9147"
 annotations:
 - cfjs:
   - id: 1692-1693
