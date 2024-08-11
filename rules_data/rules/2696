@@ -20,9 +20,9 @@ text: |
 
   When a player (the shooter) fires a round, sequentially for each
   person (the target) in the target list, if the shooter is alive
-  and has two bangs, and the target is an alive player, then two of
-  the shooter's bangs are destroyed, after which the target is
-  eliminated.
+  and has at least two bangs, and the target is an alive player,
+  then two of the shooter's bangs are destroyed, after which the
+  target is eliminated.
 
   When a player is eliminated, if eir vitality is alive, then the
   following happen in order:
@@ -44,3 +44,8 @@ history:
   date: 2024-07-19
   agent:
     proposal: "9143"
+- change:
+    type: amendment
+  date: 2024-08-11
+  agent:
+    proposal: "9149"
