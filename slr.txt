@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 5 Aug 2024
+Date of this ruleset: 11 Aug 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2696
-Highest ID'd Proposal Passed: 9147
+Highest ID'd Proposal Passed: 9152
 Highest ID'd Rule Enacted: 2696
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -2956,7 +2956,7 @@ Bang!
       as needed.
 
 ------------------------------------------------------------------------
-Rule 2696/0 (Power=1.0)
+Rule 2696/1 (Power=1.0)
 Bang actions
 
       While the match state is ongoing, a player CAN by announcement
@@ -2977,9 +2977,9 @@ Bang actions
       
       When a player (the shooter) fires a round, sequentially for each
       person (the target) in the target list, if the shooter is alive
-      and has two bangs, and the target is an alive player, then two of
-      the shooter's bangs are destroyed, after which the target is
-      eliminated.
+      and has at least two bangs, and the target is an alive player,
+      then two of the shooter's bangs are destroyed, after which the
+      target is eliminated.
       
       When a player is eliminated, if eir vitality is alive, then the
       following happen in order:
@@ -3060,12 +3060,16 @@ Stone Cost
       to Agora, its Stone Cost is reset to its default value.
 
 ------------------------------------------------------------------------
-Rule 2644/6 (Power=2)
+Rule 2644/7 (Power=2)
 Zen Gardening
 
+      A player has an impressive rock collection if e:
+      1) owns 10 or more stones; or
+      2) owns 8 or more stones and does not own the Tacky Stone.
+      
       A player CAN, by announcement, Notice the Rock Garden, specifying
-      a single player that owns 8 or more stones, provided that no
-      person has won the game by doing so in the past 30 days.
+      a single player with an impressive rock collection, provided that
+      no person has won the game by doing so in the past 30 days.
       
       When the Rock Garden is Noticed, the specified player wins the
       game.  If a player won the game in this manner 4 days ago, then
@@ -3073,7 +3077,7 @@ Zen Gardening
       Stone Cost of each stone is set to its default value.
 
 ------------------------------------------------------------------------
-Rule 2645/30 (Power=2)
+Rule 2645/31 (Power=2)
 The Stones
 
       The following stones are defined, one per paragraph, with the
@@ -3121,6 +3125,14 @@ The Stones
       
       - Radiance Stone (weekly): When wielded, a specified player
         (defaulting to the wielder if not specified) gains 3 radiance.
+      
+      - Tacky Stone (monthly): Wielding the Tacky Stone reminds everyone
+        how much of an eyesore it is. If the Tacky Stone is not immune,
+        any player CAN pay a fee of X Spendies to transfer the Tacky
+        Stone to a specified entity that the rules permit to own stones,
+        where X is the current Stone Cost of the Tacky Stone. When this
+        occurs, the stone cost of the Tacky Stone is set to its default
+        value.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3862,25 +3874,22 @@ The Boulder
       report.
 
 ------------------------------------------------------------------------
-Rule 2695/0 (Power=0.5)
+Rule 2695/1 (Power=0.5)
 The Veblen
 
-      The Veblen is a unique indestructible fixed asset.
+      The Veblen is a unique indestructible fixed asset tracked by the
+      Abusrdor, with ownership entirely restricted to players and Agora.
+      If the Veblen would otherwise be in abeyance, or if it is owned by
+      the Lost and Found Department, it is immediately transferred to
+      Agora.
       
-      Ownership of the Veblen is entirely restricted to Agora and
-      players. If the Veblen is owned by the Lost and Found Department
-      or in abeyance, it is immediately transferred to Agora.
+      The Veblen cost is a secured singleton positive integer switch
+      tracked by the Absurdor and with default value one.
       
-      The Veblen Cost is a secured singleton switch with values of
-      positive integers and a default of 1.
-      
-      Any player CAN pay a fee of X Spendies to transfer the Veblen to
-      to emself, where X is a value greater than or equal to the current
-      Veblen Cost. Upon doing so, e gains ownership of the Veblen, and
-      the Veblen Cost is set to X+1.
-      
-      The Veblen Cost and the ownership of the Veblen are tracked by the
-      Absurdor.
+      A player who does not own the Veblen CAN pay a fee of X spendies
+      to purchase the Veblen, where X is an integer not less than the
+      current Veblen cost. When e does so, the Veblen is transferred to
+      em, then the Veblen cost is set to X+1.
       
       The owner of the Veblen SHOULD conspicuously show off eir
       ownership of it from time to time.
