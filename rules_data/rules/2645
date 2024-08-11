@@ -47,6 +47,14 @@ text: |
 
   - Radiance Stone (weekly): When wielded, a specified player
     (defaulting to the wielder if not specified) gains 3 radiance.
+
+  - Tacky Stone (monthly): Wielding the Tacky Stone reminds everyone
+    how much of an eyesore it is. If the Tacky Stone is not immune,
+    any player CAN pay a fee of X Spendies to transfer the Tacky
+    Stone to a specified entity that the rules permit to own stones,
+    where X is the current Stone Cost of the Tacky Stone. When this
+    occurs, the stone cost of the Tacky Stone is set to its default
+    value.
 history:
 - change:
     type: enactment
@@ -204,4 +212,9 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9133"
+- change:
+    type: amendment
+  date: 2024-08-11
+  agent:
+    proposal: "9152"
 annotations: []

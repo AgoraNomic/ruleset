@@ -2,9 +2,13 @@ id: 2644
 name: Zen Gardening
 power: 2
 text: |
+  A player has an impressive rock collection if e:
+  1) owns 10 or more stones; or
+  2) owns 8 or more stones and does not own the Tacky Stone.
+
   A player CAN, by announcement, Notice the Rock Garden, specifying
-  a single player that owns 8 or more stones, provided that no
-  person has won the game by doing so in the past 30 days.
+  a single player with an impressive rock collection, provided that
+  no person has won the game by doing so in the past 30 days.
 
   When the Rock Garden is Noticed, the specified player wins the
   game.  If a player won the game in this manner 4 days ago, then
@@ -51,4 +55,9 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9128"
+- change:
+    type: amendment
+  date: 2024-08-11
+  agent:
+    proposal: "9152"
 annotations: []
