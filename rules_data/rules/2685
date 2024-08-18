@@ -7,9 +7,10 @@ text: |
   A crystal is an indestructible asset with secured integer switches
   identity, size (default 0), and instability (default 0).
 
-  At the beginning of each quarter, each crystal whose identity is
-  not equal to the ID of any rule in the current ruleset has its
-  size increased by 3.
+  Once a quarter, the Geologist CAN (and SHALL during its first
+  Eastman week) publish a Notice of Crystal Growth, upon which each
+  crystal whose identity is not equal to the ID of any rule in the
+  current ruleset has its size increased by 3.
 
   If a proposal amends or repeals a rule, if a crystal exists whose
   identity equals that rule's id, that crystal absorbs that
@@ -88,3 +89,8 @@ history:
   date: 2024-05-12
   agent:
     proposal: "9109"
+- change:
+    type: amendment
+  date: 2024-08-18
+  agent:
+    proposal: "9154"
