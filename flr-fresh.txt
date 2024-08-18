@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 11 Aug 2024
+Date of this ruleset: 18 Aug 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 139
 
 Highest ID'd rule in this ruleset: 2696
-Highest ID'd Proposal Passed: 9152
+Highest ID'd Proposal Passed: 9154
 Highest ID'd Rule Enacted: 2696
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -4898,7 +4898,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/15 (Power=2)
+Rule 2555/16 (Power=2)
 Blots
 
       Blots are an indestructible fixed fungible asset with ownership
@@ -4913,12 +4913,12 @@ Blots
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
       
-      
       Any player CAN pay a fee of 7 Spendies to revoke a blot from a
       specified person.
       
-      At the beginning of each quarter, half (rounded down) of each
-      fugitive's blots are destroyed.
+      Once a quarter, the Referee CAN (and SHALL during its first
+      Eastman week) publish a Notice of Clemency, upon which half
+      (rounded down) of each fugitive's blots are destroyed.
 
 History:
 
@@ -4941,6 +4941,8 @@ Amended(12) by P8935 'Quicker Peer Expungement' (nix, Aris, G.), 02 Apr
 Amended(13) by P9076 'FUNgibility' (nix), 07 Apr 2024
 Amended(14) by P9092 'Paying your time' (ais523), 21 Apr 2024
 Amended(15) by P9092 'Paying your time' (ais523), 21 Apr 2024
+Amended(16) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
+   18 Aug 2024
 
 Annotations:
 
@@ -6387,7 +6389,7 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2685/7 (Power=1.0)
+Rule 2685/8 (Power=1.0)
 Crystals
 
       The Geologist is a sortitioned office that tracks crystals.
@@ -6395,9 +6397,10 @@ Crystals
       A crystal is an indestructible asset with secured integer switches
       identity, size (default 0), and instability (default 0).
       
-      At the beginning of each quarter, each crystal whose identity is
-      not equal to the ID of any rule in the current ruleset has its
-      size increased by 3.
+      Once a quarter, the Geologist CAN (and SHALL during its first
+      Eastman week) publish a Notice of Crystal Growth, upon which each
+      crystal whose identity is not equal to the ID of any rule in the
+      current ruleset has its size increased by 3.
       
       If a proposal amends or repeals a rule, if a crystal exists whose
       identity equals that rule's id, that crystal absorbs that
@@ -6420,7 +6423,6 @@ Crystals
       - If the instability of that crystal is greater than its size, it
         is transferred to the author of the proposal, then its
         instability becomes equal to its size.
-      
       
       A player is crystallized if the total size of crystals e owns is
       at least the number of rules in the current ruleset.
@@ -6448,6 +6450,8 @@ Amended(5) by P9094 'More instability with a hyphen' (snail, R. Lee), 21
    Apr 2024
 Amended(6) by P9095 'Spendy Sizing' (snail), 21 Apr 2024
 Amended(7) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(8) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
+   18 Aug 2024
 
 Annotations:
 
@@ -6834,7 +6838,7 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/8 (Power=1.5)
+Rule 2656/9 (Power=1.5)
 Radiance
 
       The Illuminator is a sortitioned office, responsible for tracking
@@ -6850,8 +6854,10 @@ Radiance
       eir radiance is set to 0, and all other players' radiance are set
       to half their current value rounded down.
       
-      At the start of every quarter, all radiance switches are set to
-      half their current value rounded down.
+      Once a quarter, the Illuminator CAN (and SHALL during its first
+      Eastman week) publish a Notice of Diminution, upon which all
+      radiance switches are set to half their current value rounded
+      down.
       
       Any player CAN increase eir radiance by 1 by paying a fee of 2
       Spendies.
@@ -6870,6 +6876,8 @@ Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
 Amended(6) by P9026 'It's a bit dark in here' (Janet, Kate), 19 Nov 2023
 Amended(7) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(8) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(9) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
+   18 Aug 2024
 
 Annotations:
 
