@@ -1,0 +1,24 @@
+id: 2697
+name: The Bounty Board
+power: 1.0
+text: |
+  Bounty Amount is an untracked player switch. Its possible values
+  are all integers from 0 to 10 inclusive, where 0 is the default.
+
+  Twice each month, each player CAN, by announcement, put a bounty
+  on a specified player. Doing so increases the specified player's
+  Bounty Amount by 1.
+
+  Immediately after an alive player is eliminated, the shooter gains
+  a number of spendies equal to the target's Bounty Amount, and then
+  the target's bounty amount is flipped to 0.
+
+  The shooter SHOULD publish the target's Bounty Amount at the time
+  of the elimination when e eliminates a target with a non-zero
+  Bounty Amount.
+history:
+- change:
+    type: enactment
+  date: 2024-09-01
+  agent:
+    proposal: "9167"
