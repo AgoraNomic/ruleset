@@ -1,0 +1,35 @@
+Rule 2692/3 (Power=1.0)
+Bang!
+
+      Vitality is an untracked player switch with possible values of
+      alive, unalive, and ghostly (default). Bangs are a fungible asset.
+      
+      Match state is an untracked singleton switch with possible values
+      none (default), initializing, and ongoing. If the match state is
+      none and has not changed in the past 7 days, a player CAN by
+      announcement flip it to initializing. When the match state is
+      flipped to none or to initializing, each player becomes ghostly
+      (if e is not already), then all bangs are destroyed.
+      
+      While the match state is initializing:
+      * A player CAN by announcement incarnate, thereby flipping eir
+        vitality to alive.
+      * A player CAN by announcement trigger the match, provided the
+        match state has not changed in the past 7 days.
+      * At the beginning of each Agoran week, if any player triggered
+        the match in the previous Agoran week, and if there at least
+        three alive players, the match state is flipped to ongoing,
+        after which each alive player gains a bang.
+      
+      If the match state is ongoing, no player has won the game as a
+      result of this Rule in the past 28 days, and a single player is
+      alive, that player CAN stand alone by announcement. When a player
+      stands alone, e wins the game. If a player won the game in this
+      manner 4 days ago, then the match state is flipped to none (if it
+      is not already).
+      
+      When a player takes an action that causes one or more vitalities
+      or bang balances to change, e SHOULD recite all such changes in
+      the same message as which e takes that action. A document reciting
+      all bang balances and vitalities SHOULD be published and ratified
+      as needed.

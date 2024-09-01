@@ -1,0 +1,15 @@
+Rule 2644/7 (Power=2)
+Zen Gardening
+
+      A player has an impressive rock collection if e:
+      1) owns 10 or more stones; or
+      2) owns 8 or more stones and does not own the Tacky Stone.
+      
+      A player CAN, by announcement, Notice the Rock Garden, specifying
+      a single player with an impressive rock collection, provided that
+      no person has won the game by doing so in the past 30 days.
+      
+      When the Rock Garden is Noticed, the specified player wins the
+      game.  If a player won the game in this manner 4 days ago, then
+      all existing stones are transferred to Agora, after which the
+      Stone Cost of each stone is set to its default value.

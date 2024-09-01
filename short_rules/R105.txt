@@ -1,0 +1,64 @@
+Rule 105/25 (Power=3)
+Rule Changes
+
+      When the rules provide that an instrument takes effect, it can
+      generally:
+      
+      1. enact a rule. The new rule has power equal to the minimum of
+         the power specified by the enacting instrument, defaulting to
+         one if the enacting instrument does not specify or if it
+         specifies a power less than 0.1, and the maximum power
+         permitted by other rules. The enacting instrument may specify a
+         title for the new rule, which if present shall prevail. The ID
+         number of the new rule cannot be specified by the enacting
+         instrument; any attempt to so specify is null and void.
+      
+      2. repeal a rule. When a rule is repealed, it ceases to be a rule,
+         its power is set to 0, and the Rulekeepor need no longer
+         maintain a record of it.
+      
+      3. reenact a rule. A repealed rule identified by its most recent
+         rule number MUST be reenacted with the same ID number. If no
+         text is specified, the rule is reenacted with the same text it
+         had when it was most recently repealed. If the reenacting
+         proposal provides new text for the rule, the rule SHOULD have
+         materially the same purpose as did the repealed version. Unless
+         specified otherwise by the reenacting instrument, a reenacted
+         rule has power equal to the power it had at the time of its
+         repeal (or power 1, if power was not defined at the time of
+         that rule's repeal). If the reenacting instrument is incapable
+         of setting the reenacted rule's power to that value, then the
+         reenactment is null and void.
+      
+      4. amend the text of a rule.
+      
+      5. retitle a rule.
+      
+      6. change the power of a rule.
+      
+      A rule change is any effect that falls into the above classes.
+      Rule changes always occur sequentially, never simultaneously. If a
+      specification would ever be interpreted as causing multiple
+      changes to happen at once, it is instead interpreted as attempting
+      to cause them to occur separately, in the order they are listed in
+      the specification.
+      
+      Any ambiguity in the specification of a rule change causes that
+      change to be void and without effect. An inconsequential variation
+      in the quotation of an existing rule does not constitute ambiguity
+      for the purposes of this rule. Furthermore, if the change being
+      specified would be clear to any reasonable player, the
+      specification is not ambiguous, even if it is incorrect or unclear
+      on its face. This provision does not prevent the specification of
+      undesirable changes; for instance, an amendment which adds a typo
+      is not corrected to remove the typo.
+      
+      A rule change is wholly prevented from taking effect unless its
+      full text was published, along with an unambiguous and clear
+      specification of the method to be used for changing the rule, at
+      least 4 days and no more than 60 days before it would otherwise
+      take effect.
+      
+      This rule provides the only mechanism by which rules can be
+      created, modified, or destroyed, or by which an entity can become
+      a rule or cease to be a rule.
