@@ -6,17 +6,17 @@ text: |
 
   1. If any task is defined by the rules as part of that person's
      weekly duties, then e SHALL perform it at least once each week.
-     If any information is defined by the rules as part of that
-     person's weekly report, then e SHALL maintain all such
-     information, and the publication of all such information is
-     part of eir weekly duties.
 
   2. If any task is defined by the rules as part of that person's
-     monthly duties, then e SHALL perform it at least once each
-     month. If any information is defined by the rules as part of
-     that person's monthly report, then e SHALL maintain all such
-     information, and the publication of all such information is
-     part of eir monthly duties.
+     monthly duties, then e SHALL perform it at least once each month.
+
+  For each office, if any information is defined by the rules as
+  part of that office's weekly or monthly report, then its
+  officeholder SHALL maintain all such information, and eir weekly
+  or monthly duties respectively include publishing a document or
+  series of documents, labelled as that office's report (or as that
+  office's weekly or monthly report as appropriate), that includes
+  all such information.
 
   Any information defined by the rules as part of a person's report,
   without specifying which one, is part of eir weekly report.
@@ -250,6 +250,11 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9133"
+- change:
+    type: amendment
+  date: 2024-09-01
+  agent:
+    proposal: "9161"
 annotations:
 - cfjs:
   - id: '2392'
