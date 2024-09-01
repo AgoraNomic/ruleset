@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 25 Aug 2024
+Date of this ruleset: 1 Sep 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 139
 
-Highest ID'd rule in this ruleset: 2696
-Highest ID'd Proposal Passed: 9154
-Highest ID'd Rule Enacted: 2696
+Highest ID'd rule in this ruleset: 2697
+Highest ID'd Proposal Passed: 9167
+Highest ID'd Rule Enacted: 2697
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -69,7 +69,6 @@ Rules & Regulations
    * Rule 2486: The Royal Parade
    * Rule 1051: The Rulekeepor
    * Rule 1681: The Logical Rulesets
-   * Rule 2693: The Simplifior
    * Rule 2221: Cleanliness and Tidy Filing
    * Rule 2429: Bleach
    * Rule 2614: Eclipse Light
@@ -144,6 +143,7 @@ Economics
    * Rule 2690: Spendies
    * Rule 2692: Bang!
    * Rule 2696: Bang actions
+   * Rule 2697: The Bounty Board
 Stones
    * Rule 2640: Stones
    * Rule 2641: Wielding Stones
@@ -2691,7 +2691,7 @@ Amended(18) by cleaning (kiako), 02 Mar 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1681/27 (Power=1)
+Rule 1681/28 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -2737,21 +2737,6 @@ The Logical Rulesets
       
       4. If the rule was changed due to a proposal, then that proposal's
          ID number, author, and coauthor(s) (if any).
-      
-      The Readable Logical Ruleset (RLR) is a format of the ruleset. In
-      this format, rules do not have to be individually listed; if
-      multiple rules have similar concepts as The Simplifior sees fit,
-      then they may be listed in one paragraph as a Combined Rule.
-      
-      Rules in the RLR are permitted to be restated approximately,
-      provided that they mean the same things.
-      
-      When writing a Combined Rule, The Simplifior must record all rules
-      referenced in the paragraph immediately after the rule has been
-      referenced.
-      
-      The Simplifior need not use the exact wording of the rule
-      referenced when writing a Combined Rule.
 
 History:
 
@@ -2789,33 +2774,11 @@ Amended(25) by P9121 'More Rules, Less Complex' (juniper, mqyhlkahu), 21
 Amended(26) by P9129 'Amendments are hard, okay?' (Janet), 06 Jul 2024
 Amended(27) by P9130 'Revision numbers, revised' (Janet, Gaelan), 06 Jul
    2024
+Amended(28) by P9159 'Simplification, ironically' (Janet), 01 Sep 2024
 
 Annotations:
 CFJ 3904 (called 18 Apr 2021): A rule amendment that results in no net
     change in rule text need not be recorded.
-
-------------------------------------------------------------------------
-Rule 2693/0 (Power=1.0)
-The Simplifior
-
-      The Simplifior is an office; its holder is responsible for
-      increasing the readability of the Short Logical Ruleset by making
-      a more readable version.
-      
-      The Simplifior SHOULD maintain the Readable Logical Ruleset when
-      any rules are amended, enacted, or removed.
-      
-      The Simplifior's monthly report includes the Readable Logical
-      Ruleset.  The Simplifior's report SHOULD prominently and clearly
-      include a reminder that the RLR is a summary and only the rules'
-      full text actually governs.
-
-History:
-
-Enacted by P9121 'More Rules, Less Complex' (juniper, mqyhlkahu), 23 Jun
-   2024
-
-Annotations:
 
 ------------------------------------------------------------------------
 Rule 2221/11 (Power=3)
@@ -4263,7 +4226,8 @@ History:
 
 Enacted by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(1) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul 2024
-Amended(2) by P9144 'Sortition, again' (Janet), 05 Aug 2024
+Amended(2) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
+   Jul 2024
 
 Annotations:
 
@@ -4369,24 +4333,24 @@ Amended(5) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2143/38 (Power=1)
+Rule 2143/39 (Power=1)
 Official Reports and Duties
 
       For each person:
       
       1. If any task is defined by the rules as part of that person's
          weekly duties, then e SHALL perform it at least once each week.
-         If any information is defined by the rules as part of that
-         person's weekly report, then e SHALL maintain all such
-         information, and the publication of all such information is
-         part of eir weekly duties.
       
       2. If any task is defined by the rules as part of that person's
-         monthly duties, then e SHALL perform it at least once each
-         month. If any information is defined by the rules as part of
-         that person's monthly report, then e SHALL maintain all such
-         information, and the publication of all such information is
-         part of eir monthly duties.
+         monthly duties, then e SHALL perform it at least once each month.
+      
+      For each office, if any information is defined by the rules as
+      part of that office's weekly or monthly report, then its
+      officeholder SHALL maintain all such information, and eir weekly
+      or monthly duties respectively include publishing a document or
+      series of documents, labelled as that office's report (or as that
+      office's weekly or monthly report as appropriate), that includes
+      all such information.
       
       Any information defined by the rules as part of a person's report,
       without specifying which one, is part of eir weekly report.
@@ -4467,6 +4431,7 @@ Amended(35) by P8679 'Properly Decriminalizing Lateness' (nix, G.,
 Amended(36) by P8811 'Infractions' (nix), 24 Jul 2022
 Amended(37) by P8833 'Etiquette' (nix), 20 Aug 2022
 Amended(38) by P9133 'Last from the Past' (snail), 06 Jul 2024
+Amended(39) by P9161 'Fix office reports' (ais523), 01 Sep 2024
 
 Annotations:
 CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
@@ -6569,6 +6534,31 @@ History:
 
 Enacted by P9143 'A new duel' (Janet, Mischief), 19 Jul 2024
 Amended(1) by P9149 'Silly Bangs' (4st), 11 Aug 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2697/0 (Power=1.0)
+The Bounty Board
+
+      Bounty Amount is an untracked player switch. Its possible values
+      are all integers from 0 to 10 inclusive, where 0 is the default.
+      
+      Twice each month, each player CAN, by announcement, put a bounty
+      on a specified player. Doing so increases the specified player's
+      Bounty Amount by 1.
+      
+      Immediately after an alive player is eliminated, the shooter gains
+      a number of spendies equal to the target's Bounty Amount, and then
+      the target's bounty amount is flipped to 0.
+      
+      The shooter SHOULD publish the target's Bounty Amount at the time
+      of the elimination when e eliminates a target with a non-zero
+      Bounty Amount.
+
+History:
+
+Enacted by P9167 'The Bounty Board' (snail), 01 Sep 2024
 
 Annotations:
 

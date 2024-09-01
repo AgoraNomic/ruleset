@@ -2,15 +2,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 25 Aug 2024
+Date of this ruleset: 1 Sep 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 139
 
-Highest ID'd rule in this ruleset: 2696
-Highest ID'd Proposal Passed: 9154
-Highest ID'd Rule Enacted: 2696
+Highest ID'd rule in this ruleset: 2697
+Highest ID'd Proposal Passed: 9167
+Highest ID'd Rule Enacted: 2697
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -1040,7 +1040,7 @@ The Rulekeepor
       The Rulekeepor's monthly report includes the Full Logical Ruleset.
 
 ------------------------------------------------------------------------
-Rule 1681/27 (Power=1)
+Rule 1681/28 (Power=1)
 The Logical Rulesets
 
       The Short Logical Ruleset (SLR) is a format of the ruleset. In
@@ -1086,37 +1086,6 @@ The Logical Rulesets
       
       4. If the rule was changed due to a proposal, then that proposal's
          ID number, author, and coauthor(s) (if any).
-      
-      The Readable Logical Ruleset (RLR) is a format of the ruleset. In
-      this format, rules do not have to be individually listed; if
-      multiple rules have similar concepts as The Simplifior sees fit,
-      then they may be listed in one paragraph as a Combined Rule.
-      
-      Rules in the RLR are permitted to be restated approximately,
-      provided that they mean the same things.
-      
-      When writing a Combined Rule, The Simplifior must record all rules
-      referenced in the paragraph immediately after the rule has been
-      referenced.
-      
-      The Simplifior need not use the exact wording of the rule
-      referenced when writing a Combined Rule.
-
-------------------------------------------------------------------------
-Rule 2693/0 (Power=1.0)
-The Simplifior
-
-      The Simplifior is an office; its holder is responsible for
-      increasing the readability of the Short Logical Ruleset by making
-      a more readable version.
-      
-      The Simplifior SHOULD maintain the Readable Logical Ruleset when
-      any rules are amended, enacted, or removed.
-      
-      The Simplifior's monthly report includes the Readable Logical
-      Ruleset.  The Simplifior's report SHOULD prominently and clearly
-      include a reminder that the RLR is a summary and only the rules'
-      full text actually governs.
 
 ------------------------------------------------------------------------
 Rule 2221/11 (Power=3)
@@ -1841,24 +1810,24 @@ Office Incompatibilities
       Overpowered player holds becomes vacant.
 
 ------------------------------------------------------------------------
-Rule 2143/38 (Power=1)
+Rule 2143/39 (Power=1)
 Official Reports and Duties
 
       For each person:
       
       1. If any task is defined by the rules as part of that person's
          weekly duties, then e SHALL perform it at least once each week.
-         If any information is defined by the rules as part of that
-         person's weekly report, then e SHALL maintain all such
-         information, and the publication of all such information is
-         part of eir weekly duties.
       
       2. If any task is defined by the rules as part of that person's
-         monthly duties, then e SHALL perform it at least once each
-         month. If any information is defined by the rules as part of
-         that person's monthly report, then e SHALL maintain all such
-         information, and the publication of all such information is
-         part of eir monthly duties.
+         monthly duties, then e SHALL perform it at least once each month.
+      
+      For each office, if any information is defined by the rules as
+      part of that office's weekly or monthly report, then its
+      officeholder SHALL maintain all such information, and eir weekly
+      or monthly duties respectively include publishing a document or
+      series of documents, labelled as that office's report (or as that
+      office's weekly or monthly report as appropriate), that includes
+      all such information.
       
       Any information defined by the rules as part of a person's report,
       without specifying which one, is part of eir weekly report.
@@ -2995,6 +2964,25 @@ Bang actions
       days, and if no player has loaded a round or fired a round in this
       Agoran week or the previous two Agoran weeks, then the match state
       becomes none.
+
+------------------------------------------------------------------------
+Rule 2697/0 (Power=1.0)
+The Bounty Board
+
+      Bounty Amount is an untracked player switch. Its possible values
+      are all integers from 0 to 10 inclusive, where 0 is the default.
+      
+      Twice each month, each player CAN, by announcement, put a bounty
+      on a specified player. Doing so increases the specified player's
+      Bounty Amount by 1.
+      
+      Immediately after an alive player is eliminated, the shooter gains
+      a number of spendies equal to the target's Bounty Amount, and then
+      the target's bounty amount is flipped to 0.
+      
+      The shooter SHOULD publish the target's Bounty Amount at the time
+      of the elimination when e eliminates a target with a non-zero
+      Bounty Amount.
 
 ------------------------------------------------------------------------
 ========================================================================
