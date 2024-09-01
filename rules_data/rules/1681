@@ -45,21 +45,6 @@ text: |
 
   4. If the rule was changed due to a proposal, then that proposal's
      ID number, author, and coauthor(s) (if any).
-
-  The Readable Logical Ruleset (RLR) is a format of the ruleset. In
-  this format, rules do not have to be individually listed; if
-  multiple rules have similar concepts as The Simplifior sees fit,
-  then they may be listed in one paragraph as a Combined Rule.
-
-  Rules in the RLR are permitted to be restated approximately,
-  provided that they mean the same things.
-
-  When writing a Combined Rule, The Simplifior must record all rules
-  referenced in the paragraph immediately after the rule has been
-  referenced.
-
-  The Simplifior need not use the exact wording of the rule
-  referenced when writing a Combined Rule.
 history:
 - change:
     type: enactment
@@ -204,6 +189,11 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9130"
+- change:
+    type: amendment
+  date: 2024-09-01
+  agent:
+    proposal: "9159"
 annotations:
 - cfjs:
   - id: 3904
