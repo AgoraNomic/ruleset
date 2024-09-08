@@ -1,0 +1,36 @@
+id: AA2
+name: Recommendations for players
+text: |
+  It is RECOMMENDED to phrase CFJ statements so that they are
+  possible to parse without outside context. For example, refer to a
+  proposal or rule by ID number, or to a message by distinguishing
+  features like its author and approximate timestamp, instead of
+  writing "this proposal" or "that message". (An exception is
+  self-references: "this CFJ", or "this message" meaning "the
+  message in which this CFJ is called", is unambiguous and in fact
+  traditional.)
+
+  When calling a CFJ, players SHOULD ensure that the word "CFJ" is
+  present in the subject line of the message, ideally near the
+  beginning and ideally distinct from the rest of the line (e.g.
+  "[CFJ]" or "CFJ:"). This helps ensure the CFJ is not missed.
+
+  Gratuitous arguments to a CFJ need not be explicitly marked, or
+  even submitted to a public forum (though they may be, for
+  disambiguation). Anything seen by the Arbitor, through any forum,
+  that looks like an argument will be accepted and recorded.
+  (Arguments may even be submitted privately, which might be useful
+  if, for example, anonymity is requested.)
+
+  For other actions related to the office of Arbitor, such as
+  judgements themselves, recusals, retractions, Motions and Moots,
+  it is RECOMMENDED to draw the Arbitor's attention somehow if they
+  are buried in replies to an unrelated thread. Otherwise, tags of
+  the form "attn. Arbitor" or "@Arbitor" are unnecessary and indeed
+  DISCOURAGED as they clutter subject lines.
+history:
+- change:
+    type: enactment
+  date: 2024-09-04
+  agent:
+    person: Kate
