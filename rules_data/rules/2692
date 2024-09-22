@@ -20,7 +20,7 @@ text: |
   * At the beginning of each Agoran week, if any player triggered
     the match in the previous Agoran week, and if there at least
     three alive players, the match state is flipped to ongoing,
-    after which each alive player gains a bang.
+    after which each alive player is granted 2 bangs.
 
   If the match state is ongoing, no player has won the game as a
   result of this Rule in the past 28 days, and a single player is
@@ -55,3 +55,8 @@ history:
   date: 2024-07-19
   agent:
     proposal: "9143"
+- change:
+    type: amendment
+  date: 2024-09-15
+  agent:
+    proposal: "9178"
