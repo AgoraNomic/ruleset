@@ -12,16 +12,6 @@ text: |
   The rules collectively have Mint Authority. Contracts have Mint
   Authority. An asset defined by rule or regulation is public; any
   other asset is private.
-
-  The recordkeepor of a class of assets is the entity (if any)
-  defined as such by, and bound by, its backing document. That
-  entity's report includes a list of all instances of that class and
-  their owners. A public document purporting to be this portion of
-  that entity's report is self-ratifying.
-
-  For a class of assets to be "tracked by" an entity is for that
-  entity to be its recordkeepor.
-
 history:
 - change:
     type: enactment
@@ -195,6 +185,11 @@ history:
   date: 2021-10-18
   agent:
     proposal: "8607"
+- change:
+    type: amendment
+  date: 2024-09-15
+  agent:
+    proposal: "9171"
 annotations:
 - cfjs:
   - id: '3597'

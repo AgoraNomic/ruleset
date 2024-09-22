@@ -16,14 +16,6 @@ text: |
      "null" value is a possible value for that switch, and is the
      default.
 
-  3. Optionally, exactly one office whose holder tracks instances of
-     that switch. That officer's (weekly, if not specified
-     otherwise) report includes the value of each instance of that
-     switch whose value is not its default value; a public document
-     purporting to be this portion of that officer's report is
-     self-ratifying, and implies that other instances are at their
-     default value.
-
   At any given time, each instance of a switch has exactly one
   possible value for that type of switch. If an instance of a switch
   comes to have a value, it ceases to have any other value. If an
@@ -142,4 +134,9 @@ history:
   date: 2021-06-23
   agent:
     proposal: "8583"
+- change:
+    type: amendment
+  date: 2024-09-15
+  agent:
+    proposal: "9171"
 annotations: []

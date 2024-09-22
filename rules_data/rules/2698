@@ -1,0 +1,30 @@
+id: 2698
+name: Recordkeepors
+power: 3.0
+text: |
+  For some entity or class of entities to be "tracked by" another
+  entity is for the latter entity to be its recordkeepor.
+
+  For an entity to be a recordkeepor for a type of switch is for
+  that entity to be the recordkeepor for all instances of that
+  switch.
+
+  Where the rules specify a recordkeepor for some set of instances
+  of a switch, that recordkeepor's (weekly, if not specified
+  otherwise) report includes the value of each instance in that set
+  whose value is not its default value; a public document purporting
+  to be this portion of that recordkeepor's report is
+  self-ratifying, and implies that other instances in that set are
+  at their default value.
+
+  The recordkeepor of a class of assets is the entity (if any)
+  defined as such by, and bound by, its backing document. That
+  recordkeepor's report includes a list of all instances of that
+  class and their owners. A public document purporting to be this
+  portion of that recordkeepor's report is self-ratifying.
+history:
+- change:
+    type: enactment
+  date: 2024-09-15
+  agent:
+    proposal: "9171"

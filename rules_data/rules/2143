@@ -1,5 +1,5 @@
 id: 2143
-name: Official Reports and Duties
+name: Reports and Duties
 power: 1
 text: |
   For each person:
@@ -33,14 +33,16 @@ text: |
   specifically assign to that office's holder in particular
   (regardless of eir identity).
 
-  An officer SHALL publish eir report in plain text, with tabular
-  data lining up properly when viewed in a monospaced font.
+  A person publishing a report SHALL do so in plain text, with
+  tabular data lining up properly when viewed in a monospaced font.
   Publishing a report that deviates from these restrictions is the
   Class 2 infraction of Making My Eyes Bleed.
 
-  A player CAN, by announcement, petition a specified non-vacant
-  office to take a specific action. The holder of that office SHALL
-  publicly respond to that petition in a timely fashion.
+  A player CAN, by announcement, petition a specified person with a
+  specified duty to take a specific action related to that duty.
+  That person SHOULD publicly respond to that petition in a timely
+  fashion. A player CAN petition a specified non-vacant office in
+  the same fashion; its holder SHALL respond in the same fashion.
 history:
 - change:
     type: enactment
@@ -255,6 +257,16 @@ history:
   date: 2024-09-01
   agent:
     proposal: "9161"
+- change:
+    type: retitling
+  date: 2024-09-15
+  agent:
+    proposal: "9171"
+- change:
+    type: amendment
+  date: 2024-09-15
+  agent:
+    proposal: "9171"
 annotations:
 - cfjs:
   - id: '2392'
