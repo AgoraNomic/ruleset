@@ -11,10 +11,10 @@ text: |
   The Veblen cost is a secured singleton positive integer switch
   tracked by the Absurdor and with default value one.
 
-  A player who does not own the Veblen CAN pay a fee of X spendies
-  to purchase the Veblen, where X is an integer not less than the
-  current Veblen cost. When e does so, the Veblen is transferred to
-  em, then the Veblen cost is set to X+1.
+  A player CAN pay a fee of X spendies, where X is an integer not
+  less than the current Veblen cost, to set the Veblen cost to X+1.
+  When e does so, if e does not own the Veblen, the Veblen is
+  transferred to em.
 
   The owner of the Veblen SHOULD conspicuously show off eir
   ownership of it from time to time.
@@ -29,3 +29,8 @@ history:
   date: 2024-08-11
   agent:
     proposal: "9150"
+- change:
+    type: amendment
+  date: 2024-09-15
+  agent:
+    proposal: "9172"
