@@ -141,6 +141,13 @@ history:
   agent:
     proposal: "7864"
 - change:
+    type: power-change
+    old-power: 2.0
+    new-power: 3.0
+  date: 2017-06-27
+  agent:
+    proposal: "7864"
+- change:
     type: amendment
   date: 2017-07-30
   agent:
