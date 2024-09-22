@@ -11,7 +11,7 @@ text: |
 
   Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
   class to democratic, provided that it is in the Proposal Pool or
-  that there is an referendum on it whose voting period has not yet
+  that there is a referendum on it whose voting period has not yet
   ended.
 history:
 - change:
@@ -34,4 +34,9 @@ history:
   date: 2020-06-14
   agent:
     proposal: "8418"
+- change:
+    type: amendment
+  date: 2024-09-15
+  agent:
+    proposal: "9173"
 annotations: []

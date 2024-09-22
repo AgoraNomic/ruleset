@@ -43,9 +43,9 @@ text: |
         of the month, and the later of the two occurs at the same or
         earlier time of day.
   5. Any anniversary, monthly anniversary, or quarterly anniversary
-     that would otherwise occur on a day of the month that does not
-     exist (after considering any leap day) instead occurs on the
-     following day.
+     that would otherwise attempt to occur on a day of the month
+     that does not exist (after considering any leap day) instead
+     occurs on the first day of the following month.
 history:
 - change:
     type: enactment
@@ -299,6 +299,11 @@ history:
   date: 2024-07-13
   agent:
     proposal: "9141"
+- change:
+    type: amendment
+  date: 2024-09-15
+  agent:
+    proposal: "9173"
 annotations:
 - cfjs:
   - id: '3624'

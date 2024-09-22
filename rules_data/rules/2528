@@ -10,7 +10,7 @@ text: |
   Each Agoran decision has a set of valid options (the choices that
   the voters are being asked to select from) and valid votes (the
   ways in which the voters can express their opinion or lack
-  thereof. For AI-majority decisions, the valid options are FOR and
+  thereof). For AI-majority decisions, the valid options are FOR and
   AGAINST; for other decisions, the valid options are defined by
   other rules.
 
@@ -30,6 +30,11 @@ history:
   date: 2017-10-23
   agent:
     proposal: "7922"
+- change:
+    type: amendment
+  date: 2024-09-15
+  agent:
+    proposal: "9173"
 annotations:
 - cfjs:
   - id: 3749
