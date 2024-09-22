@@ -25,7 +25,8 @@ text: |
   two of the shooter's bangs are destroyed, after which the target
   is eliminated.
 
-  When a player is eliminated, if eir vitality is alive, then the
+
+  When a person is eliminated, if e is an alive player then the
   following happen in order:
   * Eir vitality is flipped to unalive.
   * E gains one bang.
@@ -37,8 +38,12 @@ text: |
 
   If the match state is ongoing and has not changed in the past 7
   days, and if no player has loaded a round or fired a round in this
-  Agoran week or the previous two Agoran weeks, then the match state
-  becomes none.
+  Agoran week or the previous two Agoran weeks, then any player CAN
+  flip the match state to none by announcement.
+
+  If the match state is initializing and has not changed in the past
+  28 days, then any player CAN flip the match state to none by
+  announcement.
 history:
 - change:
     type: enactment
@@ -55,3 +60,8 @@ history:
   date: 2024-09-22
   agent:
     proposal: "9179"
+- change:
+    type: amendment
+  date: 2024-09-22
+  agent:
+    proposal: "9180"
