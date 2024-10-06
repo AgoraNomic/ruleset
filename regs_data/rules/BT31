@@ -46,3 +46,10 @@ history:
     tournament_init:
       name: "2024 Birthday Tournament"
       person: "4st"
+- change:
+    type: repeal
+  date: 2024-10-06
+  agent:
+    tournament_end:
+      name: "2024 Birthday Tournament"
+      person: "Janet"
