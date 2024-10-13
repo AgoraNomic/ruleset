@@ -25,9 +25,9 @@ text: |
   If the match state is ongoing, no player has won the game as a
   result of this Rule in the past 28 days, and a single player was
   alive at the beginning of the week, that player CAN stand alone by
-  announcement. When a player stands alone, e wins the game. If a
-  player won the game in this manner 4 days ago, then the match
-  state is flipped to none (if it is not already).
+  announcement. When a player stands alone, eir radiance is
+  increased by 30, then the match state is flipped to none (if it is
+  not already).
 
   When a player takes an action that causes one or more vitalities
   or bang balances to change, e SHOULD recite all such changes in
@@ -65,3 +65,8 @@ history:
   date: 2024-09-22
   agent:
     proposal: "9179"
+- change:
+    type: amendment
+  date: 2024-10-11
+  agent:
+    proposal: "9185"
