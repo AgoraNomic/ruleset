@@ -7,8 +7,9 @@ text: |
 
   When a document or statement (hereafter "document") is to be
   ratified, the following definitions apply:
-  * The publication time is the instant at which the document to be
-    ratified was published.
+  * The publication time can be specified by the instrument allowing
+    the ratification, defaulting to the instant at which the
+    document to be ratified was published.
   * The truth time is the instant at which the document specifies
     that it was true, or the publication time if such an instant is
     not specified.
@@ -208,6 +209,11 @@ history:
   date: 2022-03-15
   agent:
     proposal: "8651"
+- change:
+    type: amendment
+  date: 2024-10-11
+  agent:
+    proposal: "9184"
 annotations:
 - cfjs:
   - id: '2165'
