@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 6 Oct 2024
+Date of this ruleset: 13 Oct 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 135
 
 Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9180
+Highest ID'd Proposal Passed: 9185
 Highest ID'd Rule Enacted: 2698
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -4670,7 +4670,7 @@ Documents
    Documents are little bits of text that can be ratified, therefore
    modifying the gamestate slightly.
 ------------------------------------------------------------------------
-Rule 1551/22 (Power=3.2)
+Rule 1551/23 (Power=3.2)
 Ratification
 
       A retroactive change is one that changes the game's record of past
@@ -4678,8 +4678,9 @@ Ratification
       
       When a document or statement (hereafter "document") is to be
       ratified, the following definitions apply:
-      * The publication time is the instant at which the document to be
-        ratified was published.
+      * The publication time can be specified by the instrument allowing
+        the ratification, defaulting to the instant at which the
+        document to be ratified was published.
       * The truth time is the instant at which the document specifies
         that it was true, or the publication time if such an instant is
         not specified.
@@ -4760,6 +4761,7 @@ Amended(21) by cleaning (Alexis), 23 Jan 2020
 Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aris), 03 Feb 2021
 Amended(22) by P8651 'Temporal Incursion Modification and Exclusion Act'
    (Janet, Aris, Oerjan), 15 Mar 2022
+Amended(23) by P9184 'Ratification fix' (ais523), 11 Oct 2024
 
 Annotations:
 CFJ 2165 (called 16 Sep 2008): Ratification can create legal fictions,
@@ -4829,7 +4831,7 @@ CFJ 2289 (called 25 Nov 2008): Ratification Without Objection of a value
     it is not directly part of the report being ratified.
 
 ------------------------------------------------------------------------
-Rule 2201/12 (Power=3)
+Rule 2201/13 (Power=3)
 Self-Ratification
 
       When a public document published less than 180 days ago is first
@@ -4838,7 +4840,8 @@ Self-Ratification
       - If the rules define it as self-ratifying, it is ratified.
       
       - If the rules define it as a self-ratifying attestation to a
-        given statement, the statement is ratified.
+        given statement, the statement is ratified, with the publication
+        time being the instant at which the document was published.
       
         This clause is inapplicable if the statement to be ratified
         cannot be reasonably ascertained from the ruleset and the
@@ -4889,6 +4892,7 @@ Amended(11) by P9050 'Self-ratification limitations' (Janet), 28 Jan
    2024
 Amended(12) by P9050 'Self-ratification limitations' (Janet), 28 Jan
    2024
+Amended(13) by P9184 'Ratification fix' (ais523), 11 Oct 2024
 
 Annotations:
 CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
@@ -6482,7 +6486,7 @@ Amended(4) by P9176 'Adjusting the Money Supply' (Mischief), 15 Sep 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2692/5 (Power=1.0)
+Rule 2692/6 (Power=1.0)
 Bang!
 
       Vitality is an untracked player switch with possible values of
@@ -6508,9 +6512,9 @@ Bang!
       If the match state is ongoing, no player has won the game as a
       result of this Rule in the past 28 days, and a single player was
       alive at the beginning of the week, that player CAN stand alone by
-      announcement. When a player stands alone, e wins the game. If a
-      player won the game in this manner 4 days ago, then the match
-      state is flipped to none (if it is not already).
+      announcement. When a player stands alone, eir radiance is
+      increased by 30, then the match state is flipped to none (if it is
+      not already).
       
       When a player takes an action that causes one or more vitalities
       or bang balances to change, e SHOULD recite all such changes in
@@ -6528,6 +6532,7 @@ Amended(3) by P9143 'A new duel' (Janet, Mischief), 19 Jul 2024
 Amended(4) by P9178 'Takes Two to Tango in this Town' (snail), 15 Sep
    2024
 Amended(5) by P9179 'No Race Conditions' (Mischief), 22 Sep 2024
+Amended(6) by P9185 'Gun control' (Janet), 11 Oct 2024
 
 Annotations:
 

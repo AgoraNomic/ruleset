@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 6 Oct 2024
+Date of this ruleset: 13 Oct 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 135
 
 Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9180
+Highest ID'd Proposal Passed: 9185
 Highest ID'd Rule Enacted: 2698
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -1986,7 +1986,7 @@ Documents
    Documents are little bits of text that can be ratified, therefore
    modifying the gamestate slightly.
 ------------------------------------------------------------------------
-Rule 1551/22 (Power=3.2)
+Rule 1551/23 (Power=3.2)
 Ratification
 
       A retroactive change is one that changes the game's record of past
@@ -1994,8 +1994,9 @@ Ratification
       
       When a document or statement (hereafter "document") is to be
       ratified, the following definitions apply:
-      * The publication time is the instant at which the document to be
-        ratified was published.
+      * The publication time can be specified by the instrument allowing
+        the ratification, defaulting to the instant at which the
+        document to be ratified was published.
       * The truth time is the instant at which the document specifies
         that it was true, or the publication time if such an instant is
         not specified.
@@ -2061,7 +2062,7 @@ Ratification Without Objection
       is the Class 8 Infraction of Endorsing Forgery.
 
 ------------------------------------------------------------------------
-Rule 2201/12 (Power=3)
+Rule 2201/13 (Power=3)
 Self-Ratification
 
       When a public document published less than 180 days ago is first
@@ -2070,7 +2071,8 @@ Self-Ratification
       - If the rules define it as self-ratifying, it is ratified.
       
       - If the rules define it as a self-ratifying attestation to a
-        given statement, the statement is ratified.
+        given statement, the statement is ratified, with the publication
+        time being the instant at which the document was published.
       
         This clause is inapplicable if the statement to be ratified
         cannot be reasonably ascertained from the ruleset and the
@@ -2902,7 +2904,7 @@ Spendies
       beginning of each month, every player is granted 15 Spendies.
 
 ------------------------------------------------------------------------
-Rule 2692/5 (Power=1.0)
+Rule 2692/6 (Power=1.0)
 Bang!
 
       Vitality is an untracked player switch with possible values of
@@ -2928,9 +2930,9 @@ Bang!
       If the match state is ongoing, no player has won the game as a
       result of this Rule in the past 28 days, and a single player was
       alive at the beginning of the week, that player CAN stand alone by
-      announcement. When a player stands alone, e wins the game. If a
-      player won the game in this manner 4 days ago, then the match
-      state is flipped to none (if it is not already).
+      announcement. When a player stands alone, eir radiance is
+      increased by 30, then the match state is flipped to none (if it is
+      not already).
       
       When a player takes an action that causes one or more vitalities
       or bang balances to change, e SHOULD recite all such changes in

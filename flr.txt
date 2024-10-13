@@ -2,15 +2,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 1 Sep 2024
+Date of this ruleset: 13 Oct 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
-Number of rules currently enacted: 139
+Number of rules currently enacted: 135
 
-Highest ID'd rule in this ruleset: 2697
-Highest ID'd Proposal Passed: 9167
-Highest ID'd Rule Enacted: 2697
+Highest ID'd rule in this ruleset: 2698
+Highest ID'd Proposal Passed: 9185
+Highest ID'd Rule Enacted: 2698
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -91,12 +91,13 @@ Offices & Reporting
    * Rule 2691: Sortition Procedure
    * Rule 2138: The Associate Director of Personnel
    * Rule 2472: Office Incompatibilities
-   * Rule 2143: Official Reports and Duties
+   * Rule 2143: Reports and Duties
    * Rule 2677: Etiquette
    * Rule 2667: Succumbing to Time
    * Rule 2632: Complexity
    * Rule 2603: Switch Responsibility
    * Rule 2379: No News Is Some News
+   * Rule 2698: Recordkeepors
    * Rule 2616: The Webmastor
    * Rule  417: The Archivist
 Documents
@@ -139,12 +140,6 @@ Economics
    * Rule 2692: Bang!
    * Rule 2696: Bang actions
    * Rule 2697: The Bounty Board
-Stones
-   * Rule 2640: Stones
-   * Rule 2641: Wielding Stones
-   * Rule 2642: Stone Cost
-   * Rule 2644: Zen Gardening
-   * Rule 2645: The Stones
 Scoring
    * Rule 2656: Radiance
 Victory
@@ -191,10 +186,10 @@ Power Distribution:
 35 with Power=1
 3  with Power=1.5
 5  with Power=1.7
-29 with Power=2
+24 with Power=2
 1  with Power=2.2
 1  with Power=2.5
-51 with Power=3
+52 with Power=3
 3  with Power=3.1
 1  with Power=3.14
 2  with Power=3.2
@@ -1135,7 +1130,7 @@ CFJ 3797 (called 22 Jan 2020): Whether coming into existence is
     values) are.
 
 ------------------------------------------------------------------------
-Rule 1023/42 (Power=2)
+Rule 1023/43 (Power=2)
 Agoran Time
 
       The following terms are defined:
@@ -1179,9 +1174,9 @@ Agoran Time
             of the month, and the later of the two occurs at the same or
             earlier time of day.
       5. Any anniversary, monthly anniversary, or quarterly anniversary
-         that would otherwise occur on a day of the month that does not
-         exist (after considering any leap day) instead occurs on the
-         following day.
+         that would otherwise attempt to occur on a day of the month
+         that does not exist (after considering any leap day) instead
+         occurs on the first day of the following month.
 
 History:
 
@@ -1241,6 +1236,8 @@ Amended(40) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, Kate,
    Janet), 29 Jan 2020
 Amended(41) by P9123 'Anniversaries' (Mischief), 23 Jun 2024
 Amended(42) by P9141 'Time for some clarifications' (Janet), 13 Jul 2024
+Amended(43) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
+   ais523, Janet, 4st), 15 Sep 2024
 
 Annotations:
 CFJ 3624 (called 09 Feb 2018): A condition of "continuously X for one
@@ -1587,7 +1584,7 @@ Re-enacted(9) and amended by P7924 'Contracts v8' (Aris, o, G., ais523,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2162/14 (Power=3)
+Rule 2162/15 (Power=3)
 Switches
 
       A type of switch is a property that the rules define as a switch,
@@ -1603,14 +1600,6 @@ Switches
          specified, then rules to the contrary notwithstanding, the
          "null" value is a possible value for that switch, and is the
          default.
-      
-      3. Optionally, exactly one office whose holder tracks instances of
-         that switch. That officer's (weekly, if not specified
-         otherwise) report includes the value of each instance of that
-         switch whose value is not its default value; a public document
-         purporting to be this portion of that officer's report is
-         self-ratifying, and implies that other instances are at their
-         default value.
       
       At any given time, each instance of a switch has exactly one
       possible value for that type of switch. If an instance of a switch
@@ -1670,6 +1659,8 @@ Amended(12) by P8241 'Secured switches (v2.0)' (Janet, Falsifian), 18
 Amended(13) by P8255 'Possibly-Inderterminate Switches' (Janet), 03 Nov
    2019
 Amended(14) by P8583 'Clarify switches' (Murphy), 23 Jun 2021
+Amended(15) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
 
 Annotations:
 
@@ -1843,7 +1834,7 @@ Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2606/3 (Power=2.0)
+Rule 2606/4 (Power=2.0)
 Proposal Classes
 
       Proposals created since the enactment of this rule have a secured
@@ -1855,7 +1846,7 @@ Proposal Classes
       
       Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
       class to democratic, provided that it is in the Proposal Pool or
-      that there is an referendum on it whose voting period has not yet
+      that there is a referendum on it whose voting period has not yet
       ended.
 
 History:
@@ -1865,6 +1856,8 @@ Enacted by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
 Amended(1) by P8319 'Sergeant-at-Arms' (Aris), 13 Feb 2020
 Amended(2) by P8356 'Less Democracy Means More Fun' (Aris), 21 Mar 2020
 Amended(3) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(4) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
+   ais523, Janet, 4st), 15 Sep 2024
 
 Annotations:
 
@@ -3049,7 +3042,7 @@ CFJ 1650 (called 06 May 2007): The intent to initiate the decision and
     the information required in the notice need not be explicit.
 
 ------------------------------------------------------------------------
-Rule 2528/0 (Power=3)
+Rule 2528/1 (Power=3)
 Voting Methods
 
       Each Agoran decision has a voting method, which must be
@@ -3060,7 +3053,7 @@ Voting Methods
       Each Agoran decision has a set of valid options (the choices that
       the voters are being asked to select from) and valid votes (the
       ways in which the voters can express their opinion or lack
-      thereof. For AI-majority decisions, the valid options are FOR and
+      thereof). For AI-majority decisions, the valid options are FOR and
       AGAINST; for other decisions, the valid options are defined by
       other rules.
       
@@ -3078,6 +3071,8 @@ Voting Methods
 History:
 
 Enacted by P7922 'Clarity Act' (Alexis), 23 Oct 2017
+Amended(1) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
+   ais523, Janet, 4st), 15 Sep 2024
 
 Annotations:
 CFJ 3749 (called 01 Jul 2019): An instant runoff election ballot may be
@@ -4046,7 +4041,7 @@ Amended(4) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2160/26 (Power=3)
+Rule 2160/27 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
@@ -4084,7 +4079,7 @@ Deputisation
           c) The time limit expired more than 28 days ago, and the
              deputisation is temporary.
       
-      When a player deputises for an voluntary office, e becomes the
+      When a player deputises for a voluntary office, e becomes the
       holder of that office, unless the deputisation is temporary, doing
       so would make em Overpowered, and/or the action being performed
       would already install someone into that office.
@@ -4129,6 +4124,8 @@ Amended(25) by P9106 'No Overpowered Deputizations' (snail, Janet,
    Murphy, Juniper), 12 May 2024
 Amended(26) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
+Amended(27) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
+   ais523, Janet, 4st), 15 Sep 2024
 
 Annotations:
 CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
@@ -4190,7 +4187,7 @@ Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2691/2 (Power=2.0)
+Rule 2691/3 (Power=2.0)
 Sortition Procedure
 
       A player CAN by announcement initiate a sortition for a vacant
@@ -4203,15 +4200,19 @@ Sortition Procedure
       initiated for an office for which a sortition is ongoing.
       
       When a sortition is initiated, it enters the lots period. Any
-      player CAN become an option for that office during this period. If
-      a person ceases to be a player during this period, e also ceases
-      to be an option for each current sortition.
+      player CAN by announcement become an option for that office during
+      this period. If a person ceases to be a player during this period,
+      e also ceases to be an option for each current sortition.
       
       Seven days after a sortition is initiated, its lots period ends.
       The ADoP CAN by announcement, and SHALL in a timely fashion after
       a lots period ends, randomly select one of the options for that
       office. When e does so, that player becomes the officeholder for
-      that office.
+      that office, then the sortition ends.
+      
+      If a sortition's lots period has ended, and the sortition has no
+      valid options, then it immediately ends with no selection, and any
+      duty to select an option with respect to it is discharged.
       
       If a sortition is ever ongoing for a non-sortitioned office (or
       for an office that no longer exists), that sortition immediately
@@ -4223,6 +4224,8 @@ Enacted by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(1) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul 2024
 Amended(2) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
+Amended(3) by P9174 'Various sortition fixes v2' (Janet, Kate), 15 Sep
+   2024
 
 Annotations:
 
@@ -4328,8 +4331,8 @@ Amended(5) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2143/39 (Power=1)
-Official Reports and Duties
+Rule 2143/40 (Power=1)
+Reports and Duties
 
       For each person:
       
@@ -4362,14 +4365,16 @@ Official Reports and Duties
       specifically assign to that office's holder in particular
       (regardless of eir identity).
       
-      An officer SHALL publish eir report in plain text, with tabular
-      data lining up properly when viewed in a monospaced font.
+      A person publishing a report SHALL do so in plain text, with
+      tabular data lining up properly when viewed in a monospaced font.
       Publishing a report that deviates from these restrictions is the
       Class 2 infraction of Making My Eyes Bleed.
       
-      A player CAN, by announcement, petition a specified non-vacant
-      office to take a specific action. The holder of that office SHALL
-      publicly respond to that petition in a timely fashion.
+      A player CAN, by announcement, petition a specified person with a
+      specified duty to take a specific action related to that duty.
+      That person SHOULD publicly respond to that petition in a timely
+      fashion. A player CAN petition a specified non-vacant office in
+      the same fashion; its holder SHALL respond in the same fashion.
 
 History:
 
@@ -4427,6 +4432,10 @@ Amended(36) by P8811 'Infractions' (nix), 24 Jul 2022
 Amended(37) by P8833 'Etiquette' (nix), 20 Aug 2022
 Amended(38) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Amended(39) by P9161 'Fix office reports' (ais523), 01 Sep 2024
+Retitled by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
+Amended(40) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
 
 Annotations:
 CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
@@ -4521,19 +4530,21 @@ Amended(5) by cleaning (Murphy), 25 Feb 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2603/0 (Power=1)
+Rule 2603/1 (Power=1)
 Switch Responsibility
 
-      For each type of switch which would otherwise lack an officer to
-      track it, and is not defined as untracked, there exists an imposed
-      office named “Tracker of [switch name]” that is responsible for
-      tracking that switch.
+      For each type of switch that is not defined as untracked and that
+      has at least one instance that would otherwise lack a
+      recordkeepor, there exists an imposed office named "Tracker of
+      [type name]" whose holder tracks those instances.
 
 History:
 
 Enacted by P8273 'Clean up your own mess, without making a bigger one'
    (Gaelan, Janet), 11 Nov 2019
 Retitled by refiling (Kate), 18 Sep 2023
+Amended(1) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
 
 Annotations:
 
@@ -4547,6 +4558,38 @@ No News Is Some News
 History:
 
 Enacted by P7286 'No News Is Some News' (FKA441344), 09 Sep 2012
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2698/0 (Power=3.0)
+Recordkeepors
+
+      For some entity or class of entities to be "tracked by" another
+      entity is for the latter entity to be its recordkeepor.
+      
+      For an entity to be a recordkeepor for a type of switch is for
+      that entity to be the recordkeepor for all instances of that
+      switch.
+      
+      Where the rules specify a recordkeepor for some set of instances
+      of a switch, that recordkeepor's (weekly, if not specified
+      otherwise) report includes the value of each instance in that set
+      whose value is not its default value; a public document purporting
+      to be this portion of that recordkeepor's report is
+      self-ratifying, and implies that other instances in that set are
+      at their default value.
+      
+      The recordkeepor of a class of assets is the entity (if any)
+      defined as such by, and bound by, its backing document. That
+      recordkeepor's report includes a list of all instances of that
+      class and their owners. A public document purporting to be this
+      portion of that recordkeepor's report is self-ratifying.
+
+History:
+
+Enacted by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
 
 Annotations:
 
@@ -4622,7 +4665,7 @@ Documents
    Documents are little bits of text that can be ratified, therefore
    modifying the gamestate slightly.
 ------------------------------------------------------------------------
-Rule 1551/22 (Power=3.2)
+Rule 1551/23 (Power=3.2)
 Ratification
 
       A retroactive change is one that changes the game's record of past
@@ -4630,8 +4673,9 @@ Ratification
       
       When a document or statement (hereafter "document") is to be
       ratified, the following definitions apply:
-      * The publication time is the instant at which the document to be
-        ratified was published.
+      * The publication time can be specified by the instrument allowing
+        the ratification, defaulting to the instant at which the
+        document to be ratified was published.
       * The truth time is the instant at which the document specifies
         that it was true, or the publication time if such an instant is
         not specified.
@@ -4712,6 +4756,7 @@ Amended(21) by cleaning (Alexis), 23 Jan 2020
 Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aris), 03 Feb 2021
 Amended(22) by P8651 'Temporal Incursion Modification and Exclusion Act'
    (Janet, Aris, Oerjan), 15 Mar 2022
+Amended(23) by P9184 'Ratification fix' (ais523), 11 Oct 2024
 
 Annotations:
 CFJ 2165 (called 16 Sep 2008): Ratification can create legal fictions,
@@ -4781,7 +4826,7 @@ CFJ 2289 (called 25 Nov 2008): Ratification Without Objection of a value
     it is not directly part of the report being ratified.
 
 ------------------------------------------------------------------------
-Rule 2201/12 (Power=3)
+Rule 2201/13 (Power=3)
 Self-Ratification
 
       When a public document published less than 180 days ago is first
@@ -4790,7 +4835,8 @@ Self-Ratification
       - If the rules define it as self-ratifying, it is ratified.
       
       - If the rules define it as a self-ratifying attestation to a
-        given statement, the statement is ratified.
+        given statement, the statement is ratified, with the publication
+        time being the instant at which the document was published.
       
         This clause is inapplicable if the statement to be ratified
         cannot be reasonably ascertained from the ruleset and the
@@ -4841,6 +4887,7 @@ Amended(11) by P9050 'Self-ratification limitations' (Janet), 28 Jan
    2024
 Amended(12) by P9050 'Self-ratification limitations' (Janet), 28 Jan
    2024
+Amended(13) by P9184 'Ratification fix' (ais523), 11 Oct 2024
 
 Annotations:
 CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
@@ -5970,7 +6017,7 @@ Assets
    Assets are things players can own. This section describes how that
    works.
 ------------------------------------------------------------------------
-Rule 2166/31 (Power=3)
+Rule 2166/32 (Power=3)
 Assets
 
       An asset is an entity defined as such by a document that has been
@@ -5983,15 +6030,6 @@ Assets
       The rules collectively have Mint Authority. Contracts have Mint
       Authority. An asset defined by rule or regulation is public; any
       other asset is private.
-      
-      The recordkeepor of a class of assets is the entity (if any)
-      defined as such by, and bound by, its backing document. That
-      entity's report includes a list of all instances of that class and
-      their owners. A public document purporting to be this portion of
-      that entity's report is self-ratifying.
-      
-      For a class of assets to be "tracked by" an entity is for that
-      entity to be its recordkeepor.
 
 History:
 
@@ -6030,6 +6068,8 @@ Amended(21) by P7617 'A Complex Game 2' (G.), 16 Jan 2014
 Repealed by P7629 'Do Things' (Alexis), 07 Apr 2014
 Re-enacted(22) and amended by P7864 (Aris, G., o, nix, P.S.S.), 27 Jun
    2017
+Power changed from 2.0 to 3.0 by P7864 (Aris, G., o, nix, P.S.S.), 27
+   Jun 2017
 Amended(23) by P7868 'Minor economic fixes' (Murphy), 30 Jul 2017
 Amended(24) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
    D.F.F., Madrid, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
@@ -6043,6 +6083,8 @@ Amended(29) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
 Amended(30) by P8405 'Generic private assets' (Janet), 12 Jun 2020
 Amended(31) by P8607 'Asset Self-Ratification Fix' (Telna, ais523,
    Alexis), 18 Oct 2021
+Amended(32) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
 
 Annotations:
 CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
@@ -6416,7 +6458,7 @@ Amended(8) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2690/3 (Power=1.0)
+Rule 2690/4 (Power=1.0)
 Spendies
 
       The Spendor is a sortitioned office.
@@ -6426,7 +6468,7 @@ Spendies
       report.
       
       At the end of each month, all Spendies are destroyed. At the
-      beginning of each month, every player is granted 20 Spendies.
+      beginning of each month, every player is granted 15 Spendies.
 
 History:
 
@@ -6434,11 +6476,12 @@ Enacted by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(1) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(2) by P9089 'Who are you, again, again?' (Janet), 21 Apr 2024
 Amended(3) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(4) by P9176 'Adjusting the Money Supply' (Mischief), 15 Sep 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2692/3 (Power=1.0)
+Rule 2692/6 (Power=1.0)
 Bang!
 
       Vitality is an untracked player switch with possible values of
@@ -6459,14 +6502,14 @@ Bang!
       * At the beginning of each Agoran week, if any player triggered
         the match in the previous Agoran week, and if there at least
         three alive players, the match state is flipped to ongoing,
-        after which each alive player gains a bang.
+        after which each alive player is granted 2 bangs.
       
       If the match state is ongoing, no player has won the game as a
-      result of this Rule in the past 28 days, and a single player is
-      alive, that player CAN stand alone by announcement. When a player
-      stands alone, e wins the game. If a player won the game in this
-      manner 4 days ago, then the match state is flipped to none (if it
-      is not already).
+      result of this Rule in the past 28 days, and a single player was
+      alive at the beginning of the week, that player CAN stand alone by
+      announcement. When a player stands alone, eir radiance is
+      increased by 30, then the match state is flipped to none (if it is
+      not already).
       
       When a player takes an action that causes one or more vitalities
       or bang balances to change, e SHOULD recite all such changes in
@@ -6481,11 +6524,15 @@ Enacted by P9116 'A friendly game v2' (snail, juan, Janet, ais523,
 Amended(1) by P9117 'Self-Elimination' (Mischief), 21 Jun 2024
 Amended(2) by P9134 'It takes two' (snail, ais523), 13 Jul 2024
 Amended(3) by P9143 'A new duel' (Janet, Mischief), 19 Jul 2024
+Amended(4) by P9178 'Takes Two to Tango in this Town' (snail), 15 Sep
+   2024
+Amended(5) by P9179 'No Race Conditions' (Mischief), 22 Sep 2024
+Amended(6) by P9185 'Gun control' (Janet), 11 Oct 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2696/1 (Power=1.0)
+Rule 2696/3 (Power=1.0)
 Bang actions
 
       While the match state is ongoing, a player CAN by announcement
@@ -6505,12 +6552,14 @@ Bang actions
         (the target list).
       
       When a player (the shooter) fires a round, sequentially for each
-      person (the target) in the target list, if the shooter is alive
-      and has at least two bangs, and the target is an alive player,
-      then two of the shooter's bangs are destroyed, after which the
-      target is eliminated.
+      person (the target) in the target list, if the shooter has at
+      least two bangs and was alive at the beginning of the week, and
+      the target was an alive player at the beginning of the week, then
+      two of the shooter's bangs are destroyed, after which the target
+      is eliminated.
       
-      When a player is eliminated, if eir vitality is alive, then the
+      
+      When a person is eliminated, if e is an alive player then the
       following happen in order:
       * Eir vitality is flipped to unalive.
       * E gains one bang.
@@ -6522,13 +6571,19 @@ Bang actions
       
       If the match state is ongoing and has not changed in the past 7
       days, and if no player has loaded a round or fired a round in this
-      Agoran week or the previous two Agoran weeks, then the match state
-      becomes none.
+      Agoran week or the previous two Agoran weeks, then any player CAN
+      flip the match state to none by announcement.
+      
+      If the match state is initializing and has not changed in the past
+      28 days, then any player CAN flip the match state to none by
+      announcement.
 
 History:
 
 Enacted by P9143 'A new duel' (Janet, Mischief), 19 Jul 2024
 Amended(1) by P9149 'Silly Bangs' (4st), 11 Aug 2024
+Amended(2) by P9179 'No Race Conditions' (Mischief), 22 Sep 2024
+Amended(3) by P9180 'Pragmatic Shootouts' (Mischief), 22 Sep 2024
 
 Annotations:
 
@@ -6554,266 +6609,6 @@ The Bounty Board
 History:
 
 Enacted by P9167 'The Bounty Board' (snail), 01 Sep 2024
-
-Annotations:
-
-------------------------------------------------------------------------
-========================================================================
-Stones
-   A game in which people try to collect Stones with various different
-   Magical Powers OooOooh!
-------------------------------------------------------------------------
-Rule 2640/9 (Power=2)
-Stones
-
-      A stone is a unique indestructible fixed asset defined by the
-      rules. To define a stone, the definition must include:
-        (i) A name unique among stones;
-       (ii) A description of the stone's properties
-      (iii) Optionally, a frequency, which must be one of daily, weekly,
-            monthly, or quarterly.
-      
-      Ownership of stones is entirely restricted to Agora and players.
-      If a stone is owned by the Lost and Found Department or in
-      abeyance, it is immediately transferred to Agora.
-      
-      The Stonemason is a sortitioned office, and the recordkeepor of
-      stones.
-      
-      A stone is immune if and only if a rule of power 2 or more says it
-      is immune and it is not owned by Agora; otherwise it is
-      non-immune.
-
-History:
-
-Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-Amended(1) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
-   ziproot), 26 Nov 2022
-Amended(2) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
-Amended(3) by P8883 'Increased weathering v2' (Janet), 15 Jan 2023
-Amended(4) by cleaning (4st), 25 Apr 2023
-Amended(5) by P9062 'Insurance Policy' (kiako, ais523), 10 Mar 2024
-Amended(6) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
-Amended(7) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May 2024
-Amended(8) by P9109 'Sortition' (nix, Janet), 12 May 2024
-Amended(9) by P9139 'Protection Stone Fix' (Mischief, Janet), 13 Jul
-   2024
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2641/4 (Power=2)
-Wielding Stones
-
-      Except as otherwise specified by the rules, the owner of a stone
-      CAN wield it by announcement specifying any values needed to
-      interpret the stone's effects.
-      
-      A stone with a frequency that has been wielded in the
-      corresponding Agoran time interval is Hot for the remainder of the
-      time period (e.g. if the frequency is daily, it is hot for the
-      remainder of the Agoran day it was wielded during).
-      
-      While a stone is hot, it is IMPOSSIBLE to wield it.
-      
-      When a stone is wielded, the Rule defining that stone applies any
-      effects that it defines as occurring when the stone is wielded.
-      
-      The wielding of stones is secured.
-
-History:
-
-Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-Amended(1) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
-   ziproot), 27 Nov 2022
-Amended(2) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
-Amended(3) by cleaning (kiako), 02 Mar 2024
-Amended(4) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2642/12 (Power=2)
-Stone Cost
-
-      Stone Cost is a Stone switch with values of non-negative integers
-      and a default of 10. Stone Cost is tracked by the Stonemason.
-      
-      Any player CAN pay a fee of X Spendies to transfer a specified
-      non-immune stone to emself, where X is the current Stone Cost of
-      the specified stone. When this occurs, the stone cost of that
-      stone is set to its default value.
-      
-      At the beginning of each Agoran week, the Stone Cost of each stone
-      is decreased by 1 (to a minimum of 1). When a stone is transferred
-      to Agora, its Stone Cost is reset to its default value.
-
-History:
-
-Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-Amended(1) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
-Amended(2) by P8680 'Auction conduction fix v2' (Janet, G.), 28 May 2022
-Retitled by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
-Amended(3) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
-Amended(4) by P8898 'Rockier Gardens' (nix, snail), 17 Feb 2023
-Amended(5) by P8958 'Taken for Granite' (Murphy, nix), 05 May 2023
-Amended(6) by P9002 'Active rocks' (Janet), 09 Jul 2023
-Amended(7) by P9037 'Uncrossed arms' (Murphy), 10 Dec 2023
-Amended(8) by P9062 'Insurance Policy' (kiako, ais523), 10 Mar 2024
-Retitled from 'Gathering Stones' to 'Stone Cost' by P9079 'Spendies
-   v1.1' (nix, Janet, kiako), 07 Apr 2024
-Amended(9) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
-Amended(10) by P9107 'Market Stone Pricing' (Jaff), 12 May 2024
-Amended(11) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
-   2024
-Amended(12) by P9138 'Stone cost adjustments' (Janet), 13 Jul 2024
-
-Annotations:
-CFJ 4021 (called 09 Apr 2023): No amount of Agoran grammatic sophistry
-    can take away from the plain and obvious common-sense intended
-    meaning in that paragraph.
-
-------------------------------------------------------------------------
-Rule 2644/7 (Power=2)
-Zen Gardening
-
-      A player has an impressive rock collection if e:
-      1) owns 10 or more stones; or
-      2) owns 8 or more stones and does not own the Tacky Stone.
-      
-      A player CAN, by announcement, Notice the Rock Garden, specifying
-      a single player with an impressive rock collection, provided that
-      no person has won the game by doing so in the past 30 days.
-      
-      When the Rock Garden is Noticed, the specified player wins the
-      game.  If a player won the game in this manner 4 days ago, then
-      all existing stones are transferred to Agora, after which the
-      Stone Cost of each stone is set to its default value.
-
-History:
-
-Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-Amended(1) by P8571 'Gauntlet announcement patch' (Janet), 14 Jun 2021
-Amended(2) by P8575 'Stone Win Delay v2' (Janet, Gaelan), 23 Jun 2021
-Amended(3) by P8600 'fix win lockouts' (G.), 30 Aug 2021
-Retitled by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
-Amended(4) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
-Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
-Amended(6) by P9128 'Stone cost reset v2' (Janet), 06 Jul 2024
-Amended(7) by P9152 'Ugh' (Mischief), 11 Aug 2024
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2645/31 (Power=2)
-The Stones
-
-      The following stones are defined, one per paragraph, with the
-      following format: Stone Name (Frequency): Description.
-      
-      - Power Stone (weekly): When this stone is wielded, a specified
-        player (defaulting to the wielder if not specified) is Power
-        Stoned; Power Stoning is secured. A player's voting strength on
-        a referendum on an ordinary proposal is increased by 3 for each
-        time that e was Power Stoned during the referendum's voting
-        period.
-      
-      - Soul Stone (weekly): When wielded, this stone is transferred to
-        the owner of a different specified non-immune stone not owned by
-        Agora, then that stone is transferred to the wielder.
-      
-      - Sabotage Stone (weekly): When wielded, the adoption index of a
-        specified AI-majority Agoran decision is increased by 1.
-      
-      - Minty Stone (weekly): When wielded, a specified Player gains a
-        stamp of eir own type.
-      
-      - Protection Stone (monthly): When wielded, specify a stone. The
-        stone most recently specified when wielding the Protection Stone
-        is immune.
-      
-      - Recursion Stone (monthly): The Recursion Stone can be wielded
-        once per month as if it had the power of any other stone of your
-        choice (the Blueprint Stone), with any references to the
-        Blueprint Stone itself changed to the Recursion Stone unless
-        they specify otherwise.
-      
-      - Hot Potato Stone (weekly): When this stone is wielded, the
-        wielder specifies an eligible player and gains 8 radiance. The
-        stone is transferred to the eligible player. An eligible player
-        is one who has not owned this stone since the last time it was
-        transferred without being wielded. If this stone has been
-        wielded at least once in the past 15 days, it is immune.
-      
-      - Blank Stone (monthly): This stone has no effect.
-      
-      - Grind Stone (quarterly): When wielded, if this is the 5th time
-        the wielder has wielded the Grind Stone (not the recursion
-        stone) since any other player wielded it, e wins the game.
-      
-      - Radiance Stone (weekly): When wielded, a specified player
-        (defaulting to the wielder if not specified) gains 3 radiance.
-      
-      - Tacky Stone (monthly): Wielding the Tacky Stone reminds everyone
-        how much of an eyesore it is. If the Tacky Stone is not immune,
-        any player CAN pay a fee of X Spendies to transfer the Tacky
-        Stone to a specified entity that the rules permit to own stones,
-        where X is the current Stone Cost of the Tacky Stone. When this
-        occurs, the stone cost of the Tacky Stone is set to its default
-        value.
-
-History:
-
-Enacted by P8521 'Stones' (Janet, G., Aris, nix, Trigon, Gaelan,
-   Falsifian), 11 Nov 2020
-Amended(1) by P8523 'Emergency Economy Unbreaking' (Aris, nix, Janet),
-   22 Nov 2020
-Amended(2) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
-Amended(3) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris, Janet),
-   11 Feb 2021
-Amended(4) by P8548 'Stone defaults' (Janet), 10 Mar 2021
-Amended(5) by P8604 'Stony Silence' (R. Lee, G.), 24 Sep 2021
-Amended(6) by P8642 'Hot Potato patch v2' (Janet, Oerjan), 23 Feb 2022
-Amended(7) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
-   2022
-Amended(8) by R2658, 09 Jun 2022
-Amended(9) by P8704 'Tasty Stone' (4st), 17 Jul 2022
-Amended(10) by P8842 'Losing Focus' (Pilgore, nix, Janet, Madrid), 30
-   Aug 2022
-Amended(11) by P8865 'Stone Fixes' (nix, G., ais523, Janet, ziproot), 13
-   Nov 2022
-Amended(12) by P8868 'Slippery Stones v2.1' (nix, G., ais523, Janet,
-   ziproot), 27 Nov 2022
-Amended(13) by P8870 'Stone fixes' (Janet, nix), 11 Dec 2022
-Amended(14) by P8886 'Mason's Stone repeal' (Janet), 04 Feb 2023
-Amended(15) by P8906 'Stone Immunity Correction (Keeping Our Stones)
-   Act' (Janet), 26 Feb 2023
-Amended(16) by P8906 'Stone Immunity Correction (Keeping Our Stones)
-   Act' (Janet), 26 Feb 2023
-Amended(17) by P8907 'Maybe a little less hot?' (Janet), 26 Feb 2023
-Amended(18) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
-Amended(19) by P8964 'Minty Stone' (snail), 12 May 2023
-Amended(20) by P8990 'Self-referential stone fixes' (Janet, nix), 19 Jun
-   2023
-Amended(21) by P8995 'Broad Recursion' (Murphy, snail), 19 Jun 2023
-Amended(22) by cleaning (kiako), 02 Mar 2024
-Amended(23) by P9071 'Loud Stone' (snail), 22 Mar 2024
-Amended(24) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
-   2024
-Amended(25) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
-   2024
-Amended(26) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
-   2024
-Amended(27) by P9108 'Less Smooth, More Immune' (nix, Janet), 12 May
-   2024
-Amended(28) by P9114 'Grind Stone' (snail), 21 Jun 2024
-Amended(29) by P9126 'More Stone Cleanup' (Mischief), 06 Jul 2024
-Amended(30) by P9133 'Last from the Past' (snail), 06 Jul 2024
-Amended(31) by P9152 'Ugh' (Mischief), 11 Aug 2024
 
 Annotations:
 
@@ -6947,7 +6742,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/32 (Power=3)
+Rule 2438/33 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6984,7 +6779,7 @@ Ribbons
       no valid ballots were AGAINST (after evaluating conditionals), its
       proposer earns an Orange Ribbon.
       
-      Green (G): While a person holds an voluntary office, has done so
+      Green (G): While a person holds a voluntary office, has done so
       continuously for the past 30 days, and has not failed to perform
       any duties of that office within the appropriate time limits
       during those 30 days, that person qualifies for a Green Ribbon.
@@ -7098,6 +6893,8 @@ Amended(30) by P9072 'Vacations v4' (snail, nix, Janet, 4st, Yachay
 Amended(31) by cleaning (Mischief), 19 May 2024
 Amended(32) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
+Amended(33) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
+   ais523, Janet, 4st), 15 Sep 2024
 
 Annotations:
 
@@ -8050,7 +7847,7 @@ CFJ 3902 (called 19 Mar 2021): Ratifying an SLR increments the version
     number if it ratifies an error.
 
 ------------------------------------------------------------------------
-Rule 2694/0 (Power=1.0)
+Rule 2694/1 (Power=1.0)
 Hats
 
       Hats are a secured player switch defaulting to "none" with the
@@ -8088,9 +7885,9 @@ Hats
         traditional mortarboard: conducting research and writing theses
       
       A player CAN change eir hat at any time by notifying the
-      recordkeepor for eir hat (publicly or privately). Unless otherwise
-      specified by the rules: 1) the recordkeepor for a player's hat is
-      the player emself, and 2) reporting on hats is OPTIONAL.
+      recordkeepor for eir hat (publicly or privately). The recordkeepor
+      for a player's hat is the player emself. Rules to the contrary
+      notwithstanding, reporting on one's own hat is OPTIONAL.
       
       Hats do not otherwise limit or restrict a player's actions in any
       way, and every player is ENCOURAGED to participate in all aspects
@@ -8099,6 +7896,8 @@ Hats
 History:
 
 Enacted by P9122 'Hats' (Mischief), 23 Jun 2024
+Amended(1) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
 
 Annotations:
 
@@ -8125,9 +7924,13 @@ Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
 Amended(2) by P9109 'Sortition' (nix, Janet), 12 May 2024
 
 Annotations:
+CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
+    any specific dimension or direction; merely pushing the Boulder
+    increases its Height, regardless of how a player announces e does
+    so.
 
 ------------------------------------------------------------------------
-Rule 2695/1 (Power=0.5)
+Rule 2695/2 (Power=0.5)
 The Veblen
 
       The Veblen is a unique indestructible fixed asset tracked by the
@@ -8139,10 +7942,10 @@ The Veblen
       The Veblen cost is a secured singleton positive integer switch
       tracked by the Absurdor and with default value one.
       
-      A player who does not own the Veblen CAN pay a fee of X spendies
-      to purchase the Veblen, where X is an integer not less than the
-      current Veblen cost. When e does so, the Veblen is transferred to
-      em, then the Veblen cost is set to X+1.
+      A player CAN pay a fee of X spendies, where X is an integer not
+      less than the current Veblen cost, to set the Veblen cost to X+1.
+      When e does so, if e does not own the Veblen, the Veblen is
+      transferred to em.
       
       The owner of the Veblen SHOULD conspicuously show off eir
       ownership of it from time to time.
@@ -8152,6 +7955,7 @@ History:
 Enacted by P9142 'Potential Further Absurdity' (Mischief, Janet), 19 Jul
    2024
 Amended(1) by P9150 '*sigh*' (Janet), 11 Aug 2024
+Amended(2) by P9172 'Veblen Defense' (Mischief), 15 Sep 2024
 
 Annotations:
 
