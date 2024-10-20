@@ -2,14 +2,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 13 Oct 2024
+Date of this ruleset: 20 Oct 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 135
 
 Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9185
+Highest ID'd Proposal Passed: 9191
 Highest ID'd Rule Enacted: 2698
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -327,7 +327,7 @@ Mother, May I?
          it ought to be understood and carefully weighed.
 
 ------------------------------------------------------------------------
-Rule 2509/2 (Power=2)
+Rule 2509/3 (Power=2)
 Agoran Numbers
 
       A "number" is considered to refer to a real number, unless
@@ -342,10 +342,6 @@ Agoran Numbers
       integers or all integers, respectively. If a limit is further
       defined, the possible values are the numbers of the set within the
       specified limits.
-      
-      If 0 is in the specified values for a numerical switch and no
-      default value is otherwise specified, 0 is the default value for
-      that switch.
       
       If the rules describe mathematical operations to be used in
       flipping an instance of a numerical switch, the operations are
@@ -2780,12 +2776,12 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/9 (Power=1)
+Rule 2659/10 (Power=1)
 Stamps
 
-      Stamps are a category of asset ownable by players and Agora. The
-      Collector is a sortitioned office. The Collector tracks Stamps in
-      eir weekly report.
+      Stamps are a category of asset ownable by players. The Collector
+      is a sortitioned office. The Collector tracks Stamps in eir weekly
+      report.
       
       For each person there is a corresponding type of stamp. Stamps of
       any given type are fungible.
@@ -2891,7 +2887,7 @@ Crystals
       existing crystals are destroyed.
 
 ------------------------------------------------------------------------
-Rule 2690/4 (Power=1.0)
+Rule 2690/5 (Power=1.0)
 Spendies
 
       The Spendor is a sortitioned office.
@@ -2901,7 +2897,7 @@ Spendies
       report.
       
       At the end of each month, all Spendies are destroyed. At the
-      beginning of each month, every player is granted 15 Spendies.
+      beginning of each month, every player is granted 20 Spendies.
 
 ------------------------------------------------------------------------
 Rule 2692/6 (Power=1.0)
@@ -3082,7 +3078,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/33 (Power=3)
+Rule 2438/34 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3169,10 +3165,9 @@ Ribbons
       person to earn a Black Ribbon. When this occurs, this Rule awards
       that person a Black Ribbon.
       
-      Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
-      unless e has done so earlier in the month. E is ENCOURAGED to
-      award such a Ribbon in the same message in which e publishes eir
-      monthly report.
+      Gray (A): Once per month the Tailor CAN award a Gray Ribbon by
+      announcement. E is ENCOURAGED to award such a Ribbon in the same
+      message in which e publishes eir monthly report.
       
       Transparent (T): A person qualifies for a Transparent Ribbon while
       the number of other types of Ribbon that that person qualifies
@@ -3188,7 +3183,7 @@ Ribbons
       Qualifying for ribbons is secured. Earning ribbons is secured.
 
 ------------------------------------------------------------------------
-Rule 2480/7 (Power=3.1)
+Rule 2480/9 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
@@ -3197,27 +3192,26 @@ Festivals
       the Tailor's monthly report. In addition, while Festivity is
       non-zero, the Tailor SHALL announce its value each week; a public
       document purporting to be such an announcement is self-ratifying.
+      A Festival is ongoing whenever Agora's Festivity is non-zero.
       
-      If Agora's Festivity has had the same nonzero value for 14 days or
-      more, or if it has a nonzero value and fewer than 5 players are
-      Festive, then any player CAN flip it to 0 by announcement.
+      If Agora's Festivity has had the same non-zero value for 14 days
+      or more, or if it has a non-zero value and fewer than 5 players
+      are Festive, then any player CAN flip it to 0 by announcement.
       
-      A person whose Laudability is greater than or equal to Agora's
-      Festivity is Festive. Any other person is not Festive.
+      A Festive person is a person whose Laudability is greater than or
+      equal to Agora's Festivity. An N-Festive person is a person who
+      would be Festive, were Agora's Festivity N.
       
-      A player who would be Festive if the Festivity was N CAN Start a
-      Rank N Festival, where N is an integer greater than Agora's
-      Festivity, with 4 support from other players who would be Festive
-      if the Festivity was N, except that a Rank N Festival CANNOT be
-      started if Agora's Festivity has had a value greater than or equal
-      to N in the past 21 days. Upon a Rank N Festival starting, Agora's
-      Festivity is flipped to N.
+      For any integer N greater than Agora's Festivity, an N-Festive
+      player CAN flip Agora's Festivity to N with 4 support from other
+      N-Festive players, unless Agora's Festivity has had a value
+      greater than or equal to N in the past 21 days.
 
 ------------------------------------------------------------------------
-Rule 2481/8 (Power=3.1)
+Rule 2481/9 (Power=3.1)
 Festival Restrictions
 
-      While Agora's Festivity is nonzero, the following apply:
+      While Agora's Festivity is non-zero, the following apply:
       
       1. Rules to the contrary notwithstanding, non-Festive players
          CANNOT support/be a supporter for tabled action intents;
