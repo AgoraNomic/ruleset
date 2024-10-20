@@ -8,21 +8,20 @@ text: |
   the Tailor's monthly report. In addition, while Festivity is
   non-zero, the Tailor SHALL announce its value each week; a public
   document purporting to be such an announcement is self-ratifying.
+  A Festival is ongoing whenever Agora's Festivity is non-zero.
 
-  If Agora's Festivity has had the same nonzero value for 14 days or
-  more, or if it has a nonzero value and fewer than 5 players are
-  Festive, then any player CAN flip it to 0 by announcement.
+  If Agora's Festivity has had the same non-zero value for 14 days
+  or more, or if it has a non-zero value and fewer than 5 players
+  are Festive, then any player CAN flip it to 0 by announcement.
   
   A person whose Laudability is greater than or equal to Agora's
   Festivity is Festive. Any other person is not Festive.
 
-  A player who would be Festive if the Festivity was N CAN Start a
-  Rank N Festival, where N is an integer greater than Agora's
-  Festivity, with 4 support from other players who would be Festive
-  if the Festivity was N, except that a Rank N Festival CANNOT be
-  started if Agora's Festivity has had a value greater than or equal
-  to N in the past 21 days. Upon a Rank N Festival starting, Agora's
-  Festivity is flipped to N.
+  A player who would be Festive if Agora's Festivity were N CAN flip
+  it to N (where N is an integer greater than Agora's Festivity)
+  with 4 support from other players who would be Festive if Agora's
+  Festivity were N, unless Agora's Festivity has had a value greater
+  than or equal to N in the past 21 days.
 history:
 - change:
     type: enactment
@@ -73,4 +72,9 @@ history:
   agent:
     cleaning:
       by: "4st"
+- change:
+    type: amendment
+  date: 2024-10-20
+  agent:
+    proposal: "9189"
 annotations: []

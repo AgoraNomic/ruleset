@@ -2,7 +2,7 @@ id: 2481
 name: Festival Restrictions
 power: 3.1
 text: |
-  While Agora's Festivity is nonzero, the following apply:
+  While Agora's Festivity is non-zero, the following apply:
 
   1. Rules to the contrary notwithstanding, non-Festive players
      CANNOT support/be a supporter for tabled action intents;
@@ -72,4 +72,9 @@ history:
   date: 2024-05-02
   agent:
     proposal: "9097"
+- change:
+    type: amendment
+  date: 2024-10-20
+  agent:
+    proposal: "9189"
 annotations: []
