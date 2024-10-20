@@ -15,10 +15,6 @@ text: |
   defined, the possible values are the numbers of the set within the
   specified limits.
 
-  If 0 is in the specified values for a numerical switch and no
-  default value is otherwise specified, 0 is the default value for
-  that switch.
-
   If the rules describe mathematical operations to be used in
   flipping an instance of a numerical switch, the operations are
   interpreted as having common-sense mathematical application to
@@ -50,6 +46,11 @@ history:
   date: 2018-03-06
   agent:
     proposal: "8021"
+- change:
+    type: amendment
+  date: 2024-10-20
+  agent:
+    proposal: "9188"
 annotations:
 - cfjs:
   - id: '2509'
