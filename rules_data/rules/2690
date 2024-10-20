@@ -9,7 +9,7 @@ text: |
   report.
 
   At the end of each month, all Spendies are destroyed. At the
-  beginning of each month, every player is granted 15 Spendies.
+  beginning of each month, every player is granted 20 Spendies.
 history:
 - change:
     type: enactment
@@ -36,3 +36,8 @@ history:
   date: 2024-09-15
   agent:
     proposal: "9176"
+- change:
+    type: amendment
+  date: 2024-10-20
+  agent:
+    proposal: "9191"
