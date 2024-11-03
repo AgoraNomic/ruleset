@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 13 Oct 2024
+Date of this ruleset: 3 Nov 2024
 
 Date of last SLR ratification: 31 Dec 2023
 
 Number of rules currently enacted: 135
 
 Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9185
+Highest ID'd Proposal Passed: 9191
 Highest ID'd Rule Enacted: 2698
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -1024,7 +1024,7 @@ CFJ 2414 (called 14 Mar 2009): A rule of the form "X SHOULD be
     interpretation by failing to perform the described action.
 
 ------------------------------------------------------------------------
-Rule 2509/2 (Power=2)
+Rule 2509/3 (Power=2)
 Agoran Numbers
 
       A "number" is considered to refer to a real number, unless
@@ -1039,10 +1039,6 @@ Agoran Numbers
       integers or all integers, respectively. If a limit is further
       defined, the possible values are the numbers of the set within the
       specified limits.
-      
-      If 0 is in the specified values for a numerical switch and no
-      default value is otherwise specified, 0 is the default value for
-      that switch.
       
       If the rules describe mathematical operations to be used in
       flipping an instance of a numerical switch, the operations are
@@ -1061,6 +1057,7 @@ Amended(1) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
 Amended(2) by P8021 'Limit Numerical silliness' (G.), 06 Mar 2018
 Retitled to 'Agoran Numbers' by P8021 'Limit Numerical silliness' (G.),
    06 Mar 2018
+Amended(3) by P9188 'Double Default Trouble' (kiako), 20 Oct 2024
 
 Annotations:
 CFJ 2509 (called 25 Jan 2021): Zero is a natural number.
@@ -6250,12 +6247,12 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/9 (Power=1)
+Rule 2659/10 (Power=1)
 Stamps
 
-      Stamps are a category of asset ownable by players and Agora. The
-      Collector is a sortitioned office. The Collector tracks Stamps in
-      eir weekly report.
+      Stamps are a category of asset ownable by players. The Collector
+      is a sortitioned office. The Collector tracks Stamps in eir weekly
+      report.
       
       For each person there is a corresponding type of stamp. Stamps of
       any given type are fungible.
@@ -6293,6 +6290,7 @@ Amended(6) by P9075 'No Hidden Ownership Restrictions' (nix, Janet,
 Amended(7) by P9076 'FUNgibility' (nix), 07 Apr 2024
 Amended(8) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(9) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(10) by P9186 'No more stamps for Agora' (kiako), 20 Oct 2024
 
 Annotations:
 
@@ -6458,7 +6456,7 @@ Amended(8) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2690/4 (Power=1.0)
+Rule 2690/5 (Power=1.0)
 Spendies
 
       The Spendor is a sortitioned office.
@@ -6468,7 +6466,7 @@ Spendies
       report.
       
       At the end of each month, all Spendies are destroyed. At the
-      beginning of each month, every player is granted 15 Spendies.
+      beginning of each month, every player is granted 20 Spendies.
 
 History:
 
@@ -6477,6 +6475,7 @@ Amended(1) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(2) by P9089 'Who are you, again, again?' (Janet), 21 Apr 2024
 Amended(3) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(4) by P9176 'Adjusting the Money Supply' (Mischief), 15 Sep 2024
+Amended(5) by P9191 'Back to the twenties' (snail), 20 Oct 2024
 
 Annotations:
 
@@ -6742,7 +6741,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/33 (Power=3)
+Rule 2438/34 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6829,10 +6828,9 @@ Ribbons
       person to earn a Black Ribbon. When this occurs, this Rule awards
       that person a Black Ribbon.
       
-      Gray (A): The Tailor CAN award a Gray Ribbon by announcement,
-      unless e has done so earlier in the month. E is ENCOURAGED to
-      award such a Ribbon in the same message in which e publishes eir
-      monthly report.
+      Gray (A): Once per month the Tailor CAN award a Gray Ribbon by
+      announcement. E is ENCOURAGED to award such a Ribbon in the same
+      message in which e publishes eir monthly report.
       
       Transparent (T): A person qualifies for a Transparent Ribbon while
       the number of other types of Ribbon that that person qualifies
@@ -6895,11 +6893,13 @@ Amended(32) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
 Amended(33) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
    ais523, Janet, 4st), 15 Sep 2024
+Amended(34) by P9187 'Gray Ribbon clarification' (kiako, Janet, Kate),
+   20 Oct 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2480/7 (Power=3.1)
+Rule 2480/9 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
@@ -6908,21 +6908,20 @@ Festivals
       the Tailor's monthly report. In addition, while Festivity is
       non-zero, the Tailor SHALL announce its value each week; a public
       document purporting to be such an announcement is self-ratifying.
+      A Festival is ongoing whenever Agora's Festivity is non-zero.
       
-      If Agora's Festivity has had the same nonzero value for 14 days or
-      more, or if it has a nonzero value and fewer than 5 players are
-      Festive, then any player CAN flip it to 0 by announcement.
+      If Agora's Festivity has had the same non-zero value for 14 days
+      or more, or if it has a non-zero value and fewer than 5 players
+      are Festive, then any player CAN flip it to 0 by announcement.
       
-      A person whose Laudability is greater than or equal to Agora's
-      Festivity is Festive. Any other person is not Festive.
+      A Festive person is a person whose Laudability is greater than or
+      equal to Agora's Festivity. An N-Festive person is a person who
+      would be Festive, were Agora's Festivity N.
       
-      A player who would be Festive if the Festivity was N CAN Start a
-      Rank N Festival, where N is an integer greater than Agora's
-      Festivity, with 4 support from other players who would be Festive
-      if the Festivity was N, except that a Rank N Festival CANNOT be
-      started if Agora's Festivity has had a value greater than or equal
-      to N in the past 21 days. Upon a Rank N Festival starting, Agora's
-      Festivity is flipped to N.
+      For any integer N greater than Agora's Festivity, an N-Festive
+      player CAN flip Agora's Festivity to N with 4 support from other
+      N-Festive players, unless Agora's Festivity has had a value
+      greater than or equal to N in the past 21 days.
 
 History:
 
@@ -6937,14 +6936,17 @@ Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Janet, Aris,
 Amended(5) by P8634 'Laudability' (Janet), 24 Dec 2021
 Amended(6) by P8657 'Shrodinger's report' (Murphy), 03 Apr 2022
 Amended(7) by cleaning (4st), 22 Nov 2023
+Amended(8) by P9189 'Did you get a permit for that party?' (Janet,
+   Kate), 20 Oct 2024
+Amended(9) by P9190 'If there exists a party' (Janet, Kate), 20 Oct 2024
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2481/8 (Power=3.1)
+Rule 2481/9 (Power=3.1)
 Festival Restrictions
 
-      While Agora's Festivity is nonzero, the following apply:
+      While Agora's Festivity is non-zero, the following apply:
       
       1. Rules to the contrary notwithstanding, non-Festive players
          CANNOT support/be a supporter for tabled action intents;
@@ -6980,6 +6982,8 @@ Amended(6) by P8660 'The End of Sets' (nix, G., Janet, snail), 03 Apr
 Amended(7) by R2658, 09 Jun 2022
 Amended(8) by P9097 'Festival strength restrictions' (Janet), 02 May
    2024
+Amended(9) by P9189 'Did you get a permit for that party?' (Janet,
+   Kate), 20 Oct 2024
 
 Annotations:
 
