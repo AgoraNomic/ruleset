@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4.2.1
 
       - name: Set up JDK 17
-        uses: actions/setup-java@v1
+        uses: actions/setup-java@v4.4.0
         with:
           java-version: 17
 
@@ -35,10 +35,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4.2.1
 
       - name: Set up JDK 17
-        uses: actions/setup-java@v1
+        uses: actions/setup-java@v4.4.0
         with:
           java-version: 17
 
@@ -48,7 +48,7 @@ jobs:
           ./generate_rulesets.sh
 
       - name: Upload reports artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4.4.3
         with:
           name: reports
           path: generated
@@ -59,16 +59,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4.2.1
 
       - name: Fetch reports artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.8
         with:
           name: reports
           path: artifacts/reports
 
       - name: Deploy reports to Github Pages
-        uses: crazy-max/ghaction-github-pages@v2.0.0
+        uses: crazy-max/ghaction-github-pages@v4.1.0
         with:
           target_branch: ci-generated
           keep_history: false
