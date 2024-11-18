@@ -16,9 +16,18 @@ text: |
   The shooter SHOULD publish the target's Bounty Amount at the time
   of the elimination when e eliminates a target with a non-zero
   Bounty Amount.
+
+  A player CAN wipe the slate clean by announcement if the match
+  state is none and no one has done so in the current quarter. Upon
+  doing so, all bounty amounts are flipped to zero.
 history:
 - change:
     type: enactment
   date: 2024-09-01
   agent:
     proposal: "9167"
+- change:
+    type: amendment
+  date: 2024-11-18
+  agent:
+    proposal: "9194"
