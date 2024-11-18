@@ -16,6 +16,10 @@ text: |
   When e does so, if e does not own the Veblen, the Veblen is
   transferred to em.
 
+  If the Veblen has not been transferred or devalued within the past
+  month, then a player CAN devalue the Veblen by announcement, thus
+  setting the Veblen cost to half its current value (rounded up).
+
   The owner of the Veblen SHOULD conspicuously show off eir
   ownership of it from time to time.
 history:
@@ -34,3 +38,8 @@ history:
   date: 2024-09-15
   agent:
     proposal: "9172"
+- change:
+    type: amendment
+  date: 2024-11-18
+  agent:
+    proposal: "9193"
