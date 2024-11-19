@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 10 Nov 2024
+Date of this ruleset: 19 Nov 2024
 
 Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
 Number of rules currently enacted: 135
 
 Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9191
+Highest ID'd Proposal Passed: 9194
 Highest ID'd Rule Enacted: 2698
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -6592,7 +6592,7 @@ Amended(3) by P9180 'Pragmatic Shootouts' (Mischief), 22 Sep 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2697/0 (Power=1.0)
+Rule 2697/1 (Power=1.0)
 The Bounty Board
 
       Bounty Amount is an untracked player switch. Its possible values
@@ -6609,10 +6609,15 @@ The Bounty Board
       The shooter SHOULD publish the target's Bounty Amount at the time
       of the elimination when e eliminates a target with a non-zero
       Bounty Amount.
+      
+      A player CAN wipe the slate clean by announcement if the match
+      state is none and no one has done so in the current quarter. Upon
+      doing so, all bounty amounts are flipped to zero.
 
 History:
 
 Enacted by P9167 'The Bounty Board' (snail), 01 Sep 2024
+Amended(1) by P9194 'Ollie Ollie Oxen Free' (Mischief), 18 Nov 2024
 
 Annotations:
 
@@ -7939,7 +7944,7 @@ CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
     so.
 
 ------------------------------------------------------------------------
-Rule 2695/2 (Power=0.5)
+Rule 2695/3 (Power=0.5)
 The Veblen
 
       The Veblen is a unique indestructible fixed asset tracked by the
@@ -7956,6 +7961,10 @@ The Veblen
       When e does so, if e does not own the Veblen, the Veblen is
       transferred to em.
       
+      If the Veblen has not been transferred or devalued within the past
+      month, then a player CAN devalue the Veblen by announcement, thus
+      setting the Veblen cost to half its current value (rounded up).
+      
       The owner of the Veblen SHOULD conspicuously show off eir
       ownership of it from time to time.
 
@@ -7965,6 +7974,7 @@ Enacted by P9142 'Potential Further Absurdity' (Mischief, Janet), 19 Jul
    2024
 Amended(1) by P9150 '*sigh*' (Janet), 11 Aug 2024
 Amended(2) by P9172 'Veblen Defense' (Mischief), 15 Sep 2024
+Amended(3) by P9193 'Devaluation' (Murphy), 18 Nov 2024
 
 Annotations:
 
