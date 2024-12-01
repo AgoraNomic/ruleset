@@ -2,14 +2,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 3 Nov 2024
+Date of this ruleset: 1 Dec 2024
 
-Date of last SLR ratification: 31 Dec 2023
+Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
 Number of rules currently enacted: 135
 
 Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9191
+Highest ID'd Proposal Passed: 9194
 Highest ID'd Rule Enacted: 2698
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -5069,7 +5069,7 @@ Forgiveness
       All infractions that have not been forgiven are unforgiven.
       
       Any player CAN, with Agoran Consent, "forgive" an unforgiven
-      infraction that ocurred in the past 30 days. When an infraction
+      infraction that occurred in the past 30 days. When an infraction
       is forgiven, if the infraction was investigated, a number of
       blots in the possession of the infracter equal to the number of
       blots specified by the investigation are destroyed or, if e has
@@ -6587,7 +6587,7 @@ Amended(3) by P9180 'Pragmatic Shootouts' (Mischief), 22 Sep 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2697/0 (Power=1.0)
+Rule 2697/1 (Power=1.0)
 The Bounty Board
 
       Bounty Amount is an untracked player switch. Its possible values
@@ -6604,10 +6604,15 @@ The Bounty Board
       The shooter SHOULD publish the target's Bounty Amount at the time
       of the elimination when e eliminates a target with a non-zero
       Bounty Amount.
+      
+      A player CAN wipe the slate clean by announcement if the match
+      state is none and no one has done so in the current quarter. Upon
+      doing so, all bounty amounts are flipped to zero.
 
 History:
 
 Enacted by P9167 'The Bounty Board' (snail), 01 Sep 2024
+Amended(1) by P9194 'Ollie Ollie Oxen Free' (Mischief), 18 Nov 2024
 
 Annotations:
 
@@ -7934,11 +7939,11 @@ CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
     so.
 
 ------------------------------------------------------------------------
-Rule 2695/2 (Power=0.5)
+Rule 2695/3 (Power=0.5)
 The Veblen
 
       The Veblen is a unique indestructible fixed asset tracked by the
-      Abusrdor, with ownership entirely restricted to players and Agora.
+      Absurdor, with ownership entirely restricted to players and Agora.
       If the Veblen would otherwise be in abeyance, or if it is owned by
       the Lost and Found Department, it is immediately transferred to
       Agora.
@@ -7951,6 +7956,10 @@ The Veblen
       When e does so, if e does not own the Veblen, the Veblen is
       transferred to em.
       
+      If the Veblen has not been transferred or devalued within the past
+      month, then a player CAN devalue the Veblen by announcement, thus
+      setting the Veblen cost to half its current value (rounded up).
+      
       The owner of the Veblen SHOULD conspicuously show off eir
       ownership of it from time to time.
 
@@ -7960,6 +7969,7 @@ Enacted by P9142 'Potential Further Absurdity' (Mischief, Janet), 19 Jul
    2024
 Amended(1) by P9150 '*sigh*' (Janet), 11 Aug 2024
 Amended(2) by P9172 'Veblen Defense' (Mischief), 15 Sep 2024
+Amended(3) by P9193 'Devaluation' (Murphy), 18 Nov 2024
 
 Annotations:
 
