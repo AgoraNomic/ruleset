@@ -1,15 +1,16 @@
 THE SHORT LOGICAL RULESET
+(RULEKEEPOR'S WEEKLY REPORT)
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 1 Dec 2024
+Date of this ruleset: 16 Dec 2024
 
 Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
 Number of rules currently enacted: 135
 
 Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9194
+Highest ID'd Proposal Passed: 9196
 Highest ID'd Rule Enacted: 2698
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -522,7 +523,7 @@ Random Choices
       distribution can be readily confirmed.
 
 ------------------------------------------------------------------------
-Rule 2681/0 (Power=1)
+Rule 2681/1 (Power=1)
 Acting on Commitment
 
       A Fingerprint for a document (the Plaintext) is a document that
@@ -531,11 +532,15 @@ Acting on Commitment
       that one could not reasonably produce another document related to
       that Fingerprint in the same way.
       
-      Where the rules define an action that a person CAN perform "by
-      commitment" to a particular kind of document, that person performs
-      that action by performing it by announcement while, in the same
-      message, also publishing a what is purportedly a Fingerprint for a
-      document of that kind.
+      A person CAN make a commitment to a particular kind of document by
+      publishing a statement that purports to be a Fingerprint for a
+      document of that kind. If the statement is in fact such a
+      Fingerprint, the person CAN then reveal the commitment by
+      publishing the Plaintext corresponding to that Fingerprint and
+      clearly indicating which Fingerprint the Plaintext relates to.
+      
+      A person making a commitment SHOULD specify the method used to
+      produce the Fingerprint from the Plaintext.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2887,14 +2892,15 @@ Crystals
       existing crystals are destroyed.
 
 ------------------------------------------------------------------------
-Rule 2690/5 (Power=1.0)
+Rule 2690/6 (Power=1.0)
 Spendies
 
       The Spendor is a sortitioned office.
       
       Spendies are a fungible liquid asset ownable by players and
       contracts. Spendies are tracked by the Spendor in eir weekly
-      report.
+      report. If the Spendor's report is overdue, then other players
+      SHOULD deputise to publish it.
       
       At the end of each month, all Spendies are destroyed. At the
       beginning of each month, every player is granted 20 Spendies.
