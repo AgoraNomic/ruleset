@@ -8,14 +8,23 @@ text: |
   that one could not reasonably produce another document related to
   that Fingerprint in the same way.
 
-  Where the rules define an action that a person CAN perform "by
-  commitment" to a particular kind of document, that person performs
-  that action by performing it by announcement while, in the same
-  message, also publishing a what is purportedly a Fingerprint for a
-  document of that kind.
+  A person CAN make a commitment to a particular kind of document by
+  publishing a statement that purports to be a Fingerprint for a
+  document of that kind. If the statement is in fact such a
+  Fingerprint, the person CAN then reveal the commitment by
+  publishing the Plaintext corresponding to that Fingerprint and
+  clearly indicating which Fingerprint the Plaintext relates to.
+
+  A person making a commitment SHOULD specify the method used to
+  produce the Fingerprint from the Plaintext.
 history:
 - change:
     type: enactment
   date: 2023-03-26
   agent:
     proposal: "8928"
+- change:
+    type: amendment
+  date: 2024-12-16
+  agent:
+    proposal: "9195"
