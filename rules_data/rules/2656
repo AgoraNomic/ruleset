@@ -2,8 +2,7 @@ id: 2656
 name: Radiance
 power: 1.5
 text: |
-  The Illuminator is a sortitioned office, responsible for tracking
-  radiance.
+  The Illuminator is an office, responsible for tracking radiance.
 
   A player's Radiance is an integer player switch defaulting to 0,
   tracked by the Illuminator. When a player is "granted" or "gains"
@@ -78,3 +77,8 @@ history:
   date: 2024-08-18
   agent:
     proposal: "9154"
+- change:
+    type: amendment
+  date: 2024-12-22
+  agent:
+    proposal: "9201"

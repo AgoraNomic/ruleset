@@ -2,7 +2,7 @@ id: 2690
 name: Spendies
 power: 1.0
 text: |
-  The Spendor is a sortitioned office.
+  The Spendor is an office.
 
   Spendies are a fungible liquid asset ownable by players and
   contracts. Spendies are tracked by the Spendor in eir weekly
@@ -47,3 +47,8 @@ history:
   date: 2024-12-16
   agent:
     proposal: "9196"
+- change:
+    type: amendment
+  date: 2024-12-22
+  agent:
+    proposal: "9201"
