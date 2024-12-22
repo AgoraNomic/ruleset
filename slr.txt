@@ -3,15 +3,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 16 Dec 2024
+Date of this ruleset: 22 Dec 2024
 
 Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
-Number of rules currently enacted: 135
+Number of rules currently enacted: 138
 
-Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9196
-Highest ID'd Rule Enacted: 2698
+Highest ID'd rule in this ruleset: 2701
+Highest ID'd Proposal Passed: 9201
+Highest ID'd Rule Enacted: 2701
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -2781,7 +2781,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/10 (Power=1)
+Rule 2659/11 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players. The Collector
@@ -2791,8 +2791,8 @@ Stamps
       For each person there is a corresponding type of stamp. Stamps of
       any given type are fungible.
       
-      Any player CAN, once per week, pay X Stamps, where each specified
-      Stamp is a different type, to gain (X^2)-X radiance.
+      Any player CAN, once per week, pay X stamps, where each specified
+      stamp is a different type, to gain (X-1)*3 radiance.
       
       Any player CAN, once per week, pay X Stamps, where each Stamp is
       the same type, to gain (X-1)*2 radiance.
@@ -2809,6 +2809,26 @@ Stamps
       Any player CAN pay a fee of 5 + (X) Spendies to transfer a
       specified stamp from the L&FD to emself. X is equal to the number
       of times e has already done so in the current month.
+
+------------------------------------------------------------------------
+Rule 2701/0 (Power=1.0)
+Stamp Scamp
+
+      A rare stamp is a stamp that is the only one of its type that
+      exists.
+      
+      Upon a correct announcement that a specified player owns more rare
+      stamps than any other player, the following happen in order:
+      
+      1) that player is awarded the patent title Stamp Scamp if e does
+         not already hold it
+      
+      2) the patent title Stamp Scamp is revoked from any other person
+         holding it
+      
+      Once per quarter a player holding the Stamp Scamp patent title
+      CAN, by announcement, cause another specified player to gain one
+      stamp of that specified player's type.
 
 ------------------------------------------------------------------------
 Rule 2499/24 (Power=1)
@@ -2892,10 +2912,10 @@ Crystals
       existing crystals are destroyed.
 
 ------------------------------------------------------------------------
-Rule 2690/6 (Power=1.0)
+Rule 2690/7 (Power=1.0)
 Spendies
 
-      The Spendor is a sortitioned office.
+      The Spendor is an office.
       
       Spendies are a fungible liquid asset ownable by players and
       contracts. Spendies are tracked by the Spendor in eir weekly
@@ -2904,6 +2924,40 @@ Spendies
       
       At the end of each month, all Spendies are destroyed. At the
       beginning of each month, every player is granted 20 Spendies.
+
+------------------------------------------------------------------------
+Rule 2699/0 (Power=1.5)
+Contests
+
+      Contestation is a secured negative boolean contract switch tracked
+      by the Notary. A contract whose contestation switch is true is a
+      contest.
+      
+      A player CAN flip a specified contract's contestation to true
+      without 2 objections.
+      
+      A player CAN flip a specified contract's contestation to false
+      with Agoran consent.
+
+------------------------------------------------------------------------
+Rule 2700/0 (Power=1.5)
+Candles
+
+      Candles are fixed fungible assets tracked by the Illuminator.
+      
+      Contests are the only entities permitted to own candles, and any
+      candles held by any other entity are immediately destroyed.
+      
+      A player CAN pay a fee of 1 spendie to grant 1 candle to a
+      contest.
+      
+      As explicitly and unambiguously permitted by a contest's body, a
+      party to that contest CAN bestow a prize by an announcement
+      clearly identifying the recipient player, the amount of radiance
+      to award (N), and the relevant contest. Upon doing so, if the
+      specified contest possesses at least N candles the following
+      happen in order: N of its candles are destroyed, then the
+      specified player gains N radiance.
 
 ------------------------------------------------------------------------
 Rule 2692/6 (Power=1.0)
@@ -3018,11 +3072,10 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/9 (Power=1.5)
+Rule 2656/10 (Power=1.5)
 Radiance
 
-      The Illuminator is a sortitioned office, responsible for tracking
-      radiance.
+      The Illuminator is an office, responsible for tracking radiance.
       
       A player's Radiance is an integer player switch defaulting to 0,
       tracked by the Illuminator. When a player is "granted" or "gains"
