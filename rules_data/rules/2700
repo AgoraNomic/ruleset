@@ -1,0 +1,25 @@
+id: 2700
+name: Candles
+power: 1.5
+text: |
+  Candles are fixed fungible assets tracked by the Illuminator.
+
+  Contests are the only entities permitted to own candles, and any
+  candles held by any other entity are immediately destroyed.
+
+  A player CAN pay a fee of 1 spendie to grant 1 candle to a
+  contest.
+
+  As explicitly and unambiguously permitted by a contest's body, a
+  party to that contest CAN bestow a prize by an announcement
+  clearly identifying the recipient player, the amount of radiance
+  to award (N), and the relevant contest. Upon doing so, if the
+  specified contest possesses at least N candles the following
+  happen in order: N of its candles are destroyed, then the
+  specified player gains N radiance.
+history:
+- change:
+    type: enactment
+  date: 2024-12-22
+  agent:
+    proposal: "9197"
