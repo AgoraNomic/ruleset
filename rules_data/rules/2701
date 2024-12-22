@@ -1,0 +1,25 @@
+id: 2701
+name: Stamp Scamp
+power: 1.0
+text: |
+  A rare stamp is a stamp that is the only one of its type that
+  exists.
+
+  Upon a correct announcement that a specified player owns more rare
+  stamps than any other player, the following happen in order:
+
+  1) that player is awarded the patent title Stamp Scamp if e does
+     not already hold it
+
+  2) the patent title Stamp Scamp is revoked from any other person
+     holding it
+
+  Once per quarter a player holding the Stamp Scamp patent title
+  CAN, by announcement, cause another specified player to gain one
+  stamp of that specified player's type.
+history:
+- change:
+    type: enactment
+  date: 2024-12-22
+  agent:
+    proposal: "9199"
