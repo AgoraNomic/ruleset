@@ -9,7 +9,6 @@ text: |
   judging" whenever e has communicated to the Arbitor that e is or
   will be (syn. "stood up"), provided that, since e last became
   interested, e has not done any of the following:
-  * Exceeded a time limit to judge a case by more than 7 days.
   * Been recused from a case for lateness.
   * Communicated to the contrary (syn. "sat down").
   * Become inactive.
@@ -39,5 +38,10 @@ history:
 - change:
     type: enactment
   date: 2024-09-04
+  agent:
+    person: Kate
+- change:
+    type: amendment
+  date: 2025-01-02
   agent:
     person: Kate
