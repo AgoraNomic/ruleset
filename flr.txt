@@ -1,21 +1,27 @@
 THE FULL LOGICAL RULESET
+(PART OF THE RULEKEEPOR'S MONTHLY REPORT)
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 1 Dec 2024
+Date of this ruleset: 5 Jan 2025
 
 Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
-Number of rules currently enacted: 135
+Number of rules currently enacted: 138
 
-Highest ID'd rule in this ruleset: 2698
-Highest ID'd Proposal Passed: 9194
-Highest ID'd Rule Enacted: 2698
+Highest ID'd rule in this ruleset: 2701
+Highest ID'd Proposal Passed: 9201
+Highest ID'd Rule Enacted: 2701
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
 is the power of the rule. This header is then followed by the title of
 the rule.
+
+THIS FULL LOGICAL RULESET IS INFORMATIONAL ONLY AND HAS BEEN MODIFIED TO
+BE UP TO DATE WITH THE CURRENT SHORT LOGICAL RULESET. FOR THE MOST
+RECENTLY PUBLISHED FULL LOGICAL RULESET, FOLLOW THIS LINK:
+https://agoranomic.org/ruleset/flr.txt
 
 ------------------------------------------------------------------------
 
@@ -133,10 +139,13 @@ Assets
    * Rule 2579: Fee-based Actions
 Economics
    * Rule 2659: Stamps
+   * Rule 2701: Stamp Scamp
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2685: Crystals
    * Rule 2690: Spendies
+   * Rule 2699: Contests
+   * Rule 2700: Candles
    * Rule 2692: Bang!
    * Rule 2696: Bang actions
    * Rule 2697: The Bounty Board
@@ -183,8 +192,8 @@ Power Distribution:
 
 1  with Power=0.3
 3  with Power=0.5
-35 with Power=1
-3  with Power=1.5
+36 with Power=1
+5  with Power=1.5
 5  with Power=1.7
 24 with Power=2
 1  with Power=2.2
@@ -1510,7 +1519,7 @@ CFJ 4007 (called 13 Feb 2023): The "final probability distribution" of a
     action.
 
 ------------------------------------------------------------------------
-Rule 2681/0 (Power=1)
+Rule 2681/1 (Power=1)
 Acting on Commitment
 
       A Fingerprint for a document (the Plaintext) is a document that
@@ -1519,15 +1528,21 @@ Acting on Commitment
       that one could not reasonably produce another document related to
       that Fingerprint in the same way.
       
-      Where the rules define an action that a person CAN perform "by
-      commitment" to a particular kind of document, that person performs
-      that action by performing it by announcement while, in the same
-      message, also publishing a what is purportedly a Fingerprint for a
-      document of that kind.
+      A person CAN make a commitment to a particular kind of document by
+      publishing a statement that purports to be a Fingerprint for a
+      document of that kind. If the statement is in fact such a
+      Fingerprint, the person CAN then reveal the commitment by
+      publishing the Plaintext corresponding to that Fingerprint and
+      clearly indicating which Fingerprint the Plaintext relates to.
+      
+      A person making a commitment SHOULD specify the method used to
+      produce the Fingerprint from the Plaintext.
 
 History:
 
 Enacted by P8928 'Acting on commitment' (juan), 26 Mar 2023
+Amended(1) by P9195 'Commitment Issues' (Mischief, Kate, Janet), 16 Dec
+   2024
 
 Annotations:
 
@@ -6247,7 +6262,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/10 (Power=1)
+Rule 2659/11 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players. The Collector
@@ -6257,8 +6272,8 @@ Stamps
       For each person there is a corresponding type of stamp. Stamps of
       any given type are fungible.
       
-      Any player CAN, once per week, pay X Stamps, where each specified
-      Stamp is a different type, to gain (X^2)-X radiance.
+      Any player CAN, once per week, pay X stamps, where each specified
+      stamp is a different type, to gain (X-1)*3 radiance.
       
       Any player CAN, once per week, pay X Stamps, where each Stamp is
       the same type, to gain (X-1)*2 radiance.
@@ -6291,6 +6306,33 @@ Amended(7) by P9076 'FUNgibility' (nix), 07 Apr 2024
 Amended(8) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(9) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(10) by P9186 'No more stamps for Agora' (kiako), 20 Oct 2024
+Amended(11) by P9200 'Rebalancing' (Mischief, ais523), 22 Dec 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2701/0 (Power=1.0)
+Stamp Scamp
+
+      A rare stamp is a stamp that is the only one of its type that
+      exists.
+      
+      Upon a correct announcement that a specified player owns more rare
+      stamps than any other player, the following happen in order:
+      
+      1) that player is awarded the patent title Stamp Scamp if e does
+         not already hold it
+      
+      2) the patent title Stamp Scamp is revoked from any other person
+         holding it
+      
+      Once per quarter a player holding the Stamp Scamp patent title
+      CAN, by announcement, cause another specified player to gain one
+      stamp of that specified player's type.
+
+History:
+
+Enacted by P9199 'Rare Stamps, Differently' (Mischief), 22 Dec 2024
 
 Annotations:
 
@@ -6456,14 +6498,15 @@ Amended(8) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2690/5 (Power=1.0)
+Rule 2690/7 (Power=1.0)
 Spendies
 
-      The Spendor is a sortitioned office.
+      The Spendor is an office.
       
       Spendies are a fungible liquid asset ownable by players and
       contracts. Spendies are tracked by the Spendor in eir weekly
-      report.
+      report. If the Spendor's report is overdue, then other players
+      SHOULD deputise to publish it.
       
       At the end of each month, all Spendies are destroyed. At the
       beginning of each month, every player is granted 20 Spendies.
@@ -6476,6 +6519,57 @@ Amended(2) by P9089 'Who are you, again, again?' (Janet), 21 Apr 2024
 Amended(3) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(4) by P9176 'Adjusting the Money Supply' (Mischief), 15 Sep 2024
 Amended(5) by P9191 'Back to the twenties' (snail), 20 Oct 2024
+Amended(6) by P9196 'Use it or lose it' (Murphy, Alexis), 16 Dec 2024
+Amended(7) by P9201 'Vox Populi > Vox Fortunae' (snail, Mischief), 22
+   Dec 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2699/0 (Power=1.5)
+Contests
+
+      Contestation is a secured negative boolean contract switch tracked
+      by the Notary. A contract whose contestation switch is true is a
+      contest.
+      
+      A player CAN flip a specified contract's contestation to true
+      without 2 objections.
+      
+      A player CAN flip a specified contract's contestation to false
+      with Agoran consent.
+
+History:
+
+Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
+   2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2700/0 (Power=1.5)
+Candles
+
+      Candles are fixed fungible assets tracked by the Illuminator.
+      
+      Contests are the only entities permitted to own candles, and any
+      candles held by any other entity are immediately destroyed.
+      
+      A player CAN pay a fee of 1 spendie to grant 1 candle to a
+      contest.
+      
+      As explicitly and unambiguously permitted by a contest's body, a
+      party to that contest CAN bestow a prize by an announcement
+      clearly identifying the recipient player, the amount of radiance
+      to award (N), and the relevant contest. Upon doing so, if the
+      specified contest possesses at least N candles the following
+      happen in order: N of its candles are destroyed, then the
+      specified player gains N radiance.
+
+History:
+
+Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
+   2024
 
 Annotations:
 
@@ -6622,11 +6716,10 @@ Scoring
    A game in which players attempt attempt to amass points, in order to
    (presumably) become the Pointiest.
 ------------------------------------------------------------------------
-Rule 2656/9 (Power=1.5)
+Rule 2656/10 (Power=1.5)
 Radiance
 
-      The Illuminator is a sortitioned office, responsible for tracking
-      radiance.
+      The Illuminator is an office, responsible for tracking radiance.
       
       A player's Radiance is an integer player switch defaulting to 0,
       tracked by the Illuminator. When a player is "granted" or "gains"
@@ -6662,6 +6755,8 @@ Amended(7) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
 Amended(8) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(9) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
    18 Aug 2024
+Amended(10) by P9201 'Vox Populi > Vox Fortunae' (snail, Mischief), 22
+   Dec 2024
 
 Annotations:
 
