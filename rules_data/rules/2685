@@ -2,15 +2,14 @@ id: 2685
 name: Crystals
 power: 1.0
 text: |
-  The Geologist is a sortitioned office that tracks crystals.
+  Crystals are untracked.
 
   A crystal is an indestructible asset with secured integer switches
   identity, size (default 0), and instability (default 0).
 
-  Once a quarter, the Geologist CAN (and SHALL during its first
-  Eastman week) publish a Notice of Crystal Growth, upon which each
-  crystal whose identity is not equal to the ID of any rule in the
-  current ruleset has its size increased by 3.
+  At the beginning of each quarter, all crystals whose identity is
+  not equal to the ID of any rule in the current ruleset has its
+  size increased by 3.
 
   If a proposal amends or repeals a rule, if a crystal exists whose
   identity equals that rule's id, that crystal absorbs that
@@ -93,3 +92,13 @@ history:
   date: 2024-08-18
   agent:
     proposal: "9154"
+- change:
+    type: amendment
+  date: 2025-01-26
+  agent:
+    proposal: "9208"
+- change:
+    type: repeal
+  date: 2025-01-26
+  agent:
+    proposal: "9208"
