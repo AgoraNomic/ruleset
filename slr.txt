@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 12 Jan 2025
+Date of this ruleset: 26 Jan 2025
 
 Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
-Number of rules currently enacted: 138
+Number of rules currently enacted: 137
 
 Highest ID'd rule in this ruleset: 2701
-Highest ID'd Proposal Passed: 9201
+Highest ID'd Proposal Passed: 9208
 Highest ID'd Rule Enacted: 2701
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -572,11 +572,12 @@ Definition and Continuity of Entities
       the new definitions.
 
 ------------------------------------------------------------------------
-Rule 2162/15 (Power=3)
+Rule 2162/16 (Power=3)
 Switches
 
-      A type of switch is a property that the rules define as a switch,
-      and specify the following:
+      A type of switch is a property that a rule or a contract defines
+      as a switch (with such rule or contract being its backing
+      document) and specifies the following:
       
       1. The type(s) of entity possessing an instance of that switch. No
          other entity possesses an instance of that switch.
@@ -605,9 +606,9 @@ Switches
       X.
       
       If a type of switch is not explicitly designated as
-      possibly-indeterminate by the rule that defines it, and if an
-      action or set of actions would cause the value of an instance of
-      that type of switch to become indeterminate, that instance instead
+      possibly-indeterminate by its backing document, and if an action
+      or set of actions would cause the value of an instance of that
+      type of switch to become indeterminate, that instance instead
       takes on its last determinate and possible value, if any,
       otherwise it takes on its default value.
       
@@ -1902,11 +1903,11 @@ Complexity
       proposals, up to a maximum increase of 3 by this method.
 
 ------------------------------------------------------------------------
-Rule 2603/1 (Power=1)
-Switch Responsibility
+Rule 2603/2 (Power=1)
+Default Recordkeepors
 
-      For each type of switch that is not defined as untracked and that
-      has at least one instance that would otherwise lack a
+      For each type of switch or asset that is not defined as untracked
+      and that has at least one instance that would otherwise lack a
       recordkeepor, there exists an imposed office named "Tracker of
       [type name]" whose holder tracks those instances.
 
@@ -2247,12 +2248,12 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/34 (Power=2)
+Rule 991/35 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
       syn. Judicial Case), specifying a statement to be inquired into by
-      announcement.
+      announcement. A case so initiated is an inquiry case.
       
       When a person initiates a Call for Judgement, e CAN optionally bar
       one person from the case by announcement.
@@ -2781,12 +2782,12 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/11 (Power=1)
+Rule 2659/12 (Power=1)
 Stamps
 
-      Stamps are a category of asset ownable by players. The Collector
-      is a sortitioned office. The Collector tracks Stamps in eir weekly
-      report.
+      Stamps are a category of asset ownable by players and contracts.
+      The Collector is a sortitioned office. The Collector tracks Stamps
+      in eir weekly report.
       
       For each person there is a corresponding type of stamp. Stamps of
       any given type are fungible.
@@ -2811,24 +2812,22 @@ Stamps
       of times e has already done so in the current month.
 
 ------------------------------------------------------------------------
-Rule 2701/0 (Power=1.0)
+Rule 2701/1 (Power=1.0)
 Stamp Scamp
 
       A rare stamp is a stamp that is the only one of its type that
       exists.
       
-      Upon a correct announcement that a specified player owns more rare
-      stamps than any other player, the following happen in order:
+      Stamp scamp is a singleton switch tracked by the Collector with
+      possible values of each player and null (default). Upon a correct
+      announcement that a specified player owns more rare stamps than
+      any other player, the stamp scamp switch is flipped to that
+      player.
       
-      1) that player is awarded the patent title Stamp Scamp if e does
-         not already hold it
-      
-      2) the patent title Stamp Scamp is revoked from any other person
-         holding it
-      
-      Once per quarter a player holding the Stamp Scamp patent title
-      CAN, by announcement, cause another specified player to gain one
-      stamp of that specified player's type.
+      If no person has done so by this mechanism in this quarter, the
+      value of the stamp scamp switch, if a player, CAN by announcement
+      cause another specified player to gain one stamp of that player's
+      type.
 
 ------------------------------------------------------------------------
 Rule 2499/24 (Power=1)
@@ -2860,56 +2859,6 @@ Birthday Gifts
       
       In a timely fashion after the start of a player's Agoran Birthday,
       the Registrar SHALL announce it.
-
-------------------------------------------------------------------------
-Rule 2685/8 (Power=1.0)
-Crystals
-
-      The Geologist is a sortitioned office that tracks crystals.
-      
-      A crystal is an indestructible asset with secured integer switches
-      identity, size (default 0), and instability (default 0).
-      
-      Once a quarter, the Geologist CAN (and SHALL during its first
-      Eastman week) publish a Notice of Crystal Growth, upon which each
-      crystal whose identity is not equal to the ID of any rule in the
-      current ruleset has its size increased by 3.
-      
-      If a proposal amends or repeals a rule, if a crystal exists whose
-      identity equals that rule's id, that crystal absorbs that
-      proposal. Otherwise, grant to the author of the proposal a crystal
-      with identity equal to the ID of that rule, then that crystal
-      absorbs that proposal. Each crystal can only absorb a given
-      proposal once by this method.
-      
-      When a crystal absorbs a proposal, the following occur in sequence:
-      - The size of that crystal is increased by the power of that
-        proposal when that proposal's power was greater than 0 (rounded
-        down).
-      
-      - If that crystal's owner is not the author of that proposal, the
-        instability of that crystal is increased by 2.
-      
-      - If that crystal's owner is not the author or coauthor of that
-        proposal, the instability of that crystal is increased by 2.
-      
-      - If the instability of that crystal is greater than its size, it
-        is transferred to the author of the proposal, then its
-        instability becomes equal to its size.
-      
-      A player is crystallized if the total size of crystals e owns is
-      at least the number of rules in the current ruleset.
-      
-      A player CAN increase the size of a specified crystal by 1 by
-      paying a fee of 11 spendies.
-      
-      Any player CAN, by announcement, Shatter the System, specifying at
-      least 1 crystallized player, and provided that no person has done
-      so in the past 30 days. When a player does so, each crystallized
-      player wins the game.
-      
-      If a player won the game in this manner 4 days ago, then all
-      existing crystals are destroyed.
 
 ------------------------------------------------------------------------
 Rule 2690/7 (Power=1.0)
@@ -2960,11 +2909,12 @@ Candles
       specified player gains N radiance.
 
 ------------------------------------------------------------------------
-Rule 2692/6 (Power=1.0)
+Rule 2692/7 (Power=1.0)
 Bang!
 
       Vitality is an untracked player switch with possible values of
-      alive, unalive, and ghostly (default). Bangs are a fungible asset.
+      alive, unalive, and ghostly (default). Bangs are an untracked
+      fungible asset.
       
       Match state is an untracked singleton switch with possible values
       none (default), initializing, and ongoing. If the match state is
