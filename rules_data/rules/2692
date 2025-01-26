@@ -3,7 +3,8 @@ name: "Bang!"
 power: 1.0
 text: |
   Vitality is an untracked player switch with possible values of
-  alive, unalive, and ghostly (default). Bangs are a fungible asset.
+  alive, unalive, and ghostly (default). Bangs are an untracked
+  fungible asset.
 
   Match state is an untracked singleton switch with possible values
   none (default), initializing, and ongoing. If the match state is
@@ -70,3 +71,8 @@ history:
   date: 2024-10-11
   agent:
     proposal: "9185"
+- change:
+    type: amendment
+  date: 2025-01-26
+  agent:
+    proposal: "9202"

@@ -1,9 +1,9 @@
 id: 2603
-name: Switch Responsibility
+name: Default Recordkeepors
 power: 1
 text: |
-  For each type of switch that is not defined as untracked and that
-  has at least one instance that would otherwise lack a
+  For each type of switch or asset that is not defined as untracked
+  and that has at least one instance that would otherwise lack a
   recordkeepor, there exists an imposed office named "Tracker of
   [type name]" whose holder tracks those instances.
 history:
@@ -23,4 +23,14 @@ history:
   date: 2024-09-15
   agent:
     proposal: "9171"
+- change:
+    type: retitling
+  date: 2025-01-26
+  agent:
+    proposal: "9202"
+- change:
+    type: amendment
+  date: 2025-01-26
+  agent:
+    proposal: "9202"
 annotations: []
