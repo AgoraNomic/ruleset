@@ -2,8 +2,9 @@ id: 2162
 name: Switches
 power: 3
 text: |
-  A type of switch is a property that the rules define as a switch,
-  and specify the following:
+  A type of switch is a property that a rule or a contract defines
+  as a switch (with such rule or contract being its backing
+  document) and specifies the following:
 
   1. The type(s) of entity possessing an instance of that switch. No
      other entity possesses an instance of that switch.
@@ -32,9 +33,9 @@ text: |
   X.
 
   If a type of switch is not explicitly designated as
-  possibly-indeterminate by the rule that defines it, and if an
-  action or set of actions would cause the value of an instance of
-  that type of switch to become indeterminate, that instance instead
+  possibly-indeterminate by its backing document, and if an action
+  or set of actions would cause the value of an instance of that
+  type of switch to become indeterminate, that instance instead
   takes on its last determinate and possible value, if any,
   otherwise it takes on its default value.
 
@@ -139,4 +140,9 @@ history:
   date: 2024-09-15
   agent:
     proposal: "9171"
+- change:
+    type: amendment
+  date: 2025-01-26
+  agent:
+    proposal: "9205"
 annotations: []
