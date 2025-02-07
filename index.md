@@ -15,7 +15,7 @@ Here are some things to do to get started:
 3. Update the title in the prelude of this file (`Officer Template`) and change the contents to what you want people to see when they first open your microsite.
 4. Add additional pages for more content. Be sure to link to them!
 
-# Structure
+# What are all these files/Where does my content go?
 
 In this template, we have:
 
