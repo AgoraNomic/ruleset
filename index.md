@@ -66,4 +66,4 @@ Here are some resources to check out if you're curious about how anything works:
 - [MDN JavaScript Tutorials, Guides, and References](<https://developer.mozilla.org/en-US/docs/Web/JavaScript>)
 - [Jekyll Docs](<https://jekyllrb.com/docs/>)
 
-Of course, feel free to reach out to your Webmastor if you have any questions or just want a hand with executing any ideas. :smile:
+Of course, feel free to reach out to your Webmastor if you have any questions or just want a hand with executing any ideas. 🙂
