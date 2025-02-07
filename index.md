@@ -3,7 +3,7 @@ title: Officer Template
 layout: puremd
 ---
 
-Hiya! This is the `gh-pages` branch of [`officer-template`](<https://github.com/AgoraNomic/officer-template>). This template uses Jekyll to build a website.
+Hiya! This is the `gh-pages` branch of [`officer-template`](<https://github.com/AgoraNomic/officer-template>). This template uses Jekyll to build a website. You can view what it looks like over at <https://agoranomic.org/officer-template>.
 
 Here are some things to do to get started:
 
@@ -14,7 +14,7 @@ Here are some things to do to get started:
   <link rel="stylesheet" href="https://agoranomic.org/YOUR-REPOSITORY-NAME/style.css">
   ```
 
-3. Update the title in the prelude of this file (`Officer Template`) and change the contents to what you want people to see when they first open your microsite.
+3. Update the title in the prelude of this `index.md` file (`Officer Template`) and change the contents to what you want people to see when they first open your microsite.
 4. Add additional pages for more content. Be sure to link to them!
 
 ## What goes on my microsite?
