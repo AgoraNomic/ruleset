@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ page.title}} | {{site.name}}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" href="https://agoranomic.org/coat_of_arms.png" />
+  <link rel="stylesheet" href="https://agoranomic.org/style.css">
+  <!-- TODO: Insert your custom stylesheet, if using. -->
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="{{page.title}}">
+  {% include nav.html %}
+
+  <div class="container">
+    {{ content }}
+
+    {% include chats.html %}
+  </div>
+
+</body>
+
+</html>
