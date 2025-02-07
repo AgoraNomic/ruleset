@@ -1,6 +1,6 @@
 ---
 title: Officer Template
-layout: default
+layout: puremd
 ---
 
 Hiya! This is the `gh-pages` branch of [`officer-template`](<https://github.com/AgoraNomic/officer-template>). This template uses Jekyll to build a website.
@@ -54,6 +54,12 @@ Here are some examples of file paths and their associated URLs:
 - `hello-world.md` is available at `agoranomic.org/officer-template/hello-world`
 - `reports/2025-02-06.txt` is available at `agoranomic.org/officer-template/reports/2025-02-06.txt`
 
+# Layouts
+
+Two layouts are provided as standard:
+
+- `puremd` should be used by most Markdown pages. This helps with positioning content on the default layout.
+- `default` should be used by any pages that are already wrapped in a `<div class="content">`.
 
 # Resources
 
