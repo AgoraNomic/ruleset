@@ -15,6 +15,16 @@ Here are some things to do to get started:
 3. Update the title in the prelude of this file (`Officer Template`) and change the contents to what you want people to see when they first open your microsite.
 4. Add additional pages for more content. Be sure to link to them!
 
+# What goes on my microsite?
+
+If you aren't sure where to go with the site, here are some ideas:
+
+- Introducing new players to your associated mechanics,
+- Archiving historical reports,
+- Providing a list of items you're tracking (rules, switches, documents, etc.), or
+- Explaining your workflow to prospecting officers.
+- Add some fun ASCII art.
+
 # What are all these files/Where does my content go?
 
 In this template, we have:
