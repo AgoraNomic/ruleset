@@ -9,9 +9,11 @@ Here are some things to do to get started:
 
 1. Update `_config.yml` by replacing `/officer-template` with your repository's name, e.g., `/Webmastor`.
 2. **Optionally,** if you anticipate using your own CSS, create your `style.css` file and insert the following line where indicated in `_layouts/default.html` (replacing `YOUR-REPOSITORY-NAME` with same name you used in step 1.)
+
 ```html
 <link rel="stylesheet" href="https://agoranomic.org/YOUR-REPOSITORY-NAME/style.css">
 ```
+
 3. Update the title in the prelude of this file (`Officer Template`) and change the contents to what you want people to see when they first open your microsite.
 4. Add additional pages for more content. Be sure to link to them!
 
