@@ -17,7 +17,7 @@ Here are some things to do to get started:
 3. Update the title in the prelude of this file (`Officer Template`) and change the contents to what you want people to see when they first open your microsite.
 4. Add additional pages for more content. Be sure to link to them!
 
-# What goes on my microsite?
+## What goes on my microsite?
 
 If you aren't sure where to go with the site, here are some ideas:
 
@@ -27,7 +27,7 @@ If you aren't sure where to go with the site, here are some ideas:
 - Explaining your workflow to prospecting officers.
 - Add some fun ASCII art.
 
-# What are all these files/Where does my content go?
+## What are all these files/Where does my content go?
 
 In this template, we have:
 
@@ -54,14 +54,14 @@ Here are some examples of file paths and their associated URLs:
 - `hello-world.md` is available at `agoranomic.org/officer-template/hello-world`
 - `reports/2025-02-06.txt` is available at `agoranomic.org/officer-template/reports/2025-02-06.txt`
 
-# Layouts
+## Layouts
 
 Two layouts are provided as standard:
 
 - `puremd` should be used by most Markdown pages. This helps with positioning content on the default layout.
 - `default` should be used by any pages that are already wrapped in a `<div class="content">`.
 
-# Resources
+## Resources
 
 Here are some resources to check out if you're curious about how anything works:
 
