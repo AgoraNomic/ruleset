@@ -29,12 +29,13 @@ If you aren't sure where to go with the site, here are some ideas:
 
 In this template, we have:
 
+- `.gitignore` tells Git which files shouldn't ever be uploaded to GitHub. These are generally build artifacts.
 - `_includes/` holds widgets and segments, such as the navigation bar or chat box.
 - `_layouts/` holds layouts used to format content.
 - `_config.yml` holds basic Jekyll configuration.
 - `index.md` is the main page, accessible at <https://agoranomic.org/officer-template>.
 
-All other `.md` and `.html` files are accessible at `.../file-base-name`. You may put files in folders to further organize. Any files with a header such as the following will be processed by Jekyll:
+Any files with a header such as the following will be processed by Jekyll:
 
 ```md
 ---
@@ -42,6 +43,15 @@ title: My Page
 layout: default
 ---
 ```
+
+All other files are made available via the website.
+
+Here are some examples of file paths and their associated URLs:
+
+- `index.md` is available at `agoranomic.org/officer-template`.
+- `hello-world.md` is available at `agoranomic.org/officer-template/hello-world`
+- `reports/2025-02-06.txt` is available at `agoranomic.org/officer-template/reports/2025-02-06.txt`
+
 
 # Resources
 
