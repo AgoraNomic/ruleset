@@ -6,7 +6,6 @@
       {%- assign page_url = site.baseurl | remove_last: "/" | append: page.url -%}
       {%- else -%}
       {%- assign page_url = site.baseurl | append: page.url -%}
-      {%- -%}
       {%- endif -%}
       {%- for item in site.data.nav %}
       <li class="main-menu-entry-container">
