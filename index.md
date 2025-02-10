@@ -1,5 +1,5 @@
 ---
-title: rules
+title: The Agoran Rulesets
 layout: puremd
 ---
 # The Agoran Rulesets

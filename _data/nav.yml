@@ -1,6 +1,37 @@
+<<<<<<< HEAD
 - text: Ruleset Homepage
   url:  /ruleset/
 - text: Agora Nomic Homepage
   url:  https://agoranomic.org
 - text: Source Code on Github
   url:  https://github.com/AgoraNomic/ruleset
+=======
+- url: /
+  label: Home
+- url: /join.html
+  label: Join
+- url: /play.html
+  label: How To Play
+- url: /ruleset/
+  label: Rules
+- url: /judgments.html
+  label: Judgments
+- url: /glossary.html
+  label: Glossary
+- url: /calendar.html
+  label: Calendar
+- url: /archives.html
+  label: Archives
+- label: Offices
+  pages:
+    - url: /judgments.html
+      label: Arbitor
+    - url: /archives.html
+      label: Archivist
+    - url: /assessor/
+      label: Assessor
+    - url: /ruleset/
+      label: Rulekeepor
+    - url: /Webmastor/
+      label: Webmastor
+>>>>>>> template/gh-pages

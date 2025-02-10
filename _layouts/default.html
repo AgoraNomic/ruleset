@@ -1,26 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>{{ page.title}} | {{site.name}}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    
-    <link rel="icon" type="image/png" href="https://agoranomic.org/coat_of_arms.png"/>
-    <link rel="stylesheet" href="https://agoranomic.org/style.css">
+<html lang="en">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<head>
+  <title>{{ page.title}} | {{site.name}}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- DEBUG: {{ page.url }} -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" href="https://agoranomic.org/coat_of_arms.png" />
+  <link rel="stylesheet" href="https://agoranomic.org/style.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 </head>
-<body class="{{page.title}}">
+
+<body>
+  <header class="top-navigation">
     {% include nav.html %}
-    
-    <div class="container">
-    {{ content }}
-    
-    {% include chats.html %}
-    </div>
- 
+  </header>
+
+  <div class="main-wrapper">
+    <main class="main-content">
+      {{ content }}
+    </main>
+
+    <aside>
+      {% include chats.html %}
+    </aside>
+  </div>
+
 </body>
+
 </html>
