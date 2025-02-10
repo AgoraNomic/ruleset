@@ -2,17 +2,27 @@
   label: Home
 - url: /join.html
   label: Join
-- url: /play
+- url: /play.html
   label: How To Play
 - url: /ruleset/
   label: Rules
-- url: /judgments
+- url: /judgments.html
   label: Judgments
-- url: /glossary
+- url: /glossary.html
   label: Glossary
-- url: /calendar
+- url: /calendar.html
   label: Calendar
-- url: /archives
+- url: /archives.html
   label: Archives
-- url: /Herald/
-  label: Herald
+- label: Offices
+  pages:
+    - url: /judgments.html
+      label: Arbitor
+    - url: /archives.html
+      label: Archivist
+    - url: /assessor/
+      label: Assessor
+    - url: /ruleset/
+      label: Rulekeepor
+    - url: /Webmastor/
+      label: Webmastor

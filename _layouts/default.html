@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>{{ page.title}} | {{site.name}}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- DEBUG: {{ page.url }} -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
   <link rel="icon" type="image/png" href="https://agoranomic.org/coat_of_arms.png" />
   <link rel="stylesheet" href="https://agoranomic.org/style.css">
-  <!-- TODO: Insert your custom stylesheet, if using. -->
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -20,12 +20,18 @@
 </head>
 
 <body>
-  {% include nav.html %}
+  <header class="top-navigation">
+    {% include nav.html %}
+  </header>
 
-  <div class="container">
-    {{ content }}
+  <div class="main-wrapper">
+    <main class="main-content">
+      {{ content }}
+    </main>
 
-    {% include chats.html %}
+    <aside>
+      {% include chats.html %}
+    </aside>
   </div>
 
 </body>
