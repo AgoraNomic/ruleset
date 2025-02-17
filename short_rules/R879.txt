@@ -1,0 +1,22 @@
+Rule 879/40 (Power=3)
+Quorum
+
+      Each Agoran decision has a quorum. This is a number set when the
+      decision is created, and thereafter cannot be changed. When a
+      person initiates an Agoran decision, that person SHALL state the
+      quorum of that decision. However, incorrectly stating the quorum
+      of a decision does not invalidate the initiation, nor does it
+      actually change the quorum of the decision.
+      
+      The quorum that an Agoran decision gains as it is created can be
+      defined by other rules of power 2 or greater. If no other rule
+      defines the quorum of an Agoran decision, the quorum for that
+      decision is equal to 2/3 of the number of voters on the referendum
+      that had been most recently resolved at the time of that
+      decision's initiation, the whole rounded to the nearest integer.
+      
+      As an exception to the previous paragraph, the minimum quorum of
+      an Agoran decision is 2, or 1 if there are fewer than 2 players in
+      the game. If the rules would attempt to set the quorum of an
+      Agoran decision to less than the minimum quorum, it is set to the
+      minimum instead.
