@@ -2,26 +2,30 @@ id: 911
 name: Motions and Moots
 power: 1.7
 text: |
-  If a judgement has been in effect for less then seven days and has
-  not been entered into Moot, then:
+  The judge of a CFJ CAN by announcement self-file a Motion to
+  Reconsider it, if its most recent judgement has been in effect for
+  less than seven days.
 
-  - The judge of that CFJ CAN self-file a Motion to Reconsider the
-    case by announcement, if e has not already self-filed a Motion
-    to Reconsider that CFJ.
-  - Any Player CAN group-file a Motion to Reconsider the case with 2
-    support, if the CFJ has not had a Motion to Reconsider
-    group-filed for it at any time while it has been assigned to its
-    current judge.
+  Any player CAN with 2 support group-file a Motion to Reconsider a
+  case, if its most recent judgement had been in effect for less
+  than seven days at the time the intent was tabled.
 
-  When a Motion to Reconsider is so filed, the case is rendered open
-  again.
+  The above notwithstanding, it is IMPOSSIBLE to file a Motion to
+  Reconsider a CFJ whose current judgement has been entered into
+  Moot, or that has already had a Motion to Reconsider filed against
+  it by the same method since it was most recently assigned to a
+  judge.
+
+  When a Motion to Reconsider a case is filed, the case is rendered
+  open again.
 
   If a CFJ has a judgement assigned, a player CAN enter that
   judgement into Moot with N+2 support, where N is the number of
-  weeks since that judgement has been assigned, rounded down. When
-  this occurs, the CFJ is suspended, and the Arbitor is once
-  authorized to initiate the Agoran decision to determine public
-  confidence in the judgement, which e SHALL do in a timely fashion.
+  weeks from the time the judgement was assigned to the time the
+  intent was tabled, rounded down. When this occurs, the CFJ is
+  suspended, and the Arbitor is once authorized to initiate the
+  Agoran decision to determine public confidence in the judgement,
+  which e SHALL do in a timely fashion.
 
   For this decision, the vote collector is the Arbitor and the valid
   options are AFFIRM, REMAND, and REMIT. When the decision is
@@ -357,6 +361,11 @@ history:
   date: 2019-09-05
   agent:
     proposal: "8221"
+- change:
+    type: amendment
+  date: 2025-02-17
+  agent:
+    proposal: "9211"
 annotations:
 - cfjs:
   - id: '1597'
