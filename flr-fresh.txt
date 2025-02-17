@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 9 Feb 2025
+Date of this ruleset: 17 Feb 2025
 
 Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
 Number of rules currently enacted: 137
 
 Highest ID'd rule in this ruleset: 2701
-Highest ID'd Proposal Passed: 9208
+Highest ID'd Proposal Passed: 9213
 Highest ID'd Rule Enacted: 2701
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -5452,29 +5452,33 @@ CFJ 3837 (called 24 May 2020): A statement formed from the logical
     that does is IRRELEVANT.
 
 ------------------------------------------------------------------------
-Rule 911/55 (Power=1.7)
+Rule 911/56 (Power=1.7)
 Motions and Moots
 
-      If a judgement has been in effect for less then seven days and has
-      not been entered into Moot, then:
+      The judge of a CFJ CAN by announcement self-file a Motion to
+      Reconsider it, if its most recent judgement has been in effect for
+      less than seven days.
       
-      - The judge of that CFJ CAN self-file a Motion to Reconsider the
-        case by announcement, if e has not already self-filed a Motion
-        to Reconsider that CFJ.
-      - Any Player CAN group-file a Motion to Reconsider the case with 2
-        support, if the CFJ has not had a Motion to Reconsider
-        group-filed for it at any time while it has been assigned to its
-        current judge.
+      Any player CAN with 2 support group-file a Motion to Reconsider a
+      case, if its most recent judgement had been in effect for less
+      than seven days at the time the intent was tabled.
       
-      When a Motion to Reconsider is so filed, the case is rendered open
-      again.
+      The above notwithstanding, it is IMPOSSIBLE to file a Motion to
+      Reconsider a CFJ whose current judgement has been entered into
+      Moot, or that has already had a Motion to Reconsider filed against
+      it by the same method since it was most recently assigned to a
+      judge.
+      
+      When a Motion to Reconsider a case is filed, the case is rendered
+      open again.
       
       If a CFJ has a judgement assigned, a player CAN enter that
       judgement into Moot with N+2 support, where N is the number of
-      weeks since that judgement has been assigned, rounded down. When
-      this occurs, the CFJ is suspended, and the Arbitor is once
-      authorized to initiate the Agoran decision to determine public
-      confidence in the judgement, which e SHALL do in a timely fashion.
+      weeks from the time the judgement was assigned to the time the
+      intent was tabled, rounded down. When this occurs, the CFJ is
+      suspended, and the Arbitor is once authorized to initiate the
+      Agoran decision to determine public confidence in the judgement,
+      which e SHALL do in a timely fashion.
       
       For this decision, the vote collector is the Arbitor and the valid
       options are AFFIRM, REMAND, and REMIT. When the decision is
@@ -5566,6 +5570,8 @@ Amended(53) by P7777 'Simplified moot fix' (omd), 14 Aug 2015
 Amended(54) by P7930 'Appeals improvements' (G.), 29 Oct 2017
 Amended(55) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep
    2019
+Amended(56) by P9211 'De-Convoluting Mooting v1.1' (Kate, Mischief), 17
+   Feb 2025
 
 Annotations:
 CFJ 1597 (called 22 Dec 2006): It is possible to appeal a judgement even
@@ -7945,7 +7951,7 @@ Amended(1) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2683/2 (Power=0.5)
+Rule 2683/3 (Power=0.5)
 The Boulder
 
       The Absurdor is a sortitioned office.
@@ -7953,18 +7959,24 @@ The Boulder
       The Boulder's Height is a singleton integer switch defaulting to
       0, tracked by the Absurdor.
       
+      The Boulder's Slope is a singleton integer switch defaulting to 1,
+      tracked by the Absurdor.
+      
       Each player CAN, once a week, by announcement, push the boulder.
       When a player pushes the Boulder, its Height is increased by 1.
-      At the beginning of each week, if the boulder was not pushed in
-      the previous week, the Boulder's Height is set to 0. The Absurdor
-      SHOULD list the largest Height of the Boulder ever reached in eir
-      report.
+      At the beginning of each week, if the boulder was pushed in the
+      previous week at least as many times as the Boulder's Slope, then
+      the Boulder's Slope is increased by 1; otherwise, the Boulder's
+      Height is set to 0, and the Boulder's Slope is set to 1. The
+      Absurdor SHOULD list the largest Height and Slope of the Boulder
+      ever reached in eir report.
 
 History:
 
 Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
 Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
 Amended(2) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(3) by P9213 'Twice the pride' (Murphy), 17 Feb 2025
 
 Annotations:
 CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
