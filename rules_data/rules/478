@@ -617,3 +617,12 @@ annotations:
   text: >
     Message metadata (such as subject) is not considered to be part
     of a public message.
+- cfjs:
+  - id: 4103
+    called: 2025-01-10
+  text: >
+    If a forum is a mailing list, the content of an email message
+    sent via that forum is the content of the email sent out to the
+    mailing list's subscribers, even if the mailing list software
+    presents the message differently in other contexts, such as a
+    web interface or archival format.
