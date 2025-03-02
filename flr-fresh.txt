@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 23 Feb 2025
+Date of this ruleset: 2 Mar 2025
 
 Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
 Number of rules currently enacted: 137
 
 Highest ID'd rule in this ruleset: 2701
-Highest ID'd Proposal Passed: 9213
+Highest ID'd Proposal Passed: 9214
 Highest ID'd Rule Enacted: 2701
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -700,6 +700,11 @@ CFJ 4001 (called 07 Nov 2022): For an announcement to be clear and
     meet this standard.
 CFJ 3885 (called 04 Oct 2020): Message metadata (such as subject) is not
     considered to be part of a public message.
+CFJ 4103 (called 10 Jan 2025): If a forum is a mailing list, the content
+    of an email message sent via that forum is the content of the email
+    sent out to the mailing list's subscribers, even if the mailing list
+    software presents the message differently in other contexts, such as
+    a web interface or archival format.
 
 ------------------------------------------------------------------------
 Rule 2139/17 (Power=2)
