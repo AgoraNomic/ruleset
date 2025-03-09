@@ -1,0 +1,30 @@
+Rule 106/46 (Power=3)
+Adopting Proposals
+
+      When a referendum on a proposal is resolved, if the outcome is
+      ADOPTED, then the proposal in question is adopted, its power is
+      set to the minimum of four, the adoption index of the proposal,
+      and the adoption index of the referendum, and it takes effect.
+      Proposals CANNOT otherwise be adopted or take effect, rules to the
+      contrary notwithstanding.
+      
+      When a proposal takes effect, the proposal applies the changes
+      that it specifies in its text, except as prohibited by other
+      rules. Unless otherwise specified by the text, the effects are
+      applied in the order they appear in the text. Clearly marked
+      comments are ignored. If the proposal cannot make some changes it
+      specifies, that does not preclude the other changes from taking
+      place.
+      
+      Except insofar as the actions performed by a proposal happen one
+      after another, rather than simultaneously, a proposal's effect is
+      instantaneous. A proposal can neither delay nor extend its own
+      effect.  Once a proposal finishes taking effect, its power is set
+      to 0.
+      
+      No entity with power below the power of this rule can prevent a
+      proposal from taking effect; this does not apply to generally
+      preventing changes to specified areas of the gamestate, nor to a
+      proposal preventing itself from taking effect (its no-effect
+      clause is generally interpreted as applying only to the rest of
+      the proposal).
