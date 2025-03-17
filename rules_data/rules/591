@@ -3,8 +3,8 @@ id: 591
 power: 1.7
 text: |
   When a CFJ is open and assigned to a judge, that judge CAN assign
-  a valid judgement to it by announcement, and SHALL do so in a
-  timely fashion after this becomes possible.
+  a valid judgement to it by announcement, and SHALL do so in an
+  officially timely fashion after this becomes possible.
 
   The valid judgements for an inquiry case are as follows, based on
   the facts and legal situation at the time the inquiry case was
@@ -346,6 +346,11 @@ history:
   agent:
     cleaning:
       by: 4st
+- change:
+    type: amendment
+  date: 2025-03-16
+  agent:
+    proposal: "9215"
 annotations:
 - cfjs:
   - id: '1835'
