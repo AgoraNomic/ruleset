@@ -1,0 +1,32 @@
+Rule 2683/3 (Power=0.5)
+The Boulder
+
+      The Absurdor is a sortitioned office.
+      
+      The Boulder's Height is a singleton integer switch defaulting to
+      0, tracked by the Absurdor.
+      
+      The Boulder's Slope is a singleton integer switch defaulting to 1,
+      tracked by the Absurdor.
+      
+      Each player CAN, once a week, by announcement, push the boulder.
+      When a player pushes the Boulder, its Height is increased by 1.
+      At the beginning of each week, if the boulder was pushed in the
+      previous week at least as many times as the Boulder's Slope, then
+      the Boulder's Slope is increased by 1; otherwise, the Boulder's
+      Height is set to 0, and the Boulder's Slope is set to 1. The
+      Absurdor SHOULD list the largest Height and Slope of the Boulder
+      ever reached in eir report.
+
+History:
+
+Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
+Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
+Amended(2) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(3) by P9213 'Twice the pride' (Murphy), 17 Feb 2025
+
+Annotations:
+CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
+    any specific dimension or direction; merely pushing the Boulder
+    increases its Height, regardless of how a player announces e does
+    so.
