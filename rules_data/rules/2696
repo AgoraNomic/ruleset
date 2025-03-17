@@ -44,6 +44,12 @@ text: |
   If the match state is initializing and has not changed in the past
   28 days, then any player CAN flip the match state to none by
   announcement.
+
+  A player may order more ammo by announcement if both of the
+  following are true: the match state is ongoing and has not changed
+  in the past 21 days; and no one has ordered more ammo in the
+  current or prior week. When a player orders more ammo, at the end
+  of the following week each alive player gains one bang.
 history:
 - change:
     type: enactment
@@ -65,3 +71,8 @@ history:
   date: 2024-09-22
   agent:
     proposal: "9180"
+- change:
+    type: amendment
+  date: 2025-03-16
+  agent:
+    proposal: "9217"
