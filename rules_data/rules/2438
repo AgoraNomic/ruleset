@@ -185,6 +185,11 @@ history:
   date: 2024-10-20
   agent:
     proposal: "9187"
+- change:
+    type: amendment
+  date: 2025-03-16
+  agent:
+    proposal: "9223"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -263,21 +268,22 @@ text: |
   rulesets). A player who has been registered for the past 30+ days
   or 180+ cumulative days and has never acted on eir own behalf to
   cause another person to gain a White Ribbon (including under a
-  previous ruleset) CAN act on eir own behalf to award a White
-  Ribbon to another person by announcement.
+  previous ruleset) CAN act on eir own behalf to cause another
+  person to earn a White Ribbon by announcement.
 
   Black (K): An instrument CAN, as part of its effect, cause a
-  person to earn a Black Ribbon. When this occurs, this Rule awards
-  that person a Black Ribbon.
+  person to earn a Black Ribbon.
 
-  Gray (A): Once per month the Tailor CAN award a Gray Ribbon by
-  announcement. E is ENCOURAGED to award such a Ribbon in the same
-  message in which e publishes eir monthly report.
+  Gray (A): Once per month the Tailor CAN, by announcement, cause a
+  specified player to earn a Gray Ribbon. E is ENCOURAGED to do so
+  in the same message in which e publishes eir monthly report.
 
   Transparent (T): A person qualifies for a Transparent Ribbon while
-  the number of other types of Ribbon that that person qualifies
-  for, earns, and/or was awarded within the previous 7 days is at
-  least 5.
+  the number of other types of Ribbon that that person qualified for
+  within the previous 7 days is at least 5.
+
+  When a person earns a White, Black or Gray Ribbon, this Rule
+  awards that person a Ribbon of that type.
   
   While a person qualifies for a type of Ribbon:
 
