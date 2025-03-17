@@ -20,10 +20,9 @@ text: |
   An Unregistered person CAN (unless explicitly forbidden or
   prevented by Rules of power 3 or greater) register by publishing a
   message that indicates reasonably clearly and reasonably
-  unambiguously eir desire to become a player at that time (for
-  example, by saying "I register"). Rules to the contrary
-  notwithstanding, two or more persons CANNOT become Registered
-  simultaneously.
+  unambiguously eir desire to be a player at that time (for example,
+  by saying "I register"). Rules to the contrary notwithstanding,
+  two or more persons CANNOT become Registered simultaneously.
 
   The basis of a person is the set of all persons that are
   (recursively) part of em, in addition to emself. Rules to the
@@ -341,6 +340,11 @@ history:
   date: 2024-01-28
   agent:
     proposal: "9049"
+- change:
+    type: amendment
+  date: 2025-03-16
+  agent:
+    proposal: "9219"
 annotations:
 - cfjs:
   - id: '1275'
