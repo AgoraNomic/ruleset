@@ -1,0 +1,104 @@
+id: FT4
+name: General Guidelines
+text: |
+  This regulation only contains general guidelines that SHOULD be
+  followed during the course of this tournament.
+
+  Pre-Proposals should be suggested with the input of multiple
+  players and attempt to embody the Agoran Subgame Principles
+  (listed below). Heavy iteration is encouraged, and all players
+  should voice their likes and dislikes of certain mechanics and
+  gameplay loops in each Pre-Proposal.
+
+  Finalizing should be attempted on any Pre-Proposal that lacks
+  criticism for a week. Such criticism should focus on gameplay
+  effects rather than specific wording, as proofreading can be done
+  at the conclusion of the tournament. The tournament is a place for
+  brainstorming a large amount of varying ideas and cutting away at
+  anything that wouldn't work in service of finding viable ideas
+  that also interest the Agoran population.
+
+  Agoran Subgame Principles (including the work of ais523):
+
+  * Nomic is a game of changing rules at its core. Subgames should
+    include the proposal system and potential rule changes in their
+    gameplay loop.
+
+  * A subgame should be intuitive for new players to understand.
+    Getting bogged down by complicated rules detracts from the
+    experience. Don't forget this principle when it comes time to
+    finalize wording.
+
+  * Have a hook! Some kind of game, genre, or theme for the subgame
+    to build around as it changes. There should be clear places to
+    add on but no indication of exactly what should be added. Let
+    players direct their creativity into the subgame.
+
+  * A subgame shouldn't be too fast or too slow. The generally
+    accepted agoran participation minimum is once a week to keep up
+    with everything.  This isn't to say gameplay must be limited to
+    once a week or can't be less frequent, but it is a good starting
+    point to base any time constraints on.
+
+  * Utilize existing mechanics (Radiance, Stamps, Tabled Actions,
+    the boulder.) Having the subgame be interconnected with the rest
+    of the rules gives players more reasons to care about it.
+
+  * A subgame should be straightforward for an officer to track. The
+    ideal amount of officer work is zero, but if a subgame is poorly
+    optimized, an officer might have to take an hour to make a
+    report.  Consider example gameplay for officer workflow, and
+    include intuitive mechanics that only need a few things to be
+    tracked.
+
+  * Avoid "grindy" subgames. Having to take an action every week can
+    cause players that miss a week to fall behind and lose interest.
+    New players should be able to engage with subgame without
+    feeling hopeless.
+
+  * Start simple. The subgame can get more complex as rules are
+    added and dominant strategies are discovered and changed. Making
+    a complicated subgame immediately will make it harder for
+    players to engage. Lean on easily understood gameplay loops and
+    existing mechanics if you must include something complex. The
+    average agoran should be able to grasp the subgame within a few
+    minutes of reading the rules.
+
+  * Aim for emergent gameplay. If the optimal move is easy to
+    calculate, there's not much point in playing a game. The
+    uncertainty of proposals in your subgame can help remedy this.
+
+  * See if you can include burst-style gameplay in your subgame.
+    Planning out the perfect move and then executing it is a tried
+    and true Agoran gameplay loop. Give players things to plan for
+    and think about in advance, and allow for explosive combos.
+
+  * Consider if you want the subgame to be competitive or not.
+    Losing progress on a win has to feel fair. Determine how often a
+    player can win your subgame. If wins happen more than once a
+    quarter it may make wins less valuable. Strike a balance that
+    makes the win hard, but achievable by perhaps a few players.
+    Don't leave out players that are behind in a subgame.
+
+  * Make your subgame accessible for players that have to become
+    inactive, or can't be available certain days. If players have to
+    miss important events, they should be able to play despite that.
+    Avoid timing scams.
+
+  * Think outside the box! Don't be afraid try something that
+    wouldn't fit in the current Agoran framework. It's changed
+    before, after all. Emphasize creativity, originality, and fun
+    above all else! We'll find a way to implement it if players want
+    it.
+
+  Players are encouraged to form committees for coming up with great
+  ideas in order to win the tournament. Group chats for quick
+  brainstorming and rapid-fire ideas are recommended.
+history:
+- change:
+    type: enactment
+  date: 2025-03-26
+  agent:
+    tournament_init:
+      name: "Subgame Ideas"
+      person: snail

@@ -1,0 +1,19 @@
+id: FT1
+name: Suggesting Pre-Proposals
+text: |
+  A  Pre-Proposal is a type of entity consisting of a body of text
+  and other attributes. A player CAN suggest a Pre-Proposal by
+  announcement, specifying its text and an associated title.
+
+  When a Pre-Proposal is suggested, the player that suggested it
+  becomes one of the authors of that Pre-Proposal. An author of a
+  Pre-Proposal can make another player become an author of that
+  Pre-Proposal by announcement.
+history:
+- change:
+    type: enactment
+  date: 2025-03-26
+  agent:
+    tournament_init:
+      name: "Subgame Ideas"
+      person: snail

@@ -1,0 +1,22 @@
+id: FT3
+name: Winning the Tournament
+text: |
+  A Pre-Proposal can be Finalized with 3 Agoran Consent.
+
+  When the tournament concludes, each author of a Finalized
+  Pre-Proposal wins the tournament.
+
+  The tournament can be concluded with 3 Agoran Consent, and SHOULD
+  be concluded after two Pre-Proposals have been Finalized unless
+  Pre-Proposals are still being actively created.
+
+  Finalized Pre-Proposals SHOULD be submitted as proposals when
+  appropriate.
+history:
+- change:
+    type: enactment
+  date: 2025-03-26
+  agent:
+    tournament_init:
+      name: "Subgame Ideas"
+      person: snail
