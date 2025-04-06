@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 2 Mar 2025
+Date of this ruleset: 6 Apr 25
 
 Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
 
 Number of rules currently enacted: 137
 
 Highest ID'd rule in this ruleset: 2701
-Highest ID'd Proposal Passed: 9214
+Highest ID'd Proposal Passed: 9223
 Highest ID'd Rule Enacted: 2701
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -303,7 +303,7 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/54 (Power=3)
+Rule 869/55 (Power=3)
 How to Join and Leave Agora
 
       Any entity (including a group of entities confederated with the
@@ -324,10 +324,9 @@ How to Join and Leave Agora
       An Unregistered person CAN (unless explicitly forbidden or
       prevented by Rules of power 3 or greater) register by publishing a
       message that indicates reasonably clearly and reasonably
-      unambiguously eir desire to become a player at that time (for
-      example, by saying "I register"). Rules to the contrary
-      notwithstanding, two or more persons CANNOT become Registered
-      simultaneously.
+      unambiguously eir desire to be a player at that time (for example,
+      by saying "I register"). Rules to the contrary notwithstanding,
+      two or more persons CANNOT become Registered simultaneously.
       
       The basis of a person is the set of all persons that are
       (recursively) part of em, in addition to emself. Rules to the
@@ -421,6 +420,8 @@ Amended(52) by P8984 'Clarifying Intentions' (nix, ais523), 31 May 2023
 Amended(53) by P9027 'De-Escalating the Hole' (Kate, snail), 26 Nov 2023
 Amended(54) by P9049 'Registration restrictions' (Janet, Aris, ais523),
    28 Jan 2024
+Amended(55) by P9219 'Automatic Registration' (Kate, Murphy), 16 Mar
+   2025
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -5296,12 +5297,12 @@ CFJ 3822 (called 19 Mar 2020): Judges of ancient cases are still judges,
     unless they were explicitly recused.
 
 ------------------------------------------------------------------------
-Rule 591/50 (Power=1.7)
+Rule 591/51 (Power=1.7)
 Delivering Judgements
 
       When a CFJ is open and assigned to a judge, that judge CAN assign
-      a valid judgement to it by announcement, and SHALL do so in a
-      timely fashion after this becomes possible.
+      a valid judgement to it by announcement, and SHALL do so in an
+      officially timely fashion after this becomes possible.
       
       The valid judgements for an inquiry case are as follows, based on
       the facts and legal situation at the time the inquiry case was
@@ -5419,6 +5420,8 @@ Amended(47) by P8450 'CFJ extensions' (G.), 30 Jun 2020
 Amended(48) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 Amended(49) by cleaning (G.), 17 Jun 2021
 Amended(50) by cleaning (4st), 04 Jun 2023
+Amended(51) by P9215 'Predictable Judicial Timelines' (Kate), 16 Mar
+   2025
 
 Annotations:
 CFJ 1835 (called 18 Dec 2007): A question cannot generally take the
@@ -6570,7 +6573,7 @@ Amended(7) by P9202 'Track Assets' (Murphy), 26 Jan 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2696/3 (Power=1.0)
+Rule 2696/4 (Power=1.0)
 Bang actions
 
       While the match state is ongoing, a player CAN by announcement
@@ -6615,6 +6618,12 @@ Bang actions
       If the match state is initializing and has not changed in the past
       28 days, then any player CAN flip the match state to none by
       announcement.
+      
+      A player may order more ammo by announcement if both of the
+      following are true: the match state is ongoing and has not changed
+      in the past 21 days; and no one has ordered more ammo in the
+      current or prior week. When a player orders more ammo, at the end
+      of the following week each alive player gains one bang.
 
 History:
 
@@ -6622,6 +6631,7 @@ Enacted by P9143 'A new duel' (Janet, Mischief), 19 Jul 2024
 Amended(1) by P9149 'Silly Bangs' (4st), 11 Aug 2024
 Amended(2) by P9179 'No Race Conditions' (Mischief), 22 Sep 2024
 Amended(3) by P9180 'Pragmatic Shootouts' (Mischief), 22 Sep 2024
+Amended(4) by P9217 'Reload' (Mischief), 16 Mar 2025
 
 Annotations:
 
@@ -6786,7 +6796,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/34 (Power=3)
+Rule 2438/35 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6866,21 +6876,22 @@ Ribbons
       rulesets). A player who has been registered for the past 30+ days
       or 180+ cumulative days and has never acted on eir own behalf to
       cause another person to gain a White Ribbon (including under a
-      previous ruleset) CAN act on eir own behalf to award a White
-      Ribbon to another person by announcement.
+      previous ruleset) CAN act on eir own behalf to cause another
+      person to earn a White Ribbon by announcement.
       
       Black (K): An instrument CAN, as part of its effect, cause a
-      person to earn a Black Ribbon. When this occurs, this Rule awards
-      that person a Black Ribbon.
+      person to earn a Black Ribbon.
       
-      Gray (A): Once per month the Tailor CAN award a Gray Ribbon by
-      announcement. E is ENCOURAGED to award such a Ribbon in the same
-      message in which e publishes eir monthly report.
+      Gray (A): Once per month the Tailor CAN, by announcement, cause a
+      specified player to earn a Gray Ribbon. E is ENCOURAGED to do so
+      in the same message in which e publishes eir monthly report.
       
       Transparent (T): A person qualifies for a Transparent Ribbon while
-      the number of other types of Ribbon that that person qualifies
-      for, earns, and/or was awarded within the previous 7 days is at
-      least 5.
+      the number of other types of Ribbon that that person qualified for
+      within the previous 7 days is at least 5.
+      
+      When a person earns a White, Black or Gray Ribbon, this Rule
+      awards that person a Ribbon of that type.
       
       While a person qualifies for a type of Ribbon:
       
@@ -6940,6 +6951,8 @@ Amended(33) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
    ais523, Janet, 4st), 15 Sep 2024
 Amended(34) by P9187 'Gray Ribbon clarification' (kiako, Janet, Kate),
    20 Oct 2024
+Amended(35) by P9223 'Yet Another Transparent Ribbon Solution' (Kate,
+   Mischief, ais523, Janet), 16 Mar 2025
 
 Annotations:
 
