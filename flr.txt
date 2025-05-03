@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 6 Apr 25
+Date of this ruleset: 3 May 2025
 
-Last SLR ratification: 19 Jun 2023 ruleset on 31 Dec 2023
+Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 137
 
 Highest ID'd rule in this ruleset: 2701
-Highest ID'd Proposal Passed: 9223
+Highest ID'd Proposal Passed: 9226
 Highest ID'd Rule Enacted: 2701
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -2581,19 +2581,17 @@ CFJ 3830 (called 12 Apr 2020): Text in a rule cannot cause a rule-change
     after it has been deleted by an amendment.
 
 ------------------------------------------------------------------------
-Rule 2493/10 (Power=3)
+Rule 2493/11 (Power=3)
 Regulations
 
-      A regulation is a textual entity defined as such by this rule, and
-      under the authority of a person, known as its Promulgator. A
-      regulation must be authorized by a rule (its parent rule) in order
-      to exist. It has only the effect that rule explicitly gives it.
+      A regulation is a textual entity defined as such by a Rule (its
+      parent rule) and existing solely because that Rule defines its
+      existence. A regulation has no effect other than those that the
+      Rules explicitly give it.
       
       A regulation CAN be enacted, amended, and repealed as specified by
-      its parent rule. By default, a person CAN, with 2 Agoran consent,
-      enact, amend, or repeal a regulation for which e is the
-      Promulgator. Regulations are tracked by the Rulekeepor as part of
-      eir monthly report in a fashion similar to rules.
+      its parent rule. Regulations are tracked by the Rulekeepor as part
+      of eir monthly report in a fashion similar to rules.
 
 History:
 
@@ -2611,6 +2609,8 @@ Amended(8) by P8301 'Consolidated Regulatory Rulekeeping v2' (Aris,
    Janet), 29 Jan 2020
 Amended(9) by P8645 'Some RTRW Clean-Ups' (ATMunn, nix), 15 Mar 2022
 Amended(10) by P8894 'Load Lightening' (nix), 17 Feb 2023
+Amended(11) by P9226 'Starting of Tournaments and Amendment of
+   Regulations Act' (Janet, Kate), 03 May 2025
 
 Annotations:
 
@@ -7740,25 +7740,34 @@ Amended(21) by R2430, 24 May 2017
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2464/7 (Power=1)
+Rule 2464/8 (Power=1)
 Tournaments
 
       A Tournament is a sub-game of Agora specifically sanctioned to be
-      initiated as a tournament by the Rules. The person who initiates a
-      tournament is its Gamemaster. Each time that one or more winners
-      of a tournament are determined before it concludes, that person or
-      those persons win the game. A tournament concludes when its
-      regulations state that it concludes. Additionally, if it has not
-      previously concluded, a tournament concludes 3 months after its
-      initiation.
+      initiated as a tournament by the Rules. Each time that one or more
+      winners of a tournament are determined before it concludes, that
+      person or those persons win the game. A tournament concludes when
+      its regulations state that it concludes. Additionally, if it has
+      not previously concluded, a tournament concludes 3 months after
+      its initiation.
       
       A Tournament is governed by a set of regulations, created in
       accordance with its parent rule, which have binding control over
-      those who freely consent to play the tournament and over the
-      tournament itself. Once the tournament is concluded, these
-      regulations cease to have any effect, and CAN be repealed by any
-      player by announcement. A Tournament's regulations collectively
-      have Mint Authority.
+      those who freely consent to oversee or participate in the
+      tournament and over the tournament itself. When a tournament is
+      initiated, its governing regulations are enacted. Once the
+      tournament is concluded, these regulations cease to have any
+      effect, and CAN be repealed by any player by announcement. A
+      Tournament's regulations collectively have Mint Authority.
+      
+      Unless otherwise specified by the tournament's regulations, the
+      gamemaster of a tournament is the person who initiated it.
+      
+      A tournament's regulations can provide for the enactment,
+      amendment, and repeal of regulations for that tournament; if the
+      regulations are silent, the gamemaster CAN, with 2 Agoran consent,
+      enact, amend, or repeal such regulations. Any regulations so
+      enacted are deemed to be regulations of the same tournament.
 
 History:
 
@@ -7771,6 +7780,8 @@ Amended(5) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
 Amended(6) by P8612 'Tournament Conclusion Fixes v2' (Janet), 18 Oct
    2021
 Amended(7) by P8645 'Some RTRW Clean-Ups' (ATMunn, nix), 15 Mar 2022
+Amended(8) by P9226 'Starting of Tournaments and Amendment of
+   Regulations Act' (Janet, Kate), 03 May 2025
 
 Annotations:
 
@@ -7798,7 +7809,7 @@ Amended(2) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2495/3 (Power=1)
+Rule 2495/4 (Power=1)
 The Birthday Tournament
 
       In a timely fashion after the start of June 1 of each year, the
@@ -7815,11 +7826,10 @@ The Birthday Tournament
       
       After adequate time for discussion of the Birthday Tournament's
       regulations, the Herald (or delegate) CAN initiate a sanctioned
-      tournament, promulgating a specified, finalized set of tournament
-      regulations, without 3 objections. These regulations may
-      thereafter be amended only by the Herald or eir designee Without 3
-      Objections. The initiation SHOULD be timed to coincide with
-      Agora's Birthday.
+      tournament, specifying a finalized set of governing regulations,
+      without 3 objections. These regulations may thereafter be amended
+      only by the Herald or eir designee Without 3 Objections. The
+      initiation SHOULD be timed to coincide with Agora's Birthday.
 
 History:
 
@@ -7827,6 +7837,8 @@ Enacted by P7865 'Regulations v4' (Aris, o, nix, ais523), 27 Jun 2017
 Amended(1) by P7885 'Restraining Bolt' (o, R. Lee, Ørjan), 26 Sep 2017
 Amended(2) by P8076 'Regulation Patches' (Aris, G.), 26 Jul 2018
 Amended(3) by P8645 'Some RTRW Clean-Ups' (ATMunn, nix), 15 Mar 2022
+Amended(4) by P9226 'Starting of Tournaments and Amendment of
+   Regulations Act' (Janet, Kate), 03 May 2025
 
 Annotations:
 
