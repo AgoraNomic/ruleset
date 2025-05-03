@@ -3,21 +3,30 @@ name: Tournaments
 power: 1
 text: |
   A Tournament is a sub-game of Agora specifically sanctioned to be
-  initiated as a tournament by the Rules. The person who initiates a
-  tournament is its Gamemaster. Each time that one or more winners
-  of a tournament are determined before it concludes, that person or
-  those persons win the game. A tournament concludes when its
-  regulations state that it concludes. Additionally, if it has not
-  previously concluded, a tournament concludes 3 months after its
-  initiation.
+  initiated as a tournament by the Rules. Each time that one or more
+  winners of a tournament are determined before it concludes, that
+  person or those persons win the game. A tournament concludes when
+  its regulations state that it concludes. Additionally, if it has
+  not previously concluded, a tournament concludes 3 months after
+  its initiation.
 
   A Tournament is governed by a set of regulations, created in
   accordance with its parent rule, which have binding control over
-  those who freely consent to play the tournament and over the
-  tournament itself. Once the tournament is concluded, these
-  regulations cease to have any effect, and CAN be repealed by any
-  player by announcement. A Tournament's regulations collectively
-  have Mint Authority.
+  those who freely consent to oversee or participate in the
+  tournament and over the tournament itself. When a tournament is
+  initiated, its governing regulations are enacted. Once the
+  tournament is concluded, these regulations cease to have any
+  effect, and CAN be repealed by any player by announcement. A
+  Tournament's regulations collectively have Mint Authority.
+
+  Unless otherwise specified by the tournament's regulations, the
+  gamemaster of a tournament is the person who initiated it.
+
+  A tournament's regulations can provide for the enactment,
+  amendment, and repeal of regulations for that tournament; if the
+  regulations are silent, the gamemaster CAN, with 2 Agoran consent,
+  enact, amend, or repeal such regulations. Any regulations so
+  enacted are deemed to be regulations of the same tournament.
 history:
 - change:
     type: enactment
@@ -59,4 +68,9 @@ history:
   date: 2022-03-15
   agent:
     proposal: "8645"
+- change:
+    type: amendment
+  date: 2025-05-03
+  agent:
+    proposal: "9226"
 annotations: []
