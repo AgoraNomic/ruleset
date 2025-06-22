@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 12 May 2025
+Date of this ruleset: 22 Jun 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 137
+Number of rules currently enacted: 134
 
 Highest ID'd rule in this ruleset: 2701
-Highest ID'd Proposal Passed: 9226
+Highest ID'd Proposal Passed: 9228
 Highest ID'd Rule Enacted: 2701
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -2908,120 +2908,6 @@ Candles
       specified contest possesses at least N candles the following
       happen in order: N of its candles are destroyed, then the
       specified player gains N radiance.
-
-------------------------------------------------------------------------
-Rule 2692/7 (Power=1.0)
-Bang!
-
-      Vitality is an untracked player switch with possible values of
-      alive, unalive, and ghostly (default). Bangs are an untracked
-      fungible asset.
-      
-      Match state is an untracked singleton switch with possible values
-      none (default), initializing, and ongoing. If the match state is
-      none and has not changed in the past 7 days, a player CAN by
-      announcement flip it to initializing. When the match state is
-      flipped to none or to initializing, each player becomes ghostly
-      (if e is not already), then all bangs are destroyed.
-      
-      While the match state is initializing:
-      * A player CAN by announcement incarnate, thereby flipping eir
-        vitality to alive.
-      * A player CAN by announcement trigger the match, provided the
-        match state has not changed in the past 7 days.
-      * At the beginning of each Agoran week, if any player triggered
-        the match in the previous Agoran week, and if there at least
-        three alive players, the match state is flipped to ongoing,
-        after which each alive player is granted 2 bangs.
-      
-      If the match state is ongoing, no player has won the game as a
-      result of this Rule in the past 28 days, and a single player was
-      alive at the beginning of the week, that player CAN stand alone by
-      announcement. When a player stands alone, eir radiance is
-      increased by 30, then the match state is flipped to none (if it is
-      not already).
-      
-      When a player takes an action that causes one or more vitalities
-      or bang balances to change, e SHOULD recite all such changes in
-      the same message as which e takes that action. A document reciting
-      all bang balances and vitalities SHOULD be published and ratified
-      as needed.
-
-------------------------------------------------------------------------
-Rule 2696/4 (Power=1.0)
-Bang actions
-
-      While the match state is ongoing, a player CAN by announcement
-      load a round, specifying a document (the sealed orders), provided
-      that e has not done so in the current Agoran week.
-      
-      While the match state is ongoing, a player CAN by announcement
-      fire a round, specifying a document (the revealed orders),
-      provided that all of the following are true:
-      * E was an alive player at the beginning of the current Agoran
-        week.
-      * E has not done so in the current Agoran week.
-      * In the previous Agoran week, e loaded a round with sealed orders
-        that are a fingerprint for the revealed orders.
-      * The order list explicitly and unconditionally specifies a single
-        clear, unambiguous, and unconditional list of persons to target
-        (the target list).
-      
-      When a player (the shooter) fires a round, sequentially for each
-      person (the target) in the target list, if the shooter has at
-      least two bangs and was alive at the beginning of the week, and
-      the target was an alive player at the beginning of the week, then
-      two of the shooter's bangs are destroyed, after which the target
-      is eliminated.
-      
-      
-      When a person is eliminated, if e is an alive player then the
-      following happen in order:
-      * Eir vitality is flipped to unalive.
-      * E gains one bang.
-      
-      A player who loaded a round in one Agoran week SHALL, within the
-      first four days of the next Agoran week, fire a round, provided
-      the match state has not changed during either period; failure to
-      do so is the class 1 infraction of wasting ammunition.
-      
-      If the match state is ongoing and has not changed in the past 7
-      days, and if no player has loaded a round or fired a round in this
-      Agoran week or the previous two Agoran weeks, then any player CAN
-      flip the match state to none by announcement.
-      
-      If the match state is initializing and has not changed in the past
-      28 days, then any player CAN flip the match state to none by
-      announcement.
-      
-      A player may order more ammo by announcement if both of the
-      following are true: the match state is ongoing and has not changed
-      in the past 21 days; and no one has ordered more ammo in the
-      current or prior week. When a player orders more ammo, at the end
-      of the following week each alive player gains one bang.
-
-------------------------------------------------------------------------
-Rule 2697/1 (Power=1.0)
-The Bounty Board
-
-      Bounty Amount is an untracked player switch. Its possible values
-      are all integers from 0 to 10 inclusive, where 0 is the default.
-      
-      Twice each month, each player CAN, by announcement, put a bounty
-      on a specified player. Doing so increases the specified player's
-      Bounty Amount by 1.
-      
-      Immediately after an alive player is eliminated, the shooter gains
-      a number of spendies equal to the target's Bounty Amount, and then
-      the target's bounty amount is flipped to 0.
-      
-      The shooter SHOULD publish the target's Bounty Amount at the time
-      of the elimination when e eliminates a target with a non-zero
-      Bounty Amount.
-      
-      A player CAN wipe the slate clean by announcement if the match
-      state is none and no one has done so in the current quarter. Upon
-      doing so, all bounty amounts are flipped to zero.
 
 ------------------------------------------------------------------------
 ========================================================================
