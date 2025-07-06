@@ -3,7 +3,7 @@ name: Self-Ratification
 power: 3
 text: |
   When a public document published less than 180 days ago is first
-  continuously undoubted for one week after publication:
+  continuously undoubted for two weeks after publication:
 
   - If the rules define it as self-ratifying, it is ratified.
 
@@ -111,6 +111,11 @@ history:
   date: 2024-10-11
   agent:
     proposal: "9184"
+- change:
+    type: amendment
+  date: 2025-07-06
+  agent:
+    proposal: "9232"
 annotations:
 - cfjs:
   - id: '1690'
