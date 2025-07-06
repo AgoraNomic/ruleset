@@ -1,8 +1,9 @@
-# - name: Emergency Regulations
-#   note: |
-#     This section has Emergency Regulations, providing a way to change the
-#     gamestate during states of extreme emergency.
-#   rules:
+- name: Emergency Regulations
+  note: |
+    This section has Emergency Regulations, providing a way to change the
+    gamestate during states of extreme emergency.
+  rules:
+  - ER5
 - name: Administrative Regulations
   note: |
     This section has regulations enacted by officers, pursuant to Rule
