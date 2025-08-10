@@ -3,15 +3,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 6 Jul 2025
+Date of this ruleset: 10 Aug 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 134
+Number of rules currently enacted: 136
 
-Highest ID'd rule in this ruleset: 2701
-Highest ID'd Proposal Passed: 9232
-Highest ID'd Rule Enacted: 2701
+Highest ID'd rule in this ruleset: 2703
+Highest ID'd Proposal Passed: 9240
+Highest ID'd Rule Enacted: 2703
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -175,6 +175,8 @@ Agoran Culture
    * Rule 2694: Hats
    * Rule 2683: The Boulder
    * Rule 2695: The Veblen
+   * Rule 2702: Agoran Bingo
+   * Rule 2703: Regulating Agoran Bingo
 
 
 ------------------------------------------------------------------------
@@ -183,7 +185,7 @@ Power Distribution:
 
 1  with Power=0.3
 3  with Power=0.5
-32 with Power=1
+34 with Power=1
 5  with Power=1.5
 5  with Power=1.7
 24 with Power=2
@@ -4919,10 +4921,10 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/16 (Power=2)
+Rule 2555/17 (Power=2)
 Blots
 
-      Blots are an indestructible fixed fungible asset with ownership
+      Blots are an indestructible fixed currency with ownership
       restricted to persons. A person with 1 or more blots is Impure, a
       person with 0 blots is Pure. An impure unregistered person is a
       Fugitive. The Referee is an office, and the recordkeepor for
@@ -4964,6 +4966,8 @@ Amended(14) by P9092 'Paying your time' (ais523), 21 Apr 2024
 Amended(15) by P9092 'Paying your time' (ais523), 21 Apr 2024
 Amended(16) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
    18 Aug 2024
+Amended(17) by P9238 'Make currency current again' (Murphy, Janet,
+   Mischief), 09 Aug 2025
 
 Annotations:
 
@@ -6202,14 +6206,14 @@ Amended(8) by P8953 'Fluidity' (Janet), 23 Apr 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2578/3 (Power=3)
+Rule 2578/4 (Power=3)
 Fungibility
 
-      A fungible asset is one where two instances of it are considered
-      equivalent if they have the same owner, for the purposes of
-      specification, granting, and transferring. The total amount of a
-      fungible asset that an entity owns is also know as that entity's
-      "balance" of that asset.
+      A fungible asset (syn. "currency") is an asset where two instances
+      of it are considered equivalent if they have the same owner, for
+      the purposes of specification, granting, and transferring. The
+      total amount of a fungible asset that an entity owns is also know
+      as that entity's "balance" of that asset.
 
 History:
 
@@ -6219,11 +6223,13 @@ Retitled from 'Currencies' to 'Fungibility' by P9076 'FUNgibility'
    (nix), 07 Apr 2024
 Amended(2) by P9076 'FUNgibility' (nix), 07 Apr 2024
 Amended(3) by cleaning (Mischief), 19 May 2024
+Amended(4) by P9238 'Make currency current again' (Murphy, Janet,
+   Mischief), 09 Aug 2025
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2579/3 (Power=3)
+Rule 2579/4 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -6231,8 +6237,8 @@ Fee-based Actions
       action, that method for performing that action is a fee-based
       method.
       
-      If the fee is a non-integer quantity of a fungible asset, the
-      actual fee is the next highest integer amount of that asset.
+      If the fee is a non-integer quantity of a currency, the actual fee
+      is the next highest integer amount of that asset.
       
       To use a fee-based method, an entity (the Actor) who is otherwise
       permitted to perform the action must announce that e is performing
@@ -6262,6 +6268,8 @@ Amended(1) by P8462 'Fee-based methods' (Janet, Falsifian), 08 Jul 2020
 Amended(2) by P8486 'Fee-based de-escalation' (Janet, omd), 10 Aug 2020
 Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Janet, omd), 08
    Sep 2020
+Amended(4) by P9238 'Make currency current again' (Murphy, Janet,
+   Mischief), 09 Aug 2025
 
 Annotations:
 
@@ -6273,7 +6281,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/12 (Power=1)
+Rule 2659/13 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players and contracts.
@@ -6298,9 +6306,9 @@ Stamps
       When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
       stamps of eir type exist, X is 0.
       
-      Any player CAN pay a fee of 5 + (X) Spendies to transfer a
-      specified stamp from the L&FD to emself. X is equal to the number
-      of times e has already done so in the current month.
+      
+      Any player CAN pay a fee of 6 Spendies to transfer a specified
+      stamp from the L&FD to emself.
 
 History:
 
@@ -6319,6 +6327,7 @@ Amended(9) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(10) by P9186 'No more stamps for Agora' (kiako), 20 Oct 2024
 Amended(11) by P9200 'Rebalancing' (Mischief, ais523), 22 Dec 2024
 Amended(12) by P9206 'Let Contracts Own Stamps' (Mischief), 26 Jan 2025
+Amended(13) by P9234 'Prix Fixe' (Mischief), 09 Aug 2025
 
 Annotations:
 
@@ -6442,15 +6451,15 @@ CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
     birthday on the day e first registers.
 
 ------------------------------------------------------------------------
-Rule 2690/7 (Power=1.0)
+Rule 2690/8 (Power=1.0)
 Spendies
 
       The Spendor is an office.
       
-      Spendies are a fungible liquid asset ownable by players and
-      contracts. Spendies are tracked by the Spendor in eir weekly
-      report. If the Spendor's report is overdue, then other players
-      SHOULD deputise to publish it.
+      Spendies are a currency ownable by players and contracts. Spendies
+      are tracked by the Spendor in eir weekly report. If the Spendor's
+      report is overdue, then other players SHOULD deputise to publish
+      it.
       
       At the end of each month, all Spendies are destroyed. At the
       beginning of each month, every player is granted 20 Spendies.
@@ -6466,6 +6475,8 @@ Amended(5) by P9191 'Back to the twenties' (snail), 20 Oct 2024
 Amended(6) by P9196 'Use it or lose it' (Murphy, Alexis), 16 Dec 2024
 Amended(7) by P9201 'Vox Populi > Vox Fortunae' (snail, Mischief), 22
    Dec 2024
+Amended(8) by P9238 'Make currency current again' (Murphy, Janet,
+   Mischief), 09 Aug 2025
 
 Annotations:
 
@@ -6491,10 +6502,10 @@ Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2700/0 (Power=1.5)
+Rule 2700/1 (Power=1.5)
 Candles
 
-      Candles are fixed fungible assets tracked by the Illuminator.
+      Candles are a fixed currency tracked by the Illuminator.
       
       Contests are the only entities permitted to own candles, and any
       candles held by any other entity are immediately destroyed.
@@ -6514,6 +6525,8 @@ History:
 
 Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
    2024
+Amended(1) by P9238 'Make currency current again' (Murphy, Janet,
+   Mischief), 09 Aug 2025
 
 Annotations:
 
@@ -6648,7 +6661,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/35 (Power=3)
+Rule 2438/36 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -6736,7 +6749,7 @@ Ribbons
       
       Gray (A): Once per month the Tailor CAN, by announcement, cause a
       specified player to earn a Gray Ribbon. E is ENCOURAGED to do so
-      in the same message in which e publishes eir monthly report.
+      before publishing eir monthly report.
       
       Transparent (T): A person qualifies for a Transparent Ribbon while
       the number of other types of Ribbon that that person qualified for
@@ -6805,6 +6818,7 @@ Amended(34) by P9187 'Gray Ribbon clarification' (kiako, Janet, Kate),
    20 Oct 2024
 Amended(35) by P9223 'Yet Another Transparent Ribbon Solution' (Kate,
    Mischief, ais523, Janet), 16 Mar 2025
+Amended(36) by P9239 'Gray timing' (Murphy), 09 Aug 2025
 
 Annotations:
 
@@ -7893,6 +7907,94 @@ Enacted by P9142 'Potential Further Absurdity' (Mischief, Janet), 19 Jul
 Amended(1) by P9150 '*sigh*' (Janet), 11 Aug 2024
 Amended(2) by P9172 'Veblen Defense' (Mischief), 15 Sep 2024
 Amended(3) by P9193 'Devaluation' (Murphy), 18 Nov 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2702/0 (Power=1.0)
+Agoran Bingo
+
+      The Collar is an elected office responsible for administering
+      Agoran Bingo.
+      
+      Bingo state is a singleton switch tracked by the Collar with
+      possible values paused (default) and unpaused.
+      
+      If the bingo state is paused, the Collar CAN flip it to unpaused
+      by announcement, and e SHOULD do so unless there is reasonable
+      uncertainty as to the current bingo state or the validity of a
+      claimed bingo, or the Collar is actively drafting, discussing, or
+      trying to enact or amend eir administrative regulations. When the
+      bingo state is paused, all existing bingo board selections are
+      null and void, a player CANNOT select a bingo board, and a player
+      CANNOT call bingo.
+      
+      If the bingo state is unpaused, a player whose bingo board
+      contains at least one winning pattern of conditions -- as defined
+      in the Collar's regulations -- that are all satisfied CAN call
+      bingo by announcement. (For clarity, the states of any conditions
+      not in the winning pattern are irrelevant.) Eir announcement:
+      
+      1) MUST specify the claimed winning pattern and the conditions it
+         contains;
+      
+      2) MUST reveal any information required by the Collar's
+         adminstrative regulations for the method e used to select a
+         bingo board; and
+      
+      3) SHOULD include evidence demonstrating that each of the
+        conditions in the winning pattern is satisfied, other than any
+        conditions where such satisfaction is already clearly obvious.
+      
+      When a player successfully calls bingo, e wins the game and the
+      bingo state is flipped to paused.
+      
+      If no player has successfully called bingo in the previous 3
+      months, the Collar can flip the bingo state to paused without 2
+      objections.
+
+History:
+
+Enacted by P9240 'Agoran Bingo' (Mischief, juan), 09 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2703/0 (Power=1.0)
+Regulating Agoran Bingo
+
+      The Collar SHOULD try to enact and maintain administrative
+      regulations defining:
+      
+      * one or more methods for a player to select a bingo board;
+      
+      * the conditions that can be included on a player's bingo board;
+        and
+      
+      * one or more winning bingo patterns
+      
+      The methods for selecting a bingo board SHOULD be such that:
+      
+      * there is at least one method that permits a player to keep eir
+        bingo board secret until e calls bingo;
+      
+      * a player cannot change eir selection once made; and
+      
+      * a player cannot choose in advance with certainty the board e
+        will end up with
+      
+      Additionally, for each method of selecting a bingo board, the
+      Collar's regulations SHOULD specifiy:
+      
+      * what information, if any, a player electing that method MUST
+        reveal in order to successfully call bingo; and
+      
+      * what information, if any, the Collar MUST include in eir weekly
+        report for each player electing that method
+
+History:
+
+Enacted by P9240 'Agoran Bingo' (Mischief, juan), 09 Aug 2025
 
 Annotations:
 
