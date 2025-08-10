@@ -190,6 +190,11 @@ history:
   date: 2025-03-16
   agent:
     proposal: "9223"
+- change:
+    type: amendment
+  date: 2025-08-09
+  agent:
+    proposal: "9239"
 text: |
   The Tailor is an office, and the recordkeepor of Ribbons.
 
@@ -276,7 +281,7 @@ text: |
 
   Gray (A): Once per month the Tailor CAN, by announcement, cause a
   specified player to earn a Gray Ribbon. E is ENCOURAGED to do so
-  in the same message in which e publishes eir monthly report.
+  before publishing eir monthly report.
 
   Transparent (T): A person qualifies for a Transparent Ribbon while
   the number of other types of Ribbon that that person qualified for
