@@ -2,7 +2,7 @@ id: 2700
 name: Candles
 power: 1.5
 text: |
-  Candles are fixed fungible assets tracked by the Illuminator.
+  Candles are a fixed currency tracked by the Illuminator.
 
   Contests are the only entities permitted to own candles, and any
   candles held by any other entity are immediately destroyed.
@@ -23,3 +23,8 @@ history:
   date: 2024-12-22
   agent:
     proposal: "9197"
+- change:
+    type: amendment
+  date: 2025-08-09
+  agent:
+    proposal: "9238"

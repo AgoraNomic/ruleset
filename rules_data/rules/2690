@@ -4,10 +4,10 @@ power: 1.0
 text: |
   The Spendor is an office.
 
-  Spendies are a fungible liquid asset ownable by players and
-  contracts. Spendies are tracked by the Spendor in eir weekly
-  report. If the Spendor's report is overdue, then other players
-  SHOULD deputise to publish it.
+  Spendies are a currency ownable by players and contracts. Spendies
+  are tracked by the Spendor in eir weekly report. If the Spendor's
+  report is overdue, then other players SHOULD deputise to publish
+  it.
 
   At the end of each month, all Spendies are destroyed. At the
   beginning of each month, every player is granted 20 Spendies.
@@ -52,3 +52,8 @@ history:
   date: 2024-12-22
   agent:
     proposal: "9201"
+- change:
+    type: amendment
+  date: 2025-08-09
+  agent:
+    proposal: "9238"

@@ -7,8 +7,8 @@ text: |
   action, that method for performing that action is a fee-based
   method.
 
-  If the fee is a non-integer quantity of a fungible asset, the
-  actual fee is the next highest integer amount of that asset.
+  If the fee is a non-integer quantity of a currency, the actual fee
+  is the next highest integer amount of that asset.
 
   To use a fee-based method, an entity (the Actor) who is otherwise
   permitted to perform the action must announce that e is performing
@@ -52,3 +52,8 @@ history:
   date: 2020-09-08
   agent:
     proposal: "8488"
+- change:
+    type: amendment
+  date: 2025-08-09
+  agent:
+    proposal: "9238"
