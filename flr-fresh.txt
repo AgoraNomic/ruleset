@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 10 Aug 2025
+Date of this ruleset: 17 Aug 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 136
 
 Highest ID'd rule in this ruleset: 2703
-Highest ID'd Proposal Passed: 9240
+Highest ID'd Proposal Passed: 9242
 Highest ID'd Rule Enacted: 2703
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -6211,14 +6211,14 @@ Amended(8) by P8953 'Fluidity' (Janet), 23 Apr 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2578/4 (Power=3)
+Rule 2578/5 (Power=3)
 Fungibility
 
-      A fungible asset (syn. "currency") is an asset where two instances
-      of it are considered equivalent if they have the same owner, for
+      Any two assets within a "fungible" class of assets (syn.
+      "currency") that have the same owner are considered equivalent for
       the purposes of specification, granting, and transferring. The
-      total amount of a fungible asset that an entity owns is also know
-      as that entity's "balance" of that asset.
+      number of such assets an entity owns is that entity's "balance" of
+      that currency.
 
 History:
 
@@ -6230,6 +6230,7 @@ Amended(2) by P9076 'FUNgibility' (nix), 07 Apr 2024
 Amended(3) by cleaning (Mischief), 19 May 2024
 Amended(4) by P9238 'Make currency current again' (Murphy, Janet,
    Mischief), 09 Aug 2025
+Amended(5) by P9242 'Currency clarification' (Janet, Kate), 16 Aug 2025
 
 Annotations:
 
