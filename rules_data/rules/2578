@@ -2,11 +2,11 @@ id: 2578
 name: Fungibility
 power: 3
 text: |
-  A fungible asset (syn. "currency") is an asset where two instances
-  of it are considered equivalent if they have the same owner, for
+  Any two assets within a "fungible" class of assets (syn.
+  "currency") that have the same owner are considered equivalent for
   the purposes of specification, granting, and transferring. The
-  total amount of a fungible asset that an entity owns is also know
-  as that entity's "balance" of that asset.
+  number of such assets an entity owns is that entity's "balance" of
+  that currency.
 history:
 - change:
     type: enactment
@@ -42,3 +42,8 @@ history:
   date: 2025-08-09
   agent:
     proposal: "9238"
+- change:
+    type: amendment
+  date: 2025-08-16
+  agent:
+    proposal: "9242"
