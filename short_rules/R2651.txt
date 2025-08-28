@@ -1,0 +1,32 @@
+Rule 2651/1 (Power=2)
+The Election Cycle
+
+      A holder of an elected office who did not become its holder by
+      winning an election, and has not won an election for that office
+      since, is an interim holder. An elected office that is either
+      vacant or has an interim holder is an interim office.
+      
+      An office is term-limited if the most recent election for that
+      office was resolved more than the length of that office's term
+      prior. The term for the office of Prime Minister is 90 days. The
+      term for all other elected offices is 180 days.
+      
+      A player CAN initiate an election for a specified elected office:
+      
+      a) With 2 support (if the office is either interim or term-
+      limited) or 4 support (otherwise), and provided that the initiator
+      becomes a candidate in the same message.
+      
+      b) By announcement, if e is the ADoP (or, if the office is the
+      ADoP, if e is the Assessor) and the office is interim, or if e is
+      the holder of that office.
+      
+      Once per quarter, the ADoP CAN and SHALL publish a Notice of
+      Election specifying between 2-4 term-limited offices (if there
+      fewer than 2 term-limited offices, the ADoP MUST instead list all
+      of them).  Such a notice initiates elections for the specified
+      offices.  The ADoP SHOULD prioritize offices that have gone
+      longest since their last elections.
+      
+      The above notwithstanding, an election for an office CANNOT be
+      initiated if one is already in progress.

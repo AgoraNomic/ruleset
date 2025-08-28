@@ -1,0 +1,52 @@
+Rule 1551/23 (Power=3.2)
+Ratification
+
+      A retroactive change is one that changes the game's record of past
+      events. Retroactive changes are secured with power threshold 3.
+      
+      When a document or statement (hereafter "document") is to be
+      ratified, the following definitions apply:
+      * The publication time can be specified by the instrument allowing
+        the ratification, defaulting to the instant at which the
+        document to be ratified was published.
+      * The truth time is the instant at which the document specifies
+        that it was true, or the publication time if such an instant is
+        not specified.
+      * The application time is the instant at which the document to be
+        ratified is ratified.
+      
+      Ratification CANNOT occur if the truth time would be after the
+      application time, or if the publication time would be after the
+      application time.
+      
+      Rules to the contrary notwithstanding, when a document is
+      ratified, the gamestate is modified to what it would be if, at the
+      truth time, the gamestate had been minimally modified to make the
+      ratified document as true and accurate as possible.
+      
+      Ratification CANNOT occur if it would add inconsistencies between
+      the gamestate and the rules.
+      
+      Ratification CANNOT occur if the required modification to the
+      gamestate is not possible or if multiple substantially distinct
+      possible modifications would be equally appropriate.
+      
+      If the minimal modification would include past or present rule
+      changes, they are instead excluded unless the ratified document
+      explicitly and unambiguously recites either the changes or the
+      resulting properties of the rule(s).
+      
+      An internally inconsistent document generally CANNOT be ratified;
+      however, if such a document can be divided into a summary section
+      and a main section, where the only purpose of the summary section
+      is to summarize information in the main section, and the main
+      section is internally consistent, ratification of the document
+      proceeds as if it contained only the main section.
+      
+      Text purportedly about previous instances of ratification (e.g. a
+      report's date of last ratification) is excluded from ratification.
+      The rules may define additional information that is considered to
+      be part of the document for the purposes of ratification; such
+      definitions are secured with power threshold 3.
+      
+      Ratification is secured with power threshold 3.
