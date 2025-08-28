@@ -1,0 +1,20 @@
+id: 2709
+name: The Growth Cycle
+power: 1.0
+text: |
+  A player CAN plant an in-season Crop by paying a fee in Pyrite
+  equal to its Seed Cost, provided that eir number of Hectares is
+  greater than the number of Crops e planted earlier in the current
+  Crop Season and has not yet harvested.
+
+  Once per Crop that a player planted earlier in the current Crop
+  Season and at least <Growth Duration> days ago, e CAN harvest it
+  by announcement, gaining Pyrite equal to its Sell Price.
+
+  At the end of each Crop Season, all unharvested Crops are lost.
+history:
+- change:
+    type: enactment
+  date: 2025-08-25
+  agent:
+    proposal: "9243"

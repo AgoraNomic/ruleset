@@ -10,6 +10,7 @@ text: |
   * One stamp of eir own type.
   * 10 spendies, if e has not been granted any spendies since e last
     registered.
+  * 16 Hectares.
 
   A player CAN, by announcement, cause a specified player to receive
   a welcome package (syn. "grant" em a welcome package).
@@ -145,4 +146,9 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9133"
+- change:
+    type: amendment
+  date: 2025-08-25
+  agent:
+    proposal: "9243"
 annotations: []

@@ -1,0 +1,24 @@
+id: 2710
+name: Genetic Modification
+power: 1.0
+text: |
+  Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
+  create a new type of Crop, specifying its name. The Land Managor
+  CAN once by announcement, and SHALL in a timely fashion, randomly
+  select its Crop Season, Seed Cost (50 to 200), Growth Duration (3
+  to 24), and Sell Price (100 to 400). Rules to the contrary
+  notwithstanding, it CANNOT be planted before this announcement.
+
+  Once per Crop Season, a player CAN pay a fee of 750 Pyrite to
+  alter a type of out-of-season Crop's Seed Cost, Growth Duration,
+  or Sell Price by up to 25% in either direction, provided that they
+  remain within the random ranges for new types of Crop.
+
+  Once per Crop Season, a player CAN pay a fee of 1000 Pyrite to
+  remove a type of out-of-season Crop.
+history:
+- change:
+    type: enactment
+  date: 2025-08-25
+  agent:
+    proposal: "9243"

@@ -1,0 +1,16 @@
+id: 2705
+name: Crop Seasons
+power: 1.0
+text: |
+  The Crop Season is determined by the current Agoran month:
+
+    * Spring - January, May, September
+    * Summer - February, June, October
+    * Autumn - March, July, November
+    * Winter - April, August, December
+history:
+- change:
+    type: enactment
+  date: 2025-08-25
+  agent:
+    proposal: "9243"

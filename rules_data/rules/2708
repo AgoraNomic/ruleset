@@ -1,0 +1,19 @@
+id: 2708
+name: Crops
+power: 1.0
+text: |
+  Creating and destroying types of Crop is secured.
+
+  Each type of Crop has an associated Crop Season, Seed Cost, Growth
+  Duration, and Sell Price. Actions involving any of these
+  attributes use the attribute values for the type of Crop involved
+  in that action.
+
+  An in-season Crop is one whose Crop Season is in progress. All
+  others are out-of-season.
+history:
+- change:
+    type: enactment
+  date: 2025-08-25
+  agent:
+    proposal: "9243"

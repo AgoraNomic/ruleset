@@ -193,6 +193,19 @@
     to (presumably) become the Pointiest.
   rules:
   - 2656 # Points
+- name: Agoriculture
+  note: |
+    Every good economy has trade, and we have it in boatloads here.
+    These crops will make us rich, and we'll finally put Agora on
+    a map. (Maybe not the map, but a map.)
+  rules:
+  - 2704 # Hectares
+  - 2705 # Crop Seasons
+  - 2706 # The Land Managor
+  - 2707 # Pyrite
+  - 2708 # Crops
+  - 2709 # The Growth Cycle
+  - 2710 # Genetic Modification
 - name: Victory
   note: |
     All games have winners, and Agora is no exception. If you're

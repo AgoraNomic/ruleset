@@ -1,0 +1,20 @@
+id: 2707
+name: Pyrite
+power: 1.0
+text: |
+  Pyrite is a type of fixed currency, tracked by the Land Managor.
+
+  A player CAN pay a fee of 1 Spendie to gain 100 Pyrite.
+
+  A player CAN pay a fee of 200 Pyrite to gain 1 Spendie.
+history:
+- change:
+    type: enactment
+  date: 2025-08-25
+  agent:
+    proposal: "9243"
+- change:
+    type: amendment
+  date: 2025-08-25
+  agent:
+    proposal: "9243"
