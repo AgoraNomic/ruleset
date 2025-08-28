@@ -3,15 +3,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 17 Aug 2025
+Date of this ruleset: 28 Aug 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 136
+Number of rules currently enacted: 143
 
-Highest ID'd rule in this ruleset: 2703
-Highest ID'd Proposal Passed: 9242
-Highest ID'd Rule Enacted: 2703
+Highest ID'd rule in this ruleset: 2710
+Highest ID'd Proposal Passed: 9244
+Highest ID'd Rule Enacted: 2710
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -147,6 +147,14 @@ Economics
    * Rule 2700: Candles
 Scoring
    * Rule 2656: Radiance
+Agoriculture
+   * Rule 2704: Hectares
+   * Rule 2705: Crop Seasons
+   * Rule 2706: The Land Managor
+   * Rule 2707: Pyrite
+   * Rule 2708: Crops
+   * Rule 2709: The Growth Cycle
+   * Rule 2710: Genetic Modification
 Victory
    * Rule 2449: Winning the Game
    * Rule 2465: Victory by Apathy
@@ -190,7 +198,7 @@ Power Distribution:
 
 1  with Power=0.3
 3  with Power=0.5
-34 with Power=1
+41 with Power=1
 5  with Power=1.5
 5  with Power=1.7
 24 with Power=2
@@ -2853,7 +2861,7 @@ Amended(2) by P8922 'What's a paragraph anyway?' (G.), 19 Mar 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2614/9 (Power=3.1)
+Rule 2614/10 (Power=3.1)
 Eclipse Light
 
       An emergency message is one whose subject line contains the text
@@ -2891,8 +2899,8 @@ Eclipse Light
       
       If there is an Emergency Regulation that has existed for at least
       a month and the Prime Minister has not Extended the Emergency in
-      the past month, any player CAN, with 7 days notice, cause this
-      rule to repeal all Emergency Regulations.
+      the past month, any player CAN, with 7 days notice, repeal all
+      Emergency Regulations.
       
       If the Prime Minister has not sent a message to a public forum in
       the preceding four days, the Speaker CAN exercise eir powers under
@@ -2919,6 +2927,7 @@ Amended(7) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 Amended(8) by P8547 'ER office restriction' (Janet), 10 Mar 2021
 Amended(9) by P8570 'Emergency Regulation Clarification' (Janet), 14 Jun
    2021
+Amended(10) by P9244 'Concision' (Mischief, Janet, ais523), 25 Aug 2025
 
 Annotations:
 
@@ -6363,7 +6372,7 @@ Amended(1) by P9204 'Rare stamps, more differently' (Janet), 26 Jan 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/24 (Power=1)
+Rule 2499/25 (Power=1)
 Welcome Packages
 
       When a player receives a welcome package, if e has not received a
@@ -6374,6 +6383,7 @@ Welcome Packages
       * One stamp of eir own type.
       * 10 spendies, if e has not been granted any spendies since e last
         registered.
+      * 16 Hectares.
       
       A player CAN, by announcement, cause a specified player to receive
       a welcome package (syn. "grant" em a welcome package).
@@ -6416,6 +6426,8 @@ Amended(22) by P9091 'Welcome package fix, again, again' (Janet, Aris),
    21 Apr 2024
 Amended(23) by P9098 'Welcome Spendies' (snail), 02 May 2024
 Amended(24) by P9133 'Last from the Past' (snail), 06 Jul 2024
+Amended(25) by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
 
 Annotations:
 
@@ -6583,6 +6595,152 @@ Amended(9) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
    18 Aug 2024
 Amended(10) by P9201 'Vox Populi > Vox Fortunae' (snail, Mischief), 22
    Dec 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+========================================================================
+Agoriculture
+   Every good economy has trade, and we have it in boatloads here. These
+   crops will make us rich, and we'll finally put Agora on a map. (Maybe
+   not the map, but a map.)
+------------------------------------------------------------------------
+Rule 2704/1 (Power=1.0)
+Hectares
+
+      Hectare is a type of fixed currency, tracked by the Land Managor.
+      
+      A player CAN pay a fee of 500 Pyrite to gain 1 Hectare.
+
+History:
+
+Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
+Amended(1) by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2705/0 (Power=1.0)
+Crop Seasons
+
+      The Crop Season is determined by the current Agoran month:
+      
+        * Spring - January, May, September
+        * Summer - February, June, October
+        * Autumn - March, July, November
+        * Winter - April, August, December
+
+History:
+
+Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2706/0 (Power=1.0)
+The Land Managor
+
+      The Land Managor is an office.
+      
+      The Land Managor's report includes a list of types of Crops and
+      their attributes, and a list of Crops planted and harvested during
+      the current Crop Season.
+
+History:
+
+Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2707/1 (Power=1.0)
+Pyrite
+
+      Pyrite is a type of fixed currency, tracked by the Land Managor.
+      
+      A player CAN pay a fee of 1 Spendie to gain 100 Pyrite.
+      
+      A player CAN pay a fee of 200 Pyrite to gain 1 Spendie.
+
+History:
+
+Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
+Amended(1) by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2708/0 (Power=1.0)
+Crops
+
+      Creating and destroying types of Crop is secured.
+      
+      Each type of Crop has an associated Crop Season, Seed Cost, Growth
+      Duration, and Sell Price. Actions involving any of these
+      attributes use the attribute values for the type of Crop involved
+      in that action.
+      
+      An in-season Crop is one whose Crop Season is in progress. All
+      others are out-of-season.
+
+History:
+
+Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2709/0 (Power=1.0)
+The Growth Cycle
+
+      A player CAN plant an in-season Crop by paying a fee in Pyrite
+      equal to its Seed Cost, provided that eir number of Hectares is
+      greater than the number of Crops e planted earlier in the current
+      Crop Season and has not yet harvested.
+      
+      Once per Crop that a player planted earlier in the current Crop
+      Season and at least <Growth Duration> days ago, e CAN harvest it
+      by announcement, gaining Pyrite equal to its Sell Price.
+      
+      At the end of each Crop Season, all unharvested Crops are lost.
+
+History:
+
+Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2710/0 (Power=1.0)
+Genetic Modification
+
+      Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
+      create a new type of Crop, specifying its name. The Land Managor
+      CAN once by announcement, and SHALL in a timely fashion, randomly
+      select its Crop Season, Seed Cost (50 to 200), Growth Duration (3
+      to 24), and Sell Price (100 to 400). Rules to the contrary
+      notwithstanding, it CANNOT be planted before this announcement.
+      
+      Once per Crop Season, a player CAN pay a fee of 750 Pyrite to
+      alter a type of out-of-season Crop's Seed Cost, Growth Duration,
+      or Sell Price by up to 25% in either direction, provided that they
+      remain within the random ranges for new types of Crop.
+      
+      Once per Crop Season, a player CAN pay a fee of 1000 Pyrite to
+      remove a type of out-of-season Crop.
+
+History:
+
+Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
+   oliver.n, Janet), 25 Aug 2025
 
 Annotations:
 
