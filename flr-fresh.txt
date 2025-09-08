@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 28 Aug 2025
+Date of this ruleset: 8 Sep 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 143
 
 Highest ID'd rule in this ruleset: 2710
-Highest ID'd Proposal Passed: 9244
+Highest ID'd Proposal Passed: 9246
 Highest ID'd Rule Enacted: 2710
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -144,9 +144,8 @@ Economics
    * Rule 2585: Birthday Gifts
    * Rule 2690: Spendies
    * Rule 2699: Contests
-   * Rule 2700: Candles
-Scoring
    * Rule 2656: Radiance
+   * Rule 2700: Candles
 Agoriculture
    * Rule 2704: Hectares
    * Rule 2705: Crop Seasons
@@ -4214,7 +4213,7 @@ Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2691/3 (Power=2.0)
+Rule 2691/4 (Power=2.0)
 Sortition Procedure
 
       A player CAN by announcement initiate a sortition for a vacant
@@ -4231,15 +4230,21 @@ Sortition Procedure
       this period. If a person ceases to be a player during this period,
       e also ceases to be an option for each current sortition.
       
-      Seven days after a sortition is initiated, its lots period ends.
-      The ADoP CAN by announcement, and SHALL in a timely fashion after
-      a lots period ends, randomly select one of the options for that
-      office. When e does so, that player becomes the officeholder for
-      that office, then the sortition ends.
+      Seven days after a sortition is initiated, its lots period ends,
+      after which:
       
-      If a sortition's lots period has ended, and the sortition has no
-      valid options, then it immediately ends with no selection, and any
-      duty to select an option with respect to it is discharged.
+        * If it has two or more valid options, then the ADoP CAN by
+          announcement, and SHALL in a timely fashion after its lots
+          period ends, randomly select one of those options.
+      
+        * If it has exactly one valid option, then any player CAN by
+          announcement select that option.
+      
+        * If it has no valid options, then any player CAN by
+          announcement declare the sortition ended with no selection.
+      
+      When a player is selected in a sortition as described above, e is
+      installed into the associated office and the sortition ends.
       
       If a sortition is ever ongoing for a non-sortitioned office (or
       for an office that no longer exists), that sortition immediately
@@ -4253,6 +4258,8 @@ Amended(2) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
 Amended(3) by P9174 'Various sortition fixes v2' (Janet, Kate), 15 Sep
    2024
+Amended(4) by P9246 'Reduce automatic sortition events v1.1' (Murphy,
+   Janet), 07 Sep 2025
 
 Annotations:
 
@@ -6520,40 +6527,6 @@ Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2700/1 (Power=1.5)
-Candles
-
-      Candles are a fixed currency tracked by the Illuminator.
-      
-      Contests are the only entities permitted to own candles, and any
-      candles held by any other entity are immediately destroyed.
-      
-      A player CAN pay a fee of 1 spendie to grant 1 candle to a
-      contest.
-      
-      As explicitly and unambiguously permitted by a contest's body, a
-      party to that contest CAN bestow a prize by an announcement
-      clearly identifying the recipient player, the amount of radiance
-      to award (N), and the relevant contest. Upon doing so, if the
-      specified contest possesses at least N candles the following
-      happen in order: N of its candles are destroyed, then the
-      specified player gains N radiance.
-
-History:
-
-Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
-   2024
-Amended(1) by P9238 'Make currency current again' (Murphy, Janet,
-   Mischief), 09 Aug 2025
-
-Annotations:
-
-------------------------------------------------------------------------
-========================================================================
-Scoring
-   A game in which players attempt attempt to amass points, in order to
-   (presumably) become the Pointiest.
-------------------------------------------------------------------------
 Rule 2656/10 (Power=1.5)
 Radiance
 
@@ -6595,6 +6568,35 @@ Amended(9) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
    18 Aug 2024
 Amended(10) by P9201 'Vox Populi > Vox Fortunae' (snail, Mischief), 22
    Dec 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2700/1 (Power=1.5)
+Candles
+
+      Candles are a fixed currency tracked by the Illuminator.
+      
+      Contests are the only entities permitted to own candles, and any
+      candles held by any other entity are immediately destroyed.
+      
+      A player CAN pay a fee of 1 spendie to grant 1 candle to a
+      contest.
+      
+      As explicitly and unambiguously permitted by a contest's body, a
+      party to that contest CAN bestow a prize by an announcement
+      clearly identifying the recipient player, the amount of radiance
+      to award (N), and the relevant contest. Upon doing so, if the
+      specified contest possesses at least N candles the following
+      happen in order: N of its candles are destroyed, then the
+      specified player gains N radiance.
+
+History:
+
+Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
+   2024
+Amended(1) by P9238 'Make currency current again' (Murphy, Janet,
+   Mischief), 09 Aug 2025
 
 Annotations:
 
