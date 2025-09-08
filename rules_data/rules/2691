@@ -16,15 +16,21 @@ text: |
   this period. If a person ceases to be a player during this period,
   e also ceases to be an option for each current sortition.
 
-  Seven days after a sortition is initiated, its lots period ends.
-  The ADoP CAN by announcement, and SHALL in a timely fashion after
-  a lots period ends, randomly select one of the options for that
-  office. When e does so, that player becomes the officeholder for
-  that office, then the sortition ends.
+  Seven days after a sortition is initiated, its lots period ends,
+  after which:
 
-  If a sortition's lots period has ended, and the sortition has no
-  valid options, then it immediately ends with no selection, and any
-  duty to select an option with respect to it is discharged.
+    * If it has two or more valid options, then the ADoP CAN by
+      announcement, and SHALL in a timely fashion after its lots
+      period ends, randomly select one of those options.
+
+    * If it has exactly one valid option, then any player CAN by
+      announcement select that option.
+
+    * If it has no valid options, then any player CAN by
+      announcement declare the sortition ended with no selection.
+
+  When a player is selected in a sortition as described above, e is
+  installed into the associated office and the sortition ends.
 
   If a sortition is ever ongoing for a non-sortitioned office (or
   for an office that no longer exists), that sortition immediately
@@ -50,3 +56,8 @@ history:
   date: 2024-09-15
   agent:
     proposal: "9174"
+- change:
+    type: amendment
+  date: 2025-09-07
+  agent:
+    proposal: "9246"
