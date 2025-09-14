@@ -1,0 +1,121 @@
+Rule 2143/40 (Power=1)
+Reports and Duties
+
+      For each person:
+      
+      1. If any task is defined by the rules as part of that person's
+         weekly duties, then e SHALL perform it at least once each week.
+      
+      2. If any task is defined by the rules as part of that person's
+         monthly duties, then e SHALL perform it at least once each month.
+      
+      For each office, if any information is defined by the rules as
+      part of that office's weekly or monthly report, then its
+      officeholder SHALL maintain all such information, and eir weekly
+      or monthly duties respectively include publishing a document or
+      series of documents, labelled as that office's report (or as that
+      office's weekly or monthly report as appropriate), that includes
+      all such information.
+      
+      Any information defined by the rules as part of a person's report,
+      without specifying which one, is part of eir weekly report.
+      Failure of a person to perform any weekly duty required of em
+      within the allotted time is the Class 1+N infraction of Weekly
+      Tardiness, where N is the number of times e has previously
+      committed the infraction in the past month.
+      
+      Failure of a person to perform any monthly duty required of em
+      within the allotted time is the Class 3 infraction of Monthly
+      Tardiness.
+      
+      An official duty for an office is any duty that the Rules
+      specifically assign to that office's holder in particular
+      (regardless of eir identity).
+      
+      A person publishing a report SHALL do so in plain text, with
+      tabular data lining up properly when viewed in a monospaced font.
+      Publishing a report that deviates from these restrictions is the
+      Class 2 infraction of Making My Eyes Bleed.
+      
+      A player CAN, by announcement, petition a specified person with a
+      specified duty to take a specific action related to that duty.
+      That person SHOULD publicly respond to that petition in a timely
+      fashion. A player CAN petition a specified non-vacant office in
+      the same fashion; its holder SHALL respond in the same fashion.
+
+History:
+
+Enacted by P4970 'define reports' (Zefram), 23 May 2007
+Amended(1) by P5239 'Official frequencies' (AFO), 03 Oct 2007
+Retitled by P5485 (root), 09 Apr 2008
+Amended(2) by P5485 (root), 09 Apr 2008
+Amended(3) by P5956 'random fixes part 1' (omd), 17 Nov 2008
+Amended(4) by P6030 'Undo the rest of 5956x' [disi.] (Murphy), 08 Jan
+   2009
+Assigned to the Committee on Administration by P6053 'Committees'
+   (Murphy, woggle, ais523), 23 Jan 2009
+Amended(5) by P6155 'Refactor falsity' (omd), 31 Mar 2009
+Amended(6) by P6175 'All Offices Are Important' (Yally), 07 Apr 2009
+Amended(7) by P6224 'wrong paragraph' (omd), 27 Apr 2009
+Amended(8) by P6322 'Better Reports' (Wooble), 26 May 2009
+Amended(9) by P6368 'Bleeding Eyes Aren't that Bad' (Walker), 23 Jun
+   2009
+Amended(10) by P6428 'Office Rewards/Penalties Revision v2' (BobTHJ), 18
+   Aug 2009
+Amended(11) by cleaning (Murphy), 06 Mar 2010
+Amended(12) by P6664 'Clarify eye-hurt' [green] (Murphy), 10 Mar 2010
+Amended(13) by cleaning (Murphy), 29 Jul 2010
+Amended(14) by P6967 'clean up remnants' (Wooble), 20 Mar 2011
+Amended(15) by P7045 'Speed' (Walker), 16 May 2011
+Amended(16) by P7313 'Agora expects that every person will do eir duty'
+   (the Warrigal), 27 Sep 2012
+Amended(17) by P7451 'Fix messy statements differently' (omd), 10 Jun
+   2013
+Amended(18) by P7544 'Public Displays' (the Warrigal), 30 Jul 2013
+Amended(19) by P7563 'Clarify inaccuracy ban' (omd), 24 Aug 2013
+Amended(20) by P7599 'Helpfulness' (Walker), 14 Sep 2013
+Amended(21) by P7606 'Cruise Control' (G.), 13 Dec 2013
+Amended(22) by P7648 'This is silly' (omd), 03 Jun 2014
+Amended(23) by P7697 'Non-timed duty accuracy' (omd), 23 Oct 2014
+Amended(24) by P7704 'Fixes the Oxford comma issue, too' (G.), 03 Nov
+   2014
+Amended(25) by R2430, 24 May 2017
+Amended(26) by P7865 'Regulations v4' (Aris, o, nix, ais523), 27 Jun
+   2017
+Amended(27) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
+   2018
+Amended(28) by P8244 'Crime Cleanup' (Janet), 05 Sep 2019
+Amended(29) by P8249 'No Harm No Foul' (Jacob Arduino, Kate), 18 Sep
+   2019
+Amended(30) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
+Amended(31) by P8302 'Generic Petitions' (Aris), 29 Jan 2020
+Amended(32) by P8370 'Announced Petitions' (Aris), 21 Apr 2020
+Amended(33) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
+   Janet), 25 Sep 2020
+Amended(34) by P8655 'Restricted Petitions' (Janet, nix), 03 Apr 2022
+Amended(35) by P8679 'Properly Decriminalizing Lateness' (nix, G.,
+   Janet, snail, Murphy), 28 May 2022
+Amended(36) by P8811 'Infractions' (nix), 24 Jul 2022
+Amended(37) by P8833 'Etiquette' (nix), 20 Aug 2022
+Amended(38) by P9133 'Last from the Past' (snail), 06 Jul 2024
+Amended(39) by P9161 'Fix office reports' (ais523), 01 Sep 2024
+Retitled by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
+Amended(40) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
+
+Annotations:
+CFJ 2392 (called 27 Feb 2009): Publishing an intentionally incomplete
+    report does not satisfy this rule's requirement to publish a report.
+CFJ 3645 (called 20 Jun 2018): Including a report in a message to the
+    public forum fulfills an officer's duty to publish said report,
+    regardless of whether or not a disclaimer is included stating that
+    it is not a report.
+CFJ 3783 (called 07 Dec 2019): It is not possible to win an election
+    after it has ended.
+CFJ 3823-3824 (called 09 Mar 2020): A report must contain information
+    accurate as of a time no earlier than one reporting period prior to
+    its publication (e.g. one week, in the case of a weekly report).
+CFJ 3798 (called 24 Jan 2020): While the requirements for publishing
+    areport are not exactly specified in the rules, they can be deduced;
+    exact requirements are comprehensively explained in the judgment.
