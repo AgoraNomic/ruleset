@@ -2,13 +2,19 @@ id: 2667
 name: Succumbing to Time
 power: 1
 text: |
-  Once per month, a player CAN Succumb by announcement. When a
-  player Succumbs, each of eir deadlines to perform an Officer's
-  duty or judge a Call for Judgement is extended by 1 day if it
-  would otherwise expire within the next week.
+  A player CAN Succumb by announcement. Upon doing so, if e has not
+  already Succumbed that month, then each of eir deadlines to
+  perform an Officer's duty or judge a Call for Judgement is
+  extended by 1 day if it would otherwise expire within the next
+  week.
 history:
 - change:
     type: enactment
   date: 2022-06-18
   agent:
     proposal: "8682"
+- change:
+    type: amendment
+  date: 2025-09-14
+  agent:
+    proposal: "9247"
