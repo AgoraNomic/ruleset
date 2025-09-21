@@ -1,0 +1,110 @@
+Rule 1551/23 (Power=3.2)
+Ratification
+
+      A retroactive change is one that changes the game's record of past
+      events. Retroactive changes are secured with power threshold 3.
+      
+      When a document or statement (hereafter "document") is to be
+      ratified, the following definitions apply:
+      * The publication time can be specified by the instrument allowing
+        the ratification, defaulting to the instant at which the
+        document to be ratified was published.
+      * The truth time is the instant at which the document specifies
+        that it was true, or the publication time if such an instant is
+        not specified.
+      * The application time is the instant at which the document to be
+        ratified is ratified.
+      
+      Ratification CANNOT occur if the truth time would be after the
+      application time, or if the publication time would be after the
+      application time.
+      
+      Rules to the contrary notwithstanding, when a document is
+      ratified, the gamestate is modified to what it would be if, at the
+      truth time, the gamestate had been minimally modified to make the
+      ratified document as true and accurate as possible.
+      
+      Ratification CANNOT occur if it would add inconsistencies between
+      the gamestate and the rules.
+      
+      Ratification CANNOT occur if the required modification to the
+      gamestate is not possible or if multiple substantially distinct
+      possible modifications would be equally appropriate.
+      
+      If the minimal modification would include past or present rule
+      changes, they are instead excluded unless the ratified document
+      explicitly and unambiguously recites either the changes or the
+      resulting properties of the rule(s).
+      
+      An internally inconsistent document generally CANNOT be ratified;
+      however, if such a document can be divided into a summary section
+      and a main section, where the only purpose of the summary section
+      is to summarize information in the main section, and the main
+      section is internally consistent, ratification of the document
+      proceeds as if it contained only the main section.
+      
+      Text purportedly about previous instances of ratification (e.g. a
+      report's date of last ratification) is excluded from ratification.
+      The rules may define additional information that is considered to
+      be part of the document for the purposes of ratification; such
+      definitions are secured with power threshold 3.
+      
+      Ratification is secured with power threshold 3.
+
+History:
+
+Enacted by P2425, 30 Jan 1996
+Infected and amended(1) by R1454, 04 Feb 1997
+Amended(2) by P3445 (General Chaos), 26 Mar 1997
+Amended(3) by P3704 (General Chaos), 19 Mar 1998
+Amended(4) by P3889 'Minor Changes I' (harvel), 09 Aug 1999
+Amended(5) by P4147 'What is Public?' (Wes), 13 May 2001
+Power changed from 1 to 3 by P4832 'Condense ratification' (Maud), 06
+   Aug 2005
+Amended(6) by P4832 'Condense ratification' (Maud), 06 Aug 2005
+Amended(7) by P4868 'Red Tape Repeals 2.0' (G.), 27 Aug 2006
+Amended(8) by P5101 'revise ratification' (Zefram), 01 Aug 2007
+Amended(9) by P5212 'Refactor ratification' (Murphy), 08 Sep 2007
+Amended(10) by P5275 'Clarify ratification' (Murphy), 07 Nov 2007
+Amended(11) by P5315 'Claims of error, redux' (Murphy), 28 Nov 2007
+Amended(12) by P5459 'Split and Secure Ratification' (Murphy), 09 Mar
+   2008
+Amended(13) by P6570 'Ratification of disclaimered documents' [green]
+   (Murphy), 28 Nov 2009
+Power changed from 3 to 3.1 by P6806 'Ratification misstep' [purple]
+   (Alexis), 27 Aug 2010
+Amended(14) by P6930 'Fix ratification' (ais523), 02 Jan 2011
+Amended(15) by P6938 'Decondense ratification' (omd), 02 Jan 2011
+Power changed from 3.1 to 3 by SLR ratification, 02 Jan 2011
+Power changed from 3 to 3.1 by P7262 'Fix' (omd), 07 Jul 2012
+Amended(16) by P7568 'Agora puls a B + some ratifications' (omd, Fool),
+   24 Aug 2013
+Amended(17) by P7586 'Self-ratification, victory, office changes' (omd),
+   24 Aug 2013
+Amended(18) by P7664 'Fix onerous ratification requirement' (omd), 03
+   Jun 2014
+Amended(19) by P8121 'Retroactive Documents' (D. Margaux), 12 Nov 2018
+Amended(20) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
+Amended(21) by cleaning (Alexis), 23 Jan 2020
+Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aris), 03 Feb 2021
+Amended(22) by P8651 'Temporal Incursion Modification and Exclusion Act'
+   (Janet, Aris, Oerjan), 15 Mar 2022
+Amended(23) by P9184 'Ratification fix' (ais523), 11 Oct 2024
+
+Annotations:
+CFJ 2165 (called 16 Sep 2008): Ratification can create legal fictions,
+    but does not always.
+CFJ 3155 (called 26 Jan 2012): A "recent history" section of a report is
+    not considered binding as a complete list of certain types of events
+    during a certain date range.
+CFJ 3643 (called 18 Jun 2018): A disclaimer attached to a public
+    document does not prevent its ratification.
+CFJ 3788 (called 01 Jan 2020): Ratifying that an event took place at a
+    time before a ratified document's effective date also ratifies that
+    all consequences of that event occurred.
+CFJ 3799 (called 24 Jan 2020): If a document that includes both a
+    publication date and an as-of date is ratified, the as-of date
+    constitutes the time the document was true for the purpose of
+    ratification.
+CFJ 3769 (called 04 Aug 2019): When ratification makes a change, R1551
+    is the causal agent of that change.
