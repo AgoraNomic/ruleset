@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 21 Sep 2025
+Date of this ruleset: 29 Sep 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 143
 
 Highest ID'd rule in this ruleset: 2710
-Highest ID'd Proposal Passed: 9247
+Highest ID'd Proposal Passed: 9248
 Highest ID'd Rule Enacted: 2710
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -6723,7 +6723,7 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2710/0 (Power=1.0)
+Rule 2710/1 (Power=1.0)
 Genetic Modification
 
       Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
@@ -6740,11 +6740,21 @@ Genetic Modification
       
       Once per Crop Season, a player CAN pay a fee of 1000 Pyrite to
       remove a type of out-of-season Crop.
+      
+      Once per Crop Season, the Land Managor CAN and SHALL by
+      announcement randomly select a type of Crop that was in-season
+      during the previous season, random attribute (Seed Cost or Sell
+      Price), and random value for that attribute (as if the type was
+      being created), and change that attribute of that type to that
+      value. If there is no such type to select, then e SHALL instead
+      announce that fact.
 
 History:
 
 Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
+Amended(1) by P9248 'Over-Optimization is Boring' (Mischief, Murphy), 28
+   Sep 2025
 
 Annotations:
 
