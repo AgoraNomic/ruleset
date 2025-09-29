@@ -1,0 +1,19 @@
+id: CR1
+name: Boards and winning patterns
+text: |
+  A. This round of bingo will follow the usual rules. That is:
+
+     1. Boards are 5x5 with the center square "free" (always
+        satisfied)
+
+     2. The winning patterns are any of the following:
+
+        * All five squares in a single row
+        * All five squares in a single column
+        * All five squares in one of the corner-to-corner diagonals
+history:
+- change:
+    type: enactment
+  date: 2025-08-31
+  agent:
+    person: Mischief

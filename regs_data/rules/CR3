@@ -1,0 +1,94 @@
+id: CR3
+name: Events
+text: |
+  A. Event conventions
+
+  A "right now" event must be true at the time a player calls
+  bingo. Otherwise, the event is satisfied if it was true at any
+  point between the time the bingo state was most recently flipped
+  to unpaused and the time of the attempt to call bingo.
+
+  Many events are triggered by "another player" (or similar
+  language). To satisfy that event, the basis of the person in
+  question must have no overlap with yours.
+
+  Events are to be interpreted based on the definitions in the
+  rules. For example, "declare apathy" means the mechanism
+  currently defined in rule 2465 and not just a statement made in a
+  public forum. Repealing rule 2465 would, in the absence of any
+  other relevant rule changes, make that event impossible to
+  satisfy in the future. However, if someone had already done so in
+  the current round, it would still count.
+
+  Unless specified otherwise, strings comparisons are
+  case-insensitive and a string has/contains all of its substrings
+  and partial words. For example, if a text contains the word
+  "cramps" then it is also considered to contain "Amps"
+
+  Each event is tagged with an estimated difficulty, which affects
+  the relative probability that it gets drawn for a board: Very
+  Easy (1/9x), Easy (1/3x), Medium (1x), Difficult (1/3x), Very
+  Difficult (1/9x). Note that these are relative probabilities, not
+  category weights. If there are 900 very difficult events and 100
+  medium events, the final result will be about 50/50
+
+  B. The events
+
+  01  D      a switch defined by the rules has the value "sardine"
+  02 VD      any player has positive power
+  03  D      the Prime Minister has enacted an Emergency Regulation
+  04  D      a proposal with "oops" in its title is passed
+  05  E      right now you hold at least one office
+  06  E      a player revokes a blot from another player (neither is
+               you)
+  07 VE      a CFJ you neither called nor judged gets judged
+               FALSE
+  08 VE      a CFJ you neither called nor judged gets judged 
+               TRUE
+  09 VE      a CFJ you neither called nor judged gets judged
+               IRRELEVANT
+  10 VE      a CFJ you neither called nor judged gets judged
+               INSUFFICIENT
+  11 VE      a CFJ you neither called nor judged gets judged
+               DISMISS
+  12 VD      a CFJ you neither called nor judged gets judged
+               PARADOXICAL
+  13  E      a proposal passes amending a rule of power > 3
+  14  M      a proposal passes creating a rule of power > 3
+  15  M      a proposal passes repealing a rule of power > 3
+  16 VE      a proposal gets no votes FOR
+  17 VE      a proposal gets no votes AGAINST
+  18  M      a proposal passes amending more than 4 rules
+  19  M      a proposal passes repealing more than 2 rules
+  20  E      a proposal passes creating more than 2 rules
+  21  M      another player wins
+  22  M      the stamp scamp changes
+  23  E      the Veblen's cost exceeds 30
+  24  E      Agora's Festivity is greater than zero
+  25  M      right now you own more than 40 spendies
+  26  M      right now a prime number of rules exist
+  27  E      right now a non-prime number of rules exist
+  28 VD      any player earns a lime ribbon
+  29 VD      any player earns a transparent ribbon
+  30  M      right now zero stamps of your type exist
+  31  D      right now 1 or more rules contain "embassy" in their
+               text
+  32  D      right now 1 or more rules contain "enchanted" in their
+               text
+  33 VE      right now no rules contain "embassy" in their text
+  34 VE      right now no rules contain "enchanted" in their text
+  35  D      another player declares apathy
+  36  E      the Prime Minister uses the Dive Cabinet Order on
+               emself
+  37  M      4 players have the same radiance greater than 20
+  38  D      any player has negative radiance
+  39  E      right now the boulder's height is 0
+  40  M      you have had an Agoran Birthday
+  41  M      right now you are party to a contract with exactly 7
+               parties
+history:
+- change:
+    type: enactment
+  date: 2025-08-31
+  agent:
+    person: Mischief
