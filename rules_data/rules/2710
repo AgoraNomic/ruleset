@@ -16,9 +16,22 @@ text: |
 
   Once per Crop Season, a player CAN pay a fee of 1000 Pyrite to
   remove a type of out-of-season Crop.
+
+  Once per Crop Season, the Land Managor CAN and SHALL by
+  announcement randomly select a type of Crop that was in-season
+  during the previous season, random attribute (Seed Cost or Sell
+  Price), and random value for that attribute (as if the type was
+  being created), and change that attribute of that type to that
+  value. If there is no such type to select, then e SHALL instead
+  announce that fact.
 history:
 - change:
     type: enactment
   date: 2025-08-25
   agent:
     proposal: "9243"
+- change:
+    type: amendment
+  date: 2025-09-28
+  agent:
+    proposal: "9248"
