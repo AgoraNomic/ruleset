@@ -1,0 +1,104 @@
+Rule 2438/36 (Power=3)
+Ribbons
+
+      The Tailor is an office, and the recordkeepor of Ribbons.
+      
+      For each type of Ribbon, <type> Ribbon Ownership is a secured
+      negative boolean person switch, tracked by the Tailor in eir
+      monthly report. Laudability is a secured person switch with
+      non-negative integer possible values, defaulting to 0, tracked by
+      the Tailor as part of eir monthly report. When a person owns more
+      types of ribbons than eir Laudability, eir Laudability is set to
+      the number of types of ribbons e owns.
+      
+      To "award a person a <Ribbon type>" is to flip that person's
+      <that type> Ribbon Ownership to True. A person "owns a <Ribbon
+      type>" if eir <that type> Ribbon Ownership is True.
+      
+      A person qualifies for a type of Ribbon if e has earned that type
+      of Ribbon within the preceding 7 days (including earlier in the
+      same message).
+      
+      While a person owns all types of Ribbon, that person can Raise a
+      Banner by announcement. This causes that person to win the game.
+      When a person wins this way, for each type of Ribbon, that
+      person's <type> Ribbon Ownership is flipped to False.
+      
+      The types of Ribbon, and the methods of obtaining them, are as
+      follows:
+      
+      Red (R): When a proposal is adopted and changes at least one rule
+      that, immediately before or after the change, has Power >= 3, its
+      proposer earns a Red Ribbon.
+      
+      Orange (O): When a proposal is adopted via a referendum on which
+      no valid ballots were AGAINST (after evaluating conditionals), its
+      proposer earns an Orange Ribbon.
+      
+      Green (G): While a person holds a voluntary office, has done so
+      continuously for the past 30 days, and has not failed to perform
+      any duties of that office within the appropriate time limits
+      during those 30 days, that person qualifies for a Green Ribbon.
+      
+      Emerald (E): When a person wins an election, e earns an Emerald
+      Ribbon.
+      
+      Cyan (C): When a person deputises for an office or is the delegate
+      for an office while its holder is on vacation, and that person has
+      not held or deputised for that office within the past 7 days, that
+      person earns a Cyan Ribbon.
+      
+      Blue (B): When a person assigns a judgement to a CFJ, and has
+      never violated a time limit to assign a judgement to that CFJ,
+      nor ever self-filed a motion to reconsider that CFJ, that person
+      earns a Blue Ribbon.
+      
+      Magenta (M): When, during Agora's Birthday, a person publicly
+      acknowledges it, that person earns a Magenta Ribbon.
+      
+      Ultraviolet (U): When a person is awarded the Patent Title
+      Champion, that person earns an Ultraviolet Ribbon, unless the
+      Champion title was awarded as the result of winning the game via
+      this rule.
+      
+      Violet (V): When a person is awarded a Patent Title other than
+      Champion or a degree, that person earns a Violet Ribbon.
+      
+      Indigo (I): When a person is awarded a degree, that person earns
+      an Indigo Ribbon.
+      
+      Platinum (P): The Speaker qualifies for a Platinum Ribbon.
+      
+      Lime (L): A person qualifies for a Lime Ribbon if three or more
+      proposals adopted in the preceding 7 days had that person as a
+      coauthor.
+      
+      White (W): A player qualifies for a White Ribbon if e has never
+      previously owned a White Ribbon (including under previous
+      rulesets). A player who has been registered for the past 30+ days
+      or 180+ cumulative days and has never acted on eir own behalf to
+      cause another person to gain a White Ribbon (including under a
+      previous ruleset) CAN act on eir own behalf to cause another
+      person to earn a White Ribbon by announcement.
+      
+      Black (K): An instrument CAN, as part of its effect, cause a
+      person to earn a Black Ribbon.
+      
+      Gray (A): Once per month the Tailor CAN, by announcement, cause a
+      specified player to earn a Gray Ribbon. E is ENCOURAGED to do so
+      before publishing eir monthly report.
+      
+      Transparent (T): A person qualifies for a Transparent Ribbon while
+      the number of other types of Ribbon that that person qualified for
+      within the previous 7 days is at least 5.
+      
+      When a person earns a White, Black or Gray Ribbon, this Rule
+      awards that person a Ribbon of that type.
+      
+      While a person qualifies for a type of Ribbon:
+      
+        - If e has not owned that type of Ribbon within the preceding 7
+          days, any player CAN, by announcement, award em that type of
+          Ribbon.
+      
+      Qualifying for ribbons is secured. Earning ribbons is secured.
