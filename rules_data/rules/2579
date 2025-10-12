@@ -12,9 +12,11 @@ text: |
 
   To use a fee-based method, an entity (the Actor) who is otherwise
   permitted to perform the action must announce that e is performing
-  the action; the announcement must specify the correct set of
-  assets for the fee and indicate intent to pay that fee for the
-  sole purpose of using that method to perform that action.
+  the action; such an announcement indicates intent to pay that fee
+  for the sole purpose of using that method to perform that action,
+  and e SHALL specify the correct set of assets for that fee, though
+  simplified wording such as "I buy X" is sufficient if the fee paid
+  is reasonably unambiguous.
 
   Upon such an announcement:
 
@@ -57,3 +59,8 @@ history:
   date: 2025-08-09
   agent:
     proposal: "9238"
+- change:
+    type: amendment
+  date: 2025-10-06
+  agent:
+    proposal: "9249"
