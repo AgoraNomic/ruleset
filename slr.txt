@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 29 Sep 2025
+Date of this ruleset: 12 Oct 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 143
 
 Highest ID'd rule in this ruleset: 2710
-Highest ID'd Proposal Passed: 9248
+Highest ID'd Proposal Passed: 9249
 Highest ID'd Rule Enacted: 2710
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -2750,7 +2750,7 @@ Fungibility
       that currency.
 
 ------------------------------------------------------------------------
-Rule 2579/4 (Power=3)
+Rule 2579/5 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -2763,9 +2763,11 @@ Fee-based Actions
       
       To use a fee-based method, an entity (the Actor) who is otherwise
       permitted to perform the action must announce that e is performing
-      the action; the announcement must specify the correct set of
-      assets for the fee and indicate intent to pay that fee for the
-      sole purpose of using that method to perform that action.
+      the action; such an announcement indicates intent to pay that fee
+      for the sole purpose of using that method to perform that action,
+      and e SHALL specify the correct set of assets for that fee, though
+      simplified wording such as "I buy X" is sufficient if the fee paid
+      is reasonably unambiguous.
       
       Upon such an announcement:
       
@@ -2814,7 +2816,6 @@ Stamps
       eir own type. When less than 8 Stamps of eir type exist, X is 2.
       When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
       stamps of eir type exist, X is 0.
-      
       
       Any player CAN pay a fee of 6 Spendies to transfer a specified
       stamp from the L&FD to emself.

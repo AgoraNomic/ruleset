@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 8 Sep 2025
+Date of this ruleset: 12 Oct 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 143
 
 Highest ID'd rule in this ruleset: 2710
-Highest ID'd Proposal Passed: 9246
+Highest ID'd Proposal Passed: 9249
 Highest ID'd Rule Enacted: 2710
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -4515,17 +4515,19 @@ Amended(1) by cleaning (Kate), 18 Sep 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2667/0 (Power=1)
+Rule 2667/1 (Power=1)
 Succumbing to Time
 
-      Once per month, a player CAN Succumb by announcement. When a
-      player Succumbs, each of eir deadlines to perform an Officer's
-      duty or judge a Call for Judgement is extended by 1 day if it
-      would otherwise expire within the next week.
+      A player CAN Succumb by announcement. Upon doing so, if e has not
+      already Succumbed that month, then each of eir deadlines to
+      perform an Officer's duty or judge a Call for Judgement is
+      extended by 1 day if it would otherwise expire within the next
+      week.
 
 History:
 
 Enacted by P8682 'Temptation' (snail), 18 Jun 2022
+Amended(1) by P9247 'Allow no-ops' (Murphy), 14 Sep 2025
 
 Annotations:
 
@@ -6246,7 +6248,7 @@ Amended(5) by P9242 'Currency clarification' (Janet, Kate), 16 Aug 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2579/4 (Power=3)
+Rule 2579/5 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -6259,9 +6261,11 @@ Fee-based Actions
       
       To use a fee-based method, an entity (the Actor) who is otherwise
       permitted to perform the action must announce that e is performing
-      the action; the announcement must specify the correct set of
-      assets for the fee and indicate intent to pay that fee for the
-      sole purpose of using that method to perform that action.
+      the action; such an announcement indicates intent to pay that fee
+      for the sole purpose of using that method to perform that action,
+      and e SHALL specify the correct set of assets for that fee, though
+      simplified wording such as "I buy X" is sufficient if the fee paid
+      is reasonably unambiguous.
       
       Upon such an announcement:
       
@@ -6287,6 +6291,7 @@ Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Janet, omd), 08
    Sep 2020
 Amended(4) by P9238 'Make currency current again' (Murphy, Janet,
    Mischief), 09 Aug 2025
+Amended(5) by P9249 'Streamlined fees' (Murphy), 06 Oct 2025
 
 Annotations:
 
@@ -6322,7 +6327,6 @@ Stamps
       eir own type. When less than 8 Stamps of eir type exist, X is 2.
       When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
       stamps of eir type exist, X is 0.
-      
       
       Any player CAN pay a fee of 6 Spendies to transfer a specified
       stamp from the L&FD to emself.
@@ -6716,7 +6720,7 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2710/0 (Power=1.0)
+Rule 2710/1 (Power=1.0)
 Genetic Modification
 
       Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
@@ -6733,11 +6737,21 @@ Genetic Modification
       
       Once per Crop Season, a player CAN pay a fee of 1000 Pyrite to
       remove a type of out-of-season Crop.
+      
+      Once per Crop Season, the Land Managor CAN and SHALL by
+      announcement randomly select a type of Crop that was in-season
+      during the previous season, random attribute (Seed Cost or Sell
+      Price), and random value for that attribute (as if the type was
+      being created), and change that attribute of that type to that
+      value. If there is no such type to select, then e SHALL instead
+      announce that fact.
 
 History:
 
 Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
+Amended(1) by P9248 'Over-Optimization is Boring' (Mischief, Murphy), 28
+   Sep 2025
 
 Annotations:
 
