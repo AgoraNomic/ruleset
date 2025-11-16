@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 3 Nov 2025
+Date of this ruleset: 16 Nov 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 143
 
 Highest ID'd rule in this ruleset: 2710
-Highest ID'd Proposal Passed: 9249
+Highest ID'd Proposal Passed: 9252
 Highest ID'd Rule Enacted: 2710
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -101,7 +101,7 @@ How to Join and Leave Agora
       to the contrary notwithstanding.
 
 ------------------------------------------------------------------------
-Rule 478/42 (Power=3)
+Rule 478/43 (Power=3)
 Fora
 
       Publicity is a secured forum switch with values Public,
@@ -136,9 +136,9 @@ Fora
       Any action performed by sending a message is performed at the time
       date-stamped on that message. Actions in messages (including
       sub-messages) are performed in the order they appear in the
-      message, unless otherwise specified. Allowing actions performed by
-      sending a message to take place simultaneously must be done
-      explicitly and is secured at power 2.
+      message, unless otherwise specified. Allowing regulated actions
+      performed by sending a message to take place simultaneously must
+      be done explicitly and is secured at power 2.
 
 ------------------------------------------------------------------------
 Rule 2139/17 (Power=2)
@@ -2750,7 +2750,7 @@ Fungibility
       that currency.
 
 ------------------------------------------------------------------------
-Rule 2579/5 (Power=3)
+Rule 2579/6 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -2763,21 +2763,23 @@ Fee-based Actions
       
       To use a fee-based method, an entity (the Actor) who is otherwise
       permitted to perform the action must announce that e is performing
-      the action; such an announcement indicates intent to pay that fee
-      for the sole purpose of using that method to perform that action,
-      and e SHALL specify the correct set of assets for that fee, though
-      simplified wording such as "I buy X" is sufficient if the fee paid
-      is reasonably unambiguous.
+      that action; such announcement must clearly and unambiguously set
+      forth intent to pay a fee for the sole purpose of using that
+      method to perform that action. Additionally, such announcement
+      must either clearly and unambiguously specify the correct set of
+      assets for that fee or use simplified wording (e.g. "I buy X")
+      that makes the intended fee reasonably clear and unambiguous (in
+      particular, without stating an incorrect fee).
       
       Upon such an announcement:
       
-        - If the Rules specify a recipient for the fee, and the Actor
-          CAN transfer that specified fee from emself to the recipient,
-          then that fee is transferred from the Actor to the recipient
-          and the action is performed simultaneously;
+        - If the Rules specify a recipient for the relevant fee, and the
+          Actor CAN transfer that fee from emself to the recipient, then
+          that fee is transferred from the Actor to the recipient and
+          the action is performed simultaneously;
       
         - If the Rules do not specify a recipient, and the Actor CAN
-          destroy the specified fee in eir possession, then that fee in
+          destroy the relevant fee in eir possession, then that fee in
           eir possession is destroyed and the action is performed
           simultaneously.
       
@@ -3272,7 +3274,7 @@ Badges
       existing badge to persons without objection.
 
 ------------------------------------------------------------------------
-Rule 1367/26 (Power=2)
+Rule 1367/27 (Power=2)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -3301,6 +3303,11 @@ Degrees
       responses to peer-review), published with explicit intent to
       qualify for a degree. The Herald SHOULD coordinate the peer-review
       process and the awarding of degrees.
+      
+      The Herald is ENCOURAGED to enact administrative regulations
+      including specific guidelines on how to submit theses, a detailed
+      description of the peer-review process, and specific
+      qualifications for degrees in general and for specific degrees.
       
       Degrees SHOULD be awarded according to the extent to which the
       thesis contributes to Nomic culture or thought: Associate degrees

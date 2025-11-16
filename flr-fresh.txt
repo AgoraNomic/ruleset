@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 3 Nov 2025
+Date of this ruleset: 16 Nov 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 143
 
 Highest ID'd rule in this ruleset: 2710
-Highest ID'd Proposal Passed: 9249
+Highest ID'd Proposal Passed: 9252
 Highest ID'd Rule Enacted: 2710
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -453,7 +453,7 @@ CFJ 3455 (called 03 Aug 2016): Ratifying an unregistered person as a
     player fails without that person's willful consent.
 
 ------------------------------------------------------------------------
-Rule 478/42 (Power=3)
+Rule 478/43 (Power=3)
 Fora
 
       Publicity is a secured forum switch with values Public,
@@ -488,9 +488,9 @@ Fora
       Any action performed by sending a message is performed at the time
       date-stamped on that message. Actions in messages (including
       sub-messages) are performed in the order they appear in the
-      message, unless otherwise specified. Allowing actions performed by
-      sending a message to take place simultaneously must be done
-      explicitly and is secured at power 2.
+      message, unless otherwise specified. Allowing regulated actions
+      performed by sending a message to take place simultaneously must
+      be done explicitly and is secured at power 2.
 
 History:
 
@@ -549,6 +549,7 @@ Amended(40) by P8614 'Simultaneity Security' (Janet), 18 Oct 2021
 Amended(41) by P8867 'Expectations, Values, Bans, and Forgiveness' (nix,
    Janet, R. Lee, Murphy, G.), 26 Nov 2022
 Amended(42) by P8952 'Fix Fora' (juan), 23 Apr 2023
+Amended(43) by P9251 'Regulated simultaneity' (Janet), 09 Nov 2025
 
 Annotations:
 CFJ 1451-1452 (called 06 Mar 2003): A message that is split into
@@ -6253,7 +6254,7 @@ Amended(5) by P9242 'Currency clarification' (Janet, Kate), 16 Aug 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2579/5 (Power=3)
+Rule 2579/6 (Power=3)
 Fee-based Actions
 
       If the Rules associate payment of a set of assets (hereafter the
@@ -6266,21 +6267,23 @@ Fee-based Actions
       
       To use a fee-based method, an entity (the Actor) who is otherwise
       permitted to perform the action must announce that e is performing
-      the action; such an announcement indicates intent to pay that fee
-      for the sole purpose of using that method to perform that action,
-      and e SHALL specify the correct set of assets for that fee, though
-      simplified wording such as "I buy X" is sufficient if the fee paid
-      is reasonably unambiguous.
+      that action; such announcement must clearly and unambiguously set
+      forth intent to pay a fee for the sole purpose of using that
+      method to perform that action. Additionally, such announcement
+      must either clearly and unambiguously specify the correct set of
+      assets for that fee or use simplified wording (e.g. "I buy X")
+      that makes the intended fee reasonably clear and unambiguous (in
+      particular, without stating an incorrect fee).
       
       Upon such an announcement:
       
-        - If the Rules specify a recipient for the fee, and the Actor
-          CAN transfer that specified fee from emself to the recipient,
-          then that fee is transferred from the Actor to the recipient
-          and the action is performed simultaneously;
+        - If the Rules specify a recipient for the relevant fee, and the
+          Actor CAN transfer that fee from emself to the recipient, then
+          that fee is transferred from the Actor to the recipient and
+          the action is performed simultaneously;
       
         - If the Rules do not specify a recipient, and the Actor CAN
-          destroy the specified fee in eir possession, then that fee in
+          destroy the relevant fee in eir possession, then that fee in
           eir possession is destroyed and the action is performed
           simultaneously.
       
@@ -6297,6 +6300,7 @@ Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Janet, omd), 08
 Amended(4) by P9238 'Make currency current again' (Murphy, Janet,
    Mischief), 09 Aug 2025
 Amended(5) by P9249 'Streamlined fees' (Murphy), 06 Oct 2025
+Amended(6) by P9250 'Re-fee' (Janet, Kate), 09 Nov 2025
 
 Annotations:
 
@@ -7202,7 +7206,7 @@ Amended(1) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep 2019
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 1367/26 (Power=2)
+Rule 1367/27 (Power=2)
 Degrees
 
       Certain patent titles are known as degrees. The degrees are
@@ -7231,6 +7235,11 @@ Degrees
       responses to peer-review), published with explicit intent to
       qualify for a degree. The Herald SHOULD coordinate the peer-review
       process and the awarding of degrees.
+      
+      The Herald is ENCOURAGED to enact administrative regulations
+      including specific guidelines on how to submit theses, a detailed
+      description of the peer-review process, and specific
+      qualifications for degrees in general and for specific degrees.
       
       Degrees SHOULD be awarded according to the extent to which the
       thesis contributes to Nomic culture or thought: Associate degrees
@@ -7298,6 +7307,7 @@ Amended(24) by P8409 'College of Letters, Arts, and Sciences' (Aris), 14
    Jun 2020
 Amended(25) by cleaning (Aris), 08 Aug 2020
 Amended(26) by P8582 'The Artistry Lies in the Art' (Aris), 23 Jun 2021
+Amended(27) by P9252 'Thesis requirements' (Trigon), 09 Nov 2025
 
 Annotations:
 
