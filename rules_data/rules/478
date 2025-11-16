@@ -34,9 +34,9 @@ text: |
   Any action performed by sending a message is performed at the time
   date-stamped on that message. Actions in messages (including
   sub-messages) are performed in the order they appear in the
-  message, unless otherwise specified. Allowing actions performed by
-  sending a message to take place simultaneously must be done
-  explicitly and is secured at power 2.
+  message, unless otherwise specified. Allowing regulated actions
+  performed by sending a message to take place simultaneously must
+  be done explicitly and is secured at power 2.
 history:
 - change:
     type: enactment
@@ -263,6 +263,11 @@ history:
   date: 2023-04-23
   agent:
     proposal: "8952"
+- change:
+    type: amendment
+  date: 2025-11-09
+  agent:
+    proposal: "9251"
 annotations:
 - cfjs:
   - id: 1451-1452
