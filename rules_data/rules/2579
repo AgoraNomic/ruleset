@@ -12,21 +12,23 @@ text: |
 
   To use a fee-based method, an entity (the Actor) who is otherwise
   permitted to perform the action must announce that e is performing
-  the action; such an announcement indicates intent to pay that fee
-  for the sole purpose of using that method to perform that action,
-  and e SHALL specify the correct set of assets for that fee, though
-  simplified wording such as "I buy X" is sufficient if the fee paid
-  is reasonably unambiguous.
+  that action; such announcement must clearly and unambiguously set
+  forth intent to pay a fee for the sole purpose of using that
+  method to perform that action. Additionally, such announcement
+  must either clearly and unambiguously specify the correct set of
+  assets for that fee or use simplified wording (e.g. "I buy X")
+  that makes the intended fee reasonably clear and unambiguous (in
+  particular, without stating an incorrect fee).
 
   Upon such an announcement:
 
-    - If the Rules specify a recipient for the fee, and the Actor
-      CAN transfer that specified fee from emself to the recipient,
-      then that fee is transferred from the Actor to the recipient
-      and the action is performed simultaneously;
+    - If the Rules specify a recipient for the relevant fee, and the
+      Actor CAN transfer that fee from emself to the recipient, then
+      that fee is transferred from the Actor to the recipient and
+      the action is performed simultaneously;
 
     - If the Rules do not specify a recipient, and the Actor CAN
-      destroy the specified fee in eir possession, then that fee in
+      destroy the relevant fee in eir possession, then that fee in
       eir possession is destroyed and the action is performed
       simultaneously.
 
@@ -64,3 +66,8 @@ history:
   date: 2025-10-06
   agent:
     proposal: "9249"
+- change:
+    type: amendment
+  date: 2025-11-09
+  agent:
+    proposal: "9250"
