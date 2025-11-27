@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 16 Nov 2025
+Date of this ruleset: 27 Nov 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 143
 
 Highest ID'd rule in this ruleset: 2710
-Highest ID'd Proposal Passed: 9252
+Highest ID'd Proposal Passed: 9259
 Highest ID'd Rule Enacted: 2710
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -314,7 +314,7 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/55 (Power=3)
+Rule 869/56 (Power=3)
 How to Join and Leave Agora
 
       Any entity (including a group of entities confederated with the
@@ -333,8 +333,8 @@ How to Join and Leave Agora
       Citizenship switch from Unregistered to Registered.
       
       An Unregistered person CAN (unless explicitly forbidden or
-      prevented by Rules of power 3 or greater) register by publishing a
-      message that indicates reasonably clearly and reasonably
+      prevented by Rules of power 3 or greater) register by sending a
+      public message that indicates reasonably clearly and reasonably
       unambiguously eir desire to be a player at that time (for example,
       by saying "I register"). Rules to the contrary notwithstanding,
       two or more persons CANNOT become Registered simultaneously.
@@ -433,6 +433,8 @@ Amended(54) by P9049 'Registration restrictions' (Janet, Aris, ais523),
    28 Jan 2024
 Amended(55) by P9219 'Automatic Registration' (Kate, Murphy), 16 Mar
    2025
+Amended(56) by P9254 'Administrative Publication Act' (Janet, kiako), 20
+   Nov 2025
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -4865,7 +4867,7 @@ CFJ 2289 (called 25 Nov 2008): Ratification Without Objection of a value
     it is not directly part of the report being ratified.
 
 ------------------------------------------------------------------------
-Rule 2201/14 (Power=3)
+Rule 2201/15 (Power=3)
 Self-Ratification
 
       When a public document published less than 180 days ago is first
@@ -4881,14 +4883,14 @@ Self-Ratification
         cannot be reasonably ascertained from the ruleset and the
         contents of the message.
       
+      The definition of documents as self-ratifying and the definition
+      of documents as self-ratifying attestations are secured at power
+      3.
+      
       Any person CAN by announcement issue a doubt (syn. claim of
       error), identifying a public document published less than 180 days
       ago and explaining the scope and nature of a perceived error in it
       (or in a statement it attests to).
-      
-      The definition of documents as self-ratifying and the definition
-      of documents as self-ratifying attestations are secured at power
-      3.
       
       When this happens, the publisher of the original document SHALL
       (if e was required to publish that document) or SHOULD (otherwise)
@@ -4928,6 +4930,7 @@ Amended(12) by P9050 'Self-ratification limitations' (Janet), 28 Jan
    2024
 Amended(13) by P9184 'Ratification fix' (ais523), 11 Oct 2024
 Amended(14) by P9232 '++' (Mischief), 06 Jul 2025
+Amended(15) by P9258 'paragraph swap' (Cosmo), 20 Nov 2025
 
 Annotations:
 CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
@@ -4945,7 +4948,7 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/17 (Power=2)
+Rule 2555/18 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
@@ -4963,9 +4966,9 @@ Blots
       Any player CAN pay a fee of 7 Spendies to revoke a blot from a
       specified person.
       
-      Once a quarter, the Referee CAN (and SHALL during its first
-      Eastman week) publish a Notice of Clemency, upon which half
-      (rounded down) of each fugitive's blots are destroyed.
+      Once per quarter, the Referee CAN by announcement (and SHALL
+      during its first Eastman week) issue a Notice of Clemency, upon
+      which half (rounded down) of each fugitive's blots are destroyed.
 
 History:
 
@@ -4992,17 +4995,19 @@ Amended(16) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
    18 Aug 2024
 Amended(17) by P9238 'Make currency current again' (Murphy, Janet,
    Mischief), 09 Aug 2025
+Amended(18) by P9254 'Administrative Publication Act' (Janet, kiako), 20
+   Nov 2025
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2556/1 (Power=3)
+Rule 2556/2 (Power=3)
 Penalties
 
       Rules to the contrary notwithstanding, an impure person CANNOT win
       the game.
       
-      The voting strength of a player on an Agoran decision is reduced
+      The voting strength of a person on an Agoran decision is reduced
       by 1 for every 3 blots in eir possession.
       
       A player CAN, with 7 days notice, deregister (exile) a specified
@@ -5012,6 +5017,7 @@ History:
 
 Enacted by P8029 'Blots v1.0' (G., Aris), 30 Mar 2018
 Amended(1) by cleaning (Alexis), 23 Jan 2020
+Amended(2) by P9255 'It's personal' (Janet), 20 Nov 2025
 
 Annotations:
 
@@ -6535,7 +6541,7 @@ Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2656/10 (Power=1.5)
+Rule 2656/11 (Power=1.5)
 Radiance
 
       The Illuminator is an office, responsible for tracking radiance.
@@ -6550,10 +6556,10 @@ Radiance
       eir radiance is set to 0, and all other players' radiance are set
       to half their current value rounded down.
       
-      Once a quarter, the Illuminator CAN (and SHALL during its first
-      Eastman week) publish a Notice of Diminution, upon which all
-      radiance switches are set to half their current value rounded
-      down.
+      Once per quarter, the Illuminator CAN by announcement (and SHALL
+      during its first Eastman week) issue a Notice of Diminution, upon
+      which all radiance switches are set to half their current value
+      rounded down.
       
       Any player CAN increase eir radiance by 1 by paying a fee of 2
       Spendies.
@@ -6576,6 +6582,8 @@ Amended(9) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
    18 Aug 2024
 Amended(10) by P9201 'Vox Populi > Vox Fortunae' (snail, Mischief), 22
    Dec 2024
+Amended(11) by P9254 'Administrative Publication Act' (Janet, kiako), 20
+   Nov 2025
 
 Annotations:
 
@@ -6667,14 +6675,16 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2707/1 (Power=1.0)
+Rule 2707/2 (Power=1.0)
 Pyrite
 
       Pyrite is a type of fixed currency, tracked by the Land Managor.
       
       A player CAN pay a fee of 1 Spendie to gain 100 Pyrite.
       
-      A player CAN pay a fee of 200 Pyrite to gain 1 Spendie.
+      A player CAN pay a fee of 200 Pyrite to gain 1 Spendie, provided
+      that e has gained fewer than 40 Spendies in this way during this
+      Agoran month.
 
 History:
 
@@ -6682,6 +6692,7 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
 Amended(1) by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
+Amended(2) by P9259 'A reasonable limit' (Janet, ais523), 20 Nov 2025
 
 Annotations:
 
@@ -7600,14 +7611,15 @@ Amended(6) by P8936 'Oh come on guys folks' (4st), 02 Apr 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2463/3 (Power=2)
+Rule 2463/4 (Power=2)
 Motion of No Confidence
 
-      Any player can cause the office of Prime Minister to become vacant
-      with Agoran consent by publishing a message with the character
-      string "MOTION OF NO CONFIDENCE" in the subject line. Motions of
-      confidence SHOULD used whenever Agorans want to shake things up,
-      rather than as a personal judgement of the Prime Minister.
+      Any player CAN, with Agoran consent, cause the office of Prime
+      Minister to become vacant, provided that the message in which e
+      does so contains the string "MOTION OF NO CONFIDENCE" in its
+      subject line. Motions of no confidence SHOULD be used whenever
+      Agorans want to shake things up, rather than as a personal
+      judgement of the Prime Minister.
 
 History:
 
@@ -7617,6 +7629,8 @@ Amended(2) by P8434 'Majoritarian Confidence' (Aris), 18 Jun 2020
 Amended(3) by P8435 'No Confidence Isn't Personal' (Aris), 18 Jun 2020
 Power changed from 1 to 2 by P9035 'Unbreaking Motions' (snail, 4st), 10
    Dec 2023
+Amended(4) by P9254 'Administrative Publication Act' (Janet, kiako), 20
+   Nov 2025
 
 Annotations:
 
