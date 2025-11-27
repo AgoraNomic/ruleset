@@ -15,14 +15,14 @@ text: |
     cannot be reasonably ascertained from the ruleset and the
     contents of the message.
 
+  The definition of documents as self-ratifying and the definition
+  of documents as self-ratifying attestations are secured at power
+  3.
+
   Any person CAN by announcement issue a doubt (syn. claim of
   error), identifying a public document published less than 180 days
   ago and explaining the scope and nature of a perceived error in it
   (or in a statement it attests to).
-
-  The definition of documents as self-ratifying and the definition
-  of documents as self-ratifying attestations are secured at power
-  3.
 
   When this happens, the publisher of the original document SHALL
   (if e was required to publish that document) or SHOULD (otherwise)
@@ -116,6 +116,11 @@ history:
   date: 2025-07-06
   agent:
     proposal: "9232"
+- change:
+    type: amendment
+  date: 2025-11-20
+  agent:
+    proposal: "9258"
 annotations:
 - cfjs:
   - id: '1690'
