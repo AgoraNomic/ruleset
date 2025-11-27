@@ -18,8 +18,8 @@ text: |
   Citizenship switch from Unregistered to Registered.
 
   An Unregistered person CAN (unless explicitly forbidden or
-  prevented by Rules of power 3 or greater) register by publishing a
-  message that indicates reasonably clearly and reasonably
+  prevented by Rules of power 3 or greater) register by sending a
+  public message that indicates reasonably clearly and reasonably
   unambiguously eir desire to be a player at that time (for example,
   by saying "I register"). Rules to the contrary notwithstanding,
   two or more persons CANNOT become Registered simultaneously.
@@ -345,6 +345,11 @@ history:
   date: 2025-03-16
   agent:
     proposal: "9219"
+- change:
+    type: amendment
+  date: 2025-11-20
+  agent:
+    proposal: "9254"
 annotations:
 - cfjs:
   - id: '1275'

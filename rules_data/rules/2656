@@ -14,10 +14,10 @@ text: |
   eir radiance is set to 0, and all other players' radiance are set
   to half their current value rounded down.
 
-  Once a quarter, the Illuminator CAN (and SHALL during its first
-  Eastman week) publish a Notice of Diminution, upon which all
-  radiance switches are set to half their current value rounded
-  down.
+  Once per quarter, the Illuminator CAN by announcement (and SHALL
+  during its first Eastman week) issue a Notice of Diminution, upon
+  which all radiance switches are set to half their current value
+  rounded down.
 
   Any player CAN increase eir radiance by 1 by paying a fee of 2
   Spendies.
@@ -82,3 +82,8 @@ history:
   date: 2024-12-22
   agent:
     proposal: "9201"
+- change:
+    type: amendment
+  date: 2025-11-20
+  agent:
+    proposal: "9254"

@@ -2,11 +2,12 @@ id: 2463
 name: Motion of No Confidence
 power: 2
 text: |
-  Any player can cause the office of Prime Minister to become vacant
-  with Agoran consent by publishing a message with the character
-  string "MOTION OF NO CONFIDENCE" in the subject line. Motions of
-  confidence SHOULD used whenever Agorans want to shake things up,
-  rather than as a personal judgement of the Prime Minister.
+  Any player CAN, with Agoran consent, cause the office of Prime
+  Minister to become vacant, provided that the message in which e
+  does so contains the string "MOTION OF NO CONFIDENCE" in its
+  subject line. Motions of no confidence SHOULD be used whenever
+  Agorans want to shake things up, rather than as a personal
+  judgement of the Prime Minister.
 history:
 - change:
     type: enactment
@@ -35,4 +36,9 @@ history:
   date: 2023-12-10
   agent:
     proposal: "9035"
+- change:
+    type: amendment
+  date: 2025-11-20
+  agent:
+    proposal: "9254"
 annotations: []

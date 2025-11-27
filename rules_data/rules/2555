@@ -17,9 +17,9 @@ text: |
   Any player CAN pay a fee of 7 Spendies to revoke a blot from a
   specified person.
 
-  Once a quarter, the Referee CAN (and SHALL during its first
-  Eastman week) publish a Notice of Clemency, upon which half
-  (rounded down) of each fugitive's blots are destroyed.
+  Once per quarter, the Referee CAN by announcement (and SHALL
+  during its first Eastman week) issue a Notice of Clemency, upon
+  which half (rounded down) of each fugitive's blots are destroyed.
 history:
 - change:
     type: enactment
@@ -128,4 +128,9 @@ history:
   date: 2025-08-09
   agent:
     proposal: "9238"
+- change:
+    type: amendment
+  date: 2025-11-20
+  agent:
+    proposal: "9254"
 annotations: []
