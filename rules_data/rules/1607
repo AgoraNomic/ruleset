@@ -37,8 +37,7 @@ text: |
   of a public document purporting to be a Promotor's report is
   self-ratifying.
 
-  The destruction of a referendum is secured. Causing a referendum
-  to cease being a referendum is secured.
+  The destruction of a referendum is secured.
 history:
 - change:
     type: enactment
@@ -361,6 +360,11 @@ history:
   date: 2023-12-31
   agent:
     proposal: "9047"
+- change:
+    type: amendment
+  date: 2025-12-10
+  agent:
+    proposal: "9271"
 annotations:
 - cfjs:
   - id: '1546'

@@ -16,6 +16,14 @@ text: |
   change's Power Threshold. This Threshold defaults to the securing
   Rule's Power, but CAN be lowered as allowed by that Rule
   (including by the Rule itself).
+
+  A Rule that designates the creation of an entity of a given type
+  as secured (to a given extent) thereby designates the causing of
+  an entity to have that type as secured (to the same extent).
+  Similarly, a Rule that designates the destruction of an entity of
+  a given type as secured (to a given extent) thereby designates the
+  causing of an entity to cease to have that type as secured (to the
+  same extent).
 history:
 - change:
     type: enactment
@@ -83,4 +91,9 @@ history:
   date: 2021-02-11
   agent:
     proposal: "8539"
+- change:
+    type: amendment
+  date: 2025-12-10
+  agent:
+    proposal: "9271"
 annotations: []
