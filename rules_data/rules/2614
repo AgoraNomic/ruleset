@@ -48,7 +48,9 @@ text: |
 
   Rules to the contrary notwithstanding, Emergency Regulations
   CANNOT be enacted, amended, or repealed except as described in
-  this Rule.
+  this Rule, nor can an entity that is not an Emergency Regulation
+  be made to become an Emergency Regulation except as described in
+  this rule.
 history:
 - change:
     type: enactment
@@ -112,4 +114,9 @@ history:
   date: 2025-08-25
   agent:
     proposal: "9244"
+- change:
+    type: amendment
+  date: 2025-12-10
+  agent:
+    proposal: "9272"
 annotations: []
