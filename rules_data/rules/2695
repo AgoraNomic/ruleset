@@ -22,6 +22,13 @@ text: |
 
   The owner of the Veblen SHOULD conspicuously show off eir
   ownership of it from time to time.
+
+  If the Veblen does not exist and no one has Created Something E
+  Cannot Destroy in the past week, any player CAN, by announcement,
+  Create Something E Cannot Destroy. When e does so, e wins the
+  game, and the Veblen is created in eir possession. A player who
+  wins in this fashion SHOULD submit a proposal to prevent the
+  destruction from arising again.
 history:
 - change:
     type: enactment
@@ -43,3 +50,8 @@ history:
   date: 2024-11-18
   agent:
     proposal: "9193"
+- change:
+    type: amendment
+  date: 2025-12-08
+  agent:
+    proposal: "9263"
