@@ -1,0 +1,25 @@
+id: 2711
+name: Light Overexposure
+power: 1.0
+text: |
+  When a player wins the game as a result of Outshining the Sun, the
+  following happen in order:
+
+  * All Pyrite is destroyed.
+
+  * The Fields Wither.
+
+  * All Hectares are destroyed.
+
+  * Each player is granted 16 Hectares.
+history:
+- change:
+    type: enactment
+  date: 2025-12-08
+  agent:
+    proposal: "9262"
+- change:
+    type: amendment
+  date: 2025-12-08
+  agent:
+    proposal: "9262"

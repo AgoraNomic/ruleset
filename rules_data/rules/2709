@@ -11,10 +11,20 @@ text: |
   Season and at least <Growth Duration> days ago, e CAN harvest it
   by announcement, gaining Pyrite equal to its Sell Price.
 
-  At the end of each Crop Season, all unharvested Crops are lost.
+  When the Fields Wither, all unharvested Crops are lost. For the
+  avoidance of doubt, the previous paragraph notwithstanding, a
+  player CANNOT harvest a Crop planted before the most recent time
+  the Fields Withered.
+
+  At the end of each Crop Season, the Fields Wither.
 history:
 - change:
     type: enactment
   date: 2025-08-25
   agent:
     proposal: "9243"
+- change:
+    type: amendment
+  date: 2025-12-08
+  agent:
+    proposal: "9262"
