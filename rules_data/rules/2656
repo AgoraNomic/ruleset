@@ -10,9 +10,15 @@ text: |
   amount.
 
   Upon a correct announcement from a player that eir radiance is 100
-  or more (correctly specifying the amount), e wins the game. Then,
-  eir radiance is set to 0, and all other players' radiance are set
-  to half their current value rounded down.
+  or more (correctly specifying the amount), e Outshines the Sun.
+
+  When a player Outshines the Sun, e wins the game. When a player
+  wins the game this way, the following happen in order:
+
+  * Eir radiance is set to 0.
+
+  * The radiance of each other player is set to half its current
+    value (rounded down).
 
   Once per quarter, the Illuminator CAN by announcement (and SHALL
   during its first Eastman week) issue a Notice of Diminution, upon
@@ -87,3 +93,8 @@ history:
   date: 2025-11-20
   agent:
     proposal: "9254"
+- change:
+    type: amendment
+  date: 2025-12-08
+  agent:
+    proposal: "9261"

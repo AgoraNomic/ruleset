@@ -15,9 +15,10 @@ text: |
   Any player CAN, once per week, pay X Stamps, where each Stamp is
   the same type, to gain (X-1)*2 radiance.
 
-  Any active player CAN win by paying N Stamps, where N is the
-  current number of active players and each specified Stamp is of a
-  different type.
+  Any active player CAN Profligately Pursue Philately by paying N
+  Stamps, where N is the current number of active players and each
+  specified Stamp is of a different type. When e does so, e wins the
+  game.
 
   Any player CAN pay a fee of 5 Spendies to grant emself X stamps of
   eir own type. When less than 8 Stamps of eir type exist, X is 2.
@@ -97,3 +98,8 @@ history:
   date: 2025-08-09
   agent:
     proposal: "9234"
+- change:
+    type: amendment
+  date: 2025-12-08
+  agent:
+    proposal: "9261"
