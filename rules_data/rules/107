@@ -35,9 +35,10 @@ text: |
   person (if any) publishing the notice was authorized to initiate
   the decision, and that such a decision was initiated.
 
-  The destruction of an Agoran decision and the causing of an Agoran
-  decision to cease being an Agoran decision are secured at the
-  power of the Rule authorizing the initiation of such a decision.
+  The destruction of Agoran decisions is secured. An Agoran
+  decision's matter to be decided, voting method, valid options, and
+  vote collector are secured at the power of the Rule authorizing
+  the initiation of such a decision.
 history:
 - change:
     type: initial
@@ -187,6 +188,11 @@ history:
   date: 2023-07-23
   agent:
     proposal: "9003"
+- change:
+    type: amendment
+  date: 2025-12-08
+  agent:
+    proposal: "9265"
 annotations:
 - cfjs:
   - id: '1650'
