@@ -9,12 +9,21 @@ text: |
 
   Once per Crop that a player planted earlier in the current Crop
   Season and at least <Growth Duration> days ago, e CAN harvest it
-  by announcement, gaining Pyrite equal to its Sell Price.
+  by announcement, gaining Pyrite equal to its Sell Price
+  (exception: if the Weather for the week e planted it had already
+  been selected at the time e planted it, e CANNOT harvest it before
+  the end of the week after the week e planted it).
 
   When the Fields Wither, all unharvested Crops are lost. For the
   avoidance of doubt, the previous paragraph notwithstanding, a
   player CANNOT harvest a Crop planted before the most recent time
   the Fields Withered.
+
+  Once each week, the Land Managor SHALL randomly select and
+  announce the Weather for that week, which is either Good, Neutral,
+  or Bad (each of which has an equal probability). At the end of
+  each week in which Bad Weather was selected this way, all
+  unharvested Crops are lost.
 
   At the end of each Crop Season, the Fields Wither.
 history:
@@ -28,3 +37,8 @@ history:
   date: 2025-12-08
   agent:
     proposal: "9262"
+- change:
+    type: amendment
+  date: 2025-12-10
+  agent:
+    proposal: "9273"
