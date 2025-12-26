@@ -3,15 +3,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 27 Nov 2025
+Date of this ruleset: 26 Dec 2025
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 143
+Number of rules currently enacted: 146
 
-Highest ID'd rule in this ruleset: 2710
-Highest ID'd Proposal Passed: 9259
-Highest ID'd Rule Enacted: 2710
+Highest ID'd rule in this ruleset: 2714
+Highest ID'd Proposal Passed: 9273
+Highest ID'd Rule Enacted: 2714
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -626,7 +626,7 @@ Switches
       requirement without flipping the switch.
 
 ------------------------------------------------------------------------
-Rule 1688/11 (Power=3)
+Rule 1688/12 (Power=3)
 Power
 
       The Power of an entity is a non-negative rational number. An
@@ -643,6 +643,14 @@ Power
       change's Power Threshold. This Threshold defaults to the securing
       Rule's Power, but CAN be lowered as allowed by that Rule
       (including by the Rule itself).
+      
+      A Rule that designates the creation of an entity of a given type
+      as secured (to a given extent) thereby designates the causing of
+      an entity to have that type as secured (to the same extent).
+      Similarly, a Rule that designates the destruction of an entity of
+      a given type as secured (to a given extent) thereby designates the
+      causing of an entity to cease to have that type as secured (to the
+      same extent).
 
 ------------------------------------------------------------------------
 Rule 2140/5 (Power=3)
@@ -667,7 +675,7 @@ Proposals
    is another important section, since the way proposals work in this
    Nomic is a little bit complicated.
 ------------------------------------------------------------------------
-Rule 2350/19 (Power=3)
+Rule 2350/20 (Power=3)
 Proposals
 
       A proposal is a type of entity consisting of a body of text and
@@ -689,9 +697,9 @@ Proposals
       The author of a proposal in the Proposal Pool CAN remove (syn.
       retract, withdraw) it from the Pool by announcement.
       
-      The destruction of a proposal and the causing of a proposal to
-      cease being a proposal are secured. The removal of a proposal from
-      the Proposal Pool, other than by distribution, is secured.
+      The destruction of a proposal is secured. The removal of a
+      proposal from the Proposal Pool, other than by distribution, is
+      secured.
 
 ------------------------------------------------------------------------
 Rule 2625/2 (Power=1.0)
@@ -719,7 +727,7 @@ Proposal Classes
       ended.
 
 ------------------------------------------------------------------------
-Rule 1607/59 (Power=3)
+Rule 1607/60 (Power=3)
 Distribution
 
       The Promotor is an office; its holder is responsible for receiving
@@ -757,8 +765,7 @@ Distribution
       of a public document purporting to be a Promotor's report is
       self-ratifying.
       
-      The destruction of a referendum is secured. Causing a referendum
-      to cease being a referendum is secured.
+      The destruction of a referendum is secured.
 
 ------------------------------------------------------------------------
 Rule 2137/2 (Power=1)
@@ -1107,7 +1114,7 @@ Bleach
       artistic structure of the text.
 
 ------------------------------------------------------------------------
-Rule 2614/10 (Power=3.1)
+Rule 2614/11 (Power=3.1)
 Eclipse Light
 
       An emergency message is one whose subject line contains the text
@@ -1156,7 +1163,9 @@ Eclipse Light
       
       Rules to the contrary notwithstanding, Emergency Regulations
       CANNOT be enacted, amended, or repealed except as described in
-      this Rule.
+      this Rule, nor can an entity that is not an Emergency Regulation
+      be made to become an Emergency Regulation except as described in
+      this rule.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -1178,7 +1187,7 @@ Agoran Decisions
       3. Resolution of the decision.
 
 ------------------------------------------------------------------------
-Rule 107/26 (Power=3)
+Rule 107/27 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -1214,9 +1223,10 @@ Initiating Agoran Decisions
       person (if any) publishing the notice was authorized to initiate
       the decision, and that such a decision was initiated.
       
-      The destruction of an Agoran decision and the causing of an Agoran
-      decision to cease being an Agoran decision are secured at the
-      power of the Rule authorizing the initiation of such a decision.
+      The destruction of Agoran decisions is secured. An Agoran
+      decision's matter to be decided, voting method, valid options, and
+      vote collector are secured at the power of the Rule authorizing
+      the initiation of such a decision.
 
 ------------------------------------------------------------------------
 Rule 2528/1 (Power=3)
@@ -2252,7 +2262,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/35 (Power=2)
+Rule 991/36 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -2278,12 +2288,14 @@ Calls for Judgement
       When an open CFJ's judge is unassigned, the Arbitor CAN assign any
       eligible player to be its judge by announcement, and SHALL do so
       in a timely fashion after it becomes an open and unassigned CFJ.
-      The players eligible to be assigned as judge are all active
-      players except the initiator and the person barred (if any). The
-      Arbitor SHALL assign judges over time such that all interested
-      players have reasonably equal opportunities to judge.  If a CFJ
-      has no judge assigned, then any player eligible to judge that CFJ
-      CAN assign it to emself without 3 objections.
+      In the same message in which e does so, e SHALL also (and CAN by
+      announcement or by clear specification) assign it an ID number,
+      unless it already has one. The players eligible to be assigned as
+      judge are all active players except the initiator and the person
+      barred (if any). The Arbitor SHALL assign judges over time such
+      that all interested players have reasonably equal opportunities to
+      judge. If a CFJ has no judge assigned, then any player eligible to
+      judge that CFJ CAN assign it to emself without 3 objections.
       
       The Arbitor's weekly report includes a summary of recent judicial
       case activity, including open and recently-judged cases, recent
@@ -2794,7 +2806,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/13 (Power=1)
+Rule 2659/14 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players and contracts.
@@ -2810,9 +2822,10 @@ Stamps
       Any player CAN, once per week, pay X Stamps, where each Stamp is
       the same type, to gain (X-1)*2 radiance.
       
-      Any active player CAN win by paying N Stamps, where N is the
-      current number of active players and each specified Stamp is of a
-      different type.
+      Any active player CAN Profligately Pursue Philately by paying N
+      Stamps, where N is the current number of active players and each
+      specified Stamp is of a different type. When e does so, e wins the
+      game.
       
       Any player CAN pay a fee of 5 Spendies to grant emself X stamps of
       eir own type. When less than 8 Stamps of eir type exist, X is 2.
@@ -2901,7 +2914,7 @@ Contests
       with Agoran consent.
 
 ------------------------------------------------------------------------
-Rule 2656/11 (Power=1.5)
+Rule 2656/12 (Power=1.5)
 Radiance
 
       The Illuminator is an office, responsible for tracking radiance.
@@ -2912,9 +2925,15 @@ Radiance
       amount.
       
       Upon a correct announcement from a player that eir radiance is 100
-      or more (correctly specifying the amount), e wins the game. Then,
-      eir radiance is set to 0, and all other players' radiance are set
-      to half their current value rounded down.
+      or more (correctly specifying the amount), e Outshines the Sun.
+      
+      When a player Outshines the Sun, e wins the game. When a player
+      wins the game this way, the following happen in order:
+      
+      * Eir radiance is set to 0.
+      
+      * The radiance of each other player is set to half its current
+        value (rounded down).
       
       Once per quarter, the Illuminator CAN by announcement (and SHALL
       during its first Eastman week) issue a Notice of Diminution, upon
@@ -2923,26 +2942,6 @@ Radiance
       
       Any player CAN increase eir radiance by 1 by paying a fee of 2
       Spendies.
-
-------------------------------------------------------------------------
-Rule 2700/1 (Power=1.5)
-Candles
-
-      Candles are a fixed currency tracked by the Illuminator.
-      
-      Contests are the only entities permitted to own candles, and any
-      candles held by any other entity are immediately destroyed.
-      
-      A player CAN pay a fee of 1 spendie to grant 1 candle to a
-      contest.
-      
-      As explicitly and unambiguously permitted by a contest's body, a
-      party to that contest CAN bestow a prize by an announcement
-      clearly identifying the recipient player, the amount of radiance
-      to award (N), and the relevant contest. Upon doing so, if the
-      specified contest possesses at least N candles the following
-      happen in order: N of its candles are destroyed, then the
-      specified player gains N radiance.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3006,7 +3005,7 @@ Crops
       others are out-of-season.
 
 ------------------------------------------------------------------------
-Rule 2709/0 (Power=1.0)
+Rule 2709/2 (Power=1.0)
 The Growth Cycle
 
       A player CAN plant an in-season Crop by paying a fee in Pyrite
@@ -3016,9 +3015,23 @@ The Growth Cycle
       
       Once per Crop that a player planted earlier in the current Crop
       Season and at least <Growth Duration> days ago, e CAN harvest it
-      by announcement, gaining Pyrite equal to its Sell Price.
+      by announcement, gaining Pyrite equal to its Sell Price
+      (exception: if the Weather for the week e planted it had already
+      been selected at the time e planted it, e CANNOT harvest it before
+      the end of the week after the week e planted it).
       
-      At the end of each Crop Season, all unharvested Crops are lost.
+      When the Fields Wither, all unharvested Crops are lost. For the
+      avoidance of doubt, the previous paragraph notwithstanding, a
+      player CANNOT harvest a Crop planted before the most recent time
+      the Fields Withered.
+      
+      Once each week, the Land Managor SHALL randomly select and
+      announce the Weather for that week, which is either Good, Neutral,
+      or Bad (each of which has an equal probability). At the end of
+      each week in which Bad Weather was selected this way, all
+      unharvested Crops are lost.
+      
+      At the end of each Crop Season, the Fields Wither.
 
 ------------------------------------------------------------------------
 Rule 2710/1 (Power=1.0)
@@ -3046,6 +3059,79 @@ Genetic Modification
       being created), and change that attribute of that type to that
       value. If there is no such type to select, then e SHALL instead
       announce that fact.
+
+------------------------------------------------------------------------
+Rule 2711/1 (Power=1.0)
+Light Overexposure
+
+      When a player wins the game as a result of Outshining the Sun, the
+      following happen in order:
+      
+      * All Pyrite is destroyed.
+      
+      * The Fields Wither.
+      
+      * All Hectares are destroyed.
+      
+      * Each player is granted 16 Hectares.
+
+------------------------------------------------------------------------
+========================================================================
+Numbers, and Cards Thereof
+   Distinct denominations dominate desperate, dedicated deck-builders
+   during this delightful distribution diversion.
+------------------------------------------------------------------------
+Rule 2712/0 (Power=1.0)
+Number Cards
+
+      Number cards are a type of asset. Ownership of number cards is
+      restricted to players and contracts. Each number card has a type,
+      which is a decimal digit in the range 0 to 9 inclusive. Number
+      cards with the same type are fungible.
+      
+      The Numerator is an office, and the recordkeepor of number cards.
+
+------------------------------------------------------------------------
+Rule 2713/0 (Power=1.0)
+Scoring Numbers
+
+      Whenever an inquiry case with an ID number is assigned a
+      judgement, if it had never previously been assigned a judgement,
+      its judge scores its ID number, unless its initiator had initiated
+      4 or more other CFJs earlier in the same week that it was
+      initiated.
+      
+      Whenever a distributed proposal is adopted, its author scores its
+      ID number, unless its author had submitted 8 or more proposals
+      earlier in the same week that it was submitted.
+      
+      Whenever a player scores a number as described in this rule, the
+      Numerator CAN once, and SHALL in a timely manner, grant its author
+      (and, if the number was scored due to the adoption of a proposal,
+      also a randomly chosen other player who voted FOR on a referendum
+      to adopt that proposal) a number card for each digit in that
+      number, whose type is that digit.
+      
+      Officers SHALL NOT assign ID numbers to distributed proposals or
+      CFJs that are out of sequence, but are given reasonable discretion
+      to determine what "in sequence" means (e.g. officers may choose
+      whether to include or exclude in the numbering sequence entities
+      whose proposal or CFJ status is disputed or unclear). ID numbers
+      that are more than 5 digits long cannot be scored (this is an
+      exception to the other paragraphs of this rule and takes
+      precedence over them).
+
+------------------------------------------------------------------------
+Rule 2714/0 (Power=1.0)
+Spending Number Cards
+
+      A player CAN, once per week, pay ten number cards, where each of
+      those number cards is of a different type, to gain 25 radiance.
+      
+      For any two decimal digits X and Y (which may be the same), a
+      player CAN pay 2 spendies, a number card of type X, and a number
+      card of type Y to grant emself a number card whose type is the
+      last digit of the sum X+Y.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3777,7 +3863,7 @@ The Boulder
       ever reached in eir report.
 
 ------------------------------------------------------------------------
-Rule 2695/3 (Power=0.5)
+Rule 2695/4 (Power=0.5)
 The Veblen
 
       The Veblen is a unique indestructible fixed asset tracked by the
@@ -3800,6 +3886,13 @@ The Veblen
       
       The owner of the Veblen SHOULD conspicuously show off eir
       ownership of it from time to time.
+      
+      If the Veblen does not exist and no one has Created Something E
+      Cannot Destroy in the past week, any player CAN, by announcement,
+      Create Something E Cannot Destroy. When e does so, e wins the
+      game, and the Veblen is created in eir possession. A player who
+      wins in this fashion SHOULD submit a proposal to prevent the
+      destruction from arising again.
 
 ------------------------------------------------------------------------
 Rule 2702/0 (Power=1.0)
