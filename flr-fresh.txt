@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 26 Dec 2025
+Date of this ruleset: 18 Jan 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 146
 
 Highest ID'd rule in this ruleset: 2714
-Highest ID'd Proposal Passed: 9273
+Highest ID'd Proposal Passed: 9283
 Highest ID'd Rule Enacted: 2714
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -1481,10 +1481,10 @@ CFJ 3567 (called 27 Sep 2017): Supports and objections can be made on a
     group of intents (e.g. "I object to all intents to do X.").
 
 ------------------------------------------------------------------------
-Rule 2518/1 (Power=3)
+Rule 2518/2 (Power=3)
 Determinacy
 
-      If a value CANNOT be reasonably determined (without circularity or
+      If a value cannot be reasonably determined (without circularity or
       paradox) from information reasonably available, or if it
       alternates indefinitely between values, then the value is
       considered to be indeterminate, otherwise it is determinate.
@@ -1503,6 +1503,7 @@ Enacted by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
    Madrid, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
 Amended(1) by P8925 'Codify Conditionality' (G., Janet, Murphy), 19 Mar
    2023
+Amended(2) by P9275 'Determinate determinacy' (Janet), 18 Jan 2026
 
 Annotations:
 
@@ -3001,7 +3002,7 @@ Amended(17) by cleaning (Murphy), 14 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 107/27 (Power=3)
+Rule 107/28 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -3021,11 +3022,12 @@ Initiating Agoran Decisions
       5. Any additional information defined by the rules as essential
          parameters.
       
-      The publication of such a valid notice initiates the voting period
-      for the decision. The default length of the voting period is 7
-      days. Changing the length of a decision's voting period is secured
-      at power 2, and it CANNOT be set or changed to more than 14 days,
-      or less than 5 days for a decision with at least two options.
+      The initiation of an Agoran decision also initiates the voting
+      period for that decision. The default length of the voting period
+      is 7 days. Changing the length of a decision's voting period is
+      secured at power 2, and it CANNOT be set or changed to more than
+      14 days, or less than 5 days for a decision with at least two
+      options.
       
       The vote collector for a decision with less than two options CAN
       end the voting period by announcement, if it has not ended
@@ -3035,7 +3037,8 @@ Initiating Agoran Decisions
       A public notice purporting to initiate an Agoran decision is a
       self-ratifying attestation that the notice was valid, that the
       person (if any) publishing the notice was authorized to initiate
-      the decision, and that such a decision was initiated.
+      the decision, that such a decision was initiated, and that that
+      decision's voting period was initiated
       
       The destruction of Agoran decisions is secured. An Agoran
       decision's matter to be decided, voting method, valid options, and
@@ -3085,6 +3088,8 @@ Amended(25) by P8978 'Authorized initiation' (Janet), 25 May 2023
 Amended(26) by P9003 'Process Protection' (Janet, G.), 23 Jul 2023
 Amended(27) by P9265 'Somewhat broader decision security' (Janet,
    ais523, 4st), 08 Dec 2025
+Amended(28) by P9282 'Initiation specification' (Janet, ais523), 18 Jan
+   2026
 
 Annotations:
 CFJ 1650 (called 06 May 2007): The intent to initiate the decision and
@@ -6418,7 +6423,7 @@ Amended(1) by P9204 'Rare stamps, more differently' (Janet), 26 Jan 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/25 (Power=1)
+Rule 2499/26 (Power=1)
 Welcome Packages
 
       When a player receives a welcome package, if e has not received a
@@ -6426,8 +6431,7 @@ Welcome Packages
       last registered nor in the past 30 days, e gains the following
       assets:
       
-      * One stamp of eir own type.
-      * 10 spendies, if e has not been granted any spendies since e last
+      * 15 spendies, if e has not been granted any spendies since e last
         registered.
       * 16 Hectares.
       
@@ -6474,6 +6478,7 @@ Amended(23) by P9098 'Welcome Spendies' (snail), 02 May 2024
 Amended(24) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Amended(25) by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
+Amended(26) by P9283 'Welcome Package Tweak' (Mischief), 18 Jan 2026
 
 Annotations:
 
@@ -6700,23 +6705,35 @@ Amended(2) by P9259 'A reasonable limit' (Janet, ais523), 20 Nov 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2708/0 (Power=1.0)
+Rule 2708/1 (Power=1.0)
 Crops
 
       Creating and destroying types of Crop is secured.
       
-      Each type of Crop has an associated Crop Season, Seed Cost, Growth
-      Duration, and Sell Price. Actions involving any of these
-      attributes use the attribute values for the type of Crop involved
-      in that action.
+      Growing Season, Seed Cost, Growth Duration, and Sell Price are
+      Crop type switches, tracked by the Land Managor, with these
+      values:
       
-      An in-season Crop is one whose Crop Season is in progress. All
+      * Growing Season - all Crop Seasons
+      * Seed Cost - integers from 50 to 200 inclusive, rounded
+      * Growth Duration - integers from 3 to 24 inclusive, rounded
+      * Sell Price - integers from 100 to 400, rounded
+      
+      Rules to the contrary notwithstanding, a Crop type CANNOT be
+      planted while its Seed Cost is null, and CANNOT be harvested while
+      its Growth Duration or Sell Price is null.
+      
+      When rounding Seed Cost or Growth Duration, ties are broken toward
+      the larger value.
+      
+      An in-season Crop is one whose Growth Season is in progress. All
       others are out-of-season.
 
 History:
 
 Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
+Amended(1) by P9281 'Switchgrass' (Murphy, 4st), 18 Jan 2026
 
 Annotations:
 
@@ -6759,31 +6776,28 @@ Amended(2) by P9273 'The Weather Forecast' (ais523, Janet), 10 Dec 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2710/1 (Power=1.0)
+Rule 2710/2 (Power=1.0)
 Genetic Modification
 
       Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
       create a new type of Crop, specifying its name. The Land Managor
-      CAN once by announcement, and SHALL in a timely fashion, randomly
-      select its Crop Season, Seed Cost (50 to 200), Growth Duration (3
-      to 24), and Sell Price (100 to 400). Rules to the contrary
-      notwithstanding, it CANNOT be planted before this announcement.
+      CAN once by announcement, and SHALL in a timely fashion, set its
+      Growth Season, Seed Cost, Growth Duration, and Sell Price to
+      randomly selected valid values.
       
       Once per Crop Season, a player CAN pay a fee of 750 Pyrite to
       alter a type of out-of-season Crop's Seed Cost, Growth Duration,
-      or Sell Price by up to 25% in either direction, provided that they
-      remain within the random ranges for new types of Crop.
+      or Sell Price by up to 25% in either direction.
       
       Once per Crop Season, a player CAN pay a fee of 1000 Pyrite to
       remove a type of out-of-season Crop.
       
       Once per Crop Season, the Land Managor CAN and SHALL by
       announcement randomly select a type of Crop that was in-season
-      during the previous season, random attribute (Seed Cost or Sell
-      Price), and random value for that attribute (as if the type was
-      being created), and change that attribute of that type to that
-      value. If there is no such type to select, then e SHALL instead
-      announce that fact.
+      during the previous season, select a random attribute (Seed Cost
+      or Sell Price), and set that attribute to a randomly selected
+      valid value. If there is no such type to select, then e SHALL
+      instead announce that fact.
 
 History:
 
@@ -6791,6 +6805,7 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
 Amended(1) by P9248 'Over-Optimization is Boring' (Mischief, Murphy), 28
    Sep 2025
+Amended(2) by P9281 'Switchgrass' (Murphy, 4st), 18 Jan 2026
 
 Annotations:
 
@@ -6839,7 +6854,7 @@ Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2713/0 (Power=1.0)
+Rule 2713/1 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -6853,11 +6868,11 @@ Scoring Numbers
       earlier in the same week that it was submitted.
       
       Whenever a player scores a number as described in this rule, the
-      Numerator CAN once, and SHALL in a timely manner, grant its author
-      (and, if the number was scored due to the adoption of a proposal,
-      also a randomly chosen other player who voted FOR on a referendum
-      to adopt that proposal) a number card for each digit in that
-      number, whose type is that digit.
+      Numerator CAN once, and SHALL in a timely manner, grant that
+      player (and, if the number was scored due to the adoption of a
+      proposal, also a randomly chosen other player who voted FOR on a
+      referendum to adopt that proposal) a number card for each digit in
+      that number, whose type is that digit.
       
       Officers SHALL NOT assign ID numbers to distributed proposals or
       CFJs that are out of sequence, but are given reasonable discretion
@@ -6871,6 +6886,7 @@ Scoring Numbers
 History:
 
 Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
+Amended(1) by P9276 'CFJ Number Card Fix' (ais523, Janet), 18 Jan 2026
 
 Annotations:
 
