@@ -7,8 +7,7 @@ text: |
   last registered nor in the past 30 days, e gains the following
   assets:
 
-  * One stamp of eir own type.
-  * 10 spendies, if e has not been granted any spendies since e last
+  * 15 spendies, if e has not been granted any spendies since e last
     registered.
   * 16 Hectares.
 
@@ -151,4 +150,9 @@ history:
   date: 2025-08-25
   agent:
     proposal: "9243"
+- change:
+    type: amendment
+  date: "2026-01-18"
+  agent:
+    proposal: "9283"
 annotations: []
