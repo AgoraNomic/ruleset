@@ -2,7 +2,7 @@ id: 2518
 name: Determinacy
 power: 3
 text: |
-  If a value CANNOT be reasonably determined (without circularity or
+  If a value cannot be reasonably determined (without circularity or
   paradox) from information reasonably available, or if it
   alternates indefinitely between values, then the value is
   considered to be indeterminate, otherwise it is determinate.
@@ -25,4 +25,9 @@ history:
   date: 2023-03-19
   agent:
     proposal: "8925"
+- change:
+    type: amendment
+  date: "2026-01-18"
+  agent:
+    proposal: "9275"
 annotations: []
