@@ -13,11 +13,11 @@ text: |
   earlier in the same week that it was submitted.
 
   Whenever a player scores a number as described in this rule, the
-  Numerator CAN once, and SHALL in a timely manner, grant its author
-  (and, if the number was scored due to the adoption of a proposal,
-  also a randomly chosen other player who voted FOR on a referendum
-  to adopt that proposal) a number card for each digit in that
-  number, whose type is that digit.
+  Numerator CAN once, and SHALL in a timely manner, grant that
+  player (and, if the number was scored due to the adoption of a
+  proposal, also a randomly chosen other player who voted FOR on a
+  referendum to adopt that proposal) a number card for each digit in
+  that number, whose type is that digit.
 
   Officers SHALL NOT assign ID numbers to distributed proposals or
   CFJs that are out of sequence, but are given reasonable discretion
@@ -33,3 +33,8 @@ history:
   date: 2025-12-10
   agent:
     proposal: "9270"
+- change:
+    type: amendment
+  date: "2026-01-18"
+  agent:
+    proposal: "9276"
