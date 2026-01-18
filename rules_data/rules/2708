@@ -4,12 +4,23 @@ power: 1.0
 text: |
   Creating and destroying types of Crop is secured.
 
-  Each type of Crop has an associated Crop Season, Seed Cost, Growth
-  Duration, and Sell Price. Actions involving any of these
-  attributes use the attribute values for the type of Crop involved
-  in that action.
+  Growing Season, Seed Cost, Growth Duration, and Sell Price are
+  Crop type switches, tracked by the Land Managor, with these
+  values:
 
-  An in-season Crop is one whose Crop Season is in progress. All
+  * Growing Season - all Crop Seasons
+  * Seed Cost - integers from 50 to 200 inclusive, rounded
+  * Growth Duration - integers from 3 to 24 inclusive, rounded
+  * Sell Price - integers from 100 to 400, rounded
+
+  Rules to the contrary notwithstanding, a Crop type CANNOT be
+  planted while its Seed Cost is null, and CANNOT be harvested while
+  its Growth Duration or Sell Price is null.
+
+  When rounding Seed Cost or Growth Duration, ties are broken toward
+  the larger value.
+
+  An in-season Crop is one whose Growth Season is in progress. All
   others are out-of-season.
 history:
 - change:
@@ -17,3 +28,8 @@ history:
   date: 2025-08-25
   agent:
     proposal: "9243"
+- change:
+    type: amendment
+  date: "2026-01-18"
+  agent:
+    proposal: "9281"
