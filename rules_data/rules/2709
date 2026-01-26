@@ -20,10 +20,10 @@ text: |
   the Fields Withered.
 
   Once each week, the Land Managor SHALL randomly select and
-  announce the Weather for that week, which is either Good, Neutral,
-  or Bad (each of which has an equal probability). At the end of
-  each week in which Bad Weather was selected this way, all
-  unharvested Crops are lost.
+  announce the Weather for that week, which is either Good
+  (probability 30%), Neutral (probability 60%), or Bad (probability
+  10%). At the end of each week in which Bad Weather was selected
+  this way, all unharvested Crops are lost.
 
   At the end of each Crop Season, the Fields Wither.
 history:
@@ -42,3 +42,8 @@ history:
   date: 2025-12-10
   agent:
     proposal: "9273"
+- change:
+    type: amendment
+  date: 2026-01-26
+  agent:
+    proposal: "9286"
