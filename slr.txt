@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Jan 2026
+Date of this ruleset: 26 Jan 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 146
 
 Highest ID'd rule in this ruleset: 2714
-Highest ID'd Proposal Passed: 9283
+Highest ID'd Proposal Passed: 9286
 Highest ID'd Rule Enacted: 2714
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -3017,7 +3017,7 @@ Crops
       others are out-of-season.
 
 ------------------------------------------------------------------------
-Rule 2709/2 (Power=1.0)
+Rule 2709/3 (Power=1.0)
 The Growth Cycle
 
       A player CAN plant an in-season Crop by paying a fee in Pyrite
@@ -3038,10 +3038,10 @@ The Growth Cycle
       the Fields Withered.
       
       Once each week, the Land Managor SHALL randomly select and
-      announce the Weather for that week, which is either Good, Neutral,
-      or Bad (each of which has an equal probability). At the end of
-      each week in which Bad Weather was selected this way, all
-      unharvested Crops are lost.
+      announce the Weather for that week, which is either Good
+      (probability 30%), Neutral (probability 60%), or Bad (probability
+      10%). At the end of each week in which Bad Weather was selected
+      this way, all unharvested Crops are lost.
       
       At the end of each Crop Season, the Fields Wither.
 
