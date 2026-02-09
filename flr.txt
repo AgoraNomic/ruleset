@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Jan 2026
+Date of this ruleset: 9 Feb 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 146
 
 Highest ID'd rule in this ruleset: 2714
-Highest ID'd Proposal Passed: 9283
+Highest ID'd Proposal Passed: 9286
 Highest ID'd Rule Enacted: 2714
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -6733,7 +6733,7 @@ Amended(1) by P9281 'Switchgrass' (Murphy, 4st), 18 Jan 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2709/2 (Power=1.0)
+Rule 2709/3 (Power=1.0)
 The Growth Cycle
 
       A player CAN plant an in-season Crop by paying a fee in Pyrite
@@ -6754,10 +6754,10 @@ The Growth Cycle
       the Fields Withered.
       
       Once each week, the Land Managor SHALL randomly select and
-      announce the Weather for that week, which is either Good, Neutral,
-      or Bad (each of which has an equal probability). At the end of
-      each week in which Bad Weather was selected this way, all
-      unharvested Crops are lost.
+      announce the Weather for that week, which is either Good
+      (probability 30%), Neutral (probability 60%), or Bad (probability
+      10%). At the end of each week in which Bad Weather was selected
+      this way, all unharvested Crops are lost.
       
       At the end of each Crop Season, the Fields Wither.
 
@@ -6767,11 +6767,12 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
 Amended(1) by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
 Amended(2) by P9273 'The Weather Forecast' (ais523, Janet), 10 Dec 2025
+Amended(3) by P9286 'Less harsh weather' (Murphy), 26 Jan 2026
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2710/2 (Power=1.0)
+Rule 2710/3 (Power=1.0)
 Genetic Modification
 
       Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
@@ -6784,7 +6785,7 @@ Genetic Modification
       alter a type of out-of-season Crop's Seed Cost, Growth Duration,
       or Sell Price by up to 25% in either direction.
       
-      Once per Crop Season, a player CAN pay a fee of 1000 Pyrite to
+      Once per Crop Season, a player CAN pay a fee of 10000 Pyrite to
       remove a type of out-of-season Crop.
       
       Once per Crop Season, the Land Managor CAN and SHALL by
@@ -6801,6 +6802,8 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
 Amended(1) by P9248 'Over-Optimization is Boring' (Mischief, Murphy), 28
    Sep 2025
 Amended(2) by P9281 'Switchgrass' (Murphy, 4st), 18 Jan 2026
+Amended(3) by P9284 'Protecting Farmer's Sovereignty' (juan), 09 Feb
+   2026
 
 Annotations:
 
