@@ -12,7 +12,7 @@ text: |
   alter a type of out-of-season Crop's Seed Cost, Growth Duration,
   or Sell Price by up to 25% in either direction.
 
-  Once per Crop Season, a player CAN pay a fee of 1000 Pyrite to
+  Once per Crop Season, a player CAN pay a fee of 10000 Pyrite to
   remove a type of out-of-season Crop.
 
   Once per Crop Season, the Land Managor CAN and SHALL by
@@ -37,3 +37,8 @@ history:
   date: "2026-01-18"
   agent:
     proposal: "9281"
+- change:
+    type: amendment
+  date: "2026-02-09"
+  agent:
+    proposal: "9284"
