@@ -1,0 +1,116 @@
+Rule 991/36 (Power=2)
+Calls for Judgement
+
+      Any person (the initiator) can initiate a Call for Judgement (CFJ,
+      syn. Judicial Case), specifying a statement to be inquired into by
+      announcement. A case so initiated is an inquiry case.
+      
+      When a person initiates a Call for Judgement, e CAN optionally bar
+      one person from the case by announcement.
+      
+      At any time, each CFJ is either open (default), suspended, or
+      assigned exactly one judgement that was validly assigned.
+      
+      The Arbitor is an office, responsible for the administration of
+      justice in a manner that is fair for emself, if not for the rest
+      of Agora.
+      
+      Judge is an untracked CFJ switch with possible values of any
+      person or former person, or "unassigned" (default). To "assign" a
+      CFJ to a person is to flip that CFJ's judge to that person.  To
+      "remove" or "recuse" a person from a being the judge of a CFJ is
+      to flip that CFJ's judge from that person to unassigned.
+      
+      When an open CFJ's judge is unassigned, the Arbitor CAN assign any
+      eligible player to be its judge by announcement, and SHALL do so
+      in a timely fashion after it becomes an open and unassigned CFJ.
+      In the same message in which e does so, e SHALL also (and CAN by
+      announcement or by clear specification) assign it an ID number,
+      unless it already has one. The players eligible to be assigned as
+      judge are all active players except the initiator and the person
+      barred (if any). The Arbitor SHALL assign judges over time such
+      that all interested players have reasonably equal opportunities to
+      judge. If a CFJ has no judge assigned, then any player eligible to
+      judge that CFJ CAN assign it to emself without 3 objections.
+      
+      The Arbitor's weekly report includes a summary of recent judicial
+      case activity, including open and recently-judged cases, recent
+      judicial assignments, and a list of players interested in judging.
+      
+      If two CFJs become assigned to the same judge in the same message,
+      those CFJs are "linked" to each other, unless that message
+      specifies that the CFJs should not be linked. The Arbitor SHOULD
+      consider linking two CFJs if they inquire about the same or
+      substantially similar events and are called at approximately the
+      same time.
+
+History:
+
+Initial mutable rule 213, Agora's birth
+Amended(1) by P407 (Alexx), 03 Sep 1993
+Amended by P991 'Ultimate Reward for Achievement of Goal' (Fnord.),
+   around 12 Aug 1994
+Amended(2) by R750, around 12 Aug 1994
+Infected and amended(3) by R1454, 23 Oct 1995
+Amended(4) by P2042, 11 Dec 1995
+Amended(5) by P2457, 16 Feb 1996
+Mutated from MI=1 to MI=2 by P2669, 19 Sep 1996
+Amended(6) by P4170 'Justiciar Opinon' (Mischief), 26 Jun 2001
+Amended(7) by P4298 'Massive Judicial Reform' (Murphy), 17 May 2002
+Amended(8) by P4867 'Judicial Reform 2.0' (G.), 27 Aug 2006
+Amended(9) by P5015 'CFJ by announcement' (Zefram), 24 Jun 2007
+Retitled by P5086 'judicial reform' (Zefram), 01 Aug 2007
+Amended(10) by P5086 'judicial reform' (Zefram), 01 Aug 2007
+Amended(11) by P5110 'Regulate ID numbers' (Murphy), 02 Aug 2007
+Amended(12) by P5317 'Judicial fixes' (Murphy), 28 Nov 2007
+Amended(13) by P5464 'Secure more judicial aspects' (Murphy), 13 Mar
+   2008
+Assigned to the Committee on the Judiciary by P6053 'Committees'
+   (Murphy, woggle, ais523), 23 Jan 2009
+Amended(14) by P7050 'No more warp drive' (omd), 16 May 2011
+Retitled to 'Calls for Judgement' by P7616 'Mostly Simple Judging v2.3'
+   (G.), 16 Jan 2014
+Amended(15) by P7616 'Mostly Simple Judging v2.3' (G.), 16 Jan 2014
+Amended(16) by P7629 'Do Things' (Alexis), 07 Apr 2014
+Amended(17) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
+Amended(18) by P7777 'Simplified moot fix' (omd), 14 Aug 2015
+Amended(19) by P7803 'Self-service judiciary' (G.), 31 Jul 2016
+Amended(20) by P7867 'Economics Overhaul v2' (nix, o, grok, Aris), 30
+   Jul 2017
+Amended(21) by P7876 'Float On' (o), 26 Sep 2017
+Amended(22) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
+Amended(23) by P7899 'Arbitor's Union' (G.), 03 Oct 2017
+Amended(24) by P8004 'Rusty' (G.), 30 Jan 2018
+Amended(25) by P8005 'Hopefully routine fixes' (Murphy), 06 Feb 2018
+Amended(26) by P8014 'Putting Agora on a Map v7' (Trigon, Aris, ATMunn,
+   G., o, R. Lee), 24 Feb 2018
+Amended(27) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
+Amended(28) by P8065 'No undead courts' (Kate), 18 Jul 2018
+Amended(29) by cleaning (Trigon), 31 Oct 2018
+Amended(30) by P8134 'The judge switch' (G.), 02 Dec 2018
+Amended(31) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep
+   2019
+Amended(32) by P8454 'Judicial non-person fixes' (G., Janet, Publius
+   Scribonious Scholasticus), 30 Jun 2020
+Amended(33) by P8455 'old judgements are good judgements' (G., Janet,
+   Publius Scribonius Scholasticus), 30 Jun 2020
+Amended(34) by P9147 'Paradox cleanup fix' (ais523), 05 Aug 2024
+Amended(35) by P9203 'A clarification' (Janet, ais523), 26 Jan 2025
+Amended(36) by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
+
+Annotations:
+CFJ 1692-1693 (called 20 Jun 2007): A CFJ can be unambiguously
+    referenced by using the customarily-assigned sequence numbers, even
+    if the number was not assigned in the public forum, provided that
+    those involved accept it as unambiguous at the time.
+CFJ 1355 (called 28 Apr 2002): Titles for CFJs are unregulated, so it is
+    possible for a title to be assigned to a CFJ informally.
+CFJ 3623 (called 09 Feb 2018): CFJing on a future hypothetical without
+    specifying relevant assumptions is indeterminate.
+CFJ 3805 (called 31 Jan 2020): Maintaining CFJ archives is hard.
+CFJ 3876 (called 30 Jul 2020): Interest in judging is not regulated, and
+    can be determined in accordance with common sense.
+CFJ 3488 (called 16 May 2017): A non-player can be a judge and deliver
+    judgements, and may in some circumstances be REQUIRED to do so.
+CFJ 3822 (called 19 Mar 2020): Judges of ancient cases are still judges,
+    unless they were explicitly recused.

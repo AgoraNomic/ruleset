@@ -1,0 +1,52 @@
+Rule 2656/12 (Power=1.5)
+Radiance
+
+      The Illuminator is an office, responsible for tracking radiance.
+      
+      A player's Radiance is an integer player switch defaulting to 0,
+      tracked by the Illuminator. When a player is "granted" or "gains"
+      a specified amount of radiance, eir radiance is increased by that
+      amount.
+      
+      Upon a correct announcement from a player that eir radiance is 100
+      or more (correctly specifying the amount), e Outshines the Sun.
+      
+      When a player Outshines the Sun, e wins the game. When a player
+      wins the game this way, the following happen in order:
+      
+      * Eir radiance is set to 0.
+      
+      * The radiance of each other player is set to half its current
+        value (rounded down).
+      
+      Once per quarter, the Illuminator CAN by announcement (and SHALL
+      during its first Eastman week) issue a Notice of Diminution, upon
+      which all radiance switches are set to half their current value
+      rounded down.
+      
+      Any player CAN increase eir radiance by 1 by paying a fee of 2
+      Spendies.
+
+History:
+
+Enacted by P8636 'Points' (G.), 08 Feb 2022
+Amended(1) by P8684 'Score Gameplay Expansion' (nix), 25 Jun 2022
+Amended(2) by P8706 'Let them have points' (snail), 17 Jul 2022
+Amended(3) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
+   G., Janet, Shy Owl), 11 Dec 2022
+Amended(4) by P8914 'Can't Trust Em To Do Eir Own Work' (nix), 12 Mar
+   2023
+Retitled by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(5) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(6) by P9026 'It's a bit dark in here' (Janet, Kate), 19 Nov 2023
+Amended(7) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
+Amended(8) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(9) by P9154 'Pragmatic quarters, take two' (Murphy, Mischief),
+   18 Aug 2024
+Amended(10) by P9201 'Vox Populi > Vox Fortunae' (snail, Mischief), 22
+   Dec 2024
+Amended(11) by P9254 'Administrative Publication Act' (Janet, kiako), 20
+   Nov 2025
+Amended(12) by P9261 'Further win indirection' (Janet), 08 Dec 2025
+
+Annotations:

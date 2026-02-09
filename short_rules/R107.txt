@@ -1,0 +1,42 @@
+Rule 107/28 (Power=3)
+Initiating Agoran Decisions
+
+      An Agoran decision is initiated when a person authorized to
+      initiate it publishes a valid notice which sets forth the intent
+      to initiate the decision. To be valid, the notice must clearly
+      specify the following information:
+      
+      1. The matter to be decided (for example, "the adoption of
+         proposal 4781");
+      
+      2. The voting method;
+      
+      3. A clear description of the valid options;
+      
+      4. The identity of the vote collector; and
+      
+      5. Any additional information defined by the rules as essential
+         parameters.
+      
+      The initiation of an Agoran decision also initiates the voting
+      period for that decision. The default length of the voting period
+      is 7 days. Changing the length of a decision's voting period is
+      secured at power 2, and it CANNOT be set or changed to more than
+      14 days, or less than 5 days for a decision with at least two
+      options.
+      
+      The vote collector for a decision with less than two options CAN
+      end the voting period by announcement, if it has not ended
+      already, and provided that e resolves the decision in the same
+      message.
+      
+      A public notice purporting to initiate an Agoran decision is a
+      self-ratifying attestation that the notice was valid, that the
+      person (if any) publishing the notice was authorized to initiate
+      the decision, that such a decision was initiated, and that that
+      decision's voting period was initiated
+      
+      The destruction of Agoran decisions is secured. An Agoran
+      decision's matter to be decided, voting method, valid options, and
+      vote collector are secured at the power of the Rule authorizing
+      the initiation of such a decision.

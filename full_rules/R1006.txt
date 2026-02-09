@@ -1,0 +1,120 @@
+Rule 1006/49 (Power=2)
+Offices
+
+      An Office is a position described as an Office by the Rules.
+      Officeholder is an office switch tracked by the ADoP, with
+      possible values of any person or "vacant" (default). Each instance
+      of the Officeholder switch is secured at the power of the Rule
+      defining the associated office (or the power of this Rule, if the
+      defining Rule's power is higher). An officer is the holder of an
+      office, who may be referred to by the name of that office. If the
+      holder of an office is ever not a player, it becomes vacant.
+      
+      Imposed offices and sortitioned offices are offices described as
+      such by the rules that define them. All other offices are elected.
+      An office is voluntary if and only if it is elected or
+      sortitioned. The selection method for a sortitioned office is a
+      sortition for that office. The selection method for an elected
+      office is an election for that office.
+      
+      A person CANNOT be made the holder of a voluntary office without
+      eir consent. A person voluntarily entering emself into the
+      selection method of that office always satisfies this requirement,
+      regardless of whether it meets the normal definition of consent.
+      
+      The holder of a voluntary office CAN resign it by announcement,
+      causing it to become vacant. Any player CAN cause a voluntary
+      office to become vacant without 2 objections.
+      
+      The non-interim holder of an elected office CAN, with 3 support,
+      resign the office while appointing another player to become the
+      holder of the office, provided that other player is one of the
+      supporters.
+      
+      Immediately after a proposal finishes taking effect, if one or
+      more offices exist that did not exist prior to the proposal taking
+      effect, each such office, if it is vacant, becomes held by the
+      author of the proposal.
+
+History:
+
+Enacted by P386 (Alexx), 16 Aug 1993
+Amended by P733 (R. Kunne), 24 Nov 1993
+Amended by P881 'Default Rules for Officers' (Garth), around 13 Aug 1994
+Amended by R750, around 13 Aug 1994
+Amended by P1006, around 25 Aug 1994
+Amended(1) by R750, around 25 Aug 1994
+Amended(2) by P1336, 22 Nov 1994
+Amended(3) by P1582, 15 May 1995
+Amended(4) by P1699, 01 Sep 1995
+Amended(5) by P1763, 31 Oct 1995
+Amended(6) by P2442, 06 Feb 1996
+Amended(7) by P2623, 19 Jun 1996
+Amended(8) by P3902 'Office Normalization' (Murphy), 06 Sep 1999
+Amended(9) by P4002 'Officer Reform' (harvel), 08 May 2000
+Amended(10) by P4250 'Omnibus Office Reform' (harvel), 19 Feb 2002
+Amended(11) by P4868 'Red Tape Repeals 2.0' (G.), 27 Aug 2006
+Amended(12) by P4887 'Periodic Spell Check' (Murphy), 22 Jan 2007
+Amended(13) by P4889 'Two more fixes' (Murphy), 22 Jan 2007
+Amended(14) by P4939 'Re-divide some offices' (Murphy), 29 Apr 2007
+Amended(15) by P4956 'Finish re-dividing some offices' (Murphy), 07 May
+   2007
+Amended(16) by P4980 'Don't force redundant elections' (Murphy), 31 May
+   2007
+Amended(17) by P5029 'Minor Order fixes' (Murphy), 28 Jun 2007
+Amended(18) by P5059 'simple elections for office' (Zefram, G.), 09 Jul
+   2007
+Amended(19) by P5070 'speaker is an office' (Zefram), 11 Jul 2007
+Amended(20) by P5088 'Compensate for vacant offices and speaker as an
+   office' (Murphy), 25 Jul 2007
+Amended(21) by P5103 'simpler deputisation' (Zefram), 01 Aug 2007
+Power changed from 1 to 2 by P5133 'pragmatify officeholding' (Zefram),
+   13 Aug 2007
+Amended(22) by P5133 'pragmatify officeholding' (Zefram), 13 Aug 2007
+Amended(23) by P5239 'Official frequencies' (AFO), 03 Oct 2007
+Amended(24) by P5407 'Re-officiating the speaker' (root), 22 Jan 2008
+Amended(25) by P5519 'Allow resignation' (Murphy), 28 May 2008
+Amended(26) by P5534 'Fix imposed office resignations' [disi.] (root),
+   07 Jun 2008
+Amended(27) by P5986 'Refactor duty to fill vacancies' (Murphy), 07 Dec
+   2008
+Amended(28) by P6023 'Cleanup of Power=2 definitions' (Murphy), 22 Dec
+   2008
+Assigned to the Committee on Administration by P6053 'Committees'
+   (Murphy, woggle, ais523), 23 Jan 2009
+Amended(29) by P6372 'Transition Team' (G.), 23 Jun 2009
+Amended(30) by cleaning (Murphy), 16 Aug 2009
+Amended(31) by P6482 'Kick out inactive officers quickly' (omd), 18 Sep
+   2009
+Amended(32) by cleaning (Murphy), 06 Mar 2010
+Amended(33) by P6790 'Assumption Makes This Unnecessary' [red] (Wooble),
+   27 Aug 2010
+Amended(34) by P6959 'Fugue in G.' (G.), 31 Jan 2011
+Amended(35) by P7272 (FKA441344), 14 Aug 2012
+Amended(36) by P7403 'Avoid "casual" vacancies with a carrot' (omd), 27
+   Apr 2013
+Amended(37) by P7586 'Self-ratification, victory, office changes' (omd),
+   24 Aug 2013
+Amended(38) by P7629 'Do Things' (Alexis), 07 Apr 2014
+Amended(39) by P7807 's/I(?=ADoP)//' (aranea), 10 Aug 2016
+Amended(40) by P7912 'Election Campaigns' (Alexis), 15 Oct 2017
+Amended(41) by P7958 'Succession Planning' (G.), 12 Nov 2017
+Amended(42) by P8074 'Office Patch' (Aris, G., P.S.S.), 26 Jul 2018
+Amended(43) by P8190 'Report Rewards' (G., D. Margaux), 23 Jul 2019
+Amended(44) by P8221 'Usage de-capitalization' (Janet, Aris), 05 Sep
+   2019
+Amended(45) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
+Amended(46) by P8944 'Effecting change' (Janet, ais523), 16 Apr 2023
+Amended(47) by P9012 'Official security' (Janet), 31 Oct 2023
+Amended(48) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(49) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
+   Jul 2024
+
+Annotations:
+CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
+    the term "office", in the sense meant by Rule 754, but rather
+    references the usual English definition of "office" and governs
+    offices as thus defined.
+CFJ 1702 (called 12 Jul 2007): A requirement to submit something to an
+    officer is satisfied by publishing it, even if that office is vacant
+    at the time.

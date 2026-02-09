@@ -1,0 +1,92 @@
+Rule 107/28 (Power=3)
+Initiating Agoran Decisions
+
+      An Agoran decision is initiated when a person authorized to
+      initiate it publishes a valid notice which sets forth the intent
+      to initiate the decision. To be valid, the notice must clearly
+      specify the following information:
+      
+      1. The matter to be decided (for example, "the adoption of
+         proposal 4781");
+      
+      2. The voting method;
+      
+      3. A clear description of the valid options;
+      
+      4. The identity of the vote collector; and
+      
+      5. Any additional information defined by the rules as essential
+         parameters.
+      
+      The initiation of an Agoran decision also initiates the voting
+      period for that decision. The default length of the voting period
+      is 7 days. Changing the length of a decision's voting period is
+      secured at power 2, and it CANNOT be set or changed to more than
+      14 days, or less than 5 days for a decision with at least two
+      options.
+      
+      The vote collector for a decision with less than two options CAN
+      end the voting period by announcement, if it has not ended
+      already, and provided that e resolves the decision in the same
+      message.
+      
+      A public notice purporting to initiate an Agoran decision is a
+      self-ratifying attestation that the notice was valid, that the
+      person (if any) publishing the notice was authorized to initiate
+      the decision, that such a decision was initiated, and that that
+      decision's voting period was initiated
+      
+      The destruction of Agoran decisions is secured. An Agoran
+      decision's matter to be decided, voting method, valid options, and
+      vote collector are secured at the power of the Rule authorizing
+      the initiation of such a decision.
+
+History:
+
+Initial immutable rule 107, Agora's birth
+Mutated from MI=unanimity to MI=3 by P1391, 24 Jan 1995
+Amended(1) by P3889 'Minor Changes I' (harvel), 09 Aug 1999
+Amended(2) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
+Amended(3) by P4868 'Red Tape Repeals 2.0' (G.), 27 Aug 2006
+Amended(4) by P4964 'Disambiguate voter eligibility' (Murphy), 03 Jun
+   2007
+Amended(5) by P5113 'Really Generalize Dependent Actions' (Murphy,
+   Maud), 02 Aug 2007
+Amended(6) by P5229 'Early announcement of voting options' (root), 27
+   Sep 2007
+Amended(7) by P5413 'Fix minimum voting period requirements' (root), 26
+   Jan 2008
+Amended(8) by P5445 'Satisfaction v3' (G., Murphy), 21 Feb 2008
+Amended(9) by P5455 'Refactor initiation requirements' (Murphy), 01 Mar
+   2008
+Amended(10) by P5948 'Fix elections, this time for real' [disi.]
+   (Murphy), 15 Nov 2008
+Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
+   woggle, ais523), 23 Jan 2009
+Amended(11) by P6157 'No choice, no vote' (G., OscarMeyr, Wooble), 31
+   Mar 2009
+Amended(12) by P6816 'Urgency' [purple] (G., Keba), 04 Sep 2010
+Amended(13) by P6945 'Fix Urgency, Part Deux' [disi.] (Murphy, omd), 16
+   Jan 2011
+Amended(14) by P6981 'Littler Dutch Boy' (Murphy, omd), 10 Apr 2011
+Amended(15) by P7045 'Speed' (Walker), 16 May 2011
+Amended(16) by P7606 'Cruise Control' (G.), 13 Dec 2013
+Amended(17) by P7629 'Do Things' (Alexis), 07 Apr 2014
+Amended(18) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
+Amended(19) by R2430, 24 May 2017
+Amended(20) by P7953 'Vote Specification Fix' (Alexis), 12 Nov 2017
+Amended(21) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
+Amended(22) by P8533 'de-dictatorship' (G., Janet, nix), 03 Feb 2021
+Amended(23) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
+Amended(24) by P8585 'Clarify variable voting period' (Murphy), 23 Jun
+   2021
+Amended(25) by P8978 'Authorized initiation' (Janet), 25 May 2023
+Amended(26) by P9003 'Process Protection' (Janet, G.), 23 Jul 2023
+Amended(27) by P9265 'Somewhat broader decision security' (Janet,
+   ais523, 4st), 08 Dec 2025
+Amended(28) by P9282 'Initiation specification' (Janet, ais523), 18 Jan
+   2026
+
+Annotations:
+CFJ 1650 (called 06 May 2007): The intent to initiate the decision and
+    the information required in the notice need not be explicit.

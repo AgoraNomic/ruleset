@@ -1,0 +1,50 @@
+Rule 2659/14 (Power=1)
+Stamps
+
+      Stamps are a category of asset ownable by players and contracts.
+      The Collector is a sortitioned office. The Collector tracks Stamps
+      in eir weekly report.
+      
+      For each person there is a corresponding type of stamp. Stamps of
+      any given type are fungible.
+      
+      Any player CAN, once per week, pay X stamps, where each specified
+      stamp is a different type, to gain (X-1)*3 radiance.
+      
+      Any player CAN, once per week, pay X Stamps, where each Stamp is
+      the same type, to gain (X-1)*2 radiance.
+      
+      Any active player CAN Profligately Pursue Philately by paying N
+      Stamps, where N is the current number of active players and each
+      specified Stamp is of a different type. When e does so, e wins the
+      game.
+      
+      Any player CAN pay a fee of 5 Spendies to grant emself X stamps of
+      eir own type. When less than 8 Stamps of eir type exist, X is 2.
+      When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
+      stamps of eir type exist, X is 0.
+      
+      Any player CAN pay a fee of 6 Spendies to transfer a specified
+      stamp from the L&FD to emself.
+
+History:
+
+Enacted by P8661 'Stamps v1.2' (nix, G., Janet, Trigon), 03 Apr 2022
+Amended(1) by P8669 'Quick Stamp Fix' (nix), 08 May 2022
+Amended(2) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
+   G., Janet, Shy Owl), 11 Dec 2022
+Amended(3) by P8919 'Radiance v1.1' (nix, G., 4st, snail), 12 Mar 2023
+Amended(4) by P8997 'Stamp fungibility' (Janet, Murphy), 19 Jun 2023
+Amended(5) by P9034 'A simple fix' (snail, nix), 03 Dec 2023
+Amended(6) by P9075 'No Hidden Ownership Restrictions' (nix, Janet,
+   kiako), 07 Apr 2024
+Amended(7) by P9076 'FUNgibility' (nix), 07 Apr 2024
+Amended(8) by P9079 'Spendies v1.1' (nix, Janet, kiako), 07 Apr 2024
+Amended(9) by P9109 'Sortition' (nix, Janet), 12 May 2024
+Amended(10) by P9186 'No more stamps for Agora' (kiako), 20 Oct 2024
+Amended(11) by P9200 'Rebalancing' (Mischief, ais523), 22 Dec 2024
+Amended(12) by P9206 'Let Contracts Own Stamps' (Mischief), 26 Jan 2025
+Amended(13) by P9234 'Prix Fixe' (Mischief), 09 Aug 2025
+Amended(14) by P9261 'Further win indirection' (Janet), 08 Dec 2025
+
+Annotations:

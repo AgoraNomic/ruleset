@@ -1,0 +1,3983 @@
+THE SHORT LOGICAL RULESET
+(RULEKEEPOR'S WEEKLY REPORT)
+
+These rulesets are also online at http://agoranomic.org/ruleset/
+
+Date of this ruleset:
+
+Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
+
+Number of rules currently enacted: 146
+
+Highest ID'd rule in this ruleset: 2714
+Highest ID'd Proposal Passed: 9286
+Highest ID'd Rule Enacted: 2714
+
+The header of each rule is formatted as Rule NNNN/R (Power=P), where
+NNNN is the ID number of the rule, R is the revision of the rule, and P
+is the power of the rule. This header is then followed by the title of
+the rule.
+
+========================================================================
+The Game of Agora
+   This section includes a few rules concerning the Nature of the Game
+   of Agora.
+------------------------------------------------------------------------
+Rule 101/17 (Power=4)
+The Game of Agora
+
+      Agora is a game of Nomic, wherein Persons, acting in accordance
+      with the Rules, communicate their game Actions and/or results of
+      these actions via Fora in order to play the game. The game may be
+      won, but the game never ends.
+      
+      Please treat Agora Right Good Forever.
+
+------------------------------------------------------------------------
+Rule 1698/7 (Power=4)
+Agora Is A Nomic
+
+      Agora is ossified if it is IMPOSSIBLE for any reasonable
+      combination of actions by players to cause arbitrary rule changes
+      to be made and/or arbitrary proposals to be adopted within a
+      real-world (UTC) four-week period.
+      
+      If, but for this rule, the net effect of a proposal would cause
+      Agora to become ossified, or would cause Agora to cease to exist,
+      it cannot take effect, rules to the contrary notwithstanding. If
+      any other single change or inseparable group of changes to the
+      gamestate would cause Agora to become ossified, or would cause
+      Agora to cease to exist, it is cancelled and does not occur, rules
+      to the contrary notwithstanding.
+
+------------------------------------------------------------------------
+========================================================================
+Players
+   This small section provides some rules detailing how joining and
+   leaving Agora works. If you're a new player, this is probably the
+   most important section to read.
+------------------------------------------------------------------------
+Rule 869/56 (Power=3)
+How to Join and Leave Agora
+
+      Any entity (including a group of entities confederated with the
+      intent of forming a single person under this Rule) that is or ever
+      was able to willingly communicate original ideas is a person.
+      Rules to the contrary notwithstanding, no other entities are
+      persons.
+      
+      Questions about personhood are to be resolved equitably, with
+      regard for the good-faith of those involved and the customs of
+      honorable play.
+      
+      Citizenship is a secured person switch with values Unregistered
+      (default) and Registered, tracked by the Registrar. A registered
+      person is a Player. To "register" someone is to flip that person's
+      Citizenship switch from Unregistered to Registered.
+      
+      An Unregistered person CAN (unless explicitly forbidden or
+      prevented by Rules of power 3 or greater) register by sending a
+      public message that indicates reasonably clearly and reasonably
+      unambiguously eir desire to be a player at that time (for example,
+      by saying "I register"). Rules to the contrary notwithstanding,
+      two or more persons CANNOT become Registered simultaneously.
+      
+      The basis of a person is the set of all persons that are
+      (recursively) part of em, in addition to emself. Rules to the
+      contrary notwithstanding, a person CANNOT become Registered if eir
+      basis overlaps with that of any current player.
+      
+      A player, acting as emself, CAN deregister (cease being a player)
+      by announcement. If e does so, e CANNOT register or be registered
+      for 30 days.
+      
+      A person, by registering, agrees to abide by the Rules. The Rules
+      CANNOT otherwise bind a person to abide by any agreement without
+      that person's willful consent.
+      
+      The Rules CANNOT compel non-players to act without their express
+      or reasonably implied consent. The rules CANNOT compel players to
+      unduly harass non-players. A non-person CANNOT be a player, rules
+      to the contrary notwithstanding.
+
+------------------------------------------------------------------------
+Rule 478/43 (Power=3)
+Fora
+
+      Publicity is a secured forum switch with values Public,
+      Discussion, and Foreign (default), tracked by the Registrar.
+      
+      The Registrar CAN change the publicity of a forum without
+      objection as long as:
+      
+      1. e sends eir announcement of intent to that forum; and
+      
+      2. if the forum is to be made public, the announcement by which
+         the Registrar makes that forum public is sent to all existing
+         public fora.
+      
+      Each player should ensure e can receive messages via each public
+      forum.
+      
+      A public message is a message sent via a public forum, or sent to
+      all players and containing a clear designation of intent to be
+      public. A rule can also designate that a part of one public
+      message is considered a public message in its own right. To
+      "publish" or "announce" something is to send a public message
+      whose body contains that thing. To do something "publicly" is
+      to do that thing within a public message.
+      
+      Where the rules define an action that a person CAN perform "by
+      announcement", that person performs that action by, in a single
+      public message, specifying the action and setting forth intent to
+      perform that action by sending that message, doing both clearly
+      and unambiguously.
+      
+      Any action performed by sending a message is performed at the time
+      date-stamped on that message. Actions in messages (including
+      sub-messages) are performed in the order they appear in the
+      message, unless otherwise specified. Allowing regulated actions
+      performed by sending a message to take place simultaneously must
+      be done explicitly and is secured at power 2.
+
+------------------------------------------------------------------------
+Rule 2139/17 (Power=2)
+The Registrar
+
+      The Registrar is an office; its holder is responsible for keeping
+      track of players.
+      
+      The Registrar's weekly report includes:
+      
+      1. A list of all players, including information sufficient to
+         identify and contact each player.
+      
+      2. The date on which each player most recently became a player.
+      
+      3. For each forum with non-Foreign publicity, sufficient
+         instructions for players to receive messages there.
+      
+      The Registrar's monthly report includes:
+      
+      1. For each former player for which the information is reasonably
+         available, the dates on which e registered and deregistered.
+
+------------------------------------------------------------------------
+Rule 1789/11 (Power=3)
+Cantus Cygneus
+
+      Whenever a Player feels that e has been treated so egregiously by
+      the Agoran community that e can no longer abide to be a part of
+      it, e may submit a document to the Registrar, clearly labeled a
+      Cantus Cygneus, detailing eir grievances and expressing eir
+      reproach for those who e feels have treated em so badly.
+      
+      In a timely fashion after receiving a Cantus Cygneus, the
+      Registrar shall publish this document along with a Writ of
+      Fugiendae Agorae Grandissima Exprobratione, commanding the Player
+      to be deregistered. The Registrar shall note the method of
+      deregistration for that Player in subsequent Registrar monthly
+      Reports.
+      
+      The Player is deregistered as of the posting of the Writ, and the
+      notation in the Registrar's monthly report will ensure that,
+      henceforth, all may know said Player deregistered in a Writ of
+      FAGE.
+
+------------------------------------------------------------------------
+Rule 2646/2 (Power=3)
+Activity
+
+      Activity is a secured player switch tracked by the Registrar, with
+      values Active (default) and Inactive.  To flip a player's activity
+      to active (inactive) is to activate (deactivate) em.  The date on
+      which each player's activity was last changed is part of the
+      Registrar's weekly report.
+      
+      A player CAN, acting as emself, activate or deactivate emself by
+      announcement.
+      
+      Any player CAN, with notice, make a player who has not made a
+      public announcement in the past 30 days inactive.
+      
+      If a player has been inactive continuously for the past 60 days,
+      then any player CAN deregister em without 3 objections. The
+      Registrar SHOULD attempt to deregister players who meet this
+      condition. The publication of intent for such a deregistration
+      SHOULD be sent to the inactive player's registered email address
+      at the same time that it is published.
+
+------------------------------------------------------------------------
+Rule 2678/1 (Power=3)
+Expectations of Participation
+
+      An "Agoran forum" is a forum with publicity of discussion or
+      public. Players of Agora have the following expectations of Agoran
+      fora:
+      
+      * Agoran fora allow equal participation for all players, subject
+        to the rules of Agora and the explicitly stated rules of the
+        fora.
+      
+      * The rules of participation in public fora are as closely aligned
+        with the rules of Agora itself as possible; a player expects to
+        be able to fully participate in all public fora as long as eir
+        participation is in line with Agora's rules.
+      
+      * Agoran fora allow all interested persons, even those that are
+        otherwise restricted in eir participation, to read all messages.
+      
+      * Discussion fora moderators may restrict participation subject to
+        eir own clearly stated rules but should only do so to players
+        temporarily and proportional to the harm of the rule breakage.
+      
+      * The content of discussion fora should primarily be about Agora
+        itself, or reasonably adjacent topics.
+      
+      If an existing Agoran forum is in violation of these expectations,
+      the Agoran community, led by the Registrar, SHOULD remove it or
+      replace it with an appropriate forum as soon as possible.
+
+------------------------------------------------------------------------
+Rule 2679/2 (Power=3)
+Restrictions on Participation
+
+      Banned is a secured negative boolean person switch tracked by the
+      Registrar. A person is unwelcome if e is Banned or if at least one
+      part of em is unwelcome. Rules to the contrary notwithstanding, an
+      unwelcome person CANNOT register or be registered, and e is
+      immediately deregistered if e is ever a player. Designations of
+      unwelcomeness are secured.
+      
+      A Banned switch SHOULD ONLY be flipped by a proposal for the
+      express purpose of flipping Banned switches.
+      
+      Flipping a Banned switch to True (banning a player) SHOULD ONLY be
+      done when:
+      
+      * the person's actions have been deemed harmful to Agora, to any
+        player of Agora, or the overall community, and
+      
+      * the harm has been clearly communicated to the person, and e has
+        been given time to consider and respond, and
+      
+      * e has made no attempt to make amends, eir attempt was
+        unsatisfactory, or e has continued to act in harmful ways.
+      
+      Actions that are harmful are subject to the discretion of the
+      community of Agora, but may include: any form of identity-based
+      discrimination, personal attacks, disrespect of values or beliefs
+      of any member of the Agoran community, or provocative/bad-faith
+      comments.
+      
+      Once a quarter, any unwelcome person may submit a Request for
+      Forgiveness to the Registrar. Such a document SHOULD contain
+      sincere self-reflection including any appropriate apologies and an
+      indication on how e intends to avoid or prevent similar incidents
+      in the future.
+      
+      The Registrar SHALL publish any Request for Forgiveness e receives
+      in a timely fashion. If the community deems the Request sincere
+      and appropriately reconciliatory, steps should be undertaken to
+      flip the submitter's Banned switch to False.
+
+------------------------------------------------------------------------
+========================================================================
+General Definitions
+   This section describes the terminology used by all the other rules.
+   If, when reading a rule, you don't understand what a word means,
+   chances are that the Agoran definition of that word is described in
+   one of these rules.
+------------------------------------------------------------------------
+Rule 2152/11 (Power=3)
+Mother, May I?
+
+      The following terms are defined. These definitions are used when a
+      rule includes a term in all caps, and provide guidance in
+      determining the ordinary-language meaning of a term when a rule
+      includes a term otherwise. Earlier definitions take precedence
+      over later ones. If a rule specifies one or more persons in
+      connection with a term, then the term applies only to the
+      specified person(s).
+      
+      1. CANNOT, IMPOSSIBLE, INEFFECTIVE, INVALID: Attempts to perform
+         the described action are unsuccessful.
+      
+      2. MUST NOT, MAY NOT, SHALL NOT, ILLEGAL, PROHIBITED: Performing
+         the described action violates the rule in question.
+      
+      3. NEED NOT, OPTIONAL: Failing to perform the described action
+         does not violate the rules.
+      
+      4. SHOULD NOT, DISCOURAGED, DEPRECATED: Before performing the
+         described action, the full implications of performing it ought
+         to be be understood and carefully weighed.
+      
+      5. CAN, POSSIBLE, EFFECTIVE, VALID: Attempts to perform the
+         described action are successful.
+      
+      6. MAY, LEGAL, PERMISSIBLE: Performing the described action does
+         not violate the rules.
+      
+      7. MUST, SHALL, REQUIRED, MANDATORY: Failing to perform the
+         described action violates the rule in question.
+      
+      8. SHOULD, ENCOURAGED, RECOMMENDED: Before failing to perform the
+         described action, the full implications of failing to perform
+         it ought to be understood and carefully weighed.
+
+------------------------------------------------------------------------
+Rule 2509/3 (Power=2)
+Agoran Numbers
+
+      A "number" is considered to refer to a real number, unless
+      otherwise explicitly specified.  A "number of (items)", where
+      (items) is a set of discrete entities, is considered to refer to a
+      non-negative integer, unless otherwise explicitly specified.
+      
+      If a switch is defined as being associated with a specified set of
+      numbers (a numerical switch), then the possible values for that
+      switch are the numbers in that set. In particular, a natural or
+      integer switch is a switch with possible values the non-negative
+      integers or all integers, respectively. If a limit is further
+      defined, the possible values are the numbers of the set within the
+      specified limits.
+      
+      If the rules describe mathematical operations to be used in
+      flipping an instance of a numerical switch, the operations are
+      interpreted as having common-sense mathematical application to
+      determine that instance's resulting value. For example,
+      "increasing a switch instance by M" is equivalent to "flipping a
+      switch instance from its current value N to the value N+M". If the
+      specified mathematical operation would result in a value outside
+      that switch's defined set, the flipping CANNOT be performed, rules
+      to the contrary notwithstanding.
+
+------------------------------------------------------------------------
+Rule 2125/15 (Power=3)
+Regulated Actions
+
+      An action is regulated if: (1) the Rules limit, allow, enable, or
+      permit its performance; (2) the Rules describe the circumstances
+      under which the action would succeed or fail; or (3) the action
+      would, as part of its effect, modify information for which some
+      player is required to be a recordkeepor.
+      
+      A Regulated Action CAN only be performed as described by the
+      Rules, and only using the methods explicitly specified in the
+      Rules for performing the given action. The Rules are not to be
+      interpreted so as to proscribe unregulated actions.
+      
+      The above notwithstanding, sending a message (in general or with
+      specific attributes) is never a regulated action; however, the
+      rules may be interpreted so as to proscribe sending public
+      messages (in general or with specific attributes).
+
+------------------------------------------------------------------------
+Rule 1023/43 (Power=2)
+Agoran Time
+
+      The following terms are defined:
+      
+      1. The phrase "in a timely fashion" means "within 7 days". This
+         time period is set when the requirement is created (i.e. X days
+         before the limit ends). A requirement to perform an action at
+         an exact instant (e.g. "when X, Y SHALL Z"), but not "in the
+         same message", is instead interpreted as a requirement to
+         perform that action in a timely fashion after that instant.
+      2. The phrase "in an officially timely fashion" means "before the
+         end of the next Agoran week". This time period is set when the
+         requirement is created (i.e. between 7 and 14 days before the
+         period ends).
+      3. Agoran epochs:
+         a. Agoran days begin at midnight UTC.
+         b. Agoran weeks begin at midnight UTC on Monday. Eastman weeks
+            begin at midnight UTC on the 1st, 8th, 15th, 22nd, and 29th
+            of each Gregorian month; the fifth one of the month (if any)
+            lasts till the end of the month.
+         c. Agoran months begin at midnight UTC on the first day of each
+            Gregorian month.
+         d. Agoran quarters begin when the Agoran months of January,
+            April, July, and October begin.
+         e. Agoran years begin when the Agoran month of January begins.
+         f. A pivot is either the instant at which Agora Nomic began
+            (June 30, 1993, 00:04:30 GMT +1200) or an instant at which
+            at least one person won the game. When used as a period of
+            time, a "Round" (historical syn: "game") is the period of
+            time between a pivot and the next pivot.
+         The "Agoran" qualifier is assumed unless a different definition
+         is indicated (e.g. Eastman weeks). These definitions do not
+         apply to relative durations (e.g. "within <number> days after
+         <event>").
+      4. Two points in time are within a month of each other if:
+         a. they occur in the same Agoran month;
+         b. they occur in two consecutive Agoran months, and the later
+            of the two occurs in an earlier day in the month than the
+            earlier one;
+         c. they occur in two consecutive Agoran months on the same day
+            of the month, and the later of the two occurs at the same or
+            earlier time of day.
+      5. Any anniversary, monthly anniversary, or quarterly anniversary
+         that would otherwise attempt to occur on a day of the month
+         that does not exist (after considering any leap day) instead
+         occurs on the first day of the following month.
+
+------------------------------------------------------------------------
+Rule 1728/46 (Power=3)
+Tabled Actions
+
+      An action is a Tabled Action if the Rules purport to authorize its
+      performance via one of the following methods:
+      * With N Support, where N is a positive integer.
+      * Without N Objections, where N is a positive integer.
+      * With N Agoran Consent, where N is a positive integer multiple of
+        0.1.
+      * With T notice, where T is a time period.
+      
+      The parameters N and T, if omitted, default to 1 and 4 days,
+      respectively (e.g. "without objection" means N=1). If a rule
+      defines N as less than 1, it is instead treated as 1.
+      
+      A person, acting as emself, CAN by announcement table an intent
+      (syn.  "intend") to perform a tabled action, clearly,
+      conspicuously, explicitly, and without obfuscation specifying the
+      action, the method (including non-default parameter values), and,
+      optionally, conditions.
+      
+      A person is the sponsor of such an intent if e tabled it, or if e
+      is authorized to perform its action due to holding a rule-defined
+      position previously held by the person who tabled it.
+
+------------------------------------------------------------------------
+Rule 2124/32 (Power=3)
+Performing Tabled Actions
+
+      For a given tabled intent, a player CAN, unless otherwise
+      forbidden by the rules or the document enabling the action, act on
+      eir own behalf, by announcement, to:
+      * Become a supporter ("support" it), unless e tabled or previously
+        supported it;
+      * Become an objector ("object to" it), unless e previously
+        objected to it;
+      
+      A supporter/objector to an intent, acting as emself, CAN by
+      announcement cease to be a supporter/objector ("withdraw"
+      support/objection) of that intent.
+      
+      Limiting the ability to support or object to an intent is secured
+      at the power of the rule enabling that action to be performed.
+      
+      An intent is ripe if was tabled within the past 14 days, the
+      Speaker hasn't objected to it in the past 48 hours, and its
+      conditions, if any, are each clearly and unambiguously met.
+      
+      An intent is mature if it was tabled at least 4 days ago and
+      nobody withdrew objections from it in the past 24 hours.
+      
+      A rule purporting to allow a person to perform a tabled action
+      allows em to do so by announcement, if, considering only intents
+      for that action/method combination:
+      * With N Support: e is a sponsor or supporter of a ripe intent with
+        at least N supporters.
+      * Without N Objections: e is a sponsor of a mature ripe intent with
+        less than N objectors.
+      * With N Agoran Consent: e is a sponsor or supporter of a mature
+        ripe intent with supporters greater than N times its objectors
+        (e SHOULD list supporters and objectors).
+      * With T notice: e is the sponsor of a ripe intent created at
+        least T ago.
+
+------------------------------------------------------------------------
+Rule 2518/2 (Power=3)
+Determinacy
+
+      If a value cannot be reasonably determined (without circularity or
+      paradox) from information reasonably available, or if it
+      alternates indefinitely between values, then the value is
+      considered to be indeterminate, otherwise it is determinate.
+      
+      A communication purporting to express conditional intent to
+      perform an action is considered unclear and ambiguous unless, at a
+      minimum, the conditional is determinate, true, and reasonably
+      straightforward to evaluate with publicly-available information at
+      the time of communication. The communicator SHOULD explain
+      specific reasons for being uncertain of the outcome when e makes
+      the communication.
+
+------------------------------------------------------------------------
+Rule 2505/1 (Power=1)
+Random Choices
+
+      When a Rule specifies that a random choice be made, then the
+      choice shall be made using whatever probability distribution among
+      the possible outcomes the Rule specifies, defaulting to a uniform
+      probability distribution.
+      
+      The choice can be made using any physical or computational process
+      whose probability distribution among the possible outcomes is
+      reasonably close to that required by the Rules, and for which the
+      final choice is not trivially predictable by the selecting person
+      in advance. The selecting person SHOULD make the selection method
+      public, and SHOULD use a method for which the final probability
+      distribution can be readily confirmed.
+
+------------------------------------------------------------------------
+Rule 2681/1 (Power=1)
+Acting on Commitment
+
+      A Fingerprint for a document (the Plaintext) is a document that
+      could not have been reasonably created without knowledge of the
+      Plaintext, and which is related to the Plaintext in such a way
+      that one could not reasonably produce another document related to
+      that Fingerprint in the same way.
+      
+      A person CAN make a commitment to a particular kind of document by
+      publishing a statement that purports to be a Fingerprint for a
+      document of that kind. If the statement is in fact such a
+      Fingerprint, the person CAN then reveal the commitment by
+      publishing the Plaintext corresponding to that Fingerprint and
+      clearly indicating which Fingerprint the Plaintext relates to.
+      
+      A person making a commitment SHOULD specify the method used to
+      produce the Fingerprint from the Plaintext.
+
+------------------------------------------------------------------------
+========================================================================
+Entities
+   "Entity" is a confusing word to new players. This section describes
+   what an entity is.
+------------------------------------------------------------------------
+Rule 1586/9 (Power=2)
+Definition and Continuity of Entities
+
+      If multiple rules attempt to define an entity with the same name,
+      then they refer to the same entity. A rule-defined entity's name
+      CANNOT be changed to be the same as another rule-defined entity's
+      name.
+      
+      A rule, contract, or regulation that refers to an entity by name
+      refers to the entity that had that name when the rule first came
+      to include that reference, even if the entity's name has since
+      changed.
+      
+      If the entity that defines another entity is amended such that it
+      no longer defines the second entity, then the second entity and
+      its attributes cease to exist.
+      
+      If the entity that defines another entity is amended such that it
+      defines the second entity both before and after the amendment, but
+      with different attributes, then the second entity and its
+      attributes continue to exist to whatever extent is possible under
+      the new definitions.
+
+------------------------------------------------------------------------
+Rule 2162/16 (Power=3)
+Switches
+
+      A type of switch is a property that a rule or a contract defines
+      as a switch (with such rule or contract being its backing
+      document) and specifies the following:
+      
+      1. The type(s) of entity possessing an instance of that switch. No
+         other entity possesses an instance of that switch.
+      
+      2. One or more possible values for instances of that switch,
+         exactly one of which should be designated as the default. No
+         values other than those listed are possible for instances of
+         that switch, except that, if no default is otherwise
+         specified, then rules to the contrary notwithstanding, the
+         "null" value is a possible value for that switch, and is the
+         default.
+      
+      At any given time, each instance of a switch has exactly one
+      possible value for that type of switch. If an instance of a switch
+      comes to have a value, it ceases to have any other value. If an
+      instance of a switch would otherwise fail to have a possible
+      value, it comes to have its default value. A Rule that designates
+      a switch as "secured" (at a given power level) designates changes
+      to the properties of that type of switch as secured (at that power
+      level) and designates changes to the value of each instance of the
+      switch as secured (at that power level).
+      
+      "To flip an instance of a switch" is to make it come to have a
+      given value. "To become X" (where X is a possible value of
+      exactly one of the subject's switches) is to flip that switch to
+      X.
+      
+      If a type of switch is not explicitly designated as
+      possibly-indeterminate by its backing document, and if an action
+      or set of actions would cause the value of an instance of that
+      type of switch to become indeterminate, that instance instead
+      takes on its last determinate and possible value, if any,
+      otherwise it takes on its default value.
+      
+      A singleton switch is a switch for which Agora Nomic is the only
+      entity possessing an instance of that switch.
+      
+      A boolean switch is a switch with values True and False. A
+      positive boolean switch has a default of True; a negative boolean
+      switch has a default of False.
+      
+      Attempting to flip an instance of a switch to a value it already
+      has does not flip the switch. However, if a person is REQUIRED to
+      flip a switch instance to a value it already has, then either
+      attempting to do so using the required mechanism, or announcing
+      that the switch already has the required value, fulfills the
+      requirement without flipping the switch.
+
+------------------------------------------------------------------------
+Rule 1688/12 (Power=3)
+Power
+
+      The Power of an entity is a non-negative rational number. An
+      instrument is an entity with positive Power.
+      
+      The Power of an entity cannot be set or modified except as
+      stipulated by the Rules. All entities have Power zero except where
+      specifically allowed by the rules.
+      
+      A Rule that makes a change, action, or value secured (hereafter
+      the securing Rule) thereby makes it IMPOSSIBLE to perform that
+      change or action, or to set or modify that value, except as
+      allowed by an instrument with Power greater than or equal to the
+      change's Power Threshold. This Threshold defaults to the securing
+      Rule's Power, but CAN be lowered as allowed by that Rule
+      (including by the Rule itself).
+      
+      A Rule that designates the creation of an entity of a given type
+      as secured (to a given extent) thereby designates the causing of
+      an entity to have that type as secured (to the same extent).
+      Similarly, a Rule that designates the destruction of an entity of
+      a given type as secured (to a given extent) thereby designates the
+      causing of an entity to cease to have that type as secured (to the
+      same extent).
+
+------------------------------------------------------------------------
+Rule 2140/5 (Power=3)
+Power Controls Mutability
+
+      Rules to the contrary notwithstanding, no entity with power below
+      the power of this rule can
+      
+      1. cause an entity to have power greater than its own.
+      
+      2. adjust the power of an instrument with power greater than its
+      own.
+      
+      3. set or modify any other substantive aspect of an instrument
+      with power greater than its own (that is, one that affects the
+      instrument's operation).
+
+------------------------------------------------------------------------
+========================================================================
+Proposals
+   Proposals are a staple of Nomic games. If you're a new player, this
+   is another important section, since the way proposals work in this
+   Nomic is a little bit complicated.
+------------------------------------------------------------------------
+Rule 2350/20 (Power=3)
+Proposals
+
+      A proposal is a type of entity consisting of a body of text and
+      other attributes. A player CAN create (syn. submit) a proposal by
+      announcement, specifying its text and optionally specifying any of
+      the following attributes:
+      
+      * An associated title.
+      
+      * A list of coauthors (which must be persons other than the
+        author).
+      
+      * An adoption index.
+      
+      Creating a proposal adds it to the Proposal Pool. Once a proposal
+      is created, its text, author, and AI cannot be changed. The author
+      (syn. proposer) of a proposal is the person who created it.
+      
+      The author of a proposal in the Proposal Pool CAN remove (syn.
+      retract, withdraw) it from the Pool by announcement.
+      
+      The destruction of a proposal is secured. The removal of a
+      proposal from the Proposal Pool, other than by distribution, is
+      secured.
+
+------------------------------------------------------------------------
+Rule 2625/2 (Power=1.0)
+Proposal Recycling
+
+      If a referendum on a proposal was resolved as FAILED QUORUM in the
+      past seven days, the Promotor CAN once recycle the proposal by
+      announcement, adding it to the Proposal Pool and causing it to
+      become pended.
+
+------------------------------------------------------------------------
+Rule 2606/4 (Power=2.0)
+Proposal Classes
+
+      Proposals created since the enactment of this rule have a secured
+      untracked Class switch with possible values ordinary (the default)
+      and democratic.
+      
+      When a proposal with an adoption index greater than or equal to
+      3.0 is created, its class becomes democratic.
+      
+      Any player CAN, with 2 Agoran consent, flip an ordinary proposal's
+      class to democratic, provided that it is in the Proposal Pool or
+      that there is a referendum on it whose voting period has not yet
+      ended.
+
+------------------------------------------------------------------------
+Rule 1607/60 (Power=3)
+Distribution
+
+      The Promotor is an office; its holder is responsible for receiving
+      and distributing proposals.
+      
+      A referendum is the Agoran decision to determine whether to adopt
+      a proposal (its associated proposal).  For this decision, the vote
+      collector is the Assessor, the adoption index is initially the
+      adoption index of the proposal, and the text, author, coauthors,
+      and class of the proposal are essential parameters. Initiating a
+      referendum is known as distribution, and removes the proposal from
+      the Proposal Pool.
+      
+      The Promotor CAN distribute a proposal which is in the Proposal
+      Pool at any time.
+      
+      In a given Agoran week, the Promotor SHALL distribute each
+      proposal that was in the Proposal Pool at the beginning of that
+      week, except for those excepted from automatic distribution by
+      other rules, or those that are otherwise removed from the Pool. If
+      there are ten or more undistributed proposals in the proposal
+      pool, the Promotor MAY refrain from distributing the most recently
+      added 5 proposals if e distributes each other proposal in that
+      Agoran week.
+      
+      Distributed proposals have ID numbers, to be assigned by the
+      Promotor.
+      
+      If there is a Proposal in the Pool that it would otherwise be
+      IMPOSSIBLE for any player to distribute, then any player CAN
+      distribute that Proposal without 3 objections.
+      
+      The Promotor's report includes a list of all proposals in the
+      Proposal Pool, along with their text and attributes. This portion
+      of a public document purporting to be a Promotor's report is
+      self-ratifying.
+      
+      The destruction of a referendum is secured.
+
+------------------------------------------------------------------------
+Rule 2137/2 (Power=1)
+The Assessor
+
+      The Assessor is an office; its holder is responsible for
+      collecting votes and keeping track of related properties.
+
+------------------------------------------------------------------------
+Rule 106/46 (Power=3)
+Adopting Proposals
+
+      When a referendum on a proposal is resolved, if the outcome is
+      ADOPTED, then the proposal in question is adopted, its power is
+      set to the minimum of four, the adoption index of the proposal,
+      and the adoption index of the referendum, and it takes effect.
+      Proposals CANNOT otherwise be adopted or take effect, rules to the
+      contrary notwithstanding.
+      
+      When a proposal takes effect, the proposal applies the changes
+      that it specifies in its text, except as prohibited by other
+      rules. Unless otherwise specified by the text, the effects are
+      applied in the order they appear in the text. Clearly marked
+      comments are ignored. If the proposal cannot make some changes it
+      specifies, that does not preclude the other changes from taking
+      place.
+      
+      Except insofar as the actions performed by a proposal happen one
+      after another, rather than simultaneously, a proposal's effect is
+      instantaneous. A proposal can neither delay nor extend its own
+      effect.  Once a proposal finishes taking effect, its power is set
+      to 0.
+      
+      No entity with power below the power of this rule can prevent a
+      proposal from taking effect; this does not apply to generally
+      preventing changes to specified areas of the gamestate, nor to a
+      proposal preventing itself from taking effect (its no-effect
+      clause is generally interpreted as applying only to the rest of
+      the proposal).
+
+------------------------------------------------------------------------
+========================================================================
+Rules & Regulations
+   Ah, yes. What would any game be without rules? And these rules
+   describe how rules work. This section also describes the governance
+   of the Rulekeepor.
+------------------------------------------------------------------------
+Rule 2141/16 (Power=3.2)
+Role and Attributes of Rules
+
+      A rule is a type of instrument that is always taking effect and
+      has the capacity to govern the game generally. A rule's content
+      takes the form of a text, and is unlimited in scope. The ruleset
+      is the set of all currently-existing rules.
+      
+      Every current rule has power between 0.1 and 4.0 inclusive.
+      
+      Every rule shall have an ID number, distinct among current and
+      former rules, to be assigned once by the Rulekeepor by public
+      designation.
+      
+      Every rule shall have a title to aid in identification. If a rule
+      ever does not have a title, then the Rulekeepor CAN and SHALL
+      assign a title to it by announcement in a timely fashion.
+      
+      For the purposes of rules governing modification of instruments,
+      the text, power, ID number, and title of a rule are all
+      substantive aspects of the rule. However, rules to the contrary
+      notwithstanding, the Rulekeepor CAN set rule aspects as described
+      elsewhere in this rule.
+
+------------------------------------------------------------------------
+Rule 217/12 (Power=3)
+Interpreting the Rules
+
+      When interpreting and applying the rules, the text of the rules
+      takes precedence. Where the text is silent, inconsistent, or
+      unclear, it is to be augmented by game custom, common sense, past
+      judgements, and consideration of the best interests of the game.
+      
+      Definitions and prescriptions in the rules are only to be applied
+      using direct, forward reasoning; in particular, an absurdity that
+      can be concluded from the assumption that a statement about
+      rule-defined concepts is false does not constitute proof that it
+      is true. Definitions in lower-powered Rules do not overrule
+      common-sense interpretations or common definitions of terms in
+      higher-powered rules, but may constructively make reasonable
+      clarifications to those definitions. For this purpose, a
+      clarification is reasonable if and only if it adds detail without
+      changing the underlying general meaning of the term and without
+      causing the higher powered rule to be read in a way inconsistent
+      with its text.
+      
+      Rules to the contrary notwithstanding, any rule change that would
+      (1) prevent a person from initiating a formal process to resolve
+      matters of controversy, in the reasonable expectation that the
+      controversy will thereby be resolved; or (2) prevent a person from
+      causing formal reconsideration of any judicial determination that
+      e should be punished, is wholly void and without effect.
+
+------------------------------------------------------------------------
+Rule 1030/13 (Power=3.3)
+Precedence between Rules
+
+      In a conflict between Rules, the conflict shall be resolved by
+      performing the following comparisons in the sequence written in
+      this rule, until the conflict is resolved.
+      
+      - In a conflict between Rules with different Power, the Rule with
+        the higher Power takes precedence over the Rule with the lower
+        Power; otherwise,
+      
+      - If all of the Rules in conflict explicitly say that their
+        precedence relations are determined by some other Rule for
+        determining precedence relations, then the determinations of the
+        precedence-determining Rule shall be used to resolve the
+        conflicts; otherwise,
+      
+      - If at least one of the Rules in conflict explicitly says of
+        itself that it defers to another Rule (or type of Rule) or takes
+        precedence over another Rule (or type of Rule), then such
+        provisions shall be used to resolve the conflict, unless they
+        lead to contradictions between each other; otherwise,
+      
+      - If any of the rules in conflict have ID numbers, then the Rule
+        with the lowest ID number takes precedence; otherwise,
+      
+      - The Rule enacted earliest takes precedence.
+      
+      Clauses in any other rule that broadly claim precedence (e.g. over
+      "all rules" of a certain class) shall be, prima facie, considered
+      to be limited claims of precedence or deference that are
+      applicable only when such claims are evaluated as described within
+      the above sequence.
+      
+      No change to the ruleset can occur that would cause a Rule to
+      directly claim precedence over this Rule as a means of determining
+      precedence. This applies to changes by the enactment or amendment
+      of a Rule, or of any other form. This Rule takes precedence over
+      any Rule that would permit such a change to the ruleset.
+
+------------------------------------------------------------------------
+Rule 2240/1 (Power=3)
+No Cretans Need Apply
+
+      In a conflict between clauses of the same Rule, if exactly one
+      claims precedence over the other, then it takes precedence;
+      otherwise, the later clause takes precedence.
+
+------------------------------------------------------------------------
+Rule 105/25 (Power=3)
+Rule Changes
+
+      When the rules provide that an instrument takes effect, it can
+      generally:
+      
+      1. enact a rule. The new rule has power equal to the minimum of
+         the power specified by the enacting instrument, defaulting to
+         one if the enacting instrument does not specify or if it
+         specifies a power less than 0.1, and the maximum power
+         permitted by other rules. The enacting instrument may specify a
+         title for the new rule, which if present shall prevail. The ID
+         number of the new rule cannot be specified by the enacting
+         instrument; any attempt to so specify is null and void.
+      
+      2. repeal a rule. When a rule is repealed, it ceases to be a rule,
+         its power is set to 0, and the Rulekeepor need no longer
+         maintain a record of it.
+      
+      3. reenact a rule. A repealed rule identified by its most recent
+         rule number MUST be reenacted with the same ID number. If no
+         text is specified, the rule is reenacted with the same text it
+         had when it was most recently repealed. If the reenacting
+         proposal provides new text for the rule, the rule SHOULD have
+         materially the same purpose as did the repealed version. Unless
+         specified otherwise by the reenacting instrument, a reenacted
+         rule has power equal to the power it had at the time of its
+         repeal (or power 1, if power was not defined at the time of
+         that rule's repeal). If the reenacting instrument is incapable
+         of setting the reenacted rule's power to that value, then the
+         reenactment is null and void.
+      
+      4. amend the text of a rule.
+      
+      5. retitle a rule.
+      
+      6. change the power of a rule.
+      
+      A rule change is any effect that falls into the above classes.
+      Rule changes always occur sequentially, never simultaneously. If a
+      specification would ever be interpreted as causing multiple
+      changes to happen at once, it is instead interpreted as attempting
+      to cause them to occur separately, in the order they are listed in
+      the specification.
+      
+      Any ambiguity in the specification of a rule change causes that
+      change to be void and without effect. An inconsequential variation
+      in the quotation of an existing rule does not constitute ambiguity
+      for the purposes of this rule. Furthermore, if the change being
+      specified would be clear to any reasonable player, the
+      specification is not ambiguous, even if it is incorrect or unclear
+      on its face. This provision does not prevent the specification of
+      undesirable changes; for instance, an amendment which adds a typo
+      is not corrected to remove the typo.
+      
+      A rule change is wholly prevented from taking effect unless its
+      full text was published, along with an unambiguous and clear
+      specification of the method to be used for changing the rule, at
+      least 4 days and no more than 60 days before it would otherwise
+      take effect.
+      
+      This rule provides the only mechanism by which rules can be
+      created, modified, or destroyed, or by which an entity can become
+      a rule or cease to be a rule.
+
+------------------------------------------------------------------------
+Rule 2493/11 (Power=3)
+Regulations
+
+      A regulation is a textual entity defined as such by a Rule (its
+      parent rule) and existing solely because that Rule defines its
+      existence. A regulation has no effect other than those that the
+      Rules explicitly give it.
+      
+      A regulation CAN be enacted, amended, and repealed as specified by
+      its parent rule. Regulations are tracked by the Rulekeepor as part
+      of eir monthly report in a fashion similar to rules.
+
+------------------------------------------------------------------------
+Rule 2486/2 (Power=3.14)
+The Royal Parade
+
+                    _
+                  _\ /_
+                  >_X_<
+           .---._  /_\  _.---.
+         /`.---._`{/ \}`_.---.`\
+        | /   ___`{\_/}`___   \ |
+        \ \."`*  `"{_}"`  *`"./ /
+         \ \  )\  _\ /_  /(  / /
+          \ *<()( >_X_< )()>* /
+           |._)/._./_\._.\(_.|
+      jgs  |() () () () () ()|
+           <<o>><<o>><o>><<o>>
+          `"""""""""""""""""""`
+           IN CELEBRATION of Alexis being crowned Princess of Agora,
+                without prejudice to Any before or since
+                who may come to hold a Title
+                whether Patent or otherwise;
+          IT IS HEREBY PROCLAIMED that a Royal Parade be established,
+                imbued in this very Rule,
+                which shall travel around Agora to Rules of import;
+          AND THEREFORE, the Rulekeepor SHOULD place this Rule
+                near recently-amended rules of high Power;
+          AND FURTHERMORE, additions to this Parade are most welcome
+               when Events suiting the honour should occur.
+          NEXT UP in the Parade comes the Discordian Court:  G. the
+               Grand Vizier is arguing with Janet the Untitled, while
+               nix, Court Anarchist, is cramming cancelled ballots into
+               eir pockets.
+
+------------------------------------------------------------------------
+Rule 1051/18 (Power=1)
+The Rulekeepor
+
+      The Rulekeepor is an office; its holder is responsible for
+      maintaining the text of the rules of Agora.
+      
+      The Rulekeepor's weekly report includes the Short Logical Ruleset.
+      The Rulekeepor's monthly report includes the Full Logical Ruleset.
+
+------------------------------------------------------------------------
+Rule 1681/28 (Power=1)
+The Logical Rulesets
+
+      The Short Logical Ruleset (SLR) is a format of the ruleset. In
+      this format, each rule is assigned to a category, and the rules
+      are grouped according to their category.
+      
+      Rules are assigned to, ordered within, or moved between
+      categories, and categories are added, changed, or empty categories
+      removed, as the Rulekeepor sees fit.
+      
+      The listing of each rule in the SLR must include the rule's ID
+      number, power, title, and text.
+      
+      The listing of each rule in the SLR must additionally include a
+      revision number selected by the Rulekeepor. The Rulekeepor SHOULD
+      select revision numbers such that they can be used retrospectively
+      to determine that the text of a rule has changed while it
+      maintained the same ID number. The Rulekeepor may exercise
+      reasonable discretion in calculating revision numbers.
+      
+      The Rulekeepor is strongly DISCOURAGED from including any
+      additional information in the SLR, except that which increases the
+      readability of the SLR.
+      
+      The Full Logical Ruleset (FLR) is a format of the ruleset. In this
+      format, rules are assigned to the same category and presented in
+      the same order as in the SLR. The FLR must contain all the
+      information required to be in the SLR, and any historical
+      annotations which the Rulekeepor is required to record.
+      
+      The Rulekeepor SHOULD also include any other information which e
+      feels may be helpful in the use of the ruleset in the FLR.
+      
+      Whenever a rule is changed in any way, the Rulekeepor SHALL record
+      and thereafter maintain a reasonably accurate historical
+      annotation to the rule indicating:
+      
+      1. The type of change.
+      
+      2. The date on which the change took effect.
+      
+      3. The mechanism that specified the change.
+      
+      4. If the rule was changed due to a proposal, then that proposal's
+         ID number, author, and coauthor(s) (if any).
+
+------------------------------------------------------------------------
+Rule 2221/11 (Power=3)
+Cleanliness and Tidy Filing
+
+      Any player CAN clean a rule without objection by specifying one or
+      more corrections to spelling, grammar, capitalization, formatting,
+      and/or dialect, or to whether a synonym or abbreviation is used in
+      place of a word or phrase, in the rule's text and/or title; when e
+      does so, if any text changes were specified, that rule is amended
+      by this rule by applying the changes as a single amendment
+      (failing as a whole if any fail); then, if any title changes were
+      specified, that rule is retitled by this rule by applying the
+      changes as a single retitling (failing as a whole if any fail).
+      
+      Any player CAN refile a rule without objection, specifying a new
+      title; the rule is retitled to the specified title by this rule.
+      
+      Cleaning rules is secured. Refiling rules is secured.
+
+------------------------------------------------------------------------
+Rule 2429/2 (Power=1)
+Bleach
+
+      Replacing a non-zero amount of whitespace with a different
+      non-zero amount of whitespace is generally insignificant, except
+      if doing so substantially changes the semantic, logical, or
+      artistic structure of the text.
+
+------------------------------------------------------------------------
+Rule 2614/11 (Power=3.1)
+Eclipse Light
+
+      An emergency message is one whose subject line contains the text
+      "[Emergency]".
+      
+      The Prime Minister CAN, in an emergency message and with 3 Agoran
+      consent, enact, amend, or repeal Emergency Regulations, provided
+      that the intent to do so was also contained in an emergency
+      message. To the extent explicitly permitted by this rule,
+      Emergency regulations are always taking effect.
+      
+      Emergency Regulations CAN, as part of their effect:
+        - Extend any deadline provided for by any instrument other than
+          this rule, including a deadline for an obligation to be met,
+          or deadline prior to which an action must be performed in
+          order to be valid, such as the end of voting period. Such an
+          extension CANNOT cause the total time period, such as the
+          time from when an obligation was created to the deadline or
+          the whole of a voting period, to be more than double its
+          original length.
+        - Create, destroy, or transfer assets, or require or forbid
+          their creation, destruction, or transfer.
+        - Collectively, exercise Mint Authority
+        - Cause one or more players to win Agora.
+        - Appoint or remove officeholders, other than Prime Minister or
+          Speaker.
+        - Modify the Festivity.
+        - Award Patent Titles that are either Badges or are not
+          mentioned in any Rule.
+        - Modify the Publicity of Fora.
+      
+      The Prime Minister CAN, in an emergency message and with 4 Agoran
+      Consent, provided that the intent to do so was also contained in
+      an emergency message, Extend the Emergency.
+      
+      If there is an Emergency Regulation that has existed for at least
+      a month and the Prime Minister has not Extended the Emergency in
+      the past month, any player CAN, with 7 days notice, repeal all
+      Emergency Regulations.
+      
+      If the Prime Minister has not sent a message to a public forum in
+      the preceding four days, the Speaker CAN exercise eir powers under
+      this rule as if e were the Prime Minister, and notwithstanding any
+      rule that would prohibit a single player from holding both
+      offices.
+      
+      Rules to the contrary notwithstanding, Emergency Regulations
+      CANNOT be enacted, amended, or repealed except as described in
+      this Rule, nor can an entity that is not an Emergency Regulation
+      be made to become an Emergency Regulation except as described in
+      this rule.
+
+------------------------------------------------------------------------
+========================================================================
+Voting
+   Voting is used primarily for Proposals and Elections. This section
+   describes Agoran Decisions and how to resolve them.
+------------------------------------------------------------------------
+Rule 693/17 (Power=3)
+Agoran Decisions
+
+      When the rules call for an Agoran decision to be made, the
+      decision-making process takes place in the following three
+      stages, each described elsewhere:
+      
+      1. Initiation of the decision.
+      
+      2. Voting of the people.
+      
+      3. Resolution of the decision.
+
+------------------------------------------------------------------------
+Rule 107/28 (Power=3)
+Initiating Agoran Decisions
+
+      An Agoran decision is initiated when a person authorized to
+      initiate it publishes a valid notice which sets forth the intent
+      to initiate the decision. To be valid, the notice must clearly
+      specify the following information:
+      
+      1. The matter to be decided (for example, "the adoption of
+         proposal 4781");
+      
+      2. The voting method;
+      
+      3. A clear description of the valid options;
+      
+      4. The identity of the vote collector; and
+      
+      5. Any additional information defined by the rules as essential
+         parameters.
+      
+      The initiation of an Agoran decision also initiates the voting
+      period for that decision. The default length of the voting period
+      is 7 days. Changing the length of a decision's voting period is
+      secured at power 2, and it CANNOT be set or changed to more than
+      14 days, or less than 5 days for a decision with at least two
+      options.
+      
+      The vote collector for a decision with less than two options CAN
+      end the voting period by announcement, if it has not ended
+      already, and provided that e resolves the decision in the same
+      message.
+      
+      A public notice purporting to initiate an Agoran decision is a
+      self-ratifying attestation that the notice was valid, that the
+      person (if any) publishing the notice was authorized to initiate
+      the decision, that such a decision was initiated, and that that
+      decision's voting period was initiated
+      
+      The destruction of Agoran decisions is secured. An Agoran
+      decision's matter to be decided, voting method, valid options, and
+      vote collector are secured at the power of the Rule authorizing
+      the initiation of such a decision.
+
+------------------------------------------------------------------------
+Rule 2528/1 (Power=3)
+Voting Methods
+
+      Each Agoran decision has a voting method, which must be
+      AI-majority, instant runoff, or first-past-the-post. The voting
+      method is that specified by the authorizing authority, or
+      first-past-the-post by default.
+      
+      Each Agoran decision has a set of valid options (the choices that
+      the voters are being asked to select from) and valid votes (the
+      ways in which the voters can express their opinion or lack
+      thereof). For AI-majority decisions, the valid options are FOR and
+      AGAINST; for other decisions, the valid options are defined by
+      other rules.
+      
+      The valid votes on an Agoran decision are:
+      
+      1. PRESENT;
+      
+      2. The valid conditional votes, as defined by rules of power at
+         least that of this rule; and
+      
+      3. For an instant runoff decision, the ordered lists of entities.
+      
+      4. For any other decision, the valid options.
+
+------------------------------------------------------------------------
+Rule 683/27 (Power=3)
+Voting on Agoran Decisions
+
+      An entity submits a ballot on an Agoran decision by publishing a
+      notice satisfying the following conditions:
+      
+      1. The ballot is submitted during the voting period for the
+         decision.
+      
+      2. The entity casting the ballot (the voter) was, at the
+         initiation of the decision, a player.
+      
+      3. The ballot clearly identifies the matter to be decided.
+      
+      4. The ballot clearly identifies a valid vote, as determined by
+         the voting method.
+      
+      5. The ballot clearly sets forth the voter's intent to place
+         the identified vote.
+      
+      6. The voter has no other valid ballots on the same decision.
+      
+      A valid ballot is a ballot, correctly submitted, that has not been
+      withdrawn. During the voting period of an Agoran decision, an
+      entity CAN by announcement withdraw (syn. retract) a ballot that e
+      submitted on that decision. To "change" one's vote is to retract
+      eir previous ballot (if any), then submit a new one. Submitting
+      and withdrawing ballots is secured.
+
+------------------------------------------------------------------------
+Rule 208/14 (Power=3)
+Resolving Agoran Decisions
+
+      The vote collector for an unresolved Agoran decision CAN resolve
+      it by announcement, indicating the outcome. If it was required to
+      be initiated, then e SHALL resolve it in a timely fashion after
+      the end of the voting period. To be EFFECTIVE, such an attempt
+      must satisfy the following conditions:
+      
+      1. It is published after the voting period has ended.
+      
+      2. It clearly identifies the matter to be resolved.
+      
+      3. It specifies the number of voters (or a list of the voters).
+         For these purposes and for determining quorum, a "voter" is
+         someone who submitted a ballot on the decision that was valid
+         when it was submitted and also valid (i.e. not withdrawn or
+         otherwise invalidated) at the end of the voting period.
+      
+      4. It specifies the outcome, as described elsewhere, and, if there
+         was more than one valid option, provides a tally of the voters'
+         valid ballots.
+      
+      Each Agoran decision has exactly one vote collector, defaulting to
+      the initiator of the decision. If the vote collector is defined by
+      reference to a position (or, in the default case, if the initiator
+      was so defined), then the vote collector is the current holder of
+      that position.
+      
+      This rule takes precedence over any rule that would provide
+      another mechanism by which an Agoran decision may be resolved.
+      
+      In general, changes to the gamestate due to the outcome of an
+      Agoran decision take effect when the decision is resolved.
+
+------------------------------------------------------------------------
+Rule 955/27 (Power=3)
+Determining the Will of Agora
+
+      Each Agoran decision has a voting method, which determines how
+      voters may vote on it and how to calculate the outcome. The
+      strength of a ballot is the voting strength of the voter who cast
+      it on that Agoran decision, as calculated at the end of that
+      decision's voting period.
+      
+      1. For an AI-majority decision, let F be the total strength of all
+         valid ballots cast FOR a decision, A be the same for AGAINST,
+         and AI be the adoption index of the decision. The outcome is
+         ADOPTED if F/A >= AI and F/A > 1 (or F>0 and A=0), otherwise
+         REJECTED.
+      
+      2. For an instant runoff decision, the outcome is whichever option
+         wins according to the standard definition of instant runoff.
+         For this purpose, a ballot of strength N is treated as if it
+         were N distinct ballots expressing the same preferences. In
+         case multiple valid options tie for the lowest number of votes
+         at any stage, the vote collector CAN and must, in the
+         announcement of the decision's resolution, select one such
+         option to eliminate; if, for M > 1, all eir possible choices in
+         the next M stages would result in the same set of options being
+         eliminated, e need not specify the order of elimination. If an
+         entity that is part of a valid vote is not a valid option at
+         the end of the voting period, or disqualified by the rule
+         providing for the decision, then that entity is eliminated
+         prior to the first round of counting.
+      
+      3. For a first-past-the-post decision, the outcome is whichever
+         option received the highest total strength of valid ballots. In
+         case of a tie, the vote collector CAN and must, in the
+         announcement of the decision's resolution, select one of the
+         leaders as the outcome.
+      
+      The previous notwithstanding:
+      
+      - If there is more than one option, and the number of voters is
+        less than the quorum of that decision, the outcome is instead
+        FAILED QUORUM.
+      
+      - If there are no valid options, the outcome is null.
+      
+      The outcome of a decision is determined when it is resolved, and
+      cannot change thereafter.
+
+------------------------------------------------------------------------
+Rule 879/40 (Power=3)
+Quorum
+
+      Each Agoran decision has a quorum. This is a number set when the
+      decision is created, and thereafter cannot be changed. When a
+      person initiates an Agoran decision, that person SHALL state the
+      quorum of that decision. However, incorrectly stating the quorum
+      of a decision does not invalidate the initiation, nor does it
+      actually change the quorum of the decision.
+      
+      The quorum that an Agoran decision gains as it is created can be
+      defined by other rules of power 2 or greater. If no other rule
+      defines the quorum of an Agoran decision, the quorum for that
+      decision is equal to 2/3 of the number of voters on the referendum
+      that had been most recently resolved at the time of that
+      decision's initiation, the whole rounded to the nearest integer.
+      
+      As an exception to the previous paragraph, the minimum quorum of
+      an Agoran decision is 2, or 1 if there are fewer than 2 players in
+      the game. If the rules would attempt to set the quorum of an
+      Agoran decision to less than the minimum quorum, it is set to the
+      minimum instead.
+
+------------------------------------------------------------------------
+Rule 2422/8 (Power=3)
+Voting Strength
+
+      The voting strength of an entity on an Agoran decision is an
+      integer between 0 and 15 inclusive, defined by rules of power 2 or
+      greater. If not otherwise specified, the voting strength of an
+      entity on an Agoran decision is 3.
+      
+      When multiple rules set or modify an entity's voting strength on
+      an Agoran decision, it shall be determined by first applying the
+      rule(s) which set it to a specific value, using the ordinary
+      precedence of rules, and then applying the rules, other than this
+      one, which modify it, in numerical order by ID. Finally, if the
+      result of the calculation is not an integer, it is rounded up, and
+      then if it is outside the allowable range of values for voting
+      strength, it is set to the minimum value if it was less and the
+      maximum value if it was more.
+
+------------------------------------------------------------------------
+Rule 2127/11 (Power=3)
+Conditional Votes
+
+      A conditional vote on an Agoran decision is a vote which indicates
+      a vote based on some condition(s). A conditional vote is evaluated
+      at the end of the voting period and, rules to the contrary
+      notwithstanding, is clearly specified if and only if the value of
+      the condition(s) is/are determinate at the end of the voting
+      period. If the conditional is clearly specified, and evaluates to
+      a valid vote, it is counted as that vote; otherwise, it is counted
+      as PRESENT.
+      
+      Any vote which is clearly expressed as a conditional, e.g. "FOR if
+      <X> is true, AGAINST otherwise", is a valid conditional vote that
+      evaluates as specified.
+      
+      A vote endorsing another person is equivalent to a conditional
+      vote evaluating to the vote specified in that person's valid
+      ballot on the decision, if any.
+      
+      For an instant runoff decision, a vote consisting of a list, one
+      or more entries of which are valid conditional votes, and the
+      remaining entries of which are valid options, is a valid
+      conditional vote. Such a vote is evaluated by evaluating each
+      conditional entry to a list of votes (or an empty list, if it
+      evaluates to PRESENT either directly or indirectly), and then
+      concatenating those lists with the specified valid options in the
+      order they occurred in the original vote.
+
+------------------------------------------------------------------------
+Rule 2168/10 (Power=2)
+Extending the Voting Period
+
+      Whenever the voting period of an Agoran decision would end, and
+      the result would be FAILED QUORUM, the length of the voting period
+      for that decision is instead increased to 14 days, except if it is
+      already that length, provided this has not already happened for
+      the decision in question.
+      
+      Within four days of such an occurrence, the vote collector for the
+      decision SHALL issue a humiliating public reminder naming the
+      slackers who have not yet cast any votes on it despite being
+      eligible players, and CAN end its voting period by announcement
+      (resolving it constitutes an implicit announcement that its voting
+      period is first ended) if the result would no longer be FAILED
+      QUORUM, or if the decision is a referendum on a proposal and no
+      voter (other than possibly the proposal's author) has voted FOR.
+
+------------------------------------------------------------------------
+Rule 1950/39 (Power=3)
+Decisions with Adoption Indices
+
+      Adoption index (AI) is an untracked switch possessed by Agoran
+      decisions and proposals, secured at power 2.  For decisions, the
+      possible values are "none" (default) or integral multiples of 0.1
+      from 1.0 to 9.9. For proposals, the possible values are integral
+      multiples of 0.1 from 1.0 to 9.9 (default 1.0). 
+      
+      The adoption index of a referendum CANNOT be set or changed to
+      "none" or to a value less than that of its associated proposal. If
+      a referendum ever has an adoption index of "none" or an adoption
+      index less than that of its associated proposal, it is immediately
+      set to the adoption index of the associated proposal.
+      
+      Adoption index is an essential parameter of an Agoran decision if
+      that decision has an adoption index.
+      
+      For any Agoran decision with a non-"none" adoption index, the
+      voting method is AI-majority.
+
+------------------------------------------------------------------------
+Rule 2034/12 (Power=3)
+Vote Protection and Cutoff for Challenges
+
+      A public message purporting to resolve an Agoran decision is a
+      self-ratifying attestation that
+      
+      1. such a decision existed,
+      
+      2. it had the number of voters indicated,
+      
+      3. it was resolved as indicated, and
+      
+      4. (if the indicated outcome was to adopt a proposal) such a
+         proposal existed, was adopted, and, if it had not
+         previously taken effect, took effect.
+
+------------------------------------------------------------------------
+========================================================================
+Offices & Reporting
+   Players who hold offices have control over and track various
+   different mechanics. These rules govern the special responsibilities
+   that officers have.
+------------------------------------------------------------------------
+Rule 1006/49 (Power=2)
+Offices
+
+      An Office is a position described as an Office by the Rules.
+      Officeholder is an office switch tracked by the ADoP, with
+      possible values of any person or "vacant" (default). Each instance
+      of the Officeholder switch is secured at the power of the Rule
+      defining the associated office (or the power of this Rule, if the
+      defining Rule's power is higher). An officer is the holder of an
+      office, who may be referred to by the name of that office. If the
+      holder of an office is ever not a player, it becomes vacant.
+      
+      Imposed offices and sortitioned offices are offices described as
+      such by the rules that define them. All other offices are elected.
+      An office is voluntary if and only if it is elected or
+      sortitioned. The selection method for a sortitioned office is a
+      sortition for that office. The selection method for an elected
+      office is an election for that office.
+      
+      A person CANNOT be made the holder of a voluntary office without
+      eir consent. A person voluntarily entering emself into the
+      selection method of that office always satisfies this requirement,
+      regardless of whether it meets the normal definition of consent.
+      
+      The holder of a voluntary office CAN resign it by announcement,
+      causing it to become vacant. Any player CAN cause a voluntary
+      office to become vacant without 2 objections.
+      
+      The non-interim holder of an elected office CAN, with 3 support,
+      resign the office while appointing another player to become the
+      holder of the office, provided that other player is one of the
+      supporters.
+      
+      Immediately after a proposal finishes taking effect, if one or
+      more offices exist that did not exist prior to the proposal taking
+      effect, each such office, if it is vacant, becomes held by the
+      author of the proposal.
+
+------------------------------------------------------------------------
+Rule 2630/3 (Power=2.0)
+The Administrative State
+
+      Each officer CAN, with 1.5 Agoran consent, enact, amend, or repeal
+      eir own office's Administrative Regulations. If e has won an
+      election for the office in the past 7 days, e CAN repeal them by
+      announcement.  Administrative Regulations have the following
+      properties:
+      
+      1. An officer SHALL NOT violate requirements in eir office's
+         administrative regulations clearly intended to be punishable as
+         rules violations in the discharge of eir office.
+      2. Any player CAN act on behalf of an officer to exercise eir
+         official powers as authorized by eir office's administrative
+         regulations.
+      3. All players SHOULD abide by an officer's administrative
+         regulations in matters relating to eir area of responsibility.
+
+------------------------------------------------------------------------
+Rule 2651/1 (Power=2)
+The Election Cycle
+
+      A holder of an elected office who did not become its holder by
+      winning an election, and has not won an election for that office
+      since, is an interim holder. An elected office that is either
+      vacant or has an interim holder is an interim office.
+      
+      An office is term-limited if the most recent election for that
+      office was resolved more than the length of that office's term
+      prior. The term for the office of Prime Minister is 90 days. The
+      term for all other elected offices is 180 days.
+      
+      A player CAN initiate an election for a specified elected office:
+      
+      a) With 2 support (if the office is either interim or term-
+      limited) or 4 support (otherwise), and provided that the initiator
+      becomes a candidate in the same message.
+      
+      b) By announcement, if e is the ADoP (or, if the office is the
+      ADoP, if e is the Assessor) and the office is interim, or if e is
+      the holder of that office.
+      
+      Once per quarter, the ADoP CAN and SHALL publish a Notice of
+      Election specifying between 2-4 term-limited offices (if there
+      fewer than 2 term-limited offices, the ADoP MUST instead list all
+      of them).  Such a notice initiates elections for the specified
+      offices.  The ADoP SHOULD prioritize offices that have gone
+      longest since their last elections.
+      
+      The above notwithstanding, an election for an office CANNOT be
+      initiated if one is already in progress.
+
+------------------------------------------------------------------------
+Rule 2154/61 (Power=2)
+Election Procedure
+
+      When an election is initiated, it enters the nomination period,
+      which lasts for 4 days. After an election is initiated and until
+      nominations close, any player CAN become a candidate by
+      announcement. A candidate ceases to be a candidate if e ceases to
+      be a player during the election or if holding the office would
+      make em Overpowered. During the nomination period, a candidate CAN
+      cease to be a candidate by announcement if there is at least one
+      other candidate.
+      
+      Each candidate in an election is ENCOURAGED to campaign by
+      indicating why e would be the best choice, and (if applicable) how
+      e would run the office differently than the previous holder.  The
+      ADoP SHOULD remind candidates to campaign.
+      
+      An election whose nomination period is complete is contested if it
+      has two or more candidates, and uncontested otherwise. Nominations
+      close at the end of the poll's voting period or when the election
+      is ended, whichever comes first.
+      
+      After the nomination period ends, the ADoP (or, if the office is
+      the ADoP, the Assessor) CAN and, in a timely fashion, SHALL:
+      
+      1) If the election is contested, initiate an Agoran decision to
+         select the winner of the election (the poll). For this
+         decision, the Vote Collector is the ADoP (or, if the office is
+         the ADoP, the Assessor), the valid options are the candidates
+         for that election (including those who become candidates after
+         its initiation), and the voting method is instant runoff. When
+         the poll is resolved, its outcome, if a player, wins the
+         election. If the outcome is not a player, the election ends
+         with no winner.
+      
+      2) If POSSIBLE per the following paragraph, end the election
+         immediately.
+      
+      If at any point an uncontested election has a single candidate,
+      then any player CAN by announcement declare em the winner of the
+      election, thereby causing em to win the election. If at any point
+      an uncontested election has no candidates, then any player CAN
+      declare the election ended with no winner by announcement.
+      
+      When a player wins an election, e is installed into the associated
+      office and the election ends.
+
+------------------------------------------------------------------------
+Rule 2573/4 (Power=2)
+Impeachment
+
+      Any player CAN, with 2 Agoran consent, expel (impeach) the holder
+      of a specified voluntary office. When a person is impeached from
+      an office, the selection method for that office is immediately
+      initiated (if possible). Players SHOULD NOT use this method of
+      removal unless the officer has abused the powers of eir office or
+      otherwise shown emself unworthy of the trust of Agora.
+
+------------------------------------------------------------------------
+Rule 2160/27 (Power=3)
+Deputisation
+
+      A player acting as emself (the deputy) CAN perform an action
+      ordinarily reserved for an office-holder as if e held the office
+      if all of the following are true:
+      
+       1) The rules require the holder of that office, by virtue of
+          holding that office, to perform the action. (This requirement
+          is fulfilled by the deputy performing the action.)
+      
+       2) It would be POSSIBLE for the deputy to perform the action,
+          other than by deputisation, if e held the office.
+      
+       3) The deputy, when performing the action, announces that e is
+          doing so by deputisation or by temporary deputisation.
+      
+       4) The deputy has not held the office in the past 7 days.
+      
+      (If the office is vacant, then the remaining items in this list
+      need not be true.)
+      
+       5) A time limit by which the rules require the action to be
+          performed has expired.
+      
+       6) The office's holder has not changed in the past 7 days.
+      
+       7) Any of the following are true:
+      
+          a) The deputy announced between 2 and 14 days earlier that
+             e intended to deputise for that office for the purposes of
+             the particular action.
+      
+          b) The time limit expired between 14 and 28 days ago.
+      
+          c) The time limit expired more than 28 days ago, and the
+             deputisation is temporary.
+      
+      When a player deputises for a voluntary office, e becomes the
+      holder of that office, unless the deputisation is temporary, doing
+      so would make em Overpowered, and/or the action being performed
+      would already install someone into that office.
+
+------------------------------------------------------------------------
+Rule 2689/2 (Power=3.0)
+Vacations & Delegation
+
+      Delegate is an Office switch with possible values of "None" and
+      any active player, and default value of "None". Delegates are
+      tracked by the ADoP in eir weekly report.
+      
+      A player CAN flip the Delegate switch of a specified office to
+      emself with Agoran Consent. If the Delegate switch of an office is
+      set to "None", the holder of that office CAN flip the Delegate
+      switch of that office to a specified player with support from that
+      specified player.
+      
+      An officer CAN and SHOULD take a Vacation from a specified office
+      e has continuously held for over 6 months with 7 day notice, if e
+      has not done so in the past year. When an officer qualifies for a
+      Vacation, the ADoP SHOULD encourage em to take one, at least once
+      a quarter.
+      
+      An officer is On Vacation from a specified office if e has taken a
+      Vacation from that office in the past 30 days. The list of
+      officers currently on vacation is part of the ADoP's report.
+      
+      While the holder of an office is On Vacation, the Delegate of that
+      office CAN perform an action ordinarily reserved for the
+      office-holder as if e held the office, if it would be POSSIBLE for
+      the Delegate to perform the action, other than by this method, if
+      e held the office.
+      
+      Rules to the contrary notwithstanding, while an officer is On
+      Vacation that officer NEED NOT comply with any duties of that
+      office, and the Delegate, if any, SHALL comply with all duties of
+      the office as if e held the office.
+      
+      The Delegate of an office CANNOT resign it. The Delegate of an
+      office, if any, and the holder of that office, if any, CAN by
+      announcement flip the Delegate of that office to "None".
+
+------------------------------------------------------------------------
+Rule 2691/4 (Power=2.0)
+Sortition Procedure
+
+      A player CAN by announcement initiate a sortition for a vacant
+      sortitioned office for which a sortition is not ongoing. At the
+      beginning of each quarter, for each sortitioned office for which a
+      sortition is not ongoing, the ADoP CAN once by announcement, and
+      SHALL in a timely fashion, initiate a sortition.
+      
+      Rules to the contrary notwithstanding, a sortition CANNOT be
+      initiated for an office for which a sortition is ongoing.
+      
+      When a sortition is initiated, it enters the lots period. Any
+      player CAN by announcement become an option for that office during
+      this period. If a person ceases to be a player during this period,
+      e also ceases to be an option for each current sortition.
+      
+      Seven days after a sortition is initiated, its lots period ends,
+      after which:
+      
+        * If it has two or more valid options, then the ADoP CAN by
+          announcement, and SHALL in a timely fashion after its lots
+          period ends, randomly select one of those options.
+      
+        * If it has exactly one valid option, then any player CAN by
+          announcement select that option.
+      
+        * If it has no valid options, then any player CAN by
+          announcement declare the sortition ended with no selection.
+      
+      When a player is selected in a sortition as described above, e is
+      installed into the associated office and the sortition ends.
+      
+      If a sortition is ever ongoing for a non-sortitioned office (or
+      for an office that no longer exists), that sortition immediately
+      ends.
+
+------------------------------------------------------------------------
+Rule 2138/26 (Power=1)
+The Associate Director of Personnel
+
+      The Associate Director of Personnel (ADoP) is an office; its
+      holder is responsible for keeping track of officers.
+      
+      The ADoP's report includes the following:
+      
+      1. The date of the last change (if any) to each office's
+         Officeholder.
+      2. The current status of the ongoing election for that office or,
+         if there is no ongoing election for that office, the date on
+         which the last election ended
+      3. For filled elected offices, whether or not the holder is
+         interim.
+      4. For offices with a weekly and/or monthly report, the date (if
+         any) that each was most recently published.
+
+------------------------------------------------------------------------
+Rule 2472/5 (Power=2)
+Office Incompatibilities
+
+      Some pairs of office are incompatible:
+      
+      1. Prime Minister and Speaker
+      
+      2. Promotor and Assessor
+      
+      3. Assessor and ADoP
+      
+      4. Referee and Arbitor
+      
+      A player is Overpowered if e holds two offices which are
+      incompatible with each other. Rules to the contrary
+      notwithstanding, a player CANNOT be installed into an office if
+      doing so would make em Overpowered.
+      
+      If a player is Overpowered, any player CAN, with Notice, Demand
+      Resignation from em. When this occurs, each office that the
+      Overpowered player holds becomes vacant.
+
+------------------------------------------------------------------------
+Rule 2143/40 (Power=1)
+Reports and Duties
+
+      For each person:
+      
+      1. If any task is defined by the rules as part of that person's
+         weekly duties, then e SHALL perform it at least once each week.
+      
+      2. If any task is defined by the rules as part of that person's
+         monthly duties, then e SHALL perform it at least once each month.
+      
+      For each office, if any information is defined by the rules as
+      part of that office's weekly or monthly report, then its
+      officeholder SHALL maintain all such information, and eir weekly
+      or monthly duties respectively include publishing a document or
+      series of documents, labelled as that office's report (or as that
+      office's weekly or monthly report as appropriate), that includes
+      all such information.
+      
+      Any information defined by the rules as part of a person's report,
+      without specifying which one, is part of eir weekly report.
+      Failure of a person to perform any weekly duty required of em
+      within the allotted time is the Class 1+N infraction of Weekly
+      Tardiness, where N is the number of times e has previously
+      committed the infraction in the past month.
+      
+      Failure of a person to perform any monthly duty required of em
+      within the allotted time is the Class 3 infraction of Monthly
+      Tardiness.
+      
+      An official duty for an office is any duty that the Rules
+      specifically assign to that office's holder in particular
+      (regardless of eir identity).
+      
+      A person publishing a report SHALL do so in plain text, with
+      tabular data lining up properly when viewed in a monospaced font.
+      Publishing a report that deviates from these restrictions is the
+      Class 2 infraction of Making My Eyes Bleed.
+      
+      A player CAN, by announcement, petition a specified person with a
+      specified duty to take a specific action related to that duty.
+      That person SHOULD publicly respond to that petition in a timely
+      fashion. A player CAN petition a specified non-vacant office in
+      the same fashion; its holder SHALL respond in the same fashion.
+
+------------------------------------------------------------------------
+Rule 2677/1 (Power=0.5)
+Etiquette
+
+      Officers SHOULD:
+      
+       - publish dates in YYYY-MM-DD or DD Mon YY format in reports,
+         whichever is more fitting to the situation;
+      
+       - communicate a schedule of when regularly timed duties will
+         usually be done;
+      
+       - maintain an online version of eir report(s) in a browser-native
+         format (such as HTML); AND
+      
+       - maintain a repository of eir report(s) in a public place.
+      
+      Players SHOULD:
+      
+       - signal the official name of the primary action and/or the
+         relevant officer that tracks said actions in the title of a
+         public message; AND
+      
+       - be kind.
+
+------------------------------------------------------------------------
+Rule 2667/1 (Power=1)
+Succumbing to Time
+
+      A player CAN Succumb by announcement. Upon doing so, if e has not
+      already Succumbed that month, then each of eir deadlines to
+      perform an Officer's duty or judge a Call for Judgement is
+      extended by 1 day if it would otherwise expire within the next
+      week.
+
+------------------------------------------------------------------------
+Rule 2632/5 (Power=2.0)
+Complexity
+
+      Complexity is a secured office switch reflecting how complex it is
+      to fulfill the duties of its office. Its possible values are all
+      integers from 0 to 3 inclusive, where 1 is the default. It is
+      tracked in the ADoP's weekly report. The ADoP CAN, with 2 Agoran
+      consent, flip the complexity of an office to a specified possible
+      value.
+      
+      For each office a player holds, eir voting strength is increased
+      by the complexity of the office for referenda on ordinary
+      proposals, up to a maximum increase of 3 by this method.
+
+------------------------------------------------------------------------
+Rule 2603/2 (Power=1)
+Default Recordkeepors
+
+      For each type of switch or asset that is not defined as untracked
+      and that has at least one instance that would otherwise lack a
+      recordkeepor, there exists an imposed office named "Tracker of
+      [type name]" whose holder tracks those instances.
+
+------------------------------------------------------------------------
+Rule 2379/0 (Power=1)
+No News Is Some News
+
+      If the rules define a report as including a list, then while that
+      list is empty, that report includes the fact that it is empty.
+
+------------------------------------------------------------------------
+Rule 2698/0 (Power=3.0)
+Recordkeepors
+
+      For some entity or class of entities to be "tracked by" another
+      entity is for the latter entity to be its recordkeepor.
+      
+      For an entity to be a recordkeepor for a type of switch is for
+      that entity to be the recordkeepor for all instances of that
+      switch.
+      
+      Where the rules specify a recordkeepor for some set of instances
+      of a switch, that recordkeepor's (weekly, if not specified
+      otherwise) report includes the value of each instance in that set
+      whose value is not its default value; a public document purporting
+      to be this portion of that recordkeepor's report is
+      self-ratifying, and implies that other instances in that set are
+      at their default value.
+      
+      The recordkeepor of a class of assets is the entity (if any)
+      defined as such by, and bound by, its backing document. That
+      recordkeepor's report includes a list of all instances of that
+      class and their owners. A public document purporting to be this
+      portion of that recordkeepor's report is self-ratifying.
+
+------------------------------------------------------------------------
+Rule 2616/1 (Power=1.0)
+The Webmastor
+
+      The Webmastor is a sortitioned office.
+      
+      The Webmastor's monthly report includes a Directory, a Changelog,
+      a Warning Log, and an Error Log. The Directory lists notable
+      currently maintained public resources. The Changelog lists notable
+      changes to resources. The Warning Log lists notable potential
+      issues, such as inaccurate or aging resources or unintended issues
+      with a public resource. The Error Log lists notable losses of
+      resources - where a resource has become inaccessible,
+      unmaintained, or unusable. Where 'notable' is used in this rule
+      its meaning is up to the Webmastor's discretion.
+
+------------------------------------------------------------------------
+Rule 417/10 (Power=1)
+The Archivist
+
+      The Archivist is an office; its holder is responsible for ensuring
+      the continued availability of documents of historical interest.
+      
+      The archivist’s monthly report contains:
+        * Instructions for accessing collections of:
+          * Texts of each historic rule revision.
+          * Texts of each proposal.
+          * Judicial cases.
+          * Public messages.
+          * Messages to discussion fora.
+          * Theses for which a person was awarded a degree.
+          * Optionally, any other documents the Archivist deems worthy
+            of archival.
+        * A description of the completeness of each of the above
+          collections.
+      The referenced collections NEED NOT be perfectly complete or
+      accurate, but the Archivist SHOULD work towards improving their
+      completeness and accuracy.
+
+------------------------------------------------------------------------
+========================================================================
+Documents
+   Documents are little bits of text that can be ratified, therefore
+   modifying the gamestate slightly.
+------------------------------------------------------------------------
+Rule 1551/23 (Power=3.2)
+Ratification
+
+      A retroactive change is one that changes the game's record of past
+      events. Retroactive changes are secured with power threshold 3.
+      
+      When a document or statement (hereafter "document") is to be
+      ratified, the following definitions apply:
+      * The publication time can be specified by the instrument allowing
+        the ratification, defaulting to the instant at which the
+        document to be ratified was published.
+      * The truth time is the instant at which the document specifies
+        that it was true, or the publication time if such an instant is
+        not specified.
+      * The application time is the instant at which the document to be
+        ratified is ratified.
+      
+      Ratification CANNOT occur if the truth time would be after the
+      application time, or if the publication time would be after the
+      application time.
+      
+      Rules to the contrary notwithstanding, when a document is
+      ratified, the gamestate is modified to what it would be if, at the
+      truth time, the gamestate had been minimally modified to make the
+      ratified document as true and accurate as possible.
+      
+      Ratification CANNOT occur if it would add inconsistencies between
+      the gamestate and the rules.
+      
+      Ratification CANNOT occur if the required modification to the
+      gamestate is not possible or if multiple substantially distinct
+      possible modifications would be equally appropriate.
+      
+      If the minimal modification would include past or present rule
+      changes, they are instead excluded unless the ratified document
+      explicitly and unambiguously recites either the changes or the
+      resulting properties of the rule(s).
+      
+      An internally inconsistent document generally CANNOT be ratified;
+      however, if such a document can be divided into a summary section
+      and a main section, where the only purpose of the summary section
+      is to summarize information in the main section, and the main
+      section is internally consistent, ratification of the document
+      proceeds as if it contained only the main section.
+      
+      Text purportedly about previous instances of ratification (e.g. a
+      report's date of last ratification) is excluded from ratification.
+      The rules may define additional information that is considered to
+      be part of the document for the purposes of ratification; such
+      definitions are secured with power threshold 3.
+      
+      Ratification is secured with power threshold 3.
+
+------------------------------------------------------------------------
+Rule 2202/10 (Power=3)
+Ratification Without Objection
+
+      A public document is part (possibly all) of a public message.
+      
+      A player CAN, without objection, ratify a specified public
+      document.
+      
+      Ratification Without Objection CANNOT cause the repeal, amendment,
+      enactment, or mutation of any Rule, rules to the contrary
+      notwithstanding.
+      
+      A player SHALL NOT knowingly use or announce intent to use
+      Ratification Without Objection to ratify a (prior to ratification)
+      document containing incorrect or Indeterminate information when a
+      corrected document could be produced with reasonable effort,
+      unless the general nature of the document's error and reason for
+      ratifying it is clearly and plainly described in the announcement
+      of intent. Such ratification or announcement of intent to ratify
+      is the Class 8 Infraction of Endorsing Forgery.
+
+------------------------------------------------------------------------
+Rule 2201/15 (Power=3)
+Self-Ratification
+
+      When a public document published less than 180 days ago is first
+      continuously undoubted for two weeks after publication:
+      
+      - If the rules define it as self-ratifying, it is ratified.
+      
+      - If the rules define it as a self-ratifying attestation to a
+        given statement, the statement is ratified, with the publication
+        time being the instant at which the document was published.
+      
+        This clause is inapplicable if the statement to be ratified
+        cannot be reasonably ascertained from the ruleset and the
+        contents of the message.
+      
+      The definition of documents as self-ratifying and the definition
+      of documents as self-ratifying attestations are secured at power
+      3.
+      
+      Any person CAN by announcement issue a doubt (syn. claim of
+      error), identifying a public document published less than 180 days
+      ago and explaining the scope and nature of a perceived error in it
+      (or in a statement it attests to).
+      
+      When this happens, the publisher of the original document SHALL
+      (if e was required to publish that document) or SHOULD (otherwise)
+      do one of the following in a timely fashion, in an announcement
+      that clearly cites the claim of error:
+      
+         1. Deny the claim (causing it to cease to be a doubt).
+      
+         2. Publish a revision.
+      
+         3. Initiate an inquiry case regarding the truth of the claim
+            (if the subject is actually a matter of law), or cite a
+            relevant existing inquiry case.
+      
+      The issuance of a doubt on a documents, the denial of a claim of
+      error, and the ceasing of a doubt on a document to be a doubt are
+      secured at power 3.
+
+------------------------------------------------------------------------
+========================================================================
+Justice
+   So you've broken a rule. Now what? This section describes Blots, the
+   main method of punishment for Agorans.
+------------------------------------------------------------------------
+Rule 2555/18 (Power=2)
+Blots
+
+      Blots are an indestructible fixed currency with ownership
+      restricted to persons. A person with 1 or more blots is Impure, a
+      person with 0 blots is Pure. An impure unregistered person is a
+      Fugitive. The Referee is an office, and the recordkeepor for
+      blots.
+      
+      To expunge a blot is to destroy it. Creating and destroying blots
+      is secured with a Power Threshold of 1.7
+      
+      A person CAN, by announcement, create a specified number of blots
+      in eir possession.
+      
+      Any player CAN pay a fee of 7 Spendies to revoke a blot from a
+      specified person.
+      
+      Once per quarter, the Referee CAN by announcement (and SHALL
+      during its first Eastman week) issue a Notice of Clemency, upon
+      which half (rounded down) of each fugitive's blots are destroyed.
+
+------------------------------------------------------------------------
+Rule 2556/2 (Power=3)
+Penalties
+
+      Rules to the contrary notwithstanding, an impure person CANNOT win
+      the game.
+      
+      The voting strength of a person on an Agoran decision is reduced
+      by 1 for every 3 blots in eir possession.
+      
+      A player CAN, with 7 days notice, deregister (exile) a specified
+      player (the outlaw) who has more than 40 blots.
+
+------------------------------------------------------------------------
+Rule 2478/29 (Power=1.7)
+Justice
+
+      An Infraction is a violation of a rule. The person who committed
+      an infraction is its infracter.
+      
+      The Investigator for an infraction is the Referee unless e is the
+      infracter. Otherwise, it is the Arbitor.
+      
+      The Class of an infraction is 2 unless a rule specifies a
+      different Class for it.
+      
+      The Base of an infraction is N, where N is the number of
+      previously-investigated, unforgiven infractions that have been
+      committed by the same person in the past 30 days. The previous
+      notwithstanding, if the base of an infraction would be greater
+      than its class, the infraction's base is equal to its class.
+      
+      Within 14 days of an infraction being committed, or if the
+      infraction has been noted in the past 60 days, the Investigator
+      CAN investigate the infraction by announcement, specifying a
+      number of blots between the Base and the Class of the infraction,
+      inclusive. When e does so, that many blots are created in the
+      possession of the infracter.
+      
+      The previous notwithstanding, an Investigator CANNOT investigate
+      an infraction that has already been investigated or forgiven. The
+      Investigator of a noted, unforgiven infraction SHALL investigate
+      the infraction in a timely fashion after it has been noted;
+      failure to do so is the Class N infraction of Favoritism, where N
+      is equal to the Class of the noted infraction.
+      
+      A player CAN, by announcement, "note" an unforgiven infraction
+      committed by any other player in the past 14 days, specifying the
+      incident and the rule it violates (or name of the Infraction if
+      it has one); but a player CANNOT note an infraction that has
+      already been investigated.
+      
+      The Referee's weekly report contains a list of noted and
+      investigated Infractions committed in the previous week.
+
+------------------------------------------------------------------------
+Rule 2676/2 (Power=1.7)
+Forgiveness
+
+      All infractions that have not been forgiven are unforgiven.
+      
+      Any player CAN, with Agoran Consent, "forgive" an unforgiven
+      infraction that occurred in the past 30 days. When an infraction
+      is forgiven, if the infraction was investigated, a number of
+      blots in the possession of the infracter equal to the number of
+      blots specified by the investigation are destroyed or, if e has
+      less blots than specified, all eir blots are destroyed. The
+      previous notwithstanding, a player cannot forgive or support an
+      intent to forgive eir own infraction.
+
+------------------------------------------------------------------------
+Rule 2531/18 (Power=2)
+Defendant's Rights
+
+      An infraction is automatically forgiven if:
+      
+      (1) the alleged infracter can't be established by a preponderance
+          of the evidence to have committed the infraction;
+      
+      (2) at the time the alleged infraction occurred, it was not an
+          infraction;
+      
+      (3) the infraction was for failure to take an action that the
+          infracter, through no fault of eir own, COULD NOT have
+          performed;
+      
+      (4) the infraction is for conduct that the infracter, through no
+          fault of eir own, was obliged to undertake by a rule of equal
+          or greater power to the one e violated;
+      
+      (5) the infracter could not have avoided the infraction when
+          exercising the highest reasonably possible standard of care;
+          or
+      
+      (6) any available non-null punishment would be blatantly and
+          obviously unsuited to the conduct which constitutes the
+          infraction or to the person who committed the infraction.
+      
+      Rules to the contrary notwithstanding, any attempt to investigate
+      an infraction which would result in the creation of blots is
+      INEFFECTIVE if:
+      
+      (1) it does not include the specific reason for the fine; or
+      
+      (2) it would result in a punishment that is blatantly and
+          obviously unsuited to the conduct which constitutes the
+          infraction or to the person who committed the infraction.
+
+------------------------------------------------------------------------
+========================================================================
+Calls for Judgement
+   What if there is a rule conflict? What if we can't decide what a rule
+   means? Well then, it's time to call a CFJ.
+------------------------------------------------------------------------
+Rule 991/36 (Power=2)
+Calls for Judgement
+
+      Any person (the initiator) can initiate a Call for Judgement (CFJ,
+      syn. Judicial Case), specifying a statement to be inquired into by
+      announcement. A case so initiated is an inquiry case.
+      
+      When a person initiates a Call for Judgement, e CAN optionally bar
+      one person from the case by announcement.
+      
+      At any time, each CFJ is either open (default), suspended, or
+      assigned exactly one judgement that was validly assigned.
+      
+      The Arbitor is an office, responsible for the administration of
+      justice in a manner that is fair for emself, if not for the rest
+      of Agora.
+      
+      Judge is an untracked CFJ switch with possible values of any
+      person or former person, or "unassigned" (default). To "assign" a
+      CFJ to a person is to flip that CFJ's judge to that person.  To
+      "remove" or "recuse" a person from a being the judge of a CFJ is
+      to flip that CFJ's judge from that person to unassigned.
+      
+      When an open CFJ's judge is unassigned, the Arbitor CAN assign any
+      eligible player to be its judge by announcement, and SHALL do so
+      in a timely fashion after it becomes an open and unassigned CFJ.
+      In the same message in which e does so, e SHALL also (and CAN by
+      announcement or by clear specification) assign it an ID number,
+      unless it already has one. The players eligible to be assigned as
+      judge are all active players except the initiator and the person
+      barred (if any). The Arbitor SHALL assign judges over time such
+      that all interested players have reasonably equal opportunities to
+      judge. If a CFJ has no judge assigned, then any player eligible to
+      judge that CFJ CAN assign it to emself without 3 objections.
+      
+      The Arbitor's weekly report includes a summary of recent judicial
+      case activity, including open and recently-judged cases, recent
+      judicial assignments, and a list of players interested in judging.
+      
+      If two CFJs become assigned to the same judge in the same message,
+      those CFJs are "linked" to each other, unless that message
+      specifies that the CFJs should not be linked. The Arbitor SHOULD
+      consider linking two CFJs if they inquire about the same or
+      substantially similar events and are called at approximately the
+      same time.
+
+------------------------------------------------------------------------
+Rule 591/51 (Power=1.7)
+Delivering Judgements
+
+      When a CFJ is open and assigned to a judge, that judge CAN assign
+      a valid judgement to it by announcement, and SHALL do so in an
+      officially timely fashion after this becomes possible.
+      
+      The valid judgements for an inquiry case are as follows, based on
+      the facts and legal situation at the time the inquiry case was
+      initiated, not taking into account any events since that time:
+      
+      * FALSE, appropriate if the statement was factually and
+        logically false.
+      
+      * TRUE, appropriate if the statement was factually and
+        logically true.
+      
+      * IRRELEVANT, appropriate if the veracity of the statement is
+        not relevant to the game or is an overly hypothetical
+        extrapolation of the game or its rules to conditions that don't
+        actually exist, or if it can be trivially determined from the
+        outcome of another (possibly still undecided) judicial case that
+        was not itself judged IRRELEVANT.
+      
+      * INSUFFICIENT, appropriate if the statement does not come
+        with supporting arguments or evidence, and the judge feels as if
+        an undue burden is being placed on em by the lack of arguments
+        and evidence. A CFJ judged as INSUFFICIENT SHOULD be submitted
+        again with sufficient arguments/evidence.
+      
+      * DISMISS, appropriate if the statement is malformed, undecidable,
+        if insufficient information exists to make a judgement with
+        reasonable effort, or the statement is otherwise not able to be
+        answered with another valid judgement. DISMISS is not
+        appropriate if PARADOXICAL is appropriate.
+      
+      * PARADOXICAL, appropriate if the statement is logically
+        undecidable as a result of a paradox or or other irresolvable
+        logical situation. PARADOXICAL is not appropriate if IRRELEVANT
+        is appropriate, nor is it appropriate if the undecidability
+        arises from the case itself or in reference to it.
+      
+      If the judge of an open CFJ has not violated a time limit for
+      assigning it a judgement, and has not previously filed a motion to
+      either extend or reconsider the case, e CAN file a motion to
+      extend the case by announcement. Doing so extends eir judgement
+      deadline for that case by one week. In doing so, e SHOULD include
+      a (nonbinding) draft or outline of eir current thoughts on the
+      case.
+
+------------------------------------------------------------------------
+Rule 911/56 (Power=1.7)
+Motions and Moots
+
+      The judge of a CFJ CAN by announcement self-file a Motion to
+      Reconsider it, if its most recent judgement has been in effect for
+      less than seven days.
+      
+      Any player CAN with 2 support group-file a Motion to Reconsider a
+      case, if its most recent judgement had been in effect for less
+      than seven days at the time the intent was tabled.
+      
+      The above notwithstanding, it is IMPOSSIBLE to file a Motion to
+      Reconsider a CFJ whose current judgement has been entered into
+      Moot, or that has already had a Motion to Reconsider filed against
+      it by the same method since it was most recently assigned to a
+      judge.
+      
+      When a Motion to Reconsider a case is filed, the case is rendered
+      open again.
+      
+      If a CFJ has a judgement assigned, a player CAN enter that
+      judgement into Moot with N+2 support, where N is the number of
+      weeks from the time the judgement was assigned to the time the
+      intent was tabled, rounded down. When this occurs, the CFJ is
+      suspended, and the Arbitor is once authorized to initiate the
+      Agoran decision to determine public confidence in the judgement,
+      which e SHALL do in a timely fashion.
+      
+      For this decision, the vote collector is the Arbitor and the valid
+      options are AFFIRM, REMAND, and REMIT. When the decision is
+      resolved, the effect depends on the outcome:
+      
+      - AFFIRM, FAILED QUORUM: The judgement is reassigned to the case,
+        and cannot be entered into Moot again.
+      
+      - REMAND: The case becomes open again.
+      
+      - REMIT: The case becomes open again, and the current judge is
+        recused. The Arbitor SHALL NOT assign em to the case again
+        unless no other eligible judges have displayed interest in
+        judging.
+
+------------------------------------------------------------------------
+Rule 2175/9 (Power=1)
+Judicial Retraction and Excess
+
+      A new case is a judicial case that has not had any judge assigned
+      to it. The initiator of a new case CAN retract it by announcement,
+      thus causing it to cease to be a judicial case.
+      
+      An excess case is a new case whose initiator previously initiated
+      five or more cases during the same week as that case. A person
+      SHALL NOT initiate an excess case. The Arbitor CAN refuse an
+      excess case by announcement, thus causing it to cease to be a
+      judicial case. When e does so, e fulfills any obligations with
+      regards to that case.
+
+------------------------------------------------------------------------
+Rule 2492/7 (Power=1)
+Recusal
+
+      A judge CAN recuse emself from a CFJ e is assigned to by
+      announcement.
+      
+      The Arbitor CAN recuse a judge from a case by announcement, if
+      that judge has violated a time limit for judging the case and has
+      not judged it in the mean time; the Arbitor SHALL do so in a
+      timely fashion after the time limit expires, if able. The Arbitor
+      CAN recuse an inactive or unregistered judge by announcement.
+      
+      If a judge is recused from a case that was continuously open and
+      assigned to em for at least the past 4 days, e SHOULD NOT be
+      assigned as a judge until e has apologised and/or reasonably
+      explained eir actions.
+
+------------------------------------------------------------------------
+Rule 2246/7 (Power=2)
+Submitting a CFJ to the Referee
+
+      When a person initiates a Call for Judgement, e CAN, optionally,
+      submit it to the Referee by announcement. All persons are
+      ENCOURAGED to submit a case to the Referee only when there is a
+      good reason not to let it be processed by the Arbitor as usual.
+      
+      When a CFJ is submitted to the Referee, the Referee receives all
+      obligations and powers, other than obligations to report, for that
+      case that the Arbitor would otherwise receive due to being
+      Arbitor. This rule takes precedence over Rules that would
+      otherwise assign duties and powers regarding to a judicial case to
+      the Arbitor.
+
+------------------------------------------------------------------------
+========================================================================
+Obligations & Contracts
+   Agreements, promises, treaties, whatever you call them. This section
+   contains rules which can bind players to obligations, in the form of
+   Pledges and Contracts.
+------------------------------------------------------------------------
+Rule 2471/4 (Power=1)
+No Faking
+
+      A person SHALL NOT make a public statement that is a lie.
+      
+      A public statement is falsy if any of the following was true at
+      the time of publication:
+      * The statement was not true and the author knew or should have
+        known that it was not true.
+      * The author did not believe the statement to be true.
+      
+      A public statement is a lie if it is falsy and any of the
+      following is true:
+      * The author made the statement with intent to mislead.
+      * The author, in the same message, declared the statement to be
+        made "under penalty of No Faking" (or similar).
+      
+      For the purposes of this rule, an attempt to perform an action by
+      publishing certain text constitutes an implicit statement that the
+      action was EFFECTIVE.
+      
+      Merely quoting a statement or attempt does not constitute making
+      it for the purposes of this rule. Any disclaimer, conditional
+      clause, or other qualifier attached to a statement or attempt
+      constitutes part of the statement or attempt for the purposes of
+      this rule; the truth or falsity of the whole is what is
+      significant.
+      
+      The above notwithstanding, a formal announcement of intent is
+      never a lie.
+
+------------------------------------------------------------------------
+Rule 2450/12 (Power=1.7)
+Pledges
+
+      If a consenting Player makes a clear public pledge (syn. Oath) to
+      perform (or refrain from performing) certain actions, then
+      breaking the pledge is ILLEGAL; doing so is the Class N infraction
+      of Oathbreaking, where N is the value explicitly stated by the
+      pledge, or 2 if the pledge does not explicitly state a value.
+      Allowing a pledge to expire without carrying out an action one
+      pledged to do in it constitutes breaking the pledge. If it would
+      otherwise be indeterminate whether a player has violated a pledge,
+      then e shall be deemed to have violated that pledge.
+      
+      The time window of a pledge is W days, where W is the value
+      explicitly stated by the pledge, or 60 if the pledge does not
+      explicitly state a value. A pledge ceases to exist at the end of
+      its time window.
+      
+      If breaking the pledge harms specific other parties, the Referee
+      SHOULD solicit the opinion of those parties in determining an
+      appropriate fine.
+      
+      The Notary CAN destroy a pledge Without Objection, but SHOULD NOT
+      do so unless the pledge no longer serves any significant purpose.
+
+------------------------------------------------------------------------
+Rule 2466/3 (Power=3)
+Acting on Behalf
+
+      When a rule allows one person (the agent) to act on behalf of
+      another (the principal) to perform an action, that agent CAN
+      perform the action if it is POSSIBLE for the principal to do so,
+      taking into account any prerequisites for the action. If the
+      enabling rule does not specify the mechanism by which the agent
+      may do so, then the agent CAN perform the action in the same
+      manner in which the principal CAN do so, with the additional
+      requirement that the agent must, in the message in which the
+      action is performed, uniquely identify the principal and that the
+      action is being taken on behalf of that person.
+      
+      A person SHALL NOT act on behalf of another person if doing so
+      causes the second person to violate the rules. A person CANNOT act
+      on behalf of another person to do anything except perform a game
+      action; in particular, a person CANNOT act on behalf of another
+      person to send a message, only to perform specific actions that
+      might be taken within a message, including actions that would
+      otherwise be taken by publishing certain text.
+      
+      When an action is performed on behalf of a principal, then the
+      action is considered for all game purposes to have been performed
+      by the principal, unless a rule specifically states that it is
+      treated differently for some purpose, in which case it is treated
+      as described by that rule.
+      
+      Allowing a person to act on behalf of another person is secured at
+      power 2.0. This rule takes precedence over any rule that would
+      prohibit a person from taking an action, except that it defers to
+      any rule that imposes limitations specifically on actions taken on
+      behalf of another person.
+      
+      An agent CANNOT act on behalf of a principal to perform an action
+      via a specific method if the rules state that the actor acts "as
+      emself" or "on eir own behalf" to perform the action via that
+      method.
+
+------------------------------------------------------------------------
+Rule 2618/7 (Power=2.2)
+Promises
+
+      Promises are a class of assets, tracked by the Notary. Their
+      essential attributes are their text and creator. A consenting
+      player CAN, by announcement, grant a specified entity a promise,
+      specifying its text and becoming its creator. A promise's owner is
+      referred to as its bearer. Promises with the same text, creator,
+      and bearer are fungible. Promises with the same text and creator
+      SHOULD be referred to by the same title, but the title is not an
+      essential attribute of the promise, just a way of referring to it.
+      
+      The creation of promises is secured. The text of a promise CANNOT
+      be altered after it is created.
+      
+      A player (the casher) CAN, by announcement, cash a promise,
+      provided that both a) any conditions for cashing it specified by
+      its text are unambiguously met, and b) either the casher is the
+      promise's bearer, or the promise is owned by the Library. By doing
+      so, e acts on the creator of the promise's behalf, causing the
+      creator to act as if e published the promise's text, and destroys
+      the promise.  However, to limit recursion, no promise can be
+      cashed during the execution of another promise unless it existed
+      before the execution of that promise began. The bearer SHOULD
+      recite the promise's essential attributes in the same message e
+      cashes it.
+      
+      In a promise's text, "the bearer" and "the casher" (or the like)
+      both refer to the player who cashed the promise, and "this
+      promise" (or the like) refers to the promise. The text of the
+      promise can refer to the context of the message in which it is
+      cashed, but the context of the message does not otherwise change
+      the meaning of the promise.
+      
+      The Library is an entity and CAN own promises.
+      
+      The creator of a promise CAN take or revoke it from the Library by
+      announcement, unless the promise's text unambiguously designates
+      it as irrevocable. Any player CAN revoke a specified promise from
+      the Library without objection. If a promise specifies expiration
+      conditions then any player CAN by announcement destroy it while
+      the expiration conditions are unambiguously met.
+
+------------------------------------------------------------------------
+Rule 2519/2 (Power=3)
+Consent
+
+      A person is deemed to have consented to an action if and only if,
+      at the time the action took place:
+      
+      1. e, acting as emself, has publicly stated that e agrees to the
+         action and not subsequently publicly withdrawn eir statement;
+      2. e is party to a contract whose body explicitly and
+          unambiguously indicates eir consent;
+      3. the action is taken as part of a promise which e created; or
+      4. it is reasonably clear from context that e wanted the action to
+         take place or assented to it taking place.
+
+------------------------------------------------------------------------
+Rule 1742/23 (Power=2.5)
+Contracts
+
+      Any group of one or more consenting persons (the parties) may
+      publicly make an agreement among themselves with the intention
+      that it be binding upon them and be governed by the rules. Such
+      an agreement is known as a contract. A contract may be modified,
+      including by changing the set of parties, with the consent of all
+      existing parties. A contract may also be terminated with the
+      consent of all parties. A contract automatically terminates if the
+      number of parties to it falls below one. It is IMPOSSIBLE for a
+      person to become a party to a contract without eir consent.
+      
+      Parties to a contract governed by the rules SHALL act in
+      accordance with that contract. This obligation is not impaired
+      by contradiction between the contract and any other contract, or
+      between the contract and the rules.
+      
+      Rules to the contrary notwithstanding, any change that would cause
+      the full provisions or parties of a contract to become publicly
+      unavailable is canceled and does not take effect.
+      
+      The portion of a contract's provisions that can be interpreted
+      with reference only to information that is either publicly or
+      generally available are known as its body; the remainder of the
+      provisions are known as the annex.
+      
+      A party to a contract CAN perform any of the following actions as
+      explicitly and unambiguously permitted by the contract's body:
+      
+      * Act on behalf of another party to the contract.
+      
+      * By announcement, revoke destructible assets from the contract.
+      
+      * By announcement, transfer liquid assets from the contract to a
+        specified recipient.
+      
+      Any player CAN cause a contract to be terminated (syn. "shred")
+      without 2 objections. This SHOULD only be done to remove unused
+      contracts or contracts deemed detrimental to the game as a whole.
+
+------------------------------------------------------------------------
+Rule 2608/4 (Power=2.0)
+The Notary
+
+      The Notary is an office.
+      
+      The Notary's monthly report contains:
+      
+      1. every pledge, along with its title, creator, time window, time
+         of creation, and time of expiry;
+      2. every contract, with its title, full provisions, and parties;
+         and
+      3. every promise, along with its title, text, creator, and bearer.
+      
+      If the Notary is required to report an entity's title, but none
+      has been otherwise publicly provided, e CAN assign one by public
+      designation.
+
+------------------------------------------------------------------------
+========================================================================
+Assets
+   Assets are things players can own. This section describes how that
+   works.
+------------------------------------------------------------------------
+Rule 2166/32 (Power=3)
+Assets
+
+      An asset is an entity defined as such by a document that has been
+      granted Mint Authority by the Rules (hereafter the asset's backing
+      document), and existing solely because its backing document
+      defines its existence. An asset's backing document can generally
+      specify when and how that asset is created, destroyed, and
+      transferred.
+      
+      The rules collectively have Mint Authority. Contracts have Mint
+      Authority. An asset defined by rule or regulation is public; any
+      other asset is private.
+
+------------------------------------------------------------------------
+Rule 2576/4 (Power=3)
+Ownership
+
+      Each asset has exactly one owner.
+      
+      An asset CANNOT be gained by or transferred to an entity unless
+      its backing document specifies that entity can own it. If an
+      asset's backing document is otherwise silent on which entities can
+      own it, then it can be owned by Agora, players, and contracts.
+      
+      An asset "in abeyance" is one whose owner is nonexistent,
+      indeterminate, or invalid. If an asset would otherwise be in
+      abeyance, then it is owned by the Lost and Found Department (if
+      possible) or destroyed (otherwise), subject to modification by its
+      backing document (provided that the modification either destroys
+      it or prevents it from being in abeyance). Rules to the contrary
+      notwithstanding, the Lost and Found Department can own assets of
+      every type. Assets owned by the Lost and Found Department can be
+      transferred or destroyed by any player without objection.
+
+------------------------------------------------------------------------
+Rule 2577/8 (Power=3)
+Asset Actions
+
+      An asset generally CAN be destroyed by its owner by announcement,
+      subject to modification by its backing document. Attempts to
+      destroy no assets are successful. An indestructible asset is one
+      defined as such by its backing document, and CANNOT be destroyed
+      except as explicitly specified by its backing document; any other
+      asset is destructible.
+      
+      For an entity to gain (historical syn. earn) an asset is for that
+      asset to be created in that entity's possession. To grant an
+      entity an asset is to create it in eir possession. To grant an
+      entity a set of assets is to create each asset in the set in eir
+      possession.
+      
+      For an entity to lose an asset is for that asset to be destroyed
+      from that entity's possession. To revoke an asset from an entity
+      is to destroy it from that entity's possession.
+      
+      For entity A to take an asset from entity B is to transfer it from
+      entity B to entity A.
+      
+      An asset generally CAN be transferred (syn. given) by announcement
+      by its owner to another entity, subject to modification by its
+      backing document. Attempts to transfer no assets are successful. A
+      fixed asset is one defined as such by its backing document, and
+      CANNOT be transferred except as explicitly specified by its
+      backing document; any other asset is liquid.
+      
+      When a rule indicates creating, destroying, or transferring an
+      amount of assets that is not a natural number, the specified
+      amount is rounded up to the nearest natural number after all other
+      calculations.
+
+------------------------------------------------------------------------
+Rule 2578/5 (Power=3)
+Fungibility
+
+      Any two assets within a "fungible" class of assets (syn.
+      "currency") that have the same owner are considered equivalent for
+      the purposes of specification, granting, and transferring. The
+      number of such assets an entity owns is that entity's "balance" of
+      that currency.
+
+------------------------------------------------------------------------
+Rule 2579/6 (Power=3)
+Fee-based Actions
+
+      If the Rules associate payment of a set of assets (hereafter the
+      fee for the action; syns: cost, price, charge) with performing an
+      action, that method for performing that action is a fee-based
+      method.
+      
+      If the fee is a non-integer quantity of a currency, the actual fee
+      is the next highest integer amount of that asset.
+      
+      To use a fee-based method, an entity (the Actor) who is otherwise
+      permitted to perform the action must announce that e is performing
+      that action; such announcement must clearly and unambiguously set
+      forth intent to pay a fee for the sole purpose of using that
+      method to perform that action. Additionally, such announcement
+      must either clearly and unambiguously specify the correct set of
+      assets for that fee or use simplified wording (e.g. "I buy X")
+      that makes the intended fee reasonably clear and unambiguous (in
+      particular, without stating an incorrect fee).
+      
+      Upon such an announcement:
+      
+        - If the Rules specify a recipient for the relevant fee, and the
+          Actor CAN transfer that fee from emself to the recipient, then
+          that fee is transferred from the Actor to the recipient and
+          the action is performed simultaneously;
+      
+        - If the Rules do not specify a recipient, and the Actor CAN
+          destroy the relevant fee in eir possession, then that fee in
+          eir possession is destroyed and the action is performed
+          simultaneously.
+      
+        - Otherwise, no changes are made to asset holdings and the
+          action is not performed.
+
+------------------------------------------------------------------------
+========================================================================
+Economics
+   The economic landscape changes quickly in Agora. No matter what name
+   we give to them, though, they all function similarly. This section
+   only describes the core mechanics. Any other economic subsystems are
+   described elsewhere.
+------------------------------------------------------------------------
+Rule 2659/14 (Power=1)
+Stamps
+
+      Stamps are a category of asset ownable by players and contracts.
+      The Collector is a sortitioned office. The Collector tracks Stamps
+      in eir weekly report.
+      
+      For each person there is a corresponding type of stamp. Stamps of
+      any given type are fungible.
+      
+      Any player CAN, once per week, pay X stamps, where each specified
+      stamp is a different type, to gain (X-1)*3 radiance.
+      
+      Any player CAN, once per week, pay X Stamps, where each Stamp is
+      the same type, to gain (X-1)*2 radiance.
+      
+      Any active player CAN Profligately Pursue Philately by paying N
+      Stamps, where N is the current number of active players and each
+      specified Stamp is of a different type. When e does so, e wins the
+      game.
+      
+      Any player CAN pay a fee of 5 Spendies to grant emself X stamps of
+      eir own type. When less than 8 Stamps of eir type exist, X is 2.
+      When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
+      stamps of eir type exist, X is 0.
+      
+      Any player CAN pay a fee of 6 Spendies to transfer a specified
+      stamp from the L&FD to emself.
+
+------------------------------------------------------------------------
+Rule 2701/1 (Power=1.0)
+Stamp Scamp
+
+      A rare stamp is a stamp that is the only one of its type that
+      exists.
+      
+      Stamp scamp is a singleton switch tracked by the Collector with
+      possible values of each player and null (default). Upon a correct
+      announcement that a specified player owns more rare stamps than
+      any other player, the stamp scamp switch is flipped to that
+      player.
+      
+      If no person has done so by this mechanism in this quarter, the
+      value of the stamp scamp switch, if a player, CAN by announcement
+      cause another specified player to gain one stamp of that player's
+      type.
+
+------------------------------------------------------------------------
+Rule 2499/26 (Power=1)
+Welcome Packages
+
+      When a player receives a welcome package, if e has not received a
+      welcome package, including under any previous definition, since e
+      last registered nor in the past 30 days, e gains the following
+      assets:
+      
+      * 15 spendies, if e has not been granted any spendies since e last
+        registered.
+      * 16 Hectares.
+      
+      A player CAN, by announcement, cause a specified player to receive
+      a welcome package (syn. "grant" em a welcome package).
+
+------------------------------------------------------------------------
+Rule 2585/10 (Power=1)
+Birthday Gifts
+
+      It is considered to be a player's Agoran Birthday on the
+      anniversary of the day e first registered. If the day a player
+      first registered is unknown, that player CAN, with Agoran consent,
+      declare a day to be eir Agoran Birthday. As long as the day a
+      player first registered remains unknown, it is considered to be
+      eir Agoran Birthday on the anniversary of the day e most recently
+      declared as eir Agoran Birthday.
+      
+      In a timely fashion after the start of a player's Agoran Birthday,
+      the Registrar SHALL announce it.
+
+------------------------------------------------------------------------
+Rule 2690/8 (Power=1.0)
+Spendies
+
+      The Spendor is an office.
+      
+      Spendies are a currency ownable by players and contracts. Spendies
+      are tracked by the Spendor in eir weekly report. If the Spendor's
+      report is overdue, then other players SHOULD deputise to publish
+      it.
+      
+      At the end of each month, all Spendies are destroyed. At the
+      beginning of each month, every player is granted 20 Spendies.
+
+------------------------------------------------------------------------
+Rule 2699/0 (Power=1.5)
+Contests
+
+      Contestation is a secured negative boolean contract switch tracked
+      by the Notary. A contract whose contestation switch is true is a
+      contest.
+      
+      A player CAN flip a specified contract's contestation to true
+      without 2 objections.
+      
+      A player CAN flip a specified contract's contestation to false
+      with Agoran consent.
+
+------------------------------------------------------------------------
+Rule 2656/12 (Power=1.5)
+Radiance
+
+      The Illuminator is an office, responsible for tracking radiance.
+      
+      A player's Radiance is an integer player switch defaulting to 0,
+      tracked by the Illuminator. When a player is "granted" or "gains"
+      a specified amount of radiance, eir radiance is increased by that
+      amount.
+      
+      Upon a correct announcement from a player that eir radiance is 100
+      or more (correctly specifying the amount), e Outshines the Sun.
+      
+      When a player Outshines the Sun, e wins the game. When a player
+      wins the game this way, the following happen in order:
+      
+      * Eir radiance is set to 0.
+      
+      * The radiance of each other player is set to half its current
+        value (rounded down).
+      
+      Once per quarter, the Illuminator CAN by announcement (and SHALL
+      during its first Eastman week) issue a Notice of Diminution, upon
+      which all radiance switches are set to half their current value
+      rounded down.
+      
+      Any player CAN increase eir radiance by 1 by paying a fee of 2
+      Spendies.
+
+------------------------------------------------------------------------
+========================================================================
+Agoriculture
+   Every good economy has trade, and we have it in boatloads here. These
+   crops will make us rich, and we'll finally put Agora on a map. (Maybe
+   not the map, but a map.)
+------------------------------------------------------------------------
+Rule 2704/1 (Power=1.0)
+Hectares
+
+      Hectare is a type of fixed currency, tracked by the Land Managor.
+      
+      A player CAN pay a fee of 500 Pyrite to gain 1 Hectare.
+
+------------------------------------------------------------------------
+Rule 2705/0 (Power=1.0)
+Crop Seasons
+
+      The Crop Season is determined by the current Agoran month:
+      
+        * Spring - January, May, September
+        * Summer - February, June, October
+        * Autumn - March, July, November
+        * Winter - April, August, December
+
+------------------------------------------------------------------------
+Rule 2706/0 (Power=1.0)
+The Land Managor
+
+      The Land Managor is an office.
+      
+      The Land Managor's report includes a list of types of Crops and
+      their attributes, and a list of Crops planted and harvested during
+      the current Crop Season.
+
+------------------------------------------------------------------------
+Rule 2707/2 (Power=1.0)
+Pyrite
+
+      Pyrite is a type of fixed currency, tracked by the Land Managor.
+      
+      A player CAN pay a fee of 1 Spendie to gain 100 Pyrite.
+      
+      A player CAN pay a fee of 200 Pyrite to gain 1 Spendie, provided
+      that e has gained fewer than 40 Spendies in this way during this
+      Agoran month.
+
+------------------------------------------------------------------------
+Rule 2708/1 (Power=1.0)
+Crops
+
+      Creating and destroying types of Crop is secured.
+      
+      Growing Season, Seed Cost, Growth Duration, and Sell Price are
+      Crop type switches, tracked by the Land Managor, with these
+      values:
+      
+      * Growing Season - all Crop Seasons
+      * Seed Cost - integers from 50 to 200 inclusive, rounded
+      * Growth Duration - integers from 3 to 24 inclusive, rounded
+      * Sell Price - integers from 100 to 400, rounded
+      
+      Rules to the contrary notwithstanding, a Crop type CANNOT be
+      planted while its Seed Cost is null, and CANNOT be harvested while
+      its Growth Duration or Sell Price is null.
+      
+      When rounding Seed Cost or Growth Duration, ties are broken toward
+      the larger value.
+      
+      An in-season Crop is one whose Growth Season is in progress. All
+      others are out-of-season.
+
+------------------------------------------------------------------------
+Rule 2709/3 (Power=1.0)
+The Growth Cycle
+
+      A player CAN plant an in-season Crop by paying a fee in Pyrite
+      equal to its Seed Cost, provided that eir number of Hectares is
+      greater than the number of Crops e planted earlier in the current
+      Crop Season and has not yet harvested.
+      
+      Once per Crop that a player planted earlier in the current Crop
+      Season and at least <Growth Duration> days ago, e CAN harvest it
+      by announcement, gaining Pyrite equal to its Sell Price
+      (exception: if the Weather for the week e planted it had already
+      been selected at the time e planted it, e CANNOT harvest it before
+      the end of the week after the week e planted it).
+      
+      When the Fields Wither, all unharvested Crops are lost. For the
+      avoidance of doubt, the previous paragraph notwithstanding, a
+      player CANNOT harvest a Crop planted before the most recent time
+      the Fields Withered.
+      
+      Once each week, the Land Managor SHALL randomly select and
+      announce the Weather for that week, which is either Good
+      (probability 30%), Neutral (probability 60%), or Bad (probability
+      10%). At the end of each week in which Bad Weather was selected
+      this way, all unharvested Crops are lost.
+      
+      At the end of each Crop Season, the Fields Wither.
+
+------------------------------------------------------------------------
+Rule 2710/3 (Power=1.0)
+Genetic Modification
+
+      Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
+      create a new type of Crop, specifying its name. The Land Managor
+      CAN once by announcement, and SHALL in a timely fashion, set its
+      Growth Season, Seed Cost, Growth Duration, and Sell Price to
+      randomly selected valid values.
+      
+      Once per Crop Season, a player CAN pay a fee of 750 Pyrite to
+      alter a type of out-of-season Crop's Seed Cost, Growth Duration,
+      or Sell Price by up to 25% in either direction.
+      
+      Once per Crop Season, a player CAN pay a fee of 10000 Pyrite to
+      remove a type of out-of-season Crop.
+      
+      Once per Crop Season, the Land Managor CAN and SHALL by
+      announcement randomly select a type of Crop that was in-season
+      during the previous season, select a random attribute (Seed Cost
+      or Sell Price), and set that attribute to a randomly selected
+      valid value. If there is no such type to select, then e SHALL
+      instead announce that fact.
+
+------------------------------------------------------------------------
+Rule 2711/1 (Power=1.0)
+Light Overexposure
+
+      When a player wins the game as a result of Outshining the Sun, the
+      following happen in order:
+      
+      * All Pyrite is destroyed.
+      
+      * The Fields Wither.
+      
+      * All Hectares are destroyed.
+      
+      * Each player is granted 16 Hectares.
+
+------------------------------------------------------------------------
+========================================================================
+Numbers, and Cards Thereof
+   Distinct denominations dominate desperate, dedicated deck-builders
+   during this delightful distribution diversion.
+------------------------------------------------------------------------
+Rule 2712/0 (Power=1.0)
+Number Cards
+
+      Number cards are a type of asset. Ownership of number cards is
+      restricted to players and contracts. Each number card has a type,
+      which is a decimal digit in the range 0 to 9 inclusive. Number
+      cards with the same type are fungible.
+      
+      The Numerator is an office, and the recordkeepor of number cards.
+
+------------------------------------------------------------------------
+Rule 2713/1 (Power=1.0)
+Scoring Numbers
+
+      Whenever an inquiry case with an ID number is assigned a
+      judgement, if it had never previously been assigned a judgement,
+      its judge scores its ID number, unless its initiator had initiated
+      4 or more other CFJs earlier in the same week that it was
+      initiated.
+      
+      Whenever a distributed proposal is adopted, its author scores its
+      ID number, unless its author had submitted 8 or more proposals
+      earlier in the same week that it was submitted.
+      
+      Whenever a player scores a number as described in this rule, the
+      Numerator CAN once, and SHALL in a timely manner, grant that
+      player (and, if the number was scored due to the adoption of a
+      proposal, also a randomly chosen other player who voted FOR on a
+      referendum to adopt that proposal) a number card for each digit in
+      that number, whose type is that digit.
+      
+      Officers SHALL NOT assign ID numbers to distributed proposals or
+      CFJs that are out of sequence, but are given reasonable discretion
+      to determine what "in sequence" means (e.g. officers may choose
+      whether to include or exclude in the numbering sequence entities
+      whose proposal or CFJ status is disputed or unclear). ID numbers
+      that are more than 5 digits long cannot be scored (this is an
+      exception to the other paragraphs of this rule and takes
+      precedence over them).
+
+------------------------------------------------------------------------
+Rule 2714/0 (Power=1.0)
+Spending Number Cards
+
+      A player CAN, once per week, pay ten number cards, where each of
+      those number cards is of a different type, to gain 25 radiance.
+      
+      For any two decimal digits X and Y (which may be the same), a
+      player CAN pay 2 spendies, a number card of type X, and a number
+      card of type Y to grant emself a number card whose type is the
+      last digit of the sum X+Y.
+
+------------------------------------------------------------------------
+========================================================================
+Victory
+   All games have winners, and Agora is no exception. If you're
+   interested in getting some serious bragging points among the Agorans,
+   this is the right place to look.
+------------------------------------------------------------------------
+Rule 2449/3 (Power=3)
+Winning the Game
+
+      When the Rules state that a person or persons win the game, those
+      persons win the game; specifically they win the Round that ends
+      with the indicated win. Agora itself does not end and the ruleset
+      remains unchanged. The Herald is then authorized to award those
+      persons the Patent Title of Champion once, by announcement.
+
+------------------------------------------------------------------------
+Rule 2465/1 (Power=0.3)
+Victory by Apathy
+
+      A player CAN Declare Apathy without objection, specifying a set of
+      players. Upon doing so, the specified players win the game, except
+      for those who have won the game through this Rule in the past 14
+      days.
+
+------------------------------------------------------------------------
+Rule 2553/6 (Power=1)
+Win by Paradox
+
+      If a CFJ about the effectiveness, possibility, or legality of a
+      change in the gamestate has been assigned a judgement of
+      PARADOXICAL continuously for between 7 and 90 days, then that
+      case's initiator, CAN, by announcement, Transcend Logic,
+      specifying that CFJ, provided that e has not already won the game
+      with respect to that CFJ or to a CFJ linked to it. When a person
+      transcends logic, e wins the game.
+      
+      A player who wins in this fashion SHOULD submit a proposal to
+      prevent the paradox from arising again.
+
+------------------------------------------------------------------------
+========================================================================
+Awards
+   Even if it's not a win, there are still a good few opportunities to
+   win bragging points, like Ribbons and Patent Titles.
+------------------------------------------------------------------------
+Rule 2438/36 (Power=3)
+Ribbons
+
+      The Tailor is an office, and the recordkeepor of Ribbons.
+      
+      For each type of Ribbon, <type> Ribbon Ownership is a secured
+      negative boolean person switch, tracked by the Tailor in eir
+      monthly report. Laudability is a secured person switch with
+      non-negative integer possible values, defaulting to 0, tracked by
+      the Tailor as part of eir monthly report. When a person owns more
+      types of ribbons than eir Laudability, eir Laudability is set to
+      the number of types of ribbons e owns.
+      
+      To "award a person a <Ribbon type>" is to flip that person's
+      <that type> Ribbon Ownership to True. A person "owns a <Ribbon
+      type>" if eir <that type> Ribbon Ownership is True.
+      
+      A person qualifies for a type of Ribbon if e has earned that type
+      of Ribbon within the preceding 7 days (including earlier in the
+      same message).
+      
+      While a person owns all types of Ribbon, that person can Raise a
+      Banner by announcement. This causes that person to win the game.
+      When a person wins this way, for each type of Ribbon, that
+      person's <type> Ribbon Ownership is flipped to False.
+      
+      The types of Ribbon, and the methods of obtaining them, are as
+      follows:
+      
+      Red (R): When a proposal is adopted and changes at least one rule
+      that, immediately before or after the change, has Power >= 3, its
+      proposer earns a Red Ribbon.
+      
+      Orange (O): When a proposal is adopted via a referendum on which
+      no valid ballots were AGAINST (after evaluating conditionals), its
+      proposer earns an Orange Ribbon.
+      
+      Green (G): While a person holds a voluntary office, has done so
+      continuously for the past 30 days, and has not failed to perform
+      any duties of that office within the appropriate time limits
+      during those 30 days, that person qualifies for a Green Ribbon.
+      
+      Emerald (E): When a person wins an election, e earns an Emerald
+      Ribbon.
+      
+      Cyan (C): When a person deputises for an office or is the delegate
+      for an office while its holder is on vacation, and that person has
+      not held or deputised for that office within the past 7 days, that
+      person earns a Cyan Ribbon.
+      
+      Blue (B): When a person assigns a judgement to a CFJ, and has
+      never violated a time limit to assign a judgement to that CFJ,
+      nor ever self-filed a motion to reconsider that CFJ, that person
+      earns a Blue Ribbon.
+      
+      Magenta (M): When, during Agora's Birthday, a person publicly
+      acknowledges it, that person earns a Magenta Ribbon.
+      
+      Ultraviolet (U): When a person is awarded the Patent Title
+      Champion, that person earns an Ultraviolet Ribbon, unless the
+      Champion title was awarded as the result of winning the game via
+      this rule.
+      
+      Violet (V): When a person is awarded a Patent Title other than
+      Champion or a degree, that person earns a Violet Ribbon.
+      
+      Indigo (I): When a person is awarded a degree, that person earns
+      an Indigo Ribbon.
+      
+      Platinum (P): The Speaker qualifies for a Platinum Ribbon.
+      
+      Lime (L): A person qualifies for a Lime Ribbon if three or more
+      proposals adopted in the preceding 7 days had that person as a
+      coauthor.
+      
+      White (W): A player qualifies for a White Ribbon if e has never
+      previously owned a White Ribbon (including under previous
+      rulesets). A player who has been registered for the past 30+ days
+      or 180+ cumulative days and has never acted on eir own behalf to
+      cause another person to gain a White Ribbon (including under a
+      previous ruleset) CAN act on eir own behalf to cause another
+      person to earn a White Ribbon by announcement.
+      
+      Black (K): An instrument CAN, as part of its effect, cause a
+      person to earn a Black Ribbon.
+      
+      Gray (A): Once per month the Tailor CAN, by announcement, cause a
+      specified player to earn a Gray Ribbon. E is ENCOURAGED to do so
+      before publishing eir monthly report.
+      
+      Transparent (T): A person qualifies for a Transparent Ribbon while
+      the number of other types of Ribbon that that person qualified for
+      within the previous 7 days is at least 5.
+      
+      When a person earns a White, Black or Gray Ribbon, this Rule
+      awards that person a Ribbon of that type.
+      
+      While a person qualifies for a type of Ribbon:
+      
+        - If e has not owned that type of Ribbon within the preceding 7
+          days, any player CAN, by announcement, award em that type of
+          Ribbon.
+      
+      Qualifying for ribbons is secured. Earning ribbons is secured.
+
+------------------------------------------------------------------------
+Rule 2480/9 (Power=3.1)
+Festivals
+
+      Festivity is a secured singleton switch, whose possible values are
+      integers ranging from 0 inclusive to the number of defined types
+      of Ribbon exclusive, and defaulting to 0. Festivity is tracked in
+      the Tailor's monthly report. In addition, while Festivity is
+      non-zero, the Tailor SHALL announce its value each week; a public
+      document purporting to be such an announcement is self-ratifying.
+      A Festival is ongoing whenever Agora's Festivity is non-zero.
+      
+      If Agora's Festivity has had the same non-zero value for 14 days
+      or more, or if it has a non-zero value and fewer than 5 players
+      are Festive, then any player CAN flip it to 0 by announcement.
+      
+      A Festive person is a person whose Laudability is greater than or
+      equal to Agora's Festivity. An N-Festive person is a person who
+      would be Festive, were Agora's Festivity N.
+      
+      For any integer N greater than Agora's Festivity, an N-Festive
+      player CAN flip Agora's Festivity to N with 4 support from other
+      N-Festive players, unless Agora's Festivity has had a value
+      greater than or equal to N in the past 21 days.
+
+------------------------------------------------------------------------
+Rule 2481/9 (Power=3.1)
+Festival Restrictions
+
+      While Agora's Festivity is non-zero, the following apply:
+      
+      1. Rules to the contrary notwithstanding, non-Festive players
+         CANNOT support/be a supporter for tabled action intents;
+      
+      2. Quorum for Agoran Decisions is equal to half the number of
+         Festive players, rounded up;
+      
+      3. Each Festive player has the maximum possible voting strength.
+         Each person who is not a Festive player has the minimum
+         possible voting strength. Rules to the contrary
+         notwithstanding, no modifications to voting strength (other
+         than defining the maximum and minimum) are applied by any other
+         Rule.
+      
+      While Agora's Festivity is zero, the paragraphs above have no
+      effect and are ignored.
+
+------------------------------------------------------------------------
+Rule 649/44 (Power=1.5)
+Patent Titles
+
+      A Patent Title is a legal title held by an entity in recognition
+      of eir distinction. The Herald is an office; its holder is
+      responsible for tracking Patent Titles in eir monthly report.
+      
+      Awarding or revoking a Patent Title is secured at power 1. A
+      person permitted and enabled to award (revoke) a Patent Title
+      SHALL do so in a timely fashion after the conditions authorizing
+      em to do so are announced, unless there is an open judicial case
+      contesting the validity of those conditions.
+      
+      The Herald CAN award a specified Patent Title to a specified
+      player with 2 Agoran consent. Any player CAN award a specified
+      Patent Title to a specified player, as authorized by the Herald's
+      Administrative Regulations.
+
+------------------------------------------------------------------------
+Rule 2415/1 (Power=1.5)
+Badges
+
+      A Badge is any patent title with the word 'badge' as part of its
+      name. A badge SHOULD be used to award multiple persons for
+      participating in specific event of note within Agora.  Any player
+      CAN award a badge that does not yet exist to three or more persons
+      simultaneously, with Agoran consent. The Herald CAN award an
+      existing badge to persons without objection.
+
+------------------------------------------------------------------------
+Rule 1367/27 (Power=2)
+Degrees
+
+      Certain patent titles are known as degrees. The degrees are
+      
+      - Associate of Nomic Art             (A.N.A.)
+      - Associate of Nomic                 (A.N.)
+      - Juris Doctorate of Nomic           (J.N.)
+      - Baccalaureate of Nomic Art         (B.N.A.)
+      - Baccalaureate of Nomic             (B.N.)
+      - Magisteriate of Nomic Art          (M.N.A.)
+      - Magisteriate of Nomic              (M.N.)
+      - Doctorate of Nomic Art             (D.N.Art.)
+      - Doctorate of Nomic History         (D.N.Hist.)
+      - Doctorate of Nomic Law             (D.N.Law.)
+      - Doctorate of Nomic Science         (D.N.Sci.)
+      - Doctorate of Nomic Philosophy      (D.N.Phil.)
+      
+      There are four classes of degrees, ranked in ascending order of
+      merit: Associate degrees (A.N.A. and A.N.), Baccalaureate degrees
+      (J.N through B.N.), Magisteriate degrees (M.N.A and M.N), and
+      Doctorate degrees (D.N.Art. through D.N.Phil.).
+      
+      A specified degree CAN be awarded by any player other than the
+      awardee, with 2 Agoran consent. It SHOULD only be awarded for the
+      publication of an original thesis of scholarly worth (including
+      responses to peer-review), published with explicit intent to
+      qualify for a degree. The Herald SHOULD coordinate the peer-review
+      process and the awarding of degrees.
+      
+      The Herald is ENCOURAGED to enact administrative regulations
+      including specific guidelines on how to submit theses, a detailed
+      description of the peer-review process, and specific
+      qualifications for degrees in general and for specific degrees.
+      
+      Degrees SHOULD be awarded according to the extent to which the
+      thesis contributes to Nomic culture or thought: Associate degrees
+      for an appreciable contribution, Baccalaureate degrees for a
+      substantial contribution, Magisteriate degrees for a remarkable
+      contribution, and Doctorate degrees for an exceptional
+      contribution. Any degree at the Doctorate level SHOULD take into
+      account the awardee's academic history and participation in Agora
+      over time.
+      
+      Theses for Art degrees SHOULD demonstrate substantial creativity
+      and need not be in written form. Theses for all other degrees
+      SHOULD demonstrate substantial research or analysis. J.N.  and
+      D.N.Law are appropriate for high-quality legal analysis, of the
+      sort typical to CFJs, but exceeding an ordinary CFJ in depth.  The
+      D.N.Hist. degree is appropriate for historical research,
+      especially when it presents a narrative that educates Agorans
+      about the events of the past. The D.N.Sci. degree is appropriate
+      for theses that demonstrate concrete or scientific thinking,
+      whereas the D.N.Phil. is appropriate for theses that demonstrate
+      abstract or philosophical thinking.
+
+------------------------------------------------------------------------
+Rule 2231/7 (Power=3)
+Order of the Hero of Agora Nomic
+
+      Heroic titles are Agora's premier patent titles of distinction,
+      and CAN be awarded to persons for meritorious service only by a
+      proposal of power 3 or greater, which SHOULD explain why those
+      persons are qualified. Bearers of heroic titles (Heroes)
+      constitute the Order of the Hero of Agora Nomic.
+      
+      The Heroic titles in decreasing precedence are:
+      
+      Grand Hero of Agora Nomic (GHAN) -- This title may be awarded to
+      any person obviously and directly responsible for the existence of
+      Agora and/or Nomic in general. As this title is the highest honour
+      that Agora may bestow, a Bearer of this title OUGHT to be treated
+      right good forever.
+      
+      Hero of Agora Nomic (HAN) -- This title may be awarded to any
+      person for outstanding meritorious service to Agora above and
+      beyond the call of duty.
+
+------------------------------------------------------------------------
+Rule 2581/6 (Power=1)
+Official Patent Titles
+
+      The following Patent Titles CAN be awarded by the indicated
+      Officers with 2 Agoran consent.  In order to balance the history,
+      dignity, spontaneity, and serendipity of the awards, the Herald,
+      Speaker, and Prime Minister are STRONGLY ENCOURAGED to provide
+      their support or objections, and reasons for doing so, reasonably
+      quickly after any such intents are announced.
+      
+       - Tapecutter, awardable by the Rulekeepor to the author of an
+         adopted proposal that significantly reduces, streamlines, or
+         simplifies the ruleset.
+      
+       - Scamster, awardable by the Referee to any player who has shown
+         great enthusiasm, persistence, or skill in the perpetrating of
+         scams without breaking any Rules.
+      
+       - Hard Labor, awardable by the ADoP to any player who holds 2+
+         offices for 3+ continuous months while performing eir official
+         duties in a timely and conscientious manner that promotes the
+         gameplay of the office.
+      
+       - MacGyver, awardable by the Assessor to the author of an adopted
+         proposal that fixes serious bugs in the ruleset, especially if
+         the fix uses existing rules text in novel and unexpected ways,
+         or to a judge for similarly using rules text to resolve an
+         apparent bug without the need for legislative action.
+      
+       - Bard, by Speaker the award should given be, to persons who
+         publish repeated creative wit or poetry.
+      
+       - Helping Hand, awardable by any Officer to any person not
+         holding that office who puts substantial labor into aiding in
+         the duties of that office, without consideration of any other
+         reward they might receive.
+      
+       - Tiger Team, awardable by any Officer to any player who points
+         out a usable rules bug that would directly provide em with a
+         strong game advantage if e used it, but proposes a fix without
+         attempting to use the bug.
+      
+       - Terms of Service, awardable by the Notary to any player who
+         creates multiple Contracts that achieve fun gameplay and
+         significantly impacts Agora as a whole
+      
+      The Herald is also ENCOURAGED to proactively recommend or, as
+      otherwise permitted, award these titles when appropriate,
+      especially if the potential awardee is the officer emself.
+
+------------------------------------------------------------------------
+Rule 2582/4 (Power=1)
+Annual Awards
+
+      April is hereby designated Awards Month.
+      
+      
+      The following Patent Titles CAN be awarded by the indicated
+      Officers with 2 Agoran consent. The Patent Titles SHOULD be
+      awarded during Awards Month, and the award SHOULD be made to
+      commemorate acts performed in the previous Agoran year. The full
+      name of each awarded Patent Title is [Title Below] NNNN, where
+      NNNN is the year each act was performed.
+      
+      The Herald SHALL announce it is Awards Month in an officially
+      timely fashion after it begins. E SHOULD petition officers to
+      award their awards if they have not done so by the end of Awards
+      Month.
+      
+      Each indicated Officer SHOULD award these titles to 1-2 persons
+      each year, and SHOULD solicit an open call for nominations and
+      discussion before making these awards. The Herald SHALL note any
+      additional information indicated below as part of eir report of
+      Patent Titles.
+      
+       - Silver Quill, awardable by the Promotor to the author of a
+         proposal of outstanding merit and influence on the game, or to
+         a coauthor, although e SHOULD only do so if it is generally
+         agreed that that coauthor contributed more to that proposal
+         than the person who submitted it (additional information: ID
+         number of the proposal).
+      
+       - Wooden Gavel, awardable by the Arbitor to the judge of a CFJ
+         or series of CFJs with a strong and foundational impact on the
+         judicial precedents of Agora (additional information: ID
+         numbers of the judgements).
+      
+       - Golden Glove, awardable by the Tailor to the player who made
+         the most interesting, successful, and/or competitive series of
+         moves while attempting to win or get substantially ahead in
+         the game.
+      
+       - Employee of the Year, awardable by the ADoP to the persons
+         who put the most persistent hard labor into keeping the game
+         going through the performance of Officers' duties (additional
+         information: offices held by the awardee during that year).
+
+------------------------------------------------------------------------
+========================================================================
+Leaders
+   Agora has a good few leaders, most of which are nothing more than
+   sinecures. This section isn't all that important.
+------------------------------------------------------------------------
+Rule 103/31 (Power=2)
+The Speaker
+
+      The Speaker is an imposed office and the figurehead leader of
+      Agora. The player or players who have most recently won the game
+      are called Laureled. If at any time the office of Speaker is
+      vacant, or when one or more players win Agora, then the Prime
+      Minister CAN once appoint a Laureled player to the office of
+      Speaker by announcement.
+      
+      Whenever the Prime Minister CAN appoint a Laureled player to the
+      office of Speaker, e SHALL do so in a timely fashion, except that
+      the Prime Minister MAY defer appointing a new Speaker while there
+      is pending one or more open CFJs that could plausibly determine or
+      affect the question of whether a player is Laureled.  If the Prime
+      Minister is emself Laureled, eir power to appoint a Speaker
+      continues for the entirety of a message in which e resigns as
+      Prime Minister, and if e is the only Laureled player, e CAN void
+      that power, and thereby discharge the obligation to use it, by
+      announcing that e declines to take the office.
+      
+      If the office of Speaker has been held continuously by the same
+      person for the past 90+ days, then any player CAN appoint another
+      player to the office with support.
+
+------------------------------------------------------------------------
+Rule 104/0 (Power=3)
+First Speaker
+
+      The Speaker for the first game shall be Michael Norrish.
+
+------------------------------------------------------------------------
+Rule 2423/6 (Power=2)
+First Among Equals
+
+      The Prime Minister is an office. The Prime Minister is elected by
+      the players of Agora primarily on account of not being the other
+      person. The Prime Minister SHOULD ensure that Agoran affairs
+      proceed smoothly.
+
+------------------------------------------------------------------------
+Rule 2463/4 (Power=2)
+Motion of No Confidence
+
+      Any player CAN, with Agoran consent, cause the office of Prime
+      Minister to become vacant, provided that the message in which e
+      does so contains the string "MOTION OF NO CONFIDENCE" in its
+      subject line. Motions of no confidence SHOULD be used whenever
+      Agorans want to shake things up, rather than as a personal
+      judgement of the Prime Minister.
+
+------------------------------------------------------------------------
+Rule 2451/12 (Power=2)
+Executive Orders
+
+      Once per week, except as otherwise forbidden by this rule, the
+      current Prime Minister CAN issue a Cabinet Order by announcement
+      to perform the action(s) authorized by that Order.
+      
+      Each Cabinet Order is associated with an office. The current Prime
+      Minister CANNOT issue more than one Cabinet Order associated with
+      the same office more than once in the same month, nor can e issue
+      a Cabinet Order associated with a vacant office.
+      
+      The available Cabinet Orders are:
+      
+      - Certiorari (Arbitor): The Prime Minister assigns emself as judge
+        of a specified open case.
+      
+      - Dive (Referee): The Prime Minister levies a fine of 2 on a
+        specified player. Rules to the contrary notwithstanding, the
+        reason for the fine MAY be any grievance held by the Prime
+        Minister, not necessarily a violation of the rules, against the
+        person to whom the fine is levied.
+      
+      - Manifesto (Promotor): The Prime Minister distributes a specified
+        proposal in the Proposal Pool.
+
+------------------------------------------------------------------------
+Rule 2575/3 (Power=3)
+The Distributor
+
+      The Distributor is an imposed office whose holder is generally
+      responsible for the management of the primary Agoran fora. The
+      holder CANNOT be changed except without objection or by proposal.
+      Rules to the contrary notwithstanding, the Distributor CANNOT
+      deregister or be deregistered.
+
+------------------------------------------------------------------------
+========================================================================
+Agoran Culture
+   Nothing in here is all that important. Mostly describes holidays and
+   tournaments, and joke rules.
+------------------------------------------------------------------------
+Rule 2327/3 (Power=1)
+Read the Ruleset Week
+
+      The first Agoran week each year which falls entirely in February
+      is Read the Ruleset Week. Agorans are encouraged to read the
+      ruleset during Read the Ruleset Week.
+
+------------------------------------------------------------------------
+Rule 2686/0 (Power=1.0)
+Ratify the Ruleset Week
+
+      The Agoran week each year containing the Ides of March is Ratify
+      the Ruleset Week. During Ratify the Ruleset Week, the Rulekeepor
+      SHALL submit a proposal to ratify a purported ruleset published
+      since the last time the ruleset was ratified.
+
+------------------------------------------------------------------------
+Rule 1727/21 (Power=1)
+Happy Birthday
+
+      WHEREAS, in June 1993, the world's only MUD-based nomic, Nomic
+      World, had recently collapsed; yet, many of its players enjoyed
+      nomic and did not wish to forego such a noble pursuit;
+      
+      And WHEREAS, Originator Chuck Carroll therefore composed an
+      Initial Ruleset for an email nomic, based on the Initial Rulesets
+      of Peter Suber, inventor of Nomic, and on the Rulesets of Nomic
+      World and other nomics,
+      
+      And WHEREAS, a nomic thus rose like a phoenix from the ashes of
+      Nomic World, played on the mailing list originally set up for
+      discussion of Nomic World, and coming into existence at June 30,
+      1993, 00:04:30 GMT +1200, with a message sent by FIRST SPEAKER
+      Michael Norrish, which read, in part,
+      
+        "I see no reason to let this get bogged down; there are no
+        precedents or rules that cover this situation, so I think we may
+        as well begin directly.... Proposals for new rules are invited.
+        In accordance with the rules, these will be published, numbered
+        and distributed by me at my earliest convenience."
+      
+      And WHEREAS, this nomic began as a humble and nameless nomic,
+      known unofficially as yoyo, after the mailing list it was played
+      on, until its Players, much later, gave it its OFFICIAL NAME of
+      Agora,
+      
+      And WHEREAS, Agora has now become the wisest, noblest, eldest, and
+      most interesting of all active email nomics, due to the hard work
+      and diligence of Agorans as well as the frequent advice of
+      Agoraphobes,
+      
+      And WHEREAS, Agorans desire to joyously commemorate Agora's
+      founding,
+      
+      BE IT THEREFORE RESOLVED that Agora's Birthday is defined to be
+      the entire day of June 30, GMT +1200, of each year.
+
+------------------------------------------------------------------------
+Rule 2464/8 (Power=1)
+Tournaments
+
+      A Tournament is a sub-game of Agora specifically sanctioned to be
+      initiated as a tournament by the Rules. Each time that one or more
+      winners of a tournament are determined before it concludes, that
+      person or those persons win the game. A tournament concludes when
+      its regulations state that it concludes. Additionally, if it has
+      not previously concluded, a tournament concludes 3 months after
+      its initiation.
+      
+      A Tournament is governed by a set of regulations, created in
+      accordance with its parent rule, which have binding control over
+      those who freely consent to oversee or participate in the
+      tournament and over the tournament itself. When a tournament is
+      initiated, its governing regulations are enacted. Once the
+      tournament is concluded, these regulations cease to have any
+      effect, and CAN be repealed by any player by announcement. A
+      Tournament's regulations collectively have Mint Authority.
+      
+      Unless otherwise specified by the tournament's regulations, the
+      gamemaster of a tournament is the person who initiated it.
+      
+      A tournament's regulations can provide for the enactment,
+      amendment, and repeal of regulations for that tournament; if the
+      regulations are silent, the gamemaster CAN, with 2 Agoran consent,
+      enact, amend, or repeal such regulations. Any regulations so
+      enacted are deemed to be regulations of the same tournament.
+
+------------------------------------------------------------------------
+Rule 2566/2 (Power=1)
+Free Tournaments
+
+      A player who is not the gamemaster of an existing tournament CAN
+      initiate a sanctioned tournament with a specified set of
+      regulations with 2 Agoran consent. A tournament created using this
+      method is called a Free Tournament.
+      
+      A free tournament CAN be concluded with no winner without 3
+      objections. Tournaments SHOULD only be concluded in this manner if
+      it is clear that its regulations are malformed or contrary to the
+      tournament's intent or that it is IMPOSSIBLE for any player to win
+      the tournament.
+
+------------------------------------------------------------------------
+Rule 2495/4 (Power=1)
+The Birthday Tournament
+
+      In a timely fashion after the start of June 1 of each year, the
+      Herald SHALL propose a set of Regulations governing a Birthday
+      Tournament for that year; the Herald CAN also delegate the
+      responsibility for creating or running the tournament to another
+      player, with that player's consent, by announcement.
+      
+      The Birthday Tournament's regulations SHOULD be such that all
+      persons who choose to participate have a fair chance of winning
+      the tournament (according to its regulations), and a winner
+      SHOULD be expected within 2-3 weeks following the tournament's
+      initiation.
+      
+      After adequate time for discussion of the Birthday Tournament's
+      regulations, the Herald (or delegate) CAN initiate a sanctioned
+      tournament, specifying a finalized set of governing regulations,
+      without 3 objections. These regulations may thereafter be amended
+      only by the Herald or eir designee Without 3 Objections. The
+      initiation SHOULD be timed to coincide with Agora's Birthday.
+
+------------------------------------------------------------------------
+Rule 1769/15 (Power=3)
+Holidays
+
+      The period each year from midnight GMT on the morning of 24
+      December to the beginning of the first Agoran week to begin after
+      2 January is a Holiday.
+      
+      The week that contains the beginning of Agora's Birthday,
+      together with the following week, is a Holiday.
+      
+      If a person breaks a Rule by missing a deadline that occurs during
+      a Holiday, punishment is generally not appropriate.
+
+------------------------------------------------------------------------
+Rule 2029/1 (Power=4)
+Town Fountain
+
+                      /\   /\
+                      / \ / \
+                         T
+                        his
+                      Power-04
+               Rule (the first ever)
+                was placed to honor
+           The Agoran  Spirit Of The Game
+           by G., Steve, Murphy, root
+           and OscarMeyr, Scamsters. Look
+           on our works, ye Marvy, but do
+      always Dance a Powerful Dance.  Hail Eris!
+
+------------------------------------------------------------------------
+Rule 2694/1 (Power=1.0)
+Hats
+
+      Hats are a secured player switch defaulting to "none" with the
+      following possible values and associated meanings for the player's
+      current focus:
+      
+        none: no particular focus
+      
+        armored helm: competing for wins and in sub-games
+      
+        dunce cap: expressing regret or acknowledging a mistake
+      
+        floral wreath: resolving conflict
+      
+        green eyeshade: maintaining accurate records
+      
+        hard hat: repairing problems in the rules
+      
+        jaunty beret: exploring creative expression
+      
+        jester's cap: bringing levity and humor
+      
+        judicial wig: ruling on CFJs and interpreting the rules
+      
+        knitted cap: finding loopholes and exploits
+      
+        plain hat: simplifying the rules
+      
+        rugged fedora: researching Agoran and Nomic history
+      
+        sleeping cap: reducing eir participation in Agora
+      
+        steampunk hat: creating new game mechanics
+      
+        traditional mortarboard: conducting research and writing theses
+      
+      A player CAN change eir hat at any time by notifying the
+      recordkeepor for eir hat (publicly or privately). The recordkeepor
+      for a player's hat is the player emself. Rules to the contrary
+      notwithstanding, reporting on one's own hat is OPTIONAL.
+      
+      Hats do not otherwise limit or restrict a player's actions in any
+      way, and every player is ENCOURAGED to participate in all aspects
+      of the game regardless of eir current hat.
+
+------------------------------------------------------------------------
+Rule 2683/3 (Power=0.5)
+The Boulder
+
+      The Absurdor is a sortitioned office.
+      
+      The Boulder's Height is a singleton integer switch defaulting to
+      0, tracked by the Absurdor.
+      
+      The Boulder's Slope is a singleton integer switch defaulting to 1,
+      tracked by the Absurdor.
+      
+      Each player CAN, once a week, by announcement, push the boulder.
+      When a player pushes the Boulder, its Height is increased by 1.
+      At the beginning of each week, if the boulder was pushed in the
+      previous week at least as many times as the Boulder's Slope, then
+      the Boulder's Slope is increased by 1; otherwise, the Boulder's
+      Height is set to 0, and the Boulder's Slope is set to 1. The
+      Absurdor SHOULD list the largest Height and Slope of the Boulder
+      ever reached in eir report.
+
+------------------------------------------------------------------------
+Rule 2695/4 (Power=0.5)
+The Veblen
+
+      The Veblen is a unique indestructible fixed asset tracked by the
+      Absurdor, with ownership entirely restricted to players and Agora.
+      If the Veblen would otherwise be in abeyance, or if it is owned by
+      the Lost and Found Department, it is immediately transferred to
+      Agora.
+      
+      The Veblen cost is a secured singleton positive integer switch
+      tracked by the Absurdor and with default value one.
+      
+      A player CAN pay a fee of X spendies, where X is an integer not
+      less than the current Veblen cost, to set the Veblen cost to X+1.
+      When e does so, if e does not own the Veblen, the Veblen is
+      transferred to em.
+      
+      If the Veblen has not been transferred or devalued within the past
+      month, then a player CAN devalue the Veblen by announcement, thus
+      setting the Veblen cost to half its current value (rounded up).
+      
+      The owner of the Veblen SHOULD conspicuously show off eir
+      ownership of it from time to time.
+      
+      If the Veblen does not exist and no one has Created Something E
+      Cannot Destroy in the past week, any player CAN, by announcement,
+      Create Something E Cannot Destroy. When e does so, e wins the
+      game, and the Veblen is created in eir possession. A player who
+      wins in this fashion SHOULD submit a proposal to prevent the
+      destruction from arising again.
+
+------------------------------------------------------------------------
+Rule 2702/0 (Power=1.0)
+Agoran Bingo
+
+      The Collar is an elected office responsible for administering
+      Agoran Bingo.
+      
+      Bingo state is a singleton switch tracked by the Collar with
+      possible values paused (default) and unpaused.
+      
+      If the bingo state is paused, the Collar CAN flip it to unpaused
+      by announcement, and e SHOULD do so unless there is reasonable
+      uncertainty as to the current bingo state or the validity of a
+      claimed bingo, or the Collar is actively drafting, discussing, or
+      trying to enact or amend eir administrative regulations. When the
+      bingo state is paused, all existing bingo board selections are
+      null and void, a player CANNOT select a bingo board, and a player
+      CANNOT call bingo.
+      
+      If the bingo state is unpaused, a player whose bingo board
+      contains at least one winning pattern of conditions -- as defined
+      in the Collar's regulations -- that are all satisfied CAN call
+      bingo by announcement. (For clarity, the states of any conditions
+      not in the winning pattern are irrelevant.) Eir announcement:
+      
+      1) MUST specify the claimed winning pattern and the conditions it
+         contains;
+      
+      2) MUST reveal any information required by the Collar's
+         adminstrative regulations for the method e used to select a
+         bingo board; and
+      
+      3) SHOULD include evidence demonstrating that each of the
+        conditions in the winning pattern is satisfied, other than any
+        conditions where such satisfaction is already clearly obvious.
+      
+      When a player successfully calls bingo, e wins the game and the
+      bingo state is flipped to paused.
+      
+      If no player has successfully called bingo in the previous 3
+      months, the Collar can flip the bingo state to paused without 2
+      objections.
+
+------------------------------------------------------------------------
+Rule 2703/0 (Power=1.0)
+Regulating Agoran Bingo
+
+      The Collar SHOULD try to enact and maintain administrative
+      regulations defining:
+      
+      * one or more methods for a player to select a bingo board;
+      
+      * the conditions that can be included on a player's bingo board;
+        and
+      
+      * one or more winning bingo patterns
+      
+      The methods for selecting a bingo board SHOULD be such that:
+      
+      * there is at least one method that permits a player to keep eir
+        bingo board secret until e calls bingo;
+      
+      * a player cannot change eir selection once made; and
+      
+      * a player cannot choose in advance with certainty the board e
+        will end up with
+      
+      Additionally, for each method of selecting a bingo board, the
+      Collar's regulations SHOULD specifiy:
+      
+      * what information, if any, a player electing that method MUST
+        reveal in order to successfully call bingo; and
+      
+      * what information, if any, the Collar MUST include in eir weekly
+        report for each player electing that method
+
+------------------------------------------------------------------------
+

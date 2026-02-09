@@ -1,0 +1,42 @@
+Rule 2480/9 (Power=3.1)
+Festivals
+
+      Festivity is a secured singleton switch, whose possible values are
+      integers ranging from 0 inclusive to the number of defined types
+      of Ribbon exclusive, and defaulting to 0. Festivity is tracked in
+      the Tailor's monthly report. In addition, while Festivity is
+      non-zero, the Tailor SHALL announce its value each week; a public
+      document purporting to be such an announcement is self-ratifying.
+      A Festival is ongoing whenever Agora's Festivity is non-zero.
+      
+      If Agora's Festivity has had the same non-zero value for 14 days
+      or more, or if it has a non-zero value and fewer than 5 players
+      are Festive, then any player CAN flip it to 0 by announcement.
+      
+      A Festive person is a person whose Laudability is greater than or
+      equal to Agora's Festivity. An N-Festive person is a person who
+      would be Festive, were Agora's Festivity N.
+      
+      For any integer N greater than Agora's Festivity, an N-Festive
+      player CAN flip Agora's Festivity to N with 4 support from other
+      N-Festive players, unless Agora's Festivity has had a value
+      greater than or equal to N in the past 21 days.
+
+History:
+
+Enacted by P7833 'Agoran Festivals' (ais523), 05 Dec 2016
+Amended(1) by P7888 'BILLY MAYS HERE' (o, R. Lee), 26 Sep 2017
+Amended(2) by P8163 'Holey Loops, Batman!' (Kate), 22 Feb 2019
+Amended(3) by cleaning (Janet), 14 Sep 2019
+Amended(4) by P8241 'Secured switches (v2.0)' (Janet, Falsifian), 18 Sep
+   2019
+Power changed from 2.1 to 3.1 by P8569 'Fixing Festivals' (Janet, Aris,
+   Murphy), 14 Jun 2021
+Amended(5) by P8634 'Laudability' (Janet), 24 Dec 2021
+Amended(6) by P8657 'Shrodinger's report' (Murphy), 03 Apr 2022
+Amended(7) by cleaning (4st), 22 Nov 2023
+Amended(8) by P9189 'Did you get a permit for that party?' (Janet,
+   Kate), 20 Oct 2024
+Amended(9) by P9190 'If there exists a party' (Janet, Kate), 20 Oct 2024
+
+Annotations:

@@ -1,0 +1,74 @@
+Rule 2201/15 (Power=3)
+Self-Ratification
+
+      When a public document published less than 180 days ago is first
+      continuously undoubted for two weeks after publication:
+      
+      - If the rules define it as self-ratifying, it is ratified.
+      
+      - If the rules define it as a self-ratifying attestation to a
+        given statement, the statement is ratified, with the publication
+        time being the instant at which the document was published.
+      
+        This clause is inapplicable if the statement to be ratified
+        cannot be reasonably ascertained from the ruleset and the
+        contents of the message.
+      
+      The definition of documents as self-ratifying and the definition
+      of documents as self-ratifying attestations are secured at power
+      3.
+      
+      Any person CAN by announcement issue a doubt (syn. claim of
+      error), identifying a public document published less than 180 days
+      ago and explaining the scope and nature of a perceived error in it
+      (or in a statement it attests to).
+      
+      When this happens, the publisher of the original document SHALL
+      (if e was required to publish that document) or SHOULD (otherwise)
+      do one of the following in a timely fashion, in an announcement
+      that clearly cites the claim of error:
+      
+         1. Deny the claim (causing it to cease to be a doubt).
+      
+         2. Publish a revision.
+      
+         3. Initiate an inquiry case regarding the truth of the claim
+            (if the subject is actually a matter of law), or cite a
+            relevant existing inquiry case.
+      
+      The issuance of a doubt on a documents, the denial of a claim of
+      error, and the ceasing of a doubt on a document to be a doubt are
+      secured at power 3.
+
+History:
+
+Enacted by P5459 'Split and Secure Ratification' (Murphy), 09 Mar 2008
+Amended(1) by P6106 'Fix Rule 2201' (Murphy, ais523), 22 Feb 2009
+Amended(2) by P6243 'Refactor accepted CoEs' (Murphy), 09 May 2009
+Amended(3) by P6622 'Take a third option' [green] (Murphy), 20 Feb 2010
+Amended(4) by P6744 (Murphy), 01 Jul 2010
+Amended(5) by P6922 'Take a fourth option' [disi.] (Murphy), 02 Jan 2011
+Amended(6) by P7420 'We don't need to be that idiosyncratic un-derp
+   version' (omd), 27 May 2013
+Amended(7) by R2430, 24 May 2017
+Amended(8) by P8188 'Blanket Denial' (G.), 23 Jul 2019
+Amended(9) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
+Amended(10) by P8292 'Self-Ratification Simplification Act' (Bernie,
+   Kate), 29 Jan 2020
+Amended(11) by P9050 'Self-ratification limitations' (Janet), 28 Jan
+   2024
+Amended(12) by P9050 'Self-ratification limitations' (Janet), 28 Jan
+   2024
+Amended(13) by P9184 'Ratification fix' (ais523), 11 Oct 2024
+Amended(14) by P9232 '++' (Mischief), 06 Jul 2025
+Amended(15) by P9258 'paragraph swap' (Cosmo), 20 Nov 2025
+
+Annotations:
+CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
+    {at the time of CFJ 1690, the resolution of an Agoran decision} must
+    explicitly identify the document, either individually or as part of
+    a set, and explicitly contest the accuracy of some aspect of it.
+CFJ 1790-1791 (called 11 Nov 2007): A challenge to any part of a
+    self-ratifying document prevents ratification of all parts of it.
+CFJ 3658 (called 27 Aug 2018): The scope of a claim of error is the
+    self-ratifying section of the report that contains the error.

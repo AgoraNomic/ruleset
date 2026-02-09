@@ -1,0 +1,115 @@
+Rule 1023/43 (Power=2)
+Agoran Time
+
+      The following terms are defined:
+      
+      1. The phrase "in a timely fashion" means "within 7 days". This
+         time period is set when the requirement is created (i.e. X days
+         before the limit ends). A requirement to perform an action at
+         an exact instant (e.g. "when X, Y SHALL Z"), but not "in the
+         same message", is instead interpreted as a requirement to
+         perform that action in a timely fashion after that instant.
+      2. The phrase "in an officially timely fashion" means "before the
+         end of the next Agoran week". This time period is set when the
+         requirement is created (i.e. between 7 and 14 days before the
+         period ends).
+      3. Agoran epochs:
+         a. Agoran days begin at midnight UTC.
+         b. Agoran weeks begin at midnight UTC on Monday. Eastman weeks
+            begin at midnight UTC on the 1st, 8th, 15th, 22nd, and 29th
+            of each Gregorian month; the fifth one of the month (if any)
+            lasts till the end of the month.
+         c. Agoran months begin at midnight UTC on the first day of each
+            Gregorian month.
+         d. Agoran quarters begin when the Agoran months of January,
+            April, July, and October begin.
+         e. Agoran years begin when the Agoran month of January begins.
+         f. A pivot is either the instant at which Agora Nomic began
+            (June 30, 1993, 00:04:30 GMT +1200) or an instant at which
+            at least one person won the game. When used as a period of
+            time, a "Round" (historical syn: "game") is the period of
+            time between a pivot and the next pivot.
+         The "Agoran" qualifier is assumed unless a different definition
+         is indicated (e.g. Eastman weeks). These definitions do not
+         apply to relative durations (e.g. "within <number> days after
+         <event>").
+      4. Two points in time are within a month of each other if:
+         a. they occur in the same Agoran month;
+         b. they occur in two consecutive Agoran months, and the later
+            of the two occurs in an earlier day in the month than the
+            earlier one;
+         c. they occur in two consecutive Agoran months on the same day
+            of the month, and the later of the two occurs at the same or
+            earlier time of day.
+      5. Any anniversary, monthly anniversary, or quarterly anniversary
+         that would otherwise attempt to occur on a day of the month
+         that does not exist (after considering any leap day) instead
+         occurs on the first day of the following month.
+
+History:
+
+Enacted by P805, between 01 Jan 1994 and 28 Feb 1994
+Amended by P907 (Nicol), between 01 Apr 1994 and 31 May 1994
+Amended by R750, between 01 Apr 1994 and 31 May 1994
+Amended by P1023, 05 Sep 1994
+Amended(1) by R750, 05 Sep 1994
+Amended(2) by P1413, 01 Feb 1995
+Amended(3) by P1434, 14 Feb 1995
+Amended(4) by P1682, 22 Aug 1995
+Amended(5) by P1727, 06 Oct 1995
+Amended(6) by P2042, 11 Dec 1995
+Amended(7) by P2489, 16 Feb 1996
+Amended(8) by P2567, 12 Apr 1996
+Mutated from MI=1 to MI=2 by P2602, 26 May 1996
+Amended(9) by P2629, 04 Jul 1996
+Amended(10) by P2770 (Steve), 19 Dec 1996
+Amended(11) by P3823 'Spring Cleaning' (Ørjan), 21 Jan 1999
+Amended(12) by P3823 'Spring Cleaning' (Ørjan), 21 Jan 1999
+Amended(13) by P3897 'A Separation of Money but not of Powers' (harvel),
+   27 Aug 1999
+Amended(14) by P3950 'Deference Deprecation' (harvel), 08 Dec 1999
+Amended(15) by P4004 'Simplify \'ASAP\'' (Steve), 08 May 2000
+Amended(16) by P4278 'Cold Storage' (harvel), 03 Apr 2002
+Amended(17) by P4406 'Criminal Reform (v1.3)' (Murphy), 30 Oct 2002
+Amended(18) by P4866 'Constitutional Repeals 2.0' (G.), 27 Aug 2006
+Amended(19) by P4938 'Paragraphs' (Murphy), 29 Apr 2007
+Amended(20) by P5005 'Power to the Paragraphs 1.1' (root), 18 Jun 2007
+Amended(21) by P5077 'MMI in practice' (Murphy), 18 Jul 2007
+Amended(22) by P5102 'determinism' (Zefram), 01 Aug 2007
+Amended(23) by P5081 'renumeration II.0' [disi.] (Zefram), 01 Aug 2007
+Amended(24) by P5408 'In a timely fashion' (root), 22 Jan 2008
+Amended(25) by P6046 'Cruft' (omd), 13 Jan 2009
+Amended(26) by P6321 'Relative definition' [disi.] (Murphy), 26 May 2009
+Amended(27) by P6535 'Workaround for broken time limits' [green]
+   (Murphy), 04 Nov 2009
+Amended(28) by P6660 'Consolidate time definitions' [green, disi.]
+   (Murphy), 10 Mar 2010
+Amended(29) by P7045 'Speed' (Walker), 16 May 2011
+Amended(30) by P7289 (G.), 09 Sep 2012
+Amended(31) by P7420 'We don't need to be that idiosyncratic un-derp
+   version' (omd), 27 May 2013
+Amended(32) by P7606 'Cruise Control' (G.), 13 Dec 2013
+Amended(33) by P7641 'Relative Months' (Alexis), 12 May 2014
+Amended(34) by P7686 'Cleanup' (omd), 07 Aug 2014
+Amended(35) by P7760 'Next Win System' (G.), 19 Jul 2015
+Amended(36) by R2430, 24 May 2017
+Amended(37) by P7865 'Regulations v4' (Aris, o, nix, ais523), 27 Jun
+   2017
+Amended(38) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
+   D.F.F., Madrid, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Retitled by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
+   Madrid, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Amended(39) by P7998 'Eastman weeks' (Murphy, ATMunn), 31 Jan 2018
+Amended(40) by P8304 'Rewards Reform Act - v1.1 Patch' (Bernie, Kate,
+   Janet), 29 Jan 2020
+Amended(41) by P9123 'Anniversaries' (Mischief), 23 Jun 2024
+Amended(42) by P9141 'Time for some clarifications' (Janet), 13 Jul 2024
+Amended(43) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
+   ais523, Janet, 4st), 15 Sep 2024
+
+Annotations:
+CFJ 3624 (called 09 Feb 2018): A condition of "continuously X for one
+    week" is a relative duration, thus unrelated to Agoran or Eastman
+    weeks.
+CFJ 3873 (called 08 Aug 2020): Depending on context, it can be the
+    anniversary of an event on the day that event first happens.

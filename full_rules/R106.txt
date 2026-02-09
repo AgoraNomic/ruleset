@@ -1,0 +1,115 @@
+Rule 106/46 (Power=3)
+Adopting Proposals
+
+      When a referendum on a proposal is resolved, if the outcome is
+      ADOPTED, then the proposal in question is adopted, its power is
+      set to the minimum of four, the adoption index of the proposal,
+      and the adoption index of the referendum, and it takes effect.
+      Proposals CANNOT otherwise be adopted or take effect, rules to the
+      contrary notwithstanding.
+      
+      When a proposal takes effect, the proposal applies the changes
+      that it specifies in its text, except as prohibited by other
+      rules. Unless otherwise specified by the text, the effects are
+      applied in the order they appear in the text. Clearly marked
+      comments are ignored. If the proposal cannot make some changes it
+      specifies, that does not preclude the other changes from taking
+      place.
+      
+      Except insofar as the actions performed by a proposal happen one
+      after another, rather than simultaneously, a proposal's effect is
+      instantaneous. A proposal can neither delay nor extend its own
+      effect.  Once a proposal finishes taking effect, its power is set
+      to 0.
+      
+      No entity with power below the power of this rule can prevent a
+      proposal from taking effect; this does not apply to generally
+      preventing changes to specified areas of the gamestate, nor to a
+      proposal preventing itself from taking effect (its no-effect
+      clause is generally interpreted as applying only to the rest of
+      the proposal).
+
+History:
+
+Initial immutable rule 106, Agora's birth
+Mutated from MI=unanimity to MI=3 by P1073, 04 Oct 1994
+Amended(1) by P1278, 24 Oct 1994
+Renumbered by R1295, 01 Nov 1994
+Infected by R1454, 07 May 1995
+Amended(2), 03 May 1998
+Amended(3) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
+Amended(4) by P4868 'Red Tape Repeals 2.0' (G.), 27 Aug 2006
+Amended(5) by P4868 'Red Tape Repeals 2.0' (G.), 27 Aug 2006
+Amended(6) by P4918 'An End To Silly Proposal Adoption Indices, v2'
+   (OscaryMeyr), 02 Apr 2007
+Amended(7) by P4939 'Re-divide some offices' (Murphy), 29 Apr 2007
+Amended(8) by P5010 (Levi), 24 Jun 2007
+Amended(9) by P5078 'refactor voting limits' (Zefram), 18 Jul 2007
+Amended(10) by P5083 'simplify AI setting' (Zefram), 01 Aug 2007
+Amended(11) by P5334 'Refactor co-authors' (Murphy), 05 Dec 2007
+Amended(12) by P5356 'Secured proposal effects' (root), 16 Dec 2007
+Amended(13) by P5418 'Refactor Chamber' (root), 02 Feb 2008
+Amended(14) by P5453 'Proposals are a unique exception' (Murphy), 01 Mar
+   2008
+Amended(15) by P5572 'Stop that!' (Murphy), 04 Jul 2008
+Amended(16) by P6001 'Pool Protection' (G.), 07 Dec 2008
+Amended(17) by P6022 'Cleanup of Power=3 definitions' (Murphy), 22 Dec
+   2008
+Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
+   woggle, ais523), 23 Jan 2009
+Amended(18) by cleaning (omd), 12 Feb 2009
+Amended(19) by P6089 'Proposal Creation' (G.), 22 Feb 2009
+Amended(20) by P6090 'Proposal protection' (Murphy, ais523), 22 Feb 2009
+Amended(21) by P6113 'Intended Proposals Only' (G.), 01 Mar 2009
+Amended(22) by P6222 'Proposal Withdrawals' (Alexis), 27 Apr 2009
+Amended(23) by P6398 'Proposal Tweaking Part 1' [disi.] (Walker), 17 Jul
+   2009
+Amended(24) by P6414 'Fix Veto' (Walker), 08 Aug 2009
+Amended(25) by P6469 'Proposal Cleanup' [disi.] (Alexis), 15 Sep 2009
+Amended(26) by P6571 'This gets on my nerves' [green] (ais523), 28 Nov
+   2009
+Amended(27) by P6625 'Proposals must obey security' [green] (Murphy), 20
+   Feb 2010
+Amended(28) by P6656 'Proposal Power Pilfering Program' [purple]
+   (Alexis), 01 Mar 2010
+Amended(29) by P6721 'Titularity' [purple, disi.] (Alexis), 21 May 2010
+Amended(30) by P6734 'Effect Cleanup' [purple] (omd), 13 Jun 2010
+Amended(31) by P6823 'Mother says not to run on the concrete' [green]
+   (Murphy, omd), 10 Sep 2010
+Amended(32) by P6968 'Clarify Rule 106' (Murphy, Alexis, Wooble), 20 Mar
+   2011
+Amended(33) by P7013 'Ordinary Decisions' (omd), 23 Apr 2011
+Amended(34) by P7081 'Effects are effective' (Murphy), 04 Jul 2011
+Amended(35) by P7083 'Re-jigged Re-jiggery' (Walker), 04 Jul 2011
+Amended(36) by P7086 'Jig-jiggery jig-jiggery' (G., omd), 23 Jul 2011
+Amended(37) by P7246 'Adoption reassociation' (omd), 10 Jun 2012
+Amended(38) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
+Amended(39) by P7940 'High Power Cleanup' (Alexis, G., P.S.S.), 06 Nov
+   2017
+Amended(40) by P8073 'Comments' (Aris), 26 Jul 2018
+Amended(41) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+   Gaelan), 21 Mar 2020
+Amended(42) by P8355 'Temporary Suspension of Rules' (Alexis, Murphy),
+   21 Mar 2020
+Amended(43) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(44) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(45) by P8719 'Proposal order clarification' (Janet), 24 Jul 2022
+Amended(46) by P9047 'Shameless copy of Adoption AI Security with the
+   right AI' (4st, Janet, ais523), 31 Dec 2023
+
+Annotations:
+CFJ 1639 (called 29 Apr 2007): Where a proposal attempts two separate
+    amendments of the text of the same rule, if one of the attempted
+    amendments is not possible and the other is then the possible
+    amendment does in fact occur, unless the proposal explicitly
+    requires a different resolution.
+CFJ 1841 (called 20 Dec 2007): It is possible for a proposal to have
+    retroactive effect.
+CFJ 2162 (called 14 Sep 2008): The retroactive effect of a proposal
+    cannot actually alter the past.
+CFJ 2163 (called 14 Sep 2008): There is no possible proposal text that
+    would cause a proposal to take effect without being adopted.
+CFJ 2259 (called 06 Nov 2008): The possibility of the instantaneous
+    effects of a proposal are governed by the rules.
+CFJ 3784 (called 22 Dec 2019): A proposal using the first person refers
+    to the proposal itself.

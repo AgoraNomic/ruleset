@@ -1,0 +1,22 @@
+Rule 2578/5 (Power=3)
+Fungibility
+
+      Any two assets within a "fungible" class of assets (syn.
+      "currency") that have the same owner are considered equivalent for
+      the purposes of specification, granting, and transferring. The
+      number of such assets an entity owns is that entity's "balance" of
+      that currency.
+
+History:
+
+Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(1) by P8186 'Minor currency fixes' (Janet), 22 Jun 2019
+Retitled from 'Currencies' to 'Fungibility' by P9076 'FUNgibility'
+   (nix), 07 Apr 2024
+Amended(2) by P9076 'FUNgibility' (nix), 07 Apr 2024
+Amended(3) by cleaning (Mischief), 19 May 2024
+Amended(4) by P9238 'Make currency current again' (Murphy, Janet,
+   Mischief), 09 Aug 2025
+Amended(5) by P9242 'Currency clarification' (Janet, Kate), 16 Aug 2025
+
+Annotations:
