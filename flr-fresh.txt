@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 9 Feb 2026
+Date of this ruleset: 18 Feb 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 146
 
 Highest ID'd rule in this ruleset: 2714
-Highest ID'd Proposal Passed: 9286
+Highest ID'd Proposal Passed: 9291
 Highest ID'd Rule Enacted: 2714
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -6423,7 +6423,7 @@ Amended(1) by P9204 'Rare stamps, more differently' (Janet), 26 Jan 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/26 (Power=1)
+Rule 2499/27 (Power=1)
 Welcome Packages
 
       When a player receives a welcome package, if e has not received a
@@ -6436,7 +6436,9 @@ Welcome Packages
       * 16 Hectares.
       
       A player CAN, by announcement, cause a specified player to receive
-      a welcome package (syn. "grant" em a welcome package).
+      a welcome package (syn. "grant" em a welcome package). When a
+      player receives a welcome package, e scores the date of eir
+      registration.
 
 History:
 
@@ -6479,11 +6481,12 @@ Amended(24) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Amended(25) by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
 Amended(26) by P9283 'Welcome Package Tweak' (Mischief), 18 Jan 2026
+Amended(27) by P9290 'Welcome Cards' (Trigon), 18 Feb 2026
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2585/10 (Power=1)
+Rule 2585/11 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -6496,6 +6499,11 @@ Birthday Gifts
       
       In a timely fashion after the start of a player's Agoran Birthday,
       the Registrar SHALL announce it.
+      
+      Upon a correct announcement by a player that eir Agoran Birthday
+      has occurred in the last 15 days, e scores eir Agoran Birthday if
+      e has not scored eir Agoran Birthday by this method for that
+      instance of eir Agoran Birthday.
 
 History:
 
@@ -6514,6 +6522,7 @@ Amended(8) by P8872 'Anti-Capitalists Dream of Stamp Collecting' (nix,
 Amended(9) by P8965 'Registrar Tracks Birthdays' (nix), 19 May 2023
 Amended(10) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul
    2024
+Amended(11) by P9291 'Birthday Cards' (Trigon), 18 Feb 2026
 
 Annotations:
 CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
@@ -6857,7 +6866,7 @@ Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2713/1 (Power=1.0)
+Rule 2713/2 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -6877,6 +6886,10 @@ Scoring Numbers
       referendum to adopt that proposal) a number card for each digit in
       that number, whose type is that digit.
       
+      Whenever a player scores a date, e scores that date in zero-padded
+      MMDD format (for instance, scoring the thirtieth of June would
+      result in scoring the number 0630).
+      
       Officers SHALL NOT assign ID numbers to distributed proposals or
       CFJs that are out of sequence, but are given reasonable discretion
       to determine what "in sequence" means (e.g. officers may choose
@@ -6890,6 +6903,7 @@ History:
 
 Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
 Amended(1) by P9276 'CFJ Number Card Fix' (ais523, Janet), 18 Jan 2026
+Amended(2) by P9290 'Welcome Cards' (Trigon), 18 Feb 2026
 
 Annotations:
 

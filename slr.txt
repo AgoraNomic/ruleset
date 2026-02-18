@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 9 Feb 2026
+Date of this ruleset: 18 Feb 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 146
 
 Highest ID'd rule in this ruleset: 2714
-Highest ID'd Proposal Passed: 9286
+Highest ID'd Proposal Passed: 9291
 Highest ID'd Rule Enacted: 2714
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -2856,7 +2856,7 @@ Stamp Scamp
       type.
 
 ------------------------------------------------------------------------
-Rule 2499/26 (Power=1)
+Rule 2499/27 (Power=1)
 Welcome Packages
 
       When a player receives a welcome package, if e has not received a
@@ -2869,10 +2869,12 @@ Welcome Packages
       * 16 Hectares.
       
       A player CAN, by announcement, cause a specified player to receive
-      a welcome package (syn. "grant" em a welcome package).
+      a welcome package (syn. "grant" em a welcome package). When a
+      player receives a welcome package, e scores the date of eir
+      registration.
 
 ------------------------------------------------------------------------
-Rule 2585/10 (Power=1)
+Rule 2585/11 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
@@ -2885,6 +2887,11 @@ Birthday Gifts
       
       In a timely fashion after the start of a player's Agoran Birthday,
       the Registrar SHALL announce it.
+      
+      Upon a correct announcement by a player that eir Agoran Birthday
+      has occurred in the last 15 days, e scores eir Agoran Birthday if
+      e has not scored eir Agoran Birthday by this method for that
+      instance of eir Agoran Birthday.
 
 ------------------------------------------------------------------------
 Rule 2690/8 (Power=1.0)
@@ -3101,7 +3108,7 @@ Number Cards
       The Numerator is an office, and the recordkeepor of number cards.
 
 ------------------------------------------------------------------------
-Rule 2713/1 (Power=1.0)
+Rule 2713/2 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -3120,6 +3127,10 @@ Scoring Numbers
       proposal, also a randomly chosen other player who voted FOR on a
       referendum to adopt that proposal) a number card for each digit in
       that number, whose type is that digit.
+      
+      Whenever a player scores a date, e scores that date in zero-padded
+      MMDD format (for instance, scoring the thirtieth of June would
+      result in scoring the number 0630).
       
       Officers SHALL NOT assign ID numbers to distributed proposals or
       CFJs that are out of sequence, but are given reasonable discretion
