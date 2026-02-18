@@ -19,6 +19,10 @@ text: |
   referendum to adopt that proposal) a number card for each digit in
   that number, whose type is that digit.
 
+  Whenever a player scores a date, e scores that date in zero-padded
+  MMDD format (for instance, scoring the thirtieth of June would
+  result in scoring the number 0630).
+
   Officers SHALL NOT assign ID numbers to distributed proposals or
   CFJs that are out of sequence, but are given reasonable discretion
   to determine what "in sequence" means (e.g. officers may choose
@@ -38,3 +42,8 @@ history:
   date: "2026-01-18"
   agent:
     proposal: "9276"
+- change:
+    type: amendment
+  date: "2026-02-18"
+  agent:
+    proposal: "9290"

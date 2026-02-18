@@ -12,7 +12,9 @@ text: |
   * 16 Hectares.
 
   A player CAN, by announcement, cause a specified player to receive
-  a welcome package (syn. "grant" em a welcome package).
+  a welcome package (syn. "grant" em a welcome package). When a
+  player receives a welcome package, e scores the date of eir
+  registration.
 history:
 - change:
     type: enactment
@@ -155,4 +157,9 @@ history:
   date: "2026-01-18"
   agent:
     proposal: "9283"
+- change:
+    type: amendment
+  date: "2026-02-18"
+  agent:
+    proposal: "9290"
 annotations: []
