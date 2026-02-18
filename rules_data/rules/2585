@@ -12,6 +12,11 @@ text: |
 
   In a timely fashion after the start of a player's Agoran Birthday,
   the Registrar SHALL announce it.
+
+  Upon a correct announcement by a player that eir Agoran Birthday
+  has occurred in the last 15 days, e scores eir Agoran Birthday if
+  e has not scored eir Agoran Birthday by this method for that
+  instance of eir Agoran Birthday.
 history:
 - change:
     type: enactment
@@ -68,6 +73,11 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9132"
+- change:
+    type: amendment
+  date: "2026-02-18"
+  agent:
+    proposal: "9291"
 annotations:
 - cfjs:
   - id: 3873
