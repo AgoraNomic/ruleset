@@ -42,7 +42,7 @@ text: |
         earlier one;
      c. they occur in two consecutive Agoran months on the same day
         of the month, and the later of the two occurs at the same or
-        earlier time of day.
+        earlier UTC time of day.
   5. Any anniversary, monthly anniversary, or quarterly anniversary
      that would otherwise attempt to occur on a day of the month
      that does not exist (after considering any leap day) instead
@@ -310,6 +310,11 @@ history:
   date: "2026-03-01"
   agent:
     proposal: "9294"
+- change:
+    type: amendment
+  date: "2026-03-01"
+  agent:
+    proposal: "9298"
 annotations:
 - cfjs:
   - id: '3624'
