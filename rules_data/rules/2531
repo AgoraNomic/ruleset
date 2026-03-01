@@ -30,7 +30,8 @@ text: |
    an infraction which would result in the creation of blots is
    INEFFECTIVE if:
 
-   (1) it does not include the specific reason for the fine; or
+   (1) it does not describe the specific infraction that occurred;
+       or
 
    (2) it would result in a punishment that is blatantly and
        obviously unsuited to the conduct which constitutes the
@@ -152,6 +153,11 @@ history:
   date: 2023-11-26
   agent:
     proposal: "9028"
+- change:
+    type: amendment
+  date: "2026-03-01"
+  agent:
+    proposal: "9293"
 annotations:
 - cfjs:
   - id: 2531

@@ -19,7 +19,7 @@ text: |
 
   If breaking the pledge harms specific other parties, the Referee
   SHOULD solicit the opinion of those parties in determining an
-  appropriate fine.
+  appropriate penalty.
 
   The Notary CAN destroy a pledge Without Objection, but SHOULD NOT
   do so unless the pledge no longer serves any significant purpose.
@@ -87,6 +87,11 @@ history:
   date: 2024-07-13
   agent:
     proposal: "9137"
+- change:
+    type: amendment
+  date: "2026-03-01"
+  agent:
+    proposal: "9293"
 annotations:
 - cfjs:
   - id: 3683-3684
