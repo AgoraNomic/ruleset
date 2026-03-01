@@ -22,12 +22,13 @@ text: |
   ADoP, if e is the Assessor) and the office is interim, or if e is
   the holder of that office.
 
-  Once per quarter, the ADoP CAN and SHALL publish a Notice of
-  Election specifying between 2-4 term-limited offices (if there
-  fewer than 2 term-limited offices, the ADoP MUST instead list all
-  of them).  Such a notice initiates elections for the specified
-  offices.  The ADoP SHOULD prioritize offices that have gone
-  longest since their last elections.
+  Once per quarter, the ADoP SHALL publish a document, labeled as a
+  Notice of Election, that specifies 2-4 term-limited offices for
+  which elections can be initiated (if fewer than 2 such offices
+  exist, the notice MAY instead specify all such offices). The first
+  time each quarter the ADoP does so, elections are initiated for
+  the specified offices.  The ADoP SHOULD prioritize offices that
+  have gone longest since their last elections.
 
   The above notwithstanding, an election for an office CANNOT be
   initiated if one is already in progress.
@@ -42,4 +43,9 @@ history:
   date: 2023-02-14
   agent:
     proposal: "8890"
+- change:
+    type: amendment
+  date: "2026-03-01"
+  agent:
+    proposal: "9300"
 annotations: []
