@@ -17,8 +17,9 @@ text: |
 
   The Registrar's monthly report includes:
 
-  1. For each former player for which the information is reasonably
-     available, the dates on which e registered and deregistered.
+  1. For each current or former player for which the information is
+     reasonably available, the dates on which e registered and
+     deregistered.
 history:
 - change:
     type: enactment
@@ -122,6 +123,11 @@ history:
   date: 2023-05-25
   agent:
     proposal: "8976"
+- change:
+    type: amendment
+  date: "2026-03-01"
+  agent:
+    proposal: "9296"
 annotations:
 - cfjs:
   - id: '1703'
