@@ -13,7 +13,7 @@ text: |
   earlier in the same week that it was submitted.
 
   Whenever a player scores a number as described in this rule, the
-  Numerator CAN once, and SHALL in a timely manner, grant that
+  Numerator CAN once, and SHALL in a timely fashion, grant that
   player (and, if the number was scored due to the adoption of a
   proposal, also a randomly chosen other player who voted FOR on a
   referendum to adopt that proposal) a number card for each digit in
@@ -47,3 +47,8 @@ history:
   date: "2026-02-18"
   agent:
     proposal: "9290"
+- change:
+    type: amendment
+  date: "2026-03-01"
+  agent:
+    proposal: "9292"
