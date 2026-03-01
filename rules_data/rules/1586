@@ -8,9 +8,9 @@ text: |
   name.
 
   A rule, contract, or regulation that refers to an entity by name
-  refers to the entity that had that name when the rule first came
-  to include that reference, even if the entity's name has since
-  changed.
+  refers to the entity that had that name when the
+  rule/contract/regulation first came to include that reference,
+  even if the entity's name has since changed.
 
   If the entity that defines another entity is amended such that it
   no longer defines the second entity, then the second entity and
@@ -86,4 +86,9 @@ history:
   date: 2017-10-22
   agent:
     proposal: "7924"
+- change:
+    type: amendment
+  date: "2026-03-01"
+  agent:
+    proposal: "9299"
 annotations: []
