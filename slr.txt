@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Feb 2026
+Date of this ruleset: 1 Mar 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 146
+Number of rules currently enacted: 145
 
 Highest ID'd rule in this ruleset: 2714
-Highest ID'd Proposal Passed: 9291
+Highest ID'd Proposal Passed: 9301
 Highest ID'd Rule Enacted: 2714
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -141,7 +141,7 @@ Fora
       be done explicitly and is secured at power 2.
 
 ------------------------------------------------------------------------
-Rule 2139/17 (Power=2)
+Rule 2139/18 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -159,8 +159,9 @@ The Registrar
       
       The Registrar's monthly report includes:
       
-      1. For each former player for which the information is reasonably
-         available, the dates on which e registered and deregistered.
+      1. For each current or former player for which the information is
+         reasonably available, the dates on which e registered and
+         deregistered.
 
 ------------------------------------------------------------------------
 Rule 1789/11 (Power=3)
@@ -374,17 +375,18 @@ Regulated Actions
       messages (in general or with specific attributes).
 
 ------------------------------------------------------------------------
-Rule 1023/43 (Power=2)
+Rule 1023/45 (Power=2)
 Agoran Time
 
       The following terms are defined:
       
-      1. The phrase "in a timely fashion" means "within 7 days". This
-         time period is set when the requirement is created (i.e. X days
-         before the limit ends). A requirement to perform an action at
-         an exact instant (e.g. "when X, Y SHALL Z"), but not "in the
-         same message", is instead interpreted as a requirement to
-         perform that action in a timely fashion after that instant.
+      1. The phrase "in a timely fashion" (syn. "in a timely manner")
+         means "within 7 days". This time period is set when the
+         requirement is created (i.e. X days before the limit ends). A
+         requirement to perform an action at an exact instant (e.g.
+         "when X, Y SHALL Z"), but not "in the same message", is instead
+         interpreted as a requirement to perform that action in a timely
+         fashion after that instant.
       2. The phrase "in an officially timely fashion" means "before the
          end of the next Agoran week". This time period is set when the
          requirement is created (i.e. between 7 and 14 days before the
@@ -416,7 +418,7 @@ Agoran Time
             earlier one;
          c. they occur in two consecutive Agoran months on the same day
             of the month, and the later of the two occurs at the same or
-            earlier time of day.
+            earlier UTC time of day.
       5. Any anniversary, monthly anniversary, or quarterly anniversary
          that would otherwise attempt to occur on a day of the month
          that does not exist (after considering any leap day) instead
@@ -547,7 +549,7 @@ Entities
    "Entity" is a confusing word to new players. This section describes
    what an entity is.
 ------------------------------------------------------------------------
-Rule 1586/9 (Power=2)
+Rule 1586/10 (Power=2)
 Definition and Continuity of Entities
 
       If multiple rules attempt to define an entity with the same name,
@@ -556,9 +558,9 @@ Definition and Continuity of Entities
       name.
       
       A rule, contract, or regulation that refers to an entity by name
-      refers to the entity that had that name when the rule first came
-      to include that reference, even if the entity's name has since
-      changed.
+      refers to the entity that had that name when the
+      rule/contract/regulation first came to include that reference,
+      even if the entity's name has since changed.
       
       If the entity that defines another entity is amended such that it
       no longer defines the second entity, then the second entity and
@@ -1567,7 +1569,7 @@ The Administrative State
          regulations in matters relating to eir area of responsibility.
 
 ------------------------------------------------------------------------
-Rule 2651/1 (Power=2)
+Rule 2651/2 (Power=2)
 The Election Cycle
 
       A holder of an elected office who did not become its holder by
@@ -1590,12 +1592,13 @@ The Election Cycle
       ADoP, if e is the Assessor) and the office is interim, or if e is
       the holder of that office.
       
-      Once per quarter, the ADoP CAN and SHALL publish a Notice of
-      Election specifying between 2-4 term-limited offices (if there
-      fewer than 2 term-limited offices, the ADoP MUST instead list all
-      of them).  Such a notice initiates elections for the specified
-      offices.  The ADoP SHOULD prioritize offices that have gone
-      longest since their last elections.
+      Once per quarter, the ADoP SHALL publish a document, labeled as a
+      Notice of Election, that specifies 2-4 term-limited offices for
+      which elections can be initiated (if fewer than 2 such offices
+      exist, the notice MAY instead specify all such offices). The first
+      time each quarter the ADoP does so, elections are initiated for
+      the specified offices.  The ADoP SHOULD prioritize offices that
+      have gone longest since their last elections.
       
       The above notwithstanding, an election for an office CANNOT be
       initiated if one is already in progress.
@@ -1649,15 +1652,16 @@ Election Procedure
       office and the election ends.
 
 ------------------------------------------------------------------------
-Rule 2573/4 (Power=2)
+Rule 2573/5 (Power=2)
 Impeachment
 
       Any player CAN, with 2 Agoran consent, expel (impeach) the holder
-      of a specified voluntary office. When a person is impeached from
-      an office, the selection method for that office is immediately
-      initiated (if possible). Players SHOULD NOT use this method of
-      removal unless the officer has abused the powers of eir office or
-      otherwise shown emself unworthy of the trust of Agora.
+      of a specified voluntary office, causing the office to become
+      vacant. When a person is impeached from an office, the selection
+      method for that office is immediately initiated (if possible).
+      Players SHOULD NOT use this method of removal unless the officer
+      has abused the powers of eir office or otherwise shown emself
+      unworthy of the trust of Agora.
 
 ------------------------------------------------------------------------
 Rule 2160/27 (Power=3)
@@ -2221,7 +2225,7 @@ Forgiveness
       intent to forgive eir own infraction.
 
 ------------------------------------------------------------------------
-Rule 2531/18 (Power=2)
+Rule 2531/19 (Power=2)
 Defendant's Rights
 
       An infraction is automatically forgiven if:
@@ -2252,7 +2256,8 @@ Defendant's Rights
       an infraction which would result in the creation of blots is
       INEFFECTIVE if:
       
-      (1) it does not include the specific reason for the fine; or
+      (1) it does not describe the specific infraction that occurred;
+          or
       
       (2) it would result in a punishment that is blatantly and
           obviously unsuited to the conduct which constitutes the
@@ -2492,7 +2497,7 @@ No Faking
       never a lie.
 
 ------------------------------------------------------------------------
-Rule 2450/12 (Power=1.7)
+Rule 2450/13 (Power=1.7)
 Pledges
 
       If a consenting Player makes a clear public pledge (syn. Oath) to
@@ -2512,7 +2517,7 @@ Pledges
       
       If breaking the pledge harms specific other parties, the Referee
       SHOULD solicit the opinion of those parties in determining an
-      appropriate fine.
+      appropriate penalty.
       
       The Notary CAN destroy a pledge Without Objection, but SHOULD NOT
       do so unless the pledge no longer serves any significant purpose.
@@ -2908,20 +2913,6 @@ Spendies
       beginning of each month, every player is granted 20 Spendies.
 
 ------------------------------------------------------------------------
-Rule 2699/0 (Power=1.5)
-Contests
-
-      Contestation is a secured negative boolean contract switch tracked
-      by the Notary. A contract whose contestation switch is true is a
-      contest.
-      
-      A player CAN flip a specified contract's contestation to true
-      without 2 objections.
-      
-      A player CAN flip a specified contract's contestation to false
-      with Agoran consent.
-
-------------------------------------------------------------------------
 Rule 2656/12 (Power=1.5)
 Radiance
 
@@ -3108,7 +3099,7 @@ Number Cards
       The Numerator is an office, and the recordkeepor of number cards.
 
 ------------------------------------------------------------------------
-Rule 2713/2 (Power=1.0)
+Rule 2713/3 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -3122,7 +3113,7 @@ Scoring Numbers
       earlier in the same week that it was submitted.
       
       Whenever a player scores a number as described in this rule, the
-      Numerator CAN once, and SHALL in a timely manner, grant that
+      Numerator CAN once, and SHALL in a timely fashion, grant that
       player (and, if the number was scored due to the adoption of a
       proposal, also a randomly chosen other player who voted FOR on a
       referendum to adopt that proposal) a number card for each digit in
@@ -3616,7 +3607,7 @@ Motion of No Confidence
       judgement of the Prime Minister.
 
 ------------------------------------------------------------------------
-Rule 2451/12 (Power=2)
+Rule 2451/13 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -3633,11 +3624,11 @@ Executive Orders
       - Certiorari (Arbitor): The Prime Minister assigns emself as judge
         of a specified open case.
       
-      - Dive (Referee): The Prime Minister levies a fine of 2 on a
-        specified player. Rules to the contrary notwithstanding, the
-        reason for the fine MAY be any grievance held by the Prime
-        Minister, not necessarily a violation of the rules, against the
-        person to whom the fine is levied.
+      - Dive (Referee): The Prime Minister grants a specified player two
+        blots. Rules to the contrary notwithstanding, the reason for the
+        fine may be any grievance held by the Prime Minister, not
+        necessarily a violation of the rules, against the person to whom
+        the blots are granted.
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.

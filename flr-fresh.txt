@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 18 Feb 2026
+Date of this ruleset: 1 Mar 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 146
+Number of rules currently enacted: 145
 
 Highest ID'd rule in this ruleset: 2714
-Highest ID'd Proposal Passed: 9291
+Highest ID'd Proposal Passed: 9301
 Highest ID'd Rule Enacted: 2714
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -143,7 +143,6 @@ Economics
    * Rule 2499: Welcome Packages
    * Rule 2585: Birthday Gifts
    * Rule 2690: Spendies
-   * Rule 2699: Contests
    * Rule 2656: Radiance
 Agoriculture
    * Rule 2704: Hectares
@@ -202,7 +201,7 @@ Power Distribution:
 1  with Power=0.3
 3  with Power=0.5
 45 with Power=1
-4  with Power=1.5
+3  with Power=1.5
 5  with Power=1.7
 24 with Power=2
 1  with Power=2.2
@@ -721,7 +720,7 @@ CFJ 4103 (called 10 Jan 2025): If a forum is a mailing list, the content
     a web interface or archival format.
 
 ------------------------------------------------------------------------
-Rule 2139/17 (Power=2)
+Rule 2139/18 (Power=2)
 The Registrar
 
       The Registrar is an office; its holder is responsible for keeping
@@ -739,8 +738,9 @@ The Registrar
       
       The Registrar's monthly report includes:
       
-      1. For each former player for which the information is reasonably
-         available, the dates on which e registered and deregistered.
+      1. For each current or former player for which the information is
+         reasonably available, the dates on which e registered and
+         deregistered.
 
 History:
 
@@ -773,6 +773,7 @@ Amended(15) by P8422 'No More Numbers!' (Publius Scribonius
 Amended(16) by P8423 'Removing Repetition' (Publius Scribonious
    Scholasticus, G.), 14 Jun 2020
 Amended(17) by P8976 'Ruleset convergance' (Janet), 25 May 2023
+Amended(18) by P9296 'Historical gaps' (Murphy), 01 Mar 2026
 
 Annotations:
 CFJ 1703 (called 13 Jul 2007): A player cannot change eir nickname by
@@ -1154,17 +1155,18 @@ CFJ 3797 (called 22 Jan 2020): Whether coming into existence is
     values) are.
 
 ------------------------------------------------------------------------
-Rule 1023/43 (Power=2)
+Rule 1023/45 (Power=2)
 Agoran Time
 
       The following terms are defined:
       
-      1. The phrase "in a timely fashion" means "within 7 days". This
-         time period is set when the requirement is created (i.e. X days
-         before the limit ends). A requirement to perform an action at
-         an exact instant (e.g. "when X, Y SHALL Z"), but not "in the
-         same message", is instead interpreted as a requirement to
-         perform that action in a timely fashion after that instant.
+      1. The phrase "in a timely fashion" (syn. "in a timely manner")
+         means "within 7 days". This time period is set when the
+         requirement is created (i.e. X days before the limit ends). A
+         requirement to perform an action at an exact instant (e.g.
+         "when X, Y SHALL Z"), but not "in the same message", is instead
+         interpreted as a requirement to perform that action in a timely
+         fashion after that instant.
       2. The phrase "in an officially timely fashion" means "before the
          end of the next Agoran week". This time period is set when the
          requirement is created (i.e. between 7 and 14 days before the
@@ -1196,7 +1198,7 @@ Agoran Time
             earlier one;
          c. they occur in two consecutive Agoran months on the same day
             of the month, and the later of the two occurs at the same or
-            earlier time of day.
+            earlier UTC time of day.
       5. Any anniversary, monthly anniversary, or quarterly anniversary
          that would otherwise attempt to occur on a day of the month
          that does not exist (after considering any leap day) instead
@@ -1262,6 +1264,9 @@ Amended(41) by P9123 'Anniversaries' (Mischief), 23 Jun 2024
 Amended(42) by P9141 'Time for some clarifications' (Janet), 13 Jul 2024
 Amended(43) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
    ais523, Janet, 4st), 15 Sep 2024
+Amended(44) by P9294 'In a timely something' (Murphy, Trigon), 01 Mar
+   2026
+Amended(45) by P9298 'Daylight Wasting Time' (Mischief), 01 Mar 2026
 
 Annotations:
 CFJ 3624 (called 09 Feb 2018): A condition of "continuously X for one
@@ -1571,7 +1576,7 @@ Entities
    "Entity" is a confusing word to new players. This section describes
    what an entity is.
 ------------------------------------------------------------------------
-Rule 1586/9 (Power=2)
+Rule 1586/10 (Power=2)
 Definition and Continuity of Entities
 
       If multiple rules attempt to define an entity with the same name,
@@ -1580,9 +1585,9 @@ Definition and Continuity of Entities
       name.
       
       A rule, contract, or regulation that refers to an entity by name
-      refers to the entity that had that name when the rule first came
-      to include that reference, even if the entity's name has since
-      changed.
+      refers to the entity that had that name when the
+      rule/contract/regulation first came to include that reference,
+      even if the entity's name has since changed.
       
       If the entity that defines another entity is amended such that it
       no longer defines the second entity, then the second entity and
@@ -1609,8 +1614,10 @@ Amended(6) by cleaning (omd), 26 Jan 2009
 Amended(7) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
 Amended(8) by P6981 'Littler Dutch Boy' (Murphy, omd), 10 Apr 2011
 Repealed by P7614 'Just Not Rights' (G.), 13 Jan 2014
-Re-enacted(9) and amended by P7924 'Contracts v8' (Aris, o, G., ais523,
-   Gaelan, D.F.F., Madrid, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Re-enacted(9) at Power=2 and amended by P7924 'Contracts v8' (Aris, o,
+   G., ais523, Gaelan, D.F.F., Madrid, R. Lee, Trigon, Alexis, P.S.S.),
+   22 Oct 2017
+Amended(10) by P9299 'Fix Continuity' (ais523), 01 Mar 2026
 
 Annotations:
 
@@ -3897,7 +3904,7 @@ Amended(3) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2651/1 (Power=2)
+Rule 2651/2 (Power=2)
 The Election Cycle
 
       A holder of an elected office who did not become its holder by
@@ -3920,12 +3927,13 @@ The Election Cycle
       ADoP, if e is the Assessor) and the office is interim, or if e is
       the holder of that office.
       
-      Once per quarter, the ADoP CAN and SHALL publish a Notice of
-      Election specifying between 2-4 term-limited offices (if there
-      fewer than 2 term-limited offices, the ADoP MUST instead list all
-      of them).  Such a notice initiates elections for the specified
-      offices.  The ADoP SHOULD prioritize offices that have gone
-      longest since their last elections.
+      Once per quarter, the ADoP SHALL publish a document, labeled as a
+      Notice of Election, that specifies 2-4 term-limited offices for
+      which elections can be initiated (if fewer than 2 such offices
+      exist, the notice MAY instead specify all such offices). The first
+      time each quarter the ADoP does so, elections are initiated for
+      the specified offices.  The ADoP SHOULD prioritize offices that
+      have gone longest since their last elections.
       
       The above notwithstanding, an election for an office CANNOT be
       initiated if one is already in progress.
@@ -3935,6 +3943,7 @@ History:
 Enacted by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 Amended(1) by P8890 'Here comes a new challenger!' (Murphy, 4st, G.), 14
    Feb 2023
+Amended(2) by P9300 'Fix Election Notices' (ais523), 01 Mar 2026
 
 Annotations:
 
@@ -4073,15 +4082,16 @@ Amended(61) by P8967 'Campaign Please' (nix), 19 May 2023
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2573/4 (Power=2)
+Rule 2573/5 (Power=2)
 Impeachment
 
       Any player CAN, with 2 Agoran consent, expel (impeach) the holder
-      of a specified voluntary office. When a person is impeached from
-      an office, the selection method for that office is immediately
-      initiated (if possible). Players SHOULD NOT use this method of
-      removal unless the officer has abused the powers of eir office or
-      otherwise shown emself unworthy of the trust of Agora.
+      of a specified voluntary office, causing the office to become
+      vacant. When a person is impeached from an office, the selection
+      method for that office is immediately initiated (if possible).
+      Players SHOULD NOT use this method of removal unless the officer
+      has abused the powers of eir office or otherwise shown emself
+      unworthy of the trust of Agora.
 
 History:
 
@@ -4091,6 +4101,7 @@ Amended(2) by P8545 'Uncanny Fixes' (Aris, Murphy), 10 Mar 2021
 Amended(3) by P8942 'Cleaning' (4st), 16 Apr 2023
 Amended(4) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
+Amended(5) by P9301 'Impeachment removes' (ais523), 01 Mar 2026
 
 Annotations:
 
@@ -5163,7 +5174,7 @@ Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2531/18 (Power=2)
+Rule 2531/19 (Power=2)
 Defendant's Rights
 
       An infraction is automatically forgiven if:
@@ -5194,7 +5205,8 @@ Defendant's Rights
       an infraction which would result in the creation of blots is
       INEFFECTIVE if:
       
-      (1) it does not include the specific reason for the fine; or
+      (1) it does not describe the specific infraction that occurred;
+          or
       
       (2) it would result in a punishment that is blatantly and
           obviously unsuited to the conduct which constitutes the
@@ -5226,6 +5238,8 @@ Re-enacted(16) at Power=2 and amended by P8830 'Justice & Forgiveness
    2.1' (nix, Janet, G., Murphy, snail), 20 Aug 2022
 Amended(17) by cleaning (Kate), 18 Sep 2023
 Amended(18) by P9028 'Fairness in Crime Act' (Janet), 26 Nov 2023
+Amended(19) by P9293 'Infractions are fine, really' (Janet, Cosmo,
+   Mischief), 01 Mar 2026
 
 Annotations:
 CFJ 2531 (called 11 Apr 2020): A fine is "blatantly and obviously
@@ -5788,7 +5802,7 @@ Amended(4) by P9085 'Fix truthfulness loophole' (ais523), 07 Apr 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2450/12 (Power=1.7)
+Rule 2450/13 (Power=1.7)
 Pledges
 
       If a consenting Player makes a clear public pledge (syn. Oath) to
@@ -5808,7 +5822,7 @@ Pledges
       
       If breaking the pledge harms specific other parties, the Referee
       SHOULD solicit the opinion of those parties in determining an
-      appropriate fine.
+      appropriate penalty.
       
       The Notary CAN destroy a pledge Without Objection, but SHOULD NOT
       do so unless the pledge no longer serves any significant purpose.
@@ -5834,6 +5848,8 @@ Amended(10) by P8503 'Assorted Obligatory Patches' (Aris, G., nix,
 Amended(11) by P8811 'Infractions' (nix), 24 Jul 2022
 Amended(12) by P9137 'A possible patch for a peculiar persisting pledge
    paradox' (Quadrantal, Aris), 13 Jul 2024
+Amended(13) by P9293 'Infractions are fine, really' (Janet, Cosmo,
+   Mischief), 01 Mar 2026
 
 Annotations:
 CFJ 3683-3684 (called 01 Nov 2018): Attempts to create a pledge that
@@ -6559,27 +6575,6 @@ Amended(8) by P9238 'Make currency current again' (Murphy, Janet,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2699/0 (Power=1.5)
-Contests
-
-      Contestation is a secured negative boolean contract switch tracked
-      by the Notary. A contract whose contestation switch is true is a
-      contest.
-      
-      A player CAN flip a specified contract's contestation to true
-      without 2 objections.
-      
-      A player CAN flip a specified contract's contestation to false
-      with Agoran consent.
-
-History:
-
-Enacted by P9197 'The Game is Afoot' (Mischief, ais523, Kate), 22 Dec
-   2024
-
-Annotations:
-
-------------------------------------------------------------------------
 Rule 2656/12 (Power=1.5)
 Radiance
 
@@ -6866,7 +6861,7 @@ Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2713/2 (Power=1.0)
+Rule 2713/3 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -6880,7 +6875,7 @@ Scoring Numbers
       earlier in the same week that it was submitted.
       
       Whenever a player scores a number as described in this rule, the
-      Numerator CAN once, and SHALL in a timely manner, grant that
+      Numerator CAN once, and SHALL in a timely fashion, grant that
       player (and, if the number was scored due to the adoption of a
       proposal, also a randomly chosen other player who voted FOR on a
       referendum to adopt that proposal) a number card for each digit in
@@ -6904,6 +6899,8 @@ History:
 Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
 Amended(1) by P9276 'CFJ Number Card Fix' (ais523, Janet), 18 Jan 2026
 Amended(2) by P9290 'Welcome Cards' (Trigon), 18 Feb 2026
+Amended(3) by P9292 'Fashionable Manners Take II' (Mischief, Trigon), 01
+   Mar 2026
 
 Annotations:
 
@@ -7785,7 +7782,7 @@ Amended(4) by P9254 'Administrative Publication Act' (Janet, kiako), 20
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2451/12 (Power=2)
+Rule 2451/13 (Power=2)
 Executive Orders
 
       Once per week, except as otherwise forbidden by this rule, the
@@ -7802,11 +7799,11 @@ Executive Orders
       - Certiorari (Arbitor): The Prime Minister assigns emself as judge
         of a specified open case.
       
-      - Dive (Referee): The Prime Minister levies a fine of 2 on a
-        specified player. Rules to the contrary notwithstanding, the
-        reason for the fine MAY be any grievance held by the Prime
-        Minister, not necessarily a violation of the rules, against the
-        person to whom the fine is levied.
+      - Dive (Referee): The Prime Minister grants a specified player two
+        blots. Rules to the contrary notwithstanding, the reason for the
+        fine may be any grievance held by the Prime Minister, not
+        necessarily a violation of the rules, against the person to whom
+        the blots are granted.
       
       - Manifesto (Promotor): The Prime Minister distributes a specified
         proposal in the Proposal Pool.
@@ -7830,6 +7827,8 @@ Amended(10) by P8955 'Disassembling the Device' (snail), 23 Apr 2023
 Amended(11) by P9051 'A Mossy Cabinet' (snail), 28 Jan 2024
 Amended(12) by P9140 'Whoops, missed one' (Quadrantal, Janet), 13 Jul
    2024
+Amended(13) by P9293 'Infractions are fine, really' (Janet, Cosmo,
+   Mischief), 01 Mar 2026
 
 Annotations:
 
