@@ -4,12 +4,13 @@ power: 2
 text: |
   The following terms are defined:
 
-  1. The phrase "in a timely fashion" means "within 7 days". This
-     time period is set when the requirement is created (i.e. X days
-     before the limit ends). A requirement to perform an action at
-     an exact instant (e.g. "when X, Y SHALL Z"), but not "in the
-     same message", is instead interpreted as a requirement to
-     perform that action in a timely fashion after that instant.
+  1. The phrase "in a timely fashion" (syn. "in a timely manner")
+     means "within 7 days". This time period is set when the
+     requirement is created (i.e. X days before the limit ends). A
+     requirement to perform an action at an exact instant (e.g.
+     "when X, Y SHALL Z"), but not "in the same message", is instead
+     interpreted as a requirement to perform that action in a timely
+     fashion after that instant.
   2. The phrase "in an officially timely fashion" means "before the
      end of the next Agoran week". This time period is set when the
      requirement is created (i.e. between 7 and 14 days before the
@@ -304,6 +305,11 @@ history:
   date: 2024-09-15
   agent:
     proposal: "9173"
+- change:
+    type: amendment
+  date: "2026-03-01"
+  agent:
+    proposal: "9294"
 annotations:
 - cfjs:
   - id: '3624'
