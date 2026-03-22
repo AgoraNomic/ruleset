@@ -24,9 +24,6 @@ text: |
   eir own type. When less than 8 Stamps of eir type exist, X is 2.
   When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
   stamps of eir type exist, X is 0.
-
-  Any player CAN pay a fee of 6 Spendies to transfer a specified
-  stamp from the L&FD to emself.
 history:
 - change:
     type: enactment
@@ -103,3 +100,8 @@ history:
   date: 2025-12-08
   agent:
     proposal: "9261"
+- change:
+    type: amendment
+  date: 2026-03-20
+  agent:
+    proposal: "9312"

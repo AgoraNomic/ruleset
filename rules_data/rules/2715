@@ -1,0 +1,17 @@
+id: 2715
+name: "The Executor"
+power: 2.0
+text: |
+  The Executor is an elected office responsible for managing assets
+  in the Lost and Found Department.
+
+  The Executor SHOULD maintain administrative regulations specifying
+  how e will manage such assets. The Executor is ENCOURAGED to draft
+  eir administrative regulations such that any actions e takes to
+  manage such assets occur no less frequently than quarterly.
+history:
+- change:
+    type: enactment
+  date: 2026-03-20
+  agent:
+    proposal: "9312"
