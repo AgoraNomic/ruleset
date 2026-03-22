@@ -12,8 +12,8 @@ text: |
   CAN recuse an inactive or unregistered judge by announcement.
 
   If a judge is recused from a case that was continuously open and
-  assigned to em for at least the past 4 days, e SHOULD NOT be
-  assigned as a judge until e has apologised and/or reasonably
+  assigned to em for at least the past 4 days, players SHOULD NOT
+  assign em as a judge until e has apologised and/or reasonably
   explained eir actions.
 history:
 - change:
@@ -57,4 +57,9 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9073"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9308"
 annotations: []
