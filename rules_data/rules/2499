@@ -3,7 +3,8 @@ name: Welcome Packages
 power: 1
 text: |
   A player CAN, by announcement, cause a specified player to receive
-  a welcome package (syn. "grant" em a welcome package).
+  a welcome package (syn. "grant" em a welcome package), and SHOULD
+  specify the assets thus gained.
 
   When a player receives a welcome package, if e has not received a
   welcome package, including under any previous definition, since e
@@ -165,4 +166,9 @@ history:
   date: 2026-03-11
   agent:
     proposal: "9304"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9309"
 annotations: []
