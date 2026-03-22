@@ -2,19 +2,17 @@ id: 2499
 name: Welcome Packages
 power: 1
 text: |
+  A player CAN, by announcement, cause a specified player to receive
+  a welcome package (syn. "grant" em a welcome package).
+
   When a player receives a welcome package, if e has not received a
   welcome package, including under any previous definition, since e
-  last registered nor in the past 30 days, e gains the following
-  assets:
+  last registered nor in the past 30 days, then e:
 
-  * 15 spendies, if e has not been granted any spendies since e last
-    registered.
-  * 16 Hectares.
-
-  A player CAN, by announcement, cause a specified player to receive
-  a welcome package (syn. "grant" em a welcome package). When a
-  player receives a welcome package, e scores the date of eir
-  registration.
+  * gains 15 spendies, if e has not been granted any spendies since
+    e last registered;
+  * gains 16 Hectares; and
+  * scores the date of eir registration.
 history:
 - change:
     type: enactment
@@ -162,4 +160,9 @@ history:
   date: "2026-02-18"
   agent:
     proposal: "9290"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9304"
 annotations: []
