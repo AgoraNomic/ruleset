@@ -20,8 +20,8 @@ text: |
   Except insofar as the actions performed by a proposal happen one
   after another, rather than simultaneously, a proposal's effect is
   instantaneous. A proposal can neither delay nor extend its own
-  effect.  Once a proposal finishes taking effect, its power is set
-  to 0.
+  effect. If, at any time, a proposal has finished taking effect,
+  its power is set to 0.
 
   No entity with power below the power of this rule can prevent a
   proposal from taking effect; this does not apply to generally
@@ -290,6 +290,11 @@ history:
   date: 2023-12-31
   agent:
     proposal: "9047"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9302"
 annotations:
 - cfjs:
   - id: '1639'
