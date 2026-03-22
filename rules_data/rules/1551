@@ -21,9 +21,9 @@ text: |
   application time.
 
   Rules to the contrary notwithstanding, when a document is
-  ratified, the gamestate is modified to what it would be if, at the
-  truth time, the gamestate had been minimally modified to make the
-  ratified document as true and accurate as possible.
+  ratified, the gamestate is modified to what it would currently be
+  if, at the truth time, the gamestate had been minimally modified
+  to make the ratified document as true and accurate as possible.
 
   Ratification CANNOT occur if it would add inconsistencies between
   the gamestate and the rules.
@@ -214,6 +214,11 @@ history:
   date: 2024-10-11
   agent:
     proposal: "9184"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9306"
 annotations:
 - cfjs:
   - id: '2165'
