@@ -1,9 +1,17 @@
 id: 2711
-name: Light Overexposure
-power: 1.0
+name: "Outshining the Sun"
+power: 1.5
 text: |
-  When a player wins the game as a result of Outshining the Sun, the
-  following happen in order:
+  Upon a correct announcement from a player that eir radiance is 100
+  or more (correctly specifying the amount), e Outshines the Sun.
+
+  When a player Outshines the Sun, e wins the game. When a player
+  wins the game this way, the following happen in order:
+
+  * Eir radiance is set to 0.
+
+  * The radiance of each other player is set to half its current
+    value (rounded down).
 
   * All Pyrite is destroyed.
 
@@ -23,3 +31,22 @@ history:
   date: 2025-12-08
   agent:
     proposal: "9262"
+- change:
+    type: retitling
+    old-title: "Light Overexposure"
+    new-title: "Outshining the Sun"
+  date: 2026-03-20
+  agent:
+    proposal: "9311"
+- change:
+    type: power-change
+    old-power: 1.0
+    new-power: 1.5
+  date: 2026-03-20
+  agent:
+    proposal: "9311"
+- change:
+    type: amendment
+  date: 2026-03-20
+  agent:
+    proposal: "9311"
