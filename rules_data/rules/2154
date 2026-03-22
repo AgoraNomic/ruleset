@@ -21,18 +21,18 @@ text: |
   close at the end of the poll's voting period or when the election
   is ended, whichever comes first.
 
-  After the nomination period ends, the ADoP (or, if the office is
-  the ADoP, the Assessor) CAN and, in a timely fashion, SHALL:
+  
+  After the nomination period ends, the Overseer of the office CAN
+  and, in a timely fashion, SHALL:
 
   1) If the election is contested, initiate an Agoran decision to
      select the winner of the election (the poll). For this
-     decision, the Vote Collector is the ADoP (or, if the office is
-     the ADoP, the Assessor), the valid options are the candidates
-     for that election (including those who become candidates after
-     its initiation), and the voting method is instant runoff. When
-     the poll is resolved, its outcome, if a player, wins the
-     election. If the outcome is not a player, the election ends
-     with no winner.
+     decision, the Vote Collector is the Overseer of the office, the
+     valid options are the candidates for that election (including
+     those who become candidates after its initiation), and the
+     voting method is instant runoff. When the poll is resolved, its
+     outcome, if a player, wins the election. If the outcome is not
+     a player, the election ends with no winner.
 
   2) If POSSIBLE per the following paragraph, end the election
      immediately.
@@ -366,4 +366,9 @@ history:
   date: 2023-05-19
   agent:
     proposal: "8967"
+- change:
+    type: amendment
+  date: 2026-03-20
+  agent:
+    proposal: "9317"
 annotations: []
