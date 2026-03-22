@@ -3,13 +3,13 @@ name: Blots
 power: 2
 text: |
   Blots are an indestructible fixed currency with ownership
-  restricted to persons. A person with 1 or more blots is Impure, a
+  restricted to persons. A person with 1 or more blots is Impure; a
   person with 0 blots is Pure. An impure unregistered person is a
   Fugitive. The Referee is an office, and the recordkeepor for
   blots.
 
   To expunge a blot is to destroy it. Creating and destroying blots
-  is secured with a Power Threshold of 1.7
+  is secured with a Power Threshold of 1.7.
 
   A person CAN, by announcement, create a specified number of blots
   in eir possession.
@@ -133,4 +133,14 @@ history:
   date: 2025-11-20
   agent:
     proposal: "9254"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9307"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9307"
 annotations: []

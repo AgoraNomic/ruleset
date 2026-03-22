@@ -35,7 +35,7 @@ text: |
   self-ratifying attestation that the notice was valid, that the
   person (if any) publishing the notice was authorized to initiate
   the decision, that such a decision was initiated, and that that
-  decision's voting period was initiated
+  decision's voting period was initiated.
 
   The destruction of Agoran decisions is secured. An Agoran
   decision's matter to be decided, voting method, valid options, and
@@ -200,6 +200,11 @@ history:
   date: "2026-01-18"
   agent:
     proposal: "9282"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9307"
 annotations:
 - cfjs:
   - id: '1650'
