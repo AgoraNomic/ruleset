@@ -12,13 +12,13 @@ text: |
   notwithstanding.
 
   A player SHALL NOT knowingly use or announce intent to use
-  Ratification Without Objection to ratify a (prior to ratification)
-  document containing incorrect or Indeterminate information when a
-  corrected document could be produced with reasonable effort,
-  unless the general nature of the document's error and reason for
-  ratifying it is clearly and plainly described in the announcement
-  of intent. Such ratification or announcement of intent to ratify
-  is the Class 8 Infraction of Endorsing Forgery.
+  Ratification Without Objection to ratify a document that (prior to
+  ratification) contained incorrect or Indeterminate information
+  when a corrected document could be produced with reasonable
+  effort, unless the general nature of the document's error and
+  reason for ratifying it is clearly and plainly described in the
+  announcement of intent. Such ratification or announcement of
+  intent to ratify is the Class 8 Infraction of Endorsing Forgery.
 history:
 - change:
     type: enactment
@@ -80,6 +80,11 @@ history:
   date: 2023-05-25
   agent:
     proposal: "8976"
+- change:
+    type: amendment
+  date: 2026-03-20
+  agent:
+    proposal: "9316"
 annotations:
 - cfjs:
   - id: '1836'
