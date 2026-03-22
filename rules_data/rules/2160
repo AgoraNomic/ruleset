@@ -19,15 +19,17 @@ text: |
 
    4) The deputy has not held the office in the past 7 days.
 
+   5) The deputy would not be Overpowered if e held the office.
+
   (If the office is vacant, then the remaining items in this list
   need not be true.)
 
-   5) A time limit by which the rules require the action to be
+   6) A time limit by which the rules require the action to be
       performed has expired.
 
-   6) The office's holder has not changed in the past 7 days.
+   7) The office's holder has not changed in the past 7 days.
 
-   7) Any of the following are true:
+   8) Any of the following are true:
 
       a) The deputy announced between 2 and 14 days earlier that
          e intended to deputise for that office for the purposes of
@@ -203,6 +205,11 @@ history:
   date: 2026-03-11
   agent:
     proposal: "9305"
+- change:
+    type: amendment
+  date: 2026-03-20
+  agent:
+    proposal: "9314"
 annotations:
 - cfjs:
   - id: '1776'
