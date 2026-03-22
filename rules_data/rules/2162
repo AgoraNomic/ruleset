@@ -32,12 +32,12 @@ text: |
   exactly one of the subject's switches) is to flip that switch to
   X.
 
-  If a type of switch is not explicitly designated as
-  possibly-indeterminate by its backing document, and if an action
-  or set of actions would cause the value of an instance of that
-  type of switch to become indeterminate, that instance instead
-  takes on its last determinate and possible value, if any,
-  otherwise it takes on its default value.
+  If an action or set of actions would cause the value of an
+  instance of a switch to become indeterminate, and that type of
+  switch is not explicitly designated as possibly-indeterminate by
+  its backing document, then that instance instead takes on its last
+  determinate and possible value (or, if it has no such value, then
+  its default value).
 
   A singleton switch is a switch for which Agora Nomic is the only
   entity possessing an instance of that switch.
@@ -145,4 +145,9 @@ history:
   date: 2025-01-26
   agent:
     proposal: "9205"
+- change:
+    type: amendment
+  date: 2026-03-20
+  agent:
+    proposal: "9318"
 annotations: []
