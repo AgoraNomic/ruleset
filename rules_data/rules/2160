@@ -14,7 +14,8 @@ text: |
       other than by deputisation, if e held the office.
 
    3) The deputy, when performing the action, announces that e is
-      doing so by deputisation or by temporary deputisation.
+      doing so by deputisation or by temporary deputisation (in the
+      latter case, the deputisation is considered temporary).
 
    4) The deputy has not held the office in the past 7 days.
 
@@ -197,6 +198,11 @@ history:
   date: 2024-09-15
   agent:
     proposal: "9173"
+- change:
+    type: amendment
+  date: 2026-03-11
+  agent:
+    proposal: "9305"
 annotations:
 - cfjs:
   - id: '1776'
