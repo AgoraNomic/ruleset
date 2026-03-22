@@ -3,15 +3,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 1 Mar 2026
+Date of this ruleset: 22 Mar 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 145
+Number of rules currently enacted: 147
 
-Highest ID'd rule in this ruleset: 2714
-Highest ID'd Proposal Passed: 9301
-Highest ID'd Rule Enacted: 2714
+Highest ID'd rule in this ruleset: 2716
+Highest ID'd Proposal Passed: 9321
+Highest ID'd Rule Enacted: 2716
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -128,6 +128,7 @@ Obligations & Contracts
    * Rule 2450: Pledges
    * Rule 2466: Acting on Behalf
    * Rule 2618: Promises
+   * Rule 2716: Scheduled Actions
    * Rule 2519: Consent
    * Rule 1742: Contracts
    * Rule 2608: The Notary
@@ -137,6 +138,7 @@ Assets
    * Rule 2577: Asset Actions
    * Rule 2578: Fungibility
    * Rule 2579: Fee-based Actions
+   * Rule 2715: The Executor
 Economics
    * Rule 2659: Stamps
    * Rule 2701: Stamp Scamp
@@ -144,6 +146,7 @@ Economics
    * Rule 2585: Birthday Gifts
    * Rule 2690: Spendies
    * Rule 2656: Radiance
+   * Rule 2711: Outshining the Sun
 Agoriculture
    * Rule 2704: Hectares
    * Rule 2705: Crop Seasons
@@ -152,7 +155,6 @@ Agoriculture
    * Rule 2708: Crops
    * Rule 2709: The Growth Cycle
    * Rule 2710: Genetic Modification
-   * Rule 2711: Light Overexposure
 Numbers, and Cards Thereof
    * Rule 2712: Number Cards
    * Rule 2713: Scoring Numbers
@@ -200,10 +202,10 @@ Power Distribution:
 
 1  with Power=0.3
 3  with Power=0.5
-45 with Power=1
-3  with Power=1.5
+44 with Power=1
+4  with Power=1.5
 5  with Power=1.7
-24 with Power=2
+26 with Power=2
 1  with Power=2.2
 1  with Power=2.5
 52 with Power=3
@@ -1155,14 +1157,14 @@ CFJ 3797 (called 22 Jan 2020): Whether coming into existence is
     values) are.
 
 ------------------------------------------------------------------------
-Rule 1023/45 (Power=2)
+Rule 1023/46 (Power=2)
 Agoran Time
 
       The following terms are defined:
       
       1. The phrase "in a timely fashion" (syn. "in a timely manner")
          means "within 7 days". This time period is set when the
-         requirement is created (i.e. X days before the limit ends). A
+         requirement is created (i.e. 7 days before the limit ends). A
          requirement to perform an action at an exact instant (e.g.
          "when X, Y SHALL Z"), but not "in the same message", is instead
          interpreted as a requirement to perform that action in a timely
@@ -1267,6 +1269,8 @@ Amended(43) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
 Amended(44) by P9294 'In a timely something' (Murphy, Trigon), 01 Mar
    2026
 Amended(45) by P9298 'Daylight Wasting Time' (Mischief), 01 Mar 2026
+Amended(46) by P9316 'What was that word, again?' (Murphy, Mischief), 20
+   Mar 2026
 
 Annotations:
 CFJ 3624 (called 09 Feb 2018): A condition of "continuously X for one
@@ -1622,7 +1626,7 @@ Amended(10) by P9299 'Fix Continuity' (ais523), 01 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2162/16 (Power=3)
+Rule 2162/17 (Power=3)
 Switches
 
       A type of switch is a property that a rule or a contract defines
@@ -1655,12 +1659,12 @@ Switches
       exactly one of the subject's switches) is to flip that switch to
       X.
       
-      If a type of switch is not explicitly designated as
-      possibly-indeterminate by its backing document, and if an action
-      or set of actions would cause the value of an instance of that
-      type of switch to become indeterminate, that instance instead
-      takes on its last determinate and possible value, if any,
-      otherwise it takes on its default value.
+      If an action or set of actions would cause the value of an
+      instance of a switch to become indeterminate, and that type of
+      switch is not explicitly designated as possibly-indeterminate by
+      its backing document, then that instance instead takes on its last
+      determinate and possible value (or, if it has no such value, then
+      its default value).
       
       A singleton switch is a switch for which Agora Nomic is the only
       entity possessing an instance of that switch.
@@ -1701,6 +1705,8 @@ Amended(14) by P8583 'Clarify switches' (Murphy), 23 Jun 2021
 Amended(15) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
    Janet, 4st), 15 Sep 2024
 Amended(16) by P9205 'Switch It Up' (Mischief, Janet), 26 Jan 2025
+Amended(17) by P9318 'Clarify indeterminacy' (Murphy, Mischief), 20 Mar
+   2026
 
 Annotations:
 
@@ -1867,19 +1873,20 @@ CFJ 3744-3745 (called 23 Jun 2019): When creating a proposal by
     attribute makes the creation fail.
 
 ------------------------------------------------------------------------
-Rule 2625/2 (Power=1.0)
+Rule 2625/3 (Power=1.0)
 Proposal Recycling
 
       If a referendum on a proposal was resolved as FAILED QUORUM in the
       past seven days, the Promotor CAN once recycle the proposal by
-      announcement, adding it to the Proposal Pool and causing it to
-      become pended.
+      announcement, adding it to the Proposal Pool.
 
 History:
 
 Enacted by P8415 'Proposal Recycling Initiative' (Aris), 14 Jun 2020
 Amended(1) by P8418 'Referenda' (Aris), 14 Jun 2020
 Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
+Amended(3) by P9316 'What was that word, again?' (Murphy, Mischief), 20
+   Mar 2026
 
 Annotations:
 
@@ -2073,7 +2080,7 @@ CFJ 1758-1759 (called 30 Sep 2007): If Assessorship changes hands, vote
     collection duties move with it.
 
 ------------------------------------------------------------------------
-Rule 106/46 (Power=3)
+Rule 106/47 (Power=3)
 Adopting Proposals
 
       When a referendum on a proposal is resolved, if the outcome is
@@ -2094,8 +2101,8 @@ Adopting Proposals
       Except insofar as the actions performed by a proposal happen one
       after another, rather than simultaneously, a proposal's effect is
       instantaneous. A proposal can neither delay nor extend its own
-      effect.  Once a proposal finishes taking effect, its power is set
-      to 0.
+      effect. If, at any time, a proposal has finished taking effect,
+      its power is set to 0.
       
       No entity with power below the power of this rule can prevent a
       proposal from taking effect; this does not apply to generally
@@ -2171,6 +2178,7 @@ Amended(44) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
 Amended(45) by P8719 'Proposal order clarification' (Janet), 24 Jul 2022
 Amended(46) by P9047 'Shameless copy of Adoption AI Security with the
    right AI' (4st, Janet, ais523), 31 Dec 2023
+Amended(47) by P9302 'No Lingering Instruments' (Mischief), 11 Mar 2026
 
 Annotations:
 CFJ 1639 (called 29 Apr 2007): Where a proposal attempts two separate
@@ -2452,18 +2460,20 @@ CFJ 3796 (called 20 Jan 2020): If a situation can be arranged where a
     rule interpretation (currently R217) resolves the conflict.
 
 ------------------------------------------------------------------------
-Rule 2240/1 (Power=3)
+Rule 2240/2 (Power=3)
 No Cretans Need Apply
 
-      In a conflict between clauses of the same Rule, if exactly one
-      claims precedence over the other, then it takes precedence;
-      otherwise, the later clause takes precedence.
+      In a conflict between clauses of the same rule, contract, or
+      regulation, if exactly one claims precedence over the other, then
+      ut takes precedence; otherwise, the later clause takes precedence.
 
 History:
 
 Enacted by P6073 'Regulate self-contradiction' (Murphy), 22 Feb 2009
 Amended(1) by P6429 'Also, Crete must be destroyed' (Murphy), 18 Aug
    2009
+Amended(2) by P9313 'Even Fewer Cretan Applications' (Trigon, Galle), 20
+   Mar 2026
 
 Annotations:
 
@@ -2819,18 +2829,19 @@ CFJ 3904 (called 18 Apr 2021): A rule amendment that results in no net
     change in rule text need not be recorded.
 
 ------------------------------------------------------------------------
-Rule 2221/11 (Power=3)
+Rule 2221/12 (Power=3)
 Cleanliness and Tidy Filing
 
       Any player CAN clean a rule without objection by specifying one or
-      more corrections to spelling, grammar, capitalization, formatting,
-      and/or dialect, or to whether a synonym or abbreviation is used in
-      place of a word or phrase, in the rule's text and/or title; when e
-      does so, if any text changes were specified, that rule is amended
-      by this rule by applying the changes as a single amendment
-      (failing as a whole if any fail); then, if any title changes were
-      specified, that rule is retitled by this rule by applying the
-      changes as a single retitling (failing as a whole if any fail).
+      more corrections to spelling, grammar, punctuation,
+      capitalization, formatting, and/or dialect, or to whether a
+      synonym or abbreviation is used in place of a word or phrase, in
+      the rule's text and/or title; when e does so, if any text changes
+      were specified, that rule is amended by this rule by applying the
+      changes as a single amendment (failing as a whole if any fail);
+      then, if any title changes were specified, that rule is retitled
+      by this rule by applying the changes as a single retitling
+      (failing as a whole if any fail).
       
       Any player CAN refile a rule without objection, specifying a new
       title; the rule is retitled to the specified title by this rule.
@@ -2858,6 +2869,7 @@ Retitled by P8445 'Easier retitling' (Aris), 30 Jun 2020
 Amended(9) by P8840 'Cleanliness security' (Janet), 30 Aug 2022
 Amended(10) by P9009 'Ordered cleanliness' (Janet), 27 Sep 2023
 Amended(11) by cleaning (Mischief), 19 May 2024
+Amended(12) by P9307 'Cleaner punctuation' (ais523), 11 Mar 2026
 
 Annotations:
 CFJ 3800-3803 (called 25 Jan 2020): For a cleaning to replace a word
@@ -3009,7 +3021,7 @@ Amended(17) by cleaning (Murphy), 14 Feb 2021
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 107/28 (Power=3)
+Rule 107/29 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -3045,7 +3057,7 @@ Initiating Agoran Decisions
       self-ratifying attestation that the notice was valid, that the
       person (if any) publishing the notice was authorized to initiate
       the decision, that such a decision was initiated, and that that
-      decision's voting period was initiated
+      decision's voting period was initiated.
       
       The destruction of Agoran decisions is secured. An Agoran
       decision's matter to be decided, voting method, valid options, and
@@ -3097,6 +3109,7 @@ Amended(27) by P9265 'Somewhat broader decision security' (Janet,
    ais523, 4st), 08 Dec 2025
 Amended(28) by P9282 'Initiation specification' (Janet, ais523), 18 Jan
    2026
+Amended(29) by P9307 'Cleaner punctuation' (ais523), 11 Mar 2026
 
 Annotations:
 CFJ 1650 (called 06 May 2007): The intent to initiate the decision and
@@ -3752,17 +3765,16 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/49 (Power=2)
+Rule 1006/51 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
       Officeholder is an office switch tracked by the ADoP, with
-      possible values of any person or "vacant" (default). Each instance
+      possible values of any player or "vacant" (default). Each instance
       of the Officeholder switch is secured at the power of the Rule
       defining the associated office (or the power of this Rule, if the
       defining Rule's power is higher). An officer is the holder of an
-      office, who may be referred to by the name of that office. If the
-      holder of an office is ever not a player, it becomes vacant.
+      office, who may be referred to by the name of that office. 
       
       Imposed offices and sortitioned offices are offices described as
       such by the rules that define them. All other offices are elected.
@@ -3780,15 +3792,14 @@ Offices
       causing it to become vacant. Any player CAN cause a voluntary
       office to become vacant without 2 objections.
       
-      The non-interim holder of an elected office CAN, with 3 support,
+      The non-interim holder of a voluntary office CAN, with 3 support,
       resign the office while appointing another player to become the
       holder of the office, provided that other player is one of the
       supporters.
       
-      Immediately after a proposal finishes taking effect, if one or
-      more offices exist that did not exist prior to the proposal taking
-      effect, each such office, if it is vacant, becomes held by the
-      author of the proposal.
+      Immediately after a proposal finishes taking effect, each vacant
+      office that did not exist prior to the proposal taking effect
+      becomes held by the author of the proposal.
 
 History:
 
@@ -3863,6 +3874,8 @@ Amended(47) by P9012 'Official security' (Janet), 31 Oct 2023
 Amended(48) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(49) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
+Amended(50) by P9303 'Voluntary Turnover' (Mischief), 11 Mar 2026
+Amended(51) by P9317 'Office cleanup' (Murphy, Mischief), 20 Mar 2026
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -3904,7 +3917,7 @@ Amended(3) by P9133 'Last from the Past' (snail), 06 Jul 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2651/2 (Power=2)
+Rule 2651/3 (Power=2)
 The Election Cycle
 
       A holder of an elected office who did not become its holder by
@@ -3920,12 +3933,14 @@ The Election Cycle
       A player CAN initiate an election for a specified elected office:
       
       a) With 2 support (if the office is either interim or term-
-      limited) or 4 support (otherwise), and provided that the initiator
-      becomes a candidate in the same message.
+         limited) or 4 support (otherwise), provided that the initiator
+         becomes a candidate in the same message.
       
-      b) By announcement, if e is the ADoP (or, if the office is the
-      ADoP, if e is the Assessor) and the office is interim, or if e is
-      the holder of that office.
+      b) By announcement, if e is the office's Overseer and the office
+         is interim, or if e is the holder of that office.
+      
+      The Overseer of the ADoP is the Assessor. The Overseer of all
+      other offices (including any held by the ADoP) is the ADoP.
       
       Once per quarter, the ADoP SHALL publish a document, labeled as a
       Notice of Election, that specifies 2-4 term-limited offices for
@@ -3944,11 +3959,12 @@ Enacted by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 Amended(1) by P8890 'Here comes a new challenger!' (Murphy, 4st, G.), 14
    Feb 2023
 Amended(2) by P9300 'Fix Election Notices' (ais523), 01 Mar 2026
+Amended(3) by P9317 'Office cleanup' (Murphy, Mischief), 20 Mar 2026
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2154/61 (Power=2)
+Rule 2154/62 (Power=2)
 Election Procedure
 
       When an election is initiated, it enters the nomination period,
@@ -3970,18 +3986,18 @@ Election Procedure
       close at the end of the poll's voting period or when the election
       is ended, whichever comes first.
       
-      After the nomination period ends, the ADoP (or, if the office is
-      the ADoP, the Assessor) CAN and, in a timely fashion, SHALL:
+      
+      After the nomination period ends, the Overseer of the office CAN
+      and, in a timely fashion, SHALL:
       
       1) If the election is contested, initiate an Agoran decision to
          select the winner of the election (the poll). For this
-         decision, the Vote Collector is the ADoP (or, if the office is
-         the ADoP, the Assessor), the valid options are the candidates
-         for that election (including those who become candidates after
-         its initiation), and the voting method is instant runoff. When
-         the poll is resolved, its outcome, if a player, wins the
-         election. If the outcome is not a player, the election ends
-         with no winner.
+         decision, the Vote Collector is the Overseer of the office, the
+         valid options are the candidates for that election (including
+         those who become candidates after its initiation), and the
+         voting method is instant runoff. When the poll is resolved, its
+         outcome, if a player, wins the election. If the outcome is not
+         a player, the election ends with no winner.
       
       2) If POSSIBLE per the following paragraph, end the election
          immediately.
@@ -4078,6 +4094,7 @@ Amended(59) by P8439 'Termination of Candidacy' (Publius Scribonius
    Scholasticus), 18 Jun 2020
 Amended(60) by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 Amended(61) by P8967 'Campaign Please' (nix), 19 May 2023
+Amended(62) by P9317 'Office cleanup' (Murphy, Mischief), 20 Mar 2026
 
 Annotations:
 
@@ -4106,7 +4123,7 @@ Amended(5) by P9301 'Impeachment removes' (ais523), 01 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2160/27 (Power=3)
+Rule 2160/29 (Power=3)
 Deputisation
 
       A player acting as emself (the deputy) CAN perform an action
@@ -4121,19 +4138,22 @@ Deputisation
           other than by deputisation, if e held the office.
       
        3) The deputy, when performing the action, announces that e is
-          doing so by deputisation or by temporary deputisation.
+          doing so by deputisation or by temporary deputisation (in the
+          latter case, the deputisation is considered temporary).
       
        4) The deputy has not held the office in the past 7 days.
+      
+       5) The deputy would not be Overpowered if e held the office.
       
       (If the office is vacant, then the remaining items in this list
       need not be true.)
       
-       5) A time limit by which the rules require the action to be
+       6) A time limit by which the rules require the action to be
           performed has expired.
       
-       6) The office's holder has not changed in the past 7 days.
+       7) The office's holder has not changed in the past 7 days.
       
-       7) Any of the following are true:
+       8) Any of the following are true:
       
           a) The deputy announced between 2 and 14 days earlier that
              e intended to deputise for that office for the purposes of
@@ -4191,6 +4211,10 @@ Amended(26) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
 Amended(27) by P9173 'Mid-2024 Omnibus Cleanup Act' (Mischief, Murphy,
    ais523, Janet, 4st), 15 Sep 2024
+Amended(28) by P9305 'Fix temporary deputisation ISIDTID' (ais523), 11
+   Mar 2026
+Amended(29) by P9314 'No Overpowered Deputies' (Mischief, Murphy), 20
+   Mar 2026
 
 Annotations:
 CFJ 1776 (called 01 Nov 2007): A requirement to perform an action, for
@@ -4204,17 +4228,16 @@ CFJ 3739 (called 16 Jun 2019): To perform an action by temporary
     deputisation is to deputise.
 
 ------------------------------------------------------------------------
-Rule 2689/2 (Power=3.0)
+Rule 2689/3 (Power=3.0)
 Vacations & Delegation
 
-      Delegate is an Office switch with possible values of "None" and
-      any active player, and default value of "None". Delegates are
-      tracked by the ADoP in eir weekly report.
+      Delegate is an Office switch, tracked by the ADoP, with possible
+      values "None" (default) and any active player.
       
       A player CAN flip the Delegate switch of a specified office to
-      emself with Agoran Consent. If the Delegate switch of an office is
-      set to "None", the holder of that office CAN flip the Delegate
-      switch of that office to a specified player with support from that
+      emself with Agoran Consent, or from "None" to emself with support
+      from its holder. The holder of an office CAN flip its Delegate
+      switch from "None" to a specified player with support from the
       specified player.
       
       An officer CAN and SHOULD take a Vacation from a specified office
@@ -4248,6 +4271,7 @@ Enacted by P9072 'Vacations v4' (snail, nix, Janet, 4st, Yachay
    Wayllukuq, G., juan, Murphy, ais523), 18 Mar 2024
 Amended(1) by P9110 'Delegate removal' (Janet), 12 May 2024
 Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
+Amended(3) by P9317 'Office cleanup' (Murphy, Mischief), 20 Mar 2026
 
 Annotations:
 
@@ -4742,7 +4766,7 @@ Documents
    Documents are little bits of text that can be ratified, therefore
    modifying the gamestate slightly.
 ------------------------------------------------------------------------
-Rule 1551/23 (Power=3.2)
+Rule 1551/24 (Power=3.2)
 Ratification
 
       A retroactive change is one that changes the game's record of past
@@ -4764,9 +4788,9 @@ Ratification
       application time.
       
       Rules to the contrary notwithstanding, when a document is
-      ratified, the gamestate is modified to what it would be if, at the
-      truth time, the gamestate had been minimally modified to make the
-      ratified document as true and accurate as possible.
+      ratified, the gamestate is modified to what it would currently be
+      if, at the truth time, the gamestate had been minimally modified
+      to make the ratified document as true and accurate as possible.
       
       Ratification CANNOT occur if it would add inconsistencies between
       the gamestate and the rules.
@@ -4834,6 +4858,8 @@ Power changed from 3.1 to 3.2 by P8534 'Power Up' (Aris), 03 Feb 2021
 Amended(22) by P8651 'Temporal Incursion Modification and Exclusion Act'
    (Janet, Aris, Oerjan), 15 Mar 2022
 Amended(23) by P9184 'Ratification fix' (ais523), 11 Oct 2024
+Amended(24) by P9306 'Ratification timing clarification' (ais523), 11
+   Mar 2026
 
 Annotations:
 CFJ 2165 (called 16 Sep 2008): Ratification can create legal fictions,
@@ -4854,7 +4880,7 @@ CFJ 3769 (called 04 Aug 2019): When ratification makes a change, R1551
     is the causal agent of that change.
 
 ------------------------------------------------------------------------
-Rule 2202/10 (Power=3)
+Rule 2202/11 (Power=3)
 Ratification Without Objection
 
       A public document is part (possibly all) of a public message.
@@ -4867,13 +4893,13 @@ Ratification Without Objection
       notwithstanding.
       
       A player SHALL NOT knowingly use or announce intent to use
-      Ratification Without Objection to ratify a (prior to ratification)
-      document containing incorrect or Indeterminate information when a
-      corrected document could be produced with reasonable effort,
-      unless the general nature of the document's error and reason for
-      ratifying it is clearly and plainly described in the announcement
-      of intent. Such ratification or announcement of intent to ratify
-      is the Class 8 Infraction of Endorsing Forgery.
+      Ratification Without Objection to ratify a document that (prior to
+      ratification) contained incorrect or Indeterminate information
+      when a corrected document could be produced with reasonable
+      effort, unless the general nature of the document's error and
+      reason for ratifying it is clearly and plainly described in the
+      announcement of intent. Such ratification or announcement of
+      intent to ratify is the Class 8 Infraction of Endorsing Forgery.
 
 History:
 
@@ -4890,6 +4916,8 @@ Amended(7) by P8244 'Crime Cleanup' (Janet), 05 Sep 2019
 Amended(8) by P8270 'Self-ratifying statements' (omd), 11 Nov 2019
 Amended(9) by P8492 'Unscoped RWO' (Janet), 30 Aug 2020
 Amended(10) by P8976 'Ruleset convergance' (Janet), 25 May 2023
+Amended(11) by P9316 'What was that word, again?' (Murphy, Mischief), 20
+   Mar 2026
 
 Annotations:
 CFJ 1836 (called 18 Dec 2007): Ratification of an official document
@@ -4984,17 +5012,17 @@ Justice
    So you've broken a rule. Now what? This section describes Blots, the
    main method of punishment for Agorans.
 ------------------------------------------------------------------------
-Rule 2555/18 (Power=2)
+Rule 2555/20 (Power=2)
 Blots
 
       Blots are an indestructible fixed currency with ownership
-      restricted to persons. A person with 1 or more blots is Impure, a
+      restricted to persons. A person with 1 or more blots is Impure; a
       person with 0 blots is Pure. An impure unregistered person is a
       Fugitive. The Referee is an office, and the recordkeepor for
       blots.
       
       To expunge a blot is to destroy it. Creating and destroying blots
-      is secured with a Power Threshold of 1.7
+      is secured with a Power Threshold of 1.7.
       
       A person CAN, by announcement, create a specified number of blots
       in eir possession.
@@ -5033,6 +5061,8 @@ Amended(17) by P9238 'Make currency current again' (Murphy, Janet,
    Mischief), 09 Aug 2025
 Amended(18) by P9254 'Administrative Publication Act' (Janet, kiako), 20
    Nov 2025
+Amended(19) by P9307 'Cleaner punctuation' (ais523), 11 Mar 2026
+Amended(20) by P9307 'Cleaner punctuation' (ais523), 11 Mar 2026
 
 Annotations:
 
@@ -5253,7 +5283,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/36 (Power=2)
+Rule 991/37 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -5295,9 +5325,8 @@ Calls for Judgement
       If two CFJs become assigned to the same judge in the same message,
       those CFJs are "linked" to each other, unless that message
       specifies that the CFJs should not be linked. The Arbitor SHOULD
-      consider linking two CFJs if they inquire about the same or
-      substantially similar events and are called at approximately the
-      same time.
+      link two CFJs if they inquire about the same or substantially
+      similar events and are called at approximately the same time.
 
 History:
 
@@ -5352,6 +5381,8 @@ Amended(33) by P8455 'old judgements are good judgements' (G., Janet,
 Amended(34) by P9147 'Paradox cleanup fix' (ais523), 05 Aug 2024
 Amended(35) by P9203 'A clarification' (Janet, ais523), 26 Jan 2025
 Amended(36) by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
+Amended(37) by P9319 'Some recommendations' (Murphy, Mischief, Trigon),
+   20 Mar 2026
 
 Annotations:
 CFJ 1692-1693 (called 20 Jun 2007): A CFJ can be unambiguously
@@ -5690,7 +5721,7 @@ Amended(9) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2492/7 (Power=1)
+Rule 2492/8 (Power=1)
 Recusal
 
       A judge CAN recuse emself from a CFJ e is assigned to by
@@ -5703,8 +5734,8 @@ Recusal
       CAN recuse an inactive or unregistered judge by announcement.
       
       If a judge is recused from a case that was continuously open and
-      assigned to em for at least the past 4 days, e SHOULD NOT be
-      assigned as a judge until e has apologised and/or reasonably
+      assigned to em for at least the past 4 days, players SHOULD NOT
+      assign em as a judge until e has apologised and/or reasonably
       explained eir actions.
 
 History:
@@ -5718,6 +5749,7 @@ Amended(5) by P8532 'Turn Undead v2' (G.), 03 Feb 2021
 Amended(6) by P8601 'Adjust late recusal' (Murphy, Telna), 30 Aug 2021
 Amended(7) by P9073 'In case of unexpected nonplayerhood' (Kate,
    Gaelan), 07 Apr 2024
+Amended(8) by P9308 'Fix passive SHOULD' (ais523), 11 Mar 2026
 
 Annotations:
 
@@ -5967,6 +5999,31 @@ Amended(7) by P9111 'Resolve The Paradox' (ais523), 26 May 2024
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2716/0 (Power=2.0)
+Scheduled Actions
+
+      A player CAN pay a fee of N spendies (where N is an integer from 1
+      to 7, inclusive) to create a Scheduled Action, specifying a time
+      between 0 and N days in the future (the Trigger) and a body of
+      text (the Payload). However, a Scheduled Action CANNOT be created
+      while another Scheduled Action is taking effect.
+      
+      At a Scheduled Action's Trigger, it takes effect (its creator
+      performs actions as if e had published its Payload at that time),
+      then it is destroyed. Scheduled Actions take effect after any
+      actions performed at the same time by other means; multiple
+      Scheduled Actions with the same Trigger take effect in order of
+      creation.
+      
+      Destroying or altering a Scheduled Action is secured.
+
+History:
+
+Enacted by P9321 'Scheduled actions' (Murphy, Mischief), 20 Mar 2026
+
+Annotations:
+
+------------------------------------------------------------------------
 Rule 2519/2 (Power=3)
 Consent
 
@@ -6193,7 +6250,7 @@ CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
     not fulfill the requirement.
 
 ------------------------------------------------------------------------
-Rule 2576/4 (Power=3)
+Rule 2576/5 (Power=3)
 Ownership
 
       Each asset has exactly one owner.
@@ -6210,8 +6267,13 @@ Ownership
       backing document (provided that the modification either destroys
       it or prevents it from being in abeyance). Rules to the contrary
       notwithstanding, the Lost and Found Department can own assets of
-      every type. Assets owned by the Lost and Found Department can be
-      transferred or destroyed by any player without objection.
+      every type.
+      
+      Assets owned by the Lost and Found Department can be transferred
+      or destroyed by any player without objection. Assets owned by the
+      Lost and Found Department can be transferred or destroyed by the
+      Executor, as authorized by the Executor's administrative
+      regulations.
 
 History:
 
@@ -6223,6 +6285,8 @@ Amended(3) by P8500 'Clarify asset ownership some more' (Murphy, G.), 25
    Sep 2020
 Amended(4) by P9075 'No Hidden Ownership Restrictions' (nix, Janet,
    kiako), 07 Apr 2024
+Amended(5) by P9312 'Executive Solution' (Mischief, ais523, Murphy), 20
+   Mar 2026
 
 Annotations:
 
@@ -6355,6 +6419,25 @@ Amended(6) by P9250 'Re-fee' (Janet, Kate), 09 Nov 2025
 Annotations:
 
 ------------------------------------------------------------------------
+Rule 2715/0 (Power=2.0)
+The Executor
+
+      The Executor is an elected office responsible for managing assets
+      in the Lost and Found Department.
+      
+      The Executor SHOULD maintain administrative regulations specifying
+      how e will manage such assets. The Executor is ENCOURAGED to draft
+      eir administrative regulations such that any actions e takes to
+      manage such assets occur no less frequently than quarterly.
+
+History:
+
+Enacted by P9312 'Executive Solution' (Mischief, ais523, Murphy), 20 Mar
+   2026
+
+Annotations:
+
+------------------------------------------------------------------------
 ========================================================================
 Economics
    The economic landscape changes quickly in Agora. No matter what name
@@ -6362,7 +6445,7 @@ Economics
    only describes the core mechanics. Any other economic subsystems are
    described elsewhere.
 ------------------------------------------------------------------------
-Rule 2659/14 (Power=1)
+Rule 2659/15 (Power=1)
 Stamps
 
       Stamps are a category of asset ownable by players and contracts.
@@ -6387,9 +6470,6 @@ Stamps
       eir own type. When less than 8 Stamps of eir type exist, X is 2.
       When 8 to 15 Stamps of eir type exist, X is 1. When 16 or more
       stamps of eir type exist, X is 0.
-      
-      Any player CAN pay a fee of 6 Spendies to transfer a specified
-      stamp from the L&FD to emself.
 
 History:
 
@@ -6410,6 +6490,8 @@ Amended(11) by P9200 'Rebalancing' (Mischief, ais523), 22 Dec 2024
 Amended(12) by P9206 'Let Contracts Own Stamps' (Mischief), 26 Jan 2025
 Amended(13) by P9234 'Prix Fixe' (Mischief), 09 Aug 2025
 Amended(14) by P9261 'Further win indirection' (Janet), 08 Dec 2025
+Amended(15) by P9312 'Executive Solution' (Mischief, ais523, Murphy), 20
+   Mar 2026
 
 Annotations:
 
@@ -6439,22 +6521,21 @@ Amended(1) by P9204 'Rare stamps, more differently' (Janet), 26 Jan 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2499/27 (Power=1)
+Rule 2499/29 (Power=1)
 Welcome Packages
 
+      A player CAN, by announcement, cause a specified player to receive
+      a welcome package (syn. "grant" em a welcome package), and SHOULD
+      specify the assets thus gained.
+      
       When a player receives a welcome package, if e has not received a
       welcome package, including under any previous definition, since e
-      last registered nor in the past 30 days, e gains the following
-      assets:
+      last registered nor in the past 30 days, then e:
       
-      * 15 spendies, if e has not been granted any spendies since e last
-        registered.
-      * 16 Hectares.
-      
-      A player CAN, by announcement, cause a specified player to receive
-      a welcome package (syn. "grant" em a welcome package). When a
-      player receives a welcome package, e scores the date of eir
-      registration.
+      * gains 15 spendies, if e has not been granted any spendies since
+        e last registered;
+      * gains 16 Hectares; and
+      * scores the date of eir registration.
 
 History:
 
@@ -6498,6 +6579,8 @@ Amended(25) by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
 Amended(26) by P9283 'Welcome Package Tweak' (Mischief), 18 Jan 2026
 Amended(27) by P9290 'Welcome Cards' (Trigon), 18 Feb 2026
+Amended(28) by P9304 'Fix Welcome Packages' (Mischief), 11 Mar 2026
+Amended(29) by P9309 'Packing list' (Murphy), 11 Mar 2026
 
 Annotations:
 
@@ -6575,7 +6658,7 @@ Amended(8) by P9238 'Make currency current again' (Murphy, Janet,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2656/12 (Power=1.5)
+Rule 2656/13 (Power=1.5)
 Radiance
 
       The Illuminator is an office, responsible for tracking radiance.
@@ -6584,17 +6667,6 @@ Radiance
       tracked by the Illuminator. When a player is "granted" or "gains"
       a specified amount of radiance, eir radiance is increased by that
       amount.
-      
-      Upon a correct announcement from a player that eir radiance is 100
-      or more (correctly specifying the amount), e Outshines the Sun.
-      
-      When a player Outshines the Sun, e wins the game. When a player
-      wins the game this way, the following happen in order:
-      
-      * Eir radiance is set to 0.
-      
-      * The radiance of each other player is set to half its current
-        value (rounded down).
       
       Once per quarter, the Illuminator CAN by announcement (and SHALL
       during its first Eastman week) issue a Notice of Diminution, upon
@@ -6625,6 +6697,42 @@ Amended(10) by P9201 'Vox Populi > Vox Fortunae' (snail, Mischief), 22
 Amended(11) by P9254 'Administrative Publication Act' (Janet, kiako), 20
    Nov 2025
 Amended(12) by P9261 'Further win indirection' (Janet), 08 Dec 2025
+Amended(13) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2711/2 (Power=1.5)
+Outshining the Sun
+
+      Upon a correct announcement from a player that eir radiance is 100
+      or more (correctly specifying the amount), e Outshines the Sun.
+      
+      When a player Outshines the Sun, e wins the game. When a player
+      wins the game this way, the following happen in order:
+      
+      * Eir radiance is set to 0.
+      
+      * The radiance of each other player is set to half its current
+        value (rounded down).
+      
+      * All Pyrite is destroyed.
+      
+      * The Fields Wither.
+      
+      * All Hectares are destroyed.
+      
+      * Each player is granted 16 Hectares.
+
+History:
+
+Enacted by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
+Amended(1) by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
+Retitled from 'Light Overexposure' to 'Outshining the Sun' by P9311 'Lux
+   Solis' (Mischief, Murphy), 20 Mar 2026
+Power changed from 1.0 to 1.5 by P9311 'Lux Solis' (Mischief, Murphy),
+   20 Mar 2026
+Amended(2) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
 
 Annotations:
 
@@ -6817,28 +6925,6 @@ Amended(3) by P9284 'Protecting Farmer's Sovereignty' (juan), 09 Feb
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2711/1 (Power=1.0)
-Light Overexposure
-
-      When a player wins the game as a result of Outshining the Sun, the
-      following happen in order:
-      
-      * All Pyrite is destroyed.
-      
-      * The Fields Wither.
-      
-      * All Hectares are destroyed.
-      
-      * Each player is granted 16 Hectares.
-
-History:
-
-Enacted by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
-Amended(1) by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
-
-Annotations:
-
-------------------------------------------------------------------------
 ========================================================================
 Numbers, and Cards Thereof
    Distinct denominations dominate desperate, dedicated deck-builders
@@ -6951,18 +7037,23 @@ CFJ 3887 (called 21 Oct 2020): An instrument that is empowered to make
     cause persons to win the game.
 
 ------------------------------------------------------------------------
-Rule 2465/1 (Power=0.3)
+Rule 2465/2 (Power=0.3)
 Victory by Apathy
 
       A player CAN Declare Apathy without objection, specifying a set of
       players. Upon doing so, the specified players win the game, except
       for those who have won the game through this Rule in the past 14
       days.
+      
+      A player SHOULD NOT announce intent to Declare Apathy unless e
+      expects it to be reasonably likely to succeed.
 
 History:
 
 Enacted by P7811 'Winning by apathy' (ais523), 11 Sep 2016
 Amended(1) by P8553 'Slightly less apathetic' (Janet), 09 Apr 2021
+Amended(2) by P9319 'Some recommendations' (Murphy, Mischief, Trigon),
+   20 Mar 2026
 
 Annotations:
 
@@ -8140,7 +8231,7 @@ CFJ 3902 (called 19 Mar 2021): Ratifying an SLR increments the version
     number if it ratifies an error.
 
 ------------------------------------------------------------------------
-Rule 2694/1 (Power=1.0)
+Rule 2694/2 (Power=1.0)
 Hats
 
       Hats are a secured player switch defaulting to "none" with the
@@ -8152,6 +8243,8 @@ Hats
         armored helm: competing for wins and in sub-games
       
         dunce cap: expressing regret or acknowledging a mistake
+      
+        exercise headband: pushing the boulder
       
         floral wreath: resolving conflict
       
@@ -8191,6 +8284,7 @@ History:
 Enacted by P9122 'Hats' (Mischief), 23 Jun 2024
 Amended(1) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
    Janet, 4st), 15 Sep 2024
+Amended(2) by P9315 'Sisyphean Headgear' (Mischief, Murphy), 20 Mar 2026
 
 Annotations:
 
