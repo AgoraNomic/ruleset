@@ -1,0 +1,21 @@
+id: 2717
+name: "Consolation Prize"
+power: 1.0
+text: |
+  The Consolation Prize is a unique untracked indestructible fixed
+  asset with ownership entirely restricted to players and Agora. If
+  the Consolation Prize would otherwise be in abeyance, or if it is
+  owned by the Lost and Found Department, it is immediately
+  transferred to Agora.
+
+  A player may award the Consolation Prize by announcement,
+  specifying another player (the recipient). If e has not
+  previously awarded the Consolation Prize in the current month,
+  then upon such an announcement the Consolation Prize is
+  transferred to the recipient.
+history:
+- change:
+    type: enactment
+  date: 2026-03-30
+  agent:
+    proposal: "9324"
