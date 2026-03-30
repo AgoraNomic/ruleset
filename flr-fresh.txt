@@ -3,15 +3,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 22 Mar 2026
+Date of this ruleset: 30 Mar 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 147
+Number of rules currently enacted: 148
 
-Highest ID'd rule in this ruleset: 2716
-Highest ID'd Proposal Passed: 9321
-Highest ID'd Rule Enacted: 2716
+Highest ID'd rule in this ruleset: 2717
+Highest ID'd Proposal Passed: 9324
+Highest ID'd Rule Enacted: 2717
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -194,6 +194,7 @@ Agoran Culture
    * Rule 2695: The Veblen
    * Rule 2702: Agoran Bingo
    * Rule 2703: Regulating Agoran Bingo
+   * Rule 2717: Consolation Prize
 
 
 ------------------------------------------------------------------------
@@ -202,7 +203,7 @@ Power Distribution:
 
 1  with Power=0.3
 3  with Power=0.5
-44 with Power=1
+45 with Power=1
 4  with Power=1.5
 5  with Power=1.7
 26 with Power=2
@@ -609,7 +610,7 @@ CFJ 1761 (called 30 Sep 2007): Publishing part of a message is a
     different action from publishing the whole message.
 CFJ 1646 (called 30 Apr 2007): The act of "publishing" or "announcing"
     is accomplished when the message has left the sender's technical
-    domain of control, indicated by one of the "Received:" headers0.
+    domain of control, indicated by one of the "Received:" headers.
 CFJ 1768 (called 22 Oct 2007): The right of participation in the fora is
     the right to participate in them for their intended purposes, and is
     not necessarily infringed by regulations regarding the manner and
@@ -2056,8 +2057,6 @@ CFJ 1655 (called 09 May 2007): Distributing a purported proposal whose
     matter from the message that submitted them both, if both submitted
     proposals have non-null effects, does not constitute a legal
     distribution of either of the submitted proposals.
-CFJ 2733 (called 14 Nov 2009): This rule defines a separate method of
-    distribution from the one defined in Rule 107.
 
 ------------------------------------------------------------------------
 Rule 2137/2 (Power=1)
@@ -3986,7 +3985,6 @@ Election Procedure
       close at the end of the poll's voting period or when the election
       is ended, whichever comes first.
       
-      
       After the nomination period ends, the Overseer of the office CAN
       and, in a timely fashion, SHALL:
       
@@ -4097,6 +4095,8 @@ Amended(61) by P8967 'Campaign Please' (nix), 19 May 2023
 Amended(62) by P9317 'Office cleanup' (Murphy, Mischief), 20 Mar 2026
 
 Annotations:
+CFJ 3783 (called 07 Dec 2019): It is not possible to win an election
+    after it has ended.
 
 ------------------------------------------------------------------------
 Rule 2573/5 (Power=2)
@@ -4541,13 +4541,11 @@ CFJ 3645 (called 20 Jun 2018): Including a report in a message to the
     public forum fulfills an officer's duty to publish said report,
     regardless of whether or not a disclaimer is included stating that
     it is not a report.
-CFJ 3783 (called 07 Dec 2019): It is not possible to win an election
-    after it has ended.
 CFJ 3823-3824 (called 09 Mar 2020): A report must contain information
     accurate as of a time no earlier than one reporting period prior to
     its publication (e.g. one week, in the case of a weekly report).
-CFJ 3798 (called 24 Jan 2020): While the requirements for publishing
-    areport are not exactly specified in the rules, they can be deduced;
+CFJ 3798 (called 24 Jan 2020): While the requirements for publishing a
+    report are not exactly specified in the rules, they can be deduced;
     exact requirements are comprehensively explained in the judgment.
 
 ------------------------------------------------------------------------
@@ -5546,7 +5544,7 @@ CFJ 1744 (called 18 Sep 2007): It is not the job of the judge to hunt
     substantive judgement.
 CFJ 1771 (called 28 Oct 2007): If an inquiry case revolves around the
     interpretation of a specific message, and the initiator does not
-    provide a reasonable reference to that message , the judge is
+    provide a reasonable reference to that message, the judge is
     entitled to treat this as a situation of insufficient information
     being available.
 CFJ 1732 (called 23 Aug 2007): If a particular player holds a particular
@@ -8450,6 +8448,28 @@ Regulating Agoran Bingo
 History:
 
 Enacted by P9240 'Agoran Bingo' (Mischief, juan), 09 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2717/0 (Power=1.0)
+Consolation Prize
+
+      The Consolation Prize is a unique untracked indestructible fixed
+      asset with ownership entirely restricted to players and Agora. If
+      the Consolation Prize would otherwise be in abeyance, or if it is
+      owned by the Lost and Found Department, it is immediately
+      transferred to Agora.
+      
+      A player may award the Consolation Prize by announcement,
+      specifying another player (the recipient). If e has not
+      previously awarded the Consolation Prize in the current month,
+      then upon such an announcement the Consolation Prize is
+      transferred to the recipient.
+
+History:
+
+Enacted by P9324 'Consolation Prize' (Mischief, Trigon), 30 Mar 2026
 
 Annotations:
 
