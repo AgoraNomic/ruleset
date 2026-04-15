@@ -24,13 +24,12 @@ text: |
   The Overseer of the ADoP is the Assessor. The Overseer of all
   other offices (including any held by the ADoP) is the ADoP.
 
-  Once per quarter, the ADoP SHALL publish a document, labeled as a
-  Notice of Election, that specifies 2-4 term-limited offices for
-  which elections can be initiated (if fewer than 2 such offices
-  exist, the notice MAY instead specify all such offices). The first
-  time each quarter the ADoP does so, elections are initiated for
-  the specified offices.  The ADoP SHOULD prioritize offices that
-  have gone longest since their last elections.
+  Once per quarter, the ADoP CAN by announcement and SHALL issue a
+  Notice of Election specifying between 2-4 term-limited offices
+  (or, if there are fewer than 2 such offices, all of them). Doing
+  so initiates elections for the specified offices. The ADoP SHOULD
+  prioritize offices that have gone longest since their last
+  elections.
 
   The above notwithstanding, an election for an office CANNOT be
   initiated if one is already in progress.
@@ -47,9 +46,14 @@ history:
     proposal: "8890"
 - change:
     type: amendment
-  date: "2026-03-01"
+  date: 2025-11-20
   agent:
-    proposal: "9300"
+    proposal: "9254"
+# - change:
+#     type: amendment
+#   date: "2026-03-01"
+#   agent:
+#     proposal: "9300"
 - change:
     type: amendment
   date: 2026-03-20
