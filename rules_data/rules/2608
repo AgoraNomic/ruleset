@@ -7,7 +7,7 @@ text: |
   The Notary's monthly report contains:
 
   1. every pledge, along with its title, creator, time window, time
-     of creation, and time of expiry;
+     of creation, time of expiry, and infraction class;
   2. every contract, with its title, full provisions, and parties;
      and
   3. every promise, along with its title, text, creator, and bearer.
@@ -41,4 +41,9 @@ history:
   date: 2023-02-17
   agent:
     proposal: "8894"
+- change:
+    type: amendment
+  date: 2026-04-13
+  agent:
+    proposal: "9327"
 annotations: []
