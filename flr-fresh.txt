@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 30 Mar 2026
+Date of this ruleset: 15 Apr 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
 Number of rules currently enacted: 148
 
 Highest ID'd rule in this ruleset: 2717
-Highest ID'd Proposal Passed: 9324
+Highest ID'd Proposal Passed: 9327
 Highest ID'd Rule Enacted: 2717
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -3941,13 +3941,12 @@ The Election Cycle
       The Overseer of the ADoP is the Assessor. The Overseer of all
       other offices (including any held by the ADoP) is the ADoP.
       
-      Once per quarter, the ADoP SHALL publish a document, labeled as a
-      Notice of Election, that specifies 2-4 term-limited offices for
-      which elections can be initiated (if fewer than 2 such offices
-      exist, the notice MAY instead specify all such offices). The first
-      time each quarter the ADoP does so, elections are initiated for
-      the specified offices.  The ADoP SHOULD prioritize offices that
-      have gone longest since their last elections.
+      Once per quarter, the ADoP CAN by announcement and SHALL issue a
+      Notice of Election specifying between 2-4 term-limited offices
+      (or, if there are fewer than 2 such offices, all of them). Doing
+      so initiates elections for the specified offices. The ADoP SHOULD
+      prioritize offices that have gone longest since their last
+      elections.
       
       The above notwithstanding, an election for an office CANNOT be
       initiated if one is already in progress.
@@ -3957,7 +3956,8 @@ History:
 Enacted by P8561 'Election Cycle' (G., nix), 14 Jun 2021
 Amended(1) by P8890 'Here comes a new challenger!' (Murphy, 4st, G.), 14
    Feb 2023
-Amended(2) by P9300 'Fix Election Notices' (ais523), 01 Mar 2026
+Amended(2) by P9254 'Administrative Publication Act' (Janet, kiako), 20
+   Nov 2025
 Amended(3) by P9317 'Office cleanup' (Murphy, Mischief), 20 Mar 2026
 
 Annotations:
@@ -6139,7 +6139,7 @@ CFJ 3866 (called 08 Jul 2020): A contract cannot automatically create
     in a public message.
 
 ------------------------------------------------------------------------
-Rule 2608/4 (Power=2.0)
+Rule 2608/5 (Power=2.0)
 The Notary
 
       The Notary is an office.
@@ -6147,7 +6147,7 @@ The Notary
       The Notary's monthly report contains:
       
       1. every pledge, along with its title, creator, time window, time
-         of creation, and time of expiry;
+         of creation, time of expiry, and infraction class;
       2. every contract, with its title, full provisions, and parties;
          and
       3. every promise, along with its title, text, creator, and bearer.
@@ -6164,6 +6164,7 @@ Amended(1) by R2608, 28 Apr 2020
 Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
 Amended(3) by P8541 'You CAN, CAN't You?' (Aris), 02 Mar 2021
 Amended(4) by P8894 'Load Lightening' (nix), 17 Feb 2023
+Amended(5) by P9327 (Nilrem), 13 Apr 2026
 
 Annotations:
 
@@ -6887,21 +6888,25 @@ Amended(3) by P9286 'Less harsh weather' (Murphy), 26 Jan 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2710/3 (Power=1.0)
+Rule 2710/4 (Power=1.0)
 Genetic Modification
 
       Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
       create a new type of Crop, specifying its name. The Land Managor
       CAN once by announcement, and SHALL in a timely fashion, set its
       Growth Season, Seed Cost, Growth Duration, and Sell Price to
-      randomly selected valid values.
+      randomly selected valid values. The Land Managor CAN by
+      announcement rename a type of Crop, specifying its new name, but
+      SHOULD NOT do so unless its current name is reasonably likely to
+      cause confusion and delay.
       
       Once per Crop Season, a player CAN pay a fee of 750 Pyrite to
       alter a type of out-of-season Crop's Seed Cost, Growth Duration,
       or Sell Price by up to 25% in either direction.
       
       Once per Crop Season, a player CAN pay a fee of 10000 Pyrite to
-      remove a type of out-of-season Crop.
+      remove a type of out-of-season Crop. This fee is reduced to 1
+      Pyrite if the type's Sell Price is less than its Seed Cost.
       
       Once per Crop Season, the Land Managor CAN and SHALL by
       announcement randomly select a type of Crop that was in-season
@@ -6919,6 +6924,7 @@ Amended(1) by P9248 'Over-Optimization is Boring' (Mischief, Murphy), 28
 Amended(2) by P9281 'Switchgrass' (Murphy, 4st), 18 Jan 2026
 Amended(3) by P9284 'Protecting Farmer's Sovereignty' (juan), 09 Feb
    2026
+Amended(4) by P9326 'Money doesn't grow on trees' (Murphy), 13 Apr 2026
 
 Annotations:
 
