@@ -6,14 +6,18 @@ text: |
   create a new type of Crop, specifying its name. The Land Managor
   CAN once by announcement, and SHALL in a timely fashion, set its
   Growth Season, Seed Cost, Growth Duration, and Sell Price to
-  randomly selected valid values.
+  randomly selected valid values. The Land Managor CAN by
+  announcement rename a type of Crop, specifying its new name, but
+  SHOULD NOT do so unless its current name is reasonably likely to
+  cause confusion and delay.
 
   Once per Crop Season, a player CAN pay a fee of 750 Pyrite to
   alter a type of out-of-season Crop's Seed Cost, Growth Duration,
   or Sell Price by up to 25% in either direction.
 
   Once per Crop Season, a player CAN pay a fee of 10000 Pyrite to
-  remove a type of out-of-season Crop.
+  remove a type of out-of-season Crop. This fee is reduced to 1
+  Pyrite if the type's Sell Price is less than its Seed Cost.
 
   Once per Crop Season, the Land Managor CAN and SHALL by
   announcement randomly select a type of Crop that was in-season
@@ -42,3 +46,8 @@ history:
   date: "2026-02-09"
   agent:
     proposal: "9284"
+- change:
+    type: amendment
+  date: "2026-04-13"
+  agent:
+    proposal: "9326"
