@@ -2,9 +2,23 @@ id: 2719
 name: "6069 Dictatorship"
 power: 1.0
 text: |
-  Anyone CAN cause this rule to amend itself by announcement.
+  ais523 CAN cause this rule to amend itself with support from
+  Janet. Janet CAN cause this rule to amend itself with support from
+  ais523.
+
+  If at any point (including points in the middle of a public
+  message) a player other than ais523 or Janet would have more than
+  24 Spendies, all but 24 of that player's Spendies are
+  automatically and immediately revoked from that player.
+
+  ais523 CAN grant emself any number of Spendies by announcement.
+  Janet CAN grant emself any number of Spendies by announcement.
 history:
 - change:
     type: enactment
   date: 2026-04-25
   rule: "2718"
+- change:
+    type: amendment
+  date: 2026-04-25
+  rule: "2719"
