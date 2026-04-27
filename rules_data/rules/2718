@@ -1,0 +1,18 @@
+id: 2718
+name: "Purchased Re-enactment"
+power: 2.0
+text: |
+  For the purpose of this rule, a proposal or former proposal is an
+  "adopted proposal" if any past referendum on that proposal or
+  former proposal had an outcome oF ADOPTED.
+
+  A player CAN revive an adopted proposal by paying a fee of 25
+  Spendies. When a player does so, this rule performs the same rules
+  changes that that adopted proposal would perform if it took effect
+  right now.
+history:
+- change:
+    type: enactment
+  date: 2026-04-25
+  agent:
+    proposal: "9328"
