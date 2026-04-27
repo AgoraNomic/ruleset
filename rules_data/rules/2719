@@ -17,8 +17,10 @@ history:
 - change:
     type: enactment
   date: 2026-04-25
-  rule: "2718"
+  agent:
+    rule: "2718"
 - change:
     type: amendment
   date: 2026-04-25
-  rule: "2719"
+  agent:
+    rule: "2719"
