@@ -1,0 +1,47 @@
+Rule 2702/0 (Power=1.0)
+Agoran Bingo
+
+      The Collar is an elected office responsible for administering
+      Agoran Bingo.
+      
+      Bingo state is a singleton switch tracked by the Collar with
+      possible values paused (default) and unpaused.
+      
+      If the bingo state is paused, the Collar CAN flip it to unpaused
+      by announcement, and e SHOULD do so unless there is reasonable
+      uncertainty as to the current bingo state or the validity of a
+      claimed bingo, or the Collar is actively drafting, discussing, or
+      trying to enact or amend eir administrative regulations. When the
+      bingo state is paused, all existing bingo board selections are
+      null and void, a player CANNOT select a bingo board, and a player
+      CANNOT call bingo.
+      
+      If the bingo state is unpaused, a player whose bingo board
+      contains at least one winning pattern of conditions -- as defined
+      in the Collar's regulations -- that are all satisfied CAN call
+      bingo by announcement. (For clarity, the states of any conditions
+      not in the winning pattern are irrelevant.) Eir announcement:
+      
+      1) MUST specify the claimed winning pattern and the conditions it
+         contains;
+      
+      2) MUST reveal any information required by the Collar's
+         adminstrative regulations for the method e used to select a
+         bingo board; and
+      
+      3) SHOULD include evidence demonstrating that each of the
+        conditions in the winning pattern is satisfied, other than any
+        conditions where such satisfaction is already clearly obvious.
+      
+      When a player successfully calls bingo, e wins the game and the
+      bingo state is flipped to paused.
+      
+      If no player has successfully called bingo in the previous 3
+      months, the Collar can flip the bingo state to paused without 2
+      objections.
+
+History:
+
+Enacted by P9240 'Agoran Bingo' (Mischief, juan), 09 Aug 2025
+
+Annotations:

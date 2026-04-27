@@ -1,0 +1,35 @@
+Rule 2579/6 (Power=3)
+Fee-based Actions
+
+      If the Rules associate payment of a set of assets (hereafter the
+      fee for the action; syns: cost, price, charge) with performing an
+      action, that method for performing that action is a fee-based
+      method.
+      
+      If the fee is a non-integer quantity of a currency, the actual fee
+      is the next highest integer amount of that asset.
+      
+      To use a fee-based method, an entity (the Actor) who is otherwise
+      permitted to perform the action must announce that e is performing
+      that action; such announcement must clearly and unambiguously set
+      forth intent to pay a fee for the sole purpose of using that
+      method to perform that action. Additionally, such announcement
+      must either clearly and unambiguously specify the correct set of
+      assets for that fee or use simplified wording (e.g. "I buy X")
+      that makes the intended fee reasonably clear and unambiguous (in
+      particular, without stating an incorrect fee).
+      
+      Upon such an announcement:
+      
+        - If the Rules specify a recipient for the relevant fee, and the
+          Actor CAN transfer that fee from emself to the recipient, then
+          that fee is transferred from the Actor to the recipient and
+          the action is performed simultaneously;
+      
+        - If the Rules do not specify a recipient, and the Actor CAN
+          destroy the relevant fee in eir possession, then that fee in
+          eir possession is destroyed and the action is performed
+          simultaneously.
+      
+        - Otherwise, no changes are made to asset holdings and the
+          action is not performed.

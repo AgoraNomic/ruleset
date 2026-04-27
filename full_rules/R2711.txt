@@ -1,0 +1,33 @@
+Rule 2711/2 (Power=1.5)
+Outshining the Sun
+
+      Upon a correct announcement from a player that eir radiance is 100
+      or more (correctly specifying the amount), e Outshines the Sun.
+      
+      When a player Outshines the Sun, e wins the game. When a player
+      wins the game this way, the following happen in order:
+      
+      * Eir radiance is set to 0.
+      
+      * The radiance of each other player is set to half its current
+        value (rounded down).
+      
+      * All Pyrite is destroyed.
+      
+      * The Fields Wither.
+      
+      * All Hectares are destroyed.
+      
+      * Each player is granted 16 Hectares.
+
+History:
+
+Enacted by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
+Amended(1) by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
+Retitled from 'Light Overexposure' to 'Outshining the Sun' by P9311 'Lux
+   Solis' (Mischief, Murphy), 20 Mar 2026
+Power changed from 1.0 to 1.5 by P9311 'Lux Solis' (Mischief, Murphy),
+   20 Mar 2026
+Amended(2) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
+
+Annotations:
