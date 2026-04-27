@@ -3,15 +3,15 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 15 Apr 2026
+Date of this ruleset: 27 Apr 2026
 
 Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
 
-Number of rules currently enacted: 148
+Number of rules currently enacted: 150
 
-Highest ID'd rule in this ruleset: 2717
-Highest ID'd Proposal Passed: 9327
-Highest ID'd Rule Enacted: 2717
+Highest ID'd rule in this ruleset: 2720
+Highest ID'd Proposal Passed: 9328
+Highest ID'd Rule Enacted: 2720
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -49,6 +49,41 @@ Agora Is A Nomic
       gamestate would cause Agora to become ossified, or would cause
       Agora to cease to exist, it is cancelled and does not occur, rules
       to the contrary notwithstanding.
+
+------------------------------------------------------------------------
+========================================================================
+Important Temporary Rules
+   This category is a temporary dumping ground for rules that don't
+   easily fit in any other category but that hold special relevance for
+   the current gamestate.
+------------------------------------------------------------------------
+Rule 2720/1 (Power=2.0)
+The Grand Duumvirate
+
+      ais523 CAN cause this rule to amend itself with support from
+      Janet.  Janet CAN cause this rule to amend itself with support
+      from ais523.
+      
+      ais523 and Janet CAN each by announcement cause this rule to
+      repeal a rule (other than this one) that was created during April
+      2026 or May 2026 (but must, when doing so, specify which rule is
+      being repealed).
+
+------------------------------------------------------------------------
+Rule 2719/1 (Power=1.0)
+The Petit Dummvirate
+
+      ais523 CAN cause this rule to amend itself with support from
+      Janet. Janet CAN cause this rule to amend itself with support from
+      ais523.
+      
+      If at any point (including points in the middle of a public
+      message) a player other than ais523 or Janet would have more than
+      24 Spendies, all but 24 of that player's Spendies are
+      automatically and immediately revoked from that player.
+      
+      ais523 CAN grant emself any number of Spendies by announcement.
+      Janet CAN grant emself any number of Spendies by announcement.
 
 ------------------------------------------------------------------------
 ========================================================================
