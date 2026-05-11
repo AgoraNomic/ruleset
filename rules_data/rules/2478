@@ -37,8 +37,9 @@ text: |
    it has one); but a player CANNOT note an infraction that has
    already been investigated.
 
-   The Referee's weekly report contains a list of noted and
-   investigated Infractions committed in the previous week.
+   The Referee's weekly report includes a list of infractions noted,
+   investigated, and/or non-automatically forgiven in the previous
+   week.
 history:
 - change:
     type: enactment
@@ -195,4 +196,9 @@ history:
   date: 2024-07-06
   agent:
     proposal: "9133"
+- change:
+    type: amendment
+  date: 2026-05-11
+  agent:
+    proposal: "9335"
 annotations: []
