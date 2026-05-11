@@ -4,14 +4,16 @@ power: 1.0
 text: |
   Creating and destroying types of Crop is secured.
 
-  Growing Season, Seed Cost, Growth Duration, and Sell Price are
-  Crop type switches, tracked by the Land Managor, with these
-  values:
+  Growing Season, Seed Cost, Growth Duration, Resilience,
+  Opportunity, and Sell Price are Crop type switches, tracked by the
+  Land Managor, with these values:
 
-  * Growing Season - all Crop Seasons
-  * Seed Cost - integers from 50 to 200 inclusive, rounded
-  * Growth Duration - integers from 3 to 24 inclusive, rounded
-  * Sell Price - integers from 100 to 400, rounded
+  - Growing Season - all Crop Seasons
+  - Seed Cost - integers from 50 to 200 inclusive
+  - Growth Duration - integers from 3 to 24 inclusive
+  - Resilience - integers from 70 to 100 inclusive
+  - Opportunity - integers from 1 to 30 inclusive
+  - Sell Price - integers from 100 to 400 inclusive
 
   Rules to the contrary notwithstanding, a Crop type CANNOT be
   planted while its Seed Cost is null, and CANNOT be harvested while
@@ -33,3 +35,8 @@ history:
   date: "2026-01-18"
   agent:
     proposal: "9281"
+- change:
+    type: amendment
+  date: 2026-05-11
+  agent:
+    proposal: "9333"
