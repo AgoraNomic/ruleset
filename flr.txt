@@ -3,15 +3,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 15 Apr 2026
+Date of this ruleset: 11 May 2026
 
-Last SLR ratification: 19 Nov 2024 ruleset on 3 May 2025
+Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
-Number of rules currently enacted: 148
+Number of rules currently enacted: 151
 
-Highest ID'd rule in this ruleset: 2717
-Highest ID'd Proposal Passed: 9327
-Highest ID'd Rule Enacted: 2717
+Highest ID'd rule in this ruleset: 2722
+Highest ID'd Proposal Passed: 9335
+Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -25,6 +25,9 @@ Table of Contents:
 The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
+Important Temporary Rules
+   * Rule 2720: The Grand Duumvirate
+   * Rule 2719: The Petit Dummvirate
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -110,6 +113,7 @@ Justice
    * Rule 2556: Penalties
    * Rule 2478: Justice
    * Rule 2676: Forgiveness
+   * Rule 2722: Aggression
    * Rule 2531: Defendant's Rights
 Calls for Judgement
    * Rule  991: Calls for Judgement
@@ -198,10 +202,10 @@ Power Distribution:
 
 1  with Power=0.3
 3  with Power=0.5
-45 with Power=1
+46 with Power=1
 4  with Power=1.5
 5  with Power=1.7
-26 with Power=2
+28 with Power=2
 1  with Power=2.2
 1  with Power=2.5
 52 with Power=3
@@ -307,6 +311,55 @@ Annotations:
 CFJ 3765 (called 31 Jul 2019): A reasonable combination of actions for
     allowing arbitrary rule changes could include repealing this rule
     first.
+
+------------------------------------------------------------------------
+========================================================================
+Important Temporary Rules
+   This category is a temporary dumping ground for rules that don't
+   easily fit in any other category but that hold special relevance for
+   the current gamestate.
+------------------------------------------------------------------------
+Rule 2720/1 (Power=2.0)
+The Grand Duumvirate
+
+      ais523 CAN cause this rule to amend itself with support from
+      Janet.  Janet CAN cause this rule to amend itself with support
+      from ais523.
+      
+      ais523 and Janet CAN each by announcement cause this rule to
+      repeal a rule (other than this one) that was created during April
+      2026 or May 2026 (but must, when doing so, specify which rule is
+      being repealed).
+
+History:
+
+Enacted by R2718, 25 Apr 2026
+Amended(1) by R2720, 25 Apr 2026
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2719/1 (Power=1.0)
+The Petit Dummvirate
+
+      ais523 CAN cause this rule to amend itself with support from
+      Janet. Janet CAN cause this rule to amend itself with support from
+      ais523.
+      
+      If at any point (including points in the middle of a public
+      message) a player other than ais523 or Janet would have more than
+      24 Spendies, all but 24 of that player's Spendies are
+      automatically and immediately revoked from that player.
+      
+      ais523 CAN grant emself any number of Spendies by announcement.
+      Janet CAN grant emself any number of Spendies by announcement.
+
+History:
+
+Enacted by R2718, 25 Apr 2026
+Amended(1) by R2719, 25 Apr 2026
+
+Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -5081,7 +5134,7 @@ Amended(2) by P9255 'It's personal' (Janet), 20 Nov 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2478/29 (Power=1.7)
+Rule 2478/30 (Power=1.7)
 Justice
 
       An Infraction is a violation of a rule. The person who committed
@@ -5119,8 +5172,9 @@ Justice
       it has one); but a player CANNOT note an infraction that has
       already been investigated.
       
-      The Referee's weekly report contains a list of noted and
-      investigated Infractions committed in the previous week.
+      The Referee's weekly report includes a list of infractions noted,
+      investigated, and/or non-automatically forgiven in the previous
+      week.
 
 History:
 
@@ -5169,6 +5223,8 @@ Amended(27) by P9112 'What's a crime?' (Murphy), 26 May 2024
 Amended(28) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul
    2024
 Amended(29) by P9133 'Last from the Past' (snail), 06 Jul 2024
+Amended(30) by P9335 'Infraction reporting requirements' (Murphy,
+   ais523), 11 May 2026
 
 Annotations:
 
@@ -5193,6 +5249,32 @@ Enacted by P8830 'Justice & Forgiveness 2.1' (nix, Janet, G., Murphy,
    snail), 20 Aug 2022
 Amended(1) by cleaning (Kate), 18 Sep 2023
 Amended(2) by P9133 'Last from the Past' (snail), 06 Jul 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2722/0 (Power=2.0)
+Aggression
+
+      Aggression is a player switch, tracked by the Referee, with values
+      Negligible (default) and Ruthless.
+      
+      A player CAN flip eir Aggression from Negligible to Ruthless by
+      announcement.
+      
+      A player CAN flip eir Aggression from Ruthless to Negligible with
+      Agoran consent, or by announcement if e last became Ruthless at
+      least three months ago.
+      
+      The voting strength of Ruthless players is increased by 1.
+      
+      If a Ruthless player commits an infraction, then all players
+      SHOULD note it (if not already noted), and the Investigator SHOULD
+      assign as large a penalty as possible when investigating it.
+
+History:
+
+Enacted by P9334 'Pig Pen' (Murphy, Nilrem), 11 May 2026
 
 Annotations:
 
@@ -5276,7 +5358,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/37 (Power=2)
+Rule 991/38 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -5302,18 +5384,21 @@ Calls for Judgement
       When an open CFJ's judge is unassigned, the Arbitor CAN assign any
       eligible player to be its judge by announcement, and SHALL do so
       in a timely fashion after it becomes an open and unassigned CFJ.
-      In the same message in which e does so, e SHALL also (and CAN by
-      announcement or by clear specification) assign it an ID number,
-      unless it already has one. The players eligible to be assigned as
-      judge are all active players except the initiator and the person
-      barred (if any). The Arbitor SHALL assign judges over time such
-      that all interested players have reasonably equal opportunities to
-      judge. If a CFJ has no judge assigned, then any player eligible to
-      judge that CFJ CAN assign it to emself without 3 objections.
+      The players eligible to be assigned as judge are all active
+      players except the initiator and the person barred (if any). The
+      Arbitor SHALL assign judges over time such that all interested
+      players have reasonably equal opportunities to judge. If a CFJ has
+      no judge assigned, then any player eligible to judge that CFJ CAN
+      assign it to emself without 3 objections.
       
       The Arbitor's weekly report includes a summary of recent judicial
       case activity, including open and recently-judged cases, recent
       judicial assignments, and a list of players interested in judging.
+      
+      If a CFJ does not have an ID number, the Arbitor CAN by
+      announcement or by clear specification assign an ID number to it,
+      and SHALL do so in any message in which e assigns a player to
+      judge it.
       
       If two CFJs become assigned to the same judge in the same message,
       those CFJs are "linked" to each other, unless that message
@@ -5376,6 +5461,8 @@ Amended(35) by P9203 'A clarification' (Janet, ais523), 26 Jan 2025
 Amended(36) by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
 Amended(37) by P9319 'Some recommendations' (Murphy, Mischief, Trigon),
    20 Mar 2026
+Amended(38) by P9332 'Fix Proposal I Couldn't Think Of A Good Title For'
+   (Kate), 11 May 2026
 
 Annotations:
 CFJ 1692-1693 (called 20 Jun 2007): A CFJ can be unambiguously
@@ -6811,19 +6898,21 @@ Amended(2) by P9259 'A reasonable limit' (Janet, ais523), 20 Nov 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2708/1 (Power=1.0)
+Rule 2708/2 (Power=1.0)
 Crops
 
       Creating and destroying types of Crop is secured.
       
-      Growing Season, Seed Cost, Growth Duration, and Sell Price are
-      Crop type switches, tracked by the Land Managor, with these
-      values:
+      Growing Season, Seed Cost, Growth Duration, Resilience,
+      Opportunity, and Sell Price are Crop type switches, tracked by the
+      Land Managor, with these values:
       
-      * Growing Season - all Crop Seasons
-      * Seed Cost - integers from 50 to 200 inclusive, rounded
-      * Growth Duration - integers from 3 to 24 inclusive, rounded
-      * Sell Price - integers from 100 to 400, rounded
+      - Growing Season - all Crop Seasons
+      - Seed Cost - integers from 50 to 200 inclusive
+      - Growth Duration - integers from 3 to 24 inclusive
+      - Resilience - integers from 70 to 100 inclusive
+      - Opportunity - integers from 1 to 30 inclusive
+      - Sell Price - integers from 100 to 400 inclusive
       
       Rules to the contrary notwithstanding, a Crop type CANNOT be
       planted while its Seed Cost is null, and CANNOT be harvested while
@@ -6840,35 +6929,36 @@ History:
 Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
 Amended(1) by P9281 'Switchgrass' (Murphy, 4st), 18 Jan 2026
+Amended(2) by P9333 'Whither Weather?' (Galle), 11 May 2026
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2709/3 (Power=1.0)
+Rule 2709/4 (Power=1.0)
 The Growth Cycle
 
       A player CAN plant an in-season Crop by paying a fee in Pyrite
       equal to its Seed Cost, provided that eir number of Hectares is
-      greater than the number of Crops e planted earlier in the current
-      Crop Season and has not yet harvested.
+      greater than the number of unlost, unharvested Crops e planted
+      earlier in the current Crop Season. <Growth Duration> days after
+      it is planted, an unlost Crop ripens.
       
-      Once per Crop that a player planted earlier in the current Crop
-      Season and at least <Growth Duration> days ago, e CAN harvest it
-      by announcement, gaining Pyrite equal to its Sell Price
-      (exception: if the Weather for the week e planted it had already
-      been selected at the time e planted it, e CANNOT harvest it before
-      the end of the week after the week e planted it).
+      Once per ripe, unlost, unharvested Crop that a player planted, e
+      CAN harvest it by announcement gaining Pyrite equal to its Sell
+      Price (exception: if the Weather for the week e planted it had
+      already been selected at the time e planted it, e CANNOT harvest
+      it before the end of the week after the week e planted it).
       
-      When the Fields Wither, all unharvested Crops are lost. For the
-      avoidance of doubt, the previous paragraph notwithstanding, a
-      player CANNOT harvest a Crop planted before the most recent time
-      the Fields Withered.
+      When the Fields Wither, all unharvested Crops are lost.
       
-      Once each week, the Land Managor SHALL randomly select and
-      announce the Weather for that week, which is either Good
-      (probability 30%), Neutral (probability 60%), or Bad (probability
-      10%). At the end of each week in which Bad Weather was selected
-      this way, all unharvested Crops are lost.
+      Weather is a secured singleton integer switch with values between
+      1 and 100 inclusive, tracked by the Land Managor, with a default
+      value of 50.  Once per week, the Land Managor SHALL select and
+      announce a random integer between 1 and 100 to be that week's
+      Weather. Upon such an announcement, the Weather is flipped to that
+      value. At the end of each week, all crops with Resilience lower
+      than the current Weather are lost and all crops with Opportunity
+      greater than the current Weather ripen.
       
       At the end of each Crop Season, the Fields Wither.
 
@@ -6879,25 +6969,27 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
 Amended(1) by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
 Amended(2) by P9273 'The Weather Forecast' (ais523, Janet), 10 Dec 2025
 Amended(3) by P9286 'Less harsh weather' (Murphy), 26 Jan 2026
+Amended(4) by P9333 'Whither Weather?' (Galle), 11 May 2026
 
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2710/4 (Power=1.0)
+Rule 2710/6 (Power=1.0)
 Genetic Modification
 
       Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
       create a new type of Crop, specifying its name. The Land Managor
       CAN once by announcement, and SHALL in a timely fashion, set its
-      Growth Season, Seed Cost, Growth Duration, and Sell Price to
-      randomly selected valid values. The Land Managor CAN by
-      announcement rename a type of Crop, specifying its new name, but
-      SHOULD NOT do so unless its current name is reasonably likely to
-      cause confusion and delay.
+      Growth Season, Seed Cost, Growth Duration, Resilience,
+      Opportunity, and Sell Price to randomly selected valid values. The
+      Land Managor CAN by announcement rename a type of Crop, specifying
+      its new name, but SHOULD NOT do so unless its current name is
+      reasonably likely to cause confusion and delay.
       
       Once per Crop Season, a player CAN pay a fee of 750 Pyrite to
       alter a type of out-of-season Crop's Seed Cost, Growth Duration,
-      or Sell Price by up to 25% in either direction.
+      Resilience, Opportunity, or Sell Price by up to 25% in either
+      direction.
       
       Once per Crop Season, a player CAN pay a fee of 10000 Pyrite to
       remove a type of out-of-season Crop. This fee is reduced to 1
@@ -6920,6 +7012,8 @@ Amended(2) by P9281 'Switchgrass' (Murphy, 4st), 18 Jan 2026
 Amended(3) by P9284 'Protecting Farmer's Sovereignty' (juan), 09 Feb
    2026
 Amended(4) by P9326 'Money doesn't grow on trees' (Murphy), 13 Apr 2026
+Amended(5) by P9333 'Whither Weather?' (Galle), 11 May 2026
+Amended(6) by P9333 'Whither Weather?' (Galle), 11 May 2026
 
 Annotations:
 
@@ -7014,14 +7108,15 @@ Victory
    interested in getting some serious bragging points among the Agorans,
    this is the right place to look.
 ------------------------------------------------------------------------
-Rule 2449/3 (Power=3)
+Rule 2449/4 (Power=3)
 Winning the Game
 
       When the Rules state that a person or persons win the game, those
       persons win the game; specifically they win the Round that ends
       with the indicated win. Agora itself does not end and the ruleset
-      remains unchanged. The Herald is then authorized to award those
-      persons the Patent Title of Champion once, by announcement.
+      remains unchanged. The Herald CAN once by announcement, and SHALL
+      in a timely fashion, award those persons the Patent Title of
+      Champion.
 
 History:
 
@@ -7029,6 +7124,7 @@ Enacted by P7760 'Next Win System' (G.), 19 Jul 2015
 Amended(1) by P7808 'Win at any Power' (G.), 10 Aug 2016
 Amended(2) by P7812 'Persons Can Win' (G.), 11 Sep 2016
 Amended(3) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
+Amended(4) by P9331 'Imperative Business' (Mischief), 11 May 2026
 
 Annotations:
 CFJ 3887 (called 21 Oct 2020): An instrument that is empowered to make
