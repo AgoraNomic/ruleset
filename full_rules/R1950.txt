@@ -1,0 +1,81 @@
+Rule 1950/39 (Power=3)
+Decisions with Adoption Indices
+
+      Adoption index (AI) is an untracked switch possessed by Agoran
+      decisions and proposals, secured at power 2.  For decisions, the
+      possible values are "none" (default) or integral multiples of 0.1
+      from 1.0 to 9.9. For proposals, the possible values are integral
+      multiples of 0.1 from 1.0 to 9.9 (default 1.0). 
+      
+      The adoption index of a referendum CANNOT be set or changed to
+      "none" or to a value less than that of its associated proposal. If
+      a referendum ever has an adoption index of "none" or an adoption
+      index less than that of its associated proposal, it is immediately
+      set to the adoption index of the associated proposal.
+      
+      Adoption index is an essential parameter of an Agoran decision if
+      that decision has an adoption index.
+      
+      For any Agoran decision with a non-"none" adoption index, the
+      voting method is AI-majority.
+
+History:
+
+Enacted by P4032 'Powerfix(2)' (t), 24 Jul 2000
+Amended(1) by P4085 'Playing Roles' (Blob), 16 Nov 2000
+Amended(2) by P4221 'The Neo-Oligarchy, again' (Steve), 10 Oct 2001
+Amended(3) by P4282 'Massive Political Reform' (G.), 16 Apr 2002
+Amended(4) by P4352 'Overhaul Parliamentary Voting' (OscarMeyr), 07 Aug
+   2002
+Amended(5) by P4370 (OscarMeyr), 06 Sep 2002
+Amended(6) by P4486 'Of what worth honor?' (Michael), 24 Apr 2003
+Amended(7) by P4539 'Remember Remember' (G.), 16 Nov 2003
+Amended(8) by P4576 'Oligarch in a Three-Piece Suit' (root), 31 May 2004
+Amended(9) by P4624 'Crimson Go' (G.), 20 Nov 2004
+Amended(10) by P4665 'Deckmastor Perks' (Kolja), 09 Apr 2005
+Amended(11) by P4685 'Slight addenda to two rules' (Quazie), 18 Apr 2005
+Power changed from 2 to 3 by P4811 'The Cobalt Repeals' (Maud, G.), 20
+   Jun 2005
+Amended(12) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
+Amended(13) by P4868 'Red Tape Repeals 2.0' (G.), 27 Aug 2006
+Amended(14) by P4972 'No free votes II' (Goddess Eris), 23 May 2007
+Amended(15) by P4964 'Disambiguate voter eligibility' (Murphy), 03 Jun
+   2007
+Amended(16) by P5000 'Disambiguate voter eligibility' (Murphy), 12 Jun
+   2007
+Amended(17) by P5007 'generalize naturalhood' (Zefram), 18 Jun 2007
+Amended(18) by P5047 'Fix Support for Democracy 1.1' (root), 01 Jul 2007
+Retitled by P5078 'refactor voting limits' (Zefram), 18 Jul 2007
+Amended(19) by P5078 'refactor voting limits' (Zefram), 18 Jul 2007
+Retitled by P5418 'Refactor Chamber' (root), 02 Feb 2008
+Amended(20) by P5418 'Refactor Chamber' (root), 02 Feb 2008
+Amended(21) by P6961 '52-pickup v2' (G.), 03 Mar 2011
+Retitled to 'Decisions with Adoption Indices' by P7013 'Ordinary
+   Decisions' (omd), 23 Apr 2011
+Amended(22) by P7013 'Ordinary Decisions' (omd), 23 Apr 2011
+Amended(23) by P7083 'Re-jigged Re-jiggery' (Walker), 04 Jul 2011
+Amended(24) by P7216 'Fix some definitions' (omd), 04 May 2012
+Amended(25) by P7239 'this has been broken for a long time' (omd), 10
+   Jun 2012
+Amended(26) by P7274 'Voting Chambers' (FKA441344), 14 Aug 2012
+Amended(27) by P7296 'Power On' (Alexis), 09 Sep 2012
+Amended(28) by P7416 'Not my job' (omd), 12 May 2013
+Amended(29) by P7610 'Low-hanging Fruit' (G.), 22 Dec 2013
+Amended(30) by P7629 'Do Things' (Alexis), 07 Apr 2014
+Amended(31) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
+Amended(32) by P7832 'Quintessential Parameters' (Alexis), 05 Dec 2016
+Amended(33) by P8200 'Sane AI Defaulting' (Aris), 10 Jul 2019
+Amended(34) by P8241 'Secured switches (v2.0)' (Janet, Falsifian), 18
+   Sep 2019
+Amended(35) by cleaning (Alexis), 23 Jan 2020
+Amended(36) by P8566 'Anti-AI escalation' (Janet), 14 Jun 2021
+Amended(37) by P8579 'AI voting method clarification v2' (Janet,
+   Trigon), 23 Jun 2021
+Amended(38) by P9036 'AI security revisited' (Janet, ais523), 10 Dec
+   2023
+Amended(39) by P9119 'Say It Once Mk II' (Mischief), 26 Jun 2024
+
+Annotations:
+CFJ 1885 (called 26 Jan 2008): "AGAINT" is a variant spelling of
+    "AGAINST", not a customary synonym for "FOR", despite its former
+    private usage with the latter meaning.

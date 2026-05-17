@@ -1,0 +1,17 @@
+Rule 2422/8 (Power=3)
+Voting Strength
+
+      The voting strength of an entity on an Agoran decision is an
+      integer between 0 and 15 inclusive, defined by rules of power 2 or
+      greater. If not otherwise specified, the voting strength of an
+      entity on an Agoran decision is 3.
+      
+      When multiple rules set or modify an entity's voting strength on
+      an Agoran decision, it shall be determined by first applying the
+      rule(s) which set it to a specific value, using the ordinary
+      precedence of rules, and then applying the rules, other than this
+      one, which modify it, in numerical order by ID. Finally, if the
+      result of the calculation is not an integer, it is rounded up, and
+      then if it is outside the allowable range of values for voting
+      strength, it is set to the minimum value if it was less and the
+      maximum value if it was more.
