@@ -1,17 +1,16 @@
 THE SHORT LOGICAL RULESET
 (RULEKEEPOR'S WEEKLY REPORT)
-REVISION 2
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 11 May 2026
+Date of this ruleset: 31 May 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
-Number of rules currently enacted: 151
+Number of rules currently enacted: 150
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9335
+Highest ID'd Proposal Passed: 9344
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -78,22 +77,6 @@ The Grand Duumvirate
       
       A Dictator CAN with notice and with the consent of all other
       Dictators cause this rule to perform a specified Rule Change.
-
-------------------------------------------------------------------------
-Rule 2719/1 (Power=1.0)
-The Petit Dummvirate
-
-      ais523 CAN cause this rule to amend itself with support from
-      Janet. Janet CAN cause this rule to amend itself with support from
-      ais523.
-      
-      If at any point (including points in the middle of a public
-      message) a player other than ais523 or Janet would have more than
-      24 Spendies, all but 24 of that player's Spendies are
-      automatically and immediately revoked from that player.
-      
-      ais523 CAN grant emself any number of Spendies by announcement.
-      Janet CAN grant emself any number of Spendies by announcement.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -962,7 +945,7 @@ No Cretans Need Apply
       it takes precedence; otherwise, the later clause takes precedence.
 
 ------------------------------------------------------------------------
-Rule 105/25 (Power=3)
+Rule 105/26 (Power=3)
 Rule Changes
 
       When the rules provide that an instrument takes effect, it can
@@ -1005,7 +988,8 @@ Rule Changes
       specification would ever be interpreted as causing multiple
       changes to happen at once, it is instead interpreted as attempting
       to cause them to occur separately, in the order they are listed in
-      the specification.
+      the specification. If no such order can be inferred, then the
+      specified rule changes are void and without effect.
       
       Any ambiguity in the specification of a rule change causes that
       change to be void and without effect. An inconsequential variation
@@ -2129,7 +2113,7 @@ Ratification Without Objection
       intent to ratify is the Class 8 Infraction of Endorsing Forgery.
 
 ------------------------------------------------------------------------
-Rule 2201/15 (Power=3)
+Rule 2201/16 (Power=3)
 Self-Ratification
 
       When a public document published less than 180 days ago is first
@@ -2166,6 +2150,12 @@ Self-Ratification
          3. Initiate an inquiry case regarding the truth of the claim
             (if the subject is actually a matter of law), or cite a
             relevant existing inquiry case.
+      
+      As long as the publisher of the original document has not yet
+      responded in any of the above ways, the issuer of a doubt CAN, by
+      announcement, withdraw the doubt, causing it to cease to be a
+      doubt. The above notwithstanding, the publisher of the original
+      document NEED NOT respond to a withdrawn doubt.
       
       The issuance of a doubt on a documents, the denial of a claim of
       error, and the ceasing of a doubt on a document to be a doubt are
@@ -3129,14 +3119,15 @@ Crops
       others are out-of-season.
 
 ------------------------------------------------------------------------
-Rule 2709/4 (Power=1.0)
+Rule 2709/5 (Power=1.0)
 The Growth Cycle
 
       A player CAN plant an in-season Crop by paying a fee in Pyrite
       equal to its Seed Cost, provided that eir number of Hectares is
       greater than the number of unlost, unharvested Crops e planted
       earlier in the current Crop Season. <Growth Duration> days after
-      it is planted, an unlost Crop ripens.
+      it is planted, an unlost Crop ripens. Causing a Crop to ripen is
+      secured.
       
       Once per ripe, unlost, unharvested Crop that a player planted, e
       CAN harvest it by announcement gaining Pyrite equal to its Sell
@@ -3203,7 +3194,7 @@ Number Cards
       The Numerator is an office, and the recordkeepor of number cards.
 
 ------------------------------------------------------------------------
-Rule 2713/3 (Power=1.0)
+Rule 2713/4 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -3235,6 +3226,8 @@ Scoring Numbers
       that are more than 5 digits long cannot be scored (this is an
       exception to the other paragraphs of this rule and takes
       precedence over them).
+      
+      Causing a player to score a number is secured.
 
 ------------------------------------------------------------------------
 Rule 2714/0 (Power=1.0)
@@ -3963,7 +3956,7 @@ Hats
       of the game regardless of eir current hat.
 
 ------------------------------------------------------------------------
-Rule 2683/3 (Power=0.5)
+Rule 2683/4 (Power=0.5)
 The Boulder
 
       The Absurdor is a sortitioned office.
@@ -3974,14 +3967,16 @@ The Boulder
       The Boulder's Slope is a singleton integer switch defaulting to 1,
       tracked by the Absurdor.
       
-      Each player CAN, once a week, by announcement, push the boulder.
-      When a player pushes the Boulder, its Height is increased by 1.
-      At the beginning of each week, if the boulder was pushed in the
-      previous week at least as many times as the Boulder's Slope, then
-      the Boulder's Slope is increased by 1; otherwise, the Boulder's
-      Height is set to 0, and the Boulder's Slope is set to 1. The
-      Absurdor SHOULD list the largest Height and Slope of the Boulder
-      ever reached in eir report.
+      Each player CAN, once a week, by announcement or by paying a fee
+      of one number card of any type, push the boulder. When a player
+      pushes the Boulder, its Height is increased by 1. At the beginning
+      of each week, if the number of times the boulder was pushed in the
+      previous week plus the highest type of card paid to do so (0 if
+      none) is at least as many times as the Boulder's Slope, then the
+      Boulder's Slope is increased by 1; otherwise, the Boulder's Height
+      is set to 0, and the Boulder's Slope is set to 1. The Absurdor
+      SHOULD list the largest Height and Slope of the Boulder ever
+      reached in eir report.
 
 ------------------------------------------------------------------------
 Rule 2695/4 (Power=0.5)
