@@ -10,14 +10,16 @@ text: |
   The Boulder's Slope is a singleton integer switch defaulting to 1,
   tracked by the Absurdor.
 
-  Each player CAN, once a week, by announcement, push the boulder.
-  When a player pushes the Boulder, its Height is increased by 1.
-  At the beginning of each week, if the boulder was pushed in the
-  previous week at least as many times as the Boulder's Slope, then
-  the Boulder's Slope is increased by 1; otherwise, the Boulder's
-  Height is set to 0, and the Boulder's Slope is set to 1. The
-  Absurdor SHOULD list the largest Height and Slope of the Boulder
-  ever reached in eir report.
+  Each player CAN, once a week, by announcement or by paying a fee
+  of one number card of any type, push the boulder. When a player
+  pushes the Boulder, its Height is increased by 1. At the beginning
+  of each week, if the number of times the boulder was pushed in the
+  previous week plus the highest type of card paid to do so (0 if
+  none) is at least as many times as the Boulder's Slope, then the
+  Boulder's Slope is increased by 1; otherwise, the Boulder's Height
+  is set to 0, and the Boulder's Slope is set to 1. The Absurdor
+  SHOULD list the largest Height and Slope of the Boulder ever
+  reached in eir report.
 history:
 - change:
     type: enactment
@@ -39,6 +41,11 @@ history:
   date: 2025-02-17
   agent:
     proposal: "9213"
+- change:
+    type: amendment
+  date: 2026-05-25
+  agent:
+    proposal: "9344"
 annotations:
 - cfjs:
   - id: '4095'
