@@ -6,7 +6,8 @@ text: |
   equal to its Seed Cost, provided that eir number of Hectares is
   greater than the number of unlost, unharvested Crops e planted
   earlier in the current Crop Season. <Growth Duration> days after
-  it is planted, an unlost Crop ripens.
+  it is planted, an unlost Crop ripens. Causing a Crop to ripen is
+  secured.
 
   Once per ripe, unlost, unharvested Crop that a player planted, e
   CAN harvest it by announcement gaining Pyrite equal to its Sell
@@ -52,3 +53,8 @@ history:
   date: 2026-05-11
   agent:
     proposal: "9333"
+- change:
+    type: amendment
+  date: 2026-05-25
+  agent:
+    proposal: "9343"
