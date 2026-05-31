@@ -31,6 +31,8 @@ text: |
   that are more than 5 digits long cannot be scored (this is an
   exception to the other paragraphs of this rule and takes
   precedence over them).
+
+  Causing a player to score a number is secured.
 history:
 - change:
     type: enactment
@@ -52,3 +54,8 @@ history:
   date: "2026-03-01"
   agent:
     proposal: "9292"
+- change:
+    type: amendment
+  date: 2026-05-25
+  agent:
+    proposal: "9342"
