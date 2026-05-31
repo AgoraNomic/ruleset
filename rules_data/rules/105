@@ -42,7 +42,8 @@ text: |
   specification would ever be interpreted as causing multiple
   changes to happen at once, it is instead interpreted as attempting
   to cause them to occur separately, in the order they are listed in
-  the specification.
+  the specification. If no such order can be inferred, then the
+  specified rule changes are void and without effect.
 
   Any ambiguity in the specification of a rule change causes that
   change to be void and without effect. An inconsequential variation
@@ -223,6 +224,11 @@ history:
   date: 2024-04-07
   agent:
     proposal: "9074"
+- change:
+    type: amendment
+  date: 2026-05-25
+  agent:
+    proposal: "9340"
 annotations:
 - cfjs:
   - id: '1499'
