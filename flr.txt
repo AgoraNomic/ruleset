@@ -1,17 +1,16 @@
 THE FULL LOGICAL RULESET
 (PART OF THE RULEKEEPOR'S MONTHLY REPORT)
-REVISION 2
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 11 May 2026
+Date of this ruleset: 9 Jun 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
-Number of rules currently enacted: 151
+Number of rules currently enacted: 149
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9335
+Highest ID'd Proposal Passed: 9350
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -28,7 +27,6 @@ The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
    * Rule 2720: The Grand Duumvirate
-   * Rule 2719: The Petit Dummvirate
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -194,7 +192,6 @@ Agoran Culture
    * Rule 2695: The Veblen
    * Rule 2702: Agoran Bingo
    * Rule 2703: Regulating Agoran Bingo
-   * Rule 2717: Consolation Prize
 
 
 ------------------------------------------------------------------------
@@ -203,7 +200,7 @@ Power Distribution:
 
 1  with Power=0.3
 3  with Power=0.5
-46 with Power=1
+44 with Power=1
 4  with Power=1.5
 5  with Power=1.7
 28 with Power=2
@@ -346,29 +343,6 @@ History:
 Enacted by R2718, 25 Apr 2026
 Amended(1) by R2720, 25 Apr 2026
 Amended(2) by R2720, 04 May 2026
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2719/1 (Power=1.0)
-The Petit Dummvirate
-
-      ais523 CAN cause this rule to amend itself with support from
-      Janet. Janet CAN cause this rule to amend itself with support from
-      ais523.
-      
-      If at any point (including points in the middle of a public
-      message) a player other than ais523 or Janet would have more than
-      24 Spendies, all but 24 of that player's Spendies are
-      automatically and immediately revoked from that player.
-      
-      ais523 CAN grant emself any number of Spendies by announcement.
-      Janet CAN grant emself any number of Spendies by announcement.
-
-History:
-
-Enacted by R2718, 25 Apr 2026
-Amended(1) by R2719, 25 Apr 2026
 
 Annotations:
 
@@ -2536,7 +2510,7 @@ Amended(2) by P9313 'Even Fewer Cretan Applications' (Trigon, Galle), 20
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 105/25 (Power=3)
+Rule 105/26 (Power=3)
 Rule Changes
 
       When the rules provide that an instrument takes effect, it can
@@ -2579,7 +2553,8 @@ Rule Changes
       specification would ever be interpreted as causing multiple
       changes to happen at once, it is instead interpreted as attempting
       to cause them to occur separately, in the order they are listed in
-      the specification.
+      the specification. If no such order can be inferred, then the
+      specified rule changes are void and without effect.
       
       Any ambiguity in the specification of a rule change causes that
       change to be void and without effect. An inconsequential variation
@@ -2641,6 +2616,8 @@ Amended(23) by P8871 'Unintuitive Rule Changes Fix' (nix), 11 Dec 2022
 Amended(24) by P9058 'Things Mean What They're Meant to Mean' (Aris,
    G.), 03 Mar 2024
 Amended(25) by P9074 'Close enough' (Janet), 07 Apr 2024
+Amended(26) by P9340 'Simultaneous Rule Changes Fix' (Galle), 25 May
+   2026
 
 Annotations:
 CFJ 1499 (called 20 Apr 2004), CFJ 1623 (called 01 Apr 2007): If a
@@ -4988,7 +4965,7 @@ CFJ 2289 (called 25 Nov 2008): Ratification Without Objection of a value
     it is not directly part of the report being ratified.
 
 ------------------------------------------------------------------------
-Rule 2201/15 (Power=3)
+Rule 2201/16 (Power=3)
 Self-Ratification
 
       When a public document published less than 180 days ago is first
@@ -5026,6 +5003,12 @@ Self-Ratification
             (if the subject is actually a matter of law), or cite a
             relevant existing inquiry case.
       
+      As long as the publisher of the original document has not yet
+      responded in any of the above ways, the issuer of a doubt CAN, by
+      announcement, withdraw the doubt, causing it to cease to be a
+      doubt. The above notwithstanding, the publisher of the original
+      document NEED NOT respond to a withdrawn doubt.
+      
       The issuance of a doubt on a documents, the denial of a claim of
       error, and the ceasing of a doubt on a document to be a doubt are
       secured at power 3.
@@ -5052,6 +5035,7 @@ Amended(12) by P9050 'Self-ratification limitations' (Janet), 28 Jan
 Amended(13) by P9184 'Ratification fix' (ais523), 11 Oct 2024
 Amended(14) by P9232 '++' (Mischief), 06 Jul 2025
 Amended(15) by P9258 'paragraph swap' (Cosmo), 20 Nov 2025
+Amended(16) by P9338 'Claim of Error Withdrawal' (Galle), 25 May 2026
 
 Annotations:
 CFJ 1690 (called 19 Jun 2007): A challenge to a self-ratifying document
@@ -6677,16 +6661,17 @@ Amended(29) by P9309 'Packing list' (Murphy), 11 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2585/11 (Power=1)
+Rule 2585/13 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
-      anniversary of the day e first registered. If the day a player
-      first registered is unknown, that player CAN, with Agoran consent,
-      declare a day to be eir Agoran Birthday. As long as the day a
-      player first registered remains unknown, it is considered to be
-      eir Agoran Birthday on the anniversary of the day e most recently
-      declared as eir Agoran Birthday.
+      anniversary of the day e first registered, provided that that
+      anniversary is not itself on the day e first registered. If the
+      day a player first registered is unknown, that player CAN, with
+      Agoran consent, declare a day to be eir Agoran Birthday. As long
+      as the day a player first registered remains unknown, it is
+      considered to be eir Agoran Birthday on the anniversary of the day
+      e most recently declared as eir Agoran Birthday.
       
       In a timely fashion after the start of a player's Agoran Birthday,
       the Registrar SHALL announce it.
@@ -6714,6 +6699,9 @@ Amended(9) by P8965 'Registrar Tracks Birthdays' (nix), 19 May 2023
 Amended(10) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul
    2024
 Amended(11) by P9291 'Birthday Cards' (Trigon), 18 Feb 2026
+Amended(12) by P9346 'No double scores for new players' (Trigon), 09 Jun
+   2026
+Amended(13) by P9350 'No birthday, how sad' (msh210), 09 Jun 2026
 
 Annotations:
 CFJ 3873 (called 08 Aug 2020): Under the current rules, it is someone's
@@ -6887,7 +6875,7 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2707/2 (Power=1.0)
+Rule 2707/3 (Power=1.0)
 Pyrite
 
       Pyrite is a type of fixed currency, tracked by the Land Managor.
@@ -6897,6 +6885,9 @@ Pyrite
       A player CAN pay a fee of 200 Pyrite to gain 1 Spendie, provided
       that e has gained fewer than 40 Spendies in this way during this
       Agoran month.
+      
+      A player CAN pay a fee of 1 number card to gain pyrite equal to
+      the number of the card's type, or 10 pyrite if it was a 0 card.
 
 History:
 
@@ -6905,6 +6896,7 @@ Enacted by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
 Amended(1) by P9243 'Agoriculture v1.1' (Murphy, Mischief, ais523,
    oliver.n, Janet), 25 Aug 2025
 Amended(2) by P9259 'A reasonable limit' (Janet, ais523), 20 Nov 2025
+Amended(3) by P9347 'Another Use for Number Cards' (Galle), 09 Jun 2026
 
 Annotations:
 
@@ -6945,14 +6937,15 @@ Amended(2) by P9333 'Whither Weather?' (Galle), 11 May 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2709/4 (Power=1.0)
+Rule 2709/5 (Power=1.0)
 The Growth Cycle
 
       A player CAN plant an in-season Crop by paying a fee in Pyrite
       equal to its Seed Cost, provided that eir number of Hectares is
       greater than the number of unlost, unharvested Crops e planted
       earlier in the current Crop Season. <Growth Duration> days after
-      it is planted, an unlost Crop ripens.
+      it is planted, an unlost Crop ripens. Causing a Crop to ripen is
+      secured.
       
       Once per ripe, unlost, unharvested Crop that a player planted, e
       CAN harvest it by announcement gaining Pyrite equal to its Sell
@@ -6981,6 +6974,7 @@ Amended(1) by P9262 'Land epochs' (Janet, ais523), 08 Dec 2025
 Amended(2) by P9273 'The Weather Forecast' (ais523, Janet), 10 Dec 2025
 Amended(3) by P9286 'Less harsh weather' (Murphy), 26 Jan 2026
 Amended(4) by P9333 'Whither Weather?' (Galle), 11 May 2026
+Amended(5) by P9343 'Secure Farming' (Galle), 25 May 2026
 
 Annotations:
 
@@ -7051,7 +7045,7 @@ Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2713/3 (Power=1.0)
+Rule 2713/4 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -7083,6 +7077,8 @@ Scoring Numbers
       that are more than 5 digits long cannot be scored (this is an
       exception to the other paragraphs of this rule and takes
       precedence over them).
+      
+      Causing a player to score a number is secured.
 
 History:
 
@@ -7091,6 +7087,7 @@ Amended(1) by P9276 'CFJ Number Card Fix' (ais523, Janet), 18 Jan 2026
 Amended(2) by P9290 'Welcome Cards' (Trigon), 18 Feb 2026
 Amended(3) by P9292 'Fashionable Manners Take II' (Mischief, Trigon), 01
    Mar 2026
+Amended(4) by P9342 'Secure Scoring' (Galle), 25 May 2026
 
 Annotations:
 
@@ -8395,7 +8392,7 @@ Amended(2) by P9315 'Sisyphean Headgear' (Mischief, Murphy), 20 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2683/3 (Power=0.5)
+Rule 2683/4 (Power=0.5)
 The Boulder
 
       The Absurdor is a sortitioned office.
@@ -8406,14 +8403,16 @@ The Boulder
       The Boulder's Slope is a singleton integer switch defaulting to 1,
       tracked by the Absurdor.
       
-      Each player CAN, once a week, by announcement, push the boulder.
-      When a player pushes the Boulder, its Height is increased by 1.
-      At the beginning of each week, if the boulder was pushed in the
-      previous week at least as many times as the Boulder's Slope, then
-      the Boulder's Slope is increased by 1; otherwise, the Boulder's
-      Height is set to 0, and the Boulder's Slope is set to 1. The
-      Absurdor SHOULD list the largest Height and Slope of the Boulder
-      ever reached in eir report.
+      Each player CAN, once a week, by announcement or by paying a fee
+      of one number card of any type, push the boulder. When a player
+      pushes the Boulder, its Height is increased by 1. At the beginning
+      of each week, if the number of times the boulder was pushed in the
+      previous week plus the highest type of card paid to do so (0 if
+      none) is at least as many times as the Boulder's Slope, then the
+      Boulder's Slope is increased by 1; otherwise, the Boulder's Height
+      is set to 0, and the Boulder's Slope is set to 1. The Absurdor
+      SHOULD list the largest Height and Slope of the Boulder ever
+      reached in eir report.
 
 History:
 
@@ -8421,6 +8420,8 @@ Enacted by P8992 'Camusian Dream v2' (juan), 19 Jun 2023
 Amended(1) by P9008 'Always at risk' (snail), 27 Aug 2023
 Amended(2) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(3) by P9213 'Twice the pride' (Murphy), 17 Feb 2025
+Amended(4) by P9344 'Number make other number go up' (Murphy), 25 May
+   2026
 
 Annotations:
 CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
@@ -8556,28 +8557,6 @@ Regulating Agoran Bingo
 History:
 
 Enacted by P9240 'Agoran Bingo' (Mischief, juan), 09 Aug 2025
-
-Annotations:
-
-------------------------------------------------------------------------
-Rule 2717/0 (Power=1.0)
-Consolation Prize
-
-      The Consolation Prize is a unique untracked indestructible fixed
-      asset with ownership entirely restricted to players and Agora. If
-      the Consolation Prize would otherwise be in abeyance, or if it is
-      owned by the Lost and Found Department, it is immediately
-      transferred to Agora.
-      
-      A player may award the Consolation Prize by announcement,
-      specifying another player (the recipient). If e has not
-      previously awarded the Consolation Prize in the current month,
-      then upon such an announcement the Consolation Prize is
-      transferred to the recipient.
-
-History:
-
-Enacted by P9324 'Consolation Prize' (Mischief, Trigon), 30 Mar 2026
 
 Annotations:
 

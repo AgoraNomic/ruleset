@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 31 May 2026
+Date of this ruleset: 9 Jun 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
-Number of rules currently enacted: 150
+Number of rules currently enacted: 149
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9344
+Highest ID'd Proposal Passed: 9350
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -2969,16 +2969,17 @@ Welcome Packages
       * scores the date of eir registration.
 
 ------------------------------------------------------------------------
-Rule 2585/11 (Power=1)
+Rule 2585/13 (Power=1)
 Birthday Gifts
 
       It is considered to be a player's Agoran Birthday on the
-      anniversary of the day e first registered. If the day a player
-      first registered is unknown, that player CAN, with Agoran consent,
-      declare a day to be eir Agoran Birthday. As long as the day a
-      player first registered remains unknown, it is considered to be
-      eir Agoran Birthday on the anniversary of the day e most recently
-      declared as eir Agoran Birthday.
+      anniversary of the day e first registered, provided that that
+      anniversary is not itself on the day e first registered. If the
+      day a player first registered is unknown, that player CAN, with
+      Agoran consent, declare a day to be eir Agoran Birthday. As long
+      as the day a player first registered remains unknown, it is
+      considered to be eir Agoran Birthday on the anniversary of the day
+      e most recently declared as eir Agoran Birthday.
       
       In a timely fashion after the start of a player's Agoran Birthday,
       the Registrar SHALL announce it.
@@ -3080,7 +3081,7 @@ The Land Managor
       the current Crop Season.
 
 ------------------------------------------------------------------------
-Rule 2707/2 (Power=1.0)
+Rule 2707/3 (Power=1.0)
 Pyrite
 
       Pyrite is a type of fixed currency, tracked by the Land Managor.
@@ -3090,6 +3091,9 @@ Pyrite
       A player CAN pay a fee of 200 Pyrite to gain 1 Spendie, provided
       that e has gained fewer than 40 Spendies in this way during this
       Agoran month.
+      
+      A player CAN pay a fee of 1 number card to gain pyrite equal to
+      the number of the card's type, or 10 pyrite if it was a 0 card.
 
 ------------------------------------------------------------------------
 Rule 2708/2 (Power=1.0)
@@ -4085,22 +4089,6 @@ Regulating Agoran Bingo
       
       * what information, if any, the Collar MUST include in eir weekly
         report for each player electing that method
-
-------------------------------------------------------------------------
-Rule 2717/0 (Power=1.0)
-Consolation Prize
-
-      The Consolation Prize is a unique untracked indestructible fixed
-      asset with ownership entirely restricted to players and Agora. If
-      the Consolation Prize would otherwise be in abeyance, or if it is
-      owned by the Lost and Found Department, it is immediately
-      transferred to Agora.
-      
-      A player may award the Consolation Prize by announcement,
-      specifying another player (the recipient). If e has not
-      previously awarded the Consolation Prize in the current month,
-      then upon such an announcement the Consolation Prize is
-      transferred to the recipient.
 
 ------------------------------------------------------------------------
 
