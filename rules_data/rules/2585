@@ -16,7 +16,8 @@ text: |
   Upon a correct announcement by a player that eir Agoran Birthday
   has occurred in the last 15 days, e scores eir Agoran Birthday if
   e has not scored eir Agoran Birthday by this method for that
-  instance of eir Agoran Birthday.
+  instance of eir Agoran Birthday and provided that that instance of
+  eir Agoran Birthday is not eir date of first registration.
 history:
 - change:
     type: enactment
@@ -78,6 +79,11 @@ history:
   date: "2026-02-18"
   agent:
     proposal: "9291"
+- change:
+    type: amendment
+  date: "2026-06-09"
+  agent:
+    proposal: "9346"
 annotations:
 - cfjs:
   - id: 3873
