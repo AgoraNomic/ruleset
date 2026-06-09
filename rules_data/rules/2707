@@ -9,6 +9,9 @@ text: |
   A player CAN pay a fee of 200 Pyrite to gain 1 Spendie, provided
   that e has gained fewer than 40 Spendies in this way during this
   Agoran month.
+
+  A player CAN pay a fee of 1 number card to gain pyrite equal to
+  the number of the card's type, or 10 pyrite if it was a 0 card.
 history:
 - change:
     type: enactment
@@ -25,3 +28,8 @@ history:
   date: 2025-11-20
   agent:
     proposal: "9259"
+- change:
+    type: amendment
+  date: "2026-06-09"
+  agent:
+    proposal: "9347"
