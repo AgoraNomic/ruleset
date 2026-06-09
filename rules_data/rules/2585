@@ -3,21 +3,21 @@ name: Birthday Gifts
 power: 1
 text: |
   It is considered to be a player's Agoran Birthday on the
-  anniversary of the day e first registered. If the day a player
-  first registered is unknown, that player CAN, with Agoran consent,
-  declare a day to be eir Agoran Birthday. As long as the day a
-  player first registered remains unknown, it is considered to be
-  eir Agoran Birthday on the anniversary of the day e most recently
-  declared as eir Agoran Birthday.
-
+  anniversary of the day e first registered, provided that that
+  anniversary is not itself on the day e first registered. If the
+  day a player first registered is unknown, that player CAN, with
+  Agoran consent, declare a day to be eir Agoran Birthday. As long
+  as the day a player first registered remains unknown, it is
+  considered to be eir Agoran Birthday on the anniversary of the day
+  e most recently declared as eir Agoran Birthday.
+  
   In a timely fashion after the start of a player's Agoran Birthday,
   the Registrar SHALL announce it.
-
+  
   Upon a correct announcement by a player that eir Agoran Birthday
   has occurred in the last 15 days, e scores eir Agoran Birthday if
   e has not scored eir Agoran Birthday by this method for that
-  instance of eir Agoran Birthday and provided that that instance of
-  eir Agoran Birthday is not eir date of first registration.
+  instance of eir Agoran Birthday.
 history:
 - change:
     type: enactment
@@ -84,6 +84,11 @@ history:
   date: "2026-06-09"
   agent:
     proposal: "9346"
+- change:
+    type: amendment
+  date: "2026-06-09"
+  agent:
+    proposal: "9350"
 annotations:
 - cfjs:
   - id: 3873
