@@ -1,0 +1,28 @@
+Rule 2709/5 (Power=1.0)
+The Growth Cycle
+
+      A player CAN plant an in-season Crop by paying a fee in Pyrite
+      equal to its Seed Cost, provided that eir number of Hectares is
+      greater than the number of unlost, unharvested Crops e planted
+      earlier in the current Crop Season. <Growth Duration> days after
+      it is planted, an unlost Crop ripens. Causing a Crop to ripen is
+      secured.
+      
+      Once per ripe, unlost, unharvested Crop that a player planted, e
+      CAN harvest it by announcement gaining Pyrite equal to its Sell
+      Price (exception: if the Weather for the week e planted it had
+      already been selected at the time e planted it, e CANNOT harvest
+      it before the end of the week after the week e planted it).
+      
+      When the Fields Wither, all unharvested Crops are lost.
+      
+      Weather is a secured singleton integer switch with values between
+      1 and 100 inclusive, tracked by the Land Managor, with a default
+      value of 50.  Once per week, the Land Managor SHALL select and
+      announce a random integer between 1 and 100 to be that week's
+      Weather. Upon such an announcement, the Weather is flipped to that
+      value. At the end of each week, all crops with Resilience lower
+      than the current Weather are lost and all crops with Opportunity
+      greater than the current Weather ripen.
+      
+      At the end of each Crop Season, the Fields Wither.

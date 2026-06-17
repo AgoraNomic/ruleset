@@ -1,0 +1,644 @@
+THE AGORA NOMIC CODE OF REGULATIONS
+(PART OF THE RULEKEEPOR'S MONTHLY REPORT)
+
+These ACORNs are also online at http://agoranomic.org/ruleset/
+
+Date of this ACORN:
+
+------------------------------------------------------------------------
+
+Table of Contents:
+
+Administrative Regulations
+   * Regulation AA0: Obligations on the Arbitor
+   * Regulation AA1: Public exercise of judiciary powers
+   * Regulation AA2: Recommendations for players
+   * Regulation CR1: Boards and winning patterns
+   * Regulation CR2: Board selection methods
+   * Regulation CR3: Events
+
+------------------------------------------------------------------------
+
+========================================================================
+Administrative Regulations
+   This section has regulations enacted by officers, pursuant to Rule
+   2630.
+------------------------------------------------------------------------
+Regulation AA0/1
+Obligations on the Arbitor
+
+      The Arbitor SHALL NOT assign a case to any person with a clear
+      conflict of interest in its outcome.
+      
+      While there are players interested in judging, the Arbitor SHALL
+      NOT assign cases to any other person. A player is "interested in
+      judging" whenever e has communicated to the Arbitor that e is or
+      will be (syn. "stood up"), provided that, since e last became
+      interested, e has not done any of the following:
+      * Been recused from a case for lateness.
+      * Communicated to the contrary (syn. "sat down").
+      * Become inactive.
+      * Become deregistered.
+      * Been omitted from a list of interested judges published by the
+        Arbitor, if the list has been continuously undoubted for one
+        week after its publication.
+      
+      The above notwithstanding, the Arbitor MAY always assign a case to
+      emself; to the Referee; or to any person who has communicated to
+      em an interest in judging the case (syn. "favoured" the case).
+      
+      If, but for this provision, this regulation would make it ILLEGAL
+      for the Arbitor to assign a particular case at all, all other
+      provisions of this regulation are null and void with respect to
+      that case.
+      
+      When a judgement is issued that has major implications for the
+      interpretation of a rule, and it is highly unlikely that the rule
+      will be changed to alter the interpretation or the case reopened
+      in the near future, the Arbitor SHALL in an officially timely
+      fashion write a brief description of the implication and
+      communicate it to the Rulekeepor with a recommendation for
+      inclusion in the Full Logical Ruleset. (This duty is immediately
+      discharged if the office of Rulekeepor is vacant.)
+
+History:
+
+Enacted by Kate, 04 Sep 2024
+Amended(1) by Kate, 02 Jan 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation AA1/0
+Public exercise of judiciary powers
+
+      This regulation currently does not provide for players to act on
+      behalf of the Arbitor to exercise eir official powers.
+
+History:
+
+Enacted by Kate, 04 Sep 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation AA2/0
+Recommendations for players
+
+      It is RECOMMENDED to phrase CFJ statements so that they are
+      possible to parse without outside context. For example, refer to a
+      proposal or rule by ID number, or to a message by distinguishing
+      features like its author and approximate timestamp, instead of
+      writing "this proposal" or "that message". (An exception is
+      self-references: "this CFJ", or "this message" meaning "the
+      message in which this CFJ is called", is unambiguous and in fact
+      traditional.)
+      
+      When calling a CFJ, players SHOULD ensure that the word "CFJ" is
+      present in the subject line of the message, ideally near the
+      beginning and ideally distinct from the rest of the line (e.g.
+      "[CFJ]" or "CFJ:"). This helps ensure the CFJ is not missed.
+      
+      Gratuitous arguments to a CFJ need not be explicitly marked, or
+      even submitted to a public forum (though they may be, for
+      disambiguation). Anything seen by the Arbitor, through any forum,
+      that looks like an argument will be accepted and recorded.
+      (Arguments may even be submitted privately, which might be useful
+      if, for example, anonymity is requested.)
+      
+      For other actions related to the office of Arbitor, such as
+      judgements themselves, recusals, retractions, Motions and Moots,
+      it is RECOMMENDED to draw the Arbitor's attention somehow if they
+      are buried in replies to an unrelated thread. Otherwise, tags of
+      the form "attn. Arbitor" or "@Arbitor" are unnecessary and indeed
+      DISCOURAGED as they clutter subject lines.
+
+History:
+
+Enacted by Kate, 04 Sep 2024
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation CR1/0
+Boards and winning patterns
+
+      A. This round of bingo will follow the usual rules. That is:
+      
+         1. Boards are 5x5 with the center square "free" (always
+            satisfied)
+      
+         2. The winning patterns are any of the following:
+      
+            * All five squares in a single row
+            * All five squares in a single column
+            * All five squares in one of the corner-to-corner diagonals
+
+History:
+
+Enacted by Mischief, 31 Aug 2025
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation CR2/3
+Board selection methods
+
+      A. General
+      
+      A player who has not selected a bingo board since the most recent
+      time the bingo state was flipped to unpaused CAN do so by either
+      of the following methods. However, the Collar CANNOT use the
+      Collar-draws method to select eir own bingo board.
+      
+      B. The Collar-draws method
+      
+      A player CAN select a bingo board by the Collar-draws method by
+      announcing e does so. The Collar SHALL then in a timely fashion:
+      
+        1) draw a board for that player at random
+      
+        2) create a fingerprint for that board (which the Collar's
+           weekly report MUST include until the next time the bingo
+           state is flipped to paused)
+      
+        3) privately share the board and fingerprint with the player
+      
+      The Collar SHOULD NOT reveal the board or the fingerprint's
+      plaintext to anyone other than that player, unless the player
+      attempts to call bingo.
+      
+      To successfully call bingo, a player electing the Collar-draws
+      method MUST reveal the fingerprint's underlying plaintext
+      
+      
+      C. The secret-draw method
+      
+      A player CAN select a bingo board by the secret-draw method by
+      making a commitment (the fingerprint of which the Collar's weekly
+      report MUST include until the next time the bingo state is
+      flipped to paused) to integers A and B, each between 1 and 100
+      (inclusive). The Collar SHALL then in a timely fashion randomly
+      draw integers X and Y, each between 1 and 100 (inclusive), and
+      announce their values; until the next time the bingo state is
+      flipped to paused, the Collar's weekly report MUST also include
+      those values. The player's board consists of the event set with
+      an ID number congruent to (A+X) mod 100, arranged on the board
+      according to the arrangement with an ID number congruent to (B+Y)
+      mod 100.
+      
+      To successfully call bingo, a player electing the secret-draw
+      method MUST reveal eir commitment to the integers A and B.
+      
+      
+      For example, suppose the player secretly commits to A=62 and
+      B=91, while the Collar draws X=14 and Y=77. The final board
+      consists of event set #76 (congruent to 62+14 mod 100) in
+      arrangement #68 (congruent to 91+77 mod 100).
+      
+      Example event set (#76):
+      
+            A  B  C  D  E  F  G  H  I  J  K  L
+            M  N  O  P  Q  R  S  T  U  V  W  X
+       76) 17 16  4  1 38 12 23 36 28 35 20 13
+           21  3 11 10 24 39 19 18 27 33  2 29
+      
+      Example arrangement (#68):
+      
+       68 HQTXV ONCEL PF.UG MIJDS RWAKB
+      
+      Resulting board:
+      
+        36 24 18 29 33
+        11  3  4 38 13
+        10 12  . 27 23
+        21 28 35  1 19
+        39  2 17 20 16
+      
+      The first entry in the arrangement (corresponding to the top-left
+      corner) is H, which in this event set corresponds to event #36.
+      The last entry in the arrangement (corresponding to the
+      bottom-right corner) is B, which in this event set corresponds to
+      event #16.
+      
+      
+      D. Secret-draw method event sets
+      
+      For the "secret draw" selection method, the event sets are:
+      
+            A  B  C  D  E  F  G  H  I  J  K  L
+            M  N  O  P  Q  R  S  T  U  V  W  X
+        1) 13 29 11 35  2 18 20 36  8 25 19 12
+           39 27  3 16 38 24 37 23 31 28 34  4
+        2) 28 37 24 16 29 11 13 23 33 32 20 31
+           12 35 19 39 21  2 25 18 38 27  4 15
+        3) 39 19 31 24 32 20 28 17 35 22 23 38
+           12 21  6 27  2 36 29 13 11  9  3 25
+        4) 35 39 20  9 28 17 13 22 11 27 16 24
+           37 32  7 38 23  2  1 12 29 31  3 33
+        5) 30 20 38  2 22 28 21 17 23 12 19  1
+           13 37  3 24 10 11 16 39 35 18 36  8
+        6) 20 35 33 13 21 38 16 12 34 24 39 14
+           36 19 23 37 11 28 32 17  8 22 18 26
+        7) 23 19  1 25 12 22  8 28 33 24 13 16
+           35 27 20 38 31 17  3  4 37 32  5 15
+        8) 25 37 13 23 32 24 18  3 28 36 35 27
+           16 31 20 12  4 17 38 39 19  2 34 29
+        9) 16 28 13 35 38 17 23 39 19 15 21 20
+           30 32 24  3 27  9 22 18 37 11 29 12
+       10) 16 12 19 34 25 32 28 39 23 38 11 13
+           36  3 31  6 29 17 18 33 21  4 35  2
+       11) 15  5 36 20 29 19 13 35 18 11 32 31
+            2 12 25 16 23 38  3 39 28 10 21 24
+       12) 13  7 28 22 20 11 17 16 38 21 15 18
+            3 36 12  6 35 19  1 27 34 32 23 14
+       13) 28 35 19 37 17 13 29 39 23 18 12 20
+           25 10 31 16 24  3  9 15 33 27  7  6
+       14) 36 16 35 24 27  5 38 20 28  2 23 37
+           25 12 13 39 32 33 17 11 18  3 29 31
+       15) 22 36 39 20 12 28 34 32 29 19 16  9
+           38 24 37  7 13 23 27 25 17 31 21  8
+       16) 16 11 32 39 23  3 13 17 34 38  1 12
+           20 19 22 28 21 25 27 29  2  4 35 26
+       17) 23 16 33 14  6 26 22 24 38 12  9 28
+           35 36 39  5 25  7 13 37 17  2  4 32
+       18) 19 10 38 24  3 39 13 12 28 36 35 16
+           15 17 37 25  2 33  1 23 20 32 34 22
+       19) 24 16 39 13 26  3 35 19 36 28 20 11
+           38 31 23  6 12 22 10 17 25  1  2 34
+       20) 23  1 28 35 36 20 33 19 38  4 37 13
+           16 12 34  9  3 24 29 26  2 15 32 39
+       21) 36 22 11 39 35 33 24 38 28 30  9 21
+            2 31 16  3 17 27 20 29 13 23 19 12
+       22) 13 38 33  1 23 35 24 32 31  3 28 17
+            4 34 36 29 21 12 39 11 19 16 27 20
+       23) 14 16 19 29 13 33 28  7 38 36 17  2
+           21 39 34  5 23  1 12 25 24 31 35 20
+       24) 39 12 38 11 17 36 28 34 31  3 10 24
+            1 37 23 32 20 27 19 16 33 13 35 30
+       25) 19 16 18 39 13 38 35  3 32 20 17 36
+           31 28 29 21 34 27 37  2 24 25 22  7
+       26) 39 36 21  1 35 17  4 28 22 38 23 25
+           29 13 19 20 15 32 24 34 16 12  5 11
+       27) 28 35 39 13 16 33  1 20 32 23 18 27
+           36 30  4 19  7 17  2  3 24 38 37 22
+       28) 18 36 38 22 15 19 11  4 33 24 20 31
+           39 35 27 17 26 29 23 28 25 21 12 16
+       29) 24 12 18  9 17 35 21 39 28 20 23 32
+           14 13 36 16 11 31 38  1 19 22 15  3
+       30) 28  2 16  4 27 35 24 13 11 19 33 22
+           29 31 26 20 10 38 23 36 17 39 12  9
+       31) 33 21 19 39 18 17 36 23 29 13  9 16
+           11 12 35  3 20  4 37 28 24  8  1 10
+       32) 38 35 36 20 17 29 13 18  3 37 19 24
+           16  1 33 23  2 12 25 31 28 39 22 21
+       33)  7 35 17 24 13 20 12 27 19 16  4 23
+            8 28 38 36 33 30 22 31 21 39 18 25
+       34) 35 27 23 28 15 32  9 24  4 33 12 20
+           38 17 16 31 34 13 36 37 39  3 22 29
+       35) 16 19 25 20 11 34 35 18  3 21 36 28
+           12 29 13 23  7 15 32 27 38 24 33 39
+       36) 16 37 36 11 13 24  4 20 28 19 25 32
+           34  3 17 14 27 10 33 38 18 29  2 31
+       37)  1 17 31 24 35 13 29 37 19 38 23 28
+           18 16 20 36 34  2 39  3 12 22 27  9
+       38) 13 26 12 17 24  6 25 23 39 34 27 19
+            2 37  1 18 38 20 28 16 15 22  4 31
+       39) 33 28 21 22 37 20 38 17 16 32 35  1
+           19 12  9 18 39  8 24 13 11  2  3  6
+       40) 28 39 36  1 20 16 37 19 24 21 13  3
+           26 35 32 31  2 12  4 25 11 23 17 27
+       41) 13 39 19 25 33 32 12 20 28 36 23 14
+            1 35 21 38 31  4 29 17  3 22 16 27
+       42) 22 14  6 17 25 36 24 35 20 18  4 12
+           16 13  2 32 21 11 39 33 23 10 19 28
+       43) 39 23 16 35 13 28 31 37 24 18 12 34
+            4 20  2 38 36 17  9 26  1 33 19 22
+       44) 23 12 24 20 35 34  3 38 28 19 13 39
+           16  1 36 25 21 33 10 17 11  2 31 32
+       45) 27 24 11 38 17 39 16 23 25 26 20 34
+           19  4  7 21 37 13 28 36 22 35 31 14
+       46) 36 28  3 39  2 23 24 34 33 32 15 13
+           18 21 35 31 17 16  1 25 19 37 27 20
+       47) 13 19 31 22 16 20 12 23 24 11 38  2
+           34 29 28 35 17  7 37  8 25  4 21 39
+       48) 19  1 10  2 17 16 20 38 39 21 24 35
+           12 29 32 28 13 37 33 18 31  4  8 25
+       49) 21 24 12 20 13  5 23 27 17 37 32 38
+           35 19  2 16  8  4 28 29 18 39 36 11
+       50) 24 35 13 39 18 36 29  3 27 19 20 22
+           25  8 30 21 12 28 17 32 34 31 23 33
+       51) 38 26 19 36 17 39 30 28 18 11 35 23
+           12 14 32  2  3 24 29 16 25 13 20 22
+       52) 36 17 13 20 25 31  3 10 38  1 28 23
+           19 39 16 24 12 35 11 34 27 33 32 21
+       53) 25  3 32 16 38 14 33 34 35 37 23 31
+           36 27  1 17 24  6 13 29 39 22 26 12
+       54) 20 11 16 25 32 24 18 38  2 31 19 12
+           37 36 39 35 17 23 28 33 14 13 27  4
+       55) 23 28 38 35 39 31 20 22 13 30 21 24
+           17 16  8  3  5  2 33  4 14 34 32 12
+       56) 39 16 24 36 13 23 17  4  3 12 28 35
+           10 25  1 38 32 27 31  5 19 20 33  2
+       57) 12 21 38 30 23 16 28 13 22 15  5 29
+           27 18 37  4  8 36 26 31 39 24 19 35
+       58) 22 13 20 36 16 33 25 19  2 24  1 38
+           39 17 27  9 35 18 30 10  7 11 12 28
+       59) 19 29 39 32 13 16 37 11 12 35 31 38
+           28  1  3 20 17 15 36 23  8  6 21 30
+       60) 17 18  3 11 39 22  9 12 19  8 36 16
+           34  4 35 13 21 25 24  1  5 23  2 32
+       61) 13 15 20 16 32 39 10 17 36 35 28 25
+           23 14 34 26 12  2 22 18 38 33 24  3
+       62) 12 23 32 28 14 17 16  5  1 39  4 36
+            6 35 38 26 22 11 34 21  8  3 20 27
+       63) 20 17 35 38 11 24 18  3 33 12 16 23
+           28 39 36 19 31 25 22 27 29 10 13  5
+       64) 29 36 10 23 24 12 17 27 25 22 39  3
+            1 35 20  7 19 16 28  2  4 13 11 32
+       65) 33 12 28 16 13 17 37  4 39 11 27 35
+           23 29 34  3 20 19 31  5 21  2 22 24
+       66) 16 38  3 12 24 35 36 10 14 33 11 29
+           39 23 22 28 31 20 21 25 18 32 13 17
+       67) 28  2 39 32 24 36 20 35 37 23 13  4
+           22  3 17 27 31 19 38 11 33 16 15  1
+       68)  3 16  4 31  6 34 21 39 19 15 12  1
+           38 24 13 37 22 17 20 28 23  8 29 14
+       69) 22 13 38 34  2 17 33 19 36 24 14 39
+           28  6 35 23 18 32 16 12  3 27 29 26
+       70) 38  4 17 36 29 39 12 24 23 35 20 33
+           26 31  8 16 25 22 13 28 19 30 34 18
+       71) 10 38 39 33 15 19 12 11 23 36  2 28
+           13 32 21 27 16 24 35 17 34  4  3 29
+       72) 12 17 16 29 31  7 13 36 39 35 28  2
+           32 37 34 23 27 38  8  3 10 19  1 33
+       73) 16 27  9  4 38 23 28 24 13 22 20 36
+           21 19 35 34 33  5 29 39 17 12  6 30
+       74) 12 19 32 21  1  2 31 13 39 11 38 34
+           20 17 10  4 36 23 24 16 22 15 29  3
+       75) 24 12 36 19 35 16 17 22 13 28 38 39
+           20 23  4 31 25 27 18  3 15  6 32 37
+       76) 17 16  4  1 38 12 23 36 28 35 20 13
+           21  3 11 10 24 39 19 18 27 33  2 29
+       77) 21 16 36 13 27 25 24 17 28 12 23 39
+           22 38 19 20 18  4 35 31 37 33  9 34
+       78)  4 36  3 23 39 13 16  9 28 32 31 12
+           19 26 24 17 20 34 25 35 18 21 37 27
+       79) 21 28 23  1 19 34 39 16 11 25 12 32
+           17 38  8 24 18 35 36  7 10 13  2 14
+       80)  1 12 36 24 19 33  5 20 35 17 31 28
+           15 22 16 23 38 18  7 32  3 26 13 10
+       81) 16 17  5  3 12 22 25 13 23  7 18  4
+           20 21 39 28 19 35 37 34 14 11 32 33
+       82)  4 28 16 39  9 20 38 24 19 11 34 36
+           12 17 13 32 35 33 27 31  3  2  5  1
+       83) 15  3 13 11 38 39 28 26 24 23 12 37
+           32 21 20 36 17  5 16 33 19 14 35  9
+       84) 21 17 20 39 35 10 38 22  2 36 19  1
+           37 28 12 24  4 16 13 23 33 18 25 29
+       85) 16 20 29 35 39 23 13 34 17 37 24 12
+            2 10 15 19 28 14 38 36  3  4 26 11
+       86)  4 32 22 15 20 33 37 17 36 29 16 38
+           23 31 24 19 27  5 12 28 13 35  7 10
+       87) 21 39 17 12 13  3 24 36 27 28 16 18
+           20 23 37 35 11  1 32 19  2 25 38 34
+       88) 21 22 24 17 11 27 39 38 26 16 18 35
+           34 37  3 28 19 32  6 31 33 36 25 23
+       89)  7 24 39 36 25 22  2 35 13 27 20 33
+           38 16 19 23 17 28  3 11  9 21 12 18
+       90) 38 19 37  5 17  3 23 24 13 28 16 33
+           12  2 31 32 39 35 22  1  9  4 30 11
+       91) 19  5 39 14 23  2 32 17 24 34 38 21
+            6 28 33 31 11 18 20 35 16 12 36 25
+       92) 23 36 28 21  2 12 34 27 24 16 38  6
+           32 31 17 18 35 15 11 29 39  5 22  9
+       93) 16 20 35 39 33 28 29 25  6 13 19 23
+           12 38 24  4 36  2 22 31  1 17 18 15
+       94) 18 33  2 34 39 17 38 28 26 11 24 13
+           12 21 22 19 16 25 23 30 29 20  3 36
+       95) 17  6 34 32 18 20 33 12 36 22  1 30
+            3 19 21 29 11 28  2 39 24 38 25 13
+       96) 12 16 24 27 38 21 36 35 37 39 28  4
+           17 20 29 13 23  3 34 19  1  7 11 33
+       97) 35 17 16 13 20 28 37 12 11 32 38 19
+           39 29 36  6 23 24  5  2  1 26 25 15
+       98) 13 20  9 22 19 16 37 23 36 39 38 12
+           27  3 17 10 18 35 28 32 24 31  1 11
+       99) 32 33 17 16 23 12 10 27 20 36 37 31
+           28 35 34 38 24 39 13 22  1 19  4 25
+      100) 32 33 37 28 38 20 17  4 39 24 35 16
+           12 19 34  8 21 29 36 13 10  9  3 31
+      
+      E. Secret-draw method arrangements
+      
+      For the "secret draw" selection method, the arrangements of the
+      event set are defined as follows (read left to right, top to
+      bottom, with "." denoting the free space):
+      
+        1 NTJSI KUXDG PB.EW OQARF VLHCM
+        2 DPQJS TOVRN LX.MW EKGAU HBCFI
+        3 NPKAO TRDBG WE.JV MLFCS QHXIU
+        4 HWSAP COBMK EJ.GV NDUTX RFQIL
+        5 IXBUO NWJHP MA.QV KTGEF CLSDR
+        6 LIKQN PURMS DE.FG XATCH WOVBJ
+        7 FUDPR NTEXM BG.IH WAJCQ LSVOK
+        8 HRFMU TONAX JQ.EG SPCWV DLKIB
+        9 MECWS FXKLG JR.BO UHDVN ATIQP
+       10 KGEOM ASPVN LF.XU IQJBR HWTDC
+       11 MEUDR FHVSN IL.XG QBOTW PKAJC
+       12 AVGCW MPITN SO.EQ UDKLR HFXJB
+       13 AEUCO VJLHW TS.DQ KGRFM NBXIP
+       14 MVOJB KXIEP SA.LT WNCQD GHRFU
+       15 GIJQX KRLNS UH.TB PFAOD CMVWE
+       16 XCUTQ JVLDF EM.BI HKOGP NRWSA
+       17 EAXGI CDWVN MO.QH TLBUR FPSJK
+       18 NWGLE SATOI DB.UF HXRKM VQJCP
+       19 SHPQG UMXTO CA.EI NLKDJ VFWBR
+       20 SWUAE LINKG HR.JP XDTFQ OMVBC
+       21 KIETU GDRLX SN.WQ PJVBM COHAF
+       22 XHCDJ KTPIL US.RQ GOAFV WEBMN
+       23 BSVEN IAQLW MG.KX PRUCJ TOHFD
+       24 HDKBP LXVQC OA.JR ETIGW UFMNS
+       25 SBTPN DXVJR MO.HL UWCAK QFGIE
+       26 OCBGM XEVFQ WK.UJ ITLSN PHDRA
+       27 NUAPE RJMLT DG.OH VIXWS KCBQF
+       28 CXDLQ WVPFO TJ.NS KMHRA BEUIG
+       29 FXARN VUJCL MW.PG HQDEK ITBSO
+       30 ONSGU BPMJW IQ.CV EKAFD XTHLR
+       31 IGJAO WVXUN RK.DB LETPF SMCHQ
+       32 RHOBD KLQPX TS.IM GUJVN EAFWC
+       33 QASWM LEFUJ OX.CB GNHTD RVKPI
+       34 KVLST WAROM JU.DN QFIPH GBEXC
+       35 DAIGB UHNOW CM.XJ FPTER VLQSK
+       36 CKLXE FRVAH WS.OD TQMPN UJIGB
+       37 LQWCV UAENF IO.HT MXBRG KPDSJ
+       38 MXGSN UPDWR KT.VF OHJBQ ILEAC
+       39 SIBTD RAUCQ WJ.PX MEVFL GKOHN
+       40 MNUKR EVPSL OC.BX AQDFJ ITHWG
+       41 AEUTB QXWSP GV.FN OHLKC JMDIR
+       42 PFBCD ROGXJ WQ.AU NMVTK LSEIH
+       43 JASGX KEUBR TC.NV IOLHQ PWMFD
+       44 UWRFS HAIXG NE.OB MVTPJ QCKLD
+       45 USGTD JXBAF LN.QR MCWOV PHIEK
+       46 JNUBR LHMXC GF.AV TQKOS IDEPW
+       47 CWXOJ PHNVM TQ.EG USBIK AFRLD
+       48 FAQKW BGDJE HR.IN VTOMC ULXPS
+       49 HEQAP XJMFV GK.OB TLRCN DUWSI
+       50 RHTVN JKWUG PB.QL OFEAX SIMDC
+       51 SPMOK AJRBE QN.VC XIFGD LUTWH
+       52 CUJWF SLOVM PN.GI KXRHQ EDABT
+       53 QRJSD ETPCO WB.ML NFIGU VXKAH
+       54 QMUVD EHWNF LJ.BP XOSKI AGCTR
+       55 LHMUG IXJRF WS.QN TEBOV APCDK
+       56 KHCBR EFAPT VM.OL DQIWU GJNSX
+       57 HGNOK TDWBP CE.RA VMQJS IXULF
+       58 MJCTV RBIXL SP.KO QHNGW EUAFD
+       59 PWITD QOBXF UH.LJ GREKN SAVCM
+       60 QEDHS XBILJ AK.UN PFCWT MGVRO
+       61 COLRV QDSNM PI.AW KHEXJ GBTUF
+       62 XEBJK VPUTA QO.MH RLDFN GCIWS
+       63 DCWQK ITVMU NA.RP JLEHF XOBSG
+       64 HXVLB SNUGK EQ.JP CIMOW FDRAT
+       65 POLBC EJWMQ VS.GF UNDRH ITKAX
+       66 LGPXV KRUBM SI.FN TEWHA CDOQJ
+       67 BSQCW NOXPT RJ.EV FKHAL IUGDM
+       68 HQTXV ONCEL PF.UG MIJDS RWAKB
+       69 LVFPW QDAXM UN.EK HIJTG COBRS
+       70 MASKL JTOXR DC.IW UGPFN QBEHV
+       71 RVLSN EUKGM BX.AH JITPD OCFQW
+       72 GCABP JTLOF RW.NE MUQDH XSVKI
+       73 QJINV OLRXA MK.FT GSWPE UDCHB
+       74 PBFDG HIOCR SJ.AW KTXLM VUNEQ
+       75 UWAGI JLTOS KP.QM XNVFH CBERD
+       76 NBGRU SXLAP JM.HK IVQCD EWFTO
+       77 HUOXK QAJDB LN.IV FSGRW PCEMT
+       78 QOEFR DWMHN AX.JB GVIKL CTSPU
+       79 LNOXG VTFJK QD.BR HEMIW PCASU
+       80 RXUMA OCEJK NG.QL TSHVI PWFBD
+       81 NOXFE BISKL VT.DQ MGPRA CJUWH
+       82 JRWFX CLDIH ET.KA OQGPM SNVBU
+       83 TCXFP INSLR OE.VW QDKHG BUMAJ
+       84 DVJFR CNWQG PX.TA OHKMS EIULB
+       85 BRJES ATWMQ UI.KX VPHFN OCGLD
+       86 NBFDL CPMJA VU.HI STWKX QROEG
+       87 KDEWT ABNQR UV.HI JOXSC PGLFM
+       88 NAWKD JIGFX SE.QC PTBRM ULHOV
+       89 OEFHI RAPQB UD.CX GNTWL SMJKV
+       90 PAJSN XQGBW DR.MC KTFIH ULOVE
+       91 WVIJP XMHGE CN.DU LBFTK SRAQO
+       92 WJCSI NLBEK TG.VA FXPDR MOHQU
+       93 IQWDH KEAUN PG.RL VXFBJ MCTSO
+       94 UEMLF RHQPG CX.AW VKOSN BIDTJ
+       95 PQAGF SBEVD TU.WR OJILC HXMNK
+       96 VLRSQ IWTHM FE.BC ONGPK AJUDX
+       97 CNOGB MVSAQ PF.LW ERUTD JXKIH
+       98 XEMJB RASNT CH.WL IGFUO QKDVP
+       99 SCNJX RMEAU OI.LK PQTVF HGDBW
+      100 GOCHL UEMJN KD.RF TWXPV QSIBA
+
+History:
+
+Enacted by Mischief, 31 Aug 2025
+Amended(1) by Mischief, 30 May 2026
+Amended(2) by Mischief, 30 May 2026
+Amended(3) by Mischief, 30 May 2026
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation CR3/1
+Events
+
+      A. Event conventions
+      
+      A "right now" event must be true at the time a player calls
+      bingo. Otherwise, the event is satisfied if it was true at any
+      point between the time the bingo state was most recently flipped
+      to unpaused and the time of the attempt to call bingo.
+      
+      Many events are triggered by "another player" (or similar
+      language). To satisfy that event, the basis of the person in
+      question must have no overlap with yours.
+      
+      Events are to be interpreted based on the definitions in the
+      rules. For example, "declare apathy" means the mechanism
+      currently defined in rule 2465 and not just a statement made in a
+      public forum. Repealing rule 2465 would, in the absence of any
+      other relevant rule changes, make that event impossible to
+      satisfy in the future. However, if someone had already done so in
+      the current round, it would still count.
+      
+      Unless specified otherwise, strings comparisons are
+      case-insensitive and a string has/contains all of its substrings
+      and partial words. For example, if a text contains the word
+      "cramps" then it is also considered to contain "Amps"
+      
+      Each event is tagged with an estimated difficulty, which affects
+      the relative probability that it gets drawn for a board: Very
+      Easy (1/9x), Easy (1/3x), Medium (1x), Difficult (1/3x), Very
+      Difficult (1/9x). Note that these are relative probabilities, not
+      category weights. If there are 900 very difficult events and 100
+      medium events, the final result will be about 50/50
+      
+      B. The events
+      
+      01  D    the Prime Minister has enacted an Emergency Regulation
+      02  D    a proposal with "oops" in its title is passed
+      03  E    right now you hold at least one office
+      04  E    a player revokes a blot from another player
+                 (neither is you)
+      05 VE    a CFJ you neither called nor judged gets judged
+                 FALSE
+      06 VE    a CFJ you neither called nor judged gets judged
+                 TRUE
+      07 VE    a CFJ you neither called nor judged gets judged
+                 IRRELEVANT
+      08 VE    a CFJ you neither called nor judged gets judged
+                 INSUFFICIENT
+      09 VE    a CFJ you neither called nor judged gets judged
+                 DISMISS
+      10 VD    a CFJ you neither called nor judged gets judged
+                 PARADOXICAL
+      11  E    a proposal passes amending a rule of power > 3
+      12  M    a proposal passes creating a rule of power > 3
+      13  M    a proposal passes repealing a rule of power > 3
+      14 VE    a proposal gets no votes FOR
+      15 VE    a proposal gets no votes AGAINST
+      16  M    a proposal passes amending more than 4 rules
+      17  M    a proposal passes repealing more than 2 rules
+      18  E    a proposal passes creating more than 2 rules
+      19  M    another player wins
+      20  M    the stamp scamp changes
+      21  E    the Veblen's cost exceeds 30
+      22  E    Agora's Festivity is greater than zero
+      23  M    right now you own more than 40 spendies
+      24  M    right now a prime number of rules exist
+      25  E    right now a non-prime number of rules exist
+      26 VD    any player earns a lime ribbon
+      27  D    any player earns a transparent ribbon
+      28  M    right now zero stamps of your type exist
+      29  D    right now 1 or more rules contain "enchanted" in their
+                 text
+      30 VE    right now no rules contain "enchanted" in their text
+      31  D    another player declares apathy
+      32  E    the Prime Minister uses the Dive Cabinet Order on emself
+      33  D    4 players have the same radiance greater than 20
+      34  E    right now the boulder's height is 0
+      35  M    you have had an Agoran Birthday
+      36  M    right now you are party to a contract with exactly
+                 7 parties
+      37  D    right now, you own at least one rare stamp
+      38  M    a proposal passes that doesn't amend, enact, or repeal
+                 any rule
+      39  M    right now, you own exactly 7 different types of
+                 number cards
+
+History:
+
+Enacted by Mischief, 31 Aug 2025
+Amended(1) by Mischief, 30 May 2026
+
+Annotations:
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,48 @@
+Rule 2466/3 (Power=3)
+Acting on Behalf
+
+      When a rule allows one person (the agent) to act on behalf of
+      another (the principal) to perform an action, that agent CAN
+      perform the action if it is POSSIBLE for the principal to do so,
+      taking into account any prerequisites for the action. If the
+      enabling rule does not specify the mechanism by which the agent
+      may do so, then the agent CAN perform the action in the same
+      manner in which the principal CAN do so, with the additional
+      requirement that the agent must, in the message in which the
+      action is performed, uniquely identify the principal and that the
+      action is being taken on behalf of that person.
+      
+      A person SHALL NOT act on behalf of another person if doing so
+      causes the second person to violate the rules. A person CANNOT act
+      on behalf of another person to do anything except perform a game
+      action; in particular, a person CANNOT act on behalf of another
+      person to send a message, only to perform specific actions that
+      might be taken within a message, including actions that would
+      otherwise be taken by publishing certain text.
+      
+      When an action is performed on behalf of a principal, then the
+      action is considered for all game purposes to have been performed
+      by the principal, unless a rule specifically states that it is
+      treated differently for some purpose, in which case it is treated
+      as described by that rule.
+      
+      Allowing a person to act on behalf of another person is secured at
+      power 2.0. This rule takes precedence over any rule that would
+      prohibit a person from taking an action, except that it defers to
+      any rule that imposes limitations specifically on actions taken on
+      behalf of another person.
+      
+      An agent CANNOT act on behalf of a principal to perform an action
+      via a specific method if the rules state that the actor acts "as
+      emself" or "on eir own behalf" to perform the action via that
+      method.
+
+History:
+
+Enacted by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
+Amended(1) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan, D.F.F.,
+   Madrid, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Amended(2) by P8402 'Promises' (Aris, Falsifian), 03 Jun 2020
+Amended(3) by P8913 'emself v2' (G., Murphy), 12 Mar 2023
+
+Annotations:
