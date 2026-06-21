@@ -66,8 +66,8 @@ text: |
   23  M    right now you own more than 40 spendies
   24  M    right now a prime number of rules exist
   25  E    right now a non-prime number of rules exist
-  26 VD    any player earns a lime ribbon
-  27  D    any player earns a transparent ribbon
+  26 VD    any player is awarded a lime ribbon
+  27  D    any player is awarded a transparent ribbon
   28  M    right now zero stamps of your type exist
   29  D    right now 1 or more rules contain "enchanted" in their
              text
@@ -93,5 +93,10 @@ history:
 - change:
     type: amendment
   date: 2026-05-30
+  agent:
+    person: Mischief
+- change:
+    type: amendment
+  date: 2026-06-14
   agent:
     person: Mischief
