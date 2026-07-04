@@ -3,7 +3,8 @@ THE AGORA NOMIC CODE OF REGULATIONS
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
-Date of this ACORN: 21 Jun 2026
+Date of this ACORN: 9 Jun 2026
+REVISION 2
 
 ------------------------------------------------------------------------
 
@@ -16,6 +17,9 @@ Administrative Regulations
    * Regulation CR1: Boards and winning patterns
    * Regulation CR2: Board selection methods
    * Regulation CR3: Events
+   * Regulation EA0: The Sweet Executive
+   * Regulation EA1: The Auction Process
+   * Regulation EA2: Auction Terms
 
 ------------------------------------------------------------------------
 
@@ -638,6 +642,131 @@ History:
 Enacted by Mischief, 31 Aug 2025
 Amended(1) by Mischief, 30 May 2026
 Amended(2) by Mischief, 14 Jun 2026
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation EA0/0
+The Sweet Executive
+
+      I. The Executor SHALL use good faith in performing eir duties and
+      exercising eir powers
+      
+      II. "Salvage assets" is a synonym for assets owned by the Lost and
+      Found Department
+      
+      III. The Executor SHOULD initiate an auction for salvage assets at
+      least quarterly, unless there are no salvage assets. However, e
+      SHOULD CONSIDER delaying doing so in the event of 1) an ongoing or
+      immediately pending election for Executor; 2) a Holiday; 3)
+      reasonable uncertainty as to which assets are salvage assets; or
+      4) any other circumstances where delaying the auction would be
+      reasonable
+
+History:
+
+Enacted by Mischief, 21 Apr 2026
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation EA1/0
+The Auction Process
+
+      I. The Executor CAN initiate an auction for salvage assets --
+      excluding any that 1) are already subject to an ongoing auction or
+      2) were subject to a prior auction and have a winning bid
+      oustanding -- by announcement, specifying the following:
+      
+      A) the salvage assets up for auction
+      
+      B) the bidding assets (including any applicable conversion rates
+      between different types of bidding assets)
+      
+      C) the form of the auction D) the time period to submit bids (the
+      "bidding period") E) the time period to satisfy winning bids (the
+      "redemption period")
+      
+      The bidding period begins immediately upon such a valid
+      announcement and lasts for the specified time period (subject to a
+      minimum period of 5 days and a maximum period of one month)
+      
+      II. During an auction's bidding period, players may make a bid in
+      that auction by announcement. During an auction's bidding period,
+      players may by announcement retract a bid e previously made in
+      that auction.
+      
+      Valid bids must:
+      
+      A) specify the asset (or set of assets) the bid applies to B)
+      specify the amount bid for such asset(s) C) be from a player not
+      in time out
+      
+      Invalid bids have no effect.
+      
+      A player CAN communicate multiple bids in a single statement or
+      message if done in a reasonably unambiguous manner.
+      
+      III. In a timely fashion after the end of an auction's bidding
+      period, the Executor SHALL announce, for each winning bidder, the
+      items won and the resulting amount owed. Upon such announcement,
+      each winning bid in that auction becomes unpaid.
+      
+      The redemption period begins immediately upon such a valid
+      announcement and lasts for the time period specified in the
+      announcement that originally initiated the auction (subject to a
+      minimum period of 5 days and a maximum period of one month)
+      
+      IV. During an auction's redemption period, a winning bidder may
+      make an unpaid winning bid in that auction paid by destroying
+      assets in eir possession corresponding to the amount owed for that
+      bid. In a timely fashion after doing so, the Executor CAN and
+      SHALL transfer the corresponding items to the bidder; however, e
+      NEED NOT do so for any items the bidder is not eligible to own.
+      
+      After an auction's redemption period ends, any remaining unpaid
+      winning bids in that auction are void, and the corresponding
+      bidders are delinquent.
+      
+      V. In a timely fashion after the end of an auction's redemption
+      period, the Executor CAN by announcement put any bidder who is
+      delinquent in that auction in time out for a specified period not
+      to exceed to 4 months, and e SHOULD do so unless the unpaid bid is
+      due to circumstances out of the control of and not reasonably
+      foreseeable by the bidder. Examples of such circumstances could
+      include scams executed by others or previously unknown defects
+      discovered in the rules or the Executor's regulations.
+
+History:
+
+Enacted by Mischief, 21 Apr 2026
+
+Annotations:
+
+------------------------------------------------------------------------
+Regulation EA2/0
+Auction Terms
+
+      I. The Executor SHOULD auction all salvage assets at once;
+      however, e SHOULD CONSIDER auctioning only a proper subset of them
+      if the Lost and Found Department owns an unusually large number of
+      assets or multiple disparate types of assets
+      
+      II. The form of the auction SHOULD be a Vickrey–Clarke–Groves
+      auction. However, where that would be administratively challenging
+      for bidders or the Executor, the Executor SHOULD CONSIDER
+      alternative forms of auction (including running multiple separate
+      Vickrey auctions)
+      
+      III. The Executor is ENCOURAGED to set the bidding period and the
+      redemption period at one week each
+      
+      IV. The Executor CAN resolve ties between bids as e sees fit and
+      is ENCOURAGED to do so in favor of the earliest unretracted bid
+
+History:
+
+Enacted by Mischief, 21 Apr 2026
 
 Annotations:
 
