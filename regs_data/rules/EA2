@@ -1,0 +1,25 @@
+id: EA2
+name: Auction Terms
+text: |
+  I. The Executor SHOULD auction all salvage assets at once;
+  however, e SHOULD CONSIDER auctioning only a proper subset of them
+  if the Lost and Found Department owns an unusually large number of
+  assets or multiple disparate types of assets
+
+  II. The form of the auction SHOULD be a Vickrey–Clarke–Groves
+  auction. However, where that would be administratively challenging
+  for bidders or the Executor, the Executor SHOULD CONSIDER
+  alternative forms of auction (including running multiple separate
+  Vickrey auctions)
+
+  III. The Executor is ENCOURAGED to set the bidding period and the
+  redemption period at one week each
+
+  IV. The Executor CAN resolve ties between bids as e sees fit and
+  is ENCOURAGED to do so in favor of the earliest unretracted bid
+history:
+- change:
+    type: enactment
+  date: 2026-04-21
+  agent:
+    person: Mischief

@@ -1,0 +1,72 @@
+id: EA1
+name: The Auction Process
+text: |
+  I. The Executor CAN initiate an auction for salvage assets --
+  excluding any that 1) are already subject to an ongoing auction or
+  2) were subject to a prior auction and have a winning bid
+  oustanding -- by announcement, specifying the following:
+
+  A) the salvage assets up for auction
+
+  B) the bidding assets (including any applicable conversion rates
+  between different types of bidding assets)
+
+  C) the form of the auction D) the time period to submit bids (the
+  "bidding period") E) the time period to satisfy winning bids (the
+  "redemption period")
+
+  The bidding period begins immediately upon such a valid
+  announcement and lasts for the specified time period (subject to a
+  minimum period of 5 days and a maximum period of one month)
+
+  II. During an auction's bidding period, players may make a bid in
+  that auction by announcement. During an auction's bidding period,
+  players may by announcement retract a bid e previously made in
+  that auction.
+
+  Valid bids must:
+
+  A) specify the asset (or set of assets) the bid applies to B)
+  specify the amount bid for such asset(s) C) be from a player not
+  in time out
+
+  Invalid bids have no effect.
+
+  A player CAN communicate multiple bids in a single statement or
+  message if done in a reasonably unambiguous manner.
+
+  III. In a timely fashion after the end of an auction's bidding
+  period, the Executor SHALL announce, for each winning bidder, the
+  items won and the resulting amount owed. Upon such announcement,
+  each winning bid in that auction becomes unpaid.
+
+  The redemption period begins immediately upon such a valid
+  announcement and lasts for the time period specified in the
+  announcement that originally initiated the auction (subject to a
+  minimum period of 5 days and a maximum period of one month)
+
+  IV. During an auction's redemption period, a winning bidder may
+  make an unpaid winning bid in that auction paid by destroying
+  assets in eir possession corresponding to the amount owed for that
+  bid. In a timely fashion after doing so, the Executor CAN and
+  SHALL transfer the corresponding items to the bidder; however, e
+  NEED NOT do so for any items the bidder is not eligible to own.
+
+  After an auction's redemption period ends, any remaining unpaid
+  winning bids in that auction are void, and the corresponding
+  bidders are delinquent.
+
+  V. In a timely fashion after the end of an auction's redemption
+  period, the Executor CAN by announcement put any bidder who is
+  delinquent in that auction in time out for a specified period not
+  to exceed to 4 months, and e SHOULD do so unless the unpaid bid is
+  due to circumstances out of the control of and not reasonably
+  foreseeable by the bidder. Examples of such circumstances could
+  include scams executed by others or previously unknown defects
+  discovered in the rules or the Executor's regulations.
+history:
+- change:
+    type: enactment
+  date: 2026-04-21
+  agent:
+    person: Mischief
