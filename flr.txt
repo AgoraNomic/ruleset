@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 9 Jun 2026
+Date of this ruleset: 5 Jul 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
 Number of rules currently enacted: 149
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9350
+Highest ID'd Proposal Passed: 9355
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -353,10 +353,10 @@ Players
    leaving Agora works. If you're a new player, this is probably the
    most important section to read.
 ------------------------------------------------------------------------
-Rule 869/56 (Power=3)
+Rule 869/57 (Power=3)
 How to Join and Leave Agora
 
-      Any entity (including a group of entities confederated with the
+      Any entity (including a group of entities who confederate with the
       intent of forming a single person under this Rule) that is or ever
       was able to willingly communicate original ideas is a person.
       Rules to the contrary notwithstanding, no other entities are
@@ -474,6 +474,7 @@ Amended(55) by P9219 'Automatic Registration' (Kate, Murphy), 16 Mar
    2025
 Amended(56) by P9254 'Administrative Publication Act' (Janet, kiako), 20
    Nov 2025
+Amended(57) by P9355 'Active Confederation' (Mischief), 05 Jul 2026
 
 Annotations:
 CFJ 1275 (called 19 Feb 2001): An entity is a Player if the Rules cannot
@@ -6074,14 +6075,15 @@ Amended(7) by P9111 'Resolve The Paradox' (ais523), 26 May 2024
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2716/0 (Power=2.0)
+Rule 2716/1 (Power=2.0)
 Scheduled Actions
 
-      A player CAN pay a fee of N spendies (where N is an integer from 1
-      to 7, inclusive) to create a Scheduled Action, specifying a time
-      between 0 and N days in the future (the Trigger) and a body of
-      text (the Payload). However, a Scheduled Action CANNOT be created
-      while another Scheduled Action is taking effect.
+      A player CAN, acting as emself, pay a fee of N spendies (where N
+      is an integer from 1 to 7, inclusive) to create a Scheduled
+      Action, specifying a time between 0 and N days in the future (the
+      Trigger) and a body of text (the Payload). However, a Scheduled
+      Action CANNOT be created while another Scheduled Action is taking
+      effect.
       
       At a Scheduled Action's Trigger, it takes effect (its creator
       performs actions as if e had published its Payload at that time),
@@ -6095,6 +6097,8 @@ Scheduled Actions
 History:
 
 Enacted by P9321 'Scheduled actions' (Murphy, Mischief), 20 Mar 2026
+Amended(1) by P9354 'Don't scribble in my calendar' (Salad, Galle), 05
+   Jul 2026
 
 Annotations:
 
@@ -7092,20 +7096,21 @@ Amended(4) by P9342 'Secure Scoring' (Galle), 25 May 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2714/0 (Power=1.0)
+Rule 2714/1 (Power=1.0)
 Spending Number Cards
 
       A player CAN, once per week, pay ten number cards, where each of
       those number cards is of a different type, to gain 25 radiance.
       
       For any two decimal digits X and Y (which may be the same), a
-      player CAN pay 2 spendies, a number card of type X, and a number
+      player CAN pay 6 spendies, a number card of type X, and a number
       card of type Y to grant emself a number card whose type is the
       last digit of the sum X+Y.
 
 History:
 
 Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
+Amended(1) by P9353 'Costlier crafting' (ais523), 21 Jun 2026
 
 Annotations:
 
@@ -7830,15 +7835,18 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/31 (Power=2)
+Rule 103/32 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
-      Agora. The player or players who have most recently won the game
-      are called Laureled. If at any time the office of Speaker is
-      vacant, or when one or more players win Agora, then the Prime
-      Minister CAN once appoint a Laureled player to the office of
-      Speaker by announcement.
+      Agora. The Speaker is ENCOURAGED to remind players and officers of
+      upcoming Agoran scheduled events and deadlines
+      
+      The player or players who have most recently won the game are
+      called Laureled. If at any time the office of Speaker is vacant,
+      or when one or more players win Agora, then the Prime Minister CAN
+      once appoint a Laureled player to the office of Speaker by
+      announcement.
       
       Whenever the Prime Minister CAN appoint a Laureled player to the
       office of Speaker, e SHALL do so in a timely fashion, except that
@@ -7907,6 +7915,7 @@ Amended(29) by P8708 'Has Beens' (nix, snail, G., Madrid, 4st, Janet),
 Amended(30) by P8976 'Ruleset convergance' (Janet), 25 May 2023
 Amended(31) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul
    2024
+Amended(32) by P9352 'Cat Wrangling' (Mischief), 21 Jun 2026
 
 Annotations:
 
