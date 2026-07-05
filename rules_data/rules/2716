@@ -2,11 +2,12 @@ id: 2716
 name: "Scheduled Actions"
 power: 2.0
 text: |
-  A player CAN pay a fee of N spendies (where N is an integer from 1
-  to 7, inclusive) to create a Scheduled Action, specifying a time
-  between 0 and N days in the future (the Trigger) and a body of
-  text (the Payload). However, a Scheduled Action CANNOT be created
-  while another Scheduled Action is taking effect.
+  A player CAN, acting as emself, pay a fee of N spendies (where N
+  is an integer from 1 to 7, inclusive) to create a Scheduled
+  Action, specifying a time between 0 and N days in the future (the
+  Trigger) and a body of text (the Payload). However, a Scheduled
+  Action CANNOT be created while another Scheduled Action is taking
+  effect.
 
   At a Scheduled Action's Trigger, it takes effect (its creator
   performs actions as if e had published its Payload at that time),
@@ -22,3 +23,8 @@ history:
   date: 2026-03-20
   agent:
     proposal: "9321"
+- change:
+    type: amendment
+  date: 2026-07-05
+  agent:
+    proposal: "9354"
