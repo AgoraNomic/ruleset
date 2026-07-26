@@ -13,8 +13,9 @@ text: |
 
   A player CAN pay a fee of X spendies, where X is an integer not
   less than the current Veblen cost, to set the Veblen cost to X+1.
-  When e does so, if e does not own the Veblen, the Veblen is
-  transferred to em.
+  When e does so, if e does not own the Veblen, then (a) the Veblen
+  is transferred to em, and (b) the player who thereby loses the
+  Veblen, if any, is granted half of X Spendies, rounded down.
 
   If the Veblen has not been transferred or devalued within the past
   month, then a player CAN devalue the Veblen by announcement, thus
@@ -55,3 +56,8 @@ history:
   date: 2025-12-08
   agent:
     proposal: "9263"
+- change:
+    type: amendment
+  date: 2026-06-26
+  agent:
+    proposal: "9360"
