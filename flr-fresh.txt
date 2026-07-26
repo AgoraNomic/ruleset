@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 5 Jul 2026
+Date of this ruleset: 26 Jul 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
 Number of rules currently enacted: 149
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9355
+Highest ID'd Proposal Passed: 9361
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -31,7 +31,7 @@ The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
 Important Temporary Rules
-   * Rule 2720: The Grand Duumvirate
+   * Rule 2718: Purchased Re-enactment
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -322,32 +322,21 @@ Important Temporary Rules
    easily fit in any other category but that hold special relevance for
    the current gamestate.
 ------------------------------------------------------------------------
-Rule 2720/2 (Power=2.0)
-The Grand Duumvirate
+Rule 2718/0 (Power=2.0)
+Purchased Re-enactment
 
-      A person is a Dictator if and only if, on 20 April 2026, that
-      person was either the Referee or the Assessor.
+      For the purpose of this rule, a proposal or former proposal is an
+      "adopted proposal" if any past referendum on that proposal or
+      former proposal had an outcome oF ADOPTED.
       
-      A Dictator CAN by announcement grant any asset to any person
-      (including emself), or revoke any asset from any person (including
-      emself).
-      
-      A Dictator CAN, with the consent of a specified person, grant a
-      specified patent title to that person.
-      
-      If no Dictator has yet done so, any Dictator can by announcement
-      Declare a Junta. Upon doing so, all Dictators win the game (the
-      victory method should be recorded as being via Junta, as is
-      typical of victories obtained by dictatorships).
-      
-      A Dictator CAN with notice and with the consent of all other
-      Dictators cause this rule to perform a specified Rule Change.
+      A player CAN revive an adopted proposal by paying a fee of 25
+      Spendies. When a player does so, this rule performs the same rules
+      changes that that adopted proposal would perform if it took effect
+      right now.
 
 History:
 
-Enacted by R2718, 25 Apr 2026
-Amended(1) by R2720, 25 Apr 2026
-Amended(2) by R2720, 04 May 2026
+Enacted by P9328 'Revival' (ais523), 25 Apr 2026
 
 Annotations:
 
@@ -6791,7 +6780,7 @@ Amended(13) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2711/2 (Power=1.5)
+Rule 2711/3 (Power=1.5)
 Outshining the Sun
 
       Upon a correct announcement from a player that eir radiance is 100
@@ -6805,7 +6794,13 @@ Outshining the Sun
       * The radiance of each other player is set to half its current
         value (rounded down).
       
-      * All Pyrite is destroyed.
+      * All Pyrite in eir possession is destroyed.
+      
+      * Half of all Pyrite in each other player's possession, rounded
+        up, is destroyed.
+      
+      * For each player with more than 4000 Pyrite, all but 4000 Pyrite
+        in their possession is destroyed.
       
       * The Fields Wither.
       
@@ -6822,6 +6817,8 @@ Retitled from 'Light Overexposure' to 'Outshining the Sun' by P9311 'Lux
 Power changed from 1.0 to 1.5 by P9311 'Lux Solis' (Mischief, Murphy),
    20 Mar 2026
 Amended(2) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
+Amended(3) by P9358 'The Pyrite Preservation Proposal v2' (Galle), 26
+   Jun 2026
 
 Annotations:
 
@@ -7369,7 +7366,7 @@ Amended(36) by P9239 'Gray timing' (Murphy), 09 Aug 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2480/9 (Power=3.1)
+Rule 2480/10 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
@@ -7391,7 +7388,11 @@ Festivals
       For any integer N greater than Agora's Festivity, an N-Festive
       player CAN flip Agora's Festivity to N with 4 support from other
       N-Festive players, unless Agora's Festivity has had a value
-      greater than or equal to N in the past 21 days.
+      greater than or equal to N in the past 21 days. For any integer N
+      greater than Agora's Festivity, any player CAN flip Agora's
+      Festivity to N with 5 support from N-Festive players, unless
+      Agora's Festivity has had a value greater than or equal to N in
+      the past 21 days.
 
 History:
 
@@ -7409,6 +7410,8 @@ Amended(7) by cleaning (4st), 22 Nov 2023
 Amended(8) by P9189 'Did you get a permit for that party?' (Janet,
    Kate), 20 Oct 2024
 Amended(9) by P9190 'If there exists a party' (Janet, Kate), 20 Oct 2024
+Amended(10) by P9359 'Anyone can make a festival!' (msh210, Cosmo), 26
+   Jun 2026
 
 Annotations:
 
@@ -8444,7 +8447,7 @@ CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
     so.
 
 ------------------------------------------------------------------------
-Rule 2695/4 (Power=0.5)
+Rule 2695/5 (Power=0.5)
 The Veblen
 
       The Veblen is a unique indestructible fixed asset tracked by the
@@ -8458,8 +8461,9 @@ The Veblen
       
       A player CAN pay a fee of X spendies, where X is an integer not
       less than the current Veblen cost, to set the Veblen cost to X+1.
-      When e does so, if e does not own the Veblen, the Veblen is
-      transferred to em.
+      When e does so, if e does not own the Veblen, then (a) the Veblen
+      is transferred to em, and (b) the player who thereby loses the
+      Veblen, if any, is granted half of X Spendies, rounded down.
       
       If the Veblen has not been transferred or devalued within the past
       month, then a player CAN devalue the Veblen by announcement, thus
@@ -8483,6 +8487,7 @@ Amended(1) by P9150 '*sigh*' (Janet), 11 Aug 2024
 Amended(2) by P9172 'Veblen Defense' (Mischief), 15 Sep 2024
 Amended(3) by P9193 'Devaluation' (Murphy), 18 Nov 2024
 Amended(4) by P9263 'Truly Indestructible? v2' (4st), 08 Dec 2025
+Amended(5) by P9360 'Veblen Economics' (msh210), 26 Jun 2026
 
 Annotations:
 
