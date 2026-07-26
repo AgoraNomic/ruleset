@@ -21,7 +21,11 @@ text: |
   For any integer N greater than Agora's Festivity, an N-Festive
   player CAN flip Agora's Festivity to N with 4 support from other
   N-Festive players, unless Agora's Festivity has had a value
-  greater than or equal to N in the past 21 days.
+  greater than or equal to N in the past 21 days. For any integer N
+  greater than Agora's Festivity, any player CAN flip Agora's
+  Festivity to N with 5 support from N-Festive players, unless
+  Agora's Festivity has had a value greater than or equal to N in
+  the past 21 days.
 history:
 - change:
     type: enactment
@@ -82,4 +86,9 @@ history:
   date: 2024-10-20
   agent:
     proposal: "9190"
+- change:
+    type: amendment
+  date: 2026-06-26
+  agent:
+    proposal: "9359"
 annotations: []
