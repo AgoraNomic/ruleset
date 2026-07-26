@@ -1,37 +1,37 @@
-id: 2720
-name: "The Grand Duumvirate"
-power: 2.0
-text: |
-  A person is a Dictator if and only if, on 20 April 2026, that
-  person was either the Referee or the Assessor.
-
-  A Dictator CAN by announcement grant any asset to any person
-  (including emself), or revoke any asset from any person (including
-  emself).
-
-  A Dictator CAN, with the consent of a specified person, grant a
-  specified patent title to that person.
-
-  If no Dictator has yet done so, any Dictator can by announcement
-  Declare a Junta. Upon doing so, all Dictators win the game (the
-  victory method should be recorded as being via Junta, as is
-  typical of victories obtained by dictatorships).
-
-  A Dictator CAN with notice and with the consent of all other
-  Dictators cause this rule to perform a specified Rule Change.
-history:
-- change:
-    type: enactment
-  date: 2026-04-25
-  agent:
-    rule: "2718"
-- change:
-    type: amendment
-  date: 2026-04-25
-  agent:
-    rule: "2720"
-- change:
-    type: amendment
-  date: 2026-05-04
-  agent:
-    rule: "2720"
+# id: 2720
+# name: "The Grand Duumvirate"
+# power: 2.0
+# text: |
+#   A person is a Dictator if and only if, on 20 April 2026, that
+#   person was either the Referee or the Assessor.
+# 
+#   A Dictator CAN by announcement grant any asset to any person
+#   (including emself), or revoke any asset from any person (including
+#   emself).
+# 
+#   A Dictator CAN, with the consent of a specified person, grant a
+#   specified patent title to that person.
+# 
+#   If no Dictator has yet done so, any Dictator can by announcement
+#   Declare a Junta. Upon doing so, all Dictators win the game (the
+#   victory method should be recorded as being via Junta, as is
+#   typical of victories obtained by dictatorships).
+# 
+#   A Dictator CAN with notice and with the consent of all other
+#   Dictators cause this rule to perform a specified Rule Change.
+# history:
+# - change:
+#     type: enactment
+#   date: 2026-04-25
+#   agent:
+#     rule: "2718"
+# - change:
+#     type: amendment
+#   date: 2026-04-25
+#   agent:
+#     rule: "2720"
+# - change:
+#     type: amendment
+#   date: 2026-05-04
+#   agent:
+#     rule: "2720"
