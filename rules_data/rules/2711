@@ -13,7 +13,13 @@ text: |
   * The radiance of each other player is set to half its current
     value (rounded down).
 
-  * All Pyrite is destroyed.
+  * All Pyrite in eir possession is destroyed.
+
+  * Half of all Pyrite in each other player's possession, rounded
+    up, is destroyed.
+
+  * For each player with more than 4000 Pyrite, all but 4000 Pyrite
+    in their possession is destroyed.
 
   * The Fields Wither.
 
@@ -50,3 +56,8 @@ history:
   date: 2026-03-20
   agent:
     proposal: "9311"
+- change:
+    type: amendment
+  date: 2026-06-26
+  agent:
+    proposal: "9358"
