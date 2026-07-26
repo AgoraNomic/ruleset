@@ -1,0 +1,20 @@
+Rule 1950/39 (Power=3)
+Decisions with Adoption Indices
+
+      Adoption index (AI) is an untracked switch possessed by Agoran
+      decisions and proposals, secured at power 2.  For decisions, the
+      possible values are "none" (default) or integral multiples of 0.1
+      from 1.0 to 9.9. For proposals, the possible values are integral
+      multiples of 0.1 from 1.0 to 9.9 (default 1.0). 
+      
+      The adoption index of a referendum CANNOT be set or changed to
+      "none" or to a value less than that of its associated proposal. If
+      a referendum ever has an adoption index of "none" or an adoption
+      index less than that of its associated proposal, it is immediately
+      set to the adoption index of the associated proposal.
+      
+      Adoption index is an essential parameter of an Agoran decision if
+      that decision has an adoption index.
+      
+      For any Agoran decision with a non-"none" adoption index, the
+      voting method is AI-majority.

@@ -1,0 +1,36 @@
+Rule 2140/5 (Power=3)
+Power Controls Mutability
+
+      Rules to the contrary notwithstanding, no entity with power below
+      the power of this rule can
+      
+      1. cause an entity to have power greater than its own.
+      
+      2. adjust the power of an instrument with power greater than its
+      own.
+      
+      3. set or modify any other substantive aspect of an instrument
+      with power greater than its own (that is, one that affects the
+      instrument's operation).
+
+History:
+
+Enacted by P4940 'instrument mechanics' (Zefram), 29 Apr 2007
+Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
+   woggle, ais523), 23 Jan 2009
+Amended(1) by P6992 'Fix rule numbers' (Murphy, omd), 10 Apr 2011
+Amended(2) by R2430, 24 May 2017
+Amended(3) by P8184 'power-limit precedence' (G.), 09 Jul 2019
+Amended(4) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+   Gaelan), 21 Mar 2020
+Amended(5) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+
+Annotations:
+CFJ 2981 (called 21 Mar 2011): An attribute of an instrument is not
+    "modified" when an initial value is set for it.
+CFJ 2945 (called 22 Dec 2010): An attribute of an entity is "changed"
+    when it is removed/unset.
+CFJ 2855 (called 08 Sep 2010): Absent security or similar explicit
+    prohibitions, a low-power proposal generally CAN change game
+    quantities defined in higher-power rules without interfering with
+    the "substantive aspects" of the higher-powered rules.

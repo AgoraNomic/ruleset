@@ -1,0 +1,88 @@
+Rule 1681/28 (Power=1)
+The Logical Rulesets
+
+      The Short Logical Ruleset (SLR) is a format of the ruleset. In
+      this format, each rule is assigned to a category, and the rules
+      are grouped according to their category.
+      
+      Rules are assigned to, ordered within, or moved between
+      categories, and categories are added, changed, or empty categories
+      removed, as the Rulekeepor sees fit.
+      
+      The listing of each rule in the SLR must include the rule's ID
+      number, power, title, and text.
+      
+      The listing of each rule in the SLR must additionally include a
+      revision number selected by the Rulekeepor. The Rulekeepor SHOULD
+      select revision numbers such that they can be used retrospectively
+      to determine that the text of a rule has changed while it
+      maintained the same ID number. The Rulekeepor may exercise
+      reasonable discretion in calculating revision numbers.
+      
+      The Rulekeepor is strongly DISCOURAGED from including any
+      additional information in the SLR, except that which increases the
+      readability of the SLR.
+      
+      The Full Logical Ruleset (FLR) is a format of the ruleset. In this
+      format, rules are assigned to the same category and presented in
+      the same order as in the SLR. The FLR must contain all the
+      information required to be in the SLR, and any historical
+      annotations which the Rulekeepor is required to record.
+      
+      The Rulekeepor SHOULD also include any other information which e
+      feels may be helpful in the use of the ruleset in the FLR.
+      
+      Whenever a rule is changed in any way, the Rulekeepor SHALL record
+      and thereafter maintain a reasonably accurate historical
+      annotation to the rule indicating:
+      
+      1. The type of change.
+      
+      2. The date on which the change took effect.
+      
+      3. The mechanism that specified the change.
+      
+      4. If the rule was changed due to a proposal, then that proposal's
+         ID number, author, and coauthor(s) (if any).
+
+History:
+
+Enacted by P2783 (Chuck), 15 Jan 1997
+Amended(1) by P3500 (Crito), 03 Jun 1997
+Amended(2) by P3624 'No Passing the Buck' (General Chaos), 29 Dec 1997
+Amended(3) by P3704 (General Chaos), 19 Mar 1998
+Amended(4) by P3902 'Office Normalization' (Murphy), 06 Sep 1999
+Amended(5) by P4002 'Officer Reform' (harvel), 08 May 2000
+Amended(6) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
+Amended(7) by P4841 'Order categorical' (G.), 27 Oct 2005
+Amended(8) by P4868 'Red Tape Repeals 2.0' (G.), 27 Aug 2006
+Amended(9) by P4887 'Periodic Spell Check' (Murphy), 22 Jan 2007
+Amended(10) by P5006 'discretionary annotations only' (Zefram), 18 Jun
+   2007
+Amended(11) by P5110 'Regulate ID numbers' (Murphy), 02 Aug 2007
+Amended(12) by P5334 'Refactor co-authors' (Murphy), 05 Dec 2007
+Amended(13) by P5956 'random fixes part 1' (omd), 17 Nov 2008
+Amended(14) by P6019 'Undo the scam already' (Murphy), 22 Dec 2008
+Amended(15) by P6026 'Cleanup of Power=1 definitions' (Murphy), 22 Dec
+   2008
+Amended(16) by P6053 'Committees' (Murphy, woggle, ais523), 23 Jan 2009
+Amended(17) by P6124 'Nobody's using them, so might as well de-cruft'
+   (ehird), 15 Mar 2009
+Amended(18) by P6662 'Maternal courage' [green, disi.] (Murphy), 10 Mar
+   2010
+Amended(19) by P7599 'Helpfulness' (Walker), 14 Sep 2013
+Amended(20) by P7604 'Come back woggle!' (G.), 13 Dec 2013
+Amended(21) by R2430, 24 May 2017
+Amended(22) by P8296 'Divergence' (Aris, G.), 29 Jan 2020
+Amended(23) by cleaning (Janet), 29 Jun 2020
+Amended(24) by P9074 'Close enough' (Janet), 07 Apr 2024
+Amended(25) by P9121 'More Rules, Less Complex' (juniper, mqyhlkahu), 21
+   Jun 2024
+Amended(26) by P9129 'Amendments are hard, okay?' (Janet), 06 Jul 2024
+Amended(27) by P9130 'Revision numbers, revised' (Janet, Gaelan), 06 Jul
+   2024
+Amended(28) by P9159 'Simplification, ironically' (Janet), 01 Sep 2024
+
+Annotations:
+CFJ 3904 (called 18 Apr 2021): A rule amendment that results in no net
+    change in rule text need not be recorded.
