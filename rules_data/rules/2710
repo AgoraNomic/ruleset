@@ -3,10 +3,11 @@ name: Genetic Modification
 power: 1.0
 text: |
   Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
-  create a new type of Crop, specifying its name. The Land Managor
-  CAN once by announcement, and SHALL in a timely fashion, set its
-  Growth Season, Seed Cost, Growth Duration, Resilience,
-  Opportunity, and Sell Price to randomly selected valid values. The
+  create a new type of Crop, specifying its name and, optionally,
+  its Growth Season. The Land Managor CAN once by announcement, and
+  SHALL in a timely fashion, set its Seed Cost, Growth Duration,
+  Resilience, Opportunity, and Sell Price to randomly selected valid
+  values, as well as its Growth Season if none was specified. The
   Land Managor CAN by announcement rename a type of Crop, specifying
   its new name, but SHOULD NOT do so unless its current name is
   reasonably likely to cause confusion and delay.
@@ -62,3 +63,8 @@ history:
   date: 2026-05-11
   agent:
     proposal: "9333"
+- change:
+    type: amendment
+  date: 2026-08-09
+  agent:
+    proposal: "9363"
