@@ -20,6 +20,10 @@ text: |
   is set to 0, and the Boulder's Slope is set to 1. The Absurdor
   SHOULD list the largest Height and Slope of the Boulder ever
   reached in eir report.
+
+  Once per week, each player who has pushed the boulder exactly once
+  that week can pay a fee of X spendies, where X is equal to 10 plus
+  the Boulder's Slope, to push the boulder a second time.
 history:
 - change:
     type: enactment
@@ -46,6 +50,11 @@ history:
   date: 2026-05-25
   agent:
     proposal: "9344"
+- change:
+    type: amendment
+  date: 2026-08-09
+  agent:
+    proposal: "9364"
 annotations:
 - cfjs:
   - id: '4095'
