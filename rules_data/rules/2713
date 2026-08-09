@@ -12,12 +12,13 @@ text: |
   ID number, unless its author had submitted 8 or more proposals
   earlier in the same week that it was submitted.
 
+
   Whenever a player scores a number as described in this rule, the
-  Numerator CAN once, and SHALL in a timely fashion, grant that
-  player (and, if the number was scored due to the adoption of a
-  proposal, also a randomly chosen other player who voted FOR on a
-  referendum to adopt that proposal) a number card for each digit in
-  that number, whose type is that digit.
+  Numerator CAN once by announcement, and SHALL in a timely fashion,
+  grant that player (and, if the number was scored due to the
+  adoption of a proposal, also a randomly chosen other player who
+  voted FOR on a referendum to adopt that proposal) a number card
+  for each digit in that number, whose type is that digit.
 
   Whenever a player scores a date, e scores that date in zero-padded
   MMDD format (for instance, scoring the thirtieth of June would
@@ -59,3 +60,8 @@ history:
   date: 2026-05-25
   agent:
     proposal: "9342"
+- change:
+    type: amendment
+  date: 2026-08-09
+  agent:
+    proposal: "9369"
