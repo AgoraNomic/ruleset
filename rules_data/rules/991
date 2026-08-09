@@ -36,7 +36,7 @@ text: |
   case activity, including open and recently-judged cases, recent
   judicial assignments, and a list of players interested in judging.
 
-  If a CFJ does not have an ID number, the Arbitor CAN by
+  If a CFJ does not have a unique CFJ ID number, the Arbitor CAN by
   announcement or by clear specification assign an ID number to it,
   and SHALL do so in any message in which e assigns a player to
   judge it.
@@ -275,6 +275,11 @@ history:
   date: 2026-05-11
   agent:
     proposal: "9332"
+- change:
+    type: amendment
+  date: 2026-08-09
+  agent:
+    proposal: "9365"
 annotations:
 - cfjs:
   - id: 1692-1693
