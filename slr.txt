@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 26 Jul 2026
+Date of this ruleset: 9 Aug 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
-Number of rules currently enacted: 149
+Number of rules currently enacted: 148
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9361
+Highest ID'd Proposal Passed: 9370
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -49,25 +49,6 @@ Agora Is A Nomic
       gamestate would cause Agora to become ossified, or would cause
       Agora to cease to exist, it is cancelled and does not occur, rules
       to the contrary notwithstanding.
-
-------------------------------------------------------------------------
-========================================================================
-Important Temporary Rules
-   This category is a temporary dumping ground for rules that don't
-   easily fit in any other category but that hold special relevance for
-   the current gamestate.
-------------------------------------------------------------------------
-Rule 2718/0 (Power=2.0)
-Purchased Re-enactment
-
-      For the purpose of this rule, a proposal or former proposal is an
-      "adopted proposal" if any past referendum on that proposal or
-      former proposal had an outcome oF ADOPTED.
-      
-      A player CAN revive an adopted proposal by paying a fee of 25
-      Spendies. When a player does so, this rule performs the same rules
-      changes that that adopted proposal would perform if it took effect
-      right now.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -2316,7 +2297,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/38 (Power=2)
+Rule 991/39 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -2353,7 +2334,7 @@ Calls for Judgement
       case activity, including open and recently-judged cases, recent
       judicial assignments, and a list of players interested in judging.
       
-      If a CFJ does not have an ID number, the Arbitor CAN by
+      If a CFJ does not have a unique CFJ ID number, the Arbitor CAN by
       announcement or by clear specification assign an ID number to it,
       and SHALL do so in any message in which e assigns a player to
       judge it.
@@ -3151,14 +3132,15 @@ The Growth Cycle
       At the end of each Crop Season, the Fields Wither.
 
 ------------------------------------------------------------------------
-Rule 2710/6 (Power=1.0)
+Rule 2710/8 (Power=1.0)
 Genetic Modification
 
       Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
-      create a new type of Crop, specifying its name. The Land Managor
-      CAN once by announcement, and SHALL in a timely fashion, set its
-      Growth Season, Seed Cost, Growth Duration, Resilience,
-      Opportunity, and Sell Price to randomly selected valid values. The
+      create a new type of Crop, specifying its name and, optionally,
+      its Growth Season. The Land Managor CAN once by announcement, and
+      SHALL in a timely fashion, set its Seed Cost, Growth Duration,
+      Resilience, Opportunity, and Sell Price to randomly selected valid
+      values, as well as its Growth Season if none was specified. The
       Land Managor CAN by announcement rename a type of Crop, specifying
       its new name, but SHOULD NOT do so unless its current name is
       reasonably likely to cause confusion and delay.
@@ -3173,11 +3155,11 @@ Genetic Modification
       Pyrite if the type's Sell Price is less than its Seed Cost.
       
       Once per Crop Season, the Land Managor CAN and SHALL by
-      announcement randomly select a type of Crop that was in-season
-      during the previous season, select a random attribute (Seed Cost
-      or Sell Price), and set that attribute to a randomly selected
-      valid value. If there is no such type to select, then e SHALL
-      instead announce that fact.
+      announcement set a randomly select attribute (Seed Cost, Growth
+      Duration, Opportunity, Resilience, or Sell Price) of a randomly
+      selected type of Crop that was in-season during the previous
+      season to a randomly selected valid value. If there is no such
+      type to select, then e SHALL instead announce that fact.
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -3196,7 +3178,7 @@ Number Cards
       The Numerator is an office, and the recordkeepor of number cards.
 
 ------------------------------------------------------------------------
-Rule 2713/4 (Power=1.0)
+Rule 2713/5 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -3209,12 +3191,13 @@ Scoring Numbers
       ID number, unless its author had submitted 8 or more proposals
       earlier in the same week that it was submitted.
       
+      
       Whenever a player scores a number as described in this rule, the
-      Numerator CAN once, and SHALL in a timely fashion, grant that
-      player (and, if the number was scored due to the adoption of a
-      proposal, also a randomly chosen other player who voted FOR on a
-      referendum to adopt that proposal) a number card for each digit in
-      that number, whose type is that digit.
+      Numerator CAN once by announcement, and SHALL in a timely fashion,
+      grant that player (and, if the number was scored due to the
+      adoption of a proposal, also a randomly chosen other player who
+      voted FOR on a referendum to adopt that proposal) a number card
+      for each digit in that number, whose type is that digit.
       
       Whenever a player scores a date, e scores that date in zero-padded
       MMDD format (for instance, scoring the thirtieth of June would
@@ -3662,12 +3645,12 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/32 (Power=2)
+Rule 103/33 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
       Agora. The Speaker is ENCOURAGED to remind players and officers of
-      upcoming Agoran scheduled events and deadlines
+      upcoming Agoran scheduled events and deadlines.
       
       The player or players who have most recently won the game are
       called Laureled. If at any time the office of Speaker is vacant,
@@ -3965,7 +3948,7 @@ Hats
       of the game regardless of eir current hat.
 
 ------------------------------------------------------------------------
-Rule 2683/4 (Power=0.5)
+Rule 2683/5 (Power=0.5)
 The Boulder
 
       The Absurdor is a sortitioned office.
@@ -3986,6 +3969,10 @@ The Boulder
       is set to 0, and the Boulder's Slope is set to 1. The Absurdor
       SHOULD list the largest Height and Slope of the Boulder ever
       reached in eir report.
+      
+      Once per week, each player who has pushed the boulder exactly once
+      that week can pay a fee of X spendies, where X is equal to 10 plus
+      the Boulder's Slope, to push the boulder a second time.
 
 ------------------------------------------------------------------------
 Rule 2695/5 (Power=0.5)

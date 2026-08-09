@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 5 Jul 2026
+Date of this ruleset: 9 Aug 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
-Number of rules currently enacted: 149
+Number of rules currently enacted: 148
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9355
+Highest ID'd Proposal Passed: 9370
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -25,8 +25,6 @@ Table of Contents:
 The Game of Agora
    * Rule  101: The Game of Agora
    * Rule 1698: Agora Is A Nomic
-Important Temporary Rules
-   * Rule 2720: The Grand Duumvirate
 Players
    * Rule  869: How to Join and Leave Agora
    * Rule  478: Fora
@@ -203,7 +201,7 @@ Power Distribution:
 44 with Power=1
 4  with Power=1.5
 5  with Power=1.7
-28 with Power=2
+27 with Power=2
 1  with Power=2.2
 1  with Power=2.5
 52 with Power=3
@@ -309,42 +307,6 @@ Annotations:
 CFJ 3765 (called 31 Jul 2019): A reasonable combination of actions for
     allowing arbitrary rule changes could include repealing this rule
     first.
-
-------------------------------------------------------------------------
-========================================================================
-Important Temporary Rules
-   This category is a temporary dumping ground for rules that don't
-   easily fit in any other category but that hold special relevance for
-   the current gamestate.
-------------------------------------------------------------------------
-Rule 2720/2 (Power=2.0)
-The Grand Duumvirate
-
-      A person is a Dictator if and only if, on 20 April 2026, that
-      person was either the Referee or the Assessor.
-      
-      A Dictator CAN by announcement grant any asset to any person
-      (including emself), or revoke any asset from any person (including
-      emself).
-      
-      A Dictator CAN, with the consent of a specified person, grant a
-      specified patent title to that person.
-      
-      If no Dictator has yet done so, any Dictator can by announcement
-      Declare a Junta. Upon doing so, all Dictators win the game (the
-      victory method should be recorded as being via Junta, as is
-      typical of victories obtained by dictatorships).
-      
-      A Dictator CAN with notice and with the consent of all other
-      Dictators cause this rule to perform a specified Rule Change.
-
-History:
-
-Enacted by R2718, 25 Apr 2026
-Amended(1) by R2720, 25 Apr 2026
-Amended(2) by R2720, 04 May 2026
-
-Annotations:
 
 ------------------------------------------------------------------------
 ========================================================================
@@ -5354,7 +5316,7 @@ Calls for Judgement
    What if there is a rule conflict? What if we can't decide what a rule
    means? Well then, it's time to call a CFJ.
 ------------------------------------------------------------------------
-Rule 991/38 (Power=2)
+Rule 991/39 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement (CFJ,
@@ -5391,7 +5353,7 @@ Calls for Judgement
       case activity, including open and recently-judged cases, recent
       judicial assignments, and a list of players interested in judging.
       
-      If a CFJ does not have an ID number, the Arbitor CAN by
+      If a CFJ does not have a unique CFJ ID number, the Arbitor CAN by
       announcement or by clear specification assign an ID number to it,
       and SHALL do so in any message in which e assigns a player to
       judge it.
@@ -5459,6 +5421,7 @@ Amended(37) by P9319 'Some recommendations' (Murphy, Mischief, Trigon),
    20 Mar 2026
 Amended(38) by P9332 'Fix Proposal I Couldn't Think Of A Good Title For'
    (Kate), 11 May 2026
+Amended(39) by P9365 'Unique CFJ IDs v2' (Galle), 09 Aug 2026
 
 Annotations:
 CFJ 1692-1693 (called 20 Jun 2007): A CFJ can be unambiguously
@@ -6786,7 +6749,7 @@ Amended(13) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2711/2 (Power=1.5)
+Rule 2711/3 (Power=1.5)
 Outshining the Sun
 
       Upon a correct announcement from a player that eir radiance is 100
@@ -6800,7 +6763,13 @@ Outshining the Sun
       * The radiance of each other player is set to half its current
         value (rounded down).
       
-      * All Pyrite is destroyed.
+      * All Pyrite in eir possession is destroyed.
+      
+      * Half of all Pyrite in each other player's possession, rounded
+        up, is destroyed.
+      
+      * For each player with more than 4000 Pyrite, all but 4000 Pyrite
+        in their possession is destroyed.
       
       * The Fields Wither.
       
@@ -6817,6 +6786,8 @@ Retitled from 'Light Overexposure' to 'Outshining the Sun' by P9311 'Lux
 Power changed from 1.0 to 1.5 by P9311 'Lux Solis' (Mischief, Murphy),
    20 Mar 2026
 Amended(2) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
+Amended(3) by P9358 'The Pyrite Preservation Proposal v2' (Galle), 26
+   Jun 2026
 
 Annotations:
 
@@ -6983,14 +6954,15 @@ Amended(5) by P9343 'Secure Farming' (Galle), 25 May 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2710/6 (Power=1.0)
+Rule 2710/8 (Power=1.0)
 Genetic Modification
 
       Once per Crop Season, a player CAN pay a fee of 500 Pyrite to
-      create a new type of Crop, specifying its name. The Land Managor
-      CAN once by announcement, and SHALL in a timely fashion, set its
-      Growth Season, Seed Cost, Growth Duration, Resilience,
-      Opportunity, and Sell Price to randomly selected valid values. The
+      create a new type of Crop, specifying its name and, optionally,
+      its Growth Season. The Land Managor CAN once by announcement, and
+      SHALL in a timely fashion, set its Seed Cost, Growth Duration,
+      Resilience, Opportunity, and Sell Price to randomly selected valid
+      values, as well as its Growth Season if none was specified. The
       Land Managor CAN by announcement rename a type of Crop, specifying
       its new name, but SHOULD NOT do so unless its current name is
       reasonably likely to cause confusion and delay.
@@ -7005,11 +6977,11 @@ Genetic Modification
       Pyrite if the type's Sell Price is less than its Seed Cost.
       
       Once per Crop Season, the Land Managor CAN and SHALL by
-      announcement randomly select a type of Crop that was in-season
-      during the previous season, select a random attribute (Seed Cost
-      or Sell Price), and set that attribute to a randomly selected
-      valid value. If there is no such type to select, then e SHALL
-      instead announce that fact.
+      announcement set a randomly select attribute (Seed Cost, Growth
+      Duration, Opportunity, Resilience, or Sell Price) of a randomly
+      selected type of Crop that was in-season during the previous
+      season to a randomly selected valid value. If there is no such
+      type to select, then e SHALL instead announce that fact.
 
 History:
 
@@ -7023,6 +6995,8 @@ Amended(3) by P9284 'Protecting Farmer's Sovereignty' (juan), 09 Feb
 Amended(4) by P9326 'Money doesn't grow on trees' (Murphy), 13 Apr 2026
 Amended(5) by P9333 'Whither Weather?' (Galle), 11 May 2026
 Amended(6) by P9333 'Whither Weather?' (Galle), 11 May 2026
+Amended(7) by P9363 'Season Specification' (Galle), 09 Aug 2026
+Amended(8) by P9366 'Greater Genetic Mutation v2' (Galle), 09 Aug 2026
 
 Annotations:
 
@@ -7049,7 +7023,7 @@ Enacted by P9270 'The Number Cards Game' (ais523), 10 Dec 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2713/4 (Power=1.0)
+Rule 2713/5 (Power=1.0)
 Scoring Numbers
 
       Whenever an inquiry case with an ID number is assigned a
@@ -7062,12 +7036,13 @@ Scoring Numbers
       ID number, unless its author had submitted 8 or more proposals
       earlier in the same week that it was submitted.
       
+      
       Whenever a player scores a number as described in this rule, the
-      Numerator CAN once, and SHALL in a timely fashion, grant that
-      player (and, if the number was scored due to the adoption of a
-      proposal, also a randomly chosen other player who voted FOR on a
-      referendum to adopt that proposal) a number card for each digit in
-      that number, whose type is that digit.
+      Numerator CAN once by announcement, and SHALL in a timely fashion,
+      grant that player (and, if the number was scored due to the
+      adoption of a proposal, also a randomly chosen other player who
+      voted FOR on a referendum to adopt that proposal) a number card
+      for each digit in that number, whose type is that digit.
       
       Whenever a player scores a date, e scores that date in zero-padded
       MMDD format (for instance, scoring the thirtieth of June would
@@ -7092,6 +7067,7 @@ Amended(2) by P9290 'Welcome Cards' (Trigon), 18 Feb 2026
 Amended(3) by P9292 'Fashionable Manners Take II' (Mischief, Trigon), 01
    Mar 2026
 Amended(4) by P9342 'Secure Scoring' (Galle), 25 May 2026
+Amended(5) by P9369 'Oops' (snail, Mischief), 09 Aug 2026
 
 Annotations:
 
@@ -7364,7 +7340,7 @@ Amended(36) by P9239 'Gray timing' (Murphy), 09 Aug 2025
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2480/9 (Power=3.1)
+Rule 2480/10 (Power=3.1)
 Festivals
 
       Festivity is a secured singleton switch, whose possible values are
@@ -7386,7 +7362,11 @@ Festivals
       For any integer N greater than Agora's Festivity, an N-Festive
       player CAN flip Agora's Festivity to N with 4 support from other
       N-Festive players, unless Agora's Festivity has had a value
-      greater than or equal to N in the past 21 days.
+      greater than or equal to N in the past 21 days. For any integer N
+      greater than Agora's Festivity, any player CAN flip Agora's
+      Festivity to N with 5 support from N-Festive players, unless
+      Agora's Festivity has had a value greater than or equal to N in
+      the past 21 days.
 
 History:
 
@@ -7404,6 +7384,8 @@ Amended(7) by cleaning (4st), 22 Nov 2023
 Amended(8) by P9189 'Did you get a permit for that party?' (Janet,
    Kate), 20 Oct 2024
 Amended(9) by P9190 'If there exists a party' (Janet, Kate), 20 Oct 2024
+Amended(10) by P9359 'Anyone can make a festival!' (msh210, Cosmo), 26
+   Jun 2026
 
 Annotations:
 
@@ -7835,12 +7817,12 @@ Leaders
    Agora has a good few leaders, most of which are nothing more than
    sinecures. This section isn't all that important.
 ------------------------------------------------------------------------
-Rule 103/32 (Power=2)
+Rule 103/33 (Power=2)
 The Speaker
 
       The Speaker is an imposed office and the figurehead leader of
       Agora. The Speaker is ENCOURAGED to remind players and officers of
-      upcoming Agoran scheduled events and deadlines
+      upcoming Agoran scheduled events and deadlines.
       
       The player or players who have most recently won the game are
       called Laureled. If at any time the office of Speaker is vacant,
@@ -7916,6 +7898,7 @@ Amended(30) by P8976 'Ruleset convergance' (Janet), 25 May 2023
 Amended(31) by P9132 'Fashionable Manners' (Mischief, Janet), 06 Jul
    2024
 Amended(32) by P9352 'Cat Wrangling' (Mischief), 21 Jun 2026
+Amended(33) by cleaning (Mischief), 26 Jul 2026
 
 Annotations:
 
@@ -8401,7 +8384,7 @@ Amended(2) by P9315 'Sisyphean Headgear' (Mischief, Murphy), 20 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2683/4 (Power=0.5)
+Rule 2683/5 (Power=0.5)
 The Boulder
 
       The Absurdor is a sortitioned office.
@@ -8422,6 +8405,10 @@ The Boulder
       is set to 0, and the Boulder's Slope is set to 1. The Absurdor
       SHOULD list the largest Height and Slope of the Boulder ever
       reached in eir report.
+      
+      Once per week, each player who has pushed the boulder exactly once
+      that week can pay a fee of X spendies, where X is equal to 10 plus
+      the Boulder's Slope, to push the boulder a second time.
 
 History:
 
@@ -8431,6 +8418,7 @@ Amended(2) by P9109 'Sortition' (nix, Janet), 12 May 2024
 Amended(3) by P9213 'Twice the pride' (Murphy), 17 Feb 2025
 Amended(4) by P9344 'Number make other number go up' (Murphy), 25 May
    2026
+Amended(5) by P9364 'Sysphyean Effort' (Galle), 09 Aug 2026
 
 Annotations:
 CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
@@ -8439,7 +8427,7 @@ CFJ 4095 (called 23 Sep 2024): The Height switch is not associated with
     so.
 
 ------------------------------------------------------------------------
-Rule 2695/4 (Power=0.5)
+Rule 2695/5 (Power=0.5)
 The Veblen
 
       The Veblen is a unique indestructible fixed asset tracked by the
@@ -8453,8 +8441,9 @@ The Veblen
       
       A player CAN pay a fee of X spendies, where X is an integer not
       less than the current Veblen cost, to set the Veblen cost to X+1.
-      When e does so, if e does not own the Veblen, the Veblen is
-      transferred to em.
+      When e does so, if e does not own the Veblen, then (a) the Veblen
+      is transferred to em, and (b) the player who thereby loses the
+      Veblen, if any, is granted half of X Spendies, rounded down.
       
       If the Veblen has not been transferred or devalued within the past
       month, then a player CAN devalue the Veblen by announcement, thus
@@ -8478,6 +8467,7 @@ Amended(1) by P9150 '*sigh*' (Janet), 11 Aug 2024
 Amended(2) by P9172 'Veblen Defense' (Mischief), 15 Sep 2024
 Amended(3) by P9193 'Devaluation' (Murphy), 18 Nov 2024
 Amended(4) by P9263 'Truly Indestructible? v2' (4st), 08 Dec 2025
+Amended(5) by P9360 'Veblen Economics' (msh210), 26 Jun 2026
 
 Annotations:
 
