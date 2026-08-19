@@ -22,7 +22,7 @@ text: |
   Pyrite if the type's Sell Price is less than its Seed Cost.
 
   Once per Crop Season, the Land Managor CAN and SHALL by
-  announcement set a randomly select attribute (Seed Cost, Growth
+  announcement set a randomly selected attribute (Seed Cost, Growth
   Duration, Opportunity, Resilience, or Sell Price) of a randomly
   selected type of Crop that was in-season during the previous
   season to a randomly selected valid value. If there is no such
@@ -73,3 +73,9 @@ history:
   date: 2026-08-09
   agent:
     proposal: "9366"
+- change:
+    type: amendment
+  date: 2026-08-15
+  agent:
+    cleaning:
+      by: "Galle"
