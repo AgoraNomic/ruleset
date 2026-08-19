@@ -1,0 +1,16 @@
+id: 2723
+name: "Test Alpha"
+power: 1.0
+text: |
+  Hello, world!
+history:
+- change:
+    type: enactment
+  date: 2026-08-19
+  agent:
+    proposal: "9372"
+- change:
+    type: repeal
+  date: 2026-08-19
+  agent:
+    proposal: "9372"
