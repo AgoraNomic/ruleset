@@ -3,14 +3,14 @@ THE SHORT LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 19 Aug 2026
+Date of this ruleset: 30 Aug 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
 Number of rules currently enacted: 148
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9372
+Highest ID'd Proposal Passed: 9374
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -2996,27 +2996,29 @@ Radiance
       Spendies.
 
 ------------------------------------------------------------------------
-Rule 2711/3 (Power=1.5)
+Rule 2711/4 (Power=1.5)
 Outshining the Sun
 
       Upon a correct announcement from a player that eir radiance is 100
       or more (correctly specifying the amount), e Outshines the Sun.
       
-      When a player Outshines the Sun, e wins the game. When a player
-      wins the game this way, the following happen in order:
+      When a pure player Outshines the Sun, the following happen in
+      order:
       
-      * Eir radiance is set to 0.
+      * That player (the Luminary) wins the game.
       
-      * The radiance of each other player is set to half its current
-        value (rounded down).
+      * The Luminary's radiance is set to 0.
       
-      * All Pyrite in eir possession is destroyed.
+      * The radiance of each other player (each: a Dim One) is set to
+        half its current value (rounded down).
       
-      * Half of all Pyrite in each other player's possession, rounded
-        up, is destroyed.
+      * All Pyrite in the Luminary's possession is destroyed.
+      
+      * Half of all Pyrite in each Dim One's possession, rounded up, is
+        destroyed.
       
       * For each player with more than 4000 Pyrite, all but 4000 Pyrite
-        in their possession is destroyed.
+        in eir possession is destroyed.
       
       * The Fields Wither.
       
@@ -3276,7 +3278,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/36 (Power=3)
+Rule 2438/37 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -3355,9 +3357,9 @@ Ribbons
       previously owned a White Ribbon (including under previous
       rulesets). A player who has been registered for the past 30+ days
       or 180+ cumulative days and has never acted on eir own behalf to
-      cause another person to gain a White Ribbon (including under a
-      previous ruleset) CAN act on eir own behalf to cause another
-      person to earn a White Ribbon by announcement.
+      cause another person to earn or gain a White Ribbon (including
+      under a previous ruleset) CAN act on eir own behalf to cause
+      another person to earn a White Ribbon by announcement.
       
       Black (K): An instrument CAN, as part of its effect, cause a
       person to earn a Black Ribbon.

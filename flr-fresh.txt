@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 19 Aug 2026
+Date of this ruleset: 30 Aug 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
 Number of rules currently enacted: 148
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9372
+Highest ID'd Proposal Passed: 9374
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -6754,27 +6754,29 @@ Amended(13) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2711/3 (Power=1.5)
+Rule 2711/4 (Power=1.5)
 Outshining the Sun
 
       Upon a correct announcement from a player that eir radiance is 100
       or more (correctly specifying the amount), e Outshines the Sun.
       
-      When a player Outshines the Sun, e wins the game. When a player
-      wins the game this way, the following happen in order:
+      When a pure player Outshines the Sun, the following happen in
+      order:
       
-      * Eir radiance is set to 0.
+      * That player (the Luminary) wins the game.
       
-      * The radiance of each other player is set to half its current
-        value (rounded down).
+      * The Luminary's radiance is set to 0.
       
-      * All Pyrite in eir possession is destroyed.
+      * The radiance of each other player (each: a Dim One) is set to
+        half its current value (rounded down).
       
-      * Half of all Pyrite in each other player's possession, rounded
-        up, is destroyed.
+      * All Pyrite in the Luminary's possession is destroyed.
+      
+      * Half of all Pyrite in each Dim One's possession, rounded up, is
+        destroyed.
       
       * For each player with more than 4000 Pyrite, all but 4000 Pyrite
-        in their possession is destroyed.
+        in eir possession is destroyed.
       
       * The Fields Wither.
       
@@ -6793,6 +6795,7 @@ Power changed from 1.0 to 1.5 by P9311 'Lux Solis' (Mischief, Murphy),
 Amended(2) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
 Amended(3) by P9358 'The Pyrite Preservation Proposal v2' (Galle), 26
    Jun 2026
+Amended(4) by P9373 'Dim Prospects v1.1' (Mischief, snail), 30 Aug 2026
 
 Annotations:
 
@@ -7184,7 +7187,7 @@ Awards
    Even if it's not a win, there are still a good few opportunities to
    win bragging points, like Ribbons and Patent Titles.
 ------------------------------------------------------------------------
-Rule 2438/36 (Power=3)
+Rule 2438/37 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -7263,9 +7266,9 @@ Ribbons
       previously owned a White Ribbon (including under previous
       rulesets). A player who has been registered for the past 30+ days
       or 180+ cumulative days and has never acted on eir own behalf to
-      cause another person to gain a White Ribbon (including under a
-      previous ruleset) CAN act on eir own behalf to cause another
-      person to earn a White Ribbon by announcement.
+      cause another person to earn or gain a White Ribbon (including
+      under a previous ruleset) CAN act on eir own behalf to cause
+      another person to earn a White Ribbon by announcement.
       
       Black (K): An instrument CAN, as part of its effect, cause a
       person to earn a Black Ribbon.
@@ -7342,6 +7345,7 @@ Amended(34) by P9187 'Gray Ribbon clarification' (kiako, Janet, Kate),
 Amended(35) by P9223 'Yet Another Transparent Ribbon Solution' (Kate,
    Mischief, ais523, Janet), 16 Mar 2025
 Amended(36) by P9239 'Gray timing' (Murphy), 09 Aug 2025
+Amended(37) by P9374 'Tying Up White Ribbons' (Galle), 30 Aug 2026
 
 Annotations:
 
