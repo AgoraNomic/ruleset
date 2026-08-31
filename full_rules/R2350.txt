@@ -1,0 +1,65 @@
+Rule 2350/20 (Power=3)
+Proposals
+
+      A proposal is a type of entity consisting of a body of text and
+      other attributes. A player CAN create (syn. submit) a proposal by
+      announcement, specifying its text and optionally specifying any of
+      the following attributes:
+      
+      * An associated title.
+      
+      * A list of coauthors (which must be persons other than the
+        author).
+      
+      * An adoption index.
+      
+      Creating a proposal adds it to the Proposal Pool. Once a proposal
+      is created, its text, author, and AI cannot be changed. The author
+      (syn. proposer) of a proposal is the person who created it.
+      
+      The author of a proposal in the Proposal Pool CAN remove (syn.
+      retract, withdraw) it from the Pool by announcement.
+      
+      The destruction of a proposal is secured. The removal of a
+      proposal from the Proposal Pool, other than by distribution, is
+      secured.
+
+History:
+
+Enacted by P7083 'Re-jigged Re-jiggery' (Walker), 04 Jul 2011
+Amended(1) by P7086 'Jig-jiggery jig-jiggery' (G., omd), 23 Jul 2011
+Amended(2) by P7216 'Fix some definitions' (omd), 04 May 2012
+Amended(3) by P7225 'Fix my crappy wording' (omd), 10 Jun 2012
+Amended(4) by P7241 'Super Promotor Powers' (omd), 10 Jun 2012
+Amended(5) by P7245 'Proposal reassociation' (omd), 10 Jun 2012
+Amended(6) by P7250 'And two' (omd), 10 Jun 2012
+Amended(7) by P7653 'Chamber Cleanup' (Alexis), 03 Jun 2014
+Amended(8) by P7728 'Even More Restricted Distribution' (Tiger), 24 Nov
+   2014
+Amended(9) by P7736 'Draining the pool' (aranea), 02 May 2015
+Amended(10) by P8104 'Pending is Pointless' (G., Aris), 27 Oct 2018
+Amended(11) by cleaning (Trigon), 04 Nov 2018
+Amended(12) by P8291 'Interesting Chambers v3.1' (Bernie, Trigon, Aris,
+   Gaelan, G., Janet, Kate), 29 Jan 2020
+Amended(13) by P8408 'Sets v1.4' (nix, Trigon, Falsifian, Publius
+   Scribonius Scholasticus, Janet, Aris, G., ais523), 12 Jun 2020
+Amended(14) by P8415 'Proposal Recycling Initiative' (Aris), 14 Jun 2020
+Amended(15) by cleaning (Janet), 29 Jun 2020
+Amended(16) by P8540 'Strengthening Extra Votes v2.1' (nix, Aris,
+   Janet), 11 Feb 2021
+Amended(17) by P8815 'Proposal terminology fix' (ais523), 06 Aug 2022
+Amended(18) by P8815 'Proposal terminology fix' (ais523), 06 Aug 2022
+Amended(19) by P9003 'Process Protection' (Janet, G.), 23 Jul 2023
+Amended(20) by P9271 'Strict typing' (Janet), 10 Dec 2025
+
+Annotations:
+CFJ 1647 (called 30 Apr 2007): Preceding a proposal-like text with the
+    heading "Proposal:" and a title can be sufficient to clearly
+    indicate that it is intended to become a proposal, but is not if it
+    can be interpreted as quoting an existing proposal.
+CFJ 1717 (called 08 Aug 2007): Preceding a proposal-like text with the
+    question "What is the title of this proposal?" can be sufficient to
+    clearly indicate that it is intended to become a proposal.
+CFJ 3744-3745 (called 23 Jun 2019): When creating a proposal by
+    announcement, specifying an impossible value for an optional
+    attribute makes the creation fail.

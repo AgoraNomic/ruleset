@@ -1,0 +1,15 @@
+Rule 2518/2 (Power=3)
+Determinacy
+
+      If a value cannot be reasonably determined (without circularity or
+      paradox) from information reasonably available, or if it
+      alternates indefinitely between values, then the value is
+      considered to be indeterminate, otherwise it is determinate.
+      
+      A communication purporting to express conditional intent to
+      perform an action is considered unclear and ambiguous unless, at a
+      minimum, the conditional is determinate, true, and reasonably
+      straightforward to evaluate with publicly-available information at
+      the time of communication. The communicator SHOULD explain
+      specific reasons for being uncertain of the outcome when e makes
+      the communication.

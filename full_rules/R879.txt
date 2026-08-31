@@ -1,0 +1,85 @@
+Rule 879/40 (Power=3)
+Quorum
+
+      Each Agoran decision has a quorum. This is a number set when the
+      decision is created, and thereafter cannot be changed. When a
+      person initiates an Agoran decision, that person SHALL state the
+      quorum of that decision. However, incorrectly stating the quorum
+      of a decision does not invalidate the initiation, nor does it
+      actually change the quorum of the decision.
+      
+      The quorum that an Agoran decision gains as it is created can be
+      defined by other rules of power 2 or greater. If no other rule
+      defines the quorum of an Agoran decision, the quorum for that
+      decision is equal to 2/3 of the number of voters on the referendum
+      that had been most recently resolved at the time of that
+      decision's initiation, the whole rounded to the nearest integer.
+      
+      As an exception to the previous paragraph, the minimum quorum of
+      an Agoran decision is 2, or 1 if there are fewer than 2 players in
+      the game. If the rules would attempt to set the quorum of an
+      Agoran decision to less than the minimum quorum, it is set to the
+      minimum instead.
+
+History:
+
+Initial mutable rule 201, Agora's birth
+Amended by P879 'Quorum' (Garth), 13 Apr 1994
+Amended(1) by R750, 13 Apr 1994
+Amended(2) by P1471, 08 Mar 1995
+Amended(3) by P1554, 17 Apr 1995
+Amended(4) by P1708, 04 Sep 1995
+Infected and amended(5) by R1454, 27 Jul 1996
+Amended(6) by P2786 (Steve), 15 Jan 1997
+Amended(7) by P3643 'Lowered Quorum' (General Chaos), 29 Dec 1997
+Amended(8) by P3777 'A collection of small fixes.' (Blob), 03 Aug 1998
+Amended(9) by PA Separation of Powers (Steve), 20 Apr 1999
+Amended(10) by P3897 'A Separation of Money but not of Powers' (harvel),
+   27 Aug 1999
+Amended(11) by P3956 'Issues' (harvel), 28 Dec 1999
+Amended(12) by P3972 'Voters and Legislators' (Peekee), 14 Feb 2000
+Power changed from 1 to 2 by P3980 'The Oligarchy' (Steve), 01 Mar 2000
+Amended(13) by P3980 'The Oligarchy' (Steve), 01 Mar 2000
+Amended(14) by P4018 'Property and Democracy' (Kelly), 21 Jun 2000
+Amended(15) by P4239 'Listen Up!' (Murphy), 29 Jan 2002
+Amended(16) by P4276 'The Speaker's Veto' (Steve), 28 Mar 2002
+Amended(17) by P4278 'Cold Storage' (harvel), 03 Apr 2002
+Amended(18) by P4282 'Massive Political Reform' (G.), 16 Apr 2002
+Amended(19) by P4311 'Fix Speaker's Veto' (root), 28 May 2002
+Amended(20) by P4410 'Quorum on Parliamentary Proposals' (Steve), 06 Nov
+   2002
+Amended(21) by P4576 'Oligarch in a Three-Piece Suit' (root), 31 May
+   2004
+Amended(22) by P4665 'Deckmastor Perks' (Kolja), 09 Apr 2005
+Amended(23) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
+Amended(24) by P4964 'Disambiguate voter eligibility' (Murphy), 03 Jun
+   2007
+Amended(25) by P4997 'quorum fix (fixed)' (Zefram, Goddess Eris), 06 Jun
+   2007
+Amended(26) by P5000 'Disambiguate voter eligibility' (Murphy), 12 Jun
+   2007
+Amended(27) by P5113 'Really Generalize Dependent Actions' (Murphy,
+   Maud), 02 Aug 2007
+Amended(28) by P5445 'Satisfaction v3' (G., Murphy), 21 Feb 2008
+Amended(29) by P7317 'Make quorum manipulation harder for Plutocratic
+   proposals' (omd), 16 Oct 2012
+Amended(30) by P7552 'Freshdated' (omd), 24 Aug 2013
+Amended(31) by P7612 'Dynamic Quorum' (ais523), 11 Jan 2014
+Amended(32) by P7632 'All Activity is Good Activity' (Alexis), 01 May
+   2014
+Amended(33) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
+Amended(34) by P7853 'Close Ancient Loopholes' (ais523), 05 Jun 2017
+Amended(35) by P8095 'Quorum Reduction v2' (Aris, Murphy, D. Margaux),
+   28 Sep 2018
+Amended(36) by cleaning (Alexis), 23 Jan 2020
+Amended(37) by P8321 'Untying Quorum' (Aris), 13 Feb 2020
+Amended(38) by P8338 'Clarify quorum (option 1)' (Murphy), 24 Feb 2020
+Amended(39) by P8418 'Referenda' (Aris), 14 Jun 2020
+Amended(40) by P8639 'sole quorum' (G.), 23 Feb 2022
+Power changed from 2 to 3 by SLR 2023-06-19 ratification, 31 Dec 2023
+
+Annotations:
+CFJ 1562 (called 03 May 2005): A cancelled vote on a Proposal does not
+    count towards quorum.
+CFJ 1673-1675 (called 20 May 2007): Quorum for an Agoran decision
+    changes as the set of eligible voters changes.

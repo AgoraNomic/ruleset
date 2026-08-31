@@ -1,0 +1,108 @@
+Rule 1728/46 (Power=3)
+Tabled Actions
+
+      An action is a Tabled Action if the Rules purport to authorize its
+      performance via one of the following methods:
+      * With N Support, where N is a positive integer.
+      * Without N Objections, where N is a positive integer.
+      * With N Agoran Consent, where N is a positive integer multiple of
+        0.1.
+      * With T notice, where T is a time period.
+      
+      The parameters N and T, if omitted, default to 1 and 4 days,
+      respectively (e.g. "without objection" means N=1). If a rule
+      defines N as less than 1, it is instead treated as 1.
+      
+      A person, acting as emself, CAN by announcement table an intent
+      (syn.  "intend") to perform a tabled action, clearly,
+      conspicuously, explicitly, and without obfuscation specifying the
+      action, the method (including non-default parameter values), and,
+      optionally, conditions.
+      
+      A person is the sponsor of such an intent if e tabled it, or if e
+      is authorized to perform its action due to holding a rule-defined
+      position previously held by the person who tabled it.
+
+History:
+
+Enacted by P3521 (Chuck), 23 Jun 1997
+Infected and amended(1) by R1454, 02 Nov 1997
+Amended(2) by R1728, 16 Nov 1997
+Amended(3) by P3812 'Actions Without N Objections' (Steve), 21 Dec 1998
+Amended(4) by P3836 'Broaden Actions Without Objection' (General Chaos),
+   02 Mar 1999
+Amended(5) by P3950 'Deference Deprecation' (harvel), 08 Dec 1999
+Amended(6) by P3973 'Dependent Actions' (harvel), 14 Feb 2000
+Amended(7) by P3991 'Streamline Actions With Support' (Steve), 30 Mar
+   2000
+Amended(8) by P4011 'New Terminology' (Wes), 01 Jun 2000
+Power changed from 1 to 2 by P4121 'Patch Up Dependent Actions' (Ziggy),
+   16 Mar 2001
+Amended(9) by P4121 'Patch Up Dependent Actions' (Ziggy), 16 Mar 2001
+Amended(10) by P4279 'Fix Dependent Actions' (harvel), 03 Apr 2002
+Amended(11) by P4461 'Fix Dependent Actions' (Maud), 17 Mar 2003
+Amended(12) by P4915 '"Deem" deemed harmful, take two' (Murphy), 02 Apr
+   2007
+Amended(13) by P4981 'no free dependent actions' (Zefram), 31 May 2007
+Amended(14) by P4999 'fix dependent actions' (Zefram), 12 Jun 2007
+Amended(15) by P5007 'generalize naturalhood' (Zefram), 18 Jun 2007
+Amended(16) by P5113 'Really Generalize Dependent Actions' (Murphy,
+   Maud), 02 Aug 2007
+Amended(17) by P5370 'first-class dependent actions' (Zefram), 20 Dec
+   2007
+Amended(18) by P5445 'Satisfaction v3' (G., Murphy), 21 Feb 2008
+Amended(19) by P5543 'Faster support' (Murphy, Pavitra, root), 16 Jun
+   2008
+Amended(20) by P5775 'Clean up dependent actions' (Murphy), 17 Oct 2008
+Amended(21) by P5818 'Require Clear Announcements' (omd), 01 Nov 2008
+Power changed from 2 to 3 by P5947 'Balance of Power' (ais523), 15 Nov
+   2008
+Amended(22) by P5995 'Fix multi-method dependent actions' (Murphy), 07
+   Dec 2008
+Amended(23) by P6041 'Allow contract-defined dependent actions' (Murphy,
+   the Warrigal), 13 Jan 2009
+Amended(24) by P6204 'Depending Actions' (Murphy), 27 Apr 2009
+Amended(25) by P6437 'Objection cap' (Murphy), 18 Aug 2009
+Amended(26) by P6448 'Hand Limit Remodel v3' (BobTHJ), 27 Aug 2009
+Amended(27) by P6474 'Refactor dependent actions' (omd), 15 Sep 2009
+Amended(28) by P6512 'Fix dependent actions' [disi.] (omd), 03 Oct 2009
+Amended(29) by P6619 'Encourage dependent disclosure' [green, disi.]
+   (Murphy), 04 Feb 2010
+Amended(30) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
+Amended(31) by P6981 'Littler Dutch Boy' (Murphy, omd), 10 Apr 2011
+Amended(32) by P7045 'Speed' (Walker), 16 May 2011
+Amended(33) by P7606 'Cruise Control' (G.), 13 Dec 2013
+Amended(34) by P7815 'Agencies' (Alexis, aranea), 28 Oct 2016
+Amended(35) by P7840 'Not an Apple campsite' (G.), 01 Mar 2017
+Amended(36) by R2430, 24 May 2017
+Amended(37) by P7871 'Minor fixes (sans typos)' (R. Lee), 07 Sep 2017
+Amended(38) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
+Amended(39) by P8107 'Buried Intent Prevention Act v2' (D. Margaux,
+   Aris, G.), 27 Oct 2018
+Amended(40) by P8123 'Independence' (Gaelan), 19 Nov 2018
+Retitled by P8165 'Dependent Action Cleanup Act' (D. Margaux, Gaelan),
+   27 Apr 2019
+Amended(41) by P8165 'Dependent Action Cleanup Act' (D. Margaux,
+   Gaelan), 27 Apr 2019
+Amended(42) by P8236 'Definition de-capitalization' (Janet, Aris), 18
+   Sep 2019
+Retitled by P8629 'Independence Day' (G., Gaelan, Telna, nix, Madrid,
+   cuddlybanana, Janet), 18 Oct 2021
+Amended(43) by P8629 'Independence Day' (G., Gaelan, Telna, nix, Madrid,
+   cuddlybanana, Janet), 18 Oct 2021
+Amended(44) by P8710 'Tabled action clarification' (Janet, snail), 17
+   Jul 2022
+Amended(45) by P8718 'Well, we kind of mean it' (Janet, ais523), 24 Jul
+   2022
+Amended(46) by P8861 'Finally Removing Arbitrary Limits' (nix), 06 Nov
+   2022
+
+Annotations:
+CFJ 3747 (called 25 Jun 2019): An intent is "conspicuous" if "a
+    reasonable player would be able to tell after glancing at a message
+    that it contains the dependent action".
+CFJ 3747 (called 25 Jun 2019): An intent is "without obfuscation" if (1)
+    "a reasonable Agoran reading the message must, at a glance, be able
+    to understand the gist of the dependent action being announced" and
+    (2) the details of the action to be performed are "easy to
+    understand".
