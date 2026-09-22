@@ -3,14 +3,14 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 22 Sep 2026
+Date of this ruleset: 4 Oct 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
 Number of rules currently enacted: 148
 
 Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9374
+Highest ID'd Proposal Passed: 9380
 Highest ID'd Rule Enacted: 2722
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
@@ -3768,7 +3768,7 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/51 (Power=2)
+Rule 1006/52 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -3776,8 +3776,10 @@ Offices
       possible values of any player or "vacant" (default). Each instance
       of the Officeholder switch is secured at the power of the Rule
       defining the associated office (or the power of this Rule, if the
-      defining Rule's power is higher). An officer is the holder of an
-      office, who may be referred to by the name of that office. 
+      defining Rule's power is higher). To install a player into an
+      office is to flip that office's Officeholder switch to that
+      player. An officer is the holder of an office, who may be referred
+      to by the name of that office.
       
       Imposed offices and sortitioned offices are offices described as
       such by the rules that define them. All other offices are elected.
@@ -3879,6 +3881,7 @@ Amended(49) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
 Amended(50) by P9303 'Voluntary Turnover' (Mischief), 11 Mar 2026
 Amended(51) by P9317 'Office cleanup' (Murphy, Mischief), 20 Mar 2026
+Amended(52) by P9380 'intsallation instructions' (Cosmo), 01 Oct 2026
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
