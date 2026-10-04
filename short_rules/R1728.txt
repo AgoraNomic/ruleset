@@ -1,0 +1,24 @@
+Rule 1728/46 (Power=3)
+Tabled Actions
+
+      An action is a Tabled Action if the Rules purport to authorize its
+      performance via one of the following methods:
+      * With N Support, where N is a positive integer.
+      * Without N Objections, where N is a positive integer.
+      * With N Agoran Consent, where N is a positive integer multiple of
+        0.1.
+      * With T notice, where T is a time period.
+      
+      The parameters N and T, if omitted, default to 1 and 4 days,
+      respectively (e.g. "without objection" means N=1). If a rule
+      defines N as less than 1, it is instead treated as 1.
+      
+      A person, acting as emself, CAN by announcement table an intent
+      (syn.  "intend") to perform a tabled action, clearly,
+      conspicuously, explicitly, and without obfuscation specifying the
+      action, the method (including non-default parameter values), and,
+      optionally, conditions.
+      
+      A person is the sponsor of such an intent if e tabled it, or if e
+      is authorized to perform its action due to holding a rule-defined
+      position previously held by the person who tabled it.

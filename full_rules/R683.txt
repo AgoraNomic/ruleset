@@ -1,0 +1,80 @@
+Rule 683/27 (Power=3)
+Voting on Agoran Decisions
+
+      An entity submits a ballot on an Agoran decision by publishing a
+      notice satisfying the following conditions:
+      
+      1. The ballot is submitted during the voting period for the
+         decision.
+      
+      2. The entity casting the ballot (the voter) was, at the
+         initiation of the decision, a player.
+      
+      3. The ballot clearly identifies the matter to be decided.
+      
+      4. The ballot clearly identifies a valid vote, as determined by
+         the voting method.
+      
+      5. The ballot clearly sets forth the voter's intent to place
+         the identified vote.
+      
+      6. The voter has no other valid ballots on the same decision.
+      
+      A valid ballot is a ballot, correctly submitted, that has not been
+      withdrawn. During the voting period of an Agoran decision, an
+      entity CAN by announcement withdraw (syn. retract) a ballot that e
+      submitted on that decision. To "change" one's vote is to retract
+      eir previous ballot (if any), then submit a new one. Submitting
+      and withdrawing ballots is secured.
+
+History:
+
+Initial mutable rule 207, Agora's birth
+Amended by P683 (Jeffrey S.), 10 Nov 1993
+Amended(1) by P1473, 08 Mar 1995
+Amended(2) by P1531, 24 Mar 1995
+Amended(3) by P1554, 17 Apr 1995
+Amended(4) by P1641, 01 Aug 1995
+Amended(5) by P2590, 01 May 1996
+Amended(6) by P3718 'Indelible Proposal Fixing' (Steve), 03 Apr 1998
+Amended(7) by P3937 'Legislative Status Fix' (Wes), 31 Oct 1999
+Amended(8) by P3968 'Cleanup with Quantifier Changes' (harvel), 04 Feb
+   2000
+Amended(9) by P3972 'Voters and Legislators' (Peekee), 14 Feb 2000
+Amended(10) by P4190 'Executors Revamped' (Steve), 18 Jul 2001
+Amended(11) by P4699 'Change of Heart' (Sherlock), 18 Apr 2005
+Power changed from 1 to 3 by P4811 'The Cobalt Repeals' (Maud, G.), 20
+   Jun 2005
+Amended(12) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
+Amended(13) by P4964 'Disambiguate voter eligibility' (Murphy), 03 Jun
+   2007
+Amended(14) by P5078 'refactor voting limits' (Zefram), 18 Jul 2007
+Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
+   woggle, ais523), 23 Jan 2009
+Amended(15) by P6378 'Changing votes' (Murphy), 03 Jul 2009
+Amended(16) by P7032 'Flexibility (fixed)' (omd), 16 May 2011
+Amended(17) by P7077 'Fix "fixed" flexibility' (omd), 16 Jun 2011
+Amended(18) by P7629 'Do Things' (Alexis), 07 Apr 2014
+Amended(19) by P7632 'All Activity is Good Activity' (Alexis), 01 May
+   2014
+Amended(20) by P7647 'formatting/misc fixes' (omd), 03 Jun 2014
+Amended(21) by P7778 'Instant Runoff Improved' (Alexis), 14 Aug 2015
+Amended(22) by P7814 'FOR Require Intent on Ballots' (o), 28 Oct 2016
+Amended(23) by decree given by Alexis, 10 Nov 2016
+Amended(24) by R2430, 24 May 2017
+Amended(25) by P7854 'Close Recent Loopholes v2' (ais523), 05 Jun 2017
+Amended(26) by P8163 'Holey Loops, Batman!' (Kate), 22 Feb 2019
+Amended(27) by P8533 'de-dictatorship' (G., Janet, nix), 03 Feb 2021
+
+Annotations:
+CFJ 1609 (called 13 Jan 2007): To "clearly identif{y} the matter to be
+    decided" does not necessarily require specifying it in detail.
+CFJ 1852-1853 (called 23 Dec 2007): Claiming to submit more votes than
+    ones voting limit on the decision does not constitute the making of
+    a false statement.
+CFJ 3647 (called 24 Jun 2018): To attempt to "vote in the same way as
+    another player" is ambiguous, because it may refer to the other
+    player's vote at the time of the message (an unconditional vote) or
+    at the time of resolution (a conditional vote).
+CFJ 3860 (called 02 Jul 2020): An intentionally hidden ballot is not
+    clearly cast and is therefore invalid.

@@ -1,0 +1,73 @@
+Rule 2166/32 (Power=3)
+Assets
+
+      An asset is an entity defined as such by a document that has been
+      granted Mint Authority by the Rules (hereafter the asset's backing
+      document), and existing solely because its backing document
+      defines its existence. An asset's backing document can generally
+      specify when and how that asset is created, destroyed, and
+      transferred.
+      
+      The rules collectively have Mint Authority. Contracts have Mint
+      Authority. An asset defined by rule or regulation is public; any
+      other asset is private.
+
+History:
+
+Enacted by P5173 'Assets' (Murphy), 29 Aug 2007
+Amended(1) by P5216 'More asset repair' (Murphy), 13 Sep 2007
+Amended(2) by P5388 'only private assets can hyperinflate' (Murphy), 01
+   Jan 2008
+Amended(3) by P5475 'Asset unsmashing' (Murphy), 24 Mar 2008
+Amended(4) by P5476 'Spelling/grammar check' [disi.] (Murphy), 27 Mar
+   2008
+Amended(5) by P5496 'Remove the one-two punch' (Murphy), 23 Apr 2008
+Amended(6) by P5833 'No involuntary recordkeepors' (Murphy, Taral), 12
+   Nov 2008
+Amended(7) by P5840 'No accounting of private assets' (root), 12 Nov
+   2008
+Amended(8) by P5974 'I can has grammar' [disi.] (Murphy), 25 Nov 2008
+Amended(9) by P6023 'Cleanup of Power=2 definitions' (Murphy), 22 Dec
+   2008
+Assigned to the Committee on Finance by P6053 'Committees' (Murphy,
+   woggle, ais523), 23 Jan 2009
+Amended(10) by P6161 'Spending cap' (Murphy), 31 Mar 2009
+Amended(11) by P6253 'In the future, I want my stuff back: a more
+   general solution v1.2' (Quazie), 09 May 2009
+Amended(12) by cleaning (Murphy), 16 Aug 2009
+Amended(13) by P6430 'Asset Cleanup' (Alexis), 18 Aug 2009
+Amended(14) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
+Amended(15) by P6650 'Contract Cleanup' [purple] (Alexis), 10 Mar 2010
+Amended(16) by P6792 'Contests' [purple] (omd), 27 Aug 2010
+Amended(17) by P6916 'oops' [disi.] (omd), 02 Jan 2011
+Amended(18) by P7298 (FKA441344), 09 Sep 2012
+Amended(19) by P7420 'We don't need to be that idiosyncratic un-derp
+   version' (omd), 27 May 2013
+Amended(20) by P7586 'Self-ratification, victory, office changes' (omd),
+   24 Aug 2013
+Amended(21) by P7617 'A Complex Game 2' (G.), 16 Jan 2014
+Repealed by P7629 'Do Things' (Alexis), 07 Apr 2014
+Re-enacted(22) and amended by P7864 (Aris, G., o, nix, P.S.S.), 27 Jun
+   2017
+Power changed from 2.0 to 3.0 by P7864 (Aris, G., o, nix, P.S.S.), 27
+   Jun 2017
+Amended(23) by P7868 'Minor economic fixes' (Murphy), 30 Jul 2017
+Amended(24) by P7924 'Contracts v8' (Aris, o, G., ais523, Gaelan,
+   D.F.F., Madrid, R. Lee, Trigon, Alexis, P.S.S.), 22 Oct 2017
+Amended(25) by P8003 'Asset fix' (Corona), 31 Jan 2018
+Amended(26) by P8030 'PAoaM Patch v4' (Aris, Gaelan, Trigon, G.), 30 Mar
+   2018
+Amended(27) by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(28) by P8129 'Bugfix: Treasuror doesn't self-ratify v2' (Kate,
+   Trigon, G.), 19 Nov 2018
+Amended(29) by P8364 'Mint Regulations' (Aris), 04 Apr 2020
+Amended(30) by P8405 'Generic private assets' (Janet), 12 Jun 2020
+Amended(31) by P8607 'Asset Self-Ratification Fix' (Telna, ais523,
+   Alexis), 18 Oct 2021
+Amended(32) by P9171 'Rationalizing Recordkeepors v1.2' (Kate, Murphy,
+   Janet, 4st), 15 Sep 2024
+
+Annotations:
+CFJ 3597 (called 09 Nov 2017): When the rules require a payment of a
+    number of assets, a number of small payments summing to the total do
+    not fulfill the requirement.

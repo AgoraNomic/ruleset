@@ -1,0 +1,78 @@
+Rule 1030/13 (Power=3.3)
+Precedence between Rules
+
+      In a conflict between Rules, the conflict shall be resolved by
+      performing the following comparisons in the sequence written in
+      this rule, until the conflict is resolved.
+      
+      - In a conflict between Rules with different Power, the Rule with
+        the higher Power takes precedence over the Rule with the lower
+        Power; otherwise,
+      
+      - If all of the Rules in conflict explicitly say that their
+        precedence relations are determined by some other Rule for
+        determining precedence relations, then the determinations of the
+        precedence-determining Rule shall be used to resolve the
+        conflicts; otherwise,
+      
+      - If at least one of the Rules in conflict explicitly says of
+        itself that it defers to another Rule (or type of Rule) or takes
+        precedence over another Rule (or type of Rule), then such
+        provisions shall be used to resolve the conflict, unless they
+        lead to contradictions between each other; otherwise,
+      
+      - If any of the rules in conflict have ID numbers, then the Rule
+        with the lowest ID number takes precedence; otherwise,
+      
+      - The Rule enacted earliest takes precedence.
+      
+      Clauses in any other rule that broadly claim precedence (e.g. over
+      "all rules" of a certain class) shall be, prima facie, considered
+      to be limited claims of precedence or deference that are
+      applicable only when such claims are evaluated as described within
+      the above sequence.
+      
+      No change to the ruleset can occur that would cause a Rule to
+      directly claim precedence over this Rule as a means of determining
+      precedence. This applies to changes by the enactment or amendment
+      of a Rule, or of any other form. This Rule takes precedence over
+      any Rule that would permit such a change to the ruleset.
+
+History:
+
+Initial mutable rule 212, Agora's birth
+Amended by P1030, 15 Sep 1994
+Amended(1) by R750, 15 Sep 1994
+Amended(2) by P1527, 24 Mar 1995
+Amended(3) by P1603, 19 Jun 1995
+Amended(4) by P2520, 10 Mar 1996
+Mutated from MI=1 to MI=3 by P2763 (Steve), 30 Nov 1996
+Amended(5) by P3445 (General Chaos), 26 Mar 1997
+Amended(6) by P4887 'Periodic Spell Check' (Murphy), 22 Jan 2007
+Amended(7) by P5110 'Regulate ID numbers' (Murphy), 02 Aug 2007
+Amended(8) by P6285 'Precedence fix' (G.), 19 May 2009
+Amended(9) by P6292 'combined precedence' (G.), 19 May 2009
+Retitled by P6292 'combined precedence' (G.), 19 May 2009
+Power changed from 3.0 to 3.2 by P6292 'combined precedence' (G.), 19
+   May 2009
+Amended(10) by cleaning (Murphy), 16 Aug 2009
+Amended(11) by P7235 'semicolon' (omd), 10 Jun 2012
+Amended(12) by P7334 'Precedence of unnumbered rules' (woggle), 27 Mar
+   2013
+Amended(13) by P8251 'Ruleset definition' (G.), 13 Oct 2019
+Power changed from 3.2 to 3.3 by P8534 'Power Up' (Aris), 03 Feb 2021
+
+Annotations:
+CFJ 1104 (called 20 Aug 1998): The presence in a Rule of deference
+    clause, claiming that the Rule defers to another Rule, does not
+    prevent a conflict with the other Rule arising, but shows only how
+    the Rule says that conflict is to be resolved when it does arise.
+CFJ 1114-1115 (called 27 Jan 1999): This Rule is to be applied to
+    resolve Rule conflicts on a case-by-case basis; just because a Rule
+    is inapplicable in one situation due to conflict with a Rule of
+    higher precedence does not mean that the Rule is nullified in all
+    cases.
+CFJ 3796 (called 20 Jan 2020): If a situation can be arranged where a
+    rule claims precedence over the rule defining precedence relations
+    (currently R1030), the rules are inconsistent and the rule governing
+    rule interpretation (currently R217) resolves the conflict.

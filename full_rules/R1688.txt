@@ -1,0 +1,49 @@
+Rule 1688/12 (Power=3)
+Power
+
+      The Power of an entity is a non-negative rational number. An
+      instrument is an entity with positive Power.
+      
+      The Power of an entity cannot be set or modified except as
+      stipulated by the Rules. All entities have Power zero except where
+      specifically allowed by the rules.
+      
+      A Rule that makes a change, action, or value secured (hereafter
+      the securing Rule) thereby makes it IMPOSSIBLE to perform that
+      change or action, or to set or modify that value, except as
+      allowed by an instrument with Power greater than or equal to the
+      change's Power Threshold. This Threshold defaults to the securing
+      Rule's Power, but CAN be lowered as allowed by that Rule
+      (including by the Rule itself).
+      
+      A Rule that designates the creation of an entity of a given type
+      as secured (to a given extent) thereby designates the causing of
+      an entity to have that type as secured (to the same extent).
+      Similarly, a Rule that designates the destruction of an entity of
+      a given type as secured (to a given extent) thereby designates the
+      causing of an entity to cease to have that type as secured (to the
+      same extent).
+
+History:
+
+Enacted by P3445 (General Chaos), 26 Mar 1997
+Amended(1) by P3994 'Simplify Power' (harvel), 20 Apr 2000
+Amended(2) by P4811 'The Cobalt Repeals' (Maud, G.), 20 Jun 2005
+Amended(3) by P4940 'instrument mechanics' (Zefram), 29 Apr 2007
+Amended(4) by P5276 'Generalize security' (Murphy, Pavitra, Zefram), 07
+   Nov 2007
+Assigned to the Committee on Rules by P6053 'Committees' (Murphy,
+   woggle, ais523), 23 Jan 2009
+Amended(5) by P6513 'Power Cleanup' [disi.] (Alexis), 03 Oct 2009
+Amended(6) by P6815 'Initial security' [green] (Murphy, ais523), 04 Sep
+   2010
+Amended(7) by P7759 'minor Powers v0.2' (G.), 19 Jul 2015
+Amended(8) by P7781 'Secure, secures, securing, secured' (the Warrigal),
+   14 Aug 2015
+Amended(9) by P8017 'RTRW Cleanups' (Alexis), 06 Mar 2018
+Amended(10) by P8354 'Statutory Instrumentation' (Alexis, Murphy, Aris,
+   Gaelan), 21 Mar 2020
+Amended(11) by P8539 'The Great Rollback' (Aris, G.), 11 Feb 2021
+Amended(12) by P9271 'Strict typing' (Janet), 10 Dec 2025
+
+Annotations:

@@ -1,0 +1,18 @@
+Rule 2681/1 (Power=1)
+Acting on Commitment
+
+      A Fingerprint for a document (the Plaintext) is a document that
+      could not have been reasonably created without knowledge of the
+      Plaintext, and which is related to the Plaintext in such a way
+      that one could not reasonably produce another document related to
+      that Fingerprint in the same way.
+      
+      A person CAN make a commitment to a particular kind of document by
+      publishing a statement that purports to be a Fingerprint for a
+      document of that kind. If the statement is in fact such a
+      Fingerprint, the person CAN then reveal the commitment by
+      publishing the Plaintext corresponding to that Fingerprint and
+      clearly indicating which Fingerprint the Plaintext relates to.
+      
+      A person making a commitment SHOULD specify the method used to
+      produce the Fingerprint from the Plaintext.

@@ -1,0 +1,17 @@
+Rule 2656/13 (Power=1.5)
+Radiance
+
+      The Illuminator is an office, responsible for tracking radiance.
+      
+      A player's Radiance is an integer player switch defaulting to 0,
+      tracked by the Illuminator. When a player is "granted" or "gains"
+      a specified amount of radiance, eir radiance is increased by that
+      amount.
+      
+      Once per quarter, the Illuminator CAN by announcement (and SHALL
+      during its first Eastman week) issue a Notice of Diminution, upon
+      which all radiance switches are set to half their current value
+      rounded down.
+      
+      Any player CAN increase eir radiance by 1 by paying a fee of 2
+      Spendies.
