@@ -3,15 +3,15 @@ THE FULL LOGICAL RULESET
 
 These rulesets are also online at http://agoranomic.org/ruleset/
 
-Date of this ruleset: 13 Sep 2026
+Date of this ruleset: 31 Oct 2026
 
 Last SLR ratification: 12 Oct 2025 ruleset on 11 May 2026
 
-Number of rules currently enacted: 148
+Number of rules currently enacted: 149
 
-Highest ID'd rule in this ruleset: 2722
-Highest ID'd Proposal Passed: 9374
-Highest ID'd Rule Enacted: 2722
+Highest ID'd rule in this ruleset: 2726
+Highest ID'd Proposal Passed: 9384
+Highest ID'd Rule Enacted: 2726
 
 The header of each rule is formatted as Rule NNNN/R (Power=P), where
 NNNN is the ID number of the rule, R is the revision of the rule, and P
@@ -143,6 +143,7 @@ Economics
    * Rule 2690: Spendies
    * Rule 2656: Radiance
    * Rule 2711: Outshining the Sun
+   * Rule 2726: Color
 Agoriculture
    * Rule 2704: Hectares
    * Rule 2705: Crop Seasons
@@ -198,7 +199,7 @@ Power Distribution:
 
 1  with Power=0.3
 3  with Power=0.5
-44 with Power=1
+45 with Power=1
 4  with Power=1.5
 5  with Power=1.7
 27 with Power=2
@@ -3763,7 +3764,7 @@ Offices & Reporting
    different mechanics. These rules govern the special responsibilities
    that officers have.
 ------------------------------------------------------------------------
-Rule 1006/51 (Power=2)
+Rule 1006/52 (Power=2)
 Offices
 
       An Office is a position described as an Office by the Rules.
@@ -3771,8 +3772,10 @@ Offices
       possible values of any player or "vacant" (default). Each instance
       of the Officeholder switch is secured at the power of the Rule
       defining the associated office (or the power of this Rule, if the
-      defining Rule's power is higher). An officer is the holder of an
-      office, who may be referred to by the name of that office. 
+      defining Rule's power is higher). To install a player into an
+      office is to flip that office's Officeholder switch to that
+      player. An officer is the holder of an office, who may be referred
+      to by the name of that office.
       
       Imposed offices and sortitioned offices are offices described as
       such by the rules that define them. All other offices are elected.
@@ -3874,6 +3877,7 @@ Amended(49) by P9136 'Sorting out sortition' (Janet, Kate, Mischief), 13
    Jul 2024
 Amended(50) by P9303 'Voluntary Turnover' (Mischief), 11 Mar 2026
 Amended(51) by P9317 'Office cleanup' (Murphy, Mischief), 20 Mar 2026
+Amended(52) by P9380 'intsallation instructions' (Cosmo), 01 Oct 2026
 
 Annotations:
 CFJ 1660 (called 13 May 2007): This rule does not define the meaning of
@@ -6539,7 +6543,7 @@ Amended(15) by P9312 'Executive Solution' (Mischief, ais523, Murphy), 20
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2701/1 (Power=1.0)
+Rule 2701/2 (Power=1.0)
 Stamp Scamp
 
       A rare stamp is a stamp that is the only one of its type that
@@ -6553,13 +6557,13 @@ Stamp Scamp
       
       If no person has done so by this mechanism in this quarter, the
       value of the stamp scamp switch, if a player, CAN by announcement
-      cause another specified player to gain one stamp of that player's
-      type.
+      cause a specified player to gain one stamp of that player's type.
 
 History:
 
 Enacted by P9199 'Rare Stamps, Differently' (Mischief), 22 Dec 2024
 Amended(1) by P9204 'Rare stamps, more differently' (Janet), 26 Jan 2025
+Amended(2) by P9382 'Self-Scampering' (Galle), 31 Oct 2026
 
 Annotations:
 
@@ -6749,16 +6753,15 @@ Amended(13) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Rule 2711/4 (Power=1.5)
+Rule 2711/5 (Power=1.5)
 Outshining the Sun
 
       Upon a correct announcement from a player that eir radiance is 100
-      or more (correctly specifying the amount), e Outshines the Sun.
+      or more (correctly specifying the amount), e Outshines the Sun and
+      wins the game.
       
-      When a pure player Outshines the Sun, the following happen in
-      order:
-      
-      * That player (the Luminary) wins the game.
+      When a player wins the game this way (syn. for such a player: the
+      Luminary), the following happen in order:
       
       * The Luminary's radiance is set to 0.
       
@@ -6791,6 +6794,34 @@ Amended(2) by P9311 'Lux Solis' (Mischief, Murphy), 20 Mar 2026
 Amended(3) by P9358 'The Pyrite Preservation Proposal v2' (Galle), 26
    Jun 2026
 Amended(4) by P9373 'Dim Prospects v1.1' (Mischief, snail), 30 Aug 2026
+Amended(5) by P9381 'Less Pure' (Mischief), 31 Oct 2026
+
+Annotations:
+
+------------------------------------------------------------------------
+Rule 2726/0 (Power=1.0)
+Color
+
+      Color is a secured player switch with values grey (default), green,
+      purple, and orange. The Paintor is an office, responsible for
+      tracking color. Whenever an active player is grey, the Paintor
+      SHALL, in a timely fashion, randomly select either green, purple,
+      or orange, and announce the player and the result. Upon such an
+      announcement, the player's color is switched to the selected value.
+      
+      For each non-default color, the first time per week that a proposal
+      submitted by a player of that color is adopted, all other players
+      of that color gain 5 radiance.
+      
+      A player CAN, but SHALL NOT, flip eir color to green, purple, or
+      orange once per month by announcement.
+      
+      Players are ENCOURAGED to attribute great significance to eir color
+      and what it says about em as a person.
+
+History:
+
+Enacted by P9384 'Color' (Galle, ais523, Murphy), 31 Oct 2026
 
 Annotations:
 
