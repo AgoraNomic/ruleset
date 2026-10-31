@@ -13,8 +13,7 @@ text: |
 
   If no person has done so by this mechanism in this quarter, the
   value of the stamp scamp switch, if a player, CAN by announcement
-  cause another specified player to gain one stamp of that player's
-  type.
+  cause a specified player to gain one stamp of that player's type.
 history:
 - change:
     type: enactment
@@ -26,3 +25,8 @@ history:
   date: 2025-01-26
   agent:
     proposal: "9204"
+- change:
+    type: amendment
+  date: 2026-10-31
+  agent:
+    proposal: "9382"
