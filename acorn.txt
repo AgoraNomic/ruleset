@@ -1,5 +1,6 @@
 THE AGORA NOMIC CODE OF REGULATIONS
 (PART OF THE RULEKEEPOR'S MONTHLY REPORT)
+REVISION 1
 
 These ACORNs are also online at http://agoranomic.org/ruleset/
 
@@ -690,7 +691,7 @@ Enacted by Mischief, 21 Apr 2026
 Annotations:
 
 ------------------------------------------------------------------------
-Regulation EA1/0
+Regulation EA1/1
 The Auction Process
 
       I. The Executor CAN initiate an auction for salvage assets --
@@ -730,7 +731,8 @@ The Auction Process
       III. In a timely fashion after the end of an auction's bidding
       period, the Executor SHALL announce, for each winning bidder, the
       items won and the resulting amount owed. Upon such announcement,
-      each winning bid in that auction becomes unpaid.
+      each winning bid in that auction becomes unpaid. Any winning bids
+      with a zero amount owed then immediately become paid.
       
       The redemption period begins immediately upon such a valid
       announcement and lasts for the time period specified in the
@@ -760,6 +762,7 @@ The Auction Process
 History:
 
 Enacted by Mischief, 21 Apr 2026
+Amended(1) by Mischief, 20 Sep 2026
 
 Annotations:
 
