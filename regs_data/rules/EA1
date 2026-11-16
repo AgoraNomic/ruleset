@@ -38,7 +38,8 @@ text: |
   III. In a timely fashion after the end of an auction's bidding
   period, the Executor SHALL announce, for each winning bidder, the
   items won and the resulting amount owed. Upon such announcement,
-  each winning bid in that auction becomes unpaid.
+  each winning bid in that auction becomes unpaid. Any winning bids
+  with a zero amount owed then immediately become paid.
 
   The redemption period begins immediately upon such a valid
   announcement and lasts for the time period specified in the
@@ -68,5 +69,10 @@ history:
 - change:
     type: enactment
   date: 2026-04-21
+  agent:
+    person: Mischief
+- change:
+    type: amendment
+  date: 2026-09-20
   agent:
     person: Mischief
