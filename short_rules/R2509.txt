@@ -1,0 +1,25 @@
+Rule 2509/3 (Power=2)
+Agoran Numbers
+
+      A "number" is considered to refer to a real number, unless
+      otherwise explicitly specified.  A "number of (items)", where
+      (items) is a set of discrete entities, is considered to refer to a
+      non-negative integer, unless otherwise explicitly specified.
+      
+      If a switch is defined as being associated with a specified set of
+      numbers (a numerical switch), then the possible values for that
+      switch are the numbers in that set. In particular, a natural or
+      integer switch is a switch with possible values the non-negative
+      integers or all integers, respectively. If a limit is further
+      defined, the possible values are the numbers of the set within the
+      specified limits.
+      
+      If the rules describe mathematical operations to be used in
+      flipping an instance of a numerical switch, the operations are
+      interpreted as having common-sense mathematical application to
+      determine that instance's resulting value. For example,
+      "increasing a switch instance by M" is equivalent to "flipping a
+      switch instance from its current value N to the value N+M". If the
+      specified mathematical operation would result in a value outside
+      that switch's defined set, the flipping CANNOT be performed, rules
+      to the contrary notwithstanding.

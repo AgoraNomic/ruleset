@@ -1,0 +1,25 @@
+Rule 2726/0 (Power=1.0)
+Color
+
+      Color is a secured player switch with values grey (default), green,
+      purple, and orange. The Paintor is an office, responsible for
+      tracking color. Whenever an active player is grey, the Paintor
+      SHALL, in a timely fashion, randomly select either green, purple,
+      or orange, and announce the player and the result. Upon such an
+      announcement, the player's color is switched to the selected value.
+      
+      For each non-default color, the first time per week that a proposal
+      submitted by a player of that color is adopted, all other players
+      of that color gain 5 radiance.
+      
+      A player CAN, but SHALL NOT, flip eir color to green, purple, or
+      orange once per month by announcement.
+      
+      Players are ENCOURAGED to attribute great significance to eir color
+      and what it says about em as a person.
+
+History:
+
+Enacted by P9384 'Color' (Galle, ais523, Murphy), 31 Oct 2026
+
+Annotations:

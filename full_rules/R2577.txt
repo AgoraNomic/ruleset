@@ -1,0 +1,51 @@
+Rule 2577/8 (Power=3)
+Asset Actions
+
+      An asset generally CAN be destroyed by its owner by announcement,
+      subject to modification by its backing document. Attempts to
+      destroy no assets are successful. An indestructible asset is one
+      defined as such by its backing document, and CANNOT be destroyed
+      except as explicitly specified by its backing document; any other
+      asset is destructible.
+      
+      For an entity to gain (historical syn. earn) an asset is for that
+      asset to be created in that entity's possession. To grant an
+      entity an asset is to create it in eir possession. To grant an
+      entity a set of assets is to create each asset in the set in eir
+      possession.
+      
+      For an entity to lose an asset is for that asset to be destroyed
+      from that entity's possession. To revoke an asset from an entity
+      is to destroy it from that entity's possession.
+      
+      For entity A to take an asset from entity B is to transfer it from
+      entity B to entity A.
+      
+      An asset generally CAN be transferred (syn. given) by announcement
+      by its owner to another entity, subject to modification by its
+      backing document. Attempts to transfer no assets are successful. A
+      fixed asset is one defined as such by its backing document, and
+      CANNOT be transferred except as explicitly specified by its
+      backing document; any other asset is liquid.
+      
+      When a rule indicates creating, destroying, or transferring an
+      amount of assets that is not a natural number, the specified
+      amount is rounded up to the nearest natural number after all other
+      calculations.
+
+History:
+
+Enacted by P8055 'Distributed Assets v3' (Aris, G.), 01 Jul 2018
+Amended(1) by P8126 'High-level asset verbs' (Trigon), 19 Nov 2018
+Amended(2) by P8187 'Not so indestructible now, eh?' (Janet), 22 Jun
+   2019
+Amended(3) by P8488 'Empty the escalator v1' (Falsifian, Janet, omd), 08
+   Sep 2020
+Amended(4) by P8488 'Empty the escalator v1' (Falsifian, Janet, omd), 08
+   Sep 2020
+Amended(5) by P8518 'Asset Rounding' (Aris, Falsifian, nix), 11 Nov 2020
+Amended(6) by P8528 'Gaining Assets' (Aris, Gaelan), 13 Jan 2021
+Amended(7) by P8659 'Speak Like People' (nix, G., snail), 03 Apr 2022
+Amended(8) by P8953 'Fluidity' (Janet), 23 Apr 2023
+
+Annotations:
